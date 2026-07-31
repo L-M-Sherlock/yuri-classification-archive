@@ -1178,6 +1178,7 @@ h1, h2, h3 { line-height: 1.25; }
 .layer-grid span { color: var(--accent); font-family: Georgia, serif; font-size: 1.8rem; }
 .layer-grid h3 { margin: 0.3rem 0; }
 .layer-grid p { margin: 0; color: var(--muted); font-size: 0.9rem; }
+.prose-page h2[id] { scroll-margin-top: 7rem; }
 .not-found { padding-block: 9rem; text-align: center; }
 .not-found h1 {
   margin: 0;
@@ -1194,6 +1195,12 @@ h1, h2, h3 { line-height: 1.25; }
   text-align: center;
 }
 .site-footer p { margin: 0.25rem; }
+.site-footer .footer-ai-note {
+  max-width: 72rem;
+  margin: 0.45rem auto;
+  color: var(--muted);
+}
+.footer-ai-note a { font-weight: 700; }
 
 @media (max-width: 1000px) {
   .query-grid { grid-template-columns: repeat(2, 1fr); }
