@@ -21,6 +21,16 @@
     male_romance_line: document.getElementById("male-filter"),
     confidence: document.getElementById("confidence-filter"),
   };
+  const filterValueAliases = {
+    medium: {
+      tv_animation: "tv_anime",
+      web_animation: "web_anime",
+    },
+  };
+
+  function canonicalFilterValue(field, value) {
+    return filterValueAliases[field]?.[value] || value;
+  }
 
   function showError(message) {
     errorPanel.hidden = false;
@@ -32,8 +42,10 @@
     const map = new Map();
     for (const item of items) {
       const value = item[field];
-      if (value && value.code && !map.has(value.code)) {
-        map.set(value.code, value.label);
+      if (!value || !value.code) continue;
+      const code = canonicalFilterValue(field, value.code);
+      if (!map.has(code)) {
+        map.set(code, value.label);
       }
     }
     return Array.from(map.entries()).sort((a, b) =>
@@ -54,7 +66,7 @@
     const params = new URLSearchParams(window.location.search);
     searchInput.value = params.get("q") || "";
     for (const [field, element] of Object.entries(filterElements)) {
-      element.value = params.get(field) || "";
+      element.value = canonicalFilterValue(field, params.get(field) || "");
     }
     const activeQuick = new Set(params.getAll("quick"));
     for (const button of quickButtons) {
@@ -136,6 +148,9 @@
       paginationSizeSelector: [25, 50, 100, true],
       paginationCounter: "rows",
       movableColumns: true,
+      columnDefaults: {
+        download: true,
+      },
       initialSort: [
         { column: "bangumi_rank", dir: "asc" },
         { column: "title", dir: "asc" },
@@ -273,34 +288,45 @@
         },
         {
           title: "报告地址",
-          field: "report_url",
+          field: "report_url_absolute",
           visible: false,
           download: true,
         },
       ],
     });
 
-    function applyFilters() {
-      const filters = [];
+    function matchesConfiguredFilters(item) {
       const query = searchInput.value.trim().toLocaleLowerCase("zh-CN");
-      if (query) {
-        filters.push((item) => searchableTitle(item).includes(query));
-      }
+      if (query && !searchableTitle(item).includes(query)) return false;
+
       for (const [field, element] of Object.entries(filterElements)) {
-        if (element.value) {
-          filters.push((item) => item[field] && item[field].code === element.value);
+        if (
+          element.value &&
+          canonicalFilterValue(field, item[field]?.code) !== element.value
+        ) {
+          return false;
         }
       }
+
       for (const button of quickButtons) {
         if (button.getAttribute("aria-pressed") === "true") {
           const key = button.dataset.query;
-          filters.push((item) => Boolean(item.quick_queries[key]));
+          if (!item.quick_queries[key]) return false;
         }
       }
-      table.setFilter(filters);
-      stateToUrl();
-      resultCount.textContent = `当前显示 ${table.getDataCount("active")}／${items.length} 份报告`;
+
+      return true;
     }
+
+    function applyFilters() {
+      table.setFilter(matchesConfiguredFilters);
+      stateToUrl();
+    }
+
+    table.on("dataFiltered", (_filters, rows) => {
+      resultCount.textContent = `当前显示 ${rows.length}／${items.length} 份报告`;
+    });
+    table.on("tableBuilt", applyFilters);
 
     for (const element of [searchInput, ...Object.values(filterElements)]) {
       element.addEventListener(element === searchInput ? "input" : "change", applyFilters);
@@ -316,6 +342,7 @@
       searchInput.value = "";
       for (const element of Object.values(filterElements)) element.value = "";
       for (const button of quickButtons) button.setAttribute("aria-pressed", "false");
+      table.clearHeaderFilter();
       applyFilters();
     });
     document.getElementById("download-csv").addEventListener("click", () => {
@@ -335,7 +362,6 @@
       );
     });
 
-    applyFilters();
   } catch (error) {
     showError(`无法读取公开总表：${error.message}`);
   }
