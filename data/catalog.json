@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-31T04:15:13+00:00",
+  "generated_at": "2026-07-31T04:24:10+00:00",
   "site_url": "https://l-m-sherlock.github.io/yuri-classification-archive",
   "item_count": 150,
   "query_semantics": {
@@ -6510,6 +6510,137 @@
       "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/maria_holic_tv_2009/"
     },
     {
+      "slug": "yozakura_quartet_hana_no_uta_tv_2013",
+      "title": "夜樱四重奏 花之歌",
+      "title_original": "夜桜四重奏 ～ハナノウタ～",
+      "title_romaji": "Yozakura Quartet: Hana no Uta",
+      "title_english": "Yozakura Quartet: Hana no Uta",
+      "release_year": 2013,
+      "medium": {
+        "code": "tv_anime",
+        "label": "TV 动画"
+      },
+      "scope_summary": "2013 TV anime Yozakura Quartet: Hana no Uta episodes 1-13",
+      "female_relationship_centrality": {
+        "code": "important_secondary",
+        "label": "重要副线"
+      },
+      "archive_basis": {
+        "code": "work_classification",
+        "label": "作品分类"
+      },
+      "romance_centrality": {
+        "code": "local",
+        "label": "局部"
+      },
+      "highest_romance_explicitness": {
+        "code": "explicit_desire",
+        "label": "明确欲望"
+      },
+      "official_label": {
+        "code": "other",
+        "label": "其他相关表述"
+      },
+      "identity_evidence_basis": {
+        "code": "explicit_relationship_only",
+        "label": "只有明确关系事实"
+      },
+      "male_romance_line": {
+        "code": "secondary",
+        "label": "副线"
+      },
+      "confidence": {
+        "code": "medium",
+        "label": "中"
+      },
+      "classification_date": "2026-07-30",
+      "content_warnings": [
+        "fantasy_violence_and_repeated_child_or_teen_endangerment",
+        "possession_coercion_and_threats_of_death_or_forced_dimensional_removal",
+        "repeated_fanservice_and_sexualized_observation_of_teen_characters",
+        "sibling_death_grief_and_family_conflict",
+        "human_youkai_discrimination_and_sacrificial_policy",
+        "alcohol_and_intoxication_gags"
+      ],
+      "content_warnings_text": "fantasy_violence_and_repeated_child_or_teen_endangerment；possession_coercion_and_threats_of_death_or_forced_dimensional_removal；repeated_fanservice_and_sexualized_observation_of_teen_characters；sibling_death_grief_and_family_conflict；human_youkai_discrimination_and_sacrificial_policy；alcohol_and_intoxication_gags",
+      "quick_queries": {
+        "explicit_relationship": false,
+        "explicit_desire": true,
+        "accepts_unconfirmed": true,
+        "female_relationship_main": false,
+        "official_yuri_gl": false
+      },
+      "bangumi_rank": 1927,
+      "bangumi_yuri_tag_ratio": 0.018873011593421408,
+      "report_url": "/yuri-classification-archive/works/yozakura_quartet_hana_no_uta_tv_2013/",
+      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/yozakura_quartet_hana_no_uta_tv_2013/"
+    },
+    {
+      "slug": "endro_tv_2019",
+      "title": "Endro~！",
+      "title_original": "えんどろ〜！",
+      "title_romaji": "Endro~!",
+      "title_english": "ENDRO!",
+      "release_year": 2019,
+      "medium": {
+        "code": "tv_anime",
+        "label": "TV 动画"
+      },
+      "scope_summary": "2019 TV anime episodes 1-12",
+      "female_relationship_centrality": {
+        "code": "main",
+        "label": "主线"
+      },
+      "archive_basis": {
+        "code": "work_classification",
+        "label": "作品分类"
+      },
+      "romance_centrality": {
+        "code": "important_secondary",
+        "label": "重要副线"
+      },
+      "highest_romance_explicitness": {
+        "code": "explicit_desire",
+        "label": "明确欲望"
+      },
+      "official_label": {
+        "code": "other",
+        "label": "其他相关表述"
+      },
+      "identity_evidence_basis": {
+        "code": "explicit_relationship_only",
+        "label": "只有明确关系事实"
+      },
+      "male_romance_line": {
+        "code": "none",
+        "label": "无"
+      },
+      "confidence": {
+        "code": "medium",
+        "label": "中"
+      },
+      "classification_date": "2026-07-30",
+      "content_warnings": [
+        "fantasy_combat_and_monster_threats",
+        "time_reversal_and_memory_manipulation",
+        "staged_kidnapping_and_deception_by_a_friend",
+        "swimsuit_and_sexualized_imagery_involving_young_looking_characters",
+        "school_and_teacher_student_power_structure"
+      ],
+      "content_warnings_text": "fantasy_combat_and_monster_threats；time_reversal_and_memory_manipulation；staged_kidnapping_and_deception_by_a_friend；swimsuit_and_sexualized_imagery_involving_young_looking_characters；school_and_teacher_student_power_structure",
+      "quick_queries": {
+        "explicit_relationship": false,
+        "explicit_desire": true,
+        "accepts_unconfirmed": true,
+        "female_relationship_main": true,
+        "official_yuri_gl": false
+      },
+      "bangumi_rank": 1930,
+      "bangumi_yuri_tag_ratio": 0.10131879279736242,
+      "report_url": "/yuri-classification-archive/works/endro_tv_2019/",
+      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/endro_tv_2019/"
+    },
+    {
       "slug": "kamiina_botan_tv_2026",
       "title": "上伊那牡丹，酒醉身姿似百合花般",
       "title_original": "上伊那ぼたん、酔へる姿は百合の花",
@@ -6574,6 +6705,271 @@
       "bangumi_yuri_tag_ratio": 0.14677029524667076,
       "report_url": "/yuri-classification-archive/works/kamiina_botan_tv_2026/",
       "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/kamiina_botan_tv_2026/"
+    },
+    {
+      "slug": "kurau_phantom_memory_tv_2004",
+      "title": "库拉乌 幻之记忆",
+      "title_original": "KURAU Phantom Memory",
+      "title_romaji": "KURAU Phantom Memory",
+      "title_english": "Kurau Phantom Memory",
+      "release_year": 2004,
+      "medium": {
+        "code": "tv_anime",
+        "label": "TV 动画"
+      },
+      "scope_summary": "2004 TV anime formal episodes 1–24",
+      "female_relationship_centrality": {
+        "code": "main",
+        "label": "主线"
+      },
+      "archive_basis": {
+        "code": "work_classification",
+        "label": "作品分类"
+      },
+      "romance_centrality": {
+        "code": "absent",
+        "label": "缺席"
+      },
+      "highest_romance_explicitness": {
+        "code": "non_romantic",
+        "label": "非恋爱"
+      },
+      "official_label": {
+        "code": "unmarked",
+        "label": "未标百合／GL"
+      },
+      "identity_evidence_basis": {
+        "code": "no_in_scope_evidence",
+        "label": "范围内无依据"
+      },
+      "male_romance_line": {
+        "code": "secondary",
+        "label": "副线"
+      },
+      "confidence": {
+        "code": "medium",
+        "label": "中"
+      },
+      "classification_date": "2026-07-30",
+      "content_warnings": [
+        "institutional_pursuit_detention_and_state_violence",
+        "human_and_energy_experimentation",
+        "body_dissolution_and_identity_displacement",
+        "war_terrorism_and_civil_unrest",
+        "death_grief_and_family_separation",
+        "child_injury_and_endangerment",
+        "coercive_pair_replacement"
+      ],
+      "content_warnings_text": "institutional_pursuit_detention_and_state_violence；human_and_energy_experimentation；body_dissolution_and_identity_displacement；war_terrorism_and_civil_unrest；death_grief_and_family_separation；child_injury_and_endangerment；coercive_pair_replacement",
+      "quick_queries": {
+        "explicit_relationship": false,
+        "explicit_desire": false,
+        "accepts_unconfirmed": false,
+        "female_relationship_main": true,
+        "official_yuri_gl": false
+      },
+      "bangumi_rank": 1965,
+      "bangumi_yuri_tag_ratio": 0.08821855435401252,
+      "report_url": "/yuri-classification-archive/works/kurau_phantom_memory_tv_2004/",
+      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/kurau_phantom_memory_tv_2004/"
+    },
+    {
+      "slug": "sasameki_koto_tv_2009",
+      "title": "轻声密语",
+      "title_original": "ささめきこと",
+      "title_romaji": "Sasameki Koto",
+      "title_english": "Whispered Words",
+      "release_year": 2009,
+      "medium": {
+        "code": "tv_anime",
+        "label": "TV 动画"
+      },
+      "scope_summary": "2009 TV anime episodes 1-13",
+      "female_relationship_centrality": {
+        "code": "main",
+        "label": "主线"
+      },
+      "archive_basis": {
+        "code": "work_classification",
+        "label": "作品分类"
+      },
+      "romance_centrality": {
+        "code": "main",
+        "label": "主线"
+      },
+      "highest_romance_explicitness": {
+        "code": "explicit_relationship",
+        "label": "明确交往"
+      },
+      "official_label": {
+        "code": "other",
+        "label": "其他相关表述"
+      },
+      "identity_evidence_basis": {
+        "code": "explicit_relationship_only",
+        "label": "只有明确关系事实"
+      },
+      "male_romance_line": {
+        "code": "secondary",
+        "label": "副线"
+      },
+      "confidence": {
+        "code": "medium",
+        "label": "中"
+      },
+      "classification_date": "2026-07-30",
+      "content_warnings": [
+        "unrequited_love_rejection_and_friendship_loss_anxiety",
+        "social_isolation_and_stigma_around_same_gender_attraction",
+        "outing_pressure_and_blackmail_framed_as_comedy",
+        "crossdressing_and_gender_presentation_comedy",
+        "teen_swimsuit_and_service_imagery",
+        "karate_violence_and_slapstick"
+      ],
+      "content_warnings_text": "unrequited_love_rejection_and_friendship_loss_anxiety；social_isolation_and_stigma_around_same_gender_attraction；outing_pressure_and_blackmail_framed_as_comedy；crossdressing_and_gender_presentation_comedy；teen_swimsuit_and_service_imagery；karate_violence_and_slapstick",
+      "quick_queries": {
+        "explicit_relationship": true,
+        "explicit_desire": true,
+        "accepts_unconfirmed": true,
+        "female_relationship_main": true,
+        "official_yuri_gl": false
+      },
+      "bangumi_rank": 1973,
+      "bangumi_yuri_tag_ratio": 0.17664589542129505,
+      "report_url": "/yuri-classification-archive/works/sasameki_koto_tv_2009/",
+      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/sasameki_koto_tv_2009/"
+    },
+    {
+      "slug": "kouya_no_kotobuki_hikoutai_tv_2019",
+      "title": "荒野的寿飞行队",
+      "title_original": "荒野のコトブキ飛行隊",
+      "title_romaji": "Kouya no Kotobuki Hikoutai",
+      "title_english": "The Magnificent KOTOBUKI",
+      "release_year": 2019,
+      "medium": {
+        "code": "tv_anime",
+        "label": "TV 动画"
+      },
+      "scope_summary": "2019 TV anime main episodes 1-12",
+      "female_relationship_centrality": {
+        "code": "main",
+        "label": "主线"
+      },
+      "archive_basis": {
+        "code": "reader_interpretation",
+        "label": "读者解读"
+      },
+      "romance_centrality": {
+        "code": "local",
+        "label": "局部"
+      },
+      "highest_romance_explicitness": {
+        "code": "potential_or_strongly_coded",
+        "label": "潜在／明显但未确认"
+      },
+      "official_label": {
+        "code": "unmarked",
+        "label": "未标百合／GL"
+      },
+      "identity_evidence_basis": {
+        "code": "inferred_relationship_only",
+        "label": "只有关系推断"
+      },
+      "male_romance_line": {
+        "code": "secondary",
+        "label": "副线"
+      },
+      "confidence": {
+        "code": "medium",
+        "label": "中"
+      },
+      "classification_date": "2026-07-30",
+      "content_warnings": [
+        "aerial_combat_gunfire_explosions_and_crashes",
+        "injury_death_risk_and_wartime_peril",
+        "authoritarian_propaganda_and_political_coercion",
+        "recurring_alcohol_use",
+        "heterosexual_flirtation_proposal_and_failed_marriage_comedy"
+      ],
+      "content_warnings_text": "aerial_combat_gunfire_explosions_and_crashes；injury_death_risk_and_wartime_peril；authoritarian_propaganda_and_political_coercion；recurring_alcohol_use；heterosexual_flirtation_proposal_and_failed_marriage_comedy",
+      "quick_queries": {
+        "explicit_relationship": false,
+        "explicit_desire": false,
+        "accepts_unconfirmed": true,
+        "female_relationship_main": true,
+        "official_yuri_gl": false
+      },
+      "bangumi_rank": 2000,
+      "bangumi_yuri_tag_ratio": 0.02056684223727113,
+      "report_url": "/yuri-classification-archive/works/kouya_no_kotobuki_hikoutai_tv_2019/",
+      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/kouya_no_kotobuki_hikoutai_tv_2019/"
+    },
+    {
+      "slug": "figure_17_tv_2001",
+      "title": "代号17",
+      "title_original": "フィギュア17 つばさ&ヒカル",
+      "title_romaji": "Figure 17: Tsubasa & Hikaru",
+      "title_english": "Figure 17: Tsubasa & Hikaru",
+      "release_year": 2001,
+      "medium": {
+        "code": "tv_anime",
+        "label": "TV 动画"
+      },
+      "scope_summary": "2001-05-27 through 2002-05-26 TV anime, original episodes 1-13 at approximately 46-47 minutes each",
+      "female_relationship_centrality": {
+        "code": "main",
+        "label": "主线"
+      },
+      "archive_basis": {
+        "code": "work_classification",
+        "label": "作品分类"
+      },
+      "romance_centrality": {
+        "code": "main",
+        "label": "主线"
+      },
+      "highest_romance_explicitness": {
+        "code": "potential_or_strongly_coded",
+        "label": "潜在／明显但未确认"
+      },
+      "official_label": {
+        "code": "unmarked",
+        "label": "未标百合／GL"
+      },
+      "identity_evidence_basis": {
+        "code": "inferred_relationship_only",
+        "label": "只有关系推断"
+      },
+      "male_romance_line": {
+        "code": "secondary",
+        "label": "副线"
+      },
+      "confidence": {
+        "code": "medium",
+        "label": "中"
+      },
+      "classification_date": "2026-07-30",
+      "content_warnings": [
+        "death_of_children_and_prolonged_grief",
+        "alien_violence_body_horror_and_child_endangerment",
+        "artificial_lifeform_death_and_forced_separation",
+        "memory_copying_manipulation_and_erasure",
+        "constructed_twin_sister_identity_with_romantic_ambiguity",
+        "intense_dependency_and_separation_anxiety",
+        "bereavement_and_parental_loss"
+      ],
+      "content_warnings_text": "death_of_children_and_prolonged_grief；alien_violence_body_horror_and_child_endangerment；artificial_lifeform_death_and_forced_separation；memory_copying_manipulation_and_erasure；constructed_twin_sister_identity_with_romantic_ambiguity；intense_dependency_and_separation_anxiety；bereavement_and_parental_loss",
+      "quick_queries": {
+        "explicit_relationship": false,
+        "explicit_desire": false,
+        "accepts_unconfirmed": true,
+        "female_relationship_main": true,
+        "official_yuri_gl": false
+      },
+      "bangumi_rank": 2084,
+      "bangumi_yuri_tag_ratio": 0.06741573033707865,
+      "report_url": "/yuri-classification-archive/works/figure_17_tv_2001/",
+      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/figure_17_tv_2001/"
     },
     {
       "slug": "mono_tv_2025",
@@ -6642,6 +7038,807 @@
       "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/mono_tv_2025/"
     },
     {
+      "slug": "yama_no_susume_tv_2013",
+      "title": "向山进发",
+      "title_original": "ヤマノススメ",
+      "title_romaji": "Yama no Susume",
+      "title_english": "Encouragement of Climb",
+      "release_year": 2013,
+      "medium": {
+        "code": "tv_anime",
+        "label": "TV 动画"
+      },
+      "scope_summary": "2013 first TV season formal episodes 1–12",
+      "female_relationship_centrality": {
+        "code": "main",
+        "label": "主线"
+      },
+      "archive_basis": {
+        "code": "work_classification",
+        "label": "作品分类"
+      },
+      "romance_centrality": {
+        "code": "absent",
+        "label": "缺席"
+      },
+      "highest_romance_explicitness": {
+        "code": "non_romantic",
+        "label": "非恋爱"
+      },
+      "official_label": {
+        "code": "unmarked",
+        "label": "未标百合／GL"
+      },
+      "identity_evidence_basis": {
+        "code": "no_in_scope_evidence",
+        "label": "范围内无依据"
+      },
+      "male_romance_line": {
+        "code": "none",
+        "label": "无"
+      },
+      "confidence": {
+        "code": "high",
+        "label": "高"
+      },
+      "classification_date": "2026-07-30",
+      "content_warnings": [
+        "childhood_fall_broken_bone_and_fear_of_heights",
+        "beginner_hiking_anxiety_and_physical_endangerment",
+        "broken_footwear_on_a_mountain_trail"
+      ],
+      "content_warnings_text": "childhood_fall_broken_bone_and_fear_of_heights；beginner_hiking_anxiety_and_physical_endangerment；broken_footwear_on_a_mountain_trail",
+      "quick_queries": {
+        "explicit_relationship": false,
+        "explicit_desire": false,
+        "accepts_unconfirmed": false,
+        "female_relationship_main": true,
+        "official_yuri_gl": false
+      },
+      "bangumi_rank": 2110,
+      "bangumi_yuri_tag_ratio": 0.10875870069605569,
+      "report_url": "/yuri-classification-archive/works/yama_no_susume_tv_2013/",
+      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/yama_no_susume_tv_2013/"
+    },
+    {
+      "slug": "noir_tv_2001",
+      "title": "黑街二人组",
+      "title_original": "ノワール",
+      "title_romaji": "Noir",
+      "title_english": "Noir",
+      "release_year": 2001,
+      "medium": {
+        "code": "tv_anime",
+        "label": "TV 动画"
+      },
+      "scope_summary": "2001 TV anime main episodes 1-26",
+      "female_relationship_centrality": {
+        "code": "main",
+        "label": "主线"
+      },
+      "archive_basis": {
+        "code": "work_classification",
+        "label": "作品分类"
+      },
+      "romance_centrality": {
+        "code": "main",
+        "label": "主线"
+      },
+      "highest_romance_explicitness": {
+        "code": "potential_or_strongly_coded",
+        "label": "潜在／明显但未确认"
+      },
+      "official_label": {
+        "code": "unmarked",
+        "label": "未标百合／GL"
+      },
+      "identity_evidence_basis": {
+        "code": "inferred_relationship_only",
+        "label": "只有关系推断"
+      },
+      "male_romance_line": {
+        "code": "secondary",
+        "label": "副线"
+      },
+      "confidence": {
+        "code": "high",
+        "label": "高"
+      },
+      "classification_date": "2026-07-30",
+      "content_warnings": [
+        "assassination_gunfire_stabbing_and_death",
+        "organized_crime_terrorism_and_political_violence",
+        "child_soldier_conditioning_and_identity_manipulation",
+        "amnesia_and_psychological_breakdown",
+        "cult_control_coercive_ritual_and_emotional_abuse",
+        "family_murder_revenge_and_grief",
+        "forced_lethal_selection_between_women",
+        "threatening_nonconsensual_kiss_of_death",
+        "fire_drowning_and_suicidal_requests_to_be_killed"
+      ],
+      "content_warnings_text": "assassination_gunfire_stabbing_and_death；organized_crime_terrorism_and_political_violence；child_soldier_conditioning_and_identity_manipulation；amnesia_and_psychological_breakdown；cult_control_coercive_ritual_and_emotional_abuse；family_murder_revenge_and_grief；forced_lethal_selection_between_women；threatening_nonconsensual_kiss_of_death；fire_drowning_and_suicidal_requests_to_be_killed",
+      "quick_queries": {
+        "explicit_relationship": false,
+        "explicit_desire": false,
+        "accepts_unconfirmed": true,
+        "female_relationship_main": true,
+        "official_yuri_gl": false
+      },
+      "bangumi_rank": 2166,
+      "bangumi_yuri_tag_ratio": 0.10211180124223602,
+      "report_url": "/yuri-classification-archive/works/noir_tv_2001/",
+      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/noir_tv_2001/"
+    },
+    {
+      "slug": "yuuki_yuuna_wa_yuusha_de_aru_tv_2014",
+      "title": "结城友奈是勇者",
+      "title_original": "結城友奈は勇者である",
+      "title_romaji": "Yuuki Yuuna wa Yuusha de Aru",
+      "title_english": "Yuki Yuna is a Hero",
+      "release_year": 2014,
+      "medium": {
+        "code": "tv_anime",
+        "label": "TV 动画"
+      },
+      "scope_summary": "2014-10-16 through 2014-12-25 TV anime season 1, formal episodes 1-12",
+      "female_relationship_centrality": {
+        "code": "main",
+        "label": "主线"
+      },
+      "archive_basis": {
+        "code": "work_classification",
+        "label": "作品分类"
+      },
+      "romance_centrality": {
+        "code": "main",
+        "label": "主线"
+      },
+      "highest_romance_explicitness": {
+        "code": "potential_or_strongly_coded",
+        "label": "潜在／明显但未确认"
+      },
+      "official_label": {
+        "code": "unmarked",
+        "label": "未标百合／GL"
+      },
+      "identity_evidence_basis": {
+        "code": "inferred_relationship_only",
+        "label": "只有关系推断"
+      },
+      "male_romance_line": {
+        "code": "none",
+        "label": "无"
+      },
+      "confidence": {
+        "code": "medium",
+        "label": "中"
+      },
+      "classification_date": "2026-07-30",
+      "content_warnings": [
+        "institutional_exploitation_and_deception_of_minors",
+        "child_combat_and_severe_fantasy_violence",
+        "bodily_sacrifice_disability_and_loss_of_sensory_or_motor_functions",
+        "memory_loss_and_identity_manipulation",
+        "self_destructive_sacrifice_and_prolonged_unconsciousness",
+        "suicidal_ideation_and_attempted_world_destruction",
+        "cosmic_horror_and_apocalyptic_threat",
+        "grief_guilt_and_emotional_breakdown"
+      ],
+      "content_warnings_text": "institutional_exploitation_and_deception_of_minors；child_combat_and_severe_fantasy_violence；bodily_sacrifice_disability_and_loss_of_sensory_or_motor_functions；memory_loss_and_identity_manipulation；self_destructive_sacrifice_and_prolonged_unconsciousness；suicidal_ideation_and_attempted_world_destruction；cosmic_horror_and_apocalyptic_threat；grief_guilt_and_emotional_breakdown",
+      "quick_queries": {
+        "explicit_relationship": false,
+        "explicit_desire": false,
+        "accepts_unconfirmed": true,
+        "female_relationship_main": true,
+        "official_yuri_gl": false
+      },
+      "bangumi_rank": 2174,
+      "bangumi_yuri_tag_ratio": 0.1034783240142328,
+      "report_url": "/yuri-classification-archive/works/yuuki_yuuna_wa_yuusha_de_aru_tv_2014/",
+      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/yuuki_yuuna_wa_yuusha_de_aru_tv_2014/"
+    },
+    {
+      "slug": "kill_me_baby_tv_2012",
+      "title": "爱杀宝贝",
+      "title_original": "キルミーベイベー",
+      "title_romaji": "Kill Me Baby",
+      "title_english": "Kill Me Baby",
+      "release_year": 2012,
+      "medium": {
+        "code": "tv_anime",
+        "label": "TV 动画"
+      },
+      "scope_summary": "2012 TV anime formal episodes 1-13",
+      "female_relationship_centrality": {
+        "code": "main",
+        "label": "主线"
+      },
+      "archive_basis": {
+        "code": "work_classification",
+        "label": "作品分类"
+      },
+      "romance_centrality": {
+        "code": "absent",
+        "label": "缺席"
+      },
+      "highest_romance_explicitness": {
+        "code": "non_romantic",
+        "label": "非恋爱"
+      },
+      "official_label": {
+        "code": "unmarked",
+        "label": "未标百合／GL"
+      },
+      "identity_evidence_basis": {
+        "code": "no_in_scope_evidence",
+        "label": "范围内无依据"
+      },
+      "male_romance_line": {
+        "code": "none",
+        "label": "无"
+      },
+      "confidence": {
+        "code": "high",
+        "label": "高"
+      },
+      "classification_date": "2026-07-30",
+      "content_warnings": [
+        "frequent_comedic_hitting_punching_joint_locks_and_minor_injury_gags",
+        "knives_guns_assassination_assignments_and_death_threats_used_in_comedy",
+        "unwanted_grabbing_and_surprise_contact_followed_by_reflex_violence",
+        "public_bath_and_body_gags_involving_school_age_characters",
+        "animal_insect_drowning_and_stranding_peril_played_for_comedy",
+        "valentine_romance_convention_and_background_heterosexual_confession_gag"
+      ],
+      "content_warnings_text": "frequent_comedic_hitting_punching_joint_locks_and_minor_injury_gags；knives_guns_assassination_assignments_and_death_threats_used_in_comedy；unwanted_grabbing_and_surprise_contact_followed_by_reflex_violence；public_bath_and_body_gags_involving_school_age_characters；animal_insect_drowning_and_stranding_peril_played_for_comedy；valentine_romance_convention_and_background_heterosexual_confession_gag",
+      "quick_queries": {
+        "explicit_relationship": false,
+        "explicit_desire": false,
+        "accepts_unconfirmed": false,
+        "female_relationship_main": true,
+        "official_yuri_gl": false
+      },
+      "bangumi_rank": 2182,
+      "bangumi_yuri_tag_ratio": 0.04351245085190039,
+      "report_url": "/yuri-classification-archive/works/kill_me_baby_tv_2012/",
+      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/kill_me_baby_tv_2012/"
+    },
+    {
+      "slug": "ssss_gridman_tv_2018",
+      "title": "SSSS.古立特",
+      "title_original": "SSSS.GRIDMAN",
+      "title_romaji": "SSSS.GRIDMAN",
+      "title_english": "SSSS.GRIDMAN",
+      "release_year": 2018,
+      "medium": {
+        "code": "tv_anime",
+        "label": "TV 动画"
+      },
+      "scope_summary": "2018 broadcast TV anime episodes 1-12；official TV anime website and episode announcement pages as paratext；current public database entries only as classification context",
+      "female_relationship_centrality": {
+        "code": "important_secondary",
+        "label": "重要副线"
+      },
+      "archive_basis": {
+        "code": "reader_interpretation",
+        "label": "读者解读"
+      },
+      "romance_centrality": {
+        "code": "important_secondary",
+        "label": "重要副线"
+      },
+      "highest_romance_explicitness": {
+        "code": "potential_or_strongly_coded",
+        "label": "潜在／明显但未确认"
+      },
+      "official_label": {
+        "code": "unmarked",
+        "label": "未标百合／GL"
+      },
+      "identity_evidence_basis": {
+        "code": "inferred_relationship_only",
+        "label": "只有关系推断"
+      },
+      "male_romance_line": {
+        "code": "parallel",
+        "label": "并列"
+      },
+      "confidence": {
+        "code": "medium",
+        "label": "中"
+      },
+      "classification_date": "2026-07-30",
+      "content_warnings": [
+        "kaiju_violence_city_destruction_and_mass_death_erasure",
+        "stabbing_blood_and_child_endangerment",
+        "amnesia_identity_displacement_and_memory_rewriting",
+        "creator_control_and_manipulated_affection",
+        "psychological_exploitation_isolation_and_self_loathing",
+        "dream_world_coercion_and_escapism",
+        "self_destructive_language_and_requests_to_be_killed",
+        "friendship_originated_by_design_and_creator_created_power_imbalance"
+      ],
+      "content_warnings_text": "kaiju_violence_city_destruction_and_mass_death_erasure；stabbing_blood_and_child_endangerment；amnesia_identity_displacement_and_memory_rewriting；creator_control_and_manipulated_affection；psychological_exploitation_isolation_and_self_loathing；dream_world_coercion_and_escapism；self_destructive_language_and_requests_to_be_killed；friendship_originated_by_design_and_creator_created_power_imbalance",
+      "quick_queries": {
+        "explicit_relationship": false,
+        "explicit_desire": false,
+        "accepts_unconfirmed": true,
+        "female_relationship_main": false,
+        "official_yuri_gl": false
+      },
+      "bangumi_rank": 2183,
+      "bangumi_yuri_tag_ratio": 0.002214052970172947,
+      "report_url": "/yuri-classification-archive/works/ssss_gridman_tv_2018/",
+      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/ssss_gridman_tv_2018/"
+    },
+    {
+      "slug": "gabriel_dropout_tv_2017",
+      "title": "珈百璃的堕落",
+      "title_original": "ガヴリールドロップアウト",
+      "title_romaji": "Gabriel Dropout",
+      "title_english": "Gabriel DropOut",
+      "release_year": 2017,
+      "medium": {
+        "code": "tv_anime",
+        "label": "TV 动画"
+      },
+      "scope_summary": "2017 television series formal episodes 1–12",
+      "female_relationship_centrality": {
+        "code": "main",
+        "label": "主线"
+      },
+      "archive_basis": {
+        "code": "work_classification",
+        "label": "作品分类"
+      },
+      "romance_centrality": {
+        "code": "local",
+        "label": "局部"
+      },
+      "highest_romance_explicitness": {
+        "code": "explicit_desire",
+        "label": "明确欲望"
+      },
+      "official_label": {
+        "code": "unmarked",
+        "label": "未标百合／GL"
+      },
+      "identity_evidence_basis": {
+        "code": "explicit_relationship_only",
+        "label": "只有明确关系事实"
+      },
+      "male_romance_line": {
+        "code": "none",
+        "label": "无"
+      },
+      "confidence": {
+        "code": "high",
+        "label": "高"
+      },
+      "classification_date": "2026-07-30",
+      "content_warnings": [
+        "sexualized_underwear_body_and_changing_room_jokes_involving_teen_coded_characters",
+        "one_sided_voyeuristic_harassment_and_attempted_nonconsensual_photography",
+        "slapstick_violence_restraint_humiliation_and_boundary_violations",
+        "unauthorized_home_entry_as_comedy",
+        "animal_impoundment_and_euthanasia_threat",
+        "apocalyptic_destruction_threats_as_comedy"
+      ],
+      "content_warnings_text": "sexualized_underwear_body_and_changing_room_jokes_involving_teen_coded_characters；one_sided_voyeuristic_harassment_and_attempted_nonconsensual_photography；slapstick_violence_restraint_humiliation_and_boundary_violations；unauthorized_home_entry_as_comedy；animal_impoundment_and_euthanasia_threat；apocalyptic_destruction_threats_as_comedy",
+      "quick_queries": {
+        "explicit_relationship": false,
+        "explicit_desire": true,
+        "accepts_unconfirmed": true,
+        "female_relationship_main": true,
+        "official_yuri_gl": false
+      },
+      "bangumi_rank": 2185,
+      "bangumi_yuri_tag_ratio": 0.10422183551486722,
+      "report_url": "/yuri-classification-archive/works/gabriel_dropout_tv_2017/",
+      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/gabriel_dropout_tv_2017/"
+    },
+    {
+      "slug": "sakura_trick_tv_2014",
+      "title": "樱Trick",
+      "title_original": "桜Trick",
+      "title_romaji": "Sakura Trick",
+      "title_english": "Sakura Trick",
+      "release_year": 2014,
+      "medium": {
+        "code": "tv_anime",
+        "label": "TV 动画"
+      },
+      "scope_summary": "2014 broadcast TV anime episodes 1-12；official TV anime website, episode guide and animation-studio work page as paratext；current public database entries only as classification context",
+      "female_relationship_centrality": {
+        "code": "main",
+        "label": "主线"
+      },
+      "archive_basis": {
+        "code": "work_classification",
+        "label": "作品分类"
+      },
+      "romance_centrality": {
+        "code": "main",
+        "label": "主线"
+      },
+      "highest_romance_explicitness": {
+        "code": "explicit_desire",
+        "label": "明确欲望"
+      },
+      "official_label": {
+        "code": "other",
+        "label": "其他相关表述"
+      },
+      "identity_evidence_basis": {
+        "code": "explicit_relationship_only",
+        "label": "只有明确关系事实"
+      },
+      "male_romance_line": {
+        "code": "none",
+        "label": "无"
+      },
+      "confidence": {
+        "code": "high",
+        "label": "高"
+      },
+      "classification_date": "2026-07-30",
+      "content_warnings": [
+        "sexualized_presentation_of_school_age_characters",
+        "surprise_kissing_and_comedic_boundary_crossing",
+        "jealousy_possessiveness_and_relationship_surveillance",
+        "romantic_relationship_between_cousins",
+        "family_arranged_engagement_as_relationship_pressure",
+        "unwanted_or_uninvited_body_touching",
+        "school_pool_and_body_fanservice"
+      ],
+      "content_warnings_text": "sexualized_presentation_of_school_age_characters；surprise_kissing_and_comedic_boundary_crossing；jealousy_possessiveness_and_relationship_surveillance；romantic_relationship_between_cousins；family_arranged_engagement_as_relationship_pressure；unwanted_or_uninvited_body_touching；school_pool_and_body_fanservice",
+      "quick_queries": {
+        "explicit_relationship": false,
+        "explicit_desire": true,
+        "accepts_unconfirmed": true,
+        "female_relationship_main": true,
+        "official_yuri_gl": false
+      },
+      "bangumi_rank": 2210,
+      "bangumi_yuri_tag_ratio": 0.18052825027780153,
+      "report_url": "/yuri-classification-archive/works/sakura_trick_tv_2014/",
+      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/sakura_trick_tv_2014/"
+    },
+    {
+      "slug": "niea_7_tv_2000",
+      "title": "我家也有外星人",
+      "title_original": "NieA_7",
+      "title_romaji": "NieA Under 7",
+      "title_english": "NieA_7",
+      "release_year": 2000,
+      "medium": {
+        "code": "tv_anime",
+        "label": "TV 动画"
+      },
+      "scope_summary": "2000 TV anime, formal numbered episodes 1-13, aired from 2000-04-26 through 2000-07-19",
+      "female_relationship_centrality": {
+        "code": "main",
+        "label": "主线"
+      },
+      "archive_basis": {
+        "code": "work_classification",
+        "label": "作品分类"
+      },
+      "romance_centrality": {
+        "code": "absent",
+        "label": "缺席"
+      },
+      "highest_romance_explicitness": {
+        "code": "non_romantic",
+        "label": "非恋爱"
+      },
+      "official_label": {
+        "code": "unmarked",
+        "label": "未标百合／GL"
+      },
+      "identity_evidence_basis": {
+        "code": "no_in_scope_evidence",
+        "label": "范围内无依据"
+      },
+      "male_romance_line": {
+        "code": "secondary",
+        "label": "副线"
+      },
+      "confidence": {
+        "code": "high",
+        "label": "高"
+      },
+      "classification_date": "2026-07-30",
+      "content_warnings": [
+        "poverty_food_insecurity_and_resource_conflict",
+        "asymmetric_housing_labor_and_care_burden",
+        "alien_caste_discrimination_and_dehumanizing_language",
+        "ethnic_and_racial_caricature",
+        "sexual_harassment_and_bawdy_humor",
+        "parental_bereavement_and_possible_loss_of_home"
+      ],
+      "content_warnings_text": "poverty_food_insecurity_and_resource_conflict；asymmetric_housing_labor_and_care_burden；alien_caste_discrimination_and_dehumanizing_language；ethnic_and_racial_caricature；sexual_harassment_and_bawdy_humor；parental_bereavement_and_possible_loss_of_home",
+      "quick_queries": {
+        "explicit_relationship": false,
+        "explicit_desire": false,
+        "accepts_unconfirmed": false,
+        "female_relationship_main": true,
+        "official_yuri_gl": false
+      },
+      "bangumi_rank": 2247,
+      "bangumi_yuri_tag_ratio": 0.04304979253112033,
+      "report_url": "/yuri-classification-archive/works/niea_7_tv_2000/",
+      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/niea_7_tv_2000/"
+    },
+    {
+      "slug": "houkago_teibou_nisshi_tv_2020",
+      "title": "放学后海堤日记",
+      "title_original": "放課後ていぼう日誌",
+      "title_romaji": "Houkago Teibou Nisshi",
+      "title_english": "Diary of Our Days at the Breakwater",
+      "release_year": 2020,
+      "medium": {
+        "code": "tv_anime",
+        "label": "TV 动画"
+      },
+      "scope_summary": "2020 broadcast TV anime episodes 1-12；official TV anime website and all twelve official episode synopses as paratext；current public database entries only as classification context",
+      "female_relationship_centrality": {
+        "code": "main",
+        "label": "主线"
+      },
+      "archive_basis": {
+        "code": "work_classification",
+        "label": "作品分类"
+      },
+      "romance_centrality": {
+        "code": "absent",
+        "label": "缺席"
+      },
+      "highest_romance_explicitness": {
+        "code": "non_romantic",
+        "label": "非恋爱"
+      },
+      "official_label": {
+        "code": "unmarked",
+        "label": "未标百合／GL"
+      },
+      "identity_evidence_basis": {
+        "code": "no_in_scope_evidence",
+        "label": "范围内无依据"
+      },
+      "male_romance_line": {
+        "code": "none",
+        "label": "无"
+      },
+      "confidence": {
+        "code": "high",
+        "label": "高"
+      },
+      "classification_date": "2026-07-31",
+      "content_warnings": [
+        "fishing_live_bait_and_killing_cleaning_and_eating_animals",
+        "insects_octopus_and_other_sea_creatures",
+        "coerced_club_recruitment_using_the_protagonists_animal_fear",
+        "adult_teacher_alcohol_use_and_unwanted_kissing_or_marriage_jokes_toward_students",
+        "swimwear_body_size_and_breast_comedy",
+        "water_safety_risk_and_fear"
+      ],
+      "content_warnings_text": "fishing_live_bait_and_killing_cleaning_and_eating_animals；insects_octopus_and_other_sea_creatures；coerced_club_recruitment_using_the_protagonists_animal_fear；adult_teacher_alcohol_use_and_unwanted_kissing_or_marriage_jokes_toward_students；swimwear_body_size_and_breast_comedy；water_safety_risk_and_fear",
+      "quick_queries": {
+        "explicit_relationship": false,
+        "explicit_desire": false,
+        "accepts_unconfirmed": false,
+        "female_relationship_main": true,
+        "official_yuri_gl": false
+      },
+      "bangumi_rank": 2274,
+      "bangumi_yuri_tag_ratio": 0.07055716,
+      "report_url": "/yuri-classification-archive/works/houkago_teibou_nisshi_tv_2020/",
+      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/houkago_teibou_nisshi_tv_2020/"
+    },
+    {
+      "slug": "comic_girls_tv_2018",
+      "title": "漫画女孩",
+      "title_original": "こみっくがーるず",
+      "title_romaji": "Comic Girls",
+      "title_english": "Comic Girls",
+      "release_year": 2018,
+      "medium": {
+        "code": "tv_anime",
+        "label": "TV 动画"
+      },
+      "scope_summary": "2018 television series formal episodes 1–12",
+      "female_relationship_centrality": {
+        "code": "main",
+        "label": "主线"
+      },
+      "archive_basis": {
+        "code": "work_classification",
+        "label": "作品分类"
+      },
+      "romance_centrality": {
+        "code": "important_secondary",
+        "label": "重要副线"
+      },
+      "highest_romance_explicitness": {
+        "code": "explicit_desire",
+        "label": "明确欲望"
+      },
+      "official_label": {
+        "code": "unmarked",
+        "label": "未标百合／GL"
+      },
+      "identity_evidence_basis": {
+        "code": "explicit_relationship_only",
+        "label": "只有明确关系事实"
+      },
+      "male_romance_line": {
+        "code": "none",
+        "label": "无"
+      },
+      "confidence": {
+        "code": "high",
+        "label": "高"
+      },
+      "classification_date": "2026-07-31",
+      "content_warnings": [
+        "sexualized_body_underwear_swimsuit_bath_and_breast_jokes_involving_teen_coded_characters",
+        "in_story_tl_and_erotic_manga_discussion_with_imagined_adult_sexual_situations",
+        "stalking_fear_harassment_and_boundary_violations_played_as_comedy",
+        "alcohol_and_intoxication_involving_adult_characters",
+        "body_weight_dieting_and_food_shame_jokes",
+        "intense_self_denigration_anxiety_rejection_and_deadline_stress",
+        "slapstick_horror_and_blood_imagery"
+      ],
+      "content_warnings_text": "sexualized_body_underwear_swimsuit_bath_and_breast_jokes_involving_teen_coded_characters；in_story_tl_and_erotic_manga_discussion_with_imagined_adult_sexual_situations；stalking_fear_harassment_and_boundary_violations_played_as_comedy；alcohol_and_intoxication_involving_adult_characters；body_weight_dieting_and_food_shame_jokes；intense_self_denigration_anxiety_rejection_and_deadline_stress；slapstick_horror_and_blood_imagery",
+      "quick_queries": {
+        "explicit_relationship": false,
+        "explicit_desire": true,
+        "accepts_unconfirmed": true,
+        "female_relationship_main": true,
+        "official_yuri_gl": false
+      },
+      "bangumi_rank": 2298,
+      "bangumi_yuri_tag_ratio": 0.11578947368421053,
+      "report_url": "/yuri-classification-archive/works/comic_girls_tv_2018/",
+      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/comic_girls_tv_2018/"
+    },
+    {
+      "slug": "teppen_tv_2022",
+      "title": "顶点!!!!!!!!!!!!!!!",
+      "title_original": "てっぺんっ!!!!!!!!!!!!!!!",
+      "title_romaji": "Teppen!!!!!!!!!!!!!!!",
+      "title_english": "TEPPEN!!!!!!!!!!!!!!! Laughing 'til You Cry",
+      "release_year": 2022,
+      "medium": {
+        "code": "tv_anime",
+        "label": "TV 动画"
+      },
+      "scope_summary": "2022 TV anime numbered episodes 1-12；episode 2 as a regular numbered episode formally broadcast from 2022-09-10 after its originally scheduled 2022-07-09 broadcast was withdrawn；official TV anime website, episode guide, broadcast-change notices and current legal-streaming episode lists as scope paratext；current public database entries only as classification context",
+      "female_relationship_centrality": {
+        "code": "main",
+        "label": "主线"
+      },
+      "archive_basis": {
+        "code": "work_classification",
+        "label": "作品分类"
+      },
+      "romance_centrality": {
+        "code": "absent",
+        "label": "缺席"
+      },
+      "highest_romance_explicitness": {
+        "code": "non_romantic",
+        "label": "非恋爱"
+      },
+      "official_label": {
+        "code": "unmarked",
+        "label": "未标百合／GL"
+      },
+      "identity_evidence_basis": {
+        "code": "no_in_scope_evidence",
+        "label": "范围内无依据"
+      },
+      "male_romance_line": {
+        "code": "secondary",
+        "label": "副线"
+      },
+      "confidence": {
+        "code": "high",
+        "label": "高"
+      },
+      "classification_date": "2026-07-31",
+      "content_warnings": [
+        "assassination_plot_misunderstanding_and_weapons",
+        "fabricated_suicide_and_curse_story",
+        "stalking_and_peeping_misunderstanding",
+        "comic_violence_explosions_confinement_and_virtual_reality_combat",
+        "body_breast_swimwear_and_bathing_program_jokes",
+        "online_harassment_clickbait_and_financial_fraud",
+        "adult_opposite_sex_first_love_reunion_in_episode_7"
+      ],
+      "content_warnings_text": "assassination_plot_misunderstanding_and_weapons；fabricated_suicide_and_curse_story；stalking_and_peeping_misunderstanding；comic_violence_explosions_confinement_and_virtual_reality_combat；body_breast_swimwear_and_bathing_program_jokes；online_harassment_clickbait_and_financial_fraud；adult_opposite_sex_first_love_reunion_in_episode_7",
+      "quick_queries": {
+        "explicit_relationship": false,
+        "explicit_desire": false,
+        "accepts_unconfirmed": false,
+        "female_relationship_main": true,
+        "official_yuri_gl": false
+      },
+      "bangumi_rank": 2324,
+      "bangumi_yuri_tag_ratio": 0.055177928828468614,
+      "report_url": "/yuri-classification-archive/works/teppen_tv_2022/",
+      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/teppen_tv_2022/"
+    },
+    {
+      "slug": "tantei_opera_milky_holmes_tv_2010",
+      "title": "侦探歌剧 少女福尔摩斯",
+      "title_original": "探偵オペラ ミルキィホームズ",
+      "title_romaji": "Tantei Opera Milky Holmes",
+      "title_english": "Detective Opera Milky Holmes",
+      "release_year": 2010,
+      "medium": {
+        "code": "tv_anime",
+        "label": "TV 动画"
+      },
+      "scope_summary": "2010 TV anime formal numbered episodes 1-12, aired from 2010-10-07 through 2010-12-23",
+      "female_relationship_centrality": {
+        "code": "main",
+        "label": "主线"
+      },
+      "archive_basis": {
+        "code": "work_classification",
+        "label": "作品分类"
+      },
+      "romance_centrality": {
+        "code": "absent",
+        "label": "缺席"
+      },
+      "highest_romance_explicitness": {
+        "code": "non_romantic",
+        "label": "非恋爱"
+      },
+      "official_label": {
+        "code": "unmarked",
+        "label": "未标百合／GL"
+      },
+      "identity_evidence_basis": {
+        "code": "no_in_scope_evidence",
+        "label": "范围内无依据"
+      },
+      "male_romance_line": {
+        "code": "secondary",
+        "label": "副线"
+      },
+      "confidence": {
+        "code": "high",
+        "label": "高"
+      },
+      "classification_date": "2026-07-31",
+      "content_warnings": [
+        "food_insecurity_hunger_and_humiliating_loss_of_housing_privileges",
+        "frequent_slapstick_violence_explosions_falls_and_comedic_peril",
+        "unwanted_grabbing_forced_proximity_and_body_contact_played_as_comedy",
+        "sexualized_nudity_breast_and_underwear_gags_involving_school_characters",
+        "male_sexual_harassment_forced_undressing_and_coffin_confinement",
+        "male_exhibitionism_and_repeated_one_sided_sexualized_adoration",
+        "arranged_marriage_plot_and_secondary_heterosexual_romance",
+        "hostage_scenarios_drowning_threats_and_live_burial_imagery"
+      ],
+      "content_warnings_text": "food_insecurity_hunger_and_humiliating_loss_of_housing_privileges；frequent_slapstick_violence_explosions_falls_and_comedic_peril；unwanted_grabbing_forced_proximity_and_body_contact_played_as_comedy；sexualized_nudity_breast_and_underwear_gags_involving_school_characters；male_sexual_harassment_forced_undressing_and_coffin_confinement；male_exhibitionism_and_repeated_one_sided_sexualized_adoration；arranged_marriage_plot_and_secondary_heterosexual_romance；hostage_scenarios_drowning_threats_and_live_burial_imagery",
+      "quick_queries": {
+        "explicit_relationship": false,
+        "explicit_desire": false,
+        "accepts_unconfirmed": false,
+        "female_relationship_main": true,
+        "official_yuri_gl": false
+      },
+      "bangumi_rank": 2381,
+      "bangumi_yuri_tag_ratio": 0.05605687722176648,
+      "report_url": "/yuri-classification-archive/works/tantei_opera_milky_holmes_tv_2010/",
+      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/tantei_opera_milky_holmes_tv_2010/"
+    },
+    {
       "slug": "strike_witches_tv_2008",
       "title": "强袭魔女",
       "title_original": "ストライクウィッチーズ",
@@ -6707,6 +7904,951 @@
       "bangumi_yuri_tag_ratio": 0.09632429614181438,
       "report_url": "/yuri-classification-archive/works/strike_witches_tv_2008/",
       "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/strike_witches_tv_2008/"
+    },
+    {
+      "slug": "estab_life_great_escape_tv_2022",
+      "title": "Estab-Life Great Escape",
+      "title_original": "エスタブライフ グレイトエスケープ",
+      "title_romaji": "Estab-Life: Great Escape",
+      "title_english": "Estab-Life: Great Escape",
+      "release_year": 2022,
+      "medium": {
+        "code": "tv_anime",
+        "label": "TV 动画"
+      },
+      "scope_summary": "2022 TV anime formal episodes 1-12；the FOD advance release only as distribution context for the same numbered TV-anime content；official episode pages and public database entries only as scope and classification context",
+      "female_relationship_centrality": {
+        "code": "main",
+        "label": "主线"
+      },
+      "archive_basis": {
+        "code": "work_classification",
+        "label": "作品分类"
+      },
+      "romance_centrality": {
+        "code": "important_secondary",
+        "label": "重要副线"
+      },
+      "highest_romance_explicitness": {
+        "code": "explicit_desire",
+        "label": "明确欲望"
+      },
+      "official_label": {
+        "code": "unmarked",
+        "label": "未标百合／GL"
+      },
+      "identity_evidence_basis": {
+        "code": "explicit_relationship_only",
+        "label": "只有明确关系事实"
+      },
+      "male_romance_line": {
+        "code": "none",
+        "label": "无"
+      },
+      "confidence": {
+        "code": "high",
+        "label": "高"
+      },
+      "classification_date": "2026-07-31",
+      "content_warnings": [
+        "firearms_explosions_combat_and_serious_injury",
+        "suicidal_ideation_and_suicide_method_jokes",
+        "authoritarian_surveillance_forced_conformity_and_imprisonment",
+        "gang_violence_religious_coercion_and_forced_labour",
+        "sexualised_body_underwear_and_no_underwear_jokes",
+        "fantasy_of_forcing_down_a_character_with_consent_explicitly_debated",
+        "end_of_life_farewell_and_character_disappearance"
+      ],
+      "content_warnings_text": "firearms_explosions_combat_and_serious_injury；suicidal_ideation_and_suicide_method_jokes；authoritarian_surveillance_forced_conformity_and_imprisonment；gang_violence_religious_coercion_and_forced_labour；sexualised_body_underwear_and_no_underwear_jokes；fantasy_of_forcing_down_a_character_with_consent_explicitly_debated；end_of_life_farewell_and_character_disappearance",
+      "quick_queries": {
+        "explicit_relationship": false,
+        "explicit_desire": true,
+        "accepts_unconfirmed": true,
+        "female_relationship_main": true,
+        "official_yuri_gl": false
+      },
+      "bangumi_rank": 2430,
+      "bangumi_yuri_tag_ratio": 0.06632344033918837,
+      "report_url": "/yuri-classification-archive/works/estab_life_great_escape_tv_2022/",
+      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/estab_life_great_escape_tv_2022/"
+    },
+    {
+      "slug": "el_cazador_de_la_bruja_tv_2007",
+      "title": "魔女猎人",
+      "title_original": "エル・カザド",
+      "title_romaji": "El Cazador",
+      "title_english": "El Cazador de la Bruja",
+      "release_year": 2007,
+      "medium": {
+        "code": "tv_anime",
+        "label": "TV 动画"
+      },
+      "scope_summary": "2007 television series formal episodes 1–26",
+      "female_relationship_centrality": {
+        "code": "main",
+        "label": "主线"
+      },
+      "archive_basis": {
+        "code": "work_classification",
+        "label": "作品分类"
+      },
+      "romance_centrality": {
+        "code": "main",
+        "label": "主线"
+      },
+      "highest_romance_explicitness": {
+        "code": "potential_or_strongly_coded",
+        "label": "潜在／明显但未确认"
+      },
+      "official_label": {
+        "code": "unmarked",
+        "label": "未标百合／GL"
+      },
+      "identity_evidence_basis": {
+        "code": "inferred_relationship_only",
+        "label": "只有关系推断"
+      },
+      "male_romance_line": {
+        "code": "parallel",
+        "label": "并列"
+      },
+      "confidence": {
+        "code": "high",
+        "label": "高"
+      },
+      "classification_date": "2026-07-31",
+      "content_warnings": [
+        "gunfire knife and wire violence with injury and death",
+        "human experimentation cloning memory manipulation and mind control",
+        "stalking possessiveness and romance-framed coercive control",
+        "non-consensual kissing while a character sleeps",
+        "kidnapping restraint abuse and nudity",
+        "researcher-subject and captor-target power imbalances",
+        "a request that a loved one perform a shooting and temporary character deaths",
+        "bereavement and destruction of a community",
+        "villain framing and slurs directed at a gender-nonconforming character"
+      ],
+      "content_warnings_text": "gunfire knife and wire violence with injury and death；human experimentation cloning memory manipulation and mind control；stalking possessiveness and romance-framed coercive control；non-consensual kissing while a character sleeps；kidnapping restraint abuse and nudity；researcher-subject and captor-target power imbalances；a request that a loved one perform a shooting and temporary character deaths；bereavement and destruction of a community；villain framing and slurs directed at a gender-nonconforming character",
+      "quick_queries": {
+        "explicit_relationship": false,
+        "explicit_desire": false,
+        "accepts_unconfirmed": true,
+        "female_relationship_main": true,
+        "official_yuri_gl": false
+      },
+      "bangumi_rank": 2432,
+      "bangumi_yuri_tag_ratio": 0.12869999999999998,
+      "report_url": "/yuri-classification-archive/works/el_cazador_de_la_bruja_tv_2007/",
+      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/el_cazador_de_la_bruja_tv_2007/"
+    },
+    {
+      "slug": "jashin_chan_dropkick_tv_2018",
+      "title": "邪神与厨二病少女",
+      "title_original": "邪神ちゃんドロップキック",
+      "title_romaji": "Jashin-chan Dropkick",
+      "title_english": "Dropkick on My Devil!",
+      "release_year": 2018,
+      "medium": {
+        "code": "tv_anime",
+        "label": "TV 动画"
+      },
+      "scope_summary": "2018 first-season television run, episodes 1-11；formally numbered same-season episode 12 (#EX), first distributed on Amazon Prime Video on 2018-10-01 and included in the first-season lower Blu-ray/DVD box",
+      "female_relationship_centrality": {
+        "code": "main",
+        "label": "主线"
+      },
+      "archive_basis": {
+        "code": "work_classification",
+        "label": "作品分类"
+      },
+      "romance_centrality": {
+        "code": "important_secondary",
+        "label": "重要副线"
+      },
+      "highest_romance_explicitness": {
+        "code": "explicit_desire",
+        "label": "明确欲望"
+      },
+      "official_label": {
+        "code": "unmarked",
+        "label": "未标百合／GL"
+      },
+      "identity_evidence_basis": {
+        "code": "explicit_relationship_only",
+        "label": "只有明确关系事实"
+      },
+      "male_romance_line": {
+        "code": "none",
+        "label": "无"
+      },
+      "confidence": {
+        "code": "high",
+        "label": "高"
+      },
+      "classification_date": "2026-07-31",
+      "content_warnings": [
+        "recurrent_comic_murder_dismemberment_torture_and_gore_with_regeneration",
+        "coercive_summoning_and_forced_cohabitation",
+        "stalking_abduction_possessive_harassment_and_police_power_abuse",
+        "financial_exploitation_gambling_and_enabling",
+        "homelessness_hunger_and_food_insecurity",
+        "bullying_insults_and_nonconsensual_physical_contact",
+        "nudity_swimsuit_fanservice_and_sexualized_comedy"
+      ],
+      "content_warnings_text": "recurrent_comic_murder_dismemberment_torture_and_gore_with_regeneration；coercive_summoning_and_forced_cohabitation；stalking_abduction_possessive_harassment_and_police_power_abuse；financial_exploitation_gambling_and_enabling；homelessness_hunger_and_food_insecurity；bullying_insults_and_nonconsensual_physical_contact；nudity_swimsuit_fanservice_and_sexualized_comedy",
+      "quick_queries": {
+        "explicit_relationship": false,
+        "explicit_desire": true,
+        "accepts_unconfirmed": true,
+        "female_relationship_main": true,
+        "official_yuri_gl": false
+      },
+      "bangumi_rank": 2434,
+      "bangumi_yuri_tag_ratio": 0.07609033783363404,
+      "report_url": "/yuri-classification-archive/works/jashin_chan_dropkick_tv_2018/",
+      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/jashin_chan_dropkick_tv_2018/"
+    },
+    {
+      "slug": "kakegurui_tv_2017",
+      "title": "狂赌之渊",
+      "title_original": "賭ケグルイ",
+      "title_romaji": "Kakegurui",
+      "title_english": "Kakegurui: Compulsive Gambler",
+      "release_year": 2017,
+      "medium": {
+        "code": "tv_anime",
+        "label": "TV 动画"
+      },
+      "scope_summary": "2017 TV anime first-season formal episodes 1-12",
+      "female_relationship_centrality": {
+        "code": "main",
+        "label": "主线"
+      },
+      "archive_basis": {
+        "code": "work_classification",
+        "label": "作品分类"
+      },
+      "romance_centrality": {
+        "code": "absent",
+        "label": "缺席"
+      },
+      "highest_romance_explicitness": {
+        "code": "non_romantic",
+        "label": "非恋爱"
+      },
+      "official_label": {
+        "code": "unmarked",
+        "label": "未标百合／GL"
+      },
+      "identity_evidence_basis": {
+        "code": "no_in_scope_evidence",
+        "label": "范围内无依据"
+      },
+      "male_romance_line": {
+        "code": "none",
+        "label": "无"
+      },
+      "confidence": {
+        "code": "high",
+        "label": "高"
+      },
+      "classification_date": "2026-07-31",
+      "content_warnings": [
+        "compulsive_gambling_debt_and_financial_coercion",
+        "institutional_slavery_dehumanisation_and_forced_life_plans",
+        "bullying_humiliation_and_threats",
+        "guns_russian_roulette_self_harm_and_suicidal_desire",
+        "sexualised_gambling_arousal_domination_and_masochism",
+        "nail_removal_body_horror_and_blood",
+        "coercive_marriage_reproduction_and_career_plans"
+      ],
+      "content_warnings_text": "compulsive_gambling_debt_and_financial_coercion；institutional_slavery_dehumanisation_and_forced_life_plans；bullying_humiliation_and_threats；guns_russian_roulette_self_harm_and_suicidal_desire；sexualised_gambling_arousal_domination_and_masochism；nail_removal_body_horror_and_blood；coercive_marriage_reproduction_and_career_plans",
+      "quick_queries": {
+        "explicit_relationship": false,
+        "explicit_desire": false,
+        "accepts_unconfirmed": false,
+        "female_relationship_main": true,
+        "official_yuri_gl": false
+      },
+      "bangumi_rank": 2463,
+      "bangumi_yuri_tag_ratio": 0.015609855634341682,
+      "report_url": "/yuri-classification-archive/works/kakegurui_tv_2017/",
+      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/kakegurui_tv_2017/"
+    },
+    {
+      "slug": "mahou_shoujo_ni_akogarete_tv_2024",
+      "title": "憧憬成为魔法少女",
+      "title_original": "魔法少女にあこがれて",
+      "title_romaji": "Mahou Shoujo ni Akogarete",
+      "title_english": "Gushing over Magical Girls",
+      "release_year": 2024,
+      "medium": {
+        "code": "tv_anime",
+        "label": "TV 动画"
+      },
+      "scope_summary": "2024 TV anime formal episodes 1-13",
+      "female_relationship_centrality": {
+        "code": "main",
+        "label": "主线"
+      },
+      "archive_basis": {
+        "code": "work_classification",
+        "label": "作品分类"
+      },
+      "romance_centrality": {
+        "code": "main",
+        "label": "主线"
+      },
+      "highest_romance_explicitness": {
+        "code": "explicit_desire",
+        "label": "明确欲望"
+      },
+      "official_label": {
+        "code": "unmarked",
+        "label": "未标百合／GL"
+      },
+      "identity_evidence_basis": {
+        "code": "explicit_relationship_only",
+        "label": "只有明确关系事实"
+      },
+      "male_romance_line": {
+        "code": "none",
+        "label": "无"
+      },
+      "confidence": {
+        "code": "high",
+        "label": "高"
+      },
+      "classification_date": "2026-07-31",
+      "content_warnings": [
+        "sexualisation_of_middle_school_age_characters",
+        "repeated_nonconsensual_bondage_stripping_groping_and_genital_or_breast_stimulation",
+        "coerced_kissing_and_sexual_activity_in_a_locked_room",
+        "sadism_masochism_humiliation_and_orgasmic_reactions",
+        "tentacles_monster_assault_and_public_exposure",
+        "blackmail_forced_transformation_and_identity_threats",
+        "mind_control_age_regression_and_childlike_roleplay",
+        "combat_injury_weapons_and_city_destruction"
+      ],
+      "content_warnings_text": "sexualisation_of_middle_school_age_characters；repeated_nonconsensual_bondage_stripping_groping_and_genital_or_breast_stimulation；coerced_kissing_and_sexual_activity_in_a_locked_room；sadism_masochism_humiliation_and_orgasmic_reactions；tentacles_monster_assault_and_public_exposure；blackmail_forced_transformation_and_identity_threats；mind_control_age_regression_and_childlike_roleplay；combat_injury_weapons_and_city_destruction",
+      "quick_queries": {
+        "explicit_relationship": false,
+        "explicit_desire": true,
+        "accepts_unconfirmed": true,
+        "female_relationship_main": true,
+        "official_yuri_gl": false
+      },
+      "bangumi_rank": 2464,
+      "bangumi_yuri_tag_ratio": 0.1374099343237901,
+      "report_url": "/yuri-classification-archive/works/mahou_shoujo_ni_akogarete_tv_2024/",
+      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/mahou_shoujo_ni_akogarete_tv_2024/"
+    },
+    {
+      "slug": "shigofumi_tv_2008",
+      "title": "死后文",
+      "title_original": "シゴフミ",
+      "title_romaji": "Shigofumi",
+      "title_english": "Shigofumi: Letters from the Departed",
+      "release_year": 2008,
+      "medium": {
+        "code": "tv_anime",
+        "label": "TV 动画"
+      },
+      "scope_summary": "The twelve broadcast TV episodes aired from 2008-01-05 through 2008-03-22",
+      "female_relationship_centrality": {
+        "code": "main",
+        "label": "主线"
+      },
+      "archive_basis": {
+        "code": "reader_interpretation",
+        "label": "读者解读"
+      },
+      "romance_centrality": {
+        "code": "main",
+        "label": "主线"
+      },
+      "highest_romance_explicitness": {
+        "code": "potential_or_strongly_coded",
+        "label": "潜在／明显但未确认"
+      },
+      "official_label": {
+        "code": "unmarked",
+        "label": "未标百合／GL"
+      },
+      "identity_evidence_basis": {
+        "code": "inferred_relationship_only",
+        "label": "只有关系推断"
+      },
+      "male_romance_line": {
+        "code": "secondary",
+        "label": "副线"
+      },
+      "confidence": {
+        "code": "high",
+        "label": "高"
+      },
+      "classification_date": "2026-07-31",
+      "content_warnings": [
+        "suicide, suicidal ideation and attempted suicide",
+        "child abuse and domestic violence",
+        "child sexual exploitation and coercive modelling",
+        "murder, attempted murder and gun violence",
+        "school bullying and public shaming",
+        "dissociative identity and mental-health stigma",
+        "coma, death, grief and terminal illness",
+        "child neglect and abandonment",
+        "media harassment and victim blaming",
+        "animal death",
+        "stalking and confinement"
+      ],
+      "content_warnings_text": "suicide, suicidal ideation and attempted suicide；child abuse and domestic violence；child sexual exploitation and coercive modelling；murder, attempted murder and gun violence；school bullying and public shaming；dissociative identity and mental-health stigma；coma, death, grief and terminal illness；child neglect and abandonment；media harassment and victim blaming；animal death；stalking and confinement",
+      "quick_queries": {
+        "explicit_relationship": false,
+        "explicit_desire": false,
+        "accepts_unconfirmed": true,
+        "female_relationship_main": true,
+        "official_yuri_gl": false
+      },
+      "bangumi_rank": 2491,
+      "bangumi_yuri_tag_ratio": 0.017458203876313066,
+      "report_url": "/yuri-classification-archive/works/shigofumi_tv_2008/",
+      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/shigofumi_tv_2008/"
+    },
+    {
+      "slug": "kono_subarashii_sekai_ni_bakuen_wo_tv_2023",
+      "title": "为美好的世界献上爆焰！",
+      "title_original": "この素晴らしい世界に爆焔を！",
+      "title_romaji": "Kono Subarashii Sekai ni Bakuen wo!",
+      "title_english": "KONOSUBA -An Explosion on This Wonderful World!",
+      "release_year": 2023,
+      "medium": {
+        "code": "tv_anime",
+        "label": "TV 动画"
+      },
+      "scope_summary": "2023 television anime formal numbered episodes 1-12, aired from 2023-04-06 through 2023-06-22",
+      "female_relationship_centrality": {
+        "code": "main",
+        "label": "主线"
+      },
+      "archive_basis": {
+        "code": "work_classification",
+        "label": "作品分类"
+      },
+      "romance_centrality": {
+        "code": "main",
+        "label": "主线"
+      },
+      "highest_romance_explicitness": {
+        "code": "explicit_desire",
+        "label": "明确欲望"
+      },
+      "official_label": {
+        "code": "unmarked",
+        "label": "未标百合／GL"
+      },
+      "identity_evidence_basis": {
+        "code": "explicit_relationship_only",
+        "label": "只有明确关系事实"
+      },
+      "male_romance_line": {
+        "code": "secondary",
+        "label": "副线"
+      },
+      "confidence": {
+        "code": "high",
+        "label": "高"
+      },
+      "classification_date": "2026-07-31",
+      "content_warnings": [
+        "adult_sexualization_harassment_and_unwanted_intimacy_directed_at_minors",
+        "male_stalking_voyeurism_marriage_fantasy_and_sexual_harassment",
+        "poverty_food_insecurity_and_child_hunger",
+        "school_isolation_peer_exploitation_and_social_humiliation",
+        "monster_attacks_combat_injury_explosions_and_threats",
+        "religious_cult_manipulation_and_vulgar_sexual_comedy"
+      ],
+      "content_warnings_text": "adult_sexualization_harassment_and_unwanted_intimacy_directed_at_minors；male_stalking_voyeurism_marriage_fantasy_and_sexual_harassment；poverty_food_insecurity_and_child_hunger；school_isolation_peer_exploitation_and_social_humiliation；monster_attacks_combat_injury_explosions_and_threats；religious_cult_manipulation_and_vulgar_sexual_comedy",
+      "quick_queries": {
+        "explicit_relationship": false,
+        "explicit_desire": true,
+        "accepts_unconfirmed": true,
+        "female_relationship_main": true,
+        "official_yuri_gl": false
+      },
+      "bangumi_rank": 2497,
+      "bangumi_yuri_tag_ratio": 0.002723267921505807,
+      "report_url": "/yuri-classification-archive/works/kono_subarashii_sekai_ni_bakuen_wo_tv_2023/",
+      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/kono_subarashii_sekai_ni_bakuen_wo_tv_2023/"
+    },
+    {
+      "slug": "plus_tic_neesan_web_2011",
+      "title": "+模型姐妹",
+      "title_original": "＋チック姉さん",
+      "title_romaji": "Plastic Nee-san",
+      "title_english": "Plastic Elder Sister",
+      "release_year": 2011,
+      "medium": {
+        "code": "web_short_anime",
+        "label": "WEB 短篇动画"
+      },
+      "scope_summary": "The twelve approximately two-minute animated shorts commonly represented as one ONA/database entry, using the home-video order from 喧嘩チック through 大きいなお世話チック；The six shorts publicly distributed on the web and the six additional shorts included in the first twelve-short home-video collection",
+      "female_relationship_centrality": {
+        "code": "main",
+        "label": "主线"
+      },
+      "archive_basis": {
+        "code": "work_classification",
+        "label": "作品分类"
+      },
+      "romance_centrality": {
+        "code": "absent",
+        "label": "缺席"
+      },
+      "highest_romance_explicitness": {
+        "code": "non_romantic",
+        "label": "非恋爱"
+      },
+      "official_label": {
+        "code": "unmarked",
+        "label": "未标百合／GL"
+      },
+      "identity_evidence_basis": {
+        "code": "no_in_scope_evidence",
+        "label": "范围内无依据"
+      },
+      "male_romance_line": {
+        "code": "secondary",
+        "label": "副线"
+      },
+      "confidence": {
+        "code": "medium",
+        "label": "中"
+      },
+      "classification_date": "2026-07-31",
+      "content_warnings": [
+        "slapstick violence and threats among students",
+        "coercive stripping, clothing removal and body-boundary violations used as comedy",
+        "sexualized underwear, partial nudity and exposure jokes",
+        "same-sex physical harassment used as a gag without establishing romance",
+        "heterosexual crush, breakup, boyfriend and courtship jokes",
+        "body shaming and ridicule about puberty and physical appearance",
+        "obscene gestures, sexual language and genital humour",
+        "bullying, humiliation and intimidation"
+      ],
+      "content_warnings_text": "slapstick violence and threats among students；coercive stripping, clothing removal and body-boundary violations used as comedy；sexualized underwear, partial nudity and exposure jokes；same-sex physical harassment used as a gag without establishing romance；heterosexual crush, breakup, boyfriend and courtship jokes；body shaming and ridicule about puberty and physical appearance；obscene gestures, sexual language and genital humour；bullying, humiliation and intimidation",
+      "quick_queries": {
+        "explicit_relationship": false,
+        "explicit_desire": false,
+        "accepts_unconfirmed": false,
+        "female_relationship_main": true,
+        "official_yuri_gl": false
+      },
+      "bangumi_rank": 2537,
+      "bangumi_yuri_tag_ratio": 0.038899597,
+      "report_url": "/yuri-classification-archive/works/plus_tic_neesan_web_2011/",
+      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/plus_tic_neesan_web_2011/"
+    },
+    {
+      "slug": "slow_start_tv_2018",
+      "title": "Slow Start",
+      "title_original": "スロウスタート",
+      "title_romaji": "Slow Start",
+      "title_english": "Slow Start",
+      "release_year": 2018,
+      "medium": {
+        "code": "tv_anime",
+        "label": "TV 动画"
+      },
+      "scope_summary": "2018 television series formal episodes 1–12",
+      "female_relationship_centrality": {
+        "code": "main",
+        "label": "主线"
+      },
+      "archive_basis": {
+        "code": "work_classification",
+        "label": "作品分类"
+      },
+      "romance_centrality": {
+        "code": "important_secondary",
+        "label": "重要副线"
+      },
+      "highest_romance_explicitness": {
+        "code": "explicit_desire",
+        "label": "明确欲望"
+      },
+      "official_label": {
+        "code": "unmarked",
+        "label": "未标百合／GL"
+      },
+      "identity_evidence_basis": {
+        "code": "explicit_relationship_only",
+        "label": "只有明确关系事实"
+      },
+      "male_romance_line": {
+        "code": "none",
+        "label": "无"
+      },
+      "confidence": {
+        "code": "high",
+        "label": "高"
+      },
+      "classification_date": "2026-07-31",
+      "content_warnings": [
+        "sexualized_underwear_swimsuit_breast_nipple_and_body_jokes_involving_teen_coded_characters",
+        "teacher_checks_a_students_underwear_and_recurrent_teacher_student_flirtation_with_age_and_authority_imbalance",
+        "adult_alcohol_intoxication_and_a_student_escorting_an_intoxicated_teacher_home",
+        "social_anxiety_school_interruption_exam_failure_hikikomori_and_fear_of_peer_rejection",
+        "dating_sim_and_embedded_fictional_romance_discussion",
+        "mild_slapstick_and_boundary_testing_played_as_comedy"
+      ],
+      "content_warnings_text": "sexualized_underwear_swimsuit_breast_nipple_and_body_jokes_involving_teen_coded_characters；teacher_checks_a_students_underwear_and_recurrent_teacher_student_flirtation_with_age_and_authority_imbalance；adult_alcohol_intoxication_and_a_student_escorting_an_intoxicated_teacher_home；social_anxiety_school_interruption_exam_failure_hikikomori_and_fear_of_peer_rejection；dating_sim_and_embedded_fictional_romance_discussion；mild_slapstick_and_boundary_testing_played_as_comedy",
+      "quick_queries": {
+        "explicit_relationship": false,
+        "explicit_desire": true,
+        "accepts_unconfirmed": true,
+        "female_relationship_main": true,
+        "official_yuri_gl": false
+      },
+      "bangumi_rank": 2584,
+      "bangumi_yuri_tag_ratio": 0.1334477307286167,
+      "report_url": "/yuri-classification-archive/works/slow_start_tv_2018/",
+      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/slow_start_tv_2018/"
+    },
+    {
+      "slug": "tonari_no_kyuuketsuki_san_tv_2018",
+      "title": "邻家索菲",
+      "title_original": "となりの吸血鬼さん",
+      "title_romaji": "Tonari no Kyuuketsuki-san",
+      "title_english": "Ms. vampire who lives in my neighborhood.",
+      "release_year": 2018,
+      "medium": {
+        "code": "tv_anime",
+        "label": "TV 动画"
+      },
+      "scope_summary": "2018 television series formal episodes 1–12",
+      "female_relationship_centrality": {
+        "code": "main",
+        "label": "主线"
+      },
+      "archive_basis": {
+        "code": "work_classification",
+        "label": "作品分类"
+      },
+      "romance_centrality": {
+        "code": "main",
+        "label": "主线"
+      },
+      "highest_romance_explicitness": {
+        "code": "explicit_desire",
+        "label": "明确欲望"
+      },
+      "official_label": {
+        "code": "unmarked",
+        "label": "未标百合／GL"
+      },
+      "identity_evidence_basis": {
+        "code": "explicit_relationship_only",
+        "label": "只有明确关系事实"
+      },
+      "male_romance_line": {
+        "code": "none",
+        "label": "无"
+      },
+      "confidence": {
+        "code": "high",
+        "label": "高"
+      },
+      "classification_date": "2026-07-31",
+      "content_warnings": [
+        "uninvited_move_in_and_repeated_boundary_testing_played_as_comedy",
+        "a_sunlight_vulnerable_vampire_is_secretly_transported_to_a_beach_and_exposed_to_serious_risk",
+        "blood_drinking_continues_after_explicit_refusal",
+        "bathing_nudity_buttocks_underwear_and_body_jokes",
+        "sexualized_comments_toward_young_women_and_in_story_harassment_callout",
+        "temporary_feigned_illness_to_prolong_care",
+        "possessiveness_and_jealousy_played_as_comedy",
+        "blood_food_and_vampire_hunting"
+      ],
+      "content_warnings_text": "uninvited_move_in_and_repeated_boundary_testing_played_as_comedy；a_sunlight_vulnerable_vampire_is_secretly_transported_to_a_beach_and_exposed_to_serious_risk；blood_drinking_continues_after_explicit_refusal；bathing_nudity_buttocks_underwear_and_body_jokes；sexualized_comments_toward_young_women_and_in_story_harassment_callout；temporary_feigned_illness_to_prolong_care；possessiveness_and_jealousy_played_as_comedy；blood_food_and_vampire_hunting",
+      "quick_queries": {
+        "explicit_relationship": false,
+        "explicit_desire": true,
+        "accepts_unconfirmed": true,
+        "female_relationship_main": true,
+        "official_yuri_gl": false
+      },
+      "bangumi_rank": 2590,
+      "bangumi_yuri_tag_ratio": 0.1318606627017842,
+      "report_url": "/yuri-classification-archive/works/tonari_no_kyuuketsuki_san_tv_2018/",
+      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/tonari_no_kyuuketsuki_san_tv_2018/"
+    },
+    {
+      "slug": "kirio_fan_club_tv_2026",
+      "title": "雾尾粉丝俱乐部",
+      "title_original": "霧尾ファンクラブ",
+      "title_romaji": "Kirio Fan Club",
+      "title_english": "Kirio Fanclub",
+      "release_year": 2026,
+      "medium": {
+        "code": "tv_anime",
+        "label": "TV 动画"
+      },
+      "scope_summary": "2026 TV anime episodes 1-12",
+      "female_relationship_centrality": {
+        "code": "main",
+        "label": "主线"
+      },
+      "archive_basis": {
+        "code": "work_classification",
+        "label": "作品分类"
+      },
+      "romance_centrality": {
+        "code": "main",
+        "label": "主线"
+      },
+      "highest_romance_explicitness": {
+        "code": "explicit_desire",
+        "label": "明确欲望"
+      },
+      "official_label": {
+        "code": "unmarked",
+        "label": "未标百合／GL"
+      },
+      "identity_evidence_basis": {
+        "code": "explicit_relationship_only",
+        "label": "只有明确关系事实"
+      },
+      "male_romance_line": {
+        "code": "parallel",
+        "label": "并列"
+      },
+      "confidence": {
+        "code": "high",
+        "label": "高"
+      },
+      "classification_date": "2026-07-31",
+      "content_warnings": [
+        "childhood_friend_terminal_illness_death_and_grief",
+        "school_refusal_and_survivor_guilt",
+        "obsessive_observation_photography_and_personal_boundary_intrusion",
+        "bodily_fluid_excretion_and_sexualized_jokes_involving_high_school_characters",
+        "occult_curse_death_fantasy_and_comic_injury",
+        "unrequited_love_rejection_and_hidden_same_sex_desire"
+      ],
+      "content_warnings_text": "childhood_friend_terminal_illness_death_and_grief；school_refusal_and_survivor_guilt；obsessive_observation_photography_and_personal_boundary_intrusion；bodily_fluid_excretion_and_sexualized_jokes_involving_high_school_characters；occult_curse_death_fantasy_and_comic_injury；unrequited_love_rejection_and_hidden_same_sex_desire",
+      "quick_queries": {
+        "explicit_relationship": false,
+        "explicit_desire": true,
+        "accepts_unconfirmed": true,
+        "female_relationship_main": true,
+        "official_yuri_gl": false
+      },
+      "bangumi_rank": 2659,
+      "bangumi_yuri_tag_ratio": 0.042188058634250986,
+      "report_url": "/yuri-classification-archive/works/kirio_fan_club_tv_2026/",
+      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/kirio_fan_club_tv_2026/"
+    },
+    {
+      "slug": "uma_musume_pretty_derby_tv_2018",
+      "title": "赛马娘 Pretty Derby",
+      "title_original": "ウマ娘 プリティーダービー",
+      "title_romaji": "Uma Musume: Pretty Derby",
+      "title_english": "Umamusume: Pretty Derby",
+      "release_year": 2018,
+      "medium": {
+        "code": "tv_anime",
+        "label": "TV 动画"
+      },
+      "scope_summary": "official first-season TV anime episodes 1-12 and official EXTRA R episode 13, originally broadcast from 2018-04-02 through 2018-06-18",
+      "female_relationship_centrality": {
+        "code": "main",
+        "label": "主线"
+      },
+      "archive_basis": {
+        "code": "work_classification",
+        "label": "作品分类"
+      },
+      "romance_centrality": {
+        "code": "absent",
+        "label": "缺席"
+      },
+      "highest_romance_explicitness": {
+        "code": "non_romantic",
+        "label": "非恋爱"
+      },
+      "official_label": {
+        "code": "unmarked",
+        "label": "未标百合／GL"
+      },
+      "identity_evidence_basis": {
+        "code": "no_in_scope_evidence",
+        "label": "范围内无依据"
+      },
+      "male_romance_line": {
+        "code": "none",
+        "label": "无"
+      },
+      "confidence": {
+        "code": "high",
+        "label": "高"
+      },
+      "classification_date": "2026-07-31",
+      "content_warnings": [
+        "severe_race_injury_fall_emergency_response_and_leg_fracture",
+        "long_rehabilitation_and_fear_of_reinjury",
+        "overtraining_and_intense_competitive_pressure",
+        "body_weight_dieting_and_food_restriction_jokes",
+        "male_trainer_nonconsensual_leg_touching_framed_as_sexual_harassment_comedy",
+        "protagonist_birth_mother_death_and_family_bereavement"
+      ],
+      "content_warnings_text": "severe_race_injury_fall_emergency_response_and_leg_fracture；long_rehabilitation_and_fear_of_reinjury；overtraining_and_intense_competitive_pressure；body_weight_dieting_and_food_restriction_jokes；male_trainer_nonconsensual_leg_touching_framed_as_sexual_harassment_comedy；protagonist_birth_mother_death_and_family_bereavement",
+      "quick_queries": {
+        "explicit_relationship": false,
+        "explicit_desire": false,
+        "accepts_unconfirmed": false,
+        "female_relationship_main": true,
+        "official_yuri_gl": false
+      },
+      "bangumi_rank": 2679,
+      "bangumi_yuri_tag_ratio": 0.06519690202024342,
+      "report_url": "/yuri-classification-archive/works/uma_musume_pretty_derby_tv_2018/",
+      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/uma_musume_pretty_derby_tv_2018/"
+    },
+    {
+      "slug": "houkago_no_pleiades_tv_2015",
+      "title": "放学后的昴星团",
+      "title_original": "放課後のプレアデス",
+      "title_romaji": "Houkago no Pleiades",
+      "title_english": "Wish Upon the Pleiades",
+      "release_year": 2015,
+      "medium": {
+        "code": "tv_anime",
+        "label": "TV 动画"
+      },
+      "scope_summary": "2015 broadcast TV anime episodes 1-12；official TV program and character descriptions only as scope and paratext evidence；current public database fields and community tags only as external labeling evidence",
+      "female_relationship_centrality": {
+        "code": "main",
+        "label": "主线"
+      },
+      "archive_basis": {
+        "code": "work_classification",
+        "label": "作品分类"
+      },
+      "romance_centrality": {
+        "code": "absent",
+        "label": "缺席"
+      },
+      "highest_romance_explicitness": {
+        "code": "non_romantic",
+        "label": "非恋爱"
+      },
+      "official_label": {
+        "code": "unmarked",
+        "label": "未标百合／GL"
+      },
+      "identity_evidence_basis": {
+        "code": "no_in_scope_evidence",
+        "label": "范围内无依据"
+      },
+      "male_romance_line": {
+        "code": "parallel",
+        "label": "并列"
+      },
+      "confidence": {
+        "code": "high",
+        "label": "高"
+      },
+      "classification_date": "2026-07-31",
+      "content_warnings": [
+        "minor_characters_in_cosmic_peril_and_mild_fantasy_combat",
+        "hospitalization_coma_and_death_threat",
+        "self_erasure_and_death_wish_language",
+        "bereavement_and_family_loss",
+        "memory_discontinuity_and_separation"
+      ],
+      "content_warnings_text": "minor_characters_in_cosmic_peril_and_mild_fantasy_combat；hospitalization_coma_and_death_threat；self_erasure_and_death_wish_language；bereavement_and_family_loss；memory_discontinuity_and_separation",
+      "quick_queries": {
+        "explicit_relationship": false,
+        "explicit_desire": false,
+        "accepts_unconfirmed": false,
+        "female_relationship_main": true,
+        "official_yuri_gl": false
+      },
+      "bangumi_rank": 2709,
+      "bangumi_yuri_tag_ratio": 0.05688124306326304,
+      "report_url": "/yuri-classification-archive/works/houkago_no_pleiades_tv_2015/",
+      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/houkago_no_pleiades_tv_2015/"
+    },
+    {
+      "slug": "munou_na_nana_tv_2020",
+      "title": "无能力者娜娜",
+      "title_original": "無能なナナ",
+      "title_romaji": "Munou na Nana",
+      "title_english": "Talentless Nana",
+      "release_year": 2020,
+      "medium": {
+        "code": "tv_anime",
+        "label": "TV 动画"
+      },
+      "scope_summary": "2020 broadcast TV anime episodes 1-13；official TV story, character and episode-commentary pages only as scope, action and paratext evidence；current public database fields and community tags only as external labeling evidence",
+      "female_relationship_centrality": {
+        "code": "main",
+        "label": "主线"
+      },
+      "archive_basis": {
+        "code": "work_classification",
+        "label": "作品分类"
+      },
+      "romance_centrality": {
+        "code": "absent",
+        "label": "缺席"
+      },
+      "highest_romance_explicitness": {
+        "code": "non_romantic",
+        "label": "非恋爱"
+      },
+      "official_label": {
+        "code": "other",
+        "label": "其他相关表述"
+      },
+      "identity_evidence_basis": {
+        "code": "no_in_scope_evidence",
+        "label": "范围内无依据"
+      },
+      "male_romance_line": {
+        "code": "secondary",
+        "label": "副线"
+      },
+      "confidence": {
+        "code": "high",
+        "label": "高"
+      },
+      "classification_date": "2026-07-31",
+      "content_warnings": [
+        "serial_murder_and_attempted_murder_by_the_protagonist",
+        "deception_manipulation_and_instrumental_use_of_trust",
+        "knife_violence_throat_cutting_poisoning_drowning_and_fatal_injuries",
+        "death_of_teenagers_corpses_necromancy_and_autopsy_discussion",
+        "school_bullying_humiliation_and_a_deceptive_love_letter_prank",
+        "sexualized_blackmail_and_coerced_girlfriend_role",
+        "self_inflicted_injury_used_to_stage_an_attack",
+        "animal_cruelty",
+        "childhood_family_murder_survivor_guilt_and_traumatic_flashbacks",
+        "terminal_illness_bereavement_and_grief",
+        "life_shortening_healing_and_sacrificial_death"
+      ],
+      "content_warnings_text": "serial_murder_and_attempted_murder_by_the_protagonist；deception_manipulation_and_instrumental_use_of_trust；knife_violence_throat_cutting_poisoning_drowning_and_fatal_injuries；death_of_teenagers_corpses_necromancy_and_autopsy_discussion；school_bullying_humiliation_and_a_deceptive_love_letter_prank；sexualized_blackmail_and_coerced_girlfriend_role；self_inflicted_injury_used_to_stage_an_attack；animal_cruelty；childhood_family_murder_survivor_guilt_and_traumatic_flashbacks；terminal_illness_bereavement_and_grief；life_shortening_healing_and_sacrificial_death",
+      "quick_queries": {
+        "explicit_relationship": false,
+        "explicit_desire": false,
+        "accepts_unconfirmed": false,
+        "female_relationship_main": true,
+        "official_yuri_gl": false
+      },
+      "bangumi_rank": 2794,
+      "bangumi_yuri_tag_ratio": 0.012880561923129906,
+      "report_url": "/yuri-classification-archive/works/munou_na_nana_tv_2020/",
+      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/munou_na_nana_tv_2020/"
     },
     {
       "slug": "world_dai_star_tv_2023",
@@ -7794,541 +9936,6 @@
       "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/yoru_no_kurage_wa_oyogenai_tv_2024/"
     },
     {
-      "slug": "plus_tic_neesan_web_2011",
-      "title": "+模型姐妹",
-      "title_original": "＋チック姉さん",
-      "title_romaji": "Plastic Nee-san",
-      "title_english": "Plastic Elder Sister",
-      "release_year": 2011,
-      "medium": {
-        "code": "web_short_anime",
-        "label": "WEB 短篇动画"
-      },
-      "scope_summary": "The twelve approximately two-minute animated shorts commonly represented as one ONA/database entry, using the home-video order from 喧嘩チック through 大きいなお世話チック；The six shorts publicly distributed on the web and the six additional shorts included in the first twelve-short home-video collection",
-      "female_relationship_centrality": {
-        "code": "main",
-        "label": "主线"
-      },
-      "archive_basis": {
-        "code": "work_classification",
-        "label": "作品分类"
-      },
-      "romance_centrality": {
-        "code": "absent",
-        "label": "缺席"
-      },
-      "highest_romance_explicitness": {
-        "code": "non_romantic",
-        "label": "非恋爱"
-      },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
-      },
-      "identity_evidence_basis": {
-        "code": "no_in_scope_evidence",
-        "label": "范围内无依据"
-      },
-      "male_romance_line": {
-        "code": "secondary",
-        "label": "副线"
-      },
-      "confidence": {
-        "code": "medium",
-        "label": "中"
-      },
-      "classification_date": "2026-07-31",
-      "content_warnings": [
-        "slapstick violence and threats among students",
-        "coercive stripping, clothing removal and body-boundary violations used as comedy",
-        "sexualized underwear, partial nudity and exposure jokes",
-        "same-sex physical harassment used as a gag without establishing romance",
-        "heterosexual crush, breakup, boyfriend and courtship jokes",
-        "body shaming and ridicule about puberty and physical appearance",
-        "obscene gestures, sexual language and genital humour",
-        "bullying, humiliation and intimidation"
-      ],
-      "content_warnings_text": "slapstick violence and threats among students；coercive stripping, clothing removal and body-boundary violations used as comedy；sexualized underwear, partial nudity and exposure jokes；same-sex physical harassment used as a gag without establishing romance；heterosexual crush, breakup, boyfriend and courtship jokes；body shaming and ridicule about puberty and physical appearance；obscene gestures, sexual language and genital humour；bullying, humiliation and intimidation",
-      "quick_queries": {
-        "explicit_relationship": false,
-        "explicit_desire": false,
-        "accepts_unconfirmed": false,
-        "female_relationship_main": true,
-        "official_yuri_gl": false
-      },
-      "bangumi_rank": null,
-      "bangumi_yuri_tag_ratio": null,
-      "report_url": "/yuri-classification-archive/works/plus_tic_neesan_web_2011/",
-      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/plus_tic_neesan_web_2011/"
-    },
-    {
-      "slug": "endro_tv_2019",
-      "title": "Endro~！",
-      "title_original": "えんどろ〜！",
-      "title_romaji": "Endro~!",
-      "title_english": "ENDRO!",
-      "release_year": 2019,
-      "medium": {
-        "code": "tv_anime",
-        "label": "TV 动画"
-      },
-      "scope_summary": "2019 TV anime episodes 1-12",
-      "female_relationship_centrality": {
-        "code": "main",
-        "label": "主线"
-      },
-      "archive_basis": {
-        "code": "work_classification",
-        "label": "作品分类"
-      },
-      "romance_centrality": {
-        "code": "important_secondary",
-        "label": "重要副线"
-      },
-      "highest_romance_explicitness": {
-        "code": "explicit_desire",
-        "label": "明确欲望"
-      },
-      "official_label": {
-        "code": "other",
-        "label": "其他相关表述"
-      },
-      "identity_evidence_basis": {
-        "code": "explicit_relationship_only",
-        "label": "只有明确关系事实"
-      },
-      "male_romance_line": {
-        "code": "none",
-        "label": "无"
-      },
-      "confidence": {
-        "code": "medium",
-        "label": "中"
-      },
-      "classification_date": "2026-07-30",
-      "content_warnings": [
-        "fantasy_combat_and_monster_threats",
-        "time_reversal_and_memory_manipulation",
-        "staged_kidnapping_and_deception_by_a_friend",
-        "swimsuit_and_sexualized_imagery_involving_young_looking_characters",
-        "school_and_teacher_student_power_structure"
-      ],
-      "content_warnings_text": "fantasy_combat_and_monster_threats；time_reversal_and_memory_manipulation；staged_kidnapping_and_deception_by_a_friend；swimsuit_and_sexualized_imagery_involving_young_looking_characters；school_and_teacher_student_power_structure",
-      "quick_queries": {
-        "explicit_relationship": false,
-        "explicit_desire": true,
-        "accepts_unconfirmed": true,
-        "female_relationship_main": true,
-        "official_yuri_gl": false
-      },
-      "bangumi_rank": null,
-      "bangumi_yuri_tag_ratio": null,
-      "report_url": "/yuri-classification-archive/works/endro_tv_2019/",
-      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/endro_tv_2019/"
-    },
-    {
-      "slug": "estab_life_great_escape_tv_2022",
-      "title": "Estab-Life Great Escape",
-      "title_original": "エスタブライフ グレイトエスケープ",
-      "title_romaji": "Estab-Life: Great Escape",
-      "title_english": "Estab-Life: Great Escape",
-      "release_year": 2022,
-      "medium": {
-        "code": "tv_anime",
-        "label": "TV 动画"
-      },
-      "scope_summary": "2022 TV anime formal episodes 1-12；the FOD advance release only as distribution context for the same numbered TV-anime content；official episode pages and public database entries only as scope and classification context",
-      "female_relationship_centrality": {
-        "code": "main",
-        "label": "主线"
-      },
-      "archive_basis": {
-        "code": "work_classification",
-        "label": "作品分类"
-      },
-      "romance_centrality": {
-        "code": "important_secondary",
-        "label": "重要副线"
-      },
-      "highest_romance_explicitness": {
-        "code": "explicit_desire",
-        "label": "明确欲望"
-      },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
-      },
-      "identity_evidence_basis": {
-        "code": "explicit_relationship_only",
-        "label": "只有明确关系事实"
-      },
-      "male_romance_line": {
-        "code": "none",
-        "label": "无"
-      },
-      "confidence": {
-        "code": "high",
-        "label": "高"
-      },
-      "classification_date": "2026-07-31",
-      "content_warnings": [
-        "firearms_explosions_combat_and_serious_injury",
-        "suicidal_ideation_and_suicide_method_jokes",
-        "authoritarian_surveillance_forced_conformity_and_imprisonment",
-        "gang_violence_religious_coercion_and_forced_labour",
-        "sexualised_body_underwear_and_no_underwear_jokes",
-        "fantasy_of_forcing_down_a_character_with_consent_explicitly_debated",
-        "end_of_life_farewell_and_character_disappearance"
-      ],
-      "content_warnings_text": "firearms_explosions_combat_and_serious_injury；suicidal_ideation_and_suicide_method_jokes；authoritarian_surveillance_forced_conformity_and_imprisonment；gang_violence_religious_coercion_and_forced_labour；sexualised_body_underwear_and_no_underwear_jokes；fantasy_of_forcing_down_a_character_with_consent_explicitly_debated；end_of_life_farewell_and_character_disappearance",
-      "quick_queries": {
-        "explicit_relationship": false,
-        "explicit_desire": true,
-        "accepts_unconfirmed": true,
-        "female_relationship_main": true,
-        "official_yuri_gl": false
-      },
-      "bangumi_rank": null,
-      "bangumi_yuri_tag_ratio": null,
-      "report_url": "/yuri-classification-archive/works/estab_life_great_escape_tv_2022/",
-      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/estab_life_great_escape_tv_2022/"
-    },
-    {
-      "slug": "ssss_gridman_tv_2018",
-      "title": "SSSS.古立特",
-      "title_original": "SSSS.GRIDMAN",
-      "title_romaji": "SSSS.GRIDMAN",
-      "title_english": "SSSS.GRIDMAN",
-      "release_year": 2018,
-      "medium": {
-        "code": "tv_anime",
-        "label": "TV 动画"
-      },
-      "scope_summary": "2018 broadcast TV anime episodes 1-12；official TV anime website and episode announcement pages as paratext；current public database entries only as classification context",
-      "female_relationship_centrality": {
-        "code": "important_secondary",
-        "label": "重要副线"
-      },
-      "archive_basis": {
-        "code": "reader_interpretation",
-        "label": "读者解读"
-      },
-      "romance_centrality": {
-        "code": "important_secondary",
-        "label": "重要副线"
-      },
-      "highest_romance_explicitness": {
-        "code": "potential_or_strongly_coded",
-        "label": "潜在／明显但未确认"
-      },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
-      },
-      "identity_evidence_basis": {
-        "code": "inferred_relationship_only",
-        "label": "只有关系推断"
-      },
-      "male_romance_line": {
-        "code": "parallel",
-        "label": "并列"
-      },
-      "confidence": {
-        "code": "medium",
-        "label": "中"
-      },
-      "classification_date": "2026-07-30",
-      "content_warnings": [
-        "kaiju_violence_city_destruction_and_mass_death_erasure",
-        "stabbing_blood_and_child_endangerment",
-        "amnesia_identity_displacement_and_memory_rewriting",
-        "creator_control_and_manipulated_affection",
-        "psychological_exploitation_isolation_and_self_loathing",
-        "dream_world_coercion_and_escapism",
-        "self_destructive_language_and_requests_to_be_killed",
-        "friendship_originated_by_design_and_creator_created_power_imbalance"
-      ],
-      "content_warnings_text": "kaiju_violence_city_destruction_and_mass_death_erasure；stabbing_blood_and_child_endangerment；amnesia_identity_displacement_and_memory_rewriting；creator_control_and_manipulated_affection；psychological_exploitation_isolation_and_self_loathing；dream_world_coercion_and_escapism；self_destructive_language_and_requests_to_be_killed；friendship_originated_by_design_and_creator_created_power_imbalance",
-      "quick_queries": {
-        "explicit_relationship": false,
-        "explicit_desire": false,
-        "accepts_unconfirmed": true,
-        "female_relationship_main": false,
-        "official_yuri_gl": false
-      },
-      "bangumi_rank": null,
-      "bangumi_yuri_tag_ratio": null,
-      "report_url": "/yuri-classification-archive/works/ssss_gridman_tv_2018/",
-      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/ssss_gridman_tv_2018/"
-    },
-    {
-      "slug": "slow_start_tv_2018",
-      "title": "Slow Start",
-      "title_original": "スロウスタート",
-      "title_romaji": "Slow Start",
-      "title_english": "Slow Start",
-      "release_year": 2018,
-      "medium": {
-        "code": "tv_anime",
-        "label": "TV 动画"
-      },
-      "scope_summary": "2018 television series formal episodes 1–12",
-      "female_relationship_centrality": {
-        "code": "main",
-        "label": "主线"
-      },
-      "archive_basis": {
-        "code": "work_classification",
-        "label": "作品分类"
-      },
-      "romance_centrality": {
-        "code": "important_secondary",
-        "label": "重要副线"
-      },
-      "highest_romance_explicitness": {
-        "code": "explicit_desire",
-        "label": "明确欲望"
-      },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
-      },
-      "identity_evidence_basis": {
-        "code": "explicit_relationship_only",
-        "label": "只有明确关系事实"
-      },
-      "male_romance_line": {
-        "code": "none",
-        "label": "无"
-      },
-      "confidence": {
-        "code": "high",
-        "label": "高"
-      },
-      "classification_date": "2026-07-31",
-      "content_warnings": [
-        "sexualized_underwear_swimsuit_breast_nipple_and_body_jokes_involving_teen_coded_characters",
-        "teacher_checks_a_students_underwear_and_recurrent_teacher_student_flirtation_with_age_and_authority_imbalance",
-        "adult_alcohol_intoxication_and_a_student_escorting_an_intoxicated_teacher_home",
-        "social_anxiety_school_interruption_exam_failure_hikikomori_and_fear_of_peer_rejection",
-        "dating_sim_and_embedded_fictional_romance_discussion",
-        "mild_slapstick_and_boundary_testing_played_as_comedy"
-      ],
-      "content_warnings_text": "sexualized_underwear_swimsuit_breast_nipple_and_body_jokes_involving_teen_coded_characters；teacher_checks_a_students_underwear_and_recurrent_teacher_student_flirtation_with_age_and_authority_imbalance；adult_alcohol_intoxication_and_a_student_escorting_an_intoxicated_teacher_home；social_anxiety_school_interruption_exam_failure_hikikomori_and_fear_of_peer_rejection；dating_sim_and_embedded_fictional_romance_discussion；mild_slapstick_and_boundary_testing_played_as_comedy",
-      "quick_queries": {
-        "explicit_relationship": false,
-        "explicit_desire": true,
-        "accepts_unconfirmed": true,
-        "female_relationship_main": true,
-        "official_yuri_gl": false
-      },
-      "bangumi_rank": null,
-      "bangumi_yuri_tag_ratio": null,
-      "report_url": "/yuri-classification-archive/works/slow_start_tv_2018/",
-      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/slow_start_tv_2018/"
-    },
-    {
-      "slug": "kono_subarashii_sekai_ni_bakuen_wo_tv_2023",
-      "title": "为美好的世界献上爆焰！",
-      "title_original": "この素晴らしい世界に爆焔を！",
-      "title_romaji": "Kono Subarashii Sekai ni Bakuen wo!",
-      "title_english": "KONOSUBA -An Explosion on This Wonderful World!",
-      "release_year": 2023,
-      "medium": {
-        "code": "tv_anime",
-        "label": "TV 动画"
-      },
-      "scope_summary": "2023 television anime formal numbered episodes 1-12, aired from 2023-04-06 through 2023-06-22",
-      "female_relationship_centrality": {
-        "code": "main",
-        "label": "主线"
-      },
-      "archive_basis": {
-        "code": "work_classification",
-        "label": "作品分类"
-      },
-      "romance_centrality": {
-        "code": "main",
-        "label": "主线"
-      },
-      "highest_romance_explicitness": {
-        "code": "explicit_desire",
-        "label": "明确欲望"
-      },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
-      },
-      "identity_evidence_basis": {
-        "code": "explicit_relationship_only",
-        "label": "只有明确关系事实"
-      },
-      "male_romance_line": {
-        "code": "secondary",
-        "label": "副线"
-      },
-      "confidence": {
-        "code": "high",
-        "label": "高"
-      },
-      "classification_date": "2026-07-31",
-      "content_warnings": [
-        "adult_sexualization_harassment_and_unwanted_intimacy_directed_at_minors",
-        "male_stalking_voyeurism_marriage_fantasy_and_sexual_harassment",
-        "poverty_food_insecurity_and_child_hunger",
-        "school_isolation_peer_exploitation_and_social_humiliation",
-        "monster_attacks_combat_injury_explosions_and_threats",
-        "religious_cult_manipulation_and_vulgar_sexual_comedy"
-      ],
-      "content_warnings_text": "adult_sexualization_harassment_and_unwanted_intimacy_directed_at_minors；male_stalking_voyeurism_marriage_fantasy_and_sexual_harassment；poverty_food_insecurity_and_child_hunger；school_isolation_peer_exploitation_and_social_humiliation；monster_attacks_combat_injury_explosions_and_threats；religious_cult_manipulation_and_vulgar_sexual_comedy",
-      "quick_queries": {
-        "explicit_relationship": false,
-        "explicit_desire": true,
-        "accepts_unconfirmed": true,
-        "female_relationship_main": true,
-        "official_yuri_gl": false
-      },
-      "bangumi_rank": null,
-      "bangumi_yuri_tag_ratio": null,
-      "report_url": "/yuri-classification-archive/works/kono_subarashii_sekai_ni_bakuen_wo_tv_2023/",
-      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/kono_subarashii_sekai_ni_bakuen_wo_tv_2023/"
-    },
-    {
-      "slug": "figure_17_tv_2001",
-      "title": "代号17",
-      "title_original": "フィギュア17 つばさ&ヒカル",
-      "title_romaji": "Figure 17: Tsubasa & Hikaru",
-      "title_english": "Figure 17: Tsubasa & Hikaru",
-      "release_year": 2001,
-      "medium": {
-        "code": "tv_anime",
-        "label": "TV 动画"
-      },
-      "scope_summary": "2001-05-27 through 2002-05-26 TV anime, original episodes 1-13 at approximately 46-47 minutes each",
-      "female_relationship_centrality": {
-        "code": "main",
-        "label": "主线"
-      },
-      "archive_basis": {
-        "code": "work_classification",
-        "label": "作品分类"
-      },
-      "romance_centrality": {
-        "code": "main",
-        "label": "主线"
-      },
-      "highest_romance_explicitness": {
-        "code": "potential_or_strongly_coded",
-        "label": "潜在／明显但未确认"
-      },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
-      },
-      "identity_evidence_basis": {
-        "code": "inferred_relationship_only",
-        "label": "只有关系推断"
-      },
-      "male_romance_line": {
-        "code": "secondary",
-        "label": "副线"
-      },
-      "confidence": {
-        "code": "medium",
-        "label": "中"
-      },
-      "classification_date": "2026-07-30",
-      "content_warnings": [
-        "death_of_children_and_prolonged_grief",
-        "alien_violence_body_horror_and_child_endangerment",
-        "artificial_lifeform_death_and_forced_separation",
-        "memory_copying_manipulation_and_erasure",
-        "constructed_twin_sister_identity_with_romantic_ambiguity",
-        "intense_dependency_and_separation_anxiety",
-        "bereavement_and_parental_loss"
-      ],
-      "content_warnings_text": "death_of_children_and_prolonged_grief；alien_violence_body_horror_and_child_endangerment；artificial_lifeform_death_and_forced_separation；memory_copying_manipulation_and_erasure；constructed_twin_sister_identity_with_romantic_ambiguity；intense_dependency_and_separation_anxiety；bereavement_and_parental_loss",
-      "quick_queries": {
-        "explicit_relationship": false,
-        "explicit_desire": false,
-        "accepts_unconfirmed": true,
-        "female_relationship_main": true,
-        "official_yuri_gl": false
-      },
-      "bangumi_rank": null,
-      "bangumi_yuri_tag_ratio": null,
-      "report_url": "/yuri-classification-archive/works/figure_17_tv_2001/",
-      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/figure_17_tv_2001/"
-    },
-    {
-      "slug": "tantei_opera_milky_holmes_tv_2010",
-      "title": "侦探歌剧 少女福尔摩斯",
-      "title_original": "探偵オペラ ミルキィホームズ",
-      "title_romaji": "Tantei Opera Milky Holmes",
-      "title_english": "Detective Opera Milky Holmes",
-      "release_year": 2010,
-      "medium": {
-        "code": "tv_anime",
-        "label": "TV 动画"
-      },
-      "scope_summary": "2010 TV anime formal numbered episodes 1-12, aired from 2010-10-07 through 2010-12-23",
-      "female_relationship_centrality": {
-        "code": "main",
-        "label": "主线"
-      },
-      "archive_basis": {
-        "code": "work_classification",
-        "label": "作品分类"
-      },
-      "romance_centrality": {
-        "code": "absent",
-        "label": "缺席"
-      },
-      "highest_romance_explicitness": {
-        "code": "non_romantic",
-        "label": "非恋爱"
-      },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
-      },
-      "identity_evidence_basis": {
-        "code": "no_in_scope_evidence",
-        "label": "范围内无依据"
-      },
-      "male_romance_line": {
-        "code": "secondary",
-        "label": "副线"
-      },
-      "confidence": {
-        "code": "high",
-        "label": "高"
-      },
-      "classification_date": "2026-07-31",
-      "content_warnings": [
-        "food_insecurity_hunger_and_humiliating_loss_of_housing_privileges",
-        "frequent_slapstick_violence_explosions_falls_and_comedic_peril",
-        "unwanted_grabbing_forced_proximity_and_body_contact_played_as_comedy",
-        "sexualized_nudity_breast_and_underwear_gags_involving_school_characters",
-        "male_sexual_harassment_forced_undressing_and_coffin_confinement",
-        "male_exhibitionism_and_repeated_one_sided_sexualized_adoration",
-        "arranged_marriage_plot_and_secondary_heterosexual_romance",
-        "hostage_scenarios_drowning_threats_and_live_burial_imagery"
-      ],
-      "content_warnings_text": "food_insecurity_hunger_and_humiliating_loss_of_housing_privileges；frequent_slapstick_violence_explosions_falls_and_comedic_peril；unwanted_grabbing_forced_proximity_and_body_contact_played_as_comedy；sexualized_nudity_breast_and_underwear_gags_involving_school_characters；male_sexual_harassment_forced_undressing_and_coffin_confinement；male_exhibitionism_and_repeated_one_sided_sexualized_adoration；arranged_marriage_plot_and_secondary_heterosexual_romance；hostage_scenarios_drowning_threats_and_live_burial_imagery",
-      "quick_queries": {
-        "explicit_relationship": false,
-        "explicit_desire": false,
-        "accepts_unconfirmed": false,
-        "female_relationship_main": true,
-        "official_yuri_gl": false
-      },
-      "bangumi_rank": null,
-      "bangumi_yuri_tag_ratio": null,
-      "report_url": "/yuri-classification-archive/works/tantei_opera_milky_holmes_tv_2010/",
-      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/tantei_opera_milky_holmes_tv_2010/"
-    },
-    {
       "slug": "futari_wa_precure_tv_2004",
       "title": "光之美少女",
       "title_original": "ふたりはプリキュア",
@@ -8391,1613 +9998,6 @@
       "bangumi_yuri_tag_ratio": null,
       "report_url": "/yuri-classification-archive/works/futari_wa_precure_tv_2004/",
       "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/futari_wa_precure_tv_2004/"
-    },
-    {
-      "slug": "yama_no_susume_tv_2013",
-      "title": "向山进发",
-      "title_original": "ヤマノススメ",
-      "title_romaji": "Yama no Susume",
-      "title_english": "Encouragement of Climb",
-      "release_year": 2013,
-      "medium": {
-        "code": "tv_anime",
-        "label": "TV 动画"
-      },
-      "scope_summary": "2013 first TV season formal episodes 1–12",
-      "female_relationship_centrality": {
-        "code": "main",
-        "label": "主线"
-      },
-      "archive_basis": {
-        "code": "work_classification",
-        "label": "作品分类"
-      },
-      "romance_centrality": {
-        "code": "absent",
-        "label": "缺席"
-      },
-      "highest_romance_explicitness": {
-        "code": "non_romantic",
-        "label": "非恋爱"
-      },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
-      },
-      "identity_evidence_basis": {
-        "code": "no_in_scope_evidence",
-        "label": "范围内无依据"
-      },
-      "male_romance_line": {
-        "code": "none",
-        "label": "无"
-      },
-      "confidence": {
-        "code": "high",
-        "label": "高"
-      },
-      "classification_date": "2026-07-30",
-      "content_warnings": [
-        "childhood_fall_broken_bone_and_fear_of_heights",
-        "beginner_hiking_anxiety_and_physical_endangerment",
-        "broken_footwear_on_a_mountain_trail"
-      ],
-      "content_warnings_text": "childhood_fall_broken_bone_and_fear_of_heights；beginner_hiking_anxiety_and_physical_endangerment；broken_footwear_on_a_mountain_trail",
-      "quick_queries": {
-        "explicit_relationship": false,
-        "explicit_desire": false,
-        "accepts_unconfirmed": false,
-        "female_relationship_main": true,
-        "official_yuri_gl": false
-      },
-      "bangumi_rank": null,
-      "bangumi_yuri_tag_ratio": null,
-      "report_url": "/yuri-classification-archive/works/yama_no_susume_tv_2013/",
-      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/yama_no_susume_tv_2013/"
-    },
-    {
-      "slug": "yozakura_quartet_hana_no_uta_tv_2013",
-      "title": "夜樱四重奏 花之歌",
-      "title_original": "夜桜四重奏 ～ハナノウタ～",
-      "title_romaji": "Yozakura Quartet: Hana no Uta",
-      "title_english": "Yozakura Quartet: Hana no Uta",
-      "release_year": 2013,
-      "medium": {
-        "code": "tv_anime",
-        "label": "TV 动画"
-      },
-      "scope_summary": "2013 TV anime Yozakura Quartet: Hana no Uta episodes 1-13",
-      "female_relationship_centrality": {
-        "code": "important_secondary",
-        "label": "重要副线"
-      },
-      "archive_basis": {
-        "code": "work_classification",
-        "label": "作品分类"
-      },
-      "romance_centrality": {
-        "code": "local",
-        "label": "局部"
-      },
-      "highest_romance_explicitness": {
-        "code": "explicit_desire",
-        "label": "明确欲望"
-      },
-      "official_label": {
-        "code": "other",
-        "label": "其他相关表述"
-      },
-      "identity_evidence_basis": {
-        "code": "explicit_relationship_only",
-        "label": "只有明确关系事实"
-      },
-      "male_romance_line": {
-        "code": "secondary",
-        "label": "副线"
-      },
-      "confidence": {
-        "code": "medium",
-        "label": "中"
-      },
-      "classification_date": "2026-07-30",
-      "content_warnings": [
-        "fantasy_violence_and_repeated_child_or_teen_endangerment",
-        "possession_coercion_and_threats_of_death_or_forced_dimensional_removal",
-        "repeated_fanservice_and_sexualized_observation_of_teen_characters",
-        "sibling_death_grief_and_family_conflict",
-        "human_youkai_discrimination_and_sacrificial_policy",
-        "alcohol_and_intoxication_gags"
-      ],
-      "content_warnings_text": "fantasy_violence_and_repeated_child_or_teen_endangerment；possession_coercion_and_threats_of_death_or_forced_dimensional_removal；repeated_fanservice_and_sexualized_observation_of_teen_characters；sibling_death_grief_and_family_conflict；human_youkai_discrimination_and_sacrificial_policy；alcohol_and_intoxication_gags",
-      "quick_queries": {
-        "explicit_relationship": false,
-        "explicit_desire": true,
-        "accepts_unconfirmed": true,
-        "female_relationship_main": false,
-        "official_yuri_gl": false
-      },
-      "bangumi_rank": null,
-      "bangumi_yuri_tag_ratio": null,
-      "report_url": "/yuri-classification-archive/works/yozakura_quartet_hana_no_uta_tv_2013/",
-      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/yozakura_quartet_hana_no_uta_tv_2013/"
-    },
-    {
-      "slug": "kurau_phantom_memory_tv_2004",
-      "title": "库拉乌 幻之记忆",
-      "title_original": "KURAU Phantom Memory",
-      "title_romaji": "KURAU Phantom Memory",
-      "title_english": "Kurau Phantom Memory",
-      "release_year": 2004,
-      "medium": {
-        "code": "tv_anime",
-        "label": "TV 动画"
-      },
-      "scope_summary": "2004 TV anime formal episodes 1–24",
-      "female_relationship_centrality": {
-        "code": "main",
-        "label": "主线"
-      },
-      "archive_basis": {
-        "code": "work_classification",
-        "label": "作品分类"
-      },
-      "romance_centrality": {
-        "code": "absent",
-        "label": "缺席"
-      },
-      "highest_romance_explicitness": {
-        "code": "non_romantic",
-        "label": "非恋爱"
-      },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
-      },
-      "identity_evidence_basis": {
-        "code": "no_in_scope_evidence",
-        "label": "范围内无依据"
-      },
-      "male_romance_line": {
-        "code": "secondary",
-        "label": "副线"
-      },
-      "confidence": {
-        "code": "medium",
-        "label": "中"
-      },
-      "classification_date": "2026-07-30",
-      "content_warnings": [
-        "institutional_pursuit_detention_and_state_violence",
-        "human_and_energy_experimentation",
-        "body_dissolution_and_identity_displacement",
-        "war_terrorism_and_civil_unrest",
-        "death_grief_and_family_separation",
-        "child_injury_and_endangerment",
-        "coercive_pair_replacement"
-      ],
-      "content_warnings_text": "institutional_pursuit_detention_and_state_violence；human_and_energy_experimentation；body_dissolution_and_identity_displacement；war_terrorism_and_civil_unrest；death_grief_and_family_separation；child_injury_and_endangerment；coercive_pair_replacement",
-      "quick_queries": {
-        "explicit_relationship": false,
-        "explicit_desire": false,
-        "accepts_unconfirmed": false,
-        "female_relationship_main": true,
-        "official_yuri_gl": false
-      },
-      "bangumi_rank": null,
-      "bangumi_yuri_tag_ratio": null,
-      "report_url": "/yuri-classification-archive/works/kurau_phantom_memory_tv_2004/",
-      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/kurau_phantom_memory_tv_2004/"
-    },
-    {
-      "slug": "mahou_shoujo_ni_akogarete_tv_2024",
-      "title": "憧憬成为魔法少女",
-      "title_original": "魔法少女にあこがれて",
-      "title_romaji": "Mahou Shoujo ni Akogarete",
-      "title_english": "Gushing over Magical Girls",
-      "release_year": 2024,
-      "medium": {
-        "code": "tv_anime",
-        "label": "TV 动画"
-      },
-      "scope_summary": "2024 TV anime formal episodes 1-13",
-      "female_relationship_centrality": {
-        "code": "main",
-        "label": "主线"
-      },
-      "archive_basis": {
-        "code": "work_classification",
-        "label": "作品分类"
-      },
-      "romance_centrality": {
-        "code": "main",
-        "label": "主线"
-      },
-      "highest_romance_explicitness": {
-        "code": "explicit_desire",
-        "label": "明确欲望"
-      },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
-      },
-      "identity_evidence_basis": {
-        "code": "explicit_relationship_only",
-        "label": "只有明确关系事实"
-      },
-      "male_romance_line": {
-        "code": "none",
-        "label": "无"
-      },
-      "confidence": {
-        "code": "high",
-        "label": "高"
-      },
-      "classification_date": "2026-07-31",
-      "content_warnings": [
-        "sexualisation_of_middle_school_age_characters",
-        "repeated_nonconsensual_bondage_stripping_groping_and_genital_or_breast_stimulation",
-        "coerced_kissing_and_sexual_activity_in_a_locked_room",
-        "sadism_masochism_humiliation_and_orgasmic_reactions",
-        "tentacles_monster_assault_and_public_exposure",
-        "blackmail_forced_transformation_and_identity_threats",
-        "mind_control_age_regression_and_childlike_roleplay",
-        "combat_injury_weapons_and_city_destruction"
-      ],
-      "content_warnings_text": "sexualisation_of_middle_school_age_characters；repeated_nonconsensual_bondage_stripping_groping_and_genital_or_breast_stimulation；coerced_kissing_and_sexual_activity_in_a_locked_room；sadism_masochism_humiliation_and_orgasmic_reactions；tentacles_monster_assault_and_public_exposure；blackmail_forced_transformation_and_identity_threats；mind_control_age_regression_and_childlike_roleplay；combat_injury_weapons_and_city_destruction",
-      "quick_queries": {
-        "explicit_relationship": false,
-        "explicit_desire": true,
-        "accepts_unconfirmed": true,
-        "female_relationship_main": true,
-        "official_yuri_gl": false
-      },
-      "bangumi_rank": null,
-      "bangumi_yuri_tag_ratio": null,
-      "report_url": "/yuri-classification-archive/works/mahou_shoujo_ni_akogarete_tv_2024/",
-      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/mahou_shoujo_ni_akogarete_tv_2024/"
-    },
-    {
-      "slug": "niea_7_tv_2000",
-      "title": "我家也有外星人",
-      "title_original": "NieA_7",
-      "title_romaji": "NieA Under 7",
-      "title_english": "NieA_7",
-      "release_year": 2000,
-      "medium": {
-        "code": "tv_anime",
-        "label": "TV 动画"
-      },
-      "scope_summary": "2000 TV anime, formal numbered episodes 1-13, aired from 2000-04-26 through 2000-07-19",
-      "female_relationship_centrality": {
-        "code": "main",
-        "label": "主线"
-      },
-      "archive_basis": {
-        "code": "work_classification",
-        "label": "作品分类"
-      },
-      "romance_centrality": {
-        "code": "absent",
-        "label": "缺席"
-      },
-      "highest_romance_explicitness": {
-        "code": "non_romantic",
-        "label": "非恋爱"
-      },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
-      },
-      "identity_evidence_basis": {
-        "code": "no_in_scope_evidence",
-        "label": "范围内无依据"
-      },
-      "male_romance_line": {
-        "code": "secondary",
-        "label": "副线"
-      },
-      "confidence": {
-        "code": "high",
-        "label": "高"
-      },
-      "classification_date": "2026-07-30",
-      "content_warnings": [
-        "poverty_food_insecurity_and_resource_conflict",
-        "asymmetric_housing_labor_and_care_burden",
-        "alien_caste_discrimination_and_dehumanizing_language",
-        "ethnic_and_racial_caricature",
-        "sexual_harassment_and_bawdy_humor",
-        "parental_bereavement_and_possible_loss_of_home"
-      ],
-      "content_warnings_text": "poverty_food_insecurity_and_resource_conflict；asymmetric_housing_labor_and_care_burden；alien_caste_discrimination_and_dehumanizing_language；ethnic_and_racial_caricature；sexual_harassment_and_bawdy_humor；parental_bereavement_and_possible_loss_of_home",
-      "quick_queries": {
-        "explicit_relationship": false,
-        "explicit_desire": false,
-        "accepts_unconfirmed": false,
-        "female_relationship_main": true,
-        "official_yuri_gl": false
-      },
-      "bangumi_rank": null,
-      "bangumi_yuri_tag_ratio": null,
-      "report_url": "/yuri-classification-archive/works/niea_7_tv_2000/",
-      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/niea_7_tv_2000/"
-    },
-    {
-      "slug": "houkago_teibou_nisshi_tv_2020",
-      "title": "放学后海堤日记",
-      "title_original": "放課後ていぼう日誌",
-      "title_romaji": "Houkago Teibou Nisshi",
-      "title_english": "Diary of Our Days at the Breakwater",
-      "release_year": 2020,
-      "medium": {
-        "code": "tv_anime",
-        "label": "TV 动画"
-      },
-      "scope_summary": "2020 broadcast TV anime episodes 1-12；official TV anime website and all twelve official episode synopses as paratext；current public database entries only as classification context",
-      "female_relationship_centrality": {
-        "code": "main",
-        "label": "主线"
-      },
-      "archive_basis": {
-        "code": "work_classification",
-        "label": "作品分类"
-      },
-      "romance_centrality": {
-        "code": "absent",
-        "label": "缺席"
-      },
-      "highest_romance_explicitness": {
-        "code": "non_romantic",
-        "label": "非恋爱"
-      },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
-      },
-      "identity_evidence_basis": {
-        "code": "no_in_scope_evidence",
-        "label": "范围内无依据"
-      },
-      "male_romance_line": {
-        "code": "none",
-        "label": "无"
-      },
-      "confidence": {
-        "code": "high",
-        "label": "高"
-      },
-      "classification_date": "2026-07-31",
-      "content_warnings": [
-        "fishing_live_bait_and_killing_cleaning_and_eating_animals",
-        "insects_octopus_and_other_sea_creatures",
-        "coerced_club_recruitment_using_the_protagonists_animal_fear",
-        "adult_teacher_alcohol_use_and_unwanted_kissing_or_marriage_jokes_toward_students",
-        "swimwear_body_size_and_breast_comedy",
-        "water_safety_risk_and_fear"
-      ],
-      "content_warnings_text": "fishing_live_bait_and_killing_cleaning_and_eating_animals；insects_octopus_and_other_sea_creatures；coerced_club_recruitment_using_the_protagonists_animal_fear；adult_teacher_alcohol_use_and_unwanted_kissing_or_marriage_jokes_toward_students；swimwear_body_size_and_breast_comedy；water_safety_risk_and_fear",
-      "quick_queries": {
-        "explicit_relationship": false,
-        "explicit_desire": false,
-        "accepts_unconfirmed": false,
-        "female_relationship_main": true,
-        "official_yuri_gl": false
-      },
-      "bangumi_rank": null,
-      "bangumi_yuri_tag_ratio": null,
-      "report_url": "/yuri-classification-archive/works/houkago_teibou_nisshi_tv_2020/",
-      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/houkago_teibou_nisshi_tv_2020/"
-    },
-    {
-      "slug": "houkago_no_pleiades_tv_2015",
-      "title": "放学后的昴星团",
-      "title_original": "放課後のプレアデス",
-      "title_romaji": "Houkago no Pleiades",
-      "title_english": "Wish Upon the Pleiades",
-      "release_year": 2015,
-      "medium": {
-        "code": "tv_anime",
-        "label": "TV 动画"
-      },
-      "scope_summary": "2015 broadcast TV anime episodes 1-12；official TV program and character descriptions only as scope and paratext evidence；current public database fields and community tags only as external labeling evidence",
-      "female_relationship_centrality": {
-        "code": "main",
-        "label": "主线"
-      },
-      "archive_basis": {
-        "code": "work_classification",
-        "label": "作品分类"
-      },
-      "romance_centrality": {
-        "code": "absent",
-        "label": "缺席"
-      },
-      "highest_romance_explicitness": {
-        "code": "non_romantic",
-        "label": "非恋爱"
-      },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
-      },
-      "identity_evidence_basis": {
-        "code": "no_in_scope_evidence",
-        "label": "范围内无依据"
-      },
-      "male_romance_line": {
-        "code": "parallel",
-        "label": "并列"
-      },
-      "confidence": {
-        "code": "high",
-        "label": "高"
-      },
-      "classification_date": "2026-07-31",
-      "content_warnings": [
-        "minor_characters_in_cosmic_peril_and_mild_fantasy_combat",
-        "hospitalization_coma_and_death_threat",
-        "self_erasure_and_death_wish_language",
-        "bereavement_and_family_loss",
-        "memory_discontinuity_and_separation"
-      ],
-      "content_warnings_text": "minor_characters_in_cosmic_peril_and_mild_fantasy_combat；hospitalization_coma_and_death_threat；self_erasure_and_death_wish_language；bereavement_and_family_loss；memory_discontinuity_and_separation",
-      "quick_queries": {
-        "explicit_relationship": false,
-        "explicit_desire": false,
-        "accepts_unconfirmed": false,
-        "female_relationship_main": true,
-        "official_yuri_gl": false
-      },
-      "bangumi_rank": null,
-      "bangumi_yuri_tag_ratio": null,
-      "report_url": "/yuri-classification-archive/works/houkago_no_pleiades_tv_2015/",
-      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/houkago_no_pleiades_tv_2015/"
-    },
-    {
-      "slug": "munou_na_nana_tv_2020",
-      "title": "无能力者娜娜",
-      "title_original": "無能なナナ",
-      "title_romaji": "Munou na Nana",
-      "title_english": "Talentless Nana",
-      "release_year": 2020,
-      "medium": {
-        "code": "tv_anime",
-        "label": "TV 动画"
-      },
-      "scope_summary": "2020 broadcast TV anime episodes 1-13；official TV story, character and episode-commentary pages only as scope, action and paratext evidence；current public database fields and community tags only as external labeling evidence",
-      "female_relationship_centrality": {
-        "code": "main",
-        "label": "主线"
-      },
-      "archive_basis": {
-        "code": "work_classification",
-        "label": "作品分类"
-      },
-      "romance_centrality": {
-        "code": "absent",
-        "label": "缺席"
-      },
-      "highest_romance_explicitness": {
-        "code": "non_romantic",
-        "label": "非恋爱"
-      },
-      "official_label": {
-        "code": "other",
-        "label": "其他相关表述"
-      },
-      "identity_evidence_basis": {
-        "code": "no_in_scope_evidence",
-        "label": "范围内无依据"
-      },
-      "male_romance_line": {
-        "code": "secondary",
-        "label": "副线"
-      },
-      "confidence": {
-        "code": "high",
-        "label": "高"
-      },
-      "classification_date": "2026-07-31",
-      "content_warnings": [
-        "serial_murder_and_attempted_murder_by_the_protagonist",
-        "deception_manipulation_and_instrumental_use_of_trust",
-        "knife_violence_throat_cutting_poisoning_drowning_and_fatal_injuries",
-        "death_of_teenagers_corpses_necromancy_and_autopsy_discussion",
-        "school_bullying_humiliation_and_a_deceptive_love_letter_prank",
-        "sexualized_blackmail_and_coerced_girlfriend_role",
-        "self_inflicted_injury_used_to_stage_an_attack",
-        "animal_cruelty",
-        "childhood_family_murder_survivor_guilt_and_traumatic_flashbacks",
-        "terminal_illness_bereavement_and_grief",
-        "life_shortening_healing_and_sacrificial_death"
-      ],
-      "content_warnings_text": "serial_murder_and_attempted_murder_by_the_protagonist；deception_manipulation_and_instrumental_use_of_trust；knife_violence_throat_cutting_poisoning_drowning_and_fatal_injuries；death_of_teenagers_corpses_necromancy_and_autopsy_discussion；school_bullying_humiliation_and_a_deceptive_love_letter_prank；sexualized_blackmail_and_coerced_girlfriend_role；self_inflicted_injury_used_to_stage_an_attack；animal_cruelty；childhood_family_murder_survivor_guilt_and_traumatic_flashbacks；terminal_illness_bereavement_and_grief；life_shortening_healing_and_sacrificial_death",
-      "quick_queries": {
-        "explicit_relationship": false,
-        "explicit_desire": false,
-        "accepts_unconfirmed": false,
-        "female_relationship_main": true,
-        "official_yuri_gl": false
-      },
-      "bangumi_rank": null,
-      "bangumi_yuri_tag_ratio": null,
-      "report_url": "/yuri-classification-archive/works/munou_na_nana_tv_2020/",
-      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/munou_na_nana_tv_2020/"
-    },
-    {
-      "slug": "sakura_trick_tv_2014",
-      "title": "樱Trick",
-      "title_original": "桜Trick",
-      "title_romaji": "Sakura Trick",
-      "title_english": "Sakura Trick",
-      "release_year": 2014,
-      "medium": {
-        "code": "tv_anime",
-        "label": "TV 动画"
-      },
-      "scope_summary": "2014 broadcast TV anime episodes 1-12；official TV anime website, episode guide and animation-studio work page as paratext；current public database entries only as classification context",
-      "female_relationship_centrality": {
-        "code": "main",
-        "label": "主线"
-      },
-      "archive_basis": {
-        "code": "work_classification",
-        "label": "作品分类"
-      },
-      "romance_centrality": {
-        "code": "main",
-        "label": "主线"
-      },
-      "highest_romance_explicitness": {
-        "code": "explicit_desire",
-        "label": "明确欲望"
-      },
-      "official_label": {
-        "code": "other",
-        "label": "其他相关表述"
-      },
-      "identity_evidence_basis": {
-        "code": "explicit_relationship_only",
-        "label": "只有明确关系事实"
-      },
-      "male_romance_line": {
-        "code": "none",
-        "label": "无"
-      },
-      "confidence": {
-        "code": "high",
-        "label": "高"
-      },
-      "classification_date": "2026-07-30",
-      "content_warnings": [
-        "sexualized_presentation_of_school_age_characters",
-        "surprise_kissing_and_comedic_boundary_crossing",
-        "jealousy_possessiveness_and_relationship_surveillance",
-        "romantic_relationship_between_cousins",
-        "family_arranged_engagement_as_relationship_pressure",
-        "unwanted_or_uninvited_body_touching",
-        "school_pool_and_body_fanservice"
-      ],
-      "content_warnings_text": "sexualized_presentation_of_school_age_characters；surprise_kissing_and_comedic_boundary_crossing；jealousy_possessiveness_and_relationship_surveillance；romantic_relationship_between_cousins；family_arranged_engagement_as_relationship_pressure；unwanted_or_uninvited_body_touching；school_pool_and_body_fanservice",
-      "quick_queries": {
-        "explicit_relationship": false,
-        "explicit_desire": true,
-        "accepts_unconfirmed": true,
-        "female_relationship_main": true,
-        "official_yuri_gl": false
-      },
-      "bangumi_rank": null,
-      "bangumi_yuri_tag_ratio": null,
-      "report_url": "/yuri-classification-archive/works/sakura_trick_tv_2014/",
-      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/sakura_trick_tv_2014/"
-    },
-    {
-      "slug": "shigofumi_tv_2008",
-      "title": "死后文",
-      "title_original": "シゴフミ",
-      "title_romaji": "Shigofumi",
-      "title_english": "Shigofumi: Letters from the Departed",
-      "release_year": 2008,
-      "medium": {
-        "code": "tv_anime",
-        "label": "TV 动画"
-      },
-      "scope_summary": "The twelve broadcast TV episodes aired from 2008-01-05 through 2008-03-22",
-      "female_relationship_centrality": {
-        "code": "main",
-        "label": "主线"
-      },
-      "archive_basis": {
-        "code": "reader_interpretation",
-        "label": "读者解读"
-      },
-      "romance_centrality": {
-        "code": "main",
-        "label": "主线"
-      },
-      "highest_romance_explicitness": {
-        "code": "potential_or_strongly_coded",
-        "label": "潜在／明显但未确认"
-      },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
-      },
-      "identity_evidence_basis": {
-        "code": "inferred_relationship_only",
-        "label": "只有关系推断"
-      },
-      "male_romance_line": {
-        "code": "secondary",
-        "label": "副线"
-      },
-      "confidence": {
-        "code": "high",
-        "label": "高"
-      },
-      "classification_date": "2026-07-31",
-      "content_warnings": [
-        "suicide, suicidal ideation and attempted suicide",
-        "child abuse and domestic violence",
-        "child sexual exploitation and coercive modelling",
-        "murder, attempted murder and gun violence",
-        "school bullying and public shaming",
-        "dissociative identity and mental-health stigma",
-        "coma, death, grief and terminal illness",
-        "child neglect and abandonment",
-        "media harassment and victim blaming",
-        "animal death",
-        "stalking and confinement"
-      ],
-      "content_warnings_text": "suicide, suicidal ideation and attempted suicide；child abuse and domestic violence；child sexual exploitation and coercive modelling；murder, attempted murder and gun violence；school bullying and public shaming；dissociative identity and mental-health stigma；coma, death, grief and terminal illness；child neglect and abandonment；media harassment and victim blaming；animal death；stalking and confinement",
-      "quick_queries": {
-        "explicit_relationship": false,
-        "explicit_desire": false,
-        "accepts_unconfirmed": true,
-        "female_relationship_main": true,
-        "official_yuri_gl": false
-      },
-      "bangumi_rank": null,
-      "bangumi_yuri_tag_ratio": null,
-      "report_url": "/yuri-classification-archive/works/shigofumi_tv_2008/",
-      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/shigofumi_tv_2008/"
-    },
-    {
-      "slug": "comic_girls_tv_2018",
-      "title": "漫画女孩",
-      "title_original": "こみっくがーるず",
-      "title_romaji": "Comic Girls",
-      "title_english": "Comic Girls",
-      "release_year": 2018,
-      "medium": {
-        "code": "tv_anime",
-        "label": "TV 动画"
-      },
-      "scope_summary": "2018 television series formal episodes 1–12",
-      "female_relationship_centrality": {
-        "code": "main",
-        "label": "主线"
-      },
-      "archive_basis": {
-        "code": "work_classification",
-        "label": "作品分类"
-      },
-      "romance_centrality": {
-        "code": "important_secondary",
-        "label": "重要副线"
-      },
-      "highest_romance_explicitness": {
-        "code": "explicit_desire",
-        "label": "明确欲望"
-      },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
-      },
-      "identity_evidence_basis": {
-        "code": "explicit_relationship_only",
-        "label": "只有明确关系事实"
-      },
-      "male_romance_line": {
-        "code": "none",
-        "label": "无"
-      },
-      "confidence": {
-        "code": "high",
-        "label": "高"
-      },
-      "classification_date": "2026-07-31",
-      "content_warnings": [
-        "sexualized_body_underwear_swimsuit_bath_and_breast_jokes_involving_teen_coded_characters",
-        "in_story_tl_and_erotic_manga_discussion_with_imagined_adult_sexual_situations",
-        "stalking_fear_harassment_and_boundary_violations_played_as_comedy",
-        "alcohol_and_intoxication_involving_adult_characters",
-        "body_weight_dieting_and_food_shame_jokes",
-        "intense_self_denigration_anxiety_rejection_and_deadline_stress",
-        "slapstick_horror_and_blood_imagery"
-      ],
-      "content_warnings_text": "sexualized_body_underwear_swimsuit_bath_and_breast_jokes_involving_teen_coded_characters；in_story_tl_and_erotic_manga_discussion_with_imagined_adult_sexual_situations；stalking_fear_harassment_and_boundary_violations_played_as_comedy；alcohol_and_intoxication_involving_adult_characters；body_weight_dieting_and_food_shame_jokes；intense_self_denigration_anxiety_rejection_and_deadline_stress；slapstick_horror_and_blood_imagery",
-      "quick_queries": {
-        "explicit_relationship": false,
-        "explicit_desire": true,
-        "accepts_unconfirmed": true,
-        "female_relationship_main": true,
-        "official_yuri_gl": false
-      },
-      "bangumi_rank": null,
-      "bangumi_yuri_tag_ratio": null,
-      "report_url": "/yuri-classification-archive/works/comic_girls_tv_2018/",
-      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/comic_girls_tv_2018/"
-    },
-    {
-      "slug": "kill_me_baby_tv_2012",
-      "title": "爱杀宝贝",
-      "title_original": "キルミーベイベー",
-      "title_romaji": "Kill Me Baby",
-      "title_english": "Kill Me Baby",
-      "release_year": 2012,
-      "medium": {
-        "code": "tv_anime",
-        "label": "TV 动画"
-      },
-      "scope_summary": "2012 TV anime formal episodes 1-13",
-      "female_relationship_centrality": {
-        "code": "main",
-        "label": "主线"
-      },
-      "archive_basis": {
-        "code": "work_classification",
-        "label": "作品分类"
-      },
-      "romance_centrality": {
-        "code": "absent",
-        "label": "缺席"
-      },
-      "highest_romance_explicitness": {
-        "code": "non_romantic",
-        "label": "非恋爱"
-      },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
-      },
-      "identity_evidence_basis": {
-        "code": "no_in_scope_evidence",
-        "label": "范围内无依据"
-      },
-      "male_romance_line": {
-        "code": "none",
-        "label": "无"
-      },
-      "confidence": {
-        "code": "high",
-        "label": "高"
-      },
-      "classification_date": "2026-07-30",
-      "content_warnings": [
-        "frequent_comedic_hitting_punching_joint_locks_and_minor_injury_gags",
-        "knives_guns_assassination_assignments_and_death_threats_used_in_comedy",
-        "unwanted_grabbing_and_surprise_contact_followed_by_reflex_violence",
-        "public_bath_and_body_gags_involving_school_age_characters",
-        "animal_insect_drowning_and_stranding_peril_played_for_comedy",
-        "valentine_romance_convention_and_background_heterosexual_confession_gag"
-      ],
-      "content_warnings_text": "frequent_comedic_hitting_punching_joint_locks_and_minor_injury_gags；knives_guns_assassination_assignments_and_death_threats_used_in_comedy；unwanted_grabbing_and_surprise_contact_followed_by_reflex_violence；public_bath_and_body_gags_involving_school_age_characters；animal_insect_drowning_and_stranding_peril_played_for_comedy；valentine_romance_convention_and_background_heterosexual_confession_gag",
-      "quick_queries": {
-        "explicit_relationship": false,
-        "explicit_desire": false,
-        "accepts_unconfirmed": false,
-        "female_relationship_main": true,
-        "official_yuri_gl": false
-      },
-      "bangumi_rank": null,
-      "bangumi_yuri_tag_ratio": null,
-      "report_url": "/yuri-classification-archive/works/kill_me_baby_tv_2012/",
-      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/kill_me_baby_tv_2012/"
-    },
-    {
-      "slug": "kakegurui_tv_2017",
-      "title": "狂赌之渊",
-      "title_original": "賭ケグルイ",
-      "title_romaji": "Kakegurui",
-      "title_english": "Kakegurui: Compulsive Gambler",
-      "release_year": 2017,
-      "medium": {
-        "code": "tv_anime",
-        "label": "TV 动画"
-      },
-      "scope_summary": "2017 TV anime first-season formal episodes 1-12",
-      "female_relationship_centrality": {
-        "code": "main",
-        "label": "主线"
-      },
-      "archive_basis": {
-        "code": "work_classification",
-        "label": "作品分类"
-      },
-      "romance_centrality": {
-        "code": "absent",
-        "label": "缺席"
-      },
-      "highest_romance_explicitness": {
-        "code": "non_romantic",
-        "label": "非恋爱"
-      },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
-      },
-      "identity_evidence_basis": {
-        "code": "no_in_scope_evidence",
-        "label": "范围内无依据"
-      },
-      "male_romance_line": {
-        "code": "none",
-        "label": "无"
-      },
-      "confidence": {
-        "code": "high",
-        "label": "高"
-      },
-      "classification_date": "2026-07-31",
-      "content_warnings": [
-        "compulsive_gambling_debt_and_financial_coercion",
-        "institutional_slavery_dehumanisation_and_forced_life_plans",
-        "bullying_humiliation_and_threats",
-        "guns_russian_roulette_self_harm_and_suicidal_desire",
-        "sexualised_gambling_arousal_domination_and_masochism",
-        "nail_removal_body_horror_and_blood",
-        "coercive_marriage_reproduction_and_career_plans"
-      ],
-      "content_warnings_text": "compulsive_gambling_debt_and_financial_coercion；institutional_slavery_dehumanisation_and_forced_life_plans；bullying_humiliation_and_threats；guns_russian_roulette_self_harm_and_suicidal_desire；sexualised_gambling_arousal_domination_and_masochism；nail_removal_body_horror_and_blood；coercive_marriage_reproduction_and_career_plans",
-      "quick_queries": {
-        "explicit_relationship": false,
-        "explicit_desire": false,
-        "accepts_unconfirmed": false,
-        "female_relationship_main": true,
-        "official_yuri_gl": false
-      },
-      "bangumi_rank": null,
-      "bangumi_yuri_tag_ratio": null,
-      "report_url": "/yuri-classification-archive/works/kakegurui_tv_2017/",
-      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/kakegurui_tv_2017/"
-    },
-    {
-      "slug": "gabriel_dropout_tv_2017",
-      "title": "珈百璃的堕落",
-      "title_original": "ガヴリールドロップアウト",
-      "title_romaji": "Gabriel Dropout",
-      "title_english": "Gabriel DropOut",
-      "release_year": 2017,
-      "medium": {
-        "code": "tv_anime",
-        "label": "TV 动画"
-      },
-      "scope_summary": "2017 television series formal episodes 1–12",
-      "female_relationship_centrality": {
-        "code": "main",
-        "label": "主线"
-      },
-      "archive_basis": {
-        "code": "work_classification",
-        "label": "作品分类"
-      },
-      "romance_centrality": {
-        "code": "local",
-        "label": "局部"
-      },
-      "highest_romance_explicitness": {
-        "code": "explicit_desire",
-        "label": "明确欲望"
-      },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
-      },
-      "identity_evidence_basis": {
-        "code": "explicit_relationship_only",
-        "label": "只有明确关系事实"
-      },
-      "male_romance_line": {
-        "code": "none",
-        "label": "无"
-      },
-      "confidence": {
-        "code": "high",
-        "label": "高"
-      },
-      "classification_date": "2026-07-30",
-      "content_warnings": [
-        "sexualized_underwear_body_and_changing_room_jokes_involving_teen_coded_characters",
-        "one_sided_voyeuristic_harassment_and_attempted_nonconsensual_photography",
-        "slapstick_violence_restraint_humiliation_and_boundary_violations",
-        "unauthorized_home_entry_as_comedy",
-        "animal_impoundment_and_euthanasia_threat",
-        "apocalyptic_destruction_threats_as_comedy"
-      ],
-      "content_warnings_text": "sexualized_underwear_body_and_changing_room_jokes_involving_teen_coded_characters；one_sided_voyeuristic_harassment_and_attempted_nonconsensual_photography；slapstick_violence_restraint_humiliation_and_boundary_violations；unauthorized_home_entry_as_comedy；animal_impoundment_and_euthanasia_threat；apocalyptic_destruction_threats_as_comedy",
-      "quick_queries": {
-        "explicit_relationship": false,
-        "explicit_desire": true,
-        "accepts_unconfirmed": true,
-        "female_relationship_main": true,
-        "official_yuri_gl": false
-      },
-      "bangumi_rank": null,
-      "bangumi_yuri_tag_ratio": null,
-      "report_url": "/yuri-classification-archive/works/gabriel_dropout_tv_2017/",
-      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/gabriel_dropout_tv_2017/"
-    },
-    {
-      "slug": "yuuki_yuuna_wa_yuusha_de_aru_tv_2014",
-      "title": "结城友奈是勇者",
-      "title_original": "結城友奈は勇者である",
-      "title_romaji": "Yuuki Yuuna wa Yuusha de Aru",
-      "title_english": "Yuki Yuna is a Hero",
-      "release_year": 2014,
-      "medium": {
-        "code": "tv_anime",
-        "label": "TV 动画"
-      },
-      "scope_summary": "2014-10-16 through 2014-12-25 TV anime season 1, formal episodes 1-12",
-      "female_relationship_centrality": {
-        "code": "main",
-        "label": "主线"
-      },
-      "archive_basis": {
-        "code": "work_classification",
-        "label": "作品分类"
-      },
-      "romance_centrality": {
-        "code": "main",
-        "label": "主线"
-      },
-      "highest_romance_explicitness": {
-        "code": "potential_or_strongly_coded",
-        "label": "潜在／明显但未确认"
-      },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
-      },
-      "identity_evidence_basis": {
-        "code": "inferred_relationship_only",
-        "label": "只有关系推断"
-      },
-      "male_romance_line": {
-        "code": "none",
-        "label": "无"
-      },
-      "confidence": {
-        "code": "medium",
-        "label": "中"
-      },
-      "classification_date": "2026-07-30",
-      "content_warnings": [
-        "institutional_exploitation_and_deception_of_minors",
-        "child_combat_and_severe_fantasy_violence",
-        "bodily_sacrifice_disability_and_loss_of_sensory_or_motor_functions",
-        "memory_loss_and_identity_manipulation",
-        "self_destructive_sacrifice_and_prolonged_unconsciousness",
-        "suicidal_ideation_and_attempted_world_destruction",
-        "cosmic_horror_and_apocalyptic_threat",
-        "grief_guilt_and_emotional_breakdown"
-      ],
-      "content_warnings_text": "institutional_exploitation_and_deception_of_minors；child_combat_and_severe_fantasy_violence；bodily_sacrifice_disability_and_loss_of_sensory_or_motor_functions；memory_loss_and_identity_manipulation；self_destructive_sacrifice_and_prolonged_unconsciousness；suicidal_ideation_and_attempted_world_destruction；cosmic_horror_and_apocalyptic_threat；grief_guilt_and_emotional_breakdown",
-      "quick_queries": {
-        "explicit_relationship": false,
-        "explicit_desire": false,
-        "accepts_unconfirmed": true,
-        "female_relationship_main": true,
-        "official_yuri_gl": false
-      },
-      "bangumi_rank": null,
-      "bangumi_yuri_tag_ratio": null,
-      "report_url": "/yuri-classification-archive/works/yuuki_yuuna_wa_yuusha_de_aru_tv_2014/",
-      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/yuuki_yuuna_wa_yuusha_de_aru_tv_2014/"
-    },
-    {
-      "slug": "kouya_no_kotobuki_hikoutai_tv_2019",
-      "title": "荒野的寿飞行队",
-      "title_original": "荒野のコトブキ飛行隊",
-      "title_romaji": "Kouya no Kotobuki Hikoutai",
-      "title_english": "The Magnificent KOTOBUKI",
-      "release_year": 2019,
-      "medium": {
-        "code": "tv_anime",
-        "label": "TV 动画"
-      },
-      "scope_summary": "2019 TV anime main episodes 1-12",
-      "female_relationship_centrality": {
-        "code": "main",
-        "label": "主线"
-      },
-      "archive_basis": {
-        "code": "reader_interpretation",
-        "label": "读者解读"
-      },
-      "romance_centrality": {
-        "code": "local",
-        "label": "局部"
-      },
-      "highest_romance_explicitness": {
-        "code": "potential_or_strongly_coded",
-        "label": "潜在／明显但未确认"
-      },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
-      },
-      "identity_evidence_basis": {
-        "code": "inferred_relationship_only",
-        "label": "只有关系推断"
-      },
-      "male_romance_line": {
-        "code": "secondary",
-        "label": "副线"
-      },
-      "confidence": {
-        "code": "medium",
-        "label": "中"
-      },
-      "classification_date": "2026-07-30",
-      "content_warnings": [
-        "aerial_combat_gunfire_explosions_and_crashes",
-        "injury_death_risk_and_wartime_peril",
-        "authoritarian_propaganda_and_political_coercion",
-        "recurring_alcohol_use",
-        "heterosexual_flirtation_proposal_and_failed_marriage_comedy"
-      ],
-      "content_warnings_text": "aerial_combat_gunfire_explosions_and_crashes；injury_death_risk_and_wartime_peril；authoritarian_propaganda_and_political_coercion；recurring_alcohol_use；heterosexual_flirtation_proposal_and_failed_marriage_comedy",
-      "quick_queries": {
-        "explicit_relationship": false,
-        "explicit_desire": false,
-        "accepts_unconfirmed": true,
-        "female_relationship_main": true,
-        "official_yuri_gl": false
-      },
-      "bangumi_rank": null,
-      "bangumi_yuri_tag_ratio": null,
-      "report_url": "/yuri-classification-archive/works/kouya_no_kotobuki_hikoutai_tv_2019/",
-      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/kouya_no_kotobuki_hikoutai_tv_2019/"
-    },
-    {
-      "slug": "uma_musume_pretty_derby_tv_2018",
-      "title": "赛马娘 Pretty Derby",
-      "title_original": "ウマ娘 プリティーダービー",
-      "title_romaji": "Uma Musume: Pretty Derby",
-      "title_english": "Umamusume: Pretty Derby",
-      "release_year": 2018,
-      "medium": {
-        "code": "tv_anime",
-        "label": "TV 动画"
-      },
-      "scope_summary": "official first-season TV anime episodes 1-12 and official EXTRA R episode 13, originally broadcast from 2018-04-02 through 2018-06-18",
-      "female_relationship_centrality": {
-        "code": "main",
-        "label": "主线"
-      },
-      "archive_basis": {
-        "code": "work_classification",
-        "label": "作品分类"
-      },
-      "romance_centrality": {
-        "code": "absent",
-        "label": "缺席"
-      },
-      "highest_romance_explicitness": {
-        "code": "non_romantic",
-        "label": "非恋爱"
-      },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
-      },
-      "identity_evidence_basis": {
-        "code": "no_in_scope_evidence",
-        "label": "范围内无依据"
-      },
-      "male_romance_line": {
-        "code": "none",
-        "label": "无"
-      },
-      "confidence": {
-        "code": "high",
-        "label": "高"
-      },
-      "classification_date": "2026-07-31",
-      "content_warnings": [
-        "severe_race_injury_fall_emergency_response_and_leg_fracture",
-        "long_rehabilitation_and_fear_of_reinjury",
-        "overtraining_and_intense_competitive_pressure",
-        "body_weight_dieting_and_food_restriction_jokes",
-        "male_trainer_nonconsensual_leg_touching_framed_as_sexual_harassment_comedy",
-        "protagonist_birth_mother_death_and_family_bereavement"
-      ],
-      "content_warnings_text": "severe_race_injury_fall_emergency_response_and_leg_fracture；long_rehabilitation_and_fear_of_reinjury；overtraining_and_intense_competitive_pressure；body_weight_dieting_and_food_restriction_jokes；male_trainer_nonconsensual_leg_touching_framed_as_sexual_harassment_comedy；protagonist_birth_mother_death_and_family_bereavement",
-      "quick_queries": {
-        "explicit_relationship": false,
-        "explicit_desire": false,
-        "accepts_unconfirmed": false,
-        "female_relationship_main": true,
-        "official_yuri_gl": false
-      },
-      "bangumi_rank": null,
-      "bangumi_yuri_tag_ratio": null,
-      "report_url": "/yuri-classification-archive/works/uma_musume_pretty_derby_tv_2018/",
-      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/uma_musume_pretty_derby_tv_2018/"
-    },
-    {
-      "slug": "sasameki_koto_tv_2009",
-      "title": "轻声密语",
-      "title_original": "ささめきこと",
-      "title_romaji": "Sasameki Koto",
-      "title_english": "Whispered Words",
-      "release_year": 2009,
-      "medium": {
-        "code": "tv_anime",
-        "label": "TV 动画"
-      },
-      "scope_summary": "2009 TV anime episodes 1-13",
-      "female_relationship_centrality": {
-        "code": "main",
-        "label": "主线"
-      },
-      "archive_basis": {
-        "code": "work_classification",
-        "label": "作品分类"
-      },
-      "romance_centrality": {
-        "code": "main",
-        "label": "主线"
-      },
-      "highest_romance_explicitness": {
-        "code": "explicit_relationship",
-        "label": "明确交往"
-      },
-      "official_label": {
-        "code": "other",
-        "label": "其他相关表述"
-      },
-      "identity_evidence_basis": {
-        "code": "explicit_relationship_only",
-        "label": "只有明确关系事实"
-      },
-      "male_romance_line": {
-        "code": "secondary",
-        "label": "副线"
-      },
-      "confidence": {
-        "code": "medium",
-        "label": "中"
-      },
-      "classification_date": "2026-07-30",
-      "content_warnings": [
-        "unrequited_love_rejection_and_friendship_loss_anxiety",
-        "social_isolation_and_stigma_around_same_gender_attraction",
-        "outing_pressure_and_blackmail_framed_as_comedy",
-        "crossdressing_and_gender_presentation_comedy",
-        "teen_swimsuit_and_service_imagery",
-        "karate_violence_and_slapstick"
-      ],
-      "content_warnings_text": "unrequited_love_rejection_and_friendship_loss_anxiety；social_isolation_and_stigma_around_same_gender_attraction；outing_pressure_and_blackmail_framed_as_comedy；crossdressing_and_gender_presentation_comedy；teen_swimsuit_and_service_imagery；karate_violence_and_slapstick",
-      "quick_queries": {
-        "explicit_relationship": true,
-        "explicit_desire": true,
-        "accepts_unconfirmed": true,
-        "female_relationship_main": true,
-        "official_yuri_gl": false
-      },
-      "bangumi_rank": null,
-      "bangumi_yuri_tag_ratio": null,
-      "report_url": "/yuri-classification-archive/works/sasameki_koto_tv_2009/",
-      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/sasameki_koto_tv_2009/"
-    },
-    {
-      "slug": "jashin_chan_dropkick_tv_2018",
-      "title": "邪神与厨二病少女",
-      "title_original": "邪神ちゃんドロップキック",
-      "title_romaji": "Jashin-chan Dropkick",
-      "title_english": "Dropkick on My Devil!",
-      "release_year": 2018,
-      "medium": {
-        "code": "tv_anime",
-        "label": "TV 动画"
-      },
-      "scope_summary": "2018 first-season television run, episodes 1-11；formally numbered same-season episode 12 (#EX), first distributed on Amazon Prime Video on 2018-10-01 and included in the first-season lower Blu-ray/DVD box",
-      "female_relationship_centrality": {
-        "code": "main",
-        "label": "主线"
-      },
-      "archive_basis": {
-        "code": "work_classification",
-        "label": "作品分类"
-      },
-      "romance_centrality": {
-        "code": "important_secondary",
-        "label": "重要副线"
-      },
-      "highest_romance_explicitness": {
-        "code": "explicit_desire",
-        "label": "明确欲望"
-      },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
-      },
-      "identity_evidence_basis": {
-        "code": "explicit_relationship_only",
-        "label": "只有明确关系事实"
-      },
-      "male_romance_line": {
-        "code": "none",
-        "label": "无"
-      },
-      "confidence": {
-        "code": "high",
-        "label": "高"
-      },
-      "classification_date": "2026-07-31",
-      "content_warnings": [
-        "recurrent_comic_murder_dismemberment_torture_and_gore_with_regeneration",
-        "coercive_summoning_and_forced_cohabitation",
-        "stalking_abduction_possessive_harassment_and_police_power_abuse",
-        "financial_exploitation_gambling_and_enabling",
-        "homelessness_hunger_and_food_insecurity",
-        "bullying_insults_and_nonconsensual_physical_contact",
-        "nudity_swimsuit_fanservice_and_sexualized_comedy"
-      ],
-      "content_warnings_text": "recurrent_comic_murder_dismemberment_torture_and_gore_with_regeneration；coercive_summoning_and_forced_cohabitation；stalking_abduction_possessive_harassment_and_police_power_abuse；financial_exploitation_gambling_and_enabling；homelessness_hunger_and_food_insecurity；bullying_insults_and_nonconsensual_physical_contact；nudity_swimsuit_fanservice_and_sexualized_comedy",
-      "quick_queries": {
-        "explicit_relationship": false,
-        "explicit_desire": true,
-        "accepts_unconfirmed": true,
-        "female_relationship_main": true,
-        "official_yuri_gl": false
-      },
-      "bangumi_rank": null,
-      "bangumi_yuri_tag_ratio": null,
-      "report_url": "/yuri-classification-archive/works/jashin_chan_dropkick_tv_2018/",
-      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/jashin_chan_dropkick_tv_2018/"
-    },
-    {
-      "slug": "tonari_no_kyuuketsuki_san_tv_2018",
-      "title": "邻家索菲",
-      "title_original": "となりの吸血鬼さん",
-      "title_romaji": "Tonari no Kyuuketsuki-san",
-      "title_english": "Ms. vampire who lives in my neighborhood.",
-      "release_year": 2018,
-      "medium": {
-        "code": "tv_anime",
-        "label": "TV 动画"
-      },
-      "scope_summary": "2018 television series formal episodes 1–12",
-      "female_relationship_centrality": {
-        "code": "main",
-        "label": "主线"
-      },
-      "archive_basis": {
-        "code": "work_classification",
-        "label": "作品分类"
-      },
-      "romance_centrality": {
-        "code": "main",
-        "label": "主线"
-      },
-      "highest_romance_explicitness": {
-        "code": "explicit_desire",
-        "label": "明确欲望"
-      },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
-      },
-      "identity_evidence_basis": {
-        "code": "explicit_relationship_only",
-        "label": "只有明确关系事实"
-      },
-      "male_romance_line": {
-        "code": "none",
-        "label": "无"
-      },
-      "confidence": {
-        "code": "high",
-        "label": "高"
-      },
-      "classification_date": "2026-07-31",
-      "content_warnings": [
-        "uninvited_move_in_and_repeated_boundary_testing_played_as_comedy",
-        "a_sunlight_vulnerable_vampire_is_secretly_transported_to_a_beach_and_exposed_to_serious_risk",
-        "blood_drinking_continues_after_explicit_refusal",
-        "bathing_nudity_buttocks_underwear_and_body_jokes",
-        "sexualized_comments_toward_young_women_and_in_story_harassment_callout",
-        "temporary_feigned_illness_to_prolong_care",
-        "possessiveness_and_jealousy_played_as_comedy",
-        "blood_food_and_vampire_hunting"
-      ],
-      "content_warnings_text": "uninvited_move_in_and_repeated_boundary_testing_played_as_comedy；a_sunlight_vulnerable_vampire_is_secretly_transported_to_a_beach_and_exposed_to_serious_risk；blood_drinking_continues_after_explicit_refusal；bathing_nudity_buttocks_underwear_and_body_jokes；sexualized_comments_toward_young_women_and_in_story_harassment_callout；temporary_feigned_illness_to_prolong_care；possessiveness_and_jealousy_played_as_comedy；blood_food_and_vampire_hunting",
-      "quick_queries": {
-        "explicit_relationship": false,
-        "explicit_desire": true,
-        "accepts_unconfirmed": true,
-        "female_relationship_main": true,
-        "official_yuri_gl": false
-      },
-      "bangumi_rank": null,
-      "bangumi_yuri_tag_ratio": null,
-      "report_url": "/yuri-classification-archive/works/tonari_no_kyuuketsuki_san_tv_2018/",
-      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/tonari_no_kyuuketsuki_san_tv_2018/"
-    },
-    {
-      "slug": "kirio_fan_club_tv_2026",
-      "title": "雾尾粉丝俱乐部",
-      "title_original": "霧尾ファンクラブ",
-      "title_romaji": "Kirio Fan Club",
-      "title_english": "Kirio Fanclub",
-      "release_year": 2026,
-      "medium": {
-        "code": "tv_anime",
-        "label": "TV 动画"
-      },
-      "scope_summary": "2026 TV anime episodes 1-12",
-      "female_relationship_centrality": {
-        "code": "main",
-        "label": "主线"
-      },
-      "archive_basis": {
-        "code": "work_classification",
-        "label": "作品分类"
-      },
-      "romance_centrality": {
-        "code": "main",
-        "label": "主线"
-      },
-      "highest_romance_explicitness": {
-        "code": "explicit_desire",
-        "label": "明确欲望"
-      },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
-      },
-      "identity_evidence_basis": {
-        "code": "explicit_relationship_only",
-        "label": "只有明确关系事实"
-      },
-      "male_romance_line": {
-        "code": "parallel",
-        "label": "并列"
-      },
-      "confidence": {
-        "code": "high",
-        "label": "高"
-      },
-      "classification_date": "2026-07-31",
-      "content_warnings": [
-        "childhood_friend_terminal_illness_death_and_grief",
-        "school_refusal_and_survivor_guilt",
-        "obsessive_observation_photography_and_personal_boundary_intrusion",
-        "bodily_fluid_excretion_and_sexualized_jokes_involving_high_school_characters",
-        "occult_curse_death_fantasy_and_comic_injury",
-        "unrequited_love_rejection_and_hidden_same_sex_desire"
-      ],
-      "content_warnings_text": "childhood_friend_terminal_illness_death_and_grief；school_refusal_and_survivor_guilt；obsessive_observation_photography_and_personal_boundary_intrusion；bodily_fluid_excretion_and_sexualized_jokes_involving_high_school_characters；occult_curse_death_fantasy_and_comic_injury；unrequited_love_rejection_and_hidden_same_sex_desire",
-      "quick_queries": {
-        "explicit_relationship": false,
-        "explicit_desire": true,
-        "accepts_unconfirmed": true,
-        "female_relationship_main": true,
-        "official_yuri_gl": false
-      },
-      "bangumi_rank": null,
-      "bangumi_yuri_tag_ratio": null,
-      "report_url": "/yuri-classification-archive/works/kirio_fan_club_tv_2026/",
-      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/kirio_fan_club_tv_2026/"
-    },
-    {
-      "slug": "teppen_tv_2022",
-      "title": "顶点!!!!!!!!!!!!!!!",
-      "title_original": "てっぺんっ!!!!!!!!!!!!!!!",
-      "title_romaji": "Teppen!!!!!!!!!!!!!!!",
-      "title_english": "TEPPEN!!!!!!!!!!!!!!! Laughing 'til You Cry",
-      "release_year": 2022,
-      "medium": {
-        "code": "tv_anime",
-        "label": "TV 动画"
-      },
-      "scope_summary": "2022 TV anime numbered episodes 1-12；episode 2 as a regular numbered episode formally broadcast from 2022-09-10 after its originally scheduled 2022-07-09 broadcast was withdrawn；official TV anime website, episode guide, broadcast-change notices and current legal-streaming episode lists as scope paratext；current public database entries only as classification context",
-      "female_relationship_centrality": {
-        "code": "main",
-        "label": "主线"
-      },
-      "archive_basis": {
-        "code": "work_classification",
-        "label": "作品分类"
-      },
-      "romance_centrality": {
-        "code": "absent",
-        "label": "缺席"
-      },
-      "highest_romance_explicitness": {
-        "code": "non_romantic",
-        "label": "非恋爱"
-      },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
-      },
-      "identity_evidence_basis": {
-        "code": "no_in_scope_evidence",
-        "label": "范围内无依据"
-      },
-      "male_romance_line": {
-        "code": "secondary",
-        "label": "副线"
-      },
-      "confidence": {
-        "code": "high",
-        "label": "高"
-      },
-      "classification_date": "2026-07-31",
-      "content_warnings": [
-        "assassination_plot_misunderstanding_and_weapons",
-        "fabricated_suicide_and_curse_story",
-        "stalking_and_peeping_misunderstanding",
-        "comic_violence_explosions_confinement_and_virtual_reality_combat",
-        "body_breast_swimwear_and_bathing_program_jokes",
-        "online_harassment_clickbait_and_financial_fraud",
-        "adult_opposite_sex_first_love_reunion_in_episode_7"
-      ],
-      "content_warnings_text": "assassination_plot_misunderstanding_and_weapons；fabricated_suicide_and_curse_story；stalking_and_peeping_misunderstanding；comic_violence_explosions_confinement_and_virtual_reality_combat；body_breast_swimwear_and_bathing_program_jokes；online_harassment_clickbait_and_financial_fraud；adult_opposite_sex_first_love_reunion_in_episode_7",
-      "quick_queries": {
-        "explicit_relationship": false,
-        "explicit_desire": false,
-        "accepts_unconfirmed": false,
-        "female_relationship_main": true,
-        "official_yuri_gl": false
-      },
-      "bangumi_rank": null,
-      "bangumi_yuri_tag_ratio": null,
-      "report_url": "/yuri-classification-archive/works/teppen_tv_2022/",
-      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/teppen_tv_2022/"
-    },
-    {
-      "slug": "el_cazador_de_la_bruja_tv_2007",
-      "title": "魔女猎人",
-      "title_original": "エル・カザド",
-      "title_romaji": "El Cazador",
-      "title_english": "El Cazador de la Bruja",
-      "release_year": 2007,
-      "medium": {
-        "code": "tv_anime",
-        "label": "TV 动画"
-      },
-      "scope_summary": "2007 television series formal episodes 1–26",
-      "female_relationship_centrality": {
-        "code": "main",
-        "label": "主线"
-      },
-      "archive_basis": {
-        "code": "work_classification",
-        "label": "作品分类"
-      },
-      "romance_centrality": {
-        "code": "main",
-        "label": "主线"
-      },
-      "highest_romance_explicitness": {
-        "code": "potential_or_strongly_coded",
-        "label": "潜在／明显但未确认"
-      },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
-      },
-      "identity_evidence_basis": {
-        "code": "inferred_relationship_only",
-        "label": "只有关系推断"
-      },
-      "male_romance_line": {
-        "code": "parallel",
-        "label": "并列"
-      },
-      "confidence": {
-        "code": "high",
-        "label": "高"
-      },
-      "classification_date": "2026-07-31",
-      "content_warnings": [
-        "gunfire knife and wire violence with injury and death",
-        "human experimentation cloning memory manipulation and mind control",
-        "stalking possessiveness and romance-framed coercive control",
-        "non-consensual kissing while a character sleeps",
-        "kidnapping restraint abuse and nudity",
-        "researcher-subject and captor-target power imbalances",
-        "a request that a loved one perform a shooting and temporary character deaths",
-        "bereavement and destruction of a community",
-        "villain framing and slurs directed at a gender-nonconforming character"
-      ],
-      "content_warnings_text": "gunfire knife and wire violence with injury and death；human experimentation cloning memory manipulation and mind control；stalking possessiveness and romance-framed coercive control；non-consensual kissing while a character sleeps；kidnapping restraint abuse and nudity；researcher-subject and captor-target power imbalances；a request that a loved one perform a shooting and temporary character deaths；bereavement and destruction of a community；villain framing and slurs directed at a gender-nonconforming character",
-      "quick_queries": {
-        "explicit_relationship": false,
-        "explicit_desire": false,
-        "accepts_unconfirmed": true,
-        "female_relationship_main": true,
-        "official_yuri_gl": false
-      },
-      "bangumi_rank": null,
-      "bangumi_yuri_tag_ratio": null,
-      "report_url": "/yuri-classification-archive/works/el_cazador_de_la_bruja_tv_2007/",
-      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/el_cazador_de_la_bruja_tv_2007/"
-    },
-    {
-      "slug": "noir_tv_2001",
-      "title": "黑街二人组",
-      "title_original": "ノワール",
-      "title_romaji": "Noir",
-      "title_english": "Noir",
-      "release_year": 2001,
-      "medium": {
-        "code": "tv_anime",
-        "label": "TV 动画"
-      },
-      "scope_summary": "2001 TV anime main episodes 1-26",
-      "female_relationship_centrality": {
-        "code": "main",
-        "label": "主线"
-      },
-      "archive_basis": {
-        "code": "work_classification",
-        "label": "作品分类"
-      },
-      "romance_centrality": {
-        "code": "main",
-        "label": "主线"
-      },
-      "highest_romance_explicitness": {
-        "code": "potential_or_strongly_coded",
-        "label": "潜在／明显但未确认"
-      },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
-      },
-      "identity_evidence_basis": {
-        "code": "inferred_relationship_only",
-        "label": "只有关系推断"
-      },
-      "male_romance_line": {
-        "code": "secondary",
-        "label": "副线"
-      },
-      "confidence": {
-        "code": "high",
-        "label": "高"
-      },
-      "classification_date": "2026-07-30",
-      "content_warnings": [
-        "assassination_gunfire_stabbing_and_death",
-        "organized_crime_terrorism_and_political_violence",
-        "child_soldier_conditioning_and_identity_manipulation",
-        "amnesia_and_psychological_breakdown",
-        "cult_control_coercive_ritual_and_emotional_abuse",
-        "family_murder_revenge_and_grief",
-        "forced_lethal_selection_between_women",
-        "threatening_nonconsensual_kiss_of_death",
-        "fire_drowning_and_suicidal_requests_to_be_killed"
-      ],
-      "content_warnings_text": "assassination_gunfire_stabbing_and_death；organized_crime_terrorism_and_political_violence；child_soldier_conditioning_and_identity_manipulation；amnesia_and_psychological_breakdown；cult_control_coercive_ritual_and_emotional_abuse；family_murder_revenge_and_grief；forced_lethal_selection_between_women；threatening_nonconsensual_kiss_of_death；fire_drowning_and_suicidal_requests_to_be_killed",
-      "quick_queries": {
-        "explicit_relationship": false,
-        "explicit_desire": false,
-        "accepts_unconfirmed": true,
-        "female_relationship_main": true,
-        "official_yuri_gl": false
-      },
-      "bangumi_rank": null,
-      "bangumi_yuri_tag_ratio": null,
-      "report_url": "/yuri-classification-archive/works/noir_tv_2001/",
-      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/noir_tv_2001/"
     }
   ]
 }
