@@ -4,7 +4,7 @@
   const storageKey = "yuri-classification-theme";
   const allowedPreferences = new Set(["system", "light", "dark"]);
   const systemTheme = window.matchMedia("(prefers-color-scheme: dark)");
-  const desktopNavigation = window.matchMedia("(min-width: 761px)");
+  const desktopNavigation = window.matchMedia("(min-width: 921px)");
 
   function currentPreference() {
     const value = document.documentElement.dataset.themePreference;
@@ -163,6 +163,20 @@
     setMenuOpen(false);
   }
 
+  function openHashDisclosure(scroll = false) {
+    const hashTarget = window.location.hash
+      ? document.getElementById(decodeURIComponent(window.location.hash.slice(1)))
+      : null;
+    if (!hashTarget) return;
+    const details = hashTarget.closest("details");
+    if (details) details.open = true;
+    if (scroll) {
+      requestAnimationFrame(() => {
+        hashTarget.scrollIntoView({ block: "start" });
+      });
+    }
+  }
+
   document.addEventListener("DOMContentLoaded", () => {
     const preference = currentPreference();
     applyTheme(preference);
@@ -183,13 +197,8 @@
     }
 
     loadGiscus(document.documentElement.dataset.theme);
-
-    const hashTarget = window.location.hash
-      ? document.getElementById(decodeURIComponent(window.location.hash.slice(1)))
-      : null;
-    if (hashTarget) {
-      const details = hashTarget.closest("details");
-      if (details) details.open = true;
-    }
+    openHashDisclosure(true);
   });
+
+  window.addEventListener("hashchange", () => openHashDisclosure(true));
 })();

@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="从百合定义争论到163部动画的平台标签分歧，阅读分类档案背后的方法与数据专题。">
+  <meta name="color-scheme" content="light dark">
+  <meta id="theme-color-light" name="theme-color" media="(prefers-color-scheme: light)" content="#f5f0e8">
+  <meta id="theme-color-dark" name="theme-color" media="(prefers-color-scheme: dark)" content="#1c181c">
+  <script>
+    (() => {
+      document.documentElement.classList.add("js");
+      const storageKey = "yuri-classification-theme";
+      const allowed = new Set(["system", "light", "dark"]);
+      let preference = "system";
+      try {
+        const stored = localStorage.getItem(storageKey);
+        if (allowed.has(stored)) preference = stored;
+      } catch (_error) {
+        preference = "system";
+      }
+      const systemDark = window.matchMedia?.("(prefers-color-scheme: dark)").matches;
+      const theme = preference === "system"
+        ? (systemDark ? "dark" : "light")
+        : preference;
+      document.documentElement.dataset.theme = theme;
+      document.documentElement.dataset.themePreference = preference;
+      document.documentElement.style.colorScheme = theme;
+      const lightMeta = document.getElementById("theme-color-light");
+      const darkMeta = document.getElementById("theme-color-dark");
+      if (preference === "system") {
+        lightMeta.content = "#f5f0e8";
+        darkMeta.content = "#1c181c";
+      } else {
+        const color = theme === "dark" ? "#1c181c" : "#f5f0e8";
+        lightMeta.content = color;
+        darkMeta.content = color;
+      }
+    })();
+  </script>
+  <link rel="canonical" href="https://l-m-sherlock.github.io/yuri-classification-archive/articles/">
+  <link rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="百合作品分类档案">
+  <meta property="og:title" content="专题｜百合作品分类档案">
+  <meta property="og:description" content="从百合定义争论到163部动画的平台标签分歧，阅读分类档案背后的方法与数据专题。">
+  <meta property="og:url" content="https://l-m-sherlock.github.io/yuri-classification-archive/articles/">
+  <meta property="og:image" content="https://l-m-sherlock.github.io/yuri-classification-archive/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+  <title>专题｜百合作品分类档案</title>
+  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=f79d619adbb0">
+
+</head>
+<body class="articles-page">
+  <a class="skip-link" href="#main-content">跳到正文</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="/yuri-classification-archive/">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>
+          <strong>百合作品分类档案</strong>
+          <small>按查询拆开标签，按证据保留边界</small>
+        </span>
+      </a>
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-navigation"
+      >
+        <span>菜单</span>
+        <span class="menu-toggle-icon" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-navigation" aria-label="主导航">
+        <div class="nav-main">
+          <a href="/yuri-classification-archive/">首页</a>
+          <a href="/yuri-classification-archive/table/">总表</a>
+          <a href="/yuri-classification-archive/articles/">专题</a>
+          <a href="/yuri-classification-archive/about/">方法与说明</a>
+        </div>
+        <a class="nav-star" href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub / Star <span aria-hidden="true">↗</span></a>
+        <a class="nav-feedback" href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
+        <label class="theme-control" for="theme-preference">
+          <span>主题</span>
+          <select id="theme-preference" aria-label="主题偏好">
+            <option value="system">跟随系统</option>
+            <option value="light">浅色</option>
+            <option value="dark">深色</option>
+          </select>
+        </label>
+      </nav>
+    </div>
+  </header>
+  <main id="main-content">
+    <header class="page-hero articles-hero">
+  <p class="eyebrow">FEATURED READING</p>
+  <h1>专题</h1>
+  <p>从词语边界到平台标签，把作品分类背后的问题拆开来看。这里的文章服务于理解、检索和修订，不替任何作品或读者宣判唯一答案。</p>
+</header>
+
+<section class="articles-hub" aria-label="专题文章">
+  <article class="feature-card">
+    <p class="feature-kicker">定义与讨论工具</p>
+    <h2>百合到底在定义什么？</h2>
+    <p>把一场看似只有“是／不是”的定义争论，拆成文本关系、作品文类、角色身份、私人阅读、公共标签和平台条件等不同问题。</p>
+    <ul>
+      <li>争论地图与四层框架</li>
+      <li>七轴标签和建设性讨论步骤</li>
+      <li>可复制 Prompt 与 24 项 FAQ</li>
+    </ul>
+    <a class="feature-link" href="/yuri-classification-archive/articles/yuri-definition-map/">阅读定义专题 →</a>
+  </article>
+
+  <article class="feature-card data-feature">
+    <p class="feature-kicker">数据分析 · 2026-07-31 快照</p>
+    <h2>从女女关系到百合类型</h2>
+    <p>比较 163 部动画在 Bangumi、Anime-Planet、AniList、MyAnimeList 和官方材料中的不同标签任务，解释分歧为何不等于四张选票。</p>
+    <ul>
+      <li>六张数据图表与代表案例</li>
+      <li>关系事实、叙事位置和公共类型分层</li>
+      <li>固定 163 部样本的可筛选查找表</li>
+    </ul>
+    <a class="feature-link" href="/yuri-classification-archive/articles/anime-label-divergence/">阅读数据专题 →</a>
+  </article>
+</section>
+
+  </main>
+  <footer class="site-footer">
+    <div>
+      <p>分类是面向具体查询的检索工具，不是替作品关系作终审判决。</p>
+      <p>© 2026 Jarrett Ye · <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="license noopener noreferrer">CC BY-NC-SA 4.0</a> · <a href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub 仓库</a> · <a href="/yuri-classification-archive/about/#使用边界">使用边界</a></p>
+    </div>
+  </footer>
+  <script>window.SITE_CONFIG = {basePath: "/yuri-classification-archive"};</script>
+  <script src="/yuri-classification-archive/assets/site.js?v=eeeec5872796" defer></script>
+
+</body>
+</html>
