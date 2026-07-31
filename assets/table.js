@@ -213,14 +213,38 @@ if (typeof globalThis !== "undefined") {
     }
   }
 
-  function selectedValues(select) {
-    return Array.from(select.selectedOptions, (option) => option.value);
+  function populateMultiChoices(container, field, options) {
+    const inputName = YuriCatalogFilterLogic.multiFields[field];
+    for (const [value, text] of options) {
+      const label = document.createElement("label");
+      label.className = "multi-choice";
+
+      const input = document.createElement("input");
+      input.type = "checkbox";
+      input.name = inputName;
+      input.value = value;
+      input.id = `${container.id}-${value}`;
+
+      const labelText = document.createElement("span");
+      labelText.className = "multi-choice-label";
+      labelText.textContent = text;
+
+      label.append(input, labelText);
+      container.appendChild(label);
+    }
   }
 
-  function setSelectedValues(select, values) {
+  function selectedMultiValues(container) {
+    return Array.from(
+      container.querySelectorAll('input[type="checkbox"]:checked'),
+      (input) => input.value,
+    );
+  }
+
+  function setSelectedMultiValues(container, values) {
     const selected = new Set(values || []);
-    for (const option of select.options) {
-      option.selected = selected.has(option.value);
+    for (const input of container.querySelectorAll('input[type="checkbox"]')) {
+      input.checked = selected.has(input.value);
     }
   }
 
@@ -234,7 +258,7 @@ if (typeof globalThis !== "undefined") {
     }
     const multi = {};
     for (const [field, element] of Object.entries(multiFilterElements)) {
-      multi[field] = selectedValues(element).map((value) =>
+      multi[field] = selectedMultiValues(element).map((value) =>
         YuriCatalogFilterLogic.canonicalFilterValue(field, value),
       );
     }
@@ -254,7 +278,7 @@ if (typeof globalThis !== "undefined") {
       element.value = state.scalar?.[field] || "";
     }
     for (const [field, element] of Object.entries(multiFilterElements)) {
-      setSelectedValues(element, state.multi?.[field] || []);
+      setSelectedMultiValues(element, state.multi?.[field] || []);
     }
     const activeQuick = new Set(state.quick || []);
     for (const button of quickButtons) {
@@ -320,8 +344,9 @@ if (typeof globalThis !== "undefined") {
       populateSelect(scalarFilterElements[field], uniqueOptions(items, field));
     }
     for (const field of Object.keys(multiFilterElements)) {
-      populateSelect(
+      populateMultiChoices(
         multiFilterElements[field],
+        field,
         uniqueListOptions(items, field),
       );
     }

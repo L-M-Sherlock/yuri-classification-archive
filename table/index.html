@@ -47,7 +47,7 @@
   <meta property="og:url" content="https://l-m-sherlock.github.io/yuri-classification-archive/table/">
   <meta property="og:image" content="https://l-m-sherlock.github.io/yuri-classification-archive/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
   <title>作品分类总表｜百合作品分类档案</title>
-  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=1cc35b33d5cd">
+  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=d2fdee556b4b">
 <link rel="stylesheet" href="/yuri-classification-archive/assets/vendor/tabulator.min.css">
 </head>
 <body class="table-page">
@@ -124,8 +124,18 @@
     <label><span>最高明确度</span><select id="explicitness-filter"><option value="">全部</option></select></label>
     <label><span>官方字面百合／GL</span><select id="official-literal-filter"><option value="">全部</option></select></label>
     <label><span>官方女女恋爱表述</span><select id="official-romance-filter"><option value="">全部</option></select></label>
-    <label class="multi-select-control"><span>官方来源层级 <small>可多选，组内任一</small></span><select id="official-scope-filter" multiple size="4" aria-label="官方来源层级（可多选）"></select></label>
-    <label class="multi-select-control"><span>官方材料位置 <small>可多选，组内任一</small></span><select id="official-surface-filter" multiple size="5" aria-label="官方材料位置（可多选）"></select></label>
+    <div class="multi-filter-row">
+      <fieldset class="multi-filter-control" aria-describedby="official-scope-help">
+        <legend>官方来源层级</legend>
+        <p class="filter-help" id="official-scope-help">可直接点选多个；命中其中任一项即可</p>
+        <div class="multi-choice-group" id="official-scope-filter"></div>
+      </fieldset>
+      <fieldset class="multi-filter-control" aria-describedby="official-surface-help">
+        <legend>官方材料位置</legend>
+        <p class="filter-help" id="official-surface-help">可直接点选多个；命中其中任一项即可</p>
+        <div class="multi-choice-group" id="official-surface-filter"></div>
+      </fieldset>
+    </div>
     <label><span>男性恋爱线</span><select id="male-filter"><option value="">全部</option></select></label>
     <label><span>置信度</span><select id="confidence-filter"><option value="">全部</option></select></label>
   </div>
@@ -178,6 +188,6 @@
   </footer>
   <script>window.SITE_CONFIG = {basePath: "/yuri-classification-archive"};</script>
   <script src="/yuri-classification-archive/assets/site.js?v=686fc3d330d3" defer></script>
-<script src="/yuri-classification-archive/assets/vendor/tabulator.min.js"></script><script src="/yuri-classification-archive/assets/vendor/xlsx.full.min.js"></script><script src="/yuri-classification-archive/assets/table.js?v=3f28d11290f3"></script>
+<script src="/yuri-classification-archive/assets/vendor/tabulator.min.js"></script><script src="/yuri-classification-archive/assets/vendor/xlsx.full.min.js"></script><script src="/yuri-classification-archive/assets/table.js?v=d8dc62abf28d"></script>
 </body>
 </html>
