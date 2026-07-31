@@ -5,7 +5,38 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="按本档案采用的开放口径，《放学后海堤日记》TV 版属于 女女关系处于叙事主线、按作品分类归档，置信度高 。四名女学生通过钓鱼、烹饪、安全训练、互相教学和共同解决问题组成海堤部；主人公从被迫加入到主动选择社团的成长，无法与这组朋友、前后辈和伙伴关系分开。 若“百合”专指女女恋爱，本作则 不符合 。十二话没有女女告……">
   <meta name="color-scheme" content="light dark">
-  <meta name="theme-color" content="#f5f0e8">
+  <meta id="theme-color-light" name="theme-color" media="(prefers-color-scheme: light)" content="#f5f0e8">
+  <meta id="theme-color-dark" name="theme-color" media="(prefers-color-scheme: dark)" content="#1c181c">
+  <script>
+    (() => {
+      const storageKey = "yuri-classification-theme";
+      const allowed = new Set(["system", "light", "dark"]);
+      let preference = "system";
+      try {
+        const stored = localStorage.getItem(storageKey);
+        if (allowed.has(stored)) preference = stored;
+      } catch (_error) {
+        preference = "system";
+      }
+      const systemDark = window.matchMedia?.("(prefers-color-scheme: dark)").matches;
+      const theme = preference === "system"
+        ? (systemDark ? "dark" : "light")
+        : preference;
+      document.documentElement.dataset.theme = theme;
+      document.documentElement.dataset.themePreference = preference;
+      document.documentElement.style.colorScheme = theme;
+      const lightMeta = document.getElementById("theme-color-light");
+      const darkMeta = document.getElementById("theme-color-dark");
+      if (preference === "system") {
+        lightMeta.content = "#f5f0e8";
+        darkMeta.content = "#1c181c";
+      } else {
+        const color = theme === "dark" ? "#1c181c" : "#f5f0e8";
+        lightMeta.content = color;
+        darkMeta.content = color;
+      }
+    })();
+  </script>
   <link rel="canonical" href="https://l-m-sherlock.github.io/yuri-classification-archive/works/houkago_teibou_nisshi_tv_2020/">
   <link rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
   <meta property="og:type" content="website">
@@ -15,7 +46,7 @@
   <meta property="og:url" content="https://l-m-sherlock.github.io/yuri-classification-archive/works/houkago_teibou_nisshi_tv_2020/">
   <meta property="og:image" content="https://l-m-sherlock.github.io/yuri-classification-archive/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
   <title>《放学后海堤日记》分类报告｜百合作品分类档案</title>
-  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=575995716ad6">
+  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=014a89622973">
   
 </head>
 <body class="classification-report">
@@ -35,6 +66,14 @@
         <a href="/yuri-classification-archive/about/">方法与说明</a>
         <a class="nav-star" href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub / Star <span aria-hidden="true">↗</span></a>
         <a href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
+        <label class="theme-control" for="theme-preference">
+          <span>主题</span>
+          <select id="theme-preference" aria-label="主题偏好">
+            <option value="system">跟随系统</option>
+            <option value="light">浅色</option>
+            <option value="dark">深色</option>
+          </select>
+        </label>
       </nav>
     </div>
   </header>
@@ -55,7 +94,7 @@
       <ol><li><a href="#无剧透结论">无剧透结论</a></li><li><a href="#数据库与公开分类">数据库与公开分类</a></li><li><a href="#决定性文本证据">决定性文本证据</a></li><li><a href="#四层分析">四层分析</a></li><li><a href="#最强反方解释">最强反方解释</a></li><li><a href="#分用途结论">分用途结论</a></li><li><a href="#方法来源与限制">方法、来源与限制</a></li></ol>
     </aside>
     <div class="report-content">
-      <blockquote><p>分类日期：2026-07-31<br> 分类对象：2020 年 TV 动画《放課後ていぼう日誌》<br> 纳入范围：电视正篇第 1–12 话<br> 排除范围：原作漫画、短篇、影碟附加内容、广播剧、活动、游戏及其他跨媒介材料<br> 用途：普通推荐、数据库分类、恋爱内容检索、角色身份检索与内容提示</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p>按本档案采用的开放口径，《放学后海堤日记》TV 版属于<strong>女女关系处于叙事主线、按作品分类归档，置信度高</strong>。四名女学生通过钓鱼、烹饪、安全训练、互相教学和共同解决问题组成海堤部；主人公从被迫加入到主动选择社团的成长，无法与这组朋友、前后辈和伙伴关系分开。</p><p>若“百合”专指女女恋爱，本作则<strong>不符合</strong>。十二话没有女女告白、约会、接吻、交往确认或性取向身份自述；官方、MAL、Anime-Planet 与 AniList 也没有百合／GL／Girls Love／Yuri 字段。Bangumi 用户确实提供“百合”和“轻百合”标签，但它说明一部分用户如何检索全女社团日常，不能把友情改写成恋爱。</p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女性关系层级：主线（正文称“女女关系”）｜百合归档依据：作品分类，采用女女关系中心的开放口径｜恋爱位置：缺席｜最高明确度：非恋爱｜关系构成：海堤部四人共同体为主线；阳渚—夏海的儿时友情、黒岩与后辈的前后辈关系、小谷顾问与学生的教学关系分别记录｜官方：核对页未标百合／GL｜阅读层级：正篇事实＋公开声明的分类解释｜身份依据类型：范围内没有性取向身份依据｜男性恋爱线：无｜内容提示：捕捉、宰杀、处理和食用鱼类及海洋生物，活饵与昆虫，利用主人公恐惧促成入部，成人教师饮酒后向学生说结婚与亲吻笑话并遭拒绝，泳装与身体笑料，水上安全风险。</strong></p></blockquote><p>这里的“非恋爱”只描述本次 TV 正篇写出的关系阶段，不贬低友情、照料或共同活动的情感价值。“主线”也不是百合浓度评分，而是说明若拿掉这组女女关系，主人公加入社团、学习钓鱼和获得归属的因果链将无法成立。</p><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li>只找女女告白、接吻、约会、交往或情侣确认：<strong>不符合</strong>。</li><li>接受女学生社团、儿时朋友、前后辈互助与女性共同体作为开放型百合阅读：<strong>符合</strong>。</li><li>只找官方明确标百合／GL：<strong>不符合</strong>；所核动画官网以钓鱼、社团与海边生活介绍作品。</li><li>只按女同性恋、双性恋等身份自述检索：<strong>不符合身份明示条件</strong>。</li><li>排除男性恋爱主线：<strong>符合</strong>；男性角色限于家庭和地方社区等背景，没有恋爱因果线。</li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><p>以下字段核对至 2026-07-31。官方宣传、编辑型类型栏、带相关度的社区标签与用户自由标签不是四张同质选票：它们可以同时记录不同用途，而正篇关系阶段仍须回到十二话文本。</p><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://teibotv.com/" target="_blank" rel="noopener noreferrer">TV 动画官网</a>／<a href="https://teibotv.com/story.html" target="_blank" rel="noopener noreferrer">十二话剧情目录</a></td><td>官网以“今日也晴朗，正是钓鱼日”作为标语；分话页从阳渚加入海堤部写到她主动研究 <code>シロギス</code> 钓法，共列 12 话。所核页面未使用百合／GL</td><td>动画官方作品与分话资料</td><td>锁定 TV 正篇范围，确认公开叙事中心是钓鱼社团、学习与主人公成长；“未标”只说明页面实际用语，不是官方否认百合阅读</td></tr><tr class="even"><td><a href="https://myanimelist.net/anime/39730/Houkago_Teibou_Nisshi" target="_blank" rel="noopener noreferrer">MyAnimeList 39730</a></td><td><code>TV</code>、12 话、漫画改；Genres 为 <code>Gourmet / Slice of Life</code>，Themes 为 <code>CGDCT / Iyashikei / School</code>，Demographic 为 <code>Seinen</code>，没有 <code>Girls Love</code></td><td>编辑型数据库字段</td><td>记录常见类型入口；没有 Girls Love 不等于没有重要女女关系，也不能反过来证明所有关系的身份</td></tr><tr class="odd"><td><a href="https://www.anime-planet.com/anime/diary-of-our-days-at-the-breakwater" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td>精确条目为 2020 年 12 话 TV；完整 Tags 为 <code>Comedy / Seinen / Slice of Life / Fishing / School Club / Based on a Manga</code>，没有精确 <code>GL</code></td><td>编辑维护的标签库</td><td>直接请求遇到验证页，故通过文本代理复核精确条目的完整可见标签面板；访问方式受阻不能误记成“无精确条目”</td></tr><tr class="even"><td><a href="https://anilist.co/anime/109019/Houkago-Teibou-Nisshi" target="_blank" rel="noopener noreferrer">AniList 109019</a></td><td>Genres 为 <code>Comedy / Slice of Life / Sports</code>；社区相关度较高的标签为 <code>Fishing 96</code>、<code>School Club 95</code>、<code>Cute Girls Doing Cute Things 94</code>、<code>Primarily Female Cast 93</code> 等，完整数组没有 <code>Yuri</code></td><td>编辑类型＋带相关度的社区标签</td><td>相关度不是用户人数或赞成率；“主要女性阵容”与“Yuri 未列”同时存在，恰好显示阵容事实不能自动变成恋爱类型</td></tr><tr class="odd"><td><a href="https://bangumi.tv/subject/280678" target="_blank" rel="noopener noreferrer">Bangumi subject 280678</a>／<a href="https://api.bgm.tv/v0/subjects/280678" target="_blank" rel="noopener noreferrer">公共 API</a></td><td>结构化快照为 Rank 2274；“百合”561 人、“轻百合”188 人。想看 1528、看过 5133、在看 530、搁置 480、抛弃 280，五状态共 7951；百合标记人数与该分母之比约 7.06%</td><td>社区用户标签、收藏规模与公共 API</td><td>证明本作在中文社区有稳定的开放型百合检索入口；561／7951 不是观众民调，未贴标签也不表示反对。网页缓存略慢，数值统一采用同次 API 快照</td></tr><tr class="even"><td><a href="https://jimaku.cc/entry/1402" target="_blank" rel="noopener noreferrer">Jimaku 条目 1402</a></td><td>条目精确关联 AniList 109019，并提供覆盖第 1–12 话的日文字幕组；本报告采用其中一套日文 Netflix 隐藏字幕</td><td>字幕仓库与文本材料入口</td><td>用于全文检索、逐话复盘和时间码定位；字幕不是官方剧本，不能替代未显示的镜头、表情与无对白动作</td></tr></tbody></table></div><p>数据库的分歧不是简单的“谁对谁错”。MAL、Anime-Planet 和 AniList 首先帮助用户寻找美食、钓鱼、校园社团、日常与户外活动；Bangumi 的自由标签则允许用户把“全女主角社团关系”作为另一条检索路径。本报告选择把后者纳入开放型作品档案，却把恋爱位置单列为“缺席”，正是为了避免一个“百合”词同时冒充阵容、关系、恋爱阶段和身份答案。</p><p>Bangumi 百合标记比例的分母是五种收藏状态用户之和，不是“给条目贴过任意标签的人数”，也不是全体实际观众。约 7.06%只能描述该条目在这项固定快照下的标签浓度。它不能证明社群授权了唯一分类，更不能推翻十二话中“朋友”“前后辈”“顾问”和“社团”这些直接关系名称。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>**以下部分包含《放学后海堤日记》TV 第 1–12 话的完整剧情、关系状态与结尾剧透。**</p></aside>
+      <blockquote><p>分类日期：2026-07-31<br> 分类对象：2020 年 TV 动画《放課後ていぼう日誌》<br> 纳入范围：电视正篇第 1–12 话<br> 排除范围：原作漫画、短篇、影碟附加内容、广播剧、活动、游戏及其他跨媒介材料<br> 用途：普通推荐、数据库分类、恋爱内容检索、角色身份检索与内容提示</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p>按本档案采用的开放口径，《放学后海堤日记》TV 版属于<strong>女女关系处于叙事主线、按作品分类归档，置信度高</strong>。四名女学生通过钓鱼、烹饪、安全训练、互相教学和共同解决问题组成海堤部；主人公从被迫加入到主动选择社团的成长，无法与这组朋友、前后辈和伙伴关系分开。</p><p>若“百合”专指女女恋爱，本作则<strong>不符合</strong>。十二话没有女女告白、约会、接吻、交往确认或性取向身份自述；官方、MAL、Anime-Planet 与 AniList 也没有百合／GL／Girls Love／Yuri 字段。Bangumi 用户确实提供“百合”和“轻百合”标签，但它说明一部分用户如何检索全女社团日常，不能把友情改写成恋爱。</p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：主线（正文称“女女关系”）｜百合归档依据：作品分类，采用女女关系中心的开放口径｜恋爱位置：缺席｜最高明确度：非恋爱｜关系构成：海堤部四人共同体为主线；阳渚—夏海的儿时友情、黒岩与后辈的前后辈关系、小谷顾问与学生的教学关系分别记录｜官方：核对页未标百合／GL｜阅读层级：正篇事实＋公开声明的分类解释｜身份依据类型：范围内没有性取向身份依据｜男性恋爱线：无｜内容提示：捕捉、宰杀、处理和食用鱼类及海洋生物，活饵与昆虫，利用主人公恐惧促成入部，成人教师饮酒后向学生说结婚与亲吻笑话并遭拒绝，泳装与身体笑料，水上安全风险。</strong></p></blockquote><p>这里的“非恋爱”只描述本次 TV 正篇写出的关系阶段，不贬低友情、照料或共同活动的情感价值。“主线”也不是百合浓度评分，而是说明若拿掉这组女女关系，主人公加入社团、学习钓鱼和获得归属的因果链将无法成立。</p><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li>只找女女告白、接吻、约会、交往或情侣确认：<strong>不符合</strong>。</li><li>接受女学生社团、儿时朋友、前后辈互助与女性共同体作为开放型百合阅读：<strong>符合</strong>。</li><li>只找官方明确标百合／GL：<strong>不符合</strong>；所核动画官网以钓鱼、社团与海边生活介绍作品。</li><li>只按女同性恋、双性恋等身份自述检索：<strong>不符合身份明示条件</strong>。</li><li>排除男性恋爱主线：<strong>符合</strong>；男性角色限于家庭和地方社区等背景，没有恋爱因果线。</li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><p>以下字段核对至 2026-07-31。官方宣传、编辑型类型栏、带相关度的社区标签与用户自由标签不是四张同质选票：它们可以同时记录不同用途，而正篇关系阶段仍须回到十二话文本。</p><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://teibotv.com/" target="_blank" rel="noopener noreferrer">TV 动画官网</a>／<a href="https://teibotv.com/story.html" target="_blank" rel="noopener noreferrer">十二话剧情目录</a></td><td>官网以“今日也晴朗，正是钓鱼日”作为标语；分话页从阳渚加入海堤部写到她主动研究 <code>シロギス</code> 钓法，共列 12 话。所核页面未使用百合／GL</td><td>动画官方作品与分话资料</td><td>锁定 TV 正篇范围，确认公开叙事中心是钓鱼社团、学习与主人公成长；“未标”只说明页面实际用语，不是官方否认百合阅读</td></tr><tr class="even"><td><a href="https://myanimelist.net/anime/39730/Houkago_Teibou_Nisshi" target="_blank" rel="noopener noreferrer">MyAnimeList 39730</a></td><td><code>TV</code>、12 话、漫画改；Genres 为 <code>Gourmet / Slice of Life</code>，Themes 为 <code>CGDCT / Iyashikei / School</code>，Demographic 为 <code>Seinen</code>，没有 <code>Girls Love</code></td><td>编辑型数据库字段</td><td>记录常见类型入口；没有 Girls Love 不等于没有重要女女关系，也不能反过来证明所有关系的身份</td></tr><tr class="odd"><td><a href="https://www.anime-planet.com/anime/diary-of-our-days-at-the-breakwater" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td>精确条目为 2020 年 12 话 TV；完整 Tags 为 <code>Comedy / Seinen / Slice of Life / Fishing / School Club / Based on a Manga</code>，没有精确 <code>GL</code></td><td>编辑维护的标签库</td><td>直接请求遇到验证页，故通过文本代理复核精确条目的完整可见标签面板；访问方式受阻不能误记成“无精确条目”</td></tr><tr class="even"><td><a href="https://anilist.co/anime/109019/Houkago-Teibou-Nisshi" target="_blank" rel="noopener noreferrer">AniList 109019</a></td><td>Genres 为 <code>Comedy / Slice of Life / Sports</code>；社区相关度较高的标签为 <code>Fishing 96</code>、<code>School Club 95</code>、<code>Cute Girls Doing Cute Things 94</code>、<code>Primarily Female Cast 93</code> 等，完整数组没有 <code>Yuri</code></td><td>编辑类型＋带相关度的社区标签</td><td>相关度不是用户人数或赞成率；“主要女性阵容”与“Yuri 未列”同时存在，恰好显示阵容事实不能自动变成恋爱类型</td></tr><tr class="odd"><td><a href="https://bangumi.tv/subject/280678" target="_blank" rel="noopener noreferrer">Bangumi subject 280678</a>／<a href="https://api.bgm.tv/v0/subjects/280678" target="_blank" rel="noopener noreferrer">公共 API</a></td><td>结构化快照为 Rank 2274；“百合”561 人、“轻百合”188 人。想看 1528、看过 5133、在看 530、搁置 480、抛弃 280，五状态共 7951；百合标记人数与该分母之比约 7.06%</td><td>社区用户标签、收藏规模与公共 API</td><td>证明本作在中文社区有稳定的开放型百合检索入口；561／7951 不是观众民调，未贴标签也不表示反对。网页缓存略慢，数值统一采用同次 API 快照</td></tr><tr class="even"><td><a href="https://jimaku.cc/entry/1402" target="_blank" rel="noopener noreferrer">Jimaku 条目 1402</a></td><td>条目精确关联 AniList 109019，并提供覆盖第 1–12 话的日文字幕组；本报告采用其中一套日文 Netflix 隐藏字幕</td><td>字幕仓库与文本材料入口</td><td>用于全文检索、逐话复盘和时间码定位；字幕不是官方剧本，不能替代未显示的镜头、表情与无对白动作</td></tr></tbody></table></div><p>数据库的分歧不是简单的“谁对谁错”。MAL、Anime-Planet 和 AniList 首先帮助用户寻找美食、钓鱼、校园社团、日常与户外活动；Bangumi 的自由标签则允许用户把“全女主角社团关系”作为另一条检索路径。本报告选择把后者纳入开放型作品档案，却把恋爱位置单列为“缺席”，正是为了避免一个“百合”词同时冒充阵容、关系、恋爱阶段和身份答案。</p><p>Bangumi 百合标记比例的分母是五种收藏状态用户之和，不是“给条目贴过任意标签的人数”，也不是全体实际观众。约 7.06%只能描述该条目在这项固定快照下的标签浓度。它不能证明社群授权了唯一分类，更不能推翻十二话中“朋友”“前后辈”“顾问”和“社团”这些直接关系名称。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>**以下部分包含《放学后海堤日记》TV 第 1–12 话的完整剧情、关系状态与结尾剧透。**</p></aside>
 
       <details class="spoiler-panel">
         <summary>
@@ -78,7 +117,8 @@
     <p>请注明作品版本、集数／章节、要质疑的原句、可公开核查的来源，以及建议如何修订。评论属于待核查反馈，不会自动成为报告证据。</p>
   </div>
   <div class="giscus"></div>
-<script src="https://giscus.app/client.js"
+<div class="giscus-config"
+        hidden
         data-repo="L-M-Sherlock/yuri-classification-archive"
         data-repo-id="R_kgDOTo1RzA"
         data-category="Announcements"
@@ -89,12 +129,9 @@
         data-reactions-enabled="1"
         data-emit-metadata="0"
         data-input-position="top"
-        data-theme="preferred_color_scheme"
         data-lang="zh-CN"
         data-loading="lazy"
-        crossorigin="anonymous"
-        async>
-</script>
+        aria-hidden="true"></div>
 </section>
 
   </main>
@@ -105,7 +142,7 @@
     </div>
   </footer>
   <script>window.SITE_CONFIG = {basePath: "/yuri-classification-archive"};</script>
-  <script src="/yuri-classification-archive/assets/site.js?v=4c67abfa839a" defer></script>
+  <script src="/yuri-classification-archive/assets/site.js?v=95491b68a3ae" defer></script>
   
 </body>
 </html>

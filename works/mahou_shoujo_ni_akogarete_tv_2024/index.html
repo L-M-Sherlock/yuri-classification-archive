@@ -5,7 +5,38 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="《憧憬成为魔法少女》属于 女女关系处于叙事主线、具有明确女女性欲和追求、官方未标而三家数据库明确提供 GL／Yuri 入口的作品，置信度高 。 但“明确女女欲望”绝不能被缩写成“明确恋爱”。Utena 对魔法少女的崇拜转化为施虐和性兴奋，许多束缚、剥衣、触摸与刺激发生在对方拒绝或无法离开的情境。Kiwi 对 U……">
   <meta name="color-scheme" content="light dark">
-  <meta name="theme-color" content="#f5f0e8">
+  <meta id="theme-color-light" name="theme-color" media="(prefers-color-scheme: light)" content="#f5f0e8">
+  <meta id="theme-color-dark" name="theme-color" media="(prefers-color-scheme: dark)" content="#1c181c">
+  <script>
+    (() => {
+      const storageKey = "yuri-classification-theme";
+      const allowed = new Set(["system", "light", "dark"]);
+      let preference = "system";
+      try {
+        const stored = localStorage.getItem(storageKey);
+        if (allowed.has(stored)) preference = stored;
+      } catch (_error) {
+        preference = "system";
+      }
+      const systemDark = window.matchMedia?.("(prefers-color-scheme: dark)").matches;
+      const theme = preference === "system"
+        ? (systemDark ? "dark" : "light")
+        : preference;
+      document.documentElement.dataset.theme = theme;
+      document.documentElement.dataset.themePreference = preference;
+      document.documentElement.style.colorScheme = theme;
+      const lightMeta = document.getElementById("theme-color-light");
+      const darkMeta = document.getElementById("theme-color-dark");
+      if (preference === "system") {
+        lightMeta.content = "#f5f0e8";
+        darkMeta.content = "#1c181c";
+      } else {
+        const color = theme === "dark" ? "#1c181c" : "#f5f0e8";
+        lightMeta.content = color;
+        darkMeta.content = color;
+      }
+    })();
+  </script>
   <link rel="canonical" href="https://l-m-sherlock.github.io/yuri-classification-archive/works/mahou_shoujo_ni_akogarete_tv_2024/">
   <link rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
   <meta property="og:type" content="website">
@@ -15,7 +46,7 @@
   <meta property="og:url" content="https://l-m-sherlock.github.io/yuri-classification-archive/works/mahou_shoujo_ni_akogarete_tv_2024/">
   <meta property="og:image" content="https://l-m-sherlock.github.io/yuri-classification-archive/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
   <title>《憧憬成为魔法少女》分类报告｜百合作品分类档案</title>
-  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=575995716ad6">
+  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=014a89622973">
   
 </head>
 <body class="classification-report">
@@ -35,6 +66,14 @@
         <a href="/yuri-classification-archive/about/">方法与说明</a>
         <a class="nav-star" href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub / Star <span aria-hidden="true">↗</span></a>
         <a href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
+        <label class="theme-control" for="theme-preference">
+          <span>主题</span>
+          <select id="theme-preference" aria-label="主题偏好">
+            <option value="system">跟随系统</option>
+            <option value="light">浅色</option>
+            <option value="dark">深色</option>
+          </select>
+        </label>
       </nav>
     </div>
   </header>
@@ -55,7 +94,7 @@
       <ol><li><a href="#无剧透结论">无剧透结论</a></li><li><a href="#数据库与公开分类">数据库与公开分类</a></li><li><a href="#决定性文本证据">决定性文本证据</a></li><li><a href="#四层分析">四层分析</a></li><li><a href="#最强反方解释">最强反方解释</a></li><li><a href="#分用途结论">分用途结论</a></li><li><a href="#方法来源与限制">方法、来源与限制</a></li></ol>
     </aside>
     <div class="report-content">
-      <blockquote><p>分类日期：2026-07-31<br> 分类对象：2024 年 TV 动画《魔法少女にあこがれて》第一季<br> 纳入范围：正式第 1–13 话<br> 排除范围：漫画、BD 附加内容、不同暴露程度版本的画面差异、特别素材、已公布后续季及其他跨媒介<br> 用途：普通推荐、数据库分类、女女欲望与恋爱检索、角色身份检索、同意边界和版本范围核对</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p>《憧憬成为魔法少女》属于<strong>女女关系处于叙事主线、具有明确女女性欲和追求、官方未标而三家数据库明确提供 GL／Yuri 入口的作品，置信度高</strong>。</p><p>但“明确女女欲望”绝不能被缩写成“明确恋爱”。Utena 对魔法少女的崇拜转化为施虐和性兴奋，许多束缚、剥衣、触摸与刺激发生在对方拒绝或无法离开的情境。Kiwi 对 Utena 的约会、亲吻、爱和爱情旅馆邀请则是明确单向追求；Utena 会关心和答应同行，却没有明确以同样恋爱／性欲回应。第一季没有正式交往或身份自述。</p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女性关系层级：主线（正文称“女女关系”）｜百合归档依据：作品分类｜恋爱位置：主线（该字段同时汇总明确性欲；明确恋爱追求本身是重要副线）｜最高明确度：明确欲望｜关系构成：Utena 对魔法少女的性欲与施虐、Kiwi 对 Utena 的明确追求、Baiser—Azure 的非自愿刺激与受虐回应、Loco—Leber 在胁迫情境下的亲吻和性行为、Tres Magia 的战斗伙伴关系｜官方：未标百合／GL｜阅读层级：正篇事实＋强推断＋读者解读｜身份依据类型：只有关系事实｜男性恋爱线：无｜内容提示：初中年龄角色被持续性化；非自愿束缚、剥衣、猥亵及乳房／生殖器刺激；封闭房间中的胁迫亲吻和性行为；施虐、受虐、羞辱与高潮反应；触手、怪物袭击和公开暴露；勒索变身、身份威胁、精神控制、幼儿化角色扮演、战斗伤害和城市破坏。</strong></p></blockquote><p>最高明确度只说至少一条关系出现直接性欲或追求，不表示所有行为自愿，不表示双方相互，也不表示角色成为情侣。</p><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li>只找明确女女欲望：<strong>符合</strong>，而且包含恋爱追求、施虐性欲和受虐欲等不同对象。</li><li>只找双方自由确认交往：<strong>不符合</strong>；没有正式情侣关系。</li><li>只找明确单向追求：<strong>符合</strong>；Kiwi 对 Utena 反复称约会、索吻、说爱和邀请去爱情旅馆。</li><li>排除非自愿性行为或强迫情境：<strong>不符合</strong>；这是全季高频且重要内容。</li><li>只找官方明确标百合／GL：<strong>不符合</strong>；所核官网未用该作品级词，但 MAL、Anime-Planet 和 AniList 有明确入口。</li><li>只按女同性恋、双性恋等身份自述检索：<strong>不符合身份明示条件</strong>。</li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><p>字段核对至 2026-07-31。官方宣传、编辑类型、社区相关度和用户自由标签不是同一种证据。</p><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://mahoako-anime.com/" target="_blank" rel="noopener noreferrer">动画官网</a></td><td>官网将作品概括为“心地善良的内向少女发生施虐型大变身”的恶之组织喜剧；分话资料列正式第 1–13 话。所核页面未用百合／GL 作整部作品标签</td><td>官方自述、角色与分话资料</td><td>锁定正式范围和官方市场表述；“未标”不等于官方否认女女欲望事实</td></tr><tr class="even"><td><a href="https://myanimelist.net/anime/54722/Mahou_Shoujo_ni_Akogarete" target="_blank" rel="noopener noreferrer">MyAnimeList 54722</a></td><td><code>TV</code>、13 话，Genre 精确包含 <code>Girls Love</code></td><td>编辑型数据库类型</td><td>证明 MAL 提供严格 Girls Love 入口；不能据此宣布每项行为自愿或每名角色身份明确</td></tr><tr class="odd"><td><a href="https://www.anime-planet.com/anime/gushing-over-magical-girls" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td><code>TV</code>、13 话；完整 Tags 精确包含 <code>GL</code> 与 <code>Yuri</code>，并列 Action、Comedy、Ecchi、Magical Girl 等</td><td>编辑维护的标签库</td><td>记录 GL 和性喜剧并存的公共入口；GL 不是对同意质量的背书</td></tr><tr class="even"><td><a href="https://anilist.co/anime/162780/Mahou-Shoujo-ni-Akogarete" target="_blank" rel="noopener noreferrer">AniList 162780</a></td><td><code>TV</code>、13 话；Yuri 95，同时有 Sadism 97、Psychosexual 93、Nudity 90、Masochism 88、Bondage 86、Rape 72</td><td>编辑类型＋社区相关度</td><td>相关度只描述标签相关性，不是人数；这些并列标签提醒读者 Yuri 入口不能替代具体内容提示</td></tr><tr class="odd"><td><a href="https://bangumi.tv/subject/424663" target="_blank" rel="noopener noreferrer">Bangumi subject 424663</a>／<a href="https://api.bgm.tv/v0/subjects/424663" target="_blank" rel="noopener noreferrer">公共 API</a></td><td>Rank 2464；“百合”4310 人。五状态用户共 31,366，百合标记人数与该分母之比约 13.74%</td><td>社区自由标签和收藏规模</td><td>说明中文社区中百合检索浓度较高；4310／31366 不是观众民调，也不能把未标用户视为反对</td></tr></tbody></table></div><p>三家国际数据库一致提供 GL／Yuri，Bangumi 也有高数量自由标签；这能说明公共分类高度集中，却不能代替逐场景检查，更不能把“数据库称 GL”写成“所有亲密行为都是恋爱”。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>**以下部分包含《憧憬成为魔法少女》第 1–13 话的完整剧情、性行为、关系状态与结尾剧透。**</p></aside>
+      <blockquote><p>分类日期：2026-07-31<br> 分类对象：2024 年 TV 动画《魔法少女にあこがれて》第一季<br> 纳入范围：正式第 1–13 话<br> 排除范围：漫画、BD 附加内容、不同暴露程度版本的画面差异、特别素材、已公布后续季及其他跨媒介<br> 用途：普通推荐、数据库分类、女女欲望与恋爱检索、角色身份检索、同意边界和版本范围核对</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p>《憧憬成为魔法少女》属于<strong>女女关系处于叙事主线、具有明确女女性欲和追求、官方未标而三家数据库明确提供 GL／Yuri 入口的作品，置信度高</strong>。</p><p>但“明确女女欲望”绝不能被缩写成“明确恋爱”。Utena 对魔法少女的崇拜转化为施虐和性兴奋，许多束缚、剥衣、触摸与刺激发生在对方拒绝或无法离开的情境。Kiwi 对 Utena 的约会、亲吻、爱和爱情旅馆邀请则是明确单向追求；Utena 会关心和答应同行，却没有明确以同样恋爱／性欲回应。第一季没有正式交往或身份自述。</p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：主线（正文称“女女关系”）｜百合归档依据：作品分类｜恋爱位置：主线（该字段同时汇总明确性欲；明确恋爱追求本身是重要副线）｜最高明确度：明确欲望｜关系构成：Utena 对魔法少女的性欲与施虐、Kiwi 对 Utena 的明确追求、Baiser—Azure 的非自愿刺激与受虐回应、Loco—Leber 在胁迫情境下的亲吻和性行为、Tres Magia 的战斗伙伴关系｜官方：未标百合／GL｜阅读层级：正篇事实＋强推断＋读者解读｜身份依据类型：只有关系事实｜男性恋爱线：无｜内容提示：初中年龄角色被持续性化；非自愿束缚、剥衣、猥亵及乳房／生殖器刺激；封闭房间中的胁迫亲吻和性行为；施虐、受虐、羞辱与高潮反应；触手、怪物袭击和公开暴露；勒索变身、身份威胁、精神控制、幼儿化角色扮演、战斗伤害和城市破坏。</strong></p></blockquote><p>最高明确度只说至少一条关系出现直接性欲或追求，不表示所有行为自愿，不表示双方相互，也不表示角色成为情侣。</p><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li>只找明确女女欲望：<strong>符合</strong>，而且包含恋爱追求、施虐性欲和受虐欲等不同对象。</li><li>只找双方自由确认交往：<strong>不符合</strong>；没有正式情侣关系。</li><li>只找明确单向追求：<strong>符合</strong>；Kiwi 对 Utena 反复称约会、索吻、说爱和邀请去爱情旅馆。</li><li>排除非自愿性行为或强迫情境：<strong>不符合</strong>；这是全季高频且重要内容。</li><li>只找官方明确标百合／GL：<strong>不符合</strong>；所核官网未用该作品级词，但 MAL、Anime-Planet 和 AniList 有明确入口。</li><li>只按女同性恋、双性恋等身份自述检索：<strong>不符合身份明示条件</strong>。</li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><p>字段核对至 2026-07-31。官方宣传、编辑类型、社区相关度和用户自由标签不是同一种证据。</p><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://mahoako-anime.com/" target="_blank" rel="noopener noreferrer">动画官网</a></td><td>官网将作品概括为“心地善良的内向少女发生施虐型大变身”的恶之组织喜剧；分话资料列正式第 1–13 话。所核页面未用百合／GL 作整部作品标签</td><td>官方自述、角色与分话资料</td><td>锁定正式范围和官方市场表述；“未标”不等于官方否认女女欲望事实</td></tr><tr class="even"><td><a href="https://myanimelist.net/anime/54722/Mahou_Shoujo_ni_Akogarete" target="_blank" rel="noopener noreferrer">MyAnimeList 54722</a></td><td><code>TV</code>、13 话，Genre 精确包含 <code>Girls Love</code></td><td>编辑型数据库类型</td><td>证明 MAL 提供严格 Girls Love 入口；不能据此宣布每项行为自愿或每名角色身份明确</td></tr><tr class="odd"><td><a href="https://www.anime-planet.com/anime/gushing-over-magical-girls" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td><code>TV</code>、13 话；完整 Tags 精确包含 <code>GL</code> 与 <code>Yuri</code>，并列 Action、Comedy、Ecchi、Magical Girl 等</td><td>编辑维护的标签库</td><td>记录 GL 和性喜剧并存的公共入口；GL 不是对同意质量的背书</td></tr><tr class="even"><td><a href="https://anilist.co/anime/162780/Mahou-Shoujo-ni-Akogarete" target="_blank" rel="noopener noreferrer">AniList 162780</a></td><td><code>TV</code>、13 话；Yuri 95，同时有 Sadism 97、Psychosexual 93、Nudity 90、Masochism 88、Bondage 86、Rape 72</td><td>编辑类型＋社区相关度</td><td>相关度只描述标签相关性，不是人数；这些并列标签提醒读者 Yuri 入口不能替代具体内容提示</td></tr><tr class="odd"><td><a href="https://bangumi.tv/subject/424663" target="_blank" rel="noopener noreferrer">Bangumi subject 424663</a>／<a href="https://api.bgm.tv/v0/subjects/424663" target="_blank" rel="noopener noreferrer">公共 API</a></td><td>Rank 2464；“百合”4310 人。五状态用户共 31,366，百合标记人数与该分母之比约 13.74%</td><td>社区自由标签和收藏规模</td><td>说明中文社区中百合检索浓度较高；4310／31366 不是观众民调，也不能把未标用户视为反对</td></tr></tbody></table></div><p>三家国际数据库一致提供 GL／Yuri，Bangumi 也有高数量自由标签；这能说明公共分类高度集中，却不能代替逐场景检查，更不能把“数据库称 GL”写成“所有亲密行为都是恋爱”。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>**以下部分包含《憧憬成为魔法少女》第 1–13 话的完整剧情、性行为、关系状态与结尾剧透。**</p></aside>
 
       <details class="spoiler-panel">
         <summary>
@@ -78,7 +117,8 @@
     <p>请注明作品版本、集数／章节、要质疑的原句、可公开核查的来源，以及建议如何修订。评论属于待核查反馈，不会自动成为报告证据。</p>
   </div>
   <div class="giscus"></div>
-<script src="https://giscus.app/client.js"
+<div class="giscus-config"
+        hidden
         data-repo="L-M-Sherlock/yuri-classification-archive"
         data-repo-id="R_kgDOTo1RzA"
         data-category="Announcements"
@@ -89,12 +129,9 @@
         data-reactions-enabled="1"
         data-emit-metadata="0"
         data-input-position="top"
-        data-theme="preferred_color_scheme"
         data-lang="zh-CN"
         data-loading="lazy"
-        crossorigin="anonymous"
-        async>
-</script>
+        aria-hidden="true"></div>
 </section>
 
   </main>
@@ -105,7 +142,7 @@
     </div>
   </footer>
   <script>window.SITE_CONFIG = {basePath: "/yuri-classification-archive"};</script>
-  <script src="/yuri-classification-archive/assets/site.js?v=4c67abfa839a" defer></script>
+  <script src="/yuri-classification-archive/assets/site.js?v=95491b68a3ae" defer></script>
   
 </body>
 </html>

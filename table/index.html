@@ -5,7 +5,38 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="按关系位置、恋爱明确度、官方标签和用途组合筛选作品。">
   <meta name="color-scheme" content="light dark">
-  <meta name="theme-color" content="#f5f0e8">
+  <meta id="theme-color-light" name="theme-color" media="(prefers-color-scheme: light)" content="#f5f0e8">
+  <meta id="theme-color-dark" name="theme-color" media="(prefers-color-scheme: dark)" content="#1c181c">
+  <script>
+    (() => {
+      const storageKey = "yuri-classification-theme";
+      const allowed = new Set(["system", "light", "dark"]);
+      let preference = "system";
+      try {
+        const stored = localStorage.getItem(storageKey);
+        if (allowed.has(stored)) preference = stored;
+      } catch (_error) {
+        preference = "system";
+      }
+      const systemDark = window.matchMedia?.("(prefers-color-scheme: dark)").matches;
+      const theme = preference === "system"
+        ? (systemDark ? "dark" : "light")
+        : preference;
+      document.documentElement.dataset.theme = theme;
+      document.documentElement.dataset.themePreference = preference;
+      document.documentElement.style.colorScheme = theme;
+      const lightMeta = document.getElementById("theme-color-light");
+      const darkMeta = document.getElementById("theme-color-dark");
+      if (preference === "system") {
+        lightMeta.content = "#f5f0e8";
+        darkMeta.content = "#1c181c";
+      } else {
+        const color = theme === "dark" ? "#1c181c" : "#f5f0e8";
+        lightMeta.content = color;
+        darkMeta.content = color;
+      }
+    })();
+  </script>
   <link rel="canonical" href="https://l-m-sherlock.github.io/yuri-classification-archive/table/">
   <link rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
   <meta property="og:type" content="website">
@@ -15,7 +46,7 @@
   <meta property="og:url" content="https://l-m-sherlock.github.io/yuri-classification-archive/table/">
   <meta property="og:image" content="https://l-m-sherlock.github.io/yuri-classification-archive/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
   <title>作品分类总表｜百合作品分类档案</title>
-  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=575995716ad6">
+  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=014a89622973">
   <link rel="stylesheet" href="/yuri-classification-archive/assets/vendor/tabulator.min.css">
 </head>
 <body class="table-page">
@@ -35,6 +66,14 @@
         <a href="/yuri-classification-archive/about/">方法与说明</a>
         <a class="nav-star" href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub / Star <span aria-hidden="true">↗</span></a>
         <a href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
+        <label class="theme-control" for="theme-preference">
+          <span>主题</span>
+          <select id="theme-preference" aria-label="主题偏好">
+            <option value="system">跟随系统</option>
+            <option value="light">浅色</option>
+            <option value="dark">深色</option>
+          </select>
+        </label>
       </nav>
     </div>
   </header>
@@ -96,7 +135,8 @@
     <p>请说明筛选条件、期望结果与实际结果。作品文本争议请前往对应报告评论区。</p>
   </div>
   <div class="giscus"></div>
-<script src="https://giscus.app/client.js"
+<div class="giscus-config"
+        hidden
         data-repo="L-M-Sherlock/yuri-classification-archive"
         data-repo-id="R_kgDOTo1RzA"
         data-category="Announcements"
@@ -107,12 +147,9 @@
         data-reactions-enabled="1"
         data-emit-metadata="0"
         data-input-position="top"
-        data-theme="preferred_color_scheme"
         data-lang="zh-CN"
         data-loading="lazy"
-        crossorigin="anonymous"
-        async>
-</script>
+        aria-hidden="true"></div>
 </section>
 
   </main>
@@ -123,7 +160,7 @@
     </div>
   </footer>
   <script>window.SITE_CONFIG = {basePath: "/yuri-classification-archive"};</script>
-  <script src="/yuri-classification-archive/assets/site.js?v=4c67abfa839a" defer></script>
+  <script src="/yuri-classification-archive/assets/site.js?v=95491b68a3ae" defer></script>
   <script src="/yuri-classification-archive/assets/vendor/tabulator.min.js"></script><script src="/yuri-classification-archive/assets/vendor/xlsx.full.min.js"></script><script src="/yuri-classification-archive/assets/table.js?v=91d882d42b94"></script>
 </body>
 </html>

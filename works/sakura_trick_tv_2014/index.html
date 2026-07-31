@@ -5,7 +5,38 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="《桜Trick》TV 版属于百合作品主类，置信度高。 女女关系既是日常喜剧的反复行动，也是嫉妒、秘密、家庭阻力和终话选择的主要因果；官方动画页面直接以“两名少女为了成为彼此特别的对象而接吻、关系因此加深”介绍作品，MAL、Anime-Planet、AniList 与 Bangumi 也都提供百合／GL入口。 主……">
   <meta name="color-scheme" content="light dark">
-  <meta name="theme-color" content="#f5f0e8">
+  <meta id="theme-color-light" name="theme-color" media="(prefers-color-scheme: light)" content="#f5f0e8">
+  <meta id="theme-color-dark" name="theme-color" media="(prefers-color-scheme: dark)" content="#1c181c">
+  <script>
+    (() => {
+      const storageKey = "yuri-classification-theme";
+      const allowed = new Set(["system", "light", "dark"]);
+      let preference = "system";
+      try {
+        const stored = localStorage.getItem(storageKey);
+        if (allowed.has(stored)) preference = stored;
+      } catch (_error) {
+        preference = "system";
+      }
+      const systemDark = window.matchMedia?.("(prefers-color-scheme: dark)").matches;
+      const theme = preference === "system"
+        ? (systemDark ? "dark" : "light")
+        : preference;
+      document.documentElement.dataset.theme = theme;
+      document.documentElement.dataset.themePreference = preference;
+      document.documentElement.style.colorScheme = theme;
+      const lightMeta = document.getElementById("theme-color-light");
+      const darkMeta = document.getElementById("theme-color-dark");
+      if (preference === "system") {
+        lightMeta.content = "#f5f0e8";
+        darkMeta.content = "#1c181c";
+      } else {
+        const color = theme === "dark" ? "#1c181c" : "#f5f0e8";
+        lightMeta.content = color;
+        darkMeta.content = color;
+      }
+    })();
+  </script>
   <link rel="canonical" href="https://l-m-sherlock.github.io/yuri-classification-archive/works/sakura_trick_tv_2014/">
   <link rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
   <meta property="og:type" content="website">
@@ -15,7 +46,7 @@
   <meta property="og:url" content="https://l-m-sherlock.github.io/yuri-classification-archive/works/sakura_trick_tv_2014/">
   <meta property="og:image" content="https://l-m-sherlock.github.io/yuri-classification-archive/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
   <title>《樱Trick》分类报告｜百合作品分类档案</title>
-  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=575995716ad6">
+  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=014a89622973">
   
 </head>
 <body class="classification-report">
@@ -35,6 +66,14 @@
         <a href="/yuri-classification-archive/about/">方法与说明</a>
         <a class="nav-star" href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub / Star <span aria-hidden="true">↗</span></a>
         <a href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
+        <label class="theme-control" for="theme-preference">
+          <span>主题</span>
+          <select id="theme-preference" aria-label="主题偏好">
+            <option value="system">跟随系统</option>
+            <option value="light">浅色</option>
+            <option value="dark">深色</option>
+          </select>
+        </label>
       </nav>
     </div>
   </header>
@@ -55,7 +94,7 @@
       <ol><li><a href="#无剧透结论">无剧透结论</a></li><li><a href="#数据库与公开分类">数据库与公开分类</a></li><li><a href="#决定性文本证据">决定性文本证据</a></li><li><a href="#四层分析">四层分析</a></li><li><a href="#最强反方解释">最强反方解释</a></li><li><a href="#分用途结论">分用途结论</a></li><li><a href="#方法来源与限制">方法、来源与限制</a></li></ol>
     </aside>
     <div class="report-content">
-      <blockquote><p>分类日期：2026-07-30<br> 分类对象：2014 年 TV 动画《桜Trick》<br> 纳入范围：电视正篇第 1–12 话<br> 排除范围：原作漫画、漫画后续与外传、影碟附加内容、广播剧、活动朗读、现场活动、游戏、角色歌及其他跨媒介材料<br> 用途：普通推荐、数据库分类、明确恋爱检索、交往状态检索与角色身份检索</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p><strong>《桜Trick》TV 版属于百合作品主类，置信度高。</strong> 女女关系既是日常喜剧的反复行动，也是嫉妒、秘密、家庭阻力和终话选择的主要因果；官方动画页面直接以“两名少女为了成为彼此特别的对象而接吻、关系因此加深”介绍作品，MAL、Anime-Planet、AniList 与 Bangumi 也都提供百合／GL入口。</p><p><strong>主角二人在 TV 范围内达到明确、双向的女女恋爱欲望，却没有正式确认交往。</strong> 她们共同决定只与彼此接吻，反复主动寻求亲吻，并在终话一边互相说“喜欢”一边接吻；同一终话也明确说她们尚未互相告白，仍在理解恋爱意义上的“喜欢”和“交往”。因此“明确欲望”与“尚未确认情侣”必须同时保留。</p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女性关系层级：主线（正文称“女女关系”）｜百合归档依据：作品分类｜恋爱位置：主线｜最高明确度：明确双向女女欲望，尚未正式确认交往｜关系构成：春香—優为主线；コトネ—しずく为重要副线；美月对春香是单向告白；理奈与澄另有局部仰慕线｜官方：明确以少女之间接吻和“特别关系”为作品卖点，未在所核页面逐字使用百合／GL｜阅读层级：正篇事实为主，局部关系含强推断｜身份依据类型：有明确女女欲望与亲密关系事实，无性取向身份自述｜男性恋爱线：无；存在家族安排的男性婚约压力，但没有男性欲望或互惠恋爱线｜内容提示：未成年角色的性化呈现、突然发起的接吻与喜剧化边界越过、嫉妒和排他、亲戚间恋爱方向、家族安排婚约、未经邀请的身体触碰、泳池与身体笑料。</strong></p></blockquote><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li>只找正篇明确出现女性对女性的喜欢、嫉妒、接吻和告白：<strong>符合</strong>，且不只发生在一组角色之间。</li><li>只找 TV 内已互称恋人、正式答应交往或明确建立情侣关系：<strong>不符合</strong>；主角终话仍把“交往”当作需要理解的问题。</li><li>接受双方反复接吻、相互说喜欢、以彼此为特别对象，但允许关系尚未命名：<strong>高度符合</strong>。</li><li>只按女同性恋、双性恋等身份自述检索：<strong>不符合身份明示条件</strong>；对象与欲望明确，不等于身份词已经明确。</li><li>排除重要男性恋爱线：<strong>符合</strong>；家族为女性角色安排的男性婚约是外部压力，不是剧中成立的男性恋爱。</li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><p>以下字段核对至 2026-07-30。官方介绍、编辑数据库、带相关度的社区标签与用户自由标签回答不同问题，不能当成四张等价选票；正篇关系判断仍以十二话文本为准。</p><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://www.tbs.co.jp/anime/sakura/" target="_blank" rel="noopener noreferrer">TBS 动画官网</a>／<a href="https://www.tbs.co.jp/anime/sakura/story/" target="_blank" rel="noopener noreferrer">完整剧情页</a></td><td>官网列出 2014 年播出信息和 12 话；总简介称二人为使彼此成为“特别之人”而接吻，关系由此加深，并以 <code>少女同士の口づけの青春4コマ</code> 概括作品</td><td>动画官方作品、播出与逐话资料</td><td>锁定 TV 范围，并确认少女接吻和特殊关系是公开主卖点；所核页面未逐字使用百合／GL，故官方字段记“其他相关表述”</td></tr><tr class="even"><td><a href="https://www.deen.co.jp/works-archives/s-trick" target="_blank" rel="noopener noreferrer">Studio DEEN 作品页</a></td><td>称作品从两名女性朋友为追求“特别关系”而接吻开始，描写快乐又苦涩的女孩子青春；又说接吻使二人关系不断加深</td><td>动画制作公司正式作品档案</td><td>与 TBS 文案互证主关系及市场定位；不能替 TV 结尾补上“已经交往”</td></tr><tr class="odd"><td><a href="https://myanimelist.net/anime/20047/Sakura_Trick" target="_blank" rel="noopener noreferrer">MyAnimeList 20047</a></td><td><code>TV</code>、12 集、四格漫画改；Genres 为 <code>Comedy / Girls Love</code>，Theme 为 <code>School</code></td><td>编辑型数据库字段</td><td>记录 MAL 明确提供 Girls Love 类型入口；这是作品字段，不是角色身份说明</td></tr><tr class="even"><td><a href="https://www.anime-planet.com/anime/sakura-trick" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td><code>TV</code>、12 集；完整 Tags 为 <code>Comedy / GL / Romance / Seinen / Shoujo-ai / School Life / Based on a 4-Koma Manga / Based on a Manga</code></td><td>编辑维护的标签库</td><td>精确 GL 为“有”；Shoujo-ai 另行保留，不用两个词重复计票</td></tr><tr class="odd"><td><a href="https://anilist.co/anime/20047/Sakura-Trick" target="_blank" rel="noopener noreferrer">AniList 20047</a></td><td>Genres 为 <code>Comedy / Romance / Slice of Life</code>；社区相关度为 <code>Yuri 98</code>、<code>LGBTQ+ Themes 87</code>、<code>Love Triangle 68</code> 等</td><td>编辑文类＋带相关度的社区标签</td><td>98 表示标签贴合程度，不是 98 名用户或 98% 支持率；高相关度与文本主线一致，仍不能证明人物身份</td></tr><tr class="even"><td><a href="https://bangumi.tv/subject/80838" target="_blank" rel="noopener noreferrer">Bangumi subject 80838</a>／<a href="https://api.bgm.tv/v0/subjects/80838" target="_blank" rel="noopener noreferrer">公共 API</a></td><td>结构化快照为 Rank 2210；“百合”2112 人、“恋爱”99 人。想看 2330、看过 7515、在看 705、搁置 655、抛弃 494，五状态合计 11,699；百合标记人数占五状态用户约 18.05%</td><td>社区用户标签、收藏规模与公共 API</td><td>说明中文社区的百合标签浓度较高；2112／11699 不是“18.05%观众认定”的民调，未标用户也不等于反对</td></tr></tbody></table></div><p>四个数据库在本作上高度集中：MAL 和 Anime-Planet 给出明确 Girls Love／GL，AniList 的 Yuri 相关度达到 98，Bangumi 的“百合”标记人数也远高于同条目的“恋爱”自由标签。这种一致性适合说明本作具有稳定的公共检索入口，却不能把“数据库都标了”写成角色已经采用某种身份词，更不能跨过终话台词，把主角关系阶段提高为正式交往。</p><p>TBS 与制作公司没有在所核页面直接写 <code>百合</code> 或 <code>GL</code>，却把少女接吻、女孩子青春和特别关系置于总简介，因此官方字段记“其他相关表述”，而非“未标”。Bangumi 网页与 API 的同日读取有缓存差异，报告采用可复算的 API 数值；比例分母是五种收藏状态用户，并非全部实际观众。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>**以下部分包含《桜Trick》TV 第 1–12 话的完整剧情、关系状态与结尾剧透。**</p></aside>
+      <blockquote><p>分类日期：2026-07-30<br> 分类对象：2014 年 TV 动画《桜Trick》<br> 纳入范围：电视正篇第 1–12 话<br> 排除范围：原作漫画、漫画后续与外传、影碟附加内容、广播剧、活动朗读、现场活动、游戏、角色歌及其他跨媒介材料<br> 用途：普通推荐、数据库分类、明确恋爱检索、交往状态检索与角色身份检索</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p><strong>《桜Trick》TV 版属于百合作品主类，置信度高。</strong> 女女关系既是日常喜剧的反复行动，也是嫉妒、秘密、家庭阻力和终话选择的主要因果；官方动画页面直接以“两名少女为了成为彼此特别的对象而接吻、关系因此加深”介绍作品，MAL、Anime-Planet、AniList 与 Bangumi 也都提供百合／GL入口。</p><p><strong>主角二人在 TV 范围内达到明确、双向的女女恋爱欲望，却没有正式确认交往。</strong> 她们共同决定只与彼此接吻，反复主动寻求亲吻，并在终话一边互相说“喜欢”一边接吻；同一终话也明确说她们尚未互相告白，仍在理解恋爱意义上的“喜欢”和“交往”。因此“明确欲望”与“尚未确认情侣”必须同时保留。</p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：主线（正文称“女女关系”）｜百合归档依据：作品分类｜恋爱位置：主线｜最高明确度：明确双向女女欲望，尚未正式确认交往｜关系构成：春香—優为主线；コトネ—しずく为重要副线；美月对春香是单向告白；理奈与澄另有局部仰慕线｜官方：明确以少女之间接吻和“特别关系”为作品卖点，未在所核页面逐字使用百合／GL｜阅读层级：正篇事实为主，局部关系含强推断｜身份依据类型：有明确女女欲望与亲密关系事实，无性取向身份自述｜男性恋爱线：无；存在家族安排的男性婚约压力，但没有男性欲望或互惠恋爱线｜内容提示：未成年角色的性化呈现、突然发起的接吻与喜剧化边界越过、嫉妒和排他、亲戚间恋爱方向、家族安排婚约、未经邀请的身体触碰、泳池与身体笑料。</strong></p></blockquote><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li>只找正篇明确出现女性对女性的喜欢、嫉妒、接吻和告白：<strong>符合</strong>，且不只发生在一组角色之间。</li><li>只找 TV 内已互称恋人、正式答应交往或明确建立情侣关系：<strong>不符合</strong>；主角终话仍把“交往”当作需要理解的问题。</li><li>接受双方反复接吻、相互说喜欢、以彼此为特别对象，但允许关系尚未命名：<strong>高度符合</strong>。</li><li>只按女同性恋、双性恋等身份自述检索：<strong>不符合身份明示条件</strong>；对象与欲望明确，不等于身份词已经明确。</li><li>排除重要男性恋爱线：<strong>符合</strong>；家族为女性角色安排的男性婚约是外部压力，不是剧中成立的男性恋爱。</li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><p>以下字段核对至 2026-07-30。官方介绍、编辑数据库、带相关度的社区标签与用户自由标签回答不同问题，不能当成四张等价选票；正篇关系判断仍以十二话文本为准。</p><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://www.tbs.co.jp/anime/sakura/" target="_blank" rel="noopener noreferrer">TBS 动画官网</a>／<a href="https://www.tbs.co.jp/anime/sakura/story/" target="_blank" rel="noopener noreferrer">完整剧情页</a></td><td>官网列出 2014 年播出信息和 12 话；总简介称二人为使彼此成为“特别之人”而接吻，关系由此加深，并以 <code>少女同士の口づけの青春4コマ</code> 概括作品</td><td>动画官方作品、播出与逐话资料</td><td>锁定 TV 范围，并确认少女接吻和特殊关系是公开主卖点；所核页面未逐字使用百合／GL，故官方字段记“其他相关表述”</td></tr><tr class="even"><td><a href="https://www.deen.co.jp/works-archives/s-trick" target="_blank" rel="noopener noreferrer">Studio DEEN 作品页</a></td><td>称作品从两名女性朋友为追求“特别关系”而接吻开始，描写快乐又苦涩的女孩子青春；又说接吻使二人关系不断加深</td><td>动画制作公司正式作品档案</td><td>与 TBS 文案互证主关系及市场定位；不能替 TV 结尾补上“已经交往”</td></tr><tr class="odd"><td><a href="https://myanimelist.net/anime/20047/Sakura_Trick" target="_blank" rel="noopener noreferrer">MyAnimeList 20047</a></td><td><code>TV</code>、12 集、四格漫画改；Genres 为 <code>Comedy / Girls Love</code>，Theme 为 <code>School</code></td><td>编辑型数据库字段</td><td>记录 MAL 明确提供 Girls Love 类型入口；这是作品字段，不是角色身份说明</td></tr><tr class="even"><td><a href="https://www.anime-planet.com/anime/sakura-trick" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td><code>TV</code>、12 集；完整 Tags 为 <code>Comedy / GL / Romance / Seinen / Shoujo-ai / School Life / Based on a 4-Koma Manga / Based on a Manga</code></td><td>编辑维护的标签库</td><td>精确 GL 为“有”；Shoujo-ai 另行保留，不用两个词重复计票</td></tr><tr class="odd"><td><a href="https://anilist.co/anime/20047/Sakura-Trick" target="_blank" rel="noopener noreferrer">AniList 20047</a></td><td>Genres 为 <code>Comedy / Romance / Slice of Life</code>；社区相关度为 <code>Yuri 98</code>、<code>LGBTQ+ Themes 87</code>、<code>Love Triangle 68</code> 等</td><td>编辑文类＋带相关度的社区标签</td><td>98 表示标签贴合程度，不是 98 名用户或 98% 支持率；高相关度与文本主线一致，仍不能证明人物身份</td></tr><tr class="even"><td><a href="https://bangumi.tv/subject/80838" target="_blank" rel="noopener noreferrer">Bangumi subject 80838</a>／<a href="https://api.bgm.tv/v0/subjects/80838" target="_blank" rel="noopener noreferrer">公共 API</a></td><td>结构化快照为 Rank 2210；“百合”2112 人、“恋爱”99 人。想看 2330、看过 7515、在看 705、搁置 655、抛弃 494，五状态合计 11,699；百合标记人数占五状态用户约 18.05%</td><td>社区用户标签、收藏规模与公共 API</td><td>说明中文社区的百合标签浓度较高；2112／11699 不是“18.05%观众认定”的民调，未标用户也不等于反对</td></tr></tbody></table></div><p>四个数据库在本作上高度集中：MAL 和 Anime-Planet 给出明确 Girls Love／GL，AniList 的 Yuri 相关度达到 98，Bangumi 的“百合”标记人数也远高于同条目的“恋爱”自由标签。这种一致性适合说明本作具有稳定的公共检索入口，却不能把“数据库都标了”写成角色已经采用某种身份词，更不能跨过终话台词，把主角关系阶段提高为正式交往。</p><p>TBS 与制作公司没有在所核页面直接写 <code>百合</code> 或 <code>GL</code>，却把少女接吻、女孩子青春和特别关系置于总简介，因此官方字段记“其他相关表述”，而非“未标”。Bangumi 网页与 API 的同日读取有缓存差异，报告采用可复算的 API 数值；比例分母是五种收藏状态用户，并非全部实际观众。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>**以下部分包含《桜Trick》TV 第 1–12 话的完整剧情、关系状态与结尾剧透。**</p></aside>
 
       <details class="spoiler-panel">
         <summary>
@@ -78,7 +117,8 @@
     <p>请注明作品版本、集数／章节、要质疑的原句、可公开核查的来源，以及建议如何修订。评论属于待核查反馈，不会自动成为报告证据。</p>
   </div>
   <div class="giscus"></div>
-<script src="https://giscus.app/client.js"
+<div class="giscus-config"
+        hidden
         data-repo="L-M-Sherlock/yuri-classification-archive"
         data-repo-id="R_kgDOTo1RzA"
         data-category="Announcements"
@@ -89,12 +129,9 @@
         data-reactions-enabled="1"
         data-emit-metadata="0"
         data-input-position="top"
-        data-theme="preferred_color_scheme"
         data-lang="zh-CN"
         data-loading="lazy"
-        crossorigin="anonymous"
-        async>
-</script>
+        aria-hidden="true"></div>
 </section>
 
   </main>
@@ -105,7 +142,7 @@
     </div>
   </footer>
   <script>window.SITE_CONFIG = {basePath: "/yuri-classification-archive"};</script>
-  <script src="/yuri-classification-archive/assets/site.js?v=4c67abfa839a" defer></script>
+  <script src="/yuri-classification-archive/assets/site.js?v=95491b68a3ae" defer></script>
   
 </body>
 </html>

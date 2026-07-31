@@ -5,7 +5,38 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="按开放口径，《顶点!!!!!!!!!!!!!!!》属于 女女关系处于叙事主线、按作品分类归档，置信度高 。五组三人漫才组合、共十五名少女在同一宿舍生活和竞争；资格赛、训练、误会、互助与决赛都依赖组合及宿舍共同体。它首先是全女性群像漫才喜剧。 若“百合”专指女女恋爱，本作则 不符合 。十二个制作编号中，主要关系被……">
   <meta name="color-scheme" content="light dark">
-  <meta name="theme-color" content="#f5f0e8">
+  <meta id="theme-color-light" name="theme-color" media="(prefers-color-scheme: light)" content="#f5f0e8">
+  <meta id="theme-color-dark" name="theme-color" media="(prefers-color-scheme: dark)" content="#1c181c">
+  <script>
+    (() => {
+      const storageKey = "yuri-classification-theme";
+      const allowed = new Set(["system", "light", "dark"]);
+      let preference = "system";
+      try {
+        const stored = localStorage.getItem(storageKey);
+        if (allowed.has(stored)) preference = stored;
+      } catch (_error) {
+        preference = "system";
+      }
+      const systemDark = window.matchMedia?.("(prefers-color-scheme: dark)").matches;
+      const theme = preference === "system"
+        ? (systemDark ? "dark" : "light")
+        : preference;
+      document.documentElement.dataset.theme = theme;
+      document.documentElement.dataset.themePreference = preference;
+      document.documentElement.style.colorScheme = theme;
+      const lightMeta = document.getElementById("theme-color-light");
+      const darkMeta = document.getElementById("theme-color-dark");
+      if (preference === "system") {
+        lightMeta.content = "#f5f0e8";
+        darkMeta.content = "#1c181c";
+      } else {
+        const color = theme === "dark" ? "#1c181c" : "#f5f0e8";
+        lightMeta.content = color;
+        darkMeta.content = color;
+      }
+    })();
+  </script>
   <link rel="canonical" href="https://l-m-sherlock.github.io/yuri-classification-archive/works/teppen_tv_2022/">
   <link rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
   <meta property="og:type" content="website">
@@ -15,7 +46,7 @@
   <meta property="og:url" content="https://l-m-sherlock.github.io/yuri-classification-archive/works/teppen_tv_2022/">
   <meta property="og:image" content="https://l-m-sherlock.github.io/yuri-classification-archive/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
   <title>《顶点!!!!!!!!!!!!!!!》分类报告｜百合作品分类档案</title>
-  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=575995716ad6">
+  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=014a89622973">
   
 </head>
 <body class="classification-report">
@@ -35,6 +66,14 @@
         <a href="/yuri-classification-archive/about/">方法与说明</a>
         <a class="nav-star" href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub / Star <span aria-hidden="true">↗</span></a>
         <a href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
+        <label class="theme-control" for="theme-preference">
+          <span>主题</span>
+          <select id="theme-preference" aria-label="主题偏好">
+            <option value="system">跟随系统</option>
+            <option value="light">浅色</option>
+            <option value="dark">深色</option>
+          </select>
+        </label>
       </nav>
     </div>
   </header>
@@ -55,7 +94,7 @@
       <ol><li><a href="#无剧透结论">无剧透结论</a></li><li><a href="#数据库与公开分类">数据库与公开分类</a></li><li><a href="#决定性文本证据">决定性文本证据</a></li><li><a href="#四层分析">四层分析</a></li><li><a href="#最强反方解释">最强反方解释</a></li><li><a href="#分用途结论">分用途结论</a></li><li><a href="#方法来源与限制">方法、来源与限制</a></li></ol>
     </aside>
     <div class="report-content">
-      <blockquote><p>分类日期：2026-07-31<br> 分类对象：2022 年 TV 动画《てっぺんっ!!!!!!!!!!!!!!!》<br> 纳入范围：制作编号第 1–12 话；其中第 2 话撤回原定首播后，于 2022 年 9 月正式补播<br> 排除范围：原作漫画、官方四格漫画、广播剧、歌曲与音乐视频、活动朗读、舞台、游戏、宣传短片及其他跨媒介材料<br> 用途：普通推荐、数据库分类、恋爱内容检索、角色身份检索与版本范围核对</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p>按开放口径，《顶点!!!!!!!!!!!!!!!》属于<strong>女女关系处于叙事主线、按作品分类归档，置信度高</strong>。五组三人漫才组合、共十五名少女在同一宿舍生活和竞争；资格赛、训练、误会、互助与决赛都依赖组合及宿舍共同体。它首先是全女性群像漫才喜剧。</p><p>若“百合”专指女女恋爱，本作则<strong>不符合</strong>。十二个制作编号中，主要关系被直接写作朋友、队友、儿时朋友、竞争者和共同体；没有女女告白、约会、接吻、正式交往或性取向身份自述。第 8 话确有女性演员在临时舞台剧中扮演王子与灰姑娘并说结婚，但那是明确的剧中剧角色，不是演员本人确认关系。第 7 话还包含一段老年男女重逢的局部恋爱往事，因此男性恋爱线记为“副线”，但它不参与主角群的长期叙事。</p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女性关系层级：主线（正文称“女女关系”）｜百合归档依据：作品分类，采用女女关系中心的开放口径｜恋爱位置：缺席｜最高明确度：非恋爱｜关系构成：五组三人漫才伙伴与十五人宿舍共同体，多组同质关系｜官方：未标百合／GL｜阅读层级：正篇事实＋读者解读｜身份依据类型：范围内无依据｜男性恋爱线：副线（第 7 话局部成年男女往事）｜内容提示：暗杀误会、伪造自杀与诅咒故事、跟踪与偷窥误会、喜剧性暴力和武器、VR 战斗、身体与胸部笑料、泳装／洗浴节目笑话、诈骗和网络攻击。</strong></p></blockquote><p>“主线”只说明拿掉五个组合的合作与竞争，全季比赛因果链便无法成立；“非恋爱”则记录正篇关系阶段。</p><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li>只找双方告白、约会、接吻、正式交往或情侣确认：<strong>不符合</strong>。</li><li>接受全女性漫才群像、组合伙伴、儿时朋友和共同生活作为开放型百合阅读：<strong>符合</strong>。</li><li>只找官方明确标百合／GL：<strong>不符合</strong>；官网称其为由搞笑与方言编织的少女青春故事。</li><li>只按女同性恋、双性恋等身份自述检索：<strong>不符合身份明示条件</strong>。</li><li>排除任何男性恋爱内容：<strong>不完全符合</strong>；第 7 话有局部成年男女初恋往事，但没有男性恋爱主线。</li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><p>以下字段核对至 2026-07-31。第 2 话必须同时核对官方撤播公告、后续补播公告和现行完整发行页，不能只从首轮周播顺序或数据库的“12 话”字段反推。官方宣传、编辑类型、社区相关度和用户自由标签也不是同一种证据。</p><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://teppen-anime.com/" target="_blank" rel="noopener noreferrer">动画官网</a>／<a href="https://teppen-anime.com/story/" target="_blank" rel="noopener noreferrer">剧情目录</a></td><td>官网称其为 <code>お笑い×方言で織りなすガールズ青春ストーリー</code>，剧情目录现列 <code>#01</code> 至 <code>#12</code>，包括 <code>#02 キャトルの章</code>；所核页面未使用百合／GL</td><td>动画官方自述与分话资料</td><td>锁定作品的公开中心是十五名少女、漫才和青春；确认现行正式故事范围包含十二个制作编号。“未标”只描述实际措辞，不是官方否认百合阅读</td></tr><tr class="even"><td><a href="https://teppen-anime.com/news/2022/0708/13/" target="_blank" rel="noopener noreferrer">第 2 话撤播公告</a>／<a href="https://prtimes.jp/main/html/rd/p/000005946.000014827.html" target="_blank" rel="noopener noreferrer">后续补播公告</a></td><td>官网于 2022-07-08 宣布撤回原定次日的第 2 话，改重播第 1 话，并从 7 月 16 日播第 3 话；制作委员会成员后于 8 月 23 日公布第 2 话自 9 月 10 日起在 ABEMA、TOKYO MX、BS 日视等平台补播</td><td>官方播出变更与正式公开资料</td><td>直接证明第 2 话不是“从未公开的遗失话”，也不是普通影碟特典；它在首轮编排中被推迟，随后通过正式电视与网络渠道补播</td></tr><tr class="odd"><td><a href="https://animestore.docomo.ne.jp/animestore/ci_pc?workId=25628" target="_blank" rel="noopener noreferrer">d Anime Store</a>／<a href="https://www.crunchyroll.com/series/GG5H5X0E2/teppen-laughing-til-you-cry" target="_blank" rel="noopener noreferrer">Crunchyroll</a></td><td>现行合法流媒体均完整列出第 1–12 话；d Anime 标为 <code>全12話</code>，Crunchyroll 以 <code>E1</code> 至 <code>E12</code> 提供日语音轨与多语字幕</td><td>合法发行目录</td><td>证明当前公开观看范围按制作编号为十二话；不把列表顺序误写成 2022 年实际首播顺序</td></tr><tr class="even"><td><a href="https://myanimelist.net/anime/50760/Teppen" target="_blank" rel="noopener noreferrer">MyAnimeList 50760</a></td><td><code>TV</code>、12 话、2022-07-02 至 2022-09-24；Genre 为 <code>Comedy</code>，Theme 为 <code>School</code>，没有 <code>Girls Love</code></td><td>编辑型数据库字段</td><td>记录常见类型和总话数入口；没有 Girls Love 不等于没有重要女女关系，也不能证明角色身份</td></tr><tr class="odd"><td><a href="https://www.anime-planet.com/anime/teppen" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td>精确条目为 2022 年 12 话 TV；完整 Tags 为 <code>Comedy / Slice of Life / Showbiz / Based on a Manga</code>，没有精确 <code>GL</code></td><td>编辑维护的标签库</td><td>记录节目产业、喜剧和日常入口；直接访问遇验证页，故通过文本代理核对精确条目的完整可见标签，访问方式受阻不等于“无条目”</td></tr><tr class="even"><td><a href="https://anilist.co/anime/143417/Teppen" target="_blank" rel="noopener noreferrer">AniList 143417</a></td><td><code>TV</code>、12 话；Genres 为 <code>Comedy / Slice of Life</code>。社区相关度较高的标签包括 <code>Cute Girls Doing Cute Things 93</code>、<code>Primarily Female Cast 92</code>、<code>Ensemble Cast 80</code>、<code>Manzai 79</code>，完整数组没有 <code>Yuri</code></td><td>编辑类型＋带相关度的社区标签</td><td>“主要女性阵容”与“Yuri 未列”可以同时成立；相关度不是标记人数或赞成率，也不决定文本中的关系阶段</td></tr><tr class="odd"><td><a href="https://bangumi.tv/subject/364845" target="_blank" rel="noopener noreferrer">Bangumi subject 364845</a>／<a href="https://api.bgm.tv/v0/subjects/364845" target="_blank" rel="noopener noreferrer">公共 API</a></td><td>结构化快照为 Rank 2324；“百合”276 人、“轻百合”22 人。想看 1475、看过 2489、在看 450、搁置 325、抛弃 263，五状态共 5002；百合标记人数与该分母之比约 5.52%</td><td>社区用户标签、收藏规模与公共 API</td><td>证明中文社区存在把全女性漫才群像纳入开放百合检索的用法；276／5002 不是观众民调，未贴标签的用户也不能视为反对</td></tr></tbody></table></div><p>三个国际数据库提供喜剧、日常、演艺、女子群像和漫才入口；Bangumi 自由标签另提供开放百合检索。本档案采用后一种归档方式，却把恋爱位置写成“缺席”。约 5.52%以五种收藏状态用户总数为分母，不是观众民调，也不能把舞台角色台词改写成演员关系。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>**以下部分包含《顶点!!!!!!!!!!!!!!!》十二个制作编号的完整剧情、关系状态与结尾剧透。**</p></aside>
+      <blockquote><p>分类日期：2026-07-31<br> 分类对象：2022 年 TV 动画《てっぺんっ!!!!!!!!!!!!!!!》<br> 纳入范围：制作编号第 1–12 话；其中第 2 话撤回原定首播后，于 2022 年 9 月正式补播<br> 排除范围：原作漫画、官方四格漫画、广播剧、歌曲与音乐视频、活动朗读、舞台、游戏、宣传短片及其他跨媒介材料<br> 用途：普通推荐、数据库分类、恋爱内容检索、角色身份检索与版本范围核对</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p>按开放口径，《顶点!!!!!!!!!!!!!!!》属于<strong>女女关系处于叙事主线、按作品分类归档，置信度高</strong>。五组三人漫才组合、共十五名少女在同一宿舍生活和竞争；资格赛、训练、误会、互助与决赛都依赖组合及宿舍共同体。它首先是全女性群像漫才喜剧。</p><p>若“百合”专指女女恋爱，本作则<strong>不符合</strong>。十二个制作编号中，主要关系被直接写作朋友、队友、儿时朋友、竞争者和共同体；没有女女告白、约会、接吻、正式交往或性取向身份自述。第 8 话确有女性演员在临时舞台剧中扮演王子与灰姑娘并说结婚，但那是明确的剧中剧角色，不是演员本人确认关系。第 7 话还包含一段老年男女重逢的局部恋爱往事，因此男性恋爱线记为“副线”，但它不参与主角群的长期叙事。</p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：主线（正文称“女女关系”）｜百合归档依据：作品分类，采用女女关系中心的开放口径｜恋爱位置：缺席｜最高明确度：非恋爱｜关系构成：五组三人漫才伙伴与十五人宿舍共同体，多组同质关系｜官方：未标百合／GL｜阅读层级：正篇事实＋读者解读｜身份依据类型：范围内无依据｜男性恋爱线：副线（第 7 话局部成年男女往事）｜内容提示：暗杀误会、伪造自杀与诅咒故事、跟踪与偷窥误会、喜剧性暴力和武器、VR 战斗、身体与胸部笑料、泳装／洗浴节目笑话、诈骗和网络攻击。</strong></p></blockquote><p>“主线”只说明拿掉五个组合的合作与竞争，全季比赛因果链便无法成立；“非恋爱”则记录正篇关系阶段。</p><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li>只找双方告白、约会、接吻、正式交往或情侣确认：<strong>不符合</strong>。</li><li>接受全女性漫才群像、组合伙伴、儿时朋友和共同生活作为开放型百合阅读：<strong>符合</strong>。</li><li>只找官方明确标百合／GL：<strong>不符合</strong>；官网称其为由搞笑与方言编织的少女青春故事。</li><li>只按女同性恋、双性恋等身份自述检索：<strong>不符合身份明示条件</strong>。</li><li>排除任何男性恋爱内容：<strong>不完全符合</strong>；第 7 话有局部成年男女初恋往事，但没有男性恋爱主线。</li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><p>以下字段核对至 2026-07-31。第 2 话必须同时核对官方撤播公告、后续补播公告和现行完整发行页，不能只从首轮周播顺序或数据库的“12 话”字段反推。官方宣传、编辑类型、社区相关度和用户自由标签也不是同一种证据。</p><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://teppen-anime.com/" target="_blank" rel="noopener noreferrer">动画官网</a>／<a href="https://teppen-anime.com/story/" target="_blank" rel="noopener noreferrer">剧情目录</a></td><td>官网称其为 <code>お笑い×方言で織りなすガールズ青春ストーリー</code>，剧情目录现列 <code>#01</code> 至 <code>#12</code>，包括 <code>#02 キャトルの章</code>；所核页面未使用百合／GL</td><td>动画官方自述与分话资料</td><td>锁定作品的公开中心是十五名少女、漫才和青春；确认现行正式故事范围包含十二个制作编号。“未标”只描述实际措辞，不是官方否认百合阅读</td></tr><tr class="even"><td><a href="https://teppen-anime.com/news/2022/0708/13/" target="_blank" rel="noopener noreferrer">第 2 话撤播公告</a>／<a href="https://prtimes.jp/main/html/rd/p/000005946.000014827.html" target="_blank" rel="noopener noreferrer">后续补播公告</a></td><td>官网于 2022-07-08 宣布撤回原定次日的第 2 话，改重播第 1 话，并从 7 月 16 日播第 3 话；制作委员会成员后于 8 月 23 日公布第 2 话自 9 月 10 日起在 ABEMA、TOKYO MX、BS 日视等平台补播</td><td>官方播出变更与正式公开资料</td><td>直接证明第 2 话不是“从未公开的遗失话”，也不是普通影碟特典；它在首轮编排中被推迟，随后通过正式电视与网络渠道补播</td></tr><tr class="odd"><td><a href="https://animestore.docomo.ne.jp/animestore/ci_pc?workId=25628" target="_blank" rel="noopener noreferrer">d Anime Store</a>／<a href="https://www.crunchyroll.com/series/GG5H5X0E2/teppen-laughing-til-you-cry" target="_blank" rel="noopener noreferrer">Crunchyroll</a></td><td>现行合法流媒体均完整列出第 1–12 话；d Anime 标为 <code>全12話</code>，Crunchyroll 以 <code>E1</code> 至 <code>E12</code> 提供日语音轨与多语字幕</td><td>合法发行目录</td><td>证明当前公开观看范围按制作编号为十二话；不把列表顺序误写成 2022 年实际首播顺序</td></tr><tr class="even"><td><a href="https://myanimelist.net/anime/50760/Teppen" target="_blank" rel="noopener noreferrer">MyAnimeList 50760</a></td><td><code>TV</code>、12 话、2022-07-02 至 2022-09-24；Genre 为 <code>Comedy</code>，Theme 为 <code>School</code>，没有 <code>Girls Love</code></td><td>编辑型数据库字段</td><td>记录常见类型和总话数入口；没有 Girls Love 不等于没有重要女女关系，也不能证明角色身份</td></tr><tr class="odd"><td><a href="https://www.anime-planet.com/anime/teppen" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td>精确条目为 2022 年 12 话 TV；完整 Tags 为 <code>Comedy / Slice of Life / Showbiz / Based on a Manga</code>，没有精确 <code>GL</code></td><td>编辑维护的标签库</td><td>记录节目产业、喜剧和日常入口；直接访问遇验证页，故通过文本代理核对精确条目的完整可见标签，访问方式受阻不等于“无条目”</td></tr><tr class="even"><td><a href="https://anilist.co/anime/143417/Teppen" target="_blank" rel="noopener noreferrer">AniList 143417</a></td><td><code>TV</code>、12 话；Genres 为 <code>Comedy / Slice of Life</code>。社区相关度较高的标签包括 <code>Cute Girls Doing Cute Things 93</code>、<code>Primarily Female Cast 92</code>、<code>Ensemble Cast 80</code>、<code>Manzai 79</code>，完整数组没有 <code>Yuri</code></td><td>编辑类型＋带相关度的社区标签</td><td>“主要女性阵容”与“Yuri 未列”可以同时成立；相关度不是标记人数或赞成率，也不决定文本中的关系阶段</td></tr><tr class="odd"><td><a href="https://bangumi.tv/subject/364845" target="_blank" rel="noopener noreferrer">Bangumi subject 364845</a>／<a href="https://api.bgm.tv/v0/subjects/364845" target="_blank" rel="noopener noreferrer">公共 API</a></td><td>结构化快照为 Rank 2324；“百合”276 人、“轻百合”22 人。想看 1475、看过 2489、在看 450、搁置 325、抛弃 263，五状态共 5002；百合标记人数与该分母之比约 5.52%</td><td>社区用户标签、收藏规模与公共 API</td><td>证明中文社区存在把全女性漫才群像纳入开放百合检索的用法；276／5002 不是观众民调，未贴标签的用户也不能视为反对</td></tr></tbody></table></div><p>三个国际数据库提供喜剧、日常、演艺、女子群像和漫才入口；Bangumi 自由标签另提供开放百合检索。本档案采用后一种归档方式，却把恋爱位置写成“缺席”。约 5.52%以五种收藏状态用户总数为分母，不是观众民调，也不能把舞台角色台词改写成演员关系。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>**以下部分包含《顶点!!!!!!!!!!!!!!!》十二个制作编号的完整剧情、关系状态与结尾剧透。**</p></aside>
 
       <details class="spoiler-panel">
         <summary>
@@ -78,7 +117,8 @@
     <p>请注明作品版本、集数／章节、要质疑的原句、可公开核查的来源，以及建议如何修订。评论属于待核查反馈，不会自动成为报告证据。</p>
   </div>
   <div class="giscus"></div>
-<script src="https://giscus.app/client.js"
+<div class="giscus-config"
+        hidden
         data-repo="L-M-Sherlock/yuri-classification-archive"
         data-repo-id="R_kgDOTo1RzA"
         data-category="Announcements"
@@ -89,12 +129,9 @@
         data-reactions-enabled="1"
         data-emit-metadata="0"
         data-input-position="top"
-        data-theme="preferred_color_scheme"
         data-lang="zh-CN"
         data-loading="lazy"
-        crossorigin="anonymous"
-        async>
-</script>
+        aria-hidden="true"></div>
 </section>
 
   </main>
@@ -105,7 +142,7 @@
     </div>
   </footer>
   <script>window.SITE_CONFIG = {basePath: "/yuri-classification-archive"};</script>
-  <script src="/yuri-classification-archive/assets/site.js?v=4c67abfa839a" defer></script>
+  <script src="/yuri-classification-archive/assets/site.js?v=95491b68a3ae" defer></script>
   
 </body>
 </html>
