@@ -9,6 +9,7 @@
   <meta id="theme-color-dark" name="theme-color" media="(prefers-color-scheme: dark)" content="#1c181c">
   <script>
     (() => {
+      document.documentElement.classList.add("js");
       const storageKey = "yuri-classification-theme";
       const allowed = new Set(["system", "light", "dark"]);
       let preference = "system";
@@ -46,8 +47,8 @@
   <meta property="og:url" content="https://l-m-sherlock.github.io/yuri-classification-archive/about/">
   <meta property="og:image" content="https://l-m-sherlock.github.io/yuri-classification-archive/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
   <title>方法与使用边界｜百合作品分类档案</title>
-  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=014a89622973">
-  
+  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=1cc35b33d5cd">
+
 </head>
 <body class="about-page">
   <a class="skip-link" href="#main-content">跳到正文</a>
@@ -60,12 +61,24 @@
           <small>按查询拆开标签，按证据保留边界</small>
         </span>
       </a>
-      <nav class="site-nav" aria-label="主导航">
-        <a href="/yuri-classification-archive/">首页</a>
-        <a href="/yuri-classification-archive/table/">总表</a>
-        <a href="/yuri-classification-archive/about/">方法与说明</a>
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-navigation"
+      >
+        <span>菜单</span>
+        <span class="menu-toggle-icon" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-navigation" aria-label="主导航">
+        <div class="nav-main">
+          <a href="/yuri-classification-archive/">首页</a>
+          <a href="/yuri-classification-archive/table/">总表</a>
+          <a href="/yuri-classification-archive/about/">方法与说明</a>
+        </div>
         <a class="nav-star" href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub / Star <span aria-hidden="true">↗</span></a>
-        <a href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
+        <a class="nav-feedback" href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
         <label class="theme-control" for="theme-preference">
           <span>主题</span>
           <select id="theme-preference" aria-label="主题偏好">
@@ -97,7 +110,8 @@
   <p>每份档案绑定明确媒介、年份和材料范围。页面先给无剧透结论、分层标签和严格检索提示，之后才允许读者主动展开完整剧透证据。证据表持续区分正篇事实、强推断、读者解读、官方表述和数据库／社区标签，并说明每项材料能证明什么、不能推出什么。</p>
 
   <h2 id="总表不是总分">总表不是总分</h2>
-  <p>“明确交往”“明确女女欲望”“接受未确认方向”“女女关系主线”和“官方百合／GL”是五个可以重叠的查询。某部作品不满足其中一项，只表示它不符合该筛选条件，不等于作品关系没有价值，更不等于另一种阅读被禁止。</p>
+  <p>“明确交往”“明确女女欲望”“接受未确认方向”“女女关系主线”“官方字面百合／GL”和“官方女女恋爱表述”是六个可以重叠的查询。前四项只读正篇文本；后两项只读已核的官方材料，分别问有没有直接出现“百合／GL”字面、有没有把女女关系写作恋爱。某部作品不满足其中一项，只表示它不符合该筛选条件，不等于作品关系没有价值，更不等于另一种阅读被禁止。</p>
+  <p>官方字段显示“所核未见”时，只表示已核材料中没有命中该项；显示“资料不足”时，表示可核资料尚不完整，不能把它读成否定。总表还可按官方来源层级与材料位置多选：同一筛选框中任一项命中即可，不同筛选框及其他条件仍须同时满足。</p>
 
   <aside class="principle-callout" aria-label="分类原则">
     <p class="eyebrow">A GUIDING PRINCIPLE</p>
@@ -121,7 +135,7 @@
     </div>
   </footer>
   <script>window.SITE_CONFIG = {basePath: "/yuri-classification-archive"};</script>
-  <script src="/yuri-classification-archive/assets/site.js?v=95491b68a3ae" defer></script>
-  
+  <script src="/yuri-classification-archive/assets/site.js?v=686fc3d330d3" defer></script>
+
 </body>
 </html>

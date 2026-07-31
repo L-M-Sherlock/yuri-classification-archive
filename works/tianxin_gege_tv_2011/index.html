@@ -9,6 +9,7 @@
   <meta id="theme-color-dark" name="theme-color" media="(prefers-color-scheme: dark)" content="#1c181c">
   <script>
     (() => {
+      document.documentElement.classList.add("js");
       const storageKey = "yuri-classification-theme";
       const allowed = new Set(["system", "light", "dark"]);
       let preference = "system";
@@ -46,7 +47,7 @@
   <meta property="og:url" content="https://l-m-sherlock.github.io/yuri-classification-archive/works/tianxin_gege_tv_2011/">
   <meta property="og:image" content="https://l-m-sherlock.github.io/yuri-classification-archive/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
   <title>《甜心格格》分类报告｜百合作品分类档案</title>
-  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=014a89622973">
+  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=1cc35b33d5cd">
 
 </head>
 <body class="classification-report">
@@ -60,12 +61,24 @@
           <small>按查询拆开标签，按证据保留边界</small>
         </span>
       </a>
-      <nav class="site-nav" aria-label="主导航">
-        <a href="/yuri-classification-archive/">首页</a>
-        <a href="/yuri-classification-archive/table/">总表</a>
-        <a href="/yuri-classification-archive/about/">方法与说明</a>
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-navigation"
+      >
+        <span>菜单</span>
+        <span class="menu-toggle-icon" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-navigation" aria-label="主导航">
+        <div class="nav-main">
+          <a href="/yuri-classification-archive/">首页</a>
+          <a href="/yuri-classification-archive/table/">总表</a>
+          <a href="/yuri-classification-archive/about/">方法与说明</a>
+        </div>
         <a class="nav-star" href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub / Star <span aria-hidden="true">↗</span></a>
-        <a href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
+        <a class="nav-feedback" href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
         <label class="theme-control" for="theme-preference">
           <span>主题</span>
           <select id="theme-preference" aria-label="主题偏好">
@@ -84,7 +97,7 @@
     <h1>《甜心格格》分类报告</h1>
     <p class="report-subtitle">2011 年播出的《甜心格格》TV 动画第一季正篇第 1–52 话</p>
     <div class="label-strip" aria-label="分类摘要">
-      <span class="label-chip"><strong>女女关系：</strong>重要副线</span><span class="label-chip"><strong>归档依据：</strong>读者解读</span><span class="label-chip"><strong>恋爱位置：</strong>缺席</span><span class="label-chip"><strong>最高明确度：</strong>非恋爱</span><span class="label-chip"><strong>官方：</strong>未标百合／GL</span><span class="label-chip"><strong>置信度：</strong>中</span>
+      <span class="label-chip"><strong>女女关系：</strong>重要副线</span><span class="label-chip"><strong>归档依据：</strong>读者解读</span><span class="label-chip"><strong>恋爱位置：</strong>缺席</span><span class="label-chip"><strong>最高明确度：</strong>非恋爱</span><span class="label-chip"><strong>官方字面百合／GL：</strong>所核未见</span><span class="label-chip"><strong>官方女女恋爱表述：</strong>所核未见</span><span class="label-chip"><strong>官方来源：</strong>所核来源未含可公开筛选的层级或位置</span><span class="label-chip"><strong>置信度：</strong>中</span>
     </div>
     <a class="back-link" href="/yuri-classification-archive/table/?q=%E7%94%9C%E5%BF%83%E6%A0%BC%E6%A0%BC">← 返回总表并定位本作</a>
   </header>
@@ -94,7 +107,7 @@
       <ol><li><a href="#无剧透结论">无剧透结论</a></li><li><a href="#数据库与公开分类">数据库与公开分类</a></li><li><a href="#决定性文本证据">决定性文本证据</a></li><li><a href="#四层分析">四层分析</a></li><li><a href="#最强反方解释">最强反方解释</a></li><li><a href="#分用途结论">分用途结论</a></li><li><a href="#方法来源与限制">方法、来源与限制</a></li></ol>
     </aside>
     <div class="report-content">
-      <blockquote><p>分类日期：2026-07-31<br> 分类对象：2011 年 TV 动画《甜心格格》第一季<br> 纳入范围：正篇第 1–52 话<br> 排除范围：第二季及其后续 TV、电影、特别篇、短片、漫画、图书、游戏和其他改编；不以跨季度或跨媒介材料补写关系<br> 用途：普通推荐与数据库分类</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p>《甜心格格》2011 年 TV 第一季可以收入本档案，但归档理由只能是<strong>读者对丝丝与柔柔友谊的百合式阅读</strong>，不是正篇已确认的女女恋爱。两人的友谊在全季群像中持续出现，足以构成一条重要副线；可是它始终嵌在丝丝、柔柔、华伦与武状元共同学习、玩耍的四人友谊里。官方简介明确把这四名不同性别的孩子并列为主角的同窗朋友，现有材料没有建立丝丝—柔柔的告白、身体欲望、交往、接吻或排他承诺。</p><p>因此，本作不适合放进“正篇有明确女女恋爱”或“明确女女欲望”的推荐结果。它较适合寻找儿童向同学友情、女孩之间可持续互相关心、或愿意自行进行百合阅读的观众。这里的“重要副线”说的是丝丝与柔柔在群像中的反复出现，不是说她们取代四人关系成为故事唯一核心；“读者解读”也不是把个人感受改写成作品已作出的恋爱判断。</p><p>结论置信度为<strong>中等</strong>。第一季有授权专辑的范围与简介、52 话分集梗概，以及两话授权播出录像的抽样核对；但没有取得可全文检索的完整字幕，也没有完成 52 话的同步视听复核。现有材料足以排除“已被直接证实的女女恋爱”这一说法，却不足以对每个场景、每句台词或所有关系变化作更细的断言。</p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：重要副线｜百合归档依据：读者解读｜恋爱位置：范围内缺席｜最高明确度：非恋爱｜关系构成：多组异质关系，以丝丝—柔柔友谊为主、并含群体同学友情｜官方：未使用百合／GL 类型词｜阅读层级：四人友谊和若干相处事件为正篇事实；丝丝—柔柔的特殊阅读为强推断与读者解读｜身份依据类型：范围内无依据｜男性恋爱线：副线；现有材料不能据此确认一条明确男女恋爱关系｜内容提示：儿童向夸张险境与打闹、严格学堂纪律和惩罚、短暂拘禁／囚禁情节、对蟑螂和昆虫的恐惧。</strong></p></blockquote><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li>只寻找双方告白、正式交往、接吻、明确欲望或性取向身份自述：<strong>不符合</strong>。范围内没有可核对的直接证据。</li><li>寻找以女孩之间友谊为主要故事轴、且不希望男性同伴同样处于核心群像：<strong>不宜作为优先推荐</strong>。官方简介所写的是四人共同学习与玩耍。</li><li>接受非恋爱女女友谊、儿童向群像，并愿意把某对女孩作为私人百合阅读对象：<strong>可以考虑</strong>，但应明确标成读者解读，而非作品的恋爱承诺。</li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><p>以下字段为 2026-07-31 的资料快照。官方简介、授权播放页、分集梗概和社区标签分别回答不同问题；尤其不能把 Bangumi 的“百合”用户标签倒推成正篇已经确认的恋爱事实。</p><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://www.iq.com/album/%E7%94%9C%E5%BF%83%E6%A0%BC%E6%A0%BC-%E7%AC%AC%E4%B8%80%E5%AD%A3-2011-1nkxdanb3j5?lang=zh_tw" target="_blank" rel="noopener noreferrer">iQIYI《甜心格格》第一季授权专辑</a></td><td>标示 2011 年、52 话；简介称丝丝与同窗柔柔、华伦、武状元建立深厚友谊，四人一起学习、一起玩耍；未使用百合／GL 词</td><td>授权播放页与官方公开简介</td><td>确认版本、话数和混合性别四人友谊的公开表述；“未标”只表示该简介没有采用这类类型词</td></tr><tr class="even"><td><a href="https://shaoer.cntv.cn/children/C31845/videopage/index.shtml" target="_blank" rel="noopener noreferrer">央视少儿节目页</a>／<a href="https://tv.cctv.com/2011/10/28/VIDE1365308805403278.shtml" target="_blank" rel="noopener noreferrer">第 25 话播出记录</a>／<a href="https://tv.cctv.com/2011/11/24/VIDE1365308541650118.shtml" target="_blank" rel="noopener noreferrer">第 52 话播出记录</a></td><td>央视页面保留本作栏目与两个首季播出记录；抽样观看第 25、52 话的授权节目视频</td><td>官方播出记录</td><td>互证首季播出和个别话的可访问性；两话抽样不能替代全季视听证据，也不单独证明特定配对的性质</td></tr><tr class="odd"><td><a href="https://www.tvmao.com/drama/HS5nJzE=/episode" target="_blank" rel="noopener noreferrer">电视猫第一季分集剧情</a></td><td>52 话标题与可用梗概；首话为“剪纸不见了”，末话为“我们毕业了”</td><td>次级分集指南</td><td>用于了解全季事件范围和友谊单元的分布；不是台词本，不能据此虚构时间码、动作或角色内心</td></tr><tr class="even"><td><a href="https://bangumi.tv/subject/25587" target="_blank" rel="noopener noreferrer">Bangumi subject 25587</a>／<a href="https://api.bgm.tv/v0/subjects/25587" target="_blank" rel="noopener noreferrer">公开 API</a></td><td>52 话；当日 Rank #3056；用户标签“百合”119，五种收藏状态用户合计 1679，标记比例约 7.09%</td><td>社区标签与平台汇总</td><td>记录该站存在百合检索入口及其动态规模；比例不是作品文本的证明，也不是“支持某定义”的投票</td></tr><tr class="odd"><td><a href="https://anilist.co/anime/121235" target="_blank" rel="noopener noreferrer">AniList anime 121235</a></td><td><code>TV</code>、52 话、中国制作；类型为 Comedy，当前没有 Yuri 社区标签</td><td>编辑字段与社区标签</td><td>记录精确条目在该站没有 Yuri 字段；这不是对私人阅读的否认</td></tr><tr class="even"><td><a href="https://www.anime-planet.com/anime/all?name=Tianxin%20Gege" target="_blank" rel="noopener noreferrer">Anime-Planet 检索页</a>／<a href="https://myanimelist.net/anime.php?q=Tianxin%20Gege&amp;cat=anime" target="_blank" rel="noopener noreferrer">MyAnimeList 检索页</a></td><td>以中文名、罗马字和英文名检索后均未确认精确条目；Anime-Planet 直接检查还遇到验证页</td><td>编辑型数据库检索</td><td>标为“无精确条目”，不把无法核实写成“没有 GL 标签”</td></tr></tbody></table></div><p>官方页面把四名儿童写成同窗朋友，而非把其中两名女孩单独写成恋人；数据库之间的差异也没有改变这一点。Bangumi 的用户标签有描述价值：它说明一些使用者以“百合”寻找或保存本作。它不能替代对文本关系、故事中心性和恋爱事实的分别描述。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>以下部分涉及 2011 年 TV 动画第一季第 1–52 话的关系线索与结局范围，但没有完整逐话视听复核。</p></aside>
+      <blockquote><p>分类日期：2026-07-31<br> 分类对象：2011 年 TV 动画《甜心格格》第一季<br> 纳入范围：正篇第 1–52 话<br> 排除范围：第二季及其后续 TV、电影、特别篇、短片、漫画、图书、游戏和其他改编；不以跨季度或跨媒介材料补写关系<br> 用途：普通推荐与数据库分类</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p>《甜心格格》2011 年 TV 第一季可以收入本档案，但归档理由只能是<strong>读者对丝丝与柔柔友谊的百合式阅读</strong>，不是正篇已确认的女女恋爱。两人的友谊在全季群像中持续出现，足以构成一条重要副线；可是它始终嵌在丝丝、柔柔、华伦与武状元共同学习、玩耍的四人友谊里。官方简介明确把这四名不同性别的孩子并列为主角的同窗朋友，现有材料没有建立丝丝—柔柔的告白、身体欲望、交往、接吻或排他承诺。</p><p>因此，本作不适合放进“正篇有明确女女恋爱”或“明确女女欲望”的推荐结果。它较适合寻找儿童向同学友情、女孩之间可持续互相关心、或愿意自行进行百合阅读的观众。这里的“重要副线”说的是丝丝与柔柔在群像中的反复出现，不是说她们取代四人关系成为故事唯一核心；“读者解读”也不是把个人感受改写成作品已作出的恋爱判断。</p><p>结论置信度为<strong>中等</strong>。第一季有授权专辑的范围与简介、52 话分集梗概，以及两话授权播出录像的抽样核对；但没有取得可全文检索的完整字幕，也没有完成 52 话的同步视听复核。现有材料足以排除“已被直接证实的女女恋爱”这一说法，却不足以对每个场景、每句台词或所有关系变化作更细的断言。</p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：重要副线｜百合归档依据：读者解读｜恋爱位置：范围内缺席｜最高明确度：非恋爱｜关系构成：多组异质关系，以丝丝—柔柔友谊为主、并含群体同学友情｜官方字面：所核未见｜官方恋爱表述：所核未见｜官方来源：所核未见匹配表述｜阅读层级：四人友谊和若干相处事件为正篇事实；丝丝—柔柔的特殊阅读为强推断与读者解读｜身份依据类型：范围内无依据｜男性恋爱线：副线；现有材料不能据此确认一条明确男女恋爱关系｜内容提示：儿童向夸张险境与打闹、严格学堂纪律和惩罚、短暂拘禁／囚禁情节、对蟑螂和昆虫的恐惧。</strong></p></blockquote><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li>只寻找双方告白、正式交往、接吻、明确欲望或性取向身份自述：<strong>不符合</strong>。范围内没有可核对的直接证据。</li><li>寻找以女孩之间友谊为主要故事轴、且不希望男性同伴同样处于核心群像：<strong>不宜作为优先推荐</strong>。官方简介所写的是四人共同学习与玩耍。</li><li>接受非恋爱女女友谊、儿童向群像，并愿意把某对女孩作为私人百合阅读对象：<strong>可以考虑</strong>，但应明确标成读者解读，而非作品的恋爱承诺。</li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><p>以下字段为 2026-07-31 的资料快照。官方简介、授权播放页、分集梗概和社区标签分别回答不同问题；尤其不能把 Bangumi 的“百合”用户标签倒推成正篇已经确认的恋爱事实。</p><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://www.iq.com/album/%E7%94%9C%E5%BF%83%E6%A0%BC%E6%A0%BC-%E7%AC%AC%E4%B8%80%E5%AD%A3-2011-1nkxdanb3j5?lang=zh_tw" target="_blank" rel="noopener noreferrer">iQIYI《甜心格格》第一季授权专辑</a></td><td>标示 2011 年、52 话；简介称丝丝与同窗柔柔、华伦、武状元建立深厚友谊，四人一起学习、一起玩耍；未使用百合／GL 词</td><td>授权播放页与官方公开简介</td><td>确认版本、话数和混合性别四人友谊的公开表述；“未标”只表示该简介没有采用这类类型词</td></tr><tr class="even"><td><a href="https://shaoer.cntv.cn/children/C31845/videopage/index.shtml" target="_blank" rel="noopener noreferrer">央视少儿节目页</a>／<a href="https://tv.cctv.com/2011/10/28/VIDE1365308805403278.shtml" target="_blank" rel="noopener noreferrer">第 25 话播出记录</a>／<a href="https://tv.cctv.com/2011/11/24/VIDE1365308541650118.shtml" target="_blank" rel="noopener noreferrer">第 52 话播出记录</a></td><td>央视页面保留本作栏目与两个首季播出记录；抽样观看第 25、52 话的授权节目视频</td><td>官方播出记录</td><td>互证首季播出和个别话的可访问性；两话抽样不能替代全季视听证据，也不单独证明特定配对的性质</td></tr><tr class="odd"><td><a href="https://www.tvmao.com/drama/HS5nJzE=/episode" target="_blank" rel="noopener noreferrer">电视猫第一季分集剧情</a></td><td>52 话标题与可用梗概；首话为“剪纸不见了”，末话为“我们毕业了”</td><td>次级分集指南</td><td>用于了解全季事件范围和友谊单元的分布；不是台词本，不能据此虚构时间码、动作或角色内心</td></tr><tr class="even"><td><a href="https://bangumi.tv/subject/25587" target="_blank" rel="noopener noreferrer">Bangumi subject 25587</a>／<a href="https://api.bgm.tv/v0/subjects/25587" target="_blank" rel="noopener noreferrer">公开 API</a></td><td>52 话；当日 Rank #3056；用户标签“百合”119，五种收藏状态用户合计 1679，标记比例约 7.09%</td><td>社区标签与平台汇总</td><td>记录该站存在百合检索入口及其动态规模；比例不是作品文本的证明，也不是“支持某定义”的投票</td></tr><tr class="odd"><td><a href="https://anilist.co/anime/121235" target="_blank" rel="noopener noreferrer">AniList anime 121235</a></td><td><code>TV</code>、52 话、中国制作；类型为 Comedy，当前没有 Yuri 社区标签</td><td>编辑字段与社区标签</td><td>记录精确条目在该站没有 Yuri 字段；这不是对私人阅读的否认</td></tr><tr class="even"><td><a href="https://www.anime-planet.com/anime/all?name=Tianxin%20Gege" target="_blank" rel="noopener noreferrer">Anime-Planet 检索页</a>／<a href="https://myanimelist.net/anime.php?q=Tianxin%20Gege&amp;cat=anime" target="_blank" rel="noopener noreferrer">MyAnimeList 检索页</a></td><td>以中文名、罗马字和英文名检索后均未确认精确条目；Anime-Planet 直接检查还遇到验证页</td><td>编辑型数据库检索</td><td>标为“无精确条目”，不把无法核实写成“没有 GL 标签”</td></tr></tbody></table></div><p>官方页面把四名儿童写成同窗朋友，而非把其中两名女孩单独写成恋人；数据库之间的差异也没有改变这一点。Bangumi 的用户标签有描述价值：它说明一些使用者以“百合”寻找或保存本作。它不能替代对文本关系、故事中心性和恋爱事实的分别描述。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>以下部分涉及 2011 年 TV 动画第一季第 1–52 话的关系线索与结局范围，但没有完整逐话视听复核。</p></aside>
 
       <details class="spoiler-panel">
         <summary>
@@ -142,7 +155,7 @@
     </div>
   </footer>
   <script>window.SITE_CONFIG = {basePath: "/yuri-classification-archive"};</script>
-  <script src="/yuri-classification-archive/assets/site.js?v=95491b68a3ae" defer></script>
+  <script src="/yuri-classification-archive/assets/site.js?v=686fc3d330d3" defer></script>
 
 </body>
 </html>

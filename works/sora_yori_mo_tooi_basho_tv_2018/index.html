@@ -9,6 +9,7 @@
   <meta id="theme-color-dark" name="theme-color" media="(prefers-color-scheme: dark)" content="#1c181c">
   <script>
     (() => {
+      document.documentElement.classList.add("js");
       const storageKey = "yuri-classification-theme";
       const allowed = new Set(["system", "light", "dark"]);
       let preference = "system";
@@ -46,8 +47,8 @@
   <meta property="og:url" content="https://l-m-sherlock.github.io/yuri-classification-archive/works/sora_yori_mo_tooi_basho_tv_2018/">
   <meta property="og:image" content="https://l-m-sherlock.github.io/yuri-classification-archive/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
   <title>《比宇宙更远的地方》分类报告｜百合作品分类档案</title>
-  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=014a89622973">
-  
+  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=1cc35b33d5cd">
+
 </head>
 <body class="classification-report">
   <a class="skip-link" href="#main-content">跳到正文</a>
@@ -60,12 +61,24 @@
           <small>按查询拆开标签，按证据保留边界</small>
         </span>
       </a>
-      <nav class="site-nav" aria-label="主导航">
-        <a href="/yuri-classification-archive/">首页</a>
-        <a href="/yuri-classification-archive/table/">总表</a>
-        <a href="/yuri-classification-archive/about/">方法与说明</a>
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-navigation"
+      >
+        <span>菜单</span>
+        <span class="menu-toggle-icon" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-navigation" aria-label="主导航">
+        <div class="nav-main">
+          <a href="/yuri-classification-archive/">首页</a>
+          <a href="/yuri-classification-archive/table/">总表</a>
+          <a href="/yuri-classification-archive/about/">方法与说明</a>
+        </div>
         <a class="nav-star" href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub / Star <span aria-hidden="true">↗</span></a>
-        <a href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
+        <a class="nav-feedback" href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
         <label class="theme-control" for="theme-preference">
           <span>主题</span>
           <select id="theme-preference" aria-label="主题偏好">
@@ -84,7 +97,7 @@
     <h1>《比宇宙更远的地方》分类报告</h1>
     <p class="report-subtitle">2018 broadcast TV anime episodes 1-13</p>
     <div class="label-strip" aria-label="分类摘要">
-      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>恋爱位置：</strong>缺席</span><span class="label-chip"><strong>最高明确度：</strong>非恋爱</span><span class="label-chip"><strong>官方：</strong>未标百合／GL</span><span class="label-chip"><strong>置信度：</strong>高</span>
+      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>恋爱位置：</strong>缺席</span><span class="label-chip"><strong>最高明确度：</strong>非恋爱</span><span class="label-chip"><strong>官方字面百合／GL：</strong>所核未见</span><span class="label-chip"><strong>官方女女恋爱表述：</strong>所核未见</span><span class="label-chip"><strong>官方来源：</strong>层级：当前版本；位置：访谈／评论</span><span class="label-chip"><strong>置信度：</strong>高</span>
     </div>
     <a class="back-link" href="/yuri-classification-archive/table/?q=%E6%AF%94%E5%AE%87%E5%AE%99%E6%9B%B4%E8%BF%9C%E7%9A%84%E5%9C%B0%E6%96%B9">← 返回总表并定位本作</a>
   </header>
@@ -94,7 +107,7 @@
       <ol><li><a href="#无剧透结论">无剧透结论</a></li><li><a href="#数据库与公开分类">数据库与公开分类</a></li><li><a href="#决定性文本证据">决定性文本证据</a></li><li><a href="#四层分析">四层分析</a></li><li><a href="#最强反方解释">最强反方解释</a></li><li><a href="#分用途结论">分用途结论</a></li><li><a href="#方法来源与限制">方法、来源与限制</a></li></ol>
     </aside>
     <div class="report-content">
-      <blockquote><p>分类日期：2026-07-29<br> 分类对象：2018 年 TV 动画<br> 纳入范围：正式 TV 第 1–13 话<br> 排除范围：漫画改编、舞台／广播／音声材料、宣传短片、活动影像、商品附属内容及其他衍生或跨媒介材料<br> 用途：普通推荐与数据库分类</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p><strong>按本档案采用的“女女关系构成作品叙事与情感中心，且未被男性恋爱主线取代”的开放口径，本作属于女女关系主线且按作品分类归档，置信度高。</strong> 四名少女如何相识、共同出发、从临时同行者成为朋友、面对彼此旧伤并理解分别后的关系，持续组织十三话的人物弧与情感收束。移除这组关系，南极旅行仍能作为事件存在，作品当前的成长结构却无法成立。</p><p><strong>本作不满足“明确女女恋爱／明确女同性恋身份”的严格检索条件。</strong> 正篇将四人直接称为朋友、挚友，并正面讨论友情；导演访谈也以友情、接近家人的存在和一生的挚友概括创作目标。十三话没有确认女性之间的告白、交往、恋人称谓、作为恋爱行为的接吻或性取向身份。共同旅行、为朋友出头、一起哭泣或约定再旅行，都不能单独替角色确认恋爱。</p><p>本季另有局部而明确的男女恋爱内容：一名成年男性爱慕成年女性队长，另一名成年女性队员有留在日本的男性恋人。它们没有接管少女群体、旅行与丧亲主线，但足以将男性恋爱线登记为副线，而不是“无”。</p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：缺席｜最高明确度：非恋爱｜关系构成：单一主要关系记录｜官方：未标百合／GL；导演访谈明确以友情、家人般关系和终生挚友定位四人｜阅读层级：正篇事实＋读者解读｜身份依据类型：范围内没有性取向身份依据｜男性恋爱线：副线（成年男性对成年女性的单向爱慕，另有成年男女恋人关系）｜内容提示：亲人失踪与长期哀伤，校园排挤与背叛，嫉妒、散播流言及破坏出行，晕船和呕吐，海上及极地旅行风险。</strong></p></blockquote><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li>只寻找双方告白、正式交往、女女接吻、恋人称谓或女同性恋／双性恋身份明示：<strong>不符合 TV 第 1–13 话</strong>。</li><li>只寻找不存在任何男女恋爱内容的作品：<strong>不符合</strong>；第 9 话有成年男性对成年女性的明确爱慕与“告白／恋爱”讨论，配角资料及正篇还写到一名成年女性留在日本的男性恋人。</li><li>寻找女性友情、共同目标、相互支持与成长构成全剧情感主线的作品：<strong>高度符合</strong>。</li><li>推荐时宜写“女性友情中心的青春旅行／开放口径百合，关系非恋爱”，不宜只写没有限定的“GL”，也不宜用拥抱或共同旅行替角色确认恋爱。</li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><p>以下为核对至 2026-07-30 的快照。官方宣传、编辑类型、社区标签和本报告的文类判断回答不同问题，不能按站点数量投票。</p><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://yorimoi.com/story/?ep=story" target="_blank" rel="noopener noreferrer">官方故事页</a>／<a href="https://yorimoi.com/character/" target="_blank" rel="noopener noreferrer">角色页</a></td><td>故事以四名女高中生前往南极展开；角色页将结月的愿望写为想交到挚友，将惠称作主角自幼相识的挚友；未使用百合／GL 分类</td><td>官方剧情与角色资料</td><td>证明女女关系和共同旅行处于官方故事中心；“未标”不等于官方否认</td></tr><tr class="even"><td><a href="https://yorimoi.com/special/interview.html" target="_blank" rel="noopener noreferrer">官方导演访谈</a></td><td>将企划称作“女孩子们努力的青春故事”，明确谈到四人形成的“友情和关系”，并以接近家人、一生的挚友说明关系目标</td><td>官方创作访谈</td><td>是“关系按正篇写成友情”的强证据；不是对所有读者解读的禁令，也不是百合标签认证</td></tr><tr class="odd"><td><a href="https://myanimelist.net/anime/35839/Sora_yori_mo_Tooi_Basho" target="_blank" rel="noopener noreferrer">MyAnimeList</a></td><td><code>TV</code>、13 话；Genres 为 <code>Adventure / Comedy / Drama</code>，Theme 为 <code>CGDCT</code>；当前字段未列 <code>Girls Love</code> 或 <code>Romance</code></td><td>编辑数据库类型字段</td><td>记录该站窄类型口径；字段沉默不能证明作品无法被广义百合阅读</td></tr><tr class="even"><td><a href="https://www.anime-planet.com/anime/a-place-further-than-the-universe" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td>2026-07-30 完整 Tags 面板：<code>Adventure / Drama / Slice of Life / Antarctica / Death of a Loved One / Original Work</code></td><td>编辑维护的数据库标签</td><td>记录当前检索字段；不是官方认证，标签存在或沉默都不自动裁定作品关系</td></tr><tr class="odd"><td><a href="https://anilist.co/anime/99426" target="_blank" rel="noopener noreferrer">AniList</a></td><td><code>TV</code>、13 话；Genres 为 <code>Adventure / Comedy / Drama</code>；同日 API 返回 <code>Travel 96%</code>、<code>Coming of Age 95%</code>、<code>Ensemble Cast 92%</code>、<code>Primarily Female Cast 90%</code>、<code>Found Family 86%</code> 等标签，未返回 <code>Yuri</code></td><td>带权重的社区标签数据库</td><td>支持旅行、成长、女性群像和拟制家人描述；标签缺席不裁决私人阅读</td></tr><tr class="even"><td><a href="https://bangumi.tv/subject/218708" target="_blank" rel="noopener noreferrer">Bangumi</a>／<a href="https://api.bgm.tv/v0/subjects/218708" target="_blank" rel="noopener noreferrer">公开 API</a></td><td><code>platform: TV</code>、13 话；动态用户标签含 <code>百合 1123</code>、<code>轻百合 73</code>、<code>友情 59</code>，并有更高频的原创、青春、南极、旅行等标签</td><td>社区用户标签与平台汇总</td><td>证明中文用户确实会用“百合”检索本作；计数不是官方认证、角色身份或独立民调</td></tr><tr class="odd"><td><a href="https://jimaku.cc/entry/471" target="_blank" rel="noopener noreferrer">Jimaku 条目 471</a></td><td>与 AniList 99426 精确对应；2026-07-30 重新下载的同组日文 SRT 连续覆盖第 1–13 话，共 13 文件、5,386 个 cue</td><td>字幕汇集站</td><td>用于全季文字检索、前后文核对和时间定位；不是官方台本或文类分类</td></tr></tbody></table></div><p>MAL 与 AniList 没有采用恋爱型百合字段，Bangumi 社区却明显使用“百合”标签；这不是简单的资料冲突。前者更接近窄类型索引，后者同时记录读者的关系型观看经验。本报告用“开放口径女女关系主线归档＋非恋爱型友情”同时保存这两类信息。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>以下部分包含 2018 年 TV 动画第 1–13 话的完整剧透。</p></aside>
+      <blockquote><p>分类日期：2026-07-29<br> 分类对象：2018 年 TV 动画<br> 纳入范围：正式 TV 第 1–13 话<br> 排除范围：漫画改编、舞台／广播／音声材料、宣传短片、活动影像、商品附属内容及其他衍生或跨媒介材料<br> 用途：普通推荐与数据库分类</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p><strong>按本档案采用的“女女关系构成作品叙事与情感中心，且未被男性恋爱主线取代”的开放口径，本作属于女女关系主线且按作品分类归档，置信度高。</strong> 四名少女如何相识、共同出发、从临时同行者成为朋友、面对彼此旧伤并理解分别后的关系，持续组织十三话的人物弧与情感收束。移除这组关系，南极旅行仍能作为事件存在，作品当前的成长结构却无法成立。</p><p><strong>本作不满足“明确女女恋爱／明确女同性恋身份”的严格检索条件。</strong> 正篇将四人直接称为朋友、挚友，并正面讨论友情；导演访谈也以友情、接近家人的存在和一生的挚友概括创作目标。十三话没有确认女性之间的告白、交往、恋人称谓、作为恋爱行为的接吻或性取向身份。共同旅行、为朋友出头、一起哭泣或约定再旅行，都不能单独替角色确认恋爱。</p><p>本季另有局部而明确的男女恋爱内容：一名成年男性爱慕成年女性队长，另一名成年女性队员有留在日本的男性恋人。它们没有接管少女群体、旅行与丧亲主线，但足以将男性恋爱线登记为副线，而不是“无”。</p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：缺席｜最高明确度：非恋爱｜关系构成：单一主要关系记录｜官方字面：所核未见｜官方恋爱表述：所核未见｜官方来源：范围内版本·访谈／评论｜阅读层级：正篇事实＋读者解读｜身份依据类型：范围内没有性取向身份依据｜男性恋爱线：副线（成年男性对成年女性的单向爱慕，另有成年男女恋人关系）｜内容提示：亲人失踪与长期哀伤，校园排挤与背叛，嫉妒、散播流言及破坏出行，晕船和呕吐，海上及极地旅行风险。</strong></p></blockquote><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li>只寻找双方告白、正式交往、女女接吻、恋人称谓或女同性恋／双性恋身份明示：<strong>不符合 TV 第 1–13 话</strong>。</li><li>只寻找不存在任何男女恋爱内容的作品：<strong>不符合</strong>；第 9 话有成年男性对成年女性的明确爱慕与“告白／恋爱”讨论，配角资料及正篇还写到一名成年女性留在日本的男性恋人。</li><li>寻找女性友情、共同目标、相互支持与成长构成全剧情感主线的作品：<strong>高度符合</strong>。</li><li>推荐时宜写“女性友情中心的青春旅行／开放口径百合，关系非恋爱”，不宜只写没有限定的“GL”，也不宜用拥抱或共同旅行替角色确认恋爱。</li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><p>以下为核对至 2026-07-30 的快照。官方宣传、编辑类型、社区标签和本报告的文类判断回答不同问题，不能按站点数量投票。</p><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://yorimoi.com/story/?ep=story" target="_blank" rel="noopener noreferrer">官方故事页</a>／<a href="https://yorimoi.com/character/" target="_blank" rel="noopener noreferrer">角色页</a></td><td>故事以四名女高中生前往南极展开；角色页将结月的愿望写为想交到挚友，将惠称作主角自幼相识的挚友；未使用百合／GL 分类</td><td>官方剧情与角色资料</td><td>证明女女关系和共同旅行处于官方故事中心；“未标”不等于官方否认</td></tr><tr class="even"><td><a href="https://yorimoi.com/special/interview.html" target="_blank" rel="noopener noreferrer">官方导演访谈</a></td><td>将企划称作“女孩子们努力的青春故事”，明确谈到四人形成的“友情和关系”，并以接近家人、一生的挚友说明关系目标</td><td>官方创作访谈</td><td>是“关系按正篇写成友情”的强证据；不是对所有读者解读的禁令，也不是百合标签认证</td></tr><tr class="odd"><td><a href="https://myanimelist.net/anime/35839/Sora_yori_mo_Tooi_Basho" target="_blank" rel="noopener noreferrer">MyAnimeList</a></td><td><code>TV</code>、13 话；Genres 为 <code>Adventure / Comedy / Drama</code>，Theme 为 <code>CGDCT</code>；当前字段未列 <code>Girls Love</code> 或 <code>Romance</code></td><td>编辑数据库类型字段</td><td>记录该站窄类型口径；字段沉默不能证明作品无法被广义百合阅读</td></tr><tr class="even"><td><a href="https://www.anime-planet.com/anime/a-place-further-than-the-universe" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td>2026-07-30 完整 Tags 面板：<code>Adventure / Drama / Slice of Life / Antarctica / Death of a Loved One / Original Work</code></td><td>编辑维护的数据库标签</td><td>记录当前检索字段；不是官方认证，标签存在或沉默都不自动裁定作品关系</td></tr><tr class="odd"><td><a href="https://anilist.co/anime/99426" target="_blank" rel="noopener noreferrer">AniList</a></td><td><code>TV</code>、13 话；Genres 为 <code>Adventure / Comedy / Drama</code>；同日 API 返回 <code>Travel 96%</code>、<code>Coming of Age 95%</code>、<code>Ensemble Cast 92%</code>、<code>Primarily Female Cast 90%</code>、<code>Found Family 86%</code> 等标签，未返回 <code>Yuri</code></td><td>带权重的社区标签数据库</td><td>支持旅行、成长、女性群像和拟制家人描述；标签缺席不裁决私人阅读</td></tr><tr class="even"><td><a href="https://bangumi.tv/subject/218708" target="_blank" rel="noopener noreferrer">Bangumi</a>／<a href="https://api.bgm.tv/v0/subjects/218708" target="_blank" rel="noopener noreferrer">公开 API</a></td><td><code>platform: TV</code>、13 话；动态用户标签含 <code>百合 1123</code>、<code>轻百合 73</code>、<code>友情 59</code>，并有更高频的原创、青春、南极、旅行等标签</td><td>社区用户标签与平台汇总</td><td>证明中文用户确实会用“百合”检索本作；计数不是官方认证、角色身份或独立民调</td></tr><tr class="odd"><td><a href="https://jimaku.cc/entry/471" target="_blank" rel="noopener noreferrer">Jimaku 条目 471</a></td><td>与 AniList 99426 精确对应；2026-07-30 重新下载的同组日文 SRT 连续覆盖第 1–13 话，共 13 文件、5,386 个 cue</td><td>字幕汇集站</td><td>用于全季文字检索、前后文核对和时间定位；不是官方台本或文类分类</td></tr></tbody></table></div><p>MAL 与 AniList 没有采用恋爱型百合字段，Bangumi 社区却明显使用“百合”标签；这不是简单的资料冲突。前者更接近窄类型索引，后者同时记录读者的关系型观看经验。本报告用“开放口径女女关系主线归档＋非恋爱型友情”同时保存这两类信息。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>以下部分包含 2018 年 TV 动画第 1–13 话的完整剧透。</p></aside>
 
       <details class="spoiler-panel">
         <summary>
@@ -142,7 +155,7 @@
     </div>
   </footer>
   <script>window.SITE_CONFIG = {basePath: "/yuri-classification-archive"};</script>
-  <script src="/yuri-classification-archive/assets/site.js?v=95491b68a3ae" defer></script>
-  
+  <script src="/yuri-classification-archive/assets/site.js?v=686fc3d330d3" defer></script>
+
 </body>
 </html>

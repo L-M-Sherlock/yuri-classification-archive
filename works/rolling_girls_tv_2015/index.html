@@ -9,6 +9,7 @@
   <meta id="theme-color-dark" name="theme-color" media="(prefers-color-scheme: dark)" content="#1c181c">
   <script>
     (() => {
+      document.documentElement.classList.add("js");
       const storageKey = "yuri-classification-theme";
       const allowed = new Set(["system", "light", "dark"]);
       let preference = "system";
@@ -46,8 +47,8 @@
   <meta property="og:url" content="https://l-m-sherlock.github.io/yuri-classification-archive/works/rolling_girls_tv_2015/">
   <meta property="og:image" content="https://l-m-sherlock.github.io/yuri-classification-archive/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
   <title>《旋转少女》分类报告｜百合作品分类档案</title>
-  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=014a89622973">
-  
+  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=1cc35b33d5cd">
+
 </head>
 <body class="classification-report">
   <a class="skip-link" href="#main-content">跳到正文</a>
@@ -60,12 +61,24 @@
           <small>按查询拆开标签，按证据保留边界</small>
         </span>
       </a>
-      <nav class="site-nav" aria-label="主导航">
-        <a href="/yuri-classification-archive/">首页</a>
-        <a href="/yuri-classification-archive/table/">总表</a>
-        <a href="/yuri-classification-archive/about/">方法与说明</a>
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-navigation"
+      >
+        <span>菜单</span>
+        <span class="menu-toggle-icon" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-navigation" aria-label="主导航">
+        <div class="nav-main">
+          <a href="/yuri-classification-archive/">首页</a>
+          <a href="/yuri-classification-archive/table/">总表</a>
+          <a href="/yuri-classification-archive/about/">方法与说明</a>
+        </div>
         <a class="nav-star" href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub / Star <span aria-hidden="true">↗</span></a>
-        <a href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
+        <a class="nav-feedback" href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
         <label class="theme-control" for="theme-preference">
           <span>主题</span>
           <select id="theme-preference" aria-label="主题偏好">
@@ -84,7 +97,7 @@
     <h1>《旋转少女》分类报告</h1>
     <p class="report-subtitle">2015 broadcast TV anime episodes 1-12；official TV story and episode-guide pages as paratext；live database genre, theme and community-tag fields only as external labeling evidence</p>
     <div class="label-strip" aria-label="分类摘要">
-      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>恋爱位置：</strong>缺席</span><span class="label-chip"><strong>最高明确度：</strong>非恋爱</span><span class="label-chip"><strong>官方：</strong>未标百合／GL</span><span class="label-chip"><strong>置信度：</strong>高</span>
+      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>恋爱位置：</strong>缺席</span><span class="label-chip"><strong>最高明确度：</strong>非恋爱</span><span class="label-chip"><strong>官方字面百合／GL：</strong>所核未见</span><span class="label-chip"><strong>官方女女恋爱表述：</strong>所核未见</span><span class="label-chip"><strong>官方来源：</strong>所核来源未含可公开筛选的层级或位置</span><span class="label-chip"><strong>置信度：</strong>高</span>
     </div>
     <a class="back-link" href="/yuri-classification-archive/table/?q=%E6%97%8B%E8%BD%AC%E5%B0%91%E5%A5%B3">← 返回总表并定位本作</a>
   </header>
@@ -94,7 +107,7 @@
       <ol><li><a href="#无剧透结论">无剧透结论</a></li><li><a href="#数据库与公开分类">数据库与公开分类</a></li><li><a href="#决定性文本证据">决定性文本证据</a></li><li><a href="#四层分析">四层分析</a></li><li><a href="#最强反方解释">最强反方解释</a></li><li><a href="#分用途结论">分用途结论</a></li><li><a href="#方法来源与限制">方法、来源与限制</a></li></ol>
     </aside>
     <div class="report-content">
-      <blockquote><p>分类日期：2026-07-29<br> 分类对象：2015 年正式播出的 TV 动画《ローリング☆ガールズ》<br> 纳入范围：TV 正篇第 1–12 话<br> 排除范围：影碟短篇与其他特典、漫画、小说、音频内容、访谈新增设定、二创及其他跨媒介材料<br> 用途：普通推荐、数据库分类、严格恋爱检索与角色身份检索</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p><strong>本报告将本作归入“女女关系主线且按作品分类归档（女女关系中心型）”，置信度高；但它不是明确女女恋爱作品。</strong> 四名少女的同行既是全季的观察视角，也是人物成长、内部冲突与情感收束的主线。官方自己将作品概括为“四名普通少女交织而成的青春公路片”，所以判断依据不是单纯的女性阵容。</p><p>正篇主要写双向友情、仰慕和旅行伙伴关系，没有女女告白、亲吻、交往确认、恋人称谓或性取向明示。个别地方篇的女性旧友关系可以支持浪漫解读，但文本仍以朋友说明关系；另有一段局部异性好感，不取代四人主线。</p><p>因此，普通推荐宜写成“女女关系中心的百合／青春公路群像，核心为非恋爱友情”。只寻找明确情侣或女同性恋／双性恋身份的读者不应命中；接受女性共同体与关系中心型作品的读者则适合纳入。</p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：缺席｜最高明确度：非恋爱｜关系构成：单一主要关系记录｜官方：核对到的 TV 官网未标百合／GL，以少女青春公路片宣传｜阅读层级：正篇事实＋强推断＋读者解读｜身份依据类型：范围内没有性取向身份依据｜男性恋爱线：地方篇章副线，未确立交往｜内容提示：夸张战斗与爆炸、绑架和人质危机、重伤住院、地区武装冲突、温泉裸露与身体笑料、控制型亲子关系。</strong></p></blockquote><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li><strong>只找女女告白、接吻、正式交往、恋人称谓或性取向明示：不适合。</strong> 第 1–12 话没有这些确认项。</li><li><strong>接受非恋爱女女关系中心、女性共同体或旅行伙伴成长：适合。</strong> 四人关系贯穿出发、共同任务、冲突修复和终局离别。</li><li><strong>专找具有潜在浪漫读法的女性二人关系：可有限纳入。</strong> 京都篇有童年承诺、长期误解和双向和解，但正篇同时称二人为朋友。</li><li><strong>要求完全没有男性对女性的恋爱指向：不适合。</strong> 一组地方人物有外貌称赞、婚配玩笑和共同未来愿望，但没有正式交往。</li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><p>以下字段核对至 2026-07-30。不同站点回答的是官方宣传、编辑类型或用户检索习惯，不能用站点数量表决剧情事实。</p><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="http://rollinggirls.com/" target="_blank" rel="noopener noreferrer">TV 动画官网</a>／<a href="http://rollinggirls.com/story.html" target="_blank" rel="noopener noreferrer">总故事页</a>／<a href="http://rollinggirls.com/story12.html" target="_blank" rel="noopener noreferrer">分话故事页</a></td><td>官网元描述为 <code>普通の少女四人組が織りなす、青春ロードムービー</code>；总简介写四名女孩替各地解决纠纷、寻找“月光石”并骑摩托旅行；所核页面未使用百合／GL 类型词</td><td>官方剧情与市场表述</td><td>直接支持四名少女和公路旅程的结构中心性；只能据此记“官方未标”，不能写成官方否认百合</td></tr><tr class="even"><td><a href="https://myanimelist.net/anime/25867/Rolling☆Girls" target="_blank" rel="noopener noreferrer">MyAnimeList 25867</a></td><td><code>TV</code>、12 话、原创；类型为 <code>Action / Adventure / Sci-Fi</code>，主题为 <code>CGDCT / Super Power</code>；未列 <code>Girls Love</code> 或 <code>Romance</code></td><td>编辑型数据库</td><td>记录标准类型字段以动作、冒险、科幻为主；字段沉默不能推翻文本中的女女关系</td></tr><tr class="odd"><td><a href="https://www.anime-planet.com/anime/the-rolling-girls" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td>2026-07-30 完整 Tags 面板：<code>Action / Adventure / Comedy / Superpowers / Original Work</code></td><td>编辑维护的数据库标签</td><td>记录当前检索字段；不是官方认证，标签存在或沉默都不自动裁定作品关系</td></tr><tr class="even"><td><a href="https://anilist.co/anime/20815" target="_blank" rel="noopener noreferrer">AniList 20815</a></td><td><code>TV</code>、12 话；类型为 <code>Action / Adventure / Sci-Fi</code>；带权重社区标签包括 <code>Primarily Female Cast 90</code>、<code>Female Protagonist 79</code>、<code>Coming of Age 73</code>、<code>Ensemble Cast 70</code>、<code>Motorcycles 68</code>，完整返回未列 <code>Yuri</code></td><td>编辑类型＋带相关度权重的社区标签</td><td>说明该站以女性阵容、成长、群像和旅行要素分轴检索；权重不是观众支持率</td></tr><tr class="odd"><td><a href="https://bangumi.tv/subject/110600" target="_blank" rel="noopener noreferrer">Bangumi 110600</a>／<a href="https://api.bgm.tv/v0/subjects/110600" target="_blank" rel="noopener noreferrer">公共 API</a></td><td>正式 TV 正篇字段为 12 话；条目元标签含“百合”，并有原创、公路片、青春等用户标签；API 的 <code>total_episodes</code> 还计入额外内容</td><td>社区用户标签及本批榜单来源</td><td>证明中文用户确实以“百合”检索本作；额外内容不纳入剧情分析，标签也不能证明恋爱或角色身份</td></tr></tbody></table></div><p>官网说明作品怎样自我介绍，MAL 和 Anime-Planet 给出编辑整理的类型，AniList 与 Bangumi还呈现社区检索习惯。这里既不把“主要女性阵容”自动等同于百合，也不把官网或数据库没有类型词解释成排除声明。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>以下部分包含 TV 第 1–12 话完整剧透。</p></aside>
+      <blockquote><p>分类日期：2026-07-29<br> 分类对象：2015 年正式播出的 TV 动画《ローリング☆ガールズ》<br> 纳入范围：TV 正篇第 1–12 话<br> 排除范围：影碟短篇与其他特典、漫画、小说、音频内容、访谈新增设定、二创及其他跨媒介材料<br> 用途：普通推荐、数据库分类、严格恋爱检索与角色身份检索</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p><strong>本报告将本作归入“女女关系主线且按作品分类归档（女女关系中心型）”，置信度高；但它不是明确女女恋爱作品。</strong> 四名少女的同行既是全季的观察视角，也是人物成长、内部冲突与情感收束的主线。官方自己将作品概括为“四名普通少女交织而成的青春公路片”，所以判断依据不是单纯的女性阵容。</p><p>正篇主要写双向友情、仰慕和旅行伙伴关系，没有女女告白、亲吻、交往确认、恋人称谓或性取向明示。个别地方篇的女性旧友关系可以支持浪漫解读，但文本仍以朋友说明关系；另有一段局部异性好感，不取代四人主线。</p><p>因此，普通推荐宜写成“女女关系中心的百合／青春公路群像，核心为非恋爱友情”。只寻找明确情侣或女同性恋／双性恋身份的读者不应命中；接受女性共同体与关系中心型作品的读者则适合纳入。</p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：缺席｜最高明确度：非恋爱｜关系构成：单一主要关系记录｜官方字面：所核未见｜官方恋爱表述：所核未见｜官方来源：所核未见匹配表述｜阅读层级：正篇事实＋强推断＋读者解读｜身份依据类型：范围内没有性取向身份依据｜男性恋爱线：地方篇章副线，未确立交往｜内容提示：夸张战斗与爆炸、绑架和人质危机、重伤住院、地区武装冲突、温泉裸露与身体笑料、控制型亲子关系。</strong></p></blockquote><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li><strong>只找女女告白、接吻、正式交往、恋人称谓或性取向明示：不适合。</strong> 第 1–12 话没有这些确认项。</li><li><strong>接受非恋爱女女关系中心、女性共同体或旅行伙伴成长：适合。</strong> 四人关系贯穿出发、共同任务、冲突修复和终局离别。</li><li><strong>专找具有潜在浪漫读法的女性二人关系：可有限纳入。</strong> 京都篇有童年承诺、长期误解和双向和解，但正篇同时称二人为朋友。</li><li><strong>要求完全没有男性对女性的恋爱指向：不适合。</strong> 一组地方人物有外貌称赞、婚配玩笑和共同未来愿望，但没有正式交往。</li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><p>以下字段核对至 2026-07-30。不同站点回答的是官方宣传、编辑类型或用户检索习惯，不能用站点数量表决剧情事实。</p><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="http://rollinggirls.com/" target="_blank" rel="noopener noreferrer">TV 动画官网</a>／<a href="http://rollinggirls.com/story.html" target="_blank" rel="noopener noreferrer">总故事页</a>／<a href="http://rollinggirls.com/story12.html" target="_blank" rel="noopener noreferrer">分话故事页</a></td><td>官网元描述为 <code>普通の少女四人組が織りなす、青春ロードムービー</code>；总简介写四名女孩替各地解决纠纷、寻找“月光石”并骑摩托旅行；所核页面未使用百合／GL 类型词</td><td>官方剧情与市场表述</td><td>直接支持四名少女和公路旅程的结构中心性；只能据此记“官方未标”，不能写成官方否认百合</td></tr><tr class="even"><td><a href="https://myanimelist.net/anime/25867/Rolling☆Girls" target="_blank" rel="noopener noreferrer">MyAnimeList 25867</a></td><td><code>TV</code>、12 话、原创；类型为 <code>Action / Adventure / Sci-Fi</code>，主题为 <code>CGDCT / Super Power</code>；未列 <code>Girls Love</code> 或 <code>Romance</code></td><td>编辑型数据库</td><td>记录标准类型字段以动作、冒险、科幻为主；字段沉默不能推翻文本中的女女关系</td></tr><tr class="odd"><td><a href="https://www.anime-planet.com/anime/the-rolling-girls" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td>2026-07-30 完整 Tags 面板：<code>Action / Adventure / Comedy / Superpowers / Original Work</code></td><td>编辑维护的数据库标签</td><td>记录当前检索字段；不是官方认证，标签存在或沉默都不自动裁定作品关系</td></tr><tr class="even"><td><a href="https://anilist.co/anime/20815" target="_blank" rel="noopener noreferrer">AniList 20815</a></td><td><code>TV</code>、12 话；类型为 <code>Action / Adventure / Sci-Fi</code>；带权重社区标签包括 <code>Primarily Female Cast 90</code>、<code>Female Protagonist 79</code>、<code>Coming of Age 73</code>、<code>Ensemble Cast 70</code>、<code>Motorcycles 68</code>，完整返回未列 <code>Yuri</code></td><td>编辑类型＋带相关度权重的社区标签</td><td>说明该站以女性阵容、成长、群像和旅行要素分轴检索；权重不是观众支持率</td></tr><tr class="odd"><td><a href="https://bangumi.tv/subject/110600" target="_blank" rel="noopener noreferrer">Bangumi 110600</a>／<a href="https://api.bgm.tv/v0/subjects/110600" target="_blank" rel="noopener noreferrer">公共 API</a></td><td>正式 TV 正篇字段为 12 话；条目元标签含“百合”，并有原创、公路片、青春等用户标签；API 的 <code>total_episodes</code> 还计入额外内容</td><td>社区用户标签及本批榜单来源</td><td>证明中文用户确实以“百合”检索本作；额外内容不纳入剧情分析，标签也不能证明恋爱或角色身份</td></tr></tbody></table></div><p>官网说明作品怎样自我介绍，MAL 和 Anime-Planet 给出编辑整理的类型，AniList 与 Bangumi还呈现社区检索习惯。这里既不把“主要女性阵容”自动等同于百合，也不把官网或数据库没有类型词解释成排除声明。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>以下部分包含 TV 第 1–12 话完整剧透。</p></aside>
 
       <details class="spoiler-panel">
         <summary>
@@ -142,7 +155,7 @@
     </div>
   </footer>
   <script>window.SITE_CONFIG = {basePath: "/yuri-classification-archive"};</script>
-  <script src="/yuri-classification-archive/assets/site.js?v=95491b68a3ae" defer></script>
-  
+  <script src="/yuri-classification-archive/assets/site.js?v=686fc3d330d3" defer></script>
+
 </body>
 </html>

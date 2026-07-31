@@ -9,6 +9,7 @@
   <meta id="theme-color-dark" name="theme-color" media="(prefers-color-scheme: dark)" content="#1c181c">
   <script>
     (() => {
+      document.documentElement.classList.add("js");
       const storageKey = "yuri-classification-theme";
       const allowed = new Set(["system", "light", "dark"]);
       let preference = "system";
@@ -46,8 +47,8 @@
   <meta property="og:url" content="https://l-m-sherlock.github.io/yuri-classification-archive/works/kill_me_baby_tv_2012/">
   <meta property="og:image" content="https://l-m-sherlock.github.io/yuri-classification-archive/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
   <title>《爱杀宝贝》分类报告｜百合作品分类档案</title>
-  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=014a89622973">
-  
+  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=1cc35b33d5cd">
+
 </head>
 <body class="classification-report">
   <a class="skip-link" href="#main-content">跳到正文</a>
@@ -60,12 +61,24 @@
           <small>按查询拆开标签，按证据保留边界</small>
         </span>
       </a>
-      <nav class="site-nav" aria-label="主导航">
-        <a href="/yuri-classification-archive/">首页</a>
-        <a href="/yuri-classification-archive/table/">总表</a>
-        <a href="/yuri-classification-archive/about/">方法与说明</a>
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-navigation"
+      >
+        <span>菜单</span>
+        <span class="menu-toggle-icon" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-navigation" aria-label="主导航">
+        <div class="nav-main">
+          <a href="/yuri-classification-archive/">首页</a>
+          <a href="/yuri-classification-archive/table/">总表</a>
+          <a href="/yuri-classification-archive/about/">方法与说明</a>
+        </div>
         <a class="nav-star" href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub / Star <span aria-hidden="true">↗</span></a>
-        <a href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
+        <a class="nav-feedback" href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
         <label class="theme-control" for="theme-preference">
           <span>主题</span>
           <select id="theme-preference" aria-label="主题偏好">
@@ -84,7 +97,7 @@
     <h1>《爱杀宝贝》分类报告</h1>
     <p class="report-subtitle">2012 TV anime formal episodes 1-13</p>
     <div class="label-strip" aria-label="分类摘要">
-      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>恋爱位置：</strong>缺席</span><span class="label-chip"><strong>最高明确度：</strong>非恋爱</span><span class="label-chip"><strong>官方：</strong>未标百合／GL</span><span class="label-chip"><strong>置信度：</strong>高</span>
+      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>恋爱位置：</strong>缺席</span><span class="label-chip"><strong>最高明确度：</strong>非恋爱</span><span class="label-chip"><strong>官方字面百合／GL：</strong>所核未见</span><span class="label-chip"><strong>官方女女恋爱表述：</strong>所核未见</span><span class="label-chip"><strong>官方来源：</strong>所核来源未含可公开筛选的层级或位置</span><span class="label-chip"><strong>置信度：</strong>高</span>
     </div>
     <a class="back-link" href="/yuri-classification-archive/table/?q=%E7%88%B1%E6%9D%80%E5%AE%9D%E8%B4%9D">← 返回总表并定位本作</a>
   </header>
@@ -94,7 +107,7 @@
       <ol><li><a href="#无剧透结论">无剧透结论</a></li><li><a href="#数据库与公开分类">数据库与公开分类</a></li><li><a href="#决定性文本证据">决定性文本证据</a></li><li><a href="#四层分析">四层分析</a></li><li><a href="#最强反方解释">最强反方解释</a></li><li><a href="#分用途结论">分用途结论</a></li><li><a href="#方法来源与限制">方法、来源与限制</a></li></ol>
     </aside>
     <div class="report-content">
-      <blockquote><p>分类日期：2026-07-30<br> 分类对象：《キルミーベイベー》（爱杀宝贝）2012 年 TV 动画<br> 纳入范围：正式第 1—13 话（单季全 13 话正篇）<br> 排除范围：OVA／特典动画、原作漫画、完整歌曲、广播音频及其他跨媒体材料<br> 用途：普通推荐、数据库分类与严格恋爱检索</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p>在本项目允许非恋爱女女关系构成女女关系主线的宽口径下，本作可归为<strong>女女关系主线且按作品分类归档</strong>，置信度高。全季的稳定结构是やすな不断找ソーニャ说话、玩耍或帮忙，ソーニャ以拒绝、吐槽和喜剧化反击回应，却又反复留下来参与；二人的同学友情与喜剧搭档关系就是叙事发动机。</p><p>这不等于恋爱。正篇明确使用“朋友”，没有双方告白、交往、接吻、女女欲望、恋爱嫉妒、伴侣式未来或性取向自述。频繁击打和关节技属于动作喜剧，不能因身体接触而浪漫化；情人节桥段会借恋爱惯例制造歧义，也立即转成回礼算计和暗杀误认。因此严格女性恋爱检索应排除，普通推荐则可写“女性友情中心的轻百合式打闹喜剧，无确定情侣”。</p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：缺席｜最高明确度：非恋爱｜关系构成：やすな—ソーニャ单一主要关系记录，友情＋喜剧搭档｜官方：未标百合／GL，称两人为中心并以日常与打闹描述｜阅读层级：正篇事实＋读者解读｜身份依据类型：范围内没有性取向身份依据｜男性恋爱线：无｜内容提示：频繁喜剧化击打、关节技、刀枪与暗杀笑话；意外身体接触；公共浴室与身体笑点；情人节恋爱惯例及误认</strong></p></blockquote><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li>只寻找双方告白、正式交往、接吻、明确女女欲望或身份明示者：<strong>不符合</strong>。</li><li>接受女性双人关系居于叙事中心、友情承诺和长期陪伴者：<strong>符合</strong>；十三话持续围绕やすな与ソーニャ运转。</li><li>接受暧昧惯例但不要求兑现者：<strong>可以阅读</strong>；情人节送巧克力和终话挽留是最强材料，但文本分别把上限落在回礼笑点与“继续一起玩”。</li><li>不接受把殴打、关节技、被迫近身或全女性主要阵容自动算作亲密者：本报告同样不这样取证。</li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><p>下表是 2026-07-30 的分层快照。官方自述、编辑型字段、社区标签和材料索引承担不同功能：官方用于确认作品如何介绍自己，数据库用于记录公共检索入口，社区计数用于观察接受史，正篇文本才用于判断关系是否成立。字段未列某标签只表示本次字段沉默；若原始条目受阻而同站精确搜索卡片完整返回字段，则必须同时记录直接失败、恢复路由和卡片范围，不能伪称直接条目成功。</p><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://www.tbs.co.jp/anime/kmb/" target="_blank" rel="noopener noreferrer">TBS 官方总页</a>、<a href="https://www.tbs.co.jp/anime/kmb/story/story.html" target="_blank" rel="noopener noreferrer">Story／逐话页</a>与<a href="https://www.tbs.co.jp/anime/kmb/chara/chara.html" target="_blank" rel="noopener noreferrer">角色页</a></td><td>总体文案称“同班同学是杀手”，写故事以やすな与ソーニャ二人为中心，展开“稍微暴力的日常”，并问二人究竟关系好还是不好；角色页称やすな是ソーニャ的同学和“自称朋友”，总去纠缠她并遭到痛击</td><td>官方播出资料</td><td>确认双人中心、朋友措辞、打闹结构及官方未采用百合／GL／恋爱类型词；“自称”提示开局时不能伪称ソーニャ已经口头确认同一标签</td></tr><tr class="even"><td><a href="https://www.tbs.co.jp/anime/kmb/goods/disc_1.html" target="_blank" rel="noopener noreferrer">TBS Blu-ray BOX 商品页</a>与<a href="https://www.tbs.co.jp/anime/kmb/story/story.html" target="_blank" rel="noopener noreferrer">正式逐话目录</a></td><td>商品页写“全13話収録”，逐话目录列第 1—13 话及 2012-01-05 至 2012-03-29 的播出日</td><td>官方商品与话数资料</td><td>锁定本次 TV 正篇范围，不把后来的 OVA、特典或其他媒介混入结论</td></tr><tr class="odd"><td><a href="https://myanimelist.net/anime/11079/Kill_Me_Baby" target="_blank" rel="noopener noreferrer">MyAnimeList 条目 11079</a>及<a href="https://api.jikan.moe/v4/anime/11079/full" target="_blank" rel="noopener noreferrer">Jikan 结构化接口</a></td><td>TV、13 话、Winter 2012、四格漫画改编；类型为 Comedy，主题为 Gag Humor、School，本次字段未列 Girls Love 或 Romance</td><td>编辑型数据库与公开接口</td><td>记录 MAL 的喜剧／校园侧重；其简介把二人写成朋友可作公共接受史参考，但不是官方关系标签，字段沉默也不替代正文审计</td></tr><tr class="even"><td><a href="https://www.anime-planet.com/anime/kill-me-baby" target="_blank" rel="noopener noreferrer">Anime-Planet 原始精确条目</a>与<a href="https://r.jina.ai/https://www.anime-planet.com/anime/all?name=Kill%20Me%20Baby" target="_blank" rel="noopener noreferrer">精确标题搜索卡片恢复路径</a></td><td>原始条目直接请求遭 HTTP 403／Cloudflare 挑战；公开文本代理随后返回同站 <code>name=Kill Me Baby</code> 搜索结果。精确的 2012 TV／13 话卡片完整列出 <code>Comedy / Seinen / Slice of Life / Assassins / Gag / School Life / Slapstick / Based on a 4-Koma Manga / Based on a Manga</code>，没有精确 GL、Yuri 或 Romance</td><td>编辑维护的标签数据库；直接条目失败、精确搜索卡片恢复成功</td><td>采用完整 TV 卡片的精确标签，并与同页另列的 2013 OVA 卡片区分；保留原始条目 URL 和恢复路由，不写成直接站点访问成功，也不把搜索筛选器中的全站候选标签误算到作品卡片</td></tr><tr class="odd"><td><a href="https://anilist.co/anime/11079/Kill-Me-Baby" target="_blank" rel="noopener noreferrer">AniList 条目 11079</a>及公开 GraphQL 数据</td><td>TV、13 话、Comedy；社区标签含 Assassins 88、Cute Girls Doing Cute Things 80、Female Protagonist 79、Primarily Female Cast 79、School／Ninja 77、Slapstick 76，本次未返回 Yuri 或 Romance</td><td>编辑字段＋社区标签</td><td>说明该站的主要检索入口是杀手、可爱女孩、校园和打闹；“女性为主”只描述阵容，不能自动改写为女性恋爱</td></tr><tr class="even"><td><a href="https://bangumi.tv/subject/20799" target="_blank" rel="noopener noreferrer">Bangumi 条目 20799</a>、<a href="https://api.bgm.tv/v0/subjects/20799" target="_blank" rel="noopener noreferrer">条目接口</a>与<a href="https://api.bgm.tv/v0/episodes?subject_id=20799&amp;type=0&amp;limit=100&amp;offset=0" target="_blank" rel="noopener noreferrer">话数接口</a></td><td>TV、2012-01-05、正式 13 话；Rank 2182。标签快照含“搞笑”1285、“J.C.STAFF”900、“卖萌”752、“百合”498、“日常”256、“轻百合”27。五状态收藏为想看 2008、看过 7650、在看 601、搁置 711、抛弃 475，总数 11445；498÷11445＝0.04351245085190039，约 4.35%</td><td>社区标签与公开接口</td><td>证明中文社区存在百合／轻百合阅读入口，并保留精确分母。这个比值只是不同计数字段的快照化参照，不是支持率、官方认证或恋爱成立比例</td></tr><tr class="odd"><td><a href="https://jimaku.cc/entry/2100" target="_blank" rel="noopener noreferrer">Jimaku 条目 2100</a></td><td>精确匹配 AniList 11079 与日文标题；取得一套连续的第 1—13 话日文 SRT，文件带 TV 标记、说话人及音效说明</td><td>第三方字幕索引</td><td>用于全季原语核文、词项检索和时间定位；字幕不是官方脚本，故短句仍按说话人、前后语境及可核画面解释</td></tr></tbody></table></div><p>公开分类呈现清楚的分层差异：TBS 把作品定义为二人中心的杀手打闹日常；MAL、AniList 与 Anime-Planet 的精确 TV 卡片都把主要入口放在喜剧、校园／日常、杀手和打闹，当前完整字段均未列 GL、Yuri 或 Romance；Bangumi 社区则另形成了明显的百合阅读习惯。Anime-Planet 仍需保留传输层差异：原始条目直接访问是 403，标签结论来自同站精确标题搜索卡片的公开文本恢复，不是直接条目成功。</p><p>这些资料与本报告结论并不冲突。社区可以用“百合”指女女关系中心、双人日常和可供配对阅读的喜剧，本项目也允许按该宽口径归档；但无论社区计数多高，都不能补出正篇没有说过的告白、交往或身份。反过来，MAL、AniList 的字段沉默也不能抹掉全季确实由两名女性的关系承载。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>以下部分包含第 1—13 话的完整剧透。</p></aside>
+      <blockquote><p>分类日期：2026-07-30<br> 分类对象：《キルミーベイベー》（爱杀宝贝）2012 年 TV 动画<br> 纳入范围：正式第 1—13 话（单季全 13 话正篇）<br> 排除范围：OVA／特典动画、原作漫画、完整歌曲、广播音频及其他跨媒体材料<br> 用途：普通推荐、数据库分类与严格恋爱检索</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p>在本项目允许非恋爱女女关系构成女女关系主线的宽口径下，本作可归为<strong>女女关系主线且按作品分类归档</strong>，置信度高。全季的稳定结构是やすな不断找ソーニャ说话、玩耍或帮忙，ソーニャ以拒绝、吐槽和喜剧化反击回应，却又反复留下来参与；二人的同学友情与喜剧搭档关系就是叙事发动机。</p><p>这不等于恋爱。正篇明确使用“朋友”，没有双方告白、交往、接吻、女女欲望、恋爱嫉妒、伴侣式未来或性取向自述。频繁击打和关节技属于动作喜剧，不能因身体接触而浪漫化；情人节桥段会借恋爱惯例制造歧义，也立即转成回礼算计和暗杀误认。因此严格女性恋爱检索应排除，普通推荐则可写“女性友情中心的轻百合式打闹喜剧，无确定情侣”。</p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：缺席｜最高明确度：非恋爱｜关系构成：やすな—ソーニャ单一主要关系记录，友情＋喜剧搭档｜官方字面：所核未见｜官方恋爱表述：所核未见｜官方来源：所核未见匹配表述｜阅读层级：正篇事实＋读者解读｜身份依据类型：范围内没有性取向身份依据｜男性恋爱线：无｜内容提示：频繁喜剧化击打、关节技、刀枪与暗杀笑话；意外身体接触；公共浴室与身体笑点；情人节恋爱惯例及误认</strong></p></blockquote><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li>只寻找双方告白、正式交往、接吻、明确女女欲望或身份明示者：<strong>不符合</strong>。</li><li>接受女性双人关系居于叙事中心、友情承诺和长期陪伴者：<strong>符合</strong>；十三话持续围绕やすな与ソーニャ运转。</li><li>接受暧昧惯例但不要求兑现者：<strong>可以阅读</strong>；情人节送巧克力和终话挽留是最强材料，但文本分别把上限落在回礼笑点与“继续一起玩”。</li><li>不接受把殴打、关节技、被迫近身或全女性主要阵容自动算作亲密者：本报告同样不这样取证。</li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><p>下表是 2026-07-30 的分层快照。官方自述、编辑型字段、社区标签和材料索引承担不同功能：官方用于确认作品如何介绍自己，数据库用于记录公共检索入口，社区计数用于观察接受史，正篇文本才用于判断关系是否成立。字段未列某标签只表示本次字段沉默；若原始条目受阻而同站精确搜索卡片完整返回字段，则必须同时记录直接失败、恢复路由和卡片范围，不能伪称直接条目成功。</p><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://www.tbs.co.jp/anime/kmb/" target="_blank" rel="noopener noreferrer">TBS 官方总页</a>、<a href="https://www.tbs.co.jp/anime/kmb/story/story.html" target="_blank" rel="noopener noreferrer">Story／逐话页</a>与<a href="https://www.tbs.co.jp/anime/kmb/chara/chara.html" target="_blank" rel="noopener noreferrer">角色页</a></td><td>总体文案称“同班同学是杀手”，写故事以やすな与ソーニャ二人为中心，展开“稍微暴力的日常”，并问二人究竟关系好还是不好；角色页称やすな是ソーニャ的同学和“自称朋友”，总去纠缠她并遭到痛击</td><td>官方播出资料</td><td>确认双人中心、朋友措辞、打闹结构及官方未采用百合／GL／恋爱类型词；“自称”提示开局时不能伪称ソーニャ已经口头确认同一标签</td></tr><tr class="even"><td><a href="https://www.tbs.co.jp/anime/kmb/goods/disc_1.html" target="_blank" rel="noopener noreferrer">TBS Blu-ray BOX 商品页</a>与<a href="https://www.tbs.co.jp/anime/kmb/story/story.html" target="_blank" rel="noopener noreferrer">正式逐话目录</a></td><td>商品页写“全13話収録”，逐话目录列第 1—13 话及 2012-01-05 至 2012-03-29 的播出日</td><td>官方商品与话数资料</td><td>锁定本次 TV 正篇范围，不把后来的 OVA、特典或其他媒介混入结论</td></tr><tr class="odd"><td><a href="https://myanimelist.net/anime/11079/Kill_Me_Baby" target="_blank" rel="noopener noreferrer">MyAnimeList 条目 11079</a>及<a href="https://api.jikan.moe/v4/anime/11079/full" target="_blank" rel="noopener noreferrer">Jikan 结构化接口</a></td><td>TV、13 话、Winter 2012、四格漫画改编；类型为 Comedy，主题为 Gag Humor、School，本次字段未列 Girls Love 或 Romance</td><td>编辑型数据库与公开接口</td><td>记录 MAL 的喜剧／校园侧重；其简介把二人写成朋友可作公共接受史参考，但不是官方关系标签，字段沉默也不替代正文审计</td></tr><tr class="even"><td><a href="https://www.anime-planet.com/anime/kill-me-baby" target="_blank" rel="noopener noreferrer">Anime-Planet 原始精确条目</a>与<a href="https://r.jina.ai/https://www.anime-planet.com/anime/all?name=Kill%20Me%20Baby" target="_blank" rel="noopener noreferrer">精确标题搜索卡片恢复路径</a></td><td>原始条目直接请求遭 HTTP 403／Cloudflare 挑战；公开文本代理随后返回同站 <code>name=Kill Me Baby</code> 搜索结果。精确的 2012 TV／13 话卡片完整列出 <code>Comedy / Seinen / Slice of Life / Assassins / Gag / School Life / Slapstick / Based on a 4-Koma Manga / Based on a Manga</code>，没有精确 GL、Yuri 或 Romance</td><td>编辑维护的标签数据库；直接条目失败、精确搜索卡片恢复成功</td><td>采用完整 TV 卡片的精确标签，并与同页另列的 2013 OVA 卡片区分；保留原始条目 URL 和恢复路由，不写成直接站点访问成功，也不把搜索筛选器中的全站候选标签误算到作品卡片</td></tr><tr class="odd"><td><a href="https://anilist.co/anime/11079/Kill-Me-Baby" target="_blank" rel="noopener noreferrer">AniList 条目 11079</a>及公开 GraphQL 数据</td><td>TV、13 话、Comedy；社区标签含 Assassins 88、Cute Girls Doing Cute Things 80、Female Protagonist 79、Primarily Female Cast 79、School／Ninja 77、Slapstick 76，本次未返回 Yuri 或 Romance</td><td>编辑字段＋社区标签</td><td>说明该站的主要检索入口是杀手、可爱女孩、校园和打闹；“女性为主”只描述阵容，不能自动改写为女性恋爱</td></tr><tr class="even"><td><a href="https://bangumi.tv/subject/20799" target="_blank" rel="noopener noreferrer">Bangumi 条目 20799</a>、<a href="https://api.bgm.tv/v0/subjects/20799" target="_blank" rel="noopener noreferrer">条目接口</a>与<a href="https://api.bgm.tv/v0/episodes?subject_id=20799&amp;type=0&amp;limit=100&amp;offset=0" target="_blank" rel="noopener noreferrer">话数接口</a></td><td>TV、2012-01-05、正式 13 话；Rank 2182。标签快照含“搞笑”1285、“J.C.STAFF”900、“卖萌”752、“百合”498、“日常”256、“轻百合”27。五状态收藏为想看 2008、看过 7650、在看 601、搁置 711、抛弃 475，总数 11445；498÷11445＝0.04351245085190039，约 4.35%</td><td>社区标签与公开接口</td><td>证明中文社区存在百合／轻百合阅读入口，并保留精确分母。这个比值只是不同计数字段的快照化参照，不是支持率、官方认证或恋爱成立比例</td></tr><tr class="odd"><td><a href="https://jimaku.cc/entry/2100" target="_blank" rel="noopener noreferrer">Jimaku 条目 2100</a></td><td>精确匹配 AniList 11079 与日文标题；取得一套连续的第 1—13 话日文 SRT，文件带 TV 标记、说话人及音效说明</td><td>第三方字幕索引</td><td>用于全季原语核文、词项检索和时间定位；字幕不是官方脚本，故短句仍按说话人、前后语境及可核画面解释</td></tr></tbody></table></div><p>公开分类呈现清楚的分层差异：TBS 把作品定义为二人中心的杀手打闹日常；MAL、AniList 与 Anime-Planet 的精确 TV 卡片都把主要入口放在喜剧、校园／日常、杀手和打闹，当前完整字段均未列 GL、Yuri 或 Romance；Bangumi 社区则另形成了明显的百合阅读习惯。Anime-Planet 仍需保留传输层差异：原始条目直接访问是 403，标签结论来自同站精确标题搜索卡片的公开文本恢复，不是直接条目成功。</p><p>这些资料与本报告结论并不冲突。社区可以用“百合”指女女关系中心、双人日常和可供配对阅读的喜剧，本项目也允许按该宽口径归档；但无论社区计数多高，都不能补出正篇没有说过的告白、交往或身份。反过来，MAL、AniList 的字段沉默也不能抹掉全季确实由两名女性的关系承载。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>以下部分包含第 1—13 话的完整剧透。</p></aside>
 
       <details class="spoiler-panel">
         <summary>
@@ -142,7 +155,7 @@
     </div>
   </footer>
   <script>window.SITE_CONFIG = {basePath: "/yuri-classification-archive"};</script>
-  <script src="/yuri-classification-archive/assets/site.js?v=95491b68a3ae" defer></script>
-  
+  <script src="/yuri-classification-archive/assets/site.js?v=686fc3d330d3" defer></script>
+
 </body>
 </html>

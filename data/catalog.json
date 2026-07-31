@@ -1,6 +1,6 @@
 {
-  "schema_version": 1,
-  "generated_at": "2026-07-31T06:30:37+00:00",
+  "schema_version": 2,
+  "generated_at": "2026-07-31T07:16:27+00:00",
   "site_url": "https://l-m-sherlock.github.io/yuri-classification-archive",
   "item_count": 160,
   "query_semantics": {
@@ -9,7 +9,10 @@
     "explicit_desire": "至少一条关系出现明确欲望或明确交往",
     "accepts_unconfirmed": "至少一条关系具有潜在／明显但未确认方向、明确欲望或明确交往",
     "female_relationship_main": "女女关系处于作品叙事主线",
-    "official_yuri_gl": "官方公开资料明确使用百合或 GL 标签"
+    "official_literal_yuri_gl": "所核官方材料含“百合”或“GL”字面；资料不足时不命中",
+    "official_female_romance_wording": "所核官方材料把女女关系写作恋爱或恋爱方向；资料不足时不命中",
+    "official_source_scopes": "多选同组内任一官方来源层级命中；与其他条件采用并且",
+    "official_source_surfaces": "多选同组内任一官方材料位置命中；与其他条件采用并且"
   },
   "items": [
     {
@@ -40,10 +43,17 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "no_in_scope_evidence",
         "label": "范围内无依据"
@@ -71,7 +81,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": false,
         "female_relationship_main": false,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 14,
       "bangumi_yuri_tag_ratio": 0.01069653184781137,
@@ -106,10 +117,17 @@
         "code": "potential_or_strongly_coded",
         "label": "潜在／明显但未确认"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "inferred_relationship_only",
         "label": "只有关系推断"
@@ -135,7 +153,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 27,
       "bangumi_yuri_tag_ratio": 0.13715490609522876,
@@ -170,10 +189,17 @@
         "code": "potential_or_strongly_coded",
         "label": "潜在／明显但未确认"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "inferred_relationship_only",
         "label": "只有关系推断"
@@ -205,7 +231,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 34,
       "bangumi_yuri_tag_ratio": 0.029292627808809108,
@@ -240,10 +267,17 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "no_in_scope_evidence",
         "label": "范围内无依据"
@@ -270,7 +304,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": false,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 49,
       "bangumi_yuri_tag_ratio": 0.0010655974570148823,
@@ -305,10 +340,17 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "explicit_relationship_only",
         "label": "只有明确关系事实"
@@ -337,7 +379,8 @@
         "explicit_desire": true,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 60,
       "bangumi_yuri_tag_ratio": 0.0764276048714479,
@@ -372,10 +415,17 @@
         "code": "potential_or_strongly_coded",
         "label": "潜在／明显但未确认"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "inferred_relationship_only",
         "label": "只有关系推断"
@@ -405,7 +455,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 69,
       "bangumi_yuri_tag_ratio": 0.011552378046122325,
@@ -440,10 +491,17 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "explicit_relationship_only",
         "label": "只有明确关系事实"
@@ -472,7 +530,8 @@
         "explicit_desire": true,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 72,
       "bangumi_yuri_tag_ratio": 0.028885267188721496,
@@ -507,10 +566,17 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "explicit_relationship_only",
         "label": "只有明确关系事实"
@@ -539,7 +605,8 @@
         "explicit_desire": true,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 83,
       "bangumi_yuri_tag_ratio": 0.002748625687156422,
@@ -574,10 +641,17 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "no_in_scope_evidence",
         "label": "范围内无依据"
@@ -604,7 +678,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": false,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 92,
       "bangumi_yuri_tag_ratio": 0.004601482964976277,
@@ -639,10 +714,17 @@
         "code": "potential_or_strongly_coded",
         "label": "潜在／明显但未确认"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "inferred_relationship_only",
         "label": "只有关系推断"
@@ -670,7 +752,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 95,
       "bangumi_yuri_tag_ratio": 0.05394210513858316,
@@ -705,10 +788,17 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "no_in_scope_evidence",
         "label": "范围内无依据"
@@ -735,7 +825,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": false,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 103,
       "bangumi_yuri_tag_ratio": 0.00861754665075735,
@@ -770,10 +861,17 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "no_in_scope_evidence",
         "label": "范围内无依据"
@@ -800,7 +898,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": false,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 112,
       "bangumi_yuri_tag_ratio": 0.0394640234948605,
@@ -835,10 +934,17 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "no_in_scope_evidence",
         "label": "范围内无依据"
@@ -865,7 +971,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": false,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 118,
       "bangumi_yuri_tag_ratio": 0.0943608740269817,
@@ -900,10 +1007,27 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [
+        {
+          "code": "in_scope_edition",
+          "label": "当前版本"
+        }
+      ],
+      "official_source_surfaces": [
+        {
+          "code": "interview_or_commentary",
+          "label": "访谈／评论"
+        }
+      ],
+      "official_source_summary": "层级：当前版本；位置：访谈／评论",
       "identity_evidence_basis": {
         "code": "no_in_scope_evidence",
         "label": "范围内无依据"
@@ -930,7 +1054,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": false,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 148,
       "bangumi_yuri_tag_ratio": 0.033229767717117914,
@@ -965,10 +1090,17 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "no_in_scope_evidence",
         "label": "范围内无依据"
@@ -997,7 +1129,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": false,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 162,
       "bangumi_yuri_tag_ratio": 0.0898659626320065,
@@ -1032,10 +1165,17 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "no_in_scope_evidence",
         "label": "范围内无依据"
@@ -1064,7 +1204,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": false,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 186,
       "bangumi_yuri_tag_ratio": 0.00849762066621346,
@@ -1099,10 +1240,17 @@
         "code": "potential_or_strongly_coded",
         "label": "潜在／明显但未确认"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "inferred_relationship_only",
         "label": "只有关系推断"
@@ -1136,7 +1284,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 187,
       "bangumi_yuri_tag_ratio": 0.019093553439574373,
@@ -1171,10 +1320,17 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "explicit_relationship_only",
         "label": "只有明确关系事实"
@@ -1202,7 +1358,8 @@
         "explicit_desire": true,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 190,
       "bangumi_yuri_tag_ratio": 0.1500712927756654,
@@ -1237,10 +1394,17 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "no_in_scope_evidence",
         "label": "范围内无依据"
@@ -1266,7 +1430,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": false,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 192,
       "bangumi_yuri_tag_ratio": 0.018883021283405344,
@@ -1301,10 +1466,17 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "explicit_relationship_only",
         "label": "只有明确关系事实"
@@ -1332,7 +1504,8 @@
         "explicit_desire": true,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 201,
       "bangumi_yuri_tag_ratio": 0.019167717528373266,
@@ -1367,10 +1540,17 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "explicit_relationship_only",
         "label": "只有明确关系事实"
@@ -1395,7 +1575,8 @@
         "explicit_desire": true,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 229,
       "bangumi_yuri_tag_ratio": 0.035738683349512815,
@@ -1430,10 +1611,17 @@
         "code": "potential_or_strongly_coded",
         "label": "潜在／明显但未确认"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "inferred_relationship_only",
         "label": "只有关系推断"
@@ -1460,7 +1648,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 272,
       "bangumi_yuri_tag_ratio": 0.10584097207418461,
@@ -1495,10 +1684,17 @@
         "code": "potential_or_strongly_coded",
         "label": "潜在／明显但未确认"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "inferred_relationship_only",
         "label": "只有关系推断"
@@ -1525,7 +1721,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 294,
       "bangumi_yuri_tag_ratio": 0.13173542573407712,
@@ -1560,10 +1757,17 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "no_in_scope_evidence",
         "label": "范围内无依据"
@@ -1591,7 +1795,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": false,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 328,
       "bangumi_yuri_tag_ratio": 0.02921257454765996,
@@ -1626,10 +1831,35 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "yes",
+        "label": "是"
       },
+      "official_female_romance_wording": {
+        "code": "yes",
+        "label": "是"
+      },
+      "official_source_scopes": [
+        {
+          "code": "source_work",
+          "label": "原作"
+        },
+        {
+          "code": "in_scope_edition",
+          "label": "当前版本"
+        }
+      ],
+      "official_source_surfaces": [
+        {
+          "code": "publication_venue",
+          "label": "出版载体"
+        },
+        {
+          "code": "story_or_profile",
+          "label": "剧情／角色页"
+        }
+      ],
+      "official_source_summary": "层级：原作、当前版本；位置：出版载体、剧情／角色页",
       "identity_evidence_basis": {
         "code": "explicit_relationship_only",
         "label": "只有明确关系事实"
@@ -1654,7 +1884,8 @@
         "explicit_desire": true,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": true,
+        "official_female_romance_wording": true
       },
       "bangumi_rank": 386,
       "bangumi_yuri_tag_ratio": 0.16907775768535263,
@@ -1689,10 +1920,17 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "no_in_scope_evidence",
         "label": "范围内无依据"
@@ -1724,7 +1962,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": false,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 404,
       "bangumi_yuri_tag_ratio": 0.0031013204591233173,
@@ -1759,10 +1998,17 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "no_in_scope_evidence",
         "label": "范围内无依据"
@@ -1795,7 +2041,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": false,
         "female_relationship_main": false,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 414,
       "bangumi_yuri_tag_ratio": 0.00919671620076899,
@@ -1830,10 +2077,17 @@
         "code": "potential_or_strongly_coded",
         "label": "潜在／明显但未确认"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "inferred_relationship_only",
         "label": "只有关系推断"
@@ -1862,7 +2116,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 425,
       "bangumi_yuri_tag_ratio": 0.028467908902691512,
@@ -1897,10 +2152,17 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "no_in_scope_evidence",
         "label": "范围内无依据"
@@ -1925,7 +2187,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": false,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 452,
       "bangumi_yuri_tag_ratio": 0.044462999686880285,
@@ -1960,10 +2223,17 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "explicit_relationship_only",
         "label": "只有明确关系事实"
@@ -1991,7 +2261,8 @@
         "explicit_desire": true,
         "accepts_unconfirmed": true,
         "female_relationship_main": false,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 503,
       "bangumi_yuri_tag_ratio": 0.05577109602327837,
@@ -2026,10 +2297,17 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "no_in_scope_evidence",
         "label": "范围内无依据"
@@ -2058,7 +2336,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": false,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 513,
       "bangumi_yuri_tag_ratio": 0.054445779513367376,
@@ -2093,10 +2372,17 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "no_in_scope_evidence",
         "label": "范围内无依据"
@@ -2123,7 +2409,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": false,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 580,
       "bangumi_yuri_tag_ratio": 0.026559215136650317,
@@ -2158,10 +2445,27 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "yes",
+        "label": "是"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [
+        {
+          "code": "source_work",
+          "label": "原作"
+        }
+      ],
+      "official_source_surfaces": [
+        {
+          "code": "publication_venue",
+          "label": "出版载体"
+        }
+      ],
+      "official_source_summary": "层级：原作；位置：出版载体",
       "identity_evidence_basis": {
         "code": "explicit_relationship_only",
         "label": "只有明确关系事实"
@@ -2187,7 +2491,8 @@
         "explicit_desire": true,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": true,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 604,
       "bangumi_yuri_tag_ratio": 0.1311589174184594,
@@ -2222,10 +2527,17 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "no_in_scope_evidence",
         "label": "范围内无依据"
@@ -2253,7 +2565,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": false,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 606,
       "bangumi_yuri_tag_ratio": 0.054052817062565796,
@@ -2288,10 +2601,17 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "explicit_relationship_only",
         "label": "只有明确关系事实"
@@ -2320,7 +2640,8 @@
         "explicit_desire": true,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 633,
       "bangumi_yuri_tag_ratio": 0.07519411524315488,
@@ -2355,10 +2676,17 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "no_in_scope_evidence",
         "label": "范围内无依据"
@@ -2384,7 +2712,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": false,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 640,
       "bangumi_yuri_tag_ratio": 0.0879023307436182,
@@ -2419,10 +2748,17 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "explicit_relationship_only",
         "label": "只有明确关系事实"
@@ -2451,7 +2787,8 @@
         "explicit_desire": true,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 660,
       "bangumi_yuri_tag_ratio": 0.054482890460714965,
@@ -2486,10 +2823,17 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "no_in_scope_evidence",
         "label": "范围内无依据"
@@ -2519,7 +2863,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": false,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 664,
       "bangumi_yuri_tag_ratio": 0.025982859474901376,
@@ -2554,10 +2899,17 @@
         "code": "potential_or_strongly_coded",
         "label": "潜在／明显但未确认"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "inferred_relationship_only",
         "label": "只有关系推断"
@@ -2587,7 +2939,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 681,
       "bangumi_yuri_tag_ratio": 0.02421190591156791,
@@ -2622,10 +2975,17 @@
         "code": "potential_or_strongly_coded",
         "label": "潜在／明显但未确认"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "inferred_relationship_only",
         "label": "只有关系推断"
@@ -2654,7 +3014,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 686,
       "bangumi_yuri_tag_ratio": 0.014750407577051471,
@@ -2689,10 +3050,17 @@
         "code": "potential_or_strongly_coded",
         "label": "潜在／明显但未确认"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "inferred_relationship_only",
         "label": "只有关系推断"
@@ -2718,7 +3086,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": true,
         "female_relationship_main": false,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 723,
       "bangumi_yuri_tag_ratio": 0.08146554884755457,
@@ -2753,10 +3122,17 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "explicit_relationship_only",
         "label": "只有明确关系事实"
@@ -2787,7 +3163,8 @@
         "explicit_desire": true,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 760,
       "bangumi_yuri_tag_ratio": 0.023099094710347906,
@@ -2822,10 +3199,27 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "yes",
+        "label": "是"
       },
+      "official_female_romance_wording": {
+        "code": "yes",
+        "label": "是"
+      },
+      "official_source_scopes": [
+        {
+          "code": "in_scope_edition",
+          "label": "当前版本"
+        }
+      ],
+      "official_source_surfaces": [
+        {
+          "code": "interview_or_commentary",
+          "label": "访谈／评论"
+        }
+      ],
+      "official_source_summary": "层级：当前版本；位置：访谈／评论",
       "identity_evidence_basis": {
         "code": "explicit_relationship_only",
         "label": "只有明确关系事实"
@@ -2854,7 +3248,8 @@
         "explicit_desire": true,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": true,
+        "official_female_romance_wording": true
       },
       "bangumi_rank": 786,
       "bangumi_yuri_tag_ratio": 0.13691322901849218,
@@ -2889,10 +3284,27 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "yes",
+        "label": "是"
+      },
+      "official_source_scopes": [
+        {
+          "code": "in_scope_edition",
+          "label": "当前版本"
+        }
+      ],
+      "official_source_surfaces": [
+        {
+          "code": "story_or_profile",
+          "label": "剧情／角色页"
+        }
+      ],
+      "official_source_summary": "层级：当前版本；位置：剧情／角色页",
       "identity_evidence_basis": {
         "code": "explicit_relationship_only",
         "label": "只有明确关系事实"
@@ -2923,7 +3335,8 @@
         "explicit_desire": true,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": true
       },
       "bangumi_rank": 795,
       "bangumi_yuri_tag_ratio": 0.12045270816491511,
@@ -2958,10 +3371,17 @@
         "code": "potential_or_strongly_coded",
         "label": "潜在／明显但未确认"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "inferred_relationship_only",
         "label": "只有关系推断"
@@ -2989,7 +3409,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 798,
       "bangumi_yuri_tag_ratio": 0.0902632678646051,
@@ -3024,10 +3445,17 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "no_in_scope_evidence",
         "label": "范围内无依据"
@@ -3054,7 +3482,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": false,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 821,
       "bangumi_yuri_tag_ratio": 0.07518007202881152,
@@ -3089,10 +3518,17 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "explicit_relationship_only",
         "label": "只有明确关系事实"
@@ -3123,7 +3559,8 @@
         "explicit_desire": true,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 836,
       "bangumi_yuri_tag_ratio": 0.06075992214606076,
@@ -3158,10 +3595,17 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "no_in_scope_evidence",
         "label": "范围内无依据"
@@ -3189,7 +3633,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": false,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 841,
       "bangumi_yuri_tag_ratio": 0.04781704781704782,
@@ -3224,10 +3669,27 @@
         "code": "potential_or_strongly_coded",
         "label": "潜在／明显但未确认"
       },
-      "official_label": {
-        "code": "yuri",
-        "label": "百合"
+      "official_literal_yuri_gl": {
+        "code": "yes",
+        "label": "是"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [
+        {
+          "code": "in_scope_edition",
+          "label": "当前版本"
+        }
+      ],
+      "official_source_surfaces": [
+        {
+          "code": "html_metadata",
+          "label": "HTML 元数据"
+        }
+      ],
+      "official_source_summary": "层级：当前版本；位置：HTML 元数据",
       "identity_evidence_basis": {
         "code": "inferred_relationship_only",
         "label": "只有关系推断"
@@ -3253,7 +3715,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": true
+        "official_literal_yuri_gl": true,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 866,
       "bangumi_yuri_tag_ratio": 0.1304260852170434,
@@ -3288,10 +3751,17 @@
         "code": "potential_or_strongly_coded",
         "label": "潜在／明显但未确认"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "inferred_relationship_only",
         "label": "只有关系推断"
@@ -3317,7 +3787,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 880,
       "bangumi_yuri_tag_ratio": 0.10957701516360734,
@@ -3352,10 +3823,17 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "no_in_scope_evidence",
         "label": "范围内无依据"
@@ -3385,7 +3863,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": false,
         "female_relationship_main": false,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 927,
       "bangumi_yuri_tag_ratio": 0.001773481239350419,
@@ -3420,10 +3899,17 @@
         "code": "potential_or_strongly_coded",
         "label": "潜在／明显但未确认"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "inferred_relationship_only",
         "label": "只有关系推断"
@@ -3450,7 +3936,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 942,
       "bangumi_yuri_tag_ratio": 0.1108712715855573,
@@ -3485,10 +3972,17 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "no_in_scope_evidence",
         "label": "范围内无依据"
@@ -3516,7 +4010,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": false,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 946,
       "bangumi_yuri_tag_ratio": 0.013522012578616353,
@@ -3551,10 +4046,17 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "no_in_scope_evidence",
         "label": "范围内无依据"
@@ -3580,7 +4082,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": false,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 960,
       "bangumi_yuri_tag_ratio": 0.02518792034814717,
@@ -3615,10 +4118,17 @@
         "code": "potential_or_strongly_coded",
         "label": "潜在／明显但未确认"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "inferred_relationship_only",
         "label": "只有关系推断"
@@ -3646,7 +4156,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 973,
       "bangumi_yuri_tag_ratio": 0.09945571499257794,
@@ -3681,10 +4192,17 @@
         "code": "potential_or_strongly_coded",
         "label": "潜在／明显但未确认"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "inferred_relationship_only",
         "label": "只有关系推断"
@@ -3714,7 +4232,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 990,
       "bangumi_yuri_tag_ratio": 0.05753040224508887,
@@ -3749,10 +4268,17 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "explicit_relationship_only",
         "label": "只有明确关系事实"
@@ -3778,7 +4304,8 @@
         "explicit_desire": true,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 998,
       "bangumi_yuri_tag_ratio": 0.13032074340527577,
@@ -3813,10 +4340,27 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "official_label": {
-        "code": "yuri",
-        "label": "百合"
+      "official_literal_yuri_gl": {
+        "code": "yes",
+        "label": "是"
       },
+      "official_female_romance_wording": {
+        "code": "yes",
+        "label": "是"
+      },
+      "official_source_scopes": [
+        {
+          "code": "in_scope_edition",
+          "label": "当前版本"
+        }
+      ],
+      "official_source_surfaces": [
+        {
+          "code": "visible_work_marketing",
+          "label": "可见作品宣传"
+        }
+      ],
+      "official_source_summary": "层级：当前版本；位置：可见作品宣传",
       "identity_evidence_basis": {
         "code": "explicit_relationship_only",
         "label": "只有明确关系事实"
@@ -3843,7 +4387,8 @@
         "explicit_desire": true,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": true
+        "official_literal_yuri_gl": true,
+        "official_female_romance_wording": true
       },
       "bangumi_rank": 1036,
       "bangumi_yuri_tag_ratio": 0.13822515274333072,
@@ -3878,10 +4423,17 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "explicit_relationship_only",
         "label": "只有明确关系事实"
@@ -3909,7 +4461,8 @@
         "explicit_desire": true,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 1039,
       "bangumi_yuri_tag_ratio": 0.19646533973919011,
@@ -3944,10 +4497,17 @@
         "code": "potential_or_strongly_coded",
         "label": "潜在／明显但未确认"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "inferred_relationship_only",
         "label": "只有关系推断"
@@ -3976,7 +4536,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 1046,
       "bangumi_yuri_tag_ratio": 0.11951628563862654,
@@ -4011,10 +4572,17 @@
         "code": "potential_or_strongly_coded",
         "label": "潜在／明显但未确认"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "inferred_relationship_only",
         "label": "只有关系推断"
@@ -4043,7 +4611,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 1048,
       "bangumi_yuri_tag_ratio": 0.11538461538461539,
@@ -4078,10 +4647,27 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "yes",
+        "label": "是"
+      },
+      "official_source_scopes": [
+        {
+          "code": "in_scope_edition",
+          "label": "当前版本"
+        }
+      ],
+      "official_source_surfaces": [
+        {
+          "code": "story_or_profile",
+          "label": "剧情／角色页"
+        }
+      ],
+      "official_source_summary": "层级：当前版本；位置：剧情／角色页",
       "identity_evidence_basis": {
         "code": "explicit_relationship_only",
         "label": "只有明确关系事实"
@@ -4109,7 +4695,8 @@
         "explicit_desire": true,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": true
       },
       "bangumi_rank": 1071,
       "bangumi_yuri_tag_ratio": 0.09089146869413513,
@@ -4144,10 +4731,17 @@
         "code": "potential_or_strongly_coded",
         "label": "潜在／明显但未确认"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "inferred_relationship_only",
         "label": "只有关系推断"
@@ -4174,7 +4768,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 1155,
       "bangumi_yuri_tag_ratio": 0.11611935967500121,
@@ -4209,10 +4804,17 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "no_in_scope_evidence",
         "label": "范围内无依据"
@@ -4238,7 +4840,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": false,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 1196,
       "bangumi_yuri_tag_ratio": 0.08233022938905292,
@@ -4273,10 +4876,17 @@
         "code": "potential_or_strongly_coded",
         "label": "潜在／明显但未确认"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "inferred_relationship_only",
         "label": "只有关系推断"
@@ -4308,7 +4918,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 1218,
       "bangumi_yuri_tag_ratio": 0.10962370418741327,
@@ -4343,10 +4954,17 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "no_in_scope_evidence",
         "label": "范围内无依据"
@@ -4376,7 +4994,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": false,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 1221,
       "bangumi_yuri_tag_ratio": 0.030667057329817365,
@@ -4411,10 +5030,17 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "explicit_relationship_only",
         "label": "只有明确关系事实"
@@ -4442,7 +5068,8 @@
         "explicit_desire": true,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 1281,
       "bangumi_yuri_tag_ratio": 0.11746812234352863,
@@ -4477,10 +5104,17 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "no_in_scope_evidence",
         "label": "范围内无依据"
@@ -4508,7 +5142,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": false,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 1318,
       "bangumi_yuri_tag_ratio": 0.07194426852438252,
@@ -4543,10 +5178,17 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "no_in_scope_evidence",
         "label": "范围内无依据"
@@ -4573,7 +5215,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": false,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 1337,
       "bangumi_yuri_tag_ratio": 0.07082876962395035,
@@ -4608,10 +5251,27 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "yes",
+        "label": "是"
+      },
+      "official_source_scopes": [
+        {
+          "code": "in_scope_edition",
+          "label": "当前版本"
+        }
+      ],
+      "official_source_surfaces": [
+        {
+          "code": "interview_or_commentary",
+          "label": "访谈／评论"
+        }
+      ],
+      "official_source_summary": "层级：当前版本；位置：访谈／评论",
       "identity_evidence_basis": {
         "code": "explicit_relationship_only",
         "label": "只有明确关系事实"
@@ -4637,7 +5297,8 @@
         "explicit_desire": true,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": true
       },
       "bangumi_rank": 1343,
       "bangumi_yuri_tag_ratio": 0.1650234362372717,
@@ -4672,10 +5333,27 @@
         "code": "explicit_relationship",
         "label": "明确交往"
       },
-      "official_label": {
-        "code": "other",
-        "label": "其他相关表述"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "yes",
+        "label": "是"
+      },
+      "official_source_scopes": [
+        {
+          "code": "in_scope_edition",
+          "label": "当前版本"
+        }
+      ],
+      "official_source_surfaces": [
+        {
+          "code": "visible_work_marketing",
+          "label": "可见作品宣传"
+        }
+      ],
+      "official_source_summary": "层级：当前版本；位置：可见作品宣传",
       "identity_evidence_basis": {
         "code": "explicit_relationship_only",
         "label": "只有明确关系事实"
@@ -4705,7 +5383,8 @@
         "explicit_desire": true,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": true
       },
       "bangumi_rank": 1349,
       "bangumi_yuri_tag_ratio": 0.15971107544141253,
@@ -4740,10 +5419,17 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "no_in_scope_evidence",
         "label": "范围内无依据"
@@ -4772,7 +5458,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": false,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 1366,
       "bangumi_yuri_tag_ratio": 0.031496062992125984,
@@ -4807,10 +5494,35 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "yes",
+        "label": "是"
       },
+      "official_female_romance_wording": {
+        "code": "yes",
+        "label": "是"
+      },
+      "official_source_scopes": [
+        {
+          "code": "source_work",
+          "label": "原作"
+        },
+        {
+          "code": "in_scope_edition",
+          "label": "当前版本"
+        }
+      ],
+      "official_source_surfaces": [
+        {
+          "code": "publication_venue",
+          "label": "出版载体"
+        },
+        {
+          "code": "visible_work_marketing",
+          "label": "可见作品宣传"
+        }
+      ],
+      "official_source_summary": "层级：原作、当前版本；位置：出版载体、可见作品宣传",
       "identity_evidence_basis": {
         "code": "explicit_relationship_only",
         "label": "只有明确关系事实"
@@ -4838,7 +5550,8 @@
         "explicit_desire": true,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": true,
+        "official_female_romance_wording": true
       },
       "bangumi_rank": 1388,
       "bangumi_yuri_tag_ratio": 0.11358069822701516,
@@ -4873,10 +5586,17 @@
         "code": "potential_or_strongly_coded",
         "label": "潜在／明显但未确认"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "inferred_relationship_only",
         "label": "只有关系推断"
@@ -4906,7 +5626,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 1394,
       "bangumi_yuri_tag_ratio": 0.08619777895293496,
@@ -4941,10 +5662,17 @@
         "code": "potential_or_strongly_coded",
         "label": "潜在／明显但未确认"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "inferred_relationship_only",
         "label": "只有关系推断"
@@ -4971,7 +5699,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 1444,
       "bangumi_yuri_tag_ratio": 0.1291390728476821,
@@ -5006,10 +5735,17 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "explicit_relationship_only",
         "label": "只有明确关系事实"
@@ -5035,7 +5771,8 @@
         "explicit_desire": true,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 1471,
       "bangumi_yuri_tag_ratio": 0.14495331258337038,
@@ -5070,10 +5807,17 @@
         "code": "potential_or_strongly_coded",
         "label": "潜在／明显但未确认"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "inferred_relationship_only",
         "label": "只有关系推断"
@@ -5102,7 +5846,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 1475,
       "bangumi_yuri_tag_ratio": 0.15618178209962294,
@@ -5137,10 +5882,17 @@
         "code": "potential_or_strongly_coded",
         "label": "潜在／明显但未确认"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "inferred_relationship_only",
         "label": "只有关系推断"
@@ -5163,7 +5915,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 1498,
       "bangumi_yuri_tag_ratio": 0.037371910789632305,
@@ -5198,10 +5951,17 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "explicit_relationship_only",
         "label": "只有明确关系事实"
@@ -5234,7 +5994,8 @@
         "explicit_desire": true,
         "accepts_unconfirmed": true,
         "female_relationship_main": false,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 1499,
       "bangumi_yuri_tag_ratio": 0.013803049031726411,
@@ -5269,10 +6030,17 @@
         "code": "explicit_relationship",
         "label": "明确交往"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "explicit_relationship_only",
         "label": "只有明确关系事实"
@@ -5300,7 +6068,8 @@
         "explicit_desire": true,
         "accepts_unconfirmed": true,
         "female_relationship_main": false,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 1504,
       "bangumi_yuri_tag_ratio": 0.069091796875,
@@ -5335,10 +6104,17 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "explicit_relationship_only",
         "label": "只有明确关系事实"
@@ -5370,7 +6146,8 @@
         "explicit_desire": true,
         "accepts_unconfirmed": true,
         "female_relationship_main": false,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 1531,
       "bangumi_yuri_tag_ratio": 0.05648008068582955,
@@ -5405,10 +6182,27 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "yes",
+        "label": "是"
+      },
+      "official_source_scopes": [
+        {
+          "code": "in_scope_edition",
+          "label": "当前版本"
+        }
+      ],
+      "official_source_surfaces": [
+        {
+          "code": "story_or_profile",
+          "label": "剧情／角色页"
+        }
+      ],
+      "official_source_summary": "层级：当前版本；位置：剧情／角色页",
       "identity_evidence_basis": {
         "code": "explicit_relationship_only",
         "label": "只有明确关系事实"
@@ -5440,7 +6234,8 @@
         "explicit_desire": true,
         "accepts_unconfirmed": true,
         "female_relationship_main": false,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": true
       },
       "bangumi_rank": 1563,
       "bangumi_yuri_tag_ratio": 0.11398040961709706,
@@ -5475,10 +6270,17 @@
         "code": "potential_or_strongly_coded",
         "label": "潜在／明显但未确认"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "inferred_relationship_only",
         "label": "只有关系推断"
@@ -5503,7 +6305,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": true,
         "female_relationship_main": false,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 1640,
       "bangumi_yuri_tag_ratio": 0.05822583495317194,
@@ -5538,10 +6341,27 @@
         "code": "explicit_relationship",
         "label": "明确交往"
       },
-      "official_label": {
-        "code": "other",
-        "label": "其他相关表述"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "yes",
+        "label": "是"
+      },
+      "official_source_scopes": [
+        {
+          "code": "in_scope_edition",
+          "label": "当前版本"
+        }
+      ],
+      "official_source_surfaces": [
+        {
+          "code": "story_or_profile",
+          "label": "剧情／角色页"
+        }
+      ],
+      "official_source_summary": "层级：当前版本；位置：剧情／角色页",
       "identity_evidence_basis": {
         "code": "explicit_relationship_only",
         "label": "只有明确关系事实"
@@ -5572,7 +6392,8 @@
         "explicit_desire": true,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": true
       },
       "bangumi_rank": 1654,
       "bangumi_yuri_tag_ratio": 0.13771979580260918,
@@ -5607,10 +6428,17 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "no_in_scope_evidence",
         "label": "范围内无依据"
@@ -5639,7 +6467,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": false,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 1673,
       "bangumi_yuri_tag_ratio": 0.07416563658838071,
@@ -5674,10 +6503,27 @@
         "code": "potential_or_strongly_coded",
         "label": "潜在／明显但未确认"
       },
-      "official_label": {
-        "code": "yuri",
-        "label": "百合"
+      "official_literal_yuri_gl": {
+        "code": "yes",
+        "label": "是"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [
+        {
+          "code": "in_scope_edition",
+          "label": "当前版本"
+        }
+      ],
+      "official_source_surfaces": [
+        {
+          "code": "html_metadata",
+          "label": "HTML 元数据"
+        }
+      ],
+      "official_source_summary": "层级：当前版本；位置：HTML 元数据",
       "identity_evidence_basis": {
         "code": "inferred_relationship_only",
         "label": "只有关系推断"
@@ -5704,7 +6550,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": true
+        "official_literal_yuri_gl": true,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 1725,
       "bangumi_yuri_tag_ratio": 0.12520231213872832,
@@ -5739,10 +6586,27 @@
         "code": "explicit_relationship",
         "label": "明确交往"
       },
-      "official_label": {
-        "code": "other",
-        "label": "其他相关表述"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "yes",
+        "label": "是"
+      },
+      "official_source_scopes": [
+        {
+          "code": "in_scope_edition",
+          "label": "当前版本"
+        }
+      ],
+      "official_source_surfaces": [
+        {
+          "code": "visible_work_marketing",
+          "label": "可见作品宣传"
+        }
+      ],
+      "official_source_summary": "层级：当前版本；位置：可见作品宣传",
       "identity_evidence_basis": {
         "code": "explicit_relationship_only",
         "label": "只有明确关系事实"
@@ -5772,7 +6636,8 @@
         "explicit_desire": true,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": true
       },
       "bangumi_rank": 1747,
       "bangumi_yuri_tag_ratio": 0.09908617173929461,
@@ -5807,10 +6672,17 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "no_in_scope_evidence",
         "label": "范围内无依据"
@@ -5836,7 +6708,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": false,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 1770,
       "bangumi_yuri_tag_ratio": 0.0698478561549101,
@@ -5871,10 +6744,17 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "explicit_relationship_only",
         "label": "只有明确关系事实"
@@ -5904,7 +6784,8 @@
         "explicit_desire": true,
         "accepts_unconfirmed": true,
         "female_relationship_main": false,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 1791,
       "bangumi_yuri_tag_ratio": 0.08726315789473685,
@@ -5939,10 +6820,27 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "official_label": {
-        "code": "other",
-        "label": "其他相关表述"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "yes",
+        "label": "是"
+      },
+      "official_source_scopes": [
+        {
+          "code": "in_scope_edition",
+          "label": "当前版本"
+        }
+      ],
+      "official_source_surfaces": [
+        {
+          "code": "visible_work_marketing",
+          "label": "可见作品宣传"
+        }
+      ],
+      "official_source_summary": "层级：当前版本；位置：可见作品宣传",
       "identity_evidence_basis": {
         "code": "explicit_relationship_only",
         "label": "只有明确关系事实"
@@ -5970,7 +6868,8 @@
         "explicit_desire": true,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": true
       },
       "bangumi_rank": 1806,
       "bangumi_yuri_tag_ratio": 0.12469437652811736,
@@ -6005,10 +6904,17 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "no_in_scope_evidence",
         "label": "范围内无依据"
@@ -6039,7 +6945,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": false,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 1819,
       "bangumi_yuri_tag_ratio": 0.033522933559239985,
@@ -6074,10 +6981,17 @@
         "code": "potential_or_strongly_coded",
         "label": "潜在／明显但未确认"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "inferred_relationship_only",
         "label": "只有关系推断"
@@ -6104,7 +7018,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 1820,
       "bangumi_yuri_tag_ratio": 0.05884076370916549,
@@ -6139,10 +7054,17 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "no_in_scope_evidence",
         "label": "范围内无依据"
@@ -6169,7 +7091,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": false,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 1824,
       "bangumi_yuri_tag_ratio": 0.11291770573566084,
@@ -6204,10 +7127,17 @@
         "code": "potential_or_strongly_coded",
         "label": "潜在／明显但未确认"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "inferred_relationship_only",
         "label": "只有关系推断"
@@ -6236,7 +7166,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 1836,
       "bangumi_yuri_tag_ratio": 0.11160714285714286,
@@ -6271,10 +7202,17 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "explicit_relationship_only",
         "label": "只有明确关系事实"
@@ -6303,7 +7241,8 @@
         "explicit_desire": true,
         "accepts_unconfirmed": true,
         "female_relationship_main": false,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 1848,
       "bangumi_yuri_tag_ratio": 0.053245116572148705,
@@ -6338,10 +7277,35 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "yes",
+        "label": "是"
       },
+      "official_female_romance_wording": {
+        "code": "yes",
+        "label": "是"
+      },
+      "official_source_scopes": [
+        {
+          "code": "source_work",
+          "label": "原作"
+        },
+        {
+          "code": "in_scope_edition",
+          "label": "当前版本"
+        }
+      ],
+      "official_source_surfaces": [
+        {
+          "code": "publication_venue",
+          "label": "出版载体"
+        },
+        {
+          "code": "story_or_profile",
+          "label": "剧情／角色页"
+        }
+      ],
+      "official_source_summary": "层级：原作、当前版本；位置：出版载体、剧情／角色页",
       "identity_evidence_basis": {
         "code": "explicit_relationship_only",
         "label": "只有明确关系事实"
@@ -6368,7 +7332,8 @@
         "explicit_desire": true,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": true,
+        "official_female_romance_wording": true
       },
       "bangumi_rank": 1851,
       "bangumi_yuri_tag_ratio": 0.123475196530225,
@@ -6403,10 +7368,17 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "no_in_scope_evidence",
         "label": "范围内无依据"
@@ -6436,7 +7408,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": false,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 1866,
       "bangumi_yuri_tag_ratio": 0.0480708412397217,
@@ -6471,10 +7444,27 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "official_label": {
-        "code": "other",
-        "label": "其他相关表述"
+      "official_literal_yuri_gl": {
+        "code": "yes",
+        "label": "是"
       },
+      "official_female_romance_wording": {
+        "code": "yes",
+        "label": "是"
+      },
+      "official_source_scopes": [
+        {
+          "code": "in_scope_edition",
+          "label": "当前版本"
+        }
+      ],
+      "official_source_surfaces": [
+        {
+          "code": "story_or_profile",
+          "label": "剧情／角色页"
+        }
+      ],
+      "official_source_summary": "层级：当前版本；位置：剧情／角色页",
       "identity_evidence_basis": {
         "code": "explicit_relationship_only",
         "label": "只有明确关系事实"
@@ -6502,7 +7492,8 @@
         "explicit_desire": true,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": true,
+        "official_female_romance_wording": true
       },
       "bangumi_rank": 1867,
       "bangumi_yuri_tag_ratio": 0.09290416971470374,
@@ -6537,10 +7528,27 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [
+        {
+          "code": "in_scope_edition",
+          "label": "当前版本"
+        }
+      ],
+      "official_source_surfaces": [
+        {
+          "code": "story_or_profile",
+          "label": "剧情／角色页"
+        }
+      ],
+      "official_source_summary": "层级：当前版本；位置：剧情／角色页",
       "identity_evidence_basis": {
         "code": "no_in_scope_evidence",
         "label": "范围内无依据"
@@ -6566,7 +7574,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": false,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 1873,
       "bangumi_yuri_tag_ratio": 0.04425182481751825,
@@ -6601,10 +7610,27 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "official_label": {
-        "code": "other",
-        "label": "其他相关表述"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "yes",
+        "label": "是"
+      },
+      "official_source_scopes": [
+        {
+          "code": "in_scope_edition",
+          "label": "当前版本"
+        }
+      ],
+      "official_source_surfaces": [
+        {
+          "code": "story_or_profile",
+          "label": "剧情／角色页"
+        }
+      ],
+      "official_source_summary": "层级：当前版本；位置：剧情／角色页",
       "identity_evidence_basis": {
         "code": "explicit_relationship_only",
         "label": "只有明确关系事实"
@@ -6632,7 +7658,8 @@
         "explicit_desire": true,
         "accepts_unconfirmed": true,
         "female_relationship_main": false,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": true
       },
       "bangumi_rank": 1927,
       "bangumi_yuri_tag_ratio": 0.018873011593421408,
@@ -6667,10 +7694,27 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "official_label": {
-        "code": "other",
-        "label": "其他相关表述"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "yes",
+        "label": "是"
+      },
+      "official_source_scopes": [
+        {
+          "code": "in_scope_edition",
+          "label": "当前版本"
+        }
+      ],
+      "official_source_surfaces": [
+        {
+          "code": "story_or_profile",
+          "label": "剧情／角色页"
+        }
+      ],
+      "official_source_summary": "层级：当前版本；位置：剧情／角色页",
       "identity_evidence_basis": {
         "code": "explicit_relationship_only",
         "label": "只有明确关系事实"
@@ -6697,7 +7741,8 @@
         "explicit_desire": true,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": true
       },
       "bangumi_rank": 1930,
       "bangumi_yuri_tag_ratio": 0.10130594649423101,
@@ -6732,10 +7777,17 @@
         "code": "explicit_relationship",
         "label": "明确交往"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "explicit_relationship_only",
         "label": "只有明确关系事实"
@@ -6763,7 +7815,8 @@
         "explicit_desire": true,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 1950,
       "bangumi_yuri_tag_ratio": 0.14677029524667076,
@@ -6798,10 +7851,17 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "no_in_scope_evidence",
         "label": "范围内无依据"
@@ -6830,7 +7890,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": false,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 1965,
       "bangumi_yuri_tag_ratio": 0.08821855435401252,
@@ -6865,10 +7926,27 @@
         "code": "explicit_relationship",
         "label": "明确交往"
       },
-      "official_label": {
-        "code": "other",
-        "label": "其他相关表述"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "yes",
+        "label": "是"
+      },
+      "official_source_scopes": [
+        {
+          "code": "in_scope_edition",
+          "label": "当前版本"
+        }
+      ],
+      "official_source_surfaces": [
+        {
+          "code": "story_or_profile",
+          "label": "剧情／角色页"
+        }
+      ],
+      "official_source_summary": "层级：当前版本；位置：剧情／角色页",
       "identity_evidence_basis": {
         "code": "explicit_relationship_only",
         "label": "只有明确关系事实"
@@ -6896,7 +7974,8 @@
         "explicit_desire": true,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": true
       },
       "bangumi_rank": 1972,
       "bangumi_yuri_tag_ratio": 0.17659804983748645,
@@ -6931,10 +8010,17 @@
         "code": "potential_or_strongly_coded",
         "label": "潜在／明显但未确认"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "inferred_relationship_only",
         "label": "只有关系推断"
@@ -6961,7 +8047,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 2000,
       "bangumi_yuri_tag_ratio": 0.020561685055165497,
@@ -6996,10 +8083,17 @@
         "code": "potential_or_strongly_coded",
         "label": "潜在／明显但未确认"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "inferred_relationship_only",
         "label": "只有关系推断"
@@ -7028,7 +8122,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 2092,
       "bangumi_yuri_tag_ratio": 0.06741573033707865,
@@ -7063,10 +8158,17 @@
         "code": "potential_or_strongly_coded",
         "label": "潜在／明显但未确认"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "inferred_relationship_only",
         "label": "只有关系推断"
@@ -7094,7 +8196,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 2104,
       "bangumi_yuri_tag_ratio": 0.050522982439305246,
@@ -7129,10 +8232,17 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "no_in_scope_evidence",
         "label": "范围内无依据"
@@ -7157,7 +8267,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": false,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 2110,
       "bangumi_yuri_tag_ratio": 0.10870352924124936,
@@ -7192,10 +8303,17 @@
         "code": "potential_or_strongly_coded",
         "label": "潜在／明显但未确认"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "inferred_relationship_only",
         "label": "只有关系推断"
@@ -7226,7 +8344,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 2170,
       "bangumi_yuri_tag_ratio": 0.10208643815201192,
@@ -7261,10 +8380,17 @@
         "code": "potential_or_strongly_coded",
         "label": "潜在／明显但未确认"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "inferred_relationship_only",
         "label": "只有关系推断"
@@ -7294,7 +8420,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 2174,
       "bangumi_yuri_tag_ratio": 0.10347081033981992,
@@ -7329,10 +8456,17 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "no_in_scope_evidence",
         "label": "范围内无依据"
@@ -7360,7 +8494,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": false,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 2180,
       "bangumi_yuri_tag_ratio": 0.04350484843190355,
@@ -7395,10 +8530,17 @@
         "code": "potential_or_strongly_coded",
         "label": "潜在／明显但未确认"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "inferred_relationship_only",
         "label": "只有关系推断"
@@ -7428,7 +8570,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": true,
         "female_relationship_main": false,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 2184,
       "bangumi_yuri_tag_ratio": 0.0022137755315149743,
@@ -7463,10 +8606,17 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "explicit_relationship_only",
         "label": "只有明确关系事实"
@@ -7494,7 +8644,8 @@
         "explicit_desire": true,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 2186,
       "bangumi_yuri_tag_ratio": 0.10419030330534755,
@@ -7529,10 +8680,27 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "official_label": {
-        "code": "other",
-        "label": "其他相关表述"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "yes",
+        "label": "是"
+      },
+      "official_source_scopes": [
+        {
+          "code": "in_scope_edition",
+          "label": "当前版本"
+        }
+      ],
+      "official_source_surfaces": [
+        {
+          "code": "story_or_profile",
+          "label": "剧情／角色页"
+        }
+      ],
+      "official_source_summary": "层级：当前版本；位置：剧情／角色页",
       "identity_evidence_basis": {
         "code": "explicit_relationship_only",
         "label": "只有明确关系事实"
@@ -7561,7 +8729,8 @@
         "explicit_desire": true,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": true
       },
       "bangumi_rank": 2209,
       "bangumi_yuri_tag_ratio": 0.18049739338518075,
@@ -7596,10 +8765,17 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "no_in_scope_evidence",
         "label": "范围内无依据"
@@ -7627,7 +8803,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": false,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 2248,
       "bangumi_yuri_tag_ratio": 0.04304979253112033,
@@ -7662,10 +8839,17 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "no_in_scope_evidence",
         "label": "范围内无依据"
@@ -7693,7 +8877,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": false,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 2276,
       "bangumi_yuri_tag_ratio": 0.07053941908713693,
@@ -7728,10 +8913,17 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "explicit_relationship_only",
         "label": "只有明确关系事实"
@@ -7760,7 +8952,8 @@
         "explicit_desire": true,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 2297,
       "bangumi_yuri_tag_ratio": 0.11567319716548562,
@@ -7795,10 +8988,17 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "no_in_scope_evidence",
         "label": "范围内无依据"
@@ -7827,7 +9027,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": false,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 2324,
       "bangumi_yuri_tag_ratio": 0.055177928828468614,
@@ -7862,10 +9063,17 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "no_in_scope_evidence",
         "label": "范围内无依据"
@@ -7895,7 +9103,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": false,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 2382,
       "bangumi_yuri_tag_ratio": 0.05605687722176648,
@@ -7930,10 +9139,17 @@
         "code": "potential_or_strongly_coded",
         "label": "潜在／明显但未确认"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "inferred_relationship_only",
         "label": "只有关系推断"
@@ -7962,7 +9178,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 2386,
       "bangumi_yuri_tag_ratio": 0.09632429614181438,
@@ -7997,10 +9214,17 @@
         "code": "potential_or_strongly_coded",
         "label": "潜在／明显但未确认"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "inferred_relationship_only",
         "label": "只有关系推断"
@@ -8031,7 +9255,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 2433,
       "bangumi_yuri_tag_ratio": 0.12870514820592824,
@@ -8066,10 +9291,17 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "explicit_relationship_only",
         "label": "只有明确关系事实"
@@ -8098,7 +9330,8 @@
         "explicit_desire": true,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 2434,
       "bangumi_yuri_tag_ratio": 0.06630336058128973,
@@ -8133,10 +9366,17 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "explicit_relationship_only",
         "label": "只有明确关系事实"
@@ -8165,7 +9405,8 @@
         "explicit_desire": true,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 2437,
       "bangumi_yuri_tag_ratio": 0.07607140635690739,
@@ -8200,10 +9441,17 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "explicit_relationship_only",
         "label": "只有明确关系事实"
@@ -8233,7 +9481,8 @@
         "explicit_desire": true,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 2465,
       "bangumi_yuri_tag_ratio": 0.13742867161847683,
@@ -8268,10 +9517,17 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "no_in_scope_evidence",
         "label": "范围内无依据"
@@ -8300,7 +9556,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": false,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 2466,
       "bangumi_yuri_tag_ratio": 0.015606671086856734,
@@ -8335,10 +9592,17 @@
         "code": "potential_or_strongly_coded",
         "label": "潜在／明显但未确认"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "inferred_relationship_only",
         "label": "只有关系推断"
@@ -8371,7 +9635,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 2493,
       "bangumi_yuri_tag_ratio": 0.017458203876313066,
@@ -8406,10 +9671,17 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "explicit_relationship_only",
         "label": "只有明确关系事实"
@@ -8437,7 +9709,8 @@
         "explicit_desire": true,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 2498,
       "bangumi_yuri_tag_ratio": 0.0027228317450148152,
@@ -8472,10 +9745,17 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "no_in_scope_evidence",
         "label": "范围内无依据"
@@ -8505,7 +9785,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": false,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 2538,
       "bangumi_yuri_tag_ratio": 0.039198606271777,
@@ -8540,10 +9821,17 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "explicit_relationship_only",
         "label": "只有明确关系事实"
@@ -8571,7 +9859,8 @@
         "explicit_desire": true,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 2586,
       "bangumi_yuri_tag_ratio": 0.13344772967265048,
@@ -8606,10 +9895,17 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "explicit_relationship_only",
         "label": "只有明确关系事实"
@@ -8639,7 +9935,8 @@
         "explicit_desire": true,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 2590,
       "bangumi_yuri_tag_ratio": 0.1318606627017842,
@@ -8674,10 +9971,17 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "explicit_relationship_only",
         "label": "只有明确关系事实"
@@ -8705,7 +10009,8 @@
         "explicit_desire": true,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 2659,
       "bangumi_yuri_tag_ratio": 0.04217298070050036,
@@ -8740,10 +10045,17 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "no_in_scope_evidence",
         "label": "范围内无依据"
@@ -8771,7 +10083,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": false,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 2679,
       "bangumi_yuri_tag_ratio": 0.06519423045402394,
@@ -8806,10 +10119,17 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "no_in_scope_evidence",
         "label": "范围内无依据"
@@ -8836,7 +10156,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": false,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 2709,
       "bangumi_yuri_tag_ratio": 0.05688124306326304,
@@ -8871,10 +10192,27 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "official_label": {
-        "code": "other",
-        "label": "其他相关表述"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [
+        {
+          "code": "in_scope_edition",
+          "label": "当前版本"
+        }
+      ],
+      "official_source_surfaces": [
+        {
+          "code": "interview_or_commentary",
+          "label": "访谈／评论"
+        }
+      ],
+      "official_source_summary": "层级：当前版本；位置：访谈／评论",
       "identity_evidence_basis": {
         "code": "no_in_scope_evidence",
         "label": "范围内无依据"
@@ -8907,7 +10245,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": false,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 2794,
       "bangumi_yuri_tag_ratio": 0.012877900971007506,
@@ -8942,10 +10281,17 @@
         "code": "potential_or_strongly_coded",
         "label": "潜在／明显但未确认"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "inferred_relationship_only",
         "label": "只有关系推断"
@@ -8973,7 +10319,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 2808,
       "bangumi_yuri_tag_ratio": 0.10264900662251655,
@@ -9008,10 +10355,27 @@
         "code": "potential_or_strongly_coded",
         "label": "潜在／明显但未确认"
       },
-      "official_label": {
-        "code": "yuri",
-        "label": "百合"
+      "official_literal_yuri_gl": {
+        "code": "yes",
+        "label": "是"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [
+        {
+          "code": "in_scope_edition",
+          "label": "当前版本"
+        }
+      ],
+      "official_source_surfaces": [
+        {
+          "code": "visible_work_marketing",
+          "label": "可见作品宣传"
+        }
+      ],
+      "official_source_summary": "层级：当前版本；位置：可见作品宣传",
       "identity_evidence_basis": {
         "code": "inferred_relationship_only",
         "label": "只有关系推断"
@@ -9038,7 +10402,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": true
+        "official_literal_yuri_gl": true,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 2824,
       "bangumi_yuri_tag_ratio": 0.11851126346718903,
@@ -9073,10 +10438,17 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "no_in_scope_evidence",
         "label": "范围内无依据"
@@ -9103,7 +10475,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": false,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 2832,
       "bangumi_yuri_tag_ratio": 0.1047425080011638,
@@ -9138,10 +10511,17 @@
         "code": "potential_or_strongly_coded",
         "label": "潜在／明显但未确认"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "inferred_relationship_only",
         "label": "只有关系推断"
@@ -9169,7 +10549,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 2838,
       "bangumi_yuri_tag_ratio": 0.06588413479742522,
@@ -9204,10 +10585,27 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "yes",
+        "label": "是"
+      },
+      "official_source_scopes": [
+        {
+          "code": "in_scope_edition",
+          "label": "当前版本"
+        }
+      ],
+      "official_source_surfaces": [
+        {
+          "code": "story_or_profile",
+          "label": "剧情／角色页"
+        }
+      ],
+      "official_source_summary": "层级：当前版本；位置：剧情／角色页",
       "identity_evidence_basis": {
         "code": "explicit_relationship_only",
         "label": "只有明确关系事实"
@@ -9234,7 +10632,8 @@
         "explicit_desire": true,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": true
       },
       "bangumi_rank": 2849,
       "bangumi_yuri_tag_ratio": 0.1074842620657496,
@@ -9269,10 +10668,17 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "no_in_scope_evidence",
         "label": "范围内无依据"
@@ -9298,7 +10704,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": false,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 2861,
       "bangumi_yuri_tag_ratio": 0.02889865494739646,
@@ -9333,10 +10740,17 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "no_in_scope_evidence",
         "label": "范围内无依据"
@@ -9366,7 +10780,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": false,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 2888,
       "bangumi_yuri_tag_ratio": 0.1049470298902762,
@@ -9401,10 +10816,17 @@
         "code": "explicit_relationship",
         "label": "明确交往"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "explicit_relationship_only",
         "label": "只有明确关系事实"
@@ -9438,7 +10860,8 @@
         "explicit_desire": true,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 3044,
       "bangumi_yuri_tag_ratio": 0.19066286528866713,
@@ -9473,10 +10896,17 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "no_in_scope_evidence",
         "label": "范围内无依据"
@@ -9502,7 +10932,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": false,
         "female_relationship_main": false,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 3056,
       "bangumi_yuri_tag_ratio": 0.07087552114353782,
@@ -9537,10 +10968,27 @@
         "code": "explicit_relationship",
         "label": "明确交往"
       },
-      "official_label": {
-        "code": "yuri",
-        "label": "百合"
+      "official_literal_yuri_gl": {
+        "code": "yes",
+        "label": "是"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [
+        {
+          "code": "in_scope_edition",
+          "label": "当前版本"
+        }
+      ],
+      "official_source_surfaces": [
+        {
+          "code": "visible_work_marketing",
+          "label": "可见作品宣传"
+        }
+      ],
+      "official_source_summary": "层级：当前版本；位置：可见作品宣传",
       "identity_evidence_basis": {
         "code": "explicit_relationship_only",
         "label": "只有明确关系事实"
@@ -9572,7 +11020,8 @@
         "explicit_desire": true,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": true
+        "official_literal_yuri_gl": true,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 3062,
       "bangumi_yuri_tag_ratio": 0.17463352453792225,
@@ -9607,10 +11056,17 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "no_in_scope_evidence",
         "label": "范围内无依据"
@@ -9637,7 +11093,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": false,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 3363,
       "bangumi_yuri_tag_ratio": 0.10621407062688201,
@@ -9672,10 +11129,17 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "no_in_scope_evidence",
         "label": "范围内无依据"
@@ -9701,7 +11165,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": false,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 3540,
       "bangumi_yuri_tag_ratio": 0.05481874447391689,
@@ -9736,10 +11201,17 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "explicit_relationship_only",
         "label": "只有明确关系事实"
@@ -9770,7 +11242,8 @@
         "explicit_desire": true,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 3844,
       "bangumi_yuri_tag_ratio": 0.04561861274190041,
@@ -9805,10 +11278,17 @@
         "code": "potential_or_strongly_coded",
         "label": "潜在／明显但未确认"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "inferred_relationship_only",
         "label": "只有关系推断"
@@ -9840,7 +11320,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 3914,
       "bangumi_yuri_tag_ratio": 0.12200619892927585,
@@ -9875,10 +11356,17 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "no_in_scope_evidence",
         "label": "范围内无依据"
@@ -9906,7 +11394,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": false,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 4606,
       "bangumi_yuri_tag_ratio": 0.09645909645909646,
@@ -9941,10 +11430,31 @@
         "code": "explicit_relationship",
         "label": "明确交往"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "yes",
+        "label": "是"
+      },
+      "official_source_scopes": [
+        {
+          "code": "in_scope_edition",
+          "label": "当前版本"
+        }
+      ],
+      "official_source_surfaces": [
+        {
+          "code": "story_or_profile",
+          "label": "剧情／角色页"
+        },
+        {
+          "code": "visible_work_marketing",
+          "label": "可见作品宣传"
+        }
+      ],
+      "official_source_summary": "层级：当前版本；位置：剧情／角色页、可见作品宣传",
       "identity_evidence_basis": {
         "code": "explicit_relationship_only",
         "label": "只有明确关系事实"
@@ -9976,7 +11486,8 @@
         "explicit_desire": true,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": true
       },
       "bangumi_rank": 4686,
       "bangumi_yuri_tag_ratio": 0.15406715747890107,
@@ -10011,10 +11522,17 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "no_in_scope_evidence",
         "label": "范围内无依据"
@@ -10046,7 +11564,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": false,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 4741,
       "bangumi_yuri_tag_ratio": 0.05987878787878788,
@@ -10081,10 +11600,17 @@
         "code": "potential_or_strongly_coded",
         "label": "潜在／明显但未确认"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "inferred_relationship_only",
         "label": "只有关系推断"
@@ -10113,7 +11639,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 5323,
       "bangumi_yuri_tag_ratio": 0.05895249695493301,
@@ -10148,10 +11675,31 @@
         "code": "explicit_relationship",
         "label": "明确交往"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "yes",
+        "label": "是"
+      },
+      "official_source_scopes": [
+        {
+          "code": "in_scope_edition",
+          "label": "当前版本"
+        }
+      ],
+      "official_source_surfaces": [
+        {
+          "code": "story_or_profile",
+          "label": "剧情／角色页"
+        },
+        {
+          "code": "visible_work_marketing",
+          "label": "可见作品宣传"
+        }
+      ],
+      "official_source_summary": "层级：当前版本；位置：剧情／角色页、可见作品宣传",
       "identity_evidence_basis": {
         "code": "explicit_relationship_only",
         "label": "只有明确关系事实"
@@ -10181,7 +11729,8 @@
         "explicit_desire": true,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": true
       },
       "bangumi_rank": 5409,
       "bangumi_yuri_tag_ratio": 0.18908341915550977,
@@ -10216,10 +11765,27 @@
         "code": "explicit_relationship",
         "label": "明确交往"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "yes",
+        "label": "是"
+      },
+      "official_source_scopes": [
+        {
+          "code": "in_scope_edition",
+          "label": "当前版本"
+        }
+      ],
+      "official_source_surfaces": [
+        {
+          "code": "story_or_profile",
+          "label": "剧情／角色页"
+        }
+      ],
+      "official_source_summary": "层级：当前版本；位置：剧情／角色页",
       "identity_evidence_basis": {
         "code": "explicit_relationship_only",
         "label": "只有明确关系事实"
@@ -10249,7 +11815,8 @@
         "explicit_desire": true,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": true
       },
       "bangumi_rank": 5503,
       "bangumi_yuri_tag_ratio": 0.0760013501350135,
@@ -10284,10 +11851,17 @@
         "code": "potential_or_strongly_coded",
         "label": "潜在／明显但未确认"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "inferred_relationship_only",
         "label": "只有关系推断"
@@ -10316,7 +11890,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 6602,
       "bangumi_yuri_tag_ratio": 0.13039385682437454,
@@ -10351,10 +11926,31 @@
         "code": "explicit_relationship",
         "label": "明确交往"
       },
-      "official_label": {
-        "code": "yuri",
-        "label": "百合"
+      "official_literal_yuri_gl": {
+        "code": "yes",
+        "label": "是"
       },
+      "official_female_romance_wording": {
+        "code": "yes",
+        "label": "是"
+      },
+      "official_source_scopes": [
+        {
+          "code": "in_scope_edition",
+          "label": "当前版本"
+        }
+      ],
+      "official_source_surfaces": [
+        {
+          "code": "html_metadata",
+          "label": "HTML 元数据"
+        },
+        {
+          "code": "visible_work_marketing",
+          "label": "可见作品宣传"
+        }
+      ],
+      "official_source_summary": "层级：当前版本；位置：HTML 元数据、可见作品宣传",
       "identity_evidence_basis": {
         "code": "explicit_relationship_only",
         "label": "只有明确关系事实"
@@ -10386,7 +11982,8 @@
         "explicit_desire": true,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": true
+        "official_literal_yuri_gl": true,
+        "official_female_romance_wording": true
       },
       "bangumi_rank": 6657,
       "bangumi_yuri_tag_ratio": 0.18534618534618535,
@@ -10421,10 +12018,27 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "yes",
+        "label": "是"
+      },
+      "official_source_scopes": [
+        {
+          "code": "in_scope_edition",
+          "label": "当前版本"
+        }
+      ],
+      "official_source_surfaces": [
+        {
+          "code": "visible_work_marketing",
+          "label": "可见作品宣传"
+        }
+      ],
+      "official_source_summary": "层级：当前版本；位置：可见作品宣传",
       "identity_evidence_basis": {
         "code": "explicit_relationship_only",
         "label": "只有明确关系事实"
@@ -10454,7 +12068,8 @@
         "explicit_desire": true,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": true
       },
       "bangumi_rank": 7170,
       "bangumi_yuri_tag_ratio": 0.14668062200956938,
@@ -10489,10 +12104,17 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "explicit_relationship_only",
         "label": "只有明确关系事实"
@@ -10523,7 +12145,8 @@
         "explicit_desire": true,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 7626,
       "bangumi_yuri_tag_ratio": 0.1438327526132404,
@@ -10558,10 +12181,17 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "explicit_relationship_only",
         "label": "只有明确关系事实"
@@ -10590,7 +12220,8 @@
         "explicit_desire": true,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 9664,
       "bangumi_yuri_tag_ratio": 0.01569018683112643,
@@ -10625,10 +12256,17 @@
         "code": "potential_or_strongly_coded",
         "label": "潜在／明显但未确认"
       },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
       },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
       "identity_evidence_basis": {
         "code": "inferred_relationship_only",
         "label": "只有关系推断"
@@ -10657,7 +12295,8 @@
         "explicit_desire": false,
         "accepts_unconfirmed": true,
         "female_relationship_main": true,
-        "official_yuri_gl": false
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
       },
       "bangumi_rank": 9727,
       "bangumi_yuri_tag_ratio": 0.10934682428371068,

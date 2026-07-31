@@ -9,6 +9,7 @@
   <meta id="theme-color-dark" name="theme-color" media="(prefers-color-scheme: dark)" content="#1c181c">
   <script>
     (() => {
+      document.documentElement.classList.add("js");
       const storageKey = "yuri-classification-theme";
       const allowed = new Set(["system", "light", "dark"]);
       let preference = "system";
@@ -46,8 +47,8 @@
   <meta property="og:url" content="https://l-m-sherlock.github.io/yuri-classification-archive/works/kaleido_star_tv_2003_part1/">
   <meta property="og:image" content="https://l-m-sherlock.github.io/yuri-classification-archive/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
   <title>《百变之星》分类报告｜百合作品分类档案</title>
-  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=014a89622973">
-  
+  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=1cc35b33d5cd">
+
 </head>
 <body class="classification-report">
   <a class="skip-link" href="#main-content">跳到正文</a>
@@ -60,12 +61,24 @@
           <small>按查询拆开标签，按证据保留边界</small>
         </span>
       </a>
-      <nav class="site-nav" aria-label="主导航">
-        <a href="/yuri-classification-archive/">首页</a>
-        <a href="/yuri-classification-archive/table/">总表</a>
-        <a href="/yuri-classification-archive/about/">方法与说明</a>
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-navigation"
+      >
+        <span>菜单</span>
+        <span class="menu-toggle-icon" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-navigation" aria-label="主导航">
+        <div class="nav-main">
+          <a href="/yuri-classification-archive/">首页</a>
+          <a href="/yuri-classification-archive/table/">总表</a>
+          <a href="/yuri-classification-archive/about/">方法与说明</a>
+        </div>
         <a class="nav-star" href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub / Star <span aria-hidden="true">↗</span></a>
-        <a href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
+        <a class="nav-feedback" href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
         <label class="theme-control" for="theme-preference">
           <span>主题</span>
           <select id="theme-preference" aria-label="主题偏好">
@@ -84,7 +97,7 @@
     <h1>《百变之星》分类报告</h1>
     <p class="report-subtitle">2003 TV anime episodes 1-26；the first-series range ending before the official October 2003 new-series start</p>
     <div class="label-strip" aria-label="分类摘要">
-      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>恋爱位置：</strong>缺席</span><span class="label-chip"><strong>最高明确度：</strong>非恋爱</span><span class="label-chip"><strong>官方：</strong>未标百合／GL</span><span class="label-chip"><strong>置信度：</strong>高</span>
+      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>恋爱位置：</strong>缺席</span><span class="label-chip"><strong>最高明确度：</strong>非恋爱</span><span class="label-chip"><strong>官方字面百合／GL：</strong>所核未见</span><span class="label-chip"><strong>官方女女恋爱表述：</strong>所核未见</span><span class="label-chip"><strong>官方来源：</strong>所核来源未含可公开筛选的层级或位置</span><span class="label-chip"><strong>置信度：</strong>高</span>
     </div>
     <a class="back-link" href="/yuri-classification-archive/table/?q=%E7%99%BE%E5%8F%98%E4%B9%8B%E6%98%9F">← 返回总表并定位本作</a>
   </header>
@@ -94,7 +107,7 @@
       <ol><li><a href="#无剧透结论">无剧透结论</a></li><li><a href="#数据库与公开分类">数据库与公开分类</a></li><li><a href="#决定性文本证据">决定性文本证据</a></li><li><a href="#四层分析">四层分析</a></li><li><a href="#最强反方解释">最强反方解释</a></li><li><a href="#分用途结论">分用途结论</a></li><li><a href="#方法来源与限制">方法、来源与限制</a></li></ol>
     </aside>
     <div class="report-content">
-      <blockquote><p>分类日期：2026-07-29<br> 分类对象：2003 年 TV 动画《カレイドスター》第 1 期<br> 纳入范围：第 1–26 话<br> 排除范围：第 27–51 话、OVA、漫画、小说、游戏及其他衍生材料<br> 用途：普通推荐、数据库分类与严格女女恋爱检索</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p>《カレイドスター》TV 第 1 期可归为<strong>女女关系主线且按作品分类归档（非恋爱），置信度高</strong>，同时也是舞台表演、职业成长、竞技训练与团队群像作品。主人公的理想由一位资深女演员具体承载；二人的关系从憧憬、排斥与竞争，逐步转为彼此选择的平等搭档。它不只是成长主线旁边的配对素材，而是连接主人公入行目标、前辈重新投入舞台以及本期收束的主要情感动力与判断尺度。</p><p>这不等于明确女女恋爱。正篇把关系命名为憧憬、对手、伙伴与梦想，没有女女告白、交往、接吻或性取向自述；本期另有明确的男女爱情副线。若“百合／GL”只用于寻找确定恋爱，本作不应进入结果。公开推荐宜同时写出“女女关系中心”“非恋爱”和“舞台成长剧”，不要让文类标签替代恋爱明确度。</p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：缺席｜最高明确度：非恋爱｜关系构成：单一主要关系记录｜官方：核对到的资料未标百合／GL｜阅读层级：正篇事实＋读者解读｜身份依据类型：范围内没有性取向身份依据｜男性恋爱线：副线｜内容提示：高风险杂技、严苛训练、过劳与运动损伤、职业竞争、企业夺权。</strong></p></blockquote><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li>只寻找双方告白、正式交往、女女接吻、明确欲望或身份明示者，<strong>不建议按该条件收录</strong>。</li><li>接受非恋爱女女关系中心、师徒传承、竞争性亲密与双向搭档承诺者，<strong>可以推荐</strong>，但需标明“第 1 期／第 1–26 话、非恋爱”。</li><li>若要求每一话都由同一对关系单独推动，需注意前段包含家庭、单人训练、舞台制作和团队单元；“主类”指全期的目标—转折—收束结构，不是对同场时长的计数。</li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><p>以下字段核对至 2026-07-30。除 GONZO 的旧官方资料外，各数据库条目覆盖完整 51 话；本报告只把它们当作公共检索背景，不借第 27–51 话的接受史替前 26 话补写剧情。</p><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://www.gonzo.co.jp/archives/kaleido-star/kaleido/kaleido.html" target="_blank" rel="noopener noreferrer">GONZO 作品介绍</a>／<a href="https://www.gonzo.co.jp/archives/kaleido-star/events/events.html" target="_blank" rel="noopener noreferrer">活动档案</a></td><td>作品被称为“汗与泪的美少女青春成功故事”，简介写主人公在伙伴间的 <code>友情と確執</code> 中追求 Kaleido Star；活动页列出 2003-10-04“新系列开始”；未标百合／GL</td><td>官方简介与播出档案</td><td>确认成长、友情与舞台是官方表述，并为第 1–26 话边界提供依据；“未标”不等于否定私人阅读</td></tr><tr class="even"><td><a href="https://myanimelist.net/anime/427/Kaleido_Star" target="_blank" rel="noopener noreferrer">MyAnimeList 条目 427</a></td><td>2026-07-30 直接页面完整 Genre／Theme 字段：<code>Comedy / Drama / Supernatural / Performing Arts / Showbiz</code>；Jikan relay 同日重试仍为 HTTP 504</td><td>编辑型数据库；直接源成功、代理失败</td><td>采用 MAL 直接字段；代理故障不再写成数据库标签未知</td></tr><tr class="odd"><td><a href="https://www.anime-planet.com/anime/kaleido-star" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td>2026-07-30 完整 Tags 面板：<code>Sports / America / Circus / Coworkers / Family Friendly / Gymnastics / Lifestyle Change / Showbiz / Work Life / Original Work</code></td><td>编辑维护的数据库标签</td><td>记录当前检索字段；不是官方认证，标签存在或沉默都不自动裁定作品关系</td></tr><tr class="even"><td><a href="https://anilist.co/anime/427/Kaleido-Star" target="_blank" rel="noopener noreferrer">AniList</a></td><td>GraphQL 返回 <code>TV</code>、51 话、<code>Comedy / Drama / Sports / Supernatural</code>；高位标签为 <code>Circus 100</code>、<code>Female Protagonist 90</code>、<code>Acting 77</code>、<code>Coming of Age 76</code>、<code>Acrobatics 75</code>、<code>Work 60</code>，未返回 Yuri／LGBTQ</td><td>社区标签数据库</td><td>权重表示社区相关度，不是支持率；说明公共检索通常优先舞台、成长与工作</td></tr><tr class="odd"><td><a href="https://bangumi.tv/subject/4163" target="_blank" rel="noopener noreferrer">Bangumi subject 4163</a>／<a href="https://api.bgm.tv/v0/subjects/4163" target="_blank" rel="noopener noreferrer">API</a></td><td>单一条目聚合 51 话；2026-07-30 API 快照中 <code>百合</code> 为元标签，用户标签计数为 215，另有 <code>励志 383</code>、<code>青春 182</code></td><td>社区标签数据库</td><td>证明中文用户存在百合检索传统；计数混合完整 51 话经验，不能换算为官方立场、社群票数或角色身份</td></tr><tr class="even"><td><a href="https://jimaku.cc/entry/11904" target="_blank" rel="noopener noreferrer">Jimaku 条目 11904</a></td><td>精确映射 AniList 427，连续列出第 1–51 话日文 SRT；本报告只采用第 1–26 话</td><td>字幕资料库</td><td>用于全文阅读、原语短引和时间定位；字幕站不承担类型认证，也不把后 25 话纳入本次判断</td></tr></tbody></table></div><p>这些来源并不组成“多数表决”。官方简介回答营销与故事定位，编辑数据库回答站点分类，社区标签回答用户检索习惯，字幕则只帮助核对正篇文字。它们必须与本报告的版本范围和恋爱明确度分开阅读。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>以下部分包含 TV 第 1 期第 1–26 话的完整剧透。</p></aside>
+      <blockquote><p>分类日期：2026-07-29<br> 分类对象：2003 年 TV 动画《カレイドスター》第 1 期<br> 纳入范围：第 1–26 话<br> 排除范围：第 27–51 话、OVA、漫画、小说、游戏及其他衍生材料<br> 用途：普通推荐、数据库分类与严格女女恋爱检索</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p>《カレイドスター》TV 第 1 期可归为<strong>女女关系主线且按作品分类归档（非恋爱），置信度高</strong>，同时也是舞台表演、职业成长、竞技训练与团队群像作品。主人公的理想由一位资深女演员具体承载；二人的关系从憧憬、排斥与竞争，逐步转为彼此选择的平等搭档。它不只是成长主线旁边的配对素材，而是连接主人公入行目标、前辈重新投入舞台以及本期收束的主要情感动力与判断尺度。</p><p>这不等于明确女女恋爱。正篇把关系命名为憧憬、对手、伙伴与梦想，没有女女告白、交往、接吻或性取向自述；本期另有明确的男女爱情副线。若“百合／GL”只用于寻找确定恋爱，本作不应进入结果。公开推荐宜同时写出“女女关系中心”“非恋爱”和“舞台成长剧”，不要让文类标签替代恋爱明确度。</p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：缺席｜最高明确度：非恋爱｜关系构成：单一主要关系记录｜官方字面：所核未见｜官方恋爱表述：所核未见｜官方来源：所核未见匹配表述｜阅读层级：正篇事实＋读者解读｜身份依据类型：范围内没有性取向身份依据｜男性恋爱线：副线｜内容提示：高风险杂技、严苛训练、过劳与运动损伤、职业竞争、企业夺权。</strong></p></blockquote><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li>只寻找双方告白、正式交往、女女接吻、明确欲望或身份明示者，<strong>不建议按该条件收录</strong>。</li><li>接受非恋爱女女关系中心、师徒传承、竞争性亲密与双向搭档承诺者，<strong>可以推荐</strong>，但需标明“第 1 期／第 1–26 话、非恋爱”。</li><li>若要求每一话都由同一对关系单独推动，需注意前段包含家庭、单人训练、舞台制作和团队单元；“主类”指全期的目标—转折—收束结构，不是对同场时长的计数。</li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><p>以下字段核对至 2026-07-30。除 GONZO 的旧官方资料外，各数据库条目覆盖完整 51 话；本报告只把它们当作公共检索背景，不借第 27–51 话的接受史替前 26 话补写剧情。</p><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://www.gonzo.co.jp/archives/kaleido-star/kaleido/kaleido.html" target="_blank" rel="noopener noreferrer">GONZO 作品介绍</a>／<a href="https://www.gonzo.co.jp/archives/kaleido-star/events/events.html" target="_blank" rel="noopener noreferrer">活动档案</a></td><td>作品被称为“汗与泪的美少女青春成功故事”，简介写主人公在伙伴间的 <code>友情と確執</code> 中追求 Kaleido Star；活动页列出 2003-10-04“新系列开始”；未标百合／GL</td><td>官方简介与播出档案</td><td>确认成长、友情与舞台是官方表述，并为第 1–26 话边界提供依据；“未标”不等于否定私人阅读</td></tr><tr class="even"><td><a href="https://myanimelist.net/anime/427/Kaleido_Star" target="_blank" rel="noopener noreferrer">MyAnimeList 条目 427</a></td><td>2026-07-30 直接页面完整 Genre／Theme 字段：<code>Comedy / Drama / Supernatural / Performing Arts / Showbiz</code>；Jikan relay 同日重试仍为 HTTP 504</td><td>编辑型数据库；直接源成功、代理失败</td><td>采用 MAL 直接字段；代理故障不再写成数据库标签未知</td></tr><tr class="odd"><td><a href="https://www.anime-planet.com/anime/kaleido-star" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td>2026-07-30 完整 Tags 面板：<code>Sports / America / Circus / Coworkers / Family Friendly / Gymnastics / Lifestyle Change / Showbiz / Work Life / Original Work</code></td><td>编辑维护的数据库标签</td><td>记录当前检索字段；不是官方认证，标签存在或沉默都不自动裁定作品关系</td></tr><tr class="even"><td><a href="https://anilist.co/anime/427/Kaleido-Star" target="_blank" rel="noopener noreferrer">AniList</a></td><td>GraphQL 返回 <code>TV</code>、51 话、<code>Comedy / Drama / Sports / Supernatural</code>；高位标签为 <code>Circus 100</code>、<code>Female Protagonist 90</code>、<code>Acting 77</code>、<code>Coming of Age 76</code>、<code>Acrobatics 75</code>、<code>Work 60</code>，未返回 Yuri／LGBTQ</td><td>社区标签数据库</td><td>权重表示社区相关度，不是支持率；说明公共检索通常优先舞台、成长与工作</td></tr><tr class="odd"><td><a href="https://bangumi.tv/subject/4163" target="_blank" rel="noopener noreferrer">Bangumi subject 4163</a>／<a href="https://api.bgm.tv/v0/subjects/4163" target="_blank" rel="noopener noreferrer">API</a></td><td>单一条目聚合 51 话；2026-07-30 API 快照中 <code>百合</code> 为元标签，用户标签计数为 215，另有 <code>励志 383</code>、<code>青春 182</code></td><td>社区标签数据库</td><td>证明中文用户存在百合检索传统；计数混合完整 51 话经验，不能换算为官方立场、社群票数或角色身份</td></tr><tr class="even"><td><a href="https://jimaku.cc/entry/11904" target="_blank" rel="noopener noreferrer">Jimaku 条目 11904</a></td><td>精确映射 AniList 427，连续列出第 1–51 话日文 SRT；本报告只采用第 1–26 话</td><td>字幕资料库</td><td>用于全文阅读、原语短引和时间定位；字幕站不承担类型认证，也不把后 25 话纳入本次判断</td></tr></tbody></table></div><p>这些来源并不组成“多数表决”。官方简介回答营销与故事定位，编辑数据库回答站点分类，社区标签回答用户检索习惯，字幕则只帮助核对正篇文字。它们必须与本报告的版本范围和恋爱明确度分开阅读。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>以下部分包含 TV 第 1 期第 1–26 话的完整剧透。</p></aside>
 
       <details class="spoiler-panel">
         <summary>
@@ -142,7 +155,7 @@
     </div>
   </footer>
   <script>window.SITE_CONFIG = {basePath: "/yuri-classification-archive"};</script>
-  <script src="/yuri-classification-archive/assets/site.js?v=95491b68a3ae" defer></script>
-  
+  <script src="/yuri-classification-archive/assets/site.js?v=686fc3d330d3" defer></script>
+
 </body>
 </html>

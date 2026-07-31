@@ -9,6 +9,7 @@
   <meta id="theme-color-dark" name="theme-color" media="(prefers-color-scheme: dark)" content="#1c181c">
   <script>
     (() => {
+      document.documentElement.classList.add("js");
       const storageKey = "yuri-classification-theme";
       const allowed = new Set(["system", "light", "dark"]);
       let preference = "system";
@@ -46,8 +47,8 @@
   <meta property="og:url" content="https://l-m-sherlock.github.io/yuri-classification-archive/works/sora_iro_utility_tv_2025/">
   <meta property="og:image" content="https://l-m-sherlock.github.io/yuri-classification-archive/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
   <title>《一杆青空》分类报告｜百合作品分类档案</title>
-  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=014a89622973">
-  
+  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=1cc35b33d5cd">
+
 </head>
 <body class="classification-report">
   <a class="skip-link" href="#main-content">跳到正文</a>
@@ -60,12 +61,24 @@
           <small>按查询拆开标签，按证据保留边界</small>
         </span>
       </a>
-      <nav class="site-nav" aria-label="主导航">
-        <a href="/yuri-classification-archive/">首页</a>
-        <a href="/yuri-classification-archive/table/">总表</a>
-        <a href="/yuri-classification-archive/about/">方法与说明</a>
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-navigation"
+      >
+        <span>菜单</span>
+        <span class="menu-toggle-icon" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-navigation" aria-label="主导航">
+        <div class="nav-main">
+          <a href="/yuri-classification-archive/">首页</a>
+          <a href="/yuri-classification-archive/table/">总表</a>
+          <a href="/yuri-classification-archive/about/">方法与说明</a>
+        </div>
         <a class="nav-star" href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub / Star <span aria-hidden="true">↗</span></a>
-        <a href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
+        <a class="nav-feedback" href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
         <label class="theme-control" for="theme-preference">
           <span>主题</span>
           <select id="theme-preference" aria-label="主题偏好">
@@ -84,7 +97,7 @@
     <h1>《一杆青空》分类报告</h1>
     <p class="report-subtitle">2025 TV anime episodes 1-12</p>
     <div class="label-strip" aria-label="分类摘要">
-      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>恋爱位置：</strong>缺席</span><span class="label-chip"><strong>最高明确度：</strong>非恋爱</span><span class="label-chip"><strong>官方：</strong>未标百合／GL</span><span class="label-chip"><strong>置信度：</strong>高</span>
+      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>恋爱位置：</strong>缺席</span><span class="label-chip"><strong>最高明确度：</strong>非恋爱</span><span class="label-chip"><strong>官方字面百合／GL：</strong>所核未见</span><span class="label-chip"><strong>官方女女恋爱表述：</strong>所核未见</span><span class="label-chip"><strong>官方来源：</strong>所核来源未含可公开筛选的层级或位置</span><span class="label-chip"><strong>置信度：</strong>高</span>
     </div>
     <a class="back-link" href="/yuri-classification-archive/table/?q=%E4%B8%80%E6%9D%86%E9%9D%92%E7%A9%BA">← 返回总表并定位本作</a>
   </header>
@@ -94,7 +107,7 @@
       <ol><li><a href="#无剧透结论">无剧透结论</a></li><li><a href="#数据库与公开分类">数据库与公开分类</a></li><li><a href="#决定性文本证据">决定性文本证据</a></li><li><a href="#四层分析">四层分析</a></li><li><a href="#最强反方解释">最强反方解释</a></li><li><a href="#分用途结论">分用途结论</a></li><li><a href="#方法来源与限制">方法、来源与限制</a></li></ol>
     </aside>
     <div class="report-content">
-      <blockquote><p>分类日期：2026-07-30<br> 分类对象：2025 年 TV 动画《空色ユーティリティ》第 1–12 话<br> 纳入范围：2025 年 TV 正篇全 12 话<br> 排除范围：2021 年同名短篇动画、联动短篇 ONA、宣传访谈、社交媒体及其他衍生材料<br> 用途：普通推荐与数据库分类</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p><strong>按本档案容纳非恋爱女女关系的开放口径，TV 全 12 话属于女女关系主线且按作品分类归档，置信度高；按恋爱限定口径则不属于明确 GL。</strong> 故事把青羽美波寻找“只属于我的特别”与进入高尔夫社群结合起来，茜遥、星美彩花、秋名泉美及后续对手共同支撑她的成长。女性友谊、前后辈引导、共同运动和跨年龄社群是叙事主线，全季没有男性恋爱线。</p><p><strong>核心关系在正篇中明确落在友情、师友、同伴和共同爱好。</strong> 人物会说“喜欢”“最喜欢”，也会出现恋爱词的高尔夫双关，但上下文把对象落到对遥的敬爱、想一起打球及对高尔夫的热情。没有女女告白、接吻、交往或性取向身份自述。</p><p>最稳妥的短标签是：<strong>女女关系中心的日常青春高尔夫喜剧；关系为非恋爱友谊与师友共同体，允许私人百合阅读，但不能推荐成明确恋爱。</strong> 官方以“在高尔夫中找到我的特别”和日常青春运动喜剧宣传，未标百合／GL。</p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：缺席｜最高明确度：非恋爱｜关系构成：单一主要关系记录｜官方：未标百合／GL｜阅读层级：正篇事实＋读者解读｜身份依据类型：范围内没有性取向身份依据｜男性恋爱线：无｜内容提示：竞技压力与过往受挫、社交媒体关注带来的负担、未成年人参加成人社群活动、运动疲劳和天气风险。</strong></p></blockquote><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li>只寻找女女告白、接吻、正式交往或身份明示：<strong>不符合</strong>。</li><li>接受女性友谊、前后辈关系和共同爱好作为百合阅读对象：<strong>符合，且贯穿全季</strong>。</li><li>只寻找两人式排他配对：<strong>不宜据此推荐。</strong> 美波／遥很重要，但作品持续保留彩花、泉美、球场长辈及对手构成的多点关系网。</li><li>检索时应写“非恋爱女女关系中心”，避免单写“百合”让恋爱限定读者产生错误预期。</li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><p>以下字段核对至 2026-07-30。2025 TV 与 2021 短篇是不同条目，本报告只采用 TV 条目；数据库沉默写“未标”，不写成“否认”。</p><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://anime-sorairo-utility.com/" target="_blank" rel="noopener noreferrer">官方 TV 网站</a>／<a href="https://anime-sorairo-utility.com/story/" target="_blank" rel="noopener noreferrer">STORY</a></td><td>搜索索引可见官方宣传语 <code>ゴルフで見つける、私の“特別”</code>，并称其为令人想声援的日常青春运动喜剧；2026-07-30 直连返回 CloudFront 403，未见百合／GL 类型字段</td><td>官方营销与剧情表述</td><td>支持“寻找特别”、高尔夫和日常青春运动的公开定位；访问受阻部分不猜字段，索引片段不承担关系细节证明</td></tr><tr class="even"><td><a href="https://myanimelist.net/anime/58066/Sorairo_Utility_TV" target="_blank" rel="noopener noreferrer">MyAnimeList 58066</a></td><td>TV、12 集；Genre 为 Sports，Theme 为 CGDCT；未列 Girls Love 或 Romance</td><td>编辑型数据库字段</td><td>核对 2025 TV 版本和编辑分类；未标不等于裁定不能作百合阅读</td></tr><tr class="odd"><td><a href="https://www.anime-planet.com/anime/sorairo-utility" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td>2026-07-30 完整 Tags 面板：<code>Sports / Golf / Original Work</code></td><td>编辑维护的数据库标签</td><td>记录当前检索字段；不是官方认证，标签存在或沉默都不自动裁定作品关系</td></tr><tr class="even"><td><a href="https://anilist.co/anime/174596" target="_blank" rel="noopener noreferrer">AniList 174596</a></td><td>Genres 为 Slice of Life、Sports；社区标签含 Female Protagonist 100%、Golf 96%、CGDCT 92%、Primarily Female Cast 78%、Iyashikei 74% 等，未见 Yuri 标签</td><td>编辑字段＋带权重社区标签</td><td>支持日常、运动和女性群像定位；社区未标 Yuri 只是本次快照，不是反对票</td></tr><tr class="odd"><td><a href="https://bangumi.tv/subject/479788" target="_blank" rel="noopener noreferrer">Bangumi subject 479788</a>／<a href="https://api.bgm.tv/v0/subjects/479788" target="_blank" rel="noopener noreferrer">公共 API</a></td><td>TV、12 话；用户标签快照含“轻百合”439、“百合”310、“高尔夫”379、“运动”650</td><td>社区用户标签与范围数据</td><td>记录华语用户确有百合阅读，并核对 TV 话数；计数不证明恋爱或官方分类</td></tr><tr class="even"><td><a href="https://jimaku.cc/entry/8437" target="_blank" rel="noopener noreferrer">Jimaku entry 8437</a></td><td>条目与 AniList 174596 对应；提供覆盖第 1–12 话的日文字幕</td><td>第三方字幕目录</td><td>用于全季文字定位，不承担分类认证</td></tr></tbody></table></div><p>另行排除的 2021 短篇有独立数据库条目；联动 ONA 亦不属于本 TV 正篇。即使它们共享人物或标题，也不能把其中的台词、关系推进或数据库标签倒灌进本报告。MAL、AniList 与 Bangumi 看似不一致，实则分别展示编辑字段与社区标签：前两者准确提示它首先是一部高尔夫日常作品，后者说明开放百合读法在用户分类中存在。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>以下部分包含《空色ユーティリティ》2025 TV 第 1–12 话完整剧透。</p></aside>
+      <blockquote><p>分类日期：2026-07-30<br> 分类对象：2025 年 TV 动画《空色ユーティリティ》第 1–12 话<br> 纳入范围：2025 年 TV 正篇全 12 话<br> 排除范围：2021 年同名短篇动画、联动短篇 ONA、宣传访谈、社交媒体及其他衍生材料<br> 用途：普通推荐与数据库分类</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p><strong>按本档案容纳非恋爱女女关系的开放口径，TV 全 12 话属于女女关系主线且按作品分类归档，置信度高；按恋爱限定口径则不属于明确 GL。</strong> 故事把青羽美波寻找“只属于我的特别”与进入高尔夫社群结合起来，茜遥、星美彩花、秋名泉美及后续对手共同支撑她的成长。女性友谊、前后辈引导、共同运动和跨年龄社群是叙事主线，全季没有男性恋爱线。</p><p><strong>核心关系在正篇中明确落在友情、师友、同伴和共同爱好。</strong> 人物会说“喜欢”“最喜欢”，也会出现恋爱词的高尔夫双关，但上下文把对象落到对遥的敬爱、想一起打球及对高尔夫的热情。没有女女告白、接吻、交往或性取向身份自述。</p><p>最稳妥的短标签是：<strong>女女关系中心的日常青春高尔夫喜剧；关系为非恋爱友谊与师友共同体，允许私人百合阅读，但不能推荐成明确恋爱。</strong> 官方以“在高尔夫中找到我的特别”和日常青春运动喜剧宣传，未标百合／GL。</p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：缺席｜最高明确度：非恋爱｜关系构成：单一主要关系记录｜官方字面：所核未见｜官方恋爱表述：所核未见｜官方来源：所核未见匹配表述｜阅读层级：正篇事实＋读者解读｜身份依据类型：范围内没有性取向身份依据｜男性恋爱线：无｜内容提示：竞技压力与过往受挫、社交媒体关注带来的负担、未成年人参加成人社群活动、运动疲劳和天气风险。</strong></p></blockquote><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li>只寻找女女告白、接吻、正式交往或身份明示：<strong>不符合</strong>。</li><li>接受女性友谊、前后辈关系和共同爱好作为百合阅读对象：<strong>符合，且贯穿全季</strong>。</li><li>只寻找两人式排他配对：<strong>不宜据此推荐。</strong> 美波／遥很重要，但作品持续保留彩花、泉美、球场长辈及对手构成的多点关系网。</li><li>检索时应写“非恋爱女女关系中心”，避免单写“百合”让恋爱限定读者产生错误预期。</li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><p>以下字段核对至 2026-07-30。2025 TV 与 2021 短篇是不同条目，本报告只采用 TV 条目；数据库沉默写“未标”，不写成“否认”。</p><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://anime-sorairo-utility.com/" target="_blank" rel="noopener noreferrer">官方 TV 网站</a>／<a href="https://anime-sorairo-utility.com/story/" target="_blank" rel="noopener noreferrer">STORY</a></td><td>搜索索引可见官方宣传语 <code>ゴルフで見つける、私の“特別”</code>，并称其为令人想声援的日常青春运动喜剧；2026-07-30 直连返回 CloudFront 403，未见百合／GL 类型字段</td><td>官方营销与剧情表述</td><td>支持“寻找特别”、高尔夫和日常青春运动的公开定位；访问受阻部分不猜字段，索引片段不承担关系细节证明</td></tr><tr class="even"><td><a href="https://myanimelist.net/anime/58066/Sorairo_Utility_TV" target="_blank" rel="noopener noreferrer">MyAnimeList 58066</a></td><td>TV、12 集；Genre 为 Sports，Theme 为 CGDCT；未列 Girls Love 或 Romance</td><td>编辑型数据库字段</td><td>核对 2025 TV 版本和编辑分类；未标不等于裁定不能作百合阅读</td></tr><tr class="odd"><td><a href="https://www.anime-planet.com/anime/sorairo-utility" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td>2026-07-30 完整 Tags 面板：<code>Sports / Golf / Original Work</code></td><td>编辑维护的数据库标签</td><td>记录当前检索字段；不是官方认证，标签存在或沉默都不自动裁定作品关系</td></tr><tr class="even"><td><a href="https://anilist.co/anime/174596" target="_blank" rel="noopener noreferrer">AniList 174596</a></td><td>Genres 为 Slice of Life、Sports；社区标签含 Female Protagonist 100%、Golf 96%、CGDCT 92%、Primarily Female Cast 78%、Iyashikei 74% 等，未见 Yuri 标签</td><td>编辑字段＋带权重社区标签</td><td>支持日常、运动和女性群像定位；社区未标 Yuri 只是本次快照，不是反对票</td></tr><tr class="odd"><td><a href="https://bangumi.tv/subject/479788" target="_blank" rel="noopener noreferrer">Bangumi subject 479788</a>／<a href="https://api.bgm.tv/v0/subjects/479788" target="_blank" rel="noopener noreferrer">公共 API</a></td><td>TV、12 话；用户标签快照含“轻百合”439、“百合”310、“高尔夫”379、“运动”650</td><td>社区用户标签与范围数据</td><td>记录华语用户确有百合阅读，并核对 TV 话数；计数不证明恋爱或官方分类</td></tr><tr class="even"><td><a href="https://jimaku.cc/entry/8437" target="_blank" rel="noopener noreferrer">Jimaku entry 8437</a></td><td>条目与 AniList 174596 对应；提供覆盖第 1–12 话的日文字幕</td><td>第三方字幕目录</td><td>用于全季文字定位，不承担分类认证</td></tr></tbody></table></div><p>另行排除的 2021 短篇有独立数据库条目；联动 ONA 亦不属于本 TV 正篇。即使它们共享人物或标题，也不能把其中的台词、关系推进或数据库标签倒灌进本报告。MAL、AniList 与 Bangumi 看似不一致，实则分别展示编辑字段与社区标签：前两者准确提示它首先是一部高尔夫日常作品，后者说明开放百合读法在用户分类中存在。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>以下部分包含《空色ユーティリティ》2025 TV 第 1–12 话完整剧透。</p></aside>
 
       <details class="spoiler-panel">
         <summary>
@@ -142,7 +155,7 @@
     </div>
   </footer>
   <script>window.SITE_CONFIG = {basePath: "/yuri-classification-archive"};</script>
-  <script src="/yuri-classification-archive/assets/site.js?v=95491b68a3ae" defer></script>
-  
+  <script src="/yuri-classification-archive/assets/site.js?v=686fc3d330d3" defer></script>
+
 </body>
 </html>

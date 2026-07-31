@@ -9,6 +9,7 @@
   <meta id="theme-color-dark" name="theme-color" media="(prefers-color-scheme: dark)" content="#1c181c">
   <script>
     (() => {
+      document.documentElement.classList.add("js");
       const storageKey = "yuri-classification-theme";
       const allowed = new Set(["system", "light", "dark"]);
       let preference = "system";
@@ -46,8 +47,8 @@
   <meta property="og:url" content="https://l-m-sherlock.github.io/yuri-classification-archive/works/bamboo_blade_tv_2007/">
   <meta property="og:image" content="https://l-m-sherlock.github.io/yuri-classification-archive/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
   <title>《竹剑少女》分类报告｜百合作品分类档案</title>
-  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=014a89622973">
-  
+  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=1cc35b33d5cd">
+
 </head>
 <body class="classification-report">
   <a class="skip-link" href="#main-content">跳到正文</a>
@@ -60,12 +61,24 @@
           <small>按查询拆开标签，按证据保留边界</small>
         </span>
       </a>
-      <nav class="site-nav" aria-label="主导航">
-        <a href="/yuri-classification-archive/">首页</a>
-        <a href="/yuri-classification-archive/table/">总表</a>
-        <a href="/yuri-classification-archive/about/">方法与说明</a>
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-navigation"
+      >
+        <span>菜单</span>
+        <span class="menu-toggle-icon" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-navigation" aria-label="主导航">
+        <div class="nav-main">
+          <a href="/yuri-classification-archive/">首页</a>
+          <a href="/yuri-classification-archive/table/">总表</a>
+          <a href="/yuri-classification-archive/about/">方法与说明</a>
+        </div>
         <a class="nav-star" href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub / Star <span aria-hidden="true">↗</span></a>
-        <a href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
+        <a class="nav-feedback" href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
         <label class="theme-control" for="theme-preference">
           <span>主题</span>
           <select id="theme-preference" aria-label="主题偏好">
@@ -84,7 +97,7 @@
     <h1>《竹剑少女》分类报告</h1>
     <p class="report-subtitle">TV anime numbered episodes 1-26 as the DVD primary versions</p>
     <div class="label-strip" aria-label="分类摘要">
-      <span class="label-chip"><strong>女女关系：</strong>重要副线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>恋爱位置：</strong>重要副线</span><span class="label-chip"><strong>最高明确度：</strong>明确欲望</span><span class="label-chip"><strong>官方：</strong>未标百合／GL</span><span class="label-chip"><strong>置信度：</strong>高</span>
+      <span class="label-chip"><strong>女女关系：</strong>重要副线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>恋爱位置：</strong>重要副线</span><span class="label-chip"><strong>最高明确度：</strong>明确欲望</span><span class="label-chip"><strong>官方字面百合／GL：</strong>所核未见</span><span class="label-chip"><strong>官方女女恋爱表述：</strong>所核未见</span><span class="label-chip"><strong>官方来源：</strong>所核来源未含可公开筛选的层级或位置</span><span class="label-chip"><strong>置信度：</strong>高</span>
     </div>
     <a class="back-link" href="/yuri-classification-archive/table/?q=%E7%AB%B9%E5%89%91%E5%B0%91%E5%A5%B3">← 返回总表并定位本作</a>
   </header>
@@ -94,7 +107,7 @@
       <ol><li><a href="#无剧透结论">无剧透结论</a></li><li><a href="#数据库与公开分类">数据库与公开分类</a></li><li><a href="#决定性文本证据">决定性文本证据</a></li><li><a href="#四层分析">四层分析</a></li><li><a href="#最强反方解释">最强反方解释</a></li><li><a href="#分用途结论">分用途结论</a></li><li><a href="#方法来源与限制">方法、来源与限制</a></li></ol>
     </aside>
     <div class="report-content">
-      <blockquote><p>分类日期：2026-07-30<br> 分类对象：2007–2008 年 TV 动画《バンブーブレード -BAMBOO BLADE-》第 1–26 话<br> 纳入范围：正式 TV 正篇全 26 话<br> 排除范围：Bangumi 另列的 3 个特别篇、原作漫画、广播剧、游戏及其他跨媒介材料<br> 用途：普通推荐与数据库分类</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p>《竹剑少女》TV 版适合归为<strong>校园剑道、社团群像和成长为主，百合为重要副线</strong>的作品。招募、训练、比赛、败北与社团存续构成全季骨架；女队员之间的友谊、互助和竞争则承担多条人物成长线，却没有取代体育社团主轴。</p><p>百合副线并非纯粹来自配对想象：一名反复登场的女性配角在内心独白中直接说爱另一名女性，相关迷恋延续至终盘。不过爱意没有获得回应，对方把跟随行为理解为骚扰；其余重要女女关系被正篇称作朋友、队友或对手。与此同时，一组男女队员持续以男女朋友和恋人互称。</p><p>因此，“女女关系重要副线且按作品分类归档”“女性单向明确爱恋与互惠非恋爱关系并存”“男性恋爱线为副线”均为<strong>高置信度</strong>。本作不满足女女双方告白、交往、接吻或身份明示的严格检索；接受女性友伴群像、竞技关系或单向爱恋者可以收录，但推荐时应把体育／校园社团喜剧放在首位。</p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：重要副线｜百合归档依据：作品分类｜恋爱位置：重要副线｜最高明确度：明确女女恋爱欲望｜关系构成：多组异质关系｜官方：未标百合／GL｜阅读层级：正篇事实＋读者解读｜身份依据类型：只有明确关系／欲望事实，无身份自述｜男性恋爱线：副线，含持续且明确的男女朋友关系｜内容提示：跟踪、反复拍摄及制作等身人像，利用他人制造嫉妒；另有对手队友冒充家属、把参赛者骗离赛场并反锁，校园斗殴、欺凌、比赛受伤及师长失职。</strong></p></blockquote><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li><strong>只寻找女女双方告白、正式交往、接吻或性取向身份明示者：不适合。</strong> 正篇有女性对女性的直接“爱”与持续迷恋，却没有得到对方回应；其余重要女女关系被文本明确组织为朋友、队友和竞技对手。</li><li><strong>接受单向女性爱恋、女性友伴群像或女女竞争关系者：适合，但应标为副线。</strong> 这条单向迷恋跨多个中后段单元反复出现；队长与青梅朋友、王牌与女性对手以及女队整体的互助则贯穿更多话数。</li><li><strong>不想观看跟踪或反复收集对象影像被作为喜剧者：需要提前提示。</strong> 单向爱恋者会跟随、反复拍摄、调查赛程、制作等身人像，并试图介入对方与男友的关系；这些是剧情行为，不等同于双方关系成立。</li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://www.bambooblade.jp/pc/" target="_blank" rel="noopener noreferrer">TV 动画官方网站</a>与<a href="https://www.bambooblade.jp/pc/story19.html" target="_blank" rel="noopener noreferrer">官方故事页</a></td><td>官方首页标示 2007 年 10 月开播；故事页按第 1–26 话组织，后段简介持续以剑道部、比赛、胜负和成长为中心，未设置百合／GL 分类字段</td><td>官方剧情与发行资料</td><td>确认正式 TV 范围和官方公开的体育社团叙事；“未设字段”只记作未标，不能解释为否认任何女女关系</td></tr><tr class="even"><td><a href="https://myanimelist.net/anime/2986/Bamboo_Blade" target="_blank" rel="noopener noreferrer">MyAnimeList</a></td><td>TV、26 话；Genres 为 Comedy、Sports，Themes 为 Combat Sports、School，Demographic 为 Seinen，未列 Girls Love</td><td>数据库编辑字段</td><td>旁证喜剧、体育与校园是公共主分类；数据库沉默不抹除正篇的单向女性爱恋</td></tr><tr class="odd"><td><a href="https://www.anime-planet.com/anime/bamboo-blade" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td>2026-07-30 完整 Tags 面板：<code>Comedy / Seinen / Sports / Kendo / School Club / School Life / Based on a Manga</code></td><td>编辑维护的数据库标签</td><td>记录当前检索字段；不是官方认证，标签存在或沉默都不自动裁定作品关系</td></tr><tr class="even"><td><a href="https://anilist.co/anime/2986/BAMBOO-BLADE" target="_blank" rel="noopener noreferrer">AniList</a></td><td>Genres 为 Comedy、Sports；社区标签依次含 School 79%、Coming of Age 79%、Martial Arts 76%、School Club 75%、Primarily Female Cast 66% 等，本轮标签列表未见 Yuri</td><td>编辑类 Genre＋带权重社区标签</td><td>说明用户主要用校园、成长、武术和女性为主的演员阵容描述作品；百分比是相关度权重，不是民意比例，也不是“非百合”证明</td></tr><tr class="odd"><td><a href="https://bangumi.tv/subject/1272" target="_blank" rel="noopener noreferrer">Bangumi</a>及<a href="https://api.bgm.tv/v0/subjects/1272" target="_blank" rel="noopener noreferrer">公开 API</a></td><td>正篇 26 话、总条目 29；用户标签含“竹刀少女”291、“校园”184、“百合”169、“体育”93、“青春”68 等</td><td>社区用户标签＋条目资料</td><td>证明广义百合读法在该站有稳定使用，并解释作品进入本次榜单的原因；计数不决定主文类、相互性或角色身份</td></tr></tbody></table></div><p>以上为 2026-07-30 快照。官方表述、数据库编辑字段和社区标签回答的是不同问题，不能按站点数量或标签计数表决作品本质。Bangumi 的“百合”标签具有真实检索价值，但同页更高频的校园、体育和作品专名标签，以及全 26 话结构，都要求在推荐中把百合放在副线而非首要类型位置。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>以下部分包含本次分类对象的完整剧透。</p></aside>
+      <blockquote><p>分类日期：2026-07-30<br> 分类对象：2007–2008 年 TV 动画《バンブーブレード -BAMBOO BLADE-》第 1–26 话<br> 纳入范围：正式 TV 正篇全 26 话<br> 排除范围：Bangumi 另列的 3 个特别篇、原作漫画、广播剧、游戏及其他跨媒介材料<br> 用途：普通推荐与数据库分类</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p>《竹剑少女》TV 版适合归为<strong>校园剑道、社团群像和成长为主，百合为重要副线</strong>的作品。招募、训练、比赛、败北与社团存续构成全季骨架；女队员之间的友谊、互助和竞争则承担多条人物成长线，却没有取代体育社团主轴。</p><p>百合副线并非纯粹来自配对想象：一名反复登场的女性配角在内心独白中直接说爱另一名女性，相关迷恋延续至终盘。不过爱意没有获得回应，对方把跟随行为理解为骚扰；其余重要女女关系被正篇称作朋友、队友或对手。与此同时，一组男女队员持续以男女朋友和恋人互称。</p><p>因此，“女女关系重要副线且按作品分类归档”“女性单向明确爱恋与互惠非恋爱关系并存”“男性恋爱线为副线”均为<strong>高置信度</strong>。本作不满足女女双方告白、交往、接吻或身份明示的严格检索；接受女性友伴群像、竞技关系或单向爱恋者可以收录，但推荐时应把体育／校园社团喜剧放在首位。</p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：重要副线｜百合归档依据：作品分类｜恋爱位置：重要副线｜最高明确度：明确女女恋爱欲望｜关系构成：多组异质关系｜官方字面：所核未见｜官方恋爱表述：所核未见｜官方来源：所核未见匹配表述｜阅读层级：正篇事实＋读者解读｜身份依据类型：只有明确关系／欲望事实，无身份自述｜男性恋爱线：副线，含持续且明确的男女朋友关系｜内容提示：跟踪、反复拍摄及制作等身人像，利用他人制造嫉妒；另有对手队友冒充家属、把参赛者骗离赛场并反锁，校园斗殴、欺凌、比赛受伤及师长失职。</strong></p></blockquote><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li><strong>只寻找女女双方告白、正式交往、接吻或性取向身份明示者：不适合。</strong> 正篇有女性对女性的直接“爱”与持续迷恋，却没有得到对方回应；其余重要女女关系被文本明确组织为朋友、队友和竞技对手。</li><li><strong>接受单向女性爱恋、女性友伴群像或女女竞争关系者：适合，但应标为副线。</strong> 这条单向迷恋跨多个中后段单元反复出现；队长与青梅朋友、王牌与女性对手以及女队整体的互助则贯穿更多话数。</li><li><strong>不想观看跟踪或反复收集对象影像被作为喜剧者：需要提前提示。</strong> 单向爱恋者会跟随、反复拍摄、调查赛程、制作等身人像，并试图介入对方与男友的关系；这些是剧情行为，不等同于双方关系成立。</li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://www.bambooblade.jp/pc/" target="_blank" rel="noopener noreferrer">TV 动画官方网站</a>与<a href="https://www.bambooblade.jp/pc/story19.html" target="_blank" rel="noopener noreferrer">官方故事页</a></td><td>官方首页标示 2007 年 10 月开播；故事页按第 1–26 话组织，后段简介持续以剑道部、比赛、胜负和成长为中心，未设置百合／GL 分类字段</td><td>官方剧情与发行资料</td><td>确认正式 TV 范围和官方公开的体育社团叙事；“未设字段”只记作未标，不能解释为否认任何女女关系</td></tr><tr class="even"><td><a href="https://myanimelist.net/anime/2986/Bamboo_Blade" target="_blank" rel="noopener noreferrer">MyAnimeList</a></td><td>TV、26 话；Genres 为 Comedy、Sports，Themes 为 Combat Sports、School，Demographic 为 Seinen，未列 Girls Love</td><td>数据库编辑字段</td><td>旁证喜剧、体育与校园是公共主分类；数据库沉默不抹除正篇的单向女性爱恋</td></tr><tr class="odd"><td><a href="https://www.anime-planet.com/anime/bamboo-blade" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td>2026-07-30 完整 Tags 面板：<code>Comedy / Seinen / Sports / Kendo / School Club / School Life / Based on a Manga</code></td><td>编辑维护的数据库标签</td><td>记录当前检索字段；不是官方认证，标签存在或沉默都不自动裁定作品关系</td></tr><tr class="even"><td><a href="https://anilist.co/anime/2986/BAMBOO-BLADE" target="_blank" rel="noopener noreferrer">AniList</a></td><td>Genres 为 Comedy、Sports；社区标签依次含 School 79%、Coming of Age 79%、Martial Arts 76%、School Club 75%、Primarily Female Cast 66% 等，本轮标签列表未见 Yuri</td><td>编辑类 Genre＋带权重社区标签</td><td>说明用户主要用校园、成长、武术和女性为主的演员阵容描述作品；百分比是相关度权重，不是民意比例，也不是“非百合”证明</td></tr><tr class="odd"><td><a href="https://bangumi.tv/subject/1272" target="_blank" rel="noopener noreferrer">Bangumi</a>及<a href="https://api.bgm.tv/v0/subjects/1272" target="_blank" rel="noopener noreferrer">公开 API</a></td><td>正篇 26 话、总条目 29；用户标签含“竹刀少女”291、“校园”184、“百合”169、“体育”93、“青春”68 等</td><td>社区用户标签＋条目资料</td><td>证明广义百合读法在该站有稳定使用，并解释作品进入本次榜单的原因；计数不决定主文类、相互性或角色身份</td></tr></tbody></table></div><p>以上为 2026-07-30 快照。官方表述、数据库编辑字段和社区标签回答的是不同问题，不能按站点数量或标签计数表决作品本质。Bangumi 的“百合”标签具有真实检索价值，但同页更高频的校园、体育和作品专名标签，以及全 26 话结构，都要求在推荐中把百合放在副线而非首要类型位置。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>以下部分包含本次分类对象的完整剧透。</p></aside>
 
       <details class="spoiler-panel">
         <summary>
@@ -142,7 +155,7 @@
     </div>
   </footer>
   <script>window.SITE_CONFIG = {basePath: "/yuri-classification-archive"};</script>
-  <script src="/yuri-classification-archive/assets/site.js?v=95491b68a3ae" defer></script>
-  
+  <script src="/yuri-classification-archive/assets/site.js?v=686fc3d330d3" defer></script>
+
 </body>
 </html>

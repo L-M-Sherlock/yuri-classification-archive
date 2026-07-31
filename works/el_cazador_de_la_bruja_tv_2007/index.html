@@ -9,6 +9,7 @@
   <meta id="theme-color-dark" name="theme-color" media="(prefers-color-scheme: dark)" content="#1c181c">
   <script>
     (() => {
+      document.documentElement.classList.add("js");
       const storageKey = "yuri-classification-theme";
       const allowed = new Set(["system", "light", "dark"]);
       let preference = "system";
@@ -46,8 +47,8 @@
   <meta property="og:url" content="https://l-m-sherlock.github.io/yuri-classification-archive/works/el_cazador_de_la_bruja_tv_2007/">
   <meta property="og:image" content="https://l-m-sherlock.github.io/yuri-classification-archive/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
   <title>《魔女猎人》分类报告｜百合作品分类档案</title>
-  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=014a89622973">
-  
+  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=1cc35b33d5cd">
+
 </head>
 <body class="classification-report">
   <a class="skip-link" href="#main-content">跳到正文</a>
@@ -60,12 +61,24 @@
           <small>按查询拆开标签，按证据保留边界</small>
         </span>
       </a>
-      <nav class="site-nav" aria-label="主导航">
-        <a href="/yuri-classification-archive/">首页</a>
-        <a href="/yuri-classification-archive/table/">总表</a>
-        <a href="/yuri-classification-archive/about/">方法与说明</a>
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-navigation"
+      >
+        <span>菜单</span>
+        <span class="menu-toggle-icon" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-navigation" aria-label="主导航">
+        <div class="nav-main">
+          <a href="/yuri-classification-archive/">首页</a>
+          <a href="/yuri-classification-archive/table/">总表</a>
+          <a href="/yuri-classification-archive/about/">方法与说明</a>
+        </div>
         <a class="nav-star" href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub / Star <span aria-hidden="true">↗</span></a>
-        <a href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
+        <a class="nav-feedback" href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
         <label class="theme-control" for="theme-preference">
           <span>主题</span>
           <select id="theme-preference" aria-label="主题偏好">
@@ -84,7 +97,7 @@
     <h1>《魔女猎人》分类报告</h1>
     <p class="report-subtitle">2007 television series formal episodes 1–26</p>
     <div class="label-strip" aria-label="分类摘要">
-      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>恋爱位置：</strong>主线</span><span class="label-chip"><strong>最高明确度：</strong>潜在／明显但未确认</span><span class="label-chip"><strong>官方：</strong>未标百合／GL</span><span class="label-chip"><strong>置信度：</strong>高</span>
+      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>恋爱位置：</strong>主线</span><span class="label-chip"><strong>最高明确度：</strong>潜在／明显但未确认</span><span class="label-chip"><strong>官方字面百合／GL：</strong>所核未见</span><span class="label-chip"><strong>官方女女恋爱表述：</strong>所核未见</span><span class="label-chip"><strong>官方来源：</strong>所核来源未含可公开筛选的层级或位置</span><span class="label-chip"><strong>置信度：</strong>高</span>
     </div>
     <a class="back-link" href="/yuri-classification-archive/table/?q=%E9%AD%94%E5%A5%B3%E7%8C%8E%E4%BA%BA">← 返回总表并定位本作</a>
   </header>
@@ -94,7 +107,7 @@
       <ol><li><a href="#无剧透结论">无剧透结论</a></li><li><a href="#数据库与公开分类">数据库与公开分类</a></li><li><a href="#决定性文本证据">决定性文本证据</a></li><li><a href="#四层分析">四层分析</a></li><li><a href="#最强反方解释">最强反方解释</a></li><li><a href="#分用途结论">分用途结论</a></li><li><a href="#方法来源与限制">方法、来源与限制</a></li></ol>
     </aside>
     <div class="report-content">
-      <blockquote><p>分类日期：2026-07-31<br> 分类对象：2007 年电视动画《エル・カザド》正式第 1–26 话<br> 纳入范围：电视播出正篇二十六话，以 TV Tokyo 官方分集页与 Bangumi 二十六条 type-0 记录锁定<br> 排除范围：漫画、广播剧、影碟奖励、宣传材料、其他 Bee Train 作品及所谓“枪姬三部曲”的跨作推断<br> 用途：普通推荐、数据库分类、严格恋爱检索与角色身份检索</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p>本作应归入女女关系主线且按作品分类归档，置信度高。Ellis 与 Nadie 从赏金首和受雇保护者变成共同逃亡、工作、照料、争执、和好并自行选择未来的搭档；二人的关系既组织公路单元，也决定阴谋高潮与结局。恋爱读法明显：特定对象的吃味、贴近、临终“最喜欢”和再次出发都由正篇提供，不只是数据库声誉。</p><p>仍不能写成确认情侣。二人直接确认过“好朋友”“搭档”，没有恋人称谓、交往、恋爱语境下的接吻或性取向自述；Nadie 的保护与同行也可由友情、责任和选择家庭完整解释。多条男性欲望／恋爱线实际存在，其中包括长期跟踪与控制，不能为了得到整洁标签而删除。</p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：主线｜最高明确度：潜在／明显但未确认的恋爱指向｜关系构成：Ellis—Nadie 主关系＋乔迪参与的女性保护／联盟关系｜官方：未标百合／GL｜阅读层级：正篇事实＋强推断＋读者解读｜身份依据类型：只有关系性质推断，无身份自述｜男性恋爱线：并行；含 L.A. 与 Rosenberg 对 Ellis 的单向执迷、Heinz—Ellis 的含混爱、Nadie—Miguel 旧情及 Pedro 对 Nadie 的好感｜内容提示：枪击、刀／钢丝伤害与死亡，人体实验和精神操纵，跟踪、占有、非自愿睡眠中亲吻及恋爱化控制，绑架、拘束、虐待与裸露，研究者／受试者权力差，要求亲近者开枪及短暂死亡，丧亲与聚落毁灭，性别不合规范人物的反派刻画与贬称。</strong></p></blockquote><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li>只收双方告白、恋人称谓、正式交往或恋爱接吻：不纳入；Ellis 的方向最明显，Nadie 没有作恋爱性对称回应。</li><li>接受女女关系组织全作、并有可核对的排他反应与强烈爱语：可纳入，须注明“好朋友／搭档为明示名称，恋爱性质未确认”。</li><li>排除男性求爱、旧情或男女伴侣：不符合；数条男性线从单集旧情到贯穿式执迷均存在。</li><li>角色身份查询：不纳入；Yuri／百合标签和具体关系都不能替角色声明女同性恋、双性恋或其他身份。</li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="http://www.elcazador.tv/" target="_blank" rel="noopener noreferrer">旧官网</a>／<a href="https://www.tv-tokyo.co.jp/contents/elcazador/story/index.html" target="_blank" rel="noopener noreferrer">TV Tokyo 故事页</a>／<a href="https://www.tv-tokyo.co.jp/contents/elcazador/episodes/episodes1/index.html" target="_blank" rel="noopener noreferrer">分集 1–13</a>／<a href="https://www.tv-tokyo.co.jp/contents/elcazador/episodes/episodes2/index.html" target="_blank" rel="noopener noreferrer">14–26</a></td><td>官方总述写 Nadie 找到并救下 Ellis、主动担任向导，二人开始逃亡；分集页完整列第 1–26 话。没有百合／GL 类型字段</td><td>权利方作品资料、范围与旁文本</td><td>锁定对象和双主角主轴；官方未标只表示页面没有该字段，不是官方否认</td></tr><tr class="even"><td><a href="https://myanimelist.net/anime/2030/El_Cazador_de_la_Bruja" target="_blank" rel="noopener noreferrer">MyAnimeList 2030</a></td><td>TV、26 话、Bee Train、原创；Genres 为 Adventure／Drama／Mystery，无 Girls Love／Romance。当前公开页分数 7.23、19,442 人评分、Rank 3551、60,002 members</td><td>编辑型数据库字段</td><td>采用直连 200 与精确公开文本恢复的当前字段；Jikan 同 ID 也成功，仅动态统计略滞后，不制造“标签失败”</td></tr><tr class="odd"><td><a href="https://www.anime-planet.com/anime/el-cazador-de-la-bruja" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td>直连返回 403 挑战页；精确条目公开文本与精确标题搜索卡均成功。完整七标签为 Action、Adventure、Bounty Hunters、Guns、Psychic Powers、Superpowers、Original Work，无 GL／Shoujo-ai／Yuri／Romance</td><td>编辑标签库；访问恢复</td><td>403 只记访问层问题；两条恢复路线共同证明当前完整面板，标签沉默仍只写“未标”</td></tr><tr class="even"><td><a href="https://anilist.co/anime/2030/El-Cazador" target="_blank" rel="noopener noreferrer">AniList 2030</a></td><td>TV、26 话；Genres 为 Adventure／Drama／Mystery；完整标签含 Yuri 72、LGBTQ+ Themes 60，二者均标为剧透，另有 Travel 75、Female Protagonist 77</td><td>编辑字段＋带相关度的社区标签</td><td>证明该站存在明确百合／LGBTQ+ 检索入口；权重不是人数、百分比或情侣确认</td></tr><tr class="odd"><td><a href="https://bangumi.tv/subject/3489" target="_blank" rel="noopener noreferrer">Bangumi 3489</a>／<a href="https://api.bgm.tv/v0/subjects/3489" target="_blank" rel="noopener noreferrer">公共 API</a></td><td>TV、26 话、Rank 2432、评分 7.0；“百合”330。五状态为想看 1126／看过 1058／在看 140／搁置 175／抛弃 65，合计 2564；330／2564＝12.87%</td><td>社区用户标签与收藏状态</td><td>保留原始动态计数作尺度参照，不称投票率；“noir三部曲”118 只记录社区命名，不允许跨作倒推</td></tr><tr class="even"><td><a href="https://www.crunchyroll.com/series/G4PH0WEZP/el-cazador-de-la-bruja" target="_blank" rel="noopener noreferrer">Crunchyroll</a></td><td>当前授权页列日／英语音轨、英语字幕、Adventure／Drama；简介称 Ellis 为 Nadie 的朋友，并说公路旅程使二人更加接近、特殊纽带将受考验</td><td>授权发行旁文本</td><td>旁证双人关系是公开宣传核心；“特殊纽带”没有把关系命名为恋爱</td></tr><tr class="odd"><td><a href="https://www.bilibili.com/video/BV1Nx411w7ej/" target="_blank" rel="noopener noreferrer">Bilibili 二十六 P 合集</a></td><td>用户上传的日语音轨＋画面内简体中文字幕，view API 返回 26 P；页面顺序把第 26 话放在 P2，本报告按逻辑话号重排</td><td>第三方视听材料</td><td>用于逐话音画、台词定位与同步画面核对；不作为官方类型来源，也不把用户标题当权利方标签</td></tr></tbody></table></div><p>必须区分获取失败与标签缺失。MAL 正式页、公开文本和 Jikan 均成功；Anime-Planet 只有直连挑战，随后精确作品页和标题卡两路恢复；AniList GraphQL、Bangumi subject 与二十六条 episode API 均直接成功。四库没有仍待猜填的目标字段。它们的差异来自标签制度：两库未标，AniList 与 Bangumi收录百合读法，不能按“二比二”表决文本。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>以下部分包含第 1–26 话完整剧透，包括跟踪式亲吻、人物死亡、要求开枪及结局。</p></aside>
+      <blockquote><p>分类日期：2026-07-31<br> 分类对象：2007 年电视动画《エル・カザド》正式第 1–26 话<br> 纳入范围：电视播出正篇二十六话，以 TV Tokyo 官方分集页与 Bangumi 二十六条 type-0 记录锁定<br> 排除范围：漫画、广播剧、影碟奖励、宣传材料、其他 Bee Train 作品及所谓“枪姬三部曲”的跨作推断<br> 用途：普通推荐、数据库分类、严格恋爱检索与角色身份检索</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p>本作应归入女女关系主线且按作品分类归档，置信度高。Ellis 与 Nadie 从赏金首和受雇保护者变成共同逃亡、工作、照料、争执、和好并自行选择未来的搭档；二人的关系既组织公路单元，也决定阴谋高潮与结局。恋爱读法明显：特定对象的吃味、贴近、临终“最喜欢”和再次出发都由正篇提供，不只是数据库声誉。</p><p>仍不能写成确认情侣。二人直接确认过“好朋友”“搭档”，没有恋人称谓、交往、恋爱语境下的接吻或性取向自述；Nadie 的保护与同行也可由友情、责任和选择家庭完整解释。多条男性欲望／恋爱线实际存在，其中包括长期跟踪与控制，不能为了得到整洁标签而删除。</p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：主线｜最高明确度：潜在／明显但未确认的恋爱指向｜关系构成：Ellis—Nadie 主关系＋乔迪参与的女性保护／联盟关系｜官方字面：所核未见｜官方恋爱表述：所核未见｜官方来源：所核未见匹配表述｜阅读层级：正篇事实＋强推断＋读者解读｜身份依据类型：只有关系性质推断，无身份自述｜男性恋爱线：并行；含 L.A. 与 Rosenberg 对 Ellis 的单向执迷、Heinz—Ellis 的含混爱、Nadie—Miguel 旧情及 Pedro 对 Nadie 的好感｜内容提示：枪击、刀／钢丝伤害与死亡，人体实验和精神操纵，跟踪、占有、非自愿睡眠中亲吻及恋爱化控制，绑架、拘束、虐待与裸露，研究者／受试者权力差，要求亲近者开枪及短暂死亡，丧亲与聚落毁灭，性别不合规范人物的反派刻画与贬称。</strong></p></blockquote><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li>只收双方告白、恋人称谓、正式交往或恋爱接吻：不纳入；Ellis 的方向最明显，Nadie 没有作恋爱性对称回应。</li><li>接受女女关系组织全作、并有可核对的排他反应与强烈爱语：可纳入，须注明“好朋友／搭档为明示名称，恋爱性质未确认”。</li><li>排除男性求爱、旧情或男女伴侣：不符合；数条男性线从单集旧情到贯穿式执迷均存在。</li><li>角色身份查询：不纳入；Yuri／百合标签和具体关系都不能替角色声明女同性恋、双性恋或其他身份。</li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="http://www.elcazador.tv/" target="_blank" rel="noopener noreferrer">旧官网</a>／<a href="https://www.tv-tokyo.co.jp/contents/elcazador/story/index.html" target="_blank" rel="noopener noreferrer">TV Tokyo 故事页</a>／<a href="https://www.tv-tokyo.co.jp/contents/elcazador/episodes/episodes1/index.html" target="_blank" rel="noopener noreferrer">分集 1–13</a>／<a href="https://www.tv-tokyo.co.jp/contents/elcazador/episodes/episodes2/index.html" target="_blank" rel="noopener noreferrer">14–26</a></td><td>官方总述写 Nadie 找到并救下 Ellis、主动担任向导，二人开始逃亡；分集页完整列第 1–26 话。没有百合／GL 类型字段</td><td>权利方作品资料、范围与旁文本</td><td>锁定对象和双主角主轴；官方未标只表示页面没有该字段，不是官方否认</td></tr><tr class="even"><td><a href="https://myanimelist.net/anime/2030/El_Cazador_de_la_Bruja" target="_blank" rel="noopener noreferrer">MyAnimeList 2030</a></td><td>TV、26 话、Bee Train、原创；Genres 为 Adventure／Drama／Mystery，无 Girls Love／Romance。当前公开页分数 7.23、19,442 人评分、Rank 3551、60,002 members</td><td>编辑型数据库字段</td><td>采用直连 200 与精确公开文本恢复的当前字段；Jikan 同 ID 也成功，仅动态统计略滞后，不制造“标签失败”</td></tr><tr class="odd"><td><a href="https://www.anime-planet.com/anime/el-cazador-de-la-bruja" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td>直连返回 403 挑战页；精确条目公开文本与精确标题搜索卡均成功。完整七标签为 Action、Adventure、Bounty Hunters、Guns、Psychic Powers、Superpowers、Original Work，无 GL／Shoujo-ai／Yuri／Romance</td><td>编辑标签库；访问恢复</td><td>403 只记访问层问题；两条恢复路线共同证明当前完整面板，标签沉默仍只写“未标”</td></tr><tr class="even"><td><a href="https://anilist.co/anime/2030/El-Cazador" target="_blank" rel="noopener noreferrer">AniList 2030</a></td><td>TV、26 话；Genres 为 Adventure／Drama／Mystery；完整标签含 Yuri 72、LGBTQ+ Themes 60，二者均标为剧透，另有 Travel 75、Female Protagonist 77</td><td>编辑字段＋带相关度的社区标签</td><td>证明该站存在明确百合／LGBTQ+ 检索入口；权重不是人数、百分比或情侣确认</td></tr><tr class="odd"><td><a href="https://bangumi.tv/subject/3489" target="_blank" rel="noopener noreferrer">Bangumi 3489</a>／<a href="https://api.bgm.tv/v0/subjects/3489" target="_blank" rel="noopener noreferrer">公共 API</a></td><td>TV、26 话、Rank 2432、评分 7.0；“百合”330。五状态为想看 1126／看过 1058／在看 140／搁置 175／抛弃 65，合计 2564；330／2564＝12.87%</td><td>社区用户标签与收藏状态</td><td>保留原始动态计数作尺度参照，不称投票率；“noir三部曲”118 只记录社区命名，不允许跨作倒推</td></tr><tr class="even"><td><a href="https://www.crunchyroll.com/series/G4PH0WEZP/el-cazador-de-la-bruja" target="_blank" rel="noopener noreferrer">Crunchyroll</a></td><td>当前授权页列日／英语音轨、英语字幕、Adventure／Drama；简介称 Ellis 为 Nadie 的朋友，并说公路旅程使二人更加接近、特殊纽带将受考验</td><td>授权发行旁文本</td><td>旁证双人关系是公开宣传核心；“特殊纽带”没有把关系命名为恋爱</td></tr><tr class="odd"><td><a href="https://www.bilibili.com/video/BV1Nx411w7ej/" target="_blank" rel="noopener noreferrer">Bilibili 二十六 P 合集</a></td><td>用户上传的日语音轨＋画面内简体中文字幕，view API 返回 26 P；页面顺序把第 26 话放在 P2，本报告按逻辑话号重排</td><td>第三方视听材料</td><td>用于逐话音画、台词定位与同步画面核对；不作为官方类型来源，也不把用户标题当权利方标签</td></tr></tbody></table></div><p>必须区分获取失败与标签缺失。MAL 正式页、公开文本和 Jikan 均成功；Anime-Planet 只有直连挑战，随后精确作品页和标题卡两路恢复；AniList GraphQL、Bangumi subject 与二十六条 episode API 均直接成功。四库没有仍待猜填的目标字段。它们的差异来自标签制度：两库未标，AniList 与 Bangumi收录百合读法，不能按“二比二”表决文本。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>以下部分包含第 1–26 话完整剧透，包括跟踪式亲吻、人物死亡、要求开枪及结局。</p></aside>
 
       <details class="spoiler-panel">
         <summary>
@@ -142,7 +155,7 @@
     </div>
   </footer>
   <script>window.SITE_CONFIG = {basePath: "/yuri-classification-archive"};</script>
-  <script src="/yuri-classification-archive/assets/site.js?v=95491b68a3ae" defer></script>
-  
+  <script src="/yuri-classification-archive/assets/site.js?v=686fc3d330d3" defer></script>
+
 </body>
 </html>

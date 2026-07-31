@@ -9,6 +9,7 @@
   <meta id="theme-color-dark" name="theme-color" media="(prefers-color-scheme: dark)" content="#1c181c">
   <script>
     (() => {
+      document.documentElement.classList.add("js");
       const storageKey = "yuri-classification-theme";
       const allowed = new Set(["system", "light", "dark"]);
       let preference = "system";
@@ -46,8 +47,8 @@
   <meta property="og:url" content="https://l-m-sherlock.github.io/yuri-classification-archive/works/renai_laboratory_tv_2013/">
   <meta property="og:image" content="https://l-m-sherlock.github.io/yuri-classification-archive/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
   <title>《恋爱研究所》分类报告｜百合作品分类档案</title>
-  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=014a89622973">
-  
+  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=1cc35b33d5cd">
+
 </head>
 <body class="classification-report">
   <a class="skip-link" href="#main-content">跳到正文</a>
@@ -60,12 +61,24 @@
           <small>按查询拆开标签，按证据保留边界</small>
         </span>
       </a>
-      <nav class="site-nav" aria-label="主导航">
-        <a href="/yuri-classification-archive/">首页</a>
-        <a href="/yuri-classification-archive/table/">总表</a>
-        <a href="/yuri-classification-archive/about/">方法与说明</a>
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-navigation"
+      >
+        <span>菜单</span>
+        <span class="menu-toggle-icon" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-navigation" aria-label="主导航">
+        <div class="nav-main">
+          <a href="/yuri-classification-archive/">首页</a>
+          <a href="/yuri-classification-archive/table/">总表</a>
+          <a href="/yuri-classification-archive/about/">方法与说明</a>
+        </div>
         <a class="nav-star" href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub / Star <span aria-hidden="true">↗</span></a>
-        <a href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
+        <a class="nav-feedback" href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
         <label class="theme-control" for="theme-preference">
           <span>主题</span>
           <select id="theme-preference" aria-label="主题偏好">
@@ -84,7 +97,7 @@
     <h1>《恋爱研究所》分类报告</h1>
     <p class="report-subtitle">2013年TV动画正式第1—13话（单季全13话正篇）</p>
     <div class="label-strip" aria-label="分类摘要">
-      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>恋爱位置：</strong>缺席</span><span class="label-chip"><strong>最高明确度：</strong>非恋爱</span><span class="label-chip"><strong>官方：</strong>未标百合／GL</span><span class="label-chip"><strong>置信度：</strong>高</span>
+      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>恋爱位置：</strong>缺席</span><span class="label-chip"><strong>最高明确度：</strong>非恋爱</span><span class="label-chip"><strong>官方字面百合／GL：</strong>所核未见</span><span class="label-chip"><strong>官方女女恋爱表述：</strong>所核未见</span><span class="label-chip"><strong>官方来源：</strong>所核来源未含可公开筛选的层级或位置</span><span class="label-chip"><strong>置信度：</strong>高</span>
     </div>
     <a class="back-link" href="/yuri-classification-archive/table/?q=%E6%81%8B%E7%88%B1%E7%A0%94%E7%A9%B6%E6%89%80">← 返回总表并定位本作</a>
   </header>
@@ -94,7 +107,7 @@
       <ol><li><a href="#无剧透结论">无剧透结论</a></li><li><a href="#数据库与公开分类">数据库与公开分类</a></li><li><a href="#决定性文本证据">决定性文本证据</a></li><li><a href="#四层分析">四层分析</a></li><li><a href="#最强反方解释">最强反方解释</a></li><li><a href="#分用途结论">分用途结论</a></li><li><a href="#方法来源与限制">方法、来源与限制</a></li></ol>
     </aside>
     <div class="report-content">
-      <blockquote><p>分类日期：2026-07-30<br> 分类对象：《恋愛ラボ》2013 年 TV 动画<br> 纳入范围：正式第 1—13 话（单季全 13 话正篇）<br> 排除范围：原作漫画、漫画后续、影像特典、广播、完整歌曲、活动、访谈、社交媒体及其他跨媒体材料<br> 用途：普通推荐、数据库分类与严格恋爱检索</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p>本作在本档案采用的宽口径下属于女女关系主线且按作品分类归档，置信度高。五名女中学生的相识、合作、冲突与互相维护构成全季最稳定的叙事结构；女性共同体不是附着在其他主线旁的局部材料。它同时也是校园群像与恋爱主题喜剧，这些类型不因百合分类而被替代。</p><p>主要女女关系应标为双向、非恋爱友情。TV 正篇没有女性双方告白、正式交往、接吻、明确同性欲望或性取向身份明示；恋爱研究及实际恋爱材料则明确包含男性对象。因此，严格女女恋爱检索应排除本作，男性恋爱线应记为副线。</p><p>若数据库允许非恋爱女女关系中心作品进入百合，本作可以收录，但必须同时标明“非恋爱”和“男性恋爱副线”；若“百合”仅指女性恋爱，则应改列“女性友情中心的校园喜剧／可作轻百合阅读”。核对到的官方资料未采用百合或 GL 类型名。</p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：缺席｜最高明确度：非恋爱｜关系构成：单一主要关系记录｜官方：未标百合／GL，官方称“恋に恋する”五名少女的恋爱研究｜阅读层级：正篇事实＋强推断＋读者解读｜身份依据类型：范围内没有性取向身份依据｜男性恋爱线：副线｜内容提示：喜剧化敲打与轻度身体冲突；校规对男女交往的惩戒威胁；性别气质、胸部和外貌玩笑；深色妆容及模仿表演构成的肤色／种族刻板笑料</strong></p></blockquote><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><p>只寻找女性双方告白、正式交往、接吻、明确同性欲望或女同性恋／双性恋身份明示的读者，应排除本作。正篇有可以被恋爱化阅读的女性互动，但没有把主要女女关系确认为恋爱。</p><p>接受女性共同体、相互维护和非恋爱亲密进入百合文类的读者，则适合把本作作为轻百合或宽口径百合作品观看。推荐时应同步说明女女关系是主线、恋爱研究包含男性对象。</p><h2 id="数据库与公开分类">数据库与公开分类</h2><p>下表区分官方自述、编辑编目、社区标签和材料索引，均为 2026-07-30 快照。平台未列某标签只表示字段沉默；社区标签不是官方认证，计数也不是定义投票。</p><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://www.love-lab.tv/intro/index.html" target="_blank" rel="noopener noreferrer">TV 动画官网 Introduction</a></td><td>称作品为“恋に恋する５人の美少女”进行稍微偏离常规的恋爱研究；未使用百合或 GL 标签</td><td>官方作品自述</td><td>确认五人群像、恋爱研究和市场表述；“未标”不是官方否认，宣传语也没有确认女女恋爱</td></tr><tr class="even"><td><a href="https://www.love-lab.tv/story/" target="_blank" rel="noopener noreferrer">TV 动画官网 Story</a>及<a href="https://www.love-lab.tv/story/13.html" target="_blank" rel="noopener noreferrer">第 13 话梗概</a></td><td>正式列出第 1—13 话；终话梗概把核心危机写成莉子的谎言、真木的异常和莉子是否坦白</td><td>官方单话资料</td><td>确认本次范围，并交叉印证终局是女性友谊中的信任危机，不是男女配对终局</td></tr><tr class="odd"><td><a href="https://myanimelist.net/anime/16353/Love_Lab" target="_blank" rel="noopener noreferrer">MyAnimeList 条目 16353</a></td><td>TV、13 话；Genres 为 Comedy／Romance，Themes 为 CGDCT／School，未列 Girls Love</td><td>编辑型数据库</td><td>记录国际数据库的编目侧重；Romance 包含作品的恋爱研究与异性恋爱材料，不能自动解释为女性恋爱</td></tr><tr class="even"><td><a href="https://www.anime-planet.com/anime/love-lab" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td>2026-07-30 完整 Tags 面板：<code>Comedy / Romance / Seinen / All-Girls School / Animeism / School Life / Based on a 4-Koma Manga / Based on a Manga</code></td><td>编辑维护的数据库标签</td><td>记录当前检索字段；不是官方认证，标签存在或沉默都不自动裁定作品关系</td></tr><tr class="odd"><td><a href="https://www.crunchyroll.com/series/GRWEMVNQR/love-lab" target="_blank" rel="noopener noreferrer">Crunchyroll《Love Lab》</a></td><td>授权发行页列 Comedy／Romance，并以五名学生会成员为简介主体</td><td>授权发行编目</td><td>说明发行侧也以喜剧／恋爱编目；没有提供百合或角色身份认证</td></tr><tr class="even"><td><a href="https://anilist.co/anime/16353" target="_blank" rel="noopener noreferrer">AniList 条目 16353</a>及公开 GraphQL 数据</td><td>Genres 为 Comedy／Romance；社区标签含女性主角 95%、女性角色为主 90%、可爱女孩做可爱事 82%、Heterosexual 68%，未返回 Yuri</td><td>编辑字段＋带权重社区标签</td><td>记录另一套公共标签机制；Heterosexual 权重与正文男性恋爱材料相符，但不是角色身份普查</td></tr><tr class="odd"><td><a href="https://bangumi.tv/subject/58850" target="_blank" rel="noopener noreferrer">Bangumi 条目 58850</a>及<a href="https://api.bgm.tv/v0/subjects/58850" target="_blank" rel="noopener noreferrer">公开 API</a></td><td>TV、13 话；用户标签快照含“百合”1131、“轻百合”38、“恋爱”47，另有搞笑、校园、日常等</td><td>社区自由标签数据库</td><td>证明中文社区有非常显著的百合观看入口；计数不能换算成支持率，也不能覆盖正片对友情和男性恋爱的明确表述</td></tr><tr class="even"><td><a href="https://jimaku.cc/entry/1400" target="_blank" rel="noopener noreferrer">Jimaku 条目 1400</a></td><td>条目对应 AniList 16353，提供正式第 1—13 话逐话日文 SRT</td><td>第三方字幕索引</td><td>用于全季原语核读和时间定位，不作为官方或社区关系分类来源</td></tr></tbody></table></div><p>来源的分叉反映它们在回答不同问题。官网、MAL、Crunchyroll 与 AniList强调恋爱主题和男性材料，Bangumi 用户则大量以百合进入；前者不能抹掉女女关系的中心性，后者也不能把 Romance 偷换成女女恋爱。数据库只说明公共标签习惯，关系事实仍需回到 13 话文本。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>以下部分包含本次分类对象的完整剧透。</p></aside>
+      <blockquote><p>分类日期：2026-07-30<br> 分类对象：《恋愛ラボ》2013 年 TV 动画<br> 纳入范围：正式第 1—13 话（单季全 13 话正篇）<br> 排除范围：原作漫画、漫画后续、影像特典、广播、完整歌曲、活动、访谈、社交媒体及其他跨媒体材料<br> 用途：普通推荐、数据库分类与严格恋爱检索</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p>本作在本档案采用的宽口径下属于女女关系主线且按作品分类归档，置信度高。五名女中学生的相识、合作、冲突与互相维护构成全季最稳定的叙事结构；女性共同体不是附着在其他主线旁的局部材料。它同时也是校园群像与恋爱主题喜剧，这些类型不因百合分类而被替代。</p><p>主要女女关系应标为双向、非恋爱友情。TV 正篇没有女性双方告白、正式交往、接吻、明确同性欲望或性取向身份明示；恋爱研究及实际恋爱材料则明确包含男性对象。因此，严格女女恋爱检索应排除本作，男性恋爱线应记为副线。</p><p>若数据库允许非恋爱女女关系中心作品进入百合，本作可以收录，但必须同时标明“非恋爱”和“男性恋爱副线”；若“百合”仅指女性恋爱，则应改列“女性友情中心的校园喜剧／可作轻百合阅读”。核对到的官方资料未采用百合或 GL 类型名。</p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：缺席｜最高明确度：非恋爱｜关系构成：单一主要关系记录｜官方字面：所核未见｜官方恋爱表述：所核未见｜官方来源：所核未见匹配表述｜阅读层级：正篇事实＋强推断＋读者解读｜身份依据类型：范围内没有性取向身份依据｜男性恋爱线：副线｜内容提示：喜剧化敲打与轻度身体冲突；校规对男女交往的惩戒威胁；性别气质、胸部和外貌玩笑；深色妆容及模仿表演构成的肤色／种族刻板笑料</strong></p></blockquote><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><p>只寻找女性双方告白、正式交往、接吻、明确同性欲望或女同性恋／双性恋身份明示的读者，应排除本作。正篇有可以被恋爱化阅读的女性互动，但没有把主要女女关系确认为恋爱。</p><p>接受女性共同体、相互维护和非恋爱亲密进入百合文类的读者，则适合把本作作为轻百合或宽口径百合作品观看。推荐时应同步说明女女关系是主线、恋爱研究包含男性对象。</p><h2 id="数据库与公开分类">数据库与公开分类</h2><p>下表区分官方自述、编辑编目、社区标签和材料索引，均为 2026-07-30 快照。平台未列某标签只表示字段沉默；社区标签不是官方认证，计数也不是定义投票。</p><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://www.love-lab.tv/intro/index.html" target="_blank" rel="noopener noreferrer">TV 动画官网 Introduction</a></td><td>称作品为“恋に恋する５人の美少女”进行稍微偏离常规的恋爱研究；未使用百合或 GL 标签</td><td>官方作品自述</td><td>确认五人群像、恋爱研究和市场表述；“未标”不是官方否认，宣传语也没有确认女女恋爱</td></tr><tr class="even"><td><a href="https://www.love-lab.tv/story/" target="_blank" rel="noopener noreferrer">TV 动画官网 Story</a>及<a href="https://www.love-lab.tv/story/13.html" target="_blank" rel="noopener noreferrer">第 13 话梗概</a></td><td>正式列出第 1—13 话；终话梗概把核心危机写成莉子的谎言、真木的异常和莉子是否坦白</td><td>官方单话资料</td><td>确认本次范围，并交叉印证终局是女性友谊中的信任危机，不是男女配对终局</td></tr><tr class="odd"><td><a href="https://myanimelist.net/anime/16353/Love_Lab" target="_blank" rel="noopener noreferrer">MyAnimeList 条目 16353</a></td><td>TV、13 话；Genres 为 Comedy／Romance，Themes 为 CGDCT／School，未列 Girls Love</td><td>编辑型数据库</td><td>记录国际数据库的编目侧重；Romance 包含作品的恋爱研究与异性恋爱材料，不能自动解释为女性恋爱</td></tr><tr class="even"><td><a href="https://www.anime-planet.com/anime/love-lab" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td>2026-07-30 完整 Tags 面板：<code>Comedy / Romance / Seinen / All-Girls School / Animeism / School Life / Based on a 4-Koma Manga / Based on a Manga</code></td><td>编辑维护的数据库标签</td><td>记录当前检索字段；不是官方认证，标签存在或沉默都不自动裁定作品关系</td></tr><tr class="odd"><td><a href="https://www.crunchyroll.com/series/GRWEMVNQR/love-lab" target="_blank" rel="noopener noreferrer">Crunchyroll《Love Lab》</a></td><td>授权发行页列 Comedy／Romance，并以五名学生会成员为简介主体</td><td>授权发行编目</td><td>说明发行侧也以喜剧／恋爱编目；没有提供百合或角色身份认证</td></tr><tr class="even"><td><a href="https://anilist.co/anime/16353" target="_blank" rel="noopener noreferrer">AniList 条目 16353</a>及公开 GraphQL 数据</td><td>Genres 为 Comedy／Romance；社区标签含女性主角 95%、女性角色为主 90%、可爱女孩做可爱事 82%、Heterosexual 68%，未返回 Yuri</td><td>编辑字段＋带权重社区标签</td><td>记录另一套公共标签机制；Heterosexual 权重与正文男性恋爱材料相符，但不是角色身份普查</td></tr><tr class="odd"><td><a href="https://bangumi.tv/subject/58850" target="_blank" rel="noopener noreferrer">Bangumi 条目 58850</a>及<a href="https://api.bgm.tv/v0/subjects/58850" target="_blank" rel="noopener noreferrer">公开 API</a></td><td>TV、13 话；用户标签快照含“百合”1131、“轻百合”38、“恋爱”47，另有搞笑、校园、日常等</td><td>社区自由标签数据库</td><td>证明中文社区有非常显著的百合观看入口；计数不能换算成支持率，也不能覆盖正片对友情和男性恋爱的明确表述</td></tr><tr class="even"><td><a href="https://jimaku.cc/entry/1400" target="_blank" rel="noopener noreferrer">Jimaku 条目 1400</a></td><td>条目对应 AniList 16353，提供正式第 1—13 话逐话日文 SRT</td><td>第三方字幕索引</td><td>用于全季原语核读和时间定位，不作为官方或社区关系分类来源</td></tr></tbody></table></div><p>来源的分叉反映它们在回答不同问题。官网、MAL、Crunchyroll 与 AniList强调恋爱主题和男性材料，Bangumi 用户则大量以百合进入；前者不能抹掉女女关系的中心性，后者也不能把 Romance 偷换成女女恋爱。数据库只说明公共标签习惯，关系事实仍需回到 13 话文本。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>以下部分包含本次分类对象的完整剧透。</p></aside>
 
       <details class="spoiler-panel">
         <summary>
@@ -142,7 +155,7 @@
     </div>
   </footer>
   <script>window.SITE_CONFIG = {basePath: "/yuri-classification-archive"};</script>
-  <script src="/yuri-classification-archive/assets/site.js?v=95491b68a3ae" defer></script>
-  
+  <script src="/yuri-classification-archive/assets/site.js?v=686fc3d330d3" defer></script>
+
 </body>
 </html>

@@ -9,6 +9,7 @@
   <meta id="theme-color-dark" name="theme-color" media="(prefers-color-scheme: dark)" content="#1c181c">
   <script>
     (() => {
+      document.documentElement.classList.add("js");
       const storageKey = "yuri-classification-theme";
       const allowed = new Set(["system", "light", "dark"]);
       let preference = "system";
@@ -46,8 +47,8 @@
   <meta property="og:url" content="https://l-m-sherlock.github.io/yuri-classification-archive/works/awajima_hyakkei_tv_2026/">
   <meta property="og:image" content="https://l-m-sherlock.github.io/yuri-classification-archive/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
   <title>《淡岛百景》分类报告｜百合作品分类档案</title>
-  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=014a89622973">
-  
+  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=1cc35b33d5cd">
+
 </head>
 <body class="classification-report">
   <a class="skip-link" href="#main-content">跳到正文</a>
@@ -60,12 +61,24 @@
           <small>按查询拆开标签，按证据保留边界</small>
         </span>
       </a>
-      <nav class="site-nav" aria-label="主导航">
-        <a href="/yuri-classification-archive/">首页</a>
-        <a href="/yuri-classification-archive/table/">总表</a>
-        <a href="/yuri-classification-archive/about/">方法与说明</a>
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-navigation"
+      >
+        <span>菜单</span>
+        <span class="menu-toggle-icon" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-navigation" aria-label="主导航">
+        <div class="nav-main">
+          <a href="/yuri-classification-archive/">首页</a>
+          <a href="/yuri-classification-archive/table/">总表</a>
+          <a href="/yuri-classification-archive/about/">方法与说明</a>
+        </div>
         <a class="nav-star" href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub / Star <span aria-hidden="true">↗</span></a>
-        <a href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
+        <a class="nav-feedback" href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
         <label class="theme-control" for="theme-preference">
           <span>主题</span>
           <select id="theme-preference" aria-label="主题偏好">
@@ -84,7 +97,7 @@
     <h1>《淡岛百景》分类报告</h1>
     <p class="report-subtitle">2026 TV anime episodes 1-12</p>
     <div class="label-strip" aria-label="分类摘要">
-      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>恋爱位置：</strong>重要副线</span><span class="label-chip"><strong>最高明确度：</strong>明确欲望</span><span class="label-chip"><strong>官方：</strong>未标百合／GL</span><span class="label-chip"><strong>置信度：</strong>高</span>
+      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>恋爱位置：</strong>重要副线</span><span class="label-chip"><strong>最高明确度：</strong>明确欲望</span><span class="label-chip"><strong>官方字面百合／GL：</strong>所核未见</span><span class="label-chip"><strong>官方女女恋爱表述：</strong>所核未见</span><span class="label-chip"><strong>官方来源：</strong>所核来源未含可公开筛选的层级或位置</span><span class="label-chip"><strong>置信度：</strong>高</span>
     </div>
     <a class="back-link" href="/yuri-classification-archive/table/?q=%E6%B7%A1%E5%B2%9B%E7%99%BE%E6%99%AF">← 返回总表并定位本作</a>
   </header>
@@ -94,7 +107,7 @@
       <ol><li><a href="#无剧透结论">无剧透结论</a></li><li><a href="#数据库与公开分类">数据库与公开分类</a></li><li><a href="#决定性文本证据">决定性文本证据</a></li><li><a href="#四层分析">四层分析</a></li><li><a href="#最强反方解释">最强反方解释</a></li><li><a href="#分用途结论">分用途结论</a></li><li><a href="#方法来源与限制">方法、来源与限制</a></li></ol>
     </aside>
     <div class="report-content">
-      <blockquote><p>分类日期：2026-07-29<br> 分类对象：2026 年 TV 动画第 1–12 话<br> 纳入范围：正式播出的 TV 全 12 话<br> 排除范围：原作漫画、宣传漫画、舞台及其他跨媒介材料<br> 用途：普通推荐与数据库分类</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p><strong>女女关系主线且按作品分类归档：是，按“女女关系构成作品主要叙事与审美对象”的开放口径，置信度高。</strong> 作品以跨越多代学员的群像，持续书写女性之间的友情、爱恋、憧憬、竞争、排斥、师生传承、家庭关系与成年后的回望；这些关系不仅发生在歌剧学校背景里，也共同构成对学校制度的追问。多条异性恋爱或婚姻关系穿插其中，但没有一条男性恋爱主线取代女女关系群像。</p><p><strong>存在明示的女女爱恋，但不等于存在明确女女伴侣关系。</strong> 第 2 话有一名女性直言自己曾对另一名女性 <code>恋をしていました</code>，并把对方称为初恋；第 8 话另有角色在异性三角关系语境中回忆自己喜欢一名女同学。前者是未得到回复的单向爱恋，后者也没有发展成双方确认的关系。本次字幕核验未确认女女正式交往、接吻或恋人身份。</p><p><strong>最适合的短标签是“女女关系中心的跨代群像；含明确单向女女爱恋，恋爱并非全部关系的统一答案”。</strong> 若“百合”只用于检索双方告白或正式交往，本作不应作为保证推荐；若用于检索女女关系怎样塑造人生、制度与记忆，本作属于主类。</p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：重要副线｜最高明确度：明确女女恋爱欲望｜关系构成：多组异质关系｜官方：TV 宣传未标百合／GL｜阅读层级：正篇事实＋强推断＋读者解读｜身份依据类型：只有明确关系／欲望事实，无身份自述｜男性恋爱线：多条异性恋爱／婚姻关系并列穿插，但不主导｜内容提示：校园排挤与集体孤立、性化流言和辱骂、以死亡表达绝望及自杀意念、丧亲与病逝、家庭语言虐待、职业竞争与权力不对等、公开受害经历的伦理争议。</strong></p></blockquote><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li>只要求作品中出现女性对女性直接说出“恋”“初恋”等爱恋表述：<strong>符合</strong>。</li><li>要求双方告白、明确互相爱恋、正式交往、接吻或以“恋人”命名关系：<strong>不符合保证条件</strong>。</li><li>接受女女关系中心、恋爱与非恋爱关系并存，并愿意阅读跨代群像和非顺序叙事：<strong>符合</strong>。</li><li>只想看轻松校园恋爱：<strong>不宜按这个用途推荐</strong>；作品直接处理集体排斥、职业挫败、死亡和迟来的追责。</li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><p>分类结论以 2026-07-29 为基准，公开字段于 2026-07-30 再次复核：</p><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://awajima-anime.com/story/index.html" target="_blank" rel="noopener noreferrer">TV 动画官网 Introduction</a></td><td>写明少女们聚集于淡岛歌剧学校，重点列出若菜、絹枝、絵美与桂子，并用“憧憬、嫉妒、持续渴求她的目光”概括桂子对絵美的关系；核对页未使用百合／GL</td><td>官方剧情与营销表述</td><td>直接支持女女关系和多视角群像是宣传中心；“未标”不是官方否认百合阅读</td></tr><tr class="even"><td><a href="https://awajima-anime.com/story/01.html" target="_blank" rel="noopener noreferrer">TV 动画官网全话故事页</a>、<a href="https://awajima-anime.com/onair/" target="_blank" rel="noopener noreferrer">放送页</a>与<a href="https://awajima-anime.com/news/" target="_blank" rel="noopener noreferrer">新闻页</a></td><td>故事目录列第 1–12 话；放送自 4 月 9 日深夜开始，新闻页于 6 月 22 日公开第 12 话预告并列出 6 月 25 日放送时刻调整</td><td>官方范围、播出与剧情概述</td><td>确认截至归档日不是“计划 12 话但尚未播完”，而是已经完成首轮播出的全 12 话；梗概不替代逐句台词</td></tr><tr class="odd"><td><a href="https://myanimelist.net/anime/58820/Awajima_Hyakkei" target="_blank" rel="noopener noreferrer">MyAnimeList</a>／<a href="https://api.jikan.moe/v4/anime/58820/full" target="_blank" rel="noopener noreferrer">Jikan 快照</a></td><td>TV、12 话，状态为 Finished Airing；Genre 为 Drama，主题为 Performing Arts、School；未列 Girls Love 或 Romance</td><td>编辑型数据库及公共 API</td><td>记录常见编辑分类和完播状态；GL 字段沉默不能当成剧情反证</td></tr><tr class="even"><td><a href="https://www.anime-planet.com/anime/a-hundred-scenes-of-awajima" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td>2026-07-30 完整 Tags 面板：<code>Drama / All-Girls School / Boarding School / Coming of Age / Music / Music School / School Life / Showbiz / Based on a Manga</code></td><td>编辑维护的数据库标签</td><td>记录当前检索字段；不是官方认证，标签存在或沉默都不自动裁定作品关系</td></tr><tr class="odd"><td><a href="https://anilist.co/anime/177501" target="_blank" rel="noopener noreferrer">AniList</a></td><td>TV、12 话；Drama、Music、Romance；社区标签含 Primarily Female Cast 91、Ensemble Cast 91、Yuri 54、LGBTQ+ Themes 48、Heterosexual 35</td><td>编辑类型＋带权重社区标签</td><td>支持公共 Romance／Yuri 检索生态；权重是相关度，不是支持率，也不证明角色身份</td></tr><tr class="even"><td><a href="https://bangumi.tv/subject/493724" target="_blank" rel="noopener noreferrer">Bangumi</a>／<a href="https://api.bgm.tv/v0/subjects/493724" target="_blank" rel="noopener noreferrer">公共 API</a></td><td>TV、12 话；用户标签中“百合”为高频标签，另有“群像”“校园”“青春”等</td><td>社区标签及范围数据</td><td>说明本作稳定进入中文百合检索；标签数量不视为官方认证或社群投票</td></tr></tbody></table></div><p>官方、编辑数据库和社区标签回答不同问题：官方怎样宣传，数据库怎样使用有限分类字段，读者又怎样检索。它们不能按站点数量相互投票，也不能替正片判断一组关系是否互相或已经交往。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>以下部分包含 2026 年 TV 动画第 1–12 话完整剧透。</p></aside>
+      <blockquote><p>分类日期：2026-07-29<br> 分类对象：2026 年 TV 动画第 1–12 话<br> 纳入范围：正式播出的 TV 全 12 话<br> 排除范围：原作漫画、宣传漫画、舞台及其他跨媒介材料<br> 用途：普通推荐与数据库分类</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p><strong>女女关系主线且按作品分类归档：是，按“女女关系构成作品主要叙事与审美对象”的开放口径，置信度高。</strong> 作品以跨越多代学员的群像，持续书写女性之间的友情、爱恋、憧憬、竞争、排斥、师生传承、家庭关系与成年后的回望；这些关系不仅发生在歌剧学校背景里，也共同构成对学校制度的追问。多条异性恋爱或婚姻关系穿插其中，但没有一条男性恋爱主线取代女女关系群像。</p><p><strong>存在明示的女女爱恋，但不等于存在明确女女伴侣关系。</strong> 第 2 话有一名女性直言自己曾对另一名女性 <code>恋をしていました</code>，并把对方称为初恋；第 8 话另有角色在异性三角关系语境中回忆自己喜欢一名女同学。前者是未得到回复的单向爱恋，后者也没有发展成双方确认的关系。本次字幕核验未确认女女正式交往、接吻或恋人身份。</p><p><strong>最适合的短标签是“女女关系中心的跨代群像；含明确单向女女爱恋，恋爱并非全部关系的统一答案”。</strong> 若“百合”只用于检索双方告白或正式交往，本作不应作为保证推荐；若用于检索女女关系怎样塑造人生、制度与记忆，本作属于主类。</p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：重要副线｜最高明确度：明确女女恋爱欲望｜关系构成：多组异质关系｜官方字面：所核未见｜官方恋爱表述：所核未见｜官方来源：所核未见匹配表述｜阅读层级：正篇事实＋强推断＋读者解读｜身份依据类型：只有明确关系／欲望事实，无身份自述｜男性恋爱线：多条异性恋爱／婚姻关系并列穿插，但不主导｜内容提示：校园排挤与集体孤立、性化流言和辱骂、以死亡表达绝望及自杀意念、丧亲与病逝、家庭语言虐待、职业竞争与权力不对等、公开受害经历的伦理争议。</strong></p></blockquote><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li>只要求作品中出现女性对女性直接说出“恋”“初恋”等爱恋表述：<strong>符合</strong>。</li><li>要求双方告白、明确互相爱恋、正式交往、接吻或以“恋人”命名关系：<strong>不符合保证条件</strong>。</li><li>接受女女关系中心、恋爱与非恋爱关系并存，并愿意阅读跨代群像和非顺序叙事：<strong>符合</strong>。</li><li>只想看轻松校园恋爱：<strong>不宜按这个用途推荐</strong>；作品直接处理集体排斥、职业挫败、死亡和迟来的追责。</li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><p>分类结论以 2026-07-29 为基准，公开字段于 2026-07-30 再次复核：</p><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://awajima-anime.com/story/index.html" target="_blank" rel="noopener noreferrer">TV 动画官网 Introduction</a></td><td>写明少女们聚集于淡岛歌剧学校，重点列出若菜、絹枝、絵美与桂子，并用“憧憬、嫉妒、持续渴求她的目光”概括桂子对絵美的关系；核对页未使用百合／GL</td><td>官方剧情与营销表述</td><td>直接支持女女关系和多视角群像是宣传中心；“未标”不是官方否认百合阅读</td></tr><tr class="even"><td><a href="https://awajima-anime.com/story/01.html" target="_blank" rel="noopener noreferrer">TV 动画官网全话故事页</a>、<a href="https://awajima-anime.com/onair/" target="_blank" rel="noopener noreferrer">放送页</a>与<a href="https://awajima-anime.com/news/" target="_blank" rel="noopener noreferrer">新闻页</a></td><td>故事目录列第 1–12 话；放送自 4 月 9 日深夜开始，新闻页于 6 月 22 日公开第 12 话预告并列出 6 月 25 日放送时刻调整</td><td>官方范围、播出与剧情概述</td><td>确认截至归档日不是“计划 12 话但尚未播完”，而是已经完成首轮播出的全 12 话；梗概不替代逐句台词</td></tr><tr class="odd"><td><a href="https://myanimelist.net/anime/58820/Awajima_Hyakkei" target="_blank" rel="noopener noreferrer">MyAnimeList</a>／<a href="https://api.jikan.moe/v4/anime/58820/full" target="_blank" rel="noopener noreferrer">Jikan 快照</a></td><td>TV、12 话，状态为 Finished Airing；Genre 为 Drama，主题为 Performing Arts、School；未列 Girls Love 或 Romance</td><td>编辑型数据库及公共 API</td><td>记录常见编辑分类和完播状态；GL 字段沉默不能当成剧情反证</td></tr><tr class="even"><td><a href="https://www.anime-planet.com/anime/a-hundred-scenes-of-awajima" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td>2026-07-30 完整 Tags 面板：<code>Drama / All-Girls School / Boarding School / Coming of Age / Music / Music School / School Life / Showbiz / Based on a Manga</code></td><td>编辑维护的数据库标签</td><td>记录当前检索字段；不是官方认证，标签存在或沉默都不自动裁定作品关系</td></tr><tr class="odd"><td><a href="https://anilist.co/anime/177501" target="_blank" rel="noopener noreferrer">AniList</a></td><td>TV、12 话；Drama、Music、Romance；社区标签含 Primarily Female Cast 91、Ensemble Cast 91、Yuri 54、LGBTQ+ Themes 48、Heterosexual 35</td><td>编辑类型＋带权重社区标签</td><td>支持公共 Romance／Yuri 检索生态；权重是相关度，不是支持率，也不证明角色身份</td></tr><tr class="even"><td><a href="https://bangumi.tv/subject/493724" target="_blank" rel="noopener noreferrer">Bangumi</a>／<a href="https://api.bgm.tv/v0/subjects/493724" target="_blank" rel="noopener noreferrer">公共 API</a></td><td>TV、12 话；用户标签中“百合”为高频标签，另有“群像”“校园”“青春”等</td><td>社区标签及范围数据</td><td>说明本作稳定进入中文百合检索；标签数量不视为官方认证或社群投票</td></tr></tbody></table></div><p>官方、编辑数据库和社区标签回答不同问题：官方怎样宣传，数据库怎样使用有限分类字段，读者又怎样检索。它们不能按站点数量相互投票，也不能替正片判断一组关系是否互相或已经交往。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>以下部分包含 2026 年 TV 动画第 1–12 话完整剧透。</p></aside>
 
       <details class="spoiler-panel">
         <summary>
@@ -142,7 +155,7 @@
     </div>
   </footer>
   <script>window.SITE_CONFIG = {basePath: "/yuri-classification-archive"};</script>
-  <script src="/yuri-classification-archive/assets/site.js?v=95491b68a3ae" defer></script>
-  
+  <script src="/yuri-classification-archive/assets/site.js?v=686fc3d330d3" defer></script>
+
 </body>
 </html>

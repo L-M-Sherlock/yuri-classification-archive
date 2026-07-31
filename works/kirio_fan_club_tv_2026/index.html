@@ -9,6 +9,7 @@
   <meta id="theme-color-dark" name="theme-color" media="(prefers-color-scheme: dark)" content="#1c181c">
   <script>
     (() => {
+      document.documentElement.classList.add("js");
       const storageKey = "yuri-classification-theme";
       const allowed = new Set(["system", "light", "dark"]);
       let preference = "system";
@@ -46,8 +47,8 @@
   <meta property="og:url" content="https://l-m-sherlock.github.io/yuri-classification-archive/works/kirio_fan_club_tv_2026/">
   <meta property="og:image" content="https://l-m-sherlock.github.io/yuri-classification-archive/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
   <title>《雾尾粉丝俱乐部》分类报告｜百合作品分类档案</title>
-  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=014a89622973">
-  
+  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=1cc35b33d5cd">
+
 </head>
 <body class="classification-report">
   <a class="skip-link" href="#main-content">跳到正文</a>
@@ -60,12 +61,24 @@
           <small>按查询拆开标签，按证据保留边界</small>
         </span>
       </a>
-      <nav class="site-nav" aria-label="主导航">
-        <a href="/yuri-classification-archive/">首页</a>
-        <a href="/yuri-classification-archive/table/">总表</a>
-        <a href="/yuri-classification-archive/about/">方法与说明</a>
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-navigation"
+      >
+        <span>菜单</span>
+        <span class="menu-toggle-icon" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-navigation" aria-label="主导航">
+        <div class="nav-main">
+          <a href="/yuri-classification-archive/">首页</a>
+          <a href="/yuri-classification-archive/table/">总表</a>
+          <a href="/yuri-classification-archive/about/">方法与说明</a>
+        </div>
         <a class="nav-star" href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub / Star <span aria-hidden="true">↗</span></a>
-        <a href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
+        <a class="nav-feedback" href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
         <label class="theme-control" for="theme-preference">
           <span>主题</span>
           <select id="theme-preference" aria-label="主题偏好">
@@ -84,7 +97,7 @@
     <h1>《雾尾粉丝俱乐部》分类报告</h1>
     <p class="report-subtitle">2026 TV anime episodes 1-12</p>
     <div class="label-strip" aria-label="分类摘要">
-      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>恋爱位置：</strong>主线</span><span class="label-chip"><strong>最高明确度：</strong>明确欲望</span><span class="label-chip"><strong>官方：</strong>未标百合／GL</span><span class="label-chip"><strong>置信度：</strong>高</span>
+      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>恋爱位置：</strong>主线</span><span class="label-chip"><strong>最高明确度：</strong>明确欲望</span><span class="label-chip"><strong>官方字面百合／GL：</strong>所核未见</span><span class="label-chip"><strong>官方女女恋爱表述：</strong>所核未见</span><span class="label-chip"><strong>官方来源：</strong>所核来源未含可公开筛选的层级或位置</span><span class="label-chip"><strong>置信度：</strong>高</span>
     </div>
     <a class="back-link" href="/yuri-classification-archive/table/?q=%E9%9B%BE%E5%B0%BE%E7%B2%89%E4%B8%9D%E4%BF%B1%E4%B9%90%E9%83%A8">← 返回总表并定位本作</a>
   </header>
@@ -94,7 +107,7 @@
       <ol><li><a href="#无剧透结论">无剧透结论</a></li><li><a href="#数据库与公开分类">数据库与公开分类</a></li><li><a href="#决定性文本证据">决定性文本证据</a></li><li><a href="#四层分析">四层分析</a></li><li><a href="#最强反方解释">最强反方解释</a></li><li><a href="#分用途结论">分用途结论</a></li><li><a href="#方法来源与限制">方法、来源与限制</a></li></ol>
     </aside>
     <div class="report-content">
-      <blockquote><p>分类日期：2026-07-31<br> 分类对象：2026 年 TV 动画<br> 纳入范围：正篇第 1–12 话<br> 排除范围：漫画、宣传影像、特典、未来续篇及其他跨媒介材料<br> 用途：普通推荐与数据库分类</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p>《霧尾ファンクラブ》的女女关系位于主线，按本项目“关系是否组织全作”的开放口径，可以归入作品分类；但推荐时必须同时写明，它不是排除男性恋爱对象的双女主恋爱故事。两位少女围绕同一男生建立友情、竞争与共同日常，其中一人的异性单恋从开篇一直参与主线，另一条女女爱恋则达到明确欲望，却保持单向并且没有进入交往。</p><p>因此，本作适合寻找“女女友情是叙事中心、并含明确单向女女爱恋”的读者，不满足“双方确认感情”“正式女女情侣”或“没有男性恋爱线”的严格条件。角色没有使用女同性恋、双性恋等身份词，官方也未把作品标成百合／GL。结论置信度高；最重要的限定是，不能因后段的女女爱恋揭示，就把藍美对霧尾的真实感情和霧尾自己的悲伤主线删去。</p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：主线｜最高明确度：明确欲望｜关系构成：同一组关系的双向友情与单向爱恋分层记录｜官方：未标｜阅读层级：正篇事实／强推断／读者解读｜身份依据类型：只有明确关系事实｜男性恋爱线：并列｜内容提示：童年好友病逝与哀伤、拒学和负罪感、跟踪拍摄及个人边界侵犯笑料、涉及高中生的体液／排泄／性暗示笑料、诅咒与受伤幻想、单恋与拒绝</strong></p></blockquote><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li><strong>只寻找双方告白、正式交往、接吻或身份明示：不命中。</strong> 正篇确认女性角色对女性角色的恋爱欲望，却没有得到对方的恋爱回应，也没有建立女女情侣关系或身份自述。</li><li><strong>寻找明确女女欲望：命中。</strong> 第 9、12 话把“喜欢的人”、记忆对象、对霧尾说过的谎和“最喜欢藍美”连成完整证据链，不只依赖气氛或读者配对。</li><li><strong>接受单向爱恋或女女关系中心作品：命中。</strong> 两位少女的共同时间、冲突、修复和毕业后的约定贯穿全季；与此同时，推荐语仍应保留藍美对男性角色的真诚单恋。</li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://kirio-fc.com/" target="_blank" rel="noopener noreferrer">动画官方网站</a></td><td>宣传语写藍美与波谈论“最喜欢的人”的二人珍贵时间，并称“一方通行的思念连锁”改变日常；未见百合／GL 类型字段</td><td>官方自述／营销分类</td><td>支持双女主、单向感情连锁和共同日常的公开定位；“未标”不解释为否认</td></tr><tr class="even"><td><a href="https://kirio-fc.com/character" target="_blank" rel="noopener noreferrer">官方人物页</a></td><td>明写藍美对霧尾单恋、妄想容易失控；霧尾是足球部男生，常与桃瀬同行</td><td>官方角色设定</td><td>确认男性恋爱线不是观众误读或可删除障眼法；人物页未提前揭示波的感情对象</td></tr><tr class="odd"><td><a href="https://kirio-fc.com/story" target="_blank" rel="noopener noreferrer">官方分集页</a>与<a href="https://kirio-fc.com/news/458" target="_blank" rel="noopener noreferrer">最终话播出通知</a></td><td>保存第 1–12 话标题、梗概入口及每话 8 张先行图；最终话于 2026-06-18 深夜首播</td><td>官方分集资料</td><td>核对正篇范围、完结状态及关键场景人物；静态先行图不能代替同步表演</td></tr><tr class="even"><td><a href="https://myanimelist.net/anime/59835/Kirio_Fanclub" target="_blank" rel="noopener noreferrer">MyAnimeList</a></td><td>TV、12 话；Genre 为 Comedy、Theme 为 School，未列 Girls Love</td><td>编辑分类数据库</td><td>记录该站精确类型字段；未列不等于文本中没有单向女女爱恋</td></tr><tr class="odd"><td><a href="https://www.anime-planet.com/anime/kirio-fan-club" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td>TV、12 话；Tags 为 Comedy、Romance、Love Triangle、School Life、Unrequited Love、Based on a Manga；未列精确 GL 或 Yuri</td><td>编辑／社区标签数据库</td><td>说明该站把作品送入恋爱、三角与单恋检索，而非 GL 入口；不把站点沉默当作反证</td></tr><tr class="even"><td><a href="https://anilist.co/anime/181284/Kirio-Fanclub" target="_blank" rel="noopener noreferrer">AniList</a></td><td>Genres 为 Comedy、Romance、Slice of Life；社区标签 Female Protagonist 87、Love Triangle 66、Yuri 58、Heterosexual 55；Yuri 被标为剧透</td><td>带权重的社区标签</td><td>同时保存女女爱恋与异性恋爱线的社区识别；数值是相关度，不是人数、概率或社群表决</td></tr><tr class="odd"><td><a href="https://bangumi.tv/subject/513208" target="_blank" rel="noopener noreferrer">Bangumi</a></td><td>TV、12 话；Rank 2659；“百合”118 人、“恋爱”83 人；五种收藏状态合计 2,797 人，“百合”标记人数约占 4.22%</td><td>社区标签数据库</td><td>保存抓取日快照并观察中文用户如何检索；标签比例不能替代逐话文本判断</td></tr><tr class="even"><td><a href="https://jimaku.cc/entry/11777" target="_blank" rel="noopener noreferrer">Jimaku</a></td><td>精确匹配日文标题与 AniList 181284，提供第 1–12 话日文播出字幕</td><td>公共字幕资料库</td><td>用于定位台词和时间码；字幕属于播出闭字幕来源，不冒充官方剧本</td></tr></tbody></table></div><p>四个平台的差异恰好提示了作品的双重结构。MAL 与 Anime-Planet没有把它放进严格 GL 类型栏，符合“没有确认女女情侣、男性单恋参与主线”的入口规则；AniList 把 Yuri 标作剧透，同时保留 Heterosexual，较接近正篇后段对感情对象的揭示；Bangumi 的“百合”则说明一部分用户会以宽口径寻找它。任何一站都不能单独裁决作品，更不能把 58、118 或 4.22%解释成角色身份。</p><blockquote><p>数据库沉默写“未标”，不能写成“否认”；标签权重、计数和站点数量不能换算成社群支持率。</p></blockquote><aside class="alert alert-warning"><strong>剧透提示</strong><p>以下部分包含本次分类对象的完整剧透。</p></aside>
+      <blockquote><p>分类日期：2026-07-31<br> 分类对象：2026 年 TV 动画<br> 纳入范围：正篇第 1–12 话<br> 排除范围：漫画、宣传影像、特典、未来续篇及其他跨媒介材料<br> 用途：普通推荐与数据库分类</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p>《霧尾ファンクラブ》的女女关系位于主线，按本项目“关系是否组织全作”的开放口径，可以归入作品分类；但推荐时必须同时写明，它不是排除男性恋爱对象的双女主恋爱故事。两位少女围绕同一男生建立友情、竞争与共同日常，其中一人的异性单恋从开篇一直参与主线，另一条女女爱恋则达到明确欲望，却保持单向并且没有进入交往。</p><p>因此，本作适合寻找“女女友情是叙事中心、并含明确单向女女爱恋”的读者，不满足“双方确认感情”“正式女女情侣”或“没有男性恋爱线”的严格条件。角色没有使用女同性恋、双性恋等身份词，官方也未把作品标成百合／GL。结论置信度高；最重要的限定是，不能因后段的女女爱恋揭示，就把藍美对霧尾的真实感情和霧尾自己的悲伤主线删去。</p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：主线｜最高明确度：明确欲望｜关系构成：同一组关系的双向友情与单向爱恋分层记录｜官方字面：所核未见｜官方恋爱表述：所核未见｜官方来源：所核未见匹配表述｜阅读层级：正篇事实／强推断／读者解读｜身份依据类型：只有明确关系事实｜男性恋爱线：并列｜内容提示：童年好友病逝与哀伤、拒学和负罪感、跟踪拍摄及个人边界侵犯笑料、涉及高中生的体液／排泄／性暗示笑料、诅咒与受伤幻想、单恋与拒绝</strong></p></blockquote><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li><strong>只寻找双方告白、正式交往、接吻或身份明示：不命中。</strong> 正篇确认女性角色对女性角色的恋爱欲望，却没有得到对方的恋爱回应，也没有建立女女情侣关系或身份自述。</li><li><strong>寻找明确女女欲望：命中。</strong> 第 9、12 话把“喜欢的人”、记忆对象、对霧尾说过的谎和“最喜欢藍美”连成完整证据链，不只依赖气氛或读者配对。</li><li><strong>接受单向爱恋或女女关系中心作品：命中。</strong> 两位少女的共同时间、冲突、修复和毕业后的约定贯穿全季；与此同时，推荐语仍应保留藍美对男性角色的真诚单恋。</li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://kirio-fc.com/" target="_blank" rel="noopener noreferrer">动画官方网站</a></td><td>宣传语写藍美与波谈论“最喜欢的人”的二人珍贵时间，并称“一方通行的思念连锁”改变日常；未见百合／GL 类型字段</td><td>官方自述／营销分类</td><td>支持双女主、单向感情连锁和共同日常的公开定位；“未标”不解释为否认</td></tr><tr class="even"><td><a href="https://kirio-fc.com/character" target="_blank" rel="noopener noreferrer">官方人物页</a></td><td>明写藍美对霧尾单恋、妄想容易失控；霧尾是足球部男生，常与桃瀬同行</td><td>官方角色设定</td><td>确认男性恋爱线不是观众误读或可删除障眼法；人物页未提前揭示波的感情对象</td></tr><tr class="odd"><td><a href="https://kirio-fc.com/story" target="_blank" rel="noopener noreferrer">官方分集页</a>与<a href="https://kirio-fc.com/news/458" target="_blank" rel="noopener noreferrer">最终话播出通知</a></td><td>保存第 1–12 话标题、梗概入口及每话 8 张先行图；最终话于 2026-06-18 深夜首播</td><td>官方分集资料</td><td>核对正篇范围、完结状态及关键场景人物；静态先行图不能代替同步表演</td></tr><tr class="even"><td><a href="https://myanimelist.net/anime/59835/Kirio_Fanclub" target="_blank" rel="noopener noreferrer">MyAnimeList</a></td><td>TV、12 话；Genre 为 Comedy、Theme 为 School，未列 Girls Love</td><td>编辑分类数据库</td><td>记录该站精确类型字段；未列不等于文本中没有单向女女爱恋</td></tr><tr class="odd"><td><a href="https://www.anime-planet.com/anime/kirio-fan-club" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td>TV、12 话；Tags 为 Comedy、Romance、Love Triangle、School Life、Unrequited Love、Based on a Manga；未列精确 GL 或 Yuri</td><td>编辑／社区标签数据库</td><td>说明该站把作品送入恋爱、三角与单恋检索，而非 GL 入口；不把站点沉默当作反证</td></tr><tr class="even"><td><a href="https://anilist.co/anime/181284/Kirio-Fanclub" target="_blank" rel="noopener noreferrer">AniList</a></td><td>Genres 为 Comedy、Romance、Slice of Life；社区标签 Female Protagonist 87、Love Triangle 66、Yuri 58、Heterosexual 55；Yuri 被标为剧透</td><td>带权重的社区标签</td><td>同时保存女女爱恋与异性恋爱线的社区识别；数值是相关度，不是人数、概率或社群表决</td></tr><tr class="odd"><td><a href="https://bangumi.tv/subject/513208" target="_blank" rel="noopener noreferrer">Bangumi</a></td><td>TV、12 话；Rank 2659；“百合”118 人、“恋爱”83 人；五种收藏状态合计 2,797 人，“百合”标记人数约占 4.22%</td><td>社区标签数据库</td><td>保存抓取日快照并观察中文用户如何检索；标签比例不能替代逐话文本判断</td></tr><tr class="even"><td><a href="https://jimaku.cc/entry/11777" target="_blank" rel="noopener noreferrer">Jimaku</a></td><td>精确匹配日文标题与 AniList 181284，提供第 1–12 话日文播出字幕</td><td>公共字幕资料库</td><td>用于定位台词和时间码；字幕属于播出闭字幕来源，不冒充官方剧本</td></tr></tbody></table></div><p>四个平台的差异恰好提示了作品的双重结构。MAL 与 Anime-Planet没有把它放进严格 GL 类型栏，符合“没有确认女女情侣、男性单恋参与主线”的入口规则；AniList 把 Yuri 标作剧透，同时保留 Heterosexual，较接近正篇后段对感情对象的揭示；Bangumi 的“百合”则说明一部分用户会以宽口径寻找它。任何一站都不能单独裁决作品，更不能把 58、118 或 4.22%解释成角色身份。</p><blockquote><p>数据库沉默写“未标”，不能写成“否认”；标签权重、计数和站点数量不能换算成社群支持率。</p></blockquote><aside class="alert alert-warning"><strong>剧透提示</strong><p>以下部分包含本次分类对象的完整剧透。</p></aside>
 
       <details class="spoiler-panel">
         <summary>
@@ -142,7 +155,7 @@
     </div>
   </footer>
   <script>window.SITE_CONFIG = {basePath: "/yuri-classification-archive"};</script>
-  <script src="/yuri-classification-archive/assets/site.js?v=95491b68a3ae" defer></script>
-  
+  <script src="/yuri-classification-archive/assets/site.js?v=686fc3d330d3" defer></script>
+
 </body>
 </html>

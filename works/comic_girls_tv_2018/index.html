@@ -9,6 +9,7 @@
   <meta id="theme-color-dark" name="theme-color" media="(prefers-color-scheme: dark)" content="#1c181c">
   <script>
     (() => {
+      document.documentElement.classList.add("js");
       const storageKey = "yuri-classification-theme";
       const allowed = new Set(["system", "light", "dark"]);
       let preference = "system";
@@ -46,8 +47,8 @@
   <meta property="og:url" content="https://l-m-sherlock.github.io/yuri-classification-archive/works/comic_girls_tv_2018/">
   <meta property="og:image" content="https://l-m-sherlock.github.io/yuri-classification-archive/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
   <title>《漫画女孩》分类报告｜百合作品分类档案</title>
-  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=014a89622973">
-  
+  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=1cc35b33d5cd">
+
 </head>
 <body class="classification-report">
   <a class="skip-link" href="#main-content">跳到正文</a>
@@ -60,12 +61,24 @@
           <small>按查询拆开标签，按证据保留边界</small>
         </span>
       </a>
-      <nav class="site-nav" aria-label="主导航">
-        <a href="/yuri-classification-archive/">首页</a>
-        <a href="/yuri-classification-archive/table/">总表</a>
-        <a href="/yuri-classification-archive/about/">方法与说明</a>
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-navigation"
+      >
+        <span>菜单</span>
+        <span class="menu-toggle-icon" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-navigation" aria-label="主导航">
+        <div class="nav-main">
+          <a href="/yuri-classification-archive/">首页</a>
+          <a href="/yuri-classification-archive/table/">总表</a>
+          <a href="/yuri-classification-archive/about/">方法与说明</a>
+        </div>
         <a class="nav-star" href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub / Star <span aria-hidden="true">↗</span></a>
-        <a href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
+        <a class="nav-feedback" href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
         <label class="theme-control" for="theme-preference">
           <span>主题</span>
           <select id="theme-preference" aria-label="主题偏好">
@@ -84,7 +97,7 @@
     <h1>《漫画女孩》分类报告</h1>
     <p class="report-subtitle">2018 television series formal episodes 1–12</p>
     <div class="label-strip" aria-label="分类摘要">
-      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>恋爱位置：</strong>重要副线</span><span class="label-chip"><strong>最高明确度：</strong>明确欲望</span><span class="label-chip"><strong>官方：</strong>未标百合／GL</span><span class="label-chip"><strong>置信度：</strong>高</span>
+      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>恋爱位置：</strong>重要副线</span><span class="label-chip"><strong>最高明确度：</strong>明确欲望</span><span class="label-chip"><strong>官方字面百合／GL：</strong>所核未见</span><span class="label-chip"><strong>官方女女恋爱表述：</strong>所核未见</span><span class="label-chip"><strong>官方来源：</strong>所核来源未含可公开筛选的层级或位置</span><span class="label-chip"><strong>置信度：</strong>高</span>
     </div>
     <a class="back-link" href="/yuri-classification-archive/table/?q=%E6%BC%AB%E7%94%BB%E5%A5%B3%E5%AD%A9">← 返回总表并定位本作</a>
   </header>
@@ -94,7 +107,7 @@
       <ol><li><a href="#无剧透结论">无剧透结论</a></li><li><a href="#数据库与公开分类">数据库与公开分类</a></li><li><a href="#决定性文本证据">决定性文本证据</a></li><li><a href="#四层分析">四层分析</a></li><li><a href="#最强反方解释">最强反方解释</a></li><li><a href="#分用途结论">分用途结论</a></li><li><a href="#方法来源与限制">方法、来源与限制</a></li></ol>
     </aside>
     <div class="report-content">
-      <blockquote><p>分类日期：2026-07-31<br> 分类对象：2018 年电视动画《こみっくがーるず》正式第 1–12 话<br> 纳入范围：电视正篇十二话，以官方话数导航与 Bangumi 的十二条 type-0 记录锁定<br> 排除范围：原作漫画、漫画后续、特典／映像奖励、宣传片及其他跨媒介材料<br> 用途：普通推荐、数据库分类、严格恋爱检索与角色身份检索</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p>本作的主线是四名少女漫画家在女子宿舍共同生活、互做助手、分享取材经验并接住彼此创作低潮；女性友情、创作搭档与选择家庭式共同体不是装饰，而是人物成长和单元喜剧的发动机。因此可按“以女女关系为中心的作品”归档，应按关系结构而不只是“可爱少女日常”来判断。恋爱则只占重要副线：小梦对翼有连续、明确而且知道对方是女性的吸引与取悦愿望，但她始终没有确认这种心情究竟是不是恋爱，翼也没有给出恋爱回应。</p><p>范围内没有双方告白、正式交往、接吻或性取向自述；角色身份只能记未知。其他“最喜欢”、终身照护和亲密接触笑料都必须逐组降格处理，不能把同住、可爱反应或女子日常自动当成恋爱。没有实际发展的男性恋爱线。结论置信度高，最重要的限定是“明确指向不等于确认关系”。</p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：重要副线｜最高明确度：明确欲望｜关系构成：多组异质关系｜官方：未标｜阅读层级：正篇事实／强推断／读者解读｜身份依据类型：只有明确关系事实｜男性恋爱线：无｜内容提示：未成年人物的身体／内衣／泳装／沐浴与胸部笑料、剧中 TL 与成人性内容讨论、尾随和惊吓式边界侵犯、成人醉酒、体重与节食笑料、强烈自我否定和退稿压力、恐怖与血迹意象</strong></p></blockquote><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li>若只接受双方告白、确认交往、接吻或女同／双性等身份明示，本作不合格；小梦的方向已清楚，但关系名称和翼的相互性都没有落定。</li><li>若接受女女关系中心作品中持续、对象明确却未确认的女女恋爱指向，本作适合；推荐时应同时写明主体仍是女子宿舍的友情、共同生活与创作互助。</li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://comic-girls.com/" target="_blank" rel="noopener noreferrer">官方站</a>／<a href="https://comic-girls.com/story/" target="_blank" rel="noopener noreferrer">故事导航</a>／<a href="https://comic-girls.com/bd-box/" target="_blank" rel="noopener noreferrer">BD Box</a></td><td>官方称 TV 动画，故事导航列第 1–12 话；Box 页另列无字幕 OP／ED、PV／CM、舞台摘要等映像奖励；没有百合或 GL 类型字段</td><td>官方自述／版本边界</td><td>证明对象、十二话边界和“官方未标”；沉默不等于否认</td></tr><tr class="even"><td><a href="https://myanimelist.net/anime/35756/Comic_Girls" target="_blank" rel="noopener noreferrer">MyAnimeList</a></td><td>TV、12 话、Nexus；Genre 为 Slice of Life，Themes 为 CGDCT、Otaku Culture；没有 Girls Love／Romance。Jikan 同条目的 API 路径返回 504，但 MAL 直连与精确公开文本路径均成功</td><td>编辑字段；独立 API 失败记录</td><td>采用成功恢复的 MAL 当前字段；504 只记传输失败，绝不把失败响应解释成“无标签”</td></tr><tr class="odd"><td><a href="https://www.anime-planet.com/anime/comic-girls" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td>直连 403；精确条目公开文本与精确标题搜索卡均恢复成功。完整九标签为 Comedy、Seinen、Slice of Life、Boarding House、Manga Industry、Neighbors、Otaku Culture、Writers、Based on a Manga；无 GL／Shoujo-ai／Yuri／Romance</td><td>编辑标签库；访问恢复</td><td>403 是访问层问题；两条恢复路线共同证明当前完整标签面板，但标签沉默仍只写“未标”</td></tr><tr class="even"><td><a href="https://anilist.co/anime/99131/Comic-Girls" target="_blank" rel="noopener noreferrer">AniList</a></td><td>Genres 为 Comedy、Slice of Life；完整返回标签中 Yuri 77、LGBTQ+ Themes 60，另有 CGDCT 92、Primarily Female Cast 89；没有 Romance genre</td><td>编辑字段＋加权社区标签</td><td>证明该站当前容纳百合／LGBTQ+ 主题读法；排名是站内标签强度，不替代逐话证据</td></tr><tr class="odd"><td><a href="https://bangumi.tv/subject/217249" target="_blank" rel="noopener noreferrer">Bangumi</a></td><td>subject 217249，TV、12 话、排名 2298、评分 7.1；百合 1111、轻百合 418。五状态人数为想看 1910／看过 6477／在看 543／搁置 396／抛弃 269，合计 9595；1111 ÷ 9595 = 11.58%</td><td>社区标签与收藏状态</td><td>保留原始计数和动态比例作尺度参照，不称投票率或支持率；误探测不存在的复数 collections 路径所得 404 不算数据库失败，subject 内合法 collection 字段已成功</td></tr><tr class="even"><td><a href="https://www.bilibili.com/bangumi/media/md77812/" target="_blank" rel="noopener noreferrer">Bilibili 地区授权季页</a></td><td>season 23829、media 77812、正式 12 集；日语音轨、画面内简体中文字幕</td><td>授权播出与视听材料</td><td>只用于逐话音画、台词定位和版本交叉核对，不作为类型标签来源</td></tr></tbody></table></div><p>四库的差异可由标签制度解释：MAL 与 Anime-Planet 的编辑面板把它放在女子日常、寄宿生活与漫画行业；AniList 的加权标签直接收录 Yuri；Bangumi 用户标签同时出现百合与轻百合。它们并不互相推翻，也不能表决出角色身份。数据库层只回答“各站怎样标”，文本层仍须回答“谁对谁说了什么、是否知道对方性别、是否确认相互性”。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>以下部分包含十二话正篇的完整剧透。</p></aside>
+      <blockquote><p>分类日期：2026-07-31<br> 分类对象：2018 年电视动画《こみっくがーるず》正式第 1–12 话<br> 纳入范围：电视正篇十二话，以官方话数导航与 Bangumi 的十二条 type-0 记录锁定<br> 排除范围：原作漫画、漫画后续、特典／映像奖励、宣传片及其他跨媒介材料<br> 用途：普通推荐、数据库分类、严格恋爱检索与角色身份检索</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p>本作的主线是四名少女漫画家在女子宿舍共同生活、互做助手、分享取材经验并接住彼此创作低潮；女性友情、创作搭档与选择家庭式共同体不是装饰，而是人物成长和单元喜剧的发动机。因此可按“以女女关系为中心的作品”归档，应按关系结构而不只是“可爱少女日常”来判断。恋爱则只占重要副线：小梦对翼有连续、明确而且知道对方是女性的吸引与取悦愿望，但她始终没有确认这种心情究竟是不是恋爱，翼也没有给出恋爱回应。</p><p>范围内没有双方告白、正式交往、接吻或性取向自述；角色身份只能记未知。其他“最喜欢”、终身照护和亲密接触笑料都必须逐组降格处理，不能把同住、可爱反应或女子日常自动当成恋爱。没有实际发展的男性恋爱线。结论置信度高，最重要的限定是“明确指向不等于确认关系”。</p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：重要副线｜最高明确度：明确欲望｜关系构成：多组异质关系｜官方字面：所核未见｜官方恋爱表述：所核未见｜官方来源：所核未见匹配表述｜阅读层级：正篇事实／强推断／读者解读｜身份依据类型：只有明确关系事实｜男性恋爱线：无｜内容提示：未成年人物的身体／内衣／泳装／沐浴与胸部笑料、剧中 TL 与成人性内容讨论、尾随和惊吓式边界侵犯、成人醉酒、体重与节食笑料、强烈自我否定和退稿压力、恐怖与血迹意象</strong></p></blockquote><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li>若只接受双方告白、确认交往、接吻或女同／双性等身份明示，本作不合格；小梦的方向已清楚，但关系名称和翼的相互性都没有落定。</li><li>若接受女女关系中心作品中持续、对象明确却未确认的女女恋爱指向，本作适合；推荐时应同时写明主体仍是女子宿舍的友情、共同生活与创作互助。</li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://comic-girls.com/" target="_blank" rel="noopener noreferrer">官方站</a>／<a href="https://comic-girls.com/story/" target="_blank" rel="noopener noreferrer">故事导航</a>／<a href="https://comic-girls.com/bd-box/" target="_blank" rel="noopener noreferrer">BD Box</a></td><td>官方称 TV 动画，故事导航列第 1–12 话；Box 页另列无字幕 OP／ED、PV／CM、舞台摘要等映像奖励；没有百合或 GL 类型字段</td><td>官方自述／版本边界</td><td>证明对象、十二话边界和“官方未标”；沉默不等于否认</td></tr><tr class="even"><td><a href="https://myanimelist.net/anime/35756/Comic_Girls" target="_blank" rel="noopener noreferrer">MyAnimeList</a></td><td>TV、12 话、Nexus；Genre 为 Slice of Life，Themes 为 CGDCT、Otaku Culture；没有 Girls Love／Romance。Jikan 同条目的 API 路径返回 504，但 MAL 直连与精确公开文本路径均成功</td><td>编辑字段；独立 API 失败记录</td><td>采用成功恢复的 MAL 当前字段；504 只记传输失败，绝不把失败响应解释成“无标签”</td></tr><tr class="odd"><td><a href="https://www.anime-planet.com/anime/comic-girls" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td>直连 403；精确条目公开文本与精确标题搜索卡均恢复成功。完整九标签为 Comedy、Seinen、Slice of Life、Boarding House、Manga Industry、Neighbors、Otaku Culture、Writers、Based on a Manga；无 GL／Shoujo-ai／Yuri／Romance</td><td>编辑标签库；访问恢复</td><td>403 是访问层问题；两条恢复路线共同证明当前完整标签面板，但标签沉默仍只写“未标”</td></tr><tr class="even"><td><a href="https://anilist.co/anime/99131/Comic-Girls" target="_blank" rel="noopener noreferrer">AniList</a></td><td>Genres 为 Comedy、Slice of Life；完整返回标签中 Yuri 77、LGBTQ+ Themes 60，另有 CGDCT 92、Primarily Female Cast 89；没有 Romance genre</td><td>编辑字段＋加权社区标签</td><td>证明该站当前容纳百合／LGBTQ+ 主题读法；排名是站内标签强度，不替代逐话证据</td></tr><tr class="odd"><td><a href="https://bangumi.tv/subject/217249" target="_blank" rel="noopener noreferrer">Bangumi</a></td><td>subject 217249，TV、12 话、排名 2298、评分 7.1；百合 1111、轻百合 418。五状态人数为想看 1910／看过 6477／在看 543／搁置 396／抛弃 269，合计 9595；1111 ÷ 9595 = 11.58%</td><td>社区标签与收藏状态</td><td>保留原始计数和动态比例作尺度参照，不称投票率或支持率；误探测不存在的复数 collections 路径所得 404 不算数据库失败，subject 内合法 collection 字段已成功</td></tr><tr class="even"><td><a href="https://www.bilibili.com/bangumi/media/md77812/" target="_blank" rel="noopener noreferrer">Bilibili 地区授权季页</a></td><td>season 23829、media 77812、正式 12 集；日语音轨、画面内简体中文字幕</td><td>授权播出与视听材料</td><td>只用于逐话音画、台词定位和版本交叉核对，不作为类型标签来源</td></tr></tbody></table></div><p>四库的差异可由标签制度解释：MAL 与 Anime-Planet 的编辑面板把它放在女子日常、寄宿生活与漫画行业；AniList 的加权标签直接收录 Yuri；Bangumi 用户标签同时出现百合与轻百合。它们并不互相推翻，也不能表决出角色身份。数据库层只回答“各站怎样标”，文本层仍须回答“谁对谁说了什么、是否知道对方性别、是否确认相互性”。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>以下部分包含十二话正篇的完整剧透。</p></aside>
 
       <details class="spoiler-panel">
         <summary>
@@ -142,7 +155,7 @@
     </div>
   </footer>
   <script>window.SITE_CONFIG = {basePath: "/yuri-classification-archive"};</script>
-  <script src="/yuri-classification-archive/assets/site.js?v=95491b68a3ae" defer></script>
-  
+  <script src="/yuri-classification-archive/assets/site.js?v=686fc3d330d3" defer></script>
+
 </body>
 </html>

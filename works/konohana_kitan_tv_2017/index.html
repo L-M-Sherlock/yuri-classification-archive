@@ -9,6 +9,7 @@
   <meta id="theme-color-dark" name="theme-color" media="(prefers-color-scheme: dark)" content="#1c181c">
   <script>
     (() => {
+      document.documentElement.classList.add("js");
       const storageKey = "yuri-classification-theme";
       const allowed = new Set(["system", "light", "dark"]);
       let preference = "system";
@@ -46,8 +47,8 @@
   <meta property="og:url" content="https://l-m-sherlock.github.io/yuri-classification-archive/works/konohana_kitan_tv_2017/">
   <meta property="og:image" content="https://l-m-sherlock.github.io/yuri-classification-archive/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
   <title>《此花绮谭》分类报告｜百合作品分类档案</title>
-  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=014a89622973">
-  
+  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=1cc35b33d5cd">
+
 </head>
 <body class="classification-report">
   <a class="skip-link" href="#main-content">跳到正文</a>
@@ -60,12 +61,24 @@
           <small>按查询拆开标签，按证据保留边界</small>
         </span>
       </a>
-      <nav class="site-nav" aria-label="主导航">
-        <a href="/yuri-classification-archive/">首页</a>
-        <a href="/yuri-classification-archive/table/">总表</a>
-        <a href="/yuri-classification-archive/about/">方法与说明</a>
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-navigation"
+      >
+        <span>菜单</span>
+        <span class="menu-toggle-icon" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-navigation" aria-label="主导航">
+        <div class="nav-main">
+          <a href="/yuri-classification-archive/">首页</a>
+          <a href="/yuri-classification-archive/table/">总表</a>
+          <a href="/yuri-classification-archive/about/">方法与说明</a>
+        </div>
         <a class="nav-star" href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub / Star <span aria-hidden="true">↗</span></a>
-        <a href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
+        <a class="nav-feedback" href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
         <label class="theme-control" for="theme-preference">
           <span>主题</span>
           <select id="theme-preference" aria-label="主题偏好">
@@ -84,7 +97,7 @@
     <h1>《此花绮谭》分类报告</h1>
     <p class="report-subtitle">2017 broadcast TV anime episodes 1-12；official and licensed TV synopses as paratext；live database genre, theme, and community-tag fields only as external labeling evidence</p>
     <div class="label-strip" aria-label="分类摘要">
-      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>恋爱位置：</strong>主线</span><span class="label-chip"><strong>最高明确度：</strong>明确欲望</span><span class="label-chip"><strong>官方：</strong>未标百合／GL</span><span class="label-chip"><strong>置信度：</strong>高</span>
+      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>恋爱位置：</strong>主线</span><span class="label-chip"><strong>最高明确度：</strong>明确欲望</span><span class="label-chip"><strong>官方字面百合／GL：</strong>所核未见</span><span class="label-chip"><strong>官方女女恋爱表述：</strong>所核未见</span><span class="label-chip"><strong>官方来源：</strong>所核来源未含可公开筛选的层级或位置</span><span class="label-chip"><strong>置信度：</strong>高</span>
     </div>
     <a class="back-link" href="/yuri-classification-archive/table/?q=%E6%AD%A4%E8%8A%B1%E7%BB%AE%E8%B0%AD">← 返回总表并定位本作</a>
   </header>
@@ -94,7 +107,7 @@
       <ol><li><a href="#无剧透结论">无剧透结论</a></li><li><a href="#数据库与公开分类">数据库与公开分类</a></li><li><a href="#决定性文本证据">决定性文本证据</a></li><li><a href="#四层分析">四层分析</a></li><li><a href="#最强反方解释">最强反方解释</a></li><li><a href="#分用途结论">分用途结论</a></li><li><a href="#方法来源与限制">方法、来源与限制</a></li></ol>
     </aside>
     <div class="report-content">
-      <blockquote><p>分类日期：2026-07-29<br> 分类对象：2017 年 TV 动画《このはな綺譚》<br> 纳入范围：正式播出的第 1–12 话<br> 排除范围：原作漫画、动画公式导读、音频与影像特典及其他跨媒介材料<br> 用途：普通推荐与数据库分类</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p><strong>结论：属于女女关系主线且按作品分类归档，置信度高。</strong> 女性生活共同体贯穿全部十二话；其中一组关系具有明确的女女欲望、嫉妒和排他性，另一组关系则通过持续选择、理解与对离别的在意形成潜在恋爱方向。奇幻旅馆、职场成长与来客单元同样重要，却没有男性恋爱主线取代女女关系的长期位置。</p><p>本作不是“全员已经成为情侣”的作品。TV 正篇没有双方正式告白、接吻或确立交往，也没有角色明示女同性恋、双性恋等身份；但它也不只靠亲密构图让观众联想，至少一名角色的欲望由内心台词直接表达。适合寻找女女关系中心、接受恋爱未完全落地的读者，不适合作为“明确交往”或“身份明示”检索的保证项。</p><p>若用于普通推荐，最好同时写出“恋爱未确立”和“奇幻单元占比不低”，比只给一个含义不稳定的“轻百合”标签更能校准预期。</p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：主线｜最高明确度：明确女女恋爱欲望｜关系构成：多组异质关系｜官方：TV 可核对宣传未标百合／GL｜阅读层级：正篇事实＋强推断＋读者解读｜身份依据类型：只有明确关系／欲望事实，无身份自述｜男性恋爱线：无｜内容提示：来客未经同意触碰角色、温泉裸露与身体笑料、冒充熟人诱导亲密、死亡与离别主题</strong></p></blockquote><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li>只寻找双方告白、正式交往或正篇接吻：<strong>不满足</strong>。十二话结束时没有任何一组被确认为恋人。</li><li>接受单方欲望明说、双向排他与持续恋爱指向：<strong>适合</strong>。蓮／棗是最明确的一组，但关键反应有一部分发生在冒充者制造的情境中。</li><li>只寻找角色自述女同性恋、双性恋等身份：<strong>不满足</strong>。作品标签不能替角色补出性取向。</li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://www.youtube.com/watch?v=GqwV7ZSWEzI" target="_blank" rel="noopener noreferrer">动画官方第三话介绍</a></td><td>官方频道把第三话概括为性格与外表相反的蓮、棗经常争吵，并回到二人的初次相遇；标题为“恋待ち焦がれ”</td><td>官方分话宣传</td><td>证明制作方把蓮／棗的关系作为整话中心；标题与简介本身仍不是交往确认</td></tr><tr class="even"><td><a href="https://www.netflix.com/jp/title/80221667" target="_blank" rel="noopener noreferrer">Netflix Japan</a></td><td>授权简介写柚来到此花亭做仲居、由皐、棗、蓮等前辈迎接；可见分类强调日常、奇幻与温情，未使用百合／GL</td><td>授权发行与营销</td><td>支持 TV 官方／授权宣传“未标”；沉默不等于否认</td></tr><tr class="odd"><td><a href="https://myanimelist.net/anime/35241/Konohana_Kitan" target="_blank" rel="noopener noreferrer">MyAnimeList</a></td><td>TV、12 话；现行 Genres 明列 Fantasy、Girls Love、Slice of Life，Themes 含 Iyashikei、Workplace 等</td><td>编辑型数据库</td><td>是明确的外部 Girls Love 分类，但不写成制作委员会认证，也不推出角色身份</td></tr><tr class="even"><td><a href="https://www.anime-planet.com/anime/konohana-kitan" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td>2026-07-30 完整 Tags 面板：<code>Fantasy / Slice of Life / Animal Characteristics / Coworkers / Hotels and Inns / Iyashikei / Japanese Mythology / Kitsune / Non-Human Protagonists / Supernatural / Based on a Manga</code></td><td>编辑维护的数据库标签</td><td>记录当前检索字段；不是官方认证，标签存在或沉默都不自动裁定作品关系</td></tr><tr class="odd"><td><a href="https://anilist.co/anime/98506/Konohana-Kitan" target="_blank" rel="noopener noreferrer">AniList</a></td><td>TV、12 话；编辑 Genres 为 Slice of Life、Supernatural；带权重社区标签含 Primarily Female Cast 84%、LGBTQ+ Themes 75%、Yuri 73%</td><td>编辑字段与带权重社区标签</td><td>记录常见百合读法；权重是站内动态数据，不是社群公投</td></tr><tr class="even"><td><a href="https://bangumi.tv/subject/211934" target="_blank" rel="noopener noreferrer">Bangumi</a></td><td>TV、12 话；用户标签中“百合”居首，另有“轻百合”，同时集中出现日常、治愈、奇幻等标签</td><td>用户标签数据库</td><td>解释作品为何进入本批榜单；标签人数不换算成事实概率</td></tr><tr class="odd"><td><a href="https://www.gamers.co.jp/special/fair/yuribu_5th.pdf" target="_blank" rel="noopener noreferrer">Gamers 百合部五周年书目</a></td><td>百合书目同时收录原作漫画、TV 动画公式导读及旧版《此花亭奇谭》</td><td>书店企划与产业零售分类</td><td>证明产业零售语境中确有百合归类；不把原作内容倒灌进 TV 正篇</td></tr><tr class="even"><td><a href="https://jimaku.cc/entry/1326" target="_blank" rel="noopener noreferrer">Jimaku 条目 1326</a></td><td>标题、日文名及 AniList 98506 精确对应；提供连续覆盖第 1–12 话的日文 Netflix CC SRT</td><td>第三方字幕索引</td><td>用于全季核读与时间码定位，不承担文类认证功能</td></tr></tbody></table></div><p>这些来源回答的是不同问题。MAL 的 Girls Love 是编辑分类，AniList 与 Bangumi 的百合是社区标签，Gamers 是零售企划，官方／授权简介则描述故事卖点。它们可以帮助了解公共标签，却不能按“标了几站”投票决定作品内容。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>以下部分包含本次分类对象的完整剧透。</p></aside>
+      <blockquote><p>分类日期：2026-07-29<br> 分类对象：2017 年 TV 动画《このはな綺譚》<br> 纳入范围：正式播出的第 1–12 话<br> 排除范围：原作漫画、动画公式导读、音频与影像特典及其他跨媒介材料<br> 用途：普通推荐与数据库分类</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p><strong>结论：属于女女关系主线且按作品分类归档，置信度高。</strong> 女性生活共同体贯穿全部十二话；其中一组关系具有明确的女女欲望、嫉妒和排他性，另一组关系则通过持续选择、理解与对离别的在意形成潜在恋爱方向。奇幻旅馆、职场成长与来客单元同样重要，却没有男性恋爱主线取代女女关系的长期位置。</p><p>本作不是“全员已经成为情侣”的作品。TV 正篇没有双方正式告白、接吻或确立交往，也没有角色明示女同性恋、双性恋等身份；但它也不只靠亲密构图让观众联想，至少一名角色的欲望由内心台词直接表达。适合寻找女女关系中心、接受恋爱未完全落地的读者，不适合作为“明确交往”或“身份明示”检索的保证项。</p><p>若用于普通推荐，最好同时写出“恋爱未确立”和“奇幻单元占比不低”，比只给一个含义不稳定的“轻百合”标签更能校准预期。</p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：主线｜最高明确度：明确女女恋爱欲望｜关系构成：多组异质关系｜官方字面：所核未见｜官方恋爱表述：所核未见｜官方来源：所核未见匹配表述｜阅读层级：正篇事实＋强推断＋读者解读｜身份依据类型：只有明确关系／欲望事实，无身份自述｜男性恋爱线：无｜内容提示：来客未经同意触碰角色、温泉裸露与身体笑料、冒充熟人诱导亲密、死亡与离别主题</strong></p></blockquote><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li>只寻找双方告白、正式交往或正篇接吻：<strong>不满足</strong>。十二话结束时没有任何一组被确认为恋人。</li><li>接受单方欲望明说、双向排他与持续恋爱指向：<strong>适合</strong>。蓮／棗是最明确的一组，但关键反应有一部分发生在冒充者制造的情境中。</li><li>只寻找角色自述女同性恋、双性恋等身份：<strong>不满足</strong>。作品标签不能替角色补出性取向。</li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://www.youtube.com/watch?v=GqwV7ZSWEzI" target="_blank" rel="noopener noreferrer">动画官方第三话介绍</a></td><td>官方频道把第三话概括为性格与外表相反的蓮、棗经常争吵，并回到二人的初次相遇；标题为“恋待ち焦がれ”</td><td>官方分话宣传</td><td>证明制作方把蓮／棗的关系作为整话中心；标题与简介本身仍不是交往确认</td></tr><tr class="even"><td><a href="https://www.netflix.com/jp/title/80221667" target="_blank" rel="noopener noreferrer">Netflix Japan</a></td><td>授权简介写柚来到此花亭做仲居、由皐、棗、蓮等前辈迎接；可见分类强调日常、奇幻与温情，未使用百合／GL</td><td>授权发行与营销</td><td>支持 TV 官方／授权宣传“未标”；沉默不等于否认</td></tr><tr class="odd"><td><a href="https://myanimelist.net/anime/35241/Konohana_Kitan" target="_blank" rel="noopener noreferrer">MyAnimeList</a></td><td>TV、12 话；现行 Genres 明列 Fantasy、Girls Love、Slice of Life，Themes 含 Iyashikei、Workplace 等</td><td>编辑型数据库</td><td>是明确的外部 Girls Love 分类，但不写成制作委员会认证，也不推出角色身份</td></tr><tr class="even"><td><a href="https://www.anime-planet.com/anime/konohana-kitan" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td>2026-07-30 完整 Tags 面板：<code>Fantasy / Slice of Life / Animal Characteristics / Coworkers / Hotels and Inns / Iyashikei / Japanese Mythology / Kitsune / Non-Human Protagonists / Supernatural / Based on a Manga</code></td><td>编辑维护的数据库标签</td><td>记录当前检索字段；不是官方认证，标签存在或沉默都不自动裁定作品关系</td></tr><tr class="odd"><td><a href="https://anilist.co/anime/98506/Konohana-Kitan" target="_blank" rel="noopener noreferrer">AniList</a></td><td>TV、12 话；编辑 Genres 为 Slice of Life、Supernatural；带权重社区标签含 Primarily Female Cast 84%、LGBTQ+ Themes 75%、Yuri 73%</td><td>编辑字段与带权重社区标签</td><td>记录常见百合读法；权重是站内动态数据，不是社群公投</td></tr><tr class="even"><td><a href="https://bangumi.tv/subject/211934" target="_blank" rel="noopener noreferrer">Bangumi</a></td><td>TV、12 话；用户标签中“百合”居首，另有“轻百合”，同时集中出现日常、治愈、奇幻等标签</td><td>用户标签数据库</td><td>解释作品为何进入本批榜单；标签人数不换算成事实概率</td></tr><tr class="odd"><td><a href="https://www.gamers.co.jp/special/fair/yuribu_5th.pdf" target="_blank" rel="noopener noreferrer">Gamers 百合部五周年书目</a></td><td>百合书目同时收录原作漫画、TV 动画公式导读及旧版《此花亭奇谭》</td><td>书店企划与产业零售分类</td><td>证明产业零售语境中确有百合归类；不把原作内容倒灌进 TV 正篇</td></tr><tr class="even"><td><a href="https://jimaku.cc/entry/1326" target="_blank" rel="noopener noreferrer">Jimaku 条目 1326</a></td><td>标题、日文名及 AniList 98506 精确对应；提供连续覆盖第 1–12 话的日文 Netflix CC SRT</td><td>第三方字幕索引</td><td>用于全季核读与时间码定位，不承担文类认证功能</td></tr></tbody></table></div><p>这些来源回答的是不同问题。MAL 的 Girls Love 是编辑分类，AniList 与 Bangumi 的百合是社区标签，Gamers 是零售企划，官方／授权简介则描述故事卖点。它们可以帮助了解公共标签，却不能按“标了几站”投票决定作品内容。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>以下部分包含本次分类对象的完整剧透。</p></aside>
 
       <details class="spoiler-panel">
         <summary>
@@ -142,7 +155,7 @@
     </div>
   </footer>
   <script>window.SITE_CONFIG = {basePath: "/yuri-classification-archive"};</script>
-  <script src="/yuri-classification-archive/assets/site.js?v=95491b68a3ae" defer></script>
-  
+  <script src="/yuri-classification-archive/assets/site.js?v=686fc3d330d3" defer></script>
+
 </body>
 </html>

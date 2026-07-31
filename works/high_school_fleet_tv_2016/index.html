@@ -9,6 +9,7 @@
   <meta id="theme-color-dark" name="theme-color" media="(prefers-color-scheme: dark)" content="#1c181c">
   <script>
     (() => {
+      document.documentElement.classList.add("js");
       const storageKey = "yuri-classification-theme";
       const allowed = new Set(["system", "light", "dark"]);
       let preference = "system";
@@ -46,7 +47,7 @@
   <meta property="og:url" content="https://l-m-sherlock.github.io/yuri-classification-archive/works/high_school_fleet_tv_2016/">
   <meta property="og:image" content="https://l-m-sherlock.github.io/yuri-classification-archive/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
   <title>《高校舰队》分类报告｜百合作品分类档案</title>
-  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=014a89622973">
+  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=1cc35b33d5cd">
 
 </head>
 <body class="classification-report">
@@ -60,12 +61,24 @@
           <small>按查询拆开标签，按证据保留边界</small>
         </span>
       </a>
-      <nav class="site-nav" aria-label="主导航">
-        <a href="/yuri-classification-archive/">首页</a>
-        <a href="/yuri-classification-archive/table/">总表</a>
-        <a href="/yuri-classification-archive/about/">方法与说明</a>
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-navigation"
+      >
+        <span>菜单</span>
+        <span class="menu-toggle-icon" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-navigation" aria-label="主导航">
+        <div class="nav-main">
+          <a href="/yuri-classification-archive/">首页</a>
+          <a href="/yuri-classification-archive/table/">总表</a>
+          <a href="/yuri-classification-archive/about/">方法与说明</a>
+        </div>
         <a class="nav-star" href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub / Star <span aria-hidden="true">↗</span></a>
-        <a href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
+        <a class="nav-feedback" href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
         <label class="theme-control" for="theme-preference">
           <span>主题</span>
           <select id="theme-preference" aria-label="主题偏好">
@@ -84,7 +97,7 @@
     <h1>《高校舰队》分类报告</h1>
     <p class="report-subtitle">official 2016 television anime episodes 1 through 12, originally broadcast from 2016-04-10 through 2016-06-26</p>
     <div class="label-strip" aria-label="分类摘要">
-      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>恋爱位置：</strong>缺席</span><span class="label-chip"><strong>最高明确度：</strong>非恋爱</span><span class="label-chip"><strong>官方：</strong>未标百合／GL</span><span class="label-chip"><strong>置信度：</strong>高</span>
+      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>恋爱位置：</strong>缺席</span><span class="label-chip"><strong>最高明确度：</strong>非恋爱</span><span class="label-chip"><strong>官方字面百合／GL：</strong>所核未见</span><span class="label-chip"><strong>官方女女恋爱表述：</strong>所核未见</span><span class="label-chip"><strong>官方来源：</strong>所核来源未含可公开筛选的层级或位置</span><span class="label-chip"><strong>置信度：</strong>高</span>
     </div>
     <a class="back-link" href="/yuri-classification-archive/table/?q=%E9%AB%98%E6%A0%A1%E8%88%B0%E9%98%9F">← 返回总表并定位本作</a>
   </header>
@@ -94,7 +107,7 @@
       <ol><li><a href="#无剧透结论">无剧透结论</a></li><li><a href="#数据库与公开分类">数据库与公开分类</a></li><li><a href="#决定性文本证据">决定性文本证据</a></li><li><a href="#四层分析">四层分析</a></li><li><a href="#最强反方解释">最强反方解释</a></li><li><a href="#分用途结论">分用途结论</a></li><li><a href="#方法来源与限制">方法、来源与限制</a></li></ol>
     </aside>
     <div class="report-content">
-      <blockquote><p>分类日期：2026-07-31<br> 分类对象：2016 年电视动画正式第 1–12 话<br> 纳入范围：十二话电视正篇<br> 排除范围：OVA、剧场版、漫画、小说、游戏、宣传短片及其他跨媒介材料<br> 用途：普通推荐、数据库分类、严格恋爱检索与角色身份检索</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p>本作可按“女女关系处于主线”的开放口径归入百合作品分类，置信度高。全季的行动单位是由女学生组成的晴风号：舰长与副长如何互补、舰长是否把同伴视为可托付的家人、全员能否在危险中共同决定并承担后果，构成了人物成长和海上危机的同一条主线。它同时是一部海洋军事、校园、灾难救援与群像动画；百合分类不是对这些类型的替代。</p><p>范围内的女女恋爱位置为缺席，最高明确度为非恋爱。正篇把核心关系明确写作儿时挚友、舰长与副长、船员、伙伴和家人，没有女女告白、接吻、确认交往、恋人称谓、对象明确的恋爱欲望或性取向自述。因此本作适合寻找女子共同体、搭档成长与亲密友情的读者，不命中“明确女女恋爱”或“明确女同性恋身份”的严格检索。</p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：主线｜女女关系层级（旧校验字段名）：主线｜百合归档依据：作品分类｜恋爱位置：缺席｜最高明确度：非恋爱｜关系构成：晴风号共同体＋明乃—真白舰长／副长搭档＋明乃—萌香儿时挚友｜官方：未标｜阅读层级：正篇事实／强推断／读者解读｜身份依据类型：范围内无依据｜男性恋爱线：无｜内容提示：海战与实弹攻击、爆炸和沉船危险、病毒导致失控攻击、受伤与溺水威胁、幼年丧亲回忆、灾难撤离、少量洗浴／内衣及体重笑话</strong></p></blockquote><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li>只找双方告白、接吻、恋人称谓、确认交往或身份明示：不适合；十二话正篇没有这些证据。</li><li>接受亲密友情、长期搭档、选择家庭与女子共同体作为百合阅读入口：适合；这正是全季稳定而持续的关系结构。</li><li>只想看没有男性恋爱线的作品：命中；男性角色虽出现于世界设定和救援场景，却没有进入恋爱叙事。</li><li>想看对象明确但尚未确认的女女恋爱方向：不建议据此选择；亲密关系很多，恋爱方向却未由正篇建立。</li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://www.hai-furi.com/tv/story/01/" target="_blank" rel="noopener noreferrer">动画官网第 1 话故事页</a>／<a href="https://www.hai-furi.com/tv/story/12/" target="_blank" rel="noopener noreferrer">第 12 话故事页</a>／<a href="https://www.hai-furi.com/news/?category=ONAIR" target="_blank" rel="noopener noreferrer">播出资料</a></td><td>官方将本作写成憧憬“蓝色人鱼”的女学生进入海洋高校、明乃担任晴风号舰长并参加海洋实习的故事；播出资料把 TV 全 12 话与 OVA 分开列出。公开页面没有百合或 GL 字段</td><td>官方剧情与版本资料</td><td>锁定十二话范围及官方实际措辞；“未标”不等于官方否认某种读法</td></tr><tr class="even"><td><a href="https://myanimelist.net/anime/31500/High_School_Fleet" target="_blank" rel="noopener noreferrer">MyAnimeList 31500</a></td><td>TV、12 话；Genre 为 Action，Themes 为 Military、School；没有 Girls Love</td><td>编辑分类</td><td>记录该站当前未列目标类型；不以数据库沉默覆盖正篇关系</td></tr><tr class="odd"><td><a href="https://www.anime-planet.com/anime/high-school-fleet" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td>TV、12 话；完整标签为 Action、Military、Military School、Ocean、School Life、Ship、Original Work；无精确 GL 或 Yuri</td><td>编辑标签库</td><td>记录该站的海洋军事分类；直连受限时从精确条目的公开文本读取标签面板</td></tr><tr class="even"><td><a href="https://anilist.co/anime/21316/High-School-Fleet" target="_blank" rel="noopener noreferrer">AniList 21316</a></td><td>TV、12 话；Genres 为 Action、Comedy、Slice of Life；Yuri 标签相关度 60，并被标为剧透标签；OVA 是独立后续条目</td><td>编辑字段＋加权社区标签</td><td>证明该站存在较宽的 Yuri 归类，不把 60 解释成概率、人数或角色身份</td></tr><tr class="odd"><td><a href="https://bangumi.tv/subject/144843" target="_blank" rel="noopener noreferrer">Bangumi 144843</a></td><td>TV、12 话；2026-07-31 快照 Rank 2832，百合标签 720、轻百合 27；五种收藏状态用户合计 6,874，百合标记人数／状态用户数为 10.47%</td><td>社区标签、排名与收藏状态</td><td>记录中文用户的可见读法和规模；比例不是标签内部占比或社群表决，不参与文本结论投票</td></tr><tr class="even"><td><a href="https://jimaku.cc/entry/962" target="_blank" rel="noopener noreferrer">Jimaku 962</a></td><td>精确匹配 AniList 21316，可取得第 1–12 话日文同步字幕</td><td>字幕索引</td><td>用于取得逐话日文文字材料和定位时间码，不视为官方剧本、官方翻译或类型权威</td></tr></tbody></table></div><p>这些平台没有在回答同一问题。官方页负责剧情和版本说明，MAL 与 Anime-Planet偏向编辑类型，AniList 和 Bangumi还容纳社区对亲密关系与观看习惯的标记。AniList、Bangumi出现 Yuri／百合，而 MAL、Anime-Planet未列 GL，只能说明标签门槛不同；它既不能把明乃与某人“投票”为恋人，也不能证明亲密友情不具有百合阅读价值。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>以下部分包含第 1–12 话完整剧透。</p></aside>
+      <blockquote><p>分类日期：2026-07-31<br> 分类对象：2016 年电视动画正式第 1–12 话<br> 纳入范围：十二话电视正篇<br> 排除范围：OVA、剧场版、漫画、小说、游戏、宣传短片及其他跨媒介材料<br> 用途：普通推荐、数据库分类、严格恋爱检索与角色身份检索</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p>本作可按“女女关系处于主线”的开放口径归入百合作品分类，置信度高。全季的行动单位是由女学生组成的晴风号：舰长与副长如何互补、舰长是否把同伴视为可托付的家人、全员能否在危险中共同决定并承担后果，构成了人物成长和海上危机的同一条主线。它同时是一部海洋军事、校园、灾难救援与群像动画；百合分类不是对这些类型的替代。</p><p>范围内的女女恋爱位置为缺席，最高明确度为非恋爱。正篇把核心关系明确写作儿时挚友、舰长与副长、船员、伙伴和家人，没有女女告白、接吻、确认交往、恋人称谓、对象明确的恋爱欲望或性取向自述。因此本作适合寻找女子共同体、搭档成长与亲密友情的读者，不命中“明确女女恋爱”或“明确女同性恋身份”的严格检索。</p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：主线｜女女关系层级（旧校验字段名）：主线｜百合归档依据：作品分类｜恋爱位置：缺席｜最高明确度：非恋爱｜关系构成：晴风号共同体＋明乃—真白舰长／副长搭档＋明乃—萌香儿时挚友｜官方字面：所核未见｜官方恋爱表述：所核未见｜官方来源：所核未见匹配表述｜阅读层级：正篇事实／强推断／读者解读｜身份依据类型：范围内无依据｜男性恋爱线：无｜内容提示：海战与实弹攻击、爆炸和沉船危险、病毒导致失控攻击、受伤与溺水威胁、幼年丧亲回忆、灾难撤离、少量洗浴／内衣及体重笑话</strong></p></blockquote><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li>只找双方告白、接吻、恋人称谓、确认交往或身份明示：不适合；十二话正篇没有这些证据。</li><li>接受亲密友情、长期搭档、选择家庭与女子共同体作为百合阅读入口：适合；这正是全季稳定而持续的关系结构。</li><li>只想看没有男性恋爱线的作品：命中；男性角色虽出现于世界设定和救援场景，却没有进入恋爱叙事。</li><li>想看对象明确但尚未确认的女女恋爱方向：不建议据此选择；亲密关系很多，恋爱方向却未由正篇建立。</li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://www.hai-furi.com/tv/story/01/" target="_blank" rel="noopener noreferrer">动画官网第 1 话故事页</a>／<a href="https://www.hai-furi.com/tv/story/12/" target="_blank" rel="noopener noreferrer">第 12 话故事页</a>／<a href="https://www.hai-furi.com/news/?category=ONAIR" target="_blank" rel="noopener noreferrer">播出资料</a></td><td>官方将本作写成憧憬“蓝色人鱼”的女学生进入海洋高校、明乃担任晴风号舰长并参加海洋实习的故事；播出资料把 TV 全 12 话与 OVA 分开列出。公开页面没有百合或 GL 字段</td><td>官方剧情与版本资料</td><td>锁定十二话范围及官方实际措辞；“未标”不等于官方否认某种读法</td></tr><tr class="even"><td><a href="https://myanimelist.net/anime/31500/High_School_Fleet" target="_blank" rel="noopener noreferrer">MyAnimeList 31500</a></td><td>TV、12 话；Genre 为 Action，Themes 为 Military、School；没有 Girls Love</td><td>编辑分类</td><td>记录该站当前未列目标类型；不以数据库沉默覆盖正篇关系</td></tr><tr class="odd"><td><a href="https://www.anime-planet.com/anime/high-school-fleet" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td>TV、12 话；完整标签为 Action、Military、Military School、Ocean、School Life、Ship、Original Work；无精确 GL 或 Yuri</td><td>编辑标签库</td><td>记录该站的海洋军事分类；直连受限时从精确条目的公开文本读取标签面板</td></tr><tr class="even"><td><a href="https://anilist.co/anime/21316/High-School-Fleet" target="_blank" rel="noopener noreferrer">AniList 21316</a></td><td>TV、12 话；Genres 为 Action、Comedy、Slice of Life；Yuri 标签相关度 60，并被标为剧透标签；OVA 是独立后续条目</td><td>编辑字段＋加权社区标签</td><td>证明该站存在较宽的 Yuri 归类，不把 60 解释成概率、人数或角色身份</td></tr><tr class="odd"><td><a href="https://bangumi.tv/subject/144843" target="_blank" rel="noopener noreferrer">Bangumi 144843</a></td><td>TV、12 话；2026-07-31 快照 Rank 2832，百合标签 720、轻百合 27；五种收藏状态用户合计 6,874，百合标记人数／状态用户数为 10.47%</td><td>社区标签、排名与收藏状态</td><td>记录中文用户的可见读法和规模；比例不是标签内部占比或社群表决，不参与文本结论投票</td></tr><tr class="even"><td><a href="https://jimaku.cc/entry/962" target="_blank" rel="noopener noreferrer">Jimaku 962</a></td><td>精确匹配 AniList 21316，可取得第 1–12 话日文同步字幕</td><td>字幕索引</td><td>用于取得逐话日文文字材料和定位时间码，不视为官方剧本、官方翻译或类型权威</td></tr></tbody></table></div><p>这些平台没有在回答同一问题。官方页负责剧情和版本说明，MAL 与 Anime-Planet偏向编辑类型，AniList 和 Bangumi还容纳社区对亲密关系与观看习惯的标记。AniList、Bangumi出现 Yuri／百合，而 MAL、Anime-Planet未列 GL，只能说明标签门槛不同；它既不能把明乃与某人“投票”为恋人，也不能证明亲密友情不具有百合阅读价值。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>以下部分包含第 1–12 话完整剧透。</p></aside>
 
       <details class="spoiler-panel">
         <summary>
@@ -142,7 +155,7 @@
     </div>
   </footer>
   <script>window.SITE_CONFIG = {basePath: "/yuri-classification-archive"};</script>
-  <script src="/yuri-classification-archive/assets/site.js?v=95491b68a3ae" defer></script>
+  <script src="/yuri-classification-archive/assets/site.js?v=686fc3d330d3" defer></script>
 
 </body>
 </html>

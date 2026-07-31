@@ -9,6 +9,7 @@
   <meta id="theme-color-dark" name="theme-color" media="(prefers-color-scheme: dark)" content="#1c181c">
   <script>
     (() => {
+      document.documentElement.classList.add("js");
       const storageKey = "yuri-classification-theme";
       const allowed = new Set(["system", "light", "dark"]);
       let preference = "system";
@@ -46,8 +47,8 @@
   <meta property="og:url" content="https://l-m-sherlock.github.io/yuri-classification-archive/works/assault_lily_bouquet_tv_2020/">
   <meta property="og:image" content="https://l-m-sherlock.github.io/yuri-classification-archive/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
   <title>《突击莉莉 BOUQUET》分类报告｜百合作品分类档案</title>
-  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=014a89622973">
-  
+  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=1cc35b33d5cd">
+
 </head>
 <body class="classification-report">
   <a class="skip-link" href="#main-content">跳到正文</a>
@@ -60,12 +61,24 @@
           <small>按查询拆开标签，按证据保留边界</small>
         </span>
       </a>
-      <nav class="site-nav" aria-label="主导航">
-        <a href="/yuri-classification-archive/">首页</a>
-        <a href="/yuri-classification-archive/table/">总表</a>
-        <a href="/yuri-classification-archive/about/">方法与说明</a>
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-navigation"
+      >
+        <span>菜单</span>
+        <span class="menu-toggle-icon" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-navigation" aria-label="主导航">
+        <div class="nav-main">
+          <a href="/yuri-classification-archive/">首页</a>
+          <a href="/yuri-classification-archive/table/">总表</a>
+          <a href="/yuri-classification-archive/about/">方法与说明</a>
+        </div>
         <a class="nav-star" href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub / Star <span aria-hidden="true">↗</span></a>
-        <a href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
+        <a class="nav-feedback" href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
         <label class="theme-control" for="theme-preference">
           <span>主题</span>
           <select id="theme-preference" aria-label="主题偏好">
@@ -84,7 +97,7 @@
     <h1>《突击莉莉 BOUQUET》分类报告</h1>
     <p class="report-subtitle">2020 Assault Lily BOUQUET TV anime episodes 1-12</p>
     <div class="label-strip" aria-label="分类摘要">
-      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>恋爱位置：</strong>主线</span><span class="label-chip"><strong>最高明确度：</strong>明确欲望</span><span class="label-chip"><strong>官方：</strong>未标百合／GL</span><span class="label-chip"><strong>置信度：</strong>高</span>
+      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>恋爱位置：</strong>主线</span><span class="label-chip"><strong>最高明确度：</strong>明确欲望</span><span class="label-chip"><strong>官方字面百合／GL：</strong>所核未见</span><span class="label-chip"><strong>官方女女恋爱表述：</strong>所核未见</span><span class="label-chip"><strong>官方来源：</strong>所核来源未含可公开筛选的层级或位置</span><span class="label-chip"><strong>置信度：</strong>高</span>
     </div>
     <a class="back-link" href="/yuri-classification-archive/table/?q=%E7%AA%81%E5%87%BB%E8%8E%89%E8%8E%89%20BOUQUET">← 返回总表并定位本作</a>
   </header>
@@ -94,7 +107,7 @@
       <ol><li><a href="#无剧透结论">无剧透结论</a></li><li><a href="#数据库与公开分类">数据库与公开分类</a></li><li><a href="#决定性文本证据">决定性文本证据</a></li><li><a href="#四层分析">四层分析</a></li><li><a href="#最强反方解释">最强反方解释</a></li><li><a href="#分用途结论">分用途结论</a></li><li><a href="#方法来源与限制">方法、来源与限制</a></li></ol>
     </aside>
     <div class="report-content">
-      <blockquote><p>分类日期：2026-07-30<br> 分类对象：2020 年《アサルトリリィ BOUQUET》TV 动画播出版<br> 纳入范围：第 1–12 话正文<br> 排除范围：《アサルトリリィ ふるーつ》短篇 ONA、舞台、游戏、小说、人偶设定、广播、访谈及其他跨媒介材料<br> 用途：普通推荐与数据库分类</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p><strong>本报告把《突击莉莉 BOUQUET》TV 版归为女女关系主线且按作品分类归档，置信度高。</strong> 全女性学校中的姊妹契约、女主角二人的相互保护、多组女性依恋及团队共同体构成主要情感结构，男性恋爱线不存在。作品也直接写出女性对女性的“命中注定对象”、占有欲和因爱慕而自我否定等内容。</p><p>但女主角二人没有告白、接吻、恋人称谓或交往确认；她们的正式关系是校内 <code>シュッツエンゲル</code> 姊妹契约。故本作符合“女女关系中心”及“存在明确女女欲望”的检索，不符合“主角确认情侣”的严格检索。作品名、校名“百合丘”和设定中的 Lily 都不能单独充当分类证据。</p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：主线｜最高明确度：明确女女恋爱欲望｜关系构成：多组异质关系｜官方：未标百合／GL｜阅读层级：正篇事实＋强推断＋读者解读｜身份依据类型：只有明确关系／欲望事实，无身份自述｜男性恋爱线：无｜内容提示：未成年战斗员与军事化教育、怪物袭击和战斗伤害、重要人物死亡与长期哀恸、失控状态及误伤恐惧、人工生命被实验和非人化、追捕与拘禁威胁、儿童形象角色死亡、精神幻象与自我憎恨、身体化笑料和集体沐浴画面。</strong></p></blockquote><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li>若门槛是“女女关系构成主要情感动力与叙事结构”，<strong>本作符合</strong>。</li><li>若门槛是“至少一名女性明确把特定女性当作命中注定对象、表现爱慕或占有欲”，<strong>本作符合</strong>，但相关表达并非都来自主角双方。</li><li>若门槛是“女主角二人告白、接吻、互称恋人或正式交往”，<strong>本作不符合</strong>。</li><li>若门槛是“角色自述女同性恋、双性恋或其他性取向身份”，<strong>本作不符合</strong>；具体欲望不能替代身份自述。</li><li>若门槛是“没有男性恋爱线”，<strong>本作符合</strong>；全 12 话未出现男性恋爱对象或男性恋爱副线。</li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><p>以下为 2026-07-30 复核快照。官方资料中的“Lily”是战斗员称谓，“百合丘女学院”是机构专名；二者只有在结合正篇关系结构后才具有分类参考价值，不能靠字面循环证明“官方百合”。</p><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://anime.assaultlily-pj.com/introduction/" target="_blank" rel="noopener noreferrer">动画官网 Introduction</a>／<a href="https://anime.assaultlily-pj.com/story/" target="_blank" rel="noopener noreferrer">官方剧情页</a></td><td>官网说明一柳梨璃因两年前获白井梦结救助而进入百合丘，故事围绕少女战斗员展开；分集页列出全 12 话，第 12 话以梨璃、梦结及同伴的共同战斗收束</td><td>制作方作品资料与正式分集梗概</td><td>确认 TV 范围、女主角关系起点和团队主线；官网未以百合／GL 作为类型字段，因此官方记“未标”</td></tr><tr class="even"><td><a href="https://anime.assaultlily-pj.com/character/riri/" target="_blank" rel="noopener noreferrer">官方角色页：一柳梨璃</a>／<a href="https://anime.assaultlily-pj.com/character/yuyu/" target="_blank" rel="noopener noreferrer">白井梦结</a></td><td>梨璃因获救而憧憬梦结；梦结是因过去事件与他人保持距离的优秀 Lily</td><td>制作方角色资料</td><td>交叉核对人物动机与创伤弧；简介没有恋人或性取向身份声明</td></tr><tr class="odd"><td><a href="https://myanimelist.net/anime/40550/Assault_Lily__Bouquet" target="_blank" rel="noopener noreferrer">MyAnimeList</a></td><td><code>TV</code>、12 话；Genres 为 <code>Action / Fantasy</code>，未列 Girls Love 或 Romance</td><td>编辑型数据库字段</td><td>记录该站以动作和奇幻为主的分类；沉默不等于否定女女关系的中心性</td></tr><tr class="even"><td><a href="https://www.anime-planet.com/anime/assault-lily-bouquet" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td>2026-07-30 完整 Tags 面板：<code>Action / GL / Sci Fi / Shoujo-ai / Magic / Monsters / School Life</code></td><td>编辑维护的数据库标签</td><td>记录当前检索字段；不是官方认证，标签存在或沉默都不自动裁定作品关系</td></tr><tr class="odd"><td><a href="https://anilist.co/anime/112479" target="_blank" rel="noopener noreferrer">AniList</a></td><td>Genres 为 <code>Action / Fantasy</code>；社区相关度标签含 <code>Magic 93</code>、<code>Primarily Female Cast 93</code>、<code>Female Protagonist 90</code>、<code>Yuri 83</code>、<code>CGDCT 83</code>、<code>School 75</code></td><td>社区添加并评价相关度的标签数据库</td><td>Yuri 为高相关公共读法；数值不是用户赞成比例，也不确认某一对角色交往</td></tr><tr class="even"><td><a href="https://bangumi.tv/subject/292712" target="_blank" rel="noopener noreferrer">Bangumi</a>／<a href="https://api.bgm.tv/v0/subjects/292712" target="_blank" rel="noopener noreferrer">公开 API</a></td><td>记 TV、12 话；动态用户标签中 <code>百合 1032</code>、<code>原创 866</code>、<code>战斗 565</code>、<code>校园 138</code>、<code>轻百合 19</code></td><td>社区用户标签与平台汇总</td><td>说明百合、战斗、校园和原创共同构成公共检索入口；计数不可当成定义投票</td></tr><tr class="odd"><td><a href="https://jimaku.cc/entry/864" target="_blank" rel="noopener noreferrer">Jimaku 字幕条目</a></td><td>精确对应 AniList 112479；取得覆盖第 1–12 话的双语 ASS，并抽取完整日文对白层核读</td><td>字幕索引与研究材料来源</td><td>用于核对范围、逐集文本和时间码，不作为分类权威</td></tr><tr class="even"><td><a href="https://myanimelist.net/anime/45961/Assault_Lily__Fruits" target="_blank" rel="noopener noreferrer">《Assault Lily: Fruits》MAL 条目</a></td><td>将 <code>Fruits</code> 另列为 ONA，而非 BOUQUET TV 正篇</td><td>编辑型数据库的媒介边界</td><td>只用于说明排除对象；本报告没有借短篇补写人物日常、关系或结局</td></tr></tbody></table></div><p>MAL 的类型沉默、Anime-Planet 的 GL／Shoujo-ai、AniList 的高权重 Yuri 与 Bangumi 的高频“百合”并不需要统一成一张票。它们显示的是不同平台对动作题材、女女关系和用户检索需求的不同排序。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>以下部分包含 TV 第 1–12 话、重要人物死亡及结局的完整剧透。</p></aside>
+      <blockquote><p>分类日期：2026-07-30<br> 分类对象：2020 年《アサルトリリィ BOUQUET》TV 动画播出版<br> 纳入范围：第 1–12 话正文<br> 排除范围：《アサルトリリィ ふるーつ》短篇 ONA、舞台、游戏、小说、人偶设定、广播、访谈及其他跨媒介材料<br> 用途：普通推荐与数据库分类</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p><strong>本报告把《突击莉莉 BOUQUET》TV 版归为女女关系主线且按作品分类归档，置信度高。</strong> 全女性学校中的姊妹契约、女主角二人的相互保护、多组女性依恋及团队共同体构成主要情感结构，男性恋爱线不存在。作品也直接写出女性对女性的“命中注定对象”、占有欲和因爱慕而自我否定等内容。</p><p>但女主角二人没有告白、接吻、恋人称谓或交往确认；她们的正式关系是校内 <code>シュッツエンゲル</code> 姊妹契约。故本作符合“女女关系中心”及“存在明确女女欲望”的检索，不符合“主角确认情侣”的严格检索。作品名、校名“百合丘”和设定中的 Lily 都不能单独充当分类证据。</p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：主线｜最高明确度：明确女女恋爱欲望｜关系构成：多组异质关系｜官方字面：所核未见｜官方恋爱表述：所核未见｜官方来源：所核未见匹配表述｜阅读层级：正篇事实＋强推断＋读者解读｜身份依据类型：只有明确关系／欲望事实，无身份自述｜男性恋爱线：无｜内容提示：未成年战斗员与军事化教育、怪物袭击和战斗伤害、重要人物死亡与长期哀恸、失控状态及误伤恐惧、人工生命被实验和非人化、追捕与拘禁威胁、儿童形象角色死亡、精神幻象与自我憎恨、身体化笑料和集体沐浴画面。</strong></p></blockquote><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li>若门槛是“女女关系构成主要情感动力与叙事结构”，<strong>本作符合</strong>。</li><li>若门槛是“至少一名女性明确把特定女性当作命中注定对象、表现爱慕或占有欲”，<strong>本作符合</strong>，但相关表达并非都来自主角双方。</li><li>若门槛是“女主角二人告白、接吻、互称恋人或正式交往”，<strong>本作不符合</strong>。</li><li>若门槛是“角色自述女同性恋、双性恋或其他性取向身份”，<strong>本作不符合</strong>；具体欲望不能替代身份自述。</li><li>若门槛是“没有男性恋爱线”，<strong>本作符合</strong>；全 12 话未出现男性恋爱对象或男性恋爱副线。</li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><p>以下为 2026-07-30 复核快照。官方资料中的“Lily”是战斗员称谓，“百合丘女学院”是机构专名；二者只有在结合正篇关系结构后才具有分类参考价值，不能靠字面循环证明“官方百合”。</p><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://anime.assaultlily-pj.com/introduction/" target="_blank" rel="noopener noreferrer">动画官网 Introduction</a>／<a href="https://anime.assaultlily-pj.com/story/" target="_blank" rel="noopener noreferrer">官方剧情页</a></td><td>官网说明一柳梨璃因两年前获白井梦结救助而进入百合丘，故事围绕少女战斗员展开；分集页列出全 12 话，第 12 话以梨璃、梦结及同伴的共同战斗收束</td><td>制作方作品资料与正式分集梗概</td><td>确认 TV 范围、女主角关系起点和团队主线；官网未以百合／GL 作为类型字段，因此官方记“未标”</td></tr><tr class="even"><td><a href="https://anime.assaultlily-pj.com/character/riri/" target="_blank" rel="noopener noreferrer">官方角色页：一柳梨璃</a>／<a href="https://anime.assaultlily-pj.com/character/yuyu/" target="_blank" rel="noopener noreferrer">白井梦结</a></td><td>梨璃因获救而憧憬梦结；梦结是因过去事件与他人保持距离的优秀 Lily</td><td>制作方角色资料</td><td>交叉核对人物动机与创伤弧；简介没有恋人或性取向身份声明</td></tr><tr class="odd"><td><a href="https://myanimelist.net/anime/40550/Assault_Lily__Bouquet" target="_blank" rel="noopener noreferrer">MyAnimeList</a></td><td><code>TV</code>、12 话；Genres 为 <code>Action / Fantasy</code>，未列 Girls Love 或 Romance</td><td>编辑型数据库字段</td><td>记录该站以动作和奇幻为主的分类；沉默不等于否定女女关系的中心性</td></tr><tr class="even"><td><a href="https://www.anime-planet.com/anime/assault-lily-bouquet" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td>2026-07-30 完整 Tags 面板：<code>Action / GL / Sci Fi / Shoujo-ai / Magic / Monsters / School Life</code></td><td>编辑维护的数据库标签</td><td>记录当前检索字段；不是官方认证，标签存在或沉默都不自动裁定作品关系</td></tr><tr class="odd"><td><a href="https://anilist.co/anime/112479" target="_blank" rel="noopener noreferrer">AniList</a></td><td>Genres 为 <code>Action / Fantasy</code>；社区相关度标签含 <code>Magic 93</code>、<code>Primarily Female Cast 93</code>、<code>Female Protagonist 90</code>、<code>Yuri 83</code>、<code>CGDCT 83</code>、<code>School 75</code></td><td>社区添加并评价相关度的标签数据库</td><td>Yuri 为高相关公共读法；数值不是用户赞成比例，也不确认某一对角色交往</td></tr><tr class="even"><td><a href="https://bangumi.tv/subject/292712" target="_blank" rel="noopener noreferrer">Bangumi</a>／<a href="https://api.bgm.tv/v0/subjects/292712" target="_blank" rel="noopener noreferrer">公开 API</a></td><td>记 TV、12 话；动态用户标签中 <code>百合 1032</code>、<code>原创 866</code>、<code>战斗 565</code>、<code>校园 138</code>、<code>轻百合 19</code></td><td>社区用户标签与平台汇总</td><td>说明百合、战斗、校园和原创共同构成公共检索入口；计数不可当成定义投票</td></tr><tr class="odd"><td><a href="https://jimaku.cc/entry/864" target="_blank" rel="noopener noreferrer">Jimaku 字幕条目</a></td><td>精确对应 AniList 112479；取得覆盖第 1–12 话的双语 ASS，并抽取完整日文对白层核读</td><td>字幕索引与研究材料来源</td><td>用于核对范围、逐集文本和时间码，不作为分类权威</td></tr><tr class="even"><td><a href="https://myanimelist.net/anime/45961/Assault_Lily__Fruits" target="_blank" rel="noopener noreferrer">《Assault Lily: Fruits》MAL 条目</a></td><td>将 <code>Fruits</code> 另列为 ONA，而非 BOUQUET TV 正篇</td><td>编辑型数据库的媒介边界</td><td>只用于说明排除对象；本报告没有借短篇补写人物日常、关系或结局</td></tr></tbody></table></div><p>MAL 的类型沉默、Anime-Planet 的 GL／Shoujo-ai、AniList 的高权重 Yuri 与 Bangumi 的高频“百合”并不需要统一成一张票。它们显示的是不同平台对动作题材、女女关系和用户检索需求的不同排序。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>以下部分包含 TV 第 1–12 话、重要人物死亡及结局的完整剧透。</p></aside>
 
       <details class="spoiler-panel">
         <summary>
@@ -142,7 +155,7 @@
     </div>
   </footer>
   <script>window.SITE_CONFIG = {basePath: "/yuri-classification-archive"};</script>
-  <script src="/yuri-classification-archive/assets/site.js?v=95491b68a3ae" defer></script>
-  
+  <script src="/yuri-classification-archive/assets/site.js?v=686fc3d330d3" defer></script>
+
 </body>
 </html>

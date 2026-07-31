@@ -9,6 +9,7 @@
   <meta id="theme-color-dark" name="theme-color" media="(prefers-color-scheme: dark)" content="#1c181c">
   <script>
     (() => {
+      document.documentElement.classList.add("js");
       const storageKey = "yuri-classification-theme";
       const allowed = new Set(["system", "light", "dark"]);
       let preference = "system";
@@ -46,8 +47,8 @@
   <meta property="og:url" content="https://l-m-sherlock.github.io/yuri-classification-archive/works/liz_to_aoi_tori_movie_2018/">
   <meta property="og:image" content="https://l-m-sherlock.github.io/yuri-classification-archive/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
   <title>《莉兹与青鸟》分类报告｜百合作品分类档案</title>
-  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=014a89622973">
-  
+  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=1cc35b33d5cd">
+
 </head>
 <body class="classification-report">
   <a class="skip-link" href="#main-content">跳到正文</a>
@@ -60,12 +61,24 @@
           <small>按查询拆开标签，按证据保留边界</small>
         </span>
       </a>
-      <nav class="site-nav" aria-label="主导航">
-        <a href="/yuri-classification-archive/">首页</a>
-        <a href="/yuri-classification-archive/table/">总表</a>
-        <a href="/yuri-classification-archive/about/">方法与说明</a>
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-navigation"
+      >
+        <span>菜单</span>
+        <span class="menu-toggle-icon" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-navigation" aria-label="主导航">
+        <div class="nav-main">
+          <a href="/yuri-classification-archive/">首页</a>
+          <a href="/yuri-classification-archive/table/">总表</a>
+          <a href="/yuri-classification-archive/about/">方法与说明</a>
+        </div>
         <a class="nav-star" href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub / Star <span aria-hidden="true">↗</span></a>
-        <a href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
+        <a class="nav-feedback" href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
         <label class="theme-control" for="theme-preference">
           <span>主题</span>
           <select id="theme-preference" aria-label="主题偏好">
@@ -84,7 +97,7 @@
     <h1>《莉兹与青鸟》分类报告</h1>
     <p class="report-subtitle">2018 theatrical animated film, one approximately 90-minute work</p>
     <div class="label-strip" aria-label="分类摘要">
-      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>恋爱位置：</strong>主线</span><span class="label-chip"><strong>最高明确度：</strong>潜在／明显但未确认</span><span class="label-chip"><strong>官方：</strong>未标百合／GL</span><span class="label-chip"><strong>置信度：</strong>高</span>
+      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>恋爱位置：</strong>主线</span><span class="label-chip"><strong>最高明确度：</strong>潜在／明显但未确认</span><span class="label-chip"><strong>官方字面百合／GL：</strong>所核未见</span><span class="label-chip"><strong>官方女女恋爱表述：</strong>所核未见</span><span class="label-chip"><strong>官方来源：</strong>所核来源未含可公开筛选的层级或位置</span><span class="label-chip"><strong>置信度：</strong>高</span>
     </div>
     <a class="back-link" href="/yuri-classification-archive/table/?q=%E8%8E%89%E5%85%B9%E4%B8%8E%E9%9D%92%E9%B8%9F">← 返回总表并定位本作</a>
   </header>
@@ -94,7 +107,7 @@
       <ol><li><a href="#无剧透结论">无剧透结论</a></li><li><a href="#数据库与公开分类">数据库与公开分类</a></li><li><a href="#决定性文本证据">决定性文本证据</a></li><li><a href="#四层分析">四层分析</a></li><li><a href="#最强反方解释">最强反方解释</a></li><li><a href="#分用途结论">分用途结论</a></li><li><a href="#方法来源与限制">方法、来源与限制</a></li></ol>
     </aside>
     <div class="report-content">
-      <blockquote><p>分类日期：2026-07-30<br> 分类对象：2018 年剧场动画《リズと青い鳥》正片<br> 纳入范围：约 90 分钟的单部电影<br> 排除范围：《吹响！上低音号》TV 动画、原作小说、其他剧场动画、宣传片、访谈中的剧情补充及整个系列的跨媒介推断<br> 用途：普通推荐与数据库分类<br> 榜单范围说明：本片虽为剧场动画，但依用户明确要求作为一般“排除剧场版”规则的单片例外保留；这不自动改变其他剧场版的筛选结果。</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p><strong>依本档案采用的开放工作定义，本片属于女女关系主线且按作品分类归档，置信度高。</strong> 两名高中女生怎样理解彼此、怎样面对才能和升学道路的差异，构成主要情感主线；同名童话、二重奏和毕业前的选择都围绕这段关系组织，正片没有男性恋爱线。音乐、青春成长和校园心理剧情仍是不可省略的并列类型。</p><p><strong>本片不满足“明确女女情侣”或“身份明示”的严格检索。</strong> 现实层没有双方告白并接受、正式交往、接吻、互称恋人，亦没有女同性恋／双性恋身份自述。正片确实写出一方把另一方视作第一位、全部和特别，为了与她在一起继续演奏，并逐项说出喜欢她之处；另一方也持续选择相处和共同演奏，但回应方式与未来规划并不对称。</p><p>因此，最稳妥的无剧透短标签是：<strong>女女关系中心的百合／明确对象爱意、恋爱未定名、开放结局。</strong> 童话中的直接爱语不能替现实人物完成告白，公开推荐也不应把“女女关系主线且按作品分类归档”误写成“正篇确认情侣”。</p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：主线｜最高明确度：潜在／明显但未确认的恋爱指向｜关系构成：单一主要关系记录｜官方：未标百合／GL；官方宣传与导演访谈以两名少女不同形状的“喜欢”和“爱”描述中心关系｜阅读层级：正篇事实＋强推断｜身份依据类型：只有关系性质推断，无身份自述｜男性恋爱线：无｜内容提示：曾经不告而别造成离别恐惧；一方把继续演奏和升学选择绑定于留在另一方身边；才能比较、自我贬低、哭泣与关系冲突。</strong></p></blockquote><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li>只寻找双方告白并接受、正式交往、接吻、恋人称谓或身份明示：<strong>不符合本片可确认的正篇事实</strong>。</li><li>接受女女关系构成完整主线，并寻找特定对象爱意、离别恐惧、身体亲近请求及未来协商：<strong>符合</strong>。</li><li>要求双方以相同方式确认恋爱：<strong>不保证</strong>；一方对整个人作出密集爱意表达，另一方当场明确回应的是喜欢她的双簧管。</li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><p>以下为 2026-07-30 快照。不同来源回答不同问题，不以标签数量投票；本轮重试失败的页面只记“未核验”，不从搜索摘要或其他站点代填字段。</p><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://liz-bluebird.com/" target="_blank" rel="noopener noreferrer">电影官方站</a>／<a href="https://liz-bluebird.com/img/introduction/introduction.png" target="_blank" rel="noopener noreferrer">官方介绍图</a></td><td>介绍为截取霙与希美“两名少女短暂而美丽的一瞬”，以“任何人都曾感受过的羡望与绝望，以及包围二者的爱”概括主题；页面未使用百合／GL</td><td>官方剧情与营销表述</td><td>证明官方把两名少女及“爱”置于宣传中心；不能改写成“官方认证百合”，也不能仅由“爱”推出恋人关系</td></tr><tr class="even"><td><a href="https://liz-bluebird.com/interview/" target="_blank" rel="noopener noreferrer">导演官方站访谈</a></td><td>说电影细致追踪两人“喜欢的形状”无法吻合，并明确表示“彼此都喜欢，也无法不在意对方”，只是其形状不同；另称这是“两名女生的故事”，其“感受”允许多种理解</td><td>官方创作者访谈</td><td>支持中心关系的双向在意与表达差异是有意设计，也支持开放理解；访谈不能替正片补出告白、交往或身份</td></tr><tr class="odd"><td><a href="https://j-mediaarts-festival.bunka.go.jp/award/single/liz-and-the-blue-bird/index.html" target="_blank" rel="noopener noreferrer">日本文化厅媒体艺术祭档案</a></td><td><code>剧场动画</code>；简介称作品描绘少女们把自身投射进同名童话后呈现出的“儚く美しい関係”</td><td>公共文化机构作品档案</td><td>确认媒介与关系中心性；该页同样未使用百合／GL 标签</td></tr><tr class="even"><td><a href="https://myanimelist.net/anime/35677/Liz_to_Aoi_Tori" target="_blank" rel="noopener noreferrer">MAL</a></td><td><code>Movie</code>、1 话、90 分钟；Genres 为 <code>Award Winning / Drama</code>，Themes 为 <code>Music / Performing Arts / School</code>；未列 <code>Girls Love</code> 或 <code>Romance</code></td><td>编辑型数据库字段</td><td>记录 MAL 的标准分类；字段沉默不等于否认文本关系</td></tr><tr class="odd"><td><a href="https://www.anime-planet.com/anime/liz-and-the-blue-bird" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td>2026-07-30 完整 Tags 面板：<code>Music / School Club / School Life / Based on a Novel</code></td><td>编辑维护的数据库标签</td><td>记录当前检索字段；不是官方认证，标签存在或沉默都不自动裁定作品关系</td></tr><tr class="even"><td><a href="https://anilist.co/anime/100178/Liz-to-Aoi-Tori" target="_blank" rel="noopener noreferrer">AniList</a></td><td><code>MOVIE</code>、1 话、90 分钟；Genres 为 <code>Drama / Music / Slice of Life</code>；社区相关度标签含 <code>Yuri 82</code>、<code>LGBTQ+ Themes 79</code>、<code>Unrequited Love 60</code>（后者标为剧透）</td><td>社区标签数据库</td><td>证明该站用户标签体系如何收录本片；数值是相关度 rank，不是“82% 用户赞成”，也不是角色身份依据</td></tr><tr class="odd"><td><a href="https://bangumi.tv/subject/216371" target="_blank" rel="noopener noreferrer">Bangumi</a>／<a href="https://api.bgm.tv/v0/subjects/216371" target="_blank" rel="noopener noreferrer">公共 API</a></td><td><code>platform: 剧场版</code>、1 话；元标签含 <code>百合</code>，用户标签快照含 <code>百合 5592</code>、<code>恋爱 109</code></td><td>社区用户标签、媒介字段与平台汇总</td><td>说明本片在中文社区中的常见分类以及本次例外的媒介性质；动态计数不能替代文本分析或官方分类</td></tr><tr class="even"><td><a href="https://jimaku.cc/entry/1322" target="_blank" rel="noopener noreferrer">Jimaku 条目 1322</a></td><td>与 AniList 100178 对应，列出四份资料；本报告重新下载其中 Netflix 日文 CC SRT，并复核文件版本、时间码与 cue 数</td><td>字幕资料库</td><td>用于正片台词全文检索与定位，不作为官方类型标签，也不把资料库文件自动视为官方台本</td></tr></tbody></table></div><p>MAL 的类型字段没有 Girls Love／Romance，AniList 与 Bangumi 的社区标签却收录 Yuri／百合，这并不构成必须二选一的“数据库矛盾”：它们使用的字段来源和分类粒度不同。数据库的“未标”只能解释为当前字段没有这个标签，社区标签也不能写成官方认证。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>以下部分包含《莉兹与青鸟》正片的完整剧透。</p></aside>
+      <blockquote><p>分类日期：2026-07-30<br> 分类对象：2018 年剧场动画《リズと青い鳥》正片<br> 纳入范围：约 90 分钟的单部电影<br> 排除范围：《吹响！上低音号》TV 动画、原作小说、其他剧场动画、宣传片、访谈中的剧情补充及整个系列的跨媒介推断<br> 用途：普通推荐与数据库分类<br> 榜单范围说明：本片虽为剧场动画，但依用户明确要求作为一般“排除剧场版”规则的单片例外保留；这不自动改变其他剧场版的筛选结果。</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p><strong>依本档案采用的开放工作定义，本片属于女女关系主线且按作品分类归档，置信度高。</strong> 两名高中女生怎样理解彼此、怎样面对才能和升学道路的差异，构成主要情感主线；同名童话、二重奏和毕业前的选择都围绕这段关系组织，正片没有男性恋爱线。音乐、青春成长和校园心理剧情仍是不可省略的并列类型。</p><p><strong>本片不满足“明确女女情侣”或“身份明示”的严格检索。</strong> 现实层没有双方告白并接受、正式交往、接吻、互称恋人，亦没有女同性恋／双性恋身份自述。正片确实写出一方把另一方视作第一位、全部和特别，为了与她在一起继续演奏，并逐项说出喜欢她之处；另一方也持续选择相处和共同演奏，但回应方式与未来规划并不对称。</p><p>因此，最稳妥的无剧透短标签是：<strong>女女关系中心的百合／明确对象爱意、恋爱未定名、开放结局。</strong> 童话中的直接爱语不能替现实人物完成告白，公开推荐也不应把“女女关系主线且按作品分类归档”误写成“正篇确认情侣”。</p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：主线｜最高明确度：潜在／明显但未确认的恋爱指向｜关系构成：单一主要关系记录｜官方字面：所核未见｜官方恋爱表述：所核未见｜官方来源：所核未见匹配表述｜阅读层级：正篇事实＋强推断｜身份依据类型：只有关系性质推断，无身份自述｜男性恋爱线：无｜内容提示：曾经不告而别造成离别恐惧；一方把继续演奏和升学选择绑定于留在另一方身边；才能比较、自我贬低、哭泣与关系冲突。</strong></p></blockquote><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li>只寻找双方告白并接受、正式交往、接吻、恋人称谓或身份明示：<strong>不符合本片可确认的正篇事实</strong>。</li><li>接受女女关系构成完整主线，并寻找特定对象爱意、离别恐惧、身体亲近请求及未来协商：<strong>符合</strong>。</li><li>要求双方以相同方式确认恋爱：<strong>不保证</strong>；一方对整个人作出密集爱意表达，另一方当场明确回应的是喜欢她的双簧管。</li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><p>以下为 2026-07-30 快照。不同来源回答不同问题，不以标签数量投票；本轮重试失败的页面只记“未核验”，不从搜索摘要或其他站点代填字段。</p><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://liz-bluebird.com/" target="_blank" rel="noopener noreferrer">电影官方站</a>／<a href="https://liz-bluebird.com/img/introduction/introduction.png" target="_blank" rel="noopener noreferrer">官方介绍图</a></td><td>介绍为截取霙与希美“两名少女短暂而美丽的一瞬”，以“任何人都曾感受过的羡望与绝望，以及包围二者的爱”概括主题；页面未使用百合／GL</td><td>官方剧情与营销表述</td><td>证明官方把两名少女及“爱”置于宣传中心；不能改写成“官方认证百合”，也不能仅由“爱”推出恋人关系</td></tr><tr class="even"><td><a href="https://liz-bluebird.com/interview/" target="_blank" rel="noopener noreferrer">导演官方站访谈</a></td><td>说电影细致追踪两人“喜欢的形状”无法吻合，并明确表示“彼此都喜欢，也无法不在意对方”，只是其形状不同；另称这是“两名女生的故事”，其“感受”允许多种理解</td><td>官方创作者访谈</td><td>支持中心关系的双向在意与表达差异是有意设计，也支持开放理解；访谈不能替正片补出告白、交往或身份</td></tr><tr class="odd"><td><a href="https://j-mediaarts-festival.bunka.go.jp/award/single/liz-and-the-blue-bird/index.html" target="_blank" rel="noopener noreferrer">日本文化厅媒体艺术祭档案</a></td><td><code>剧场动画</code>；简介称作品描绘少女们把自身投射进同名童话后呈现出的“儚く美しい関係”</td><td>公共文化机构作品档案</td><td>确认媒介与关系中心性；该页同样未使用百合／GL 标签</td></tr><tr class="even"><td><a href="https://myanimelist.net/anime/35677/Liz_to_Aoi_Tori" target="_blank" rel="noopener noreferrer">MAL</a></td><td><code>Movie</code>、1 话、90 分钟；Genres 为 <code>Award Winning / Drama</code>，Themes 为 <code>Music / Performing Arts / School</code>；未列 <code>Girls Love</code> 或 <code>Romance</code></td><td>编辑型数据库字段</td><td>记录 MAL 的标准分类；字段沉默不等于否认文本关系</td></tr><tr class="odd"><td><a href="https://www.anime-planet.com/anime/liz-and-the-blue-bird" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td>2026-07-30 完整 Tags 面板：<code>Music / School Club / School Life / Based on a Novel</code></td><td>编辑维护的数据库标签</td><td>记录当前检索字段；不是官方认证，标签存在或沉默都不自动裁定作品关系</td></tr><tr class="even"><td><a href="https://anilist.co/anime/100178/Liz-to-Aoi-Tori" target="_blank" rel="noopener noreferrer">AniList</a></td><td><code>MOVIE</code>、1 话、90 分钟；Genres 为 <code>Drama / Music / Slice of Life</code>；社区相关度标签含 <code>Yuri 82</code>、<code>LGBTQ+ Themes 79</code>、<code>Unrequited Love 60</code>（后者标为剧透）</td><td>社区标签数据库</td><td>证明该站用户标签体系如何收录本片；数值是相关度 rank，不是“82% 用户赞成”，也不是角色身份依据</td></tr><tr class="odd"><td><a href="https://bangumi.tv/subject/216371" target="_blank" rel="noopener noreferrer">Bangumi</a>／<a href="https://api.bgm.tv/v0/subjects/216371" target="_blank" rel="noopener noreferrer">公共 API</a></td><td><code>platform: 剧场版</code>、1 话；元标签含 <code>百合</code>，用户标签快照含 <code>百合 5592</code>、<code>恋爱 109</code></td><td>社区用户标签、媒介字段与平台汇总</td><td>说明本片在中文社区中的常见分类以及本次例外的媒介性质；动态计数不能替代文本分析或官方分类</td></tr><tr class="even"><td><a href="https://jimaku.cc/entry/1322" target="_blank" rel="noopener noreferrer">Jimaku 条目 1322</a></td><td>与 AniList 100178 对应，列出四份资料；本报告重新下载其中 Netflix 日文 CC SRT，并复核文件版本、时间码与 cue 数</td><td>字幕资料库</td><td>用于正片台词全文检索与定位，不作为官方类型标签，也不把资料库文件自动视为官方台本</td></tr></tbody></table></div><p>MAL 的类型字段没有 Girls Love／Romance，AniList 与 Bangumi 的社区标签却收录 Yuri／百合，这并不构成必须二选一的“数据库矛盾”：它们使用的字段来源和分类粒度不同。数据库的“未标”只能解释为当前字段没有这个标签，社区标签也不能写成官方认证。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>以下部分包含《莉兹与青鸟》正片的完整剧透。</p></aside>
 
       <details class="spoiler-panel">
         <summary>
@@ -142,7 +155,7 @@
     </div>
   </footer>
   <script>window.SITE_CONFIG = {basePath: "/yuri-classification-archive"};</script>
-  <script src="/yuri-classification-archive/assets/site.js?v=95491b68a3ae" defer></script>
-  
+  <script src="/yuri-classification-archive/assets/site.js?v=686fc3d330d3" defer></script>
+
 </body>
 </html>

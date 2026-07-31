@@ -9,6 +9,7 @@
   <meta id="theme-color-dark" name="theme-color" media="(prefers-color-scheme: dark)" content="#1c181c">
   <script>
     (() => {
+      document.documentElement.classList.add("js");
       const storageKey = "yuri-classification-theme";
       const allowed = new Set(["system", "light", "dark"]);
       let preference = "system";
@@ -46,8 +47,8 @@
   <meta property="og:url" content="https://l-m-sherlock.github.io/yuri-classification-archive/works/yuri_kuma_arashi_tv_2015/">
   <meta property="og:image" content="https://l-m-sherlock.github.io/yuri-classification-archive/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
   <title>《百合熊风暴》分类报告｜百合作品分类档案</title>
-  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=014a89622973">
-  
+  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=1cc35b33d5cd">
+
 </head>
 <body class="classification-report">
   <a class="skip-link" href="#main-content">跳到正文</a>
@@ -60,12 +61,24 @@
           <small>按查询拆开标签，按证据保留边界</small>
         </span>
       </a>
-      <nav class="site-nav" aria-label="主导航">
-        <a href="/yuri-classification-archive/">首页</a>
-        <a href="/yuri-classification-archive/table/">总表</a>
-        <a href="/yuri-classification-archive/about/">方法与说明</a>
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-navigation"
+      >
+        <span>菜单</span>
+        <span class="menu-toggle-icon" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-navigation" aria-label="主导航">
+        <div class="nav-main">
+          <a href="/yuri-classification-archive/">首页</a>
+          <a href="/yuri-classification-archive/table/">总表</a>
+          <a href="/yuri-classification-archive/about/">方法与说明</a>
+        </div>
         <a class="nav-star" href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub / Star <span aria-hidden="true">↗</span></a>
-        <a href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
+        <a class="nav-feedback" href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
         <label class="theme-control" for="theme-preference">
           <span>主题</span>
           <select id="theme-preference" aria-label="主题偏好">
@@ -84,7 +97,7 @@
     <h1>《百合熊风暴》分类报告</h1>
     <p class="report-subtitle">2015 TV anime formal episodes 1-12</p>
     <div class="label-strip" aria-label="分类摘要">
-      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>恋爱位置：</strong>主线</span><span class="label-chip"><strong>最高明确度：</strong>明确交往</span><span class="label-chip"><strong>官方：</strong>其他相关表述</span><span class="label-chip"><strong>置信度：</strong>高</span>
+      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>恋爱位置：</strong>主线</span><span class="label-chip"><strong>最高明确度：</strong>明确交往</span><span class="label-chip"><strong>官方字面百合／GL：</strong>所核未见</span><span class="label-chip"><strong>官方女女恋爱表述：</strong>是</span><span class="label-chip"><strong>官方来源：</strong>层级：当前版本；位置：剧情／角色页</span><span class="label-chip"><strong>置信度：</strong>高</span>
     </div>
     <a class="back-link" href="/yuri-classification-archive/table/?q=%E7%99%BE%E5%90%88%E7%86%8A%E9%A3%8E%E6%9A%B4">← 返回总表并定位本作</a>
   </header>
@@ -94,7 +107,7 @@
       <ol><li><a href="#无剧透结论">无剧透结论</a></li><li><a href="#数据库与公开分类">数据库与公开分类</a></li><li><a href="#决定性文本证据">决定性文本证据</a></li><li><a href="#四层分析">四层分析</a></li><li><a href="#最强反方解释">最强反方解释</a></li><li><a href="#分用途结论">分用途结论</a></li><li><a href="#方法来源与限制">方法、来源与限制</a></li></ol>
     </aside>
     <div class="report-content">
-      <blockquote><p>分类日期：2026-07-30<br> 分类对象：2015 年 TV 动画《ユリ熊嵐》正式正篇<br> 纳入范围：正式播出的第 1–12 话<br> 排除范围：第 8.5 话特别节目、影像特典、音频评论、漫画、小说、广播、舞台、访谈、宣传材料中的新增叙事及跨媒介推断<br> 用途：普通推荐与数据库分类</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p>结论是：<strong>本次限定的十二话 TV 正篇属于女女关系主线且按作品分类归档，置信度高。</strong> 判断不依靠标题、全女角色阵容或象征图案：动画官网在开篇直接把两名女性写为“恋人”，正片又以女性之间的回应、追求、拒绝、嫉妒、背叛和最终选择发动主要剧情；删除这些关系，冲突与结局都无法成立。</p><p>严格检索应拆开回答。本范围存在官网明称的女性恋人、对象明确的女性爱恋及实际女女接吻；但承担结局的核心两人没有说“正在交往”，也没有再用“恋人”命名关系。因此可以确认“范围内有明确恋人和接吻”，不能保证“结尾主配对正式开始交往”。</p><p>作品让“スキ”同时出现在恋人、朋友、单恋、占有、家人之爱与捕食欲望中，不能把每一次“喜欢”机械当作告白。角色也未用女同性恋、双性恋等标准身份词自称；作品文类与关系事实明确，身份字段仍为未知。</p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：主线｜最高明确度：明确女女交往关系｜关系构成：多组异质关系｜官方：未见百合／GL 类型栏，但官网明称女性角色为恋人，播出方确认终话关键动作｜阅读层级：正篇事实｜身份依据类型：只有明确关系／欲望事实，无身份自述｜男性恋爱线：无｜内容提示：死亡、枪击与食人意象，校园欺凌和集体排除，性化裸露与暗示，成年人对未成年学生的捕食性接近及强迫接吻未遂，嫉妒、背叛、丧亲、童年伤害、记忆抹除与身体变形。</strong></p></blockquote><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li>只要求“正篇中至少出现双方确认、恋人称谓或实际接吻之一”的检索，<strong>符合</strong>；本作同时具备官网恋人称谓与正片女女接吻。</li><li>要求“结尾核心两人明确说正在交往”的检索，<strong>不符合这一更窄条件</strong>；终局承诺和动作很强，但没有正式交往用语。</li><li>要求角色自称女同性恋、双性恋或其他标准身份的检索，<strong>不符合</strong>；对象与关系不能代替身份自称。</li><li>接受女性之间的爱、排除与跨越边界构成全剧主线，又能接受象征密度高、暴力和性化呈现的读者，<strong>高度适合</strong>。</li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><p>以下记录按 2026-07-30 快照区分官方表述、编辑字段、社区标签和材料索引；它们回答的问题不同，不能简单按站点数“投票”：</p><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://www.yurikuma.jp/story.html" target="_blank" rel="noopener noreferrer">动画官网 INTRODUCTION</a>／<a href="https://www.yurikuma.jp/story_01.html" target="_blank" rel="noopener noreferrer">第 1 话</a></td><td>直接把椿辉红羽与泉乃纯花写成“朋友”且为“恋人”</td><td>官方剧情与关系宣传</td><td>证明官方实际使用明确关系词；官网页面没有另设百合／GL 类型栏</td></tr><tr class="even"><td><a href="https://kadokawa-animation.jp/lineup/yurikuma" target="_blank" rel="noopener noreferrer">KADOKAWA Animation 条目</a></td><td>重载同一段官方简介，同样使用“恋人”</td><td>官方发行方作品资料</td><td>交叉确认该措辞不是数据库转述</td></tr><tr class="odd"><td><a href="https://www.yurikuma.jp/products_video.html" target="_blank" rel="noopener noreferrer">官网影像产品页</a></td><td>TV 系列全 12 话；六卷分别收录 1–2、3–4、5–6、7–8、9–10、11–12 话，均标有日文字幕</td><td>官方版本与载体资料</td><td>锁定正式话数，并核对本次日文 PGS 字幕的载体条件</td></tr><tr class="even"><td><a href="https://www.mbs.jp/yurikuma/sp/select/list/12760.shtml" target="_blank" rel="noopener noreferrer">MBS 第 12 话页面</a>／<a href="https://www.mbs.jp/yurikuma/sp/select/list/list.shtml" target="_blank" rel="noopener noreferrer">全话索引</a></td><td>播出方保存第 1–12 话索引及终话场景说明</td><td>官方播出方资料</td><td>用于复核字幕无法独立证明的无台词动作；具体内容留在剧透区</td></tr><tr class="odd"><td><a href="https://myanimelist.net/anime/26165/Yuri_Kuma_Arashi" target="_blank" rel="noopener noreferrer">MyAnimeList</a></td><td>TV、12 话；类型含 <code>Girls Love</code>、Drama、Fantasy、Avant Garde、Ecchi</td><td>编辑型数据库</td><td>记录该站明确采用 Girls Love，不把它升级成动画官方认证</td></tr><tr class="even"><td><a href="https://www.anime-planet.com/anime/yurikuma-arashi" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td>2026-07-30 完整 Tags 面板：<code>Drama / Fantasy / GL / Shoujo-ai / Animal Transformation / Bears / Conspiracy / LGBT Themes / Non-Human Protagonists / Original Work</code></td><td>编辑维护的数据库标签</td><td>记录当前检索字段；不是官方认证，标签存在或沉默都不自动裁定作品关系</td></tr><tr class="odd"><td><a href="https://anilist.co/anime/20827" target="_blank" rel="noopener noreferrer">AniList</a></td><td>TV、12 话；类型含 Romance；社区标签含 <code>LGBTQ+ Themes 95</code>、<code>Yuri 94</code></td><td>类型字段与社区带权重标签</td><td>权重是站内相关度，不是 95%／94% 用户投票</td></tr><tr class="even"><td><a href="https://bangumi.tv/subject/59825" target="_blank" rel="noopener noreferrer">Bangumi 条目</a>／<a href="https://api.bgm.tv/v0/subjects/59825" target="_blank" rel="noopener noreferrer">API 快照</a></td><td>TV、正式 12 话；用户标签“百合”计数 1,214，另有“几原邦彦”“原创”等</td><td>社区标签及 API 快照</td><td>说明中文站内的检索惯例；计数会变，也不是官方类型</td></tr><tr class="odd"><td><a href="https://jimaku.cc/entry/468" target="_blank" rel="noopener noreferrer">Jimaku 条目</a></td><td>逐话列出第 1–12 话日文 BDSUP 压缩包</td><td>公共字幕材料索引</td><td>只说明本次文本材料的取得入口，不作为文类证据</td></tr></tbody></table></div><p>MAL 的 Girls Love 是站点字段；AniList 的 Yuri 与 LGBTQ+ Themes、Bangumi 的“百合”是社区数据；官网的“恋人”是官方关系表述。三类证据可以互相印证，却不能互换来源身份。Anime-Planet 页面在本次查询环境中无法稳定读取，因此没有猜写其标签，也没有把“无法核实”当成“未标”。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>以下部分包含 2015 年 TV 动画第 1–12 话的完整剧透，包括主要死亡、关系反转与结局。</p></aside>
+      <blockquote><p>分类日期：2026-07-30<br> 分类对象：2015 年 TV 动画《ユリ熊嵐》正式正篇<br> 纳入范围：正式播出的第 1–12 话<br> 排除范围：第 8.5 话特别节目、影像特典、音频评论、漫画、小说、广播、舞台、访谈、宣传材料中的新增叙事及跨媒介推断<br> 用途：普通推荐与数据库分类</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p>结论是：<strong>本次限定的十二话 TV 正篇属于女女关系主线且按作品分类归档，置信度高。</strong> 判断不依靠标题、全女角色阵容或象征图案：动画官网在开篇直接把两名女性写为“恋人”，正片又以女性之间的回应、追求、拒绝、嫉妒、背叛和最终选择发动主要剧情；删除这些关系，冲突与结局都无法成立。</p><p>严格检索应拆开回答。本范围存在官网明称的女性恋人、对象明确的女性爱恋及实际女女接吻；但承担结局的核心两人没有说“正在交往”，也没有再用“恋人”命名关系。因此可以确认“范围内有明确恋人和接吻”，不能保证“结尾主配对正式开始交往”。</p><p>作品让“スキ”同时出现在恋人、朋友、单恋、占有、家人之爱与捕食欲望中，不能把每一次“喜欢”机械当作告白。角色也未用女同性恋、双性恋等标准身份词自称；作品文类与关系事实明确，身份字段仍为未知。</p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：主线｜最高明确度：明确女女交往关系｜关系构成：多组异质关系｜官方字面：所核未见｜官方恋爱表述：是｜官方来源：范围内版本·故事／角色页｜阅读层级：正篇事实｜身份依据类型：只有明确关系／欲望事实，无身份自述｜男性恋爱线：无｜内容提示：死亡、枪击与食人意象，校园欺凌和集体排除，性化裸露与暗示，成年人对未成年学生的捕食性接近及强迫接吻未遂，嫉妒、背叛、丧亲、童年伤害、记忆抹除与身体变形。</strong></p></blockquote><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li>只要求“正篇中至少出现双方确认、恋人称谓或实际接吻之一”的检索，<strong>符合</strong>；本作同时具备官网恋人称谓与正片女女接吻。</li><li>要求“结尾核心两人明确说正在交往”的检索，<strong>不符合这一更窄条件</strong>；终局承诺和动作很强，但没有正式交往用语。</li><li>要求角色自称女同性恋、双性恋或其他标准身份的检索，<strong>不符合</strong>；对象与关系不能代替身份自称。</li><li>接受女性之间的爱、排除与跨越边界构成全剧主线，又能接受象征密度高、暴力和性化呈现的读者，<strong>高度适合</strong>。</li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><p>以下记录按 2026-07-30 快照区分官方表述、编辑字段、社区标签和材料索引；它们回答的问题不同，不能简单按站点数“投票”：</p><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://www.yurikuma.jp/story.html" target="_blank" rel="noopener noreferrer">动画官网 INTRODUCTION</a>／<a href="https://www.yurikuma.jp/story_01.html" target="_blank" rel="noopener noreferrer">第 1 话</a></td><td>直接把椿辉红羽与泉乃纯花写成“朋友”且为“恋人”</td><td>官方剧情与关系宣传</td><td>证明官方实际使用明确关系词；官网页面没有另设百合／GL 类型栏</td></tr><tr class="even"><td><a href="https://kadokawa-animation.jp/lineup/yurikuma" target="_blank" rel="noopener noreferrer">KADOKAWA Animation 条目</a></td><td>重载同一段官方简介，同样使用“恋人”</td><td>官方发行方作品资料</td><td>交叉确认该措辞不是数据库转述</td></tr><tr class="odd"><td><a href="https://www.yurikuma.jp/products_video.html" target="_blank" rel="noopener noreferrer">官网影像产品页</a></td><td>TV 系列全 12 话；六卷分别收录 1–2、3–4、5–6、7–8、9–10、11–12 话，均标有日文字幕</td><td>官方版本与载体资料</td><td>锁定正式话数，并核对本次日文 PGS 字幕的载体条件</td></tr><tr class="even"><td><a href="https://www.mbs.jp/yurikuma/sp/select/list/12760.shtml" target="_blank" rel="noopener noreferrer">MBS 第 12 话页面</a>／<a href="https://www.mbs.jp/yurikuma/sp/select/list/list.shtml" target="_blank" rel="noopener noreferrer">全话索引</a></td><td>播出方保存第 1–12 话索引及终话场景说明</td><td>官方播出方资料</td><td>用于复核字幕无法独立证明的无台词动作；具体内容留在剧透区</td></tr><tr class="odd"><td><a href="https://myanimelist.net/anime/26165/Yuri_Kuma_Arashi" target="_blank" rel="noopener noreferrer">MyAnimeList</a></td><td>TV、12 话；类型含 <code>Girls Love</code>、Drama、Fantasy、Avant Garde、Ecchi</td><td>编辑型数据库</td><td>记录该站明确采用 Girls Love，不把它升级成动画官方认证</td></tr><tr class="even"><td><a href="https://www.anime-planet.com/anime/yurikuma-arashi" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td>2026-07-30 完整 Tags 面板：<code>Drama / Fantasy / GL / Shoujo-ai / Animal Transformation / Bears / Conspiracy / LGBT Themes / Non-Human Protagonists / Original Work</code></td><td>编辑维护的数据库标签</td><td>记录当前检索字段；不是官方认证，标签存在或沉默都不自动裁定作品关系</td></tr><tr class="odd"><td><a href="https://anilist.co/anime/20827" target="_blank" rel="noopener noreferrer">AniList</a></td><td>TV、12 话；类型含 Romance；社区标签含 <code>LGBTQ+ Themes 95</code>、<code>Yuri 94</code></td><td>类型字段与社区带权重标签</td><td>权重是站内相关度，不是 95%／94% 用户投票</td></tr><tr class="even"><td><a href="https://bangumi.tv/subject/59825" target="_blank" rel="noopener noreferrer">Bangumi 条目</a>／<a href="https://api.bgm.tv/v0/subjects/59825" target="_blank" rel="noopener noreferrer">API 快照</a></td><td>TV、正式 12 话；用户标签“百合”计数 1,214，另有“几原邦彦”“原创”等</td><td>社区标签及 API 快照</td><td>说明中文站内的检索惯例；计数会变，也不是官方类型</td></tr><tr class="odd"><td><a href="https://jimaku.cc/entry/468" target="_blank" rel="noopener noreferrer">Jimaku 条目</a></td><td>逐话列出第 1–12 话日文 BDSUP 压缩包</td><td>公共字幕材料索引</td><td>只说明本次文本材料的取得入口，不作为文类证据</td></tr></tbody></table></div><p>MAL 的 Girls Love 是站点字段；AniList 的 Yuri 与 LGBTQ+ Themes、Bangumi 的“百合”是社区数据；官网的“恋人”是官方关系表述。三类证据可以互相印证，却不能互换来源身份。Anime-Planet 页面在本次查询环境中无法稳定读取，因此没有猜写其标签，也没有把“无法核实”当成“未标”。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>以下部分包含 2015 年 TV 动画第 1–12 话的完整剧透，包括主要死亡、关系反转与结局。</p></aside>
 
       <details class="spoiler-panel">
         <summary>
@@ -142,7 +155,7 @@
     </div>
   </footer>
   <script>window.SITE_CONFIG = {basePath: "/yuri-classification-archive"};</script>
-  <script src="/yuri-classification-archive/assets/site.js?v=95491b68a3ae" defer></script>
-  
+  <script src="/yuri-classification-archive/assets/site.js?v=686fc3d330d3" defer></script>
+
 </body>
 </html>

@@ -9,6 +9,7 @@
   <meta id="theme-color-dark" name="theme-color" media="(prefers-color-scheme: dark)" content="#1c181c">
   <script>
     (() => {
+      document.documentElement.classList.add("js");
       const storageKey = "yuri-classification-theme";
       const allowed = new Set(["system", "light", "dark"]);
       let preference = "system";
@@ -46,8 +47,8 @@
   <meta property="og:url" content="https://l-m-sherlock.github.io/yuri-classification-archive/works/hibike_euphonium_tv_2015/">
   <meta property="og:image" content="https://l-m-sherlock.github.io/yuri-classification-archive/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
   <title>《吹响吧！上低音号》分类报告｜百合作品分类档案</title>
-  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=014a89622973">
-  
+  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=1cc35b33d5cd">
+
 </head>
 <body class="classification-report">
   <a class="skip-link" href="#main-content">跳到正文</a>
@@ -60,12 +61,24 @@
           <small>按查询拆开标签，按证据保留边界</small>
         </span>
       </a>
-      <nav class="site-nav" aria-label="主导航">
-        <a href="/yuri-classification-archive/">首页</a>
-        <a href="/yuri-classification-archive/table/">总表</a>
-        <a href="/yuri-classification-archive/about/">方法与说明</a>
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-navigation"
+      >
+        <span>菜单</span>
+        <span class="menu-toggle-icon" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-navigation" aria-label="主导航">
+        <div class="nav-main">
+          <a href="/yuri-classification-archive/">首页</a>
+          <a href="/yuri-classification-archive/table/">总表</a>
+          <a href="/yuri-classification-archive/about/">方法与说明</a>
+        </div>
         <a class="nav-star" href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub / Star <span aria-hidden="true">↗</span></a>
-        <a href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
+        <a class="nav-feedback" href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
         <label class="theme-control" for="theme-preference">
           <span>主题</span>
           <select id="theme-preference" aria-label="主题偏好">
@@ -84,7 +97,7 @@
     <h1>《吹响吧！上低音号》分类报告</h1>
     <p class="report-subtitle">2015 TV anime first season broadcast episodes 1-13</p>
     <div class="label-strip" aria-label="分类摘要">
-      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>恋爱位置：</strong>主线</span><span class="label-chip"><strong>最高明确度：</strong>潜在／明显但未确认</span><span class="label-chip"><strong>官方：</strong>未标百合／GL</span><span class="label-chip"><strong>置信度：</strong>高</span>
+      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>恋爱位置：</strong>主线</span><span class="label-chip"><strong>最高明确度：</strong>潜在／明显但未确认</span><span class="label-chip"><strong>官方字面百合／GL：</strong>所核未见</span><span class="label-chip"><strong>官方女女恋爱表述：</strong>所核未见</span><span class="label-chip"><strong>官方来源：</strong>所核来源未含可公开筛选的层级或位置</span><span class="label-chip"><strong>置信度：</strong>高</span>
     </div>
     <a class="back-link" href="/yuri-classification-archive/table/?q=%E5%90%B9%E5%93%8D%E5%90%A7%EF%BC%81%E4%B8%8A%E4%BD%8E%E9%9F%B3%E5%8F%B7">← 返回总表并定位本作</a>
   </header>
@@ -94,7 +107,7 @@
       <ol><li><a href="#无剧透结论">无剧透结论</a></li><li><a href="#数据库与公开分类">数据库与公开分类</a></li><li><a href="#决定性文本证据">决定性文本证据</a></li><li><a href="#四层分析">四层分析</a></li><li><a href="#最强反方解释">最强反方解释</a></li><li><a href="#分用途结论">分用途结论</a></li><li><a href="#方法来源与限制">方法、来源与限制</a></li></ol>
     </aside>
     <div class="report-content">
-      <blockquote><p>分类日期：2026-07-30<br> 分类对象：2015 年 TV 动画《響け！ユーフォニアム》第一季<br> 纳入范围：正式电视播出的第 1–13 话<br> 排除范围：未电视播出的番外篇《かけだすモナカ》、BD/DVD 短片、第二季、第三季、全部剧场版与特别篇（包括《莉兹与青鸟》）、小说、漫画及其他跨媒介材料<br> 用途：普通推荐与数据库分类</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p><strong>按本档案采用的开放工作定义，本季属于女女关系主线且按作品分类归档，置信度高。</strong> 它首先是吹奏乐、校园社团、竞赛与成长群像；与此同时，主人公与一名女同学从中学旧结走向相互理解、互相激励和共同承担选择，这段关系贯穿开端、选拔冲突与主人公建立演奏目标的过程。其他少女之间的友情、仰慕、竞争和支持也持续组织社团矛盾。百合与音乐成长在这里是重叠主类，并非只能二选一。</p><p><strong>本季不满足明确女女恋爱或身份检索。</strong> 核心少女会以“爱的告白”互相打趣，也有专门同行、赞美外貌、互许陪伴和把对方视为“特别”的直接文本；但第 1–13 话没有确认她们开始交往、接吻、互称恋人，或自述女同性恋／双性恋身份。</p><p>公开推荐时还须说明：正篇含少女对成年男教师的明确单方爱恋，以及校园异性告白。它们没有取代女女关系和吹奏乐主线，却使“没有男性恋爱方向”成为不准确的描述。最稳妥的短标签是：<strong>女女关系与吹奏乐成长共同构成主轴，核心女女关系有明显但未确认的恋爱指向，同时含单方异性恋爱副线。</strong></p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：主线｜最高明确度：潜在／明显但未确认的恋爱指向｜关系构成：单一主要关系记录｜官方：核对到的第一季资料未标百合／GL｜阅读层级：正篇事实＋强推断＋读者解读｜身份依据类型：只有关系性质推断，无身份自述｜男性恋爱线：副线；含少女对成年男教师的明确单方爱恋及校园异性告白三角｜内容提示：学生对成年教师的单方恋爱、失恋与拒绝、社团派系冲突、流言与偏袒指控、公开竞争和表演压力。</strong></p></blockquote><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li>只找女女双方正式告白并接受、开始交往、接吻或身份明示：<strong>不符合第 1–13 话</strong>。</li><li>接受专门同行、相互吸引、互称“特别”、承诺相伴等未定名关系，同时要求女女关系进入主线：<strong>符合</strong>。</li><li>不希望主要角色出现明确男性恋爱对象：<strong>不符合</strong>；正篇有少女爱恋成年男教师，也有校园异性告白。</li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><p>以下为 2026-07-30 快照。官方、编辑型数据库与社区标签回答的是不同问题，不以站点数量投票：</p><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://tv.anime-eupho.com/sp/story/" target="_blank" rel="noopener noreferrer">第一季官方 Introduction／Story</a></td><td>以久美子重遇中学同学丽奈、在吹奏乐部寻找不可替代之物开场，并称作品为“认真碰撞的少女们的青春故事”；页面未使用百合／GL 文类标签</td><td>官方剧情与营销表述</td><td>支持少女关系与吹奏乐共同处于公开叙事中心；官方字段记为“未标”，不把沉默写成否认</td></tr><tr class="even"><td><a href="https://tv.anime-eupho.com/sp/story/13/" target="_blank" rel="noopener noreferrer">官方第 13 话页面</a>／<a href="https://tv.anime-eupho.com/sp/story/ex/" target="_blank" rel="noopener noreferrer">官方番外篇页面</a></td><td>第 13 话明确标作 <code>最終回</code>，番外篇另标 <code>番外編</code>；官方故事索引按第 1–13 话后另列番外篇</td><td>官方分集资料</td><td>锁定本报告只纳入 13 话电视正篇；番外篇不能作为“第 14 话”倒灌</td></tr><tr class="odd"><td><a href="https://myanimelist.net/anime/27989/Hibike_Euphonium" target="_blank" rel="noopener noreferrer">MyAnimeList</a></td><td><code>TV</code>、13 话、原作来源为 Novel；Genre 为 Drama，Themes 为 Music、Performing Arts、School，未列 Girls Love 或 Romance</td><td>编辑型数据库字段</td><td>支持常规公共检索位置；字段沉默不能单独否定女女关系中心的开放型百合分类</td></tr><tr class="even"><td><a href="https://www.anime-planet.com/anime/sound-euphonium" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td>2026-07-30 完整 Tags 面板：<code>Drama / Music / School Club / School Life / Based on a Novel</code></td><td>编辑维护的数据库标签</td><td>记录当前检索字段；不是官方认证，标签存在或沉默都不自动裁定作品关系</td></tr><tr class="odd"><td><a href="https://anilist.co/anime/20912/Hibike-Euphonium" target="_blank" rel="noopener noreferrer">AniList</a></td><td><code>TV</code>、13 话；Genres 为 <code>Drama / Music / Slice of Life</code>；社区相关度标签含 <code>Yuri 55</code>、<code>LGBTQ+ Themes 52</code>、<code>Unrequited Love 56</code>、<code>Love Triangle 45</code>、<code>Heterosexual 45</code></td><td>类型字段＋带权重社区标签</td><td>同时记录百合阅读和异性恋爱副线进入该站检索体系；数字是相关度 rank，不是支持率或角色身份比例</td></tr><tr class="even"><td><a href="https://bangumi.tv/subject/115908" target="_blank" rel="noopener noreferrer">Bangumi</a>／<a href="https://api.bgm.tv/v0/subjects/115908" target="_blank" rel="noopener noreferrer">API</a></td><td><code>TV</code>；条目总话数写 14，分集 API 实际把第 1–13 话列作普通话、另把番外篇与短片列作 SP；用户标签快照含 <code>百合 2279</code>、<code>轻百合 65</code>、<code>恋爱 32</code></td><td>社区标签、媒介字段与分集资料</td><td>是本批榜单来源，也显示“14 话”包含未播番外而不等于 14 话电视正篇；动态计数不作为社群投票</td></tr><tr class="odd"><td><a href="https://jimaku.cc/entry/1908" target="_blank" rel="noopener noreferrer">Jimaku 条目 1908</a></td><td>与 AniList 20912 精确映射；提供连续覆盖第 1–13 话的日文字幕，并把番外篇放在独立条目</td><td>字幕汇集站</td><td>用于全季文本检索与时间定位，不作为官方分类或官方剧本</td></tr></tbody></table></div><p>MAL 与 Anime-Planet 在本次重试中已恢复可读，常规类型仍以音乐、戏剧与校园社团为主；AniList 和 Bangumi 则保留了百合社区标签。这不是数据库之间的简单输赢，而是编辑类型与社区阅读记录的口径不同。官方第一季页面已经直接核对，因此“官方未标百合／GL”只陈述页面事实，不解释成否认。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>以下部分包含 2015 年 TV 第一季第 1–13 话的完整剧透。</p></aside>
+      <blockquote><p>分类日期：2026-07-30<br> 分类对象：2015 年 TV 动画《響け！ユーフォニアム》第一季<br> 纳入范围：正式电视播出的第 1–13 话<br> 排除范围：未电视播出的番外篇《かけだすモナカ》、BD/DVD 短片、第二季、第三季、全部剧场版与特别篇（包括《莉兹与青鸟》）、小说、漫画及其他跨媒介材料<br> 用途：普通推荐与数据库分类</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p><strong>按本档案采用的开放工作定义，本季属于女女关系主线且按作品分类归档，置信度高。</strong> 它首先是吹奏乐、校园社团、竞赛与成长群像；与此同时，主人公与一名女同学从中学旧结走向相互理解、互相激励和共同承担选择，这段关系贯穿开端、选拔冲突与主人公建立演奏目标的过程。其他少女之间的友情、仰慕、竞争和支持也持续组织社团矛盾。百合与音乐成长在这里是重叠主类，并非只能二选一。</p><p><strong>本季不满足明确女女恋爱或身份检索。</strong> 核心少女会以“爱的告白”互相打趣，也有专门同行、赞美外貌、互许陪伴和把对方视为“特别”的直接文本；但第 1–13 话没有确认她们开始交往、接吻、互称恋人，或自述女同性恋／双性恋身份。</p><p>公开推荐时还须说明：正篇含少女对成年男教师的明确单方爱恋，以及校园异性告白。它们没有取代女女关系和吹奏乐主线，却使“没有男性恋爱方向”成为不准确的描述。最稳妥的短标签是：<strong>女女关系与吹奏乐成长共同构成主轴，核心女女关系有明显但未确认的恋爱指向，同时含单方异性恋爱副线。</strong></p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：主线｜最高明确度：潜在／明显但未确认的恋爱指向｜关系构成：单一主要关系记录｜官方字面：所核未见｜官方恋爱表述：所核未见｜官方来源：所核未见匹配表述｜阅读层级：正篇事实＋强推断＋读者解读｜身份依据类型：只有关系性质推断，无身份自述｜男性恋爱线：副线；含少女对成年男教师的明确单方爱恋及校园异性告白三角｜内容提示：学生对成年教师的单方恋爱、失恋与拒绝、社团派系冲突、流言与偏袒指控、公开竞争和表演压力。</strong></p></blockquote><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li>只找女女双方正式告白并接受、开始交往、接吻或身份明示：<strong>不符合第 1–13 话</strong>。</li><li>接受专门同行、相互吸引、互称“特别”、承诺相伴等未定名关系，同时要求女女关系进入主线：<strong>符合</strong>。</li><li>不希望主要角色出现明确男性恋爱对象：<strong>不符合</strong>；正篇有少女爱恋成年男教师，也有校园异性告白。</li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><p>以下为 2026-07-30 快照。官方、编辑型数据库与社区标签回答的是不同问题，不以站点数量投票：</p><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://tv.anime-eupho.com/sp/story/" target="_blank" rel="noopener noreferrer">第一季官方 Introduction／Story</a></td><td>以久美子重遇中学同学丽奈、在吹奏乐部寻找不可替代之物开场，并称作品为“认真碰撞的少女们的青春故事”；页面未使用百合／GL 文类标签</td><td>官方剧情与营销表述</td><td>支持少女关系与吹奏乐共同处于公开叙事中心；官方字段记为“未标”，不把沉默写成否认</td></tr><tr class="even"><td><a href="https://tv.anime-eupho.com/sp/story/13/" target="_blank" rel="noopener noreferrer">官方第 13 话页面</a>／<a href="https://tv.anime-eupho.com/sp/story/ex/" target="_blank" rel="noopener noreferrer">官方番外篇页面</a></td><td>第 13 话明确标作 <code>最終回</code>，番外篇另标 <code>番外編</code>；官方故事索引按第 1–13 话后另列番外篇</td><td>官方分集资料</td><td>锁定本报告只纳入 13 话电视正篇；番外篇不能作为“第 14 话”倒灌</td></tr><tr class="odd"><td><a href="https://myanimelist.net/anime/27989/Hibike_Euphonium" target="_blank" rel="noopener noreferrer">MyAnimeList</a></td><td><code>TV</code>、13 话、原作来源为 Novel；Genre 为 Drama，Themes 为 Music、Performing Arts、School，未列 Girls Love 或 Romance</td><td>编辑型数据库字段</td><td>支持常规公共检索位置；字段沉默不能单独否定女女关系中心的开放型百合分类</td></tr><tr class="even"><td><a href="https://www.anime-planet.com/anime/sound-euphonium" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td>2026-07-30 完整 Tags 面板：<code>Drama / Music / School Club / School Life / Based on a Novel</code></td><td>编辑维护的数据库标签</td><td>记录当前检索字段；不是官方认证，标签存在或沉默都不自动裁定作品关系</td></tr><tr class="odd"><td><a href="https://anilist.co/anime/20912/Hibike-Euphonium" target="_blank" rel="noopener noreferrer">AniList</a></td><td><code>TV</code>、13 话；Genres 为 <code>Drama / Music / Slice of Life</code>；社区相关度标签含 <code>Yuri 55</code>、<code>LGBTQ+ Themes 52</code>、<code>Unrequited Love 56</code>、<code>Love Triangle 45</code>、<code>Heterosexual 45</code></td><td>类型字段＋带权重社区标签</td><td>同时记录百合阅读和异性恋爱副线进入该站检索体系；数字是相关度 rank，不是支持率或角色身份比例</td></tr><tr class="even"><td><a href="https://bangumi.tv/subject/115908" target="_blank" rel="noopener noreferrer">Bangumi</a>／<a href="https://api.bgm.tv/v0/subjects/115908" target="_blank" rel="noopener noreferrer">API</a></td><td><code>TV</code>；条目总话数写 14，分集 API 实际把第 1–13 话列作普通话、另把番外篇与短片列作 SP；用户标签快照含 <code>百合 2279</code>、<code>轻百合 65</code>、<code>恋爱 32</code></td><td>社区标签、媒介字段与分集资料</td><td>是本批榜单来源，也显示“14 话”包含未播番外而不等于 14 话电视正篇；动态计数不作为社群投票</td></tr><tr class="odd"><td><a href="https://jimaku.cc/entry/1908" target="_blank" rel="noopener noreferrer">Jimaku 条目 1908</a></td><td>与 AniList 20912 精确映射；提供连续覆盖第 1–13 话的日文字幕，并把番外篇放在独立条目</td><td>字幕汇集站</td><td>用于全季文本检索与时间定位，不作为官方分类或官方剧本</td></tr></tbody></table></div><p>MAL 与 Anime-Planet 在本次重试中已恢复可读，常规类型仍以音乐、戏剧与校园社团为主；AniList 和 Bangumi 则保留了百合社区标签。这不是数据库之间的简单输赢，而是编辑类型与社区阅读记录的口径不同。官方第一季页面已经直接核对，因此“官方未标百合／GL”只陈述页面事实，不解释成否认。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>以下部分包含 2015 年 TV 第一季第 1–13 话的完整剧透。</p></aside>
 
       <details class="spoiler-panel">
         <summary>
@@ -142,7 +155,7 @@
     </div>
   </footer>
   <script>window.SITE_CONFIG = {basePath: "/yuri-classification-archive"};</script>
-  <script src="/yuri-classification-archive/assets/site.js?v=95491b68a3ae" defer></script>
-  
+  <script src="/yuri-classification-archive/assets/site.js?v=686fc3d330d3" defer></script>
+
 </body>
 </html>

@@ -4,6 +4,7 @@
   const storageKey = "yuri-classification-theme";
   const allowedPreferences = new Set(["system", "light", "dark"]);
   const systemTheme = window.matchMedia("(prefers-color-scheme: dark)");
+  const desktopNavigation = window.matchMedia("(min-width: 761px)");
 
   function currentPreference() {
     const value = document.documentElement.dataset.themePreference;
@@ -33,6 +34,7 @@
 
   function updateGiscusTheme(theme) {
     for (const frame of document.querySelectorAll("iframe.giscus-frame")) {
+      if (frame.dataset.themeReady !== "true") continue;
       frame.contentWindow?.postMessage(
         { giscus: { setConfig: { theme } } },
         "https://giscus.app",
@@ -102,18 +104,69 @@
       if (!frame) return;
       frame.addEventListener(
         "load",
-        () => updateGiscusTheme(document.documentElement.dataset.theme),
+        () => {
+          frame.dataset.themeReady = "true";
+          updateGiscusTheme(document.documentElement.dataset.theme);
+        },
         { once: true },
       );
-      updateGiscusTheme(document.documentElement.dataset.theme);
       observer.disconnect();
     });
     observer.observe(host, { childList: true });
   }
 
+  function setupMobileNavigation() {
+    const header = document.querySelector(".site-header");
+    const toggle = document.getElementById("menu-toggle");
+    const navigation = document.getElementById("site-navigation");
+    if (!header || !toggle || !navigation) return;
+
+    function menuIsOpen() {
+      return header.dataset.menuOpen === "true";
+    }
+
+    function setMenuOpen(open, returnFocus = false) {
+      header.dataset.menuOpen = open ? "true" : "false";
+      toggle.setAttribute("aria-expanded", open ? "true" : "false");
+      if (!open && returnFocus) toggle.focus();
+    }
+
+    toggle.addEventListener("click", () => {
+      setMenuOpen(!menuIsOpen());
+    });
+
+    navigation.addEventListener("click", (event) => {
+      if (event.target.closest("a")) setMenuOpen(false);
+    });
+
+    document.addEventListener("click", (event) => {
+      if (menuIsOpen() && !header.contains(event.target)) {
+        setMenuOpen(false);
+      }
+    });
+
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape" && menuIsOpen()) {
+        setMenuOpen(false, true);
+      }
+    });
+
+    const handleNavigationBreakpoint = () => {
+      if (desktopNavigation.matches) setMenuOpen(false);
+    };
+    if (typeof desktopNavigation.addEventListener === "function") {
+      desktopNavigation.addEventListener("change", handleNavigationBreakpoint);
+    } else {
+      desktopNavigation.addListener(handleNavigationBreakpoint);
+    }
+
+    setMenuOpen(false);
+  }
+
   document.addEventListener("DOMContentLoaded", () => {
     const preference = currentPreference();
     applyTheme(preference);
+    setupMobileNavigation();
 
     const control = document.getElementById("theme-preference");
     control?.addEventListener("change", () => {

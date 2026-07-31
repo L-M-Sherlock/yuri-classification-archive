@@ -9,6 +9,7 @@
   <meta id="theme-color-dark" name="theme-color" media="(prefers-color-scheme: dark)" content="#1c181c">
   <script>
     (() => {
+      document.documentElement.classList.add("js");
       const storageKey = "yuri-classification-theme";
       const allowed = new Set(["system", "light", "dark"]);
       let preference = "system";
@@ -46,8 +47,8 @@
   <meta property="og:url" content="https://l-m-sherlock.github.io/yuri-classification-archive/works/shibou_yuugi_de_meshi_wo_kuu_tv_2026/">
   <meta property="og:image" content="https://l-m-sherlock.github.io/yuri-classification-archive/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
   <title>《靠死亡游戏混饭吃。》分类报告｜百合作品分类档案</title>
-  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=014a89622973">
-  
+  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=1cc35b33d5cd">
+
 </head>
 <body class="classification-report">
   <a class="skip-link" href="#main-content">跳到正文</a>
@@ -60,12 +61,24 @@
           <small>按查询拆开标签，按证据保留边界</small>
         </span>
       </a>
-      <nav class="site-nav" aria-label="主导航">
-        <a href="/yuri-classification-archive/">首页</a>
-        <a href="/yuri-classification-archive/table/">总表</a>
-        <a href="/yuri-classification-archive/about/">方法与说明</a>
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-navigation"
+      >
+        <span>菜单</span>
+        <span class="menu-toggle-icon" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-navigation" aria-label="主导航">
+        <div class="nav-main">
+          <a href="/yuri-classification-archive/">首页</a>
+          <a href="/yuri-classification-archive/table/">总表</a>
+          <a href="/yuri-classification-archive/about/">方法与说明</a>
+        </div>
         <a class="nav-star" href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub / Star <span aria-hidden="true">↗</span></a>
-        <a href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
+        <a class="nav-feedback" href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
         <label class="theme-control" for="theme-preference">
           <span>主题</span>
           <select id="theme-preference" aria-label="主题偏好">
@@ -84,7 +97,7 @@
     <h1>《靠死亡游戏混饭吃。》分类报告</h1>
     <p class="report-subtitle">2026 TV anime formal episodes 1-11, aired from 2026-01-07 through 2026-03-18</p>
     <div class="label-strip" aria-label="分类摘要">
-      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>恋爱位置：</strong>主线</span><span class="label-chip"><strong>最高明确度：</strong>明确欲望</span><span class="label-chip"><strong>官方：</strong>未标百合／GL</span><span class="label-chip"><strong>置信度：</strong>高</span>
+      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>恋爱位置：</strong>主线</span><span class="label-chip"><strong>最高明确度：</strong>明确欲望</span><span class="label-chip"><strong>官方字面百合／GL：</strong>所核未见</span><span class="label-chip"><strong>官方女女恋爱表述：</strong>所核未见</span><span class="label-chip"><strong>官方来源：</strong>所核来源未含可公开筛选的层级或位置</span><span class="label-chip"><strong>置信度：</strong>高</span>
     </div>
     <a class="back-link" href="/yuri-classification-archive/table/?q=%E9%9D%A0%E6%AD%BB%E4%BA%A1%E6%B8%B8%E6%88%8F%E6%B7%B7%E9%A5%AD%E5%90%83%E3%80%82">← 返回总表并定位本作</a>
   </header>
@@ -94,7 +107,7 @@
       <ol><li><a href="#无剧透结论">无剧透结论</a></li><li><a href="#数据库与公开分类">数据库与公开分类</a></li><li><a href="#决定性文本证据">决定性文本证据</a></li><li><a href="#四层分析">四层分析</a></li><li><a href="#最强反方解释">最强反方解释</a></li><li><a href="#分用途结论">分用途结论</a></li><li><a href="#方法来源与限制">方法、来源与限制</a></li></ol>
     </aside>
     <div class="report-content">
-      <blockquote><p>分类日期：2026-07-30<br> 分类对象：2026 年 TV 动画《死亡遊戯で飯を食う。》正式第 1–11 话<br> 纳入范围：2026-01-07 至 2026-03-18 播出的 TV 正篇正式全 11 话<br> 排除范围：另行上映的《44:CLOUDY BEACH》、小说、漫画、官方指南及其他衍生材料与跨媒介推断<br> 用途：普通推荐与数据库分类</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p><strong>按本档案容纳恋爱与非恋爱女女关系的开放口径，TV 正式 1–11 话属于女女关系主线且按作品分类归档，置信度高；但普通题材首标应是女性死亡游戏／生存惊悚。</strong> 女主角的职业选择、求生伦理和人生目标持续由女性对手、同伴与师徒关系塑造；这些关系跨越三个游戏篇章并完成全季人物弧。正篇没有男性恋爱主线。</p><p><strong>作品不满足“双方明确交往”的严格检索。</strong> 正篇有直接“好意”、心跳与“可爱”的内心叙述，也有被角色听成“爱你”的呼吸、师徒崇拜和终局的“爱你”回声；但没有女女接吻、正式交往或性取向自述。爱慕、依附、利用、竞争和暴力经常同时存在，不能把它推荐成常规恋爱故事。</p><p>最稳妥的短标签是：<strong>女性死亡游戏主线；含明确好意与爱之语言，也有强烈师徒／宿敌依存，均未形成稳定情侣关系。</strong></p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：主线｜最高明确度：明确女女恋爱欲望｜关系构成：多组异质关系｜官方：未标百合／GL｜阅读层级：正篇事实＋强推断＋读者解读｜身份依据类型：只有明确关系／欲望事实，无身份自述｜男性恋爱线：无｜内容提示：大量死亡游戏杀戮、肢解与身体恐怖、自杀及被迫牺牲、童年虐待与杀害亲属、心理操纵和背叛、剥削性师徒依附、哀伤与幸存者负罪。</strong></p></blockquote><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li>只寻找双方告白、接吻、正式交往或身份明示：<strong>不符合</strong>。</li><li>接受一方明确产生好意、爱之语言、师徒崇拜和宿敌式执着：<strong>符合混合关系检索</strong>，但必须提示关系未确认且伴随严重暴力与操纵。</li><li>只想看死亡游戏／心理惊悚：<strong>高度符合</strong>；百合关系是人物与主题结构，不会把生存、杀戮和职业伦理让位给恋爱日常。</li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><p>以下为 2026-07-30 核对结果。TV 正式 11 话与 2026 年 7 月另行影院上映的《44:CLOUDY BEACH》在官方页面和字幕目录中均为不同对象，本报告不混用。</p><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://shiboyugi-anime.com/" target="_blank" rel="noopener noreferrer">TV 动画官网</a>／<a href="https://kadokawa-animation.jp/lineup/shiboyugi-anime" target="_blank" rel="noopener noreferrer">KADOKAWA 作品页</a></td><td>官方称本作为少女玩家以杀人游戏奖金生活的故事，主角幽鬼是“杀人游戏的职业选手”；正式 STORY 页面编号为 #01–#11</td><td>官方剧情与营销表述</td><td>证明女性死亡游戏是明示题材和 TV 范围；页面未以百合／GL 或 Romance 宣传</td></tr><tr class="even"><td><a href="https://shiboyugi-anime.com/theater/index.html" target="_blank" rel="noopener noreferrer">官方影院页</a></td><td>《死亡遊戯で飯を食う。44:CLOUDY BEACH》自 2026-07-10 另行影院上映，官网为其设置独立 Story／Theater 信息</td><td>官方版本边界</td><td>证明影院作品不是 TV 第 12 话；其剧情和角色关系不进入本报告</td></tr><tr class="odd"><td><a href="https://myanimelist.net/anime/59711/Shibou_Yuugi_de_Meshi_wo_Kuu" target="_blank" rel="noopener noreferrer">MyAnimeList 59711</a></td><td>TV、11 集；Genres 为 Action、Suspense，Theme 为 High Stakes Game；未列 Girls Love 或 Romance</td><td>编辑型数据库字段</td><td>核对正式话数和主要题材；未标不等于否认关系阅读</td></tr><tr class="even"><td><a href="https://www.anime-planet.com/anime/shiboyugi-playing-death-games-to-put-food-on-the-table" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td>2026-07-30 完整 Tags 面板：<code>Fantasy / High Stakes Games / Play or Die / Psychological / Based on a Light Novel</code></td><td>编辑维护的数据库标签</td><td>记录当前检索字段；不是官方认证，标签存在或沉默都不自动裁定作品关系</td></tr><tr class="odd"><td><a href="https://anilist.co/anime/180746" target="_blank" rel="noopener noreferrer">AniList 180746</a></td><td>TV、11 集；Genres 为 Action、Drama、Mystery、Thriller；社区标签含 Primarily Female Cast 97%、Death Game 97%、Yuri 50%、LGBTQ+ Themes 47%，另有 Tragedy、Body Horror 等剧透标签</td><td>编辑字段＋带权重社区标签</td><td>显示死亡游戏是最强检索入口，同时存在百合阅读；权重不是支持率</td></tr><tr class="even"><td><a href="https://bangumi.tv/subject/510753" target="_blank" rel="noopener noreferrer">Bangumi subject 510753</a>／<a href="https://api.bgm.tv/v0/subjects/510753" target="_blank" rel="noopener noreferrer">公共 API</a></td><td>TV、11 话；用户标签以悬疑、大逃杀、战斗等为主，含“百合”173</td><td>社区用户标签与范围数据</td><td>核对本批条目、话数和社区用语；标签计数不证明官方或角色身份</td></tr><tr class="odd"><td><a href="https://jimaku.cc/entry/11327" target="_blank" rel="noopener noreferrer">Jimaku entry 11327</a></td><td>TV 条目对应 AniList 180746，提供正式第 1–11 话字幕；影院作品另有独立条目</td><td>第三方字幕目录</td><td>用于 TV 文字材料的版本控制，不承担分类认证</td></tr></tbody></table></div><p>MAL、AniList 和 Bangumi共同把死亡游戏／悬疑放在醒目位置，只有社区层出现百合字段。报告因此不把“女女关系主线归档”误写成官方题材首标，也不因为 MAL 沉默而删掉正篇明确写出的女性好意、爱之语言与传承关系。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>以下部分包含《死亡遊戯で飯を食う。》TV 正式第 1–11 话完整剧透，并涉及死亡、自杀、肢解与虐待。</p></aside>
+      <blockquote><p>分类日期：2026-07-30<br> 分类对象：2026 年 TV 动画《死亡遊戯で飯を食う。》正式第 1–11 话<br> 纳入范围：2026-01-07 至 2026-03-18 播出的 TV 正篇正式全 11 话<br> 排除范围：另行上映的《44:CLOUDY BEACH》、小说、漫画、官方指南及其他衍生材料与跨媒介推断<br> 用途：普通推荐与数据库分类</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p><strong>按本档案容纳恋爱与非恋爱女女关系的开放口径，TV 正式 1–11 话属于女女关系主线且按作品分类归档，置信度高；但普通题材首标应是女性死亡游戏／生存惊悚。</strong> 女主角的职业选择、求生伦理和人生目标持续由女性对手、同伴与师徒关系塑造；这些关系跨越三个游戏篇章并完成全季人物弧。正篇没有男性恋爱主线。</p><p><strong>作品不满足“双方明确交往”的严格检索。</strong> 正篇有直接“好意”、心跳与“可爱”的内心叙述，也有被角色听成“爱你”的呼吸、师徒崇拜和终局的“爱你”回声；但没有女女接吻、正式交往或性取向自述。爱慕、依附、利用、竞争和暴力经常同时存在，不能把它推荐成常规恋爱故事。</p><p>最稳妥的短标签是：<strong>女性死亡游戏主线；含明确好意与爱之语言，也有强烈师徒／宿敌依存，均未形成稳定情侣关系。</strong></p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：主线｜最高明确度：明确女女恋爱欲望｜关系构成：多组异质关系｜官方字面：所核未见｜官方恋爱表述：所核未见｜官方来源：所核未见匹配表述｜阅读层级：正篇事实＋强推断＋读者解读｜身份依据类型：只有明确关系／欲望事实，无身份自述｜男性恋爱线：无｜内容提示：大量死亡游戏杀戮、肢解与身体恐怖、自杀及被迫牺牲、童年虐待与杀害亲属、心理操纵和背叛、剥削性师徒依附、哀伤与幸存者负罪。</strong></p></blockquote><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li>只寻找双方告白、接吻、正式交往或身份明示：<strong>不符合</strong>。</li><li>接受一方明确产生好意、爱之语言、师徒崇拜和宿敌式执着：<strong>符合混合关系检索</strong>，但必须提示关系未确认且伴随严重暴力与操纵。</li><li>只想看死亡游戏／心理惊悚：<strong>高度符合</strong>；百合关系是人物与主题结构，不会把生存、杀戮和职业伦理让位给恋爱日常。</li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><p>以下为 2026-07-30 核对结果。TV 正式 11 话与 2026 年 7 月另行影院上映的《44:CLOUDY BEACH》在官方页面和字幕目录中均为不同对象，本报告不混用。</p><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://shiboyugi-anime.com/" target="_blank" rel="noopener noreferrer">TV 动画官网</a>／<a href="https://kadokawa-animation.jp/lineup/shiboyugi-anime" target="_blank" rel="noopener noreferrer">KADOKAWA 作品页</a></td><td>官方称本作为少女玩家以杀人游戏奖金生活的故事，主角幽鬼是“杀人游戏的职业选手”；正式 STORY 页面编号为 #01–#11</td><td>官方剧情与营销表述</td><td>证明女性死亡游戏是明示题材和 TV 范围；页面未以百合／GL 或 Romance 宣传</td></tr><tr class="even"><td><a href="https://shiboyugi-anime.com/theater/index.html" target="_blank" rel="noopener noreferrer">官方影院页</a></td><td>《死亡遊戯で飯を食う。44:CLOUDY BEACH》自 2026-07-10 另行影院上映，官网为其设置独立 Story／Theater 信息</td><td>官方版本边界</td><td>证明影院作品不是 TV 第 12 话；其剧情和角色关系不进入本报告</td></tr><tr class="odd"><td><a href="https://myanimelist.net/anime/59711/Shibou_Yuugi_de_Meshi_wo_Kuu" target="_blank" rel="noopener noreferrer">MyAnimeList 59711</a></td><td>TV、11 集；Genres 为 Action、Suspense，Theme 为 High Stakes Game；未列 Girls Love 或 Romance</td><td>编辑型数据库字段</td><td>核对正式话数和主要题材；未标不等于否认关系阅读</td></tr><tr class="even"><td><a href="https://www.anime-planet.com/anime/shiboyugi-playing-death-games-to-put-food-on-the-table" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td>2026-07-30 完整 Tags 面板：<code>Fantasy / High Stakes Games / Play or Die / Psychological / Based on a Light Novel</code></td><td>编辑维护的数据库标签</td><td>记录当前检索字段；不是官方认证，标签存在或沉默都不自动裁定作品关系</td></tr><tr class="odd"><td><a href="https://anilist.co/anime/180746" target="_blank" rel="noopener noreferrer">AniList 180746</a></td><td>TV、11 集；Genres 为 Action、Drama、Mystery、Thriller；社区标签含 Primarily Female Cast 97%、Death Game 97%、Yuri 50%、LGBTQ+ Themes 47%，另有 Tragedy、Body Horror 等剧透标签</td><td>编辑字段＋带权重社区标签</td><td>显示死亡游戏是最强检索入口，同时存在百合阅读；权重不是支持率</td></tr><tr class="even"><td><a href="https://bangumi.tv/subject/510753" target="_blank" rel="noopener noreferrer">Bangumi subject 510753</a>／<a href="https://api.bgm.tv/v0/subjects/510753" target="_blank" rel="noopener noreferrer">公共 API</a></td><td>TV、11 话；用户标签以悬疑、大逃杀、战斗等为主，含“百合”173</td><td>社区用户标签与范围数据</td><td>核对本批条目、话数和社区用语；标签计数不证明官方或角色身份</td></tr><tr class="odd"><td><a href="https://jimaku.cc/entry/11327" target="_blank" rel="noopener noreferrer">Jimaku entry 11327</a></td><td>TV 条目对应 AniList 180746，提供正式第 1–11 话字幕；影院作品另有独立条目</td><td>第三方字幕目录</td><td>用于 TV 文字材料的版本控制，不承担分类认证</td></tr></tbody></table></div><p>MAL、AniList 和 Bangumi共同把死亡游戏／悬疑放在醒目位置，只有社区层出现百合字段。报告因此不把“女女关系主线归档”误写成官方题材首标，也不因为 MAL 沉默而删掉正篇明确写出的女性好意、爱之语言与传承关系。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>以下部分包含《死亡遊戯で飯を食う。》TV 正式第 1–11 话完整剧透，并涉及死亡、自杀、肢解与虐待。</p></aside>
 
       <details class="spoiler-panel">
         <summary>
@@ -142,7 +155,7 @@
     </div>
   </footer>
   <script>window.SITE_CONFIG = {basePath: "/yuri-classification-archive"};</script>
-  <script src="/yuri-classification-archive/assets/site.js?v=95491b68a3ae" defer></script>
-  
+  <script src="/yuri-classification-archive/assets/site.js?v=686fc3d330d3" defer></script>
+
 </body>
 </html>

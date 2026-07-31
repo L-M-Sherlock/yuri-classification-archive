@@ -9,6 +9,7 @@
   <meta id="theme-color-dark" name="theme-color" media="(prefers-color-scheme: dark)" content="#1c181c">
   <script>
     (() => {
+      document.documentElement.classList.add("js");
       const storageKey = "yuri-classification-theme";
       const allowed = new Set(["system", "light", "dark"]);
       let preference = "system";
@@ -46,8 +47,8 @@
   <meta property="og:url" content="https://l-m-sherlock.github.io/yuri-classification-archive/works/shoujo_shuumatsu_ryokou_tv_2017/">
   <meta property="og:image" content="https://l-m-sherlock.github.io/yuri-classification-archive/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
   <title>《少女终末旅行》分类报告｜百合作品分类档案</title>
-  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=014a89622973">
-  
+  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=1cc35b33d5cd">
+
 </head>
 <body class="classification-report">
   <a class="skip-link" href="#main-content">跳到正文</a>
@@ -60,12 +61,24 @@
           <small>按查询拆开标签，按证据保留边界</small>
         </span>
       </a>
-      <nav class="site-nav" aria-label="主导航">
-        <a href="/yuri-classification-archive/">首页</a>
-        <a href="/yuri-classification-archive/table/">总表</a>
-        <a href="/yuri-classification-archive/about/">方法与说明</a>
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-navigation"
+      >
+        <span>菜单</span>
+        <span class="menu-toggle-icon" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-navigation" aria-label="主导航">
+        <div class="nav-main">
+          <a href="/yuri-classification-archive/">首页</a>
+          <a href="/yuri-classification-archive/table/">总表</a>
+          <a href="/yuri-classification-archive/about/">方法与说明</a>
+        </div>
         <a class="nav-star" href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub / Star <span aria-hidden="true">↗</span></a>
-        <a href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
+        <a class="nav-feedback" href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
         <label class="theme-control" for="theme-preference">
           <span>主题</span>
           <select id="theme-preference" aria-label="主题偏好">
@@ -84,7 +97,7 @@
     <h1>《少女终末旅行》分类报告</h1>
     <p class="report-subtitle">2017 TV anime broadcast episodes 1-12</p>
     <div class="label-strip" aria-label="分类摘要">
-      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>恋爱位置：</strong>缺席</span><span class="label-chip"><strong>最高明确度：</strong>非恋爱</span><span class="label-chip"><strong>官方：</strong>未标百合／GL</span><span class="label-chip"><strong>置信度：</strong>高</span>
+      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>恋爱位置：</strong>缺席</span><span class="label-chip"><strong>最高明确度：</strong>非恋爱</span><span class="label-chip"><strong>官方字面百合／GL：</strong>所核未见</span><span class="label-chip"><strong>官方女女恋爱表述：</strong>所核未见</span><span class="label-chip"><strong>官方来源：</strong>所核来源未含可公开筛选的层级或位置</span><span class="label-chip"><strong>置信度：</strong>高</span>
     </div>
     <a class="back-link" href="/yuri-classification-archive/table/?q=%E5%B0%91%E5%A5%B3%E7%BB%88%E6%9C%AB%E6%97%85%E8%A1%8C">← 返回总表并定位本作</a>
   </header>
@@ -94,7 +107,7 @@
       <ol><li><a href="#无剧透结论">无剧透结论</a></li><li><a href="#数据库与公开分类">数据库与公开分类</a></li><li><a href="#决定性文本证据">决定性文本证据</a></li><li><a href="#四层分析">四层分析</a></li><li><a href="#最强反方解释">最强反方解释</a></li><li><a href="#分用途结论">分用途结论</a></li><li><a href="#方法来源与限制">方法、来源与限制</a></li></ol>
     </aside>
     <div class="report-content">
-      <blockquote><p>分类日期：2026-07-29<br> 分类对象：2017 年 TV 动画《少女終末旅行》<br> 纳入范围：正式播出的第 1–12 话<br> 排除范围：原作漫画及 TV 未改编的后续章节、迷你动画《少女週末授業》、音乐与出版物等衍生内容，以及整个企划的跨媒介推断<br> 用途：普通推荐、数据库分类与严格关系检索</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p><strong>按“女女关系构成作品叙事中心”的开放文类口径，本报告将第 1–12 话归为女女关系主线且按作品分类归档，置信度高。</strong> 全剧的视角、行动和情感节奏都建立在两名少女的共同旅行之上：她们分配资源、驾驶与维修、寻找住处、共同记忆世界，也在争执后继续选择彼此。短暂加入的其他人物没有形成男性恋爱线，更没有取代这组关系；若抽走二人的共同生活，作品的基本形式便不再成立。</p><p>这不是“动画确认两人正在恋爱”的同义句。TV 正篇没有双方告白、交往、恋人称谓、接吻的文字确认或性取向身份明示；共享浴室、休息空间、身体照料、排他处境与相互依存，都能由末世中的长期伙伴关系充分解释。因此，普通推荐可写“关系中心型百合／女性共同生活”，严格恋爱检索则应写“恋爱未确认”，让文类判断、具体关系事实与读者配对各自回答不同问题。</p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：缺席｜最高明确度：非恋爱｜关系构成：单一主要关系记录｜官方：核对到的 TV 资料未标百合／GL，以“终末幻想”介绍作品｜阅读层级：正篇事实＋读者解读｜身份依据类型：范围内没有性取向身份依据｜男性恋爱线：无｜内容提示：文明崩溃与战争遗迹、枪械及以武器争夺食物、生存物资短缺、高处坠落等危险、死亡与孤独议题；有共同沐浴等身体接近场景，但正篇未把它们命名为恋爱或性行为。</strong></p></blockquote><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li><strong>只寻找双方告白、接吻、正式交往、伴侣结局或身份明示：不应作为保证推荐。</strong> 本次 TV 文本没有这些确认；缺少同步画面也使本报告不能替无台词动作作绝对否定。</li><li><strong>寻找女女关系承担全部叙事骨架、持续共同生活与相互选择：适合。</strong> 二人的同行不是局部气氛，而是十二话的稳定结构。</li><li><strong>在意身体亲密但不要求恋爱命名：可注明有共同沐浴、共用临时住所与日常身体照料。</strong> 这些事实不自动等于性吸引或情侣关系。</li><li><strong>不希望看到伙伴间以武器争夺物资：需要预警。</strong> 第一话以稀缺食物和枪械重演“战争”，随后虽回到同行关系，越界本身并未因此消失。</li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://girls-last-tour.com/story/intro.html" target="_blank" rel="noopener noreferrer">TV 动画官方简介</a>与<a href="https://girls-last-tour.com/character/" target="_blank" rel="noopener noreferrer">角色页</a></td><td>简介称文明崩溃后的世界只剩“孤零零的两名少女”千户与尤莉，称作品为两名少女旅行的 <code>終末ファンタジー</code>；角色页列出驾驶、维修、枪械和体力劳动等分工，未使用百合／GL 或恋爱字段</td><td>动画官方剧情与角色资料</td><td>证明双人同行与生存分工是官方叙述中心；“未标”只记录实际字段，不等于官方否认百合阅读</td></tr><tr class="even"><td><a href="https://girls-last-tour.com/story/intro.html" target="_blank" rel="noopener noreferrer">官方 STORY 目录</a></td><td>目录完整列出第 1–12 话，正式故事以第 12 话结束</td><td>动画官方话数档案</td><td>确认本报告的 TV 正篇边界；不把网页迷你动画或漫画后续算作第十三话</td></tr><tr class="odd"><td><a href="https://myanimelist.net/anime/35838/Shoujo_Shuumatsu_Ryokou" target="_blank" rel="noopener noreferrer">MyAnimeList</a>与<a href="https://api.jikan.moe/v4/anime/35838/full" target="_blank" rel="noopener noreferrer">Jikan API</a></td><td>TV、12 话；Genres 为 Adventure、Mystery、Sci-Fi、Slice of Life，Theme 为 Iyashikei；当前未列 Girls Love 或 Romance</td><td>编辑型数据库字段；Jikan 为非官方 MAL API</td><td>支持末世旅行、科幻日常与治愈的主文类位置；字段沉默不能反证女女关系中心性</td></tr><tr class="even"><td><a href="https://www.anime-planet.com/anime/girls-last-tour" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td>2026-07-30 完整 Tags 面板：<code>Adventure / Drama / Sci Fi / Seinen / Slice of Life / Iyashikei / Melancholy / Orphans / Post-apocalyptic / Based on a Manga</code></td><td>编辑维护的数据库标签</td><td>记录当前检索字段；不是官方认证，标签存在或沉默都不自动裁定作品关系</td></tr><tr class="odd"><td><a href="https://anilist.co/anime/99420" target="_blank" rel="noopener noreferrer">AniList</a></td><td>TV、12 话；Genres 为 Adventure、Sci-Fi、Slice of Life；当前社区标签突出 Post-Apocalyptic、Lost Civilization、Philosophy、Travel、Iyashikei、Female Protagonist、Survival 等，完整返回中未列 Yuri</td><td>编辑类型＋带权重社区标签</td><td>说明站内首先按末世、旅行与哲思检索；标签权重不是官方认证，也不是角色身份证据</td></tr><tr class="even"><td><a href="https://bangumi.tv/subject/218707" target="_blank" rel="noopener noreferrer">Bangumi 条目</a>与<a href="https://api.bgm.tv/v0/subjects/218707" target="_blank" rel="noopener noreferrer">公开 API</a></td><td>TV、12 话；2026-07-30 用户标签含“末世”4170、“百合”3540、“废土”3059、“公路片”3005及“轻百合”100，页面动画排名为 162</td><td>条目字段＋动态用户标签</td><td>证明中文社区有规模显著且持续的百合检索实践；计数彼此相关，不能换算为社群支持率或恋爱事实</td></tr><tr class="odd"><td><a href="https://jimaku.cc/entry/1636" target="_blank" rel="noopener noreferrer">Jimaku 条目</a></td><td>精确对应 AniList 99420；当前列有第 1–12 话 Kamigami 日文 ASS、NanakoRaws 日文字幕及 Netflix 日文 CC SRT</td><td>字幕资料库</td><td>核对本地字幕的条目来源和全话覆盖；仓库结论仍以实际审阅的本地文件为准</td></tr></tbody></table></div><p>这些结果回答的不是同一道题。官方简介说明作品如何对外介绍，MAL 与 AniList 显示各站的标准类型和社区索引，Bangumi 则保留用户如何寻找作品的痕迹。一个站没有 Yuri 字段，不等于文本中没有重要女女关系；“百合”计数很高，也不能替两名角色说出告白。本文因此先审阅十二话，再分别记录官方、编辑数据库与社区标签，而不按站点数量投票。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>以下部分包含 2017 年 TV 动画第 1–12 话的完整剧情与结尾剧透。</p></aside>
+      <blockquote><p>分类日期：2026-07-29<br> 分类对象：2017 年 TV 动画《少女終末旅行》<br> 纳入范围：正式播出的第 1–12 话<br> 排除范围：原作漫画及 TV 未改编的后续章节、迷你动画《少女週末授業》、音乐与出版物等衍生内容，以及整个企划的跨媒介推断<br> 用途：普通推荐、数据库分类与严格关系检索</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p><strong>按“女女关系构成作品叙事中心”的开放文类口径，本报告将第 1–12 话归为女女关系主线且按作品分类归档，置信度高。</strong> 全剧的视角、行动和情感节奏都建立在两名少女的共同旅行之上：她们分配资源、驾驶与维修、寻找住处、共同记忆世界，也在争执后继续选择彼此。短暂加入的其他人物没有形成男性恋爱线，更没有取代这组关系；若抽走二人的共同生活，作品的基本形式便不再成立。</p><p>这不是“动画确认两人正在恋爱”的同义句。TV 正篇没有双方告白、交往、恋人称谓、接吻的文字确认或性取向身份明示；共享浴室、休息空间、身体照料、排他处境与相互依存，都能由末世中的长期伙伴关系充分解释。因此，普通推荐可写“关系中心型百合／女性共同生活”，严格恋爱检索则应写“恋爱未确认”，让文类判断、具体关系事实与读者配对各自回答不同问题。</p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：缺席｜最高明确度：非恋爱｜关系构成：单一主要关系记录｜官方字面：所核未见｜官方恋爱表述：所核未见｜官方来源：所核未见匹配表述｜阅读层级：正篇事实＋读者解读｜身份依据类型：范围内没有性取向身份依据｜男性恋爱线：无｜内容提示：文明崩溃与战争遗迹、枪械及以武器争夺食物、生存物资短缺、高处坠落等危险、死亡与孤独议题；有共同沐浴等身体接近场景，但正篇未把它们命名为恋爱或性行为。</strong></p></blockquote><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li><strong>只寻找双方告白、接吻、正式交往、伴侣结局或身份明示：不应作为保证推荐。</strong> 本次 TV 文本没有这些确认；缺少同步画面也使本报告不能替无台词动作作绝对否定。</li><li><strong>寻找女女关系承担全部叙事骨架、持续共同生活与相互选择：适合。</strong> 二人的同行不是局部气氛，而是十二话的稳定结构。</li><li><strong>在意身体亲密但不要求恋爱命名：可注明有共同沐浴、共用临时住所与日常身体照料。</strong> 这些事实不自动等于性吸引或情侣关系。</li><li><strong>不希望看到伙伴间以武器争夺物资：需要预警。</strong> 第一话以稀缺食物和枪械重演“战争”，随后虽回到同行关系，越界本身并未因此消失。</li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://girls-last-tour.com/story/intro.html" target="_blank" rel="noopener noreferrer">TV 动画官方简介</a>与<a href="https://girls-last-tour.com/character/" target="_blank" rel="noopener noreferrer">角色页</a></td><td>简介称文明崩溃后的世界只剩“孤零零的两名少女”千户与尤莉，称作品为两名少女旅行的 <code>終末ファンタジー</code>；角色页列出驾驶、维修、枪械和体力劳动等分工，未使用百合／GL 或恋爱字段</td><td>动画官方剧情与角色资料</td><td>证明双人同行与生存分工是官方叙述中心；“未标”只记录实际字段，不等于官方否认百合阅读</td></tr><tr class="even"><td><a href="https://girls-last-tour.com/story/intro.html" target="_blank" rel="noopener noreferrer">官方 STORY 目录</a></td><td>目录完整列出第 1–12 话，正式故事以第 12 话结束</td><td>动画官方话数档案</td><td>确认本报告的 TV 正篇边界；不把网页迷你动画或漫画后续算作第十三话</td></tr><tr class="odd"><td><a href="https://myanimelist.net/anime/35838/Shoujo_Shuumatsu_Ryokou" target="_blank" rel="noopener noreferrer">MyAnimeList</a>与<a href="https://api.jikan.moe/v4/anime/35838/full" target="_blank" rel="noopener noreferrer">Jikan API</a></td><td>TV、12 话；Genres 为 Adventure、Mystery、Sci-Fi、Slice of Life，Theme 为 Iyashikei；当前未列 Girls Love 或 Romance</td><td>编辑型数据库字段；Jikan 为非官方 MAL API</td><td>支持末世旅行、科幻日常与治愈的主文类位置；字段沉默不能反证女女关系中心性</td></tr><tr class="even"><td><a href="https://www.anime-planet.com/anime/girls-last-tour" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td>2026-07-30 完整 Tags 面板：<code>Adventure / Drama / Sci Fi / Seinen / Slice of Life / Iyashikei / Melancholy / Orphans / Post-apocalyptic / Based on a Manga</code></td><td>编辑维护的数据库标签</td><td>记录当前检索字段；不是官方认证，标签存在或沉默都不自动裁定作品关系</td></tr><tr class="odd"><td><a href="https://anilist.co/anime/99420" target="_blank" rel="noopener noreferrer">AniList</a></td><td>TV、12 话；Genres 为 Adventure、Sci-Fi、Slice of Life；当前社区标签突出 Post-Apocalyptic、Lost Civilization、Philosophy、Travel、Iyashikei、Female Protagonist、Survival 等，完整返回中未列 Yuri</td><td>编辑类型＋带权重社区标签</td><td>说明站内首先按末世、旅行与哲思检索；标签权重不是官方认证，也不是角色身份证据</td></tr><tr class="even"><td><a href="https://bangumi.tv/subject/218707" target="_blank" rel="noopener noreferrer">Bangumi 条目</a>与<a href="https://api.bgm.tv/v0/subjects/218707" target="_blank" rel="noopener noreferrer">公开 API</a></td><td>TV、12 话；2026-07-30 用户标签含“末世”4170、“百合”3540、“废土”3059、“公路片”3005及“轻百合”100，页面动画排名为 162</td><td>条目字段＋动态用户标签</td><td>证明中文社区有规模显著且持续的百合检索实践；计数彼此相关，不能换算为社群支持率或恋爱事实</td></tr><tr class="odd"><td><a href="https://jimaku.cc/entry/1636" target="_blank" rel="noopener noreferrer">Jimaku 条目</a></td><td>精确对应 AniList 99420；当前列有第 1–12 话 Kamigami 日文 ASS、NanakoRaws 日文字幕及 Netflix 日文 CC SRT</td><td>字幕资料库</td><td>核对本地字幕的条目来源和全话覆盖；仓库结论仍以实际审阅的本地文件为准</td></tr></tbody></table></div><p>这些结果回答的不是同一道题。官方简介说明作品如何对外介绍，MAL 与 AniList 显示各站的标准类型和社区索引，Bangumi 则保留用户如何寻找作品的痕迹。一个站没有 Yuri 字段，不等于文本中没有重要女女关系；“百合”计数很高，也不能替两名角色说出告白。本文因此先审阅十二话，再分别记录官方、编辑数据库与社区标签，而不按站点数量投票。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>以下部分包含 2017 年 TV 动画第 1–12 话的完整剧情与结尾剧透。</p></aside>
 
       <details class="spoiler-panel">
         <summary>
@@ -142,7 +155,7 @@
     </div>
   </footer>
   <script>window.SITE_CONFIG = {basePath: "/yuri-classification-archive"};</script>
-  <script src="/yuri-classification-archive/assets/site.js?v=95491b68a3ae" defer></script>
-  
+  <script src="/yuri-classification-archive/assets/site.js?v=686fc3d330d3" defer></script>
+
 </body>
 </html>

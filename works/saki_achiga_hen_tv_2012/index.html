@@ -9,6 +9,7 @@
   <meta id="theme-color-dark" name="theme-color" media="(prefers-color-scheme: dark)" content="#1c181c">
   <script>
     (() => {
+      document.documentElement.classList.add("js");
       const storageKey = "yuri-classification-theme";
       const allowed = new Set(["system", "light", "dark"]);
       let preference = "system";
@@ -46,8 +47,8 @@
   <meta property="og:url" content="https://l-m-sherlock.github.io/yuri-classification-archive/works/saki_achiga_hen_tv_2012/">
   <meta property="og:image" content="https://l-m-sherlock.github.io/yuri-classification-archive/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
   <title>《天才麻将少女 阿知贺篇》分类报告｜百合作品分类档案</title>
-  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=014a89622973">
-  
+  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=1cc35b33d5cd">
+
 </head>
 <body class="classification-report">
   <a class="skip-link" href="#main-content">跳到正文</a>
@@ -60,12 +61,24 @@
           <small>按查询拆开标签，按证据保留边界</small>
         </span>
       </a>
-      <nav class="site-nav" aria-label="主导航">
-        <a href="/yuri-classification-archive/">首页</a>
-        <a href="/yuri-classification-archive/table/">总表</a>
-        <a href="/yuri-classification-archive/about/">方法与说明</a>
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-navigation"
+      >
+        <span>菜单</span>
+        <span class="menu-toggle-icon" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-navigation" aria-label="主导航">
+        <div class="nav-main">
+          <a href="/yuri-classification-archive/">首页</a>
+          <a href="/yuri-classification-archive/table/">总表</a>
+          <a href="/yuri-classification-archive/about/">方法与说明</a>
+        </div>
         <a class="nav-star" href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub / Star <span aria-hidden="true">↗</span></a>
-        <a href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
+        <a class="nav-feedback" href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
         <label class="theme-control" for="theme-preference">
           <span>主题</span>
           <select id="theme-preference" aria-label="主题偏好">
@@ -84,7 +97,7 @@
     <h1>《天才麻将少女 阿知贺篇》分类报告</h1>
     <p class="report-subtitle">TV Tokyo terrestrial broadcast episodes 1-12；officially numbered special episodes 13-16 that directly continue and complete the same semifinal；the continuous official story sequence from episode 1 through episode 16</p>
     <div class="label-strip" aria-label="分类摘要">
-      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>恋爱位置：</strong>重要副线</span><span class="label-chip"><strong>最高明确度：</strong>潜在／明显但未确认</span><span class="label-chip"><strong>官方：</strong>百合</span><span class="label-chip"><strong>置信度：</strong>高</span>
+      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>恋爱位置：</strong>重要副线</span><span class="label-chip"><strong>最高明确度：</strong>潜在／明显但未确认</span><span class="label-chip"><strong>官方字面百合／GL：</strong>是</span><span class="label-chip"><strong>官方女女恋爱表述：</strong>所核未见</span><span class="label-chip"><strong>官方来源：</strong>层级：当前版本；位置：HTML 元数据</span><span class="label-chip"><strong>置信度：</strong>高</span>
     </div>
     <a class="back-link" href="/yuri-classification-archive/table/?q=%E5%A4%A9%E6%89%8D%E9%BA%BB%E5%B0%86%E5%B0%91%E5%A5%B3%20%E9%98%BF%E7%9F%A5%E8%B4%BA%E7%AF%87">← 返回总表并定位本作</a>
   </header>
@@ -94,7 +107,7 @@
       <ol><li><a href="#无剧透结论">无剧透结论</a></li><li><a href="#数据库与公开分类">数据库与公开分类</a></li><li><a href="#决定性文本证据">决定性文本证据</a></li><li><a href="#四层分析">四层分析</a></li><li><a href="#最强反方解释">最强反方解释</a></li><li><a href="#分用途结论">分用途结论</a></li><li><a href="#方法来源与限制">方法、来源与限制</a></li></ol>
     </aside>
     <div class="report-content">
-      <blockquote><p>分类日期：2026-07-30<br> 分类对象：2012 年 TV 动画第 1–12 话及其官方连续编号特别篇第 13–16 话<br> 纳入范围：官网故事页连续列出的第 1–16 话；以 Bangumi 条目 24165 的 16 话口径归档<br> 排除范围：另行收录的影像特典、Picture Drama、2009 年第一季、《全国篇》及其他续作、漫画、游戏与全企划推断<br> 用途：普通推荐与数据库分类</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p><strong>属于女女关系主线且按作品分类归档，置信度高。</strong> 麻将团体赛是事件骨架；阿知贺队成立、远征全国和结尾回环则由少女与旧友重逢、和队友共同前进的愿望驱动。对手侧也以多组女性搭档把照料、信赖和比赛能力连在一起。全 16 话没有男性恋爱线与之竞争。</p><p><strong>恋爱明确度停在“明显但未确认的女女恋爱指向”。</strong> 正篇关系名主要是朋友、姐妹和队友；膝枕、病床守候、想去到对方身边及对“亲热”的打趣提供进一步阅读空间，却没有双方告白并接受、交往、接吻、恋人称谓或身份自述。因此适合女女关系中心／潜在恋爱检索，不适合已确认女女情侣检索。</p><p>官网页面源代码的共用 <code>keywords</code> 列表包含“百合”，但它是网页检索元数据，不是可见的百合／GL 类型栏。按作品归档判断主要来自 16 话文本结构；该关键词只证明官方站点把“百合”纳入检索语汇，不能认证具体配对或角色身份。</p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：重要副线｜最高明确度：潜在／明显但未确认的恋爱指向｜关系构成：多组异质关系｜官方：官网 HTML 检索关键词含“百合”，无可见 GL 类型栏｜阅读层级：正篇事实＋强推断｜身份依据类型：只有关系性质推断，无身份自述｜男性恋爱线：无｜内容提示：对高中女生胸部的性化台词、洗浴对话、严重晕厥与住院、丧母回忆和高压竞赛。</strong></p></blockquote><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li><p>只找双方正式告白并接受、确认交往、接吻或互称恋人：<strong>不符合本次 16 话范围</strong>。</p></li><li><p>只按女同性恋、双性恋等身份明示检索：<strong>不符合</strong>；角色身份未知。</p></li><li><p>接受潜在恋爱、亲密照料、共同未来目标或女女关系中心的竞技作品：<strong>符合</strong>，尤其可关注怜—龙华及阿知贺旧友重逢主线。</p></li><li><p>排除对高中女生胸部的评论、洗浴话题或角色因比赛严重晕厥住院者：<strong>不应在未提示这些内容时推荐</strong>。</p></li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><p>以下均为 2026-07-30 快照。官方自述、编辑字段与社区标签分别记录；12 话加 4 话的数据库拆分不改变本报告按官方连续编号阅读 16 话的范围。</p><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="http://saki-anime.com/achiga/" target="_blank" rel="noopener noreferrer">阿知贺篇官网</a>／<a href="http://saki-anime.com/achiga/story/" target="_blank" rel="noopener noreferrer">官方故事页</a></td><td>共用页面模板的 HTML <code>keywords</code> 含 <code>百合</code>；故事简介以 <code>また和と一緒に麻雀を打ちたい</code> 为组队起点，故事页连续编号至第 16 话</td><td>官方剧情与网页检索元数据</td><td>只记录官方站点采用过“百合”检索词及女性旧友重逢的主线地位；它不是可见类型栏，更不是配对或身份认证</td></tr><tr class="even"><td><a href="https://www.tv-tokyo.co.jp/anime/saki2/episodes/episodes01/index.html" target="_blank" rel="noopener noreferrer">东京电视台话数档案</a>／<a href="https://www.tv-tokyo.co.jp/anime/saki2/onair/index.html" target="_blank" rel="noopener noreferrer">播出局档案</a></td><td>列第 1 话于 2012-04-08、第 12 话于 2012-07-01 在东京电视台播出，并保存各地电视台与 AT-X 的春季档安排</td><td>官方播出档案</td><td>确认第 1–12 话的地上波 TV 边界，不据此排除后来连续编号的第 13–16 话</td></tr><tr class="odd"><td><a href="http://saki-anime.com/achiga/onair/" target="_blank" rel="noopener noreferrer">官网播出页</a>／<a href="http://saki-anime.com/achiga/story/episode_16.php" target="_blank" rel="noopener noreferrer">第 16 话故事页</a></td><td>第 13–16 话被称为特别篇；官网列第 16 话 2013-05-25 在 AT-X 首播，并列第 13–16 话连播安排；故事菜单仍连续编号至第 16 话</td><td>官方特别篇、播出与剧情档案</td><td>说明第 13–16 话与第 1–12 话传播方式不同，却是同一未完半决赛的直接续段</td></tr><tr class="even"><td><a href="https://myanimelist.net/anime/10884/Saki_Achiga-hen__Episode_of_Side-A" target="_blank" rel="noopener noreferrer">MyAnimeList TV 条目</a>／<a href="https://myanimelist.net/anime/15989/Saki_Achiga-hen__Episode_of_Side-A_Specials" target="_blank" rel="noopener noreferrer">特别篇条目</a></td><td>拆为 12 话 <code>TV</code> 与 4 话 <code>Special</code>；两条目的 Genre 为 <code>Slice of Life</code>，Themes 为 <code>School / Strategy Game</code>，未列 Girls Love 或 Romance</td><td>编辑型数据库</td><td>记录该站的媒介拆分与检索字段；字段沉默不能证明文本没有百合要素</td></tr><tr class="odd"><td>Anime-Planet <a href="https://www.anime-planet.com/anime/saki-episode-of-side-a" target="_blank" rel="noopener noreferrer">TV 条目</a>／<a href="https://www.anime-planet.com/anime/saki-episode-of-side-a-specials" target="_blank" rel="noopener noreferrer">Specials 条目</a></td><td>2026-07-30 完整 Tags 面板；TV 条目：<code>Comedy / Ecchi / Shounen / Board Games / Mahjong / School Club / School Life / Tournaments / Based on a Manga</code>；Specials 条目：<code>Comedy / Ecchi / Shounen / Board Games / Mahjong / School Club / School Life / Tournaments / Based on a Manga</code></td><td>编辑维护的数据库标签</td><td>分别记录 TV 与连续编号特别篇的站点字段，不把数据库拆分改变为作品范围判断</td></tr><tr class="even"><td><a href="https://anilist.co/anime/10884/Saki-Achigahen-episode-of-sideA/" target="_blank" rel="noopener noreferrer">AniList TV 条目</a>／<a href="https://anilist.co/anime/15989/Saki-Achigahen-episode-of-sideA-Specials/" target="_blank" rel="noopener noreferrer">特别篇条目</a></td><td>拆为 12 话 <code>TV</code> 与 4 话 <code>Special</code>；社区标签中 TV 条目有 <code>Mahjong 100 / Yuri 83</code>，特别篇有 <code>Mahjong 79 / Yuri 60</code>，另列女性主角、女性为主阵容及校园社团</td><td>编辑类型与带权重社区标签</td><td>说明百合与麻将在该站均可检索；权重是相关度，不是支持率、恋爱强度或身份依据</td></tr><tr class="odd"><td><a href="https://bangumi.tv/subject/24165" target="_blank" rel="noopener noreferrer">Bangumi</a>／<a href="https://api.bgm.tv/v0/subjects/24165" target="_blank" rel="noopener noreferrer">主体 API</a>／<a href="https://api.bgm.tv/v0/episodes?subject_id=24165" target="_blank" rel="noopener noreferrer">分集 API</a></td><td>平台为 <code>TV</code>，16 条正篇、总数 17；额外一项为另列 bonus“玄の誕生日”。用户标签含“百合”1083、“轻百合”16，并列“卖萌麻将”86、“竞技”53、“校园”32</td><td>社区用户标签、条目字段及本批榜单来源</td><td>采用连续正篇 1–16，排除 bonus；计数只记录检索习惯，不当作官方认证或支持比例</td></tr></tbody></table></div><p>各站对“12 话 TV＋4 话 Special”是拆分还是合并，属于目录设计问题。作品分类仍须看纳入的 16 话如何组织人物动机、关系与结局，不能由一个站点的类型字段或另一个站点的标签数字代替。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>以下部分包含第 1–16 话完整剧透，并提及晕厥住院、丧母回忆及对高中女生身体的性化台词。</p></aside>
+      <blockquote><p>分类日期：2026-07-30<br> 分类对象：2012 年 TV 动画第 1–12 话及其官方连续编号特别篇第 13–16 话<br> 纳入范围：官网故事页连续列出的第 1–16 话；以 Bangumi 条目 24165 的 16 话口径归档<br> 排除范围：另行收录的影像特典、Picture Drama、2009 年第一季、《全国篇》及其他续作、漫画、游戏与全企划推断<br> 用途：普通推荐与数据库分类</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p><strong>属于女女关系主线且按作品分类归档，置信度高。</strong> 麻将团体赛是事件骨架；阿知贺队成立、远征全国和结尾回环则由少女与旧友重逢、和队友共同前进的愿望驱动。对手侧也以多组女性搭档把照料、信赖和比赛能力连在一起。全 16 话没有男性恋爱线与之竞争。</p><p><strong>恋爱明确度停在“明显但未确认的女女恋爱指向”。</strong> 正篇关系名主要是朋友、姐妹和队友；膝枕、病床守候、想去到对方身边及对“亲热”的打趣提供进一步阅读空间，却没有双方告白并接受、交往、接吻、恋人称谓或身份自述。因此适合女女关系中心／潜在恋爱检索，不适合已确认女女情侣检索。</p><p>官网页面源代码的共用 <code>keywords</code> 列表包含“百合”，但它是网页检索元数据，不是可见的百合／GL 类型栏。按作品归档判断主要来自 16 话文本结构；该关键词只证明官方站点把“百合”纳入检索语汇，不能认证具体配对或角色身份。</p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：重要副线｜最高明确度：潜在／明显但未确认的恋爱指向｜关系构成：多组异质关系｜官方字面：是｜官方恋爱表述：所核未见｜官方来源：范围内版本·HTML 元数据｜阅读层级：正篇事实＋强推断｜身份依据类型：只有关系性质推断，无身份自述｜男性恋爱线：无｜内容提示：对高中女生胸部的性化台词、洗浴对话、严重晕厥与住院、丧母回忆和高压竞赛。</strong></p></blockquote><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li><p>只找双方正式告白并接受、确认交往、接吻或互称恋人：<strong>不符合本次 16 话范围</strong>。</p></li><li><p>只按女同性恋、双性恋等身份明示检索：<strong>不符合</strong>；角色身份未知。</p></li><li><p>接受潜在恋爱、亲密照料、共同未来目标或女女关系中心的竞技作品：<strong>符合</strong>，尤其可关注怜—龙华及阿知贺旧友重逢主线。</p></li><li><p>排除对高中女生胸部的评论、洗浴话题或角色因比赛严重晕厥住院者：<strong>不应在未提示这些内容时推荐</strong>。</p></li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><p>以下均为 2026-07-30 快照。官方自述、编辑字段与社区标签分别记录；12 话加 4 话的数据库拆分不改变本报告按官方连续编号阅读 16 话的范围。</p><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="http://saki-anime.com/achiga/" target="_blank" rel="noopener noreferrer">阿知贺篇官网</a>／<a href="http://saki-anime.com/achiga/story/" target="_blank" rel="noopener noreferrer">官方故事页</a></td><td>共用页面模板的 HTML <code>keywords</code> 含 <code>百合</code>；故事简介以 <code>また和と一緒に麻雀を打ちたい</code> 为组队起点，故事页连续编号至第 16 话</td><td>官方剧情与网页检索元数据</td><td>只记录官方站点采用过“百合”检索词及女性旧友重逢的主线地位；它不是可见类型栏，更不是配对或身份认证</td></tr><tr class="even"><td><a href="https://www.tv-tokyo.co.jp/anime/saki2/episodes/episodes01/index.html" target="_blank" rel="noopener noreferrer">东京电视台话数档案</a>／<a href="https://www.tv-tokyo.co.jp/anime/saki2/onair/index.html" target="_blank" rel="noopener noreferrer">播出局档案</a></td><td>列第 1 话于 2012-04-08、第 12 话于 2012-07-01 在东京电视台播出，并保存各地电视台与 AT-X 的春季档安排</td><td>官方播出档案</td><td>确认第 1–12 话的地上波 TV 边界，不据此排除后来连续编号的第 13–16 话</td></tr><tr class="odd"><td><a href="http://saki-anime.com/achiga/onair/" target="_blank" rel="noopener noreferrer">官网播出页</a>／<a href="http://saki-anime.com/achiga/story/episode_16.php" target="_blank" rel="noopener noreferrer">第 16 话故事页</a></td><td>第 13–16 话被称为特别篇；官网列第 16 话 2013-05-25 在 AT-X 首播，并列第 13–16 话连播安排；故事菜单仍连续编号至第 16 话</td><td>官方特别篇、播出与剧情档案</td><td>说明第 13–16 话与第 1–12 话传播方式不同，却是同一未完半决赛的直接续段</td></tr><tr class="even"><td><a href="https://myanimelist.net/anime/10884/Saki_Achiga-hen__Episode_of_Side-A" target="_blank" rel="noopener noreferrer">MyAnimeList TV 条目</a>／<a href="https://myanimelist.net/anime/15989/Saki_Achiga-hen__Episode_of_Side-A_Specials" target="_blank" rel="noopener noreferrer">特别篇条目</a></td><td>拆为 12 话 <code>TV</code> 与 4 话 <code>Special</code>；两条目的 Genre 为 <code>Slice of Life</code>，Themes 为 <code>School / Strategy Game</code>，未列 Girls Love 或 Romance</td><td>编辑型数据库</td><td>记录该站的媒介拆分与检索字段；字段沉默不能证明文本没有百合要素</td></tr><tr class="odd"><td>Anime-Planet <a href="https://www.anime-planet.com/anime/saki-episode-of-side-a" target="_blank" rel="noopener noreferrer">TV 条目</a>／<a href="https://www.anime-planet.com/anime/saki-episode-of-side-a-specials" target="_blank" rel="noopener noreferrer">Specials 条目</a></td><td>2026-07-30 完整 Tags 面板；TV 条目：<code>Comedy / Ecchi / Shounen / Board Games / Mahjong / School Club / School Life / Tournaments / Based on a Manga</code>；Specials 条目：<code>Comedy / Ecchi / Shounen / Board Games / Mahjong / School Club / School Life / Tournaments / Based on a Manga</code></td><td>编辑维护的数据库标签</td><td>分别记录 TV 与连续编号特别篇的站点字段，不把数据库拆分改变为作品范围判断</td></tr><tr class="even"><td><a href="https://anilist.co/anime/10884/Saki-Achigahen-episode-of-sideA/" target="_blank" rel="noopener noreferrer">AniList TV 条目</a>／<a href="https://anilist.co/anime/15989/Saki-Achigahen-episode-of-sideA-Specials/" target="_blank" rel="noopener noreferrer">特别篇条目</a></td><td>拆为 12 话 <code>TV</code> 与 4 话 <code>Special</code>；社区标签中 TV 条目有 <code>Mahjong 100 / Yuri 83</code>，特别篇有 <code>Mahjong 79 / Yuri 60</code>，另列女性主角、女性为主阵容及校园社团</td><td>编辑类型与带权重社区标签</td><td>说明百合与麻将在该站均可检索；权重是相关度，不是支持率、恋爱强度或身份依据</td></tr><tr class="odd"><td><a href="https://bangumi.tv/subject/24165" target="_blank" rel="noopener noreferrer">Bangumi</a>／<a href="https://api.bgm.tv/v0/subjects/24165" target="_blank" rel="noopener noreferrer">主体 API</a>／<a href="https://api.bgm.tv/v0/episodes?subject_id=24165" target="_blank" rel="noopener noreferrer">分集 API</a></td><td>平台为 <code>TV</code>，16 条正篇、总数 17；额外一项为另列 bonus“玄の誕生日”。用户标签含“百合”1083、“轻百合”16，并列“卖萌麻将”86、“竞技”53、“校园”32</td><td>社区用户标签、条目字段及本批榜单来源</td><td>采用连续正篇 1–16，排除 bonus；计数只记录检索习惯，不当作官方认证或支持比例</td></tr></tbody></table></div><p>各站对“12 话 TV＋4 话 Special”是拆分还是合并，属于目录设计问题。作品分类仍须看纳入的 16 话如何组织人物动机、关系与结局，不能由一个站点的类型字段或另一个站点的标签数字代替。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>以下部分包含第 1–16 话完整剧透，并提及晕厥住院、丧母回忆及对高中女生身体的性化台词。</p></aside>
 
       <details class="spoiler-panel">
         <summary>
@@ -142,7 +155,7 @@
     </div>
   </footer>
   <script>window.SITE_CONFIG = {basePath: "/yuri-classification-archive"};</script>
-  <script src="/yuri-classification-archive/assets/site.js?v=95491b68a3ae" defer></script>
-  
+  <script src="/yuri-classification-archive/assets/site.js?v=686fc3d330d3" defer></script>
+
 </body>
 </html>

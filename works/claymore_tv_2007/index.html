@@ -9,6 +9,7 @@
   <meta id="theme-color-dark" name="theme-color" media="(prefers-color-scheme: dark)" content="#1c181c">
   <script>
     (() => {
+      document.documentElement.classList.add("js");
       const storageKey = "yuri-classification-theme";
       const allowed = new Set(["system", "light", "dark"]);
       let preference = "system";
@@ -46,8 +47,8 @@
   <meta property="og:url" content="https://l-m-sherlock.github.io/yuri-classification-archive/works/claymore_tv_2007/">
   <meta property="og:image" content="https://l-m-sherlock.github.io/yuri-classification-archive/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
   <title>《大剑》分类报告｜百合作品分类档案</title>
-  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=014a89622973">
-  
+  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=1cc35b33d5cd">
+
 </head>
 <body class="classification-report">
   <a class="skip-link" href="#main-content">跳到正文</a>
@@ -60,12 +61,24 @@
           <small>按查询拆开标签，按证据保留边界</small>
         </span>
       </a>
-      <nav class="site-nav" aria-label="主导航">
-        <a href="/yuri-classification-archive/">首页</a>
-        <a href="/yuri-classification-archive/table/">总表</a>
-        <a href="/yuri-classification-archive/about/">方法与说明</a>
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-navigation"
+      >
+        <span>菜单</span>
+        <span class="menu-toggle-icon" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-navigation" aria-label="主导航">
+        <div class="nav-main">
+          <a href="/yuri-classification-archive/">首页</a>
+          <a href="/yuri-classification-archive/table/">总表</a>
+          <a href="/yuri-classification-archive/about/">方法与说明</a>
+        </div>
         <a class="nav-star" href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub / Star <span aria-hidden="true">↗</span></a>
-        <a href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
+        <a class="nav-feedback" href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
         <label class="theme-control" for="theme-preference">
           <span>主题</span>
           <select id="theme-preference" aria-label="主题偏好">
@@ -84,7 +97,7 @@
     <h1>《大剑》分类报告</h1>
     <p class="report-subtitle">2007 TV anime episodes 1-26</p>
     <div class="label-strip" aria-label="分类摘要">
-      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>恋爱位置：</strong>缺席</span><span class="label-chip"><strong>最高明确度：</strong>非恋爱</span><span class="label-chip"><strong>官方：</strong>未标百合／GL</span><span class="label-chip"><strong>置信度：</strong>中</span>
+      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>恋爱位置：</strong>缺席</span><span class="label-chip"><strong>最高明确度：</strong>非恋爱</span><span class="label-chip"><strong>官方字面百合／GL：</strong>所核未见</span><span class="label-chip"><strong>官方女女恋爱表述：</strong>所核未见</span><span class="label-chip"><strong>官方来源：</strong>所核来源未含可公开筛选的层级或位置</span><span class="label-chip"><strong>置信度：</strong>中</span>
     </div>
     <a class="back-link" href="/yuri-classification-archive/table/?q=%E5%A4%A7%E5%89%91">← 返回总表并定位本作</a>
   </header>
@@ -94,7 +107,7 @@
       <ol><li><a href="#无剧透结论">无剧透结论</a></li><li><a href="#数据库与公开分类">数据库与公开分类</a></li><li><a href="#决定性文本证据">决定性文本证据</a></li><li><a href="#四层分析">四层分析</a></li><li><a href="#最强反方解释">最强反方解释</a></li><li><a href="#分用途结论">分用途结论</a></li><li><a href="#方法来源与限制">方法、来源与限制</a></li></ol>
     </aside>
     <div class="report-content">
-      <blockquote><p>分类日期：2026-07-29<br> 分类对象：2007 年 TV 动画《CLAYMORE》<br> 纳入范围：第 1–26 话<br> 排除范围：原作漫画、游戏、角色歌、广播及其他跨媒介材料<br> 用途：普通推荐与数据库分类</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p><strong>按本档案采用的“女女关系构成叙事中心或主要情感动力”口径，本作可列为女女关系主线且按作品分类归档，置信度中等；但它不是女女恋爱作品。</strong> 女主角成为战士、追索宿敌以及最后仍选择活下去，都持续受到她与一名女性照料者的关系影响；战士同伴之间的互救、结盟和牺牲又构成中后段的主要群像结构。女女关系不是只有角色数量多或偶尔同框。</p><p>这些关系在 TV 正篇中分别被写成年长照料者与受保护儿童、唯一朋友、战友和救命之恩，<strong>没有女女告白、交往或性取向明示</strong>。把其中任一女性组合解释为恋爱，应标作读者解读。另一方面，男性少年与女主角的感情线并非可以忽略：他在终话直接说「好きだ」，女主角也承诺与他重逢、邀请他继续同行；现有字幕仍没有让双方把关系命名为“恋人／交往”。</p><p>因此，单独写“百合”很容易制造错误期待。更准确的无剧透推荐语是：<strong>“女性战士群像与非恋爱女女关系占重要中心位置的黑暗奇幻；另有持续且明确表达喜欢的男女感情线。”</strong></p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：缺席｜最高明确度：非恋爱｜关系构成：单一主要关系记录｜官方：未标百合／GL｜阅读层级：正篇事实＋强推断＋读者解读｜身份依据类型：范围内没有性取向身份依据｜男性恋爱线：并列的重要感情线，男性一方明确说喜欢｜内容提示：大量肢解与流血、食人和身体恐怖、儿童受虐与遇险、性暴力威胁、人体改造、酷刑、死亡、自杀／请求他人结束生命</strong></p></blockquote><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li>只寻找女女告白、接吻、正式交往或女同性恋／双性恋身份明示：<strong>不符合</strong>。</li><li>接受非恋爱女女关系作为人物与剧情的主要动力：<strong>可以推荐</strong>，但必须同时注明黑暗奇幻／战斗主类和男女感情线。</li><li>排除任何男性指向的明确感情表达：<strong>不符合</strong>。终话有男性角色向女主角直接说「好きだ」。</li><li>只接受双方明确确立恋人关系：本作的男女线也<strong>未达到正式交往明示</strong>；现有字幕只能确认一方告白、女主角的重逢承诺与继续同行邀请。</li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://www.ntv.co.jp/english/pc/2011/03/claymore.html" target="_blank" rel="noopener noreferrer">日本电视台英文节目目录</a>／<a href="https://www.ntv.co.jp/claymore/" target="_blank" rel="noopener noreferrer">日文官网</a></td><td>英文目录明确列为 26 话动画，以克蕾雅和迪妮莎相遇、迪妮莎为救她而破戒、克蕾雅继承其血肉复仇为概要；所核页面未使用“百合／GL”</td><td>官方剧情与市场表述</td><td>直接支持女性照料关系及其丧失是主人公起源；官方标签记为“未标”。概要不能替正篇把照料关系改称恋爱</td></tr><tr class="even"><td><a href="https://myanimelist.net/anime/1818/Claymore" target="_blank" rel="noopener noreferrer">MyAnimeList</a></td><td>既有归档核得 <code>TV</code>、26 话；Genres 为 Action、Adventure、Fantasy，Theme 为 Gore，Demographic 为 Shounen；未列 Girls Love</td><td>编辑型数据库</td><td>记录该站的动作、冒险、奇幻与血腥定位及 GL 字段沉默；2026-07-30 重试时页面抓取失败，Jikan 返回 504，未凭旧值补写新字段</td></tr><tr class="odd"><td><a href="https://www.anime-planet.com/anime/claymore" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td>2026-07-30 完整 Tags 面板：<code>Action / Fantasy / Shounen / Dark Fantasy / Demons / Dystopia / Medieval / Revenge / Superpowers / Swordplay / Based on a Manga</code></td><td>编辑维护的数据库标签</td><td>记录当前检索字段；不是官方认证，标签存在或沉默都不自动裁定作品关系</td></tr><tr class="even"><td><a href="https://anilist.co/anime/1818/CLAYMORE" target="_blank" rel="noopener noreferrer">AniList</a></td><td><code>TV</code>、26 话；Genres 为 Action、Adventure、Fantasy、Horror；社区加权标签含 Female Protagonist 93、Primarily Female Cast 91、Revenge 92、Gore 88，当日完整返回未列 Yuri</td><td>编辑类型＋带权重社区标签</td><td>2026-07-30 由 GraphQL 复核；支持女性主角／女性战士群像与复仇、恐怖定位，权重不是观众支持率</td></tr><tr class="odd"><td><a href="https://bangumi.tv/subject/982" target="_blank" rel="noopener noreferrer">Bangumi</a></td><td><code>TV</code>、26 话；2026-07-30 API 返回用户标签“百合”314，同时有“大剑”830、“奇幻”367、“暴力”364、“战斗”183</td><td>条目字段＋社区标签</td><td>是本批榜单来源，说明广义百合接受史；动态计数不等于官方认证、社群投票或女女恋爱事实</td></tr><tr class="even"><td><a href="https://jimaku.cc/entry/1539" target="_blank" rel="noopener noreferrer">Jimaku 条目 1539</a></td><td>精确映射 AniList 1818；页面列出完整的第 1–26 话日文 CC SRT，另有同话数 ASS</td><td>字幕资料库</td><td>2026-07-30 重新下载同一组 26 份 SRT，用于全季阅读、词项反查和时间码定位；不作为官方台本或文类权威</td></tr></tbody></table></div><p>这些资料回答的是不同问题。官方概要能证明制作方公开强调了什么；MAL、Anime-Planet 的编辑字段和 AniList、Bangumi 的社区标签采用各自规则；任何一站的沉默或标签次数都不能替正篇关系定性。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>以下部分包含 TV 第 1–26 话的完整剧透。</p></aside>
+      <blockquote><p>分类日期：2026-07-29<br> 分类对象：2007 年 TV 动画《CLAYMORE》<br> 纳入范围：第 1–26 话<br> 排除范围：原作漫画、游戏、角色歌、广播及其他跨媒介材料<br> 用途：普通推荐与数据库分类</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p><strong>按本档案采用的“女女关系构成叙事中心或主要情感动力”口径，本作可列为女女关系主线且按作品分类归档，置信度中等；但它不是女女恋爱作品。</strong> 女主角成为战士、追索宿敌以及最后仍选择活下去，都持续受到她与一名女性照料者的关系影响；战士同伴之间的互救、结盟和牺牲又构成中后段的主要群像结构。女女关系不是只有角色数量多或偶尔同框。</p><p>这些关系在 TV 正篇中分别被写成年长照料者与受保护儿童、唯一朋友、战友和救命之恩，<strong>没有女女告白、交往或性取向明示</strong>。把其中任一女性组合解释为恋爱，应标作读者解读。另一方面，男性少年与女主角的感情线并非可以忽略：他在终话直接说「好きだ」，女主角也承诺与他重逢、邀请他继续同行；现有字幕仍没有让双方把关系命名为“恋人／交往”。</p><p>因此，单独写“百合”很容易制造错误期待。更准确的无剧透推荐语是：<strong>“女性战士群像与非恋爱女女关系占重要中心位置的黑暗奇幻；另有持续且明确表达喜欢的男女感情线。”</strong></p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：缺席｜最高明确度：非恋爱｜关系构成：单一主要关系记录｜官方字面：所核未见｜官方恋爱表述：所核未见｜官方来源：所核未见匹配表述｜阅读层级：正篇事实＋强推断＋读者解读｜身份依据类型：范围内没有性取向身份依据｜男性恋爱线：并列的重要感情线，男性一方明确说喜欢｜内容提示：大量肢解与流血、食人和身体恐怖、儿童受虐与遇险、性暴力威胁、人体改造、酷刑、死亡、自杀／请求他人结束生命</strong></p></blockquote><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li>只寻找女女告白、接吻、正式交往或女同性恋／双性恋身份明示：<strong>不符合</strong>。</li><li>接受非恋爱女女关系作为人物与剧情的主要动力：<strong>可以推荐</strong>，但必须同时注明黑暗奇幻／战斗主类和男女感情线。</li><li>排除任何男性指向的明确感情表达：<strong>不符合</strong>。终话有男性角色向女主角直接说「好きだ」。</li><li>只接受双方明确确立恋人关系：本作的男女线也<strong>未达到正式交往明示</strong>；现有字幕只能确认一方告白、女主角的重逢承诺与继续同行邀请。</li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://www.ntv.co.jp/english/pc/2011/03/claymore.html" target="_blank" rel="noopener noreferrer">日本电视台英文节目目录</a>／<a href="https://www.ntv.co.jp/claymore/" target="_blank" rel="noopener noreferrer">日文官网</a></td><td>英文目录明确列为 26 话动画，以克蕾雅和迪妮莎相遇、迪妮莎为救她而破戒、克蕾雅继承其血肉复仇为概要；所核页面未使用“百合／GL”</td><td>官方剧情与市场表述</td><td>直接支持女性照料关系及其丧失是主人公起源；官方标签记为“未标”。概要不能替正篇把照料关系改称恋爱</td></tr><tr class="even"><td><a href="https://myanimelist.net/anime/1818/Claymore" target="_blank" rel="noopener noreferrer">MyAnimeList</a></td><td>既有归档核得 <code>TV</code>、26 话；Genres 为 Action、Adventure、Fantasy，Theme 为 Gore，Demographic 为 Shounen；未列 Girls Love</td><td>编辑型数据库</td><td>记录该站的动作、冒险、奇幻与血腥定位及 GL 字段沉默；2026-07-30 重试时页面抓取失败，Jikan 返回 504，未凭旧值补写新字段</td></tr><tr class="odd"><td><a href="https://www.anime-planet.com/anime/claymore" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td>2026-07-30 完整 Tags 面板：<code>Action / Fantasy / Shounen / Dark Fantasy / Demons / Dystopia / Medieval / Revenge / Superpowers / Swordplay / Based on a Manga</code></td><td>编辑维护的数据库标签</td><td>记录当前检索字段；不是官方认证，标签存在或沉默都不自动裁定作品关系</td></tr><tr class="even"><td><a href="https://anilist.co/anime/1818/CLAYMORE" target="_blank" rel="noopener noreferrer">AniList</a></td><td><code>TV</code>、26 话；Genres 为 Action、Adventure、Fantasy、Horror；社区加权标签含 Female Protagonist 93、Primarily Female Cast 91、Revenge 92、Gore 88，当日完整返回未列 Yuri</td><td>编辑类型＋带权重社区标签</td><td>2026-07-30 由 GraphQL 复核；支持女性主角／女性战士群像与复仇、恐怖定位，权重不是观众支持率</td></tr><tr class="odd"><td><a href="https://bangumi.tv/subject/982" target="_blank" rel="noopener noreferrer">Bangumi</a></td><td><code>TV</code>、26 话；2026-07-30 API 返回用户标签“百合”314，同时有“大剑”830、“奇幻”367、“暴力”364、“战斗”183</td><td>条目字段＋社区标签</td><td>是本批榜单来源，说明广义百合接受史；动态计数不等于官方认证、社群投票或女女恋爱事实</td></tr><tr class="even"><td><a href="https://jimaku.cc/entry/1539" target="_blank" rel="noopener noreferrer">Jimaku 条目 1539</a></td><td>精确映射 AniList 1818；页面列出完整的第 1–26 话日文 CC SRT，另有同话数 ASS</td><td>字幕资料库</td><td>2026-07-30 重新下载同一组 26 份 SRT，用于全季阅读、词项反查和时间码定位；不作为官方台本或文类权威</td></tr></tbody></table></div><p>这些资料回答的是不同问题。官方概要能证明制作方公开强调了什么；MAL、Anime-Planet 的编辑字段和 AniList、Bangumi 的社区标签采用各自规则；任何一站的沉默或标签次数都不能替正篇关系定性。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>以下部分包含 TV 第 1–26 话的完整剧透。</p></aside>
 
       <details class="spoiler-panel">
         <summary>
@@ -142,7 +155,7 @@
     </div>
   </footer>
   <script>window.SITE_CONFIG = {basePath: "/yuri-classification-archive"};</script>
-  <script src="/yuri-classification-archive/assets/site.js?v=95491b68a3ae" defer></script>
-  
+  <script src="/yuri-classification-archive/assets/site.js?v=686fc3d330d3" defer></script>
+
 </body>
 </html>

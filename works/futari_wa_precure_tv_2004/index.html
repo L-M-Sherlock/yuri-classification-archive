@@ -9,6 +9,7 @@
   <meta id="theme-color-dark" name="theme-color" media="(prefers-color-scheme: dark)" content="#1c181c">
   <script>
     (() => {
+      document.documentElement.classList.add("js");
       const storageKey = "yuri-classification-theme";
       const allowed = new Set(["system", "light", "dark"]);
       let preference = "system";
@@ -46,8 +47,8 @@
   <meta property="og:url" content="https://l-m-sherlock.github.io/yuri-classification-archive/works/futari_wa_precure_tv_2004/">
   <meta property="og:image" content="https://l-m-sherlock.github.io/yuri-classification-archive/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
   <title>《光之美少女》分类报告｜百合作品分类档案</title>
-  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=014a89622973">
-  
+  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=1cc35b33d5cd">
+
 </head>
 <body class="classification-report">
   <a class="skip-link" href="#main-content">跳到正文</a>
@@ -60,12 +61,24 @@
           <small>按查询拆开标签，按证据保留边界</small>
         </span>
       </a>
-      <nav class="site-nav" aria-label="主导航">
-        <a href="/yuri-classification-archive/">首页</a>
-        <a href="/yuri-classification-archive/table/">总表</a>
-        <a href="/yuri-classification-archive/about/">方法与说明</a>
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-navigation"
+      >
+        <span>菜单</span>
+        <span class="menu-toggle-icon" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-navigation" aria-label="主导航">
+        <div class="nav-main">
+          <a href="/yuri-classification-archive/">首页</a>
+          <a href="/yuri-classification-archive/table/">总表</a>
+          <a href="/yuri-classification-archive/about/">方法与说明</a>
+        </div>
         <a class="nav-star" href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub / Star <span aria-hidden="true">↗</span></a>
-        <a href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
+        <a class="nav-feedback" href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
         <label class="theme-control" for="theme-preference">
           <span>主题</span>
           <select id="theme-preference" aria-label="主题偏好">
@@ -84,7 +97,7 @@
     <h1>《光之美少女》分类报告</h1>
     <p class="report-subtitle">2004-2005 TV anime, numbered episodes 1-49, aired from 2004-02-01 through 2005-01-30</p>
     <div class="label-strip" aria-label="分类摘要">
-      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>恋爱位置：</strong>缺席</span><span class="label-chip"><strong>最高明确度：</strong>非恋爱</span><span class="label-chip"><strong>官方：</strong>未标百合／GL</span><span class="label-chip"><strong>置信度：</strong>高</span>
+      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>恋爱位置：</strong>缺席</span><span class="label-chip"><strong>最高明确度：</strong>非恋爱</span><span class="label-chip"><strong>官方字面百合／GL：</strong>所核未见</span><span class="label-chip"><strong>官方女女恋爱表述：</strong>所核未见</span><span class="label-chip"><strong>官方来源：</strong>层级：当前版本；位置：剧情／角色页</span><span class="label-chip"><strong>置信度：</strong>高</span>
     </div>
     <a class="back-link" href="/yuri-classification-archive/table/?q=%E5%85%89%E4%B9%8B%E7%BE%8E%E5%B0%91%E5%A5%B3">← 返回总表并定位本作</a>
   </header>
@@ -94,7 +107,7 @@
       <ol><li><a href="#无剧透结论">无剧透结论</a></li><li><a href="#数据库与公开分类">数据库与公开分类</a></li><li><a href="#决定性文本证据">决定性文本证据</a></li><li><a href="#四层分析">四层分析</a></li><li><a href="#最强反方解释">最强反方解释</a></li><li><a href="#分用途结论">分用途结论</a></li><li><a href="#方法来源与限制">方法、来源与限制</a></li></ol>
     </aside>
     <div class="report-content">
-      <blockquote><p>分类日期：2026-07-30<br> 分类对象：2004–2005 年 TV 动画《ふたりはプリキュア》<br> 纳入范围：正式编号第 1–49 话<br> 排除范围：《ふたりはプリキュア Max Heart》、电影与全明星作品、其他《光之美少女》系列、漫画／小说／游戏及配音改写；不作跨媒介或全系列推断<br> 用途：普通推荐与数据库分类</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p><strong>依本档案采用的开放工作定义，本作属于女女关系主线且按作品分类归档，置信度高。</strong> 美墨渚与雪城穗乃香从同班却几乎没有交集，发展为会争吵、和解、互相寻找并共同承担风险的朋友与搭档。两人必须一起变身和发动关键能力，但中心性不只来自战斗机制：作品反复让她们回答“是不是朋友”“为何要找到对方”“彼此是什么关系”，并以这条关系组织日常成长和主要危机。</p><p><strong>第 1–49 话不满足明确女女恋爱检索。</strong> 正篇给两人的直接称谓是朋友、亲友和伙伴，没有女女告白、正式交往、作为现实关系行为的接吻，也没有女同性恋／双性恋身份明示。剧中曾让两人饰演罗密欧与朱丽叶，也使用“重要的人”“无论发生什么都在一起”等可供配对阅读的表达；这些是有效的读者解读支点，却没有把现实层关系改名为恋人。与此同时，渚对藤村前辈的持续好感和穗乃香—キリヤ的情感线都不能删除。</p><p>最稳妥的短标签是：<strong>双女主友情与战斗搭档主线的非恋爱广义百合／动作魔法少女；含明确女对男好感与男性情感副线。</strong></p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：缺席｜最高明确度：非恋爱｜关系构成：单一主要关系｜官方：核对到的官方资料未标百合／GL｜阅读层级：正篇事实＋读者解读｜身份依据类型：范围内无性取向身份依据｜男性恋爱线：副线｜内容提示：幻想战斗与未成年人遇险、敌方胁迫和身份消失、离别与哀伤、校园冲突。</strong></p></blockquote><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li>只寻找双方告白、正式交往、女女接吻或身份明示：<strong>不符合第 1–49 话</strong>。</li><li>接受非恋爱的女女关系中心作品：<strong>符合；两人的友情和搭档关系贯穿起点、转折与终局</strong>。</li><li>接受舞台角色、重要之人、共同命运等未确认配对支点：<strong>有丰富材料，但应标为读者解读</strong>。</li><li>只寻找没有女对男好感或男性情感线的作品：<strong>不符合</strong>。</li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><p>以下是 2026-07-30 的来源快照。官方宣传、编辑字段和社区标签的权限不同；数据库标签只用于外部比较，不参与推导台词、关系事实或角色身份。</p><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://lineup.toei-anim.co.jp/ja/tv/precure/" target="_blank" rel="noopener noreferrer">东映动画作品页</a>／<a href="https://lineup.toei-anim.co.jp/ja/tv/precure/story/" target="_blank" rel="noopener noreferrer">官方故事页</a></td><td>TV、2004-02-01 至 2005-01-30、全 49 话；故事页称性格和兴趣不同的两人合力对抗敌人，核对页面未使用百合／GL</td><td>官方播出记录与故事梗概</td><td>确认版本边界、双主角和合作结构；“未标”只描述核对页面，不等于官方否认任何私人读法</td></tr><tr class="even"><td><a href="https://lineup.toei-anim.co.jp/ja/tv/precure/episode/8/" target="_blank" rel="noopener noreferrer">东映第 8 话</a>／<a href="https://lineup.toei-anim.co.jp/ja/tv/precure/episode/21/" target="_blank" rel="noopener noreferrer">第 21 话</a></td><td>第 8 话官方梗概明确写两人的“朋友”冲突；第 21 话题名含“约会”，并称キリヤ是穗乃香在虹之园遇到的重要存在</td><td>官方分集梗概</td><td>与字幕核对关系边界及男性情感副线；不能把梗概中的“重要”自动换成正式恋爱</td></tr><tr class="odd"><td><a href="https://myanimelist.net/anime/603/Futari_wa_Precure" target="_blank" rel="noopener noreferrer">MyAnimeList</a></td><td>TV、49 话、Original；Genres 为 Action／Comedy，Theme 为 Mahou Shoujo，未列 Romance 或 Girls Love</td><td>编辑型数据库字段</td><td>记录常规类型入口；类型沉默不是对开放型百合阅读的反证</td></tr><tr class="even"><td><a href="https://www.anime-planet.com/anime/pretty-cure" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td>TV、49 话；Tags 为 Action、Magical Girl、Family Friendly、Magic、Monster-of-the-week、Original Work；简介写两人的差异逐渐变成友情，也提到 cute boys；未列 Yuri／Romance</td><td>编辑维护的简介与标签</td><td>支持友情、魔法少女及男性兴趣的公共描述；当前完整页面文字经可读文本代理取得，直接站点请求受验证阻挡</td></tr><tr class="odd"><td><a href="https://anilist.co/anime/603/Futari-wa-Precure" target="_blank" rel="noopener noreferrer">AniList</a></td><td>TV、49 话、Original；Genres 为 Action／Adventure／Comedy／Fantasy／Mahou Shoujo；社区标签含 Yuri 57，另有 Henshin 97、Female Protagonist 95、Primarily Female Cast 87</td><td>编辑类型＋带权重社区标签</td><td>Yuri 的权重说明社区检索习惯，但 rank 是相关度，不是支持率，更不是角色身份证据</td></tr><tr class="even"><td><a href="https://bangumi.tv/subject/4243" target="_blank" rel="noopener noreferrer">Bangumi</a>／<a href="https://api.bgm.tv/v0/subjects/4243" target="_blank" rel="noopener noreferrer">公共 API</a></td><td>TV、49 话；API 动态快照含“光之美少女 251”“原创 145”“百合 97”“魔法少女 31”“战斗 15”</td><td>社区标签、平台汇总与公共 API</td><td>解释本作在中文社区百合标签中的外部位置；计数随用户和缓存变化，不作为正文结论来源</td></tr><tr class="odd"><td><a href="https://jimaku.cc/entry/5463" target="_blank" rel="noopener noreferrer">Jimaku 条目 5463</a></td><td>与 AniList 603 精确映射，提供第 1–49 话逐话日文 SRT</td><td>字幕资料库</td><td>用于全季文字检索、前后文和时间码定位；不是官方分类，也不能替代画面复核</td></tr></tbody></table></div><p>MAL 与 Anime-Planet 没有女女恋爱字段，AniList 与 Bangumi 则有不同形式的 Yuri／百合社区标签。这不是可以靠“多数站点”解决的矛盾：前两者回答常规类型检索，后两者记录部分用户把女性友情和搭档中心作品纳入百合阅读。本报告仍以正篇文本决定关系事实，再按用途展开标签。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>以下部分包含 2004 TV 动画正式编号第 1–49 话的完整剧透。</p></aside>
+      <blockquote><p>分类日期：2026-07-30<br> 分类对象：2004–2005 年 TV 动画《ふたりはプリキュア》<br> 纳入范围：正式编号第 1–49 话<br> 排除范围：《ふたりはプリキュア Max Heart》、电影与全明星作品、其他《光之美少女》系列、漫画／小说／游戏及配音改写；不作跨媒介或全系列推断<br> 用途：普通推荐与数据库分类</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p><strong>依本档案采用的开放工作定义，本作属于女女关系主线且按作品分类归档，置信度高。</strong> 美墨渚与雪城穗乃香从同班却几乎没有交集，发展为会争吵、和解、互相寻找并共同承担风险的朋友与搭档。两人必须一起变身和发动关键能力，但中心性不只来自战斗机制：作品反复让她们回答“是不是朋友”“为何要找到对方”“彼此是什么关系”，并以这条关系组织日常成长和主要危机。</p><p><strong>第 1–49 话不满足明确女女恋爱检索。</strong> 正篇给两人的直接称谓是朋友、亲友和伙伴，没有女女告白、正式交往、作为现实关系行为的接吻，也没有女同性恋／双性恋身份明示。剧中曾让两人饰演罗密欧与朱丽叶，也使用“重要的人”“无论发生什么都在一起”等可供配对阅读的表达；这些是有效的读者解读支点，却没有把现实层关系改名为恋人。与此同时，渚对藤村前辈的持续好感和穗乃香—キリヤ的情感线都不能删除。</p><p>最稳妥的短标签是：<strong>双女主友情与战斗搭档主线的非恋爱广义百合／动作魔法少女；含明确女对男好感与男性情感副线。</strong></p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：缺席｜最高明确度：非恋爱｜关系构成：单一主要关系｜官方字面：所核未见｜官方恋爱表述：所核未见｜官方来源：范围内版本·故事／角色页｜阅读层级：正篇事实＋读者解读｜身份依据类型：范围内无性取向身份依据｜男性恋爱线：副线｜内容提示：幻想战斗与未成年人遇险、敌方胁迫和身份消失、离别与哀伤、校园冲突。</strong></p></blockquote><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li>只寻找双方告白、正式交往、女女接吻或身份明示：<strong>不符合第 1–49 话</strong>。</li><li>接受非恋爱的女女关系中心作品：<strong>符合；两人的友情和搭档关系贯穿起点、转折与终局</strong>。</li><li>接受舞台角色、重要之人、共同命运等未确认配对支点：<strong>有丰富材料，但应标为读者解读</strong>。</li><li>只寻找没有女对男好感或男性情感线的作品：<strong>不符合</strong>。</li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><p>以下是 2026-07-30 的来源快照。官方宣传、编辑字段和社区标签的权限不同；数据库标签只用于外部比较，不参与推导台词、关系事实或角色身份。</p><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://lineup.toei-anim.co.jp/ja/tv/precure/" target="_blank" rel="noopener noreferrer">东映动画作品页</a>／<a href="https://lineup.toei-anim.co.jp/ja/tv/precure/story/" target="_blank" rel="noopener noreferrer">官方故事页</a></td><td>TV、2004-02-01 至 2005-01-30、全 49 话；故事页称性格和兴趣不同的两人合力对抗敌人，核对页面未使用百合／GL</td><td>官方播出记录与故事梗概</td><td>确认版本边界、双主角和合作结构；“未标”只描述核对页面，不等于官方否认任何私人读法</td></tr><tr class="even"><td><a href="https://lineup.toei-anim.co.jp/ja/tv/precure/episode/8/" target="_blank" rel="noopener noreferrer">东映第 8 话</a>／<a href="https://lineup.toei-anim.co.jp/ja/tv/precure/episode/21/" target="_blank" rel="noopener noreferrer">第 21 话</a></td><td>第 8 话官方梗概明确写两人的“朋友”冲突；第 21 话题名含“约会”，并称キリヤ是穗乃香在虹之园遇到的重要存在</td><td>官方分集梗概</td><td>与字幕核对关系边界及男性情感副线；不能把梗概中的“重要”自动换成正式恋爱</td></tr><tr class="odd"><td><a href="https://myanimelist.net/anime/603/Futari_wa_Precure" target="_blank" rel="noopener noreferrer">MyAnimeList</a></td><td>TV、49 话、Original；Genres 为 Action／Comedy，Theme 为 Mahou Shoujo，未列 Romance 或 Girls Love</td><td>编辑型数据库字段</td><td>记录常规类型入口；类型沉默不是对开放型百合阅读的反证</td></tr><tr class="even"><td><a href="https://www.anime-planet.com/anime/pretty-cure" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td>TV、49 话；Tags 为 Action、Magical Girl、Family Friendly、Magic、Monster-of-the-week、Original Work；简介写两人的差异逐渐变成友情，也提到 cute boys；未列 Yuri／Romance</td><td>编辑维护的简介与标签</td><td>支持友情、魔法少女及男性兴趣的公共描述；当前完整页面文字经可读文本代理取得，直接站点请求受验证阻挡</td></tr><tr class="odd"><td><a href="https://anilist.co/anime/603/Futari-wa-Precure" target="_blank" rel="noopener noreferrer">AniList</a></td><td>TV、49 话、Original；Genres 为 Action／Adventure／Comedy／Fantasy／Mahou Shoujo；社区标签含 Yuri 57，另有 Henshin 97、Female Protagonist 95、Primarily Female Cast 87</td><td>编辑类型＋带权重社区标签</td><td>Yuri 的权重说明社区检索习惯，但 rank 是相关度，不是支持率，更不是角色身份证据</td></tr><tr class="even"><td><a href="https://bangumi.tv/subject/4243" target="_blank" rel="noopener noreferrer">Bangumi</a>／<a href="https://api.bgm.tv/v0/subjects/4243" target="_blank" rel="noopener noreferrer">公共 API</a></td><td>TV、49 话；API 动态快照含“光之美少女 251”“原创 145”“百合 97”“魔法少女 31”“战斗 15”</td><td>社区标签、平台汇总与公共 API</td><td>解释本作在中文社区百合标签中的外部位置；计数随用户和缓存变化，不作为正文结论来源</td></tr><tr class="odd"><td><a href="https://jimaku.cc/entry/5463" target="_blank" rel="noopener noreferrer">Jimaku 条目 5463</a></td><td>与 AniList 603 精确映射，提供第 1–49 话逐话日文 SRT</td><td>字幕资料库</td><td>用于全季文字检索、前后文和时间码定位；不是官方分类，也不能替代画面复核</td></tr></tbody></table></div><p>MAL 与 Anime-Planet 没有女女恋爱字段，AniList 与 Bangumi 则有不同形式的 Yuri／百合社区标签。这不是可以靠“多数站点”解决的矛盾：前两者回答常规类型检索，后两者记录部分用户把女性友情和搭档中心作品纳入百合阅读。本报告仍以正篇文本决定关系事实，再按用途展开标签。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>以下部分包含 2004 TV 动画正式编号第 1–49 话的完整剧透。</p></aside>
 
       <details class="spoiler-panel">
         <summary>
@@ -142,7 +155,7 @@
     </div>
   </footer>
   <script>window.SITE_CONFIG = {basePath: "/yuri-classification-archive"};</script>
-  <script src="/yuri-classification-archive/assets/site.js?v=95491b68a3ae" defer></script>
-  
+  <script src="/yuri-classification-archive/assets/site.js?v=686fc3d330d3" defer></script>
+
 </body>
 </html>

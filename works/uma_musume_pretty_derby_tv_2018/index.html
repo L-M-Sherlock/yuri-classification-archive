@@ -9,6 +9,7 @@
   <meta id="theme-color-dark" name="theme-color" media="(prefers-color-scheme: dark)" content="#1c181c">
   <script>
     (() => {
+      document.documentElement.classList.add("js");
       const storageKey = "yuri-classification-theme";
       const allowed = new Set(["system", "light", "dark"]);
       let preference = "system";
@@ -46,8 +47,8 @@
   <meta property="og:url" content="https://l-m-sherlock.github.io/yuri-classification-archive/works/uma_musume_pretty_derby_tv_2018/">
   <meta property="og:image" content="https://l-m-sherlock.github.io/yuri-classification-archive/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
   <title>《赛马娘 Pretty Derby》分类报告｜百合作品分类档案</title>
-  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=014a89622973">
-  
+  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=1cc35b33d5cd">
+
 </head>
 <body class="classification-report">
   <a class="skip-link" href="#main-content">跳到正文</a>
@@ -60,12 +61,24 @@
           <small>按查询拆开标签，按证据保留边界</small>
         </span>
       </a>
-      <nav class="site-nav" aria-label="主导航">
-        <a href="/yuri-classification-archive/">首页</a>
-        <a href="/yuri-classification-archive/table/">总表</a>
-        <a href="/yuri-classification-archive/about/">方法与说明</a>
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-navigation"
+      >
+        <span>菜单</span>
+        <span class="menu-toggle-icon" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-navigation" aria-label="主导航">
+        <div class="nav-main">
+          <a href="/yuri-classification-archive/">首页</a>
+          <a href="/yuri-classification-archive/table/">总表</a>
+          <a href="/yuri-classification-archive/about/">方法与说明</a>
+        </div>
         <a class="nav-star" href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub / Star <span aria-hidden="true">↗</span></a>
-        <a href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
+        <a class="nav-feedback" href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
         <label class="theme-control" for="theme-preference">
           <span>主题</span>
           <select id="theme-preference" aria-label="主题偏好">
@@ -84,7 +97,7 @@
     <h1>《赛马娘 Pretty Derby》分类报告</h1>
     <p class="report-subtitle">official first-season TV anime episodes 1-12 and official EXTRA R episode 13, originally broadcast from 2018-04-02 through 2018-06-18</p>
     <div class="label-strip" aria-label="分类摘要">
-      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>恋爱位置：</strong>缺席</span><span class="label-chip"><strong>最高明确度：</strong>非恋爱</span><span class="label-chip"><strong>官方：</strong>未标百合／GL</span><span class="label-chip"><strong>置信度：</strong>高</span>
+      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>恋爱位置：</strong>缺席</span><span class="label-chip"><strong>最高明确度：</strong>非恋爱</span><span class="label-chip"><strong>官方字面百合／GL：</strong>所核未见</span><span class="label-chip"><strong>官方女女恋爱表述：</strong>所核未见</span><span class="label-chip"><strong>官方来源：</strong>所核来源未含可公开筛选的层级或位置</span><span class="label-chip"><strong>置信度：</strong>高</span>
     </div>
     <a class="back-link" href="/yuri-classification-archive/table/?q=%E8%B5%9B%E9%A9%AC%E5%A8%98%20Pretty%20Derby">← 返回总表并定位本作</a>
   </header>
@@ -94,7 +107,7 @@
       <ol><li><a href="#无剧透结论">无剧透结论</a></li><li><a href="#数据库与公开分类">数据库与公开分类</a></li><li><a href="#决定性文本证据">决定性文本证据</a></li><li><a href="#四层分析">四层分析</a></li><li><a href="#最强反方解释">最强反方解释</a></li><li><a href="#分用途结论">分用途结论</a></li><li><a href="#方法来源与限制">方法、来源与限制</a></li></ol>
     </aside>
     <div class="report-content">
-      <blockquote><p>分类日期：2026-07-31<br> 分类对象：2018 年 TV 动画《ウマ娘 プリティーダービー》<br> 纳入范围：官方第 1–13 话（第 13 话为官网所列 <code>EXTRA R</code>）<br> 排除范围：<code>BNWの誓い</code> 三话 OVA、第二季以后 TV 动画、<code>ROAD TO THE TOP</code>、剧场版、短篇、漫画、游戏、舞台、歌曲扩展、现实赛马史及其他跨媒介材料<br> 用途：普通推荐与数据库分类</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p>《赛马娘 Pretty Derby》2018 TV 版的女女关系位于主线，按本仓库观察“关系是否持续组织人物选择与全作结构”的开放口径，可高置信度按作品分类归档。Special Week 与 Silence Suzuka 从仰慕、同住和训练陪伴开始，经历远行计划、伤病、照料中的失衡、重新成为对手，再把共同参赛写成双方未来的一部分；Team Spica 的女性共同体和多组女性竞争关系也贯穿整季。男性训练师是重要职业导师与照护者，但没有成为恋爱对象。</p><p>范围内最明确的关系名称是室友、队友、对手和伙伴，女女恋爱位置为缺席。作品没有女女告白、正式交往、接吻、求偶承诺或性取向身份明示；“漂亮”“命运”“在你身边”和“约定”均有可供私人配对阅读的空间，却持续落在跑步、互相促进与同场竞争的语境中。因此最稳妥的推荐语是：<strong>女女关系与竞技共同体构成主线，可按广义百合收录；正篇确认的是非恋爱的仰慕、照料、友情和竞争，不满足明确女女恋爱检索。</strong></p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：缺席｜最高明确度：非恋爱｜关系构成：多组异质关系｜官方：未标｜阅读层级：正篇事实／强推断／读者解读｜身份依据类型：范围内无依据｜男性恋爱线：无；男性训练师是重要职业导师与照护者｜内容提示：赛场严重骨折、倒地与急救，长期复健及再次受伤恐惧，过量训练和竞技压力，体重／节食笑料，男性训练师未经同意触碰腿部并被当作性骚扰笑料，主人公出生母亲去世。</strong></p></blockquote><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li><strong>只寻找双方告白、正式交往、接吻或身份明示：不命中。</strong> 第 1–13 话没有确认这些内容，Special Week 与 Silence Suzuka 最终仍以对手身份履行同场比赛的约定。</li><li><strong>接受明显但未确认的恋爱方向：可作私人阅读，但报告不把它写成正篇恋爱。</strong> 同住、相互改变、长期照料、分别后的等待及“想在你身边”等材料足以支持配对讨论；人物给出的现实目标仍是并肩竞赛。</li><li><strong>接受女女关系中心的开放百合口径：命中。</strong> 主要人物的成长长期通过女性室友、队友和对手之间的回应、照料、竞争与重选完成。</li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><p>下表记录 2026-07-31 可核字段。官方介绍、编辑分类、社区加权标签和动态用户标签不是四张同义选票，也不能替代正篇判断。</p><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://anime-umamusume.jp/archive/1st/introduction/" target="_blank" rel="noopener noreferrer">第一季动画官网简介</a></td><td>Special Week 转入 Tracen 学园，与队友切磋并争取“日本第一赛马娘”；页面未使用百合／GL</td><td>官方自述／营销分类</td><td>固定运动成长与团队主轴；“未标”只表示官网没有该类型词</td></tr><tr class="even"><td><a href="https://anime-umamusume.jp/archive/1st/story/" target="_blank" rel="noopener noreferrer">官网分集页</a>／<a href="https://anime-umamusume.jp/archive/1st/story/extra.html" target="_blank" rel="noopener noreferrer">第 13 话</a></td><td>依次列第 1–12R 与 <code>EXTRA R</code>；第 1 话写 Special 被 Suzuka 的比赛“夺去心神”，第 7–11 话连续以“约定”组织伤病和复出</td><td>官方分集资料</td><td>确认本档 13 话边界及官方如何概括两人关系；单个宣传词不能脱离分集内容判成恋爱</td></tr><tr class="odd"><td><a href="https://anime-umamusume.jp/archive/1st/character/01.html" target="_blank" rel="noopener noreferrer">Special Week</a>／<a href="https://anime-umamusume.jp/archive/1st/character/02.html" target="_blank" rel="noopener noreferrer">Silence Suzuka</a> 官方人物页</td><td>前者写二人成为室友且 Special 十分仰慕 Suzuka；后者写室友二人“互相带来良好影响”</td><td>官方人物设定</td><td>支持同住、仰慕和双向影响是公开关系事实；页面未称恋人或标注性取向</td></tr><tr class="even"><td><a href="https://anime-umamusume.jp/archive/1st/bd/vol4.html" target="_blank" rel="noopener noreferrer">第 4 卷蓝光资料</a></td><td><code>EXTRA R</code> 与另收录的全新动画 <code>BNWの誓い</code> 分开列出</td><td>官方版本边界</td><td>纳入官网正篇第 13 话，排除三话 OVA，避免把 16 话合并条目的内容倒入本档</td></tr><tr class="odd"><td><a href="https://myanimelist.net/anime/35249/Uma_Musume__Pretty_Derby" target="_blank" rel="noopener noreferrer">MyAnimeList 35249</a></td><td>TV、13 话、2018-04-02 至 06-18；Sports，Anthropomorphic／Racing；未列 Girls Love</td><td>编辑分类数据库</td><td>记录精确 13 话范围与运动类型；未列不能证明关系不重要</td></tr><tr class="even"><td><a href="https://www.anime-planet.com/anime/uma-musume-pretty-derby" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td>TV、13 话；Comedy／Drama／Sports，以及 All-Girls School、Horse Racing、Boarding School 等；未列精确 GL／Yuri</td><td>编辑／社区标签数据库</td><td>记录完整可见标签面板；站点沉默不等于否认私人百合阅读</td></tr><tr class="odd"><td><a href="https://anilist.co/anime/98514/Uma-Musume-Pretty-Derby" target="_blank" rel="noopener noreferrer">AniList 98514</a></td><td>TV、13 话；Drama／Music／Slice of Life／Sports；主要社区标签为 Athletics 99、Female Protagonist 91、Primarily Female Cast 85，未见 Yuri</td><td>编辑类型与加权社区标签</td><td>保存精确条目及加权字段；相关度不是人数，关联表另把三话 OVA 列作独立条目</td></tr><tr class="even"><td><a href="https://bangumi.tv/subject/212003" target="_blank" rel="noopener noreferrer">Bangumi 212003</a>／<a href="https://api.bgm.tv/v0/subjects/212003" target="_blank" rel="noopener noreferrer">公共 API</a></td><td>合并记为 16 话；动态标签“百合”1,591、“轻百合”66、“运动”2,289；收藏五状态合计 24,403，“百合”人数约占 6.52%</td><td>社区数据库与动态用户标签</td><td>说明中文用户存在广义百合收录实践；条目合并 OVA，数值不能当作 13 话正篇的官方认证或恋爱证明</td></tr><tr class="odd"><td><a href="https://jimaku.cc/entry/1671" target="_blank" rel="noopener noreferrer">Jimaku 1671</a></td><td>精确映射 AniList 98514，提供第 1–13 话日文 SRT</td><td>字幕资料库</td><td>用于全文阅读与时间码定位；字幕为播出闭字幕来源，不冒充官方剧本或官方翻译</td></tr></tbody></table></div><p>数据库分歧与文本并不矛盾：MAL、Anime-Planet 和 AniList 首先把它放进运动、竞速、校园与全女主角阵容的入口；Bangumi 用户又用“百合／轻百合”检索其女女关系结构。本报告采用后者可容纳的开放归档口径，但把“非恋爱”和“官方未标”同时放在首屏，避免把社区收录误写成正篇恋爱事实。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>以下部分包含 2018 年 TV 动画第 1–13 话完整剧透，包括重大伤病、复健、主要赛事结果和最终同场比赛。</p></aside>
+      <blockquote><p>分类日期：2026-07-31<br> 分类对象：2018 年 TV 动画《ウマ娘 プリティーダービー》<br> 纳入范围：官方第 1–13 话（第 13 话为官网所列 <code>EXTRA R</code>）<br> 排除范围：<code>BNWの誓い</code> 三话 OVA、第二季以后 TV 动画、<code>ROAD TO THE TOP</code>、剧场版、短篇、漫画、游戏、舞台、歌曲扩展、现实赛马史及其他跨媒介材料<br> 用途：普通推荐与数据库分类</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p>《赛马娘 Pretty Derby》2018 TV 版的女女关系位于主线，按本仓库观察“关系是否持续组织人物选择与全作结构”的开放口径，可高置信度按作品分类归档。Special Week 与 Silence Suzuka 从仰慕、同住和训练陪伴开始，经历远行计划、伤病、照料中的失衡、重新成为对手，再把共同参赛写成双方未来的一部分；Team Spica 的女性共同体和多组女性竞争关系也贯穿整季。男性训练师是重要职业导师与照护者，但没有成为恋爱对象。</p><p>范围内最明确的关系名称是室友、队友、对手和伙伴，女女恋爱位置为缺席。作品没有女女告白、正式交往、接吻、求偶承诺或性取向身份明示；“漂亮”“命运”“在你身边”和“约定”均有可供私人配对阅读的空间，却持续落在跑步、互相促进与同场竞争的语境中。因此最稳妥的推荐语是：<strong>女女关系与竞技共同体构成主线，可按广义百合收录；正篇确认的是非恋爱的仰慕、照料、友情和竞争，不满足明确女女恋爱检索。</strong></p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：缺席｜最高明确度：非恋爱｜关系构成：多组异质关系｜官方字面：所核未见｜官方恋爱表述：所核未见｜官方来源：所核未见匹配表述｜阅读层级：正篇事实／强推断／读者解读｜身份依据类型：范围内无依据｜男性恋爱线：无；男性训练师是重要职业导师与照护者｜内容提示：赛场严重骨折、倒地与急救，长期复健及再次受伤恐惧，过量训练和竞技压力，体重／节食笑料，男性训练师未经同意触碰腿部并被当作性骚扰笑料，主人公出生母亲去世。</strong></p></blockquote><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li><strong>只寻找双方告白、正式交往、接吻或身份明示：不命中。</strong> 第 1–13 话没有确认这些内容，Special Week 与 Silence Suzuka 最终仍以对手身份履行同场比赛的约定。</li><li><strong>接受明显但未确认的恋爱方向：可作私人阅读，但报告不把它写成正篇恋爱。</strong> 同住、相互改变、长期照料、分别后的等待及“想在你身边”等材料足以支持配对讨论；人物给出的现实目标仍是并肩竞赛。</li><li><strong>接受女女关系中心的开放百合口径：命中。</strong> 主要人物的成长长期通过女性室友、队友和对手之间的回应、照料、竞争与重选完成。</li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><p>下表记录 2026-07-31 可核字段。官方介绍、编辑分类、社区加权标签和动态用户标签不是四张同义选票，也不能替代正篇判断。</p><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://anime-umamusume.jp/archive/1st/introduction/" target="_blank" rel="noopener noreferrer">第一季动画官网简介</a></td><td>Special Week 转入 Tracen 学园，与队友切磋并争取“日本第一赛马娘”；页面未使用百合／GL</td><td>官方自述／营销分类</td><td>固定运动成长与团队主轴；“未标”只表示官网没有该类型词</td></tr><tr class="even"><td><a href="https://anime-umamusume.jp/archive/1st/story/" target="_blank" rel="noopener noreferrer">官网分集页</a>／<a href="https://anime-umamusume.jp/archive/1st/story/extra.html" target="_blank" rel="noopener noreferrer">第 13 话</a></td><td>依次列第 1–12R 与 <code>EXTRA R</code>；第 1 话写 Special 被 Suzuka 的比赛“夺去心神”，第 7–11 话连续以“约定”组织伤病和复出</td><td>官方分集资料</td><td>确认本档 13 话边界及官方如何概括两人关系；单个宣传词不能脱离分集内容判成恋爱</td></tr><tr class="odd"><td><a href="https://anime-umamusume.jp/archive/1st/character/01.html" target="_blank" rel="noopener noreferrer">Special Week</a>／<a href="https://anime-umamusume.jp/archive/1st/character/02.html" target="_blank" rel="noopener noreferrer">Silence Suzuka</a> 官方人物页</td><td>前者写二人成为室友且 Special 十分仰慕 Suzuka；后者写室友二人“互相带来良好影响”</td><td>官方人物设定</td><td>支持同住、仰慕和双向影响是公开关系事实；页面未称恋人或标注性取向</td></tr><tr class="even"><td><a href="https://anime-umamusume.jp/archive/1st/bd/vol4.html" target="_blank" rel="noopener noreferrer">第 4 卷蓝光资料</a></td><td><code>EXTRA R</code> 与另收录的全新动画 <code>BNWの誓い</code> 分开列出</td><td>官方版本边界</td><td>纳入官网正篇第 13 话，排除三话 OVA，避免把 16 话合并条目的内容倒入本档</td></tr><tr class="odd"><td><a href="https://myanimelist.net/anime/35249/Uma_Musume__Pretty_Derby" target="_blank" rel="noopener noreferrer">MyAnimeList 35249</a></td><td>TV、13 话、2018-04-02 至 06-18；Sports，Anthropomorphic／Racing；未列 Girls Love</td><td>编辑分类数据库</td><td>记录精确 13 话范围与运动类型；未列不能证明关系不重要</td></tr><tr class="even"><td><a href="https://www.anime-planet.com/anime/uma-musume-pretty-derby" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td>TV、13 话；Comedy／Drama／Sports，以及 All-Girls School、Horse Racing、Boarding School 等；未列精确 GL／Yuri</td><td>编辑／社区标签数据库</td><td>记录完整可见标签面板；站点沉默不等于否认私人百合阅读</td></tr><tr class="odd"><td><a href="https://anilist.co/anime/98514/Uma-Musume-Pretty-Derby" target="_blank" rel="noopener noreferrer">AniList 98514</a></td><td>TV、13 话；Drama／Music／Slice of Life／Sports；主要社区标签为 Athletics 99、Female Protagonist 91、Primarily Female Cast 85，未见 Yuri</td><td>编辑类型与加权社区标签</td><td>保存精确条目及加权字段；相关度不是人数，关联表另把三话 OVA 列作独立条目</td></tr><tr class="even"><td><a href="https://bangumi.tv/subject/212003" target="_blank" rel="noopener noreferrer">Bangumi 212003</a>／<a href="https://api.bgm.tv/v0/subjects/212003" target="_blank" rel="noopener noreferrer">公共 API</a></td><td>合并记为 16 话；动态标签“百合”1,591、“轻百合”66、“运动”2,289；收藏五状态合计 24,403，“百合”人数约占 6.52%</td><td>社区数据库与动态用户标签</td><td>说明中文用户存在广义百合收录实践；条目合并 OVA，数值不能当作 13 话正篇的官方认证或恋爱证明</td></tr><tr class="odd"><td><a href="https://jimaku.cc/entry/1671" target="_blank" rel="noopener noreferrer">Jimaku 1671</a></td><td>精确映射 AniList 98514，提供第 1–13 话日文 SRT</td><td>字幕资料库</td><td>用于全文阅读与时间码定位；字幕为播出闭字幕来源，不冒充官方剧本或官方翻译</td></tr></tbody></table></div><p>数据库分歧与文本并不矛盾：MAL、Anime-Planet 和 AniList 首先把它放进运动、竞速、校园与全女主角阵容的入口；Bangumi 用户又用“百合／轻百合”检索其女女关系结构。本报告采用后者可容纳的开放归档口径，但把“非恋爱”和“官方未标”同时放在首屏，避免把社区收录误写成正篇恋爱事实。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>以下部分包含 2018 年 TV 动画第 1–13 话完整剧透，包括重大伤病、复健、主要赛事结果和最终同场比赛。</p></aside>
 
       <details class="spoiler-panel">
         <summary>
@@ -142,7 +155,7 @@
     </div>
   </footer>
   <script>window.SITE_CONFIG = {basePath: "/yuri-classification-archive"};</script>
-  <script src="/yuri-classification-archive/assets/site.js?v=95491b68a3ae" defer></script>
-  
+  <script src="/yuri-classification-archive/assets/site.js?v=686fc3d330d3" defer></script>
+
 </body>
 </html>

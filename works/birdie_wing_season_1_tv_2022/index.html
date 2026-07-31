@@ -9,6 +9,7 @@
   <meta id="theme-color-dark" name="theme-color" media="(prefers-color-scheme: dark)" content="#1c181c">
   <script>
     (() => {
+      document.documentElement.classList.add("js");
       const storageKey = "yuri-classification-theme";
       const allowed = new Set(["system", "light", "dark"]);
       let preference = "system";
@@ -46,8 +47,8 @@
   <meta property="og:url" content="https://l-m-sherlock.github.io/yuri-classification-archive/works/birdie_wing_season_1_tv_2022/">
   <meta property="og:image" content="https://l-m-sherlock.github.io/yuri-classification-archive/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
   <title>《小鸟之翼 高尔夫少女》分类报告｜百合作品分类档案</title>
-  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=014a89622973">
-  
+  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=1cc35b33d5cd">
+
 </head>
 <body class="classification-report">
   <a class="skip-link" href="#main-content">跳到正文</a>
@@ -60,12 +61,24 @@
           <small>按查询拆开标签，按证据保留边界</small>
         </span>
       </a>
-      <nav class="site-nav" aria-label="主导航">
-        <a href="/yuri-classification-archive/">首页</a>
-        <a href="/yuri-classification-archive/table/">总表</a>
-        <a href="/yuri-classification-archive/about/">方法与说明</a>
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-navigation"
+      >
+        <span>菜单</span>
+        <span class="menu-toggle-icon" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-navigation" aria-label="主导航">
+        <div class="nav-main">
+          <a href="/yuri-classification-archive/">首页</a>
+          <a href="/yuri-classification-archive/table/">总表</a>
+          <a href="/yuri-classification-archive/about/">方法与说明</a>
+        </div>
         <a class="nav-star" href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub / Star <span aria-hidden="true">↗</span></a>
-        <a href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
+        <a class="nav-feedback" href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
         <label class="theme-control" for="theme-preference">
           <span>主题</span>
           <select id="theme-preference" aria-label="主题偏好">
@@ -84,7 +97,7 @@
     <h1>《小鸟之翼 高尔夫少女》分类报告</h1>
     <p class="report-subtitle">2022年TV动画Season 1正式第1—13话</p>
     <div class="label-strip" aria-label="分类摘要">
-      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>恋爱位置：</strong>主线</span><span class="label-chip"><strong>最高明确度：</strong>明确欲望</span><span class="label-chip"><strong>官方：</strong>其他相关表述</span><span class="label-chip"><strong>置信度：</strong>高</span>
+      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>恋爱位置：</strong>主线</span><span class="label-chip"><strong>最高明确度：</strong>明确欲望</span><span class="label-chip"><strong>官方字面百合／GL：</strong>所核未见</span><span class="label-chip"><strong>官方女女恋爱表述：</strong>是</span><span class="label-chip"><strong>官方来源：</strong>层级：当前版本；位置：可见作品宣传</span><span class="label-chip"><strong>置信度：</strong>高</span>
     </div>
     <a class="back-link" href="/yuri-classification-archive/table/?q=%E5%B0%8F%E9%B8%9F%E4%B9%8B%E7%BF%BC%20%E9%AB%98%E5%B0%94%E5%A4%AB%E5%B0%91%E5%A5%B3">← 返回总表并定位本作</a>
   </header>
@@ -94,7 +107,7 @@
       <ol><li><a href="#无剧透结论">无剧透结论</a></li><li><a href="#数据库与公开分类">数据库与公开分类</a></li><li><a href="#决定性文本证据">决定性文本证据</a></li><li><a href="#四层分析">四层分析</a></li><li><a href="#最强反方解释">最强反方解释</a></li><li><a href="#分用途结论">分用途结论</a></li><li><a href="#方法来源与限制">方法、来源与限制</a></li></ol>
     </aside>
     <div class="report-content">
-      <blockquote><p>分类日期：2026-07-30<br> 分类对象：《BIRDIE WING -Golf Girls' Story-》2022 年 TV 动画第一季<br> 纳入范围：正式播出的第 1—13 话<br> 排除范围：Season 2 第 14—25 话、游戏、小说、歌曲完整版本、宣传短片、联动动画及其他跨媒体材料<br> 用途：普通推荐、数据库分类与严格恋爱检索</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p>本作第一季适合归入“女女关系主线且按作品分类归档”，置信度高。它首先是夸张化的女子高尔夫竞技剧，也包含犯罪冒险和校园团队等类型要素；但两名女主角的相遇、互相吸引、约定与持续选择构成整季最稳定的情感动力，并决定核心目标、重大行动和竞技关系。女女关系不是可删去的装饰副线，而是把各类情节连成整体的结构主轴。</p><p>恋爱明确度应写“已有明确的女性对女性喜爱表达与双向亲昵，尚未确认正式交往”。两人都持续主动选择对方，其中一人的恋爱指向已经写到不可仅靠普通队友情完整解释；另一人则以排他的心意措辞、跨国行动和主动亲昵回应，却仍用戏谑方式回避正面命名。正篇没有双方正式告白、交往确认、伴侣身份、自称女同性恋或自称双性恋，因此不能把“女女关系主线且按作品分类归档”缩写成“正篇确认情侣”。</p><p>这一区分也决定推荐方式：若读者寻找女女关系占据作品中心、已有明确心意但尚未完成关系命名的作品，本作符合这一条件；若检索条件必须是双方承认恋爱、开始交往或身份明示，则第一季单独不满足。第二季可能继续推进关系与情节，但它不在本次证据范围内，不能倒灌进第一季结论。</p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：主线｜最高明确度：明确女女恋爱欲望｜关系构成：单一主要关系记录｜官方：其他，官网称两人“互相吸引”，但未用百合／GL 类型名｜阅读层级：正篇事实＋强推断＋读者解读｜身份依据类型：只有明确关系／欲望事实，无身份自述｜男性恋爱线：无｜内容提示：地下赌博与犯罪组织胁迫、枪击与致命暴力、贫困和强制拆迁、带性意味的威吓与身体边界侵犯、未成年角色处于高风险环境、少量裸露与性化玩笑</strong></p></blockquote><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li><p><strong>只收双方确认恋爱或正式交往的读者：第一季不符合。</strong> 葵明确表示自己只喜欢伊芙，伊芙也持续选择和主动亲近她，但二人没有共同承认恋爱、开始交往或使用伴侣称谓。</p></li><li><p><strong>只收角色性取向明示的读者：第一季不符合。</strong> 正篇没有角色自称女同性恋、双性恋或其他性取向；具体女性之间的心意不能替代身份自述。</p></li><li><p><strong>接受明确心意但关系未确认的读者：适合推荐。</strong> 两人的约定、跨国赴约、长期共同计划、排他喜欢和亲昵构成连续关系线。推荐语可写“女子高尔夫竞技＋明确女女心意／未确认交往”，比只写“百合”更具体。</p></li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><p>公开来源分为官方作品自述、编辑型数据库、社区标签和材料索引。下列字段均为 2026-07-30 快照；平台未列百合只表示该字段沉默，社区标签的权重或人数也不能换算成“社群支持率”。</p><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://www.birdie-wing.net/introduction/" target="_blank" rel="noopener noreferrer">动画官网 Introduction</a></td><td>称本作为女子高尔夫原创动画；伊芙与天鹫葵“命运般相遇”，一杆击中彼此的心，二人“互相吸引、互相影响并改变”</td><td>官方自述／营销文案</td><td>证明官方主动把双女主的相互吸引放在作品核心；官网未使用百合或 GL 类型名，故不能写成“官方标注百合”</td></tr><tr class="even"><td><a href="https://www.birdie-wing.net/story/" target="_blank" rel="noopener noreferrer">动画官网 Story</a>与<a href="https://www.birdie-wing.net/blu-ray/" target="_blank" rel="noopener noreferrer">Season 1 Blu-ray</a></td><td>故事索引把 Season 1 列为第 1—13 话、Season 2 列为第 14—25 话；第一季 BD 也明确收录第 1—13 话</td><td>官方剧集索引／商品资料</td><td>锁定本报告范围，防止把第二季关系进展或结局用于第一季判定</td></tr><tr class="odd"><td><a href="https://myanimelist.net/anime/50248/Birdie_Wing__Golf_Girls_Story" target="_blank" rel="noopener noreferrer">MyAnimeList 条目 50248</a></td><td>TV、13 话；可读编辑字段只列 Sports，未列 Girls Love 或 Romance</td><td>编辑型数据库</td><td>记录 MAL 的窄类型编目；字段沉默不能推翻正篇关系证据，也不能改写成 MAL 否认百合</td></tr><tr class="even"><td><a href="https://www.anime-planet.com/anime/birdie-wing-golf-girls-story" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td>2026-07-30 完整 Tags 面板：<code>Sports / Golf / Original Work</code></td><td>编辑维护的数据库标签</td><td>记录当前检索字段；不是官方认证，标签存在或沉默都不自动裁定作品关系</td></tr><tr class="odd"><td><a href="https://anilist.co/anime/140830/BIRDIE-WING-Golf-Girls-Story" target="_blank" rel="noopener noreferrer">AniList 条目 140830</a>及公开 GraphQL 数据</td><td>TV、13 话；编辑类型为 Drama／Slice of Life／Sports；社区标签含 Golf 98、Female Protagonist 93、Primarily Female Cast 92、Yuri 46</td><td>编辑字段＋带权重社区标签</td><td>证明该站存在中等权重的 Yuri 阅读入口；权重是动态社区字段，不是官方类型或恋爱确认</td></tr><tr class="even"><td><a href="https://bangumi.tv/subject/354682" target="_blank" rel="noopener noreferrer">Bangumi 条目 354682</a>及<a href="https://api.bgm.tv/v0/subjects/354682" target="_blank" rel="noopener noreferrer">公开 API</a></td><td>TV、13 话；用户标签快照含“原创”538、“百合”459、“运动”338、“高尔夫”178、“轻百合”12</td><td>社区标签数据库</td><td>说明中文社区将百合与高尔夫同时作为显著入口；计数不是彼此独立的投票，也不能推出角色身份</td></tr><tr class="odd"><td><a href="https://jimaku.cc/entry/6978" target="_blank" rel="noopener noreferrer">Jimaku 条目 6978</a></td><td>对应 AniList 140830，提供第 1—13 话日文 SRT；第 1 话与第 2—13 话来自两套发布但均覆盖正式正篇</td><td>第三方字幕索引</td><td>用于全季逐话核读、原语短引和时间定位，不作为作品类型权威</td></tr></tbody></table></div><p>官方层最准确的表述是“未设百合／GL 类型栏，但明确营销双女主互相吸引”；MAL 的编辑栏只收 Sports，AniList 与 Bangumi 的社区层则保留 Yuri／百合入口。三者处理的是不同任务：官方介绍作品核心，编辑字段做有限类型编目，社区标签记录用户检索习惯。它们不能用站点数量互相投票。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>以下部分包含本次分类对象的完整剧透。</p></aside>
+      <blockquote><p>分类日期：2026-07-30<br> 分类对象：《BIRDIE WING -Golf Girls' Story-》2022 年 TV 动画第一季<br> 纳入范围：正式播出的第 1—13 话<br> 排除范围：Season 2 第 14—25 话、游戏、小说、歌曲完整版本、宣传短片、联动动画及其他跨媒体材料<br> 用途：普通推荐、数据库分类与严格恋爱检索</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p>本作第一季适合归入“女女关系主线且按作品分类归档”，置信度高。它首先是夸张化的女子高尔夫竞技剧，也包含犯罪冒险和校园团队等类型要素；但两名女主角的相遇、互相吸引、约定与持续选择构成整季最稳定的情感动力，并决定核心目标、重大行动和竞技关系。女女关系不是可删去的装饰副线，而是把各类情节连成整体的结构主轴。</p><p>恋爱明确度应写“已有明确的女性对女性喜爱表达与双向亲昵，尚未确认正式交往”。两人都持续主动选择对方，其中一人的恋爱指向已经写到不可仅靠普通队友情完整解释；另一人则以排他的心意措辞、跨国行动和主动亲昵回应，却仍用戏谑方式回避正面命名。正篇没有双方正式告白、交往确认、伴侣身份、自称女同性恋或自称双性恋，因此不能把“女女关系主线且按作品分类归档”缩写成“正篇确认情侣”。</p><p>这一区分也决定推荐方式：若读者寻找女女关系占据作品中心、已有明确心意但尚未完成关系命名的作品，本作符合这一条件；若检索条件必须是双方承认恋爱、开始交往或身份明示，则第一季单独不满足。第二季可能继续推进关系与情节，但它不在本次证据范围内，不能倒灌进第一季结论。</p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：主线｜最高明确度：明确女女恋爱欲望｜关系构成：单一主要关系记录｜官方字面：所核未见｜官方恋爱表述：是｜官方来源：范围内版本·可见宣传｜阅读层级：正篇事实＋强推断＋读者解读｜身份依据类型：只有明确关系／欲望事实，无身份自述｜男性恋爱线：无｜内容提示：地下赌博与犯罪组织胁迫、枪击与致命暴力、贫困和强制拆迁、带性意味的威吓与身体边界侵犯、未成年角色处于高风险环境、少量裸露与性化玩笑</strong></p></blockquote><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li><p><strong>只收双方确认恋爱或正式交往的读者：第一季不符合。</strong> 葵明确表示自己只喜欢伊芙，伊芙也持续选择和主动亲近她，但二人没有共同承认恋爱、开始交往或使用伴侣称谓。</p></li><li><p><strong>只收角色性取向明示的读者：第一季不符合。</strong> 正篇没有角色自称女同性恋、双性恋或其他性取向；具体女性之间的心意不能替代身份自述。</p></li><li><p><strong>接受明确心意但关系未确认的读者：适合推荐。</strong> 两人的约定、跨国赴约、长期共同计划、排他喜欢和亲昵构成连续关系线。推荐语可写“女子高尔夫竞技＋明确女女心意／未确认交往”，比只写“百合”更具体。</p></li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><p>公开来源分为官方作品自述、编辑型数据库、社区标签和材料索引。下列字段均为 2026-07-30 快照；平台未列百合只表示该字段沉默，社区标签的权重或人数也不能换算成“社群支持率”。</p><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://www.birdie-wing.net/introduction/" target="_blank" rel="noopener noreferrer">动画官网 Introduction</a></td><td>称本作为女子高尔夫原创动画；伊芙与天鹫葵“命运般相遇”，一杆击中彼此的心，二人“互相吸引、互相影响并改变”</td><td>官方自述／营销文案</td><td>证明官方主动把双女主的相互吸引放在作品核心；官网未使用百合或 GL 类型名，故不能写成“官方标注百合”</td></tr><tr class="even"><td><a href="https://www.birdie-wing.net/story/" target="_blank" rel="noopener noreferrer">动画官网 Story</a>与<a href="https://www.birdie-wing.net/blu-ray/" target="_blank" rel="noopener noreferrer">Season 1 Blu-ray</a></td><td>故事索引把 Season 1 列为第 1—13 话、Season 2 列为第 14—25 话；第一季 BD 也明确收录第 1—13 话</td><td>官方剧集索引／商品资料</td><td>锁定本报告范围，防止把第二季关系进展或结局用于第一季判定</td></tr><tr class="odd"><td><a href="https://myanimelist.net/anime/50248/Birdie_Wing__Golf_Girls_Story" target="_blank" rel="noopener noreferrer">MyAnimeList 条目 50248</a></td><td>TV、13 话；可读编辑字段只列 Sports，未列 Girls Love 或 Romance</td><td>编辑型数据库</td><td>记录 MAL 的窄类型编目；字段沉默不能推翻正篇关系证据，也不能改写成 MAL 否认百合</td></tr><tr class="even"><td><a href="https://www.anime-planet.com/anime/birdie-wing-golf-girls-story" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td>2026-07-30 完整 Tags 面板：<code>Sports / Golf / Original Work</code></td><td>编辑维护的数据库标签</td><td>记录当前检索字段；不是官方认证，标签存在或沉默都不自动裁定作品关系</td></tr><tr class="odd"><td><a href="https://anilist.co/anime/140830/BIRDIE-WING-Golf-Girls-Story" target="_blank" rel="noopener noreferrer">AniList 条目 140830</a>及公开 GraphQL 数据</td><td>TV、13 话；编辑类型为 Drama／Slice of Life／Sports；社区标签含 Golf 98、Female Protagonist 93、Primarily Female Cast 92、Yuri 46</td><td>编辑字段＋带权重社区标签</td><td>证明该站存在中等权重的 Yuri 阅读入口；权重是动态社区字段，不是官方类型或恋爱确认</td></tr><tr class="even"><td><a href="https://bangumi.tv/subject/354682" target="_blank" rel="noopener noreferrer">Bangumi 条目 354682</a>及<a href="https://api.bgm.tv/v0/subjects/354682" target="_blank" rel="noopener noreferrer">公开 API</a></td><td>TV、13 话；用户标签快照含“原创”538、“百合”459、“运动”338、“高尔夫”178、“轻百合”12</td><td>社区标签数据库</td><td>说明中文社区将百合与高尔夫同时作为显著入口；计数不是彼此独立的投票，也不能推出角色身份</td></tr><tr class="odd"><td><a href="https://jimaku.cc/entry/6978" target="_blank" rel="noopener noreferrer">Jimaku 条目 6978</a></td><td>对应 AniList 140830，提供第 1—13 话日文 SRT；第 1 话与第 2—13 话来自两套发布但均覆盖正式正篇</td><td>第三方字幕索引</td><td>用于全季逐话核读、原语短引和时间定位，不作为作品类型权威</td></tr></tbody></table></div><p>官方层最准确的表述是“未设百合／GL 类型栏，但明确营销双女主互相吸引”；MAL 的编辑栏只收 Sports，AniList 与 Bangumi 的社区层则保留 Yuri／百合入口。三者处理的是不同任务：官方介绍作品核心，编辑字段做有限类型编目，社区标签记录用户检索习惯。它们不能用站点数量互相投票。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>以下部分包含本次分类对象的完整剧透。</p></aside>
 
       <details class="spoiler-panel">
         <summary>
@@ -142,7 +155,7 @@
     </div>
   </footer>
   <script>window.SITE_CONFIG = {basePath: "/yuri-classification-archive"};</script>
-  <script src="/yuri-classification-archive/assets/site.js?v=95491b68a3ae" defer></script>
-  
+  <script src="/yuri-classification-archive/assets/site.js?v=686fc3d330d3" defer></script>
+
 </body>
 </html>

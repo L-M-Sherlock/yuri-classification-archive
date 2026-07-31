@@ -9,6 +9,7 @@
   <meta id="theme-color-dark" name="theme-color" media="(prefers-color-scheme: dark)" content="#1c181c">
   <script>
     (() => {
+      document.documentElement.classList.add("js");
       const storageKey = "yuri-classification-theme";
       const allowed = new Set(["system", "light", "dark"]);
       let preference = "system";
@@ -46,8 +47,8 @@
   <meta property="og:url" content="https://l-m-sherlock.github.io/yuri-classification-archive/works/bocchi_the_rock_tv_2022/">
   <meta property="og:image" content="https://l-m-sherlock.github.io/yuri-classification-archive/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
   <title>《孤独摇滚！》分类报告｜百合作品分类档案</title>
-  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=014a89622973">
-  
+  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=1cc35b33d5cd">
+
 </head>
 <body class="classification-report">
   <a class="skip-link" href="#main-content">跳到正文</a>
@@ -60,12 +61,24 @@
           <small>按查询拆开标签，按证据保留边界</small>
         </span>
       </a>
-      <nav class="site-nav" aria-label="主导航">
-        <a href="/yuri-classification-archive/">首页</a>
-        <a href="/yuri-classification-archive/table/">总表</a>
-        <a href="/yuri-classification-archive/about/">方法与说明</a>
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-navigation"
+      >
+        <span>菜单</span>
+        <span class="menu-toggle-icon" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-navigation" aria-label="主导航">
+        <div class="nav-main">
+          <a href="/yuri-classification-archive/">首页</a>
+          <a href="/yuri-classification-archive/table/">总表</a>
+          <a href="/yuri-classification-archive/about/">方法与说明</a>
+        </div>
         <a class="nav-star" href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub / Star <span aria-hidden="true">↗</span></a>
-        <a href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
+        <a class="nav-feedback" href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
         <label class="theme-control" for="theme-preference">
           <span>主题</span>
           <select id="theme-preference" aria-label="主题偏好">
@@ -84,7 +97,7 @@
     <h1>《孤独摇滚！》分类报告</h1>
     <p class="report-subtitle">2022 TV anime broadcast episodes 1-12</p>
     <div class="label-strip" aria-label="分类摘要">
-      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>恋爱位置：</strong>局部</span><span class="label-chip"><strong>最高明确度：</strong>明确欲望</span><span class="label-chip"><strong>官方：</strong>未标百合／GL</span><span class="label-chip"><strong>置信度：</strong>高</span>
+      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>恋爱位置：</strong>局部</span><span class="label-chip"><strong>最高明确度：</strong>明确欲望</span><span class="label-chip"><strong>官方字面百合／GL：</strong>所核未见</span><span class="label-chip"><strong>官方女女恋爱表述：</strong>所核未见</span><span class="label-chip"><strong>官方来源：</strong>所核来源未含可公开筛选的层级或位置</span><span class="label-chip"><strong>置信度：</strong>高</span>
     </div>
     <a class="back-link" href="/yuri-classification-archive/table/?q=%E5%AD%A4%E7%8B%AC%E6%91%87%E6%BB%9A%EF%BC%81">← 返回总表并定位本作</a>
   </header>
@@ -94,7 +107,7 @@
       <ol><li><a href="#无剧透结论">无剧透结论</a></li><li><a href="#数据库与公开分类">数据库与公开分类</a></li><li><a href="#决定性文本证据">决定性文本证据</a></li><li><a href="#四层分析">四层分析</a></li><li><a href="#最强反方解释">最强反方解释</a></li><li><a href="#分用途结论">分用途结论</a></li><li><a href="#方法来源与限制">方法、来源与限制</a></li></ol>
     </aside>
     <div class="report-content">
-      <blockquote><p>分类日期：2026-07-29<br> 分类对象：2022 年 TV 动画《ぼっち・ざ・ろっく！》正式播出的第 1–12 话<br> 纳入范围：TV 正篇第 1–12 话的日文字幕文本，以及仅用于范围与公共分类核对的官方资料和数据库字段<br> 排除范围：剧场总集篇《劇場総集編ぼっち・ざ・ろっく！ Re:／Re:Re:》、后续动画、短篇与影像特典、漫画、游戏、广播、音声剧及歌曲作为独立文本的分析<br> 用途：普通推荐与数据库分类</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p><strong>依本档案用于检索“女女关系是否构成主要叙事与情感结构”的开放口径，本作属于女女关系主线且按作品分类归档，置信度高。</strong> 四名少女从招募、磨合到共同演出，组成十二话持续不变的剧情骨架；主人公面对社会焦虑、学习表达并成为创作者，也主要通过这组女性乐队关系完成。乐队、音乐、成长、日常和超现实喜剧是同样重要且更直观的类型。</p><p>乐队整体被写作朋友、伙伴与共同创作者。正篇同时让一名成员对另一名女性说出“一见钟情”，反复表现想要接近她的迷恋；这条指向兼有外貌与音乐憧憬，又持续被夸张为配对笑料，始终没有得到恋爱回应。第 1–12 话没有女女双方告白、正式交往、接吻或性／浪漫取向自述。</p><p>正篇没有男性恋爱对象或男女关系线，只有关于“不能当男友的乐队人”的泛指笑话。最准确的短评是：<strong>女性乐队共同体居主线，含一条明确但单向、喜剧化的女女迷恋；没有确认情侣或角色身份。</strong></p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：局部｜最高明确度：明确女女恋爱欲望｜关系构成：多组异质关系｜官方：未标百合／GL｜阅读层级：正篇事实＋强推断＋读者解读｜身份依据类型：只有明确关系／欲望事实，无身份自述｜男性恋爱线：无实际对象或情节，仅有泛指男友笑话｜内容提示：严重社会焦虑与回避、反复自我贬低、夸张身体崩坏或死亡意象、成年人酒精依赖与醉酒、借钱不还和人际利用、公开出丑、危险跳台及轻伤。</strong></p></blockquote><p>这里并未把所有女女关系都说成暧昧：群体主线是乐队伙伴关系，喜多对凉则是另行记录的单向迷恋。</p><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li>只寻找女女双方告白、正式交往、接吻或身份明示：<strong>不符合第 1–12 话</strong>。</li><li>只要求正篇出现明确的女性指向迷恋：<strong>符合</strong>；喜多对凉说出“一见钟情”并持续想接近她，但凉没有作恋爱回应。</li><li>接受女性乐队共同体、友情与共同创作进入开放百合阅读：<strong>符合</strong>；若指定一里／喜多为确认情侣，或要求完全没有配对笑料，则不符合。</li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><p>以下字段为 2026-07-30 重新核对的快照。官方营销、编辑型数据库和社区标签回答的是不同问题，不能按站点数量或标签数量投票；访问失败也不等于数据库未标。</p><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://bocchi.rocks/tv/introduction/" target="_blank" rel="noopener noreferrer">动画官网介绍</a></td><td>介绍极度怕生、没有朋友的后藤一里因鼓手伊地知虹夏搭话而加入“纽带乐队”，生活逐渐发生变化；核对页未使用百合／GL</td><td>官方剧情与营销表述</td><td>直接支持“相遇、入队与生活改变”的叙事骨架；“未标”只表示该页没有这样营销，不是官方否认百合阅读</td></tr><tr class="even"><td><a href="https://bocchi.rocks/tv/character/" target="_blank" rel="noopener noreferrer">官方角色页</a>及四名成员资料</td><td>虹夏是乐队组织者并照看一里；凉是虹夏的 <code>親友</code>；喜多“憧憬凉，这种感情有时会过头”</td><td>官方角色关系说明</td><td>支持伙伴、亲友和憧憬等官方用语；官方选择“憧憬”不能抹去正片的“一见钟情”台词，也不能单独证明恋爱身份</td></tr><tr class="odd"><td><a href="https://bocchi.rocks/tv/story/" target="_blank" rel="noopener noreferrer">官方故事页</a></td><td>列出第 1–12 话；终话简介以结成乐队、遇见不同的人和四人文化祭演出收束</td><td>官方范围与剧情说明</td><td>核对本报告只处理十二话 TV 正篇</td></tr><tr class="even"><td><a href="https://myanimelist.net/anime/47917/Bocchi_the_Rock" target="_blank" rel="noopener noreferrer">MyAnimeList 条目 47917</a></td><td>2026-07-30 直接页面完整 Genre／Theme 字段：<code>Comedy / CGDCT / Music</code>；Jikan relay 同日重试仍为 HTTP 504</td><td>编辑型数据库；直接源成功、代理失败</td><td>采用 MAL 直接字段；代理故障不再写成数据库标签未知</td></tr><tr class="odd"><td><a href="https://www.anime-planet.com/anime/bocchi-the-rock" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td>2026-07-30 完整 Tags 面板：<code>Comedy / Seinen / Slice of Life / Loneliness / Music / Rock Music / Based on a 4-Koma Manga / Based on a Manga</code></td><td>编辑维护的数据库标签</td><td>记录当前检索字段；不是官方认证，标签存在或沉默都不自动裁定作品关系</td></tr><tr class="even"><td><a href="https://anilist.co/anime/130003/Bocchi-the-Rock" target="_blank" rel="noopener noreferrer">AniList</a></td><td>TV、12 话；Comedy、Music、Slice of Life；社区相关度包括 Band 98、Female Protagonist 94、Primarily Female Cast 93、Rock Music 91、CGDCT 86、Coming of Age 86、LGBTQ+ Themes 56、Yuri 52</td><td>编辑类型＋带权重社区标签</td><td>说明社区检索中存在 Yuri／LGBTQ+ 读法；权重是相关度，不是支持率、官方认证或角色身份依据</td></tr><tr class="odd"><td><a href="https://bangumi.tv/subject/328609" target="_blank" rel="noopener noreferrer">Bangumi</a>／<a href="https://api.bgm.tv/v0/subjects/328609" target="_blank" rel="noopener noreferrer">公共 API</a></td><td><code>eps</code> 为 12；元标签为 TV／日本／漫画改／音乐／日常，本次用户标签含“轻百合 7185”“百合 2180”，另有芳文社、音乐、乐队题材等高频标签；<code>total_episodes</code> 另计 16</td><td>社区标签数据库及本批榜单来源</td><td>解释本作进入百合标签榜；分类范围仍按官方第 1–12 话，动态计数和额外分集记录不能换算成社群表决或扩展本报告范围</td></tr><tr class="even"><td><a href="https://jimaku.cc/entry/1648" target="_blank" rel="noopener noreferrer">Jimaku 条目 1648</a></td><td>页面数据明确对应 AniList 130003；现有多套字幕，本报告重新取得其中连续覆盖 S01E01–S01E12 的日文 CC SRT</td><td>字幕资料库</td><td>用于全季文字检索、时间码定位与文件完整性复核，不视为官方剧本</td></tr></tbody></table></div><p>数据库之间的差异并不奇怪：MAL 的有限类型字段强调喜剧与音乐，AniList 和 Bangumi 的社区标签允许记录更宽的关系阅读，官方页面则负责介绍人物、乐队和剧情。公共分类应把“谁标了什么”与“正片发生了什么”分开写。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>以下部分包含《孤独摇滚！》2022 年 TV 动画第 1–12 话的完整剧透。</p></aside>
+      <blockquote><p>分类日期：2026-07-29<br> 分类对象：2022 年 TV 动画《ぼっち・ざ・ろっく！》正式播出的第 1–12 话<br> 纳入范围：TV 正篇第 1–12 话的日文字幕文本，以及仅用于范围与公共分类核对的官方资料和数据库字段<br> 排除范围：剧场总集篇《劇場総集編ぼっち・ざ・ろっく！ Re:／Re:Re:》、后续动画、短篇与影像特典、漫画、游戏、广播、音声剧及歌曲作为独立文本的分析<br> 用途：普通推荐与数据库分类</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p><strong>依本档案用于检索“女女关系是否构成主要叙事与情感结构”的开放口径，本作属于女女关系主线且按作品分类归档，置信度高。</strong> 四名少女从招募、磨合到共同演出，组成十二话持续不变的剧情骨架；主人公面对社会焦虑、学习表达并成为创作者，也主要通过这组女性乐队关系完成。乐队、音乐、成长、日常和超现实喜剧是同样重要且更直观的类型。</p><p>乐队整体被写作朋友、伙伴与共同创作者。正篇同时让一名成员对另一名女性说出“一见钟情”，反复表现想要接近她的迷恋；这条指向兼有外貌与音乐憧憬，又持续被夸张为配对笑料，始终没有得到恋爱回应。第 1–12 话没有女女双方告白、正式交往、接吻或性／浪漫取向自述。</p><p>正篇没有男性恋爱对象或男女关系线，只有关于“不能当男友的乐队人”的泛指笑话。最准确的短评是：<strong>女性乐队共同体居主线，含一条明确但单向、喜剧化的女女迷恋；没有确认情侣或角色身份。</strong></p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：局部｜最高明确度：明确女女恋爱欲望｜关系构成：多组异质关系｜官方字面：所核未见｜官方恋爱表述：所核未见｜官方来源：所核未见匹配表述｜阅读层级：正篇事实＋强推断＋读者解读｜身份依据类型：只有明确关系／欲望事实，无身份自述｜男性恋爱线：无实际对象或情节，仅有泛指男友笑话｜内容提示：严重社会焦虑与回避、反复自我贬低、夸张身体崩坏或死亡意象、成年人酒精依赖与醉酒、借钱不还和人际利用、公开出丑、危险跳台及轻伤。</strong></p></blockquote><p>这里并未把所有女女关系都说成暧昧：群体主线是乐队伙伴关系，喜多对凉则是另行记录的单向迷恋。</p><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li>只寻找女女双方告白、正式交往、接吻或身份明示：<strong>不符合第 1–12 话</strong>。</li><li>只要求正篇出现明确的女性指向迷恋：<strong>符合</strong>；喜多对凉说出“一见钟情”并持续想接近她，但凉没有作恋爱回应。</li><li>接受女性乐队共同体、友情与共同创作进入开放百合阅读：<strong>符合</strong>；若指定一里／喜多为确认情侣，或要求完全没有配对笑料，则不符合。</li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><p>以下字段为 2026-07-30 重新核对的快照。官方营销、编辑型数据库和社区标签回答的是不同问题，不能按站点数量或标签数量投票；访问失败也不等于数据库未标。</p><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://bocchi.rocks/tv/introduction/" target="_blank" rel="noopener noreferrer">动画官网介绍</a></td><td>介绍极度怕生、没有朋友的后藤一里因鼓手伊地知虹夏搭话而加入“纽带乐队”，生活逐渐发生变化；核对页未使用百合／GL</td><td>官方剧情与营销表述</td><td>直接支持“相遇、入队与生活改变”的叙事骨架；“未标”只表示该页没有这样营销，不是官方否认百合阅读</td></tr><tr class="even"><td><a href="https://bocchi.rocks/tv/character/" target="_blank" rel="noopener noreferrer">官方角色页</a>及四名成员资料</td><td>虹夏是乐队组织者并照看一里；凉是虹夏的 <code>親友</code>；喜多“憧憬凉，这种感情有时会过头”</td><td>官方角色关系说明</td><td>支持伙伴、亲友和憧憬等官方用语；官方选择“憧憬”不能抹去正片的“一见钟情”台词，也不能单独证明恋爱身份</td></tr><tr class="odd"><td><a href="https://bocchi.rocks/tv/story/" target="_blank" rel="noopener noreferrer">官方故事页</a></td><td>列出第 1–12 话；终话简介以结成乐队、遇见不同的人和四人文化祭演出收束</td><td>官方范围与剧情说明</td><td>核对本报告只处理十二话 TV 正篇</td></tr><tr class="even"><td><a href="https://myanimelist.net/anime/47917/Bocchi_the_Rock" target="_blank" rel="noopener noreferrer">MyAnimeList 条目 47917</a></td><td>2026-07-30 直接页面完整 Genre／Theme 字段：<code>Comedy / CGDCT / Music</code>；Jikan relay 同日重试仍为 HTTP 504</td><td>编辑型数据库；直接源成功、代理失败</td><td>采用 MAL 直接字段；代理故障不再写成数据库标签未知</td></tr><tr class="odd"><td><a href="https://www.anime-planet.com/anime/bocchi-the-rock" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td>2026-07-30 完整 Tags 面板：<code>Comedy / Seinen / Slice of Life / Loneliness / Music / Rock Music / Based on a 4-Koma Manga / Based on a Manga</code></td><td>编辑维护的数据库标签</td><td>记录当前检索字段；不是官方认证，标签存在或沉默都不自动裁定作品关系</td></tr><tr class="even"><td><a href="https://anilist.co/anime/130003/Bocchi-the-Rock" target="_blank" rel="noopener noreferrer">AniList</a></td><td>TV、12 话；Comedy、Music、Slice of Life；社区相关度包括 Band 98、Female Protagonist 94、Primarily Female Cast 93、Rock Music 91、CGDCT 86、Coming of Age 86、LGBTQ+ Themes 56、Yuri 52</td><td>编辑类型＋带权重社区标签</td><td>说明社区检索中存在 Yuri／LGBTQ+ 读法；权重是相关度，不是支持率、官方认证或角色身份依据</td></tr><tr class="odd"><td><a href="https://bangumi.tv/subject/328609" target="_blank" rel="noopener noreferrer">Bangumi</a>／<a href="https://api.bgm.tv/v0/subjects/328609" target="_blank" rel="noopener noreferrer">公共 API</a></td><td><code>eps</code> 为 12；元标签为 TV／日本／漫画改／音乐／日常，本次用户标签含“轻百合 7185”“百合 2180”，另有芳文社、音乐、乐队题材等高频标签；<code>total_episodes</code> 另计 16</td><td>社区标签数据库及本批榜单来源</td><td>解释本作进入百合标签榜；分类范围仍按官方第 1–12 话，动态计数和额外分集记录不能换算成社群表决或扩展本报告范围</td></tr><tr class="even"><td><a href="https://jimaku.cc/entry/1648" target="_blank" rel="noopener noreferrer">Jimaku 条目 1648</a></td><td>页面数据明确对应 AniList 130003；现有多套字幕，本报告重新取得其中连续覆盖 S01E01–S01E12 的日文 CC SRT</td><td>字幕资料库</td><td>用于全季文字检索、时间码定位与文件完整性复核，不视为官方剧本</td></tr></tbody></table></div><p>数据库之间的差异并不奇怪：MAL 的有限类型字段强调喜剧与音乐，AniList 和 Bangumi 的社区标签允许记录更宽的关系阅读，官方页面则负责介绍人物、乐队和剧情。公共分类应把“谁标了什么”与“正片发生了什么”分开写。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>以下部分包含《孤独摇滚！》2022 年 TV 动画第 1–12 话的完整剧透。</p></aside>
 
       <details class="spoiler-panel">
         <summary>
@@ -142,7 +155,7 @@
     </div>
   </footer>
   <script>window.SITE_CONFIG = {basePath: "/yuri-classification-archive"};</script>
-  <script src="/yuri-classification-archive/assets/site.js?v=95491b68a3ae" defer></script>
-  
+  <script src="/yuri-classification-archive/assets/site.js?v=686fc3d330d3" defer></script>
+
 </body>
 </html>

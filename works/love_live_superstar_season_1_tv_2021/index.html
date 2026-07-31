@@ -9,6 +9,7 @@
   <meta id="theme-color-dark" name="theme-color" media="(prefers-color-scheme: dark)" content="#1c181c">
   <script>
     (() => {
+      document.documentElement.classList.add("js");
       const storageKey = "yuri-classification-theme";
       const allowed = new Set(["system", "light", "dark"]);
       let preference = "system";
@@ -46,8 +47,8 @@
   <meta property="og:url" content="https://l-m-sherlock.github.io/yuri-classification-archive/works/love_live_superstar_season_1_tv_2021/">
   <meta property="og:image" content="https://l-m-sherlock.github.io/yuri-classification-archive/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
   <title>《Love Live! Superstar!!》分类报告｜百合作品分类档案</title>
-  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=014a89622973">
-  
+  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=1cc35b33d5cd">
+
 </head>
 <body class="classification-report">
   <a class="skip-link" href="#main-content">跳到正文</a>
@@ -60,12 +61,24 @@
           <small>按查询拆开标签，按证据保留边界</small>
         </span>
       </a>
-      <nav class="site-nav" aria-label="主导航">
-        <a href="/yuri-classification-archive/">首页</a>
-        <a href="/yuri-classification-archive/table/">总表</a>
-        <a href="/yuri-classification-archive/about/">方法与说明</a>
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-navigation"
+      >
+        <span>菜单</span>
+        <span class="menu-toggle-icon" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-navigation" aria-label="主导航">
+        <div class="nav-main">
+          <a href="/yuri-classification-archive/">首页</a>
+          <a href="/yuri-classification-archive/table/">总表</a>
+          <a href="/yuri-classification-archive/about/">方法与说明</a>
+        </div>
         <a class="nav-star" href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub / Star <span aria-hidden="true">↗</span></a>
-        <a href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
+        <a class="nav-feedback" href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
         <label class="theme-control" for="theme-preference">
           <span>主题</span>
           <select id="theme-preference" aria-label="主题偏好">
@@ -84,7 +97,7 @@
     <h1>《Love Live! Superstar!!》分类报告</h1>
     <p class="report-subtitle">The 2021 first TV season, episodes 1-12, aired from 2021-07-11 through 2021-10-17</p>
     <div class="label-strip" aria-label="分类摘要">
-      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>恋爱位置：</strong>主线</span><span class="label-chip"><strong>最高明确度：</strong>潜在／明显但未确认</span><span class="label-chip"><strong>官方：</strong>未标百合／GL</span><span class="label-chip"><strong>置信度：</strong>高</span>
+      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>恋爱位置：</strong>主线</span><span class="label-chip"><strong>最高明确度：</strong>潜在／明显但未确认</span><span class="label-chip"><strong>官方字面百合／GL：</strong>所核未见</span><span class="label-chip"><strong>官方女女恋爱表述：</strong>所核未见</span><span class="label-chip"><strong>官方来源：</strong>所核来源未含可公开筛选的层级或位置</span><span class="label-chip"><strong>置信度：</strong>高</span>
     </div>
     <a class="back-link" href="/yuri-classification-archive/table/?q=Love%20Live%21%20Superstar%21%21">← 返回总表并定位本作</a>
   </header>
@@ -94,7 +107,7 @@
       <ol><li><a href="#无剧透结论">无剧透结论</a></li><li><a href="#数据库与公开分类">数据库与公开分类</a></li><li><a href="#决定性文本证据">决定性文本证据</a></li><li><a href="#四层分析">四层分析</a></li><li><a href="#最强反方解释">最强反方解释</a></li><li><a href="#分用途结论">分用途结论</a></li><li><a href="#方法来源与限制">方法、来源与限制</a></li></ol>
     </aside>
     <div class="report-content">
-      <blockquote><p>分类日期：2026-07-30<br> 分类对象：2021 年 TV 动画《ラブライブ！スーパースター!!》第一季第 1–12 话<br> 纳入范围：2021-07-11 至 2021-10-17 播出的第一季正篇全 12 话<br> 排除范围：节目后附短片／歌曲栏目《リエラのうた》、第二季、第三季、动画 MV、现场活动、广播剧、杂志、游戏及其他企划材料<br> 用途：普通推荐与数据库分类</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p><strong>按本档案容纳恋爱与非恋爱女女关系的开放口径，第一季属于女女关系主线且按作品分类归档，置信度高。</strong> 五位少女怎样相遇、邀请、冲突、互相信任并组成 Liella!，就是全季的叙事结构；每个人的个人困难也都通过其他女性的具体选择获得转机。作品没有男性恋爱主线。</p><p><strong>第一季不满足“明确女女恋爱／正式交往”的严格检索条件。</strong> 可可对香音说自己被她“夺走了心”、视她为明星和梦想；千砂都的人生选择长期以追上、帮助香音为轴；可可与堇也有把全部心意放进专属服装、直呼名字等高度亲密的段落。这些都让恋爱阅读有连续支点，但所有直白的“喜欢”均能由歌唱、偶像梦想、幼驯染或伙伴情境直接解释，正篇没有完成告白、接吻、交往或性取向身份自述。</p><p>最稳妥的公开短标签是：<strong>女女关系与共同创作构成主线的校园偶像群像；多组关系具有潜在恋爱读法，但第一季确认的是伙伴、幼驯染与团队承诺。</strong> 官方以“五位少女”和“大家共同实现的故事”介绍本季，未标百合／GL；Bangumi 的百合字段属于社区标签，AniList 当前没有 Yuri 标签。</p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：主线｜最高明确度：潜在／明显但未确认的恋爱指向｜关系构成：多组异质关系｜官方：未标百合／GL｜阅读层级：正篇事实＋强推断＋读者解读｜身份依据类型：只有关系性质推断，无身份自述｜男性恋爱线：无｜内容提示：舞台恐惧与惊恐反应、童年霸凌、学校停办与财务压力、丧亲、家庭对学业和返乡的压力、网络评价与竞赛挫败、过度训练和中暑风险。</strong></p></blockquote><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li>只寻找双方明确告白、女女接吻、正式交往或身份明示：<strong>不符合</strong>。</li><li>接受持续的恋爱可能、专属关系语言与开放配对阅读：<strong>符合</strong>；香音／可可、香音／千砂都及可可／堇均有跨话数材料，但推荐语应保留“未确认”。</li><li>寻找女性群体共同劳动、互相改变人生且没有男性恋爱主线：<strong>符合</strong>；观看体验首先仍是校园偶像、音乐和成长群像。</li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><p>下表核对至 2026-07-30。第一季必须与后两季和企划外材料分开；社区百合标签说明检索实践，不会把歌唱梦想自动变成恋爱事实。</p><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://www.sunrise-inc.co.jp/work/detail.php?cid=444" target="_blank" rel="noopener noreferrer">Sunrise 第一季作品页</a>／<a href="https://www.sunrise-world.net/titles/titles.php?id=444" target="_blank" rel="noopener noreferrer">Sunrise World</a></td><td>官方列 2021-07-11 至 2021-10-17、全 12 话；简介称以香音为中心的五位少女遇见校园偶像，诸多心意汇聚成“大家共同实现的故事”，未使用百合、GL 或恋爱类型</td><td>官方范围、剧情与营销表述</td><td>固定第一季边界并支持五位少女的共同事业是宣传中心；不能把“心意汇聚”当成恋爱认证</td></tr><tr class="even"><td><a href="https://myanimelist.net/anime/41169/Love_Live_Superstar" target="_blank" rel="noopener noreferrer">MyAnimeList 41169</a></td><td>TV、12 集；字段为 Slice of Life、Idols (Female)、Music、School，未列 Girls Love 或 Romance</td><td>编辑型数据库字段</td><td>核对版本和主类型；沉默记为未标</td></tr><tr class="odd"><td><a href="https://www.anime-planet.com/anime/love-live-superstar" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td>2026-07-30 完整 Tags 面板：<code>Idols / Music / School Life</code></td><td>编辑维护的数据库标签</td><td>记录当前检索字段；不是官方认证，标签存在或沉默都不自动裁定作品关系</td></tr><tr class="even"><td><a href="https://anilist.co/anime/114979" target="_blank" rel="noopener noreferrer">AniList 114979</a></td><td>TV、12 集；Genres 为 Music、Slice of Life；社区标签含 Idol 98%、School 91%、Primarily Female Cast 90%、Female Protagonist 88%、School Club 84%，当前表未列 Yuri 或 LGBTQ+ Themes</td><td>编辑字段＋带权重社区标签</td><td>支持校园偶像与女性群像定位；无 Yuri 字段不等于站点裁定“非百合”</td></tr><tr class="odd"><td><a href="https://bangumi.tv/subject/306742" target="_blank" rel="noopener noreferrer">Bangumi subject 306742</a>／<a href="https://api.bgm.tv/v0/subjects/306742" target="_blank" rel="noopener noreferrer">公共 API</a></td><td>TV、12 话；用户标签快照含“百合”726、“轻百合”38，另有偶像、校园、音乐、原创等</td><td>社区用户标签与范围数据</td><td>记录中文社区实际检索方式；计数不是官方分类或关系确认</td></tr><tr class="even"><td><a href="https://jimaku.cc/entry/469" target="_blank" rel="noopener noreferrer">Jimaku entry 469</a></td><td>条目精确对应 AniList 114979；本次选择同组第 1–12 话日文 ASS，排除文件中的《Liella no Uta》附加注释段</td><td>第三方字幕目录</td><td>用于第一季全文定位与范围控制，不承担分类认证</td></tr></tbody></table></div><p>官方和数据库最稳定地把本作放在校园偶像、音乐、女性群像与成长位置；Bangumi 的百合标签则说明相当数量用户还用女女关系来组织观看。两组字段无需互相取消。公开推荐可同时写“校园偶像”与“女女关系中心”，而严格恋爱检索另行写“未确认”。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>以下部分包含《Love Live! Superstar!!》TV 动画第一季第 1–12 话完整剧透。</p></aside>
+      <blockquote><p>分类日期：2026-07-30<br> 分类对象：2021 年 TV 动画《ラブライブ！スーパースター!!》第一季第 1–12 话<br> 纳入范围：2021-07-11 至 2021-10-17 播出的第一季正篇全 12 话<br> 排除范围：节目后附短片／歌曲栏目《リエラのうた》、第二季、第三季、动画 MV、现场活动、广播剧、杂志、游戏及其他企划材料<br> 用途：普通推荐与数据库分类</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p><strong>按本档案容纳恋爱与非恋爱女女关系的开放口径，第一季属于女女关系主线且按作品分类归档，置信度高。</strong> 五位少女怎样相遇、邀请、冲突、互相信任并组成 Liella!，就是全季的叙事结构；每个人的个人困难也都通过其他女性的具体选择获得转机。作品没有男性恋爱主线。</p><p><strong>第一季不满足“明确女女恋爱／正式交往”的严格检索条件。</strong> 可可对香音说自己被她“夺走了心”、视她为明星和梦想；千砂都的人生选择长期以追上、帮助香音为轴；可可与堇也有把全部心意放进专属服装、直呼名字等高度亲密的段落。这些都让恋爱阅读有连续支点，但所有直白的“喜欢”均能由歌唱、偶像梦想、幼驯染或伙伴情境直接解释，正篇没有完成告白、接吻、交往或性取向身份自述。</p><p>最稳妥的公开短标签是：<strong>女女关系与共同创作构成主线的校园偶像群像；多组关系具有潜在恋爱读法，但第一季确认的是伙伴、幼驯染与团队承诺。</strong> 官方以“五位少女”和“大家共同实现的故事”介绍本季，未标百合／GL；Bangumi 的百合字段属于社区标签，AniList 当前没有 Yuri 标签。</p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：主线｜最高明确度：潜在／明显但未确认的恋爱指向｜关系构成：多组异质关系｜官方字面：所核未见｜官方恋爱表述：所核未见｜官方来源：所核未见匹配表述｜阅读层级：正篇事实＋强推断＋读者解读｜身份依据类型：只有关系性质推断，无身份自述｜男性恋爱线：无｜内容提示：舞台恐惧与惊恐反应、童年霸凌、学校停办与财务压力、丧亲、家庭对学业和返乡的压力、网络评价与竞赛挫败、过度训练和中暑风险。</strong></p></blockquote><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li>只寻找双方明确告白、女女接吻、正式交往或身份明示：<strong>不符合</strong>。</li><li>接受持续的恋爱可能、专属关系语言与开放配对阅读：<strong>符合</strong>；香音／可可、香音／千砂都及可可／堇均有跨话数材料，但推荐语应保留“未确认”。</li><li>寻找女性群体共同劳动、互相改变人生且没有男性恋爱主线：<strong>符合</strong>；观看体验首先仍是校园偶像、音乐和成长群像。</li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><p>下表核对至 2026-07-30。第一季必须与后两季和企划外材料分开；社区百合标签说明检索实践，不会把歌唱梦想自动变成恋爱事实。</p><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://www.sunrise-inc.co.jp/work/detail.php?cid=444" target="_blank" rel="noopener noreferrer">Sunrise 第一季作品页</a>／<a href="https://www.sunrise-world.net/titles/titles.php?id=444" target="_blank" rel="noopener noreferrer">Sunrise World</a></td><td>官方列 2021-07-11 至 2021-10-17、全 12 话；简介称以香音为中心的五位少女遇见校园偶像，诸多心意汇聚成“大家共同实现的故事”，未使用百合、GL 或恋爱类型</td><td>官方范围、剧情与营销表述</td><td>固定第一季边界并支持五位少女的共同事业是宣传中心；不能把“心意汇聚”当成恋爱认证</td></tr><tr class="even"><td><a href="https://myanimelist.net/anime/41169/Love_Live_Superstar" target="_blank" rel="noopener noreferrer">MyAnimeList 41169</a></td><td>TV、12 集；字段为 Slice of Life、Idols (Female)、Music、School，未列 Girls Love 或 Romance</td><td>编辑型数据库字段</td><td>核对版本和主类型；沉默记为未标</td></tr><tr class="odd"><td><a href="https://www.anime-planet.com/anime/love-live-superstar" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td>2026-07-30 完整 Tags 面板：<code>Idols / Music / School Life</code></td><td>编辑维护的数据库标签</td><td>记录当前检索字段；不是官方认证，标签存在或沉默都不自动裁定作品关系</td></tr><tr class="even"><td><a href="https://anilist.co/anime/114979" target="_blank" rel="noopener noreferrer">AniList 114979</a></td><td>TV、12 集；Genres 为 Music、Slice of Life；社区标签含 Idol 98%、School 91%、Primarily Female Cast 90%、Female Protagonist 88%、School Club 84%，当前表未列 Yuri 或 LGBTQ+ Themes</td><td>编辑字段＋带权重社区标签</td><td>支持校园偶像与女性群像定位；无 Yuri 字段不等于站点裁定“非百合”</td></tr><tr class="odd"><td><a href="https://bangumi.tv/subject/306742" target="_blank" rel="noopener noreferrer">Bangumi subject 306742</a>／<a href="https://api.bgm.tv/v0/subjects/306742" target="_blank" rel="noopener noreferrer">公共 API</a></td><td>TV、12 话；用户标签快照含“百合”726、“轻百合”38，另有偶像、校园、音乐、原创等</td><td>社区用户标签与范围数据</td><td>记录中文社区实际检索方式；计数不是官方分类或关系确认</td></tr><tr class="even"><td><a href="https://jimaku.cc/entry/469" target="_blank" rel="noopener noreferrer">Jimaku entry 469</a></td><td>条目精确对应 AniList 114979；本次选择同组第 1–12 话日文 ASS，排除文件中的《Liella no Uta》附加注释段</td><td>第三方字幕目录</td><td>用于第一季全文定位与范围控制，不承担分类认证</td></tr></tbody></table></div><p>官方和数据库最稳定地把本作放在校园偶像、音乐、女性群像与成长位置；Bangumi 的百合标签则说明相当数量用户还用女女关系来组织观看。两组字段无需互相取消。公开推荐可同时写“校园偶像”与“女女关系中心”，而严格恋爱检索另行写“未确认”。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>以下部分包含《Love Live! Superstar!!》TV 动画第一季第 1–12 话完整剧透。</p></aside>
 
       <details class="spoiler-panel">
         <summary>
@@ -142,7 +155,7 @@
     </div>
   </footer>
   <script>window.SITE_CONFIG = {basePath: "/yuri-classification-archive"};</script>
-  <script src="/yuri-classification-archive/assets/site.js?v=95491b68a3ae" defer></script>
-  
+  <script src="/yuri-classification-archive/assets/site.js?v=686fc3d330d3" defer></script>
+
 </body>
 </html>

@@ -9,6 +9,7 @@
   <meta id="theme-color-dark" name="theme-color" media="(prefers-color-scheme: dark)" content="#1c181c">
   <script>
     (() => {
+      document.documentElement.classList.add("js");
       const storageKey = "yuri-classification-theme";
       const allowed = new Set(["system", "light", "dark"]);
       let preference = "system";
@@ -46,8 +47,8 @@
   <meta property="og:url" content="https://l-m-sherlock.github.io/yuri-classification-archive/works/zombieland_saga_tv_2018/">
   <meta property="og:image" content="https://l-m-sherlock.github.io/yuri-classification-archive/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
   <title>《佐贺偶像是传奇》分类报告｜百合作品分类档案</title>
-  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=014a89622973">
-  
+  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=1cc35b33d5cd">
+
 </head>
 <body class="classification-report">
   <a class="skip-link" href="#main-content">跳到正文</a>
@@ -60,12 +61,24 @@
           <small>按查询拆开标签，按证据保留边界</small>
         </span>
       </a>
-      <nav class="site-nav" aria-label="主导航">
-        <a href="/yuri-classification-archive/">首页</a>
-        <a href="/yuri-classification-archive/table/">总表</a>
-        <a href="/yuri-classification-archive/about/">方法与说明</a>
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-navigation"
+      >
+        <span>菜单</span>
+        <span class="menu-toggle-icon" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-navigation" aria-label="主导航">
+        <div class="nav-main">
+          <a href="/yuri-classification-archive/">首页</a>
+          <a href="/yuri-classification-archive/table/">总表</a>
+          <a href="/yuri-classification-archive/about/">方法与说明</a>
+        </div>
         <a class="nav-star" href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub / Star <span aria-hidden="true">↗</span></a>
-        <a href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
+        <a class="nav-feedback" href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
         <label class="theme-control" for="theme-preference">
           <span>主题</span>
           <select id="theme-preference" aria-label="主题偏好">
@@ -84,7 +97,7 @@
     <h1>《佐贺偶像是传奇》分类报告</h1>
     <p class="report-subtitle">2018 broadcast TV anime episodes 1-12</p>
     <div class="label-strip" aria-label="分类摘要">
-      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>恋爱位置：</strong>缺席</span><span class="label-chip"><strong>最高明确度：</strong>非恋爱</span><span class="label-chip"><strong>官方：</strong>未标百合／GL</span><span class="label-chip"><strong>置信度：</strong>高</span>
+      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>恋爱位置：</strong>缺席</span><span class="label-chip"><strong>最高明确度：</strong>非恋爱</span><span class="label-chip"><strong>官方字面百合／GL：</strong>所核未见</span><span class="label-chip"><strong>官方女女恋爱表述：</strong>所核未见</span><span class="label-chip"><strong>官方来源：</strong>所核来源未含可公开筛选的层级或位置</span><span class="label-chip"><strong>置信度：</strong>高</span>
     </div>
     <a class="back-link" href="/yuri-classification-archive/table/?q=%E4%BD%90%E8%B4%BA%E5%81%B6%E5%83%8F%E6%98%AF%E4%BC%A0%E5%A5%87">← 返回总表并定位本作</a>
   </header>
@@ -94,7 +107,7 @@
       <ol><li><a href="#无剧透结论">无剧透结论</a></li><li><a href="#数据库与公开分类">数据库与公开分类</a></li><li><a href="#决定性文本证据">决定性文本证据</a></li><li><a href="#四层分析">四层分析</a></li><li><a href="#最强反方解释">最强反方解释</a></li><li><a href="#分用途结论">分用途结论</a></li><li><a href="#方法来源与限制">方法、来源与限制</a></li></ol>
     </aside>
     <div class="report-content">
-      <blockquote><p>分类日期：2026-07-29<br> 分类对象：2018 年 TV 动画《ゾンビランドサガ》第一季<br> 纳入范围：正式电视播出的第 1–12 话<br> 排除范围：《ゾンビランドサガ リベンジ》TV 续篇、剧场版、短篇与宣传动画、漫画及外传、舞台、游戏、把歌曲或 MV 作为独立叙事作品的分析，以及其他衍生或跨媒介材料<br> 用途：普通推荐与数据库分类</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p><strong>本季属于女女关系主线且按作品分类归档（女女关系中心型），置信度高，但不是明确女女恋爱作品。</strong> 七名女性从被迫聚集、彼此不信任，发展为自己命名组合、在冲突和创伤中相互补位，并以继续共同活动完成季终收束。僵尸喜剧、偶像、音乐、地方振兴与群像成长仍是更直接的并列类型；这里的“女女关系主线归档”描述女女关系的叙事中心性，不表示官方以百合／GL 营销。</p><p>成员会直说喜欢彼此的笑脸或舞台姿态，也会为彼此承担失败风险；但第 1–12 话没有女女告白成立、正式交往、恋人称谓、现实关系中的女女接吻或性取向自述。她们的关系应标为非恋爱的伙伴、友情与共同体。</p><p>贯穿全季的男性制作人掌握住处、妆造和工作安排等关键资源，同时提供职业支持。另有一次女性对他表达好感，以及一段成年女性谈结婚与家庭的回忆；这些内容构成男性恋爱副线，却没有发展为情侣，也没有取代女性组合的情感收束。</p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：缺席｜最高明确度：非恋爱｜关系构成：单一主要关系记录｜官方：核对到的第一季官方资料未标百合／GL｜阅读层级：正篇事实＋读者解读｜身份依据类型：范围内没有性取向身份依据｜男性恋爱线：副线（一次女对男好感表达及成年女性婚姻家庭回忆；无确立情侣）｜内容提示：交通事故与死亡、僵尸身体恐怖和肢解／枪击、强制管理与言语羞辱、跨性别角色被旧名称呼及青春期焦虑、儿童死亡与亲子哀伤、偶像行业压力、雷击创伤、危险摩托车特技、失忆和抑郁退缩、舞台坍塌。</strong></p></blockquote><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li><strong>只找女女告白、正式交往、接吻、恋人称谓或性取向明示：不符合。</strong></li><li><strong>接受非恋爱女性友情、共同事业与创伤照护：符合。</strong> 这些关系直接承担季末冲突与解决。</li><li><strong>寻找明确跨性别女孩角色及同伴承认：符合。</strong> 该事实不能用于推定任何人的性／浪漫取向。</li><li><strong>排除重要男性角色、男性资源控制或任何女对男好感：不符合。</strong></li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><p>以下为截至 2026-07-30 的归档结果，各来源的具体复核日见元数据。官方自述、数据库编辑字段、社区标签和本报告的文本判断是不同层级，不能按站点数量或标签计数投票。访问失败写“未核验”，不改写成“未标”。</p><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://zombielandsaga.com/1st/index2.php" target="_blank" rel="noopener noreferrer">动画第一季官方网站</a></td><td>官方介绍围绕七名女孩、僵尸复活、创造奇迹与“想活下去”展开；角色资料称巽幸太郎为复活七人并启动计划的神秘制作人。核对页未使用百合／GL 类型表述</td><td>官方剧情、角色与营销资料</td><td>支持七名女孩和男性制作人的叙事配置；“官方未标”不等于官方否认百合读法</td></tr><tr class="even"><td><a href="https://zombielandsaga.com/1st/story/" target="_blank" rel="noopener noreferrer">官方第一季故事索引</a></td><td>逐项列出第 1–12 话；第 9 话官方标题直接使用 <code>親友への想い</code>（对挚友的感情）描述该话的过去关系，第 12 话简介以 Franchouchou 登上 Arpino 舞台为终局</td><td>官方版本范围与剧情自述</td><td>锁定本报告为第一季 12 话；官方的“挚友”用语限制了把第 9 话旧日关系直接登记为恋爱</td></tr><tr class="odd"><td><a href="https://myanimelist.net/anime/37976/Zombieland_Saga" target="_blank" rel="noopener noreferrer">MyAnimeList 37976</a>／<a href="https://api.jikan.moe/v4/anime/37976/full" target="_blank" rel="noopener noreferrer">Jikan</a></td><td>MAL 直连页面可见 <code>TV</code>、12 话；Genres 为 <code>Award Winning / Comedy / Supernatural</code>，Themes 为 <code>Idols (Female) / Music / Parody</code>，未列 Girls Love 或 Romance。Jikan 两次重试均返回 504</td><td>编辑型数据库与非官方 API</td><td>采用 MAL 当日直接页面字段；Jikan 失败单独记录，不影响已直接核验的 MAL 字段</td></tr><tr class="even"><td><a href="https://www.anime-planet.com/anime/zombie-land-saga" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td>2026-07-30 完整 Tags 面板：<code>Comedy / Drama / Idols / Music / Showbiz / Supernatural / Zombies / Original Work</code></td><td>编辑维护的数据库标签</td><td>记录当前检索字段；不是官方认证，标签存在或沉默都不自动裁定作品关系</td></tr><tr class="odd"><td><a href="https://anilist.co/anime/103871/Zombie-Land-Saga" target="_blank" rel="noopener noreferrer">AniList</a></td><td><code>TV</code>、12 话、2018 秋；Genres 为 <code>Comedy / Music / Supernatural</code>。完整可见社区标签包括 <code>Zombie 97</code>、<code>Idol 96</code>、<code>Monster Girl 95</code>、<code>Primarily Female Cast 89</code>、<code>Female Protagonist 84</code>、<code>Ensemble Cast 78</code>、<code>Transgender 65</code> 等，未出现 Yuri 标签</td><td>编辑类型＋带权重社区标签</td><td><code>Transgender</code> 与正篇身份情节互相印证，主要女性阵容只作检索背景；rank 是相关度，不是支持率，也不能单独推出或排除百合</td></tr><tr class="even"><td><a href="https://bangumi.tv/subject/252655" target="_blank" rel="noopener noreferrer">Bangumi</a></td><td>条目为 <code>TV</code>、12 话、2018-10-04 开始；快照中“原创 3911”“搞笑 3646”“偶像 3557”“僵尸 1755”等居前，另有动态社区标签“百合 97”</td><td>社区标签、平台汇总及本批榜单来源</td><td>解释作品进入 Bangumi 百合标签榜；“百合 97”只是一项动态用户标签，不能换算成支持比例或官方分类</td></tr><tr class="odd"><td><a href="https://jimaku.cc/entry/1717" target="_blank" rel="noopener noreferrer">Jimaku 条目 1717</a></td><td>条目与 AniList 103871 精确对应，页面共列 25 个文件，其中包含两套连续覆盖第 1–12 话的日文字幕；本报告使用一套 Netflix 日文 CC SRT</td><td>字幕资料库</td><td>用于全季文字检索与时间码定位，不作为类型认证来源</td></tr></tbody></table></div><p>公开资料把作品首先放在僵尸、偶像、喜剧与音乐位置；Bangumi 的“百合”标签则记录部分用户采用开放关系口径。AniList 的 <code>Transgender</code> 是角色身份检索字段，不等同于 Yuri，也不能推出角色的恋爱对象。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>以下部分包含 2018 年 TV 动画第 1–12 话的完整剧透。</p></aside>
+      <blockquote><p>分类日期：2026-07-29<br> 分类对象：2018 年 TV 动画《ゾンビランドサガ》第一季<br> 纳入范围：正式电视播出的第 1–12 话<br> 排除范围：《ゾンビランドサガ リベンジ》TV 续篇、剧场版、短篇与宣传动画、漫画及外传、舞台、游戏、把歌曲或 MV 作为独立叙事作品的分析，以及其他衍生或跨媒介材料<br> 用途：普通推荐与数据库分类</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p><strong>本季属于女女关系主线且按作品分类归档（女女关系中心型），置信度高，但不是明确女女恋爱作品。</strong> 七名女性从被迫聚集、彼此不信任，发展为自己命名组合、在冲突和创伤中相互补位，并以继续共同活动完成季终收束。僵尸喜剧、偶像、音乐、地方振兴与群像成长仍是更直接的并列类型；这里的“女女关系主线归档”描述女女关系的叙事中心性，不表示官方以百合／GL 营销。</p><p>成员会直说喜欢彼此的笑脸或舞台姿态，也会为彼此承担失败风险；但第 1–12 话没有女女告白成立、正式交往、恋人称谓、现实关系中的女女接吻或性取向自述。她们的关系应标为非恋爱的伙伴、友情与共同体。</p><p>贯穿全季的男性制作人掌握住处、妆造和工作安排等关键资源，同时提供职业支持。另有一次女性对他表达好感，以及一段成年女性谈结婚与家庭的回忆；这些内容构成男性恋爱副线，却没有发展为情侣，也没有取代女性组合的情感收束。</p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：缺席｜最高明确度：非恋爱｜关系构成：单一主要关系记录｜官方字面：所核未见｜官方恋爱表述：所核未见｜官方来源：所核未见匹配表述｜阅读层级：正篇事实＋读者解读｜身份依据类型：范围内没有性取向身份依据｜男性恋爱线：副线（一次女对男好感表达及成年女性婚姻家庭回忆；无确立情侣）｜内容提示：交通事故与死亡、僵尸身体恐怖和肢解／枪击、强制管理与言语羞辱、跨性别角色被旧名称呼及青春期焦虑、儿童死亡与亲子哀伤、偶像行业压力、雷击创伤、危险摩托车特技、失忆和抑郁退缩、舞台坍塌。</strong></p></blockquote><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li><strong>只找女女告白、正式交往、接吻、恋人称谓或性取向明示：不符合。</strong></li><li><strong>接受非恋爱女性友情、共同事业与创伤照护：符合。</strong> 这些关系直接承担季末冲突与解决。</li><li><strong>寻找明确跨性别女孩角色及同伴承认：符合。</strong> 该事实不能用于推定任何人的性／浪漫取向。</li><li><strong>排除重要男性角色、男性资源控制或任何女对男好感：不符合。</strong></li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><p>以下为截至 2026-07-30 的归档结果，各来源的具体复核日见元数据。官方自述、数据库编辑字段、社区标签和本报告的文本判断是不同层级，不能按站点数量或标签计数投票。访问失败写“未核验”，不改写成“未标”。</p><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://zombielandsaga.com/1st/index2.php" target="_blank" rel="noopener noreferrer">动画第一季官方网站</a></td><td>官方介绍围绕七名女孩、僵尸复活、创造奇迹与“想活下去”展开；角色资料称巽幸太郎为复活七人并启动计划的神秘制作人。核对页未使用百合／GL 类型表述</td><td>官方剧情、角色与营销资料</td><td>支持七名女孩和男性制作人的叙事配置；“官方未标”不等于官方否认百合读法</td></tr><tr class="even"><td><a href="https://zombielandsaga.com/1st/story/" target="_blank" rel="noopener noreferrer">官方第一季故事索引</a></td><td>逐项列出第 1–12 话；第 9 话官方标题直接使用 <code>親友への想い</code>（对挚友的感情）描述该话的过去关系，第 12 话简介以 Franchouchou 登上 Arpino 舞台为终局</td><td>官方版本范围与剧情自述</td><td>锁定本报告为第一季 12 话；官方的“挚友”用语限制了把第 9 话旧日关系直接登记为恋爱</td></tr><tr class="odd"><td><a href="https://myanimelist.net/anime/37976/Zombieland_Saga" target="_blank" rel="noopener noreferrer">MyAnimeList 37976</a>／<a href="https://api.jikan.moe/v4/anime/37976/full" target="_blank" rel="noopener noreferrer">Jikan</a></td><td>MAL 直连页面可见 <code>TV</code>、12 话；Genres 为 <code>Award Winning / Comedy / Supernatural</code>，Themes 为 <code>Idols (Female) / Music / Parody</code>，未列 Girls Love 或 Romance。Jikan 两次重试均返回 504</td><td>编辑型数据库与非官方 API</td><td>采用 MAL 当日直接页面字段；Jikan 失败单独记录，不影响已直接核验的 MAL 字段</td></tr><tr class="even"><td><a href="https://www.anime-planet.com/anime/zombie-land-saga" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td>2026-07-30 完整 Tags 面板：<code>Comedy / Drama / Idols / Music / Showbiz / Supernatural / Zombies / Original Work</code></td><td>编辑维护的数据库标签</td><td>记录当前检索字段；不是官方认证，标签存在或沉默都不自动裁定作品关系</td></tr><tr class="odd"><td><a href="https://anilist.co/anime/103871/Zombie-Land-Saga" target="_blank" rel="noopener noreferrer">AniList</a></td><td><code>TV</code>、12 话、2018 秋；Genres 为 <code>Comedy / Music / Supernatural</code>。完整可见社区标签包括 <code>Zombie 97</code>、<code>Idol 96</code>、<code>Monster Girl 95</code>、<code>Primarily Female Cast 89</code>、<code>Female Protagonist 84</code>、<code>Ensemble Cast 78</code>、<code>Transgender 65</code> 等，未出现 Yuri 标签</td><td>编辑类型＋带权重社区标签</td><td><code>Transgender</code> 与正篇身份情节互相印证，主要女性阵容只作检索背景；rank 是相关度，不是支持率，也不能单独推出或排除百合</td></tr><tr class="even"><td><a href="https://bangumi.tv/subject/252655" target="_blank" rel="noopener noreferrer">Bangumi</a></td><td>条目为 <code>TV</code>、12 话、2018-10-04 开始；快照中“原创 3911”“搞笑 3646”“偶像 3557”“僵尸 1755”等居前，另有动态社区标签“百合 97”</td><td>社区标签、平台汇总及本批榜单来源</td><td>解释作品进入 Bangumi 百合标签榜；“百合 97”只是一项动态用户标签，不能换算成支持比例或官方分类</td></tr><tr class="odd"><td><a href="https://jimaku.cc/entry/1717" target="_blank" rel="noopener noreferrer">Jimaku 条目 1717</a></td><td>条目与 AniList 103871 精确对应，页面共列 25 个文件，其中包含两套连续覆盖第 1–12 话的日文字幕；本报告使用一套 Netflix 日文 CC SRT</td><td>字幕资料库</td><td>用于全季文字检索与时间码定位，不作为类型认证来源</td></tr></tbody></table></div><p>公开资料把作品首先放在僵尸、偶像、喜剧与音乐位置；Bangumi 的“百合”标签则记录部分用户采用开放关系口径。AniList 的 <code>Transgender</code> 是角色身份检索字段，不等同于 Yuri，也不能推出角色的恋爱对象。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>以下部分包含 2018 年 TV 动画第 1–12 话的完整剧透。</p></aside>
 
       <details class="spoiler-panel">
         <summary>
@@ -142,7 +155,7 @@
     </div>
   </footer>
   <script>window.SITE_CONFIG = {basePath: "/yuri-classification-archive"};</script>
-  <script src="/yuri-classification-archive/assets/site.js?v=95491b68a3ae" defer></script>
-  
+  <script src="/yuri-classification-archive/assets/site.js?v=686fc3d330d3" defer></script>
+
 </body>
 </html>

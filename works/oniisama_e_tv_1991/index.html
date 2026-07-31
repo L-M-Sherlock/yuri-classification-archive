@@ -9,6 +9,7 @@
   <meta id="theme-color-dark" name="theme-color" media="(prefers-color-scheme: dark)" content="#1c181c">
   <script>
     (() => {
+      document.documentElement.classList.add("js");
       const storageKey = "yuri-classification-theme";
       const allowed = new Set(["system", "light", "dark"]);
       let preference = "system";
@@ -46,8 +47,8 @@
   <meta property="og:url" content="https://l-m-sherlock.github.io/yuri-classification-archive/works/oniisama_e_tv_1991/">
   <meta property="og:image" content="https://l-m-sherlock.github.io/yuri-classification-archive/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
   <title>《青兰圆舞曲》分类报告｜百合作品分类档案</title>
-  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=014a89622973">
-  
+  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=1cc35b33d5cd">
+
 </head>
 <body class="classification-report">
   <a class="skip-link" href="#main-content">跳到正文</a>
@@ -60,12 +61,24 @@
           <small>按查询拆开标签，按证据保留边界</small>
         </span>
       </a>
-      <nav class="site-nav" aria-label="主导航">
-        <a href="/yuri-classification-archive/">首页</a>
-        <a href="/yuri-classification-archive/table/">总表</a>
-        <a href="/yuri-classification-archive/about/">方法与说明</a>
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-navigation"
+      >
+        <span>菜单</span>
+        <span class="menu-toggle-icon" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-navigation" aria-label="主导航">
+        <div class="nav-main">
+          <a href="/yuri-classification-archive/">首页</a>
+          <a href="/yuri-classification-archive/table/">总表</a>
+          <a href="/yuri-classification-archive/about/">方法与说明</a>
+        </div>
         <a class="nav-star" href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub / Star <span aria-hidden="true">↗</span></a>
-        <a href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
+        <a class="nav-feedback" href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
         <label class="theme-control" for="theme-preference">
           <span>主题</span>
           <select id="theme-preference" aria-label="主题偏好">
@@ -84,7 +97,7 @@
     <h1>《青兰圆舞曲》分类报告</h1>
     <p class="report-subtitle">1991-1992 TV anime episodes 1-39</p>
     <div class="label-strip" aria-label="分类摘要">
-      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>恋爱位置：</strong>主线</span><span class="label-chip"><strong>最高明确度：</strong>明确欲望</span><span class="label-chip"><strong>官方：</strong>未标百合／GL</span><span class="label-chip"><strong>置信度：</strong>中</span>
+      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>恋爱位置：</strong>主线</span><span class="label-chip"><strong>最高明确度：</strong>明确欲望</span><span class="label-chip"><strong>官方字面百合／GL：</strong>所核未见</span><span class="label-chip"><strong>官方女女恋爱表述：</strong>是</span><span class="label-chip"><strong>官方来源：</strong>层级：当前版本；位置：剧情／角色页</span><span class="label-chip"><strong>置信度：</strong>中</span>
     </div>
     <a class="back-link" href="/yuri-classification-archive/table/?q=%E9%9D%92%E5%85%B0%E5%9C%86%E8%88%9E%E6%9B%B2">← 返回总表并定位本作</a>
   </header>
@@ -94,7 +107,7 @@
       <ol><li><a href="#无剧透结论">无剧透结论</a></li><li><a href="#数据库与公开分类">数据库与公开分类</a></li><li><a href="#决定性文本证据">决定性文本证据</a></li><li><a href="#四层分析">四层分析</a></li><li><a href="#最强反方解释">最强反方解释</a></li><li><a href="#分用途结论">分用途结论</a></li><li><a href="#方法来源与限制">方法、来源与限制</a></li></ol>
     </aside>
     <div class="report-content">
-      <blockquote><p>分类日期：2026-07-30<br> 分类对象：1991–1992 年 TV 动画《おにいさまへ…》<br> 纳入范围：正式播出的第 1–39 话<br> 排除范围：原作漫画、其他改编、宣传材料中的新增情节及跨媒介补充<br> 用途：普通推荐与数据库分类</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p>本报告将《おにいさまへ…》归为<strong>女女关系主线且按作品分类归档</strong>，置信度为中。作品以女子高中、学生社团及其等级制度为舞台，多组女女关系持续承担主人公成长、校园权力冲突和悲剧情节的主要动力；官方全话梗概还直接把女性对女性的感情称为“恋”，并记载女性向女性作出“爱的告白”，因此不只是由观众从构图或气氛中联想出来的关系。</p><p>它符合“正篇明确出现女女恋爱欲望”的检索，却不适合作为“主角双方正式交往、稳定相守”的保证推荐。不同关系分别涉及单恋、崇拜、嫉妒、占有、亲属纠葛与照料，后段另有重要的男女旧恋及婚姻线。由于本次未取得完整字幕或视频，判断主要依靠官方覆盖 39 话的剧情梗概，关系存在与叙事中心性可较有把握地判断，逐字台词、动作和相互性则须保留余地。</p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：主线｜最高明确度：明确女女恋爱欲望｜关系构成：多组异质关系｜官方：官网未标百合／GL，但官方梗概明写女性间的“恋”与“爱的告白”｜阅读层级：正篇事实＋强推断＋读者解读｜身份依据类型：只有明确关系／欲望事实，无身份自述｜男性恋爱线：并列，后段具有明确结果｜内容提示：校园排斥与欺凌、占有和控制、自伤、相约自杀、死亡、药物依赖与烟草、持刀伤人、绝症、亲属间越界依恋。</strong></p></blockquote><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li>如果检索条件是“正篇明确承认女性对女性的恋爱情感或告白”，本作可以收录：官方逐话文字至少两次使用“恋”，另一次明确写“爱的告白”。</li><li>如果条件是“核心两人互相告白并正式交往”“主要女女关系稳定相守”，本作不能保证命中。官方梗概并未把主要女女关系概括为已成立的情侣关系，且多条关系受到单向欲望、权力差、亲属关系或死亡阻断。</li><li>如果条件是“没有男性恋爱线”，本作不符合。后段男女旧恋、相互爱意与结婚不是无关紧要的背景。</li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://tezukaosamu.net/jp/anime/148.html" target="_blank" rel="noopener noreferrer">手塚治虫官方网站：动画介绍</a></td><td>标为电视系列、39 本；介绍以“爱、憎恨、友情、对立、复杂的人际关系”概括作品，分类栏未标百合／GL</td><td>官方作品资料</td><td>确认媒介、话数、制作范围和官方总体表述；“爱”本身不能证明每段关系都是恋爱</td></tr><tr class="even"><td><a href="https://tezukaosamu.net/jp/anime/subtitle/a0148/index.html" target="_blank" rel="noopener noreferrer">手塚治虫官方网站：全话梗概</a></td><td>连续列出第 1–39 话；第 17、19、25、36–39 话等直接写“恋”“爱的告白”“曾经的恋人”“结婚”</td><td>官方剧情概述</td><td>作为本报告的主要剧情事实来源；梗概不是逐字台本，也没有时间码</td></tr><tr class="odd"><td><a href="https://myanimelist.net/anime/795/Oniisama_e" target="_blank" rel="noopener noreferrer">MyAnimeList</a></td><td>TV、39 话；类型为 Drama、Girls Love、Psychological，另列 School 与 Shoujo</td><td>编辑分类数据库</td><td>证明 MAL 当前把本作归入 Girls Love；不能充当官网认证或角色身份说明</td></tr><tr class="even"><td><a href="https://www.anime-planet.com/anime/dear-brother" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td>2026-07-30 完整 Tags 面板：<code>Drama / Shoujo / All-Girls School / School Life / Based on a Manga</code></td><td>编辑维护的数据库标签</td><td>记录当前检索字段；不是官方认证，标签存在或沉默都不自动裁定作品关系</td></tr><tr class="odd"><td><a href="https://anilist.co/anime/795/Onii-sama-e" target="_blank" rel="noopener noreferrer">AniList</a></td><td>编辑类型为 Drama、Psychological；社区标签含 Yuri、LGBTQ+ Themes，也含 Heterosexual 等复合标签</td><td>编辑类型＋带权重社区标签</td><td>说明用户如何描述作品的多重关系结构；标签权重不当作投票或官方结论</td></tr><tr class="even"><td><a href="https://bangumi.tv/subject/7408" target="_blank" rel="noopener noreferrer">Bangumi</a></td><td>TV、39 话；公开 API 的用户标签中“百合”位于前列，另有 TV、少女、恋爱等</td><td>社区标签数据库</td><td>解释本作进入百合标签榜单的来源；标签数量不决定文本事实</td></tr><tr class="odd"><td><a href="https://jimaku.cc/" target="_blank" rel="noopener noreferrer">Jimaku</a></td><td>以日文名、罗马字／英文名和 AniList 795 重试公开目录，仍无精确匹配条目</td><td>字幕汇集站</td><td>记录本次字幕缺口；目录沉默不是文类证据</td></tr></tbody></table></div><p>官网没有设置百合／GL 字段，只能记作“官方未标”，不能改写成官方否认。反过来，官网梗概中的“恋”与“爱的告白”证明的是具体剧情关系，也不能自动升级为官网对整部作品作出的文类认证。MAL 的编辑类型、AniList 与 Bangumi 的社区标签又是另外两种来源，三者在本报告中不相互冒充。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>以下部分包含本次分类对象的完整剧透。</p></aside>
+      <blockquote><p>分类日期：2026-07-30<br> 分类对象：1991–1992 年 TV 动画《おにいさまへ…》<br> 纳入范围：正式播出的第 1–39 话<br> 排除范围：原作漫画、其他改编、宣传材料中的新增情节及跨媒介补充<br> 用途：普通推荐与数据库分类</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p>本报告将《おにいさまへ…》归为<strong>女女关系主线且按作品分类归档</strong>，置信度为中。作品以女子高中、学生社团及其等级制度为舞台，多组女女关系持续承担主人公成长、校园权力冲突和悲剧情节的主要动力；官方全话梗概还直接把女性对女性的感情称为“恋”，并记载女性向女性作出“爱的告白”，因此不只是由观众从构图或气氛中联想出来的关系。</p><p>它符合“正篇明确出现女女恋爱欲望”的检索，却不适合作为“主角双方正式交往、稳定相守”的保证推荐。不同关系分别涉及单恋、崇拜、嫉妒、占有、亲属纠葛与照料，后段另有重要的男女旧恋及婚姻线。由于本次未取得完整字幕或视频，判断主要依靠官方覆盖 39 话的剧情梗概，关系存在与叙事中心性可较有把握地判断，逐字台词、动作和相互性则须保留余地。</p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：主线｜最高明确度：明确女女恋爱欲望｜关系构成：多组异质关系｜官方字面：所核未见｜官方恋爱表述：是｜官方来源：范围内版本·故事／角色页｜阅读层级：正篇事实＋强推断＋读者解读｜身份依据类型：只有明确关系／欲望事实，无身份自述｜男性恋爱线：并列，后段具有明确结果｜内容提示：校园排斥与欺凌、占有和控制、自伤、相约自杀、死亡、药物依赖与烟草、持刀伤人、绝症、亲属间越界依恋。</strong></p></blockquote><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li>如果检索条件是“正篇明确承认女性对女性的恋爱情感或告白”，本作可以收录：官方逐话文字至少两次使用“恋”，另一次明确写“爱的告白”。</li><li>如果条件是“核心两人互相告白并正式交往”“主要女女关系稳定相守”，本作不能保证命中。官方梗概并未把主要女女关系概括为已成立的情侣关系，且多条关系受到单向欲望、权力差、亲属关系或死亡阻断。</li><li>如果条件是“没有男性恋爱线”，本作不符合。后段男女旧恋、相互爱意与结婚不是无关紧要的背景。</li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://tezukaosamu.net/jp/anime/148.html" target="_blank" rel="noopener noreferrer">手塚治虫官方网站：动画介绍</a></td><td>标为电视系列、39 本；介绍以“爱、憎恨、友情、对立、复杂的人际关系”概括作品，分类栏未标百合／GL</td><td>官方作品资料</td><td>确认媒介、话数、制作范围和官方总体表述；“爱”本身不能证明每段关系都是恋爱</td></tr><tr class="even"><td><a href="https://tezukaosamu.net/jp/anime/subtitle/a0148/index.html" target="_blank" rel="noopener noreferrer">手塚治虫官方网站：全话梗概</a></td><td>连续列出第 1–39 话；第 17、19、25、36–39 话等直接写“恋”“爱的告白”“曾经的恋人”“结婚”</td><td>官方剧情概述</td><td>作为本报告的主要剧情事实来源；梗概不是逐字台本，也没有时间码</td></tr><tr class="odd"><td><a href="https://myanimelist.net/anime/795/Oniisama_e" target="_blank" rel="noopener noreferrer">MyAnimeList</a></td><td>TV、39 话；类型为 Drama、Girls Love、Psychological，另列 School 与 Shoujo</td><td>编辑分类数据库</td><td>证明 MAL 当前把本作归入 Girls Love；不能充当官网认证或角色身份说明</td></tr><tr class="even"><td><a href="https://www.anime-planet.com/anime/dear-brother" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td>2026-07-30 完整 Tags 面板：<code>Drama / Shoujo / All-Girls School / School Life / Based on a Manga</code></td><td>编辑维护的数据库标签</td><td>记录当前检索字段；不是官方认证，标签存在或沉默都不自动裁定作品关系</td></tr><tr class="odd"><td><a href="https://anilist.co/anime/795/Onii-sama-e" target="_blank" rel="noopener noreferrer">AniList</a></td><td>编辑类型为 Drama、Psychological；社区标签含 Yuri、LGBTQ+ Themes，也含 Heterosexual 等复合标签</td><td>编辑类型＋带权重社区标签</td><td>说明用户如何描述作品的多重关系结构；标签权重不当作投票或官方结论</td></tr><tr class="even"><td><a href="https://bangumi.tv/subject/7408" target="_blank" rel="noopener noreferrer">Bangumi</a></td><td>TV、39 话；公开 API 的用户标签中“百合”位于前列，另有 TV、少女、恋爱等</td><td>社区标签数据库</td><td>解释本作进入百合标签榜单的来源；标签数量不决定文本事实</td></tr><tr class="odd"><td><a href="https://jimaku.cc/" target="_blank" rel="noopener noreferrer">Jimaku</a></td><td>以日文名、罗马字／英文名和 AniList 795 重试公开目录，仍无精确匹配条目</td><td>字幕汇集站</td><td>记录本次字幕缺口；目录沉默不是文类证据</td></tr></tbody></table></div><p>官网没有设置百合／GL 字段，只能记作“官方未标”，不能改写成官方否认。反过来，官网梗概中的“恋”与“爱的告白”证明的是具体剧情关系，也不能自动升级为官网对整部作品作出的文类认证。MAL 的编辑类型、AniList 与 Bangumi 的社区标签又是另外两种来源，三者在本报告中不相互冒充。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>以下部分包含本次分类对象的完整剧透。</p></aside>
 
       <details class="spoiler-panel">
         <summary>
@@ -142,7 +155,7 @@
     </div>
   </footer>
   <script>window.SITE_CONFIG = {basePath: "/yuri-classification-archive"};</script>
-  <script src="/yuri-classification-archive/assets/site.js?v=95491b68a3ae" defer></script>
-  
+  <script src="/yuri-classification-archive/assets/site.js?v=686fc3d330d3" defer></script>
+
 </body>
 </html>

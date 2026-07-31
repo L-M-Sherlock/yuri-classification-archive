@@ -1,3 +1,135 @@
+const YuriCatalogFilterLogic = (() => {
+  "use strict";
+
+  const scalarFields = [
+    "medium",
+    "female_relationship_centrality",
+    "archive_basis",
+    "highest_romance_explicitness",
+    "official_literal_yuri_gl",
+    "official_female_romance_wording",
+    "male_romance_line",
+    "confidence",
+  ];
+  const multiFields = {
+    official_source_scopes: "official_scope",
+    official_source_surfaces: "official_surface",
+  };
+  const filterValueAliases = {
+    medium: {
+      tv_animation: "tv_anime",
+      web_animation: "web_anime",
+    },
+  };
+
+  function canonicalFilterValue(field, value) {
+    return filterValueAliases[field]?.[value] || value;
+  }
+
+  function selectedCodes(values) {
+    return Array.from(new Set((values || []).filter(Boolean))).sort();
+  }
+
+  function parseState(search) {
+    const params = new URLSearchParams(search || "");
+    const scalar = {};
+    for (const field of scalarFields) {
+      scalar[field] = canonicalFilterValue(field, params.get(field) || "");
+    }
+    const multi = {};
+    for (const [field, urlKey] of Object.entries(multiFields)) {
+      multi[field] = selectedCodes(
+        params.getAll(urlKey).map((value) => canonicalFilterValue(field, value)),
+      );
+    }
+    return {
+      query: params.get("q") || "",
+      scalar,
+      multi,
+      quick: selectedCodes(params.getAll("quick")),
+    };
+  }
+
+  function serializeState(state) {
+    const params = new URLSearchParams();
+    const query = (state.query || "").trim();
+    if (query) params.set("q", query);
+    for (const field of scalarFields) {
+      const value = state.scalar?.[field] || "";
+      if (value) params.set(field, value);
+    }
+    for (const [field, urlKey] of Object.entries(multiFields)) {
+      for (const value of selectedCodes(state.multi?.[field])) {
+        params.append(urlKey, value);
+      }
+    }
+    for (const value of selectedCodes(state.quick)) {
+      params.append("quick", value);
+    }
+    return params.toString();
+  }
+
+  function itemMatchesScalar(item, field, expected) {
+    if (!expected) return true;
+    const value = item[field];
+    return canonicalFilterValue(field, value?.code) === expected;
+  }
+
+  function itemMatchesMulti(item, field, selected) {
+    if (!selected?.length) return true;
+    const codes = new Set(
+      (Array.isArray(item[field]) ? item[field] : [])
+        .map((value) => canonicalFilterValue(field, value?.code))
+        .filter(Boolean),
+    );
+    return selected.some((value) => codes.has(value));
+  }
+
+  function searchableTitle(item) {
+    return [
+      item.title,
+      item.title_original,
+      item.title_romaji,
+      item.title_english,
+    ]
+      .filter(Boolean)
+      .join(" ")
+      .toLocaleLowerCase("zh-CN");
+  }
+
+  function matchesItem(item, state) {
+    const query = (state.query || "").trim().toLocaleLowerCase("zh-CN");
+    if (query && !searchableTitle(item).includes(query)) return false;
+    for (const field of scalarFields) {
+      if (!itemMatchesScalar(item, field, state.scalar?.[field] || "")) {
+        return false;
+      }
+    }
+    for (const field of Object.keys(multiFields)) {
+      if (!itemMatchesMulti(item, field, state.multi?.[field] || [])) {
+        return false;
+      }
+    }
+    for (const queryKey of state.quick || []) {
+      if (item.quick_queries?.[queryKey] !== true) return false;
+    }
+    return true;
+  }
+
+  return Object.freeze({
+    scalarFields,
+    multiFields,
+    canonicalFilterValue,
+    parseState,
+    serializeState,
+    matchesItem,
+  });
+})();
+
+if (typeof globalThis !== "undefined") {
+  globalThis.YuriCatalogFilterLogic = YuriCatalogFilterLogic;
+}
+
 (async function () {
   "use strict";
 
@@ -12,25 +144,26 @@
   const quickButtons = Array.from(
     document.querySelectorAll("#quick-filters [data-query]"),
   );
-  const filterElements = {
+  const scalarFilterElements = {
     medium: document.getElementById("medium-filter"),
     female_relationship_centrality: document.getElementById("relationship-filter"),
     archive_basis: document.getElementById("basis-filter"),
     highest_romance_explicitness: document.getElementById("explicitness-filter"),
-    official_label: document.getElementById("official-filter"),
+    official_literal_yuri_gl: document.getElementById("official-literal-filter"),
+    official_female_romance_wording: document.getElementById("official-romance-filter"),
     male_romance_line: document.getElementById("male-filter"),
     confidence: document.getElementById("confidence-filter"),
   };
-  const filterValueAliases = {
-    medium: {
-      tv_animation: "tv_anime",
-      web_animation: "web_anime",
-    },
+  const multiFilterElements = {
+    official_source_scopes: document.getElementById("official-scope-filter"),
+    official_source_surfaces: document.getElementById("official-surface-filter"),
   };
-
-  function canonicalFilterValue(field, value) {
-    return filterValueAliases[field]?.[value] || value;
-  }
+  const allControls = [
+    searchInput,
+    ...Object.values(scalarFilterElements),
+    ...Object.values(multiFilterElements),
+    clearButton,
+  ];
 
   function showError(message) {
     errorPanel.hidden = false;
@@ -38,14 +171,32 @@
     resultCount.textContent = "总表读取失败";
   }
 
+  if (allControls.some((element) => !element)) {
+    showError("总表筛选控件不完整，请重新生成公开站点。");
+    return;
+  }
+
   function uniqueOptions(items, field) {
     const map = new Map();
     for (const item of items) {
       const value = item[field];
       if (!value || !value.code) continue;
-      const code = canonicalFilterValue(field, value.code);
-      if (!map.has(code)) {
-        map.set(code, value.label);
+      const code = YuriCatalogFilterLogic.canonicalFilterValue(field, value.code);
+      if (!map.has(code)) map.set(code, value.label);
+    }
+    return Array.from(map.entries()).sort((a, b) =>
+      a[1].localeCompare(b[1], "zh-CN"),
+    );
+  }
+
+  function uniqueListOptions(items, field) {
+    const map = new Map();
+    for (const item of items) {
+      const values = Array.isArray(item[field]) ? item[field] : [];
+      for (const value of values) {
+        if (!value || !value.code) continue;
+        const code = YuriCatalogFilterLogic.canonicalFilterValue(field, value.code);
+        if (!map.has(code)) map.set(code, value.label);
       }
     }
     return Array.from(map.entries()).sort((a, b) =>
@@ -62,13 +213,50 @@
     }
   }
 
-  function readStateFromUrl() {
-    const params = new URLSearchParams(window.location.search);
-    searchInput.value = params.get("q") || "";
-    for (const [field, element] of Object.entries(filterElements)) {
-      element.value = canonicalFilterValue(field, params.get(field) || "");
+  function selectedValues(select) {
+    return Array.from(select.selectedOptions, (option) => option.value);
+  }
+
+  function setSelectedValues(select, values) {
+    const selected = new Set(values || []);
+    for (const option of select.options) {
+      option.selected = selected.has(option.value);
     }
-    const activeQuick = new Set(params.getAll("quick"));
+  }
+
+  function readUiState() {
+    const scalar = {};
+    for (const [field, element] of Object.entries(scalarFilterElements)) {
+      scalar[field] = YuriCatalogFilterLogic.canonicalFilterValue(
+        field,
+        element.value || "",
+      );
+    }
+    const multi = {};
+    for (const [field, element] of Object.entries(multiFilterElements)) {
+      multi[field] = selectedValues(element).map((value) =>
+        YuriCatalogFilterLogic.canonicalFilterValue(field, value),
+      );
+    }
+    return {
+      query: searchInput.value,
+      scalar,
+      multi,
+      quick: quickButtons
+        .filter((button) => button.getAttribute("aria-pressed") === "true")
+        .map((button) => button.dataset.query),
+    };
+  }
+
+  function writeUiState(state) {
+    searchInput.value = state.query || "";
+    for (const [field, element] of Object.entries(scalarFilterElements)) {
+      element.value = state.scalar?.[field] || "";
+    }
+    for (const [field, element] of Object.entries(multiFilterElements)) {
+      setSelectedValues(element, state.multi?.[field] || []);
+    }
+    const activeQuick = new Set(state.quick || []);
     for (const button of quickButtons) {
       button.setAttribute(
         "aria-pressed",
@@ -78,19 +266,12 @@
   }
 
   function stateToUrl() {
-    const params = new URLSearchParams();
-    const query = searchInput.value.trim();
-    if (query) params.set("q", query);
-    for (const [field, element] of Object.entries(filterElements)) {
-      if (element.value) params.set(field, element.value);
-    }
-    for (const button of quickButtons) {
-      if (button.getAttribute("aria-pressed") === "true") {
-        params.append("quick", button.dataset.query);
-      }
-    }
-    const suffix = params.toString() ? `?${params.toString()}` : "";
-    window.history.replaceState(null, "", `${window.location.pathname}${suffix}`);
+    const suffix = YuriCatalogFilterLogic.serializeState(readUiState());
+    window.history.replaceState(
+      null,
+      "",
+      `${window.location.pathname}${suffix ? `?${suffix}` : ""}`,
+    );
   }
 
   function titleFormatter(cell) {
@@ -107,36 +288,44 @@
     return value && value.label ? value.label : "—";
   }
 
+  function labelsText(value) {
+    return Array.isArray(value)
+      ? value.map((entry) => entry?.label).filter(Boolean).join("、")
+      : "";
+  }
+
+  function labelsFormatter(cell) {
+    return labelsText(cell.getValue()) || "—";
+  }
+
   function ratioFormatter(cell) {
     const value = cell.getValue();
     return typeof value === "number" ? `${(value * 100).toFixed(2)}%` : "—";
-  }
-
-  function searchableTitle(item) {
-    return [
-      item.title,
-      item.title_original,
-      item.title_romaji,
-      item.title_english,
-    ]
-      .filter(Boolean)
-      .join(" ")
-      .toLocaleLowerCase("zh-CN");
   }
 
   try {
     const response = await fetch(`${config.basePath}/data/catalog.json`);
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const payload = await response.json();
-    if (!payload || payload.schema_version !== 1 || !Array.isArray(payload.items)) {
+    if (
+      !payload ||
+      payload.schema_version !== 2 ||
+      !Array.isArray(payload.items)
+    ) {
       throw new Error("公开总表格式不受支持");
     }
     const items = payload.items;
 
-    for (const field of Object.keys(filterElements)) {
-      populateSelect(filterElements[field], uniqueOptions(items, field));
+    for (const field of Object.keys(scalarFilterElements)) {
+      populateSelect(scalarFilterElements[field], uniqueOptions(items, field));
     }
-    readStateFromUrl();
+    for (const field of Object.keys(multiFilterElements)) {
+      populateSelect(
+        multiFilterElements[field],
+        uniqueListOptions(items, field),
+      );
+    }
+    writeUiState(YuriCatalogFilterLogic.parseState(window.location.search));
 
     const table = new Tabulator(tableElement, {
       data: items,
@@ -148,9 +337,7 @@
       paginationSizeSelector: [25, 50, 100, true],
       paginationCounter: "rows",
       movableColumns: true,
-      columnDefaults: {
-        download: true,
-      },
+      columnDefaults: { download: true },
       initialSort: [
         { column: "bangumi_rank", dir: "asc" },
         { column: "title", dir: "asc" },
@@ -226,10 +413,17 @@
           accessorDownload: (value) => value.label,
         },
         {
-          title: "官方",
-          field: "official_label",
+          title: "官方字面百合／GL",
+          field: "official_literal_yuri_gl",
           formatter: labelFormatter,
-          width: 105,
+          width: 132,
+          accessorDownload: (value) => value.label,
+        },
+        {
+          title: "官方女女恋爱表述",
+          field: "official_female_romance_wording",
+          formatter: labelFormatter,
+          width: 142,
           accessorDownload: (value) => value.label,
         },
         {
@@ -269,17 +463,28 @@
             typeof value === "number" ? value : "",
         },
         {
+          title: "官方来源层级",
+          field: "official_source_scopes",
+          formatter: labelsFormatter,
+          visible: false,
+          download: true,
+          accessorDownload: labelsText,
+        },
+        {
+          title: "官方材料位置",
+          field: "official_source_surfaces",
+          formatter: labelsFormatter,
+          visible: false,
+          download: true,
+          accessorDownload: labelsText,
+        },
+        {
           title: "分类日期",
           field: "classification_date",
           sorter: "date",
           width: 112,
         },
-        {
-          title: "范围",
-          field: "scope_summary",
-          visible: false,
-          download: true,
-        },
+        { title: "范围", field: "scope_summary", visible: false, download: true },
         {
           title: "内容提示标识",
           field: "content_warnings_text",
@@ -296,26 +501,7 @@
     });
 
     function matchesConfiguredFilters(item) {
-      const query = searchInput.value.trim().toLocaleLowerCase("zh-CN");
-      if (query && !searchableTitle(item).includes(query)) return false;
-
-      for (const [field, element] of Object.entries(filterElements)) {
-        if (
-          element.value &&
-          canonicalFilterValue(field, item[field]?.code) !== element.value
-        ) {
-          return false;
-        }
-      }
-
-      for (const button of quickButtons) {
-        if (button.getAttribute("aria-pressed") === "true") {
-          const key = button.dataset.query;
-          if (!item.quick_queries[key]) return false;
-        }
-      }
-
-      return true;
+      return YuriCatalogFilterLogic.matchesItem(item, readUiState());
     }
 
     function applyFilters() {
@@ -328,8 +514,12 @@
     });
     table.on("tableBuilt", applyFilters);
 
-    for (const element of [searchInput, ...Object.values(filterElements)]) {
-      element.addEventListener(element === searchInput ? "input" : "change", applyFilters);
+    searchInput.addEventListener("input", applyFilters);
+    for (const element of [
+      ...Object.values(scalarFilterElements),
+      ...Object.values(multiFilterElements),
+    ]) {
+      element.addEventListener("change", applyFilters);
     }
     for (const button of quickButtons) {
       button.addEventListener("click", () => {
@@ -339,10 +529,12 @@
       });
     }
     clearButton.addEventListener("click", () => {
-      searchInput.value = "";
-      for (const element of Object.values(filterElements)) element.value = "";
-      for (const button of quickButtons) button.setAttribute("aria-pressed", "false");
+      writeUiState({ query: "", scalar: {}, multi: {}, quick: [] });
       table.clearHeaderFilter();
+      applyFilters();
+    });
+    window.addEventListener("popstate", () => {
+      writeUiState(YuriCatalogFilterLogic.parseState(window.location.search));
       applyFilters();
     });
     document.getElementById("download-csv").addEventListener("click", () => {
@@ -361,7 +553,6 @@
         "active",
       );
     });
-
   } catch (error) {
     showError(`无法读取公开总表：${error.message}`);
   }

@@ -9,6 +9,7 @@
   <meta id="theme-color-dark" name="theme-color" media="(prefers-color-scheme: dark)" content="#1c181c">
   <script>
     (() => {
+      document.documentElement.classList.add("js");
       const storageKey = "yuri-classification-theme";
       const allowed = new Set(["system", "light", "dark"]);
       let preference = "system";
@@ -46,8 +47,8 @@
   <meta property="og:url" content="https://l-m-sherlock.github.io/yuri-classification-archive/works/kobayashi_san_chi_no_maid_dragon_tv_2017/">
   <meta property="og:image" content="https://l-m-sherlock.github.io/yuri-classification-archive/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
   <title>《小林家的龙女仆》分类报告｜百合作品分类档案</title>
-  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=014a89622973">
-  
+  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=1cc35b33d5cd">
+
 </head>
 <body class="classification-report">
   <a class="skip-link" href="#main-content">跳到正文</a>
@@ -60,12 +61,24 @@
           <small>按查询拆开标签，按证据保留边界</small>
         </span>
       </a>
-      <nav class="site-nav" aria-label="主导航">
-        <a href="/yuri-classification-archive/">首页</a>
-        <a href="/yuri-classification-archive/table/">总表</a>
-        <a href="/yuri-classification-archive/about/">方法与说明</a>
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-navigation"
+      >
+        <span>菜单</span>
+        <span class="menu-toggle-icon" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-navigation" aria-label="主导航">
+        <div class="nav-main">
+          <a href="/yuri-classification-archive/">首页</a>
+          <a href="/yuri-classification-archive/table/">总表</a>
+          <a href="/yuri-classification-archive/about/">方法与说明</a>
+        </div>
         <a class="nav-star" href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub / Star <span aria-hidden="true">↗</span></a>
-        <a href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
+        <a class="nav-feedback" href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
         <label class="theme-control" for="theme-preference">
           <span>主题</span>
           <select id="theme-preference" aria-label="主题偏好">
@@ -84,7 +97,7 @@
     <h1>《小林家的龙女仆》分类报告</h1>
     <p class="report-subtitle">2017 TV broadcast episodes 1-13</p>
     <div class="label-strip" aria-label="分类摘要">
-      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>恋爱位置：</strong>主线</span><span class="label-chip"><strong>最高明确度：</strong>明确欲望</span><span class="label-chip"><strong>官方：</strong>未标百合／GL</span><span class="label-chip"><strong>置信度：</strong>高</span>
+      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>恋爱位置：</strong>主线</span><span class="label-chip"><strong>最高明确度：</strong>明确欲望</span><span class="label-chip"><strong>官方字面百合／GL：</strong>所核未见</span><span class="label-chip"><strong>官方女女恋爱表述：</strong>是</span><span class="label-chip"><strong>官方来源：</strong>层级：当前版本；位置：剧情／角色页</span><span class="label-chip"><strong>置信度：</strong>高</span>
     </div>
     <a class="back-link" href="/yuri-classification-archive/table/?q=%E5%B0%8F%E6%9E%97%E5%AE%B6%E7%9A%84%E9%BE%99%E5%A5%B3%E4%BB%86">← 返回总表并定位本作</a>
   </header>
@@ -94,7 +107,7 @@
       <ol><li><a href="#无剧透结论">无剧透结论</a></li><li><a href="#数据库与公开分类">数据库与公开分类</a></li><li><a href="#决定性文本证据">决定性文本证据</a></li><li><a href="#四层分析">四层分析</a></li><li><a href="#最强反方解释">最强反方解释</a></li><li><a href="#分用途结论">分用途结论</a></li><li><a href="#方法来源与限制">方法、来源与限制</a></li></ol>
     </aside>
     <div class="report-content">
-      <blockquote><p>分类日期：2026-07-29<br> 分类对象：2017 年 TV 动画《小林さんちのメイドラゴン》第一季<br> 纳入范围：电视播出的第 1–13 话<br> 排除范围：官方称为“TV 未播出篇”的第 14 话、影碟短片、第二季、剧场版、漫画及其他跨媒介材料<br> 用途：普通推荐与数据库分类</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p><strong>结论：属于女女关系主线且按作品分类归档，置信度高。</strong> 两名成年女性之间的相遇、共同生活、单方明确说出的恋爱与性欲望，以及双方为继续共同生活作出的选择，是第一季的叙事骨架；没有男性恋爱主线取代它。作品同时也是异种族家庭喜剧、日常与奇幻作品，这些分类与女女关系主线归档可以并存。</p><p>本作<strong>不满足“双方确认恋爱、正式交往或接吻”的严格检索条件</strong>。托尔从第一话起便直接表示自己以性的意义喜欢小林，并反复说爱她；小林则接纳她进入生活、在分离危机中争取她留下，并邀请她进入自己的原生家庭，但第一季没有让小林明确把这份感情命名为恋爱或性欲望。因此最准确的关系说明是：<strong>托尔一侧的恋爱与性欲望明示；共同生活、照料和留下来的承诺双向；恋人关系未确立。</strong></p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：主线｜最高明确度：明确女女恋爱欲望｜关系构成：多组异质关系｜官方：首季官网未以百合／GL作类型标签，但官方角色页直接确认托尔的欲望｜阅读层级：正篇事实＋强推断＋读者解读｜身份依据类型：只有明确关系／欲望事实，无身份自述｜男性恋爱线：无｜内容提示：涉及小学生角色的性化笑料、成年外形角色对小学生反复作出令其抗拒的身体接近、裸露与身体笑料、嫉妒和占有欲笑料、饮酒、奇幻暴力与死亡威胁。</strong></p></blockquote><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li>只寻找双方告白、接吻或正式交往：<strong>不符合。</strong> 第一季没有确认小林对托尔的恋爱／性回应，也没有确立恋人关系。</li><li>接受一方欲望明示、另一方以共同生活和持续选择作出回应：<strong>适合推荐。</strong> 这不是仅靠二创或数据库标签建立的读法。</li><li>只按角色自述的女同性恋／双性恋身份检索：<strong>不符合身份明示条件。</strong> 欲望对象明确，不等于身份标签已经明示。</li><li>若检索条件排除涉及儿童角色的性化笑料，或排除成年外形角色对儿童反复作出令其抗拒的身体接近：<strong>不符合。</strong></li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><p>以下为 2026-07-30 复核快照：</p><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://maidragon.jp/1st/character/" target="_blank" rel="noopener noreferrer">第一季官方角色页</a></td><td>托尔对小林的官方角色评论明确写出「愛しています」「性的に」；托尔条目写她是 <code>小林さんLOVE</code>、且小林对她而言是特别的人；小林被介绍为独身的 25 岁女性</td><td>官方角色设定与宣传文案</td><td>直接确认官方宣传没有回避托尔对女性的爱情与性欲望；这不是“百合”类型标签，也不能替小林确认回应</td></tr><tr class="even"><td><a href="https://maidragon.jp/1st/story/" target="_blank" rel="noopener noreferrer">第一季官方分集页</a></td><td>第 5 话写托尔见到工作中的小林后 <code>改めて小林さんに惚れる</code>；第 9 话写康娜已把小林视同父母；第 13 话把“无法永远和小林在一起”的恐惧及父亲要求托尔离开写成最终冲突</td><td>官方剧情简介</td><td>证明求爱、选择家庭与共同生活分别贯穿单元剧和季终；不据简介推断未写出的恋人身份</td></tr><tr class="odd"><td><a href="https://maidragon.jp/1st/product/bd/bd_7.php" target="_blank" rel="noopener noreferrer">官方 Blu-ray／DVD 第七卷</a></td><td>明确称第 14 话为 <code>TV未放送エピソード</code>，第七卷于 2017-09-20 收录第 13、14 话</td><td>官方发行资料</td><td>确认电视正篇为第 1–13 话；按本项目规则将第 14 话排除</td></tr><tr class="even"><td><a href="https://myanimelist.net/anime/33206/Kobayashi-san_Chi_no_Maid_Dragon" target="_blank" rel="noopener noreferrer">MAL</a>／<a href="https://api.jikan.moe/v4/anime/33206/full" target="_blank" rel="noopener noreferrer">Jikan 数据</a></td><td>MAL 页面可直接核到 <code>TV</code>、13 话，Genres 为 <code>Slice of Life / Supernatural</code>，未列 Girls Love 或 Romance；Jikan 当日重试返回 504</td><td>编辑型数据库；Jikan 为非官方 MAL API</td><td>采用可访问的 MAL 页面字段；API 失败不被解释成字段缺失，数据库未标也不能改写为制作方否认</td></tr><tr class="odd"><td><a href="https://www.anime-planet.com/anime/miss-kobayashis-dragon-maid" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td>2026-07-30 完整 Tags 面板：<code>Comedy / Fantasy / GL / Seinen / Shoujo-ai / Slice of Life / Animal Characteristics / Cohabitation / Contemporary Fantasy / Dragons / Maids / Monster Girls / Monsters / Non-Human Protagonists / Reverse Isekai / Roommates / Urban Fantasy / Based on a Manga</code></td><td>编辑维护的数据库标签</td><td>记录当前检索字段；不是官方认证，标签存在或沉默都不自动裁定作品关系</td></tr><tr class="even"><td><a href="https://anilist.co/anime/21776/Kobayashisan-Chi-no-Maidragon" target="_blank" rel="noopener noreferrer">AniList</a></td><td>GraphQL 返回 <code>TV</code>、13 话，Genres 为 <code>Comedy / Fantasy / Slice of Life</code>；社区标签含 <code>Found Family 97</code>、<code>Family Life 92</code>、<code>Cohabitation 60</code>、<code>Bisexual 42</code>，返回标签中未列 Yuri</td><td>编辑文类字段与带权重社区标签</td><td>前三项能说明常见的家庭／同居检索；低权重身份标签不能替具体角色自述身份，权重也不是支持率</td></tr><tr class="odd"><td><a href="https://bangumi.tv/subject/179949" target="_blank" rel="noopener noreferrer">Bangumi</a>／<a href="https://api.bgm.tv/v0/subjects/179949" target="_blank" rel="noopener noreferrer">API 数据</a></td><td>条目元标签含“百合”；API 快照中用户标签为“百合 4,219”“轻百合 115”。平台把第 14 话及七个影碟短片聚合进同一条目</td><td>社区标签与平台汇总</td><td>说明本批榜单和中文数据库的常见归类；动态计数不是社群支持率，条目聚合话数不用于覆盖官方发行边界</td></tr><tr class="even"><td><a href="https://jimaku.cc/entry/352" target="_blank" rel="noopener noreferrer">Jimaku 条目 352</a></td><td>精确映射 AniList 21776；列有连续的第 1–13 话 Netflix 日文 CC SRT，也另列其他字幕版本</td><td>字幕资料库</td><td>用于全季文字阅读和时间码定位；字幕不是官方台本，也不能提供未写入字幕的表情与镜头信息</td></tr></tbody></table></div><p>各数据库没有形成统一口径：MAL 与 AniList 的主类型字段强调日常、喜剧和奇幻，Anime-Planet 明确列 GL／Shoujo-ai，Bangumi 则把“百合”放入元标签。Anime-Planet 的 13 话与 Bangumi 聚合未播出篇后的 14 话也说明“条目话数”受平台收录规则影响。报告不按站点数量投票；作品分类主要依据完整 TV 文本，官方页回答公开宣传和发行边界，数据库只回答各平台如何组织检索。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>以下部分包含 2017 年 TV 第一季第 1–13 话的完整剧透。</p></aside>
+      <blockquote><p>分类日期：2026-07-29<br> 分类对象：2017 年 TV 动画《小林さんちのメイドラゴン》第一季<br> 纳入范围：电视播出的第 1–13 话<br> 排除范围：官方称为“TV 未播出篇”的第 14 话、影碟短片、第二季、剧场版、漫画及其他跨媒介材料<br> 用途：普通推荐与数据库分类</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p><strong>结论：属于女女关系主线且按作品分类归档，置信度高。</strong> 两名成年女性之间的相遇、共同生活、单方明确说出的恋爱与性欲望，以及双方为继续共同生活作出的选择，是第一季的叙事骨架；没有男性恋爱主线取代它。作品同时也是异种族家庭喜剧、日常与奇幻作品，这些分类与女女关系主线归档可以并存。</p><p>本作<strong>不满足“双方确认恋爱、正式交往或接吻”的严格检索条件</strong>。托尔从第一话起便直接表示自己以性的意义喜欢小林，并反复说爱她；小林则接纳她进入生活、在分离危机中争取她留下，并邀请她进入自己的原生家庭，但第一季没有让小林明确把这份感情命名为恋爱或性欲望。因此最准确的关系说明是：<strong>托尔一侧的恋爱与性欲望明示；共同生活、照料和留下来的承诺双向；恋人关系未确立。</strong></p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：主线｜最高明确度：明确女女恋爱欲望｜关系构成：多组异质关系｜官方字面：所核未见｜官方恋爱表述：是｜官方来源：范围内版本·故事／角色页｜阅读层级：正篇事实＋强推断＋读者解读｜身份依据类型：只有明确关系／欲望事实，无身份自述｜男性恋爱线：无｜内容提示：涉及小学生角色的性化笑料、成年外形角色对小学生反复作出令其抗拒的身体接近、裸露与身体笑料、嫉妒和占有欲笑料、饮酒、奇幻暴力与死亡威胁。</strong></p></blockquote><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li>只寻找双方告白、接吻或正式交往：<strong>不符合。</strong> 第一季没有确认小林对托尔的恋爱／性回应，也没有确立恋人关系。</li><li>接受一方欲望明示、另一方以共同生活和持续选择作出回应：<strong>适合推荐。</strong> 这不是仅靠二创或数据库标签建立的读法。</li><li>只按角色自述的女同性恋／双性恋身份检索：<strong>不符合身份明示条件。</strong> 欲望对象明确，不等于身份标签已经明示。</li><li>若检索条件排除涉及儿童角色的性化笑料，或排除成年外形角色对儿童反复作出令其抗拒的身体接近：<strong>不符合。</strong></li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><p>以下为 2026-07-30 复核快照：</p><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://maidragon.jp/1st/character/" target="_blank" rel="noopener noreferrer">第一季官方角色页</a></td><td>托尔对小林的官方角色评论明确写出「愛しています」「性的に」；托尔条目写她是 <code>小林さんLOVE</code>、且小林对她而言是特别的人；小林被介绍为独身的 25 岁女性</td><td>官方角色设定与宣传文案</td><td>直接确认官方宣传没有回避托尔对女性的爱情与性欲望；这不是“百合”类型标签，也不能替小林确认回应</td></tr><tr class="even"><td><a href="https://maidragon.jp/1st/story/" target="_blank" rel="noopener noreferrer">第一季官方分集页</a></td><td>第 5 话写托尔见到工作中的小林后 <code>改めて小林さんに惚れる</code>；第 9 话写康娜已把小林视同父母；第 13 话把“无法永远和小林在一起”的恐惧及父亲要求托尔离开写成最终冲突</td><td>官方剧情简介</td><td>证明求爱、选择家庭与共同生活分别贯穿单元剧和季终；不据简介推断未写出的恋人身份</td></tr><tr class="odd"><td><a href="https://maidragon.jp/1st/product/bd/bd_7.php" target="_blank" rel="noopener noreferrer">官方 Blu-ray／DVD 第七卷</a></td><td>明确称第 14 话为 <code>TV未放送エピソード</code>，第七卷于 2017-09-20 收录第 13、14 话</td><td>官方发行资料</td><td>确认电视正篇为第 1–13 话；按本项目规则将第 14 话排除</td></tr><tr class="even"><td><a href="https://myanimelist.net/anime/33206/Kobayashi-san_Chi_no_Maid_Dragon" target="_blank" rel="noopener noreferrer">MAL</a>／<a href="https://api.jikan.moe/v4/anime/33206/full" target="_blank" rel="noopener noreferrer">Jikan 数据</a></td><td>MAL 页面可直接核到 <code>TV</code>、13 话，Genres 为 <code>Slice of Life / Supernatural</code>，未列 Girls Love 或 Romance；Jikan 当日重试返回 504</td><td>编辑型数据库；Jikan 为非官方 MAL API</td><td>采用可访问的 MAL 页面字段；API 失败不被解释成字段缺失，数据库未标也不能改写为制作方否认</td></tr><tr class="odd"><td><a href="https://www.anime-planet.com/anime/miss-kobayashis-dragon-maid" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td>2026-07-30 完整 Tags 面板：<code>Comedy / Fantasy / GL / Seinen / Shoujo-ai / Slice of Life / Animal Characteristics / Cohabitation / Contemporary Fantasy / Dragons / Maids / Monster Girls / Monsters / Non-Human Protagonists / Reverse Isekai / Roommates / Urban Fantasy / Based on a Manga</code></td><td>编辑维护的数据库标签</td><td>记录当前检索字段；不是官方认证，标签存在或沉默都不自动裁定作品关系</td></tr><tr class="even"><td><a href="https://anilist.co/anime/21776/Kobayashisan-Chi-no-Maidragon" target="_blank" rel="noopener noreferrer">AniList</a></td><td>GraphQL 返回 <code>TV</code>、13 话，Genres 为 <code>Comedy / Fantasy / Slice of Life</code>；社区标签含 <code>Found Family 97</code>、<code>Family Life 92</code>、<code>Cohabitation 60</code>、<code>Bisexual 42</code>，返回标签中未列 Yuri</td><td>编辑文类字段与带权重社区标签</td><td>前三项能说明常见的家庭／同居检索；低权重身份标签不能替具体角色自述身份，权重也不是支持率</td></tr><tr class="odd"><td><a href="https://bangumi.tv/subject/179949" target="_blank" rel="noopener noreferrer">Bangumi</a>／<a href="https://api.bgm.tv/v0/subjects/179949" target="_blank" rel="noopener noreferrer">API 数据</a></td><td>条目元标签含“百合”；API 快照中用户标签为“百合 4,219”“轻百合 115”。平台把第 14 话及七个影碟短片聚合进同一条目</td><td>社区标签与平台汇总</td><td>说明本批榜单和中文数据库的常见归类；动态计数不是社群支持率，条目聚合话数不用于覆盖官方发行边界</td></tr><tr class="even"><td><a href="https://jimaku.cc/entry/352" target="_blank" rel="noopener noreferrer">Jimaku 条目 352</a></td><td>精确映射 AniList 21776；列有连续的第 1–13 话 Netflix 日文 CC SRT，也另列其他字幕版本</td><td>字幕资料库</td><td>用于全季文字阅读和时间码定位；字幕不是官方台本，也不能提供未写入字幕的表情与镜头信息</td></tr></tbody></table></div><p>各数据库没有形成统一口径：MAL 与 AniList 的主类型字段强调日常、喜剧和奇幻，Anime-Planet 明确列 GL／Shoujo-ai，Bangumi 则把“百合”放入元标签。Anime-Planet 的 13 话与 Bangumi 聚合未播出篇后的 14 话也说明“条目话数”受平台收录规则影响。报告不按站点数量投票；作品分类主要依据完整 TV 文本，官方页回答公开宣传和发行边界，数据库只回答各平台如何组织检索。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>以下部分包含 2017 年 TV 第一季第 1–13 话的完整剧透。</p></aside>
 
       <details class="spoiler-panel">
         <summary>
@@ -142,7 +155,7 @@
     </div>
   </footer>
   <script>window.SITE_CONFIG = {basePath: "/yuri-classification-archive"};</script>
-  <script src="/yuri-classification-archive/assets/site.js?v=95491b68a3ae" defer></script>
-  
+  <script src="/yuri-classification-archive/assets/site.js?v=686fc3d330d3" defer></script>
+
 </body>
 </html>

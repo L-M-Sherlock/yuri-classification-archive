@@ -9,6 +9,7 @@
   <meta id="theme-color-dark" name="theme-color" media="(prefers-color-scheme: dark)" content="#1c181c">
   <script>
     (() => {
+      document.documentElement.classList.add("js");
       const storageKey = "yuri-classification-theme";
       const allowed = new Set(["system", "light", "dark"]);
       let preference = "system";
@@ -46,8 +47,8 @@
   <meta property="og:url" content="https://l-m-sherlock.github.io/yuri-classification-archive/works/hibi_wa_sugiredo_meshi_umashi_tv_2025/">
   <meta property="og:image" content="https://l-m-sherlock.github.io/yuri-classification-archive/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
   <title>《时光流逝，饭菜依旧美味》分类报告｜百合作品分类档案</title>
-  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=014a89622973">
-  
+  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=1cc35b33d5cd">
+
 </head>
 <body class="classification-report">
   <a class="skip-link" href="#main-content">跳到正文</a>
@@ -60,12 +61,24 @@
           <small>按查询拆开标签，按证据保留边界</small>
         </span>
       </a>
-      <nav class="site-nav" aria-label="主导航">
-        <a href="/yuri-classification-archive/">首页</a>
-        <a href="/yuri-classification-archive/table/">总表</a>
-        <a href="/yuri-classification-archive/about/">方法与说明</a>
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-navigation"
+      >
+        <span>菜单</span>
+        <span class="menu-toggle-icon" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-navigation" aria-label="主导航">
+        <div class="nav-main">
+          <a href="/yuri-classification-archive/">首页</a>
+          <a href="/yuri-classification-archive/table/">总表</a>
+          <a href="/yuri-classification-archive/about/">方法与说明</a>
+        </div>
         <a class="nav-star" href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub / Star <span aria-hidden="true">↗</span></a>
-        <a href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
+        <a class="nav-feedback" href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
         <label class="theme-control" for="theme-preference">
           <span>主题</span>
           <select id="theme-preference" aria-label="主题偏好">
@@ -84,7 +97,7 @@
     <h1>《时光流逝，饭菜依旧美味》分类报告</h1>
     <p class="report-subtitle">2025 broadcast TV anime episodes 1-12</p>
     <div class="label-strip" aria-label="分类摘要">
-      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>恋爱位置：</strong>缺席</span><span class="label-chip"><strong>最高明确度：</strong>非恋爱</span><span class="label-chip"><strong>官方：</strong>未标百合／GL</span><span class="label-chip"><strong>置信度：</strong>高</span>
+      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>恋爱位置：</strong>缺席</span><span class="label-chip"><strong>最高明确度：</strong>非恋爱</span><span class="label-chip"><strong>官方字面百合／GL：</strong>所核未见</span><span class="label-chip"><strong>官方女女恋爱表述：</strong>所核未见</span><span class="label-chip"><strong>官方来源：</strong>所核来源未含可公开筛选的层级或位置</span><span class="label-chip"><strong>置信度：</strong>高</span>
     </div>
     <a class="back-link" href="/yuri-classification-archive/table/?q=%E6%97%B6%E5%85%89%E6%B5%81%E9%80%9D%EF%BC%8C%E9%A5%AD%E8%8F%9C%E4%BE%9D%E6%97%A7%E7%BE%8E%E5%91%B3">← 返回总表并定位本作</a>
   </header>
@@ -94,7 +107,7 @@
       <ol><li><a href="#无剧透结论">无剧透结论</a></li><li><a href="#数据库与公开分类">数据库与公开分类</a></li><li><a href="#决定性文本证据">决定性文本证据</a></li><li><a href="#四层分析">四层分析</a></li><li><a href="#最强反方解释">最强反方解释</a></li><li><a href="#分用途结论">分用途结论</a></li><li><a href="#方法来源与限制">方法、来源与限制</a></li></ol>
     </aside>
     <div class="report-content">
-      <blockquote><p>分类日期：2026-07-29<br> 分类对象：2025 年 TV 动画《日々は過ぎれど飯うまし》<br> 纳入范围：正式电视播出的第 1–12 话<br> 排除范围：网络预告、PV／CM、宣传美食视频、BD／DVD 特典、角色歌、漫画版、选集、公式读本、活动及其他衍生材料<br> 用途：普通推荐与数据库分类</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p><strong>按“女女关系构成主要叙事结构”的开放口径，本作属于女女关系主线且按作品分类归档，置信度高。</strong> 河合真子从独自在大学吃饭、回避深入交往，逐步成为五人饮食文化研究部的一员；做饭、聚餐和出游既是题材，也是成员互相接纳、积累共同回忆的方式。“女女关系主线归档”在这里指女性友情与群体归属支撑整季人物弧线，不表示作品以恋爱为首要题材。</p><p><strong>本作不满足明确女女恋爱检索。</strong> 正篇把关系写作幼驯染、朋友、亲友、同学和社团同伴，没有恋爱告白、情侣确认、恋爱接吻、排他承诺或性取向明示。真子与来来有突出的私人配对阅读空间，但文本没有把两人写成情侣。</p><p>官方强调五名女大学生吃饭、欢笑并加深友情，未使用百合／GL；数据库主要列美食、日常、社团与女性群像，Bangumi 用户则常用“轻百合”等标签。官方定位、数据库字段和社区阅读各有用途，不能互相替代。</p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：缺席｜最高明确度：非恋爱｜关系构成：单一主要关系记录｜官方：未标百合／GL，明确强调友情｜阅读层级：正篇事实＋读者解读｜身份依据类型：范围内没有性取向身份依据｜男性恋爱线：无｜内容提示：社交孤立与焦虑；减重、体重焦虑和运动；短暂行车故障与户外烹饪风险；轻度怪谈喜剧和被锁在校舍；本次 TV 范围没有女女恋爱确认。</strong></p></blockquote><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li>只寻找双方告白、正式交往、女女恋爱接吻或女同性恋／双性恋身份明示：<strong>不符合本次 TV 范围</strong>。</li><li>接受女性友情、共同生活经验和群体归属进入广义百合：<strong>符合，而且这些关系组织了真子的整季变化</strong>。</li><li>只想看恋爱悬念、嫉妒、排他选择或情侣关系推进：<strong>不适合按此用途推荐</strong>；各话主要推进单位是做饭、聚餐、社团活动和累积共同回忆。</li><li>希望避开男性恋爱主线：<strong>符合</strong>；12 话范围内没有持续或局部成立的男性恋爱线。</li><li>推荐时宜写“女性友情与大学社团群像为主的美食日常；无女女恋爱确认”，不宜只写“GL”而省略关系性质。</li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><p>以下为 2026-07-29 快照。官方营销语、编辑型数据库字段和社区标签回答不同问题；数据库没有某标签，只能记作当前“未列”或“未核验”，不能写成对该标签的永久否认。</p><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://hibimeshi.com/" target="_blank" rel="noopener noreferrer">动画官方网站</a>／<a href="https://hibimeshi.com/onair/" target="_blank" rel="noopener noreferrer">On Air</a>／<a href="https://hibimeshi.com/story/?id=12" target="_blank" rel="noopener noreferrer">第 12 话 Story</a></td><td>官方播出页从 2025-04-12 起列出电视播出安排；Story 连续到第 12 话，年末年始和五人合影构成季末收束；核对页面未用百合／GL</td><td>官方剧情、播出与营销资料</td><td>确认第 1–12 话的正式 TV 范围；不把网络预告和商品特典混入</td></tr><tr class="even"><td><a href="https://www.aniplex.co.jp/lineup/hibimeshi/" target="_blank" rel="noopener noreferrer">Aniplex 作品页</a></td><td>称本作为五名刚成为女大学生的角色展开的原创日常动画，并用“吃、笑、加深友情”的温馨喜剧概括；未用百合／GL</td><td>出品方作品资料</td><td>支持大学女性群像、友情和美食日常定位；“友情”不等同于恋爱，也不排斥开放型文类归档</td></tr><tr class="odd"><td><a href="https://www.pa-works.jp/works/%E6%97%A5%E3%80%85%E3%81%AF%E9%81%8E%E3%81%8E%E3%82%8C%E3%81%A9%E9%A3%AF%E3%81%86%E3%81%BE%E3%81%97/" target="_blank" rel="noopener noreferrer">P.A.WORKS 作品页</a></td><td>以原创动画、大学生日常、吃饭和加深友情描述本作；未标百合／GL</td><td>动画工作室作品资料</td><td>交叉核对版本和官方定位，不替正篇关系作恋爱推断</td></tr><tr class="even"><td><a href="https://myanimelist.net/anime/60658/Hibi_wa_Sugiredo_Meshi_Umashi" target="_blank" rel="noopener noreferrer">MyAnimeList</a></td><td><code>TV</code>、12 话、已完结，播期为 2025-04-13 至 2025-06-29；Genre 为 <code>Gourmet</code>，Themes 为 <code>Adult Cast / CGDCT</code>，未列 <code>Girls Love</code> 或 <code>Romance</code></td><td>编辑型数据库字段</td><td>记录 MAL 当前检索口径；“未列”不等于编辑方否认广义女女关系阅读</td></tr><tr class="odd"><td><a href="https://www.anime-planet.com/anime/food-for-the-soul" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td>2026-07-30 完整 Tags 面板：<code>Comedy / All-Girls School / College / Food and Beverage / School Club / Original Work</code></td><td>编辑维护的数据库标签</td><td>记录当前检索字段；不是官方认证，标签存在或沉默都不自动裁定作品关系</td></tr><tr class="even"><td><a href="https://anilist.co/anime/185939/Hibi-wa-Sugiredo-Meshi-Umashi" target="_blank" rel="noopener noreferrer">AniList</a></td><td><code>TV</code>、12 话、<code>FINISHED</code>，播期 2025-04-13 至 2025-06-29；Genres 为 <code>Comedy / Slice of Life</code>；当前高权重标签含 <code>Cute Girls Doing Cute Things 95</code>、<code>School Club 94</code>、<code>Food 92</code>、<code>Primarily Adult Cast 92</code>、<code>Primarily Female Cast 91</code>、<code>Female Protagonist 90</code>、<code>College 87</code>、<code>Iyashikei 85</code>、<code>Ensemble Cast 79</code>，返回列表未见 <code>Yuri</code> 或 <code>Romance</code></td><td>编辑型基础字段＋带权重社区标签</td><td>说明该站当前以社团、美食、大学和女性群像组织检索；权重不是恋爱概率</td></tr><tr class="odd"><td><a href="https://bangumi.tv/subject/531159" target="_blank" rel="noopener noreferrer">Bangumi</a></td><td><code>TV</code>、12 话，首播日 2025-04-12；动态用户标签快照含“原创 3281”“美食 3126”“日常 3108”“轻百合 1733”“轻百 881”“百合 758”等</td><td>社区数据库、动态用户标签及本批榜单来源</td><td>说明本作进入百合标签榜的社区语境；同站近义标签计数不是相互独立样本，也不是官方认证</td></tr><tr class="even"><td><a href="https://jimaku.cc/entry/9474" target="_blank" rel="noopener noreferrer">Jimaku 条目 9474</a></td><td>与 AniList 185939 精确映射；本报告选用同一来源、连续覆盖第 1–12 话的 NanakoRaws AT-X 日文 SRT</td><td>字幕资料库</td><td>用于全量文字检索、时间码定位和相邻 cue 核对；字幕资料库不是官方台本认证</td></tr></tbody></table></div><p>官方“加深友情”、MAL／AniList 的美食社团日常字段，以及 Bangumi 的轻百合／百合用户标签可以同时成立：它们分别描述营销、检索和社区阅读。本报告没有用 Anime-Planet 的访问失败补齐任何字段。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>以下部分包含 2025 年 TV 动画第 1–12 话的完整剧透。</p></aside>
+      <blockquote><p>分类日期：2026-07-29<br> 分类对象：2025 年 TV 动画《日々は過ぎれど飯うまし》<br> 纳入范围：正式电视播出的第 1–12 话<br> 排除范围：网络预告、PV／CM、宣传美食视频、BD／DVD 特典、角色歌、漫画版、选集、公式读本、活动及其他衍生材料<br> 用途：普通推荐与数据库分类</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p><strong>按“女女关系构成主要叙事结构”的开放口径，本作属于女女关系主线且按作品分类归档，置信度高。</strong> 河合真子从独自在大学吃饭、回避深入交往，逐步成为五人饮食文化研究部的一员；做饭、聚餐和出游既是题材，也是成员互相接纳、积累共同回忆的方式。“女女关系主线归档”在这里指女性友情与群体归属支撑整季人物弧线，不表示作品以恋爱为首要题材。</p><p><strong>本作不满足明确女女恋爱检索。</strong> 正篇把关系写作幼驯染、朋友、亲友、同学和社团同伴，没有恋爱告白、情侣确认、恋爱接吻、排他承诺或性取向明示。真子与来来有突出的私人配对阅读空间，但文本没有把两人写成情侣。</p><p>官方强调五名女大学生吃饭、欢笑并加深友情，未使用百合／GL；数据库主要列美食、日常、社团与女性群像，Bangumi 用户则常用“轻百合”等标签。官方定位、数据库字段和社区阅读各有用途，不能互相替代。</p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：缺席｜最高明确度：非恋爱｜关系构成：单一主要关系记录｜官方字面：所核未见｜官方恋爱表述：所核未见｜官方来源：所核未见匹配表述｜阅读层级：正篇事实＋读者解读｜身份依据类型：范围内没有性取向身份依据｜男性恋爱线：无｜内容提示：社交孤立与焦虑；减重、体重焦虑和运动；短暂行车故障与户外烹饪风险；轻度怪谈喜剧和被锁在校舍；本次 TV 范围没有女女恋爱确认。</strong></p></blockquote><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li>只寻找双方告白、正式交往、女女恋爱接吻或女同性恋／双性恋身份明示：<strong>不符合本次 TV 范围</strong>。</li><li>接受女性友情、共同生活经验和群体归属进入广义百合：<strong>符合，而且这些关系组织了真子的整季变化</strong>。</li><li>只想看恋爱悬念、嫉妒、排他选择或情侣关系推进：<strong>不适合按此用途推荐</strong>；各话主要推进单位是做饭、聚餐、社团活动和累积共同回忆。</li><li>希望避开男性恋爱主线：<strong>符合</strong>；12 话范围内没有持续或局部成立的男性恋爱线。</li><li>推荐时宜写“女性友情与大学社团群像为主的美食日常；无女女恋爱确认”，不宜只写“GL”而省略关系性质。</li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><p>以下为 2026-07-29 快照。官方营销语、编辑型数据库字段和社区标签回答不同问题；数据库没有某标签，只能记作当前“未列”或“未核验”，不能写成对该标签的永久否认。</p><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://hibimeshi.com/" target="_blank" rel="noopener noreferrer">动画官方网站</a>／<a href="https://hibimeshi.com/onair/" target="_blank" rel="noopener noreferrer">On Air</a>／<a href="https://hibimeshi.com/story/?id=12" target="_blank" rel="noopener noreferrer">第 12 话 Story</a></td><td>官方播出页从 2025-04-12 起列出电视播出安排；Story 连续到第 12 话，年末年始和五人合影构成季末收束；核对页面未用百合／GL</td><td>官方剧情、播出与营销资料</td><td>确认第 1–12 话的正式 TV 范围；不把网络预告和商品特典混入</td></tr><tr class="even"><td><a href="https://www.aniplex.co.jp/lineup/hibimeshi/" target="_blank" rel="noopener noreferrer">Aniplex 作品页</a></td><td>称本作为五名刚成为女大学生的角色展开的原创日常动画，并用“吃、笑、加深友情”的温馨喜剧概括；未用百合／GL</td><td>出品方作品资料</td><td>支持大学女性群像、友情和美食日常定位；“友情”不等同于恋爱，也不排斥开放型文类归档</td></tr><tr class="odd"><td><a href="https://www.pa-works.jp/works/%E6%97%A5%E3%80%85%E3%81%AF%E9%81%8E%E3%81%8E%E3%82%8C%E3%81%A9%E9%A3%AF%E3%81%86%E3%81%BE%E3%81%97/" target="_blank" rel="noopener noreferrer">P.A.WORKS 作品页</a></td><td>以原创动画、大学生日常、吃饭和加深友情描述本作；未标百合／GL</td><td>动画工作室作品资料</td><td>交叉核对版本和官方定位，不替正篇关系作恋爱推断</td></tr><tr class="even"><td><a href="https://myanimelist.net/anime/60658/Hibi_wa_Sugiredo_Meshi_Umashi" target="_blank" rel="noopener noreferrer">MyAnimeList</a></td><td><code>TV</code>、12 话、已完结，播期为 2025-04-13 至 2025-06-29；Genre 为 <code>Gourmet</code>，Themes 为 <code>Adult Cast / CGDCT</code>，未列 <code>Girls Love</code> 或 <code>Romance</code></td><td>编辑型数据库字段</td><td>记录 MAL 当前检索口径；“未列”不等于编辑方否认广义女女关系阅读</td></tr><tr class="odd"><td><a href="https://www.anime-planet.com/anime/food-for-the-soul" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td>2026-07-30 完整 Tags 面板：<code>Comedy / All-Girls School / College / Food and Beverage / School Club / Original Work</code></td><td>编辑维护的数据库标签</td><td>记录当前检索字段；不是官方认证，标签存在或沉默都不自动裁定作品关系</td></tr><tr class="even"><td><a href="https://anilist.co/anime/185939/Hibi-wa-Sugiredo-Meshi-Umashi" target="_blank" rel="noopener noreferrer">AniList</a></td><td><code>TV</code>、12 话、<code>FINISHED</code>，播期 2025-04-13 至 2025-06-29；Genres 为 <code>Comedy / Slice of Life</code>；当前高权重标签含 <code>Cute Girls Doing Cute Things 95</code>、<code>School Club 94</code>、<code>Food 92</code>、<code>Primarily Adult Cast 92</code>、<code>Primarily Female Cast 91</code>、<code>Female Protagonist 90</code>、<code>College 87</code>、<code>Iyashikei 85</code>、<code>Ensemble Cast 79</code>，返回列表未见 <code>Yuri</code> 或 <code>Romance</code></td><td>编辑型基础字段＋带权重社区标签</td><td>说明该站当前以社团、美食、大学和女性群像组织检索；权重不是恋爱概率</td></tr><tr class="odd"><td><a href="https://bangumi.tv/subject/531159" target="_blank" rel="noopener noreferrer">Bangumi</a></td><td><code>TV</code>、12 话，首播日 2025-04-12；动态用户标签快照含“原创 3281”“美食 3126”“日常 3108”“轻百合 1733”“轻百 881”“百合 758”等</td><td>社区数据库、动态用户标签及本批榜单来源</td><td>说明本作进入百合标签榜的社区语境；同站近义标签计数不是相互独立样本，也不是官方认证</td></tr><tr class="even"><td><a href="https://jimaku.cc/entry/9474" target="_blank" rel="noopener noreferrer">Jimaku 条目 9474</a></td><td>与 AniList 185939 精确映射；本报告选用同一来源、连续覆盖第 1–12 话的 NanakoRaws AT-X 日文 SRT</td><td>字幕资料库</td><td>用于全量文字检索、时间码定位和相邻 cue 核对；字幕资料库不是官方台本认证</td></tr></tbody></table></div><p>官方“加深友情”、MAL／AniList 的美食社团日常字段，以及 Bangumi 的轻百合／百合用户标签可以同时成立：它们分别描述营销、检索和社区阅读。本报告没有用 Anime-Planet 的访问失败补齐任何字段。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>以下部分包含 2025 年 TV 动画第 1–12 话的完整剧透。</p></aside>
 
       <details class="spoiler-panel">
         <summary>
@@ -142,7 +155,7 @@
     </div>
   </footer>
   <script>window.SITE_CONFIG = {basePath: "/yuri-classification-archive"};</script>
-  <script src="/yuri-classification-archive/assets/site.js?v=95491b68a3ae" defer></script>
-  
+  <script src="/yuri-classification-archive/assets/site.js?v=686fc3d330d3" defer></script>
+
 </body>
 </html>

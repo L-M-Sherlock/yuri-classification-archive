@@ -9,6 +9,7 @@
   <meta id="theme-color-dark" name="theme-color" media="(prefers-color-scheme: dark)" content="#1c181c">
   <script>
     (() => {
+      document.documentElement.classList.add("js");
       const storageKey = "yuri-classification-theme";
       const allowed = new Set(["system", "light", "dark"]);
       let preference = "system";
@@ -46,8 +47,8 @@
   <meta property="og:url" content="https://l-m-sherlock.github.io/yuri-classification-archive/works/tsukikage_ran_tv_2000/">
   <meta property="og:image" content="https://l-m-sherlock.github.io/yuri-classification-archive/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
   <title>《随风舞月影兰》分类报告｜百合作品分类档案</title>
-  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=014a89622973">
-  
+  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=1cc35b33d5cd">
+
 </head>
 <body class="classification-report">
   <a class="skip-link" href="#main-content">跳到正文</a>
@@ -60,12 +61,24 @@
           <small>按查询拆开标签，按证据保留边界</small>
         </span>
       </a>
-      <nav class="site-nav" aria-label="主导航">
-        <a href="/yuri-classification-archive/">首页</a>
-        <a href="/yuri-classification-archive/table/">总表</a>
-        <a href="/yuri-classification-archive/about/">方法与说明</a>
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-navigation"
+      >
+        <span>菜单</span>
+        <span class="menu-toggle-icon" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-navigation" aria-label="主导航">
+        <div class="nav-main">
+          <a href="/yuri-classification-archive/">首页</a>
+          <a href="/yuri-classification-archive/table/">总表</a>
+          <a href="/yuri-classification-archive/about/">方法与说明</a>
+        </div>
         <a class="nav-star" href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub / Star <span aria-hidden="true">↗</span></a>
-        <a href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
+        <a class="nav-feedback" href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
         <label class="theme-control" for="theme-preference">
           <span>主题</span>
           <select id="theme-preference" aria-label="主题偏好">
@@ -84,7 +97,7 @@
     <h1>《随风舞月影兰》分类报告</h1>
     <p class="report-subtitle">TV formal episodes 1-13</p>
     <div class="label-strip" aria-label="分类摘要">
-      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>恋爱位置：</strong>缺席</span><span class="label-chip"><strong>最高明确度：</strong>非恋爱</span><span class="label-chip"><strong>官方：</strong>未标百合／GL</span><span class="label-chip"><strong>置信度：</strong>高</span>
+      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>恋爱位置：</strong>缺席</span><span class="label-chip"><strong>最高明确度：</strong>非恋爱</span><span class="label-chip"><strong>官方字面百合／GL：</strong>所核未见</span><span class="label-chip"><strong>官方女女恋爱表述：</strong>所核未见</span><span class="label-chip"><strong>官方来源：</strong>所核来源未含可公开筛选的层级或位置</span><span class="label-chip"><strong>置信度：</strong>高</span>
     </div>
     <a class="back-link" href="/yuri-classification-archive/table/?q=%E9%9A%8F%E9%A3%8E%E8%88%9E%E6%9C%88%E5%BD%B1%E5%85%B0">← 返回总表并定位本作</a>
   </header>
@@ -94,7 +107,7 @@
       <ol><li><a href="#无剧透结论">无剧透结论</a></li><li><a href="#数据库与公开分类">数据库与公开分类</a></li><li><a href="#决定性文本证据">决定性文本证据</a></li><li><a href="#四层分析">四层分析</a></li><li><a href="#最强反方解释">最强反方解释</a></li><li><a href="#分用途结论">分用途结论</a></li><li><a href="#方法来源与限制">方法、来源与限制</a></li></ol>
     </aside>
     <div class="report-content">
-      <blockquote><p>分类日期：2026-07-30<br> 分类对象：2000 年 TV 动画《風まかせ月影蘭》<br> 纳入范围：第 1–13 话完整正篇<br> 排除范围：漫画版、宣传衍生材料、访谈、社交媒体及其他跨媒介内容<br> 用途：普通推荐、数据库分类与严格恋爱检索</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p><strong>按本档案采用的广义作品分类，本作属于女女关系主线且按作品分类归档，置信度高；关系性质则是明确的非恋爱型女性旅伴／朋友。</strong> 月影兰与喵从第 1 话相遇起便成为每个单元故事的固定双人骨架，互相找回、救援、付账、善后，结局仍主动选择一起随风旅行。女性二人关系不是偶尔出现的副菜，而是观众进入十三个时代剧单元的稳定入口和最终出口。</p><p>这个“主类”结论不等于女女恋爱认证。全季没有二人告白、接吻、确认交往、以恋人称呼对方，也没有角色性取向自述；正篇反而直接使用“朋友”“算是一起旅行”等关系语言，并多次让喵对男性产生明确而短暂的恋爱想象。第 9 话喵与女性旧友梅的深厚感情，以及兰与喵持续同行的结局，都可以支持私人百合阅读，却不足以把关系改写成正篇恋爱事实。</p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：缺席｜最高明确度：非恋爱｜关系构成：单一主要关系记录｜官方：制作方未标百合或 GL｜阅读层级：正篇事实＋读者解读｜身份依据类型：范围内没有性取向身份依据｜男性恋爱线：副线，喵有数次明确的男性向往，第 13 话另有异性恋爱事件与兰的昔日婚约｜内容提示：刀剑与拳脚暴力、绑架及人口贩卖、婴儿遇险、药物依赖与死亡、宗教诈骗和纵火、诬告与未遂处刑、喜剧性裸露及偷窥</strong></p></blockquote><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li>只找双方告白、正式交往、接吻、明确欲望或身份明示：<strong>不适合</strong>。完整十三话没有达到这些门槛。</li><li>接受“女性搭档关系是作品结构中心，但不要求恋爱”的广义百合作品：<strong>适合</strong>；推荐时应在“百合”旁同时写明“非恋爱型女性旅伴”。</li><li>接受私人配对或潜在浪漫阅读：兰与喵的长期选择、喵与梅的旧友情都留有阅读空间，但应标作读者解释，而不是正篇确认。</li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><p>以下为 2026-07-30 复核快照。官方自述、编辑型分类、社区标签和材料索引回答的是不同问题；某站未列某标签只能记为“未标”，不能写成作品或社群对该标签的否认。</p><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://madhouse.co.jp/works/tv_kazemakase/" target="_blank" rel="noopener noreferrer">MADHOUSE 作品页</a></td><td>记为 2000 年 1 月 TV；简介称女素浪人月影兰与猫铁拳使用者喵在旅途中惩治恶人，是“痛快娱乐时代剧动画”，未使用百合／GL</td><td>官方制作方自述</td><td>证明制作方把女性二人共同置于卖点中心，也记录官方未标百合；未标不是否认</td></tr><tr class="even"><td><a href="https://www.videomarket.jp/title/177193" target="_blank" rel="noopener noreferrer">VideoMarket 系列页</a>与<a href="https://www.videomarket.jp/title/177193/A177193013999H01" target="_blank" rel="noopener noreferrer">第 13 话页</a></td><td>授权发行目录列出第 1—13 话；总述称本作把经典男性双人道中剧改为女性主角，并称喵为兰的「相方」。终话简介称顺三郎是兰的「昔の許嫁」，阿鸢是他现在的「いいひと」</td><td>授权发行目录及编目评论</td><td>交叉确认范围、双人搭档范式和终话关系；编目评论不是制作方的百合分类，过去婚约也不是身份自述</td></tr><tr class="odd"><td><a href="https://myanimelist.net/anime/606/Kazemakase_Tsukikage_Ran" target="_blank" rel="noopener noreferrer">MyAnimeList</a></td><td>TV、13 话、每话约 23 分钟；类型为 <code>Action / Adventure / Comedy</code>，主题为 <code>Historical / Martial Arts / Samurai</code>，未列 <code>Romance</code> 或 <code>Girls Love</code></td><td>编辑型数据库</td><td>支持动作喜剧时代剧的位置；字段沉默不是反证</td></tr><tr class="even"><td><a href="https://www.anime-planet.com/anime/carried-by-the-wind-tsukikage-ran" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td>2026-07-30 完整 Tags 面板：<code>Slice of Life / Feudal Japan / Overpowered Main Characters / Samurai / Original Work</code></td><td>编辑维护的数据库标签</td><td>记录当前检索字段；不是官方认证，标签存在或沉默都不自动裁定作品关系</td></tr><tr class="odd"><td><a href="https://anilist.co/anime/606/Kazemakase-Tsukikage-Ran" target="_blank" rel="noopener noreferrer">AniList</a>及公开 GraphQL 数据</td><td>TV、13 话、原创；类型为 <code>Adventure / Comedy</code>；社区标签含 Historical、Episodic、Female Protagonist、Samurai、Swordplay、Martial Arts、Travel，当前未返回 Yuri 或 Romance</td><td>编辑字段＋带权重社区标签</td><td>支持单元公路片和女性主角定位；权重不是支持率，标签缺席也不是官方否认</td></tr><tr class="even"><td><a href="https://bangumi.tv/subject/4047" target="_blank" rel="noopener noreferrer">Bangumi 条目</a>、<a href="https://api.bgm.tv/v0/subjects/4047" target="_blank" rel="noopener noreferrer">条目 API</a>与<a href="https://api.bgm.tv/v0/episodes?subject_id=4047&amp;limit=100&amp;offset=0" target="_blank" rel="noopener noreferrer">话数 API</a></td><td>API 返回 13 项且全部为 <code>type 0</code> 正式话；用户标签含“百合”120、“时代剧”84、“公路片”44，当前 rank 为 1,673</td><td>社区标签数据库＋范围 API</td><td>是本批榜单来源，证明中文社区存在广义百合归档习惯；标签数量不裁定正篇恋爱，选样固定 rank 1,665 另存元数据</td></tr><tr class="odd"><td><a href="https://subf2m.co/subtitles/kazemakase-tsukikage-ran/english/1641610" target="_blank" rel="noopener noreferrer">Subf2m 全季字幕条目</a></td><td>当前可下载同一压缩包，内含第 1—13 话各一份英语 ASS 与 SRT</td><td>第三方字幕索引</td><td>用于完整逐话核读、时间定位和哈希复核，不作为官方分类来源</td></tr><tr class="even"><td><a href="https://animetosho.org/view/kazemakase-tsukikage-ran-ondeed-10-bit-h-264.522506" target="_blank" rel="noopener noreferrer">AnimeTosho OnDeed 发布页</a></td><td>发布索引与 torrent 记录 13 个正篇视频及片头文件；字幕文件名中的 CRC 与发布文件对应</td><td>第三方发布索引</td><td>交叉核对字幕版本和既有视听抽查文件，不证明译文即日文原句</td></tr><tr class="odd"><td><a href="https://jimaku.cc/" target="_blank" rel="noopener noreferrer">Jimaku 公共目录</a></td><td>以日文、罗马字、英文标题和 AniList ID 检查当前目录，未发现精确条目</td><td>第三方字幕索引</td><td>解释为何没有取得日文字幕；目录缺席不是作品内容或文类证据</td></tr></tbody></table></div><p>这些记录并不矛盾：MADHOUSE、VideoMarket、MAL 与 AniList 优先描述时代剧、双人道中、冒险和喜剧，Bangumi 用户则把女性双主角关系纳入“百合”。本报告在广义框架下保留主类结论，同时增加“非恋爱型旅伴”限定，以免把社区书目用途误读为官方 GL 或正篇恋爱确认。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>以下部分包含 TV 第 1–13 话的完整剧透，包括第 9 话死亡与第 13 话结局。</p></aside>
+      <blockquote><p>分类日期：2026-07-30<br> 分类对象：2000 年 TV 动画《風まかせ月影蘭》<br> 纳入范围：第 1–13 话完整正篇<br> 排除范围：漫画版、宣传衍生材料、访谈、社交媒体及其他跨媒介内容<br> 用途：普通推荐、数据库分类与严格恋爱检索</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p><strong>按本档案采用的广义作品分类，本作属于女女关系主线且按作品分类归档，置信度高；关系性质则是明确的非恋爱型女性旅伴／朋友。</strong> 月影兰与喵从第 1 话相遇起便成为每个单元故事的固定双人骨架，互相找回、救援、付账、善后，结局仍主动选择一起随风旅行。女性二人关系不是偶尔出现的副菜，而是观众进入十三个时代剧单元的稳定入口和最终出口。</p><p>这个“主类”结论不等于女女恋爱认证。全季没有二人告白、接吻、确认交往、以恋人称呼对方，也没有角色性取向自述；正篇反而直接使用“朋友”“算是一起旅行”等关系语言，并多次让喵对男性产生明确而短暂的恋爱想象。第 9 话喵与女性旧友梅的深厚感情，以及兰与喵持续同行的结局，都可以支持私人百合阅读，却不足以把关系改写成正篇恋爱事实。</p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：缺席｜最高明确度：非恋爱｜关系构成：单一主要关系记录｜官方字面：所核未见｜官方恋爱表述：所核未见｜官方来源：所核未见匹配表述｜阅读层级：正篇事实＋读者解读｜身份依据类型：范围内没有性取向身份依据｜男性恋爱线：副线，喵有数次明确的男性向往，第 13 话另有异性恋爱事件与兰的昔日婚约｜内容提示：刀剑与拳脚暴力、绑架及人口贩卖、婴儿遇险、药物依赖与死亡、宗教诈骗和纵火、诬告与未遂处刑、喜剧性裸露及偷窥</strong></p></blockquote><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li>只找双方告白、正式交往、接吻、明确欲望或身份明示：<strong>不适合</strong>。完整十三话没有达到这些门槛。</li><li>接受“女性搭档关系是作品结构中心，但不要求恋爱”的广义百合作品：<strong>适合</strong>；推荐时应在“百合”旁同时写明“非恋爱型女性旅伴”。</li><li>接受私人配对或潜在浪漫阅读：兰与喵的长期选择、喵与梅的旧友情都留有阅读空间，但应标作读者解释，而不是正篇确认。</li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><p>以下为 2026-07-30 复核快照。官方自述、编辑型分类、社区标签和材料索引回答的是不同问题；某站未列某标签只能记为“未标”，不能写成作品或社群对该标签的否认。</p><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://madhouse.co.jp/works/tv_kazemakase/" target="_blank" rel="noopener noreferrer">MADHOUSE 作品页</a></td><td>记为 2000 年 1 月 TV；简介称女素浪人月影兰与猫铁拳使用者喵在旅途中惩治恶人，是“痛快娱乐时代剧动画”，未使用百合／GL</td><td>官方制作方自述</td><td>证明制作方把女性二人共同置于卖点中心，也记录官方未标百合；未标不是否认</td></tr><tr class="even"><td><a href="https://www.videomarket.jp/title/177193" target="_blank" rel="noopener noreferrer">VideoMarket 系列页</a>与<a href="https://www.videomarket.jp/title/177193/A177193013999H01" target="_blank" rel="noopener noreferrer">第 13 话页</a></td><td>授权发行目录列出第 1—13 话；总述称本作把经典男性双人道中剧改为女性主角，并称喵为兰的「相方」。终话简介称顺三郎是兰的「昔の許嫁」，阿鸢是他现在的「いいひと」</td><td>授权发行目录及编目评论</td><td>交叉确认范围、双人搭档范式和终话关系；编目评论不是制作方的百合分类，过去婚约也不是身份自述</td></tr><tr class="odd"><td><a href="https://myanimelist.net/anime/606/Kazemakase_Tsukikage_Ran" target="_blank" rel="noopener noreferrer">MyAnimeList</a></td><td>TV、13 话、每话约 23 分钟；类型为 <code>Action / Adventure / Comedy</code>，主题为 <code>Historical / Martial Arts / Samurai</code>，未列 <code>Romance</code> 或 <code>Girls Love</code></td><td>编辑型数据库</td><td>支持动作喜剧时代剧的位置；字段沉默不是反证</td></tr><tr class="even"><td><a href="https://www.anime-planet.com/anime/carried-by-the-wind-tsukikage-ran" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td>2026-07-30 完整 Tags 面板：<code>Slice of Life / Feudal Japan / Overpowered Main Characters / Samurai / Original Work</code></td><td>编辑维护的数据库标签</td><td>记录当前检索字段；不是官方认证，标签存在或沉默都不自动裁定作品关系</td></tr><tr class="odd"><td><a href="https://anilist.co/anime/606/Kazemakase-Tsukikage-Ran" target="_blank" rel="noopener noreferrer">AniList</a>及公开 GraphQL 数据</td><td>TV、13 话、原创；类型为 <code>Adventure / Comedy</code>；社区标签含 Historical、Episodic、Female Protagonist、Samurai、Swordplay、Martial Arts、Travel，当前未返回 Yuri 或 Romance</td><td>编辑字段＋带权重社区标签</td><td>支持单元公路片和女性主角定位；权重不是支持率，标签缺席也不是官方否认</td></tr><tr class="even"><td><a href="https://bangumi.tv/subject/4047" target="_blank" rel="noopener noreferrer">Bangumi 条目</a>、<a href="https://api.bgm.tv/v0/subjects/4047" target="_blank" rel="noopener noreferrer">条目 API</a>与<a href="https://api.bgm.tv/v0/episodes?subject_id=4047&amp;limit=100&amp;offset=0" target="_blank" rel="noopener noreferrer">话数 API</a></td><td>API 返回 13 项且全部为 <code>type 0</code> 正式话；用户标签含“百合”120、“时代剧”84、“公路片”44，当前 rank 为 1,673</td><td>社区标签数据库＋范围 API</td><td>是本批榜单来源，证明中文社区存在广义百合归档习惯；标签数量不裁定正篇恋爱，选样固定 rank 1,665 另存元数据</td></tr><tr class="odd"><td><a href="https://subf2m.co/subtitles/kazemakase-tsukikage-ran/english/1641610" target="_blank" rel="noopener noreferrer">Subf2m 全季字幕条目</a></td><td>当前可下载同一压缩包，内含第 1—13 话各一份英语 ASS 与 SRT</td><td>第三方字幕索引</td><td>用于完整逐话核读、时间定位和哈希复核，不作为官方分类来源</td></tr><tr class="even"><td><a href="https://animetosho.org/view/kazemakase-tsukikage-ran-ondeed-10-bit-h-264.522506" target="_blank" rel="noopener noreferrer">AnimeTosho OnDeed 发布页</a></td><td>发布索引与 torrent 记录 13 个正篇视频及片头文件；字幕文件名中的 CRC 与发布文件对应</td><td>第三方发布索引</td><td>交叉核对字幕版本和既有视听抽查文件，不证明译文即日文原句</td></tr><tr class="odd"><td><a href="https://jimaku.cc/" target="_blank" rel="noopener noreferrer">Jimaku 公共目录</a></td><td>以日文、罗马字、英文标题和 AniList ID 检查当前目录，未发现精确条目</td><td>第三方字幕索引</td><td>解释为何没有取得日文字幕；目录缺席不是作品内容或文类证据</td></tr></tbody></table></div><p>这些记录并不矛盾：MADHOUSE、VideoMarket、MAL 与 AniList 优先描述时代剧、双人道中、冒险和喜剧，Bangumi 用户则把女性双主角关系纳入“百合”。本报告在广义框架下保留主类结论，同时增加“非恋爱型旅伴”限定，以免把社区书目用途误读为官方 GL 或正篇恋爱确认。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>以下部分包含 TV 第 1–13 话的完整剧透，包括第 9 话死亡与第 13 话结局。</p></aside>
 
       <details class="spoiler-panel">
         <summary>
@@ -142,7 +155,7 @@
     </div>
   </footer>
   <script>window.SITE_CONFIG = {basePath: "/yuri-classification-archive"};</script>
-  <script src="/yuri-classification-archive/assets/site.js?v=95491b68a3ae" defer></script>
-  
+  <script src="/yuri-classification-archive/assets/site.js?v=686fc3d330d3" defer></script>
+
 </body>
 </html>

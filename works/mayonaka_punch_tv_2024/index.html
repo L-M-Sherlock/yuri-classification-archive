@@ -9,6 +9,7 @@
   <meta id="theme-color-dark" name="theme-color" media="(prefers-color-scheme: dark)" content="#1c181c">
   <script>
     (() => {
+      document.documentElement.classList.add("js");
       const storageKey = "yuri-classification-theme";
       const allowed = new Set(["system", "light", "dark"]);
       let preference = "system";
@@ -46,8 +47,8 @@
   <meta property="og:url" content="https://l-m-sherlock.github.io/yuri-classification-archive/works/mayonaka_punch_tv_2024/">
   <meta property="og:image" content="https://l-m-sherlock.github.io/yuri-classification-archive/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
   <title>《深夜重拳》分类报告｜百合作品分类档案</title>
-  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=014a89622973">
-  
+  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=1cc35b33d5cd">
+
 </head>
 <body class="classification-report">
   <a class="skip-link" href="#main-content">跳到正文</a>
@@ -60,12 +61,24 @@
           <small>按查询拆开标签，按证据保留边界</small>
         </span>
       </a>
-      <nav class="site-nav" aria-label="主导航">
-        <a href="/yuri-classification-archive/">首页</a>
-        <a href="/yuri-classification-archive/table/">总表</a>
-        <a href="/yuri-classification-archive/about/">方法与说明</a>
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-navigation"
+      >
+        <span>菜单</span>
+        <span class="menu-toggle-icon" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-navigation" aria-label="主导航">
+        <div class="nav-main">
+          <a href="/yuri-classification-archive/">首页</a>
+          <a href="/yuri-classification-archive/table/">总表</a>
+          <a href="/yuri-classification-archive/about/">方法与说明</a>
+        </div>
         <a class="nav-star" href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub / Star <span aria-hidden="true">↗</span></a>
-        <a href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
+        <a class="nav-feedback" href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
         <label class="theme-control" for="theme-preference">
           <span>主题</span>
           <select id="theme-preference" aria-label="主题偏好">
@@ -84,7 +97,7 @@
     <h1>《深夜重拳》分类报告</h1>
     <p class="report-subtitle">2024 TV anime episodes 1-12, aired from 2024-07-08 through 2024-09-23</p>
     <div class="label-strip" aria-label="分类摘要">
-      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>恋爱位置：</strong>主线</span><span class="label-chip"><strong>最高明确度：</strong>潜在／明显但未确认</span><span class="label-chip"><strong>官方：</strong>未标百合／GL</span><span class="label-chip"><strong>置信度：</strong>高</span>
+      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>恋爱位置：</strong>主线</span><span class="label-chip"><strong>最高明确度：</strong>潜在／明显但未确认</span><span class="label-chip"><strong>官方字面百合／GL：</strong>所核未见</span><span class="label-chip"><strong>官方女女恋爱表述：</strong>所核未见</span><span class="label-chip"><strong>官方来源：</strong>所核来源未含可公开筛选的层级或位置</span><span class="label-chip"><strong>置信度：</strong>高</span>
     </div>
     <a class="back-link" href="/yuri-classification-archive/table/?q=%E6%B7%B1%E5%A4%9C%E9%87%8D%E6%8B%B3">← 返回总表并定位本作</a>
   </header>
@@ -94,7 +107,7 @@
       <ol><li><a href="#无剧透结论">无剧透结论</a></li><li><a href="#数据库与公开分类">数据库与公开分类</a></li><li><a href="#决定性文本证据">决定性文本证据</a></li><li><a href="#四层分析">四层分析</a></li><li><a href="#最强反方解释">最强反方解释</a></li><li><a href="#分用途结论">分用途结论</a></li><li><a href="#方法来源与限制">方法、来源与限制</a></li></ol>
     </aside>
     <div class="report-content">
-      <blockquote><p>分类日期：2026-07-30<br> 分类对象：2024 年 TV 动画《真夜中ぱんチ》第 1–12 话<br> 纳入范围：2024-07-08 至 2024-09-23 播出的 TV 正篇全 12 话<br> 排除范围：短篇动画、漫画、小说、访谈、社交媒体、宣传活动中的正篇外说明、其他衍生材料及跨媒介推断<br> 用途：普通推荐与数据库分类</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p><strong>按本档案容纳恋爱与非恋爱女女关系的开放口径，TV 全 12 话属于女女关系主线且按作品分类归档，置信度高。</strong> 真咲与りぶ从交易式相遇走向共同创作，二人的契约、冲突和重新选择贯穿首尾；晩杯荘的共同生活、女性旧谊与长期伙伴关系又组成主要情感网络。正篇没有男性恋爱主线。</p><p><strong>真咲／りぶ有持续的潜在恋爱方向，但没有成为正篇确认的情侣。</strong> 同居幻想、在“喜欢什么样的人”这一问答中直接选择真咲、未完成的近似告白、分离焦虑和“命运”措辞都支持恋爱阅读；然而“想要”“吃掉”等欲望也在具体场景中明确指向吸血和契约。全季没有完成告白、正式交往、女女接吻或性取向身份自述。</p><p>最稳妥的公开短标签是：<strong>女女关系中心的吸血鬼视频创作群像；核心搭档具有恋爱可能但关系未确认，另有女性选择家庭与跨越数十年的深厚旧谊。</strong> 官方未以百合／GL 宣传本作，AniList 与 Bangumi 的百合字段属于社区标签。</p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：主线｜最高明确度：潜在／明显但未确认的恋爱指向｜关系构成：单一主要关系记录｜官方：未标百合／GL｜阅读层级：正篇事实＋强推断＋读者解读｜身份依据类型：只有关系性质推断，无身份自述｜男性恋爱线：无｜内容提示：网络炎上与围攻、直播中的肢体冲突、反复追求吸血及身体边界协商、痛感描写、强制转化为吸血鬼的回忆、死亡与长期哀悼、酒精与赌博、欺骗式大型恶作剧。</strong></p></blockquote><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li>只寻找双方明确告白、接吻、正式交往或女同性恋／双性恋身份明示：<strong>不符合</strong>。</li><li>接受同居幻想、近似告白、相互依赖与开放结局：<strong>符合潜在恋爱检索</strong>，推荐语应保留“未确认”。</li><li>寻找女女关系承担主要叙事动力、且无男性恋爱主线的作品：<strong>符合</strong>；需提示反复追求吸血、身体边界玩笑和欺骗式策划。</li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><p>以下为 2026-07-30 核对结果；表中另注明 Anime-Planet 前一日的可用快照。官方表述、数据库编辑字段、社区标签和字幕目录回答的问题不同，不能按站点数量投票。</p><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://mayopan.jp/" target="_blank" rel="noopener noreferrer">官方 TV 网站 INTRO</a>／<a href="https://mayopan.jp/character/" target="_blank" rel="noopener noreferrer">角色页</a></td><td>官方称りぶ“对真咲感到命运般的联系”，并将故事概括为“绝对要实现梦想的视频投稿少女×绝对想吃掉她的吸血鬼”的 <code>ハイテンション・ガールズ“再生”ストーリー</code>；角色页明确りぶ为取得真咲的血而协助拍摄</td><td>官方剧情与营销表述</td><td>支持两位女性是主宣传轴、命运与吸血欲望并置；<code>ガールズ</code> 只指女性群像，页面未使用百合、GL 或恋爱类型</td></tr><tr class="even"><td><a href="https://myanimelist.net/anime/57947/Mayonaka_Punch" target="_blank" rel="noopener noreferrer">MyAnimeList 57947</a></td><td>TV、12 集；Genres 为 Comedy、Supernatural，Theme 为 Vampire；未列 Girls Love 或 Romance</td><td>编辑型数据库字段</td><td>核对版本和类型；数据库沉默记“未标”，不写成否认百合阅读</td></tr><tr class="odd"><td><a href="https://www.anime-planet.com/anime/mayonaka-punch" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td>2026-07-30 完整 Tags 面板：<code>Drama / Livestreamers / Non-Human Protagonists / Social Media / Supernatural / Vampires / Original Work</code></td><td>编辑维护的数据库标签</td><td>记录当前检索字段；不是官方认证，标签存在或沉默都不自动裁定作品关系</td></tr><tr class="even"><td><a href="https://anilist.co/anime/174044" target="_blank" rel="noopener noreferrer">AniList 174044</a></td><td>TV、12 集；Genres 为 Comedy、Supernatural；社区标签含 Female Protagonist 93%、Primarily Female Cast 92%、Yuri 86%、Cohabitation 79%、Found Family 70%、LGBTQ+ Themes 48%</td><td>编辑字段＋带权重社区标签</td><td>支持社区中存在稳定的百合与选择家庭读法；权重不是支持率，也不能证明正篇已交往</td></tr><tr class="odd"><td><a href="https://bangumi.tv/subject/477207" target="_blank" rel="noopener noreferrer">Bangumi subject 477207</a>／<a href="https://api.bgm.tv/v0/subjects/477207" target="_blank" rel="noopener noreferrer">公共 API</a></td><td>TV、12 话；用户标签快照含“百合”1304、“轻百合”61，另有原创、搞笑、奇幻、吸血鬼等</td><td>社区用户标签与范围数据</td><td>核对本批榜单条目与话数；用户计数不是官方认证或角色身份证据</td></tr><tr class="even"><td><a href="https://jimaku.cc/entry/6154" target="_blank" rel="noopener noreferrer">Jimaku entry 6154</a></td><td>条目对应 AniList 174044，提供日文字幕；本次从同一发布组选择第 1–12 话 SRT</td><td>第三方字幕目录</td><td>用于全季文字定位，不承担分类认证</td></tr></tbody></table></div><p>官方未标只说明已核页面没有把百合／GL 当作类型字段。社区标签则说明一部分用户实际以这些词组织和检索本作；二者并不矛盾，也都不能取代正篇分析。AniList 的 rank 和 Bangumi 的计数还是不同平台的动态指标，不能相互换算，更不能据此推导角色关系已经得到文本确认。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>以下部分包含《真夜中ぱんチ》TV 第 1–12 话完整剧透。</p></aside>
+      <blockquote><p>分类日期：2026-07-30<br> 分类对象：2024 年 TV 动画《真夜中ぱんチ》第 1–12 话<br> 纳入范围：2024-07-08 至 2024-09-23 播出的 TV 正篇全 12 话<br> 排除范围：短篇动画、漫画、小说、访谈、社交媒体、宣传活动中的正篇外说明、其他衍生材料及跨媒介推断<br> 用途：普通推荐与数据库分类</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p><strong>按本档案容纳恋爱与非恋爱女女关系的开放口径，TV 全 12 话属于女女关系主线且按作品分类归档，置信度高。</strong> 真咲与りぶ从交易式相遇走向共同创作，二人的契约、冲突和重新选择贯穿首尾；晩杯荘的共同生活、女性旧谊与长期伙伴关系又组成主要情感网络。正篇没有男性恋爱主线。</p><p><strong>真咲／りぶ有持续的潜在恋爱方向，但没有成为正篇确认的情侣。</strong> 同居幻想、在“喜欢什么样的人”这一问答中直接选择真咲、未完成的近似告白、分离焦虑和“命运”措辞都支持恋爱阅读；然而“想要”“吃掉”等欲望也在具体场景中明确指向吸血和契约。全季没有完成告白、正式交往、女女接吻或性取向身份自述。</p><p>最稳妥的公开短标签是：<strong>女女关系中心的吸血鬼视频创作群像；核心搭档具有恋爱可能但关系未确认，另有女性选择家庭与跨越数十年的深厚旧谊。</strong> 官方未以百合／GL 宣传本作，AniList 与 Bangumi 的百合字段属于社区标签。</p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：主线｜最高明确度：潜在／明显但未确认的恋爱指向｜关系构成：单一主要关系记录｜官方字面：所核未见｜官方恋爱表述：所核未见｜官方来源：所核未见匹配表述｜阅读层级：正篇事实＋强推断＋读者解读｜身份依据类型：只有关系性质推断，无身份自述｜男性恋爱线：无｜内容提示：网络炎上与围攻、直播中的肢体冲突、反复追求吸血及身体边界协商、痛感描写、强制转化为吸血鬼的回忆、死亡与长期哀悼、酒精与赌博、欺骗式大型恶作剧。</strong></p></blockquote><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li>只寻找双方明确告白、接吻、正式交往或女同性恋／双性恋身份明示：<strong>不符合</strong>。</li><li>接受同居幻想、近似告白、相互依赖与开放结局：<strong>符合潜在恋爱检索</strong>，推荐语应保留“未确认”。</li><li>寻找女女关系承担主要叙事动力、且无男性恋爱主线的作品：<strong>符合</strong>；需提示反复追求吸血、身体边界玩笑和欺骗式策划。</li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><p>以下为 2026-07-30 核对结果；表中另注明 Anime-Planet 前一日的可用快照。官方表述、数据库编辑字段、社区标签和字幕目录回答的问题不同，不能按站点数量投票。</p><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://mayopan.jp/" target="_blank" rel="noopener noreferrer">官方 TV 网站 INTRO</a>／<a href="https://mayopan.jp/character/" target="_blank" rel="noopener noreferrer">角色页</a></td><td>官方称りぶ“对真咲感到命运般的联系”，并将故事概括为“绝对要实现梦想的视频投稿少女×绝对想吃掉她的吸血鬼”的 <code>ハイテンション・ガールズ“再生”ストーリー</code>；角色页明确りぶ为取得真咲的血而协助拍摄</td><td>官方剧情与营销表述</td><td>支持两位女性是主宣传轴、命运与吸血欲望并置；<code>ガールズ</code> 只指女性群像，页面未使用百合、GL 或恋爱类型</td></tr><tr class="even"><td><a href="https://myanimelist.net/anime/57947/Mayonaka_Punch" target="_blank" rel="noopener noreferrer">MyAnimeList 57947</a></td><td>TV、12 集；Genres 为 Comedy、Supernatural，Theme 为 Vampire；未列 Girls Love 或 Romance</td><td>编辑型数据库字段</td><td>核对版本和类型；数据库沉默记“未标”，不写成否认百合阅读</td></tr><tr class="odd"><td><a href="https://www.anime-planet.com/anime/mayonaka-punch" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td>2026-07-30 完整 Tags 面板：<code>Drama / Livestreamers / Non-Human Protagonists / Social Media / Supernatural / Vampires / Original Work</code></td><td>编辑维护的数据库标签</td><td>记录当前检索字段；不是官方认证，标签存在或沉默都不自动裁定作品关系</td></tr><tr class="even"><td><a href="https://anilist.co/anime/174044" target="_blank" rel="noopener noreferrer">AniList 174044</a></td><td>TV、12 集；Genres 为 Comedy、Supernatural；社区标签含 Female Protagonist 93%、Primarily Female Cast 92%、Yuri 86%、Cohabitation 79%、Found Family 70%、LGBTQ+ Themes 48%</td><td>编辑字段＋带权重社区标签</td><td>支持社区中存在稳定的百合与选择家庭读法；权重不是支持率，也不能证明正篇已交往</td></tr><tr class="odd"><td><a href="https://bangumi.tv/subject/477207" target="_blank" rel="noopener noreferrer">Bangumi subject 477207</a>／<a href="https://api.bgm.tv/v0/subjects/477207" target="_blank" rel="noopener noreferrer">公共 API</a></td><td>TV、12 话；用户标签快照含“百合”1304、“轻百合”61，另有原创、搞笑、奇幻、吸血鬼等</td><td>社区用户标签与范围数据</td><td>核对本批榜单条目与话数；用户计数不是官方认证或角色身份证据</td></tr><tr class="even"><td><a href="https://jimaku.cc/entry/6154" target="_blank" rel="noopener noreferrer">Jimaku entry 6154</a></td><td>条目对应 AniList 174044，提供日文字幕；本次从同一发布组选择第 1–12 话 SRT</td><td>第三方字幕目录</td><td>用于全季文字定位，不承担分类认证</td></tr></tbody></table></div><p>官方未标只说明已核页面没有把百合／GL 当作类型字段。社区标签则说明一部分用户实际以这些词组织和检索本作；二者并不矛盾，也都不能取代正篇分析。AniList 的 rank 和 Bangumi 的计数还是不同平台的动态指标，不能相互换算，更不能据此推导角色关系已经得到文本确认。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>以下部分包含《真夜中ぱんチ》TV 第 1–12 话完整剧透。</p></aside>
 
       <details class="spoiler-panel">
         <summary>
@@ -142,7 +155,7 @@
     </div>
   </footer>
   <script>window.SITE_CONFIG = {basePath: "/yuri-classification-archive"};</script>
-  <script src="/yuri-classification-archive/assets/site.js?v=95491b68a3ae" defer></script>
-  
+  <script src="/yuri-classification-archive/assets/site.js?v=686fc3d330d3" defer></script>
+
 </body>
 </html>

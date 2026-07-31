@@ -9,6 +9,7 @@
   <meta id="theme-color-dark" name="theme-color" media="(prefers-color-scheme: dark)" content="#1c181c">
   <script>
     (() => {
+      document.documentElement.classList.add("js");
       const storageKey = "yuri-classification-theme";
       const allowed = new Set(["system", "light", "dark"]);
       let preference = "system";
@@ -46,8 +47,8 @@
   <meta property="og:url" content="https://l-m-sherlock.github.io/yuri-classification-archive/works/feng_ling_yu_xiu_web_2017/">
   <meta property="og:image" content="https://l-m-sherlock.github.io/yuri-classification-archive/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
   <title>《风灵玉秀》分类报告｜百合作品分类档案</title>
-  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=014a89622973">
-  
+  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=1cc35b33d5cd">
+
 </head>
 <body class="classification-report">
   <a class="skip-link" href="#main-content">跳到正文</a>
@@ -60,12 +61,24 @@
           <small>按查询拆开标签，按证据保留边界</small>
         </span>
       </a>
-      <nav class="site-nav" aria-label="主导航">
-        <a href="/yuri-classification-archive/">首页</a>
-        <a href="/yuri-classification-archive/table/">总表</a>
-        <a href="/yuri-classification-archive/about/">方法与说明</a>
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-navigation"
+      >
+        <span>菜单</span>
+        <span class="menu-toggle-icon" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-navigation" aria-label="主导航">
+        <div class="nav-main">
+          <a href="/yuri-classification-archive/">首页</a>
+          <a href="/yuri-classification-archive/table/">总表</a>
+          <a href="/yuri-classification-archive/about/">方法与说明</a>
+        </div>
         <a class="nav-star" href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub / Star <span aria-hidden="true">↗</span></a>
-        <a href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
+        <a class="nav-feedback" href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
         <label class="theme-control" for="theme-preference">
           <span>主题</span>
           <select id="theme-preference" aria-label="主题偏好">
@@ -84,7 +97,7 @@
     <h1>《风灵玉秀》分类报告</h1>
     <p class="report-subtitle">WEB animation first-season main episodes 1-12, released from 2017-04-01 through 2021-02-27</p>
     <div class="label-strip" aria-label="分类摘要">
-      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>恋爱位置：</strong>主线</span><span class="label-chip"><strong>最高明确度：</strong>潜在／明显但未确认</span><span class="label-chip"><strong>官方：</strong>未标百合／GL</span><span class="label-chip"><strong>置信度：</strong>中</span>
+      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>恋爱位置：</strong>主线</span><span class="label-chip"><strong>最高明确度：</strong>潜在／明显但未确认</span><span class="label-chip"><strong>官方字面百合／GL：</strong>所核未见</span><span class="label-chip"><strong>官方女女恋爱表述：</strong>所核未见</span><span class="label-chip"><strong>官方来源：</strong>所核来源未含可公开筛选的层级或位置</span><span class="label-chip"><strong>置信度：</strong>中</span>
     </div>
     <a class="back-link" href="/yuri-classification-archive/table/?q=%E9%A3%8E%E7%81%B5%E7%8E%89%E7%A7%80">← 返回总表并定位本作</a>
   </header>
@@ -94,7 +107,7 @@
       <ol><li><a href="#无剧透结论">无剧透结论</a></li><li><a href="#数据库与公开分类">数据库与公开分类</a></li><li><a href="#决定性文本证据">决定性文本证据</a></li><li><a href="#四层分析">四层分析</a></li><li><a href="#最强反方解释">最强反方解释</a></li><li><a href="#分用途结论">分用途结论</a></li><li><a href="#方法来源与限制">方法、来源与限制</a></li></ol>
     </aside>
     <div class="report-content">
-      <blockquote><p>分类日期：2026-07-29<br> 分类对象：2017–2021 年陆续发布的 WEB 动画第一季<br> 纳入范围：正篇第 1–12 话<br> 排除范围：第二季、2022 年单话特别篇、2024 年两话特别篇、片头／片尾曲条目、PV、漫画及其他跨媒介材料<br> 用途：普通推荐与数据库分类</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p>《风灵玉秀》第一季属于<strong>女女关系主线且按作品分类归档</strong>。两名女性主角的结伴江湖并非动作主线之外偶尔出现的配对素材：她们共同组成标题、公开简介、旅程结构和主要情感动力，彼此的选择也持续影响危机与去向；没有一条男性恋爱主线取代这一中心。与此同时，第一季没有确认告白、接吻、正式交往或角色的性取向身份。较准确的推荐语是“以双女主关系组织武侠冒险，具有持续而明显的恋爱指向，但关系仍未正式命名”。</p><p>综合置信度为<strong>中等</strong>。作品范围、双女主中心性和公共标签可由多种公开资料交叉核对，结构性结论相对稳固；具体语气、表情和部分亲密动作主要依赖覆盖全季的二手分集指南，本次没有取得完整可检索字幕或完成逐话视听复核，故不把潜在恋爱写成正篇已确认的情侣事实。</p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：主线｜最高明确度：潜在／明显但未确认的恋爱指向｜关系构成：单一主要关系记录｜官方：未标百合／GL｜阅读层级：正篇事实＋强推断｜身份依据类型：只有关系性质推断，无身份自述｜男性恋爱线：副线，存在男性对女主之一的单向好感｜内容提示：武打与武器、流血和重伤、绑架与囚禁、下药和中毒、死亡威胁、人体与内力操控、饮酒。</strong></p></blockquote><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li>只寻找双方告白、正式交往、接吻或身份明示者：<strong>不适合当作保证命中项</strong>；第一季没有确认这些条件。</li><li>接受未命名但持续指向恋爱的关系，或寻找女女关系构成叙事中心的作品者：<strong>适合</strong>；双女主的相互选择贯穿第一季。</li><li>排除一切男性追求情节者：<strong>不适合</strong>；有一条男性对女主之一产生好感的副线，但没有得到对等恋爱回应，也没有主导季终方向。</li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><p>下表是截至 2026-07-30 的来源复核。当前 Bilibili 番剧页合并展示两季与后续特别篇，故页面总条目数不能直接作为第一季范围；本报告以第一季十二个正篇标题、官方国际账号的独立播放列表、数据库季界和发布日期交叉划界。</p><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://www.bilibili.com/bangumi/play/ss6038" target="_blank" rel="noopener noreferrer">Bilibili 番剧页</a>／<a href="https://api.bilibili.com/pgc/view/web/season?season_id=6038" target="_blank" rel="noopener noreferrer">公开接口</a></td><td>合并页的“正片”含第一季 12 话、第二季 12 话及 2024 年特别篇 2 话，另列花絮等条目；公开 <code>styles</code> 为空；第一季从《夜探》至《风铃钰袖》</td><td>出品方平台页面及接口</td><td>确认正式标题、顺序、发布日期和出品方可见字段；“未标”只表示该字段没有百合／GL，不表示否认</td></tr><tr class="even"><td><a href="https://www.youtube.com/playlist?list=PLBakWosU0sfgjGH4kuVqqEKBC2mzhA8tC" target="_blank" rel="noopener noreferrer">Made By Bilibili 第一季播放列表</a></td><td>独立列出第一季第 1–12 话，并给出正式英文标题；未设置百合／GL 类型字段</td><td>出品方国际账号</td><td>与合并番剧页交叉划定第一季边界；会员可见性不用于推断剧情</td></tr><tr class="odd"><td><a href="https://www.viki.com/tv/40595c-soulmate-adventure?locale=en" target="_blank" rel="noopener noreferrer">Viki</a></td><td>2017 年、第一季、计划 12 话；类型为 Animation／Drama；简介以两名女性共同冒险、寻找亲人为中心</td><td>授权流媒体条目</td><td>支持“双女主共同旅程”的公开描述；该站类型栏不等于作品方的完整文类声明</td></tr><tr class="even"><td><a href="https://myanimelist.net/anime/36184/Feng_Ling_Yu_Xiu" target="_blank" rel="noopener noreferrer">MyAnimeList</a></td><td>ONA、12 话；类型为 Action／Adventure，主题为 Martial Arts，未列 Girls Love</td><td>编辑型数据库</td><td>记录该站的窄类型字段；数据库沉默不能改写为“不是百合”</td></tr><tr class="odd"><td><a href="https://www.anime-planet.com/anime/feng-ling-yu-xiu" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td>2026-07-30 完整 Tags 面板：<code>Adventure / GL / Shoujo-ai / Ancient China / Baihe / Chinese Animation / Wuxia</code></td><td>编辑维护的数据库标签</td><td>记录当前检索字段；不是官方认证，标签存在或沉默都不自动裁定作品关系</td></tr><tr class="even"><td><a href="https://anilist.co/anime/101843/Feng-Ling-Yu-Xiu" target="_blank" rel="noopener noreferrer">AniList</a></td><td>ONA、12 话；类型 Action／Adventure／Comedy／Drama；社区标签含 Female Protagonist、Wuxia、Yuri</td><td>带权重社区标签数据库</td><td>记录站内检索方式；权重是标签相关度，不是观众支持率，也不能证明角色身份</td></tr><tr class="odd"><td><a href="https://bangumi.tv/subject/212333" target="_blank" rel="noopener noreferrer">Bangumi</a>／<a href="https://api.bgm.tv/v0/subjects/212333" target="_blank" rel="noopener noreferrer">API</a></td><td>WEB、正篇 12 话，另计片头／片尾条目；用户标签含百合、国产、武侠等</td><td>社区条目、用户标签及接口</td><td>证明本作在中文社区可由“百合”检索；动态计数不作为文类投票</td></tr></tbody></table></div><p>这些字段回答的问题不同：出品方与授权平台展示其实际营销表述，编辑型数据库展示站内分类架构，社区标签展示用户如何寻找作品。它们能说明公共标签环境，却不能靠“多数站点赞成”代替文本分析；因此最终分类仍取决于女女关系在第一季中承担什么叙事功能。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>以下部分包含《风灵玉秀》WEB 第一季第 1–12 话的完整剧透。</p></aside>
+      <blockquote><p>分类日期：2026-07-29<br> 分类对象：2017–2021 年陆续发布的 WEB 动画第一季<br> 纳入范围：正篇第 1–12 话<br> 排除范围：第二季、2022 年单话特别篇、2024 年两话特别篇、片头／片尾曲条目、PV、漫画及其他跨媒介材料<br> 用途：普通推荐与数据库分类</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p>《风灵玉秀》第一季属于<strong>女女关系主线且按作品分类归档</strong>。两名女性主角的结伴江湖并非动作主线之外偶尔出现的配对素材：她们共同组成标题、公开简介、旅程结构和主要情感动力，彼此的选择也持续影响危机与去向；没有一条男性恋爱主线取代这一中心。与此同时，第一季没有确认告白、接吻、正式交往或角色的性取向身份。较准确的推荐语是“以双女主关系组织武侠冒险，具有持续而明显的恋爱指向，但关系仍未正式命名”。</p><p>综合置信度为<strong>中等</strong>。作品范围、双女主中心性和公共标签可由多种公开资料交叉核对，结构性结论相对稳固；具体语气、表情和部分亲密动作主要依赖覆盖全季的二手分集指南，本次没有取得完整可检索字幕或完成逐话视听复核，故不把潜在恋爱写成正篇已确认的情侣事实。</p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：主线｜最高明确度：潜在／明显但未确认的恋爱指向｜关系构成：单一主要关系记录｜官方字面：所核未见｜官方恋爱表述：所核未见｜官方来源：所核未见匹配表述｜阅读层级：正篇事实＋强推断｜身份依据类型：只有关系性质推断，无身份自述｜男性恋爱线：副线，存在男性对女主之一的单向好感｜内容提示：武打与武器、流血和重伤、绑架与囚禁、下药和中毒、死亡威胁、人体与内力操控、饮酒。</strong></p></blockquote><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li>只寻找双方告白、正式交往、接吻或身份明示者：<strong>不适合当作保证命中项</strong>；第一季没有确认这些条件。</li><li>接受未命名但持续指向恋爱的关系，或寻找女女关系构成叙事中心的作品者：<strong>适合</strong>；双女主的相互选择贯穿第一季。</li><li>排除一切男性追求情节者：<strong>不适合</strong>；有一条男性对女主之一产生好感的副线，但没有得到对等恋爱回应，也没有主导季终方向。</li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><p>下表是截至 2026-07-30 的来源复核。当前 Bilibili 番剧页合并展示两季与后续特别篇，故页面总条目数不能直接作为第一季范围；本报告以第一季十二个正篇标题、官方国际账号的独立播放列表、数据库季界和发布日期交叉划界。</p><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://www.bilibili.com/bangumi/play/ss6038" target="_blank" rel="noopener noreferrer">Bilibili 番剧页</a>／<a href="https://api.bilibili.com/pgc/view/web/season?season_id=6038" target="_blank" rel="noopener noreferrer">公开接口</a></td><td>合并页的“正片”含第一季 12 话、第二季 12 话及 2024 年特别篇 2 话，另列花絮等条目；公开 <code>styles</code> 为空；第一季从《夜探》至《风铃钰袖》</td><td>出品方平台页面及接口</td><td>确认正式标题、顺序、发布日期和出品方可见字段；“未标”只表示该字段没有百合／GL，不表示否认</td></tr><tr class="even"><td><a href="https://www.youtube.com/playlist?list=PLBakWosU0sfgjGH4kuVqqEKBC2mzhA8tC" target="_blank" rel="noopener noreferrer">Made By Bilibili 第一季播放列表</a></td><td>独立列出第一季第 1–12 话，并给出正式英文标题；未设置百合／GL 类型字段</td><td>出品方国际账号</td><td>与合并番剧页交叉划定第一季边界；会员可见性不用于推断剧情</td></tr><tr class="odd"><td><a href="https://www.viki.com/tv/40595c-soulmate-adventure?locale=en" target="_blank" rel="noopener noreferrer">Viki</a></td><td>2017 年、第一季、计划 12 话；类型为 Animation／Drama；简介以两名女性共同冒险、寻找亲人为中心</td><td>授权流媒体条目</td><td>支持“双女主共同旅程”的公开描述；该站类型栏不等于作品方的完整文类声明</td></tr><tr class="even"><td><a href="https://myanimelist.net/anime/36184/Feng_Ling_Yu_Xiu" target="_blank" rel="noopener noreferrer">MyAnimeList</a></td><td>ONA、12 话；类型为 Action／Adventure，主题为 Martial Arts，未列 Girls Love</td><td>编辑型数据库</td><td>记录该站的窄类型字段；数据库沉默不能改写为“不是百合”</td></tr><tr class="odd"><td><a href="https://www.anime-planet.com/anime/feng-ling-yu-xiu" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td>2026-07-30 完整 Tags 面板：<code>Adventure / GL / Shoujo-ai / Ancient China / Baihe / Chinese Animation / Wuxia</code></td><td>编辑维护的数据库标签</td><td>记录当前检索字段；不是官方认证，标签存在或沉默都不自动裁定作品关系</td></tr><tr class="even"><td><a href="https://anilist.co/anime/101843/Feng-Ling-Yu-Xiu" target="_blank" rel="noopener noreferrer">AniList</a></td><td>ONA、12 话；类型 Action／Adventure／Comedy／Drama；社区标签含 Female Protagonist、Wuxia、Yuri</td><td>带权重社区标签数据库</td><td>记录站内检索方式；权重是标签相关度，不是观众支持率，也不能证明角色身份</td></tr><tr class="odd"><td><a href="https://bangumi.tv/subject/212333" target="_blank" rel="noopener noreferrer">Bangumi</a>／<a href="https://api.bgm.tv/v0/subjects/212333" target="_blank" rel="noopener noreferrer">API</a></td><td>WEB、正篇 12 话，另计片头／片尾条目；用户标签含百合、国产、武侠等</td><td>社区条目、用户标签及接口</td><td>证明本作在中文社区可由“百合”检索；动态计数不作为文类投票</td></tr></tbody></table></div><p>这些字段回答的问题不同：出品方与授权平台展示其实际营销表述，编辑型数据库展示站内分类架构，社区标签展示用户如何寻找作品。它们能说明公共标签环境，却不能靠“多数站点赞成”代替文本分析；因此最终分类仍取决于女女关系在第一季中承担什么叙事功能。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>以下部分包含《风灵玉秀》WEB 第一季第 1–12 话的完整剧透。</p></aside>
 
       <details class="spoiler-panel">
         <summary>
@@ -142,7 +155,7 @@
     </div>
   </footer>
   <script>window.SITE_CONFIG = {basePath: "/yuri-classification-archive"};</script>
-  <script src="/yuri-classification-archive/assets/site.js?v=95491b68a3ae" defer></script>
-  
+  <script src="/yuri-classification-archive/assets/site.js?v=686fc3d330d3" defer></script>
+
 </body>
 </html>

@@ -9,6 +9,7 @@
   <meta id="theme-color-dark" name="theme-color" media="(prefers-color-scheme: dark)" content="#1c181c">
   <script>
     (() => {
+      document.documentElement.classList.add("js");
       const storageKey = "yuri-classification-theme";
       const allowed = new Set(["system", "light", "dark"]);
       let preference = "system";
@@ -46,8 +47,8 @@
   <meta property="og:url" content="https://l-m-sherlock.github.io/yuri-classification-archive/works/happy_sugar_life_tv_2018/">
   <meta property="og:image" content="https://l-m-sherlock.github.io/yuri-classification-archive/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
   <title>《Happy Sugar Life》分类报告｜百合作品分类档案</title>
-  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=014a89622973">
-  
+  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=1cc35b33d5cd">
+
 </head>
 <body class="classification-report">
   <a class="skip-link" href="#main-content">跳到正文</a>
@@ -60,12 +61,24 @@
           <small>按查询拆开标签，按证据保留边界</small>
         </span>
       </a>
-      <nav class="site-nav" aria-label="主导航">
-        <a href="/yuri-classification-archive/">首页</a>
-        <a href="/yuri-classification-archive/table/">总表</a>
-        <a href="/yuri-classification-archive/about/">方法与说明</a>
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-navigation"
+      >
+        <span>菜单</span>
+        <span class="menu-toggle-icon" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-navigation" aria-label="主导航">
+        <div class="nav-main">
+          <a href="/yuri-classification-archive/">首页</a>
+          <a href="/yuri-classification-archive/table/">总表</a>
+          <a href="/yuri-classification-archive/about/">方法与说明</a>
+        </div>
         <a class="nav-star" href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub / Star <span aria-hidden="true">↗</span></a>
-        <a href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
+        <a class="nav-feedback" href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
         <label class="theme-control" for="theme-preference">
           <span>主题</span>
           <select id="theme-preference" aria-label="主题偏好">
@@ -84,7 +97,7 @@
     <h1>《Happy Sugar Life》分类报告</h1>
     <p class="report-subtitle">2018 TV anime episodes 1-12</p>
     <div class="label-strip" aria-label="分类摘要">
-      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>恋爱位置：</strong>主线</span><span class="label-chip"><strong>最高明确度：</strong>明确交往</span><span class="label-chip"><strong>官方：</strong>未标百合／GL</span><span class="label-chip"><strong>置信度：</strong>中</span>
+      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>恋爱位置：</strong>主线</span><span class="label-chip"><strong>最高明确度：</strong>明确交往</span><span class="label-chip"><strong>官方字面百合／GL：</strong>所核未见</span><span class="label-chip"><strong>官方女女恋爱表述：</strong>是</span><span class="label-chip"><strong>官方来源：</strong>层级：当前版本；位置：剧情／角色页、可见作品宣传</span><span class="label-chip"><strong>置信度：</strong>中</span>
     </div>
     <a class="back-link" href="/yuri-classification-archive/table/?q=Happy%20Sugar%20Life">← 返回总表并定位本作</a>
   </header>
@@ -94,7 +107,7 @@
       <ol><li><a href="#无剧透结论">无剧透结论</a></li><li><a href="#数据库与公开分类">数据库与公开分类</a></li><li><a href="#决定性文本证据">决定性文本证据</a></li><li><a href="#四层分析">四层分析</a></li><li><a href="#最强反方解释">最强反方解释</a></li><li><a href="#分用途结论">分用途结论</a></li><li><a href="#方法来源与限制">方法、来源与限制</a></li></ol>
     </aside>
     <div class="report-content">
-      <blockquote><p>分类日期：2026-07-30<br> 分类对象：2018 年 TV 动画《ハッピーシュガーライフ》第 1–12 话<br> 纳入范围：2018-07 至 2018-09 播出的全部 12 话正篇<br> 排除范围：原作漫画、单行本追加篇、《Extra Life》及其他跨媒介补充<br> 用途：普通推荐与数据库分类</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p><strong>本报告将《Happy Sugar Life》TV 版归入女女关系主线且按作品分类归档：两位女性角色的“爱”、共同生活、誓言与彼此选择是全剧的标题、情感中心和主要因果轴；文本还把关系推进到双向说爱、婚礼式承诺与亲吻，符合“明确女女恋爱关系”的检索。</strong> 但这项分类只描述作品怎样组织关系，不是对关系行为的认可，也不等于一场在现实制度中有效的婚姻。</p><p>推荐时必须同时说明关键限制：一方是高中生，另一方是年幼儿童；二人处于显著的年龄、照料与信息权力差中，后者又被隔绝于家人和外界。作品还包含诱拐／隐匿儿童、监禁、杀人、纵火、勒索、性暴力及共同赴死提议。角色没有以女同性恋或双性恋等词自述身份。由于现有可靠文字材料是完整英文字幕，而日文稿为错误较多的 AI 转写，结论置信度记为<strong>中</strong>；恋爱中心性本身另有官方日文简介与名场面标题交叉支持。</p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：主线｜最高明确度：明确女女交往关系｜关系构成：单一主要关系记录｜官方：未标百合／GL，宣传为“纯爱心理恐怖”并明确写两位少女之间的爱｜阅读层级：正篇事实｜身份依据类型：只有明确关系／欲望事实，无身份自述｜男性恋爱线：副线，含女主过去与男性约会及数条男性欲望／暴力支线，不取代主线｜内容提示：高中生与年幼儿童的恋爱化关系、诱拐与对外隔绝、家庭暴力与遗弃、勒索和操纵、跟踪、肢体伤害、杀人和尸体处理、纵火、性暴力及对未成年人的性化欲望、共同赴死提议、死亡。</strong></p></blockquote><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li>只寻找正篇明确互称喜欢、亲吻或作出情侣式承诺的读者：<strong>文本条件符合</strong>。第 9–11 话把未来、婚礼、永恒誓言和亲吻连成直接证据链。</li><li>只寻找角色明确自称女同性恋／双性恋的读者：<strong>不符合身份明示检索</strong>。对象明确，身份词未知。</li><li>希望避开年龄和照料权力高度不对称、儿童被限制外出、重大暴力或共同赴死内容的读者：<strong>应当避开或先阅读完整内容提示</strong>。这比用笼统的关系价值词更能说明观看风险。</li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><p>以下字段核对至 2026-07-30。官方宣传、编辑类型和社区标签回答的是不同问题，不按站点数量投票。</p><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://www.mbs.jp/happysugarlife/" target="_blank" rel="noopener noreferrer">MBS 节目官网</a>／<a href="https://www.mbs.jp/happysugarlife/sp/select/list.shtml" target="_blank" rel="noopener noreferrer">名场面页</a></td><td>节目页写“从未爱过任何人的少女”首次爱上另一位少女，并称为“真実の純愛サイコホラー”；名场面页把第 1 话片段称为“誓いのキス”、第 10 话标题为“星空のプロポーズ”、第 11 话片段称为“永遠の愛を誓う”</td><td>播出方官方剧情与宣传表述</td><td>直接支持女性间的爱、吻、求婚式表达和永恒誓言是官方公开的叙事核心；页面没有使用百合／GL 字段</td></tr><tr class="even"><td><a href="https://magazine.jp.square-enix.com/top/anime/detail/happysugarlife/" target="_blank" rel="noopener noreferrer">Square Enix 动画资料页</a></td><td>宣传语称为守护“真実の愛”可以威胁、监禁乃至杀人，并归为“純愛サイコホラー”</td><td>原作出版方的动画资料与营销分类</td><td>核对作品自述的爱情／心理恐怖重叠文类；“纯爱”是作品营销语，不替现实行为作伦理评价</td></tr><tr class="odd"><td><a href="https://myanimelist.net/anime/37517/Happy_Sugar_Life" target="_blank" rel="noopener noreferrer">MyAnimeList 37517</a></td><td>TV、12 话；Genres 为 Drama、Girls Love、Horror、Suspense，Themes 为 Gore、Psychological</td><td>编辑型数据库字段</td><td>支持公共 GL 检索并核对范围；Girls Love 不是官方认证，也不能推出角色身份</td></tr><tr class="even"><td><a href="https://www.anime-planet.com/anime/happy-sugar-life" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td>2026-07-30 完整 Tags 面板：<code>Drama / GL / Horror / Mystery / Romance / Shoujo-ai / Shounen / Age Gap / Child Protagonists / Codependency / Mental Illness / Obsessive Love / Possessive Lovers / Psychological / Psychopaths / Star-Crossed Lovers / Based on a Manga</code></td><td>编辑维护的数据库标签</td><td>记录当前检索字段；不是官方认证，标签存在或沉默都不自动裁定作品关系</td></tr><tr class="odd"><td><a href="https://anilist.co/anime/101351" target="_blank" rel="noopener noreferrer">AniList 101351</a></td><td>TV、12 话；Genres 含 Romance；社区标签含 Yuri 66%、Age Gap 82%、Cohabitation 50% 等</td><td>编辑字段＋带权重社区标签</td><td>记录社区可检索位置与内容维度；百分比是标签权重，不是支持率、身份概率或伦理评分</td></tr><tr class="even"><td><a href="https://bangumi.tv/subject/240828" target="_blank" rel="noopener noreferrer">Bangumi 240828</a>／<a href="https://api.bgm.tv/v0/subjects/240828" target="_blank" rel="noopener noreferrer">公共 API</a></td><td>TV、12 话；用户标签快照含“百合”1716、“病娇”1447、“猎奇”842 等</td><td>社区用户标签与范围数据</td><td>支持中文公共检索并核对集数；动态计数不是官方字段或社群表决</td></tr><tr class="odd"><td><a href="https://subf2m.co/subtitles/happy-sugar-life/english/3220545" target="_blank" rel="noopener noreferrer">Subf2m 英文字幕页</a></td><td>提供 1–12 话完整英文 SRT，共 3,897 个带时间码 cue；文件未标注为 AI 生成</td><td>第三方字幕目录</td><td>作为本报告逐话阅读、短引与时间定位的主要文字材料；字幕来源页未证明其为官方台本</td></tr><tr class="even"><td><a href="https://jimaku.cc/entry/4751" target="_blank" rel="noopener noreferrer">Jimaku 4751</a></td><td>条目标明 AniList 101351；现有日文包文件名明确含 <code>WhisperAI (Could contain errors)</code></td><td>第三方字幕目录</td><td>只用于段落定位与发现疑点；因明显转写错误，不作为日文逐字引文或独立确认来源</td></tr></tbody></table></div><p>官方没有写“百合／GL”不等于否认百合。它实际把两位少女、爱、吻、求婚式标题和永恒誓言放入宣传中心；MAL 与 Anime-Planet 则直接把 GL 放入公共分类。反过来，数据库的 GL／Yuri 字段也不能替作品确认角色的性取向身份，更不能消除年龄和权力差。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>以下部分包含《Happy Sugar Life》TV 第 1–12 话完整剧透。</p></aside>
+      <blockquote><p>分类日期：2026-07-30<br> 分类对象：2018 年 TV 动画《ハッピーシュガーライフ》第 1–12 话<br> 纳入范围：2018-07 至 2018-09 播出的全部 12 话正篇<br> 排除范围：原作漫画、单行本追加篇、《Extra Life》及其他跨媒介补充<br> 用途：普通推荐与数据库分类</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p><strong>本报告将《Happy Sugar Life》TV 版归入女女关系主线且按作品分类归档：两位女性角色的“爱”、共同生活、誓言与彼此选择是全剧的标题、情感中心和主要因果轴；文本还把关系推进到双向说爱、婚礼式承诺与亲吻，符合“明确女女恋爱关系”的检索。</strong> 但这项分类只描述作品怎样组织关系，不是对关系行为的认可，也不等于一场在现实制度中有效的婚姻。</p><p>推荐时必须同时说明关键限制：一方是高中生，另一方是年幼儿童；二人处于显著的年龄、照料与信息权力差中，后者又被隔绝于家人和外界。作品还包含诱拐／隐匿儿童、监禁、杀人、纵火、勒索、性暴力及共同赴死提议。角色没有以女同性恋或双性恋等词自述身份。由于现有可靠文字材料是完整英文字幕，而日文稿为错误较多的 AI 转写，结论置信度记为<strong>中</strong>；恋爱中心性本身另有官方日文简介与名场面标题交叉支持。</p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：主线｜最高明确度：明确女女交往关系｜关系构成：单一主要关系记录｜官方字面：所核未见｜官方恋爱表述：是｜官方来源：范围内版本·可见宣传；范围内版本·故事／角色页｜阅读层级：正篇事实｜身份依据类型：只有明确关系／欲望事实，无身份自述｜男性恋爱线：副线，含女主过去与男性约会及数条男性欲望／暴力支线，不取代主线｜内容提示：高中生与年幼儿童的恋爱化关系、诱拐与对外隔绝、家庭暴力与遗弃、勒索和操纵、跟踪、肢体伤害、杀人和尸体处理、纵火、性暴力及对未成年人的性化欲望、共同赴死提议、死亡。</strong></p></blockquote><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li>只寻找正篇明确互称喜欢、亲吻或作出情侣式承诺的读者：<strong>文本条件符合</strong>。第 9–11 话把未来、婚礼、永恒誓言和亲吻连成直接证据链。</li><li>只寻找角色明确自称女同性恋／双性恋的读者：<strong>不符合身份明示检索</strong>。对象明确，身份词未知。</li><li>希望避开年龄和照料权力高度不对称、儿童被限制外出、重大暴力或共同赴死内容的读者：<strong>应当避开或先阅读完整内容提示</strong>。这比用笼统的关系价值词更能说明观看风险。</li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><p>以下字段核对至 2026-07-30。官方宣传、编辑类型和社区标签回答的是不同问题，不按站点数量投票。</p><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://www.mbs.jp/happysugarlife/" target="_blank" rel="noopener noreferrer">MBS 节目官网</a>／<a href="https://www.mbs.jp/happysugarlife/sp/select/list.shtml" target="_blank" rel="noopener noreferrer">名场面页</a></td><td>节目页写“从未爱过任何人的少女”首次爱上另一位少女，并称为“真実の純愛サイコホラー”；名场面页把第 1 话片段称为“誓いのキス”、第 10 话标题为“星空のプロポーズ”、第 11 话片段称为“永遠の愛を誓う”</td><td>播出方官方剧情与宣传表述</td><td>直接支持女性间的爱、吻、求婚式表达和永恒誓言是官方公开的叙事核心；页面没有使用百合／GL 字段</td></tr><tr class="even"><td><a href="https://magazine.jp.square-enix.com/top/anime/detail/happysugarlife/" target="_blank" rel="noopener noreferrer">Square Enix 动画资料页</a></td><td>宣传语称为守护“真実の愛”可以威胁、监禁乃至杀人，并归为“純愛サイコホラー”</td><td>原作出版方的动画资料与营销分类</td><td>核对作品自述的爱情／心理恐怖重叠文类；“纯爱”是作品营销语，不替现实行为作伦理评价</td></tr><tr class="odd"><td><a href="https://myanimelist.net/anime/37517/Happy_Sugar_Life" target="_blank" rel="noopener noreferrer">MyAnimeList 37517</a></td><td>TV、12 话；Genres 为 Drama、Girls Love、Horror、Suspense，Themes 为 Gore、Psychological</td><td>编辑型数据库字段</td><td>支持公共 GL 检索并核对范围；Girls Love 不是官方认证，也不能推出角色身份</td></tr><tr class="even"><td><a href="https://www.anime-planet.com/anime/happy-sugar-life" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td>2026-07-30 完整 Tags 面板：<code>Drama / GL / Horror / Mystery / Romance / Shoujo-ai / Shounen / Age Gap / Child Protagonists / Codependency / Mental Illness / Obsessive Love / Possessive Lovers / Psychological / Psychopaths / Star-Crossed Lovers / Based on a Manga</code></td><td>编辑维护的数据库标签</td><td>记录当前检索字段；不是官方认证，标签存在或沉默都不自动裁定作品关系</td></tr><tr class="odd"><td><a href="https://anilist.co/anime/101351" target="_blank" rel="noopener noreferrer">AniList 101351</a></td><td>TV、12 话；Genres 含 Romance；社区标签含 Yuri 66%、Age Gap 82%、Cohabitation 50% 等</td><td>编辑字段＋带权重社区标签</td><td>记录社区可检索位置与内容维度；百分比是标签权重，不是支持率、身份概率或伦理评分</td></tr><tr class="even"><td><a href="https://bangumi.tv/subject/240828" target="_blank" rel="noopener noreferrer">Bangumi 240828</a>／<a href="https://api.bgm.tv/v0/subjects/240828" target="_blank" rel="noopener noreferrer">公共 API</a></td><td>TV、12 话；用户标签快照含“百合”1716、“病娇”1447、“猎奇”842 等</td><td>社区用户标签与范围数据</td><td>支持中文公共检索并核对集数；动态计数不是官方字段或社群表决</td></tr><tr class="odd"><td><a href="https://subf2m.co/subtitles/happy-sugar-life/english/3220545" target="_blank" rel="noopener noreferrer">Subf2m 英文字幕页</a></td><td>提供 1–12 话完整英文 SRT，共 3,897 个带时间码 cue；文件未标注为 AI 生成</td><td>第三方字幕目录</td><td>作为本报告逐话阅读、短引与时间定位的主要文字材料；字幕来源页未证明其为官方台本</td></tr><tr class="even"><td><a href="https://jimaku.cc/entry/4751" target="_blank" rel="noopener noreferrer">Jimaku 4751</a></td><td>条目标明 AniList 101351；现有日文包文件名明确含 <code>WhisperAI (Could contain errors)</code></td><td>第三方字幕目录</td><td>只用于段落定位与发现疑点；因明显转写错误，不作为日文逐字引文或独立确认来源</td></tr></tbody></table></div><p>官方没有写“百合／GL”不等于否认百合。它实际把两位少女、爱、吻、求婚式标题和永恒誓言放入宣传中心；MAL 与 Anime-Planet 则直接把 GL 放入公共分类。反过来，数据库的 GL／Yuri 字段也不能替作品确认角色的性取向身份，更不能消除年龄和权力差。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>以下部分包含《Happy Sugar Life》TV 第 1–12 话完整剧透。</p></aside>
 
       <details class="spoiler-panel">
         <summary>
@@ -142,7 +155,7 @@
     </div>
   </footer>
   <script>window.SITE_CONFIG = {basePath: "/yuri-classification-archive"};</script>
-  <script src="/yuri-classification-archive/assets/site.js?v=95491b68a3ae" defer></script>
-  
+  <script src="/yuri-classification-archive/assets/site.js?v=686fc3d330d3" defer></script>
+
 </body>
 </html>

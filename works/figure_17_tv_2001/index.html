@@ -9,6 +9,7 @@
   <meta id="theme-color-dark" name="theme-color" media="(prefers-color-scheme: dark)" content="#1c181c">
   <script>
     (() => {
+      document.documentElement.classList.add("js");
       const storageKey = "yuri-classification-theme";
       const allowed = new Set(["system", "light", "dark"]);
       let preference = "system";
@@ -46,8 +47,8 @@
   <meta property="og:url" content="https://l-m-sherlock.github.io/yuri-classification-archive/works/figure_17_tv_2001/">
   <meta property="og:image" content="https://l-m-sherlock.github.io/yuri-classification-archive/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
   <title>《代号17》分类报告｜百合作品分类档案</title>
-  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=014a89622973">
-  
+  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=1cc35b33d5cd">
+
 </head>
 <body class="classification-report">
   <a class="skip-link" href="#main-content">跳到正文</a>
@@ -60,12 +61,24 @@
           <small>按查询拆开标签，按证据保留边界</small>
         </span>
       </a>
-      <nav class="site-nav" aria-label="主导航">
-        <a href="/yuri-classification-archive/">首页</a>
-        <a href="/yuri-classification-archive/table/">总表</a>
-        <a href="/yuri-classification-archive/about/">方法与说明</a>
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-navigation"
+      >
+        <span>菜单</span>
+        <span class="menu-toggle-icon" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-navigation" aria-label="主导航">
+        <div class="nav-main">
+          <a href="/yuri-classification-archive/">首页</a>
+          <a href="/yuri-classification-archive/table/">总表</a>
+          <a href="/yuri-classification-archive/about/">方法与说明</a>
+        </div>
         <a class="nav-star" href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub / Star <span aria-hidden="true">↗</span></a>
-        <a href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
+        <a class="nav-feedback" href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
         <label class="theme-control" for="theme-preference">
           <span>主题</span>
           <select id="theme-preference" aria-label="主题偏好">
@@ -84,7 +97,7 @@
     <h1>《代号17》分类报告</h1>
     <p class="report-subtitle">2001-05-27 through 2002-05-26 TV anime, original episodes 1-13 at approximately 46-47 minutes each</p>
     <div class="label-strip" aria-label="分类摘要">
-      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>恋爱位置：</strong>主线</span><span class="label-chip"><strong>最高明确度：</strong>潜在／明显但未确认</span><span class="label-chip"><strong>官方：</strong>未标百合／GL</span><span class="label-chip"><strong>置信度：</strong>中</span>
+      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>恋爱位置：</strong>主线</span><span class="label-chip"><strong>最高明确度：</strong>潜在／明显但未确认</span><span class="label-chip"><strong>官方字面百合／GL：</strong>所核未见</span><span class="label-chip"><strong>官方女女恋爱表述：</strong>所核未见</span><span class="label-chip"><strong>官方来源：</strong>所核来源未含可公开筛选的层级或位置</span><span class="label-chip"><strong>置信度：</strong>中</span>
     </div>
     <a class="back-link" href="/yuri-classification-archive/table/?q=%E4%BB%A3%E5%8F%B717">← 返回总表并定位本作</a>
   </header>
@@ -94,7 +107,7 @@
       <ol><li><a href="#无剧透结论">无剧透结论</a></li><li><a href="#数据库与公开分类">数据库与公开分类</a></li><li><a href="#决定性文本证据">决定性文本证据</a></li><li><a href="#四层分析">四层分析</a></li><li><a href="#最强反方解释">最强反方解释</a></li><li><a href="#分用途结论">分用途结论</a></li><li><a href="#方法来源与限制">方法、来源与限制</a></li></ol>
     </aside>
     <div class="report-content">
-      <blockquote><p>分类日期：2026-07-30<br> 分类对象：2001–2002 年 TV 动画原始第 1–13 话<br> 纳入范围：每话约 46–47 分钟的原始 13 话电视结构；后来的 24 段配信编号只用于来源对照<br> 排除范围：漫画、宣传漫画、导读资料正文、影碟特典及其他跨媒介材料<br> 用途：普通推荐与数据库分类</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p><strong>本作属于女女关系位于叙事主线的百合作品归档，置信度中等。</strong> 两名标题角色从“分身／同一身体”出发，以被构造的双胞胎姐妹身份共同生活，又在长期并肩作战、相互照料、冲突与重新选择中成为彼此不可替代的独立主体。作品首先仍是科幻、乡村日常与儿童成长剧，官方没有把它标成百合／GL。</p><p><strong>本作有明显但未确认的女女恋爱方向，恋爱性质与双方交往均未直接确认。</strong> 关键表达不是孤立的“大好き”，而是一方把自己的喜欢与另一方对男孩的喜欢比较，并同时说希望永远在一起、两人并非真正姐妹；但 <code>おんなじくらい</code> 首先比较程度，没有把两种喜欢直接命名为同一种恋爱。读者若只寻找恋爱告白、接吻、正式交往或身份明示，不应把它当确认情侣型作品推荐。</p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：主线（正文按读者语言称“女女关系”）｜百合归档依据：作品分类｜恋爱位置：主线关系中存在明显但未确认的方向｜最高明确度：明显但未确认的恋爱方向｜关系构成：分身／被构造的姐妹／选择家庭／战斗伙伴／恋爱方向并存｜官方：未标百合／GL｜阅读层级：正篇事实＋强推断＋读者解读｜身份依据类型：只有关系事实与恋爱方向推断，无明确恋爱关系或性取向身份自述｜男性恋爱线：重要副线，同样未确认交往｜内容提示：儿童死亡与长期哀伤、怪物暴力和身体恐怖、儿童陷入战斗、人工生命体死亡与被迫分离、复制／操纵／消除记忆、姐妹身份与恋爱方向叠加、强烈依赖及分离焦虑、丧亲。</strong></p></blockquote><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li>只寻找双方确认交往、互相告白或女女接吻：<strong>不符合</strong>。</li><li>寻找一名女性角色直接用恋爱、恋人、求爱或同类不可替代的措辞表达欲望：<strong>不符合</strong>；第 10 话只把喜欢的程度与另一段可能的恋心作比较。</li><li>接受具有明确对象、共同生活愿望和恋爱比较语境，却没有直接确认恋爱性质：<strong>符合</strong>；这是本报告所称“明显但未确认的恋爱方向”。</li><li>排除姐妹称谓或近似姐妹共同生活：<strong>不宜推荐</strong>；两人不是生物学姐妹，却在社会生活中被当作双胞胎。</li><li>接受科幻成长剧中的女女主关系、离别与非制度性亲密：<strong>可以推荐</strong>，但不要把“女女关系主线”简写成“全程恋爱剧情”。</li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><p>以下字段核对至 2026-07-30。官方资料、编辑分类与社区标签各自回答不同问题；“未标”表示站点当前字段没有目标标签，不表示它否定一切百合阅读。</p><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://www.b-ch.com/titles/2207/" target="_blank" rel="noopener noreferrer">Bandai Channel</a></td><td>将ヒカル写作つばさ“分身般的存在”，说明二人融合成战斗用人工生命体；页面列“温情／日常”分类，未见百合／GL</td><td>权利方配信页与官方简介</td><td>锁定两名主角、融合机制及官方市场表述；“分身”不能自动证明她没有独立主体，未标也不是反证</td></tr><tr class="even"><td><a href="https://animestore.docomo.ne.jp/animestore/ci_pc?workId=11426" target="_blank" rel="noopener noreferrer">dAnime Store</a></td><td>列 24 话，类型为 SF／Fantasy、Action／Battle；其 24 是把原始中间 11 个长篇各拆成前后段的配信结构</td><td>授权配信目录</td><td>解释为何部分日文资料把原始第 10 话称为“第 19 段”；不把同一内容误算成 24 个原始电视故事单元</td></tr><tr class="odd"><td><a href="https://myanimelist.net/anime/1126/Figure_17__Tsubasa___Hikaru" target="_blank" rel="noopener noreferrer">MyAnimeList 1126</a></td><td>TV、13 集、每集 47 分钟、原创；Genres 为 Sci-Fi、Slice of Life，没有 Girls Love 或 Romance</td><td>编辑型数据库字段</td><td>支持原始话数与主文类；标签沉默不能覆盖第 10 话关系台词</td></tr><tr class="even"><td><a href="https://www.anime-planet.com/anime/figure-17" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td>TV、13×46 分钟；Tags 含 Drama、Sci Fi、Slice of Life、Aliens、Child Protagonists、Hokkaido、Original Work 等，没有精确 GL</td><td>编辑维护的标签库；页面经文本代理核对</td><td>记录平台把作品放入科幻成长与乡村日常入口；不把代理读取冒充直接页面访问</td></tr><tr class="odd"><td><a href="https://anilist.co/anime/1126" target="_blank" rel="noopener noreferrer">AniList 1126</a></td><td>TV、13 集；社区标签含 Clone 95、Found Family 85、Female Protagonist 70、Primarily Female Cast 60、Twins 20，没有 Yuri</td><td>编辑字段＋带相关度的社区标签</td><td>“Found Family／Twins”与正篇家庭结构相符；相关度不是人数，Yuri 缺席也不是角色身份判断</td></tr><tr class="even"><td><a href="https://bangumi.tv/subject/10376" target="_blank" rel="noopener noreferrer">Bangumi subject 10376</a>／<a href="https://api.bgm.tv/v0/subjects/10376" target="_blank" rel="noopener noreferrer">公共 API</a></td><td>TV、13 话、Rank 2084；“百合”66 人。想看 590、看过 249、在看 63、搁置 44、抛弃 33，五状态合计 979，百合标记比例约 6.74%</td><td>社区用户标签与收藏规模</td><td>证明中文社区存在持续百合归类；66／979 只表示全体收藏状态用户中的标签浓度，不是“6.74%观众赞成”</td></tr><tr class="odd"><td><a href="https://www.subtitlesrt.com/watch-movies/Figure-17-693" target="_blank" rel="noopener noreferrer">Subtitle SRT 页面</a>／<a href="https://wrdeast.blog.fc2.com/blog-category-143.html" target="_blank" rel="noopener noreferrer">日文分段复盘目录</a></td><td>前者提供原始 13 话完整英语 SRT；后者覆盖 24 个配信分段，并保存第 10、13 话关键日文措辞</td><td>第三方字幕库／日文二手分集复盘</td><td>英文字幕用于全季结构和时间定位，日文复盘用于核对短引；两者都不是官方逐字台本，不能提高到视听复核</td></tr></tbody></table></div><p>四个数据库的差异很清楚：MAL 与 Anime-Planet的编辑类型栏、AniList社区标签均没有目标字段，Bangumi用户却保留“百合”标签。不能把这写成三票对一票，因为站点的标签粒度、维护者和检索用途不同。它更适合说明：本作的公共百合读法存在，但没有像确认情侣型 GL 那样跨平台集中。</p><p>原始 13 话与配信 24 段也不能混用。首话和终话保持长篇，中间原始第 2–12 话被拆成前后段，所以日文复盘“第 19 话”对应原始第 10 话后半。本报告的剧情范围、字幕文件和时间码始终使用原始 13 话编号。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>以下部分包含《代号17》原始第 1–13 话完整剧透，包括人物死亡、最终战与结局。</p></aside>
+      <blockquote><p>分类日期：2026-07-30<br> 分类对象：2001–2002 年 TV 动画原始第 1–13 话<br> 纳入范围：每话约 46–47 分钟的原始 13 话电视结构；后来的 24 段配信编号只用于来源对照<br> 排除范围：漫画、宣传漫画、导读资料正文、影碟特典及其他跨媒介材料<br> 用途：普通推荐与数据库分类</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p><strong>本作属于女女关系位于叙事主线的百合作品归档，置信度中等。</strong> 两名标题角色从“分身／同一身体”出发，以被构造的双胞胎姐妹身份共同生活，又在长期并肩作战、相互照料、冲突与重新选择中成为彼此不可替代的独立主体。作品首先仍是科幻、乡村日常与儿童成长剧，官方没有把它标成百合／GL。</p><p><strong>本作有明显但未确认的女女恋爱方向，恋爱性质与双方交往均未直接确认。</strong> 关键表达不是孤立的“大好き”，而是一方把自己的喜欢与另一方对男孩的喜欢比较，并同时说希望永远在一起、两人并非真正姐妹；但 <code>おんなじくらい</code> 首先比较程度，没有把两种喜欢直接命名为同一种恋爱。读者若只寻找恋爱告白、接吻、正式交往或身份明示，不应把它当确认情侣型作品推荐。</p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：主线（正文按读者语言称“女女关系”）｜百合归档依据：作品分类｜恋爱位置：主线关系中存在明显但未确认的方向｜最高明确度：明显但未确认的恋爱方向｜关系构成：分身／被构造的姐妹／选择家庭／战斗伙伴／恋爱方向并存｜官方字面：所核未见｜官方恋爱表述：所核未见｜官方来源：所核未见匹配表述｜阅读层级：正篇事实＋强推断＋读者解读｜身份依据类型：只有关系事实与恋爱方向推断，无明确恋爱关系或性取向身份自述｜男性恋爱线：重要副线，同样未确认交往｜内容提示：儿童死亡与长期哀伤、怪物暴力和身体恐怖、儿童陷入战斗、人工生命体死亡与被迫分离、复制／操纵／消除记忆、姐妹身份与恋爱方向叠加、强烈依赖及分离焦虑、丧亲。</strong></p></blockquote><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li>只寻找双方确认交往、互相告白或女女接吻：<strong>不符合</strong>。</li><li>寻找一名女性角色直接用恋爱、恋人、求爱或同类不可替代的措辞表达欲望：<strong>不符合</strong>；第 10 话只把喜欢的程度与另一段可能的恋心作比较。</li><li>接受具有明确对象、共同生活愿望和恋爱比较语境，却没有直接确认恋爱性质：<strong>符合</strong>；这是本报告所称“明显但未确认的恋爱方向”。</li><li>排除姐妹称谓或近似姐妹共同生活：<strong>不宜推荐</strong>；两人不是生物学姐妹，却在社会生活中被当作双胞胎。</li><li>接受科幻成长剧中的女女主关系、离别与非制度性亲密：<strong>可以推荐</strong>，但不要把“女女关系主线”简写成“全程恋爱剧情”。</li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><p>以下字段核对至 2026-07-30。官方资料、编辑分类与社区标签各自回答不同问题；“未标”表示站点当前字段没有目标标签，不表示它否定一切百合阅读。</p><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://www.b-ch.com/titles/2207/" target="_blank" rel="noopener noreferrer">Bandai Channel</a></td><td>将ヒカル写作つばさ“分身般的存在”，说明二人融合成战斗用人工生命体；页面列“温情／日常”分类，未见百合／GL</td><td>权利方配信页与官方简介</td><td>锁定两名主角、融合机制及官方市场表述；“分身”不能自动证明她没有独立主体，未标也不是反证</td></tr><tr class="even"><td><a href="https://animestore.docomo.ne.jp/animestore/ci_pc?workId=11426" target="_blank" rel="noopener noreferrer">dAnime Store</a></td><td>列 24 话，类型为 SF／Fantasy、Action／Battle；其 24 是把原始中间 11 个长篇各拆成前后段的配信结构</td><td>授权配信目录</td><td>解释为何部分日文资料把原始第 10 话称为“第 19 段”；不把同一内容误算成 24 个原始电视故事单元</td></tr><tr class="odd"><td><a href="https://myanimelist.net/anime/1126/Figure_17__Tsubasa___Hikaru" target="_blank" rel="noopener noreferrer">MyAnimeList 1126</a></td><td>TV、13 集、每集 47 分钟、原创；Genres 为 Sci-Fi、Slice of Life，没有 Girls Love 或 Romance</td><td>编辑型数据库字段</td><td>支持原始话数与主文类；标签沉默不能覆盖第 10 话关系台词</td></tr><tr class="even"><td><a href="https://www.anime-planet.com/anime/figure-17" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td>TV、13×46 分钟；Tags 含 Drama、Sci Fi、Slice of Life、Aliens、Child Protagonists、Hokkaido、Original Work 等，没有精确 GL</td><td>编辑维护的标签库；页面经文本代理核对</td><td>记录平台把作品放入科幻成长与乡村日常入口；不把代理读取冒充直接页面访问</td></tr><tr class="odd"><td><a href="https://anilist.co/anime/1126" target="_blank" rel="noopener noreferrer">AniList 1126</a></td><td>TV、13 集；社区标签含 Clone 95、Found Family 85、Female Protagonist 70、Primarily Female Cast 60、Twins 20，没有 Yuri</td><td>编辑字段＋带相关度的社区标签</td><td>“Found Family／Twins”与正篇家庭结构相符；相关度不是人数，Yuri 缺席也不是角色身份判断</td></tr><tr class="even"><td><a href="https://bangumi.tv/subject/10376" target="_blank" rel="noopener noreferrer">Bangumi subject 10376</a>／<a href="https://api.bgm.tv/v0/subjects/10376" target="_blank" rel="noopener noreferrer">公共 API</a></td><td>TV、13 话、Rank 2084；“百合”66 人。想看 590、看过 249、在看 63、搁置 44、抛弃 33，五状态合计 979，百合标记比例约 6.74%</td><td>社区用户标签与收藏规模</td><td>证明中文社区存在持续百合归类；66／979 只表示全体收藏状态用户中的标签浓度，不是“6.74%观众赞成”</td></tr><tr class="odd"><td><a href="https://www.subtitlesrt.com/watch-movies/Figure-17-693" target="_blank" rel="noopener noreferrer">Subtitle SRT 页面</a>／<a href="https://wrdeast.blog.fc2.com/blog-category-143.html" target="_blank" rel="noopener noreferrer">日文分段复盘目录</a></td><td>前者提供原始 13 话完整英语 SRT；后者覆盖 24 个配信分段，并保存第 10、13 话关键日文措辞</td><td>第三方字幕库／日文二手分集复盘</td><td>英文字幕用于全季结构和时间定位，日文复盘用于核对短引；两者都不是官方逐字台本，不能提高到视听复核</td></tr></tbody></table></div><p>四个数据库的差异很清楚：MAL 与 Anime-Planet的编辑类型栏、AniList社区标签均没有目标字段，Bangumi用户却保留“百合”标签。不能把这写成三票对一票，因为站点的标签粒度、维护者和检索用途不同。它更适合说明：本作的公共百合读法存在，但没有像确认情侣型 GL 那样跨平台集中。</p><p>原始 13 话与配信 24 段也不能混用。首话和终话保持长篇，中间原始第 2–12 话被拆成前后段，所以日文复盘“第 19 话”对应原始第 10 话后半。本报告的剧情范围、字幕文件和时间码始终使用原始 13 话编号。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>以下部分包含《代号17》原始第 1–13 话完整剧透，包括人物死亡、最终战与结局。</p></aside>
 
       <details class="spoiler-panel">
         <summary>
@@ -142,7 +155,7 @@
     </div>
   </footer>
   <script>window.SITE_CONFIG = {basePath: "/yuri-classification-archive"};</script>
-  <script src="/yuri-classification-archive/assets/site.js?v=95491b68a3ae" defer></script>
-  
+  <script src="/yuri-classification-archive/assets/site.js?v=686fc3d330d3" defer></script>
+
 </body>
 </html>

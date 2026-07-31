@@ -9,6 +9,7 @@
   <meta id="theme-color-dark" name="theme-color" media="(prefers-color-scheme: dark)" content="#1c181c">
   <script>
     (() => {
+      document.documentElement.classList.add("js");
       const storageKey = "yuri-classification-theme";
       const allowed = new Set(["system", "light", "dark"]);
       let preference = "system";
@@ -46,8 +47,8 @@
   <meta property="og:url" content="https://l-m-sherlock.github.io/yuri-classification-archive/works/majo_no_tabitabi_tv_2020/">
   <meta property="og:image" content="https://l-m-sherlock.github.io/yuri-classification-archive/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
   <title>《魔女之旅》分类报告｜百合作品分类档案</title>
-  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=014a89622973">
-  
+  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=1cc35b33d5cd">
+
 </head>
 <body class="classification-report">
   <a class="skip-link" href="#main-content">跳到正文</a>
@@ -60,12 +61,24 @@
           <small>按查询拆开标签，按证据保留边界</small>
         </span>
       </a>
-      <nav class="site-nav" aria-label="主导航">
-        <a href="/yuri-classification-archive/">首页</a>
-        <a href="/yuri-classification-archive/table/">总表</a>
-        <a href="/yuri-classification-archive/about/">方法与说明</a>
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-navigation"
+      >
+        <span>菜单</span>
+        <span class="menu-toggle-icon" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-navigation" aria-label="主导航">
+        <div class="nav-main">
+          <a href="/yuri-classification-archive/">首页</a>
+          <a href="/yuri-classification-archive/table/">总表</a>
+          <a href="/yuri-classification-archive/about/">方法与说明</a>
+        </div>
         <a class="nav-star" href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub / Star <span aria-hidden="true">↗</span></a>
-        <a href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
+        <a class="nav-feedback" href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
         <label class="theme-control" for="theme-preference">
           <span>主题</span>
           <select id="theme-preference" aria-label="主题偏好">
@@ -84,7 +97,7 @@
     <h1>《魔女之旅》分类报告</h1>
     <p class="report-subtitle">2020 TV anime broadcast episodes 1-12；official television website introduction, character profiles and episode 1-12 story pages only as scope and paratext evidence；live database genre, theme and community-tag fields only as external labeling evidence</p>
     <div class="label-strip" aria-label="分类摘要">
-      <span class="label-chip"><strong>女女关系：</strong>重要副线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>恋爱位置：</strong>重要副线</span><span class="label-chip"><strong>最高明确度：</strong>明确欲望</span><span class="label-chip"><strong>官方：</strong>未标百合／GL</span><span class="label-chip"><strong>置信度：</strong>高</span>
+      <span class="label-chip"><strong>女女关系：</strong>重要副线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>恋爱位置：</strong>重要副线</span><span class="label-chip"><strong>最高明确度：</strong>明确欲望</span><span class="label-chip"><strong>官方字面百合／GL：</strong>所核未见</span><span class="label-chip"><strong>官方女女恋爱表述：</strong>所核未见</span><span class="label-chip"><strong>官方来源：</strong>所核来源未含可公开筛选的层级或位置</span><span class="label-chip"><strong>置信度：</strong>高</span>
     </div>
     <a class="back-link" href="/yuri-classification-archive/table/?q=%E9%AD%94%E5%A5%B3%E4%B9%8B%E6%97%85">← 返回总表并定位本作</a>
   </header>
@@ -94,7 +107,7 @@
       <ol><li><a href="#无剧透结论">无剧透结论</a></li><li><a href="#数据库与公开分类">数据库与公开分类</a></li><li><a href="#决定性文本证据">决定性文本证据</a></li><li><a href="#四层分析">四层分析</a></li><li><a href="#最强反方解释">最强反方解释</a></li><li><a href="#分用途结论">分用途结论</a></li><li><a href="#方法来源与限制">方法、来源与限制</a></li></ol>
     </aside>
     <div class="report-content">
-      <blockquote><p>分类日期：2026-07-30<br> 分类对象：2020 年 TV 动画《魔女の旅々》第 1–12 话<br> 纳入范围：已播出的 TV 正篇全 12 话<br> 排除范围：原作轻小说、漫画、广播剧、宣传短篇、新作剧场版及整个企划的跨媒介推断<br> 用途：普通推荐与数据库分类</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p>《魔女之旅》TV 版适合归为<strong>含女女关系重要副线且按作品分类归档的奇幻旅行单元剧</strong>，不宜归为女女关系重要副线且按作品分类归档。这里的依据不是“主要角色多为女性”，也不是数据库里出现了“百合”标签，而是正篇让一名反复登场的女性角色持续、明确地向女主人公表达爱慕、结婚愿望和共同生活愿望；这些表达跨越多话，并参与数次重逢、礼物交换和喜剧冲突，已经超过只靠观众联想成立的局部读法。</p><p>与此同时，TV 版的叙事发动机始终是女主人公在不同国家旅行、进入他人的故事并再次离开。女性恋爱欲望不是她启程、继续旅行或完成整季人物弧线的主要原因。最持续的一组追求在本季没有发展为正式关系：女主人公把对方称作朋友，回避结婚提议，并对“成为妻子”的请求给出直接否定。正篇另有不能代表主线主人公回应的喜剧性旁支材料，不足以改变单向判断。</p><p>因此，“重要副线”“明确欲望”“主线单向”均为<strong>高置信度</strong>。它不满足双方明确告白并交往的检索，也不能用于角色身份检索；若只寻找正篇明示、跨话持续的女性对女性欲望，则有充分文本依据。</p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：重要副线｜百合归档依据：作品分类｜恋爱位置：重要副线｜最高明确度：明确女女恋爱欲望｜关系构成：单一主要关系记录｜官方：未标百合／GL｜阅读层级：正篇事实＋强推断＋读者解读｜身份依据类型：只有明确关系／欲望事实，无身份自述｜男性恋爱线：单元故事中的副线｜内容提示：反复求婚与共同生活要求被喜剧化处理、魔法导致的非自愿情感暴露、姐妹间欲望、身体互换、家庭虐待暗示、奴役、怀孕与亲人或恋人被杀、较强暴力和血腥场面、身体边界侵犯。</strong></p></blockquote><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li><strong>只寻找双方告白、正式交往、接吻或明确身份者：不适合。</strong> TV 正篇确实有直接的“喜欢”“结婚”“妻子”等表达，但核心反复关系仍是单方追求；女主人公没有与追求者交往，也没有自我说明性取向。</li><li><strong>接受明确单向欲望或反复百合副线者：适合。</strong> 该追求跨多次登场持续，若干重逢与后段事件最集中。推荐时应同时说明“旅行单元剧为主、恋爱副线未成关系”，避免让“明确欲望”被误读为“明确配对成立”。</li><li><strong>只想看不以纠缠、依赖或边界冲突制造笑料者：需要谨慎。</strong> 本作多次让追求者在被回避或拒绝后继续提出同住、同床、结婚等要求，后段还出现非自愿暴露情感的情节。这里列出的是可观察的行为与叙事处理，不以“健康／不健康”一词代替具体信息。</li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://majotabi.jp/?browser=1" target="_blank" rel="noopener noreferrer">TV 动画官方网站</a></td><td>INTRODUCTION 将作品概括为伊蕾娜在各国反复“相遇与离别”的旅行故事；角色页称沙耶遇见伊蕾娜后产生强烈憧憬。站内未提供百合／GL 分类字段</td><td>官方剧情与角色自述</td><td>用于确认作品的旅行单元剧主轴、12 话范围和官方公开措辞；“憧憬”不能替代正篇中更具体的恋爱台词，也不能写成官方认证百合</td></tr><tr class="even"><td><a href="https://myanimelist.net/anime/40571/Majo_no_Tabitabi" target="_blank" rel="noopener noreferrer">MyAnimeList</a>／<a href="https://api.jikan.moe/v4/anime/40571/full" target="_blank" rel="noopener noreferrer">Jikan API</a></td><td>TV、12 话；Genres 为 Adventure、Fantasy，未列 Girls Love</td><td>数据库编辑字段及其镜像 API</td><td>说明其主分类偏冒险与奇幻；字段沉默只记“未标”，不解释成否认正篇女性欲望</td></tr><tr class="odd"><td><a href="https://www.anime-planet.com/anime/wandering-witch-the-journey-of-elaina" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td>2026-07-30 完整 Tags 面板：<code>Adventure / Drama / Fantasy / Episodic / Magic / Witches / Based on a Light Novel</code></td><td>编辑维护的数据库标签</td><td>记录当前检索字段；不是官方认证，标签存在或沉默都不自动裁定作品关系</td></tr><tr class="even"><td><a href="https://anilist.co/anime/112609/Majo-no-Tabitabi" target="_blank" rel="noopener noreferrer">AniList</a></td><td>Genres 为 Adventure、Fantasy、Slice of Life；社区标签含 LGBTQ+ Themes（55%）与 Yuri（52%）</td><td>编辑类 Genre＋带权重社区标签</td><td>证明一部分用户把女性欲望视作可检索主题；百分比是站内相关度权重，不是官方分类、民意投票或角色身份概率</td></tr><tr class="odd"><td><a href="https://bangumi.tv/subject/292970" target="_blank" rel="noopener noreferrer">Bangumi</a></td><td>社区标签中“百合”3,315 次、“轻百合”105 次，同时“轻小说改”“公路片”“奇幻”“魔法”“旅行”也居前</td><td>社区用户标签</td><td>说明“百合”读法传播广且稳定，但标签计数不能决定女女关系重要副线归档；结构判断仍以全 12 话文本为准</td></tr></tbody></table></div><p>各站快照记录于 2026-07-30。互动数、标签计数和权重会变化，以上数值只用于说明当日数据库状态。官方字段、编辑分类和社区标签承担不同任务，不能按“有几个站写了百合”进行投票。尤其是 Bangumi 的高计数能够证明这种使用习惯很常见，却不能单独回答女女关系在整季叙事中是主线还是副线。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>以下部分包含本次分类对象的完整剧透。</p></aside>
+      <blockquote><p>分类日期：2026-07-30<br> 分类对象：2020 年 TV 动画《魔女の旅々》第 1–12 话<br> 纳入范围：已播出的 TV 正篇全 12 话<br> 排除范围：原作轻小说、漫画、广播剧、宣传短篇、新作剧场版及整个企划的跨媒介推断<br> 用途：普通推荐与数据库分类</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p>《魔女之旅》TV 版适合归为<strong>含女女关系重要副线且按作品分类归档的奇幻旅行单元剧</strong>，不宜归为女女关系重要副线且按作品分类归档。这里的依据不是“主要角色多为女性”，也不是数据库里出现了“百合”标签，而是正篇让一名反复登场的女性角色持续、明确地向女主人公表达爱慕、结婚愿望和共同生活愿望；这些表达跨越多话，并参与数次重逢、礼物交换和喜剧冲突，已经超过只靠观众联想成立的局部读法。</p><p>与此同时，TV 版的叙事发动机始终是女主人公在不同国家旅行、进入他人的故事并再次离开。女性恋爱欲望不是她启程、继续旅行或完成整季人物弧线的主要原因。最持续的一组追求在本季没有发展为正式关系：女主人公把对方称作朋友，回避结婚提议，并对“成为妻子”的请求给出直接否定。正篇另有不能代表主线主人公回应的喜剧性旁支材料，不足以改变单向判断。</p><p>因此，“重要副线”“明确欲望”“主线单向”均为<strong>高置信度</strong>。它不满足双方明确告白并交往的检索，也不能用于角色身份检索；若只寻找正篇明示、跨话持续的女性对女性欲望，则有充分文本依据。</p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：重要副线｜百合归档依据：作品分类｜恋爱位置：重要副线｜最高明确度：明确女女恋爱欲望｜关系构成：单一主要关系记录｜官方字面：所核未见｜官方恋爱表述：所核未见｜官方来源：所核未见匹配表述｜阅读层级：正篇事实＋强推断＋读者解读｜身份依据类型：只有明确关系／欲望事实，无身份自述｜男性恋爱线：单元故事中的副线｜内容提示：反复求婚与共同生活要求被喜剧化处理、魔法导致的非自愿情感暴露、姐妹间欲望、身体互换、家庭虐待暗示、奴役、怀孕与亲人或恋人被杀、较强暴力和血腥场面、身体边界侵犯。</strong></p></blockquote><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li><strong>只寻找双方告白、正式交往、接吻或明确身份者：不适合。</strong> TV 正篇确实有直接的“喜欢”“结婚”“妻子”等表达，但核心反复关系仍是单方追求；女主人公没有与追求者交往，也没有自我说明性取向。</li><li><strong>接受明确单向欲望或反复百合副线者：适合。</strong> 该追求跨多次登场持续，若干重逢与后段事件最集中。推荐时应同时说明“旅行单元剧为主、恋爱副线未成关系”，避免让“明确欲望”被误读为“明确配对成立”。</li><li><strong>只想看不以纠缠、依赖或边界冲突制造笑料者：需要谨慎。</strong> 本作多次让追求者在被回避或拒绝后继续提出同住、同床、结婚等要求，后段还出现非自愿暴露情感的情节。这里列出的是可观察的行为与叙事处理，不以“健康／不健康”一词代替具体信息。</li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://majotabi.jp/?browser=1" target="_blank" rel="noopener noreferrer">TV 动画官方网站</a></td><td>INTRODUCTION 将作品概括为伊蕾娜在各国反复“相遇与离别”的旅行故事；角色页称沙耶遇见伊蕾娜后产生强烈憧憬。站内未提供百合／GL 分类字段</td><td>官方剧情与角色自述</td><td>用于确认作品的旅行单元剧主轴、12 话范围和官方公开措辞；“憧憬”不能替代正篇中更具体的恋爱台词，也不能写成官方认证百合</td></tr><tr class="even"><td><a href="https://myanimelist.net/anime/40571/Majo_no_Tabitabi" target="_blank" rel="noopener noreferrer">MyAnimeList</a>／<a href="https://api.jikan.moe/v4/anime/40571/full" target="_blank" rel="noopener noreferrer">Jikan API</a></td><td>TV、12 话；Genres 为 Adventure、Fantasy，未列 Girls Love</td><td>数据库编辑字段及其镜像 API</td><td>说明其主分类偏冒险与奇幻；字段沉默只记“未标”，不解释成否认正篇女性欲望</td></tr><tr class="odd"><td><a href="https://www.anime-planet.com/anime/wandering-witch-the-journey-of-elaina" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td>2026-07-30 完整 Tags 面板：<code>Adventure / Drama / Fantasy / Episodic / Magic / Witches / Based on a Light Novel</code></td><td>编辑维护的数据库标签</td><td>记录当前检索字段；不是官方认证，标签存在或沉默都不自动裁定作品关系</td></tr><tr class="even"><td><a href="https://anilist.co/anime/112609/Majo-no-Tabitabi" target="_blank" rel="noopener noreferrer">AniList</a></td><td>Genres 为 Adventure、Fantasy、Slice of Life；社区标签含 LGBTQ+ Themes（55%）与 Yuri（52%）</td><td>编辑类 Genre＋带权重社区标签</td><td>证明一部分用户把女性欲望视作可检索主题；百分比是站内相关度权重，不是官方分类、民意投票或角色身份概率</td></tr><tr class="odd"><td><a href="https://bangumi.tv/subject/292970" target="_blank" rel="noopener noreferrer">Bangumi</a></td><td>社区标签中“百合”3,315 次、“轻百合”105 次，同时“轻小说改”“公路片”“奇幻”“魔法”“旅行”也居前</td><td>社区用户标签</td><td>说明“百合”读法传播广且稳定，但标签计数不能决定女女关系重要副线归档；结构判断仍以全 12 话文本为准</td></tr></tbody></table></div><p>各站快照记录于 2026-07-30。互动数、标签计数和权重会变化，以上数值只用于说明当日数据库状态。官方字段、编辑分类和社区标签承担不同任务，不能按“有几个站写了百合”进行投票。尤其是 Bangumi 的高计数能够证明这种使用习惯很常见，却不能单独回答女女关系在整季叙事中是主线还是副线。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>以下部分包含本次分类对象的完整剧透。</p></aside>
 
       <details class="spoiler-panel">
         <summary>
@@ -142,7 +155,7 @@
     </div>
   </footer>
   <script>window.SITE_CONFIG = {basePath: "/yuri-classification-archive"};</script>
-  <script src="/yuri-classification-archive/assets/site.js?v=95491b68a3ae" defer></script>
-  
+  <script src="/yuri-classification-archive/assets/site.js?v=686fc3d330d3" defer></script>
+
 </body>
 </html>

@@ -9,6 +9,7 @@
   <meta id="theme-color-dark" name="theme-color" media="(prefers-color-scheme: dark)" content="#1c181c">
   <script>
     (() => {
+      document.documentElement.classList.add("js");
       const storageKey = "yuri-classification-theme";
       const allowed = new Set(["system", "light", "dark"]);
       let preference = "system";
@@ -46,8 +47,8 @@
   <meta property="og:url" content="https://l-m-sherlock.github.io/yuri-classification-archive/works/haibane_renmei_tv_2002/">
   <meta property="og:image" content="https://l-m-sherlock.github.io/yuri-classification-archive/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
   <title>《灰羽联盟》分类报告｜百合作品分类档案</title>
-  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=014a89622973">
-  
+  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=1cc35b33d5cd">
+
 </head>
 <body class="classification-report">
   <a class="skip-link" href="#main-content">跳到正文</a>
@@ -60,12 +61,24 @@
           <small>按查询拆开标签，按证据保留边界</small>
         </span>
       </a>
-      <nav class="site-nav" aria-label="主导航">
-        <a href="/yuri-classification-archive/">首页</a>
-        <a href="/yuri-classification-archive/table/">总表</a>
-        <a href="/yuri-classification-archive/about/">方法与说明</a>
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-navigation"
+      >
+        <span>菜单</span>
+        <span class="menu-toggle-icon" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-navigation" aria-label="主导航">
+        <div class="nav-main">
+          <a href="/yuri-classification-archive/">首页</a>
+          <a href="/yuri-classification-archive/table/">总表</a>
+          <a href="/yuri-classification-archive/about/">方法与说明</a>
+        </div>
         <a class="nav-star" href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub / Star <span aria-hidden="true">↗</span></a>
-        <a href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
+        <a class="nav-feedback" href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
         <label class="theme-control" for="theme-preference">
           <span>主题</span>
           <select id="theme-preference" aria-label="主题偏好">
@@ -84,7 +97,7 @@
     <h1>《灰羽联盟》分类报告</h1>
     <p class="report-subtitle">2002 broadcast TV anime episodes 1-13</p>
     <div class="label-strip" aria-label="分类摘要">
-      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>恋爱位置：</strong>缺席</span><span class="label-chip"><strong>最高明确度：</strong>非恋爱</span><span class="label-chip"><strong>官方：</strong>未标百合／GL</span><span class="label-chip"><strong>置信度：</strong>高</span>
+      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>恋爱位置：</strong>缺席</span><span class="label-chip"><strong>最高明确度：</strong>非恋爱</span><span class="label-chip"><strong>官方字面百合／GL：</strong>所核未见</span><span class="label-chip"><strong>官方女女恋爱表述：</strong>所核未见</span><span class="label-chip"><strong>官方来源：</strong>所核来源未含可公开筛选的层级或位置</span><span class="label-chip"><strong>置信度：</strong>高</span>
     </div>
     <a class="back-link" href="/yuri-classification-archive/table/?q=%E7%81%B0%E7%BE%BD%E8%81%94%E7%9B%9F">← 返回总表并定位本作</a>
   </header>
@@ -94,7 +107,7 @@
       <ol><li><a href="#无剧透结论">无剧透结论</a></li><li><a href="#数据库与公开分类">数据库与公开分类</a></li><li><a href="#决定性文本证据">决定性文本证据</a></li><li><a href="#四层分析">四层分析</a></li><li><a href="#最强反方解释">最强反方解释</a></li><li><a href="#分用途结论">分用途结论</a></li><li><a href="#方法来源与限制">方法、来源与限制</a></li></ol>
     </aside>
     <div class="report-content">
-      <blockquote><p>分类日期：2026-07-30<br> 分类对象：2002 年电视动画《灰羽連盟》第 1–13 话<br> 纳入范围：正式播出的 TV 正篇全 13 话<br> 排除范围：原型同人志／漫画、设定集与脚本集、访谈补充、歌词或音乐作为独立文本、二次创作，以及任何跨媒介或全系列推断<br> 用途：普通推荐、数据库分类、严格恋爱检索与私人百合阅读</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p>按本仓库采用的广义文类口径，本作可归入<strong>女女关系主线且按作品分类归档</strong>：多组女女关系不只是背景配置，而是人物获得归属、承受离别、面对自我并完成关键选择的主要叙事机制；其中两位女性角色之间持续、双向、会经受冲突的照护与拯救关系，构成后半段的情感主轴。这个判断指向“女女关系中心作品”，不等于宣称正篇确认了恋爱。</p><p>按严格恋爱口径，本作应标为<strong>非恋爱</strong>。纳入的 13 话没有双方恋爱告白、正式交往、接吻、情侣称谓、性取向明示或确定的共同伴侣未来。字幕全文中出现的“喜欢”、陪伴承诺、想继续在一起、嫉妒与身体照护都必须放回具体语境：它们分别服务于信任破裂、救赎焦虑、离别恐惧和共同体照护，不能单独升级成恋爱事实。</p><p>结论置信度为<strong>高</strong>。理由是 TV 全 13 话日文字幕已逐话审读，并以相邻时间轴核对决定性场景；节目范围也由官方商品资料和授权发行资料交叉确认。主要限制是没有同步视频可做完整视听复核，字幕是非官方转录且有少量错字、轴重叠和无说话人标注，因此本报告只对能由连续语境稳定确认的台词与情节下结论。</p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：缺席｜最高明确度：非恋爱｜关系构成：单一主要关系记录｜官方：未标｜阅读层级：正篇事实＋读者解读｜身份依据类型：范围内没有性取向身份依据｜男性恋爱线：副线｜内容提示：死亡与离别、创伤记忆、血与身体疼痛、疑似自杀及自伤意象、儿童／少女受险、嫉妒与操控性坦白、宗教与赎罪意象</strong></p></blockquote><p>七轴之间不得互相代换。“女女关系主线归档”来自女女关系在叙事中的中心性；“非恋爱”记录正篇实际确认到的表达层级；“双向”只说明核心关系双方都主动选择、照护和拯救过对方；“身份未知”则表示不能由作品标签倒推任何角色的性取向。</p><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li>只寻找双方明确告白、正式交往、接吻或身份明示的读者：<strong>不符合</strong>。若数据库的“百合”字段被限定为“正篇确认女女恋爱”，本作不宜进入该结果集。</li><li>接受女女关系中心、共同生活式照护、重要女性羁绊或私人百合阅读的读者：<strong>适合</strong>；这些关系位于叙事主线，而不是偶发的边角要素。</li><li>只接受“潜在恋爱但尚未确认”的读者：可以作为私人解读候选，但报告不会把核心关系公共标成潜在恋爱，因为同一批行为在作品的共同体、师长—后辈、同伴与救赎结构中已经有充分解释，正篇也没有把欲望或伴侣排他性写出来。</li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><p>以下是 2026-07-30 的来源快照。官方沉默只写“未标”，不写成官方否认；数据库编辑字段与社区用户标签也分开记录。</p><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://www.nbcuni.co.jp/rondorobe/anime/haibane/" target="_blank" rel="noopener noreferrer">NBCUniversal 现行作品页</a></td><td>《灰羽連盟》Blu-ray 作品入口；未见百合或 GL 营销标签</td><td>官方作品／商品资料</td><td>核对官方名称与官方标签状态；“未标”不等于否认</td></tr><tr class="even"><td><a href="https://www.nbcuni.co.jp/rondorobe/anime/haibane/item/index.html" target="_blank" rel="noopener noreferrer">NBCUniversal 商品档案</a></td><td>原 DVD 五卷分别收录第 1、2–4、5–7、8–10、11–13 话</td><td>官方发行资料</td><td>确认本报告 TV 正篇范围为第 1–13 话</td></tr><tr class="odd"><td><a href="https://www.nbcuni.co.jp/rondorobe/anime/haibane/about/index.html" target="_blank" rel="noopener noreferrer">NBCUniversal 角色辞典</a></td><td>各角色页把砾写为照顾年幼者的领袖型人物；<a href="https://www.nbcuni.co.jp/rondorobe/anime/haibane/about/midori.html" target="_blank" rel="noopener noreferrer">绿的页面</a>以问号式宣传文案提示绿—冰湖—砾的局部情感方向，并把砾对绿的关系写成近似疼爱妹妹</td><td>官方角色／营销文案</td><td>支持照护结构和局部男性情感线的存在；问号文案不当成交往确认</td></tr><tr class="even"><td><a href="https://www.mvm-films.com/Title/MBC7156" target="_blank" rel="noopener noreferrer">MVM 授权发行页</a></td><td>标明收录 Episodes 1–13、日英音轨与英文字幕</td><td>授权地区发行资料</td><td>交叉核对集数与版本范围；未把它当作作品文类判定来源</td></tr><tr class="odd"><td><a href="https://myanimelist.net/anime/387/Haibane_Renmei" target="_blank" rel="noopener noreferrer">MyAnimeList</a></td><td>TV、13 话；Drama、Fantasy、Mystery，Psychological 主题；未列 Romance 或 Girls Love</td><td>编辑型数据库</td><td>记录常用文类字段的沉默；不能由未列标签推出“不是百合”</td></tr><tr class="even"><td><a href="https://www.anime-planet.com/anime/haibane-renmei" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td>2026-07-30 完整 Tags 面板：<code>Drama / Fantasy / Slice of Life / Afterlife / Amnesia / Angels / Countryside / Based on a Doujinshi</code></td><td>编辑维护的数据库标签</td><td>记录当前检索字段；不是官方认证，标签存在或沉默都不自动裁定作品关系</td></tr><tr class="odd"><td><a href="https://anilist.co/anime/387/Haibane-Renmei" target="_blank" rel="noopener noreferrer">AniList</a></td><td>GraphQL 返回 TV、13 话；Drama、Fantasy、Mystery、Psychological、Slice of Life；社区标签突出 Angels、Rehabilitation、Found Family、Female Protagonist 等，完整返回项未含 Yuri 或 Romance</td><td>编辑文类＋加权社区标签</td><td>说明公共文类重心和社区侧标签快照；标签权重不是支持率</td></tr><tr class="even"><td><a href="https://bangumi.tv/subject/893" target="_blank" rel="noopener noreferrer">Bangumi subject 893</a>／<a href="https://api.bgm.tv/v0/subjects/893" target="_blank" rel="noopener noreferrer">公开 API</a></td><td>TV、13 话；实时用户标签中“百合”计数为 191</td><td>社区数据库与用户标签聚合</td><td>证明站内确有百合用法并解释 Top 100 样本来源；191 是标签计数，不是百分比、票数共识或官方认证</td></tr><tr class="odd"><td><a href="https://jimaku.cc/entry/1524" target="_blank" rel="noopener noreferrer">Jimaku entry 1524</a></td><td>与 AniList 387 对应的日文 SRT，第 1–13 话同一上传来源完整齐号；2026-07-30 重下载与本地归档逐份一致</td><td>字幕档案</td><td>用于正篇逐话文本检索、时间定位和短引；不声称为官方字幕</td></tr></tbody></table></div><p>公开字段呈现出稳定的分层：官方资料和主流编辑文类集中在奇幻、剧情、心理与神秘，没有把作品营销为百合或 GL；Bangumi 的社区标签则明确保留了“百合”读法。两者并不矛盾，因为前者回答官方／编辑分类，后者反映用户如何给女女关系中心作品命名。本报告的按作品归档判断最终仍以正篇结构为主，而非按站点数量投票。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>以下部分包含第 1–13 话的完整剧透，包括角色离去、砾的过去与结局。</p></aside>
+      <blockquote><p>分类日期：2026-07-30<br> 分类对象：2002 年电视动画《灰羽連盟》第 1–13 话<br> 纳入范围：正式播出的 TV 正篇全 13 话<br> 排除范围：原型同人志／漫画、设定集与脚本集、访谈补充、歌词或音乐作为独立文本、二次创作，以及任何跨媒介或全系列推断<br> 用途：普通推荐、数据库分类、严格恋爱检索与私人百合阅读</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p>按本仓库采用的广义文类口径，本作可归入<strong>女女关系主线且按作品分类归档</strong>：多组女女关系不只是背景配置，而是人物获得归属、承受离别、面对自我并完成关键选择的主要叙事机制；其中两位女性角色之间持续、双向、会经受冲突的照护与拯救关系，构成后半段的情感主轴。这个判断指向“女女关系中心作品”，不等于宣称正篇确认了恋爱。</p><p>按严格恋爱口径，本作应标为<strong>非恋爱</strong>。纳入的 13 话没有双方恋爱告白、正式交往、接吻、情侣称谓、性取向明示或确定的共同伴侣未来。字幕全文中出现的“喜欢”、陪伴承诺、想继续在一起、嫉妒与身体照护都必须放回具体语境：它们分别服务于信任破裂、救赎焦虑、离别恐惧和共同体照护，不能单独升级成恋爱事实。</p><p>结论置信度为<strong>高</strong>。理由是 TV 全 13 话日文字幕已逐话审读，并以相邻时间轴核对决定性场景；节目范围也由官方商品资料和授权发行资料交叉确认。主要限制是没有同步视频可做完整视听复核，字幕是非官方转录且有少量错字、轴重叠和无说话人标注，因此本报告只对能由连续语境稳定确认的台词与情节下结论。</p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：缺席｜最高明确度：非恋爱｜关系构成：单一主要关系记录｜官方字面：所核未见｜官方恋爱表述：所核未见｜官方来源：所核未见匹配表述｜阅读层级：正篇事实＋读者解读｜身份依据类型：范围内没有性取向身份依据｜男性恋爱线：副线｜内容提示：死亡与离别、创伤记忆、血与身体疼痛、疑似自杀及自伤意象、儿童／少女受险、嫉妒与操控性坦白、宗教与赎罪意象</strong></p></blockquote><p>七轴之间不得互相代换。“女女关系主线归档”来自女女关系在叙事中的中心性；“非恋爱”记录正篇实际确认到的表达层级；“双向”只说明核心关系双方都主动选择、照护和拯救过对方；“身份未知”则表示不能由作品标签倒推任何角色的性取向。</p><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li>只寻找双方明确告白、正式交往、接吻或身份明示的读者：<strong>不符合</strong>。若数据库的“百合”字段被限定为“正篇确认女女恋爱”，本作不宜进入该结果集。</li><li>接受女女关系中心、共同生活式照护、重要女性羁绊或私人百合阅读的读者：<strong>适合</strong>；这些关系位于叙事主线，而不是偶发的边角要素。</li><li>只接受“潜在恋爱但尚未确认”的读者：可以作为私人解读候选，但报告不会把核心关系公共标成潜在恋爱，因为同一批行为在作品的共同体、师长—后辈、同伴与救赎结构中已经有充分解释，正篇也没有把欲望或伴侣排他性写出来。</li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><p>以下是 2026-07-30 的来源快照。官方沉默只写“未标”，不写成官方否认；数据库编辑字段与社区用户标签也分开记录。</p><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://www.nbcuni.co.jp/rondorobe/anime/haibane/" target="_blank" rel="noopener noreferrer">NBCUniversal 现行作品页</a></td><td>《灰羽連盟》Blu-ray 作品入口；未见百合或 GL 营销标签</td><td>官方作品／商品资料</td><td>核对官方名称与官方标签状态；“未标”不等于否认</td></tr><tr class="even"><td><a href="https://www.nbcuni.co.jp/rondorobe/anime/haibane/item/index.html" target="_blank" rel="noopener noreferrer">NBCUniversal 商品档案</a></td><td>原 DVD 五卷分别收录第 1、2–4、5–7、8–10、11–13 话</td><td>官方发行资料</td><td>确认本报告 TV 正篇范围为第 1–13 话</td></tr><tr class="odd"><td><a href="https://www.nbcuni.co.jp/rondorobe/anime/haibane/about/index.html" target="_blank" rel="noopener noreferrer">NBCUniversal 角色辞典</a></td><td>各角色页把砾写为照顾年幼者的领袖型人物；<a href="https://www.nbcuni.co.jp/rondorobe/anime/haibane/about/midori.html" target="_blank" rel="noopener noreferrer">绿的页面</a>以问号式宣传文案提示绿—冰湖—砾的局部情感方向，并把砾对绿的关系写成近似疼爱妹妹</td><td>官方角色／营销文案</td><td>支持照护结构和局部男性情感线的存在；问号文案不当成交往确认</td></tr><tr class="even"><td><a href="https://www.mvm-films.com/Title/MBC7156" target="_blank" rel="noopener noreferrer">MVM 授权发行页</a></td><td>标明收录 Episodes 1–13、日英音轨与英文字幕</td><td>授权地区发行资料</td><td>交叉核对集数与版本范围；未把它当作作品文类判定来源</td></tr><tr class="odd"><td><a href="https://myanimelist.net/anime/387/Haibane_Renmei" target="_blank" rel="noopener noreferrer">MyAnimeList</a></td><td>TV、13 话；Drama、Fantasy、Mystery，Psychological 主题；未列 Romance 或 Girls Love</td><td>编辑型数据库</td><td>记录常用文类字段的沉默；不能由未列标签推出“不是百合”</td></tr><tr class="even"><td><a href="https://www.anime-planet.com/anime/haibane-renmei" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td>2026-07-30 完整 Tags 面板：<code>Drama / Fantasy / Slice of Life / Afterlife / Amnesia / Angels / Countryside / Based on a Doujinshi</code></td><td>编辑维护的数据库标签</td><td>记录当前检索字段；不是官方认证，标签存在或沉默都不自动裁定作品关系</td></tr><tr class="odd"><td><a href="https://anilist.co/anime/387/Haibane-Renmei" target="_blank" rel="noopener noreferrer">AniList</a></td><td>GraphQL 返回 TV、13 话；Drama、Fantasy、Mystery、Psychological、Slice of Life；社区标签突出 Angels、Rehabilitation、Found Family、Female Protagonist 等，完整返回项未含 Yuri 或 Romance</td><td>编辑文类＋加权社区标签</td><td>说明公共文类重心和社区侧标签快照；标签权重不是支持率</td></tr><tr class="even"><td><a href="https://bangumi.tv/subject/893" target="_blank" rel="noopener noreferrer">Bangumi subject 893</a>／<a href="https://api.bgm.tv/v0/subjects/893" target="_blank" rel="noopener noreferrer">公开 API</a></td><td>TV、13 话；实时用户标签中“百合”计数为 191</td><td>社区数据库与用户标签聚合</td><td>证明站内确有百合用法并解释 Top 100 样本来源；191 是标签计数，不是百分比、票数共识或官方认证</td></tr><tr class="odd"><td><a href="https://jimaku.cc/entry/1524" target="_blank" rel="noopener noreferrer">Jimaku entry 1524</a></td><td>与 AniList 387 对应的日文 SRT，第 1–13 话同一上传来源完整齐号；2026-07-30 重下载与本地归档逐份一致</td><td>字幕档案</td><td>用于正篇逐话文本检索、时间定位和短引；不声称为官方字幕</td></tr></tbody></table></div><p>公开字段呈现出稳定的分层：官方资料和主流编辑文类集中在奇幻、剧情、心理与神秘，没有把作品营销为百合或 GL；Bangumi 的社区标签则明确保留了“百合”读法。两者并不矛盾，因为前者回答官方／编辑分类，后者反映用户如何给女女关系中心作品命名。本报告的按作品归档判断最终仍以正篇结构为主，而非按站点数量投票。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>以下部分包含第 1–13 话的完整剧透，包括角色离去、砾的过去与结局。</p></aside>
 
       <details class="spoiler-panel">
         <summary>
@@ -142,7 +155,7 @@
     </div>
   </footer>
   <script>window.SITE_CONFIG = {basePath: "/yuri-classification-archive"};</script>
-  <script src="/yuri-classification-archive/assets/site.js?v=95491b68a3ae" defer></script>
-  
+  <script src="/yuri-classification-archive/assets/site.js?v=686fc3d330d3" defer></script>
+
 </body>
 </html>

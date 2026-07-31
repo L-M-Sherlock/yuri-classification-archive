@@ -9,6 +9,7 @@
   <meta id="theme-color-dark" name="theme-color" media="(prefers-color-scheme: dark)" content="#1c181c">
   <script>
     (() => {
+      document.documentElement.classList.add("js");
       const storageKey = "yuri-classification-theme";
       const allowed = new Set(["system", "light", "dark"]);
       let preference = "system";
@@ -46,8 +47,8 @@
   <meta property="og:url" content="https://l-m-sherlock.github.io/yuri-classification-archive/works/hakumei_to_mikochi_tv_2018/">
   <meta property="og:image" content="https://l-m-sherlock.github.io/yuri-classification-archive/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
   <title>《妖精森林的小不点》分类报告｜百合作品分类档案</title>
-  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=014a89622973">
-  
+  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=1cc35b33d5cd">
+
 </head>
 <body class="classification-report">
   <a class="skip-link" href="#main-content">跳到正文</a>
@@ -60,12 +61,24 @@
           <small>按查询拆开标签，按证据保留边界</small>
         </span>
       </a>
-      <nav class="site-nav" aria-label="主导航">
-        <a href="/yuri-classification-archive/">首页</a>
-        <a href="/yuri-classification-archive/table/">总表</a>
-        <a href="/yuri-classification-archive/about/">方法与说明</a>
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-navigation"
+      >
+        <span>菜单</span>
+        <span class="menu-toggle-icon" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-navigation" aria-label="主导航">
+        <div class="nav-main">
+          <a href="/yuri-classification-archive/">首页</a>
+          <a href="/yuri-classification-archive/table/">总表</a>
+          <a href="/yuri-classification-archive/about/">方法与说明</a>
+        </div>
         <a class="nav-star" href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub / Star <span aria-hidden="true">↗</span></a>
-        <a href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
+        <a class="nav-feedback" href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
         <label class="theme-control" for="theme-preference">
           <span>主题</span>
           <select id="theme-preference" aria-label="主题偏好">
@@ -84,7 +97,7 @@
     <h1>《妖精森林的小不点》分类报告</h1>
     <p class="report-subtitle">2018 broadcast TV anime episodes 1-12</p>
     <div class="label-strip" aria-label="分类摘要">
-      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>恋爱位置：</strong>缺席</span><span class="label-chip"><strong>最高明确度：</strong>非恋爱</span><span class="label-chip"><strong>官方：</strong>未标百合／GL</span><span class="label-chip"><strong>置信度：</strong>高</span>
+      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>恋爱位置：</strong>缺席</span><span class="label-chip"><strong>最高明确度：</strong>非恋爱</span><span class="label-chip"><strong>官方字面百合／GL：</strong>所核未见</span><span class="label-chip"><strong>官方女女恋爱表述：</strong>所核未见</span><span class="label-chip"><strong>官方来源：</strong>所核来源未含可公开筛选的层级或位置</span><span class="label-chip"><strong>置信度：</strong>高</span>
     </div>
     <a class="back-link" href="/yuri-classification-archive/table/?q=%E5%A6%96%E7%B2%BE%E6%A3%AE%E6%9E%97%E7%9A%84%E5%B0%8F%E4%B8%8D%E7%82%B9">← 返回总表并定位本作</a>
   </header>
@@ -94,7 +107,7 @@
       <ol><li><a href="#无剧透结论">无剧透结论</a></li><li><a href="#数据库与公开分类">数据库与公开分类</a></li><li><a href="#决定性文本证据">决定性文本证据</a></li><li><a href="#四层分析">四层分析</a></li><li><a href="#最强反方解释">最强反方解释</a></li><li><a href="#分用途结论">分用途结论</a></li><li><a href="#方法来源与限制">方法、来源与限制</a></li></ol>
     </aside>
     <div class="report-content">
-      <blockquote><p>分类日期：2026-07-30<br> 分类对象：2018 年 TV 动画《ハクメイとミコチ》（《妖精森林的小不点》）<br> 纳入范围：正式电视播出的第 1–12 话<br> 排除范围：BD／DVD 下卷特典 OVA《ネジとベッド と 囲炉裏と博打》、网络短篇《足下の歩き方》、原作漫画、设定资料及其他衍生或跨媒介材料<br> 用途：普通推荐、开放型百合分类与严格女女恋爱检索</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p><strong>结论：本作属于非恋爱型女女关系主线且按作品分类归档，置信度高。</strong> 标题中的两名女性长期共同生活，采购、料理、工作、旅行、返家和相互照顾构成全季稳定的人物框架；其他女性之间的竞争、合作与朋友照护也占有独立篇幅。作品首先是奇幻日常、劳动与社区单元剧，这里的“女女关系主线且按作品分类归档”描述女女关系的结构中心，不等于认定它是恋爱剧。</p><p><strong>严格女女恋爱检索不命中。</strong> 正篇明确两人是朋友和同居人，有双向照护与共同生活，却没有女女告白、正式交往、恋爱接吻、欲望表达或性取向身份明示。适合接受非恋爱女女关系中心作品的读者；若只寻找文本确认的女女情侣，则不应据此推荐。</p><p>官方所核页面未使用百合／GL 标签，主流数据库也更突出奇幻与日常；Bangumi 用户标签则收录“百合”“轻百合”。本报告将官方表述、数据库字段、社区读法和私人配对分开记录。季中存在边缘配角的既有异性婚姻，但没有与标题二人并列或取代她们的男性恋爱主线。</p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：缺席｜最高明确度：非恋爱｜关系构成：单一主要关系记录｜官方：核对页面未标百合／GL｜阅读层级：正篇事实＋强推断＋读者解读｜身份依据类型：范围内没有性取向身份依据｜男性恋爱线：次要（仅边缘成年夫妻及若干非主线婚恋话题）｜内容提示：野外遇险、受伤与中毒；绑架、帮派威胁及打斗；酒精和烟草；狩猎、捕鱼、屠宰与食用动物；泡澡／裸身相关台词；本范围没有确认的女女恋爱。</strong></p></blockquote><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li>只寻找女女告白、正式交往、恋爱接吻或女同性恋／双性恋身份明示：<strong>不符合本次 TV 范围</strong>。</li><li>接受女性朋友之间的共同生活、持续选择、劳动协作和照护进入广义百合：<strong>符合，且标题二人的关系是全季主轴</strong>。</li><li>寻找“同居即情侣”或“共同返家即恋爱”的作品：<strong>不能这样保证</strong>；正篇可用的明确称谓是朋友与同居人。</li><li>寻找没有任何异性婚姻内容的作品：<strong>不符合</strong>；第 5 话有一对配角成年夫妻，第 10 话也提到姐姐将与剧团成员结婚，但后者对象性别没有说明。</li><li>寻找以恋爱悬念推动剧情的作品：<strong>不适合按此用途推荐</strong>；本作的推进单位是生活、手艺、劳动、旅行和社区关系。</li><li>私人配对或二创阅读：<strong>哈库梅伊—蜜珂析素材充足</strong>，但应把配对解读与正篇的非恋爱称谓分开记录。</li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><p>以下为 2026-07-30 复核状态。官方表述、编辑型数据库字段、平台汇总和社区标签各自回答不同问题，不能把标签数量或权重当作“文本中存在恋爱”的投票。</p><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://hakumiko.com/story01.html" target="_blank" rel="noopener noreferrer">动画官网 Story #1</a>、<a href="https://hakumiko.com/story12.html" target="_blank" rel="noopener noreferrer">Story #12</a> 与 <a href="https://hakumiko.com/news.html?id=n030" target="_blank" rel="noopener noreferrer">News</a></td><td>官网称哈库梅伊与蜜珂析为住在森林里的两名小小的女孩；分话页从 #1 列至 #12，官方重播公告写“全12話”；所核页面未使用百合／GL</td><td>官方剧情与播出资料</td><td>确认标题二人的女性身份、故事起点及 12 话 TV 范围；“未标”不等于官方否认</td></tr><tr class="even"><td><a href="https://hakumiko.com/story_ova.html" target="_blank" rel="noopener noreferrer">动画官网 OVA 页面</a></td><td>把《ネジとベッド と 囲炉裏と博打》单列为 OVA，并注明收录于 Blu-ray／DVD 下卷特典</td><td>官方发行资料</td><td>将影碟特典与正式 TV 第 1–12 话分开，不使用其剧情补强本报告</td></tr><tr class="odd"><td><a href="https://myanimelist.net/anime/36094/Hakumei_to_Mikochi" target="_blank" rel="noopener noreferrer">MyAnimeList 36094</a></td><td><code>TV</code>、12 话；Genres 为 <code>Fantasy / Slice of Life</code>，Themes 为 <code>Anthropomorphic / Iyashikei</code>，Demographic 为 <code>Seinen</code>；直达页当前未列 <code>Girls Love</code> 或 <code>Romance</code></td><td>编辑型数据库</td><td>记录 MAL 的题材检索口径；2026-07-30 直达页读取成功，Jikan 重试返回 504，故未依赖镜像</td></tr><tr class="even"><td><a href="https://www.anime-planet.com/anime/hakumei-and-mikochi" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td>2026-07-30 完整 Tags 面板：<code>Fantasy / Seinen / Slice of Life / Forest / Iyashikei / Roommates / Tiny People / Based on a Manga</code></td><td>编辑维护的数据库标签</td><td>记录当前检索字段；不是官方认证，标签存在或沉默都不自动裁定作品关系</td></tr><tr class="odd"><td><a href="https://anilist.co/anime/99748/Hakumei-to-Mikochi" target="_blank" rel="noopener noreferrer">AniList 99748</a></td><td><code>TV</code>、12 话；Genres 为 <code>Fantasy / Slice of Life</code>；当前返回的加权社区标签以 <code>Iyashikei 95</code>、<code>Female Protagonist 82</code>、<code>Primarily Female Cast 74</code>、<code>CGDCT 73</code> 等为主，没有 Yuri；关系项把 OVA 101696 另列为 Side Story</td><td>编辑字段＋带权重社区标签</td><td>支持 TV／OVA 分离及当前站内检索状态；标签权重不是用户赞成比例，也不是官方认证</td></tr><tr class="even"><td><a href="https://bangumi.tv/subject/221726" target="_blank" rel="noopener noreferrer">Bangumi 221726</a>／<a href="https://api.bgm.tv/v0/subjects/221726" target="_blank" rel="noopener noreferrer">公共 API</a></td><td>平台为 <code>TV</code>，当前聚合为 13 话；动态用户标签含“治愈 1199”“日常 878”“奇幻 620”“百合 289”“轻百合 18”等</td><td>社区数据库、平台汇总及本批榜单来源</td><td>说明本作进入百合社区检索的原因；其 13 话聚合不覆盖官网“全 12 话”及独立 OVA 页所定义的本次范围</td></tr><tr class="odd"><td><a href="https://jimaku.cc/entry/1079" target="_blank" rel="noopener noreferrer">Jimaku TV 条目 1079</a></td><td>与 AniList 99748 精确映射；同源 AT-X 日文 SRT 连续覆盖第 1–12 话；<a href="https://jimaku.cc/entry/10140" target="_blank" rel="noopener noreferrer">OVA 条目 10140</a> 独立存在</td><td>字幕资料库</td><td>用于全文检索、时间码定位和上下文复核；字幕不是官方台本，OVA 文件未纳入</td></tr></tbody></table></div><p>公开资料给出的是一幅分层图景：官方明确“两名女孩”与 12 话 TV 范围，却不作百合营销；MAL 与 AniList 优先把作品当作奇幻日常；Bangumi 用户则广泛使用“百合”，少量用户使用“轻百合”。因此，数据库共识可以支持“社区存在广义百合读法”，却不能代替正篇判断恋爱明确度。</p><p>Bangumi 的 13 话数尤其需要范围校正。官网把 #12 标为 TV 正篇收束，并把约 24 分钟的新作单独称作 OVA、注明为影碟特典；AniList 与 Jimaku 也给 OVA 独立条目。故本报告以发行层级更清楚的官方资料为准，只审第 1–12 话。此处不是判定 Bangumi 数据“错误”，而是拒绝把平台聚合范围误当成本档的版本范围。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>以下部分包含 2018 年 TV 动画第 1–12 话的完整剧透，包括角色关系、婚姻信息、危险事件与季终选择。</p></aside>
+      <blockquote><p>分类日期：2026-07-30<br> 分类对象：2018 年 TV 动画《ハクメイとミコチ》（《妖精森林的小不点》）<br> 纳入范围：正式电视播出的第 1–12 话<br> 排除范围：BD／DVD 下卷特典 OVA《ネジとベッド と 囲炉裏と博打》、网络短篇《足下の歩き方》、原作漫画、设定资料及其他衍生或跨媒介材料<br> 用途：普通推荐、开放型百合分类与严格女女恋爱检索</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p><strong>结论：本作属于非恋爱型女女关系主线且按作品分类归档，置信度高。</strong> 标题中的两名女性长期共同生活，采购、料理、工作、旅行、返家和相互照顾构成全季稳定的人物框架；其他女性之间的竞争、合作与朋友照护也占有独立篇幅。作品首先是奇幻日常、劳动与社区单元剧，这里的“女女关系主线且按作品分类归档”描述女女关系的结构中心，不等于认定它是恋爱剧。</p><p><strong>严格女女恋爱检索不命中。</strong> 正篇明确两人是朋友和同居人，有双向照护与共同生活，却没有女女告白、正式交往、恋爱接吻、欲望表达或性取向身份明示。适合接受非恋爱女女关系中心作品的读者；若只寻找文本确认的女女情侣，则不应据此推荐。</p><p>官方所核页面未使用百合／GL 标签，主流数据库也更突出奇幻与日常；Bangumi 用户标签则收录“百合”“轻百合”。本报告将官方表述、数据库字段、社区读法和私人配对分开记录。季中存在边缘配角的既有异性婚姻，但没有与标题二人并列或取代她们的男性恋爱主线。</p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：缺席｜最高明确度：非恋爱｜关系构成：单一主要关系记录｜官方字面：所核未见｜官方恋爱表述：所核未见｜官方来源：所核未见匹配表述｜阅读层级：正篇事实＋强推断＋读者解读｜身份依据类型：范围内没有性取向身份依据｜男性恋爱线：次要（仅边缘成年夫妻及若干非主线婚恋话题）｜内容提示：野外遇险、受伤与中毒；绑架、帮派威胁及打斗；酒精和烟草；狩猎、捕鱼、屠宰与食用动物；泡澡／裸身相关台词；本范围没有确认的女女恋爱。</strong></p></blockquote><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li>只寻找女女告白、正式交往、恋爱接吻或女同性恋／双性恋身份明示：<strong>不符合本次 TV 范围</strong>。</li><li>接受女性朋友之间的共同生活、持续选择、劳动协作和照护进入广义百合：<strong>符合，且标题二人的关系是全季主轴</strong>。</li><li>寻找“同居即情侣”或“共同返家即恋爱”的作品：<strong>不能这样保证</strong>；正篇可用的明确称谓是朋友与同居人。</li><li>寻找没有任何异性婚姻内容的作品：<strong>不符合</strong>；第 5 话有一对配角成年夫妻，第 10 话也提到姐姐将与剧团成员结婚，但后者对象性别没有说明。</li><li>寻找以恋爱悬念推动剧情的作品：<strong>不适合按此用途推荐</strong>；本作的推进单位是生活、手艺、劳动、旅行和社区关系。</li><li>私人配对或二创阅读：<strong>哈库梅伊—蜜珂析素材充足</strong>，但应把配对解读与正篇的非恋爱称谓分开记录。</li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><p>以下为 2026-07-30 复核状态。官方表述、编辑型数据库字段、平台汇总和社区标签各自回答不同问题，不能把标签数量或权重当作“文本中存在恋爱”的投票。</p><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://hakumiko.com/story01.html" target="_blank" rel="noopener noreferrer">动画官网 Story #1</a>、<a href="https://hakumiko.com/story12.html" target="_blank" rel="noopener noreferrer">Story #12</a> 与 <a href="https://hakumiko.com/news.html?id=n030" target="_blank" rel="noopener noreferrer">News</a></td><td>官网称哈库梅伊与蜜珂析为住在森林里的两名小小的女孩；分话页从 #1 列至 #12，官方重播公告写“全12話”；所核页面未使用百合／GL</td><td>官方剧情与播出资料</td><td>确认标题二人的女性身份、故事起点及 12 话 TV 范围；“未标”不等于官方否认</td></tr><tr class="even"><td><a href="https://hakumiko.com/story_ova.html" target="_blank" rel="noopener noreferrer">动画官网 OVA 页面</a></td><td>把《ネジとベッド と 囲炉裏と博打》单列为 OVA，并注明收录于 Blu-ray／DVD 下卷特典</td><td>官方发行资料</td><td>将影碟特典与正式 TV 第 1–12 话分开，不使用其剧情补强本报告</td></tr><tr class="odd"><td><a href="https://myanimelist.net/anime/36094/Hakumei_to_Mikochi" target="_blank" rel="noopener noreferrer">MyAnimeList 36094</a></td><td><code>TV</code>、12 话；Genres 为 <code>Fantasy / Slice of Life</code>，Themes 为 <code>Anthropomorphic / Iyashikei</code>，Demographic 为 <code>Seinen</code>；直达页当前未列 <code>Girls Love</code> 或 <code>Romance</code></td><td>编辑型数据库</td><td>记录 MAL 的题材检索口径；2026-07-30 直达页读取成功，Jikan 重试返回 504，故未依赖镜像</td></tr><tr class="even"><td><a href="https://www.anime-planet.com/anime/hakumei-and-mikochi" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td>2026-07-30 完整 Tags 面板：<code>Fantasy / Seinen / Slice of Life / Forest / Iyashikei / Roommates / Tiny People / Based on a Manga</code></td><td>编辑维护的数据库标签</td><td>记录当前检索字段；不是官方认证，标签存在或沉默都不自动裁定作品关系</td></tr><tr class="odd"><td><a href="https://anilist.co/anime/99748/Hakumei-to-Mikochi" target="_blank" rel="noopener noreferrer">AniList 99748</a></td><td><code>TV</code>、12 话；Genres 为 <code>Fantasy / Slice of Life</code>；当前返回的加权社区标签以 <code>Iyashikei 95</code>、<code>Female Protagonist 82</code>、<code>Primarily Female Cast 74</code>、<code>CGDCT 73</code> 等为主，没有 Yuri；关系项把 OVA 101696 另列为 Side Story</td><td>编辑字段＋带权重社区标签</td><td>支持 TV／OVA 分离及当前站内检索状态；标签权重不是用户赞成比例，也不是官方认证</td></tr><tr class="even"><td><a href="https://bangumi.tv/subject/221726" target="_blank" rel="noopener noreferrer">Bangumi 221726</a>／<a href="https://api.bgm.tv/v0/subjects/221726" target="_blank" rel="noopener noreferrer">公共 API</a></td><td>平台为 <code>TV</code>，当前聚合为 13 话；动态用户标签含“治愈 1199”“日常 878”“奇幻 620”“百合 289”“轻百合 18”等</td><td>社区数据库、平台汇总及本批榜单来源</td><td>说明本作进入百合社区检索的原因；其 13 话聚合不覆盖官网“全 12 话”及独立 OVA 页所定义的本次范围</td></tr><tr class="odd"><td><a href="https://jimaku.cc/entry/1079" target="_blank" rel="noopener noreferrer">Jimaku TV 条目 1079</a></td><td>与 AniList 99748 精确映射；同源 AT-X 日文 SRT 连续覆盖第 1–12 话；<a href="https://jimaku.cc/entry/10140" target="_blank" rel="noopener noreferrer">OVA 条目 10140</a> 独立存在</td><td>字幕资料库</td><td>用于全文检索、时间码定位和上下文复核；字幕不是官方台本，OVA 文件未纳入</td></tr></tbody></table></div><p>公开资料给出的是一幅分层图景：官方明确“两名女孩”与 12 话 TV 范围，却不作百合营销；MAL 与 AniList 优先把作品当作奇幻日常；Bangumi 用户则广泛使用“百合”，少量用户使用“轻百合”。因此，数据库共识可以支持“社区存在广义百合读法”，却不能代替正篇判断恋爱明确度。</p><p>Bangumi 的 13 话数尤其需要范围校正。官网把 #12 标为 TV 正篇收束，并把约 24 分钟的新作单独称作 OVA、注明为影碟特典；AniList 与 Jimaku 也给 OVA 独立条目。故本报告以发行层级更清楚的官方资料为准，只审第 1–12 话。此处不是判定 Bangumi 数据“错误”，而是拒绝把平台聚合范围误当成本档的版本范围。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>以下部分包含 2018 年 TV 动画第 1–12 话的完整剧透，包括角色关系、婚姻信息、危险事件与季终选择。</p></aside>
 
       <details class="spoiler-panel">
         <summary>
@@ -142,7 +155,7 @@
     </div>
   </footer>
   <script>window.SITE_CONFIG = {basePath: "/yuri-classification-archive"};</script>
-  <script src="/yuri-classification-archive/assets/site.js?v=95491b68a3ae" defer></script>
-  
+  <script src="/yuri-classification-archive/assets/site.js?v=686fc3d330d3" defer></script>
+
 </body>
 </html>

@@ -9,6 +9,7 @@
   <meta id="theme-color-dark" name="theme-color" media="(prefers-color-scheme: dark)" content="#1c181c">
   <script>
     (() => {
+      document.documentElement.classList.add("js");
       const storageKey = "yuri-classification-theme";
       const allowed = new Set(["system", "light", "dark"]);
       let preference = "system";
@@ -46,7 +47,7 @@
   <meta property="og:url" content="https://l-m-sherlock.github.io/yuri-classification-archive/works/taishou_yakyuu_musume_tv_2009/">
   <meta property="og:image" content="https://l-m-sherlock.github.io/yuri-classification-archive/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
   <title>《大正野球娘。》分类报告｜百合作品分类档案</title>
-  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=014a89622973">
+  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=1cc35b33d5cd">
 
 </head>
 <body class="classification-report">
@@ -60,12 +61,24 @@
           <small>按查询拆开标签，按证据保留边界</small>
         </span>
       </a>
-      <nav class="site-nav" aria-label="主导航">
-        <a href="/yuri-classification-archive/">首页</a>
-        <a href="/yuri-classification-archive/table/">总表</a>
-        <a href="/yuri-classification-archive/about/">方法与说明</a>
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-navigation"
+      >
+        <span>菜单</span>
+        <span class="menu-toggle-icon" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-navigation" aria-label="主导航">
+        <div class="nav-main">
+          <a href="/yuri-classification-archive/">首页</a>
+          <a href="/yuri-classification-archive/table/">总表</a>
+          <a href="/yuri-classification-archive/about/">方法与说明</a>
+        </div>
         <a class="nav-star" href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub / Star <span aria-hidden="true">↗</span></a>
-        <a href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
+        <a class="nav-feedback" href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
         <label class="theme-control" for="theme-preference">
           <span>主题</span>
           <select id="theme-preference" aria-label="主题偏好">
@@ -84,7 +97,7 @@
     <h1>《大正野球娘。》分类报告</h1>
     <p class="report-subtitle">2009 television anime formal episodes 1–12</p>
     <div class="label-strip" aria-label="分类摘要">
-      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>恋爱位置：</strong>重要副线</span><span class="label-chip"><strong>最高明确度：</strong>潜在／明显但未确认</span><span class="label-chip"><strong>官方：</strong>未标百合／GL</span><span class="label-chip"><strong>置信度：</strong>高</span>
+      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>恋爱位置：</strong>重要副线</span><span class="label-chip"><strong>最高明确度：</strong>潜在／明显但未确认</span><span class="label-chip"><strong>官方字面百合／GL：</strong>所核未见</span><span class="label-chip"><strong>官方女女恋爱表述：</strong>所核未见</span><span class="label-chip"><strong>官方来源：</strong>所核来源未含可公开筛选的层级或位置</span><span class="label-chip"><strong>置信度：</strong>高</span>
     </div>
     <a class="back-link" href="/yuri-classification-archive/table/?q=%E5%A4%A7%E6%AD%A3%E9%87%8E%E7%90%83%E5%A8%98%E3%80%82">← 返回总表并定位本作</a>
   </header>
@@ -95,7 +108,7 @@
     </aside>
     <div class="report-content">
       <blockquote><p>分类日期：2026-07-31<br> 分类对象：2009 年电视动画正式第 1–12 话<br> 纳入范围：十二话电视正篇<br> 排除范围：原作轻小说、漫画、广播、游戏、宣传与影碟附加内容及其他跨媒介材料<br> 用途：普通推荐、数据库分类、严格恋爱检索与角色身份检索</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p>本作可以按“女女关系处于主线”的开放口径归入百合作品分类，置信度高。它首先是一部大正时代女子棒球群像：九名少女组建樱花会，在训练、失败、家庭阻力与性别偏见中反复选择彼此。小梅与晶子的投捕搭档、朋友关系和共同承诺贯穿全季，团队共同体而非单一情侣构成主要情感结构。</p><p>女女恋爱方向位于重要副线。巴对小梅的接近与镜的“缩短和巴姐姐距离”具有持续、对象明确的恋爱喜剧表达，但正篇没有女女告白成功、接吻、确认交往或性取向自述。因此最高明确度为“明显但未确认的恋爱方向”，不能写成明确女女恋爱。</p><p>男性恋爱线不能省略。小梅与三郎的订婚由家庭安排开始，却逐步出现双向在意与主动靠近；晶子与岩崎已有婚约，岩崎的性别歧视言论直接触发她组队，二人的冲突与和解又推动终局。它们与女女关系主线并列存在，而不是可忽略的背景噪音。</p><h3 id="分层标签">分层标签</h3><!-- 女女关系层级：校验器兼容名称；公开稿统一使用“女女关系层级”。 -->
-<blockquote><p><strong>女女关系层级：主线｜女女关系层级（旧校验字段名）：主线｜百合归档依据：作品分类｜恋爱位置：重要副线｜最高明确度：明显但未确认的恋爱方向｜关系构成：女子棒球队共同体＋小梅—晶子投捕搭档＋巴→小梅与镜→巴的单向恋爱方向｜官方：未标｜阅读层级：正篇事实／强推断／读者解读｜身份依据类型：仅有推断关系｜男性恋爱线：并列｜内容提示：时代性别歧视、未成年订婚与年龄差、侵入式求爱、家长隐瞒与禁足、以断绝关系相威胁、运动伤害与训练压力、夜间冲突及犯罪威胁</strong></p><p><strong>女女关系层级（旧校验字段名）：主线。</strong> 本文其余位置统一采用更精确的“女女关系”表述；这一兼容行不增加第二套判断。</p></blockquote><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li>只找明确女女告白、交往、接吻或身份明示：不适合；本作没有达到这些条件。</li><li>接受女女关系主线，并接受重要副线中持续而未确认的恋爱方向：适合。</li><li>要求没有男性婚约或异性恋爱推进：不适合；小梅—三郎与晶子—岩崎都必须随推荐说明。</li><li>主要想看女子结社、共同训练和对抗性别限制：很适合；这也是作品最稳定、证据最充分的部分。</li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://www.tbs.co.jp/anime/taisho/" target="_blank" rel="noopener noreferrer">TBS 动画官网</a>／<a href="https://www.tbs.co.jp/anime/taisho/story/story.html" target="_blank" rel="noopener noreferrer">故事页</a>／<a href="https://www.tbs.co.jp/anime/taisho/character/character.html" target="_blank" rel="noopener noreferrer">人物页</a></td><td>官方故事区列出第 1–12 话；简介称晶子为小梅的好友，说明她因未婚夫贬低女性教育而组建女子队。巴的人物简介写她喜欢可爱的女孩子、对小梅兴趣浓厚；页面没有百合、GL 或性取向字段</td><td>官方剧情与人物资料</td><td>锁定范围和直接设定；“官方未标”只表示没有相应字段，不等于官方否认某种读法</td></tr><tr class="even"><td><a href="https://www.tbscontents.com/en/program/taishobaseballgirls" target="_blank" rel="noopener noreferrer">TBS 节目目录</a></td><td>2009 年 7 月至 9 月、全 12 话；Genre 为 School、Sports</td><td>官方节目目录</td><td>交叉确认版本与市场类型；不把 School／Sports 当作排他分类</td></tr><tr class="odd"><td><a href="https://myanimelist.net/anime/5141/Taishou_Yakyuu_Musume" target="_blank" rel="noopener noreferrer">MyAnimeList</a></td><td>TV、12 话；Genres 为 Comedy、Sports，Themes 为 Historical、School、Team Sports；没有 Girls Love 或 Romance</td><td>编辑分类</td><td>记录该站当前未列目标字段；数据库沉默不能替代正篇判断</td></tr><tr class="even"><td><a href="https://www.anime-planet.com/anime/taisho-baseball-girls" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td>精确条目完整标签面板仅列 Baseball；没有 GL、Shoujo-ai、Yuri 或 Romance</td><td>编辑标签库</td><td>直连受限后由精确公开文本恢复完整面板；“未标”与“获取失败”分开</td></tr><tr class="odd"><td><a href="https://anilist.co/anime/5141/" target="_blank" rel="noopener noreferrer">AniList</a></td><td>Genres 为 Comedy、Slice of Life、Sports；标签含 Historical 88、Female Protagonist 85、Baseball 84、Primarily Female Cast 68、CGDCT 56、Arranged Marriage 20；无 Yuri 与 Romance genre</td><td>编辑字段＋加权社区标签</td><td>标签权重只描述站内相关度，不是关系成立率或角色身份</td></tr><tr class="even"><td><a href="https://bangumi.tv/subject/1731" target="_blank" rel="noopener noreferrer">Bangumi</a></td><td>subject 1731，TV、12 话；百合标签 155。五种收藏状态用户合计 1,510，故百合标记人数／状态用户数为 10.26%</td><td>社区标签与收藏状态</td><td>记录社区可见读法及规模；该比例不是“支持率”，也不参与文本判断投票</td></tr><tr class="odd"><td><a href="https://jimaku.cc/entry/101" target="_blank" rel="noopener noreferrer">Jimaku</a></td><td>精确匹配 AniList 5141；可得十二话日文 BD 图像字幕</td><td>字幕索引</td><td>用于取得日文 PGS 并定位正篇，不是分类权威</td></tr></tbody></table></div><p>这些平台没有回答同一个问题：官方页介绍剧情和人物，MAL 与 Anime-Planet提供编辑类别，AniList 和 Bangumi还容纳社区标签。三个海外数据库均未列百合／GL，而 Bangumi有相当数量的百合标记；这只能证明平台口径不同，既不能把本作“投票”为百合，也不能取消正篇中可观察的女女关系。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>以下部分包含第 1–12 话完整剧透。</p></aside>
+<blockquote><p><strong>女女关系层级：主线｜女女关系层级（旧校验字段名）：主线｜百合归档依据：作品分类｜恋爱位置：重要副线｜最高明确度：明显但未确认的恋爱方向｜关系构成：女子棒球队共同体＋小梅—晶子投捕搭档＋巴→小梅与镜→巴的单向恋爱方向｜官方字面：所核未见｜官方恋爱表述：所核未见｜官方来源：所核未见匹配表述｜阅读层级：正篇事实／强推断／读者解读｜身份依据类型：仅有推断关系｜男性恋爱线：并列｜内容提示：时代性别歧视、未成年订婚与年龄差、侵入式求爱、家长隐瞒与禁足、以断绝关系相威胁、运动伤害与训练压力、夜间冲突及犯罪威胁</strong></p><p><strong>女女关系层级（旧校验字段名）：主线。</strong> 本文其余位置统一采用更精确的“女女关系”表述；这一兼容行不增加第二套判断。</p></blockquote><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li>只找明确女女告白、交往、接吻或身份明示：不适合；本作没有达到这些条件。</li><li>接受女女关系主线，并接受重要副线中持续而未确认的恋爱方向：适合。</li><li>要求没有男性婚约或异性恋爱推进：不适合；小梅—三郎与晶子—岩崎都必须随推荐说明。</li><li>主要想看女子结社、共同训练和对抗性别限制：很适合；这也是作品最稳定、证据最充分的部分。</li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://www.tbs.co.jp/anime/taisho/" target="_blank" rel="noopener noreferrer">TBS 动画官网</a>／<a href="https://www.tbs.co.jp/anime/taisho/story/story.html" target="_blank" rel="noopener noreferrer">故事页</a>／<a href="https://www.tbs.co.jp/anime/taisho/character/character.html" target="_blank" rel="noopener noreferrer">人物页</a></td><td>官方故事区列出第 1–12 话；简介称晶子为小梅的好友，说明她因未婚夫贬低女性教育而组建女子队。巴的人物简介写她喜欢可爱的女孩子、对小梅兴趣浓厚；页面没有百合、GL 或性取向字段</td><td>官方剧情与人物资料</td><td>锁定范围和直接设定；“官方未标”只表示没有相应字段，不等于官方否认某种读法</td></tr><tr class="even"><td><a href="https://www.tbscontents.com/en/program/taishobaseballgirls" target="_blank" rel="noopener noreferrer">TBS 节目目录</a></td><td>2009 年 7 月至 9 月、全 12 话；Genre 为 School、Sports</td><td>官方节目目录</td><td>交叉确认版本与市场类型；不把 School／Sports 当作排他分类</td></tr><tr class="odd"><td><a href="https://myanimelist.net/anime/5141/Taishou_Yakyuu_Musume" target="_blank" rel="noopener noreferrer">MyAnimeList</a></td><td>TV、12 话；Genres 为 Comedy、Sports，Themes 为 Historical、School、Team Sports；没有 Girls Love 或 Romance</td><td>编辑分类</td><td>记录该站当前未列目标字段；数据库沉默不能替代正篇判断</td></tr><tr class="even"><td><a href="https://www.anime-planet.com/anime/taisho-baseball-girls" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td>精确条目完整标签面板仅列 Baseball；没有 GL、Shoujo-ai、Yuri 或 Romance</td><td>编辑标签库</td><td>直连受限后由精确公开文本恢复完整面板；“未标”与“获取失败”分开</td></tr><tr class="odd"><td><a href="https://anilist.co/anime/5141/" target="_blank" rel="noopener noreferrer">AniList</a></td><td>Genres 为 Comedy、Slice of Life、Sports；标签含 Historical 88、Female Protagonist 85、Baseball 84、Primarily Female Cast 68、CGDCT 56、Arranged Marriage 20；无 Yuri 与 Romance genre</td><td>编辑字段＋加权社区标签</td><td>标签权重只描述站内相关度，不是关系成立率或角色身份</td></tr><tr class="even"><td><a href="https://bangumi.tv/subject/1731" target="_blank" rel="noopener noreferrer">Bangumi</a></td><td>subject 1731，TV、12 话；百合标签 155。五种收藏状态用户合计 1,510，故百合标记人数／状态用户数为 10.26%</td><td>社区标签与收藏状态</td><td>记录社区可见读法及规模；该比例不是“支持率”，也不参与文本判断投票</td></tr><tr class="odd"><td><a href="https://jimaku.cc/entry/101" target="_blank" rel="noopener noreferrer">Jimaku</a></td><td>精确匹配 AniList 5141；可得十二话日文 BD 图像字幕</td><td>字幕索引</td><td>用于取得日文 PGS 并定位正篇，不是分类权威</td></tr></tbody></table></div><p>这些平台没有回答同一个问题：官方页介绍剧情和人物，MAL 与 Anime-Planet提供编辑类别，AniList 和 Bangumi还容纳社区标签。三个海外数据库均未列百合／GL，而 Bangumi有相当数量的百合标记；这只能证明平台口径不同，既不能把本作“投票”为百合，也不能取消正篇中可观察的女女关系。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>以下部分包含第 1–12 话完整剧透。</p></aside>
 
       <details class="spoiler-panel">
         <summary>
@@ -143,7 +156,7 @@
     </div>
   </footer>
   <script>window.SITE_CONFIG = {basePath: "/yuri-classification-archive"};</script>
-  <script src="/yuri-classification-archive/assets/site.js?v=95491b68a3ae" defer></script>
+  <script src="/yuri-classification-archive/assets/site.js?v=686fc3d330d3" defer></script>
 
 </body>
 </html>

@@ -9,6 +9,7 @@
   <meta id="theme-color-dark" name="theme-color" media="(prefers-color-scheme: dark)" content="#1c181c">
   <script>
     (() => {
+      document.documentElement.classList.add("js");
       const storageKey = "yuri-classification-theme";
       const allowed = new Set(["system", "light", "dark"]);
       let preference = "system";
@@ -46,8 +47,8 @@
   <meta property="og:url" content="https://l-m-sherlock.github.io/yuri-classification-archive/works/joshikousei_no_mudazukai_tv_2019/">
   <meta property="og:image" content="https://l-m-sherlock.github.io/yuri-classification-archive/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
   <title>《女高中生的无所事事》分类报告｜百合作品分类档案</title>
-  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=014a89622973">
-  
+  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=1cc35b33d5cd">
+
 </head>
 <body class="classification-report">
   <a class="skip-link" href="#main-content">跳到正文</a>
@@ -60,12 +61,24 @@
           <small>按查询拆开标签，按证据保留边界</small>
         </span>
       </a>
-      <nav class="site-nav" aria-label="主导航">
-        <a href="/yuri-classification-archive/">首页</a>
-        <a href="/yuri-classification-archive/table/">总表</a>
-        <a href="/yuri-classification-archive/about/">方法与说明</a>
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-navigation"
+      >
+        <span>菜单</span>
+        <span class="menu-toggle-icon" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-navigation" aria-label="主导航">
+        <div class="nav-main">
+          <a href="/yuri-classification-archive/">首页</a>
+          <a href="/yuri-classification-archive/table/">总表</a>
+          <a href="/yuri-classification-archive/about/">方法与说明</a>
+        </div>
         <a class="nav-star" href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub / Star <span aria-hidden="true">↗</span></a>
-        <a href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
+        <a class="nav-feedback" href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
         <label class="theme-control" for="theme-preference">
           <span>主题</span>
           <select id="theme-preference" aria-label="主题偏好">
@@ -84,7 +97,7 @@
     <h1>《女高中生的无所事事》分类报告</h1>
     <p class="report-subtitle">2019 formally broadcast TV anime episodes 1-12</p>
     <div class="label-strip" aria-label="分类摘要">
-      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>恋爱位置：</strong>局部</span><span class="label-chip"><strong>最高明确度：</strong>明确欲望</span><span class="label-chip"><strong>官方：</strong>未标百合／GL</span><span class="label-chip"><strong>置信度：</strong>高</span>
+      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>恋爱位置：</strong>局部</span><span class="label-chip"><strong>最高明确度：</strong>明确欲望</span><span class="label-chip"><strong>官方字面百合／GL：</strong>所核未见</span><span class="label-chip"><strong>官方女女恋爱表述：</strong>所核未见</span><span class="label-chip"><strong>官方来源：</strong>所核来源未含可公开筛选的层级或位置</span><span class="label-chip"><strong>置信度：</strong>高</span>
     </div>
     <a class="back-link" href="/yuri-classification-archive/table/?q=%E5%A5%B3%E9%AB%98%E4%B8%AD%E7%94%9F%E7%9A%84%E6%97%A0%E6%89%80%E4%BA%8B%E4%BA%8B">← 返回总表并定位本作</a>
   </header>
@@ -94,7 +107,7 @@
       <ol><li><a href="#无剧透结论">无剧透结论</a></li><li><a href="#数据库与公开分类">数据库与公开分类</a></li><li><a href="#决定性文本证据">决定性文本证据</a></li><li><a href="#四层分析">四层分析</a></li><li><a href="#最强反方解释">最强反方解释</a></li><li><a href="#分用途结论">分用途结论</a></li><li><a href="#方法来源与限制">方法、来源与限制</a></li></ol>
     </aside>
     <div class="report-content">
-      <blockquote><p>分类日期：2026-07-29<br> 分类对象：2019 年 TV 动画《女子高生の無駄づかい》（Joshikousei no Mudazukai／Wasteful Days of High School Girls）<br> 纳入范围：2019 年正式播出的第 1–12 话<br> 排除范围：原作漫画、2020 年真人电视剧、PV／短篇、碟片附加内容、广播、歌曲作为独立文本、采访补充设定、同人作品及跨媒介推断<br> 用途：普通推荐、数据库分类与严格恋爱检索</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p>本作可归入<strong>女女关系主线且按作品分类归档（广义女女关系中心）</strong>，置信度高。田中望、菊池茜、鹭宫三人的旧友关系贯穿开篇、日常循环、人物成长和终话收束，女性同学之间的相识、冲突与互助又承载几乎每话的行动。不过“女女关系主线归档”描述叙事中心性，不等于确认女女情侣。</p><p>恋爱明确度为<strong>混合</strong>：组织全季的关系主要是友情，局部正篇又有不能降格成普通友情的女女欲望和告白。主角三人的关系明确为朋友，一奏也说自己对鹭宫是敬意而非恋爱；同时，染谷莉莉直接说喜欢女生，并有对女生的亲吻欲望，第 5 话还有女生向一奏明确告白。这些欲望和告白都未获恋爱回应，12 话内没有女女正式交往、双方告白或实际接吻。</p><p>田中想找男友、菊池迷恋男性音乐创作者，另有男生单恋鹭宫，因此男性恋爱线为副线而不是“无”；它们也没有取代女性群像中心。角色均未以“女同性恋”“双性恋”等身份词自我命名，身份依据仍为未知。</p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：局部｜最高明确度：明确女女恋爱欲望｜关系构成：多组异质关系｜官方：未标百合／GL｜阅读层级：正篇事实＋强推断＋读者解读｜身份依据类型：只有明确关系／欲望事实，无身份自述｜男性恋爱线：副线｜内容提示：未成年角色之间的性化身体笑话与隔衣触摸、未经同意的摸胸／摸臀及脱衣起哄、男性过敏与性别错认笑料、成人教师与未成年学生的单向迷恋、成人教师关于高中生／大学生的性与交往笑话、跟踪式观察、羞辱和肢体闹剧、排泄物／体液／死亡意象笑料</strong></p></blockquote><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li>**只找双方告白、正式交往、实际接吻或性取向身份明示：不适合。**本范围没有确认女女情侣；若只要求明确女女欲望，则可局部参考莉莉的直接台词和一次未获接受的告白，但须注明单向、未交往且以喜剧处理。</li><li>**接受潜在恋爱或女女关系中心作品：适合。**主角三人和女性同学共同体贯穿 12 话；莉莉的吸引可作局部恋爱阅读，一奏对鹭宫则应尊重其“敬意而非恋爱”的自述。类型预期应设为校园群像／恶搞日常，而不是恋爱推进。</li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><p>以下均复核至 2026-07-30。官方营销、编辑字段、加权社区标签和用户自建列表分别记录；未见某标签只写“未标”，不解释成主动否认。</p><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://jyoshimuda.com/intro.html" target="_blank" rel="noopener noreferrer">动画官网 INTRODUCTION</a>／<a href="https://www.kadokawa.co.jp/product/video2575/" target="_blank" rel="noopener noreferrer">KADOKAWA 作品页</a></td><td>使用“学園ガールズコメディ”“抱腹絶倒のJK学園コメディ”，以田中、菊池、鹭宫及个性丰富的同伴为中心；未使用“百合”或“GL”</td><td>官方自述／制作方营销</td><td>证明女性群像与校园喜剧定位；官方标签记“未标”</td></tr><tr class="even"><td><a href="https://www.sentaifilmworks.com/blogs/catalog/wasteful-days-of-high-school-girls" target="_blank" rel="noopener noreferrer">Sentai 作品目录</a>／<a href="https://www.sentaifilmworks.com/products/wasteful-days-of-high-school-girls-complete-collection-blu-ray" target="_blank" rel="noopener noreferrer">完整套装</a></td><td>描述三名女生的胡闹；商品简介又明确写田中的目标是找男友；未标 Yuri／Girls Love</td><td>正式海外发行方营销</td><td>证明海外发行与 1–12 话范围，并旁证田中的男性约会目标</td></tr><tr class="odd"><td><a href="https://myanimelist.net/anime/38619/Joshikousei_no_Mudazukai" target="_blank" rel="noopener noreferrer">MyAnimeList 38619</a></td><td>TV、12 episodes；Genre 为 Comedy，Themes 为 CGDCT／Gag Humor／School；未列 Girls Love 或 Romance</td><td>编辑型数据库字段</td><td>支持喜剧／女子群像／学校定位；标签沉默不是反证</td></tr><tr class="even"><td><a href="https://www.anime-planet.com/anime/wasteful-days-of-high-school-girls" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td>2026-07-30 完整 Tags 面板：<code>Comedy / Seinen / All-Girls School / Gag / School Life / Based on a Manga</code></td><td>编辑维护的数据库标签</td><td>记录当前检索字段；不是官方认证，标签存在或沉默都不自动裁定作品关系</td></tr><tr class="odd"><td><a href="https://anilist.co/anime/105081/Joshikousei-no-Mudazukai/" target="_blank" rel="noopener noreferrer">AniList 105081</a></td><td>TV、12；Genres 为 Comedy／Slice of Life；加权社区标签含 Female Protagonist 97、Primarily Female Cast 88、LGBTQ+ Themes 47、Love Triangle 10，未见 Yuri 标签</td><td>编辑型类型＋加权社区标签</td><td>女性群像可作旁证；47、10 是站内权重，不是支持率，也不能独立证明情侣或身份</td></tr><tr class="even"><td><a href="https://bangumi.tv/subject/265708" target="_blank" rel="noopener noreferrer">Bangumi 265708</a>／<a href="https://api.bgm.tv/v0/subjects/265708" target="_blank" rel="noopener noreferrer">公开 API</a></td><td>TV、12；API 快照含“搞笑”3535、“日常”3110、“百合”569、“轻百合”39</td><td>社区数据库与用户标签</td><td>解释本作进入 Bangumi 百合标签 Top 100 的公共语境；计数不能换算为认可比例</td></tr><tr class="odd"><td><a href="https://jimaku.cc/entry/1092" target="_blank" rel="noopener noreferrer">Jimaku 1092</a></td><td>精确映射 AniList 105081；同页列出 Netflix Web 日文 CC SRT 第 1–12 话、BD 日文 ASS 第 1–12 话及单独的 Amazon 第 1 话字幕</td><td>字幕档案</td><td>选择同一来源的 Netflix 12 话组作全文检索和时间码定位；不视为官网台本</td></tr></tbody></table></div><p>公共分类呈现出两层：官方与主要编辑字段把它当作女生校园恶搞喜剧；社区标签和用户列表又保留 LGBTQ+／百合阅读。后者有莉莉与告白情节作文本基础，却不是官方 GL 认证。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>以下部分完整剧透第 1–12 话，并讨论未成年角色的性欲、身体触摸、告白、成人教师与学生的单向迷恋，以及性别／身体笑料。</p></aside>
+      <blockquote><p>分类日期：2026-07-29<br> 分类对象：2019 年 TV 动画《女子高生の無駄づかい》（Joshikousei no Mudazukai／Wasteful Days of High School Girls）<br> 纳入范围：2019 年正式播出的第 1–12 话<br> 排除范围：原作漫画、2020 年真人电视剧、PV／短篇、碟片附加内容、广播、歌曲作为独立文本、采访补充设定、同人作品及跨媒介推断<br> 用途：普通推荐、数据库分类与严格恋爱检索</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p>本作可归入<strong>女女关系主线且按作品分类归档（广义女女关系中心）</strong>，置信度高。田中望、菊池茜、鹭宫三人的旧友关系贯穿开篇、日常循环、人物成长和终话收束，女性同学之间的相识、冲突与互助又承载几乎每话的行动。不过“女女关系主线归档”描述叙事中心性，不等于确认女女情侣。</p><p>恋爱明确度为<strong>混合</strong>：组织全季的关系主要是友情，局部正篇又有不能降格成普通友情的女女欲望和告白。主角三人的关系明确为朋友，一奏也说自己对鹭宫是敬意而非恋爱；同时，染谷莉莉直接说喜欢女生，并有对女生的亲吻欲望，第 5 话还有女生向一奏明确告白。这些欲望和告白都未获恋爱回应，12 话内没有女女正式交往、双方告白或实际接吻。</p><p>田中想找男友、菊池迷恋男性音乐创作者，另有男生单恋鹭宫，因此男性恋爱线为副线而不是“无”；它们也没有取代女性群像中心。角色均未以“女同性恋”“双性恋”等身份词自我命名，身份依据仍为未知。</p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：局部｜最高明确度：明确女女恋爱欲望｜关系构成：多组异质关系｜官方字面：所核未见｜官方恋爱表述：所核未见｜官方来源：所核未见匹配表述｜阅读层级：正篇事实＋强推断＋读者解读｜身份依据类型：只有明确关系／欲望事实，无身份自述｜男性恋爱线：副线｜内容提示：未成年角色之间的性化身体笑话与隔衣触摸、未经同意的摸胸／摸臀及脱衣起哄、男性过敏与性别错认笑料、成人教师与未成年学生的单向迷恋、成人教师关于高中生／大学生的性与交往笑话、跟踪式观察、羞辱和肢体闹剧、排泄物／体液／死亡意象笑料</strong></p></blockquote><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li>**只找双方告白、正式交往、实际接吻或性取向身份明示：不适合。**本范围没有确认女女情侣；若只要求明确女女欲望，则可局部参考莉莉的直接台词和一次未获接受的告白，但须注明单向、未交往且以喜剧处理。</li><li>**接受潜在恋爱或女女关系中心作品：适合。**主角三人和女性同学共同体贯穿 12 话；莉莉的吸引可作局部恋爱阅读，一奏对鹭宫则应尊重其“敬意而非恋爱”的自述。类型预期应设为校园群像／恶搞日常，而不是恋爱推进。</li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><p>以下均复核至 2026-07-30。官方营销、编辑字段、加权社区标签和用户自建列表分别记录；未见某标签只写“未标”，不解释成主动否认。</p><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://jyoshimuda.com/intro.html" target="_blank" rel="noopener noreferrer">动画官网 INTRODUCTION</a>／<a href="https://www.kadokawa.co.jp/product/video2575/" target="_blank" rel="noopener noreferrer">KADOKAWA 作品页</a></td><td>使用“学園ガールズコメディ”“抱腹絶倒のJK学園コメディ”，以田中、菊池、鹭宫及个性丰富的同伴为中心；未使用“百合”或“GL”</td><td>官方自述／制作方营销</td><td>证明女性群像与校园喜剧定位；官方标签记“未标”</td></tr><tr class="even"><td><a href="https://www.sentaifilmworks.com/blogs/catalog/wasteful-days-of-high-school-girls" target="_blank" rel="noopener noreferrer">Sentai 作品目录</a>／<a href="https://www.sentaifilmworks.com/products/wasteful-days-of-high-school-girls-complete-collection-blu-ray" target="_blank" rel="noopener noreferrer">完整套装</a></td><td>描述三名女生的胡闹；商品简介又明确写田中的目标是找男友；未标 Yuri／Girls Love</td><td>正式海外发行方营销</td><td>证明海外发行与 1–12 话范围，并旁证田中的男性约会目标</td></tr><tr class="odd"><td><a href="https://myanimelist.net/anime/38619/Joshikousei_no_Mudazukai" target="_blank" rel="noopener noreferrer">MyAnimeList 38619</a></td><td>TV、12 episodes；Genre 为 Comedy，Themes 为 CGDCT／Gag Humor／School；未列 Girls Love 或 Romance</td><td>编辑型数据库字段</td><td>支持喜剧／女子群像／学校定位；标签沉默不是反证</td></tr><tr class="even"><td><a href="https://www.anime-planet.com/anime/wasteful-days-of-high-school-girls" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td>2026-07-30 完整 Tags 面板：<code>Comedy / Seinen / All-Girls School / Gag / School Life / Based on a Manga</code></td><td>编辑维护的数据库标签</td><td>记录当前检索字段；不是官方认证，标签存在或沉默都不自动裁定作品关系</td></tr><tr class="odd"><td><a href="https://anilist.co/anime/105081/Joshikousei-no-Mudazukai/" target="_blank" rel="noopener noreferrer">AniList 105081</a></td><td>TV、12；Genres 为 Comedy／Slice of Life；加权社区标签含 Female Protagonist 97、Primarily Female Cast 88、LGBTQ+ Themes 47、Love Triangle 10，未见 Yuri 标签</td><td>编辑型类型＋加权社区标签</td><td>女性群像可作旁证；47、10 是站内权重，不是支持率，也不能独立证明情侣或身份</td></tr><tr class="even"><td><a href="https://bangumi.tv/subject/265708" target="_blank" rel="noopener noreferrer">Bangumi 265708</a>／<a href="https://api.bgm.tv/v0/subjects/265708" target="_blank" rel="noopener noreferrer">公开 API</a></td><td>TV、12；API 快照含“搞笑”3535、“日常”3110、“百合”569、“轻百合”39</td><td>社区数据库与用户标签</td><td>解释本作进入 Bangumi 百合标签 Top 100 的公共语境；计数不能换算为认可比例</td></tr><tr class="odd"><td><a href="https://jimaku.cc/entry/1092" target="_blank" rel="noopener noreferrer">Jimaku 1092</a></td><td>精确映射 AniList 105081；同页列出 Netflix Web 日文 CC SRT 第 1–12 话、BD 日文 ASS 第 1–12 话及单独的 Amazon 第 1 话字幕</td><td>字幕档案</td><td>选择同一来源的 Netflix 12 话组作全文检索和时间码定位；不视为官网台本</td></tr></tbody></table></div><p>公共分类呈现出两层：官方与主要编辑字段把它当作女生校园恶搞喜剧；社区标签和用户列表又保留 LGBTQ+／百合阅读。后者有莉莉与告白情节作文本基础，却不是官方 GL 认证。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>以下部分完整剧透第 1–12 话，并讨论未成年角色的性欲、身体触摸、告白、成人教师与学生的单向迷恋，以及性别／身体笑料。</p></aside>
 
       <details class="spoiler-panel">
         <summary>
@@ -142,7 +155,7 @@
     </div>
   </footer>
   <script>window.SITE_CONFIG = {basePath: "/yuri-classification-archive"};</script>
-  <script src="/yuri-classification-archive/assets/site.js?v=95491b68a3ae" defer></script>
-  
+  <script src="/yuri-classification-archive/assets/site.js?v=686fc3d330d3" defer></script>
+
 </body>
 </html>

@@ -9,6 +9,7 @@
   <meta id="theme-color-dark" name="theme-color" media="(prefers-color-scheme: dark)" content="#1c181c">
   <script>
     (() => {
+      document.documentElement.classList.add("js");
       const storageKey = "yuri-classification-theme";
       const allowed = new Set(["system", "light", "dark"]);
       let preference = "system";
@@ -46,8 +47,8 @@
   <meta property="og:url" content="https://l-m-sherlock.github.io/yuri-classification-archive/works/kageki_shoujo_tv_2021/">
   <meta property="og:image" content="https://l-m-sherlock.github.io/yuri-classification-archive/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
   <title>《歌剧少女!!》分类报告｜百合作品分类档案</title>
-  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=014a89622973">
-  
+  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=1cc35b33d5cd">
+
 </head>
 <body class="classification-report">
   <a class="skip-link" href="#main-content">跳到正文</a>
@@ -60,12 +61,24 @@
           <small>按查询拆开标签，按证据保留边界</small>
         </span>
       </a>
-      <nav class="site-nav" aria-label="主导航">
-        <a href="/yuri-classification-archive/">首页</a>
-        <a href="/yuri-classification-archive/table/">总表</a>
-        <a href="/yuri-classification-archive/about/">方法与说明</a>
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-navigation"
+      >
+        <span>菜单</span>
+        <span class="menu-toggle-icon" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-navigation" aria-label="主导航">
+        <div class="nav-main">
+          <a href="/yuri-classification-archive/">首页</a>
+          <a href="/yuri-classification-archive/table/">总表</a>
+          <a href="/yuri-classification-archive/about/">方法与说明</a>
+        </div>
         <a class="nav-star" href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub / Star <span aria-hidden="true">↗</span></a>
-        <a href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
+        <a class="nav-feedback" href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
         <label class="theme-control" for="theme-preference">
           <span>主题</span>
           <select id="theme-preference" aria-label="主题偏好">
@@ -84,7 +97,7 @@
     <h1>《歌剧少女!!》分类报告</h1>
     <p class="report-subtitle">2021 broadcast TV anime episodes 1-13</p>
     <div class="label-strip" aria-label="分类摘要">
-      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>恋爱位置：</strong>缺席</span><span class="label-chip"><strong>最高明确度：</strong>非恋爱</span><span class="label-chip"><strong>官方：</strong>未标百合／GL</span><span class="label-chip"><strong>置信度：</strong>高</span>
+      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>恋爱位置：</strong>缺席</span><span class="label-chip"><strong>最高明确度：</strong>非恋爱</span><span class="label-chip"><strong>官方字面百合／GL：</strong>所核未见</span><span class="label-chip"><strong>官方女女恋爱表述：</strong>所核未见</span><span class="label-chip"><strong>官方来源：</strong>所核来源未含可公开筛选的层级或位置</span><span class="label-chip"><strong>置信度：</strong>高</span>
     </div>
     <a class="back-link" href="/yuri-classification-archive/table/?q=%E6%AD%8C%E5%89%A7%E5%B0%91%E5%A5%B3%21%21">← 返回总表并定位本作</a>
   </header>
@@ -94,7 +107,7 @@
       <ol><li><a href="#无剧透结论">无剧透结论</a></li><li><a href="#数据库与公开分类">数据库与公开分类</a></li><li><a href="#决定性文本证据">决定性文本证据</a></li><li><a href="#四层分析">四层分析</a></li><li><a href="#最强反方解释">最强反方解释</a></li><li><a href="#分用途结论">分用途结论</a></li><li><a href="#方法来源与限制">方法、来源与限制</a></li></ol>
     </aside>
     <div class="report-content">
-      <blockquote><p>分类日期：2026-07-29<br> 分类对象：2021 年 TV 动画《かげきしょうじょ!!／歌剧少女!!》<br> 纳入范围：正式播出的第 1–13 话<br> 排除范围：两部漫画、舞台版、Blu-ray 影像／音频特典、广播剧及其他跨媒介材料<br> 用途：普通推荐与数据库分类</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p><strong>本作可高置信度列为女女关系主线且按作品分类归档，但其 TV 正篇的核心女女关系是友情，而非已经确认的恋爱。</strong> 渡边更纱与奈良田爱从同室冲突走到相互选择的朋友，并以共同站上“银桥”的职业未来收束；100 期女生之间的竞争、照护、姐妹关系和舞台协作也持续推动成长。女女关系因此属于叙事主线，不只是偶发趣味桥段。</p><p>更纱与爱反复使用“朋友”“第一次交到的朋友”等称谓，爱在朱丽叶试演时还直说自己不理解恋爱。全季没有女女正式交往、现实中的女女接吻、双方恋爱告白或性取向自述。“特别”“大喜欢”、嫉妒、同性交往玩笑及爱情戏剧的映照，可支持私人配对阅读，却不足以改写正篇的关系命名。</p><p>作品另有明确的男女恋爱副线：更纱承认暁也是男友，薰也有对男性的未竟初恋。两条线没有取代女性学校共同体和更纱—爱的中心位置；推荐时仍应如实提示，不能宣传成“没有男性情感对象”。</p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：缺席｜最高明确度：非恋爱｜关系构成：单一主要关系记录｜官方：未标百合／GL｜阅读层级：正篇事实＋读者解读｜身份依据类型：范围内没有性取向身份依据｜男性恋爱线：副线（更纱—暁也为明确男女关系，薰有女对男爱慕单元）｜内容提示：儿童时期遭成年男性性侵害与强迫亲吻、监护人忽视并否定求助、跟踪与越界粉丝、饮食障碍及催吐、体重羞辱和身体凝视、严苛竞争压力。</strong></p></blockquote><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li>只找双方女女告白、正式交往、现实接吻或身份明示：<strong>不符合</strong>。</li><li>接受未确认的配对阅读：<strong>有材料，但必须注明正篇反复命名为友情，恋爱台词主要属于玩笑或表演</strong>。</li><li>接受非恋爱女性友情、女性成长共同体与共同职业目标进入广义百合：<strong>符合，且属于主线级别</strong>。</li><li>回避明确男女恋爱内容：<strong>不符合</strong>；更纱—暁也与薰—陆斗相关内容均为正篇事实。</li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://kageki-anime.com/" target="_blank" rel="noopener noreferrer">TV 动画官网</a>／<a href="https://kageki-anime.com/story/index.html" target="_blank" rel="noopener noreferrer">官方物语页</a>／<a href="https://kageki-anime.com/blu-ray/04.html" target="_blank" rel="noopener noreferrer">Blu-ray 第 4 卷</a></td><td>官网称“青春スポ根ストーリー”，制作人员文字提到“爽やかな友情”；物语页列第一幕至第十三幕，BD 第 4 卷收录第十至第十三幕；页面于 2026-07-30 复核可访问</td><td>官方自述、集数与商品范围</td><td>确认 2021 TV 的正式 13 话范围及官网实际采用的成长／友情措辞；核对页未用百合／GL，故官方字段为“未标”，不是“官方否认”</td></tr><tr class="even"><td><a href="https://myanimelist.net/anime/43691/Kageki_Shoujo" target="_blank" rel="noopener noreferrer">MyAnimeList 43691</a></td><td>TV、13 episodes；Genre 为 Drama，Themes 为 Performing Arts／School，Demographic 为 Shoujo；可见字段没有 Girls Love／Yuri／Romance。精确页面于 2026-07-30 返回正常，Jikan 详情接口仍返回 504</td><td>编辑型数据库字段</td><td>记录数据库的主流题材位置与标签沉默；直接页面已经提供所需字段，冗余接口失败不改写成资料缺失</td></tr><tr class="odd"><td><a href="https://www.anime-planet.com/anime/kageki-shoujo" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td>2026-07-30 完整 Tags 面板：<code>Drama / Shoujo / Acting / All-Girls School / Boarding School / School Life / Based on a Manga</code></td><td>编辑维护的数据库标签</td><td>记录当前检索字段；不是官方认证，标签存在或沉默都不自动裁定作品关系</td></tr><tr class="even"><td><a href="https://anilist.co/anime/125446/Kageki-Shoujo" target="_blank" rel="noopener noreferrer">AniList 125446</a></td><td>TV、13 集；Genres 为 Drama／Slice of Life；社区标签含 Primarily Female Cast 97、Ensemble Cast 87、Aromantic 79、Heterosexual 73、Yuri 20</td><td>编辑类型＋加权社区标签</td><td>标签数字是相关度权重，不是人数或支持率；Aromantic 等社区标签也不能代替角色身份自述</td></tr><tr class="odd"><td><a href="https://bangumi.tv/subject/317680" target="_blank" rel="noopener noreferrer">Bangumi 317680</a></td><td>TV、2021-07-03、13 话；归档快照含“百合”“轻百合”“群像”等动态社区标签；条目与 API 于 2026-07-30 均可访问</td><td>社区数据库与标签</td><td>证明社区中确有宽口径百合检索实践；动态标签不能包装成官方认证或全体用户共识</td></tr></tbody></table></div><p>公开层次并不矛盾：官网和编辑型数据库主要描述演剧、校园、少女成长与友情；AniList、Bangumi 的社区标签则容纳了女女关系中心的百合阅读。前者不能消除文本关系，后者也不能把友情自动升级为恋爱事实。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>以下部分包含第 1–13 话完整剧透，包括角色创伤、关系确认、试演内容与结局。</p></aside>
+      <blockquote><p>分类日期：2026-07-29<br> 分类对象：2021 年 TV 动画《かげきしょうじょ!!／歌剧少女!!》<br> 纳入范围：正式播出的第 1–13 话<br> 排除范围：两部漫画、舞台版、Blu-ray 影像／音频特典、广播剧及其他跨媒介材料<br> 用途：普通推荐与数据库分类</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p><strong>本作可高置信度列为女女关系主线且按作品分类归档，但其 TV 正篇的核心女女关系是友情，而非已经确认的恋爱。</strong> 渡边更纱与奈良田爱从同室冲突走到相互选择的朋友，并以共同站上“银桥”的职业未来收束；100 期女生之间的竞争、照护、姐妹关系和舞台协作也持续推动成长。女女关系因此属于叙事主线，不只是偶发趣味桥段。</p><p>更纱与爱反复使用“朋友”“第一次交到的朋友”等称谓，爱在朱丽叶试演时还直说自己不理解恋爱。全季没有女女正式交往、现实中的女女接吻、双方恋爱告白或性取向自述。“特别”“大喜欢”、嫉妒、同性交往玩笑及爱情戏剧的映照，可支持私人配对阅读，却不足以改写正篇的关系命名。</p><p>作品另有明确的男女恋爱副线：更纱承认暁也是男友，薰也有对男性的未竟初恋。两条线没有取代女性学校共同体和更纱—爱的中心位置；推荐时仍应如实提示，不能宣传成“没有男性情感对象”。</p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：缺席｜最高明确度：非恋爱｜关系构成：单一主要关系记录｜官方字面：所核未见｜官方恋爱表述：所核未见｜官方来源：所核未见匹配表述｜阅读层级：正篇事实＋读者解读｜身份依据类型：范围内没有性取向身份依据｜男性恋爱线：副线（更纱—暁也为明确男女关系，薰有女对男爱慕单元）｜内容提示：儿童时期遭成年男性性侵害与强迫亲吻、监护人忽视并否定求助、跟踪与越界粉丝、饮食障碍及催吐、体重羞辱和身体凝视、严苛竞争压力。</strong></p></blockquote><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li>只找双方女女告白、正式交往、现实接吻或身份明示：<strong>不符合</strong>。</li><li>接受未确认的配对阅读：<strong>有材料，但必须注明正篇反复命名为友情，恋爱台词主要属于玩笑或表演</strong>。</li><li>接受非恋爱女性友情、女性成长共同体与共同职业目标进入广义百合：<strong>符合，且属于主线级别</strong>。</li><li>回避明确男女恋爱内容：<strong>不符合</strong>；更纱—暁也与薰—陆斗相关内容均为正篇事实。</li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://kageki-anime.com/" target="_blank" rel="noopener noreferrer">TV 动画官网</a>／<a href="https://kageki-anime.com/story/index.html" target="_blank" rel="noopener noreferrer">官方物语页</a>／<a href="https://kageki-anime.com/blu-ray/04.html" target="_blank" rel="noopener noreferrer">Blu-ray 第 4 卷</a></td><td>官网称“青春スポ根ストーリー”，制作人员文字提到“爽やかな友情”；物语页列第一幕至第十三幕，BD 第 4 卷收录第十至第十三幕；页面于 2026-07-30 复核可访问</td><td>官方自述、集数与商品范围</td><td>确认 2021 TV 的正式 13 话范围及官网实际采用的成长／友情措辞；核对页未用百合／GL，故官方字段为“未标”，不是“官方否认”</td></tr><tr class="even"><td><a href="https://myanimelist.net/anime/43691/Kageki_Shoujo" target="_blank" rel="noopener noreferrer">MyAnimeList 43691</a></td><td>TV、13 episodes；Genre 为 Drama，Themes 为 Performing Arts／School，Demographic 为 Shoujo；可见字段没有 Girls Love／Yuri／Romance。精确页面于 2026-07-30 返回正常，Jikan 详情接口仍返回 504</td><td>编辑型数据库字段</td><td>记录数据库的主流题材位置与标签沉默；直接页面已经提供所需字段，冗余接口失败不改写成资料缺失</td></tr><tr class="odd"><td><a href="https://www.anime-planet.com/anime/kageki-shoujo" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td>2026-07-30 完整 Tags 面板：<code>Drama / Shoujo / Acting / All-Girls School / Boarding School / School Life / Based on a Manga</code></td><td>编辑维护的数据库标签</td><td>记录当前检索字段；不是官方认证，标签存在或沉默都不自动裁定作品关系</td></tr><tr class="even"><td><a href="https://anilist.co/anime/125446/Kageki-Shoujo" target="_blank" rel="noopener noreferrer">AniList 125446</a></td><td>TV、13 集；Genres 为 Drama／Slice of Life；社区标签含 Primarily Female Cast 97、Ensemble Cast 87、Aromantic 79、Heterosexual 73、Yuri 20</td><td>编辑类型＋加权社区标签</td><td>标签数字是相关度权重，不是人数或支持率；Aromantic 等社区标签也不能代替角色身份自述</td></tr><tr class="odd"><td><a href="https://bangumi.tv/subject/317680" target="_blank" rel="noopener noreferrer">Bangumi 317680</a></td><td>TV、2021-07-03、13 话；归档快照含“百合”“轻百合”“群像”等动态社区标签；条目与 API 于 2026-07-30 均可访问</td><td>社区数据库与标签</td><td>证明社区中确有宽口径百合检索实践；动态标签不能包装成官方认证或全体用户共识</td></tr></tbody></table></div><p>公开层次并不矛盾：官网和编辑型数据库主要描述演剧、校园、少女成长与友情；AniList、Bangumi 的社区标签则容纳了女女关系中心的百合阅读。前者不能消除文本关系，后者也不能把友情自动升级为恋爱事实。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>以下部分包含第 1–13 话完整剧透，包括角色创伤、关系确认、试演内容与结局。</p></aside>
 
       <details class="spoiler-panel">
         <summary>
@@ -142,7 +155,7 @@
     </div>
   </footer>
   <script>window.SITE_CONFIG = {basePath: "/yuri-classification-archive"};</script>
-  <script src="/yuri-classification-archive/assets/site.js?v=95491b68a3ae" defer></script>
-  
+  <script src="/yuri-classification-archive/assets/site.js?v=686fc3d330d3" defer></script>
+
 </body>
 </html>

@@ -9,6 +9,7 @@
   <meta id="theme-color-dark" name="theme-color" media="(prefers-color-scheme: dark)" content="#1c181c">
   <script>
     (() => {
+      document.documentElement.classList.add("js");
       const storageKey = "yuri-classification-theme";
       const allowed = new Set(["system", "light", "dark"]);
       let preference = "system";
@@ -46,8 +47,8 @@
   <meta property="og:url" content="https://l-m-sherlock.github.io/yuri-classification-archive/works/akebi_chan_no_sailor_fuku_tv_2022/">
   <meta property="og:image" content="https://l-m-sherlock.github.io/yuri-classification-archive/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
   <title>《明日同学的水手服》分类报告｜百合作品分类档案</title>
-  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=014a89622973">
-  
+  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=1cc35b33d5cd">
+
 </head>
 <body class="classification-report">
   <a class="skip-link" href="#main-content">跳到正文</a>
@@ -60,12 +61,24 @@
           <small>按查询拆开标签，按证据保留边界</small>
         </span>
       </a>
-      <nav class="site-nav" aria-label="主导航">
-        <a href="/yuri-classification-archive/">首页</a>
-        <a href="/yuri-classification-archive/table/">总表</a>
-        <a href="/yuri-classification-archive/about/">方法与说明</a>
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-navigation"
+      >
+        <span>菜单</span>
+        <span class="menu-toggle-icon" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-navigation" aria-label="主导航">
+        <div class="nav-main">
+          <a href="/yuri-classification-archive/">首页</a>
+          <a href="/yuri-classification-archive/table/">总表</a>
+          <a href="/yuri-classification-archive/about/">方法与说明</a>
+        </div>
         <a class="nav-star" href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub / Star <span aria-hidden="true">↗</span></a>
-        <a href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
+        <a class="nav-feedback" href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
         <label class="theme-control" for="theme-preference">
           <span>主题</span>
           <select id="theme-preference" aria-label="主题偏好">
@@ -84,7 +97,7 @@
     <h1>《明日同学的水手服》分类报告</h1>
     <p class="report-subtitle">2022 broadcast TV anime episodes 1-12；official TV introduction, story, staff and home-video release pages as paratext；live database genre, theme and community-tag fields only as external labeling evidence</p>
     <div class="label-strip" aria-label="分类摘要">
-      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>恋爱位置：</strong>主线</span><span class="label-chip"><strong>最高明确度：</strong>潜在／明显但未确认</span><span class="label-chip"><strong>官方：</strong>未标百合／GL</span><span class="label-chip"><strong>置信度：</strong>高</span>
+      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>恋爱位置：</strong>主线</span><span class="label-chip"><strong>最高明确度：</strong>潜在／明显但未确认</span><span class="label-chip"><strong>官方字面百合／GL：</strong>所核未见</span><span class="label-chip"><strong>官方女女恋爱表述：</strong>所核未见</span><span class="label-chip"><strong>官方来源：</strong>所核来源未含可公开筛选的层级或位置</span><span class="label-chip"><strong>置信度：</strong>高</span>
     </div>
     <a class="back-link" href="/yuri-classification-archive/table/?q=%E6%98%8E%E6%97%A5%E5%90%8C%E5%AD%A6%E7%9A%84%E6%B0%B4%E6%89%8B%E6%9C%8D">← 返回总表并定位本作</a>
   </header>
@@ -94,7 +107,7 @@
       <ol><li><a href="#无剧透结论">无剧透结论</a></li><li><a href="#数据库与公开分类">数据库与公开分类</a></li><li><a href="#决定性文本证据">决定性文本证据</a></li><li><a href="#四层分析">四层分析</a></li><li><a href="#最强反方解释">最强反方解释</a></li><li><a href="#分用途结论">分用途结论</a></li><li><a href="#方法来源与限制">方法、来源与限制</a></li></ol>
     </aside>
     <div class="report-content">
-      <blockquote><p>分类日期：2026-07-29<br> 分类对象：2022 年正式播出的 TV 动画《明日ちゃんのセーラー服》<br> 纳入范围：TV 正篇第 1–12 话<br> 排除范围：原作漫画、PV／CM／预告、影碟特典、评论音轨、广播、音乐商品与歌曲作为独立文本、访谈新增设定、二创及跨媒介推断<br> 用途：普通推荐、数据库分类、严格恋爱检索与角色身份检索</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p><strong>本报告将本作归入“女女关系主线且按作品分类归档（女女关系中心型）”，置信度高；但它不属于明确女女恋爱作品。</strong> 正篇以明日小路进入女子中学、结识同龄朋友为主轴，持续书写她与木崎江利花及全班女生的相识、欣赏、互助和共同成长。女女关系不是校园背景上的点缀，而是人物改变与全季收束的主要动力。</p><p>小路—江利花是最连续的私人关系，双方会主动创造独处机会、认真回应彼此，并在共同活动中互相成就；这些内容支持潜在恋爱阅读。然而，正篇也明确使用“朋友”称谓，没有双方告白、亲吻、交往确认、恋人称谓或性取向明示。严格寻找已确认女女恋爱的读者不应据此命中。</p><p>本作同时是班级群像，不能压缩成单一配对故事。接受女性友情、少女共同体或尚未确认的恋爱可能性的读者适合纳入；需要明确情侣关系或角色身份的检索则应排除。</p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：主线｜最高明确度：潜在／明显但未确认的恋爱指向｜关系构成：单一主要关系记录｜官方：核对到的 TV 官网与 Aniplex 页面未标百合／GL，称“少女们的青春日记”“大家一起”｜阅读层级：正篇事实＋强推断＋读者解读｜身份依据类型：只有关系性质推断，无身份自述｜男性恋爱线：无｜内容提示：初中女生身体与服装的摄影／舞台凝视、意外露出笑话、共同淋浴与互相冲洗、戏谑脱衣、身体自卑、轻微运动碰撞。</strong></p></blockquote><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li><strong>只找双方告白、正式交往、亲吻、恋人称谓或女同性恋／双性恋身份明示：不适合。</strong> 第 1–12 话均没有命中。</li><li><strong>只找“约会”一词：不命中。</strong> 第 6 话字幕说的是 <code>お休みに会う約束</code>（休息日见面的约定）与 <code>私のお友達</code>（我的朋友）；两人确实单独出游并认真准备，但文本没有把它命名为约会。</li><li><strong>接受潜在恋爱、私人配对或女女关系中心作品：适合。</strong> 小路—江利花从初遇、休息日出游、改称名字走到舞台合作与未来重复约定；同时应注明恋爱未确认。</li><li><strong>只找全班女性友情、同伴支持与群体成长：很适合。</strong> 单集焦点轮流分配给多名同学，结尾的“不是一个人”由全班行动兑现。</li><li><strong>排除男性恋爱线：可以纳入。</strong> 男性只以父亲等家庭角色或泛指比较出现，没有女性角色对男性的求偶、约会、亲吻或交往线。</li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://akebi-chan.jp/introduction/" target="_blank" rel="noopener noreferrer">TV 动画官网 Introduction</a>／<a href="https://akebi-chan.jp/staffcast/" target="_blank" rel="noopener noreferrer">Staff &amp; Cast</a></td><td>舞台为名门女子中学；文案称 <code>少女たちの、キラキラ輝く青春日記</code>，核心问题是 <code>友達いっぱいできるかな？</code>；制作列 CloverWorks</td><td>官方自述与制作资料</td><td>确认女性群体、交友主轴和制作方；所核页面未使用百合／GL／恋爱分类</td></tr><tr class="even"><td><a href="https://www.aniplex.co.jp/lineup/akebi-chan/" target="_blank" rel="noopener noreferrer">Aniplex 作品页</a></td><td>TV 动画（2022.1），主标语 <code>みんなと、一緒に。</code>；列 CloverWorks 制作及全班主要声优</td><td>制作／发行方的官方营销页</td><td>支持“群体共同体”而非单一恋爱主线；不把营销沉默写成官方否认</td></tr><tr class="odd"><td><a href="https://akebi-chan.jp/story/" target="_blank" rel="noopener noreferrer">官网 Story</a>／<a href="https://akebi-chan.jp/bddvd/" target="_blank" rel="noopener noreferrer">Blu-ray &amp; DVD</a></td><td>Story 连续列第一至第十二话；六卷影碟依次收 1–2、3–4、5–6、7–8、9–10、11–12 话，另列评论音轨及特典</td><td>官方分话与发行范围</td><td>锁定本档只收 12 话正篇；评论音轨、特典影像及商品附加内容不倒灌</td></tr><tr class="even"><td><a href="https://myanimelist.net/anime/48553/Akebi-chan_no_Sailor-fuku" target="_blank" rel="noopener noreferrer">MyAnimeList 48553</a></td><td><code>TV</code>、12 话；Genre 为 <code>Slice of Life</code>，Themes 为 <code>CGDCT / School</code>，Demographic 为 <code>Seinen</code>；未列 <code>Girls Love</code> 或 <code>Romance</code></td><td>编辑型数据库字段</td><td>记录其编辑分类；2026-07-30 直接 HTML 可访问，Jikan 重试超时不影响页面字段</td></tr><tr class="odd"><td><a href="https://www.anime-planet.com/anime/akebis-sailor-uniform" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td>2026-07-30 完整 Tags 面板：<code>Seinen / All-Girls School / School Life / Based on a Manga</code></td><td>编辑维护的数据库标签</td><td>记录当前检索字段；不是官方认证，标签存在或沉默都不自动裁定作品关系</td></tr><tr class="even"><td><a href="https://anilist.co/anime/131548/Akebichan-no-Sailor-Fuku/" target="_blank" rel="noopener noreferrer">AniList 131548</a></td><td>Genre 为 <code>Slice of Life</code>；社区加权标签含 <code>Female Protagonist 94</code>、<code>Cute Girls Doing Cute Things 90</code>、<code>Primarily Female Cast 89</code>、<code>LGBTQ+ Themes 74</code>、<code>Yuri 66</code></td><td>编辑文类字段＋加权社区标签</td><td>Genre 与 Tags 分开记录；标签权重不是观众支持率，也不是角色身份明示</td></tr><tr class="odd"><td><a href="https://bgm.tv/subject/331480" target="_blank" rel="noopener noreferrer">Bangumi 331480</a></td><td><code>TV</code>、12 话；API 元标签为校园、TV、日本、漫画改、日常、青年向；用户标签含 <code>百合 1728</code>、<code>轻百合 78</code></td><td>条目字段＋社区标签计数</td><td>解释本作进入百合标签榜第 48 位的接受史；计数不等于官方认证或恋爱证据</td></tr><tr class="even"><td><a href="https://jimaku.cc/entry/436" target="_blank" rel="noopener noreferrer">Jimaku 436</a></td><td>精确映射 AniList 131548；同一来源列出 Episode 01–12 日文 SRT，共 12 文件</td><td>字幕资料库</td><td>用于全季阅读、严格词项检索和时间码定位；不作为官方台本或文类权威</td></tr></tbody></table></div><p>官方自述、制作／发行方文案、数据库编辑字段和社区标签回答的是不同问题。官网的“青春日记／朋友”不能取消私人恋爱阅读；AniList、Bangumi 的 <code>Yuri／百合</code> 也不能替正篇生成告白、性取向或情侣关系。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>**以下部分包含第 1–12 话的完整剧情、关系推进与结尾舞台内容剧透。**</p></aside>
+      <blockquote><p>分类日期：2026-07-29<br> 分类对象：2022 年正式播出的 TV 动画《明日ちゃんのセーラー服》<br> 纳入范围：TV 正篇第 1–12 话<br> 排除范围：原作漫画、PV／CM／预告、影碟特典、评论音轨、广播、音乐商品与歌曲作为独立文本、访谈新增设定、二创及跨媒介推断<br> 用途：普通推荐、数据库分类、严格恋爱检索与角色身份检索</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p><strong>本报告将本作归入“女女关系主线且按作品分类归档（女女关系中心型）”，置信度高；但它不属于明确女女恋爱作品。</strong> 正篇以明日小路进入女子中学、结识同龄朋友为主轴，持续书写她与木崎江利花及全班女生的相识、欣赏、互助和共同成长。女女关系不是校园背景上的点缀，而是人物改变与全季收束的主要动力。</p><p>小路—江利花是最连续的私人关系，双方会主动创造独处机会、认真回应彼此，并在共同活动中互相成就；这些内容支持潜在恋爱阅读。然而，正篇也明确使用“朋友”称谓，没有双方告白、亲吻、交往确认、恋人称谓或性取向明示。严格寻找已确认女女恋爱的读者不应据此命中。</p><p>本作同时是班级群像，不能压缩成单一配对故事。接受女性友情、少女共同体或尚未确认的恋爱可能性的读者适合纳入；需要明确情侣关系或角色身份的检索则应排除。</p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：主线｜最高明确度：潜在／明显但未确认的恋爱指向｜关系构成：单一主要关系记录｜官方字面：所核未见｜官方恋爱表述：所核未见｜官方来源：所核未见匹配表述｜阅读层级：正篇事实＋强推断＋读者解读｜身份依据类型：只有关系性质推断，无身份自述｜男性恋爱线：无｜内容提示：初中女生身体与服装的摄影／舞台凝视、意外露出笑话、共同淋浴与互相冲洗、戏谑脱衣、身体自卑、轻微运动碰撞。</strong></p></blockquote><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li><strong>只找双方告白、正式交往、亲吻、恋人称谓或女同性恋／双性恋身份明示：不适合。</strong> 第 1–12 话均没有命中。</li><li><strong>只找“约会”一词：不命中。</strong> 第 6 话字幕说的是 <code>お休みに会う約束</code>（休息日见面的约定）与 <code>私のお友達</code>（我的朋友）；两人确实单独出游并认真准备，但文本没有把它命名为约会。</li><li><strong>接受潜在恋爱、私人配对或女女关系中心作品：适合。</strong> 小路—江利花从初遇、休息日出游、改称名字走到舞台合作与未来重复约定；同时应注明恋爱未确认。</li><li><strong>只找全班女性友情、同伴支持与群体成长：很适合。</strong> 单集焦点轮流分配给多名同学，结尾的“不是一个人”由全班行动兑现。</li><li><strong>排除男性恋爱线：可以纳入。</strong> 男性只以父亲等家庭角色或泛指比较出现，没有女性角色对男性的求偶、约会、亲吻或交往线。</li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://akebi-chan.jp/introduction/" target="_blank" rel="noopener noreferrer">TV 动画官网 Introduction</a>／<a href="https://akebi-chan.jp/staffcast/" target="_blank" rel="noopener noreferrer">Staff &amp; Cast</a></td><td>舞台为名门女子中学；文案称 <code>少女たちの、キラキラ輝く青春日記</code>，核心问题是 <code>友達いっぱいできるかな？</code>；制作列 CloverWorks</td><td>官方自述与制作资料</td><td>确认女性群体、交友主轴和制作方；所核页面未使用百合／GL／恋爱分类</td></tr><tr class="even"><td><a href="https://www.aniplex.co.jp/lineup/akebi-chan/" target="_blank" rel="noopener noreferrer">Aniplex 作品页</a></td><td>TV 动画（2022.1），主标语 <code>みんなと、一緒に。</code>；列 CloverWorks 制作及全班主要声优</td><td>制作／发行方的官方营销页</td><td>支持“群体共同体”而非单一恋爱主线；不把营销沉默写成官方否认</td></tr><tr class="odd"><td><a href="https://akebi-chan.jp/story/" target="_blank" rel="noopener noreferrer">官网 Story</a>／<a href="https://akebi-chan.jp/bddvd/" target="_blank" rel="noopener noreferrer">Blu-ray &amp; DVD</a></td><td>Story 连续列第一至第十二话；六卷影碟依次收 1–2、3–4、5–6、7–8、9–10、11–12 话，另列评论音轨及特典</td><td>官方分话与发行范围</td><td>锁定本档只收 12 话正篇；评论音轨、特典影像及商品附加内容不倒灌</td></tr><tr class="even"><td><a href="https://myanimelist.net/anime/48553/Akebi-chan_no_Sailor-fuku" target="_blank" rel="noopener noreferrer">MyAnimeList 48553</a></td><td><code>TV</code>、12 话；Genre 为 <code>Slice of Life</code>，Themes 为 <code>CGDCT / School</code>，Demographic 为 <code>Seinen</code>；未列 <code>Girls Love</code> 或 <code>Romance</code></td><td>编辑型数据库字段</td><td>记录其编辑分类；2026-07-30 直接 HTML 可访问，Jikan 重试超时不影响页面字段</td></tr><tr class="odd"><td><a href="https://www.anime-planet.com/anime/akebis-sailor-uniform" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td>2026-07-30 完整 Tags 面板：<code>Seinen / All-Girls School / School Life / Based on a Manga</code></td><td>编辑维护的数据库标签</td><td>记录当前检索字段；不是官方认证，标签存在或沉默都不自动裁定作品关系</td></tr><tr class="even"><td><a href="https://anilist.co/anime/131548/Akebichan-no-Sailor-Fuku/" target="_blank" rel="noopener noreferrer">AniList 131548</a></td><td>Genre 为 <code>Slice of Life</code>；社区加权标签含 <code>Female Protagonist 94</code>、<code>Cute Girls Doing Cute Things 90</code>、<code>Primarily Female Cast 89</code>、<code>LGBTQ+ Themes 74</code>、<code>Yuri 66</code></td><td>编辑文类字段＋加权社区标签</td><td>Genre 与 Tags 分开记录；标签权重不是观众支持率，也不是角色身份明示</td></tr><tr class="odd"><td><a href="https://bgm.tv/subject/331480" target="_blank" rel="noopener noreferrer">Bangumi 331480</a></td><td><code>TV</code>、12 话；API 元标签为校园、TV、日本、漫画改、日常、青年向；用户标签含 <code>百合 1728</code>、<code>轻百合 78</code></td><td>条目字段＋社区标签计数</td><td>解释本作进入百合标签榜第 48 位的接受史；计数不等于官方认证或恋爱证据</td></tr><tr class="even"><td><a href="https://jimaku.cc/entry/436" target="_blank" rel="noopener noreferrer">Jimaku 436</a></td><td>精确映射 AniList 131548；同一来源列出 Episode 01–12 日文 SRT，共 12 文件</td><td>字幕资料库</td><td>用于全季阅读、严格词项检索和时间码定位；不作为官方台本或文类权威</td></tr></tbody></table></div><p>官方自述、制作／发行方文案、数据库编辑字段和社区标签回答的是不同问题。官网的“青春日记／朋友”不能取消私人恋爱阅读；AniList、Bangumi 的 <code>Yuri／百合</code> 也不能替正篇生成告白、性取向或情侣关系。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>**以下部分包含第 1–12 话的完整剧情、关系推进与结尾舞台内容剧透。**</p></aside>
 
       <details class="spoiler-panel">
         <summary>
@@ -142,7 +155,7 @@
     </div>
   </footer>
   <script>window.SITE_CONFIG = {basePath: "/yuri-classification-archive"};</script>
-  <script src="/yuri-classification-archive/assets/site.js?v=95491b68a3ae" defer></script>
-  
+  <script src="/yuri-classification-archive/assets/site.js?v=686fc3d330d3" defer></script>
+
 </body>
 </html>

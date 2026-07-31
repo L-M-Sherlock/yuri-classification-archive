@@ -9,6 +9,7 @@
   <meta id="theme-color-dark" name="theme-color" media="(prefers-color-scheme: dark)" content="#1c181c">
   <script>
     (() => {
+      document.documentElement.classList.add("js");
       const storageKey = "yuri-classification-theme";
       const allowed = new Set(["system", "light", "dark"]);
       let preference = "system";
@@ -46,8 +47,8 @@
   <meta property="og:url" content="https://l-m-sherlock.github.io/yuri-classification-archive/works/kono_subarashii_sekai_ni_bakuen_wo_tv_2023/">
   <meta property="og:image" content="https://l-m-sherlock.github.io/yuri-classification-archive/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
   <title>《为美好的世界献上爆焰！》分类报告｜百合作品分类档案</title>
-  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=014a89622973">
-  
+  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=1cc35b33d5cd">
+
 </head>
 <body class="classification-report">
   <a class="skip-link" href="#main-content">跳到正文</a>
@@ -60,12 +61,24 @@
           <small>按查询拆开标签，按证据保留边界</small>
         </span>
       </a>
-      <nav class="site-nav" aria-label="主导航">
-        <a href="/yuri-classification-archive/">首页</a>
-        <a href="/yuri-classification-archive/table/">总表</a>
-        <a href="/yuri-classification-archive/about/">方法与说明</a>
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-navigation"
+      >
+        <span>菜单</span>
+        <span class="menu-toggle-icon" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-navigation" aria-label="主导航">
+        <div class="nav-main">
+          <a href="/yuri-classification-archive/">首页</a>
+          <a href="/yuri-classification-archive/table/">总表</a>
+          <a href="/yuri-classification-archive/about/">方法与说明</a>
+        </div>
         <a class="nav-star" href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub / Star <span aria-hidden="true">↗</span></a>
-        <a href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
+        <a class="nav-feedback" href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
         <label class="theme-control" for="theme-preference">
           <span>主题</span>
           <select id="theme-preference" aria-label="主题偏好">
@@ -84,7 +97,7 @@
     <h1>《为美好的世界献上爆焰！》分类报告</h1>
     <p class="report-subtitle">2023 television anime formal numbered episodes 1-12, aired from 2023-04-06 through 2023-06-22</p>
     <div class="label-strip" aria-label="分类摘要">
-      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>恋爱位置：</strong>主线</span><span class="label-chip"><strong>最高明确度：</strong>明确欲望</span><span class="label-chip"><strong>官方：</strong>未标百合／GL</span><span class="label-chip"><strong>置信度：</strong>高</span>
+      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>恋爱位置：</strong>主线</span><span class="label-chip"><strong>最高明确度：</strong>明确欲望</span><span class="label-chip"><strong>官方字面百合／GL：</strong>所核未见</span><span class="label-chip"><strong>官方女女恋爱表述：</strong>所核未见</span><span class="label-chip"><strong>官方来源：</strong>所核来源未含可公开筛选的层级或位置</span><span class="label-chip"><strong>置信度：</strong>高</span>
     </div>
     <a class="back-link" href="/yuri-classification-archive/table/?q=%E4%B8%BA%E7%BE%8E%E5%A5%BD%E7%9A%84%E4%B8%96%E7%95%8C%E7%8C%AE%E4%B8%8A%E7%88%86%E7%84%B0%EF%BC%81">← 返回总表并定位本作</a>
   </header>
@@ -94,7 +107,7 @@
       <ol><li><a href="#无剧透结论">无剧透结论</a></li><li><a href="#数据库与公开分类">数据库与公开分类</a></li><li><a href="#决定性文本证据">决定性文本证据</a></li><li><a href="#四层分析">四层分析</a></li><li><a href="#最强反方解释">最强反方解释</a></li><li><a href="#分用途结论">分用途结论</a></li><li><a href="#方法来源与限制">方法、来源与限制</a></li></ol>
     </aside>
     <div class="report-content">
-      <blockquote><p>分类日期：2026-07-31<br> 分类对象：2023 年 TV 动画《この素晴らしい世界に爆焔を！》独立外传／前传档案<br> 纳入范围：正式编号第 1–12 话<br> 排除范围：《为美好的世界献上祝福！》本篇各季、OVA、剧场版、播前特别节目、小说、漫画及其他跨媒介材料<br> 用途：普通推荐与数据库分类</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p><strong>本季可按女女关系主线的作品分类归档，置信度高；惠惠—悠悠有强烈但未确认的恋爱指向，正篇确认的关系仍是朋友、对手与并肩行动者。</strong> 二人的竞争贯穿求学、毕业和远行；“爱妻便当”“约会”与旁人直说“百合百合”提供恋爱化框架，但没有告白、接吻或交往。塞西莉对惠惠另有遭拒绝的性化纠缠，不能当作双方关系。</p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：主线｜最高明确度：明确欲望（来自局部单向纠缠；核心二人为强烈潜在指向）｜关系构成：多组异质关系｜官方：未标｜阅读层级：正篇事实＋强推断｜身份依据类型：只有明确关系与欲望事实｜男性恋爱线：次要｜内容提示：未成年人遭成人性化凝视与纠缠；男性角色的跟踪、偷窥和婚姻妄想；贫困与食物短缺；校园孤立与利用；魔物袭击、战斗、受伤及爆炸；邪教笑料、宗教操控和低俗性笑话。</strong></p></blockquote><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li>只找核心双方告白、接吻、正式交往或身份明示：<strong>不符合</strong>。</li><li>接受贯穿主线的女性搭档关系、作品内百合元评价和未确认恋爱指向：<strong>可以推荐</strong>，须注明“最重要的朋友”是范围内的明确落点。</li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><p>以下字段核对至 2026-07-31。四库只记录各平台怎样组织公共检索，不构成作品分类的多数决：编辑型数据库未给百合标签，Bangumi 用户标签有少量“百合／轻百合”；正篇另有一次直接的“百合百合”评价，属于文本证据而非数据库票数。三者必须分层记录。</p><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://konosuba.com/bakuen/story/" target="_blank" rel="noopener noreferrer">动画官网 Story</a>／<a href="https://konosuba.com/bakuen/story/?mode=story12" target="_blank" rel="noopener noreferrer">第 12 话</a></td><td>官网列第 1–12 话，并把作品定位为围绕惠惠与爆裂魔法憧憬展开的“一名少女的故事”；第 12 话文案写悠悠夜里潜入房间并开始倾吐心声</td><td>官方剧情页</td><td>锁定 12 话边界和主角成长中心；官网未发现百合或 GL 类型标记，文案的“倾吐心声”需由正片辨明内容</td></tr><tr class="even"><td><a href="https://myanimelist.net/anime/51958/Kono_Subarashii_Sekai_ni_Bakuen_wo" target="_blank" rel="noopener noreferrer">MyAnimeList 51958</a></td><td>TV、12 话，2023-04-06 至 2023-06-22；Genres 为 Comedy／Fantasy，来源 Light novel，无 Girls Love 分类</td><td>编辑型数据库</td><td>记录类型、话数、日期与标签沉默；Jikan 故障后由 MAL 精确页面恢复字段，不能把接口失败写成“没有标签”</td></tr><tr class="odd"><td><a href="https://www.anime-planet.com/anime/konosuba-an-explosion-on-this-wonderful-world" target="_blank" rel="noopener noreferrer">Anime-Planet 精确条目</a></td><td>TV、12 话、2023；完整展示标签为 Comedy、Fantasy、Magic、Based on a Light Novel，无 GL／Shoujo-ai／Yuri；简介明确故事发生在本篇相遇前一年</td><td>编辑维护的标签数据库</td><td>保存完整标签面板，并辅助确认前传边界；直接请求受验证页阻挡后，经公开文本路径恢复精确字段</td></tr><tr class="even"><td><a href="https://anilist.co/anime/150075/Kono-Subarashii-Sekai-ni-Bakuen-wo" target="_blank" rel="noopener noreferrer">AniList 150075</a></td><td>TV、12 话；Adventure／Comedy／Fantasy。完整社区标签含 Female Protagonist 94、Primarily Female Cast 91、School 65、Cute Girls Doing Cute Things 63、Unrequited Love 32 等，无 Yuri／LGBTQ+ Themes／Girls’ Love</td><td>编辑字段＋社区相关度标签</td><td>记录完整标签及与本篇 TV 的 Parent 关系；相关度不是票数或支持率，“单相思”也不能不看人物就套到惠惠—悠悠</td></tr><tr class="odd"><td><a href="https://bangumi.tv/subject/385209" target="_blank" rel="noopener noreferrer">Bangumi subject 385209</a>／<a href="https://api.bgm.tv/v0/episodes?subject_id=385209&amp;limit=100&amp;offset=0" target="_blank" rel="noopener noreferrer">分集 API</a></td><td>TV、通常话 12；元标签为 TV／日本／奇幻／日常／小说改，不含“百合”。用户标签中“百合”68、“轻百合”19，另有“外传”525；分集 API 列正式第 1–12 话，另有类型 1、序号 0 的播前特别节目</td><td>社区标签与结构化分集数据</td><td>如实保存元标签和用户标签的差异；计数不是投票比例。只纳入类型 0 的第 1–12 话，排除播前特别节目</td></tr><tr class="even"><td><a href="https://animetosho.org/view/judas-kono-subarashii-sekai-ni-bakuen-wo-konosuba.n1706042" target="_blank" rel="noopener noreferrer">AnimeTosho 完整发行索引</a>／<a href="https://jimaku.cc/entry/304" target="_blank" rel="noopener noreferrer">Jimaku entry 304</a></td><td>前者索引第 1–12 话同源 WEB 双语音轨、多语字幕及附件包；后者精确映射 AniList 150075，并有十二份 Netflix 日文 CC</td><td>第三方发行／字幕目录</td><td>建立完整英文字幕、同步视听与日文措辞复核材料；两者都不是官方台本或官方类型标签</td></tr></tbody></table></div><p>这次数据库故障审计的结论可以精确拆开。Jikan 的标题搜索和 51958 精确完整端点均在重试中返回上游 504；但 MAL 正式条目本身可访问，且公开文本路径恢复了 Type、Episodes、Aired、Genres 与 Source，所以只记录“Jikan 路径失败”。Anime-Planet 普通请求返回 403 验证页，精确条目正文和完整标签随后恢复，因此也不是缺失字段。AniList GraphQL、Bangumi 主体／分集 API 与 Jimaku 精确条目均成功。真正的标签结果是：MAL、Anime-Planet、AniList 没有百合相关字段；Bangumi 元标签没有，但用户标签有 68 次“百合”和 19 次“轻百合”。</p><h3 id="版本与前传边界">版本与前传边界</h3><p>本档把第 1–12 话作为一个完整 TV 季。Bangumi 的第 0 顺位项目是开播前特别节目，既非类型 0，也非正式编号正篇，故排除。Anime-Planet 简介的“一年前”、AniList 的 Parent 关系和本季结尾与本篇人物初遇共同确认它是独立前传／外传；该结尾只作为本季终点，不调用本篇后续季、OVA、电影、小说或漫画解释任何关系。全女校环境本身也不产生恋爱结论。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>以下部分包含第 1–12 话完整剧透。</p></aside>
+      <blockquote><p>分类日期：2026-07-31<br> 分类对象：2023 年 TV 动画《この素晴らしい世界に爆焔を！》独立外传／前传档案<br> 纳入范围：正式编号第 1–12 话<br> 排除范围：《为美好的世界献上祝福！》本篇各季、OVA、剧场版、播前特别节目、小说、漫画及其他跨媒介材料<br> 用途：普通推荐与数据库分类</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p><strong>本季可按女女关系主线的作品分类归档，置信度高；惠惠—悠悠有强烈但未确认的恋爱指向，正篇确认的关系仍是朋友、对手与并肩行动者。</strong> 二人的竞争贯穿求学、毕业和远行；“爱妻便当”“约会”与旁人直说“百合百合”提供恋爱化框架，但没有告白、接吻或交往。塞西莉对惠惠另有遭拒绝的性化纠缠，不能当作双方关系。</p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：主线｜最高明确度：明确欲望（来自局部单向纠缠；核心二人为强烈潜在指向）｜关系构成：多组异质关系｜官方字面：所核未见｜官方恋爱表述：所核未见｜官方来源：所核未见匹配表述｜阅读层级：正篇事实＋强推断｜身份依据类型：只有明确关系与欲望事实｜男性恋爱线：次要｜内容提示：未成年人遭成人性化凝视与纠缠；男性角色的跟踪、偷窥和婚姻妄想；贫困与食物短缺；校园孤立与利用；魔物袭击、战斗、受伤及爆炸；邪教笑料、宗教操控和低俗性笑话。</strong></p></blockquote><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li>只找核心双方告白、接吻、正式交往或身份明示：<strong>不符合</strong>。</li><li>接受贯穿主线的女性搭档关系、作品内百合元评价和未确认恋爱指向：<strong>可以推荐</strong>，须注明“最重要的朋友”是范围内的明确落点。</li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><p>以下字段核对至 2026-07-31。四库只记录各平台怎样组织公共检索，不构成作品分类的多数决：编辑型数据库未给百合标签，Bangumi 用户标签有少量“百合／轻百合”；正篇另有一次直接的“百合百合”评价，属于文本证据而非数据库票数。三者必须分层记录。</p><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://konosuba.com/bakuen/story/" target="_blank" rel="noopener noreferrer">动画官网 Story</a>／<a href="https://konosuba.com/bakuen/story/?mode=story12" target="_blank" rel="noopener noreferrer">第 12 话</a></td><td>官网列第 1–12 话，并把作品定位为围绕惠惠与爆裂魔法憧憬展开的“一名少女的故事”；第 12 话文案写悠悠夜里潜入房间并开始倾吐心声</td><td>官方剧情页</td><td>锁定 12 话边界和主角成长中心；官网未发现百合或 GL 类型标记，文案的“倾吐心声”需由正片辨明内容</td></tr><tr class="even"><td><a href="https://myanimelist.net/anime/51958/Kono_Subarashii_Sekai_ni_Bakuen_wo" target="_blank" rel="noopener noreferrer">MyAnimeList 51958</a></td><td>TV、12 话，2023-04-06 至 2023-06-22；Genres 为 Comedy／Fantasy，来源 Light novel，无 Girls Love 分类</td><td>编辑型数据库</td><td>记录类型、话数、日期与标签沉默；Jikan 故障后由 MAL 精确页面恢复字段，不能把接口失败写成“没有标签”</td></tr><tr class="odd"><td><a href="https://www.anime-planet.com/anime/konosuba-an-explosion-on-this-wonderful-world" target="_blank" rel="noopener noreferrer">Anime-Planet 精确条目</a></td><td>TV、12 话、2023；完整展示标签为 Comedy、Fantasy、Magic、Based on a Light Novel，无 GL／Shoujo-ai／Yuri；简介明确故事发生在本篇相遇前一年</td><td>编辑维护的标签数据库</td><td>保存完整标签面板，并辅助确认前传边界；直接请求受验证页阻挡后，经公开文本路径恢复精确字段</td></tr><tr class="even"><td><a href="https://anilist.co/anime/150075/Kono-Subarashii-Sekai-ni-Bakuen-wo" target="_blank" rel="noopener noreferrer">AniList 150075</a></td><td>TV、12 话；Adventure／Comedy／Fantasy。完整社区标签含 Female Protagonist 94、Primarily Female Cast 91、School 65、Cute Girls Doing Cute Things 63、Unrequited Love 32 等，无 Yuri／LGBTQ+ Themes／Girls’ Love</td><td>编辑字段＋社区相关度标签</td><td>记录完整标签及与本篇 TV 的 Parent 关系；相关度不是票数或支持率，“单相思”也不能不看人物就套到惠惠—悠悠</td></tr><tr class="odd"><td><a href="https://bangumi.tv/subject/385209" target="_blank" rel="noopener noreferrer">Bangumi subject 385209</a>／<a href="https://api.bgm.tv/v0/episodes?subject_id=385209&amp;limit=100&amp;offset=0" target="_blank" rel="noopener noreferrer">分集 API</a></td><td>TV、通常话 12；元标签为 TV／日本／奇幻／日常／小说改，不含“百合”。用户标签中“百合”68、“轻百合”19，另有“外传”525；分集 API 列正式第 1–12 话，另有类型 1、序号 0 的播前特别节目</td><td>社区标签与结构化分集数据</td><td>如实保存元标签和用户标签的差异；计数不是投票比例。只纳入类型 0 的第 1–12 话，排除播前特别节目</td></tr><tr class="even"><td><a href="https://animetosho.org/view/judas-kono-subarashii-sekai-ni-bakuen-wo-konosuba.n1706042" target="_blank" rel="noopener noreferrer">AnimeTosho 完整发行索引</a>／<a href="https://jimaku.cc/entry/304" target="_blank" rel="noopener noreferrer">Jimaku entry 304</a></td><td>前者索引第 1–12 话同源 WEB 双语音轨、多语字幕及附件包；后者精确映射 AniList 150075，并有十二份 Netflix 日文 CC</td><td>第三方发行／字幕目录</td><td>建立完整英文字幕、同步视听与日文措辞复核材料；两者都不是官方台本或官方类型标签</td></tr></tbody></table></div><p>这次数据库故障审计的结论可以精确拆开。Jikan 的标题搜索和 51958 精确完整端点均在重试中返回上游 504；但 MAL 正式条目本身可访问，且公开文本路径恢复了 Type、Episodes、Aired、Genres 与 Source，所以只记录“Jikan 路径失败”。Anime-Planet 普通请求返回 403 验证页，精确条目正文和完整标签随后恢复，因此也不是缺失字段。AniList GraphQL、Bangumi 主体／分集 API 与 Jimaku 精确条目均成功。真正的标签结果是：MAL、Anime-Planet、AniList 没有百合相关字段；Bangumi 元标签没有，但用户标签有 68 次“百合”和 19 次“轻百合”。</p><h3 id="版本与前传边界">版本与前传边界</h3><p>本档把第 1–12 话作为一个完整 TV 季。Bangumi 的第 0 顺位项目是开播前特别节目，既非类型 0，也非正式编号正篇，故排除。Anime-Planet 简介的“一年前”、AniList 的 Parent 关系和本季结尾与本篇人物初遇共同确认它是独立前传／外传；该结尾只作为本季终点，不调用本篇后续季、OVA、电影、小说或漫画解释任何关系。全女校环境本身也不产生恋爱结论。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>以下部分包含第 1–12 话完整剧透。</p></aside>
 
       <details class="spoiler-panel">
         <summary>
@@ -142,7 +155,7 @@
     </div>
   </footer>
   <script>window.SITE_CONFIG = {basePath: "/yuri-classification-archive"};</script>
-  <script src="/yuri-classification-archive/assets/site.js?v=95491b68a3ae" defer></script>
-  
+  <script src="/yuri-classification-archive/assets/site.js?v=686fc3d330d3" defer></script>
+
 </body>
 </html>

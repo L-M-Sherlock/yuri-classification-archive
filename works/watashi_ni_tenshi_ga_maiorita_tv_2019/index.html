@@ -9,6 +9,7 @@
   <meta id="theme-color-dark" name="theme-color" media="(prefers-color-scheme: dark)" content="#1c181c">
   <script>
     (() => {
+      document.documentElement.classList.add("js");
       const storageKey = "yuri-classification-theme";
       const allowed = new Set(["system", "light", "dark"]);
       let preference = "system";
@@ -46,8 +47,8 @@
   <meta property="og:url" content="https://l-m-sherlock.github.io/yuri-classification-archive/works/watashi_ni_tenshi_ga_maiorita_tv_2019/">
   <meta property="og:image" content="https://l-m-sherlock.github.io/yuri-classification-archive/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
   <title>《天使降临到了我身边！》分类报告｜百合作品分类档案</title>
-  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=014a89622973">
-  
+  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=1cc35b33d5cd">
+
 </head>
 <body class="classification-report">
   <a class="skip-link" href="#main-content">跳到正文</a>
@@ -60,12 +61,24 @@
           <small>按查询拆开标签，按证据保留边界</small>
         </span>
       </a>
-      <nav class="site-nav" aria-label="主导航">
-        <a href="/yuri-classification-archive/">首页</a>
-        <a href="/yuri-classification-archive/table/">总表</a>
-        <a href="/yuri-classification-archive/about/">方法与说明</a>
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-navigation"
+      >
+        <span>菜单</span>
+        <span class="menu-toggle-icon" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-navigation" aria-label="主导航">
+        <div class="nav-main">
+          <a href="/yuri-classification-archive/">首页</a>
+          <a href="/yuri-classification-archive/table/">总表</a>
+          <a href="/yuri-classification-archive/about/">方法与说明</a>
+        </div>
         <a class="nav-star" href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub / Star <span aria-hidden="true">↗</span></a>
-        <a href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
+        <a class="nav-feedback" href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
         <label class="theme-control" for="theme-preference">
           <span>主题</span>
           <select id="theme-preference" aria-label="主题偏好">
@@ -84,7 +97,7 @@
     <h1>《天使降临到了我身边！》分类报告</h1>
     <p class="report-subtitle">2019 TV anime broadcast episodes 1-12</p>
     <div class="label-strip" aria-label="分类摘要">
-      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>恋爱位置：</strong>主线</span><span class="label-chip"><strong>最高明确度：</strong>明确欲望</span><span class="label-chip"><strong>官方：</strong>未标百合／GL</span><span class="label-chip"><strong>置信度：</strong>高</span>
+      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>恋爱位置：</strong>主线</span><span class="label-chip"><strong>最高明确度：</strong>明确欲望</span><span class="label-chip"><strong>官方字面百合／GL：</strong>是</span><span class="label-chip"><strong>官方女女恋爱表述：</strong>是</span><span class="label-chip"><strong>官方来源：</strong>层级：原作、当前版本；位置：出版载体、可见作品宣传</span><span class="label-chip"><strong>置信度：</strong>高</span>
     </div>
     <a class="back-link" href="/yuri-classification-archive/table/?q=%E5%A4%A9%E4%BD%BF%E9%99%8D%E4%B8%B4%E5%88%B0%E4%BA%86%E6%88%91%E8%BA%AB%E8%BE%B9%EF%BC%81">← 返回总表并定位本作</a>
   </header>
@@ -94,7 +107,7 @@
       <ol><li><a href="#无剧透结论">无剧透结论</a></li><li><a href="#数据库与公开分类">数据库与公开分类</a></li><li><a href="#决定性文本证据">决定性文本证据</a></li><li><a href="#四层分析">四层分析</a></li><li><a href="#最强反方解释">最强反方解释</a></li><li><a href="#分用途结论">分用途结论</a></li><li><a href="#方法来源与限制">方法、来源与限制</a></li></ol>
     </aside>
     <div class="report-content">
-      <blockquote><p>分类日期：2026-07-29<br> 分类对象：2019 年 TV 动画《私に天使が舞い降りた！》<br> 纳入范围：正式播出的第 1–12 话<br> 排除范围：影碟特典 OVA《私がお姉ちゃんだよ》、剧场版、原作漫画、宣传短片及其他跨媒介材料<br> 用途：普通推荐、数据库分类、严格恋爱检索与角色身份检索</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p><strong>本报告将本作归为女女关系主线且按作品分类归档，置信度高。</strong> 女大学生主人公对妹妹的小学五年级同学产生一见钟情式吸引，另一名小学生把与女同学单独出游理解为约会，成人同龄人之间还有一条单向执着线；女性之间的欲望、依恋、友情与共同日常持续发动主要情节，没有男性恋爱线取代它们。</p><p><strong>它有明确的女女吸引和约会期待，却没有确立女女情侣。</strong> TV 第 1–12 话没有双方告白、接吻、正式交往或性取向自述。友情与照料经常双向，恋爱指向则主要是单向或未回应；“女女关系主线且按作品分类归档”描述作品的关系重心，不代表所有女女关系都是恋爱。</p><p>推荐时最需要说清的不是抽象褒贬，而是具体内容：大学生迷恋小学五年级儿童，以甜点换儿童穿自制服装并拍照；儿童拒绝、限制拍摄角度或不愿被拍后，仍有继续请求、连拍和偷拍。读者可据此自行判断是否纳入。</p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：主线｜最高明确度：明确女女恋爱欲望｜关系构成：多组异质关系｜官方：TV 官网未设百合／GL 类型字段；发行宣传明写一见钟情和《Comic百合姫》来源，产业媒体另称“年龄差百合”｜阅读层级：正篇事实＋强推断｜身份依据类型：只有明确关系／欲望事实，无身份自述｜男性恋爱线：无｜内容提示：大学生对小学五年级儿童的一见钟情式迷恋；甜点换穿服装及拍照；拒绝或限制后继续请求、连拍与偷拍；警察询问；成人同龄人持续观察、尾随和在住处周边活动。</strong></p></blockquote><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li><strong>只找女女吸引、单向喜欢或约会期待：可以纳入。</strong> 这些内容有正篇台词和官方宣传支持。</li><li><strong>只找双方告白、接吻、正式交往或稳定情侣：不纳入。</strong> TV 第 1–12 话没有确立任何一组女女情侣。</li><li><strong>只按女同性恋、双性恋等身份明示检索：不纳入。</strong> 角色没有自述性取向，作品标签也不能代替身份声明。</li><li><strong>排除成人对儿童的迷恋，或排除拒绝后继续拍摄与偷拍：不纳入。</strong> 两类事件都属于核心设定或反复出现的情节。</li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://watatentv.com/story01.html" target="_blank" rel="noopener noreferrer">TV 动画官网第 1 话梗概</a></td><td>主人公是怕生的女大学生，妹妹与新朋友是小学生；她初见花后心跳不止并想与其亲近</td><td>官方剧情简介</td><td>确认年龄层、开场吸引和关系起点；该页没有独立百合／GL 类型字段</td></tr><tr class="even"><td><a href="https://www.kadokawa.co.jp/product/video1550/" target="_blank" rel="noopener noreferrer">KADOKAWA Blu-ray BOX</a></td><td>介绍原作连载于《Comic百合姫》，称主人公对花 <code>一目惚れ</code>；收录“全 12 话＋特典映像”，OVA 另列</td><td>官方发行与商品资料</td><td>支持“一见钟情式吸引”和版本边界；杂志来源不等于 TV 角色身份声明</td></tr><tr class="odd"><td><a href="https://natalie.mu/comic/news/286742" target="_blank" rel="noopener noreferrer">Comic Natalie 动画化报道</a></td><td>标题将作品概括为“怕生女大学生与小学生的年龄差百合”</td><td>产业媒体分类</td><td>证明公开产业语境确实使用“百合”；不把媒体标题当作官方类型字段</td></tr><tr class="even"><td><a href="https://myanimelist.net/anime/37993/Watashi_ni_Tenshi_ga_Maiorita" target="_blank" rel="noopener noreferrer">MyAnimeList</a></td><td><code>TV</code>、12 话；Genre 为 <code>Comedy</code>，Themes 为 <code>CGDCT / Otaku Culture</code>，未列 Girls Love</td><td>编辑型数据库</td><td>记录 MAL 当前检索组织；“未列”不是对其他百合分类的否认</td></tr><tr class="odd"><td><a href="https://www.anime-planet.com/anime/wataten-an-angel-flew-down-to-me" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td>2026-07-30 完整 Tags 面板：<code>Comedy / GL / Shoujo-ai / Slice of Life / Age Gap / Based on a 4-Koma Manga / Based on a Manga</code></td><td>编辑维护的数据库标签</td><td>记录当前检索字段；不是官方认证，标签存在或沉默都不自动裁定作品关系</td></tr><tr class="even"><td><a href="https://anilist.co/anime/102680/WATATEN-an-Angel-Flew-Down-to-Me" target="_blank" rel="noopener noreferrer">AniList</a></td><td><code>TV</code>、12 话；Genres 为 Comedy、Slice of Life；社区标签含 Age Gap 79%、Yuri 76%</td><td>编辑文类字段＋带权重社区标签</td><td>将文类字段与社区相关度分开；权重不是观众投票比例</td></tr><tr class="odd"><td><a href="https://bangumi.tv/subject/249637" target="_blank" rel="noopener noreferrer">Bangumi</a>／<a href="https://api.bgm.tv/v0/episodes?subject_id=249637&amp;limit=100&amp;offset=0" target="_blank" rel="noopener noreferrer">章节 API</a></td><td>主条目聚合为 13；章节中正片 <code>type=0</code> 共 12 个，特典 <code>type=1</code> 共 1 个；用户标签含“百合”“轻百合”</td><td>社区条目、章节字段与用户标签</td><td>是本批榜单来源；按章节类型划定 12 话正篇，不把标签计数当成官方认证</td></tr><tr class="even"><td><a href="https://jimaku.cc/entry/1754" target="_blank" rel="noopener noreferrer">Jimaku 1754</a></td><td>精确映射 AniList 102680，提供第 1–12 话日文字幕；OVA 另有独立条目</td><td>字幕资料库</td><td>用于全季阅读、词项检查与时间码定位，不作为官方台本或文类权威</td></tr></tbody></table></div><p>KADOKAWA 写明“全 12 话＋特典映像”，并把约 24 分钟的 OVA 单列；Bangumi 的 13 是十二个正片章节与一个特典章节的聚合结果，Jimaku 也把两者分开。因此，本报告只讨论广播 TV 第 1–12 话。各数据库的标签回答的是检索方式，作品判定仍以这十二话的实际叙事为主。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>**以下部分包含 2019 年 TV 第 1–12 话的完整剧透，并涉及成人对儿童的迷恋、以甜点换服装拍摄、拒绝后的继续请求、偷拍与尾随。**</p></aside>
+      <blockquote><p>分类日期：2026-07-29<br> 分类对象：2019 年 TV 动画《私に天使が舞い降りた！》<br> 纳入范围：正式播出的第 1–12 话<br> 排除范围：影碟特典 OVA《私がお姉ちゃんだよ》、剧场版、原作漫画、宣传短片及其他跨媒介材料<br> 用途：普通推荐、数据库分类、严格恋爱检索与角色身份检索</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p><strong>本报告将本作归为女女关系主线且按作品分类归档，置信度高。</strong> 女大学生主人公对妹妹的小学五年级同学产生一见钟情式吸引，另一名小学生把与女同学单独出游理解为约会，成人同龄人之间还有一条单向执着线；女性之间的欲望、依恋、友情与共同日常持续发动主要情节，没有男性恋爱线取代它们。</p><p><strong>它有明确的女女吸引和约会期待，却没有确立女女情侣。</strong> TV 第 1–12 话没有双方告白、接吻、正式交往或性取向自述。友情与照料经常双向，恋爱指向则主要是单向或未回应；“女女关系主线且按作品分类归档”描述作品的关系重心，不代表所有女女关系都是恋爱。</p><p>推荐时最需要说清的不是抽象褒贬，而是具体内容：大学生迷恋小学五年级儿童，以甜点换儿童穿自制服装并拍照；儿童拒绝、限制拍摄角度或不愿被拍后，仍有继续请求、连拍和偷拍。读者可据此自行判断是否纳入。</p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：主线｜最高明确度：明确女女恋爱欲望｜关系构成：多组异质关系｜官方字面：是｜官方恋爱表述：是｜官方来源：原作·出版渠道；范围内版本·可见宣传｜阅读层级：正篇事实＋强推断｜身份依据类型：只有明确关系／欲望事实，无身份自述｜男性恋爱线：无｜内容提示：大学生对小学五年级儿童的一见钟情式迷恋；甜点换穿服装及拍照；拒绝或限制后继续请求、连拍与偷拍；警察询问；成人同龄人持续观察、尾随和在住处周边活动。</strong></p></blockquote><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li><strong>只找女女吸引、单向喜欢或约会期待：可以纳入。</strong> 这些内容有正篇台词和官方宣传支持。</li><li><strong>只找双方告白、接吻、正式交往或稳定情侣：不纳入。</strong> TV 第 1–12 话没有确立任何一组女女情侣。</li><li><strong>只按女同性恋、双性恋等身份明示检索：不纳入。</strong> 角色没有自述性取向，作品标签也不能代替身份声明。</li><li><strong>排除成人对儿童的迷恋，或排除拒绝后继续拍摄与偷拍：不纳入。</strong> 两类事件都属于核心设定或反复出现的情节。</li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://watatentv.com/story01.html" target="_blank" rel="noopener noreferrer">TV 动画官网第 1 话梗概</a></td><td>主人公是怕生的女大学生，妹妹与新朋友是小学生；她初见花后心跳不止并想与其亲近</td><td>官方剧情简介</td><td>确认年龄层、开场吸引和关系起点；该页没有独立百合／GL 类型字段</td></tr><tr class="even"><td><a href="https://www.kadokawa.co.jp/product/video1550/" target="_blank" rel="noopener noreferrer">KADOKAWA Blu-ray BOX</a></td><td>介绍原作连载于《Comic百合姫》，称主人公对花 <code>一目惚れ</code>；收录“全 12 话＋特典映像”，OVA 另列</td><td>官方发行与商品资料</td><td>支持“一见钟情式吸引”和版本边界；杂志来源不等于 TV 角色身份声明</td></tr><tr class="odd"><td><a href="https://natalie.mu/comic/news/286742" target="_blank" rel="noopener noreferrer">Comic Natalie 动画化报道</a></td><td>标题将作品概括为“怕生女大学生与小学生的年龄差百合”</td><td>产业媒体分类</td><td>证明公开产业语境确实使用“百合”；不把媒体标题当作官方类型字段</td></tr><tr class="even"><td><a href="https://myanimelist.net/anime/37993/Watashi_ni_Tenshi_ga_Maiorita" target="_blank" rel="noopener noreferrer">MyAnimeList</a></td><td><code>TV</code>、12 话；Genre 为 <code>Comedy</code>，Themes 为 <code>CGDCT / Otaku Culture</code>，未列 Girls Love</td><td>编辑型数据库</td><td>记录 MAL 当前检索组织；“未列”不是对其他百合分类的否认</td></tr><tr class="odd"><td><a href="https://www.anime-planet.com/anime/wataten-an-angel-flew-down-to-me" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td>2026-07-30 完整 Tags 面板：<code>Comedy / GL / Shoujo-ai / Slice of Life / Age Gap / Based on a 4-Koma Manga / Based on a Manga</code></td><td>编辑维护的数据库标签</td><td>记录当前检索字段；不是官方认证，标签存在或沉默都不自动裁定作品关系</td></tr><tr class="even"><td><a href="https://anilist.co/anime/102680/WATATEN-an-Angel-Flew-Down-to-Me" target="_blank" rel="noopener noreferrer">AniList</a></td><td><code>TV</code>、12 话；Genres 为 Comedy、Slice of Life；社区标签含 Age Gap 79%、Yuri 76%</td><td>编辑文类字段＋带权重社区标签</td><td>将文类字段与社区相关度分开；权重不是观众投票比例</td></tr><tr class="odd"><td><a href="https://bangumi.tv/subject/249637" target="_blank" rel="noopener noreferrer">Bangumi</a>／<a href="https://api.bgm.tv/v0/episodes?subject_id=249637&amp;limit=100&amp;offset=0" target="_blank" rel="noopener noreferrer">章节 API</a></td><td>主条目聚合为 13；章节中正片 <code>type=0</code> 共 12 个，特典 <code>type=1</code> 共 1 个；用户标签含“百合”“轻百合”</td><td>社区条目、章节字段与用户标签</td><td>是本批榜单来源；按章节类型划定 12 话正篇，不把标签计数当成官方认证</td></tr><tr class="even"><td><a href="https://jimaku.cc/entry/1754" target="_blank" rel="noopener noreferrer">Jimaku 1754</a></td><td>精确映射 AniList 102680，提供第 1–12 话日文字幕；OVA 另有独立条目</td><td>字幕资料库</td><td>用于全季阅读、词项检查与时间码定位，不作为官方台本或文类权威</td></tr></tbody></table></div><p>KADOKAWA 写明“全 12 话＋特典映像”，并把约 24 分钟的 OVA 单列；Bangumi 的 13 是十二个正片章节与一个特典章节的聚合结果，Jimaku 也把两者分开。因此，本报告只讨论广播 TV 第 1–12 话。各数据库的标签回答的是检索方式，作品判定仍以这十二话的实际叙事为主。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>**以下部分包含 2019 年 TV 第 1–12 话的完整剧透，并涉及成人对儿童的迷恋、以甜点换服装拍摄、拒绝后的继续请求、偷拍与尾随。**</p></aside>
 
       <details class="spoiler-panel">
         <summary>
@@ -142,7 +155,7 @@
     </div>
   </footer>
   <script>window.SITE_CONFIG = {basePath: "/yuri-classification-archive"};</script>
-  <script src="/yuri-classification-archive/assets/site.js?v=95491b68a3ae" defer></script>
-  
+  <script src="/yuri-classification-archive/assets/site.js?v=686fc3d330d3" defer></script>
+
 </body>
 </html>

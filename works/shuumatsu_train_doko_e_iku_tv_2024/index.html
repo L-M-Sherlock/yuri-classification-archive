@@ -9,6 +9,7 @@
   <meta id="theme-color-dark" name="theme-color" media="(prefers-color-scheme: dark)" content="#1c181c">
   <script>
     (() => {
+      document.documentElement.classList.add("js");
       const storageKey = "yuri-classification-theme";
       const allowed = new Set(["system", "light", "dark"]);
       let preference = "system";
@@ -46,8 +47,8 @@
   <meta property="og:url" content="https://l-m-sherlock.github.io/yuri-classification-archive/works/shuumatsu_train_doko_e_iku_tv_2024/">
   <meta property="og:image" content="https://l-m-sherlock.github.io/yuri-classification-archive/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
   <title>《末日列车去哪里？》分类报告｜百合作品分类档案</title>
-  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=014a89622973">
-  
+  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=1cc35b33d5cd">
+
 </head>
 <body class="classification-report">
   <a class="skip-link" href="#main-content">跳到正文</a>
@@ -60,12 +61,24 @@
           <small>按查询拆开标签，按证据保留边界</small>
         </span>
       </a>
-      <nav class="site-nav" aria-label="主导航">
-        <a href="/yuri-classification-archive/">首页</a>
-        <a href="/yuri-classification-archive/table/">总表</a>
-        <a href="/yuri-classification-archive/about/">方法与说明</a>
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-navigation"
+      >
+        <span>菜单</span>
+        <span class="menu-toggle-icon" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-navigation" aria-label="主导航">
+        <div class="nav-main">
+          <a href="/yuri-classification-archive/">首页</a>
+          <a href="/yuri-classification-archive/table/">总表</a>
+          <a href="/yuri-classification-archive/about/">方法与说明</a>
+        </div>
         <a class="nav-star" href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub / Star <span aria-hidden="true">↗</span></a>
-        <a href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
+        <a class="nav-feedback" href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
         <label class="theme-control" for="theme-preference">
           <span>主题</span>
           <select id="theme-preference" aria-label="主题偏好">
@@ -84,7 +97,7 @@
     <h1>《末日列车去哪里？》分类报告</h1>
     <p class="report-subtitle">2024 TV anime episodes 1-12</p>
     <div class="label-strip" aria-label="分类摘要">
-      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>恋爱位置：</strong>缺席</span><span class="label-chip"><strong>最高明确度：</strong>非恋爱</span><span class="label-chip"><strong>官方：</strong>未标百合／GL</span><span class="label-chip"><strong>置信度：</strong>高</span>
+      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>恋爱位置：</strong>缺席</span><span class="label-chip"><strong>最高明确度：</strong>非恋爱</span><span class="label-chip"><strong>官方字面百合／GL：</strong>所核未见</span><span class="label-chip"><strong>官方女女恋爱表述：</strong>所核未见</span><span class="label-chip"><strong>官方来源：</strong>所核来源未含可公开筛选的层级或位置</span><span class="label-chip"><strong>置信度：</strong>高</span>
     </div>
     <a class="back-link" href="/yuri-classification-archive/table/?q=%E6%9C%AB%E6%97%A5%E5%88%97%E8%BD%A6%E5%8E%BB%E5%93%AA%E9%87%8C%EF%BC%9F">← 返回总表并定位本作</a>
   </header>
@@ -94,7 +107,7 @@
       <ol><li><a href="#无剧透结论">无剧透结论</a></li><li><a href="#数据库与公开分类">数据库与公开分类</a></li><li><a href="#决定性文本证据">决定性文本证据</a></li><li><a href="#四层分析">四层分析</a></li><li><a href="#最强反方解释">最强反方解释</a></li><li><a href="#分用途结论">分用途结论</a></li><li><a href="#方法来源与限制">方法、来源与限制</a></li></ol>
     </aside>
     <div class="report-content">
-      <blockquote><p>分类日期：2026-07-30<br> 分类对象：2024 年 TV 动画《終末トレインどこへいく？》第 1–12 话<br> 纳入范围：2024 年 TV 正篇全 12 话<br> 排除范围：短篇 ONA、宣传访谈、社交媒体及其他衍生材料<br> 用途：普通推荐与数据库分类</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p><strong>按本档案容纳非恋爱女女关系的开放口径，TV 全 12 话属于女女关系主线且按作品分类归档，置信度高；按恋爱限定口径则不属于明确 GL。</strong> 整段末日铁路旅行因千仓静留想找回中富叶香而开始，星抚子、久贺玲实、东云晶也以同行、冲突和相互救援推动故事。终局的核心不是击败异常本身，而是静留承认伤害、叶香重新选择关系，以及所有人接受彼此会改变。</p><p><strong>静留／叶香在正篇中被反复称为朋友，感情深度、排他焦虑和“不要离开”允许恋爱阅读，但没有恋爱确认。</strong> 全季没有女女告白、接吻、交往或性取向身份自述，也没有男性恋爱线。把她们写成“已相恋”会超出文本，把作品只写成公路冒险又会遗漏女女关系正是旅程的原因与终点。</p><p>最稳妥的短标签是：<strong>女性友谊与修复关系驱动的超现实末日铁路冒险；核心旧友具有亲密阅读空间，正篇关系名为朋友。</strong></p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：缺席｜最高明确度：非恋爱｜关系构成：单一主要关系记录｜官方：未标百合／GL｜阅读层级：正篇事实＋读者解读｜身份依据类型：范围内没有性取向身份依据｜男性恋爱线：无｜内容提示：末日灾变、青少年长期失联、危险旅行与战斗、身体变形、蘑菇寄生、僵尸、流血与死亡威胁、记忆篡改、精神控制、粗俗笑话和家庭冲突。</strong></p></blockquote><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li>只寻找女女告白、接吻、正式交往或身份明示：<strong>不符合</strong>。</li><li>接受高中心性的女性友谊、失而复得、排他焦虑与开放亲密阅读：<strong>符合，且核心关系贯穿首尾</strong>。</li><li>希望剧情以单一双人关系为主：<strong>需说明是四人旅团。</strong> 静留／叶香是旅程起因和终点，但抚子、玲实、晶拥有持续行动权。</li><li>推荐时宜写“朋友关系修复＋可作潜在恋爱阅读”，不能把“寻找两年”直接翻译成告白。</li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><p>以下字段核对至 2026-07-30。官方剧情、编辑类型、社区标签和字幕目录回答不同问题；社区标签不是官方认证，数据库未标也不是反对票。</p><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://shumatsu-train.com/story/" target="_blank" rel="noopener noreferrer">官方 TV 网站 STORY</a>／<a href="https://shumatsu-train.com/chara/" target="_blank" rel="noopener noreferrer">角色页</a></td><td>官方称静留怀有“想再见一次下落不明的朋友”的强烈愿望，少女们因此乘列车出发；角色页把叶香写作静留的好友，未见百合／GL 类型字段</td><td>官方剧情与角色表述</td><td>支持失踪女性朋友是旅程起点、四位少女是行动主体；官方的“朋友”必须保留，不改写成恋人</td></tr><tr class="even"><td><a href="https://shumatsu-train.com/story/01.html" target="_blank" rel="noopener noreferrer">官方第 1 话简介</a></td><td>静留一直牵挂失踪的亲近朋友叶香，为寻找她驾驶列车离开吾野</td><td>官方分集摘要</td><td>核对动机和首话范围；摘要不能代替后续关系分析</td></tr><tr class="odd"><td><a href="https://myanimelist.net/anime/53356/Shuumatsu_Train_Doko_e_Iku" target="_blank" rel="noopener noreferrer">MyAnimeList 53356</a></td><td>TV、12 集；Genre 为 Adventure；未列 Girls Love 或 Romance</td><td>编辑型数据库字段</td><td>核对版本及冒险主类型；未标不等于禁止百合阅读</td></tr><tr class="even"><td><a href="https://www.anime-planet.com/anime/train-to-the-end-of-the-world" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td>2026-07-30 完整 Tags 面板：<code>Adventure / Fantasy / Post-apocalyptic / Trains / Original Work</code></td><td>编辑维护的数据库标签</td><td>记录当前检索字段；不是官方认证，标签存在或沉默都不自动裁定作品关系</td></tr><tr class="odd"><td><a href="https://anilist.co/anime/155657" target="_blank" rel="noopener noreferrer">AniList 155657</a></td><td>Genres 为 Adventure、Comedy、Sci-Fi、Supernatural；社区标签含 Post-Apocalyptic 99%、Trains 97%、Travel 95%、Female Protagonist 91%、Primarily Female Cast 89% 等，未见 Yuri 标签</td><td>编辑字段＋带权重社区标签</td><td>支持末日旅行与女性群像定位；本次未标 Yuri 只是平台快照</td></tr><tr class="even"><td><a href="https://bangumi.tv/subject/404809" target="_blank" rel="noopener noreferrer">Bangumi subject 404809</a>／<a href="https://api.bgm.tv/v0/subjects/404809" target="_blank" rel="noopener noreferrer">公共 API</a></td><td>TV、12 话；用户标签快照含“百合”988、“轻百合”70、“公路片”1591，并有原创、末世、冒险等</td><td>社区用户标签与范围数据</td><td>记录社区同时采用百合和公路片分类；计数不证明恋爱、身份或官方立场</td></tr><tr class="odd"><td><a href="https://jimaku.cc/entry/5820" target="_blank" rel="noopener noreferrer">Jimaku entry 5820</a></td><td>条目与 AniList 155657 对应，提供覆盖第 1–12 话的日文字幕</td><td>第三方字幕目录</td><td>用于逐话文字定位，不承担分类认证</td></tr></tbody></table></div><p>短篇 ONA <code>わんわんトレインどこへいく？</code> 有独立条目，本报告不将其并入 12 话 TV。官方与 MAL、AniList、Anime-Planet首先帮助预测“末日列车冒险”体验；Bangumi 标签则说明部分观众用百合组织对核心女女关系的阅读。这些说法可以同时成立，无需把某一平台当作文类立法者。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>以下部分包含《終末トレインどこへいく？》TV 第 1–12 话完整剧透。</p></aside>
+      <blockquote><p>分类日期：2026-07-30<br> 分类对象：2024 年 TV 动画《終末トレインどこへいく？》第 1–12 话<br> 纳入范围：2024 年 TV 正篇全 12 话<br> 排除范围：短篇 ONA、宣传访谈、社交媒体及其他衍生材料<br> 用途：普通推荐与数据库分类</p></blockquote><h2 id="无剧透结论">无剧透结论</h2><p><strong>按本档案容纳非恋爱女女关系的开放口径，TV 全 12 话属于女女关系主线且按作品分类归档，置信度高；按恋爱限定口径则不属于明确 GL。</strong> 整段末日铁路旅行因千仓静留想找回中富叶香而开始，星抚子、久贺玲实、东云晶也以同行、冲突和相互救援推动故事。终局的核心不是击败异常本身，而是静留承认伤害、叶香重新选择关系，以及所有人接受彼此会改变。</p><p><strong>静留／叶香在正篇中被反复称为朋友，感情深度、排他焦虑和“不要离开”允许恋爱阅读，但没有恋爱确认。</strong> 全季没有女女告白、接吻、交往或性取向身份自述，也没有男性恋爱线。把她们写成“已相恋”会超出文本，把作品只写成公路冒险又会遗漏女女关系正是旅程的原因与终点。</p><p>最稳妥的短标签是：<strong>女性友谊与修复关系驱动的超现实末日铁路冒险；核心旧友具有亲密阅读空间，正篇关系名为朋友。</strong></p><h3 id="分层标签">分层标签</h3><blockquote><p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：缺席｜最高明确度：非恋爱｜关系构成：单一主要关系记录｜官方字面：所核未见｜官方恋爱表述：所核未见｜官方来源：所核未见匹配表述｜阅读层级：正篇事实＋读者解读｜身份依据类型：范围内没有性取向身份依据｜男性恋爱线：无｜内容提示：末日灾变、青少年长期失联、危险旅行与战斗、身体变形、蘑菇寄生、僵尸、流血与死亡威胁、记忆篡改、精神控制、粗俗笑话和家庭冲突。</strong></p></blockquote><h3 id="严格恋爱检索提示">严格恋爱检索提示</h3><ul><li>只寻找女女告白、接吻、正式交往或身份明示：<strong>不符合</strong>。</li><li>接受高中心性的女性友谊、失而复得、排他焦虑与开放亲密阅读：<strong>符合，且核心关系贯穿首尾</strong>。</li><li>希望剧情以单一双人关系为主：<strong>需说明是四人旅团。</strong> 静留／叶香是旅程起因和终点，但抚子、玲实、晶拥有持续行动权。</li><li>推荐时宜写“朋友关系修复＋可作潜在恋爱阅读”，不能把“寻找两年”直接翻译成告白。</li></ul><h2 id="数据库与公开分类">数据库与公开分类</h2><p>以下字段核对至 2026-07-30。官方剧情、编辑类型、社区标签和字幕目录回答不同问题；社区标签不是官方认证，数据库未标也不是反对票。</p><div class="table-scroll"><table><thead><tr class="header"><th>来源</th><th>条目与字段</th><th>来源类型</th><th>本报告如何使用</th></tr></thead><tbody><tr class="odd"><td><a href="https://shumatsu-train.com/story/" target="_blank" rel="noopener noreferrer">官方 TV 网站 STORY</a>／<a href="https://shumatsu-train.com/chara/" target="_blank" rel="noopener noreferrer">角色页</a></td><td>官方称静留怀有“想再见一次下落不明的朋友”的强烈愿望，少女们因此乘列车出发；角色页把叶香写作静留的好友，未见百合／GL 类型字段</td><td>官方剧情与角色表述</td><td>支持失踪女性朋友是旅程起点、四位少女是行动主体；官方的“朋友”必须保留，不改写成恋人</td></tr><tr class="even"><td><a href="https://shumatsu-train.com/story/01.html" target="_blank" rel="noopener noreferrer">官方第 1 话简介</a></td><td>静留一直牵挂失踪的亲近朋友叶香，为寻找她驾驶列车离开吾野</td><td>官方分集摘要</td><td>核对动机和首话范围；摘要不能代替后续关系分析</td></tr><tr class="odd"><td><a href="https://myanimelist.net/anime/53356/Shuumatsu_Train_Doko_e_Iku" target="_blank" rel="noopener noreferrer">MyAnimeList 53356</a></td><td>TV、12 集；Genre 为 Adventure；未列 Girls Love 或 Romance</td><td>编辑型数据库字段</td><td>核对版本及冒险主类型；未标不等于禁止百合阅读</td></tr><tr class="even"><td><a href="https://www.anime-planet.com/anime/train-to-the-end-of-the-world" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td><td>2026-07-30 完整 Tags 面板：<code>Adventure / Fantasy / Post-apocalyptic / Trains / Original Work</code></td><td>编辑维护的数据库标签</td><td>记录当前检索字段；不是官方认证，标签存在或沉默都不自动裁定作品关系</td></tr><tr class="odd"><td><a href="https://anilist.co/anime/155657" target="_blank" rel="noopener noreferrer">AniList 155657</a></td><td>Genres 为 Adventure、Comedy、Sci-Fi、Supernatural；社区标签含 Post-Apocalyptic 99%、Trains 97%、Travel 95%、Female Protagonist 91%、Primarily Female Cast 89% 等，未见 Yuri 标签</td><td>编辑字段＋带权重社区标签</td><td>支持末日旅行与女性群像定位；本次未标 Yuri 只是平台快照</td></tr><tr class="even"><td><a href="https://bangumi.tv/subject/404809" target="_blank" rel="noopener noreferrer">Bangumi subject 404809</a>／<a href="https://api.bgm.tv/v0/subjects/404809" target="_blank" rel="noopener noreferrer">公共 API</a></td><td>TV、12 话；用户标签快照含“百合”988、“轻百合”70、“公路片”1591，并有原创、末世、冒险等</td><td>社区用户标签与范围数据</td><td>记录社区同时采用百合和公路片分类；计数不证明恋爱、身份或官方立场</td></tr><tr class="odd"><td><a href="https://jimaku.cc/entry/5820" target="_blank" rel="noopener noreferrer">Jimaku entry 5820</a></td><td>条目与 AniList 155657 对应，提供覆盖第 1–12 话的日文字幕</td><td>第三方字幕目录</td><td>用于逐话文字定位，不承担分类认证</td></tr></tbody></table></div><p>短篇 ONA <code>わんわんトレインどこへいく？</code> 有独立条目，本报告不将其并入 12 话 TV。官方与 MAL、AniList、Anime-Planet首先帮助预测“末日列车冒险”体验；Bangumi 标签则说明部分观众用百合组织对核心女女关系的阅读。这些说法可以同时成立，无需把某一平台当作文类立法者。</p><aside class="alert alert-warning"><strong>剧透提示</strong><p>以下部分包含《終末トレインどこへいく？》TV 第 1–12 话完整剧透。</p></aside>
 
       <details class="spoiler-panel">
         <summary>
@@ -142,7 +155,7 @@
     </div>
   </footer>
   <script>window.SITE_CONFIG = {basePath: "/yuri-classification-archive"};</script>
-  <script src="/yuri-classification-archive/assets/site.js?v=95491b68a3ae" defer></script>
-  
+  <script src="/yuri-classification-archive/assets/site.js?v=686fc3d330d3" defer></script>
+
 </body>
 </html>
