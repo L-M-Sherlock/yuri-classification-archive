@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-31T06:18:32+00:00",
+  "generated_at": "2026-07-31T06:30:37+00:00",
   "site_url": "https://l-m-sherlock.github.io/yuri-classification-archive",
   "item_count": 160,
   "query_semantics": {
@@ -6510,6 +6510,70 @@
       "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/maria_holic_tv_2009/"
     },
     {
+      "slug": "futari_wa_precure_tv_2004",
+      "title": "光之美少女",
+      "title_original": "ふたりはプリキュア",
+      "title_romaji": "Futari wa Precure",
+      "title_english": "Pretty Cure",
+      "release_year": 2004,
+      "medium": {
+        "code": "tv_anime",
+        "label": "TV 动画"
+      },
+      "scope_summary": "2004-2005 TV anime, numbered episodes 1-49, aired from 2004-02-01 through 2005-01-30",
+      "female_relationship_centrality": {
+        "code": "main",
+        "label": "主线"
+      },
+      "archive_basis": {
+        "code": "work_classification",
+        "label": "作品分类"
+      },
+      "romance_centrality": {
+        "code": "absent",
+        "label": "缺席"
+      },
+      "highest_romance_explicitness": {
+        "code": "non_romantic",
+        "label": "非恋爱"
+      },
+      "official_label": {
+        "code": "unmarked",
+        "label": "未标百合／GL"
+      },
+      "identity_evidence_basis": {
+        "code": "no_in_scope_evidence",
+        "label": "范围内无依据"
+      },
+      "male_romance_line": {
+        "code": "secondary",
+        "label": "副线"
+      },
+      "confidence": {
+        "code": "high",
+        "label": "高"
+      },
+      "classification_date": "2026-07-30",
+      "content_warnings": [
+        "fantasy_violence_and_child_endangerment",
+        "villain_coercion_and_identity_loss",
+        "emotional_separation_grief_and_apparent_death",
+        "school_conflict_and_peer_pressure"
+      ],
+      "content_warnings_text": "fantasy_violence_and_child_endangerment；villain_coercion_and_identity_loss；emotional_separation_grief_and_apparent_death；school_conflict_and_peer_pressure",
+      "quick_queries": {
+        "explicit_relationship": false,
+        "explicit_desire": false,
+        "accepts_unconfirmed": false,
+        "female_relationship_main": true,
+        "official_yuri_gl": false
+      },
+      "bangumi_rank": 1873,
+      "bangumi_yuri_tag_ratio": 0.04425182481751825,
+      "report_url": "/yuri-classification-archive/works/futari_wa_precure_tv_2004/",
+      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/futari_wa_precure_tv_2004/"
+    },
+    {
       "slug": "yozakura_quartet_hana_no_uta_tv_2013",
       "title": "夜樱四重奏 花之歌",
       "title_original": "夜桜四重奏 ～ハナノウタ～",
@@ -6636,7 +6700,7 @@
         "official_yuri_gl": false
       },
       "bangumi_rank": 1930,
-      "bangumi_yuri_tag_ratio": 0.10131879279736242,
+      "bangumi_yuri_tag_ratio": 0.10130594649423101,
       "report_url": "/yuri-classification-archive/works/endro_tv_2019/",
       "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/endro_tv_2019/"
     },
@@ -6834,8 +6898,8 @@
         "female_relationship_main": true,
         "official_yuri_gl": false
       },
-      "bangumi_rank": 1973,
-      "bangumi_yuri_tag_ratio": 0.17664589542129505,
+      "bangumi_rank": 1972,
+      "bangumi_yuri_tag_ratio": 0.17659804983748645,
       "report_url": "/yuri-classification-archive/works/sasameki_koto_tv_2009/",
       "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/sasameki_koto_tv_2009/"
     },
@@ -6900,7 +6964,7 @@
         "official_yuri_gl": false
       },
       "bangumi_rank": 2000,
-      "bangumi_yuri_tag_ratio": 0.02056684223727113,
+      "bangumi_yuri_tag_ratio": 0.020561685055165497,
       "report_url": "/yuri-classification-archive/works/kouya_no_kotobuki_hikoutai_tv_2019/",
       "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/kouya_no_kotobuki_hikoutai_tv_2019/"
     },
@@ -6966,7 +7030,7 @@
         "female_relationship_main": true,
         "official_yuri_gl": false
       },
-      "bangumi_rank": 2084,
+      "bangumi_rank": 2092,
       "bangumi_yuri_tag_ratio": 0.06741573033707865,
       "report_url": "/yuri-classification-archive/works/figure_17_tv_2001/",
       "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/figure_17_tv_2001/"
@@ -7096,7 +7160,7 @@
         "official_yuri_gl": false
       },
       "bangumi_rank": 2110,
-      "bangumi_yuri_tag_ratio": 0.10875870069605569,
+      "bangumi_yuri_tag_ratio": 0.10870352924124936,
       "report_url": "/yuri-classification-archive/works/yama_no_susume_tv_2013/",
       "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/yama_no_susume_tv_2013/"
     },
@@ -7164,8 +7228,8 @@
         "female_relationship_main": true,
         "official_yuri_gl": false
       },
-      "bangumi_rank": 2166,
-      "bangumi_yuri_tag_ratio": 0.10211180124223602,
+      "bangumi_rank": 2170,
+      "bangumi_yuri_tag_ratio": 0.10208643815201192,
       "report_url": "/yuri-classification-archive/works/noir_tv_2001/",
       "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/noir_tv_2001/"
     },
@@ -7233,7 +7297,7 @@
         "official_yuri_gl": false
       },
       "bangumi_rank": 2174,
-      "bangumi_yuri_tag_ratio": 0.1034783240142328,
+      "bangumi_yuri_tag_ratio": 0.10347081033981992,
       "report_url": "/yuri-classification-archive/works/yuuki_yuuna_wa_yuusha_de_aru_tv_2014/",
       "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/yuuki_yuuna_wa_yuusha_de_aru_tv_2014/"
     },
@@ -7298,8 +7362,8 @@
         "female_relationship_main": true,
         "official_yuri_gl": false
       },
-      "bangumi_rank": 2182,
-      "bangumi_yuri_tag_ratio": 0.04351245085190039,
+      "bangumi_rank": 2180,
+      "bangumi_yuri_tag_ratio": 0.04350484843190355,
       "report_url": "/yuri-classification-archive/works/kill_me_baby_tv_2012/",
       "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/kill_me_baby_tv_2012/"
     },
@@ -7366,8 +7430,8 @@
         "female_relationship_main": false,
         "official_yuri_gl": false
       },
-      "bangumi_rank": 2183,
-      "bangumi_yuri_tag_ratio": 0.002214052970172947,
+      "bangumi_rank": 2184,
+      "bangumi_yuri_tag_ratio": 0.0022137755315149743,
       "report_url": "/yuri-classification-archive/works/ssss_gridman_tv_2018/",
       "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/ssss_gridman_tv_2018/"
     },
@@ -7432,8 +7496,8 @@
         "female_relationship_main": true,
         "official_yuri_gl": false
       },
-      "bangumi_rank": 2185,
-      "bangumi_yuri_tag_ratio": 0.10422183551486722,
+      "bangumi_rank": 2186,
+      "bangumi_yuri_tag_ratio": 0.10419030330534755,
       "report_url": "/yuri-classification-archive/works/gabriel_dropout_tv_2017/",
       "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/gabriel_dropout_tv_2017/"
     },
@@ -7499,8 +7563,8 @@
         "female_relationship_main": true,
         "official_yuri_gl": false
       },
-      "bangumi_rank": 2210,
-      "bangumi_yuri_tag_ratio": 0.18052825027780153,
+      "bangumi_rank": 2209,
+      "bangumi_yuri_tag_ratio": 0.18049739338518075,
       "report_url": "/yuri-classification-archive/works/sakura_trick_tv_2014/",
       "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/sakura_trick_tv_2014/"
     },
@@ -7565,7 +7629,7 @@
         "female_relationship_main": true,
         "official_yuri_gl": false
       },
-      "bangumi_rank": 2247,
+      "bangumi_rank": 2248,
       "bangumi_yuri_tag_ratio": 0.04304979253112033,
       "report_url": "/yuri-classification-archive/works/niea_7_tv_2000/",
       "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/niea_7_tv_2000/"
@@ -7631,8 +7695,8 @@
         "female_relationship_main": true,
         "official_yuri_gl": false
       },
-      "bangumi_rank": 2274,
-      "bangumi_yuri_tag_ratio": 0.07055716,
+      "bangumi_rank": 2276,
+      "bangumi_yuri_tag_ratio": 0.07053941908713693,
       "report_url": "/yuri-classification-archive/works/houkago_teibou_nisshi_tv_2020/",
       "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/houkago_teibou_nisshi_tv_2020/"
     },
@@ -7698,8 +7762,8 @@
         "female_relationship_main": true,
         "official_yuri_gl": false
       },
-      "bangumi_rank": 2298,
-      "bangumi_yuri_tag_ratio": 0.11578947368421053,
+      "bangumi_rank": 2297,
+      "bangumi_yuri_tag_ratio": 0.11567319716548562,
       "report_url": "/yuri-classification-archive/works/comic_girls_tv_2018/",
       "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/comic_girls_tv_2018/"
     },
@@ -7833,7 +7897,7 @@
         "female_relationship_main": true,
         "official_yuri_gl": false
       },
-      "bangumi_rank": 2381,
+      "bangumi_rank": 2382,
       "bangumi_yuri_tag_ratio": 0.05605687722176648,
       "report_url": "/yuri-classification-archive/works/tantei_opera_milky_holmes_tv_2010/",
       "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/tantei_opera_milky_holmes_tv_2010/"
@@ -7906,73 +7970,6 @@
       "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/strike_witches_tv_2008/"
     },
     {
-      "slug": "estab_life_great_escape_tv_2022",
-      "title": "Estab-Life Great Escape",
-      "title_original": "エスタブライフ グレイトエスケープ",
-      "title_romaji": "Estab-Life: Great Escape",
-      "title_english": "Estab-Life: Great Escape",
-      "release_year": 2022,
-      "medium": {
-        "code": "tv_anime",
-        "label": "TV 动画"
-      },
-      "scope_summary": "2022 TV anime formal episodes 1-12；the FOD advance release only as distribution context for the same numbered TV-anime content；official episode pages and public database entries only as scope and classification context",
-      "female_relationship_centrality": {
-        "code": "main",
-        "label": "主线"
-      },
-      "archive_basis": {
-        "code": "work_classification",
-        "label": "作品分类"
-      },
-      "romance_centrality": {
-        "code": "important_secondary",
-        "label": "重要副线"
-      },
-      "highest_romance_explicitness": {
-        "code": "explicit_desire",
-        "label": "明确欲望"
-      },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
-      },
-      "identity_evidence_basis": {
-        "code": "explicit_relationship_only",
-        "label": "只有明确关系事实"
-      },
-      "male_romance_line": {
-        "code": "none",
-        "label": "无"
-      },
-      "confidence": {
-        "code": "high",
-        "label": "高"
-      },
-      "classification_date": "2026-07-31",
-      "content_warnings": [
-        "firearms_explosions_combat_and_serious_injury",
-        "suicidal_ideation_and_suicide_method_jokes",
-        "authoritarian_surveillance_forced_conformity_and_imprisonment",
-        "gang_violence_religious_coercion_and_forced_labour",
-        "sexualised_body_underwear_and_no_underwear_jokes",
-        "fantasy_of_forcing_down_a_character_with_consent_explicitly_debated",
-        "end_of_life_farewell_and_character_disappearance"
-      ],
-      "content_warnings_text": "firearms_explosions_combat_and_serious_injury；suicidal_ideation_and_suicide_method_jokes；authoritarian_surveillance_forced_conformity_and_imprisonment；gang_violence_religious_coercion_and_forced_labour；sexualised_body_underwear_and_no_underwear_jokes；fantasy_of_forcing_down_a_character_with_consent_explicitly_debated；end_of_life_farewell_and_character_disappearance",
-      "quick_queries": {
-        "explicit_relationship": false,
-        "explicit_desire": true,
-        "accepts_unconfirmed": true,
-        "female_relationship_main": true,
-        "official_yuri_gl": false
-      },
-      "bangumi_rank": 2430,
-      "bangumi_yuri_tag_ratio": 0.06632344033918837,
-      "report_url": "/yuri-classification-archive/works/estab_life_great_escape_tv_2022/",
-      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/estab_life_great_escape_tv_2022/"
-    },
-    {
       "slug": "el_cazador_de_la_bruja_tv_2007",
       "title": "魔女猎人",
       "title_original": "エル・カザド",
@@ -8036,10 +8033,77 @@
         "female_relationship_main": true,
         "official_yuri_gl": false
       },
-      "bangumi_rank": 2432,
-      "bangumi_yuri_tag_ratio": 0.12869999999999998,
+      "bangumi_rank": 2433,
+      "bangumi_yuri_tag_ratio": 0.12870514820592824,
       "report_url": "/yuri-classification-archive/works/el_cazador_de_la_bruja_tv_2007/",
       "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/el_cazador_de_la_bruja_tv_2007/"
+    },
+    {
+      "slug": "estab_life_great_escape_tv_2022",
+      "title": "Estab-Life Great Escape",
+      "title_original": "エスタブライフ グレイトエスケープ",
+      "title_romaji": "Estab-Life: Great Escape",
+      "title_english": "Estab-Life: Great Escape",
+      "release_year": 2022,
+      "medium": {
+        "code": "tv_anime",
+        "label": "TV 动画"
+      },
+      "scope_summary": "2022 TV anime formal episodes 1-12；the FOD advance release only as distribution context for the same numbered TV-anime content；official episode pages and public database entries only as scope and classification context",
+      "female_relationship_centrality": {
+        "code": "main",
+        "label": "主线"
+      },
+      "archive_basis": {
+        "code": "work_classification",
+        "label": "作品分类"
+      },
+      "romance_centrality": {
+        "code": "important_secondary",
+        "label": "重要副线"
+      },
+      "highest_romance_explicitness": {
+        "code": "explicit_desire",
+        "label": "明确欲望"
+      },
+      "official_label": {
+        "code": "unmarked",
+        "label": "未标百合／GL"
+      },
+      "identity_evidence_basis": {
+        "code": "explicit_relationship_only",
+        "label": "只有明确关系事实"
+      },
+      "male_romance_line": {
+        "code": "none",
+        "label": "无"
+      },
+      "confidence": {
+        "code": "high",
+        "label": "高"
+      },
+      "classification_date": "2026-07-31",
+      "content_warnings": [
+        "firearms_explosions_combat_and_serious_injury",
+        "suicidal_ideation_and_suicide_method_jokes",
+        "authoritarian_surveillance_forced_conformity_and_imprisonment",
+        "gang_violence_religious_coercion_and_forced_labour",
+        "sexualised_body_underwear_and_no_underwear_jokes",
+        "fantasy_of_forcing_down_a_character_with_consent_explicitly_debated",
+        "end_of_life_farewell_and_character_disappearance"
+      ],
+      "content_warnings_text": "firearms_explosions_combat_and_serious_injury；suicidal_ideation_and_suicide_method_jokes；authoritarian_surveillance_forced_conformity_and_imprisonment；gang_violence_religious_coercion_and_forced_labour；sexualised_body_underwear_and_no_underwear_jokes；fantasy_of_forcing_down_a_character_with_consent_explicitly_debated；end_of_life_farewell_and_character_disappearance",
+      "quick_queries": {
+        "explicit_relationship": false,
+        "explicit_desire": true,
+        "accepts_unconfirmed": true,
+        "female_relationship_main": true,
+        "official_yuri_gl": false
+      },
+      "bangumi_rank": 2434,
+      "bangumi_yuri_tag_ratio": 0.06630336058128973,
+      "report_url": "/yuri-classification-archive/works/estab_life_great_escape_tv_2022/",
+      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/estab_life_great_escape_tv_2022/"
     },
     {
       "slug": "jashin_chan_dropkick_tv_2018",
@@ -8103,77 +8167,10 @@
         "female_relationship_main": true,
         "official_yuri_gl": false
       },
-      "bangumi_rank": 2434,
-      "bangumi_yuri_tag_ratio": 0.07609033783363404,
+      "bangumi_rank": 2437,
+      "bangumi_yuri_tag_ratio": 0.07607140635690739,
       "report_url": "/yuri-classification-archive/works/jashin_chan_dropkick_tv_2018/",
       "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/jashin_chan_dropkick_tv_2018/"
-    },
-    {
-      "slug": "kakegurui_tv_2017",
-      "title": "狂赌之渊",
-      "title_original": "賭ケグルイ",
-      "title_romaji": "Kakegurui",
-      "title_english": "Kakegurui: Compulsive Gambler",
-      "release_year": 2017,
-      "medium": {
-        "code": "tv_anime",
-        "label": "TV 动画"
-      },
-      "scope_summary": "2017 TV anime first-season formal episodes 1-12",
-      "female_relationship_centrality": {
-        "code": "main",
-        "label": "主线"
-      },
-      "archive_basis": {
-        "code": "work_classification",
-        "label": "作品分类"
-      },
-      "romance_centrality": {
-        "code": "absent",
-        "label": "缺席"
-      },
-      "highest_romance_explicitness": {
-        "code": "non_romantic",
-        "label": "非恋爱"
-      },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
-      },
-      "identity_evidence_basis": {
-        "code": "no_in_scope_evidence",
-        "label": "范围内无依据"
-      },
-      "male_romance_line": {
-        "code": "none",
-        "label": "无"
-      },
-      "confidence": {
-        "code": "high",
-        "label": "高"
-      },
-      "classification_date": "2026-07-31",
-      "content_warnings": [
-        "compulsive_gambling_debt_and_financial_coercion",
-        "institutional_slavery_dehumanisation_and_forced_life_plans",
-        "bullying_humiliation_and_threats",
-        "guns_russian_roulette_self_harm_and_suicidal_desire",
-        "sexualised_gambling_arousal_domination_and_masochism",
-        "nail_removal_body_horror_and_blood",
-        "coercive_marriage_reproduction_and_career_plans"
-      ],
-      "content_warnings_text": "compulsive_gambling_debt_and_financial_coercion；institutional_slavery_dehumanisation_and_forced_life_plans；bullying_humiliation_and_threats；guns_russian_roulette_self_harm_and_suicidal_desire；sexualised_gambling_arousal_domination_and_masochism；nail_removal_body_horror_and_blood；coercive_marriage_reproduction_and_career_plans",
-      "quick_queries": {
-        "explicit_relationship": false,
-        "explicit_desire": false,
-        "accepts_unconfirmed": false,
-        "female_relationship_main": true,
-        "official_yuri_gl": false
-      },
-      "bangumi_rank": 2463,
-      "bangumi_yuri_tag_ratio": 0.015609855634341682,
-      "report_url": "/yuri-classification-archive/works/kakegurui_tv_2017/",
-      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/kakegurui_tv_2017/"
     },
     {
       "slug": "mahou_shoujo_ni_akogarete_tv_2024",
@@ -8238,10 +8235,77 @@
         "female_relationship_main": true,
         "official_yuri_gl": false
       },
-      "bangumi_rank": 2464,
-      "bangumi_yuri_tag_ratio": 0.1374099343237901,
+      "bangumi_rank": 2465,
+      "bangumi_yuri_tag_ratio": 0.13742867161847683,
       "report_url": "/yuri-classification-archive/works/mahou_shoujo_ni_akogarete_tv_2024/",
       "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/mahou_shoujo_ni_akogarete_tv_2024/"
+    },
+    {
+      "slug": "kakegurui_tv_2017",
+      "title": "狂赌之渊",
+      "title_original": "賭ケグルイ",
+      "title_romaji": "Kakegurui",
+      "title_english": "Kakegurui: Compulsive Gambler",
+      "release_year": 2017,
+      "medium": {
+        "code": "tv_anime",
+        "label": "TV 动画"
+      },
+      "scope_summary": "2017 TV anime first-season formal episodes 1-12",
+      "female_relationship_centrality": {
+        "code": "main",
+        "label": "主线"
+      },
+      "archive_basis": {
+        "code": "work_classification",
+        "label": "作品分类"
+      },
+      "romance_centrality": {
+        "code": "absent",
+        "label": "缺席"
+      },
+      "highest_romance_explicitness": {
+        "code": "non_romantic",
+        "label": "非恋爱"
+      },
+      "official_label": {
+        "code": "unmarked",
+        "label": "未标百合／GL"
+      },
+      "identity_evidence_basis": {
+        "code": "no_in_scope_evidence",
+        "label": "范围内无依据"
+      },
+      "male_romance_line": {
+        "code": "none",
+        "label": "无"
+      },
+      "confidence": {
+        "code": "high",
+        "label": "高"
+      },
+      "classification_date": "2026-07-31",
+      "content_warnings": [
+        "compulsive_gambling_debt_and_financial_coercion",
+        "institutional_slavery_dehumanisation_and_forced_life_plans",
+        "bullying_humiliation_and_threats",
+        "guns_russian_roulette_self_harm_and_suicidal_desire",
+        "sexualised_gambling_arousal_domination_and_masochism",
+        "nail_removal_body_horror_and_blood",
+        "coercive_marriage_reproduction_and_career_plans"
+      ],
+      "content_warnings_text": "compulsive_gambling_debt_and_financial_coercion；institutional_slavery_dehumanisation_and_forced_life_plans；bullying_humiliation_and_threats；guns_russian_roulette_self_harm_and_suicidal_desire；sexualised_gambling_arousal_domination_and_masochism；nail_removal_body_horror_and_blood；coercive_marriage_reproduction_and_career_plans",
+      "quick_queries": {
+        "explicit_relationship": false,
+        "explicit_desire": false,
+        "accepts_unconfirmed": false,
+        "female_relationship_main": true,
+        "official_yuri_gl": false
+      },
+      "bangumi_rank": 2466,
+      "bangumi_yuri_tag_ratio": 0.015606671086856734,
+      "report_url": "/yuri-classification-archive/works/kakegurui_tv_2017/",
+      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/kakegurui_tv_2017/"
     },
     {
       "slug": "shigofumi_tv_2008",
@@ -8309,7 +8373,7 @@
         "female_relationship_main": true,
         "official_yuri_gl": false
       },
-      "bangumi_rank": 2491,
+      "bangumi_rank": 2493,
       "bangumi_yuri_tag_ratio": 0.017458203876313066,
       "report_url": "/yuri-classification-archive/works/shigofumi_tv_2008/",
       "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/shigofumi_tv_2008/"
@@ -8375,8 +8439,8 @@
         "female_relationship_main": true,
         "official_yuri_gl": false
       },
-      "bangumi_rank": 2497,
-      "bangumi_yuri_tag_ratio": 0.002723267921505807,
+      "bangumi_rank": 2498,
+      "bangumi_yuri_tag_ratio": 0.0027228317450148152,
       "report_url": "/yuri-classification-archive/works/kono_subarashii_sekai_ni_bakuen_wo_tv_2023/",
       "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/kono_subarashii_sekai_ni_bakuen_wo_tv_2023/"
     },
@@ -8443,8 +8507,8 @@
         "female_relationship_main": true,
         "official_yuri_gl": false
       },
-      "bangumi_rank": 2537,
-      "bangumi_yuri_tag_ratio": 0.038899597,
+      "bangumi_rank": 2538,
+      "bangumi_yuri_tag_ratio": 0.039198606271777,
       "report_url": "/yuri-classification-archive/works/plus_tic_neesan_web_2011/",
       "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/plus_tic_neesan_web_2011/"
     },
@@ -8509,8 +8573,8 @@
         "female_relationship_main": true,
         "official_yuri_gl": false
       },
-      "bangumi_rank": 2584,
-      "bangumi_yuri_tag_ratio": 0.1334477307286167,
+      "bangumi_rank": 2586,
+      "bangumi_yuri_tag_ratio": 0.13344772967265048,
       "report_url": "/yuri-classification-archive/works/slow_start_tv_2018/",
       "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/slow_start_tv_2018/"
     },
@@ -8644,7 +8708,7 @@
         "official_yuri_gl": false
       },
       "bangumi_rank": 2659,
-      "bangumi_yuri_tag_ratio": 0.042188058634250986,
+      "bangumi_yuri_tag_ratio": 0.04217298070050036,
       "report_url": "/yuri-classification-archive/works/kirio_fan_club_tv_2026/",
       "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/kirio_fan_club_tv_2026/"
     },
@@ -8710,7 +8774,7 @@
         "official_yuri_gl": false
       },
       "bangumi_rank": 2679,
-      "bangumi_yuri_tag_ratio": 0.06519690202024342,
+      "bangumi_yuri_tag_ratio": 0.06519423045402394,
       "report_url": "/yuri-classification-archive/works/uma_musume_pretty_derby_tv_2018/",
       "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/uma_musume_pretty_derby_tv_2018/"
     },
@@ -8846,7 +8910,7 @@
         "official_yuri_gl": false
       },
       "bangumi_rank": 2794,
-      "bangumi_yuri_tag_ratio": 0.012880561923129906,
+      "bangumi_yuri_tag_ratio": 0.012877900971007506,
       "report_url": "/yuri-classification-archive/works/munou_na_nana_tv_2020/",
       "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/munou_na_nana_tv_2020/"
     },
@@ -8912,7 +8976,7 @@
         "official_yuri_gl": false
       },
       "bangumi_rank": 2808,
-      "bangumi_yuri_tag_ratio": 0.1026490066,
+      "bangumi_yuri_tag_ratio": 0.10264900662251655,
       "report_url": "/yuri-classification-archive/works/taishou_yakyuu_musume_tv_2009/",
       "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/taishou_yakyuu_musume_tv_2009/"
     },
@@ -8977,7 +9041,7 @@
         "official_yuri_gl": true
       },
       "bangumi_rank": 2824,
-      "bangumi_yuri_tag_ratio": null,
+      "bangumi_yuri_tag_ratio": 0.11851126346718903,
       "report_url": "/yuri-classification-archive/works/yuyushiki_tv_2013/",
       "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/yuyushiki_tv_2013/"
     },
@@ -9108,7 +9172,7 @@
         "official_yuri_gl": false
       },
       "bangumi_rank": 2838,
-      "bangumi_yuri_tag_ratio": 0.0658841348,
+      "bangumi_yuri_tag_ratio": 0.06588413479742522,
       "report_url": "/yuri-classification-archive/works/kunoichi_tsubaki_no_mune_no_uchi_tv_2022/",
       "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/kunoichi_tsubaki_no_mune_no_uchi_tv_2022/"
     },
@@ -9173,7 +9237,7 @@
         "official_yuri_gl": false
       },
       "bangumi_rank": 2849,
-      "bangumi_yuri_tag_ratio": 0.1074842621,
+      "bangumi_yuri_tag_ratio": 0.1074842620657496,
       "report_url": "/yuri-classification-archive/works/koisuru_asteroid_tv_2020/",
       "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/koisuru_asteroid_tv_2020/"
     },
@@ -9237,7 +9301,7 @@
         "official_yuri_gl": false
       },
       "bangumi_rank": 2861,
-      "bangumi_yuri_tag_ratio": null,
+      "bangumi_yuri_tag_ratio": 0.02889865494739646,
       "report_url": "/yuri-classification-archive/works/the_idolmaster_cinderella_girls_tv_2015/",
       "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/the_idolmaster_cinderella_girls_tv_2015/"
     },
@@ -9305,9 +9369,81 @@
         "official_yuri_gl": false
       },
       "bangumi_rank": 2888,
-      "bangumi_yuri_tag_ratio": 0.104951993568,
+      "bangumi_yuri_tag_ratio": 0.1049470298902762,
       "report_url": "/yuri-classification-archive/works/gakkou_gurashi_tv_2015/",
       "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/gakkou_gurashi_tv_2015/"
+    },
+    {
+      "slug": "kannazuki_no_miko_tv_2004",
+      "title": "神无月的巫女",
+      "title_original": "神無月の巫女",
+      "title_romaji": "Kannazuki no Miko",
+      "title_english": "Destiny of the Shrine Maiden",
+      "release_year": 2004,
+      "medium": {
+        "code": "tv_anime",
+        "label": "TV 动画"
+      },
+      "scope_summary": "2004 TV anime formal episodes 1-12",
+      "female_relationship_centrality": {
+        "code": "main",
+        "label": "主线"
+      },
+      "archive_basis": {
+        "code": "work_classification",
+        "label": "作品分类"
+      },
+      "romance_centrality": {
+        "code": "main",
+        "label": "主线"
+      },
+      "highest_romance_explicitness": {
+        "code": "explicit_relationship",
+        "label": "明确交往"
+      },
+      "official_label": {
+        "code": "unmarked",
+        "label": "未标百合／GL"
+      },
+      "identity_evidence_basis": {
+        "code": "explicit_relationship_only",
+        "label": "只有明确关系事实"
+      },
+      "male_romance_line": {
+        "code": "parallel",
+        "label": "并列"
+      },
+      "confidence": {
+        "code": "high",
+        "label": "高"
+      },
+      "classification_date": "2026-07-31",
+      "content_warnings": [
+        "sexual_assault_and_nonconsensual_intimacy",
+        "physical_violence_between_romantic_leads",
+        "manipulation_and_deliberate_psychological_harm",
+        "suicide_attempt_or_self_harm_threat",
+        "coerced_ritual_killing",
+        "death_sacrifice_and_reincarnation",
+        "apocalyptic_destruction",
+        "blood_and_combat_injury",
+        "sexualized_nudity_involving_teen_characters",
+        "homophobic_or_social_taboo_framing_of_same_sex_love",
+        "obsessive_possessiveness_and_jealousy",
+        "underage_characters_in_sexual_context"
+      ],
+      "content_warnings_text": "sexual_assault_and_nonconsensual_intimacy；physical_violence_between_romantic_leads；manipulation_and_deliberate_psychological_harm；suicide_attempt_or_self_harm_threat；coerced_ritual_killing；death_sacrifice_and_reincarnation；apocalyptic_destruction；blood_and_combat_injury；sexualized_nudity_involving_teen_characters；homophobic_or_social_taboo_framing_of_same_sex_love；obsessive_possessiveness_and_jealousy；underage_characters_in_sexual_context",
+      "quick_queries": {
+        "explicit_relationship": true,
+        "explicit_desire": true,
+        "accepts_unconfirmed": true,
+        "female_relationship_main": true,
+        "official_yuri_gl": false
+      },
+      "bangumi_rank": 3044,
+      "bangumi_yuri_tag_ratio": 0.19066286528866713,
+      "report_url": "/yuri-classification-archive/works/kannazuki_no_miko_tv_2004/",
+      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/kannazuki_no_miko_tv_2004/"
     },
     {
       "slug": "tianxin_gege_tv_2011",
@@ -9369,7 +9505,7 @@
         "official_yuri_gl": false
       },
       "bangumi_rank": 3056,
-      "bangumi_yuri_tag_ratio": null,
+      "bangumi_yuri_tag_ratio": 0.07087552114353782,
       "report_url": "/yuri-classification-archive/works/tianxin_gege_tv_2011/",
       "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/tianxin_gege_tv_2011/"
     },
@@ -9439,7 +9575,7 @@
         "official_yuri_gl": true
       },
       "bangumi_rank": 3062,
-      "bangumi_yuri_tag_ratio": null,
+      "bangumi_yuri_tag_ratio": 0.17463352453792225,
       "report_url": "/yuri-classification-archive/works/strawberry_panic_tv_2006/",
       "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/strawberry_panic_tv_2006/"
     },
@@ -10527,142 +10663,6 @@
       "bangumi_yuri_tag_ratio": 0.10934682428371068,
       "report_url": "/yuri-classification-archive/works/yoru_no_kurage_wa_oyogenai_tv_2024/",
       "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/yoru_no_kurage_wa_oyogenai_tv_2024/"
-    },
-    {
-      "slug": "futari_wa_precure_tv_2004",
-      "title": "光之美少女",
-      "title_original": "ふたりはプリキュア",
-      "title_romaji": "Futari wa Precure",
-      "title_english": "Pretty Cure",
-      "release_year": 2004,
-      "medium": {
-        "code": "tv_anime",
-        "label": "TV 动画"
-      },
-      "scope_summary": "2004-2005 TV anime, numbered episodes 1-49, aired from 2004-02-01 through 2005-01-30",
-      "female_relationship_centrality": {
-        "code": "main",
-        "label": "主线"
-      },
-      "archive_basis": {
-        "code": "work_classification",
-        "label": "作品分类"
-      },
-      "romance_centrality": {
-        "code": "absent",
-        "label": "缺席"
-      },
-      "highest_romance_explicitness": {
-        "code": "non_romantic",
-        "label": "非恋爱"
-      },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
-      },
-      "identity_evidence_basis": {
-        "code": "no_in_scope_evidence",
-        "label": "范围内无依据"
-      },
-      "male_romance_line": {
-        "code": "secondary",
-        "label": "副线"
-      },
-      "confidence": {
-        "code": "high",
-        "label": "高"
-      },
-      "classification_date": "2026-07-30",
-      "content_warnings": [
-        "fantasy_violence_and_child_endangerment",
-        "villain_coercion_and_identity_loss",
-        "emotional_separation_grief_and_apparent_death",
-        "school_conflict_and_peer_pressure"
-      ],
-      "content_warnings_text": "fantasy_violence_and_child_endangerment；villain_coercion_and_identity_loss；emotional_separation_grief_and_apparent_death；school_conflict_and_peer_pressure",
-      "quick_queries": {
-        "explicit_relationship": false,
-        "explicit_desire": false,
-        "accepts_unconfirmed": false,
-        "female_relationship_main": true,
-        "official_yuri_gl": false
-      },
-      "bangumi_rank": null,
-      "bangumi_yuri_tag_ratio": null,
-      "report_url": "/yuri-classification-archive/works/futari_wa_precure_tv_2004/",
-      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/futari_wa_precure_tv_2004/"
-    },
-    {
-      "slug": "kannazuki_no_miko_tv_2004",
-      "title": "神无月的巫女",
-      "title_original": "神無月の巫女",
-      "title_romaji": "Kannazuki no Miko",
-      "title_english": "Destiny of the Shrine Maiden",
-      "release_year": 2004,
-      "medium": {
-        "code": "tv_anime",
-        "label": "TV 动画"
-      },
-      "scope_summary": "2004 TV anime formal episodes 1-12",
-      "female_relationship_centrality": {
-        "code": "main",
-        "label": "主线"
-      },
-      "archive_basis": {
-        "code": "work_classification",
-        "label": "作品分类"
-      },
-      "romance_centrality": {
-        "code": "main",
-        "label": "主线"
-      },
-      "highest_romance_explicitness": {
-        "code": "explicit_relationship",
-        "label": "明确交往"
-      },
-      "official_label": {
-        "code": "unmarked",
-        "label": "未标百合／GL"
-      },
-      "identity_evidence_basis": {
-        "code": "explicit_relationship_only",
-        "label": "只有明确关系事实"
-      },
-      "male_romance_line": {
-        "code": "parallel",
-        "label": "并列"
-      },
-      "confidence": {
-        "code": "high",
-        "label": "高"
-      },
-      "classification_date": "2026-07-31",
-      "content_warnings": [
-        "sexual_assault_and_nonconsensual_intimacy",
-        "physical_violence_between_romantic_leads",
-        "manipulation_and_deliberate_psychological_harm",
-        "suicide_attempt_or_self_harm_threat",
-        "coerced_ritual_killing",
-        "death_sacrifice_and_reincarnation",
-        "apocalyptic_destruction",
-        "blood_and_combat_injury",
-        "sexualized_nudity_involving_teen_characters",
-        "homophobic_or_social_taboo_framing_of_same_sex_love",
-        "obsessive_possessiveness_and_jealousy",
-        "underage_characters_in_sexual_context"
-      ],
-      "content_warnings_text": "sexual_assault_and_nonconsensual_intimacy；physical_violence_between_romantic_leads；manipulation_and_deliberate_psychological_harm；suicide_attempt_or_self_harm_threat；coerced_ritual_killing；death_sacrifice_and_reincarnation；apocalyptic_destruction；blood_and_combat_injury；sexualized_nudity_involving_teen_characters；homophobic_or_social_taboo_framing_of_same_sex_love；obsessive_possessiveness_and_jealousy；underage_characters_in_sexual_context",
-      "quick_queries": {
-        "explicit_relationship": true,
-        "explicit_desire": true,
-        "accepts_unconfirmed": true,
-        "female_relationship_main": true,
-        "official_yuri_gl": false
-      },
-      "bangumi_rank": null,
-      "bangumi_yuri_tag_ratio": null,
-      "report_url": "/yuri-classification-archive/works/kannazuki_no_miko_tv_2004/",
-      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/kannazuki_no_miko_tv_2004/"
     }
   ]
 }
