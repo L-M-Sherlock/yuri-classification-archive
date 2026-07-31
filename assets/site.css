@@ -515,6 +515,22 @@ h1, h2, h3 { line-height: 1.25; }
 .prose-page { max-width: 900px; padding-bottom: 6rem; }
 .prose-page h2 { margin-top: 4rem; padding-top: 1rem; border-top: 1px solid var(--line); }
 .prose-page > p { font-size: 1.02rem; text-align: justify; }
+.principle-callout {
+  margin: 2rem 0 0;
+  padding: 1.4rem 1.5rem;
+  border: 1px solid var(--accent);
+  border-radius: var(--radius);
+  background: var(--accent-soft);
+}
+.principle-callout .eyebrow { margin-bottom: 0.45rem; }
+.principle-callout > a {
+  display: inline-block;
+  color: var(--accent-deep);
+  font-family: "Songti SC", "Noto Serif CJK SC", serif;
+  font-size: clamp(1.25rem, 2.5vw, 1.75rem);
+  font-weight: 700;
+  line-height: 1.45;
+}
 .layer-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
