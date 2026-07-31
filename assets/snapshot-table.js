@@ -79,7 +79,6 @@
       paginationMode: "local",
       paginationSize: 25,
       paginationSizeSelector: [25, 50, 100, 163],
-      initialSort: [{ column: "row_number", dir: "asc" }],
       columns: [
         {
           title: "作品",
