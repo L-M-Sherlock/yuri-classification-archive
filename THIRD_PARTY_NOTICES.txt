@@ -1,0 +1,6 @@
+Tabulator
+Copyright (c) 2015-2026 Beekeeper Studio (original copyright Oli Folkerd)
+Licensed under the MIT License. See assets/vendor/LICENSE-tabulator.txt.
+
+SheetJS Community Edition
+See assets/vendor/LICENSE-sheetjs.txt for the bundled license.

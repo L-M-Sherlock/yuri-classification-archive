@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://l-m-sherlock.github.io/yuri-classification-archive/sitemap.xml
