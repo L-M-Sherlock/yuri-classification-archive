@@ -404,6 +404,10 @@ h1, h2, h3 { line-height: 1.25; }
 }
 .control-label { margin: 0 0 0.5rem; font-size: 0.78rem; font-weight: 800; }
 .quick-buttons { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.quick-filter-with-tooltip {
+  position: relative;
+  display: inline-flex;
+}
 .quick-buttons button, .text-button {
   border: 1px solid var(--line);
   border-radius: 999px;
@@ -417,6 +421,33 @@ h1, h2, h3 { line-height: 1.25; }
   background: var(--accent-soft);
   color: var(--accent-deep);
   font-weight: 800;
+}
+.filter-tooltip {
+  position: absolute;
+  z-index: 20;
+  bottom: calc(100% + 0.55rem);
+  left: 0;
+  width: min(23rem, calc(100vw - 3rem));
+  padding: 0.65rem 0.75rem;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--surface);
+  box-shadow: var(--shadow);
+  color: var(--ink);
+  font-size: 0.76rem;
+  font-weight: 500;
+  line-height: 1.55;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(0.25rem);
+  transition: opacity 120ms ease, transform 120ms ease, visibility 120ms ease;
+  pointer-events: none;
+}
+.quick-filter-with-tooltip:hover .filter-tooltip,
+.quick-filter-with-tooltip button:focus-visible + .filter-tooltip {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
 }
 .text-button { border: 0; color: var(--accent); text-decoration: underline; }
 .advanced-filters {

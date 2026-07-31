@@ -47,7 +47,7 @@
   <meta property="og:url" content="https://l-m-sherlock.github.io/yuri-classification-archive/table/">
   <meta property="og:image" content="https://l-m-sherlock.github.io/yuri-classification-archive/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
   <title>作品分类总表｜百合作品分类档案</title>
-  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=c6164e88130f">
+  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=10c09ad9472e">
 <link rel="stylesheet" href="/yuri-classification-archive/assets/vendor/tabulator.min.css">
 </head>
 <body class="table-page">
@@ -105,7 +105,10 @@
       <div class="quick-buttons" id="quick-filters">
         <button type="button" data-query="explicit_relationship" aria-pressed="false">明确交往</button>
         <button type="button" data-query="explicit_desire" aria-pressed="false">明确女女欲望</button>
-        <button type="button" data-query="accepts_unconfirmed" aria-pressed="false">接受未确认方向</button>
+        <span class="quick-filter-with-tooltip">
+          <button type="button" data-query="accepts_unconfirmed" aria-pressed="false" aria-describedby="accepts-unconfirmed-tooltip">恋爱未确认也纳入</button>
+          <span class="filter-tooltip" id="accepts-unconfirmed-tooltip" role="tooltip">包含明确交往、明确女女欲望，以及存在连贯恋爱指向但正篇尚未确认的关系。</span>
+        </span>
         <button type="button" data-query="female_relationship_main" aria-pressed="false">女女关系主线</button>
         <button type="button" data-query="official_literal_yuri_gl" aria-pressed="false">官方字面百合／GL</button>
         <button type="button" data-query="official_female_romance_wording" aria-pressed="false">官方女女恋爱表述</button>
