@@ -57,7 +57,11 @@
 }
 
 * { box-sizing: border-box; }
-html { scroll-behavior: smooth; }
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
 body {
   margin: 0;
   color: var(--ink);
@@ -1454,6 +1458,30 @@ h1, h2, h3 { line-height: 1.25; }
   .article-meta { justify-content: flex-start; }
   .report-content p, .report-content li,
   .article-content p, .article-content li { text-align: left; }
+  .report-content table {
+    font-size: 0.79rem;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+  }
+  .report-content th, .report-content td {
+    font-size: inherit;
+    overflow-wrap: anywhere;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+    word-break: normal;
+  }
+  .report-content table:not(:has(tr > :nth-child(4))) {
+    min-width: 560px;
+  }
+  .report-content table:not(:has(tr > :nth-child(3))) {
+    min-width: 100%;
+    font-size: 0.82rem;
+    table-layout: fixed;
+  }
+  .report-content table:not(:has(tr > :nth-child(3)))
+    :is(th, td):first-child {
+    width: 25%;
+  }
   .layer-grid, .reading-grid, .confidence-grid { grid-template-columns: 1fr; }
   .faq-heading, .snapshot-heading, .topic-callout {
     align-items: flex-start;
