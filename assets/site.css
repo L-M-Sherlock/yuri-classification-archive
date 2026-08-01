@@ -449,6 +449,53 @@ h1, h2, h3 { line-height: 1.25; }
   visibility: visible;
   transform: translateY(0);
 }
+.inline-help {
+  position: relative;
+  width: 1.2rem;
+  height: 1.2rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 0.25rem;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  background: var(--surface);
+  color: var(--accent-deep);
+  cursor: help;
+  font-size: 0.7rem;
+  font-weight: 850;
+  line-height: 1;
+  vertical-align: middle;
+}
+.term-tooltip {
+  position: absolute;
+  z-index: 30;
+  right: 0;
+  bottom: calc(100% + 0.55rem);
+  width: min(23rem, calc(100vw - 2rem));
+  padding: 0.65rem 0.75rem;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--surface);
+  box-shadow: var(--shadow);
+  color: var(--ink);
+  font-size: 0.76rem;
+  font-weight: 500;
+  line-height: 1.55;
+  text-align: left;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(0.25rem);
+  transition: opacity 120ms ease, transform 120ms ease, visibility 120ms ease;
+  pointer-events: none;
+}
+.inline-help:hover .term-tooltip,
+.inline-help:focus .term-tooltip,
+.inline-help:focus-visible .term-tooltip {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
 .text-button { border: 0; color: var(--accent); text-decoration: underline; }
 .advanced-filters {
   display: grid;
@@ -1156,6 +1203,30 @@ h1, h2, h3 { line-height: 1.25; }
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1rem;
 }
+.confidence-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--line);
+}
+.confidence-grid article {
+  padding: 1.2rem;
+  background: var(--surface);
+}
+.confidence-grid h3 {
+  margin: 0;
+  color: var(--accent-deep);
+  font-family: "Songti SC", "Noto Serif CJK SC", serif;
+  font-size: 1.3rem;
+}
+.confidence-grid p {
+  margin: 0.55rem 0 0;
+  color: var(--muted);
+  font-size: 0.88rem;
+}
 .reading-card {
   min-width: 0;
   display: flex;
@@ -1383,7 +1454,7 @@ h1, h2, h3 { line-height: 1.25; }
   .article-meta { justify-content: flex-start; }
   .report-content p, .report-content li,
   .article-content p, .article-content li { text-align: left; }
-  .layer-grid, .reading-grid { grid-template-columns: 1fr; }
+  .layer-grid, .reading-grid, .confidence-grid { grid-template-columns: 1fr; }
   .faq-heading, .snapshot-heading, .topic-callout {
     align-items: flex-start;
     flex-direction: column;

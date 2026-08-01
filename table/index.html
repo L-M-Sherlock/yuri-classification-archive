@@ -47,7 +47,7 @@
   <meta property="og:url" content="https://l-m-sherlock.github.io/yuri-classification-archive/table/">
   <meta property="og:image" content="https://l-m-sherlock.github.io/yuri-classification-archive/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
   <title>作品分类总表｜百合作品分类档案</title>
-  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=10c09ad9472e">
+  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=6b4481ad0dc0">
 <link rel="stylesheet" href="/yuri-classification-archive/assets/vendor/tabulator.min.css">
 </head>
 <body class="table-page">
@@ -106,7 +106,7 @@
         <button type="button" data-query="explicit_relationship" aria-pressed="false">明确交往</button>
         <button type="button" data-query="explicit_desire" aria-pressed="false">明确女女欲望</button>
         <span class="quick-filter-with-tooltip">
-          <button type="button" data-query="accepts_unconfirmed" aria-pressed="false" aria-describedby="accepts-unconfirmed-tooltip">恋爱未确认也纳入</button>
+          <button type="button" data-query="accepts_unconfirmed" aria-pressed="false" aria-describedby="accepts-unconfirmed-tooltip">接受未确认方向</button>
           <span class="filter-tooltip" id="accepts-unconfirmed-tooltip" role="tooltip">包含明确交往、明确女女欲望，以及存在连贯恋爱指向但正篇尚未确认的关系。</span>
         </span>
         <button type="button" data-query="female_relationship_main" aria-pressed="false">女女关系主线</button>
@@ -141,7 +141,15 @@
       </fieldset>
     </div>
     <label><span>男性恋爱线</span><select id="male-filter"><option value="">全部</option></select></label>
-    <label><span>置信度</span><select id="confidence-filter"><option value="">全部</option></select></label>
+    <label>
+      <span>结论置信度
+        <span class="inline-help" tabindex="0" aria-label="查看结论置信度说明" aria-describedby="table-confidence-help">
+          <span aria-hidden="true">?</span>
+          <span class="term-tooltip" id="table-confidence-help" role="tooltip">表示当前锁定范围内，现有证据对本报告主要分类结论的支持稳定度；它不是百合程度、作品质量、社群共识或统计概率。</span>
+        </span>
+      </span>
+      <select id="confidence-filter" aria-describedby="table-confidence-help"><option value="">全部</option></select>
+    </label>
   </div>
 
   <div class="catalog-toolbar">
@@ -193,6 +201,6 @@
   </footer>
   <script>window.SITE_CONFIG = {basePath: "/yuri-classification-archive"};</script>
   <script src="/yuri-classification-archive/assets/site.js?v=eeeec5872796" defer></script>
-<script src="/yuri-classification-archive/assets/vendor/tabulator.min.js"></script><script src="/yuri-classification-archive/assets/vendor/xlsx.full.min.js"></script><script src="/yuri-classification-archive/assets/table.js?v=d8dc62abf28d"></script>
+<script src="/yuri-classification-archive/assets/vendor/tabulator.min.js"></script><script src="/yuri-classification-archive/assets/vendor/xlsx.full.min.js"></script><script src="/yuri-classification-archive/assets/table.js?v=df406ce53b58"></script>
 </body>
 </html>

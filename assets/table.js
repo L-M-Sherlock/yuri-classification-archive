@@ -466,10 +466,12 @@ if (typeof globalThis !== "undefined") {
           accessorDownload: (value) => value.label,
         },
         {
-          title: "置信度",
+          title: "结论置信度",
           field: "confidence",
           formatter: labelFormatter,
-          width: 90,
+          headerTooltip:
+            "表示当前锁定范围内，现有证据对本报告主要分类结论的支持稳定度；它不是百合程度、作品质量、社群共识或统计概率。",
+          width: 112,
           accessorDownload: (value) => value.label,
         },
         {

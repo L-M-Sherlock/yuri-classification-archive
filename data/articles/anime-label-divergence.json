@@ -1,34 +1,14 @@
 {
   "schema_version": 1,
-  "snapshot_date": "2026-07-31",
-  "item_count": 163,
+  "snapshot_date": "2026-08-01",
+  "item_count": 252,
   "category_counts": {
-    "explicit_relationship": 13,
-    "explicit_desire": 48,
-    "potential_or_strongly_coded": 45,
-    "non_romantic": 57
+    "explicit_relationship": 15,
+    "explicit_desire": 60,
+    "potential_or_strongly_coded": 75,
+    "non_romantic": 102
   },
   "items": [
-    {
-      "title": "圣母在上",
-      "bangumi_url": "https://bangumi.tv/subject/4214",
-      "year_medium": "2004 TV",
-      "female_relationship_position": "主线",
-      "romance_position": "主线",
-      "queries": [
-        "明确交往",
-        "明确欲望",
-        "接受未确认",
-        "关系主线",
-        "官方恋爱表述"
-      ],
-      "male_romance_line": "副线",
-      "explicitness": {
-        "code": "explicit_relationship",
-        "label": "明确交往"
-      },
-      "row_number": 1
-    },
     {
       "title": "青之花",
       "bangumi_url": "https://bangumi.tv/subject/1758",
@@ -36,18 +16,18 @@
       "female_relationship_position": "主线",
       "romance_position": "主线",
       "queries": [
-        "明确交往",
-        "明确欲望",
-        "接受未确认",
-        "关系主线",
-        "官方恋爱表述"
+        "交往",
+        "欲望",
+        "未确认",
+        "主线",
+        "官方恋爱"
       ],
       "male_romance_line": "并行",
       "explicitness": {
         "code": "explicit_relationship",
         "label": "明确交往"
       },
-      "row_number": 2
+      "row_number": 1
     },
     {
       "title": "暴力宇宙海贼",
@@ -56,9 +36,29 @@
       "female_relationship_position": "重要副线",
       "romance_position": "重要副线",
       "queries": [
-        "明确交往",
-        "明确欲望",
-        "接受未确认"
+        "交往",
+        "欲望",
+        "未确认"
+      ],
+      "male_romance_line": "无",
+      "explicitness": {
+        "code": "explicit_relationship",
+        "label": "明确交往"
+      },
+      "row_number": 2
+    },
+    {
+      "title": "百合熊风暴",
+      "bangumi_url": "https://bangumi.tv/subject/59825",
+      "year_medium": "2015 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "主线",
+      "queries": [
+        "交往",
+        "欲望",
+        "未确认",
+        "主线",
+        "官方恋爱"
       ],
       "male_romance_line": "无",
       "explicitness": {
@@ -68,17 +68,17 @@
       "row_number": 3
     },
     {
-      "title": "百合熊风暴",
-      "bangumi_url": "https://bangumi.tv/subject/59825",
-      "year_medium": "2015 TV",
+      "title": "忍者与杀手二人组的日常生活",
+      "bangumi_url": "https://bangumi.tv/subject/491569",
+      "year_medium": "2025 TV",
       "female_relationship_position": "主线",
       "romance_position": "主线",
       "queries": [
-        "明确交往",
-        "明确欲望",
-        "接受未确认",
-        "关系主线",
-        "官方恋爱表述"
+        "交往",
+        "欲望",
+        "未确认",
+        "主线",
+        "官方恋爱"
       ],
       "male_romance_line": "无",
       "explicitness": {
@@ -88,17 +88,16 @@
       "row_number": 4
     },
     {
-      "title": "忍者与杀手二人组的日常生活",
-      "bangumi_url": "https://bangumi.tv/subject/491569",
-      "year_medium": "2025 TV",
+      "title": "上伊那牡丹，酒醉身姿似百合花般",
+      "bangumi_url": "https://bangumi.tv/subject/543360",
+      "year_medium": "2026 TV",
       "female_relationship_position": "主线",
       "romance_position": "主线",
       "queries": [
-        "明确交往",
-        "明确欲望",
-        "接受未确认",
-        "关系主线",
-        "官方恋爱表述"
+        "交往",
+        "欲望",
+        "未确认",
+        "主线"
       ],
       "male_romance_line": "无",
       "explicitness": {
@@ -108,43 +107,24 @@
       "row_number": 5
     },
     {
-      "title": "上伊那牡丹，酒醉身姿似百合花般",
-      "bangumi_url": "https://bangumi.tv/subject/543360",
-      "year_medium": "2026 TV",
-      "female_relationship_position": "主线",
-      "romance_position": "主线",
-      "queries": [
-        "明确交往",
-        "明确欲望",
-        "接受未确认",
-        "关系主线"
-      ],
-      "male_romance_line": "无",
-      "explicitness": {
-        "code": "explicit_relationship",
-        "label": "明确交往"
-      },
-      "row_number": 6
-    },
-    {
       "title": "轻声密语",
       "bangumi_url": "https://bangumi.tv/subject/2661",
       "year_medium": "2009 TV",
       "female_relationship_position": "主线",
       "romance_position": "主线",
       "queries": [
-        "明确交往",
-        "明确欲望",
-        "接受未确认",
-        "关系主线",
-        "官方恋爱表述"
+        "交往",
+        "欲望",
+        "未确认",
+        "主线",
+        "官方恋爱"
       ],
       "male_romance_line": "副线",
       "explicitness": {
         "code": "explicit_relationship",
         "label": "明确交往"
       },
-      "row_number": 7
+      "row_number": 6
     },
     {
       "title": "神无月的巫女",
@@ -153,17 +133,17 @@
       "female_relationship_position": "主线",
       "romance_position": "主线",
       "queries": [
-        "明确交往",
-        "明确欲望",
-        "接受未确认",
-        "关系主线"
+        "交往",
+        "欲望",
+        "未确认",
+        "主线"
       ],
       "male_romance_line": "并行",
       "explicitness": {
         "code": "explicit_relationship",
         "label": "明确交往"
       },
-      "row_number": 8
+      "row_number": 7
     },
     {
       "title": "惊爆草莓",
@@ -172,10 +152,10 @@
       "female_relationship_position": "主线",
       "romance_position": "主线",
       "queries": [
-        "明确交往",
-        "明确欲望",
-        "接受未确认",
-        "关系主线",
+        "交往",
+        "欲望",
+        "未确认",
+        "主线",
         "官方字面"
       ],
       "male_romance_line": "无",
@@ -183,20 +163,40 @@
         "code": "explicit_relationship",
         "label": "明确交往"
       },
+      "row_number": 8
+    },
+    {
+      "title": "猫神八百万",
+      "bangumi_url": "https://bangumi.tv/subject/10283",
+      "year_medium": "2011 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "重要副线",
+      "queries": [
+        "交往",
+        "欲望",
+        "未确认",
+        "主线",
+        "官方恋爱"
+      ],
+      "male_romance_line": "副线",
+      "explicitness": {
+        "code": "explicit_relationship",
+        "label": "明确交往"
+      },
       "row_number": 9
     },
     {
-      "title": "Happy Sugar Life",
-      "bangumi_url": "https://bangumi.tv/subject/240828",
-      "year_medium": "2018 TV",
+      "title": "女恶魔人",
+      "bangumi_url": "https://bangumi.tv/subject/7570",
+      "year_medium": "1998 TV",
       "female_relationship_position": "主线",
       "romance_position": "主线",
       "queries": [
-        "明确交往",
-        "明确欲望",
-        "接受未确认",
-        "关系主线",
-        "官方恋爱表述"
+        "交往",
+        "欲望",
+        "未确认",
+        "主线",
+        "官方恋爱"
       ],
       "male_romance_line": "副线",
       "explicitness": {
@@ -206,17 +206,17 @@
       "row_number": 10
     },
     {
-      "title": "时光碎片",
-      "bangumi_url": "https://bangumi.tv/subject/277727",
-      "year_medium": "2019 剧场 OVA",
+      "title": "Happy Sugar Life",
+      "bangumi_url": "https://bangumi.tv/subject/240828",
+      "year_medium": "2018 TV",
       "female_relationship_position": "主线",
       "romance_position": "主线",
       "queries": [
-        "明确交往",
-        "明确欲望",
-        "接受未确认",
-        "关系主线",
-        "官方恋爱表述"
+        "交往",
+        "欲望",
+        "未确认",
+        "主线",
+        "官方恋爱"
       ],
       "male_romance_line": "副线",
       "explicitness": {
@@ -226,19 +226,18 @@
       "row_number": 11
     },
     {
-      "title": "机动战士高达 水星的魔女",
-      "bangumi_url": "https://bangumi.tv/subject/349441",
-      "year_medium": "2022 TV",
+      "title": "BLUE DROP 天使们的戏曲",
+      "bangumi_url": "https://bangumi.tv/subject/1273",
+      "year_medium": "2007 TV",
       "female_relationship_position": "主线",
       "romance_position": "主线",
       "queries": [
-        "明确交往",
-        "明确欲望",
-        "接受未确认",
-        "关系主线",
-        "官方恋爱表述"
+        "交往",
+        "欲望",
+        "未确认",
+        "主线"
       ],
-      "male_romance_line": "副线",
+      "male_romance_line": "无",
       "explicitness": {
         "code": "explicit_relationship",
         "label": "明确交往"
@@ -246,18 +245,17 @@
       "row_number": 12
     },
     {
-      "title": "citrus～柑橘味香气～",
-      "bangumi_url": "https://bangumi.tv/subject/198098",
-      "year_medium": "2018 TV",
+      "title": "时光碎片",
+      "bangumi_url": "https://bangumi.tv/subject/277727",
+      "year_medium": "2019 剧场 OVA",
       "female_relationship_position": "主线",
       "romance_position": "主线",
       "queries": [
-        "明确交往",
-        "明确欲望",
-        "接受未确认",
-        "关系主线",
-        "官方字面",
-        "官方恋爱表述"
+        "交往",
+        "欲望",
+        "未确认",
+        "主线",
+        "官方恋爱"
       ],
       "male_romance_line": "副线",
       "explicitness": {
@@ -267,22 +265,63 @@
       "row_number": 13
     },
     {
+      "title": "机动战士高达 水星的魔女",
+      "bangumi_url": "https://bangumi.tv/subject/349441",
+      "year_medium": "2022 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "主线",
+      "queries": [
+        "交往",
+        "欲望",
+        "未确认",
+        "主线",
+        "官方恋爱"
+      ],
+      "male_romance_line": "副线",
+      "explicitness": {
+        "code": "explicit_relationship",
+        "label": "明确交往"
+      },
+      "row_number": 14
+    },
+    {
+      "title": "citrus～柑橘味香气～",
+      "bangumi_url": "https://bangumi.tv/subject/198098",
+      "year_medium": "2018 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "主线",
+      "queries": [
+        "交往",
+        "欲望",
+        "未确认",
+        "主线",
+        "官方字面",
+        "官方恋爱"
+      ],
+      "male_romance_line": "副线",
+      "explicitness": {
+        "code": "explicit_relationship",
+        "label": "明确交往"
+      },
+      "row_number": 15
+    },
+    {
       "title": "少女革命",
       "bangumi_url": "https://bangumi.tv/subject/1453",
       "year_medium": "1997 TV",
       "female_relationship_position": "主线",
       "romance_position": "主线",
       "queries": [
-        "明确欲望",
-        "接受未确认",
-        "关系主线"
+        "欲望",
+        "未确认",
+        "主线"
       ],
       "male_romance_line": "并行",
       "explicitness": {
         "code": "explicit_desire",
         "label": "明确欲望但未确认交往"
       },
-      "row_number": 14
+      "row_number": 16
     },
     {
       "title": "孤独摇滚！",
@@ -291,45 +330,9 @@
       "female_relationship_position": "主线",
       "romance_position": "局部",
       "queries": [
-        "明确欲望",
-        "接受未确认",
-        "关系主线"
-      ],
-      "male_romance_line": "无",
-      "explicitness": {
-        "code": "explicit_desire",
-        "label": "明确欲望但未确认交往"
-      },
-      "row_number": 15
-    },
-    {
-      "title": "偶像大师",
-      "bangumi_url": "https://bangumi.tv/subject/11577",
-      "year_medium": "2011 TV",
-      "female_relationship_position": "主线",
-      "romance_position": "局部",
-      "queries": [
-        "明确欲望",
-        "接受未确认",
-        "关系主线"
-      ],
-      "male_romance_line": "副线",
-      "explicitness": {
-        "code": "explicit_desire",
-        "label": "明确欲望但未确认交往"
-      },
-      "row_number": 16
-    },
-    {
-      "title": "超时空辉夜姬！",
-      "bangumi_url": "https://bangumi.tv/subject/604826",
-      "year_medium": "2026 WEB 动画电影",
-      "female_relationship_position": "主线",
-      "romance_position": "主线",
-      "queries": [
-        "明确欲望",
-        "接受未确认",
-        "关系主线"
+        "欲望",
+        "未确认",
+        "主线"
       ],
       "male_romance_line": "无",
       "explicitness": {
@@ -339,15 +342,15 @@
       "row_number": 17
     },
     {
-      "title": "Heart Catch 光之美少女！",
-      "bangumi_url": "https://bangumi.tv/subject/4124",
-      "year_medium": "2010 TV",
+      "title": "偶像大师",
+      "bangumi_url": "https://bangumi.tv/subject/11577",
+      "year_medium": "2011 TV",
       "female_relationship_position": "主线",
       "romance_position": "局部",
       "queries": [
-        "明确欲望",
-        "接受未确认",
-        "关系主线"
+        "欲望",
+        "未确认",
+        "主线"
       ],
       "male_romance_line": "副线",
       "explicitness": {
@@ -357,15 +360,15 @@
       "row_number": 18
     },
     {
-      "title": "悠哉日常大王",
-      "bangumi_url": "https://bangumi.tv/subject/78405",
-      "year_medium": "2013 TV",
+      "title": "超时空辉夜姬！",
+      "bangumi_url": "https://bangumi.tv/subject/604826",
+      "year_medium": "2026 WEB 动画电影",
       "female_relationship_position": "主线",
-      "romance_position": "重要副线",
+      "romance_position": "主线",
       "queries": [
-        "明确欲望",
-        "接受未确认",
-        "关系主线"
+        "欲望",
+        "未确认",
+        "主线"
       ],
       "male_romance_line": "无",
       "explicitness": {
@@ -375,17 +378,15 @@
       "row_number": 19
     },
     {
-      "title": "终将成为你",
-      "bangumi_url": "https://bangumi.tv/subject/243981",
-      "year_medium": "2018 TV",
+      "title": "Heart Catch 光之美少女！",
+      "bangumi_url": "https://bangumi.tv/subject/4124",
+      "year_medium": "2010 TV",
       "female_relationship_position": "主线",
-      "romance_position": "主线",
+      "romance_position": "局部",
       "queries": [
-        "明确欲望",
-        "接受未确认",
-        "关系主线",
-        "官方字面",
-        "官方恋爱表述"
+        "欲望",
+        "未确认",
+        "主线"
       ],
       "male_romance_line": "副线",
       "explicitness": {
@@ -395,21 +396,59 @@
       "row_number": 20
     },
     {
+      "title": "悠哉日常大王",
+      "bangumi_url": "https://bangumi.tv/subject/78405",
+      "year_medium": "2013 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "重要副线",
+      "queries": [
+        "欲望",
+        "未确认",
+        "主线"
+      ],
+      "male_romance_line": "无",
+      "explicitness": {
+        "code": "explicit_desire",
+        "label": "明确欲望但未确认交往"
+      },
+      "row_number": 21
+    },
+    {
+      "title": "终将成为你",
+      "bangumi_url": "https://bangumi.tv/subject/243981",
+      "year_medium": "2018 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "主线",
+      "queries": [
+        "欲望",
+        "未确认",
+        "主线",
+        "官方字面",
+        "官方恋爱"
+      ],
+      "male_romance_line": "副线",
+      "explicitness": {
+        "code": "explicit_desire",
+        "label": "明确欲望但未确认交往"
+      },
+      "row_number": 22
+    },
+    {
       "title": "凡尔赛玫瑰",
       "bangumi_url": "https://bangumi.tv/subject/12579",
       "year_medium": "1979 TV",
       "female_relationship_position": "重要副线",
       "romance_position": "重要副线",
       "queries": [
-        "明确欲望",
-        "接受未确认"
+        "欲望",
+        "未确认"
       ],
       "male_romance_line": "主导",
       "explicitness": {
         "code": "explicit_desire",
         "label": "明确欲望但未确认交往"
       },
-      "row_number": 21
+      "row_number": 23
     },
     {
       "title": "摇曳百合",
@@ -418,9 +457,9 @@
       "female_relationship_position": "主线",
       "romance_position": "重要副线",
       "queries": [
-        "明确欲望",
-        "接受未确认",
-        "关系主线",
+        "欲望",
+        "未确认",
+        "主线",
         "官方字面"
       ],
       "male_romance_line": "无",
@@ -428,7 +467,7 @@
         "code": "explicit_desire",
         "label": "明确欲望但未确认交往"
       },
-      "row_number": 22
+      "row_number": 24
     },
     {
       "title": "淡岛百景",
@@ -437,16 +476,16 @@
       "female_relationship_position": "主线",
       "romance_position": "重要副线",
       "queries": [
-        "明确欲望",
-        "接受未确认",
-        "关系主线"
+        "欲望",
+        "未确认",
+        "主线"
       ],
       "male_romance_line": "并行",
       "explicitness": {
         "code": "explicit_desire",
         "label": "明确欲望但未确认交往"
       },
-      "row_number": 23
+      "row_number": 25
     },
     {
       "title": "少女乐队的呐喊",
@@ -455,47 +494,9 @@
       "female_relationship_position": "主线",
       "romance_position": "主线",
       "queries": [
-        "明确欲望",
-        "接受未确认",
-        "关系主线"
-      ],
-      "male_romance_line": "副线",
-      "explicitness": {
-        "code": "explicit_desire",
-        "label": "明确欲望但未确认交往"
-      },
-      "row_number": 24
-    },
-    {
-      "title": "女高中生的无所事事",
-      "bangumi_url": "https://bangumi.tv/subject/265708",
-      "year_medium": "2019 TV",
-      "female_relationship_position": "主线",
-      "romance_position": "局部",
-      "queries": [
-        "明确欲望",
-        "接受未确认",
-        "关系主线"
-      ],
-      "male_romance_line": "副线",
-      "explicitness": {
-        "code": "explicit_desire",
-        "label": "明确欲望但未确认交往"
-      },
-      "row_number": 25
-    },
-    {
-      "title": "西蒙",
-      "bangumi_url": "https://bangumi.tv/subject/3755",
-      "year_medium": "2006 TV",
-      "female_relationship_position": "主线",
-      "romance_position": "主线",
-      "queries": [
-        "明确欲望",
-        "接受未确认",
-        "关系主线",
-        "官方字面",
-        "官方恋爱表述"
+        "欲望",
+        "未确认",
+        "主线"
       ],
       "male_romance_line": "副线",
       "explicitness": {
@@ -505,18 +506,17 @@
       "row_number": 26
     },
     {
-      "title": "青兰圆舞曲",
-      "bangumi_url": "https://bangumi.tv/subject/7408",
-      "year_medium": "1991 TV",
+      "title": "女高中生的无所事事",
+      "bangumi_url": "https://bangumi.tv/subject/265708",
+      "year_medium": "2019 TV",
       "female_relationship_position": "主线",
-      "romance_position": "主线",
+      "romance_position": "局部",
       "queries": [
-        "明确欲望",
-        "接受未确认",
-        "关系主线",
-        "官方恋爱表述"
+        "欲望",
+        "未确认",
+        "主线"
       ],
-      "male_romance_line": "并行",
+      "male_romance_line": "副线",
       "explicitness": {
         "code": "explicit_desire",
         "label": "明确欲望但未确认交往"
@@ -524,15 +524,17 @@
       "row_number": 27
     },
     {
-      "title": "某科学的超电磁炮",
-      "bangumi_url": "https://bangumi.tv/subject/2585",
-      "year_medium": "2009 TV",
+      "title": "西蒙",
+      "bangumi_url": "https://bangumi.tv/subject/3755",
+      "year_medium": "2006 TV",
       "female_relationship_position": "主线",
-      "romance_position": "重要副线",
+      "romance_position": "主线",
       "queries": [
-        "明确欲望",
-        "接受未确认",
-        "关系主线"
+        "欲望",
+        "未确认",
+        "主线",
+        "官方字面",
+        "官方恋爱"
       ],
       "male_romance_line": "副线",
       "explicitness": {
@@ -542,17 +544,18 @@
       "row_number": 28
     },
     {
-      "title": "此花绮谭",
-      "bangumi_url": "https://bangumi.tv/subject/211934",
-      "year_medium": "2017 TV",
+      "title": "青兰圆舞曲",
+      "bangumi_url": "https://bangumi.tv/subject/7408",
+      "year_medium": "1991 TV",
       "female_relationship_position": "主线",
       "romance_position": "主线",
       "queries": [
-        "明确欲望",
-        "接受未确认",
-        "关系主线"
+        "欲望",
+        "未确认",
+        "主线",
+        "官方恋爱"
       ],
-      "male_romance_line": "无",
+      "male_romance_line": "并行",
       "explicitness": {
         "code": "explicit_desire",
         "label": "明确欲望但未确认交往"
@@ -560,19 +563,17 @@
       "row_number": 29
     },
     {
-      "title": "我们不可能成为恋人！绝对不行。 (※似乎可行？)",
-      "bangumi_url": "https://bangumi.tv/subject/524707",
-      "year_medium": "2025 TV",
+      "title": "某科学的超电磁炮",
+      "bangumi_url": "https://bangumi.tv/subject/2585",
+      "year_medium": "2009 TV",
       "female_relationship_position": "主线",
-      "romance_position": "主线",
+      "romance_position": "重要副线",
       "queries": [
-        "明确欲望",
-        "接受未确认",
-        "关系主线",
-        "官方字面",
-        "官方恋爱表述"
+        "欲望",
+        "未确认",
+        "主线"
       ],
-      "male_romance_line": "无",
+      "male_romance_line": "副线",
       "explicitness": {
         "code": "explicit_desire",
         "label": "明确欲望但未确认交往"
@@ -580,15 +581,15 @@
       "row_number": 30
     },
     {
-      "title": "糖果男孩",
-      "bangumi_url": "https://bangumi.tv/subject/2829",
-      "year_medium": "2008 WEB",
+      "title": "此花绮谭",
+      "bangumi_url": "https://bangumi.tv/subject/211934",
+      "year_medium": "2017 TV",
       "female_relationship_position": "主线",
       "romance_position": "主线",
       "queries": [
-        "明确欲望",
-        "接受未确认",
-        "关系主线"
+        "欲望",
+        "未确认",
+        "主线"
       ],
       "male_romance_line": "无",
       "explicitness": {
@@ -598,16 +599,17 @@
       "row_number": 31
     },
     {
-      "title": "小林家的龙女仆",
-      "bangumi_url": "https://bangumi.tv/subject/179949",
-      "year_medium": "2017 TV",
+      "title": "我们不可能成为恋人！绝对不行。 (※似乎可行？)",
+      "bangumi_url": "https://bangumi.tv/subject/524707",
+      "year_medium": "2025 TV",
       "female_relationship_position": "主线",
       "romance_position": "主线",
       "queries": [
-        "明确欲望",
-        "接受未确认",
-        "关系主线",
-        "官方恋爱表述"
+        "欲望",
+        "未确认",
+        "主线",
+        "官方字面",
+        "官方恋爱"
       ],
       "male_romance_line": "无",
       "explicitness": {
@@ -617,15 +619,15 @@
       "row_number": 32
     },
     {
-      "title": "请问您今天要来点兔子吗？",
-      "bangumi_url": "https://bangumi.tv/subject/88287",
-      "year_medium": "2014 TV",
+      "title": "糖果男孩",
+      "bangumi_url": "https://bangumi.tv/subject/2829",
+      "year_medium": "2008 WEB",
       "female_relationship_position": "主线",
-      "romance_position": "重要副线",
+      "romance_position": "主线",
       "queries": [
-        "明确欲望",
-        "接受未确认",
-        "关系主线"
+        "欲望",
+        "未确认",
+        "主线"
       ],
       "male_romance_line": "无",
       "explicitness": {
@@ -635,16 +637,16 @@
       "row_number": 33
     },
     {
-      "title": "安达与岛村",
-      "bangumi_url": "https://bangumi.tv/subject/282372",
-      "year_medium": "2020 TV",
+      "title": "小林家的龙女仆",
+      "bangumi_url": "https://bangumi.tv/subject/179949",
+      "year_medium": "2017 TV",
       "female_relationship_position": "主线",
       "romance_position": "主线",
       "queries": [
-        "明确欲望",
-        "接受未确认",
-        "关系主线",
-        "官方恋爱表述"
+        "欲望",
+        "未确认",
+        "主线",
+        "官方恋爱"
       ],
       "male_romance_line": "无",
       "explicitness": {
@@ -654,17 +656,15 @@
       "row_number": 34
     },
     {
-      "title": "天使降临到了我身边！",
-      "bangumi_url": "https://bangumi.tv/subject/249637",
-      "year_medium": "2019 TV",
+      "title": "请问您今天要来点兔子吗？",
+      "bangumi_url": "https://bangumi.tv/subject/88287",
+      "year_medium": "2014 TV",
       "female_relationship_position": "主线",
-      "romance_position": "主线",
+      "romance_position": "重要副线",
       "queries": [
-        "明确欲望",
-        "接受未确认",
-        "关系主线",
-        "官方字面",
-        "官方恋爱表述"
+        "欲望",
+        "未确认",
+        "主线"
       ],
       "male_romance_line": "无",
       "explicitness": {
@@ -674,15 +674,16 @@
       "row_number": 35
     },
     {
-      "title": "玛纳利亚的密友",
-      "bangumi_url": "https://bangumi.tv/subject/145354",
-      "year_medium": "2019 TV",
+      "title": "安达与岛村",
+      "bangumi_url": "https://bangumi.tv/subject/282372",
+      "year_medium": "2020 TV",
       "female_relationship_position": "主线",
       "romance_position": "主线",
       "queries": [
-        "明确欲望",
-        "接受未确认",
-        "关系主线"
+        "欲望",
+        "未确认",
+        "主线",
+        "官方恋爱"
       ],
       "male_romance_line": "无",
       "explicitness": {
@@ -692,21 +693,59 @@
       "row_number": 36
     },
     {
+      "title": "天使降临到了我身边！",
+      "bangumi_url": "https://bangumi.tv/subject/249637",
+      "year_medium": "2019 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "主线",
+      "queries": [
+        "欲望",
+        "未确认",
+        "主线",
+        "官方字面",
+        "官方恋爱"
+      ],
+      "male_romance_line": "无",
+      "explicitness": {
+        "code": "explicit_desire",
+        "label": "明确欲望但未确认交往"
+      },
+      "row_number": 37
+    },
+    {
+      "title": "玛纳利亚的密友",
+      "bangumi_url": "https://bangumi.tv/subject/145354",
+      "year_medium": "2019 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "主线",
+      "queries": [
+        "欲望",
+        "未确认",
+        "主线"
+      ],
+      "male_romance_line": "无",
+      "explicitness": {
+        "code": "explicit_desire",
+        "label": "明确欲望但未确认交往"
+      },
+      "row_number": 38
+    },
+    {
       "title": "魍魉之匣",
       "bangumi_url": "https://bangumi.tv/subject/916",
       "year_medium": "2008 TV",
       "female_relationship_position": "重要副线",
       "romance_position": "重要副线",
       "queries": [
-        "明确欲望",
-        "接受未确认"
+        "欲望",
+        "未确认"
       ],
       "male_romance_line": "并行",
       "explicitness": {
         "code": "explicit_desire",
         "label": "明确欲望但未确认交往"
       },
-      "row_number": 37
+      "row_number": 39
     },
     {
       "title": "六翼天使之声",
@@ -715,15 +754,15 @@
       "female_relationship_position": "重要副线",
       "romance_position": "重要副线",
       "queries": [
-        "明确欲望",
-        "接受未确认"
+        "欲望",
+        "未确认"
       ],
       "male_romance_line": "并行",
       "explicitness": {
         "code": "explicit_desire",
         "label": "明确欲望但未确认交往"
       },
-      "row_number": 38
+      "row_number": 40
     },
     {
       "title": "舞-HiME",
@@ -732,16 +771,16 @@
       "female_relationship_position": "重要副线",
       "romance_position": "重要副线",
       "queries": [
-        "明确欲望",
-        "接受未确认",
-        "官方恋爱表述"
+        "欲望",
+        "未确认",
+        "官方恋爱"
       ],
       "male_romance_line": "主导",
       "explicitness": {
         "code": "explicit_desire",
         "label": "明确欲望但未确认交往"
       },
-      "row_number": 39
+      "row_number": 41
     },
     {
       "title": "魔女之旅",
@@ -750,44 +789,8 @@
       "female_relationship_position": "重要副线",
       "romance_position": "重要副线",
       "queries": [
-        "明确欲望",
-        "接受未确认"
-      ],
-      "male_romance_line": "副线",
-      "explicitness": {
-        "code": "explicit_desire",
-        "label": "明确欲望但未确认交往"
-      },
-      "row_number": 40
-    },
-    {
-      "title": "小鸟之翼 高尔夫少女",
-      "bangumi_url": "https://bangumi.tv/subject/354682",
-      "year_medium": "2022 TV",
-      "female_relationship_position": "主线",
-      "romance_position": "主线",
-      "queries": [
-        "明确欲望",
-        "接受未确认",
-        "关系主线",
-        "官方恋爱表述"
-      ],
-      "male_romance_line": "无",
-      "explicitness": {
-        "code": "explicit_desire",
-        "label": "明确欲望但未确认交往"
-      },
-      "row_number": 41
-    },
-    {
-      "title": "竹剑少女",
-      "bangumi_url": "https://bangumi.tv/subject/1272",
-      "year_medium": "2007 TV",
-      "female_relationship_position": "重要副线",
-      "romance_position": "重要副线",
-      "queries": [
-        "明确欲望",
-        "接受未确认"
+        "欲望",
+        "未确认"
       ],
       "male_romance_line": "副线",
       "explicitness": {
@@ -797,24 +800,60 @@
       "row_number": 42
     },
     {
+      "title": "小鸟之翼 高尔夫少女",
+      "bangumi_url": "https://bangumi.tv/subject/354682",
+      "year_medium": "2022 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "主线",
+      "queries": [
+        "欲望",
+        "未确认",
+        "主线",
+        "官方恋爱"
+      ],
+      "male_romance_line": "无",
+      "explicitness": {
+        "code": "explicit_desire",
+        "label": "明确欲望但未确认交往"
+      },
+      "row_number": 43
+    },
+    {
+      "title": "竹剑少女",
+      "bangumi_url": "https://bangumi.tv/subject/1272",
+      "year_medium": "2007 TV",
+      "female_relationship_position": "重要副线",
+      "romance_position": "重要副线",
+      "queries": [
+        "欲望",
+        "未确认"
+      ],
+      "male_romance_line": "副线",
+      "explicitness": {
+        "code": "explicit_desire",
+        "label": "明确欲望但未确认交往"
+      },
+      "row_number": 44
+    },
+    {
       "title": "神推偶像登上武道馆我就死而无憾",
       "bangumi_url": "https://bangumi.tv/subject/246915",
       "year_medium": "2020 TV",
       "female_relationship_position": "主线",
       "romance_position": "主线",
       "queries": [
-        "明确欲望",
-        "接受未确认",
-        "关系主线",
+        "欲望",
+        "未确认",
+        "主线",
         "官方字面",
-        "官方恋爱表述"
+        "官方恋爱"
       ],
       "male_romance_line": "并行",
       "explicitness": {
         "code": "explicit_desire",
         "label": "明确欲望但未确认交往"
       },
-      "row_number": 43
+      "row_number": 45
     },
     {
       "title": "玛利亚狂热",
@@ -823,48 +862,11 @@
       "female_relationship_position": "主线",
       "romance_position": "主线",
       "queries": [
-        "明确欲望",
-        "接受未确认",
-        "关系主线",
+        "欲望",
+        "未确认",
+        "主线",
         "官方字面",
-        "官方恋爱表述"
-      ],
-      "male_romance_line": "无",
-      "explicitness": {
-        "code": "explicit_desire",
-        "label": "明确欲望但未确认交往"
-      },
-      "row_number": 44
-    },
-    {
-      "title": "夜樱四重奏 花之歌",
-      "bangumi_url": "https://bangumi.tv/subject/71955",
-      "year_medium": "2013 TV",
-      "female_relationship_position": "重要副线",
-      "romance_position": "局部",
-      "queries": [
-        "明确欲望",
-        "接受未确认",
-        "官方恋爱表述"
-      ],
-      "male_romance_line": "副线",
-      "explicitness": {
-        "code": "explicit_desire",
-        "label": "明确欲望但未确认交往"
-      },
-      "row_number": 45
-    },
-    {
-      "title": "Endro~！",
-      "bangumi_url": "https://bangumi.tv/subject/254895",
-      "year_medium": "2019 TV",
-      "female_relationship_position": "主线",
-      "romance_position": "重要副线",
-      "queries": [
-        "明确欲望",
-        "接受未确认",
-        "关系主线",
-        "官方恋爱表述"
+        "官方恋爱"
       ],
       "male_romance_line": "无",
       "explicitness": {
@@ -874,17 +876,17 @@
       "row_number": 46
     },
     {
-      "title": "珈百璃的堕落",
-      "bangumi_url": "https://bangumi.tv/subject/188091",
-      "year_medium": "2017 TV",
-      "female_relationship_position": "主线",
+      "title": "夜樱四重奏 花之歌",
+      "bangumi_url": "https://bangumi.tv/subject/71955",
+      "year_medium": "2013 TV",
+      "female_relationship_position": "重要副线",
       "romance_position": "局部",
       "queries": [
-        "明确欲望",
-        "接受未确认",
-        "关系主线"
+        "欲望",
+        "未确认",
+        "官方恋爱"
       ],
-      "male_romance_line": "无",
+      "male_romance_line": "副线",
       "explicitness": {
         "code": "explicit_desire",
         "label": "明确欲望但未确认交往"
@@ -892,16 +894,16 @@
       "row_number": 47
     },
     {
-      "title": "樱Trick",
-      "bangumi_url": "https://bangumi.tv/subject/80838",
-      "year_medium": "2014 TV",
+      "title": "Endro~！",
+      "bangumi_url": "https://bangumi.tv/subject/254895",
+      "year_medium": "2019 TV",
       "female_relationship_position": "主线",
-      "romance_position": "主线",
+      "romance_position": "重要副线",
       "queries": [
-        "明确欲望",
-        "接受未确认",
-        "关系主线",
-        "官方恋爱表述"
+        "欲望",
+        "未确认",
+        "主线",
+        "官方恋爱"
       ],
       "male_romance_line": "无",
       "explicitness": {
@@ -911,15 +913,15 @@
       "row_number": 48
     },
     {
-      "title": "漫画女孩",
-      "bangumi_url": "https://bangumi.tv/subject/217249",
-      "year_medium": "2018 TV",
+      "title": "珈百璃的堕落",
+      "bangumi_url": "https://bangumi.tv/subject/188091",
+      "year_medium": "2017 TV",
       "female_relationship_position": "主线",
-      "romance_position": "重要副线",
+      "romance_position": "局部",
       "queries": [
-        "明确欲望",
-        "接受未确认",
-        "关系主线"
+        "欲望",
+        "未确认",
+        "主线"
       ],
       "male_romance_line": "无",
       "explicitness": {
@@ -929,15 +931,16 @@
       "row_number": 49
     },
     {
-      "title": "Estab-Life Great Escape",
-      "bangumi_url": "https://bangumi.tv/subject/366253",
-      "year_medium": "2022 TV",
+      "title": "樱Trick",
+      "bangumi_url": "https://bangumi.tv/subject/80838",
+      "year_medium": "2014 TV",
       "female_relationship_position": "主线",
-      "romance_position": "重要副线",
+      "romance_position": "主线",
       "queries": [
-        "明确欲望",
-        "接受未确认",
-        "关系主线"
+        "欲望",
+        "未确认",
+        "主线",
+        "官方恋爱"
       ],
       "male_romance_line": "无",
       "explicitness": {
@@ -947,15 +950,15 @@
       "row_number": 50
     },
     {
-      "title": "邪神与厨二病少女",
-      "bangumi_url": "https://bangumi.tv/subject/231722",
+      "title": "漫画女孩",
+      "bangumi_url": "https://bangumi.tv/subject/217249",
       "year_medium": "2018 TV",
       "female_relationship_position": "主线",
       "romance_position": "重要副线",
       "queries": [
-        "明确欲望",
-        "接受未确认",
-        "关系主线"
+        "欲望",
+        "未确认",
+        "主线"
       ],
       "male_romance_line": "无",
       "explicitness": {
@@ -965,15 +968,15 @@
       "row_number": 51
     },
     {
-      "title": "憧憬成为魔法少女",
-      "bangumi_url": "https://bangumi.tv/subject/424663",
-      "year_medium": "2024 TV",
+      "title": "Estab-Life Great Escape",
+      "bangumi_url": "https://bangumi.tv/subject/366253",
+      "year_medium": "2022 TV",
       "female_relationship_position": "主线",
-      "romance_position": "主线",
+      "romance_position": "重要副线",
       "queries": [
-        "明确欲望",
-        "接受未确认",
-        "关系主线"
+        "欲望",
+        "未确认",
+        "主线"
       ],
       "male_romance_line": "无",
       "explicitness": {
@@ -983,17 +986,17 @@
       "row_number": 52
     },
     {
-      "title": "为美好的世界献上爆焰！",
-      "bangumi_url": "https://bangumi.tv/subject/385209",
-      "year_medium": "2023 TV",
+      "title": "邪神与厨二病少女",
+      "bangumi_url": "https://bangumi.tv/subject/231722",
+      "year_medium": "2018 TV",
       "female_relationship_position": "主线",
-      "romance_position": "主线",
+      "romance_position": "重要副线",
       "queries": [
-        "明确欲望",
-        "接受未确认",
-        "关系主线"
+        "欲望",
+        "未确认",
+        "主线"
       ],
-      "male_romance_line": "副线",
+      "male_romance_line": "无",
       "explicitness": {
         "code": "explicit_desire",
         "label": "明确欲望但未确认交往"
@@ -1001,15 +1004,15 @@
       "row_number": 53
     },
     {
-      "title": "Slow Start",
-      "bangumi_url": "https://bangumi.tv/subject/214671",
-      "year_medium": "2018 TV",
+      "title": "憧憬成为魔法少女",
+      "bangumi_url": "https://bangumi.tv/subject/424663",
+      "year_medium": "2024 TV",
       "female_relationship_position": "主线",
-      "romance_position": "重要副线",
+      "romance_position": "主线",
       "queries": [
-        "明确欲望",
-        "接受未确认",
-        "关系主线"
+        "欲望",
+        "未确认",
+        "主线"
       ],
       "male_romance_line": "无",
       "explicitness": {
@@ -1019,17 +1022,17 @@
       "row_number": 54
     },
     {
-      "title": "邻家索菲",
-      "bangumi_url": "https://bangumi.tv/subject/241158",
-      "year_medium": "2018 TV",
+      "title": "为美好的世界献上爆焰！",
+      "bangumi_url": "https://bangumi.tv/subject/385209",
+      "year_medium": "2023 TV",
       "female_relationship_position": "主线",
       "romance_position": "主线",
       "queries": [
-        "明确欲望",
-        "接受未确认",
-        "关系主线"
+        "欲望",
+        "未确认",
+        "主线"
       ],
-      "male_romance_line": "无",
+      "male_romance_line": "副线",
       "explicitness": {
         "code": "explicit_desire",
         "label": "明确欲望但未确认交往"
@@ -1037,17 +1040,17 @@
       "row_number": 55
     },
     {
-      "title": "雾尾粉丝俱乐部",
-      "bangumi_url": "https://bangumi.tv/subject/513208",
-      "year_medium": "2026 TV",
+      "title": "Slow Start",
+      "bangumi_url": "https://bangumi.tv/subject/214671",
+      "year_medium": "2018 TV",
       "female_relationship_position": "主线",
-      "romance_position": "主线",
+      "romance_position": "重要副线",
       "queries": [
-        "明确欲望",
-        "接受未确认",
-        "关系主线"
+        "欲望",
+        "未确认",
+        "主线"
       ],
-      "male_romance_line": "并行",
+      "male_romance_line": "无",
       "explicitness": {
         "code": "explicit_desire",
         "label": "明确欲望但未确认交往"
@@ -1055,16 +1058,15 @@
       "row_number": 56
     },
     {
-      "title": "恋爱小行星",
-      "bangumi_url": "https://bangumi.tv/subject/276150",
-      "year_medium": "2020 TV",
+      "title": "邻家索菲",
+      "bangumi_url": "https://bangumi.tv/subject/241158",
+      "year_medium": "2018 TV",
       "female_relationship_position": "主线",
       "romance_position": "主线",
       "queries": [
-        "明确欲望",
-        "接受未确认",
-        "关系主线",
-        "官方恋爱表述"
+        "欲望",
+        "未确认",
+        "主线"
       ],
       "male_romance_line": "无",
       "explicitness": {
@@ -1074,17 +1076,17 @@
       "row_number": 57
     },
     {
-      "title": "奇蛋物语",
-      "bangumi_url": "https://bangumi.tv/subject/316607",
-      "year_medium": "2021 TV",
+      "title": "雾尾粉丝俱乐部",
+      "bangumi_url": "https://bangumi.tv/subject/513208",
+      "year_medium": "2026 TV",
       "female_relationship_position": "主线",
-      "romance_position": "重要副线",
+      "romance_position": "主线",
       "queries": [
-        "明确欲望",
-        "接受未确认",
-        "关系主线"
+        "欲望",
+        "未确认",
+        "主线"
       ],
-      "male_romance_line": "副线",
+      "male_romance_line": "并行",
       "explicitness": {
         "code": "explicit_desire",
         "label": "明确欲望但未确认交往"
@@ -1092,16 +1094,16 @@
       "row_number": 58
     },
     {
-      "title": "恶魔之谜",
-      "bangumi_url": "https://bangumi.tv/subject/78474",
-      "year_medium": "2014 TV",
+      "title": "恋爱小行星",
+      "bangumi_url": "https://bangumi.tv/subject/276150",
+      "year_medium": "2020 TV",
       "female_relationship_position": "主线",
       "romance_position": "主线",
       "queries": [
-        "明确欲望",
-        "接受未确认",
-        "关系主线",
-        "官方恋爱表述"
+        "欲望",
+        "未确认",
+        "主线",
+        "官方恋爱"
       ],
       "male_romance_line": "无",
       "explicitness": {
@@ -1111,15 +1113,16 @@
       "row_number": 59
     },
     {
-      "title": "突击莉莉 BOUQUET",
-      "bangumi_url": "https://bangumi.tv/subject/292712",
-      "year_medium": "2020 TV",
+      "title": "生存游戏社",
+      "bangumi_url": "https://bangumi.tv/subject/82193",
+      "year_medium": "2014 TV",
       "female_relationship_position": "主线",
-      "romance_position": "主线",
+      "romance_position": "重要副线",
       "queries": [
-        "明确欲望",
-        "接受未确认",
-        "关系主线"
+        "欲望",
+        "未确认",
+        "主线",
+        "官方恋爱"
       ],
       "male_romance_line": "无",
       "explicitness": {
@@ -1129,15 +1132,16 @@
       "row_number": 60
     },
     {
-      "title": "靠死亡游戏混饭吃。",
-      "bangumi_url": "https://bangumi.tv/subject/510753",
-      "year_medium": "2026 TV",
+      "title": "加奈日记",
+      "bangumi_url": "https://bangumi.tv/subject/1822",
+      "year_medium": "2009 TV",
       "female_relationship_position": "主线",
-      "romance_position": "主线",
+      "romance_position": "重要副线",
       "queries": [
-        "明确欲望",
-        "接受未确认",
-        "关系主线"
+        "欲望",
+        "未确认",
+        "主线",
+        "官方恋爱"
       ],
       "male_romance_line": "无",
       "explicitness": {
@@ -1147,252 +1151,269 @@
       "row_number": 61
     },
     {
+      "title": "奇蛋物语",
+      "bangumi_url": "https://bangumi.tv/subject/316607",
+      "year_medium": "2021 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "重要副线",
+      "queries": [
+        "欲望",
+        "未确认",
+        "主线"
+      ],
+      "male_romance_line": "副线",
+      "explicitness": {
+        "code": "explicit_desire",
+        "label": "明确欲望但未确认交往"
+      },
+      "row_number": 62
+    },
+    {
+      "title": "雏逻辑 ～from Luck & Logic～",
+      "bangumi_url": "https://bangumi.tv/subject/175362",
+      "year_medium": "2017 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "主线",
+      "queries": [
+        "欲望",
+        "未确认",
+        "主线"
+      ],
+      "male_romance_line": "无",
+      "explicitness": {
+        "code": "explicit_desire",
+        "label": "明确欲望但未确认交往"
+      },
+      "row_number": 63
+    },
+    {
+      "title": "踏切时间",
+      "bangumi_url": "https://bangumi.tv/subject/236103",
+      "year_medium": "2018 TV",
+      "female_relationship_position": "重要副线",
+      "romance_position": "重要副线",
+      "queries": [
+        "欲望",
+        "未确认",
+        "官方恋爱"
+      ],
+      "male_romance_line": "副线",
+      "explicitness": {
+        "code": "explicit_desire",
+        "label": "明确欲望但未确认交往"
+      },
+      "row_number": 64
+    },
+    {
+      "title": "少女爱上姐姐",
+      "bangumi_url": "https://bangumi.tv/subject/3828",
+      "year_medium": "2006 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "主线",
+      "queries": [
+        "欲望",
+        "未确认",
+        "主线"
+      ],
+      "male_romance_line": "主导",
+      "explicitness": {
+        "code": "explicit_desire",
+        "label": "明确欲望但未确认交往"
+      },
+      "row_number": 65
+    },
+    {
+      "title": "稻荷恋之歌",
+      "bangumi_url": "https://bangumi.tv/subject/56116",
+      "year_medium": "2014 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "重要副线",
+      "queries": [
+        "欲望",
+        "未确认",
+        "主线"
+      ],
+      "male_romance_line": "主导",
+      "explicitness": {
+        "code": "explicit_desire",
+        "label": "明确欲望但未确认交往"
+      },
+      "row_number": 66
+    },
+    {
+      "title": "暗与帽子与书之旅人",
+      "bangumi_url": "https://bangumi.tv/subject/1906",
+      "year_medium": "2003 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "主线",
+      "queries": [
+        "欲望",
+        "未确认",
+        "主线",
+        "官方恋爱"
+      ],
+      "male_romance_line": "未知",
+      "explicitness": {
+        "code": "explicit_desire",
+        "label": "明确欲望但未确认交往"
+      },
+      "row_number": 67
+    },
+    {
+      "title": "人渣的本愿",
+      "bangumi_url": "https://bangumi.tv/subject/174143",
+      "year_medium": "2017 TV",
+      "female_relationship_position": "重要副线",
+      "romance_position": "重要副线",
+      "queries": [
+        "欲望",
+        "未确认",
+        "官方恋爱"
+      ],
+      "male_romance_line": "主导",
+      "explicitness": {
+        "code": "explicit_desire",
+        "label": "明确欲望但未确认交往"
+      },
+      "row_number": 68
+    },
+    {
+      "title": "转生成为了只有乙女游戏破灭Flag的邪恶大小姐",
+      "bangumi_url": "https://bangumi.tv/subject/264089",
+      "year_medium": "2020 TV",
+      "female_relationship_position": "重要副线",
+      "romance_position": "重要副线",
+      "queries": [
+        "欲望",
+        "未确认",
+        "官方恋爱"
+      ],
+      "male_romance_line": "并行",
+      "explicitness": {
+        "code": "explicit_desire",
+        "label": "明确欲望但未确认交往"
+      },
+      "row_number": 69
+    },
+    {
+      "title": "刀剑神域外传 Gun Gale Online",
+      "bangumi_url": "https://bangumi.tv/subject/226750",
+      "year_medium": "2018 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "局部",
+      "queries": [
+        "欲望",
+        "未确认",
+        "主线"
+      ],
+      "male_romance_line": "副线",
+      "explicitness": {
+        "code": "explicit_desire",
+        "label": "明确欲望但未确认交往"
+      },
+      "row_number": 70
+    },
+    {
+      "title": "CROSS ANGE 天使与龙的轮舞",
+      "bangumi_url": "https://bangumi.tv/subject/109948",
+      "year_medium": "2014 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "重要副线",
+      "queries": [
+        "欲望",
+        "未确认",
+        "主线"
+      ],
+      "male_romance_line": "主导",
+      "explicitness": {
+        "code": "explicit_desire",
+        "label": "明确欲望但未确认交往"
+      },
+      "row_number": 71
+    },
+    {
+      "title": "转生王女与天才千金的魔法革命",
+      "bangumi_url": "https://bangumi.tv/subject/395714",
+      "year_medium": "2023 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "主线",
+      "queries": [
+        "欲望",
+        "未确认",
+        "主线",
+        "官方恋爱"
+      ],
+      "male_romance_line": "副线",
+      "explicitness": {
+        "code": "explicit_desire",
+        "label": "明确欲望但未确认交往"
+      },
+      "row_number": 72
+    },
+    {
+      "title": "恶魔之谜",
+      "bangumi_url": "https://bangumi.tv/subject/78474",
+      "year_medium": "2014 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "主线",
+      "queries": [
+        "欲望",
+        "未确认",
+        "主线",
+        "官方恋爱"
+      ],
+      "male_romance_line": "无",
+      "explicitness": {
+        "code": "explicit_desire",
+        "label": "明确欲望但未确认交往"
+      },
+      "row_number": 73
+    },
+    {
+      "title": "突击莉莉 BOUQUET",
+      "bangumi_url": "https://bangumi.tv/subject/292712",
+      "year_medium": "2020 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "主线",
+      "queries": [
+        "欲望",
+        "未确认",
+        "主线"
+      ],
+      "male_romance_line": "无",
+      "explicitness": {
+        "code": "explicit_desire",
+        "label": "明确欲望但未确认交往"
+      },
+      "row_number": 74
+    },
+    {
+      "title": "靠死亡游戏混饭吃。",
+      "bangumi_url": "https://bangumi.tv/subject/510753",
+      "year_medium": "2026 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "主线",
+      "queries": [
+        "欲望",
+        "未确认",
+        "主线"
+      ],
+      "male_romance_line": "无",
+      "explicitness": {
+        "code": "explicit_desire",
+        "label": "明确欲望但未确认交往"
+      },
+      "row_number": 75
+    },
+    {
       "title": "莉兹与青鸟",
       "bangumi_url": "https://bangumi.tv/subject/216371",
       "year_medium": "2018 剧场动画",
       "female_relationship_position": "主线",
       "romance_position": "主线",
       "queries": [
-        "接受未确认",
-        "关系主线"
-      ],
-      "male_romance_line": "无",
-      "explicitness": {
-        "code": "potential_or_strongly_coded",
-        "label": "明显恋爱方向但未确认"
-      },
-      "row_number": 62
-    },
-    {
-      "title": "魔法少女小圆",
-      "bangumi_url": "https://bangumi.tv/subject/9717",
-      "year_medium": "2011 TV",
-      "female_relationship_position": "主线",
-      "romance_position": "主线",
-      "queries": [
-        "接受未确认",
-        "关系主线"
-      ],
-      "male_romance_line": "副线",
-      "explicitness": {
-        "code": "potential_or_strongly_coded",
-        "label": "明显恋爱方向但未确认"
-      },
-      "row_number": 63
-    },
-    {
-      "title": "英雄联盟：双城之战",
-      "bangumi_url": "https://bangumi.tv/subject/335036",
-      "year_medium": "2021 WEB",
-      "female_relationship_position": "主线",
-      "romance_position": "重要副线",
-      "queries": [
-        "接受未确认",
-        "关系主线"
-      ],
-      "male_romance_line": "副线",
-      "explicitness": {
-        "code": "potential_or_strongly_coded",
-        "label": "明显恋爱方向但未确认"
-      },
-      "row_number": 64
-    },
-    {
-      "title": "吹响吧！上低音号",
-      "bangumi_url": "https://bangumi.tv/subject/115908",
-      "year_medium": "2015 TV",
-      "female_relationship_position": "主线",
-      "romance_position": "主线",
-      "queries": [
-        "接受未确认",
-        "关系主线"
-      ],
-      "male_romance_line": "副线",
-      "explicitness": {
-        "code": "potential_or_strongly_coded",
-        "label": "明显恋爱方向但未确认"
-      },
-      "row_number": 65
-    },
-    {
-      "title": "斩服少女",
-      "bangumi_url": "https://bangumi.tv/subject/72941",
-      "year_medium": "2013 TV",
-      "female_relationship_position": "主线",
-      "romance_position": "重要副线",
-      "queries": [
-        "接受未确认",
-        "关系主线"
-      ],
-      "male_romance_line": "副线",
-      "explicitness": {
-        "code": "potential_or_strongly_coded",
-        "label": "明显恋爱方向但未确认"
-      },
-      "row_number": 66
-    },
-    {
-      "title": "BanG Dream! It's MyGO!!!!!",
-      "bangumi_url": "https://bangumi.tv/subject/428735",
-      "year_medium": "2023 TV",
-      "female_relationship_position": "主线",
-      "romance_position": "局部",
-      "queries": [
-        "接受未确认",
-        "关系主线"
-      ],
-      "male_romance_line": "无",
-      "explicitness": {
-        "code": "potential_or_strongly_coded",
-        "label": "明显恋爱方向但未确认"
-      },
-      "row_number": 67
-    },
-    {
-      "title": "少女☆歌剧 Revue Starlight",
-      "bangumi_url": "https://bangumi.tv/subject/214265",
-      "year_medium": "2018 TV",
-      "female_relationship_position": "主线",
-      "romance_position": "主线",
-      "queries": [
-        "接受未确认",
-        "关系主线"
-      ],
-      "male_romance_line": "无",
-      "explicitness": {
-        "code": "potential_or_strongly_coded",
-        "label": "明显恋爱方向但未确认"
-      },
-      "row_number": 68
-    },
-    {
-      "title": "Go! Princess 光之美少女",
-      "bangumi_url": "https://bangumi.tv/subject/119279",
-      "year_medium": "2015 TV",
-      "female_relationship_position": "主线",
-      "romance_position": "局部",
-      "queries": [
-        "接受未确认",
-        "关系主线"
-      ],
-      "male_romance_line": "副线",
-      "explicitness": {
-        "code": "potential_or_strongly_coded",
-        "label": "明显恋爱方向但未确认"
-      },
-      "row_number": 69
-    },
-    {
-      "title": "来玩游戏吧",
-      "bangumi_url": "https://bangumi.tv/subject/236020",
-      "year_medium": "2018 TV",
-      "female_relationship_position": "主线",
-      "romance_position": "局部",
-      "queries": [
-        "接受未确认",
-        "关系主线"
-      ],
-      "male_romance_line": "副线",
-      "explicitness": {
-        "code": "potential_or_strongly_coded",
-        "label": "明显恋爱方向但未确认"
-      },
-      "row_number": 70
-    },
-    {
-      "title": "宝石之国",
-      "bangumi_url": "https://bangumi.tv/subject/214799",
-      "year_medium": "2017 TV",
-      "female_relationship_position": "主线",
-      "romance_position": "主线",
-      "queries": [
-        "接受未确认",
-        "关系主线"
-      ],
-      "male_romance_line": "无",
-      "explicitness": {
-        "code": "potential_or_strongly_coded",
-        "label": "明显恋爱方向但未确认"
-      },
-      "row_number": 71
-    },
-    {
-      "title": "别当欧尼酱了！",
-      "bangumi_url": "https://bangumi.tv/subject/378862",
-      "year_medium": "2023 TV",
-      "female_relationship_position": "重要副线",
-      "romance_position": "重要副线",
-      "queries": [
-        "接受未确认"
-      ],
-      "male_romance_line": "无",
-      "explicitness": {
-        "code": "potential_or_strongly_coded",
-        "label": "明显恋爱方向但未确认"
-      },
-      "row_number": 72
-    },
-    {
-      "title": "明日同学的水手服",
-      "bangumi_url": "https://bangumi.tv/subject/331480",
-      "year_medium": "2022 TV",
-      "female_relationship_position": "主线",
-      "romance_position": "主线",
-      "queries": [
-        "接受未确认",
-        "关系主线"
-      ],
-      "male_romance_line": "无",
-      "explicitness": {
-        "code": "potential_or_strongly_coded",
-        "label": "明显恋爱方向但未确认"
-      },
-      "row_number": 73
-    },
-    {
-      "title": "天才麻将少女",
-      "bangumi_url": "https://bangumi.tv/subject/1444",
-      "year_medium": "2009 TV",
-      "female_relationship_position": "主线",
-      "romance_position": "主线",
-      "queries": [
-        "接受未确认",
-        "关系主线",
-        "官方字面"
-      ],
-      "male_romance_line": "副线",
-      "explicitness": {
-        "code": "potential_or_strongly_coded",
-        "label": "明显恋爱方向但未确认"
-      },
-      "row_number": 74
-    },
-    {
-      "title": "Love Live! 虹咲学园校园偶像同好会",
-      "bangumi_url": "https://bangumi.tv/subject/296659",
-      "year_medium": "2020 TV",
-      "female_relationship_position": "主线",
-      "romance_position": "主线",
-      "queries": [
-        "接受未确认",
-        "关系主线"
-      ],
-      "male_romance_line": "无",
-      "explicitness": {
-        "code": "potential_or_strongly_coded",
-        "label": "明显恋爱方向但未确认"
-      },
-      "row_number": 75
-    },
-    {
-      "title": "街角魔族",
-      "bangumi_url": "https://bangumi.tv/subject/272510",
-      "year_medium": "2019 TV",
-      "female_relationship_position": "主线",
-      "romance_position": "主线",
-      "queries": [
-        "接受未确认",
-        "关系主线"
+        "未确认",
+        "主线"
       ],
       "male_romance_line": "无",
       "explicitness": {
@@ -1402,14 +1423,14 @@
       "row_number": 76
     },
     {
-      "title": "魔法使光之美少女！",
-      "bangumi_url": "https://bangumi.tv/subject/159826",
-      "year_medium": "2016 TV",
+      "title": "魔法少女小圆",
+      "bangumi_url": "https://bangumi.tv/subject/9717",
+      "year_medium": "2011 TV",
       "female_relationship_position": "主线",
       "romance_position": "主线",
       "queries": [
-        "接受未确认",
-        "关系主线"
+        "未确认",
+        "主线"
       ],
       "male_romance_line": "副线",
       "explicitness": {
@@ -1419,14 +1440,14 @@
       "row_number": 77
     },
     {
-      "title": "明天，美食广场见。",
-      "bangumi_url": "https://bangumi.tv/subject/528438",
-      "year_medium": "2025 TV",
+      "title": "英雄联盟：双城之战",
+      "bangumi_url": "https://bangumi.tv/subject/335036",
+      "year_medium": "2021 WEB",
       "female_relationship_position": "主线",
-      "romance_position": "主线",
+      "romance_position": "重要副线",
       "queries": [
-        "接受未确认",
-        "关系主线"
+        "未确认",
+        "主线"
       ],
       "male_romance_line": "副线",
       "explicitness": {
@@ -1436,14 +1457,14 @@
       "row_number": 78
     },
     {
-      "title": "轻拍翻转小魔女",
-      "bangumi_url": "https://bangumi.tv/subject/174584",
-      "year_medium": "2016 TV",
+      "title": "吹响吧！上低音号",
+      "bangumi_url": "https://bangumi.tv/subject/115908",
+      "year_medium": "2015 TV",
       "female_relationship_position": "主线",
       "romance_position": "主线",
       "queries": [
-        "接受未确认",
-        "关系主线"
+        "未确认",
+        "主线"
       ],
       "male_romance_line": "副线",
       "explicitness": {
@@ -1453,16 +1474,16 @@
       "row_number": 79
     },
     {
-      "title": "猫头鹰魔法社",
-      "bangumi_url": "https://bangumi.tv/subject/313213",
-      "year_medium": "2020 TV",
+      "title": "斩服少女",
+      "bangumi_url": "https://bangumi.tv/subject/72941",
+      "year_medium": "2013 TV",
       "female_relationship_position": "主线",
       "romance_position": "重要副线",
       "queries": [
-        "接受未确认",
-        "关系主线"
+        "未确认",
+        "主线"
       ],
-      "male_romance_line": "无",
+      "male_romance_line": "副线",
       "explicitness": {
         "code": "potential_or_strongly_coded",
         "label": "明显恋爱方向但未确认"
@@ -1470,14 +1491,14 @@
       "row_number": 80
     },
     {
-      "title": "NEW GAME!",
-      "bangumi_url": "https://bangumi.tv/subject/150775",
-      "year_medium": "2016 TV",
+      "title": "BanG Dream! It's MyGO!!!!!",
+      "bangumi_url": "https://bangumi.tv/subject/428735",
+      "year_medium": "2023 TV",
       "female_relationship_position": "主线",
-      "romance_position": "重要副线",
+      "romance_position": "局部",
       "queries": [
-        "接受未确认",
-        "关系主线"
+        "未确认",
+        "主线"
       ],
       "male_romance_line": "无",
       "explicitness": {
@@ -1487,14 +1508,14 @@
       "row_number": 81
     },
     {
-      "title": "Princess Principal",
-      "bangumi_url": "https://bangumi.tv/subject/211936",
-      "year_medium": "2017 TV",
+      "title": "少女☆歌剧 Revue Starlight",
+      "bangumi_url": "https://bangumi.tv/subject/214265",
+      "year_medium": "2018 TV",
       "female_relationship_position": "主线",
       "romance_position": "主线",
       "queries": [
-        "接受未确认",
-        "关系主线"
+        "未确认",
+        "主线"
       ],
       "male_romance_line": "无",
       "explicitness": {
@@ -1504,16 +1525,16 @@
       "row_number": 82
     },
     {
-      "title": "深夜重拳",
-      "bangumi_url": "https://bangumi.tv/subject/477207",
-      "year_medium": "2024 TV",
+      "title": "Go! Princess 光之美少女",
+      "bangumi_url": "https://bangumi.tv/subject/119279",
+      "year_medium": "2015 TV",
       "female_relationship_position": "主线",
-      "romance_position": "主线",
+      "romance_position": "局部",
       "queries": [
-        "接受未确认",
-        "关系主线"
+        "未确认",
+        "主线"
       ],
-      "male_romance_line": "无",
+      "male_romance_line": "副线",
       "explicitness": {
         "code": "potential_or_strongly_coded",
         "label": "明显恋爱方向但未确认"
@@ -1521,16 +1542,16 @@
       "row_number": 83
     },
     {
-      "title": "黄金拼图",
-      "bangumi_url": "https://bangumi.tv/subject/57978",
-      "year_medium": "2013 TV",
+      "title": "来玩游戏吧",
+      "bangumi_url": "https://bangumi.tv/subject/236020",
+      "year_medium": "2018 TV",
       "female_relationship_position": "主线",
-      "romance_position": "主线",
+      "romance_position": "局部",
       "queries": [
-        "接受未确认",
-        "关系主线"
+        "未确认",
+        "主线"
       ],
-      "male_romance_line": "无",
+      "male_romance_line": "副线",
       "explicitness": {
         "code": "potential_or_strongly_coded",
         "label": "明显恋爱方向但未确认"
@@ -1538,16 +1559,16 @@
       "row_number": 84
     },
     {
-      "title": "风灵玉秀",
-      "bangumi_url": "https://bangumi.tv/subject/212333",
-      "year_medium": "2017 WEB",
+      "title": "宝石之国",
+      "bangumi_url": "https://bangumi.tv/subject/214799",
+      "year_medium": "2017 TV",
       "female_relationship_position": "主线",
       "romance_position": "主线",
       "queries": [
-        "接受未确认",
-        "关系主线"
+        "未确认",
+        "主线"
       ],
-      "male_romance_line": "副线",
+      "male_romance_line": "无",
       "explicitness": {
         "code": "potential_or_strongly_coded",
         "label": "明显恋爱方向但未确认"
@@ -1555,14 +1576,13 @@
       "row_number": 85
     },
     {
-      "title": "那一天的她们",
-      "bangumi_url": "https://bangumi.tv/subject/265374",
-      "year_medium": "2018 WEB 短篇",
-      "female_relationship_position": "主线",
-      "romance_position": "主线",
+      "title": "别当欧尼酱了！",
+      "bangumi_url": "https://bangumi.tv/subject/378862",
+      "year_medium": "2023 TV",
+      "female_relationship_position": "重要副线",
+      "romance_position": "重要副线",
       "queries": [
-        "接受未确认",
-        "关系主线"
+        "未确认"
       ],
       "male_romance_line": "无",
       "explicitness": {
@@ -1572,13 +1592,14 @@
       "row_number": 86
     },
     {
-      "title": "少女手工",
-      "bangumi_url": "https://bangumi.tv/subject/331445",
+      "title": "明日同学的水手服",
+      "bangumi_url": "https://bangumi.tv/subject/331480",
       "year_medium": "2022 TV",
-      "female_relationship_position": "重要副线",
-      "romance_position": "重要副线",
+      "female_relationship_position": "主线",
+      "romance_position": "主线",
       "queries": [
-        "接受未确认"
+        "未确认",
+        "主线"
       ],
       "male_romance_line": "无",
       "explicitness": {
@@ -1588,17 +1609,17 @@
       "row_number": 87
     },
     {
-      "title": "天才麻将少女 阿知贺篇",
-      "bangumi_url": "https://bangumi.tv/subject/24165",
-      "year_medium": "2012 TV",
+      "title": "天才麻将少女",
+      "bangumi_url": "https://bangumi.tv/subject/1444",
+      "year_medium": "2009 TV",
       "female_relationship_position": "主线",
-      "romance_position": "重要副线",
+      "romance_position": "主线",
       "queries": [
-        "接受未确认",
-        "关系主线",
+        "未确认",
+        "主线",
         "官方字面"
       ],
-      "male_romance_line": "无",
+      "male_romance_line": "副线",
       "explicitness": {
         "code": "potential_or_strongly_coded",
         "label": "明显恋爱方向但未确认"
@@ -1606,14 +1627,14 @@
       "row_number": 88
     },
     {
-      "title": "Love Live!",
-      "bangumi_url": "https://bangumi.tv/subject/49294",
-      "year_medium": "2013 TV",
+      "title": "Love Live! 虹咲学园校园偶像同好会",
+      "bangumi_url": "https://bangumi.tv/subject/296659",
+      "year_medium": "2020 TV",
       "female_relationship_position": "主线",
       "romance_position": "主线",
       "queries": [
-        "接受未确认",
-        "关系主线"
+        "未确认",
+        "主线"
       ],
       "male_romance_line": "无",
       "explicitness": {
@@ -1623,16 +1644,16 @@
       "row_number": 89
     },
     {
-      "title": "天使特警",
-      "bangumi_url": "https://bangumi.tv/subject/3815",
-      "year_medium": "2002 TV",
+      "title": "街角魔族",
+      "bangumi_url": "https://bangumi.tv/subject/272510",
+      "year_medium": "2019 TV",
       "female_relationship_position": "主线",
       "romance_position": "主线",
       "queries": [
-        "接受未确认",
-        "关系主线"
+        "未确认",
+        "主线"
       ],
-      "male_romance_line": "副线",
+      "male_romance_line": "无",
       "explicitness": {
         "code": "potential_or_strongly_coded",
         "label": "明显恋爱方向但未确认"
@@ -1640,14 +1661,14 @@
       "row_number": 90
     },
     {
-      "title": "荒野的寿飞行队",
-      "bangumi_url": "https://bangumi.tv/subject/260467",
-      "year_medium": "2019 TV",
+      "title": "魔法使光之美少女！",
+      "bangumi_url": "https://bangumi.tv/subject/159826",
+      "year_medium": "2016 TV",
       "female_relationship_position": "主线",
-      "romance_position": "局部",
+      "romance_position": "主线",
       "queries": [
-        "接受未确认",
-        "关系主线"
+        "未确认",
+        "主线"
       ],
       "male_romance_line": "副线",
       "explicitness": {
@@ -1657,14 +1678,14 @@
       "row_number": 91
     },
     {
-      "title": "代号17",
-      "bangumi_url": "https://bangumi.tv/subject/10376",
-      "year_medium": "2001 TV",
+      "title": "明天，美食广场见。",
+      "bangumi_url": "https://bangumi.tv/subject/528438",
+      "year_medium": "2025 TV",
       "female_relationship_position": "主线",
       "romance_position": "主线",
       "queries": [
-        "接受未确认",
-        "关系主线"
+        "未确认",
+        "主线"
       ],
       "male_romance_line": "副线",
       "explicitness": {
@@ -1674,16 +1695,16 @@
       "row_number": 92
     },
     {
-      "title": "mono女孩",
-      "bangumi_url": "https://bangumi.tv/subject/485936",
-      "year_medium": "2025 TV",
+      "title": "轻拍翻转小魔女",
+      "bangumi_url": "https://bangumi.tv/subject/174584",
+      "year_medium": "2016 TV",
       "female_relationship_position": "主线",
       "romance_position": "主线",
       "queries": [
-        "接受未确认",
-        "关系主线"
+        "未确认",
+        "主线"
       ],
-      "male_romance_line": "无",
+      "male_romance_line": "副线",
       "explicitness": {
         "code": "potential_or_strongly_coded",
         "label": "明显恋爱方向但未确认"
@@ -1691,16 +1712,16 @@
       "row_number": 93
     },
     {
-      "title": "黑街二人组",
-      "bangumi_url": "https://bangumi.tv/subject/788",
-      "year_medium": "2001 TV",
+      "title": "猫头鹰魔法社",
+      "bangumi_url": "https://bangumi.tv/subject/313213",
+      "year_medium": "2020 TV",
       "female_relationship_position": "主线",
-      "romance_position": "主线",
+      "romance_position": "重要副线",
       "queries": [
-        "接受未确认",
-        "关系主线"
+        "未确认",
+        "主线"
       ],
-      "male_romance_line": "副线",
+      "male_romance_line": "无",
       "explicitness": {
         "code": "potential_or_strongly_coded",
         "label": "明显恋爱方向但未确认"
@@ -1708,14 +1729,14 @@
       "row_number": 94
     },
     {
-      "title": "结城友奈是勇者",
-      "bangumi_url": "https://bangumi.tv/subject/109328",
-      "year_medium": "2014 TV",
+      "title": "NEW GAME!",
+      "bangumi_url": "https://bangumi.tv/subject/150775",
+      "year_medium": "2016 TV",
       "female_relationship_position": "主线",
-      "romance_position": "主线",
+      "romance_position": "重要副线",
       "queries": [
-        "接受未确认",
-        "关系主线"
+        "未确认",
+        "主线"
       ],
       "male_romance_line": "无",
       "explicitness": {
@@ -1725,15 +1746,16 @@
       "row_number": 95
     },
     {
-      "title": "SSSS.古立特",
-      "bangumi_url": "https://bangumi.tv/subject/218712",
-      "year_medium": "2018 TV",
-      "female_relationship_position": "重要副线",
-      "romance_position": "重要副线",
+      "title": "Princess Principal",
+      "bangumi_url": "https://bangumi.tv/subject/211936",
+      "year_medium": "2017 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "主线",
       "queries": [
-        "接受未确认"
+        "未确认",
+        "主线"
       ],
-      "male_romance_line": "并行",
+      "male_romance_line": "无",
       "explicitness": {
         "code": "potential_or_strongly_coded",
         "label": "明显恋爱方向但未确认"
@@ -1741,16 +1763,16 @@
       "row_number": 96
     },
     {
-      "title": "强袭魔女",
-      "bangumi_url": "https://bangumi.tv/subject/698",
-      "year_medium": "2008 TV",
+      "title": "深夜重拳",
+      "bangumi_url": "https://bangumi.tv/subject/477207",
+      "year_medium": "2024 TV",
       "female_relationship_position": "主线",
-      "romance_position": "重要副线",
+      "romance_position": "主线",
       "queries": [
-        "接受未确认",
-        "关系主线"
+        "未确认",
+        "主线"
       ],
-      "male_romance_line": "副线",
+      "male_romance_line": "无",
       "explicitness": {
         "code": "potential_or_strongly_coded",
         "label": "明显恋爱方向但未确认"
@@ -1758,16 +1780,16 @@
       "row_number": 97
     },
     {
-      "title": "魔女猎人",
-      "bangumi_url": "https://bangumi.tv/subject/3489",
-      "year_medium": "2007 TV",
+      "title": "黄金拼图",
+      "bangumi_url": "https://bangumi.tv/subject/57978",
+      "year_medium": "2013 TV",
       "female_relationship_position": "主线",
       "romance_position": "主线",
       "queries": [
-        "接受未确认",
-        "关系主线"
+        "未确认",
+        "主线"
       ],
-      "male_romance_line": "并行",
+      "male_romance_line": "无",
       "explicitness": {
         "code": "potential_or_strongly_coded",
         "label": "明显恋爱方向但未确认"
@@ -1775,14 +1797,14 @@
       "row_number": 98
     },
     {
-      "title": "死后文",
-      "bangumi_url": "https://bangumi.tv/subject/281",
-      "year_medium": "2008 TV",
+      "title": "风灵玉秀",
+      "bangumi_url": "https://bangumi.tv/subject/212333",
+      "year_medium": "2017 WEB",
       "female_relationship_position": "主线",
       "romance_position": "主线",
       "queries": [
-        "接受未确认",
-        "关系主线"
+        "未确认",
+        "主线"
       ],
       "male_romance_line": "副线",
       "explicitness": {
@@ -1792,16 +1814,16 @@
       "row_number": 99
     },
     {
-      "title": "大正野球娘。",
-      "bangumi_url": "https://bangumi.tv/subject/1731",
-      "year_medium": "2009 TV",
+      "title": "那一天的她们",
+      "bangumi_url": "https://bangumi.tv/subject/265374",
+      "year_medium": "2018 WEB 短篇",
       "female_relationship_position": "主线",
-      "romance_position": "重要副线",
+      "romance_position": "主线",
       "queries": [
-        "接受未确认",
-        "关系主线"
+        "未确认",
+        "主线"
       ],
-      "male_romance_line": "并行",
+      "male_romance_line": "无",
       "explicitness": {
         "code": "potential_or_strongly_coded",
         "label": "明显恋爱方向但未确认"
@@ -1809,15 +1831,13 @@
       "row_number": 100
     },
     {
-      "title": "悠悠式",
-      "bangumi_url": "https://bangumi.tv/subject/46828",
-      "year_medium": "2013 TV",
-      "female_relationship_position": "主线",
+      "title": "少女手工",
+      "bangumi_url": "https://bangumi.tv/subject/331445",
+      "year_medium": "2022 TV",
+      "female_relationship_position": "重要副线",
       "romance_position": "重要副线",
       "queries": [
-        "接受未确认",
-        "关系主线",
-        "官方字面"
+        "未确认"
       ],
       "male_romance_line": "无",
       "explicitness": {
@@ -1827,21 +1847,574 @@
       "row_number": 101
     },
     {
+      "title": "天才麻将少女 阿知贺篇",
+      "bangumi_url": "https://bangumi.tv/subject/24165",
+      "year_medium": "2012 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "重要副线",
+      "queries": [
+        "未确认",
+        "主线",
+        "官方字面"
+      ],
+      "male_romance_line": "无",
+      "explicitness": {
+        "code": "potential_or_strongly_coded",
+        "label": "明显恋爱方向但未确认"
+      },
+      "row_number": 102
+    },
+    {
+      "title": "Love Live!",
+      "bangumi_url": "https://bangumi.tv/subject/49294",
+      "year_medium": "2013 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "主线",
+      "queries": [
+        "未确认",
+        "主线"
+      ],
+      "male_romance_line": "无",
+      "explicitness": {
+        "code": "potential_or_strongly_coded",
+        "label": "明显恋爱方向但未确认"
+      },
+      "row_number": 103
+    },
+    {
+      "title": "天使特警",
+      "bangumi_url": "https://bangumi.tv/subject/3815",
+      "year_medium": "2002 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "主线",
+      "queries": [
+        "未确认",
+        "主线"
+      ],
+      "male_romance_line": "副线",
+      "explicitness": {
+        "code": "potential_or_strongly_coded",
+        "label": "明显恋爱方向但未确认"
+      },
+      "row_number": 104
+    },
+    {
+      "title": "荒野的寿飞行队",
+      "bangumi_url": "https://bangumi.tv/subject/260467",
+      "year_medium": "2019 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "局部",
+      "queries": [
+        "未确认",
+        "主线"
+      ],
+      "male_romance_line": "副线",
+      "explicitness": {
+        "code": "potential_or_strongly_coded",
+        "label": "明显恋爱方向但未确认"
+      },
+      "row_number": 105
+    },
+    {
+      "title": "代号17",
+      "bangumi_url": "https://bangumi.tv/subject/10376",
+      "year_medium": "2001 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "主线",
+      "queries": [
+        "未确认",
+        "主线"
+      ],
+      "male_romance_line": "副线",
+      "explicitness": {
+        "code": "potential_or_strongly_coded",
+        "label": "明显恋爱方向但未确认"
+      },
+      "row_number": 106
+    },
+    {
+      "title": "mono女孩",
+      "bangumi_url": "https://bangumi.tv/subject/485936",
+      "year_medium": "2025 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "主线",
+      "queries": [
+        "未确认",
+        "主线"
+      ],
+      "male_romance_line": "无",
+      "explicitness": {
+        "code": "potential_or_strongly_coded",
+        "label": "明显恋爱方向但未确认"
+      },
+      "row_number": 107
+    },
+    {
+      "title": "黑街二人组",
+      "bangumi_url": "https://bangumi.tv/subject/788",
+      "year_medium": "2001 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "主线",
+      "queries": [
+        "未确认",
+        "主线"
+      ],
+      "male_romance_line": "副线",
+      "explicitness": {
+        "code": "potential_or_strongly_coded",
+        "label": "明显恋爱方向但未确认"
+      },
+      "row_number": 108
+    },
+    {
+      "title": "结城友奈是勇者",
+      "bangumi_url": "https://bangumi.tv/subject/109328",
+      "year_medium": "2014 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "主线",
+      "queries": [
+        "未确认",
+        "主线"
+      ],
+      "male_romance_line": "无",
+      "explicitness": {
+        "code": "potential_or_strongly_coded",
+        "label": "明显恋爱方向但未确认"
+      },
+      "row_number": 109
+    },
+    {
+      "title": "SSSS.古立特",
+      "bangumi_url": "https://bangumi.tv/subject/218712",
+      "year_medium": "2018 TV",
+      "female_relationship_position": "重要副线",
+      "romance_position": "重要副线",
+      "queries": [
+        "未确认"
+      ],
+      "male_romance_line": "并行",
+      "explicitness": {
+        "code": "potential_or_strongly_coded",
+        "label": "明显恋爱方向但未确认"
+      },
+      "row_number": 110
+    },
+    {
+      "title": "强袭魔女",
+      "bangumi_url": "https://bangumi.tv/subject/698",
+      "year_medium": "2008 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "重要副线",
+      "queries": [
+        "未确认",
+        "主线"
+      ],
+      "male_romance_line": "副线",
+      "explicitness": {
+        "code": "potential_or_strongly_coded",
+        "label": "明显恋爱方向但未确认"
+      },
+      "row_number": 111
+    },
+    {
+      "title": "魔女猎人",
+      "bangumi_url": "https://bangumi.tv/subject/3489",
+      "year_medium": "2007 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "主线",
+      "queries": [
+        "未确认",
+        "主线"
+      ],
+      "male_romance_line": "并行",
+      "explicitness": {
+        "code": "potential_or_strongly_coded",
+        "label": "明显恋爱方向但未确认"
+      },
+      "row_number": 112
+    },
+    {
+      "title": "死后文",
+      "bangumi_url": "https://bangumi.tv/subject/281",
+      "year_medium": "2008 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "主线",
+      "queries": [
+        "未确认",
+        "主线"
+      ],
+      "male_romance_line": "副线",
+      "explicitness": {
+        "code": "potential_or_strongly_coded",
+        "label": "明显恋爱方向但未确认"
+      },
+      "row_number": 113
+    },
+    {
+      "title": "大正野球娘。",
+      "bangumi_url": "https://bangumi.tv/subject/1731",
+      "year_medium": "2009 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "重要副线",
+      "queries": [
+        "未确认",
+        "主线"
+      ],
+      "male_romance_line": "并行",
+      "explicitness": {
+        "code": "potential_or_strongly_coded",
+        "label": "明显恋爱方向但未确认"
+      },
+      "row_number": 114
+    },
+    {
+      "title": "悠悠式",
+      "bangumi_url": "https://bangumi.tv/subject/46828",
+      "year_medium": "2013 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "重要副线",
+      "queries": [
+        "未确认",
+        "主线",
+        "官方字面"
+      ],
+      "male_romance_line": "无",
+      "explicitness": {
+        "code": "potential_or_strongly_coded",
+        "label": "明显恋爱方向但未确认"
+      },
+      "row_number": 115
+    },
+    {
       "title": "忍者椿的胸之内",
       "bangumi_url": "https://bangumi.tv/subject/351973",
       "year_medium": "2022 TV",
       "female_relationship_position": "主线",
       "romance_position": "重要副线",
       "queries": [
-        "接受未确认",
-        "关系主线"
+        "未确认",
+        "主线"
       ],
       "male_romance_line": "主导",
       "explicitness": {
         "code": "potential_or_strongly_coded",
         "label": "明显恋爱方向但未确认"
       },
-      "row_number": 102
+      "row_number": 116
+    },
+    {
+      "title": "未确认进行式",
+      "bangumi_url": "https://bangumi.tv/subject/83869",
+      "year_medium": "2014 TV",
+      "female_relationship_position": "重要副线",
+      "romance_position": "局部",
+      "queries": [
+        "未确认"
+      ],
+      "male_romance_line": "主导",
+      "explicitness": {
+        "code": "potential_or_strongly_coded",
+        "label": "明显恋爱方向但未确认"
+      },
+      "row_number": 117
+    },
+    {
+      "title": "A频道",
+      "bangumi_url": "https://bangumi.tv/subject/10227",
+      "year_medium": "2011 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "重要副线",
+      "queries": [
+        "未确认",
+        "主线",
+        "官方恋爱"
+      ],
+      "male_romance_line": "无",
+      "explicitness": {
+        "code": "potential_or_strongly_coded",
+        "label": "明显恋爱方向但未确认"
+      },
+      "row_number": 118
+    },
+    {
+      "title": "迦南",
+      "bangumi_url": "https://bangumi.tv/subject/1952",
+      "year_medium": "2009 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "主线",
+      "queries": [
+        "未确认",
+        "主线"
+      ],
+      "male_romance_line": "无",
+      "explicitness": {
+        "code": "potential_or_strongly_coded",
+        "label": "明显恋爱方向但未确认"
+      },
+      "row_number": 119
+    },
+    {
+      "title": "舞-乙HiME",
+      "bangumi_url": "https://bangumi.tv/subject/1028",
+      "year_medium": "2005 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "重要副线",
+      "queries": [
+        "未确认",
+        "主线"
+      ],
+      "male_romance_line": "主导",
+      "explicitness": {
+        "code": "potential_or_strongly_coded",
+        "label": "明显恋爱方向但未确认"
+      },
+      "row_number": 120
+    },
+    {
+      "title": "花舞少女",
+      "bangumi_url": "https://bangumi.tv/subject/91222",
+      "year_medium": "2014 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "重要副线",
+      "queries": [
+        "未确认",
+        "主线"
+      ],
+      "male_romance_line": "无",
+      "explicitness": {
+        "code": "potential_or_strongly_coded",
+        "label": "明显恋爱方向但未确认"
+      },
+      "row_number": 121
+    },
+    {
+      "title": "狂赌之渊 双",
+      "bangumi_url": "https://bangumi.tv/subject/356658",
+      "year_medium": "2022 WEB",
+      "female_relationship_position": "主线",
+      "romance_position": "主线",
+      "queries": [
+        "未确认",
+        "主线"
+      ],
+      "male_romance_line": "副线",
+      "explicitness": {
+        "code": "potential_or_strongly_coded",
+        "label": "明显恋爱方向但未确认"
+      },
+      "row_number": 122
+    },
+    {
+      "title": "归宅部活动记录",
+      "bangumi_url": "https://bangumi.tv/subject/75702",
+      "year_medium": "2013 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "局部",
+      "queries": [
+        "未确认",
+        "主线"
+      ],
+      "male_romance_line": "无",
+      "explicitness": {
+        "code": "potential_or_strongly_coded",
+        "label": "明显恋爱方向但未确认"
+      },
+      "row_number": 123
+    },
+    {
+      "title": "MADLAX",
+      "bangumi_url": "https://bangumi.tv/subject/1418",
+      "year_medium": "2004 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "主线",
+      "queries": [
+        "未确认",
+        "主线"
+      ],
+      "male_romance_line": "无",
+      "explicitness": {
+        "code": "potential_or_strongly_coded",
+        "label": "明显恋爱方向但未确认"
+      },
+      "row_number": 124
+    },
+    {
+      "title": "幸腹涂鸦",
+      "bangumi_url": "https://bangumi.tv/subject/105969",
+      "year_medium": "2015 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "主线",
+      "queries": [
+        "未确认",
+        "主线"
+      ],
+      "male_romance_line": "无",
+      "explicitness": {
+        "code": "potential_or_strongly_coded",
+        "label": "明显恋爱方向但未确认"
+      },
+      "row_number": 125
+    },
+    {
+      "title": "这里是充满笑容的职场。",
+      "bangumi_url": "https://bangumi.tv/subject/475663",
+      "year_medium": "2025 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "局部",
+      "queries": [
+        "未确认",
+        "主线",
+        "官方恋爱"
+      ],
+      "male_romance_line": "无",
+      "explicitness": {
+        "code": "potential_or_strongly_coded",
+        "label": "明显恋爱方向但未确认"
+      },
+      "row_number": 126
+    },
+    {
+      "title": ".hack//时空",
+      "bangumi_url": "https://bangumi.tv/subject/1997",
+      "year_medium": "2002 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "主线",
+      "queries": [
+        "未确认",
+        "主线"
+      ],
+      "male_romance_line": "无",
+      "explicitness": {
+        "code": "potential_or_strongly_coded",
+        "label": "明显恋爱方向但未确认"
+      },
+      "row_number": 127
+    },
+    {
+      "title": "人马小姐不迷茫",
+      "bangumi_url": "https://bangumi.tv/subject/201754",
+      "year_medium": "2017 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "局部",
+      "queries": [
+        "未确认",
+        "主线",
+        "官方恋爱"
+      ],
+      "male_romance_line": "副线",
+      "explicitness": {
+        "code": "potential_or_strongly_coded",
+        "label": "明显恋爱方向但未确认"
+      },
+      "row_number": 128
+    },
+    {
+      "title": "对我垂涎欲滴的非人少女",
+      "bangumi_url": "https://bangumi.tv/subject/520842",
+      "year_medium": "2025 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "主线",
+      "queries": [
+        "未确认",
+        "主线",
+        "官方字面",
+        "官方恋爱"
+      ],
+      "male_romance_line": "无",
+      "explicitness": {
+        "code": "potential_or_strongly_coded",
+        "label": "明显恋爱方向但未确认"
+      },
+      "row_number": 129
+    },
+    {
+      "title": "Anne Happy♪",
+      "bangumi_url": "https://bangumi.tv/subject/138053",
+      "year_medium": "2016 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "重要副线",
+      "queries": [
+        "未确认",
+        "主线",
+        "官方恋爱"
+      ],
+      "male_romance_line": "无",
+      "explicitness": {
+        "code": "potential_or_strongly_coded",
+        "label": "明显恋爱方向但未确认"
+      },
+      "row_number": 130
+    },
+    {
+      "title": "女孩的钓鱼慢活",
+      "bangumi_url": "https://bangumi.tv/subject/323626",
+      "year_medium": "2022 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "局部",
+      "queries": [
+        "未确认",
+        "主线",
+        "官方恋爱"
+      ],
+      "male_romance_line": "无",
+      "explicitness": {
+        "code": "potential_or_strongly_coded",
+        "label": "明显恋爱方向但未确认"
+      },
+      "row_number": 131
+    },
+    {
+      "title": "再得一胜！",
+      "bangumi_url": "https://bangumi.tv/subject/341148",
+      "year_medium": "2023 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "重要副线",
+      "queries": [
+        "未确认",
+        "主线"
+      ],
+      "male_romance_line": "无",
+      "explicitness": {
+        "code": "potential_or_strongly_coded",
+        "label": "明显恋爱方向但未确认"
+      },
+      "row_number": 132
+    },
+    {
+      "title": "Urara迷路帖",
+      "bangumi_url": "https://bangumi.tv/subject/173303",
+      "year_medium": "2017 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "重要副线",
+      "queries": [
+        "未确认",
+        "主线"
+      ],
+      "male_romance_line": "无",
+      "explicitness": {
+        "code": "potential_or_strongly_coded",
+        "label": "明显恋爱方向但未确认"
+      },
+      "row_number": 133
+    },
+    {
+      "title": "不良少女",
+      "bangumi_url": "https://bangumi.tv/subject/501614",
+      "year_medium": "2025 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "主线",
+      "queries": [
+        "未确认",
+        "主线",
+        "官方字面",
+        "官方恋爱"
+      ],
+      "male_romance_line": "无",
+      "explicitness": {
+        "code": "potential_or_strongly_coded",
+        "label": "明显恋爱方向但未确认"
+      },
+      "row_number": 134
     },
     {
       "title": "终末的伊泽塔",
@@ -1850,15 +2423,189 @@
       "female_relationship_position": "主线",
       "romance_position": "主线",
       "queries": [
-        "接受未确认",
-        "关系主线"
+        "未确认",
+        "主线"
       ],
       "male_romance_line": "副线",
       "explicitness": {
         "code": "potential_or_strongly_coded",
         "label": "明显恋爱方向但未确认"
       },
-      "row_number": 103
+      "row_number": 135
+    },
+    {
+      "title": "SHOW BY ROCK!!",
+      "bangumi_url": "https://bangumi.tv/subject/112905",
+      "year_medium": "2015 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "重要副线",
+      "queries": [
+        "未确认",
+        "主线",
+        "官方恋爱"
+      ],
+      "male_romance_line": "无",
+      "explicitness": {
+        "code": "potential_or_strongly_coded",
+        "label": "明显恋爱方向但未确认"
+      },
+      "row_number": 136
+    },
+    {
+      "title": "Re:Stage！Dream Days♪",
+      "bangumi_url": "https://bangumi.tv/subject/252321",
+      "year_medium": "2019 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "主线",
+      "queries": [
+        "未确认",
+        "主线",
+        "官方恋爱"
+      ],
+      "male_romance_line": "无",
+      "explicitness": {
+        "code": "potential_or_strongly_coded",
+        "label": "明显恋爱方向但未确认"
+      },
+      "row_number": 137
+    },
+    {
+      "title": "初瓣",
+      "bangumi_url": "https://bangumi.tv/subject/5910",
+      "year_medium": "2007 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "主线",
+      "queries": [
+        "未确认",
+        "主线"
+      ],
+      "male_romance_line": "副线",
+      "explicitness": {
+        "code": "potential_or_strongly_coded",
+        "label": "明显恋爱方向但未确认"
+      },
+      "row_number": 138
+    },
+    {
+      "title": "心跳！光之美少女",
+      "bangumi_url": "https://bangumi.tv/subject/55100",
+      "year_medium": "2013 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "主线",
+      "queries": [
+        "未确认",
+        "主线",
+        "官方恋爱"
+      ],
+      "male_romance_line": "副线",
+      "explicitness": {
+        "code": "potential_or_strongly_coded",
+        "label": "明显恋爱方向但未确认"
+      },
+      "row_number": 139
+    },
+    {
+      "title": "在地下城寻求邂逅是否搞错了什么 外传 剑姬神圣谭",
+      "bangumi_url": "https://bangumi.tv/subject/172155",
+      "year_medium": "2017 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "重要副线",
+      "queries": [
+        "未确认",
+        "主线"
+      ],
+      "male_romance_line": "副线",
+      "explicitness": {
+        "code": "potential_or_strongly_coded",
+        "label": "明显恋爱方向但未确认"
+      },
+      "row_number": 140
+    },
+    {
+      "title": "战国Collection",
+      "bangumi_url": "https://bangumi.tv/subject/33355",
+      "year_medium": "2012 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "重要副线",
+      "queries": [
+        "未确认",
+        "主线",
+        "官方恋爱"
+      ],
+      "male_romance_line": "无",
+      "explicitness": {
+        "code": "potential_or_strongly_coded",
+        "label": "明显恋爱方向但未确认"
+      },
+      "row_number": 141
+    },
+    {
+      "title": "爆裂天使",
+      "bangumi_url": "https://bangumi.tv/subject/4471",
+      "year_medium": "2004 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "主线",
+      "queries": [
+        "未确认",
+        "主线"
+      ],
+      "male_romance_line": "无",
+      "explicitness": {
+        "code": "potential_or_strongly_coded",
+        "label": "明显恋爱方向但未确认"
+      },
+      "row_number": 142
+    },
+    {
+      "title": "群花绽放，彷如修罗",
+      "bangumi_url": "https://bangumi.tv/subject/498934",
+      "year_medium": "2025 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "主线",
+      "queries": [
+        "未确认",
+        "主线"
+      ],
+      "male_romance_line": "副线",
+      "explicitness": {
+        "code": "potential_or_strongly_coded",
+        "label": "明显恋爱方向但未确认"
+      },
+      "row_number": 143
+    },
+    {
+      "title": "战姬绝唱SYMPHOGEAR",
+      "bangumi_url": "https://bangumi.tv/subject/25834",
+      "year_medium": "2012 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "主线",
+      "queries": [
+        "未确认",
+        "主线"
+      ],
+      "male_romance_line": "无",
+      "explicitness": {
+        "code": "potential_or_strongly_coded",
+        "label": "明显恋爱方向但未确认"
+      },
+      "row_number": 144
+    },
+    {
+      "title": "LoveLive! Sunshine!!",
+      "bangumi_url": "https://bangumi.tv/subject/165553",
+      "year_medium": "2016 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "主线",
+      "queries": [
+        "未确认",
+        "主线"
+      ],
+      "male_romance_line": "无",
+      "explicitness": {
+        "code": "potential_or_strongly_coded",
+        "label": "明显恋爱方向但未确认"
+      },
+      "row_number": 145
     },
     {
       "title": "Love Live! Superstar!!",
@@ -1867,15 +2614,51 @@
       "female_relationship_position": "主线",
       "romance_position": "主线",
       "queries": [
-        "接受未确认",
-        "关系主线"
+        "未确认",
+        "主线"
       ],
       "male_romance_line": "无",
       "explicitness": {
         "code": "potential_or_strongly_coded",
         "label": "明显恋爱方向但未确认"
       },
-      "row_number": 104
+      "row_number": 146
+    },
+    {
+      "title": "森田同学很沉默",
+      "bangumi_url": "https://bangumi.tv/subject/16996",
+      "year_medium": "2011 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "局部",
+      "queries": [
+        "未确认",
+        "主线"
+      ],
+      "male_romance_line": "无",
+      "explicitness": {
+        "code": "potential_or_strongly_coded",
+        "label": "明显恋爱方向但未确认"
+      },
+      "row_number": 147
+    },
+    {
+      "title": "犬神同学和猫山同学",
+      "bangumi_url": "https://bangumi.tv/subject/93509",
+      "year_medium": "2014 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "主线",
+      "queries": [
+        "未确认",
+        "主线",
+        "官方字面",
+        "官方恋爱"
+      ],
+      "male_romance_line": "未知",
+      "explicitness": {
+        "code": "potential_or_strongly_coded",
+        "label": "明显恋爱方向但未确认"
+      },
+      "row_number": 148
     },
     {
       "title": "莉可丽丝",
@@ -1884,15 +2667,15 @@
       "female_relationship_position": "主线",
       "romance_position": "主线",
       "queries": [
-        "接受未确认",
-        "关系主线"
+        "未确认",
+        "主线"
       ],
       "male_romance_line": "无",
       "explicitness": {
         "code": "potential_or_strongly_coded",
         "label": "明显恋爱方向但未确认"
       },
-      "row_number": 105
+      "row_number": 149
     },
     {
       "title": "夜晚的水母不会游泳",
@@ -1901,15 +2684,15 @@
       "female_relationship_position": "主线",
       "romance_position": "主线",
       "queries": [
-        "接受未确认",
-        "关系主线"
+        "未确认",
+        "主线"
       ],
       "male_romance_line": "无",
       "explicitness": {
         "code": "potential_or_strongly_coded",
         "label": "明显恋爱方向但未确认"
       },
-      "row_number": 106
+      "row_number": 150
     },
     {
       "title": "白箱",
@@ -1923,7 +2706,7 @@
         "code": "non_romantic",
         "label": "范围内未建立恋爱方向"
       },
-      "row_number": 107
+      "row_number": 151
     },
     {
       "title": "日常",
@@ -1932,14 +2715,14 @@
       "female_relationship_position": "主线",
       "romance_position": "缺席",
       "queries": [
-        "关系主线"
+        "主线"
       ],
       "male_romance_line": "副线",
       "explicitness": {
         "code": "non_romantic",
         "label": "范围内未建立恋爱方向"
       },
-      "row_number": 108
+      "row_number": 152
     },
     {
       "title": "幸运星",
@@ -1948,14 +2731,14 @@
       "female_relationship_position": "主线",
       "romance_position": "缺席",
       "queries": [
-        "关系主线"
+        "主线"
       ],
       "male_romance_line": "副线",
       "explicitness": {
         "code": "non_romantic",
         "label": "范围内未建立恋爱方向"
       },
-      "row_number": 109
+      "row_number": 153
     },
     {
       "title": "轻音少女",
@@ -1964,14 +2747,14 @@
       "female_relationship_position": "主线",
       "romance_position": "缺席",
       "queries": [
-        "关系主线"
+        "主线"
       ],
       "male_romance_line": "副线",
       "explicitness": {
         "code": "non_romantic",
         "label": "范围内未建立恋爱方向"
       },
-      "row_number": 110
+      "row_number": 154
     },
     {
       "title": "百变之星",
@@ -1980,14 +2763,14 @@
       "female_relationship_position": "主线",
       "romance_position": "缺席",
       "queries": [
-        "关系主线"
+        "主线"
       ],
       "male_romance_line": "副线",
       "explicitness": {
         "code": "non_romantic",
         "label": "范围内未建立恋爱方向"
       },
-      "row_number": 111
+      "row_number": 155
     },
     {
       "title": "摇曳露营△",
@@ -1996,14 +2779,14 @@
       "female_relationship_position": "主线",
       "romance_position": "缺席",
       "queries": [
-        "关系主线"
+        "主线"
       ],
       "male_romance_line": "无",
       "explicitness": {
         "code": "non_romantic",
         "label": "范围内未建立恋爱方向"
       },
-      "row_number": 112
+      "row_number": 156
     },
     {
       "title": "比宇宙更远的地方",
@@ -2012,14 +2795,14 @@
       "female_relationship_position": "主线",
       "romance_position": "缺席",
       "queries": [
-        "关系主线"
+        "主线"
       ],
       "male_romance_line": "副线",
       "explicitness": {
         "code": "non_romantic",
         "label": "范围内未建立恋爱方向"
       },
-      "row_number": 113
+      "row_number": 157
     },
     {
       "title": "少女终末旅行",
@@ -2028,14 +2811,14 @@
       "female_relationship_position": "主线",
       "romance_position": "缺席",
       "queries": [
-        "关系主线"
+        "主线"
       ],
       "male_romance_line": "无",
       "explicitness": {
         "code": "non_romantic",
         "label": "范围内未建立恋爱方向"
       },
-      "row_number": 114
+      "row_number": 158
     },
     {
       "title": "电脑线圈",
@@ -2044,14 +2827,14 @@
       "female_relationship_position": "主线",
       "romance_position": "缺席",
       "queries": [
-        "关系主线"
+        "主线"
       ],
       "male_romance_line": "副线",
       "explicitness": {
         "code": "non_romantic",
         "label": "范围内未建立恋爱方向"
       },
-      "row_number": 115
+      "row_number": 159
     },
     {
       "title": "琉璃的宝石",
@@ -2060,14 +2843,14 @@
       "female_relationship_position": "主线",
       "romance_position": "缺席",
       "queries": [
-        "关系主线"
+        "主线"
       ],
       "male_romance_line": "无",
       "explicitness": {
         "code": "non_romantic",
         "label": "范围内未建立恋爱方向"
       },
-      "row_number": 116
+      "row_number": 160
     },
     {
       "title": "妖精森林的小不点",
@@ -2076,14 +2859,14 @@
       "female_relationship_position": "主线",
       "romance_position": "缺席",
       "queries": [
-        "关系主线"
+        "主线"
       ],
       "male_romance_line": "副线",
       "explicitness": {
         "code": "non_romantic",
         "label": "范围内未建立恋爱方向"
       },
-      "row_number": 117
+      "row_number": 161
     },
     {
       "title": "佐贺偶像是传奇",
@@ -2092,14 +2875,14 @@
       "female_relationship_position": "主线",
       "romance_position": "缺席",
       "queries": [
-        "关系主线"
+        "主线"
       ],
       "male_romance_line": "副线",
       "explicitness": {
         "code": "non_romantic",
         "label": "范围内未建立恋爱方向"
       },
-      "row_number": 118
+      "row_number": 162
     },
     {
       "title": "玲音",
@@ -2113,7 +2896,7 @@
         "code": "non_romantic",
         "label": "范围内未建立恋爱方向"
       },
-      "row_number": 119
+      "row_number": 163
     },
     {
       "title": "草莓棉花糖",
@@ -2122,14 +2905,14 @@
       "female_relationship_position": "主线",
       "romance_position": "缺席",
       "queries": [
-        "关系主线"
+        "主线"
       ],
       "male_romance_line": "无",
       "explicitness": {
         "code": "non_romantic",
         "label": "范围内未建立恋爱方向"
       },
-      "row_number": 120
+      "row_number": 164
     },
     {
       "title": "兽娘动物园",
@@ -2138,14 +2921,14 @@
       "female_relationship_position": "主线",
       "romance_position": "缺席",
       "queries": [
-        "关系主线"
+        "主线"
       ],
       "male_romance_line": "无",
       "explicitness": {
         "code": "non_romantic",
         "label": "范围内未建立恋爱方向"
       },
-      "row_number": 121
+      "row_number": 165
     },
     {
       "title": "时光流逝，饭菜依旧美味",
@@ -2154,14 +2937,14 @@
       "female_relationship_position": "主线",
       "romance_position": "缺席",
       "queries": [
-        "关系主线"
+        "主线"
       ],
       "male_romance_line": "无",
       "explicitness": {
         "code": "non_romantic",
         "label": "范围内未建立恋爱方向"
       },
-      "row_number": 122
+      "row_number": 166
     },
     {
       "title": "小魔女学园",
@@ -2170,14 +2953,14 @@
       "female_relationship_position": "主线",
       "romance_position": "缺席",
       "queries": [
-        "关系主线"
+        "主线"
       ],
       "male_romance_line": "副线",
       "explicitness": {
         "code": "non_romantic",
         "label": "范围内未建立恋爱方向"
       },
-      "row_number": 123
+      "row_number": 167
     },
     {
       "title": "少女与战车",
@@ -2186,14 +2969,14 @@
       "female_relationship_position": "主线",
       "romance_position": "缺席",
       "queries": [
-        "关系主线"
+        "主线"
       ],
       "male_romance_line": "无",
       "explicitness": {
         "code": "non_romantic",
         "label": "范围内未建立恋爱方向"
       },
-      "row_number": 124
+      "row_number": 168
     },
     {
       "title": "灰羽联盟",
@@ -2202,30 +2985,14 @@
       "female_relationship_position": "主线",
       "romance_position": "缺席",
       "queries": [
-        "关系主线"
+        "主线"
       ],
       "male_romance_line": "副线",
       "explicitness": {
         "code": "non_romantic",
         "label": "范围内未建立恋爱方向"
       },
-      "row_number": 125
-    },
-    {
-      "title": "食灵-零-",
-      "bangumi_url": "https://bangumi.tv/subject/885",
-      "year_medium": "2008 TV",
-      "female_relationship_position": "主线",
-      "romance_position": "缺席",
-      "queries": [
-        "关系主线"
-      ],
-      "male_romance_line": "副线",
-      "explicitness": {
-        "code": "non_romantic",
-        "label": "范围内未建立恋爱方向"
-      },
-      "row_number": 126
+      "row_number": 169
     },
     {
       "title": "向阳素描",
@@ -2234,14 +3001,14 @@
       "female_relationship_position": "主线",
       "romance_position": "缺席",
       "queries": [
-        "关系主线"
+        "主线"
       ],
       "male_romance_line": "无",
       "explicitness": {
         "code": "non_romantic",
         "label": "范围内未建立恋爱方向"
       },
-      "row_number": 127
+      "row_number": 170
     },
     {
       "title": "歌剧少女!!",
@@ -2250,14 +3017,14 @@
       "female_relationship_position": "主线",
       "romance_position": "缺席",
       "queries": [
-        "关系主线"
+        "主线"
       ],
       "male_romance_line": "副线",
       "explicitness": {
         "code": "non_romantic",
         "label": "范围内未建立恋爱方向"
       },
-      "row_number": 128
+      "row_number": 171
     },
     {
       "title": "花开伊吕波",
@@ -2271,7 +3038,7 @@
         "code": "non_romantic",
         "label": "范围内未建立恋爱方向"
       },
-      "row_number": 129
+      "row_number": 172
     },
     {
       "title": "赛马娘 Pretty Derby 巅峰之路",
@@ -2280,14 +3047,14 @@
       "female_relationship_position": "主线",
       "romance_position": "缺席",
       "queries": [
-        "关系主线"
+        "主线"
       ],
       "male_romance_line": "无",
       "explicitness": {
         "code": "non_romantic",
         "label": "范围内未建立恋爱方向"
       },
-      "row_number": 130
+      "row_number": 173
     },
     {
       "title": "红白黑黄",
@@ -2296,30 +3063,14 @@
       "female_relationship_position": "主线",
       "romance_position": "缺席",
       "queries": [
-        "关系主线"
+        "主线"
       ],
       "male_romance_line": "副线",
       "explicitness": {
         "code": "non_romantic",
         "label": "范围内未建立恋爱方向"
       },
-      "row_number": 131
-    },
-    {
-      "title": "道子与哈金",
-      "bangumi_url": "https://bangumi.tv/subject/919",
-      "year_medium": "2008 TV",
-      "female_relationship_position": "主线",
-      "romance_position": "缺席",
-      "queries": [
-        "关系主线"
-      ],
-      "male_romance_line": "并行",
-      "explicitness": {
-        "code": "non_romantic",
-        "label": "范围内未建立恋爱方向"
-      },
-      "row_number": 132
+      "row_number": 174
     },
     {
       "title": "魔法少女奈叶",
@@ -2328,14 +3079,14 @@
       "female_relationship_position": "主线",
       "romance_position": "缺席",
       "queries": [
-        "关系主线"
+        "主线"
       ],
       "male_romance_line": "副线",
       "explicitness": {
         "code": "non_romantic",
         "label": "范围内未建立恋爱方向"
       },
-      "row_number": 133
+      "row_number": 175
     },
     {
       "title": "大剑",
@@ -2344,14 +3095,14 @@
       "female_relationship_position": "主线",
       "romance_position": "缺席",
       "queries": [
-        "关系主线"
+        "主线"
       ],
       "male_romance_line": "并行",
       "explicitness": {
         "code": "non_romantic",
         "label": "范围内未建立恋爱方向"
       },
-      "row_number": 134
+      "row_number": 176
     },
     {
       "title": "旋转少女",
@@ -2360,14 +3111,14 @@
       "female_relationship_position": "主线",
       "romance_position": "缺席",
       "queries": [
-        "关系主线"
+        "主线"
       ],
       "male_romance_line": "副线",
       "explicitness": {
         "code": "non_romantic",
         "label": "范围内未建立恋爱方向"
       },
-      "row_number": 135
+      "row_number": 177
     },
     {
       "title": "校园乌托邦 学美向前冲！",
@@ -2376,14 +3127,14 @@
       "female_relationship_position": "主线",
       "romance_position": "缺席",
       "queries": [
-        "关系主线"
+        "主线"
       ],
       "male_romance_line": "副线",
       "explicitness": {
         "code": "non_romantic",
         "label": "范围内未建立恋爱方向"
       },
-      "row_number": 136
+      "row_number": 178
     },
     {
       "title": "Smile 光之美少女！",
@@ -2392,14 +3143,14 @@
       "female_relationship_position": "主线",
       "romance_position": "缺席",
       "queries": [
-        "关系主线"
+        "主线"
       ],
       "male_romance_line": "副线",
       "explicitness": {
         "code": "non_romantic",
         "label": "范围内未建立恋爱方向"
       },
-      "row_number": 137
+      "row_number": 179
     },
     {
       "title": "随风舞月影兰",
@@ -2408,14 +3159,14 @@
       "female_relationship_position": "主线",
       "romance_position": "缺席",
       "queries": [
-        "关系主线"
+        "主线"
       ],
       "male_romance_line": "副线",
       "explicitness": {
         "code": "non_romantic",
         "label": "范围内未建立恋爱方向"
       },
-      "row_number": 138
+      "row_number": 180
     },
     {
       "title": "AIURA",
@@ -2424,14 +3175,14 @@
       "female_relationship_position": "主线",
       "romance_position": "缺席",
       "queries": [
-        "关系主线"
+        "主线"
       ],
       "male_romance_line": "无",
       "explicitness": {
         "code": "non_romantic",
         "label": "范围内未建立恋爱方向"
       },
-      "row_number": 139
+      "row_number": 181
     },
     {
       "title": "穷神",
@@ -2440,14 +3191,14 @@
       "female_relationship_position": "主线",
       "romance_position": "缺席",
       "queries": [
-        "关系主线"
+        "主线"
       ],
       "male_romance_line": "副线",
       "explicitness": {
         "code": "non_romantic",
         "label": "范围内未建立恋爱方向"
       },
-      "row_number": 140
+      "row_number": 182
     },
     {
       "title": "恋爱研究所",
@@ -2456,14 +3207,14 @@
       "female_relationship_position": "主线",
       "romance_position": "缺席",
       "queries": [
-        "关系主线"
+        "主线"
       ],
       "male_romance_line": "副线",
       "explicitness": {
         "code": "non_romantic",
         "label": "范围内未建立恋爱方向"
       },
-      "row_number": 141
+      "row_number": 183
     },
     {
       "title": "前桥魔女",
@@ -2472,14 +3223,14 @@
       "female_relationship_position": "主线",
       "romance_position": "缺席",
       "queries": [
-        "关系主线"
+        "主线"
       ],
       "male_romance_line": "无",
       "explicitness": {
         "code": "non_romantic",
         "label": "范围内未建立恋爱方向"
       },
-      "row_number": 142
+      "row_number": 184
     },
     {
       "title": "光之美少女",
@@ -2488,14 +3239,14 @@
       "female_relationship_position": "主线",
       "romance_position": "缺席",
       "queries": [
-        "关系主线"
+        "主线"
       ],
       "male_romance_line": "副线",
       "explicitness": {
         "code": "non_romantic",
         "label": "范围内未建立恋爱方向"
       },
-      "row_number": 143
+      "row_number": 185
     },
     {
       "title": "库拉乌 幻之记忆",
@@ -2504,14 +3255,14 @@
       "female_relationship_position": "主线",
       "romance_position": "缺席",
       "queries": [
-        "关系主线"
+        "主线"
       ],
       "male_romance_line": "副线",
       "explicitness": {
         "code": "non_romantic",
         "label": "范围内未建立恋爱方向"
       },
-      "row_number": 144
+      "row_number": 186
     },
     {
       "title": "向山进发",
@@ -2520,14 +3271,14 @@
       "female_relationship_position": "主线",
       "romance_position": "缺席",
       "queries": [
-        "关系主线"
+        "主线"
       ],
       "male_romance_line": "无",
       "explicitness": {
         "code": "non_romantic",
         "label": "范围内未建立恋爱方向"
       },
-      "row_number": 145
+      "row_number": 187
     },
     {
       "title": "爱杀宝贝",
@@ -2536,14 +3287,14 @@
       "female_relationship_position": "主线",
       "romance_position": "缺席",
       "queries": [
-        "关系主线"
+        "主线"
       ],
       "male_romance_line": "无",
       "explicitness": {
         "code": "non_romantic",
         "label": "范围内未建立恋爱方向"
       },
-      "row_number": 146
+      "row_number": 188
     },
     {
       "title": "我家也有外星人",
@@ -2552,14 +3303,14 @@
       "female_relationship_position": "主线",
       "romance_position": "缺席",
       "queries": [
-        "关系主线"
+        "主线"
       ],
       "male_romance_line": "副线",
       "explicitness": {
         "code": "non_romantic",
         "label": "范围内未建立恋爱方向"
       },
-      "row_number": 147
+      "row_number": 189
     },
     {
       "title": "放学后海堤日记",
@@ -2568,14 +3319,14 @@
       "female_relationship_position": "主线",
       "romance_position": "缺席",
       "queries": [
-        "关系主线"
+        "主线"
       ],
       "male_romance_line": "无",
       "explicitness": {
         "code": "non_romantic",
         "label": "范围内未建立恋爱方向"
       },
-      "row_number": 148
+      "row_number": 190
     },
     {
       "title": "顶点!!!!!!!!!!!!!!!",
@@ -2584,14 +3335,14 @@
       "female_relationship_position": "主线",
       "romance_position": "缺席",
       "queries": [
-        "关系主线"
+        "主线"
       ],
       "male_romance_line": "副线",
       "explicitness": {
         "code": "non_romantic",
         "label": "范围内未建立恋爱方向"
       },
-      "row_number": 149
+      "row_number": 191
     },
     {
       "title": "侦探歌剧 少女福尔摩斯",
@@ -2600,14 +3351,14 @@
       "female_relationship_position": "主线",
       "romance_position": "缺席",
       "queries": [
-        "关系主线"
+        "主线"
       ],
       "male_romance_line": "副线",
       "explicitness": {
         "code": "non_romantic",
         "label": "范围内未建立恋爱方向"
       },
-      "row_number": 150
+      "row_number": 192
     },
     {
       "title": "狂赌之渊",
@@ -2616,14 +3367,14 @@
       "female_relationship_position": "主线",
       "romance_position": "缺席",
       "queries": [
-        "关系主线"
+        "主线"
       ],
       "male_romance_line": "无",
       "explicitness": {
         "code": "non_romantic",
         "label": "范围内未建立恋爱方向"
       },
-      "row_number": 151
+      "row_number": 193
     },
     {
       "title": "+模型姐妹",
@@ -2632,14 +3383,14 @@
       "female_relationship_position": "主线",
       "romance_position": "缺席",
       "queries": [
-        "关系主线"
+        "主线"
       ],
       "male_romance_line": "副线",
       "explicitness": {
         "code": "non_romantic",
         "label": "范围内未建立恋爱方向"
       },
-      "row_number": 152
+      "row_number": 194
     },
     {
       "title": "赛马娘 Pretty Derby",
@@ -2648,14 +3399,14 @@
       "female_relationship_position": "主线",
       "romance_position": "缺席",
       "queries": [
-        "关系主线"
+        "主线"
       ],
       "male_romance_line": "无",
       "explicitness": {
         "code": "non_romantic",
         "label": "范围内未建立恋爱方向"
       },
-      "row_number": 153
+      "row_number": 195
     },
     {
       "title": "放学后的昴星团",
@@ -2664,14 +3415,14 @@
       "female_relationship_position": "主线",
       "romance_position": "缺席",
       "queries": [
-        "关系主线"
+        "主线"
       ],
       "male_romance_line": "并行",
       "explicitness": {
         "code": "non_romantic",
         "label": "范围内未建立恋爱方向"
       },
-      "row_number": 154
+      "row_number": 196
     },
     {
       "title": "无能力者娜娜",
@@ -2680,14 +3431,14 @@
       "female_relationship_position": "主线",
       "romance_position": "缺席",
       "queries": [
-        "关系主线"
+        "主线"
       ],
       "male_romance_line": "副线",
       "explicitness": {
         "code": "non_romantic",
         "label": "范围内未建立恋爱方向"
       },
-      "row_number": 155
+      "row_number": 197
     },
     {
       "title": "高校舰队",
@@ -2696,14 +3447,14 @@
       "female_relationship_position": "主线",
       "romance_position": "缺席",
       "queries": [
-        "关系主线"
+        "主线"
       ],
       "male_romance_line": "无",
       "explicitness": {
         "code": "non_romantic",
         "label": "范围内未建立恋爱方向"
       },
-      "row_number": 156
+      "row_number": 198
     },
     {
       "title": "偶像大师 灰姑娘女孩",
@@ -2712,14 +3463,14 @@
       "female_relationship_position": "主线",
       "romance_position": "缺席",
       "queries": [
-        "关系主线"
+        "主线"
       ],
       "male_romance_line": "无",
       "explicitness": {
         "code": "non_romantic",
         "label": "范围内未建立恋爱方向"
       },
-      "row_number": 157
+      "row_number": 199
     },
     {
       "title": "学园孤岛",
@@ -2728,14 +3479,14 @@
       "female_relationship_position": "主线",
       "romance_position": "缺席",
       "queries": [
-        "关系主线"
+        "主线"
       ],
       "male_romance_line": "副线",
       "explicitness": {
         "code": "non_romantic",
         "label": "范围内未建立恋爱方向"
       },
-      "row_number": 158
+      "row_number": 200
     },
     {
       "title": "甜心格格",
@@ -2749,7 +3500,87 @@
         "code": "non_romantic",
         "label": "范围内未建立恋爱方向"
       },
-      "row_number": 159
+      "row_number": 201
+    },
+    {
+      "title": "Fate/kaleid liner 魔法少女☆伊莉雅",
+      "bangumi_url": "https://bangumi.tv/subject/43951",
+      "year_medium": "2013 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "缺席",
+      "queries": [
+        "主线"
+      ],
+      "male_romance_line": "副线",
+      "explicitness": {
+        "code": "non_romantic",
+        "label": "范围内未建立恋爱方向"
+      },
+      "row_number": 202
+    },
+    {
+      "title": "千绪的通学路",
+      "bangumi_url": "https://bangumi.tv/subject/218226",
+      "year_medium": "2018 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "缺席",
+      "queries": [
+        "主线"
+      ],
+      "male_romance_line": "副线",
+      "explicitness": {
+        "code": "non_romantic",
+        "label": "范围内未建立恋爱方向"
+      },
+      "row_number": 203
+    },
+    {
+      "title": "Suite 光之美少女♪",
+      "bangumi_url": "https://bangumi.tv/subject/11779",
+      "year_medium": "2011 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "缺席",
+      "queries": [
+        "主线"
+      ],
+      "male_romance_line": "副线",
+      "explicitness": {
+        "code": "non_romantic",
+        "label": "范围内未建立恋爱方向"
+      },
+      "row_number": 204
+    },
+    {
+      "title": "樱花任务",
+      "bangumi_url": "https://bangumi.tv/subject/200547",
+      "year_medium": "2017 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "缺席",
+      "queries": [
+        "主线"
+      ],
+      "male_romance_line": "无",
+      "explicitness": {
+        "code": "non_romantic",
+        "label": "范围内未建立恋爱方向"
+      },
+      "row_number": 205
+    },
+    {
+      "title": "影宅",
+      "bangumi_url": "https://bangumi.tv/subject/316957",
+      "year_medium": "2021 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "缺席",
+      "queries": [
+        "主线"
+      ],
+      "male_romance_line": "副线",
+      "explicitness": {
+        "code": "non_romantic",
+        "label": "范围内未建立恋爱方向"
+      },
+      "row_number": 206
     },
     {
       "title": "演剧星世界",
@@ -2758,14 +3589,78 @@
       "female_relationship_position": "主线",
       "romance_position": "缺席",
       "queries": [
-        "关系主线"
+        "主线"
       ],
       "male_romance_line": "无",
       "explicitness": {
         "code": "non_romantic",
         "label": "范围内未建立恋爱方向"
       },
-      "row_number": 160
+      "row_number": 207
+    },
+    {
+      "title": "网球并不可笑嘛",
+      "bangumi_url": "https://bangumi.tv/subject/46832",
+      "year_medium": "2012 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "缺席",
+      "queries": [
+        "主线"
+      ],
+      "male_romance_line": "无",
+      "explicitness": {
+        "code": "non_romantic",
+        "label": "范围内未建立恋爱方向"
+      },
+      "row_number": 208
+    },
+    {
+      "title": "宝石幻想：光芒重现",
+      "bangumi_url": "https://bangumi.tv/subject/241185",
+      "year_medium": "2020 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "缺席",
+      "queries": [
+        "主线"
+      ],
+      "male_romance_line": "无",
+      "explicitness": {
+        "code": "non_romantic",
+        "label": "范围内未建立恋爱方向"
+      },
+      "row_number": 209
+    },
+    {
+      "title": "蓝海少女",
+      "bangumi_url": "https://bangumi.tv/subject/148142",
+      "year_medium": "2016 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "缺席",
+      "queries": [
+        "主线"
+      ],
+      "male_romance_line": "无",
+      "explicitness": {
+        "code": "non_romantic",
+        "label": "范围内未建立恋爱方向"
+      },
+      "row_number": 210
+    },
+    {
+      "title": "流汗吧！健身少女",
+      "bangumi_url": "https://bangumi.tv/subject/271724",
+      "year_medium": "2019 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "缺席",
+      "queries": [
+        "主线"
+      ],
+      "male_romance_line": "副线",
+      "explicitness": {
+        "code": "non_romantic",
+        "label": "范围内未建立恋爱方向"
+      },
+      "row_number": 211
     },
     {
       "title": "一杆青空",
@@ -2774,14 +3669,254 @@
       "female_relationship_position": "主线",
       "romance_position": "缺席",
       "queries": [
-        "关系主线"
+        "主线"
       ],
       "male_romance_line": "无",
       "explicitness": {
         "code": "non_romantic",
         "label": "范围内未建立恋爱方向"
       },
-      "row_number": 161
+      "row_number": 212
+    },
+    {
+      "title": "三者三叶",
+      "bangumi_url": "https://bangumi.tv/subject/145908",
+      "year_medium": "2016 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "缺席",
+      "queries": [
+        "主线"
+      ],
+      "male_romance_line": "无",
+      "explicitness": {
+        "code": "non_romantic",
+        "label": "范围内未建立恋爱方向"
+      },
+      "row_number": 213
+    },
+    {
+      "title": "普通女高中生要做当地偶像",
+      "bangumi_url": "https://bangumi.tv/subject/94236",
+      "year_medium": "2014 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "缺席",
+      "queries": [
+        "主线"
+      ],
+      "male_romance_line": "无",
+      "explicitness": {
+        "code": "non_romantic",
+        "label": "范围内未建立恋爱方向"
+      },
+      "row_number": 214
+    },
+    {
+      "title": "看得见的女孩",
+      "bangumi_url": "https://bangumi.tv/subject/330973",
+      "year_medium": "2021 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "缺席",
+      "queries": [
+        "主线"
+      ],
+      "male_romance_line": "无",
+      "explicitness": {
+        "code": "non_romantic",
+        "label": "范围内未建立恋爱方向"
+      },
+      "row_number": 215
+    },
+    {
+      "title": "空之音",
+      "bangumi_url": "https://bangumi.tv/subject/3477",
+      "year_medium": "2010 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "缺席",
+      "queries": [
+        "主线"
+      ],
+      "male_romance_line": "副线",
+      "explicitness": {
+        "code": "non_romantic",
+        "label": "范围内未建立恋爱方向"
+      },
+      "row_number": 216
+    },
+    {
+      "title": "Wake Up, Girls!",
+      "bangumi_url": "https://bangumi.tv/subject/48880",
+      "year_medium": "2014 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "缺席",
+      "queries": [
+        "主线"
+      ],
+      "male_romance_line": "无",
+      "explicitness": {
+        "code": "non_romantic",
+        "label": "范围内未建立恋爱方向"
+      },
+      "row_number": 217
+    },
+    {
+      "title": "江户前精灵",
+      "bangumi_url": "https://bangumi.tv/subject/387803",
+      "year_medium": "2023 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "缺席",
+      "queries": [
+        "主线"
+      ],
+      "male_romance_line": "无",
+      "explicitness": {
+        "code": "non_romantic",
+        "label": "范围内未建立恋爱方向"
+      },
+      "row_number": 218
+    },
+    {
+      "title": "联盟空军航空魔法音乐队 光辉魔女",
+      "bangumi_url": "https://bangumi.tv/subject/253047",
+      "year_medium": "2022 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "缺席",
+      "queries": [
+        "主线"
+      ],
+      "male_romance_line": "无",
+      "explicitness": {
+        "code": "non_romantic",
+        "label": "范围内未建立恋爱方向"
+      },
+      "row_number": 219
+    },
+    {
+      "title": "CAROLE & TUESDAY",
+      "bangumi_url": "https://bangumi.tv/subject/239912",
+      "year_medium": "2019 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "缺席",
+      "queries": [
+        "主线"
+      ],
+      "male_romance_line": "无",
+      "explicitness": {
+        "code": "non_romantic",
+        "label": "范围内未建立恋爱方向"
+      },
+      "row_number": 220
+    },
+    {
+      "title": "骇客娃娃",
+      "bangumi_url": "https://bangumi.tv/subject/132754",
+      "year_medium": "2015 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "缺席",
+      "queries": [
+        "主线"
+      ],
+      "male_romance_line": "副线",
+      "explicitness": {
+        "code": "non_romantic",
+        "label": "范围内未建立恋爱方向"
+      },
+      "row_number": 221
+    },
+    {
+      "title": "若叶女孩",
+      "bangumi_url": "https://bangumi.tv/subject/128635",
+      "year_medium": "2015 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "缺席",
+      "queries": [
+        "主线"
+      ],
+      "male_romance_line": "副线",
+      "explicitness": {
+        "code": "non_romantic",
+        "label": "范围内未建立恋爱方向"
+      },
+      "row_number": 222
+    },
+    {
+      "title": "D4DJ First Mix",
+      "bangumi_url": "https://bangumi.tv/subject/299372",
+      "year_medium": "2020 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "缺席",
+      "queries": [
+        "主线"
+      ],
+      "male_romance_line": "无",
+      "explicitness": {
+        "code": "non_romantic",
+        "label": "范围内未建立恋爱方向"
+      },
+      "row_number": 223
+    },
+    {
+      "title": "天翔少女",
+      "bangumi_url": "https://bangumi.tv/subject/2170",
+      "year_medium": "2007 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "缺席",
+      "queries": [
+        "主线"
+      ],
+      "male_romance_line": "未知",
+      "explicitness": {
+        "code": "non_romantic",
+        "label": "范围内未建立恋爱方向"
+      },
+      "row_number": 224
+    },
+    {
+      "title": "选择感染者WIXOSS",
+      "bangumi_url": "https://bangumi.tv/subject/95095",
+      "year_medium": "2014 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "缺席",
+      "queries": [
+        "主线"
+      ],
+      "male_romance_line": "副线",
+      "explicitness": {
+        "code": "non_romantic",
+        "label": "范围内未建立恋爱方向"
+      },
+      "row_number": 225
+    },
+    {
+      "title": "动作女主 水果应援团",
+      "bangumi_url": "https://bangumi.tv/subject/204483",
+      "year_medium": "2017 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "缺席",
+      "queries": [
+        "主线"
+      ],
+      "male_romance_line": "无",
+      "explicitness": {
+        "code": "non_romantic",
+        "label": "范围内未建立恋爱方向"
+      },
+      "row_number": 226
+    },
+    {
+      "title": "超次元游戏 海王星",
+      "bangumi_url": "https://bangumi.tv/subject/47957",
+      "year_medium": "2013 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "缺席",
+      "queries": [
+        "主线"
+      ],
+      "male_romance_line": "无",
+      "explicitness": {
+        "code": "non_romantic",
+        "label": "范围内未建立恋爱方向"
+      },
+      "row_number": 227
     },
     {
       "title": "一个人的○○小日子",
@@ -2790,14 +3925,62 @@
       "female_relationship_position": "主线",
       "romance_position": "缺席",
       "queries": [
-        "关系主线"
+        "主线"
       ],
       "male_romance_line": "无",
       "explicitness": {
         "code": "non_romantic",
         "label": "范围内未建立恋爱方向"
       },
-      "row_number": 162
+      "row_number": 228
+    },
+    {
+      "title": "NULL & PETA",
+      "bangumi_url": "https://bangumi.tv/subject/289145",
+      "year_medium": "2019 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "缺席",
+      "queries": [
+        "主线"
+      ],
+      "male_romance_line": "无",
+      "explicitness": {
+        "code": "non_romantic",
+        "label": "范围内未建立恋爱方向"
+      },
+      "row_number": 229
+    },
+    {
+      "title": "虎子",
+      "bangumi_url": "https://bangumi.tv/subject/2942",
+      "year_medium": "2008 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "缺席",
+      "queries": [
+        "主线"
+      ],
+      "male_romance_line": "副线",
+      "explicitness": {
+        "code": "non_romantic",
+        "label": "范围内未建立恋爱方向"
+      },
+      "row_number": 230
+    },
+    {
+      "title": "白沙的水族馆",
+      "bangumi_url": "https://bangumi.tv/subject/325281",
+      "year_medium": "2021 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "缺席",
+      "queries": [
+        "主线"
+      ],
+      "male_romance_line": "无",
+      "explicitness": {
+        "code": "non_romantic",
+        "label": "范围内未建立恋爱方向"
+      },
+      "row_number": 231
     },
     {
       "title": "末日列车去哪里？",
@@ -2806,14 +3989,333 @@
       "female_relationship_position": "主线",
       "romance_position": "缺席",
       "queries": [
-        "关系主线"
+        "主线"
       ],
       "male_romance_line": "无",
       "explicitness": {
         "code": "non_romantic",
         "label": "范围内未建立恋爱方向"
       },
-      "row_number": 163
+      "row_number": 232
+    },
+    {
+      "title": "天体的秩序",
+      "bangumi_url": "https://bangumi.tv/subject/100040",
+      "year_medium": "2014 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "缺席",
+      "queries": [
+        "主线"
+      ],
+      "male_romance_line": "无",
+      "explicitness": {
+        "code": "non_romantic",
+        "label": "范围内未建立恋爱方向"
+      },
+      "row_number": 233
+    },
+    {
+      "title": "夏色奇迹",
+      "bangumi_url": "https://bangumi.tv/subject/26825",
+      "year_medium": "2012 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "缺席",
+      "queries": [
+        "主线"
+      ],
+      "male_romance_line": "副线",
+      "explicitness": {
+        "code": "non_romantic",
+        "label": "范围内未建立恋爱方向"
+      },
+      "row_number": 234
+    },
+    {
+      "title": "女子高中生",
+      "bangumi_url": "https://bangumi.tv/subject/5881",
+      "year_medium": "2006 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "缺席",
+      "queries": [
+        "主线"
+      ],
+      "male_romance_line": "副线",
+      "explicitness": {
+        "code": "non_romantic",
+        "label": "范围内未建立恋爱方向"
+      },
+      "row_number": 235
+    },
+    {
+      "title": "你遭难了吗？",
+      "bangumi_url": "https://bangumi.tv/subject/276187",
+      "year_medium": "2019 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "缺席",
+      "queries": [
+        "主线"
+      ],
+      "male_romance_line": "无",
+      "explicitness": {
+        "code": "non_romantic",
+        "label": "范围内未建立恋爱方向"
+      },
+      "row_number": 236
+    },
+    {
+      "title": "伯纳德小姐说。",
+      "bangumi_url": "https://bangumi.tv/subject/185420",
+      "year_medium": "2016 TV",
+      "female_relationship_position": "重要副线",
+      "romance_position": "缺席",
+      "queries": [],
+      "male_romance_line": "副线",
+      "explicitness": {
+        "code": "non_romantic",
+        "label": "范围内未建立恋爱方向"
+      },
+      "row_number": 237
+    },
+    {
+      "title": "长骑美眉",
+      "bangumi_url": "https://bangumi.tv/subject/131800",
+      "year_medium": "2016 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "缺席",
+      "queries": [
+        "主线"
+      ],
+      "male_romance_line": "无",
+      "explicitness": {
+        "code": "non_romantic",
+        "label": "范围内未建立恋爱方向"
+      },
+      "row_number": 238
+    },
+    {
+      "title": "斯特拉的魔法",
+      "bangumi_url": "https://bangumi.tv/subject/165972",
+      "year_medium": "2016 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "缺席",
+      "queries": [
+        "主线"
+      ],
+      "male_romance_line": "无",
+      "explicitness": {
+        "code": "non_romantic",
+        "label": "范围内未建立恋爱方向"
+      },
+      "row_number": 239
+    },
+    {
+      "title": "地下城里的人们",
+      "bangumi_url": "https://bangumi.tv/subject/450586",
+      "year_medium": "2024 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "缺席",
+      "queries": [
+        "主线"
+      ],
+      "male_romance_line": "无",
+      "explicitness": {
+        "code": "non_romantic",
+        "label": "范围内未建立恋爱方向"
+      },
+      "row_number": 240
+    },
+    {
+      "title": "贫穷姐妹物语",
+      "bangumi_url": "https://bangumi.tv/subject/7397",
+      "year_medium": "2006 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "缺席",
+      "queries": [
+        "主线"
+      ],
+      "male_romance_line": "无",
+      "explicitness": {
+        "code": "non_romantic",
+        "label": "范围内未建立恋爱方向"
+      },
+      "row_number": 241
+    },
+    {
+      "title": "魔法纪录 魔法少女小圆外传",
+      "bangumi_url": "https://bangumi.tv/subject/159690",
+      "year_medium": "2020 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "缺席",
+      "queries": [
+        "主线"
+      ],
+      "male_romance_line": "无",
+      "explicitness": {
+        "code": "non_romantic",
+        "label": "范围内未建立恋爱方向"
+      },
+      "row_number": 242
+    },
+    {
+      "title": "4个人各自有着自己的秘密",
+      "bangumi_url": "https://bangumi.tv/subject/376565",
+      "year_medium": "2022 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "缺席",
+      "queries": [
+        "主线",
+        "官方恋爱"
+      ],
+      "male_romance_line": "无",
+      "explicitness": {
+        "code": "non_romantic",
+        "label": "范围内未建立恋爱方向"
+      },
+      "row_number": 243
+    },
+    {
+      "title": "灼热乒乓妹",
+      "bangumi_url": "https://bangumi.tv/subject/175536",
+      "year_medium": "2016 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "缺席",
+      "queries": [
+        "主线"
+      ],
+      "male_romance_line": "无",
+      "explicitness": {
+        "code": "non_romantic",
+        "label": "范围内未建立恋爱方向"
+      },
+      "row_number": 244
+    },
+    {
+      "title": "裤袜视界",
+      "bangumi_url": "https://bangumi.tv/subject/270294",
+      "year_medium": "2019 WEB",
+      "female_relationship_position": "主线",
+      "romance_position": "缺席",
+      "queries": [
+        "主线"
+      ],
+      "male_romance_line": "无",
+      "explicitness": {
+        "code": "non_romantic",
+        "label": "范围内未建立恋爱方向"
+      },
+      "row_number": 245
+    },
+    {
+      "title": "本田小狼与我",
+      "bangumi_url": "https://bangumi.tv/subject/294337",
+      "year_medium": "2021 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "缺席",
+      "queries": [
+        "主线"
+      ],
+      "male_romance_line": "无",
+      "explicitness": {
+        "code": "non_romantic",
+        "label": "范围内未建立恋爱方向"
+      },
+      "row_number": 246
+    },
+    {
+      "title": "放学后的昴星团 网络放送版",
+      "bangumi_url": "https://bangumi.tv/subject/9820",
+      "year_medium": "2011 WEB",
+      "female_relationship_position": "主线",
+      "romance_position": "缺席",
+      "queries": [
+        "主线"
+      ],
+      "male_romance_line": "无",
+      "explicitness": {
+        "code": "non_romantic",
+        "label": "范围内未建立恋爱方向"
+      },
+      "row_number": 247
+    },
+    {
+      "title": "轮回的拉格朗日",
+      "bangumi_url": "https://bangumi.tv/subject/21900",
+      "year_medium": "2012 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "缺席",
+      "queries": [
+        "主线"
+      ],
+      "male_romance_line": "无",
+      "explicitness": {
+        "code": "non_romantic",
+        "label": "范围内未建立恋爱方向"
+      },
+      "row_number": 248
+    },
+    {
+      "title": "诗片",
+      "bangumi_url": "https://bangumi.tv/subject/1989",
+      "year_medium": "2004 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "缺席",
+      "queries": [
+        "主线"
+      ],
+      "male_romance_line": "副线",
+      "explicitness": {
+        "code": "non_romantic",
+        "label": "范围内未建立恋爱方向"
+      },
+      "row_number": 249
+    },
+    {
+      "title": "不受欢迎之家",
+      "bangumi_url": "https://bangumi.tv/subject/228898",
+      "year_medium": "2018 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "缺席",
+      "queries": [
+        "主线"
+      ],
+      "male_romance_line": "无",
+      "explicitness": {
+        "code": "non_romantic",
+        "label": "范围内未建立恋爱方向"
+      },
+      "row_number": 250
+    },
+    {
+      "title": "桃华月惮",
+      "bangumi_url": "https://bangumi.tv/subject/809",
+      "year_medium": "2007 TV",
+      "female_relationship_position": "局部",
+      "romance_position": "缺席",
+      "queries": [
+        "官方恋爱"
+      ],
+      "male_romance_line": "未知",
+      "explicitness": {
+        "code": "non_romantic",
+        "label": "范围内未建立恋爱方向"
+      },
+      "row_number": 251
+    },
+    {
+      "title": "机甲少女 FRAME ARMS GIRL",
+      "bangumi_url": "https://bangumi.tv/subject/198961",
+      "year_medium": "2017 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "缺席",
+      "queries": [
+        "主线"
+      ],
+      "male_romance_line": "无",
+      "explicitness": {
+        "code": "non_romantic",
+        "label": "范围内未建立恋爱方向"
+      },
+      "row_number": 252
     }
   ]
 }

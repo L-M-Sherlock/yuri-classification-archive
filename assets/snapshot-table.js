@@ -78,7 +78,7 @@
       pagination: true,
       paginationMode: "local",
       paginationSize: 25,
-      paginationSizeSelector: [25, 50, 100, 163],
+      paginationSizeSelector: [25, 50, 100, total],
       columns: [
         {
           title: "作品",
