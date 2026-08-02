@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-08-01T07:13:31+00:00",
+  "generated_at": "2026-08-02T16:04:25+00:00",
   "site_url": "https://l-m-sherlock.github.io/yuri-classification-archive",
   "item_count": 252,
   "query_semantics": {
@@ -18656,8 +18656,8 @@
         "label": "作品分类"
       },
       "romance_centrality": {
-        "code": "local",
-        "label": "局部"
+        "code": "important_secondary",
+        "label": "重要副线"
       },
       "highest_romance_explicitness": {
         "code": "explicit_desire",
@@ -18705,10 +18705,10 @@
         "virtual_gun_combat_and_repeated_simulated_deaths",
         "threats_of_real_world_self_harm_and_suicide_ideation",
         "stalking_restraint_coercion_and_intimate_partner_violence_discussed_in_episode_12",
-        "nonconsensual_or_ambiguous_consent_kissing_and_sexualised_teasing",
+        "sexualised_teasing_and_ambiguous_intimate_boundaries",
         "emotional_manipulation_and_extreme_competitive_violence"
       ],
-      "content_warnings_text": "virtual_gun_combat_and_repeated_simulated_deaths；threats_of_real_world_self_harm_and_suicide_ideation；stalking_restraint_coercion_and_intimate_partner_violence_discussed_in_episode_12；nonconsensual_or_ambiguous_consent_kissing_and_sexualised_teasing；emotional_manipulation_and_extreme_competitive_violence",
+      "content_warnings_text": "virtual_gun_combat_and_repeated_simulated_deaths；threats_of_real_world_self_harm_and_suicide_ideation；stalking_restraint_coercion_and_intimate_partner_violence_discussed_in_episode_12；sexualised_teasing_and_ambiguous_intimate_boundaries；emotional_manipulation_and_extreme_competitive_violence",
       "quick_queries": {
         "explicit_relationship": false,
         "explicit_desire": true,
@@ -18870,8 +18870,8 @@
         "label": "只有关系推断"
       },
       "male_romance_line": {
-        "code": "none",
-        "label": "无"
+        "code": "unknown",
+        "label": "未知"
       },
       "confidence": {
         "code": "medium",
@@ -19004,12 +19004,12 @@
         "label": "作品分类"
       },
       "romance_centrality": {
-        "code": "absent",
-        "label": "缺席"
+        "code": "unknown",
+        "label": "未知"
       },
       "highest_romance_explicitness": {
-        "code": "non_romantic",
-        "label": "非恋爱"
+        "code": "unknown",
+        "label": "未知"
       },
       "official_literal_yuri_gl": {
         "code": "reviewed_no_match",
@@ -19037,8 +19037,8 @@
         "label": "范围内无依据"
       },
       "male_romance_line": {
-        "code": "none",
-        "label": "无"
+        "code": "unknown",
+        "label": "未知"
       },
       "confidence": {
         "code": "medium",
@@ -19172,12 +19172,12 @@
         "label": "作品分类"
       },
       "romance_centrality": {
-        "code": "absent",
-        "label": "缺席"
+        "code": "unknown",
+        "label": "未知"
       },
       "highest_romance_explicitness": {
-        "code": "non_romantic",
-        "label": "非恋爱"
+        "code": "unknown",
+        "label": "未知"
       },
       "official_literal_yuri_gl": {
         "code": "reviewed_no_match",
@@ -19213,8 +19213,8 @@
         "label": "范围内无依据"
       },
       "male_romance_line": {
-        "code": "none",
-        "label": "无"
+        "code": "unknown",
+        "label": "未知"
       },
       "confidence": {
         "code": "medium",
@@ -19262,12 +19262,12 @@
         "label": "作品分类"
       },
       "romance_centrality": {
-        "code": "absent",
-        "label": "缺席"
+        "code": "unknown",
+        "label": "未知"
       },
       "highest_romance_explicitness": {
-        "code": "non_romantic",
-        "label": "非恋爱"
+        "code": "unknown",
+        "label": "未知"
       },
       "official_literal_yuri_gl": {
         "code": "reviewed_no_match",
@@ -19303,8 +19303,8 @@
         "label": "范围内无依据"
       },
       "male_romance_line": {
-        "code": "secondary",
-        "label": "副线"
+        "code": "unknown",
+        "label": "未知"
       },
       "confidence": {
         "code": "medium",
@@ -19402,8 +19402,8 @@
         "label": "未知"
       },
       "confidence": {
-        "code": "high",
-        "label": "高"
+        "code": "medium",
+        "label": "中"
       },
       "classification_date": "2026-08-01",
       "content_warnings": [
@@ -19436,7 +19436,7 @@
         "code": "tv_anime",
         "label": "TV 动画"
       },
-      "scope_summary": "2014 年 10 月 4 日至 2015 年 3 月 28 日播出的电视动画《クロスアンジュ 天使と竜の輪舞》正篇第 1–25 话；制作委员会 TV 官网首页、角色页与逐话梗概，以及 Sunrise World 的作品页；它们只用于版本边界、官方表述和剧情骨架；覆盖第 1–25 话的第三方日文定时字幕、同期集评与四个数据库的公开字段；字幕用于台词定位，集评只用于交叉核对画面动作",
+      "scope_summary": "2014 年 10 月 4 日至 2015 年 3 月 28 日播出的电视动画《クロスアンジュ 天使と竜の輪舞》正篇第 1–25 话；制作委员会 TV 官网首页、角色页与逐话梗概，以及 Sunrise World 的作品页；它们只用于版本边界、官方表述和剧情骨架；覆盖第 1–25 话的第三方日文定时字幕与四个数据库的公开字段；字幕用于台词定位，不用于推断无台词的画面动作、触碰或镜头安排",
       "female_relationship_centrality": {
         "code": "main",
         "label": "主线"
@@ -19495,12 +19495,12 @@
         "systemic_discrimination_and_dehumanization",
         "military_conscription_war_mecha_combat_and_character_deaths",
         "bullying_harassment_and_public_humiliation",
-        "sexualized_dialogue_nudity_and_nonconsensual_or_boundary_ambiguous_contact",
+        "sexualized_dialogue_and_power_imbalance_or_body_boundary_context",
         "coercive_marriage_or_pursuit_by_male_antagonist",
         "imprisonment_physical_violence_torture_and_execution_threats",
         "grief_loss_and_family_rejection"
       ],
-      "content_warnings_text": "systemic_discrimination_and_dehumanization；military_conscription_war_mecha_combat_and_character_deaths；bullying_harassment_and_public_humiliation；sexualized_dialogue_nudity_and_nonconsensual_or_boundary_ambiguous_contact；coercive_marriage_or_pursuit_by_male_antagonist；imprisonment_physical_violence_torture_and_execution_threats；grief_loss_and_family_rejection",
+      "content_warnings_text": "systemic_discrimination_and_dehumanization；military_conscription_war_mecha_combat_and_character_deaths；bullying_harassment_and_public_humiliation；sexualized_dialogue_and_power_imbalance_or_body_boundary_context；coercive_marriage_or_pursuit_by_male_antagonist；imprisonment_physical_violence_torture_and_execution_threats；grief_loss_and_family_rejection",
       "quick_queries": {
         "explicit_relationship": false,
         "explicit_desire": true,
@@ -19535,8 +19535,8 @@
         "label": "作品分类"
       },
       "romance_centrality": {
-        "code": "absent",
-        "label": "缺席"
+        "code": "unknown",
+        "label": "未知"
       },
       "highest_romance_explicitness": {
         "code": "non_romantic",
@@ -19618,20 +19618,20 @@
       },
       "scope_summary": "the 2007 television anime formal episodes 1–26",
       "female_relationship_centrality": {
-        "code": "local",
-        "label": "局部"
+        "code": "unknown",
+        "label": "未知"
       },
       "archive_basis": {
-        "code": "reader_interpretation",
-        "label": "读者解读"
+        "code": "insufficient_evidence",
+        "label": "证据不足"
       },
       "romance_centrality": {
-        "code": "absent",
-        "label": "缺席"
+        "code": "unknown",
+        "label": "未知"
       },
       "highest_romance_explicitness": {
-        "code": "non_romantic",
-        "label": "非恋爱"
+        "code": "unknown",
+        "label": "未知"
       },
       "official_literal_yuri_gl": {
         "code": "reviewed_no_match",
@@ -19706,7 +19706,7 @@
         "code": "tv_anime",
         "label": "TV 动画"
       },
-      "scope_summary": "2017 年 4 月 3 日至 6 月 19 日播出的 TV 动画《フレームアームズ・ガール》正篇第 1–12 话；TV 官网的 Introduction、角色入口和逐话故事页；仅用来核对版本范围、制作方实际表述与剧情骨架；制作方为 TV 动画发布的新闻稿；仅用来核对作品设定和公开营销措辞；四个数据库的当前公开字段；只用来记录各站的分类入口与社区标签状态",
+      "scope_summary": "2017 年 4 月 3 日至 6 月 19 日播出的 TV 动画《フレームアームズ・ガール》正篇第 1–12 话；TV 官网的 Introduction、角色入口和逐话故事页；仅用来核对版本范围、制作方实际表述与剧情骨架；制作方为 TV 动画发布的新闻稿；仅用来核对作品设定和公开营销措辞；四个数据库的当前公开字段；只用来记录各站的分类入口与社区标签状态；SubtitleCat 列出的 [Drag] BD 1080p x264 10-bit FLAC 字幕第 1–12 话；英文与日语罗马字对照文本仅用于核对有对白的关系表述和时间码，不替代日文原文、画面、镜头或无对白动作",
       "female_relationship_centrality": {
         "code": "main",
         "label": "主线"
@@ -19716,12 +19716,12 @@
         "label": "读者解读"
       },
       "romance_centrality": {
-        "code": "absent",
-        "label": "缺席"
+        "code": "important_secondary",
+        "label": "重要副线"
       },
       "highest_romance_explicitness": {
-        "code": "non_romantic",
-        "label": "非恋爱"
+        "code": "potential_or_strongly_coded",
+        "label": "潜在／明显但未确认"
       },
       "official_literal_yuri_gl": {
         "code": "reviewed_no_match",
@@ -19753,8 +19753,8 @@
         "label": "范围内无依据"
       },
       "male_romance_line": {
-        "code": "none",
-        "label": "无"
+        "code": "unknown",
+        "label": "未知"
       },
       "confidence": {
         "code": "high",
@@ -19772,7 +19772,7 @@
       "quick_queries": {
         "explicit_relationship": false,
         "explicit_desire": false,
-        "accepts_unconfirmed": false,
+        "accepts_unconfirmed": true,
         "female_relationship_main": true,
         "official_literal_yuri_gl": false,
         "official_female_romance_wording": false
