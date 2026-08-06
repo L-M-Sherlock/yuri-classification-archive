@@ -10,6 +10,7 @@ const YuriCatalogFilterLogic = (() => {
     "official_female_romance_wording",
     "male_romance_line",
     "confidence",
+    "bangumi_entry_status",
   ];
   const multiFields = {
     official_source_scopes: "official_scope",
@@ -131,6 +132,14 @@ const YuriCatalogFilterLogic = (() => {
     return true;
   }
 
+  function bangumiMetricValue(item, value) {
+    if (typeof value === "number") return value;
+    const status = item?.bangumi_entry_status;
+    if (status?.code === "no_exact_entry") return "无精确条目";
+    if (status?.code === "unknown") return "未核实";
+    return "字段缺失";
+  }
+
   return Object.freeze({
     scalarFields,
     multiFields,
@@ -138,6 +147,7 @@ const YuriCatalogFilterLogic = (() => {
     parseState,
     serializeState,
     matchesItem,
+    bangumiMetricValue,
   });
 })();
 
@@ -168,6 +178,7 @@ if (typeof globalThis !== "undefined") {
     official_female_romance_wording: document.getElementById("official-romance-filter"),
     male_romance_line: document.getElementById("male-filter"),
     confidence: document.getElementById("confidence-filter"),
+    bangumi_entry_status: document.getElementById("bangumi-status-filter"),
   };
   const multiFilterElements = {
     official_source_scopes: document.getElementById("official-scope-filter"),
@@ -339,7 +350,24 @@ if (typeof globalThis !== "undefined") {
 
   function ratioFormatter(cell) {
     const value = cell.getValue();
-    return typeof value === "number" ? `${(value * 100).toFixed(2)}%` : "—";
+    return typeof value === "number"
+      ? `${(value * 100).toFixed(2)}%`
+      : bangumiMetricFallback(cell.getRow().getData());
+  }
+
+  function bangumiMetricFallback(item) {
+    return YuriCatalogFilterLogic.bangumiMetricValue(item, null);
+  }
+
+  function bangumiRankFormatter(cell) {
+    const value = cell.getValue();
+    return typeof value === "number"
+      ? value
+      : bangumiMetricFallback(cell.getRow().getData());
+  }
+
+  function bangumiMetricDownload(value, item) {
+    return YuriCatalogFilterLogic.bangumiMetricValue(item, value);
   }
 
   try {
@@ -490,10 +518,19 @@ if (typeof globalThis !== "undefined") {
           accessorDownload: (value) => value.label,
         },
         {
+          title: "Bangumi 条目状态",
+          field: "bangumi_entry_status",
+          formatter: labelFormatter,
+          width: 132,
+          accessorDownload: (value) => value.label,
+        },
+        {
           title: "Bangumi Rank",
           field: "bangumi_rank",
+          formatter: bangumiRankFormatter,
           sorter: (a, b) => (a ?? Number.MAX_SAFE_INTEGER) - (b ?? Number.MAX_SAFE_INTEGER),
           width: 118,
+          accessorDownload: bangumiMetricDownload,
         },
         {
           title: "百合标签比例",
@@ -501,8 +538,7 @@ if (typeof globalThis !== "undefined") {
           formatter: ratioFormatter,
           sorter: "number",
           width: 118,
-          accessorDownload: (value) =>
-            typeof value === "number" ? value : "",
+          accessorDownload: bangumiMetricDownload,
         },
         {
           title: "官方来源层级",

@@ -1,91 +1,91 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-06T10:15:16+00:00",
+  "generated_at": "2026-08-06T21:28:51+00:00",
   "articles": {
     "anime-label-divergence": {
-      "snapshot_date": "2026-08-06",
-      "row_count": 669,
+      "snapshot_date": "2026-08-07",
+      "row_count": 691,
       "category_counts": {
-        "non_romantic": 212,
-        "potential_or_strongly_coded": 230,
-        "explicit_desire": 125,
-        "explicit_relationship": 28,
+        "non_romantic": 219,
+        "potential_or_strongly_coded": 238,
+        "explicit_desire": 130,
+        "explicit_relationship": 30,
         "unknown": 74
       },
       "platform_coverage": {
         "AniList Yuri": {
-          "positive": 271,
-          "exact_entries": 659
+          "positive": 280,
+          "exact_entries": 680
         },
         "Anime-Planet GL": {
-          "positive": 66,
-          "exact_entries": 620
+          "positive": 70,
+          "exact_entries": 640
         },
         "MAL Girls Love": {
-          "positive": 59,
-          "exact_entries": 661
+          "positive": 64,
+          "exact_entries": 680
         }
       },
-      "common_coverage": 618,
+      "common_coverage": 636,
       "common_signatures": {
-        "---": 364,
-        "-N-": 179,
-        "ANM": 46,
+        "---": 376,
+        "-N-": 181,
+        "ANM": 50,
         "AN-": 19,
         "-NM": 9,
         "A--": 1
       },
       "source": {
-        "path": "yuri_classification_database_comparison_2026-08-06_extension_669_sources.json",
-        "sha256": "2e7ac7d9b2df74c65e5fbec266b5af22995228e1d8d6866781d88c98664a4cb0"
+        "sha256": "0e2e389f826d21f3b32a5f6ad6cd597c39c1928eb37a004ff2baecbed2fd5c76"
       },
-      "release_selection_sha256": "1a7dc3dbce9ca3e44e7e69a35dc28c0a8967b679c98cf1c9910c23f1ceb48df0",
+      "release_plan_sha256": "edb0f9125268d97135306081be90d2a46502aadda9700e148b048e3b2083f7dd",
+      "target_slugs_sha256": "c2b271725f9b67809727ea9817f8fce957975a11dba77c42c87e41e90b3445ab",
       "data_path": "data/articles/anime-label-divergence.json",
       "csv_path": "data/articles/anime-label-divergence.csv",
       "analysis_summary": {
-        "path": "analysis_summary.json",
-        "sha256": "0a04f13f044656aa28baaf0ab64203230fee0757c7aeaade6bdf31b770b73fee"
+        "path": "assets/yuri_classification_database_patterns/analysis_summary.json",
+        "sha256": "df328ed8124cdd5974f848e26775a01b1bd647a05ab7bd8c44d2e771e75741da"
       },
       "publication_manifest": {
-        "path": "yuri_classification_publication_manifest_2026-08-06_extension_669.json",
-        "sha256": "d2e21bb0d16dba7dd406050faa4c2dc02b885fdbe1b7771a72ba676ef6aba9d8"
+        "path": "publication-manifest.json",
+        "sha256": "49e940d5540909ecd5e72e9f8f51390befa9d9c8e504c8e5f84d604a5c0cf92a"
       },
       "charts": [
         {
           "id": "dataset_overview",
           "path": "assets/articles/anime-label-divergence/00_dataset_overview.png",
-          "sha256": "898f717ae95a07ba545ade2c3e87d8580e4ecdc8d20cce454ce900046f6232bb"
+          "sha256": "f2049e89975c9e4cb587d8e635b5fb45fb3faca613fe13d2cbf349ec580c69f7"
         },
         {
           "id": "platform_overlap",
           "path": "assets/articles/anime-label-divergence/01_platform_overlap.png",
-          "sha256": "3c1480a30b1f7507cc74c6f79ae1ef840259c6644235284237d795645525ffb3"
+          "sha256": "752da41d8764835b8763b4b315d8392aedb42c0c05ccab75eedb388fd3183ea6"
         },
         {
           "id": "explicitness_gradient",
           "path": "assets/articles/anime-label-divergence/02_explicitness_gradient.png",
-          "sha256": "c45f6aac4193328cabc0e21cce23ecc3ef92fbae710ba3e6fdb8aae7827dab4e"
+          "sha256": "7a83b232a6d6e7167d2a12e1845f57a1f60319b0e2252610605fcbdca59f725b"
         },
         {
           "id": "platform_rates",
           "path": "assets/articles/anime-label-divergence/03_platform_rates_by_explicitness.png",
-          "sha256": "c25f05f965c6db74f994ff0fdca2e8717d96750818abb7310a5396d49950c3ff"
+          "sha256": "a7fd2b7ae65ce783db27f70653ad184f0cecccda6b62827b8aa831c38a682b2b"
         },
         {
           "id": "bangumi_popularity",
           "path": "assets/articles/anime-label-divergence/04_bangumi_popularity_correction.png",
-          "sha256": "fc55801a856917add602c519c8f3f8532e19959473d4c96088c503c87c54db2e"
+          "sha256": "fcd32885254985615f6b0e8f11682b10a275b26ac2006dc6b9d95af38a9180ee"
         },
         {
           "id": "convergence_and_structure",
           "path": "assets/articles/anime-label-divergence/05_convergence_and_text_structure.png",
-          "sha256": "65b41b8d0d51dfbcc6928f9fc097fb429bd8eb1ca0f1452ce2b7ff1052737b71"
+          "sha256": "1fd07f105e5bb49b35cd885fdaec6725516108afcaa5841045b455c2f49f3a69"
         }
       ],
       "article": {
         "route": "/articles/anime-label-divergence/",
         "title": "从女女关系到百合类型：四个平台画出不同的百合地图",
-        "summary": "以冻结发布选择为边界，比较 Bangumi、Anime-Planet、AniList 与 MyAnimeList 的标签字段，并把数据库信号与逐关系文本判断分开阅读。",
+        "summary": "以当前完整公开集合为边界，比较 Bangumi、Anime-Planet、AniList 与 MyAnimeList 的标签字段，并把数据库信号与逐关系文本判断分开阅读。",
         "history": [],
         "giscus_term": "article:anime-label-divergence"
       }

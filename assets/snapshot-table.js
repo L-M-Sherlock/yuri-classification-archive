@@ -98,9 +98,11 @@
           minWidth: 230,
           formatter(cell) {
             const item = cell.getRow().getData();
+            const title = `《${escapeHtml(item.title)}》`;
+            if (!item.bangumi_url) return title;
             return (
               `<a href="${escapeHtml(item.bangumi_url)}" target="_blank" ` +
-              `rel="noopener noreferrer">《${escapeHtml(item.title)}》</a>`
+              `rel="noopener noreferrer">${title}</a>`
             );
           },
         },

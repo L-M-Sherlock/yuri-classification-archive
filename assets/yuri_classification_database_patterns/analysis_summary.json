@@ -1,0 +1,2772 @@
+{
+  "schema_version": 4,
+  "snapshot_date": "2026-08-07",
+  "generated_at": "2026-08-06T20:09:07.094425+00:00",
+  "source": {
+    "sha256": "0e2e389f826d21f3b32a5f6ad6cd597c39c1928eb37a004ff2baecbed2fd5c76",
+    "row_count": 691,
+    "classification_schema": 4,
+    "selection_composition": {
+      "bangumi_yuri_tag_top100": 97,
+      "bangumi_additional_unique_backfill": 4,
+      "fxzhihu_article_batch": 21,
+      "existing_archive": 389,
+      "top100_fxzhihu_overlap": 1,
+      "unique_archives": 691,
+      "bangumi_yuri_tag_extension": 190
+    },
+    "release_plan": {
+      "path": "data/release-plan.json",
+      "sha256": "96395d319422eef3f1c148311f1300aeb933e33742c115f09e38a447d9e321a2",
+      "plan_sha256": "edb0f9125268d97135306081be90d2a46502aadda9700e148b048e3b2083f7dd",
+      "target_slug_count": 691,
+      "target_slugs_sha256": "c2b271725f9b67809727ea9817f8fce957975a11dba77c42c87e41e90b3445ab"
+    },
+    "platform_current": {
+      "sha256": "2719c73e89c2b9d0875dd0a66c334857249fbb702b61750045d7c1ba33139876",
+      "store_sha256": "482b1024965aee967693052ce5f6ff36dfbecdfc44ac2cea5f8d2c14ac52f8f9",
+      "target_slugs_sha256": "c2b271725f9b67809727ea9817f8fce957975a11dba77c42c87e41e90b3445ab"
+    }
+  },
+  "release_plan_sha256": "edb0f9125268d97135306081be90d2a46502aadda9700e148b048e3b2083f7dd",
+  "target_slugs_sha256": "c2b271725f9b67809727ea9817f8fce957975a11dba77c42c87e41e90b3445ab",
+  "dataset_profile": {
+    "media": {
+      "TV": 507,
+      "WEB": 32,
+      "剧场动画": 71,
+      "OVA": 69,
+      "剧场 OVA": 11,
+      "其他": 1
+    },
+    "release_year": {
+      "minimum": 1979,
+      "maximum": 2026,
+      "median": 2017,
+      "2010_or_later": 585,
+      "decades": {
+        "1970年代": 1,
+        "1990年代": 9,
+        "2000年代": 96,
+        "2010年代": 357,
+        "2020年代": 228
+      }
+    }
+  },
+  "definitions": {
+    "bangumi_yuri_ratio": "exact 百合 tag count / (wish + collect + doing + on_hold + dropped)",
+    "anime_planet_positive": "exact GL tag",
+    "anilist_positive": "Yuri tag rank > 0; rank is relevance, not users",
+    "myanimelist_positive": "exact Girls Love genre",
+    "common_coverage": "exact entries available in Anime-Planet, AniList, and MyAnimeList",
+    "ordered_romance_explicitness": [
+      "non_romantic",
+      "potential_or_strongly_coded",
+      "explicit_desire",
+      "explicit_relationship"
+    ],
+    "unresolved_romance_explicitness": "unknown is reported as a separate non-ordered group",
+    "relationship_aggregation": "highest_romance_explicitness is the maximum across relationships[]; relationship heterogeneity is reported separately and is not an explicitness level",
+    "official_literal_yuri_gl": "是 = at least one manually reviewed official statement uses yuri or girls_love literally; 所核未见 = reviewed sources had no matching statement; 资料不足 = review was partial or unavailable",
+    "official_female_romance_wording": "是 = at least one manually reviewed official statement directly describes an explicit female-female romance or romantic direction; 所核未见 and 资料不足 retain the same evidence boundary",
+    "official_source_facets": "scope and surface are multi-select membership facets of recorded official statements, not a list of every source checked"
+  },
+  "counts": {
+    "legacy_v1_classification": {
+      "作品主类": 585,
+      "重要副线": 26,
+      "读者解读": 54
+    },
+    "female_relationship_centrality": {
+      "重要副线": 43,
+      "主线": 635,
+      "未知": 8,
+      "局部": 4,
+      "缺席": 1
+    },
+    "archive_basis": {
+      "work_classification": 608,
+      "reader_interpretation": 53,
+      "insufficient_evidence": 19,
+      "non_yuri": 11
+    },
+    "romance_centrality": {
+      "absent": 218,
+      "main": 185,
+      "important_secondary": 151,
+      "local": 62,
+      "unknown": 75
+    },
+    "explicitness": {
+      "non_romantic": 219,
+      "potential_or_strongly_coded": 238,
+      "explicit_desire": 130,
+      "explicit_relationship": 30,
+      "unknown": 74
+    },
+    "female_female_aggregation_state": {
+      "explicit": 684,
+      "not_applicable": 7
+    },
+    "relationship_composition": {
+      "single_relation": 94,
+      "multiple_heterogeneous": 584,
+      "not_recorded": 7,
+      "multiple_consistent": 6
+    },
+    "official_evidence": {
+      "review_status": {
+        "reviewed": 691
+      },
+      "literal_yuri_gl": {
+        "所核未见": 654,
+        "是": 37
+      },
+      "female_romance_wording": {
+        "所核未见": 559,
+        "是": 132
+      },
+      "scope_membership": {
+        "adjacent_edition": 16,
+        "franchise": 19,
+        "in_scope_edition": 554,
+        "source_work": 59
+      },
+      "surface_membership": {
+        "html_metadata": 26,
+        "interview_or_commentary": 34,
+        "other": 2,
+        "publication_venue": 134,
+        "story_or_profile": 428,
+        "visible_work_marketing": 459
+      }
+    },
+    "identity_evidence": {
+      "unknown": 684,
+      "explicit": 5,
+      "strong_inference": 2
+    },
+    "identity_evidence_basis": {
+      "no_in_scope_evidence": 292,
+      "inferred_relationship_only": 237,
+      "explicit_relationship_only": 155,
+      "explicit_identity_self_statement": 5,
+      "official_identity_profile": 2
+    },
+    "common_coverage": 636,
+    "common_no_platform_label": 376,
+    "common_no_platform_label_open_relationship_center": 310,
+    "common_no_platform_label_female_relationship_main": 340,
+    "common_all_three_platform_labels": 50,
+    "bangumi_exact_entries": 690,
+    "bangumi_no_exact_entry": 1
+  },
+  "platform_coverage": {
+    "Anime-Planet GL": {
+      "positive": 70,
+      "exact_entries": 640
+    },
+    "AniList Yuri": {
+      "positive": 280,
+      "exact_entries": 680
+    },
+    "MAL Girls Love": {
+      "positive": 64,
+      "exact_entries": 680
+    }
+  },
+  "common_signatures": {
+    "---": 376,
+    "-N-": 181,
+    "ANM": 50,
+    "AN-": 19,
+    "-NM": 9,
+    "A--": 1
+  },
+  "explicitness_groups": [
+    {
+      "key": "non_romantic",
+      "label": "非恋爱",
+      "n": 219,
+      "bangumi_exact_entries": 218,
+      "bangumi_ratio": {
+        "median": 0.056027568614398615,
+        "mean": 0.057497751087449825,
+        "q25": 0.037034446043038856,
+        "q75": 0.07697659483373769
+      },
+      "platforms": {
+        "Anime-Planet GL": {
+          "positive": 0,
+          "exact_entries": 210,
+          "rate": 0.0
+        },
+        "AniList Yuri": {
+          "positive": 43,
+          "exact_entries": 216,
+          "rate": 0.19907407407407407
+        },
+        "MAL Girls Love": {
+          "positive": 1,
+          "exact_entries": 217,
+          "rate": 0.004608294930875576
+        }
+      },
+      "all_three": 0,
+      "none": 166
+    },
+    {
+      "key": "potential_or_strongly_coded",
+      "label": "明显但未确认",
+      "n": 238,
+      "bangumi_exact_entries": 238,
+      "bangumi_ratio": {
+        "median": 0.0840888958164859,
+        "mean": 0.0820912095734385,
+        "q25": 0.05340257548434827,
+        "q75": 0.11076335636030912
+      },
+      "platforms": {
+        "Anime-Planet GL": {
+          "positive": 16,
+          "exact_entries": 220,
+          "rate": 0.07272727272727272
+        },
+        "AniList Yuri": {
+          "positive": 107,
+          "exact_entries": 233,
+          "rate": 0.4592274678111588
+        },
+        "MAL Girls Love": {
+          "positive": 11,
+          "exact_entries": 233,
+          "rate": 0.04721030042918455
+        }
+      },
+      "all_three": 7,
+      "none": 116
+    },
+    {
+      "key": "explicit_desire",
+      "label": "明确欲望",
+      "n": 130,
+      "bangumi_exact_entries": 130,
+      "bangumi_ratio": {
+        "median": 0.09075215278573492,
+        "mean": 0.0899483496076455,
+        "q25": 0.051343750143913264,
+        "q75": 0.13077061547421115
+      },
+      "platforms": {
+        "Anime-Planet GL": {
+          "positive": 36,
+          "exact_entries": 124,
+          "rate": 0.2903225806451613
+        },
+        "AniList Yuri": {
+          "positive": 89,
+          "exact_entries": 129,
+          "rate": 0.689922480620155
+        },
+        "MAL Girls Love": {
+          "positive": 30,
+          "exact_entries": 128,
+          "rate": 0.234375
+        }
+      },
+      "all_three": 26,
+      "none": 40
+    },
+    {
+      "key": "explicit_relationship",
+      "label": "明确交往",
+      "n": 30,
+      "bangumi_exact_entries": 30,
+      "bangumi_ratio": {
+        "median": 0.14072928619523373,
+        "mean": 0.13172666867967492,
+        "q25": 0.07855877569962899,
+        "q75": 0.1765442289827602
+      },
+      "platforms": {
+        "Anime-Planet GL": {
+          "positive": 16,
+          "exact_entries": 24,
+          "rate": 0.6666666666666666
+        },
+        "AniList Yuri": {
+          "positive": 24,
+          "exact_entries": 29,
+          "rate": 0.8275862068965517
+        },
+        "MAL Girls Love": {
+          "positive": 19,
+          "exact_entries": 29,
+          "rate": 0.6551724137931034
+        }
+      },
+      "all_three": 15,
+      "none": 5
+    },
+    {
+      "key": "unknown",
+      "label": "未知（非等级）",
+      "n": 74,
+      "bangumi_exact_entries": 74,
+      "bangumi_ratio": {
+        "median": 0.07919988603828926,
+        "mean": 0.0763652233864029,
+        "q25": 0.05460054191393876,
+        "q75": 0.09446052986236099
+      },
+      "platforms": {
+        "Anime-Planet GL": {
+          "positive": 2,
+          "exact_entries": 62,
+          "rate": 0.03225806451612903
+        },
+        "AniList Yuri": {
+          "positive": 17,
+          "exact_entries": 73,
+          "rate": 0.2328767123287671
+        },
+        "MAL Girls Love": {
+          "positive": 3,
+          "exact_entries": 73,
+          "rate": 0.0410958904109589
+        }
+      },
+      "all_three": 2,
+      "none": 49
+    }
+  ],
+  "correlations": {
+    "bangumi_count_vs_user_marks": 0.7639909600374911,
+    "bangumi_ratio_vs_user_marks": -0.1678886056712179,
+    "bangumi_ratio_vs_count": 0.41644203626703086,
+    "bangumi_ratio_vs_anilist_rank": 0.46489684389236324
+  },
+  "female_centrality_explicitness_matrix": {
+    "主线": {
+      "non_romantic": 205,
+      "potential_or_strongly_coded": 230,
+      "explicit_desire": 112,
+      "explicit_relationship": 27,
+      "unknown": 61
+    },
+    "重要副线": {
+      "non_romantic": 12,
+      "potential_or_strongly_coded": 8,
+      "explicit_desire": 18,
+      "explicit_relationship": 3,
+      "unknown": 2
+    },
+    "局部": {
+      "non_romantic": 2,
+      "potential_or_strongly_coded": 0,
+      "explicit_desire": 0,
+      "explicit_relationship": 0,
+      "unknown": 2
+    },
+    "缺席": {
+      "non_romantic": 0,
+      "potential_or_strongly_coded": 0,
+      "explicit_desire": 0,
+      "explicit_relationship": 0,
+      "unknown": 1
+    },
+    "未知": {
+      "non_romantic": 0,
+      "potential_or_strongly_coded": 0,
+      "explicit_desire": 0,
+      "explicit_relationship": 0,
+      "unknown": 8
+    }
+  },
+  "collection_window": {
+    "minimum_retrieved_at": "2026-07-30T00:00:00+00:00",
+    "maximum_retrieved_at": "2026-08-06T19:04:14.633113+00:00",
+    "record_count": 2764,
+    "result_counts": {
+      "no_exact_entry": 74,
+      "success": 2690
+    },
+    "platforms": {
+      "bangumi": {
+        "minimum_retrieved_at": "2026-08-04T06:16:15.523000+00:00",
+        "maximum_retrieved_at": "2026-08-06T19:04:14.633113+00:00",
+        "record_count": 691,
+        "result_counts": {
+          "no_exact_entry": 1,
+          "success": 690
+        }
+      },
+      "anime_planet": {
+        "minimum_retrieved_at": "2026-07-30T00:00:00+00:00",
+        "maximum_retrieved_at": "2026-08-06T19:01:47.412000+00:00",
+        "record_count": 691,
+        "result_counts": {
+          "no_exact_entry": 51,
+          "success": 640
+        }
+      },
+      "anilist": {
+        "minimum_retrieved_at": "2026-08-04T06:55:35+00:00",
+        "maximum_retrieved_at": "2026-08-06T19:01:04.461000+00:00",
+        "record_count": 691,
+        "result_counts": {
+          "no_exact_entry": 11,
+          "success": 680
+        }
+      },
+      "myanimelist": {
+        "minimum_retrieved_at": "2026-07-30T00:00:00+00:00",
+        "maximum_retrieved_at": "2026-08-06T19:01:20.938000+00:00",
+        "record_count": 691,
+        "result_counts": {
+          "no_exact_entry": 11,
+          "success": 680
+        }
+      }
+    }
+  },
+  "top_bangumi_yuri_counts": [
+    {
+      "title": "超时空辉夜姬！",
+      "slug": "chou_kaguya_hime_web_film_2026",
+      "female_centrality": "主线",
+      "archive_basis": "work_classification",
+      "explicitness": "explicit_desire",
+      "bangumi_yuri_count": 6350,
+      "bangumi_user_marks": 42350,
+      "bangumi_ratio": 0.14994096812278632,
+      "ani_rank": 88
+    },
+    {
+      "title": "BanG Dream! It's MyGO!!!!!",
+      "slug": "bang_dream_its_mygo_tv_2023",
+      "female_centrality": "主线",
+      "archive_basis": "work_classification",
+      "explicitness": "potential_or_strongly_coded",
+      "bangumi_yuri_count": 5965,
+      "bangumi_user_marks": 56446,
+      "bangumi_ratio": 0.10567622152145413,
+      "ani_rank": 57
+    },
+    {
+      "title": "莉兹与青鸟",
+      "slug": "liz_to_aoi_tori_movie_2018",
+      "female_centrality": "主线",
+      "archive_basis": "work_classification",
+      "explicitness": "potential_or_strongly_coded",
+      "bangumi_yuri_count": 5606,
+      "bangumi_user_marks": 40882,
+      "bangumi_ratio": 0.13712636368083753,
+      "ani_rank": 82
+    },
+    {
+      "title": "莉可丽丝",
+      "slug": "lycoris_recoil_tv_2022",
+      "female_centrality": "主线",
+      "archive_basis": "work_classification",
+      "explicitness": "potential_or_strongly_coded",
+      "bangumi_yuri_count": 5273,
+      "bangumi_user_marks": 40457,
+      "bangumi_ratio": 0.1303359122030798,
+      "ani_rank": 65
+    },
+    {
+      "title": "我们不可能成为恋人！绝对不行。 (※似乎可行？)",
+      "slug": "watanare_tv_2025",
+      "female_centrality": "主线",
+      "archive_basis": "work_classification",
+      "explicitness": "explicit_desire",
+      "bangumi_yuri_count": 4587,
+      "bangumi_user_marks": 33186,
+      "bangumi_ratio": 0.13822093653950462,
+      "ani_rank": 98
+    },
+    {
+      "title": "终将成为你",
+      "slug": "yagate_kimi_ni_naru_tv_2018",
+      "female_centrality": "主线",
+      "archive_basis": "work_classification",
+      "explicitness": "explicit_relationship",
+      "bangumi_yuri_count": 4502,
+      "bangumi_user_marks": 26640,
+      "bangumi_ratio": 0.168993993993994,
+      "ani_rank": 98
+    },
+    {
+      "title": "憧憬成为魔法少女",
+      "slug": "mahou_shoujo_ni_akogarete_tv_2024",
+      "female_centrality": "主线",
+      "archive_basis": "work_classification",
+      "explicitness": "explicit_desire",
+      "bangumi_yuri_count": 4319,
+      "bangumi_user_marks": 31442,
+      "bangumi_ratio": 0.13736403536670697,
+      "ani_rank": 95
+    },
+    {
+      "title": "少女☆歌剧 Revue Starlight",
+      "slug": "shoujo_kageki_revue_starlight_tv_2018",
+      "female_centrality": "主线",
+      "archive_basis": "work_classification",
+      "explicitness": "potential_or_strongly_coded",
+      "bangumi_yuri_count": 4308,
+      "bangumi_user_marks": 32691,
+      "bangumi_ratio": 0.13177938882261173,
+      "ani_rank": 79
+    },
+    {
+      "title": "小林家的龙女仆",
+      "slug": "kobayashi_san_chi_no_maid_dragon_tv_2017",
+      "female_centrality": "主线",
+      "archive_basis": "work_classification",
+      "explicitness": "explicit_desire",
+      "bangumi_yuri_count": 4227,
+      "bangumi_user_marks": 46531,
+      "bangumi_ratio": 0.09084266403043133,
+      "ani_rank": 79
+    },
+    {
+      "title": "摇曳露营△",
+      "slug": "yuru_camp_tv_2018",
+      "female_centrality": "主线",
+      "archive_basis": "work_classification",
+      "explicitness": "non_romantic",
+      "bangumi_yuri_count": 3777,
+      "bangumi_user_marks": 40043,
+      "bangumi_ratio": 0.09432360212771271,
+      "ani_rank": 40
+    },
+    {
+      "title": "转生王女与天才千金的魔法革命",
+      "slug": "tensei_oujo_to_tensai_reijou_no_mahou_kakumei_tv_2023",
+      "female_centrality": "主线",
+      "archive_basis": "work_classification",
+      "explicitness": "explicit_desire",
+      "bangumi_yuri_count": 3692,
+      "bangumi_user_marks": 19678,
+      "bangumi_ratio": 0.18762069315987398,
+      "ani_rank": 91
+    },
+    {
+      "title": "少女终末旅行",
+      "slug": "shoujo_shuumatsu_ryokou_tv_2017",
+      "female_centrality": "主线",
+      "archive_basis": "work_classification",
+      "explicitness": "non_romantic",
+      "bangumi_yuri_count": 3548,
+      "bangumi_user_marks": 39486,
+      "bangumi_ratio": 0.08985463202147596,
+      "ani_rank": 0
+    },
+    {
+      "title": "BanG Dream! Ave Mujica",
+      "slug": "bang_dream_ave_mujica_tv_2025",
+      "female_centrality": "主线",
+      "archive_basis": "work_classification",
+      "explicitness": "potential_or_strongly_coded",
+      "bangumi_yuri_count": 3546,
+      "bangumi_user_marks": 39481,
+      "bangumi_ratio": 0.0898153542210177,
+      "ani_rank": 82
+    },
+    {
+      "title": "别当欧尼酱了！",
+      "slug": "onii_chan_wa_oshimai_tv_2023",
+      "female_centrality": "重要副线",
+      "archive_basis": "work_classification",
+      "explicitness": "unknown",
+      "bangumi_yuri_count": 3340,
+      "bangumi_user_marks": 41031,
+      "bangumi_ratio": 0.08140186688113865,
+      "ani_rank": 0
+    },
+    {
+      "title": "魔女之旅",
+      "slug": "majo_no_tabitabi_tv_2020",
+      "female_centrality": "重要副线",
+      "archive_basis": "work_classification",
+      "explicitness": "explicit_desire",
+      "bangumi_yuri_count": 3323,
+      "bangumi_user_marks": 38117,
+      "bangumi_ratio": 0.08717894902536925,
+      "ani_rank": 52
+    }
+  ],
+  "top_bangumi_yuri_ratios": [
+    {
+      "title": "紧扣的星星",
+      "slug": "kuttsukiboshi_ova_2010",
+      "female_centrality": "主线",
+      "archive_basis": "work_classification",
+      "explicitness": "explicit_desire",
+      "bangumi_yuri_count": 717,
+      "bangumi_user_marks": 3330,
+      "bangumi_ratio": 0.2153153153153153,
+      "ani_rank": 100
+    },
+    {
+      "title": "亲吻那片花瓣「恋人的羁绊」",
+      "slug": "sono_hanabira_ni_kuchizuke_wo_anata_to_koibito_tsunagi_ova_2010",
+      "female_centrality": "主线",
+      "archive_basis": "work_classification",
+      "explicitness": "explicit_relationship",
+      "bangumi_yuri_count": 1558,
+      "bangumi_user_marks": 7271,
+      "bangumi_ratio": 0.21427589052399945,
+      "ani_rank": 96
+    },
+    {
+      "title": "糖果男孩",
+      "slug": "candy_boy_web_2008",
+      "female_centrality": "主线",
+      "archive_basis": "work_classification",
+      "explicitness": "explicit_desire",
+      "bangumi_yuri_count": 1148,
+      "bangumi_user_marks": 5842,
+      "bangumi_ratio": 0.19650804519000342,
+      "ani_rank": 94
+    },
+    {
+      "title": "神无月的巫女",
+      "slug": "kannazuki_no_miko_tv_2004",
+      "female_centrality": "主线",
+      "archive_basis": "work_classification",
+      "explicitness": "explicit_relationship",
+      "bangumi_yuri_count": 1070,
+      "bangumi_user_marks": 5627,
+      "bangumi_ratio": 0.19015461169362005,
+      "ani_rank": 94
+    },
+    {
+      "title": "时光碎片",
+      "slug": "fragtime_theatrical_ova_2019",
+      "female_centrality": "主线",
+      "archive_basis": "work_classification",
+      "explicitness": "explicit_relationship",
+      "bangumi_yuri_count": 923,
+      "bangumi_user_marks": 4875,
+      "bangumi_ratio": 0.18933333333333333,
+      "ani_rank": 94
+    },
+    {
+      "title": "BLUE DROP 天使们的戏曲",
+      "slug": "blue_drop_tv_2007",
+      "female_centrality": "主线",
+      "archive_basis": "work_classification",
+      "explicitness": "explicit_relationship",
+      "bangumi_yuri_count": 230,
+      "bangumi_user_marks": 1215,
+      "bangumi_ratio": 0.18930041152263374,
+      "ani_rank": 91
+    },
+    {
+      "title": "转生王女与天才千金的魔法革命",
+      "slug": "tensei_oujo_to_tensai_reijou_no_mahou_kakumei_tv_2023",
+      "female_centrality": "主线",
+      "archive_basis": "work_classification",
+      "explicitness": "explicit_desire",
+      "bangumi_yuri_count": 3692,
+      "bangumi_user_marks": 19678,
+      "bangumi_ratio": 0.18762069315987398,
+      "ani_rank": 91
+    },
+    {
+      "title": "citrus～柑橘味香气～",
+      "slug": "citrus_tv_2018",
+      "female_centrality": "主线",
+      "archive_basis": "work_classification",
+      "explicitness": "explicit_relationship",
+      "bangumi_yuri_count": 2950,
+      "bangumi_user_marks": 15911,
+      "bangumi_ratio": 0.18540632266985105,
+      "ani_rank": 97
+    },
+    {
+      "title": "牵牛花与加濑同学。",
+      "slug": "asagao_to_kase_san_ova_2018",
+      "female_centrality": "主线",
+      "archive_basis": "work_classification",
+      "explicitness": "explicit_relationship",
+      "bangumi_yuri_count": 1452,
+      "bangumi_user_marks": 7835,
+      "bangumi_ratio": 0.1853222718570517,
+      "ani_rank": 99
+    },
+    {
+      "title": "我的百合乃工作是也！",
+      "slug": "watashi_yuri_wa_oshigoto_tv_2023",
+      "female_centrality": "主线",
+      "archive_basis": "work_classification",
+      "explicitness": "explicit_relationship",
+      "bangumi_yuri_count": 1022,
+      "bangumi_user_marks": 5578,
+      "bangumi_ratio": 0.18321979204015776,
+      "ani_rank": 93
+    },
+    {
+      "title": "樱Trick",
+      "slug": "sakura_trick_tv_2014",
+      "female_centrality": "主线",
+      "archive_basis": "work_classification",
+      "explicitness": "explicit_desire",
+      "bangumi_yuri_count": 2114,
+      "bangumi_user_marks": 11717,
+      "bangumi_ratio": 0.18042160962703763,
+      "ani_rank": 98
+    },
+    {
+      "title": "糖果男孩",
+      "slug": "candy_boy_side_story_for_archive_web_2007",
+      "female_centrality": "主线",
+      "archive_basis": "work_classification",
+      "explicitness": "potential_or_strongly_coded",
+      "bangumi_yuri_count": 519,
+      "bangumi_user_marks": 2883,
+      "bangumi_ratio": 0.18002081165452655,
+      "ani_rank": 79
+    },
+    {
+      "title": "轻声密语",
+      "slug": "sasameki_koto_tv_2009",
+      "female_centrality": "主线",
+      "archive_basis": "work_classification",
+      "explicitness": "explicit_relationship",
+      "bangumi_yuri_count": 655,
+      "bangumi_user_marks": 3701,
+      "bangumi_ratio": 0.17697919481221291,
+      "ani_rank": 92
+    },
+    {
+      "title": "恋语轻唱",
+      "slug": "sasayaku_you_ni_koi_wo_utau_tv_2024",
+      "female_centrality": "主线",
+      "archive_basis": "work_classification",
+      "explicitness": "explicit_relationship",
+      "bangumi_yuri_count": 1080,
+      "bangumi_user_marks": 6163,
+      "bangumi_ratio": 0.17523933149440207,
+      "ani_rank": 98
+    },
+    {
+      "title": "我的推是坏人大小姐。",
+      "slug": "wataoshi_tv_2023",
+      "female_centrality": "主线",
+      "archive_basis": "work_classification",
+      "explicitness": "explicit_desire",
+      "bangumi_yuri_count": 1011,
+      "bangumi_user_marks": 5795,
+      "bangumi_ratio": 0.17446074201898187,
+      "ani_rank": 97
+    }
+  ],
+  "exceptions": {
+    "explicit_or_coded_common_no_platform_label": [
+      {
+        "title": "赛马娘 Pretty Derby 第二季",
+        "slug": "uma_musume_pretty_derby_season_2_tv_2021",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.05301931666569987
+      },
+      {
+        "title": "偶像大师",
+        "slug": "the_idolmaster_tv_2011",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "explicit_desire",
+        "bangumi_ratio": 0.0027421847733958217
+      },
+      {
+        "title": "悠哉日常大王 Nonstop",
+        "slug": "non_non_biyori_nonstop_tv_2021",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.02277163305139883
+      },
+      {
+        "title": "Heart Catch 光之美少女！",
+        "slug": "heartcatch_precure_tv_2010",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "explicit_desire",
+        "bangumi_ratio": 0.019153225806451613
+      },
+      {
+        "title": "剧场版 吹响吧！上低音号～誓言的终章～",
+        "slug": "hibike_euphonium_chikai_no_finale_movie_2019",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.032102805987389904
+      },
+      {
+        "title": "悠哉日常大王 Repeat",
+        "slug": "non_non_biyori_repeat_tv_2015",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.03529758397171479
+      },
+      {
+        "title": "向山进发 Next Summit",
+        "slug": "yama_no_susume_next_summit_tv_2022",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.10247442511148028
+      },
+      {
+        "title": "悠哉日常大王",
+        "slug": "non_non_biyori_tv_2013",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "explicit_desire",
+        "bangumi_ratio": 0.03566686999892354
+      },
+      {
+        "title": "剧场版 悠哉日常大王 Vacation",
+        "slug": "non_non_biyori_vacation_movie_2018",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.03162016642192854
+      },
+      {
+        "title": "幸运星 OVA",
+        "slug": "lucky_star_ova_2008",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.004547454892181312
+      },
+      {
+        "title": "佐贺偶像是传奇 复仇",
+        "slug": "zombieland_saga_revenge_tv_2021",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.013341449804697408
+      },
+      {
+        "title": "Go! Princess 光之美少女",
+        "slug": "go_princess_precure_tv_2015",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.028409090909090908
+      },
+      {
+        "title": "凡尔赛玫瑰",
+        "slug": "versailles_no_bara_tv_1979",
+        "female_centrality": "重要副线",
+        "archive_basis": "reader_interpretation",
+        "explicitness": "explicit_desire",
+        "bangumi_ratio": 0.055663117134559535
+      },
+      {
+        "title": "向山进发 第三季",
+        "slug": "yama_no_susume_third_season_tv_2018",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.1208324009845603
+      },
+      {
+        "title": "剧场版 吹响吧！上低音号～欢迎来到北宇治高中吹奏乐部～",
+        "slug": "hibike_euphonium_kitauji_movie_2016",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.026168224299065422
+      },
+      {
+        "title": "草莓棉花糖 OVA 第2期",
+        "slug": "ichigo_mashimaro_encore_ova_2009",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.042278332354668234
+      },
+      {
+        "title": "来玩游戏吧",
+        "slug": "asobi_asobase_tv_2018",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.024156916724019272
+      },
+      {
+        "title": "向山进发 第二季",
+        "slug": "yama_no_susume_second_season_tv_2014",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.1212404065546567
+      },
+      {
+        "title": "某科学的超电磁炮T",
+        "slug": "toaru_kagaku_no_railgun_t_tv_2020",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "explicit_desire",
+        "bangumi_ratio": 0.034053331457116726
+      },
+      {
+        "title": "向山进发 回忆的礼物",
+        "slug": "yama_no_susume_omoide_present_ova_2018",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.10865800865800866
+      },
+      {
+        "title": "女高中生的无所事事",
+        "slug": "joshikousei_no_mudazukai_tv_2019",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "explicit_desire",
+        "bangumi_ratio": 0.023134267887529373
+      },
+      {
+        "title": "某科学的超电磁炮S",
+        "slug": "toaru_kagaku_no_railgun_s_tv_2013",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "explicit_desire",
+        "bangumi_ratio": 0.05106885101945611
+      },
+      {
+        "title": "特别篇 吹响吧！上低音号～合奏比赛～",
+        "slug": "hibike_euphonium_ensemble_contest_movie_2023",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.02416237113402062
+      },
+      {
+        "title": "道子与哈金",
+        "slug": "michiko_to_hatchin_tv_2008",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.027339642481598318
+      },
+      {
+        "title": "强袭魔女 通往柏林之路",
+        "slug": "strike_witches_road_to_berlin_tv_2020",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.09822601839684625
+      },
+      {
+        "title": "NEW GAME!! 第二季",
+        "slug": "new_game_second_season_tv_2017",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "explicit_desire",
+        "bangumi_ratio": 0.1223780487804878
+      },
+      {
+        "title": "NEW GAME!",
+        "slug": "new_game_tv_2016",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.11589308115410596
+      },
+      {
+        "title": "Princess Principal",
+        "slug": "princess_principal_tv_2017",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.1096974145665117
+      },
+      {
+        "title": "请问您今天要来点兔子吗？",
+        "slug": "gochuumon_wa_usagi_desu_ka_tv_2014",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "explicit_desire",
+        "bangumi_ratio": 0.11722647156634519
+      },
+      {
+        "title": "HELLO!! 黄金拼图",
+        "slug": "kin_iro_mosaic_hello_tv_2015",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.13396639883126368
+      },
+      {
+        "title": "黄金拼图",
+        "slug": "kin_iro_mosaic_tv_2013",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.1290381791483113
+      },
+      {
+        "title": "Love Live! 学园偶像 电影",
+        "slug": "love_live_school_idol_movie_2015",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.05772658713835185
+      },
+      {
+        "title": "读或死 OVA",
+        "slug": "rod_read_or_die_ova_2001",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "explicit_desire",
+        "bangumi_ratio": 0.05360230547550432
+      },
+      {
+        "title": "暴力宇宙海贼",
+        "slug": "mouretsu_uchuu_kaizoku_tv_2012",
+        "female_centrality": "重要副线",
+        "archive_basis": "work_classification",
+        "explicitness": "explicit_relationship",
+        "bangumi_ratio": 0.06904122956818737
+      },
+      {
+        "title": "魍魉之匣",
+        "slug": "mouryou_no_hako_tv_2008",
+        "female_centrality": "重要副线",
+        "archive_basis": "work_classification",
+        "explicitness": "explicit_desire",
+        "bangumi_ratio": 0.013780337309749074
+      },
+      {
+        "title": "Love Live! 第二季",
+        "slug": "love_live_school_idol_project_season_2_tv_2014",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.056422239021373104
+      },
+      {
+        "title": "六翼天使之声",
+        "slug": "seraphim_call_tv_1999",
+        "female_centrality": "重要副线",
+        "archive_basis": "work_classification",
+        "explicitness": "explicit_desire",
+        "bangumi_ratio": 0.0562531391260673
+      },
+      {
+        "title": "强袭魔女 剧场版",
+        "slug": "strike_witches_movie_2012",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.10546334716459198
+      },
+      {
+        "title": "Love Live!",
+        "slug": "love_live_school_idol_project_tv_2013",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.058780523468343324
+      },
+      {
+        "title": "恋爱研究所",
+        "slug": "renai_laboratory_tv_2013",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.11274753706836502
+      },
+      {
+        "title": "竹剑少女",
+        "slug": "bamboo_blade_tv_2007",
+        "female_centrality": "重要副线",
+        "archive_basis": "work_classification",
+        "explicitness": "explicit_desire",
+        "bangumi_ratio": 0.05349276274386407
+      },
+      {
+        "title": "夜樱四重奏 花之歌",
+        "slug": "yozakura_quartet_hana_no_uta_tv_2013",
+        "female_centrality": "重要副线",
+        "archive_basis": "work_classification",
+        "explicitness": "explicit_desire",
+        "bangumi_ratio": 0.018857758620689655
+      },
+      {
+        "title": "回忆中的玛妮",
+        "slug": "omoide_no_marnie_movie_2014",
+        "female_centrality": "主线",
+        "archive_basis": "reader_interpretation",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.03550784475639967
+      },
+      {
+        "title": "荒野的寿飞行队",
+        "slug": "kouya_no_kotobuki_hikoutai_tv_2019",
+        "female_centrality": "主线",
+        "archive_basis": "reader_interpretation",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.020525657071339173
+      },
+      {
+        "title": "代号17",
+        "slug": "figure_17_tv_2001",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.0672782874617737
+      },
+      {
+        "title": "珈百璃的堕落",
+        "slug": "gabriel_dropout_tv_2017",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "explicit_desire",
+        "bangumi_ratio": 0.10404951503943843
+      },
+      {
+        "title": "SSSS.古立特",
+        "slug": "ssss_gridman_tv_2018",
+        "female_centrality": "重要副线",
+        "archive_basis": "reader_interpretation",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.0022111894530435147
+      },
+      {
+        "title": "影宅 第二季",
+        "slug": "shadows_house_2nd_season_tv_2022",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.041592394533571005
+      },
+      {
+        "title": "黄金拼图 Pretty Days",
+        "slug": "kin_iro_mosaic_pretty_days_movie_2016",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.11807498601007274
+      },
+      {
+        "title": "魔法少女小圆 新作概念视频",
+        "slug": "mahou_shoujo_madoka_magica_concept_movie_2015",
+        "female_centrality": "主线",
+        "archive_basis": "reader_interpretation",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.04836272040302267
+      },
+      {
+        "title": "天体的秩序 另一个愿望",
+        "slug": "sora_no_method_mou_hitotsu_no_negai_web_2019",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.08081285444234404
+      },
+      {
+        "title": "Estab-Life Great Escape",
+        "slug": "estab_life_great_escape_tv_2022",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "explicit_desire",
+        "bangumi_ratio": 0.06652555185969157
+      },
+      {
+        "title": "A频道+smile",
+        "slug": "a_channel_smile_ova_2012",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.11626816690107829
+      },
+      {
+        "title": "为美好的世界献上爆焰！",
+        "slug": "kono_subarashii_sekai_ni_bakuen_wo_tv_2023",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "explicit_desire",
+        "bangumi_ratio": 0.0027148959955284064
+      },
+      {
+        "title": "A频道 来吃火锅吧",
+        "slug": "a_channel_nabe_wo_tabeyou_ova_2017",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.11044003451251079
+      },
+      {
+        "title": "小鸟之翼 高尔夫少女 第二季",
+        "slug": "birdie_wing_season_2_tv_2023",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "explicit_desire",
+        "bangumi_ratio": 0.1446128635804998
+      },
+      {
+        "title": "强袭魔女 胜利之箭行动",
+        "slug": "strike_witches_operation_victory_arrow_ova_2014",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.11875
+      },
+      {
+        "title": "大正野球娘。",
+        "slug": "taishou_yakyuu_musume_tv_2009",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.10258107213765719
+      },
+      {
+        "title": "蓝海少女 第二季",
+        "slug": "amanatsu_advance_tv_2018",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.0640904806786051
+      },
+      {
+        "title": "忍者椿的胸之内",
+        "slug": "kunoichi_tsubaki_no_mune_no_uchi_tv_2022",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.06583427922814983
+      },
+      {
+        "title": "某科学的超电磁炮S OVA",
+        "slug": "toaru_kagaku_no_railgun_s_ova_2014",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.06109851347946586
+      },
+      {
+        "title": "舞-乙HiME 0～S.ifr～",
+        "slug": "mai_otome_0_sifr_ova_2008",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.08213096559378469
+      },
+      {
+        "title": "暴力宇宙海贼 剧场版 亚空的深渊",
+        "slug": "mouretsu_uchuu_kaizoku_abyss_of_hyperspace_movie_2014",
+        "female_centrality": "重要副线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.053497942386831275
+      },
+      {
+        "title": "未确认进行式",
+        "slug": "mikakunin_de_shinkoukei_tv_2014",
+        "female_centrality": "重要副线",
+        "archive_basis": "reader_interpretation",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.03335255670895809
+      },
+      {
+        "title": "虹四动画",
+        "slug": "nijiyon_animation_tv_2023",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.08173233474438293
+      },
+      {
+        "title": "A频道",
+        "slug": "a_channel_tv_2011",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.12302227962544397
+      },
+      {
+        "title": "舞-乙HiME",
+        "slug": "mai_otome_tv_2005",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "explicit_desire",
+        "bangumi_ratio": 0.11442415206857995
+      },
+      {
+        "title": "花舞少女",
+        "slug": "hanayamata_tv_2014",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.12217194570135746
+      },
+      {
+        "title": "狂赌之渊 双",
+        "slug": "kakegurui_twin_web_2022",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.0681980056980057
+      },
+      {
+        "title": "归宅部活动记录",
+        "slug": "kitakubu_katsudou_kiroku_tv_2013",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.06510934393638171
+      },
+      {
+        "title": "幸腹涂鸦",
+        "slug": "koufuku_graffiti_tv_2015",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.09965943717512099
+      },
+      {
+        "title": "网球并不可笑嘛",
+        "slug": "teekyu_tv_2012",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "explicit_desire",
+        "bangumi_ratio": 0.05216844751728473
+      },
+      {
+        "title": "舞-乙HiME Zwei",
+        "slug": "mai_otome_zwei_ova_2006",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.09651741293532339
+      },
+      {
+        "title": "Anne Happy♪",
+        "slug": "an_happy_tv_2016",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.12291021671826625
+      },
+      {
+        "title": "女孩的钓鱼慢活",
+        "slug": "slow_loop_tv_2022",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.08983654909671869
+      },
+      {
+        "title": "生存游戏社",
+        "slug": "sabagebu_tv_2014",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "explicit_desire",
+        "bangumi_ratio": 0.09447576099210823
+      },
+      {
+        "title": "再得一胜！",
+        "slug": "mou_ippon_tv_2023",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.05226480836236934
+      },
+      {
+        "title": "Urara迷路帖",
+        "slug": "urara_meirochou_tv_2017",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.12240491612688922
+      },
+      {
+        "title": "普通女高中生要做当地偶像 OVA",
+        "slug": "locodol_ova_2015",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.13069908814589665
+      },
+      {
+        "title": "Princess Principal Crown Handler 第3章",
+        "slug": "princess_principal_crown_handler_ch3_movie_2023",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.11655405405405406
+      },
+      {
+        "title": "奇蛋物语",
+        "slug": "wonder_egg_priority_tv_2021",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "explicit_desire",
+        "bangumi_ratio": 0.045584787705131545
+      },
+      {
+        "title": "Alice in Deadly School",
+        "slug": "alice_in_deadly_school_ova_2021",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.05903527717782577
+      },
+      {
+        "title": "猫神八百万",
+        "slug": "nekogami_yaoyorozu_tv_2011",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "explicit_relationship",
+        "bangumi_ratio": 0.046448825276802594
+      },
+      {
+        "title": "选择扩散者WIXOSS",
+        "slug": "selector_spread_wixoss_tv_2014",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.08274647887323944
+      },
+      {
+        "title": "Re:Stage！Dream Days♪",
+        "slug": "re_stage_dream_days_tv_2019",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.08427601809954752
+      },
+      {
+        "title": "初瓣",
+        "slug": "hitohira_tv_2007",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.08706786171574904
+      },
+      {
+        "title": "虹四动画 第二季",
+        "slug": "nijiyon_animation_season_2_tv_2024",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.08103896103896104
+      },
+      {
+        "title": "稻荷恋之歌",
+        "slug": "inari_konkon_koi_iroha_tv_2014",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "explicit_desire",
+        "bangumi_ratio": 0.018196856906534328
+      },
+      {
+        "title": "女恶魔人",
+        "slug": "devilman_lady_tv_1998",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "explicit_relationship",
+        "bangumi_ratio": 0.07569721115537849
+      },
+      {
+        "title": "在地下城寻求邂逅是否搞错了什么 外传 剑姬神圣谭",
+        "slug": "sword_oratoria_tv_2017",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.017443340972752738
+      },
+      {
+        "title": "虎子",
+        "slug": "hyakko_tv_2008",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "explicit_desire",
+        "bangumi_ratio": 0.10673665791776028
+      },
+      {
+        "title": "群花绽放，彷如修罗",
+        "slug": "hana_wa_saku_shura_no_gotoku_tv_2025",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.05565843621399177
+      },
+      {
+        "title": "LoveLive! Sunshine!!",
+        "slug": "love_live_sunshine_tv_2016",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.051182628925940284
+      },
+      {
+        "title": "真・恋姬无双～少女大乱～",
+        "slug": "shin_koihime_musou_otome_ran_tv_2010",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.1271276595744681
+      },
+      {
+        "title": "Love Live! Superstar!!",
+        "slug": "love_live_superstar_season_1_tv_2021",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.05895709999189036
+      },
+      {
+        "title": "刀剑神域外传 Gun Gale Online",
+        "slug": "sword_art_online_alternative_gun_gale_online_tv_2018",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "explicit_desire",
+        "bangumi_ratio": 0.013256738842244807
+      },
+      {
+        "title": "森田同学很沉默",
+        "slug": "morita_san_wa_mukuchi_tv_2011",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.0630891950688905
+      },
+      {
+        "title": "失忆融合WIXOSS",
+        "slug": "lostorage_conflated_wixoss_tv_2018",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.08557951482479785
+      },
+      {
+        "title": "真・恋姬无双",
+        "slug": "shin_koihime_musou_tv_2009",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "explicit_desire",
+        "bangumi_ratio": 0.11507479861910241
+      },
+      {
+        "title": "无畏魔女",
+        "slug": "brave_witches_tv_2016",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "explicit_desire",
+        "bangumi_ratio": 0.09751359751359752
+      },
+      {
+        "title": "爱吃拉面的小泉同学",
+        "slug": "ramen_koizumi_tv_2018",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.1007886646170298
+      },
+      {
+        "title": "雏子的笔记",
+        "slug": "hinako_note_tv_2017",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.1082012405237767
+      },
+      {
+        "title": "爆音少女!!",
+        "slug": "bakuon_tv_2016",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "explicit_desire",
+        "bangumi_ratio": 0.07684729064039408
+      },
+      {
+        "title": "世界魔女 起飞！",
+        "slug": "world_witches_hasshin_tv_2021",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.06438127090301003
+      },
+      {
+        "title": "黑岩射手",
+        "slug": "black_rock_shooter_tv_2012",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "explicit_desire",
+        "bangumi_ratio": 0.08960305597076898
+      },
+      {
+        "title": "森田同学很沉默 OVA",
+        "slug": "morita_san_wa_mukuchi_ova_2011",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "explicit_desire",
+        "bangumi_ratio": 0.07909090909090909
+      },
+      {
+        "title": "迦希女王不会放弃",
+        "slug": "jahy_sama_tv_2021",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.017455391776570985
+      },
+      {
+        "title": "极上生徒会",
+        "slug": "gokujou_seitokai_tv_2005",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.10927835051546392
+      },
+      {
+        "title": "歌愈少女",
+        "slug": "healer_girl_tv_2022",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.07596785975164354
+      },
+      {
+        "title": "月影特工",
+        "slug": "release_the_spyce_tv_2018",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.11518753843000615
+      },
+      {
+        "title": "指名！",
+        "slug": "cue_tv_2022",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.04947773501924134
+      },
+      {
+        "title": "转生成为了只有乙女游戏破灭Flag的邪恶大小姐X",
+        "slug": "hamefura_x_tv_2021",
+        "female_centrality": "重要副线",
+        "archive_basis": "work_classification",
+        "explicitness": "explicit_desire",
+        "bangumi_ratio": 0.04279015240328253
+      },
+      {
+        "title": "暂停！让我查攻略",
+        "slug": "pause_let_me_check_walkthrough_web_2022",
+        "female_centrality": "主线",
+        "archive_basis": "reader_interpretation",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.055347091932457786
+      },
+      {
+        "title": "约会大作战 赤黑新章：红或白",
+        "slug": "date_a_bullet_nightmare_queen_ova_2021",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "explicit_desire",
+        "bangumi_ratio": 0.013924050632911392
+      },
+      {
+        "title": "海物语～有你陪伴～",
+        "slug": "umi_monogatari_tv_2009",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.13739946380697052
+      },
+      {
+        "title": "刀使的巫女",
+        "slug": "toji_no_miko_tv_2018",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.11238383401772206
+      },
+      {
+        "title": "失忆煽动WIXOSS",
+        "slug": "lostorage_incited_wixoss_tv_2016",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.09155261915998113
+      },
+      {
+        "title": "侦探歌剧 少女福尔摩斯 TD",
+        "slug": "milky_holmes_td_tv_2015",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.08333333333333333
+      },
+      {
+        "title": "我家师傅没有尾巴",
+        "slug": "my_master_has_no_tail_tv_2022",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.05357142857142857
+      },
+      {
+        "title": "一骑当千 XTREME XECUTOR",
+        "slug": "ikki_tousen_xtreme_xecutor_tv_2010",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.06835799859055673
+      },
+      {
+        "title": "一骑当千 Dragon Destiny",
+        "slug": "ikki_tousen_dragon_destiny_tv_2007",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.049855072463768114
+      },
+      {
+        "title": "恋姬无双",
+        "slug": "koihime_musou_tv_2008",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "explicit_desire",
+        "bangumi_ratio": 0.11215203426124197
+      },
+      {
+        "title": "战翼的希格德莉法",
+        "slug": "sigrdrifa_tv_2020",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.08053040103492885
+      },
+      {
+        "title": "偶像大师 XENOGLOSSIA",
+        "slug": "idolmaster_xenoglossia_tv_2007",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.03781979977753059
+      },
+      {
+        "title": "Love Live! Superstar!! 第三季",
+        "slug": "love_live_superstar_season_3_tv_2024",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.0644789867587795
+      },
+      {
+        "title": "噬魂师NOT！",
+        "slug": "soul_eater_not_tv_2014",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.08945046129161653
+      },
+      {
+        "title": "一骑当千",
+        "slug": "ikki_tousen_tv_2003",
+        "female_centrality": "重要副线",
+        "archive_basis": "reader_interpretation",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.05244299674267101
+      },
+      {
+        "title": "魔法少女特殊战明日香",
+        "slug": "magical_asuka_tv_2019",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.05042016806722689
+      },
+      {
+        "title": "面包带来和平！",
+        "slug": "pan_de_peace_tv_2016",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.11356660527931246
+      },
+      {
+        "title": "圣痕炼金士",
+        "slug": "seikon_no_qwaser_tv_2010",
+        "female_centrality": "主线",
+        "archive_basis": "reader_interpretation",
+        "explicitness": "explicit_desire",
+        "bangumi_ratio": 0.021389645776566758
+      },
+      {
+        "title": "穿透幻影的太阳",
+        "slug": "taiyo_no_oushi_tv_2013",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.06311018131101813
+      },
+      {
+        "title": "末世二轮之旅",
+        "slug": "end_of_world_bicycle_tv_2025",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.04404731940599044
+      },
+      {
+        "title": "简单易懂的现代魔法",
+        "slug": "yoku_wakaru_gendai_mahou_tv_2009",
+        "female_centrality": "主线",
+        "archive_basis": "reader_interpretation",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.031706448165301035
+      },
+      {
+        "title": "绝灭危愚少女",
+        "slug": "amazing_twins_ova_2014",
+        "female_centrality": "主线",
+        "archive_basis": "reader_interpretation",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.08964451313755796
+      },
+      {
+        "title": "魔法纪录 魔法少女小圆外传 2nd SEASON -觉醒前夜-",
+        "slug": "magia_record_s2_tv_2021",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.07473420888055034
+      },
+      {
+        "title": "球咏",
+        "slug": "tamayomi_tv_2020",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.10453216374269006
+      },
+      {
+        "title": "如果烧陶的话也做个马克杯吧",
+        "slug": "yakunara_mug_cup_tv_2021",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.05128205128205128
+      },
+      {
+        "title": "花园里的吸血鬼",
+        "slug": "vampire_in_the_garden_web_2022",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "explicit_desire",
+        "bangumi_ratio": 0.11171366594360087
+      },
+      {
+        "title": "八月的灰姑娘棒球队",
+        "slug": "hachigatsu_no_cinderella_nine_tv_2019",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.09447771124417831
+      },
+      {
+        "title": "魔法少女育成计划",
+        "slug": "mahou_shoujo_ikusei_keikaku_tv_2016",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "explicit_relationship",
+        "bangumi_ratio": 0.045027816411682894
+      },
+      {
+        "title": "苍之彼方的四重奏",
+        "slug": "aokana_tv_2016",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "explicit_desire",
+        "bangumi_ratio": 0.044539755856153086
+      },
+      {
+        "title": "闪乱神乐",
+        "slug": "senran_kagura_tv_2013",
+        "female_centrality": "主线",
+        "archive_basis": "reader_interpretation",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.05337078651685393
+      },
+      {
+        "title": "魔法少女俺",
+        "slug": "mahou_shoujo_ore_tv_2018",
+        "female_centrality": "重要副线",
+        "archive_basis": "work_classification",
+        "explicitness": "explicit_desire",
+        "bangumi_ratio": 0.04874482086278333
+      },
+      {
+        "title": "歌声是千层派",
+        "slug": "utagoe_wa_mille_feuille_tv_2025",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.07004643962848298
+      },
+      {
+        "title": "青春CUP",
+        "slug": "chuu_bra_tv_2010",
+        "female_centrality": "主线",
+        "archive_basis": "reader_interpretation",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.06941838649155722
+      },
+      {
+        "title": "机战少女 Alice Expansion",
+        "slug": "alice_gear_aegis_expansion_tv_2023",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.06198034769463341
+      },
+      {
+        "title": "熊熊勇闯异世界",
+        "slug": "kuma_kuma_kuma_bear_tv_2020",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.09942143727161998
+      },
+      {
+        "title": "除魔维纳斯",
+        "slug": "venus_versus_virus_tv_2007",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.11818181818181818
+      },
+      {
+        "title": "侧车搭档",
+        "slug": "two_car_tv_2017",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.09032943676939426
+      },
+      {
+        "title": "雷加利亚三圣星",
+        "slug": "regalia_the_three_sacred_stars_tv_2016",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.1253145445395068
+      },
+      {
+        "title": "社畜小姐想被幽灵幼女治愈。",
+        "slug": "shachiku_san_wa_youjo_yuurei_ni_iyasaretai_tv_2022",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.04965622612681436
+      },
+      {
+        "title": "京四郎和永远的天空",
+        "slug": "kyoushirou_to_towa_no_sora_tv_2007",
+        "female_centrality": "重要副线",
+        "archive_basis": "work_classification",
+        "explicitness": "explicit_relationship",
+        "bangumi_ratio": 0.07286995515695067
+      },
+      {
+        "title": "天空侵犯",
+        "slug": "tenkuu_shinpan_web_2021",
+        "female_centrality": "重要副线",
+        "archive_basis": "work_classification",
+        "explicitness": "explicit_desire",
+        "bangumi_ratio": 0.06071757129714812
+      },
+      {
+        "title": "铁路浪漫谭",
+        "slug": "rail_romanesque_tv_2020",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.044551475015051176
+      },
+      {
+        "title": "RPG不动产",
+        "slug": "rpg_fudosan_tv_2022",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.10411198600174978
+      },
+      {
+        "title": "碰之道",
+        "slug": "ponnomichi_tv_2024",
+        "female_centrality": "主线",
+        "archive_basis": "reader_interpretation",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.059033989266547404
+      },
+      {
+        "title": "蔚蓝档案 动画版",
+        "slug": "blue_archive_the_animation_tv_2024",
+        "female_centrality": "主线",
+        "archive_basis": "reader_interpretation",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.03880675818373812
+      },
+      {
+        "title": "英雄王，为了穷尽武道而转生～而后，成为世界最强的见习骑士♀～",
+        "slug": "eiyuuou_bu_wo_kiwameru_tame_tenseisu_tv_2023",
+        "female_centrality": "重要副线",
+        "archive_basis": "reader_interpretation",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.06416899163013152
+      },
+      {
+        "title": "原书·原书使",
+        "slug": "maerchen_maedchen_tv_2018",
+        "female_centrality": "主线",
+        "archive_basis": "reader_interpretation",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.08466722830665543
+      },
+      {
+        "title": "黑岩射手：黎明降临",
+        "slug": "black_rock_shooter_dawn_fall_tv_2022",
+        "female_centrality": "重要副线",
+        "archive_basis": "work_classification",
+        "explicitness": "explicit_desire",
+        "bangumi_ratio": 0.041060735671514116
+      },
+      {
+        "title": "保龄球少女！",
+        "slug": "turkey_tv_2025",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "explicit_desire",
+        "bangumi_ratio": 0.053172866520787745
+      }
+    ],
+    "non_romantic_anilist_positive": [
+      {
+        "title": "轻音少女 第二季",
+        "slug": "k_on_second_season_tv_2010",
+        "ani_rank": 33,
+        "bangumi_ratio": 0.008633886473577858
+      },
+      {
+        "title": "轻音少女 剧场版",
+        "slug": "k_on_movie_2011",
+        "ani_rank": 60,
+        "bangumi_ratio": 0.04424778761061947
+      },
+      {
+        "title": "摇曳露营△",
+        "slug": "yuru_camp_tv_2018",
+        "ani_rank": 40,
+        "bangumi_ratio": 0.09432360212771271
+      },
+      {
+        "title": "向阳素描 沙英・寻 毕业篇",
+        "slug": "hidamari_sketch_sae_hiro_graduation_ova_2013",
+        "ani_rank": 20,
+        "bangumi_ratio": 0.07605177993527508
+      },
+      {
+        "title": "蓦然回首",
+        "slug": "look_back_movie_2024",
+        "ani_rank": 48,
+        "bangumi_ratio": 0.002608468828797496
+      },
+      {
+        "title": "魔法少女奈叶 The MOVIE 2nd A's",
+        "slug": "mahou_shoujo_lyrical_nanoha_movie_2nd_as_2012",
+        "ani_rank": 73,
+        "bangumi_ratio": 0.08369704749679076
+      },
+      {
+        "title": "玲音",
+        "slug": "serial_experiments_lain_tv_1998",
+        "ani_rank": 40,
+        "bangumi_ratio": 0.009178117708063262
+      },
+      {
+        "title": "兽娘动物园",
+        "slug": "kemono_friends_tv_2017",
+        "ani_rank": 20,
+        "bangumi_ratio": 0.05450183671939426
+      },
+      {
+        "title": "魔法少女奈叶A's",
+        "slug": "mahou_shoujo_lyrical_nanoha_as_tv_2005",
+        "ani_rank": 56,
+        "bangumi_ratio": 0.0891025641025641
+      },
+      {
+        "title": "向阳素描×☆☆☆",
+        "slug": "hidamari_sketch_hoshimittsu_tv_2010",
+        "ani_rank": 60,
+        "bangumi_ratio": 0.08472432979261507
+      },
+      {
+        "title": "草莓棉花糖 OVA 第1期",
+        "slug": "ichigo_mashimaro_ova_2007",
+        "ani_rank": 10,
+        "bangumi_ratio": 0.04582743988684583
+      },
+      {
+        "title": "少女与战车",
+        "slug": "girls_und_panzer_tv_2012",
+        "ani_rank": 32,
+        "bangumi_ratio": 0.08788348654336028
+      },
+      {
+        "title": "魔法少女奈叶 The MOVIE 1st",
+        "slug": "mahou_shoujo_lyrical_nanoha_movie_1st_2010",
+        "ani_rank": 79,
+        "bangumi_ratio": 0.07982875849911861
+      },
+      {
+        "title": "向阳素描",
+        "slug": "hidamari_sketch_tv_2007",
+        "ani_rank": 44,
+        "bangumi_ratio": 0.0752059925093633
+      },
+      {
+        "title": "歌剧少女!!",
+        "slug": "kageki_shoujo_tv_2021",
+        "ani_rank": 20,
+        "bangumi_ratio": 0.04775499610692967
+      },
+      {
+        "title": "向阳素描 特别篇",
+        "slug": "hidamari_sketch_special_ova_2007",
+        "ani_rank": 20,
+        "bangumi_ratio": 0.07886290692342962
+      },
+      {
+        "title": "魔法少女奈叶",
+        "slug": "mahou_shoujo_lyrical_nanoha_tv_2004",
+        "ani_rank": 75,
+        "bangumi_ratio": 0.08210645526613816
+      },
+      {
+        "title": "魔法少女奈叶 Detonation",
+        "slug": "mahou_shoujo_lyrical_nanoha_detonation_movie_2018",
+        "ani_rank": 66,
+        "bangumi_ratio": 0.08073303615651313
+      },
+      {
+        "title": "BanG Dream! 第二季",
+        "slug": "bang_dream_2nd_season_tv_2019",
+        "ani_rank": 20,
+        "bangumi_ratio": 0.07489626556016597
+      },
+      {
+        "title": "前桥魔女",
+        "slug": "maebashi_witches_tv_2025",
+        "ani_rank": 46,
+        "bangumi_ratio": 0.04797475013150973
+      },
+      {
+        "title": "光之美少女",
+        "slug": "futari_wa_precure_tv_2004",
+        "ani_rank": 57,
+        "bangumi_ratio": 0.04456571168713051
+      },
+      {
+        "title": "Fate/kaleid liner 魔法少女☆伊莉雅 2wei!",
+        "slug": "fate_kaleid_liner_prisma_illya_2wei_tv_2014",
+        "ani_rank": 70,
+        "bangumi_ratio": 0.09941990182954039
+      },
+      {
+        "title": "向山进发",
+        "slug": "yama_no_susume_tv_2013",
+        "ani_rank": 50,
+        "bangumi_ratio": 0.10874755806381593
+      },
+      {
+        "title": "高校舰队",
+        "slug": "high_school_fleet_tv_2016",
+        "ani_rank": 60,
+        "bangumi_ratio": 0.10465116279069768
+      },
+      {
+        "title": "学园孤岛",
+        "slug": "gakkou_gurashi_tv_2015",
+        "ani_rank": 32,
+        "bangumi_ratio": 0.10496012081740526
+      },
+      {
+        "title": "Fate/kaleid liner 魔法少女☆伊莉雅",
+        "slug": "fate_kaleid_liner_prisma_illya_tv_2013",
+        "ani_rank": 79,
+        "bangumi_ratio": 0.08052588331963846
+      },
+      {
+        "title": "千绪的通学路",
+        "slug": "chio_chan_no_tsuugakuro_tv_2018",
+        "ani_rank": 40,
+        "bangumi_ratio": 0.023341836734693876
+      },
+      {
+        "title": "LoveLive！虹咲学园学园偶像同好会 NEXT SKY",
+        "slug": "love_live_nijigasaki_next_sky_ova_2023",
+        "ani_rank": 40,
+        "bangumi_ratio": 0.067062521830248
+      },
+      {
+        "title": "宝石幻想：光芒重现",
+        "slug": "lapis_relights_tv_2020",
+        "ani_rank": 79,
+        "bangumi_ratio": 0.08775852431525992
+      },
+      {
+        "title": "看得见的女孩",
+        "slug": "mieruko_chan_tv_2021",
+        "ani_rank": 20,
+        "bangumi_ratio": 0.0158282920361316
+      },
+      {
+        "title": "空之音",
+        "slug": "sora_no_woto_tv_2010",
+        "ani_rank": 20,
+        "bangumi_ratio": 0.020634314100114636
+      },
+      {
+        "title": "少女爱上姐姐",
+        "slug": "otome_wa_boku_ni_koishiteru_tv_2006",
+        "ani_rank": 20,
+        "bangumi_ratio": 0.08004851425106124
+      },
+      {
+        "title": "白沙的水族馆",
+        "slug": "shiroi_suna_no_aquatope_tv_2021",
+        "ani_rank": 60,
+        "bangumi_ratio": 0.06983455175067334
+      },
+      {
+        "title": "你遭难了吗？",
+        "slug": "sounan_desu_ka_tv_2019",
+        "ani_rank": 50,
+        "bangumi_ratio": 0.0941808596918086
+      },
+      {
+        "title": "裤袜视界",
+        "slug": "miru_tights_web_2019",
+        "ani_rank": 54,
+        "bangumi_ratio": 0.03136531365313653
+      },
+      {
+        "title": "机甲少女 FRAME ARMS GIRL",
+        "slug": "frame_arms_girl_tv_2017",
+        "ani_rank": 20,
+        "bangumi_ratio": 0.06236243580337491
+      },
+      {
+        "title": "竞女",
+        "slug": "keijo_tv_2016",
+        "ani_rank": 58,
+        "bangumi_ratio": 0.07162480376766091
+      },
+      {
+        "title": "BanG Dream!",
+        "slug": "bang_dream_tv_2017",
+        "ani_rank": 60,
+        "bangumi_ratio": 0.07307147912243454
+      },
+      {
+        "title": "遥的接球",
+        "slug": "harukana_receive_tv_2018",
+        "ani_rank": 10,
+        "bangumi_ratio": 0.10257151112395262
+      },
+      {
+        "title": "灵感少女！",
+        "slug": "rekan_tv_2015",
+        "ani_rank": 20,
+        "bangumi_ratio": 0.12153518123667377
+      },
+      {
+        "title": "洲崎西 THE ANIMATION",
+        "slug": "suzakinishi_animation_tv_2015",
+        "ani_rank": 79,
+        "bangumi_ratio": 0.03224419604471195
+      },
+      {
+        "title": "最近，妹妹的样子有点怪？",
+        "slug": "saikin_imouto_no_yousu_tv_2014",
+        "ani_rank": 40,
+        "bangumi_ratio": 0.02538844318066416
+      },
+      {
+        "title": "直至魔女消逝",
+        "slug": "aru_majo_ga_shinu_made_tv_2025",
+        "ani_rank": 40,
+        "bangumi_ratio": 0.011692307692307693
+      }
+    ],
+    "all_three_platforms": [
+      {
+        "title": "少女革命 思春期默示录",
+        "slug": "shoujo_kakumei_utena_adolescence_movie_1999",
+        "explicitness": "explicit_desire",
+        "official_literal_yuri_gl": "所核未见",
+        "official_female_romance_wording": "所核未见",
+        "bangumi_ratio": 0.09624344787419918
+      },
+      {
+        "title": "圣母在上 第3季",
+        "slug": "maria_sama_ga_miteru_ova_2006",
+        "explicitness": "explicit_desire",
+        "official_literal_yuri_gl": "所核未见",
+        "official_female_romance_wording": "是",
+        "bangumi_ratio": 0.1597069597069597
+      },
+      {
+        "title": "终将成为你",
+        "slug": "yagate_kimi_ni_naru_tv_2018",
+        "explicitness": "explicit_relationship",
+        "official_literal_yuri_gl": "是",
+        "official_female_romance_wording": "是",
+        "bangumi_ratio": 0.168993993993994
+      },
+      {
+        "title": "圣母在上 第4季",
+        "slug": "maria_sama_ga_miteru_tv_2009",
+        "explicitness": "explicit_desire",
+        "official_literal_yuri_gl": "所核未见",
+        "official_female_romance_wording": "是",
+        "bangumi_ratio": 0.14867388868135972
+      },
+      {
+        "title": "圣母在上 春",
+        "slug": "maria_sama_ga_miteru_haru_tv_2004",
+        "explicitness": "explicit_desire",
+        "official_literal_yuri_gl": "所核未见",
+        "official_female_romance_wording": "是",
+        "bangumi_ratio": 0.16810792113455553
+      },
+      {
+        "title": "摇曳百合♪♪",
+        "slug": "yuru_yuri_second_season_tv_2012",
+        "explicitness": "explicit_desire",
+        "official_literal_yuri_gl": "是",
+        "official_female_romance_wording": "所核未见",
+        "bangumi_ratio": 0.11923764145324597
+      },
+      {
+        "title": "圣母在上",
+        "slug": "maria_sama_ga_miteru_tv_2004",
+        "explicitness": "explicit_desire",
+        "official_literal_yuri_gl": "所核未见",
+        "official_female_romance_wording": "是",
+        "bangumi_ratio": 0.15332757130509939
+      },
+      {
+        "title": "摇曳百合",
+        "slug": "yuru_yuri_tv_2011",
+        "explicitness": "explicit_desire",
+        "official_literal_yuri_gl": "是",
+        "official_female_romance_wording": "所核未见",
+        "bangumi_ratio": 0.1309183202584218
+      },
+      {
+        "title": "摇曳百合 3☆High!",
+        "slug": "yuru_yuri_san_hai_tv_2015",
+        "explicitness": "explicit_desire",
+        "official_literal_yuri_gl": "是",
+        "official_female_romance_wording": "所核未见",
+        "bangumi_ratio": 0.13335855480942022
+      },
+      {
+        "title": "西蒙",
+        "slug": "simoun_tv_2006",
+        "explicitness": "explicit_desire",
+        "official_literal_yuri_gl": "是",
+        "official_female_romance_wording": "是",
+        "bangumi_ratio": 0.13662171753016322
+      },
+      {
+        "title": "摇曳百合、",
+        "slug": "yuru_yuri_comma_ova_2019",
+        "explicitness": "unknown",
+        "official_literal_yuri_gl": "所核未见",
+        "official_female_romance_wording": "所核未见",
+        "bangumi_ratio": 0.104503926911364
+      },
+      {
+        "title": "我们不可能成为恋人！绝对不行。 (※似乎可行？)",
+        "slug": "watanare_tv_2025",
+        "explicitness": "explicit_desire",
+        "official_literal_yuri_gl": "是",
+        "official_female_romance_wording": "是",
+        "bangumi_ratio": 0.13822093653950462
+      },
+      {
+        "title": "青之花",
+        "slug": "aoi_hana_tv_2009",
+        "explicitness": "explicit_relationship",
+        "official_literal_yuri_gl": "所核未见",
+        "official_female_romance_wording": "是",
+        "bangumi_ratio": 0.16045673076923078
+      },
+      {
+        "title": "对圣母玛利亚保密喔",
+        "slug": "maria_sama_niwa_naisho_ova_2004",
+        "explicitness": "potential_or_strongly_coded",
+        "official_literal_yuri_gl": "所核未见",
+        "official_female_romance_wording": "所核未见",
+        "bangumi_ratio": 0.15083798882681565
+      },
+      {
+        "title": "百合熊风暴",
+        "slug": "yuri_kuma_arashi_tv_2015",
+        "explicitness": "explicit_relationship",
+        "official_literal_yuri_gl": "所核未见",
+        "official_female_romance_wording": "是",
+        "bangumi_ratio": 0.1379544682296976
+      },
+      {
+        "title": "玛利亚狂热",
+        "slug": "maria_holic_tv_2009",
+        "explicitness": "explicit_desire",
+        "official_literal_yuri_gl": "是",
+        "official_female_romance_wording": "是",
+        "bangumi_ratio": 0.09292412617220801
+      },
+      {
+        "title": "上伊那牡丹，酒醉身姿似百合花般",
+        "slug": "kamiina_botan_tv_2026",
+        "explicitness": "explicit_relationship",
+        "official_literal_yuri_gl": "所核未见",
+        "official_female_romance_wording": "所核未见",
+        "bangumi_ratio": 0.1481464079312127
+      },
+      {
+        "title": "轻声密语",
+        "slug": "sasameki_koto_tv_2009",
+        "explicitness": "explicit_relationship",
+        "official_literal_yuri_gl": "所核未见",
+        "official_female_romance_wording": "是",
+        "bangumi_ratio": 0.17697919481221291
+      },
+      {
+        "title": "樱Trick",
+        "slug": "sakura_trick_tv_2014",
+        "explicitness": "explicit_desire",
+        "official_literal_yuri_gl": "所核未见",
+        "official_female_romance_wording": "是",
+        "bangumi_ratio": 0.18042160962703763
+      },
+      {
+        "title": "玛利亚狂热 ALIVE",
+        "slug": "maria_holic_alive_tv_2011",
+        "explicitness": "explicit_desire",
+        "official_literal_yuri_gl": "是",
+        "official_female_romance_wording": "是",
+        "bangumi_ratio": 0.07647938474684897
+      },
+      {
+        "title": "憧憬成为魔法少女",
+        "slug": "mahou_shoujo_ni_akogarete_tv_2024",
+        "explicitness": "explicit_desire",
+        "official_literal_yuri_gl": "所核未见",
+        "official_female_romance_wording": "所核未见",
+        "bangumi_ratio": 0.13736403536670697
+      },
+      {
+        "title": "神无月的巫女",
+        "slug": "kannazuki_no_miko_tv_2004",
+        "explicitness": "explicit_relationship",
+        "official_literal_yuri_gl": "所核未见",
+        "official_female_romance_wording": "所核未见",
+        "bangumi_ratio": 0.19015461169362005
+      },
+      {
+        "title": "惊爆草莓",
+        "slug": "strawberry_panic_tv_2006",
+        "explicitness": "explicit_relationship",
+        "official_literal_yuri_gl": "是",
+        "official_female_romance_wording": "所核未见",
+        "bangumi_ratio": 0.1743002544529262
+      },
+      {
+        "title": "对我垂涎欲滴的非人少女",
+        "slug": "watashi_wo_tabetai_hitodenashi_tv_2025",
+        "explicitness": "potential_or_strongly_coded",
+        "official_literal_yuri_gl": "是",
+        "official_female_romance_wording": "是",
+        "bangumi_ratio": 0.14386734942696902
+      },
+      {
+        "title": "加奈日记",
+        "slug": "kanamemo_tv_2009",
+        "explicitness": "explicit_desire",
+        "official_literal_yuri_gl": "所核未见",
+        "official_female_romance_wording": "是",
+        "bangumi_ratio": 0.12600776351149598
+      },
+      {
+        "title": "你的光芒 ～牵牛花与加濑同学。～",
+        "slug": "asagao_to_kase_san_web_2017",
+        "explicitness": "potential_or_strongly_coded",
+        "official_literal_yuri_gl": "所核未见",
+        "official_female_romance_wording": "是",
+        "bangumi_ratio": 0.16143701682582992
+      },
+      {
+        "title": "迷你百合",
+        "slug": "mini_yuri_web_2019",
+        "explicitness": "unknown",
+        "official_literal_yuri_gl": "所核未见",
+        "official_female_romance_wording": "所核未见",
+        "bangumi_ratio": 0.11894543225015328
+      },
+      {
+        "title": "Happy Sugar Life",
+        "slug": "happy_sugar_life_tv_2018",
+        "explicitness": "explicit_relationship",
+        "official_literal_yuri_gl": "所核未见",
+        "official_female_romance_wording": "是",
+        "bangumi_ratio": 0.15405961865544715
+      },
+      {
+        "title": "暗与帽子与书之旅人",
+        "slug": "yami_to_boushi_to_hon_no_tabibito_tv_2003",
+        "explicitness": "explicit_desire",
+        "official_literal_yuri_gl": "所核未见",
+        "official_female_romance_wording": "是",
+        "bangumi_ratio": 0.1559967585089141
+      },
+      {
+        "title": "BLUE DROP 天使们的戏曲",
+        "slug": "blue_drop_tv_2007",
+        "explicitness": "explicit_relationship",
+        "official_literal_yuri_gl": "所核未见",
+        "official_female_romance_wording": "所核未见",
+        "bangumi_ratio": 0.18930041152263374
+      },
+      {
+        "title": "顺其自然的日子",
+        "slug": "dounika_naru_hibi_movie_2020",
+        "explicitness": "explicit_relationship",
+        "official_literal_yuri_gl": "所核未见",
+        "official_female_romance_wording": "是",
+        "bangumi_ratio": 0.07196495619524405
+      },
+      {
+        "title": "时光碎片",
+        "slug": "fragtime_theatrical_ova_2019",
+        "explicitness": "explicit_relationship",
+        "official_literal_yuri_gl": "所核未见",
+        "official_female_romance_wording": "是",
+        "bangumi_ratio": 0.18933333333333333
+      },
+      {
+        "title": "犬神同学和猫山同学",
+        "slug": "inugami_san_to_nekoyama_san_tv_2014",
+        "explicitness": "potential_or_strongly_coded",
+        "official_literal_yuri_gl": "是",
+        "official_female_romance_wording": "是",
+        "bangumi_ratio": 0.16830332787779595
+      },
+      {
+        "title": "转生王女与天才千金的魔法革命",
+        "slug": "tensei_oujo_to_tensai_reijou_no_mahou_kakumei_tv_2023",
+        "explicitness": "explicit_desire",
+        "official_literal_yuri_gl": "所核未见",
+        "official_female_romance_wording": "是",
+        "bangumi_ratio": 0.18762069315987398
+      },
+      {
+        "title": "女生爱女生",
+        "slug": "kashimashi_girl_meets_girl_tv_2006",
+        "explicitness": "explicit_relationship",
+        "official_literal_yuri_gl": "所核未见",
+        "official_female_romance_wording": "是",
+        "bangumi_ratio": 0.13553826199740596
+      },
+      {
+        "title": "紧扣的星星",
+        "slug": "kuttsukiboshi_ova_2010",
+        "explicitness": "explicit_desire",
+        "official_literal_yuri_gl": "是",
+        "official_female_romance_wording": "是",
+        "bangumi_ratio": 0.2153153153153153
+      },
+      {
+        "title": "我家的女仆太烦人了！",
+        "slug": "maid_dragon_tv_2018",
+        "explicitness": "explicit_desire",
+        "official_literal_yuri_gl": "所核未见",
+        "official_female_romance_wording": "是",
+        "bangumi_ratio": 0.10484090290998097
+      },
+      {
+        "title": "我的百合乃工作是也！",
+        "slug": "watashi_yuri_wa_oshigoto_tv_2023",
+        "explicitness": "explicit_relationship",
+        "official_literal_yuri_gl": "是",
+        "official_female_romance_wording": "是",
+        "bangumi_ratio": 0.18321979204015776
+      },
+      {
+        "title": "citrus～柑橘味香气～",
+        "slug": "citrus_tv_2018",
+        "explicitness": "explicit_relationship",
+        "official_literal_yuri_gl": "是",
+        "official_female_romance_wording": "是",
+        "bangumi_ratio": 0.18540632266985105
+      },
+      {
+        "title": "恶魔之谜",
+        "slug": "akuma_no_riddle_tv_2014",
+        "explicitness": "explicit_desire",
+        "official_literal_yuri_gl": "所核未见",
+        "official_female_romance_wording": "是",
+        "bangumi_ratio": 0.14665471923536438
+      },
+      {
+        "title": "我的推是坏人大小姐。",
+        "slug": "wataoshi_tv_2023",
+        "explicitness": "explicit_desire",
+        "official_literal_yuri_gl": "是",
+        "official_female_romance_wording": "是",
+        "bangumi_ratio": 0.17446074201898187
+      },
+      {
+        "title": "极乐院女子高寮物语",
+        "slug": "gokujou_girls_dorm_tv_2012",
+        "explicitness": "potential_or_strongly_coded",
+        "official_literal_yuri_gl": "所核未见",
+        "official_female_romance_wording": "是",
+        "bangumi_ratio": 0.11515151515151516
+      },
+      {
+        "title": "女武神驱动 美人鱼",
+        "slug": "valkyrie_drive_mermaid_tv_2015",
+        "explicitness": "explicit_desire",
+        "official_literal_yuri_gl": "所核未见",
+        "official_female_romance_wording": "所核未见",
+        "bangumi_ratio": 0.14069905213270142
+      },
+      {
+        "title": "美幸梦游仙境",
+        "slug": "miyuki_wonderland_ova_1995",
+        "explicitness": "explicit_desire",
+        "official_literal_yuri_gl": "所核未见",
+        "official_female_romance_wording": "所核未见",
+        "bangumi_ratio": 0.12239221140472879
+      },
+      {
+        "title": "ICE",
+        "slug": "ice_ova_2007",
+        "explicitness": "explicit_desire",
+        "official_literal_yuri_gl": "所核未见",
+        "official_female_romance_wording": "所核未见",
+        "bangumi_ratio": 0.16587677725118483
+      },
+      {
+        "title": "和机器人啪啪啪能算在经验次数里吗？？",
+        "slug": "android_wa_keiken_ninzuu_ni_hairimasu_ka_tv_2026",
+        "explicitness": "potential_or_strongly_coded",
+        "official_literal_yuri_gl": "是",
+        "official_female_romance_wording": "是",
+        "bangumi_ratio": 0.10863298437262935
+      },
+      {
+        "title": "立花馆恋爱三角铃",
+        "slug": "tachibanakan_to_lie_angle_tv_2018",
+        "explicitness": "explicit_desire",
+        "official_literal_yuri_gl": "是",
+        "official_female_romance_wording": "是",
+        "bangumi_ratio": 0.15554488718194912
+      },
+      {
+        "title": "「凭你也想讨伐魔王？」被勇者小队逐出队伍，只好在王都自在过活",
+        "slug": "omae_gotoki_ga_maou_ni_kateru_tv_2026",
+        "explicitness": "potential_or_strongly_coded",
+        "official_literal_yuri_gl": "是",
+        "official_female_romance_wording": "是",
+        "bangumi_ratio": 0.11564211807668898
+      },
+      {
+        "title": "捏造陷阱 -NTR-",
+        "slug": "netsuzou_trap_ntr_tv_2017",
+        "explicitness": "explicit_desire",
+        "official_literal_yuri_gl": "是",
+        "official_female_romance_wording": "是",
+        "bangumi_ratio": 0.13742744804343757
+      },
+      {
+        "title": "恋语轻唱",
+        "slug": "sasayaku_you_ni_koi_wo_utau_tv_2024",
+        "explicitness": "explicit_relationship",
+        "official_literal_yuri_gl": "是",
+        "official_female_romance_wording": "是",
+        "bangumi_ratio": 0.17523933149440207
+      }
+    ]
+  },
+  "rendering": {
+    "font_filename": "msyh.ttc",
+    "font_sha256": "d79c55e68b1131eea0cc1c47be4f572d964f28c682e143db2ad09c1e4cb07a3f",
+    "bold_font_filename": "msyhbd.ttc",
+    "bold_font_sha256": "4508821b3dffe01f0ef5e5326a3e60df705a44633858811f67b6982dce3f6ee6",
+    "pillow_version": "12.3.0"
+  },
+  "figures": {
+    "dataset_overview": {
+      "path": "assets/yuri_classification_database_patterns/00_dataset_overview.png",
+      "sha256": "f2049e89975c9e4cb587d8e635b5fb45fb3faca613fe13d2cbf349ec580c69f7",
+      "source_sha256": "0e2e389f826d21f3b32a5f6ad6cd597c39c1928eb37a004ff2baecbed2fd5c76",
+      "width": 1800,
+      "height": 1120
+    },
+    "platform_overlap": {
+      "path": "assets/yuri_classification_database_patterns/01_platform_overlap.png",
+      "sha256": "752da41d8764835b8763b4b315d8392aedb42c0c05ccab75eedb388fd3183ea6",
+      "source_sha256": "0e2e389f826d21f3b32a5f6ad6cd597c39c1928eb37a004ff2baecbed2fd5c76",
+      "width": 1800,
+      "height": 1120
+    },
+    "explicitness_gradient": {
+      "path": "assets/yuri_classification_database_patterns/02_explicitness_gradient.png",
+      "sha256": "7a83b232a6d6e7167d2a12e1845f57a1f60319b0e2252610605fcbdca59f725b",
+      "source_sha256": "0e2e389f826d21f3b32a5f6ad6cd597c39c1928eb37a004ff2baecbed2fd5c76",
+      "width": 1800,
+      "height": 1120
+    },
+    "platform_rates": {
+      "path": "assets/yuri_classification_database_patterns/03_platform_rates_by_explicitness.png",
+      "sha256": "a7fd2b7ae65ce783db27f70653ad184f0cecccda6b62827b8aa831c38a682b2b",
+      "source_sha256": "0e2e389f826d21f3b32a5f6ad6cd597c39c1928eb37a004ff2baecbed2fd5c76",
+      "width": 1800,
+      "height": 1120
+    },
+    "bangumi_popularity": {
+      "path": "assets/yuri_classification_database_patterns/04_bangumi_popularity_correction.png",
+      "sha256": "fcd32885254985615f6b0e8f11682b10a275b26ac2006dc6b9d95af38a9180ee",
+      "source_sha256": "0e2e389f826d21f3b32a5f6ad6cd597c39c1928eb37a004ff2baecbed2fd5c76",
+      "width": 1800,
+      "height": 1120
+    },
+    "convergence_and_structure": {
+      "path": "assets/yuri_classification_database_patterns/05_convergence_and_text_structure.png",
+      "sha256": "1fd07f105e5bb49b35cd885fdaec6725516108afcaa5841045b455c2f49f3a69",
+      "source_sha256": "0e2e389f826d21f3b32a5f6ad6cd597c39c1928eb37a004ff2baecbed2fd5c76",
+      "width": 1800,
+      "height": 1120
+    }
+  }
+}
