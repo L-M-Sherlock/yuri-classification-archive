@@ -1,20 +1,20 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-08-06T04:30:46+00:00",
+  "generated_at": "2026-08-06T10:15:16+00:00",
   "site_url": "https://l-m-sherlock.github.io/yuri-classification-archive",
-  "item_count": 667,
+  "item_count": 669,
   "release_selection": {
-    "release_date": "2026-08-04",
-    "selection_sha256": "65a50ff6f075834728c7e1c804e14b8032b437818d9f0a2cb8de350b45bb66d3",
-    "selected_slugs_sha256": "cdf83df1d7ba8a9a17033b791eb307a88f708230da1df49f5c33f073a65a5adc",
+    "release_date": "2026-08-06",
+    "selection_sha256": "1a7dc3dbce9ca3e44e7e69a35dc28c0a8967b679c98cf1c9910c23f1ceb48df0",
+    "selected_slugs_sha256": "13ede4bf21159e3d3344cf3085420707be5b4cfea76295f904ab9803ddeaaa68",
     "source_manifest_sha256": "9ebf89fe3db2d05259d24e7c667e59558be5a1e2259c50ef8fd20a010a933277",
     "candidate_count": 719,
-    "final_complete_count": 667,
-    "excluded_release_count": 52
+    "final_complete_count": 669,
+    "excluded_release_count": 50
   },
   "database_snapshot": {
     "snapshot_date": "2026-08-06",
-    "source_sha256": "817762a89c676d822b6bda2e86dca4f15d2dc694fb301371d45e7a3f02d64976"
+    "source_sha256": "2e7ac7d9b2df74c65e5fbec266b5af22995228e1d8d6866781d88c98664a4cb0"
   },
   "query_semantics": {
     "combination": "and",
@@ -5401,6 +5401,90 @@
       "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/hidamari_sketch_x365_tv_2008/"
     },
     {
+      "slug": "maria_sama_ga_miteru_tv_2004",
+      "title": "圣母在上",
+      "title_original": "マリア様がみてる",
+      "title_romaji": "Maria-sama ga Miteru",
+      "title_english": "Maria Watches Over Us",
+      "release_year": 2004,
+      "medium": {
+        "code": "tv_anime",
+        "label": "TV 动画"
+      },
+      "scope_summary": "2004 first TV season broadcast episodes 1-13；TV Tokyo official episode summaries for episodes 1-13 as paratext；live database genre and community-tag fields only as external labeling evidence",
+      "female_relationship_centrality": {
+        "code": "main",
+        "label": "主线"
+      },
+      "archive_basis": {
+        "code": "work_classification",
+        "label": "作品分类"
+      },
+      "romance_centrality": {
+        "code": "main",
+        "label": "主线"
+      },
+      "highest_romance_explicitness": {
+        "code": "explicit_desire",
+        "label": "明确欲望"
+      },
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_female_romance_wording": {
+        "code": "yes",
+        "label": "是"
+      },
+      "official_source_scopes": [
+        {
+          "code": "in_scope_edition",
+          "label": "当前版本"
+        }
+      ],
+      "official_source_surfaces": [
+        {
+          "code": "story_or_profile",
+          "label": "剧情／角色页"
+        }
+      ],
+      "official_source_summary": "层级：当前版本；位置：剧情／角色页",
+      "identity_evidence_basis": {
+        "code": "explicit_relationship_only",
+        "label": "只有明确关系事实"
+      },
+      "male_romance_line": {
+        "code": "secondary",
+        "label": "副线"
+      },
+      "confidence": {
+        "code": "high",
+        "label": "高"
+      },
+      "classification_date": "2026-07-29",
+      "content_warnings": [
+        "family_arranged_engagement_and_marriage_pressure",
+        "cousins_in_a_central_soeur_relationship",
+        "heart_surgery_and_medical_distress",
+        "adolescent_runaway_plan",
+        "religious_vocation_conflict_with_same_sex_love",
+        "separation_and_severe_emotional_distress"
+      ],
+      "content_warnings_text": "family_arranged_engagement_and_marriage_pressure；cousins_in_a_central_soeur_relationship；heart_surgery_and_medical_distress；adolescent_runaway_plan；religious_vocation_conflict_with_same_sex_love；separation_and_severe_emotional_distress",
+      "quick_queries": {
+        "explicit_relationship": false,
+        "explicit_desire": true,
+        "accepts_unconfirmed": true,
+        "female_relationship_main": true,
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": true
+      },
+      "bangumi_rank": 530,
+      "bangumi_yuri_tag_ratio": 0.15332757130509939,
+      "report_url": "/yuri-classification-archive/works/maria_sama_ga_miteru_tv_2004/",
+      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/maria_sama_ga_miteru_tv_2004/"
+    },
+    {
       "slug": "mahou_shoujo_lyrical_nanoha_as_tv_2005",
       "title": "魔法少女奈叶A's",
       "title_original": "魔法少女リリカルなのはA's",
@@ -7886,6 +7970,79 @@
       "bangumi_yuri_tag_ratio": 0.13662171753016322,
       "report_url": "/yuri-classification-archive/works/simoun_tv_2006/",
       "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/simoun_tv_2006/"
+    },
+    {
+      "slug": "ga_rei_zero_tv_2008",
+      "title": "食灵-零-",
+      "title_original": "喰霊-零-",
+      "title_romaji": "Ga-Rei: Zero",
+      "title_english": "Ga-Rei-Zero",
+      "release_year": 2008,
+      "medium": {
+        "code": "tv_anime",
+        "label": "TV 动画"
+      },
+      "scope_summary": "2008 TV anime episodes 1-12",
+      "female_relationship_centrality": {
+        "code": "main",
+        "label": "主线"
+      },
+      "archive_basis": {
+        "code": "work_classification",
+        "label": "作品分类"
+      },
+      "romance_centrality": {
+        "code": "absent",
+        "label": "缺席"
+      },
+      "highest_romance_explicitness": {
+        "code": "non_romantic",
+        "label": "非恋爱"
+      },
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [],
+      "official_source_surfaces": [],
+      "official_source_summary": "所核来源未含可公开筛选的层级或位置",
+      "identity_evidence_basis": {
+        "code": "no_in_scope_evidence",
+        "label": "范围内无依据"
+      },
+      "male_romance_line": {
+        "code": "secondary",
+        "label": "副线"
+      },
+      "confidence": {
+        "code": "medium",
+        "label": "中"
+      },
+      "classification_date": "2026-08-05",
+      "content_warnings": [
+        "graphic_violence_and_death",
+        "severe_bodily_injury",
+        "family_control_and_succession_conflict",
+        "psychological_manipulation",
+        "minors_in_supernatural_combat"
+      ],
+      "content_warnings_text": "graphic_violence_and_death；severe_bodily_injury；family_control_and_succession_conflict；psychological_manipulation；minors_in_supernatural_combat",
+      "quick_queries": {
+        "explicit_relationship": false,
+        "explicit_desire": false,
+        "accepts_unconfirmed": false,
+        "female_relationship_main": true,
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
+      },
+      "bangumi_rank": 789,
+      "bangumi_yuri_tag_ratio": 0.1174924924924925,
+      "report_url": "/yuri-classification-archive/works/ga_rei_zero_tv_2008/",
+      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/ga_rei_zero_tv_2008/"
     },
     {
       "slug": "akebi_chan_no_sailor_fuku_tv_2022",

@@ -17,8 +17,23 @@ const YuriCatalogFilterLogic = (() => {
   };
   const filterValueAliases = {
     medium: {
+      // V4 keeps historical medium spellings in the catalog.  These values
+      // share one reader-facing category and must therefore produce one
+      // option and one filter result set.
+      anime_tv: "tv_anime",
+      tv: "tv_anime",
       tv_animation: "tv_anime",
+      "TV animation": "tv_anime",
+      "TV ANIME": "tv_anime",
+      "TV series": "tv_anime",
+      tv_short: "tv_short_anime",
       web_animation: "web_anime",
+      WEB: "web_anime",
+      "WEB YouTube": "web_anime",
+      anime_film: "theatrical_movie",
+      theatrical_animation: "theatrical_movie",
+      "剧场版": "theatrical_movie",
+      anime_ova: "ova",
     },
   };
 
