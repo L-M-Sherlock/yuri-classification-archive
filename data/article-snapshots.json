@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-06T03:11:44+00:00",
+  "generated_at": "2026-08-06T04:25:54+00:00",
   "articles": {
     "anime-label-divergence": {
       "snapshot_date": "2026-08-06",
@@ -44,11 +44,11 @@
       "csv_path": "data/articles/anime-label-divergence.csv",
       "analysis_summary": {
         "path": "analysis_summary.json",
-        "sha256": "e18f24ec6edc91afe82743e0c4ac69cfb885dfde97ff2627f4392313b78b96b4"
+        "sha256": "62e88c2742a0ad098ad44f13f3139dade36cc2b647161303be11beaafb2dfebb"
       },
       "publication_manifest": {
         "path": "yuri_classification_publication_manifest_2026-08-06.json",
-        "sha256": "7b898d0ff62c6f4c1e80ec324066bfdfe105b9ecac4450ac1d129789c4eb1a45"
+        "sha256": "38ece7a7b6e80289332383b94118c4e9d3ea6766290d9b7a57949b3fe56ce143"
       },
       "charts": [
         {
@@ -74,18 +74,18 @@
         {
           "id": "bangumi_popularity",
           "path": "assets/articles/anime-label-divergence/04_bangumi_popularity_correction.png",
-          "sha256": "21086205f9ca13e4df4cfec7e3b069ca5bff4f57270773b9d4aada23cf4a5fc6"
+          "sha256": "a8fafb9b53f4a87ef01f01c4e2e9b1e14721ad4e4bacef681d5e95635ee792d6"
         },
         {
           "id": "convergence_and_structure",
           "path": "assets/articles/anime-label-divergence/05_convergence_and_text_structure.png",
-          "sha256": "8dc7aaa21ef6f3a6ef575b3a15e496cb4789a5570c44f9c6012d0ce9006e8212"
+          "sha256": "a33e8645288aa84d69245d9eb9a45e716563ebd1b796e6425c2b3fee2be2435a"
         }
       ],
       "article": {
         "route": "/articles/anime-label-divergence/",
         "title": "从女女关系到百合类型：四个平台画出不同的百合地图",
-        "summary": "以冻结发布选择为边界，比较 Bangumi、Anime-Planet、AniList 与 MyAnimeList 的标签字段，并把数据库信号与逐关系文本判断分开阅读。",
+        "summary": "比较四个平台的标签字段，把数据库信号与逐关系文本判断分开阅读。",
         "history": [],
         "giscus_term": "article:anime-label-divergence"
       }

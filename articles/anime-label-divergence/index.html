@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="以冻结发布选择为边界，比较 Bangumi、Anime-Planet、AniList 与 MyAnimeList 的标签字段，并把数据库信号与逐关系文本判断分开阅读。">
+  <meta name="description" content="比较四个平台的标签字段，把数据库信号与逐关系文本判断分开阅读。">
   <meta name="color-scheme" content="light dark">
   <meta id="theme-color-light" name="theme-color" media="(prefers-color-scheme: light)" content="#f5f0e8">
   <meta id="theme-color-dark" name="theme-color" media="(prefers-color-scheme: dark)" content="#1c181c">
@@ -43,7 +43,7 @@
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="百合作品分类档案">
   <meta property="og:title" content="从女女关系到百合类型：四个平台画出不同的百合地图｜百合作品分类档案">
-  <meta property="og:description" content="以冻结发布选择为边界，比较 Bangumi、Anime-Planet、AniList 与 MyAnimeList 的标签字段，并把数据库信号与逐关系文本判断分开阅读。">
+  <meta property="og:description" content="比较四个平台的标签字段，把数据库信号与逐关系文本判断分开阅读。">
   <meta property="og:url" content="https://l-m-sherlock.github.io/yuri-classification-archive/articles/anime-label-divergence/">
   <meta property="og:image" content="https://l-m-sherlock.github.io/yuri-classification-archive/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
   <title>从女女关系到百合类型：四个平台画出不同的百合地图｜百合作品分类档案</title>
@@ -96,7 +96,7 @@
   <header class="article-header">
     <p class="eyebrow">DATA ESSAY · 冻结样本分析</p>
     <h1>从女女关系到百合类型：四个平台画出不同的百合地图</h1>
-    <p class="article-deck">以冻结发布选择为边界，比较 Bangumi、Anime-Planet、AniList 与 MyAnimeList 的标签字段，并把数据库信号与逐关系文本判断分开阅读。</p>
+    <p class="article-deck">比较四个平台的标签字段，把数据库信号与逐关系文本判断分开阅读。</p>
     <aside class="snapshot-notice"><strong>冻结数据快照</strong><p>本文解释截至 2026-08-06 采集的 667 部合格作品；其范围由发布选择清单固定，不会随未来私有档案自动扩张。</p></aside>
   </header>
   <div class="article-layout">
@@ -106,9 +106,9 @@
     </aside>
     <div class="article-content">
       <blockquote>
-<p><strong>样本范围。</strong> 本文以 Bangumi 动画“百合”标签榜为作品入口，纳入榜单中排名不低于《BanG Dream! Ave Mujica》的动画版本。榜单只证明这些作品被用户纳入“百合”检索路径，不证明其正篇存在女女恋爱，也不代表官方类型认定。专题统计只使用既定发布基线内完成版本核对、文本分类与质量校验的作品；基线外作品不在本次扩容中补入，证据仍不闭合的版本继续隔离。</p>
+<p><strong>样本范围。</strong> 本文以 Bangumi 动画“百合”标签榜为作品入口，纳入榜单中排名不低于《BanG Dream! Ave Mujica》的动画版本。榜单只证明这些作品被用户纳入“百合”检索路径，不证明其正篇存在女女恋爱，也不代表官方类型认定。专题统计只纳入已完成版本核对、文本分类与质量校验的作品；证据仍不闭合的版本暂不纳入统计。</p>
 </blockquote>
-<p>本专题的统一数据日期为 2026 年 8 月 6 日。冻结候选共 719 个动画版本，既定发布基线为其中 693 个；质量复核后 <strong>667 个</strong><!-- -->进入本专题，基线内另有 26 个继续隔离，其余 26 个不在既定发布基线内。同一企划的 TV、电影、OVA、WEB 等版本分别判断，候选边界不吸收此后新增条目。下文的比例、交集、分组、六张图与文末查找表都来自同一份 667 行数据快照。</p>
+<p>本专题的统一数据日期为 2026 年 8 月 6 日。榜单入口共涉及 719 个动画版本，完成质量复核后 <strong>667 个</strong><!-- -->进入本专题，另有 52 个因证据尚未闭合而暂不纳入。同一企划的 TV、电影、OVA、WEB 等版本分别判断；下文的比例、交集、分组、六张图与文末查找表都来自同一份 667 行数据。</p>
 <p>同一部动画在不同数据库里，常会得到看似冲突的结果：Bangumi 有大量用户标“百合”，AniList 的 Yuri 相关度很高，Anime-Planet 却没有 GL，MyAnimeList 也没有 Girls Love。把这理解成四个平台在回答同一道“是不是百合”，问题就会变成一场多数决；先问每个字段服务什么查询，分歧才开始提供信息。</p>
 <p>本项目先把“是不是百合”拆成可观察变量，再追问这些变量在作品、官方材料与检索系统中分别怎样运作。这套方法只提供分析工具，不替任何作品盖章。</p>
 <h2 id="一分钟结论">一分钟结论</h2>
