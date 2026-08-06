@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-06T02:44:28+00:00",
+  "generated_at": "2026-08-06T03:11:44+00:00",
   "articles": {
     "anime-label-divergence": {
       "snapshot_date": "2026-08-06",
@@ -48,7 +48,7 @@
       },
       "publication_manifest": {
         "path": "yuri_classification_publication_manifest_2026-08-06.json",
-        "sha256": "38b9fe046879bae2e43f0625cc703d9ddfdeac3bdeec51d4a094209d4996c8df"
+        "sha256": "7b898d0ff62c6f4c1e80ec324066bfdfe105b9ecac4450ac1d129789c4eb1a45"
       },
       "charts": [
         {
