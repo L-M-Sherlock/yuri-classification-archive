@@ -1,0 +1,491 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="这是一部以女性猫娘共同体为主线组织、但女女恋爱只能作带限定阅读的 TV 动画。 官方介绍将嘉祥开设 La Soleil、巧克力与香草随行、时雨和其他猫娘来店帮忙并置；第 2 话英文字幕也在开店后的段落中记录“everyone came to help”。这足以说明女性角色之间的家庭、协作、照料和竞争关系不是背景……">
+  <meta name="color-scheme" content="light dark">
+  <meta id="theme-color-light" name="theme-color" media="(prefers-color-scheme: light)" content="#f5f0e8">
+  <meta id="theme-color-dark" name="theme-color" media="(prefers-color-scheme: dark)" content="#1c181c">
+  <script>
+    (() => {
+      document.documentElement.classList.add("js");
+      const storageKey = "yuri-classification-theme";
+      const allowed = new Set(["system", "light", "dark"]);
+      let preference = "system";
+      try {
+        const stored = localStorage.getItem(storageKey);
+        if (allowed.has(stored)) preference = stored;
+      } catch (_error) {
+        preference = "system";
+      }
+      const systemDark = window.matchMedia?.("(prefers-color-scheme: dark)").matches;
+      const theme = preference === "system"
+        ? (systemDark ? "dark" : "light")
+        : preference;
+      document.documentElement.dataset.theme = theme;
+      document.documentElement.dataset.themePreference = preference;
+      document.documentElement.style.colorScheme = theme;
+      const lightMeta = document.getElementById("theme-color-light");
+      const darkMeta = document.getElementById("theme-color-dark");
+      if (preference === "system") {
+        lightMeta.content = "#f5f0e8";
+        darkMeta.content = "#1c181c";
+      } else {
+        const color = theme === "dark" ? "#1c181c" : "#f5f0e8";
+        lightMeta.content = color;
+        darkMeta.content = color;
+      }
+    })();
+  </script>
+  <link rel="canonical" href="https://l-m-sherlock.github.io/yuri-classification-archive/works/nekopara_tv_2020/">
+  <link rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="百合作品分类档案">
+  <meta property="og:title" content="《NEKOPARA》分类报告｜百合作品分类档案">
+  <meta property="og:description" content="这是一部以女性猫娘共同体为主线组织、但女女恋爱只能作带限定阅读的 TV 动画。 官方介绍将嘉祥开设 La Soleil、巧克力与香草随行、时雨和其他猫娘来店帮忙并置；第 2 话英文字幕也在开店后的段落中记录“everyone came to help”。这足以说明女性角色之间的家庭、协作、照料和竞争关系不是背景……">
+  <meta property="og:url" content="https://l-m-sherlock.github.io/yuri-classification-archive/works/nekopara_tv_2020/">
+  <meta property="og:image" content="https://l-m-sherlock.github.io/yuri-classification-archive/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+  <title>《NEKOPARA》分类报告｜百合作品分类档案</title>
+  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=e68f78a2d1a9">
+
+</head>
+<body class="classification-report">
+  <a class="skip-link" href="#main-content">跳到正文</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="/yuri-classification-archive/">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>
+          <strong>百合作品分类档案</strong>
+          <small>按查询拆开标签，按证据保留边界</small>
+        </span>
+      </a>
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-navigation"
+      >
+        <span>菜单</span>
+        <span class="menu-toggle-icon" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-navigation" aria-label="主导航">
+        <div class="nav-main">
+          <a href="/yuri-classification-archive/">首页</a>
+          <a href="/yuri-classification-archive/table/">总表</a>
+          <a href="/yuri-classification-archive/articles/">专题</a>
+          <a href="/yuri-classification-archive/about/">方法与说明</a>
+        </div>
+        <a class="nav-star" href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub / Star <span aria-hidden="true">↗</span></a>
+        <a class="nav-feedback" href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
+        <label class="theme-control" for="theme-preference">
+          <span>主题</span>
+          <select id="theme-preference" aria-label="主题偏好">
+            <option value="system">跟随系统</option>
+            <option value="light">浅色</option>
+            <option value="dark">深色</option>
+          </select>
+        </label>
+      </nav>
+    </div>
+  </header>
+  <main id="main-content">
+    <article class="report-page">
+  <header class="report-header">
+    <p class="eyebrow">TV 动画 · 2026-08-03</p>
+    <h1>《NEKOPARA》分类报告</h1>
+    <p class="report-subtitle">2020 年 1 月 9 日至 3 月 26 日播出的电视动画《ネコぱら》正篇第 1–12 话；官方 TV 介绍、人物资料、逐话资料及直接对应此 TV 版的英文字幕文本；Bangumi subject 270274、AniList 106863、MyAnimeList 38924 和 Anime-Planet 精确条目的版本与分类字段</p>
+    <div class="label-strip" aria-label="分类摘要">
+      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>读者解读</span><span class="label-chip"><strong>女女恋爱位置：</strong>重要副线</span><span class="label-chip"><strong>女女关系最高明确度：</strong>潜在／明显但未确认</span><span class="label-chip"><strong>官方字面百合／GL：</strong>所核未见</span><span class="label-chip"><strong>官方女女恋爱表述：</strong>所核未见</span><span class="label-chip"><strong>官方来源：</strong>层级：当前版本；位置：出版载体、剧情／角色页、可见作品宣传</span><span class="label-chip"><strong>结论置信度：</strong>中<span class="inline-help" tabindex="0" aria-label="查看结论置信度说明" aria-describedby="report-confidence-help"><span aria-hidden="true">?</span><span class="term-tooltip" id="report-confidence-help" role="tooltip">表示当前锁定范围内，现有证据对本报告主要分类结论的支持稳定度；它不是百合程度、作品质量、社群共识或统计概率。</span></span></span>
+    </div>
+    <a class="back-link" href="/yuri-classification-archive/table/?q=NEKOPARA">← 返回总表并定位本作</a>
+  </header>
+  <div class="report-layout">
+    <aside class="report-toc">
+      <p>本页目录</p>
+      <ol><li><a href="#低剧透概览">低剧透概览</a></li><li><a href="#数据库与公开分类">数据库与公开分类</a></li><li><a href="#决定性文本证据">决定性文本证据</a></li><li><a href="#四层分析">四层分析</a></li><li><a href="#最强反方解释">最强反方解释</a></li><li><a href="#分用途结论">分用途结论</a></li><li><a href="#方法来源与限制">方法、来源与限制</a></li></ol>
+    </aside>
+    <div class="report-content">
+      <blockquote>
+<p>分类日期：2026-08-03<br> 分类对象：2020 年电视动画《ネコぱら》正篇第 1–12 话<br> 纳入范围：2020-01-09 至 2020-03-26 播出的 TV 正篇、官方 TV 资料，以及逐一对应第 1–12 话的英文字幕文本<br> 排除范围：2017／2018 OVA、视觉小说、续作游戏、漫画、广播、舞台、音乐、宣传短片、粉丝创作、未复核的视频画面与日文原句<br> 用途：普通推荐、数据库分类、严格恋爱检索与角色身份检索</p>
+</blockquote>
+<h2 id="低剧透概览">低剧透概览</h2>
+<aside class="alert alert-note"><strong>说明</strong><div class="alert-content"><p><strong>分类信息提示：</strong> 本节不展开关键剧情、转折与结局，但分类信息本身会透露关系类型、叙事位置和恋爱明确度。希望完全盲看的读者请跳过本页。</p></div></aside>
+
+<p><strong>这是一部以女性猫娘共同体为主线组织、但女女恋爱只能作带限定阅读的 TV 动画。</strong> 官方介绍将嘉祥开设 La Soleil、巧克力与香草随行、时雨和其他猫娘来店帮忙并置；第 2 话英文字幕也在开店后的段落中记录“everyone came to help”。这足以说明女性角色之间的家庭、协作、照料和竞争关系不是背景装饰。</p>
+<p>另一方面，完整的英语字幕并不只含普通合作措辞。巧克力—香草有“always be with you”，枫—桂有“always be by your side”，第 11 话的共同生活段落出现点名的“love”与“always be together”，第 8 话则有群体对时雨的“love you so much”。这些是可审计的<strong>英语翻译文本</strong>，可支持潜在亲密的读者阅读；字幕没有说话人字段，也未复核日文原句、声音或画面，故不能把它们写成已确认的互惠恋爱、官方分类或角色身份。</p>
+<p>本档案的归档依据为<strong>读者解读</strong>，置信度为<strong>中等</strong>：女性关系网络处于主线；具有潜在恋爱／强编码的线索位于重要副线；严格女女恋爱检索不命中。男性店主、饲主与店铺劳动框架明确存在，但现有范围内材料不足以将其稳定压缩为某一种男性恋爱线，字段记为未知。</p>
+<h3 id="分层标签">分层标签</h3>
+<blockquote>
+<p><strong>女女关系层级：主线｜百合归档依据：读者解读｜恋爱位置：重要副线｜最高明确度：潜在或强编码｜关系构成：猫娘共同体、双胞胎亲密、竞争与修复、梦想支持、照料与共同生活｜官方字面：所核 TV 页面未使用“百合／GL”｜官方恋爱表述：人物资料有双胞胎、好感与饲主语境，但没有女女恋爱确认｜官方来源：范围内 TV 介绍、人物资料、逐话资料与播出页｜阅读层级：正篇事实／强推断／读者解读｜身份依据类型：只有关系推断｜男性恋爱线：未知｜内容提示：饲主和店铺劳动关系、围绕男性店主的服务框架、性化笑料、走失幼猫和轻度危险。</strong></p>
+</blockquote>
+<h3 id="严格恋爱检索提示">严格恋爱检索提示</h3>
+<ul>
+<li><strong>只寻找已确认女女交往、互惠告白或身份明示：不纳入。</strong> 已审读的英语翻译能定位亲密措辞，却不足以确认关系名称、互惠程度、日文语义或角色身份。</li>
+<li><strong>接受女性共同体、潜在女女亲密与带限定的读者阅读：可以纳入。</strong> 推荐时应同时写明双胞胎／饲主／店铺劳动语境，以及没有日文与画面复核的证据边界。</li>
+<li><strong>只寻找没有男性店主或主从框架的作品：不纳入。</strong> 嘉祥作为店主的位置、猫娘称其为 master 的文本和服务劳动都可定位；这项提示不等于给任何人确认异性恋配对。</li>
+</ul>
+<h2 id="数据库与公开分类">数据库与公开分类</h2>
+<p>官方资料、英语翻译字幕、社区标签和编辑型数据库各自回答不同问题。官方页面可锁定 2020 TV 版及角色资料；字幕可定位具体英语文本；数据库字段记录某个平台怎样供检索。它们不是对“作品本质”的独立投票。</p>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>来源</th>
+<th>条目与字段</th>
+<th>来源类型</th>
+<th>本报告如何使用</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://nekopara-anime.com/ja/story/introduction.php" target="_blank" rel="noopener noreferrer">TV 动画官方介绍页</a></td>
+<td>嘉祥开设 La Soleil；巧克力、香草、时雨和其他猫娘进入店铺／家庭故事；所核未见百合／GL 字面</td>
+<td>官方版本与宣传资料</td>
+<td>锁定版本、店铺与群体框架；不把温暖日常宣传语改写为恋爱结论</td>
+</tr>
+<tr>
+<td><a href="https://nekopara-anime.com/ja/character/chara_data.php" target="_blank" rel="noopener noreferrer">TV 官方人物资料</a></td>
+<td>巧克力与香草为双胞胎；香草“ショコラが大好き”；巧克力“ご主人様大好き”；时雨为猫娘们的饲主</td>
+<td>官方角色资料</td>
+<td>记录家庭、好感及饲主语境；不让一个“喜欢”字替代恋爱、互惠或身份判断</td>
+</tr>
+<tr>
+<td><a href="https://nekopara-anime.com/ja/php/avex/api.php?mode=45" target="_blank" rel="noopener noreferrer">来源</a></td>
+<td>现有来源结论与版本范围已记录；这一状态不证明正篇不存在相关内容。</td>
+<td>公开资料</td>
+<td>只用于来源、版本与范围边界，不替代正篇证据</td>
+</tr>
+<tr>
+<td><a href="https://animetosho.org/view/nekopara-sub-1080p-english.n1342732" target="_blank" rel="noopener noreferrer">AnimeTosho 精确发布</a></td>
+<td>条目对应 <em>Nekopara (2020)</em>；英语 ASS 连续覆盖第 1–12 话</td>
+<td>公开字幕发布索引</td>
+<td>交叉核验版本、语言与覆盖范围；本报告未复核视频</td>
+</tr>
+<tr>
+<td><a href="https://bangumi.tv/subject/270274" target="_blank" rel="noopener noreferrer">Bangumi subject 270274</a>／<a href="https://api.bgm.tv/v0/subjects/270274" target="_blank" rel="noopener noreferrer">API</a></td>
+<td>2026-08-03 快照：rank 6990，“百合”104；五种收藏状态合计 4,083</td>
+<td>社区数据库／用户标签</td>
+<td>记录中文社区的检索事实；人数和排名不是官方认证或配对投票</td>
+</tr>
+<tr>
+<td><a href="https://anilist.co/anime/106863/Nekopara" target="_blank" rel="noopener noreferrer">AniList 106863</a></td>
+<td>TV、12 话；Yuri 相关度 46，Female Harem 43，Male Protagonist 63</td>
+<td>加权社区标签数据库</td>
+<td>记录该站字段；相关度不是概率、剧情证据或角色身份</td>
+</tr>
+<tr>
+<td><a href="https://myanimelist.net/anime/38924/Nekopara" target="_blank" rel="noopener noreferrer">MyAnimeList 38924</a></td>
+<td>TV、12 话；Slice of Life、Anthropomorphic；未列 Girls Love</td>
+<td>编辑型数据库</td>
+<td>记录字段状态；未列字段不否定文本阅读</td>
+</tr>
+<tr>
+<td><a href="https://www.anime-planet.com/anime/nekopara-tv" target="_blank" rel="noopener noreferrer">Anime-Planet NEKOPARA TV 12679</a></td>
+<td>精确条目为 TV、12 话、2020；完整 Tags 面板列出 Comedy、Slice of Life、Animal Characteristics、Cafe、Based on an Eroge、Based on a Visual Novel，未列 GL</td>
+<td>编辑型标签数据库</td>
+<td>锁定 2020 TV 而非同名 2017 OVA；平台未列 GL 不能替代文本关系判断</td>
+</tr>
+</tbody>
+</table></div>
+<p>Bangumi 的比例按“百合”标签人数除以想看、看过、在看、搁置与抛弃五种状态之和：104 ÷ 4,083 ≈ 2.55%。这个日期快照说明一部分用户如何使用标签；它不能回答每位标记者依据哪一组角色，也不能取代文本关系分析。</p>
+<aside class="alert alert-warning"><strong>剧透提示</strong><div class="alert-content"><p><strong>以下部分包含第 1–12 话的关系事件、台词位置和结局共同体信息。</strong></p></div></aside>
+
+      <details class="spoiler-panel">
+        <summary>
+          <span>展开详细证据（含完整剧透）</span>
+          <small>决定性证据、四层分析、反方解释与方法限制</small>
+        </summary>
+        <div class="spoiler-content">
+          <h2 id="决定性文本证据">决定性文本证据</h2>
+<p>本报告使用与 2020 TV 版逐话对应的英语 ASS 字幕文本，连续覆盖第 1–12 话。字幕没有说话人字段，本报告也未复核视频；时间码只定位英语字幕文本，不能确认画面、声音或日文原句。因此，下表不把未点名的句子归给特定说话人，也不把英语翻译冒充日文原句。</p>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>位置</th>
+<th>原文与中文摘要</th>
+<th>叙事层级</th>
+<th>证据强度与视听复核</th>
+<th>能证明什么</th>
+<th>不能证明什么</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://nekopara-anime.com/ja/story/introduction.php" target="_blank" rel="noopener noreferrer">官方介绍页</a></td>
+<td>嘉祥开店，巧克力与香草随行，时雨和其他猫娘来帮忙；本作被介绍为与人型猫共同生活的故事。</td>
+<td>官方版本／宣传</td>
+<td>直接日文资料；未作画面复核</td>
+<td>店铺、猫娘群体和男性店主都在范围内</td>
+<td>官方百合／GL 分类、任何一对的恋爱或身份</td>
+</tr>
+<tr>
+<td><a href="https://nekopara-anime.com/ja/character/chara_data.php" target="_blank" rel="noopener noreferrer">官方人物资料</a></td>
+<td>香草“ショコラが大好き”，且两人为双胞胎；巧克力“ご主人様大好き”；时雨是猫娘们的饲主。</td>
+<td>官方角色资料</td>
+<td>直接日文资料</td>
+<td>好感、双胞胎和饲主语境确实被官方写出</td>
+<td>将“大好き”机械翻为恋爱或非恋爱；互惠交往与性取向</td>
+</tr>
+<tr>
+<td>第 2 话英文字幕，00:11:43.200–00:12:29.120</td>
+<td>“It was right after the store opened, and everyone came to help.”、“Chocola will help lots and lots…”、“Same here.”</td>
+<td>正篇字幕文本</td>
+<td>英语翻译；无说话人、日文或画面复核</td>
+<td>开店后的群体协作线索</td>
+<td>逐一确定成员、私人配对或恋爱状态</td>
+</tr>
+<tr>
+<td>第 2 话英文字幕，00:21:15.620–00:21:34.000</td>
+<td>“Chocola, I’ll always be with you.”，随后互道晚安。</td>
+<td>正篇字幕文本</td>
+<td>英语翻译；无说话人／画面复核</td>
+<td>可定位的安慰与陪伴文本</td>
+<td>双胞胎关系必然等于恋爱、双方互惠或正式交往</td>
+</tr>
+<tr>
+<td>第 6 话英文字幕，00:19:00.660–00:19:44.250</td>
+<td>“Are you okay? Are you hurt anywhere?”、“…trying to make sure I wouldn’t hurt myself…?”、“Azuki 救了我。”</td>
+<td>正篇字幕文本</td>
+<td>英语翻译；无说话人／画面复核</td>
+<td>椰子—红豆竞争后的保护与修复线索</td>
+<td>仅凭保护行为确认或否定恋爱</td>
+</tr>
+<tr>
+<td>第 9 话英文字幕，00:19:48.200–00:20:11.950</td>
+<td>“Can I always be by your side, Maple-chan?”、“If you’re afraid, I’ll give you a hand.”</td>
+<td>正篇字幕文本</td>
+<td>英语翻译；无说话人／画面复核</td>
+<td>梦想场景中的陪伴、支持和潜在亲密阅读</td>
+<td>互惠恋爱、日文的精确语气或身份</td>
+</tr>
+<tr>
+<td>第 11 话英文字幕，00:19:15.700–00:21:01.910</td>
+<td>“you want me to stay with you here”、“Chocola, Vanilla, I love you.”、“We’ll always be together.”</td>
+<td>正篇字幕文本</td>
+<td>英语翻译；无说话人／画面复核</td>
+<td>照料、共同生活和 love 的可定位文本</td>
+<td>群体对象中的每一条配对、正式恋爱或告白结果</td>
+</tr>
+<tr>
+<td>第 8 话英文字幕，00:18:40.410–00:19:15.200</td>
+<td>“We’re all worried about you!”、“You’ve taken such great care of me…”、“love you so much for that!”</td>
+<td>正篇字幕文本</td>
+<td>英语翻译；无说话人／画面复核</td>
+<td>猫娘群体与时雨之间的相互照料与依恋线索</td>
+<td>家庭／饲主语境已被恋爱取代，或恋爱不存在</td>
+</tr>
+<tr>
+<td>第 2 话英文字幕，00:11:25.910–00:13:33.580</td>
+<td>“we are our master’s cats”、“Because he is our master.”</td>
+<td>正篇字幕文本</td>
+<td>英语翻译；无说话人／画面复核</td>
+<td>男性店主／饲主与猫娘劳动、照料框架</td>
+<td>嘉祥与任一猫娘已确认恋爱，或男性恋爱线可被定为无</td>
+</tr>
+</tbody>
+</table></div>
+<p>现有来源结论与版本范围已记录；这一状态不证明正篇不存在相关内容。</p>
+<h2 id="四层分析">四层分析</h2>
+<h3 id="第一层文本中的关系">第一层：文本中的关系</h3>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>关系 ID</th>
+<th>关系／参与者</th>
+<th>类型</th>
+<th>叙事位置</th>
+<th>恋爱明确度</th>
+<th>相互性</th>
+<th>证据层级</th>
+<th>摘要</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>r01</td>
+<td>Minaduki 家猫娘群体与 La Soleil</td>
+<td>家庭、友情、搭档、共同体</td>
+<td>主线</td>
+<td>未知</td>
+<td>未知</td>
+<td>正篇事实／强推断</td>
+<td>官方介绍和第 2 话字幕都可定位店铺协作与女性群体位置；不逐一命名亲密关系。</td>
+</tr>
+<tr>
+<td>r02</td>
+<td>巧克力—香草</td>
+<td>亲情、友情、潜在恋爱阅读</td>
+<td>重要副线</td>
+<td>潜在或强编码</td>
+<td>未知</td>
+<td>正篇事实／强推断／读者解读</td>
+<td>双胞胎资料、“大好き”与“always be with you”并存；不能从其中任一项推出互惠恋爱。</td>
+</tr>
+<tr>
+<td>r03</td>
+<td>椰子—红豆</td>
+<td>亲情、竞争、友情</td>
+<td>重要副线</td>
+<td>未知</td>
+<td>未知</td>
+<td>强推断</td>
+<td>比赛后的保护和修复可定位；恋爱状态不由此推出。</td>
+</tr>
+<tr>
+<td>r04</td>
+<td>枫—桂</td>
+<td>友情、搭档、潜在恋爱阅读</td>
+<td>重要副线</td>
+<td>潜在或强编码</td>
+<td>未知</td>
+<td>强推断／读者解读</td>
+<td>“always be by your side”与帮助承诺使潜在亲密阅读有文本入口。</td>
+</tr>
+<tr>
+<td>r05</td>
+<td>巧克力—可可</td>
+<td>照料、选择家庭、潜在恋爱阅读</td>
+<td>重要副线</td>
+<td>潜在或强编码</td>
+<td>未知</td>
+<td>强推断／读者解读</td>
+<td>第 11 话的共同生活与 love 语句是群体文本，不能机械缩成单一配对。</td>
+</tr>
+<tr>
+<td>r06</td>
+<td>猫娘们—时雨</td>
+<td>家庭、照料、共同体</td>
+<td>重要副线</td>
+<td>未知</td>
+<td>未知</td>
+<td>正篇事实／强推断</td>
+<td>饲主资料和相互照料／love 文本并存，关系名称仍不确定。</td>
+</tr>
+<tr>
+<td>r07</td>
+<td>猫娘们—嘉祥</td>
+<td>店铺搭档、照料、主从／服务</td>
+<td>重要副线</td>
+<td>未知</td>
+<td>未知</td>
+<td>正篇事实／强推断</td>
+<td>master 语句和官方介绍可定位男性店主框架；它不进入女女恋爱聚合。</td>
+</tr>
+</tbody>
+</table></div>
+<p>r02、r04 和 r05 不是“隐藏的情侣确认”，也不是可以被一句“只是家人”清空的材料。现有英语字幕把陪伴、共同生活、love 和特定角色名放在可定位段落中，官方人物资料又提供双胞胎与好感词的语境。它们共同支持的是<strong>潜在／强编码的阅读入口</strong>；谁说了每一句、日文怎样措辞、对方是否回应以及关系是否制度化，仍须保留为未知。</p>
+<p>r03 与 r06 提醒另一面：保护、担心、照料和爱语可以发生在竞争、家庭或饲主关系中。记录这些线索不是把它们降格为无关，也不是把它们自动升格为恋爱。真正可复核的做法，是保留文本的位置、关系形态和推断强度，让不同检索目的可以使用同一组材料而不互相覆盖。</p>
+<h3 id="第二层作品的文类位置">第二层：作品的文类位置</h3>
+<p>若查询的是“女性角色之间的关系是否持续组织日常与单集冲突”，本作可以命中：店铺协作、双胞胎互动、竞争修复、梦想支持、照料可可和照料时雨共同构成女女群像的骨架。若查询的是“官方或正篇是否已确证一条女女恋爱关系”，则不应把本作当作命中：所核官方 TV 页面没有百合／GL 字面，英语翻译也无法独立提供日文层面的关系确认。</p>
+<p>因此“读者解读”不是把任何女性群像塞进同一格。它服务于一个较窄而可说明的查询：想寻找有女性共同体主线、并愿意阅读陪伴／love／共同生活等潜在亲密线索的观众，可以找到本作；只想找明确女女情侣或官方 GL 的观众则会得到不合预期的结果。男性店主、饲主和服务劳动框架也应与这条阅读一同显示，而不是被标签掩盖。</p>
+<h3 id="第三层角色身份">第三层：角色身份</h3>
+<p>本范围内没有角色对女同性恋、双性恋、异性恋或其他性取向的自我说明，也没有官方 TV 身份资料。香草对巧克力的“ショコラが大好き”、猫娘对时雨的 love、巧克力对 master 的好感与平台的 Yuri／Female Harem 标签，分别是关系用词、英语翻译文本或数据库字段；它们不能彼此接力，替角色填写身份栏。</p>
+<p>身份字段因此为“未知／只有关系推断”。这不否定任何观众将某位角色理解为酷儿的阅读，也不把家人、饲主、服务或潜在恋爱阅读压进性取向诊断。档案只对 2020 TV 第 1–12 话负责，其他媒介的设定不能用来填补这里的空白。</p>
+<h3 id="第四层公共标签礼仪">第四层：公共标签礼仪</h3>
+<ul>
+<li><strong>官方查询。</strong> 应写“所核 TV 官方页面未使用百合／GL 字面；人物资料同时有双胞胎、好感和饲主语境”，而不是把官方沉默写成对读者阅读的否定。</li>
+<li><strong>数据库查询。</strong> Bangumi 的百合标签和 AniList 的 Yuri 46 是公共检索线索；MAL 未列 Girls Love，Anime-Planet 的 2020 TV 精确页亦未列 GL。它们都只是平台字段，不是恋爱判决。</li>
+<li><strong>普通推荐。</strong> 推荐语宜写“猫娘甜品店日常，女性共同体主线，含潜在女女亲密阅读；同时有男性店主、饲主和服务框架”。单写“官方百合”或“完全没有女女线”都会压掉可复核信息。</li>
+<li><strong>严格与私人用途。</strong> 严格恋爱检索应排除；私人阅读可以保留 r02、r04、r05 的线索，但应附上英语翻译、无说话人标记和无画面复核的限制。</li>
+</ul>
+<h2 id="最强反方解释">最强反方解释</h2>
+<p>最有力的保留意见是：<strong>本作首先是以嘉祥开店、猫娘作为家庭成员与店铺劳动者为前提的日常／服务性喜剧，双胞胎和群体亲密首先有家庭、饲主及伙伴语境。</strong> 这一意见确实能阻止把“love”“always”或一个拥抱类场景直接翻译成情侣确认，也能解释为何官方页面没有把 TV 版写为百合／GL。对于明确交往检索，本报告接受这条限制。</p>
+<p>但它不能把已有的英语文本反向改写为“没有爱语、陪伴或共同生活线索”。第 9、11、8 话的措辞可被复核；第 2 话的双胞胎陪伴与官方“大好き”也可被复核。更准确的结论不是二选一，而是：这些材料足以让读者进入带限定的女女亲密阅读，却不足以把阅读提升为官方结论、互惠恋爱或身份诊断。</p>
+<p>相反的过度扩张也应拒绝。AniList 的 Yuri 46、Bangumi 的 104 个标签、猫娘全女群像或单个 love 词都不是独立票数；它们可能服务不同的检索习惯，也可能共享同一套文本印象。把相互关联的线索累加成“已确认情侣”，会制造比材料更强的结论。</p>
+<h2 id="分用途结论">分用途结论</h2>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>用途</th>
+<th>分类</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>普通作品推荐</td>
+<td>猫娘甜品店／家庭日常喜剧；女性共同体处于主线，存在可说明的潜在女女亲密阅读，同时应提示男性店主、饲主与服务框架。</td>
+</tr>
+<tr>
+<td>数据库主标签</td>
+<td>读者解读入口；可并列日常、喜剧、猫娘、女性共同体、潜在女女亲密、店铺劳动与主从／服务框架。</td>
+</tr>
+<tr>
+<td>严格明确恋爱检索</td>
+<td>不纳入：英语翻译中的亲密措辞不足以确认互惠交往、正式恋爱或日文层面的告白。</td>
+</tr>
+<tr>
+<td>私人百合阅读</td>
+<td>可纳入有说明的候选：重点是巧克力—香草、枫—桂、巧克力—可可及猫娘群体的陪伴、love 与共同生活线索。</td>
+</tr>
+<tr>
+<td>角色身份检索</td>
+<td>未知／只有关系推断；不从字幕翻译、官方好感词或数据库标签推出性取向身份。</td>
+</tr>
+<tr>
+<td>官方分类查询</td>
+<td>所核 TV 官方页面未使用百合／GL 字面；人物资料有双胞胎、好感和饲主表述，但没有女女恋爱确认。</td>
+</tr>
+<tr>
+<td>无男性中心框架检索</td>
+<td>不纳入：男性店主、master 称呼及猫娘的店铺劳动／照料框架可定位；其恋爱线仍为未知。</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>可复制标签：</strong></p>
+<blockquote>
+<p><strong>女女关系主线｜读者解读入口｜潜在女女亲密（英语字幕限定）｜猫娘日常／店铺共同体｜男性店主与饲主框架｜严格恋爱：不命中｜角色身份：未知｜官方字面百合／GL：所核未见。</strong></p>
+</blockquote>
+<h2 id="方法来源与限制">方法、来源与限制</h2>
+<ol type="1">
+<li>现有来源结论与版本范围已记录；这一状态不证明正篇不存在相关内容。</li>
+<li>现有来源结论与版本范围已记录；这一状态不证明正篇不存在相关内容。</li>
+<li><strong>文本边界。</strong> 英语 ASS 是翻译，且没有说话人字段。时间码只能定位英文字幕文本，不能确认日文原句、说话人、动作、表情、镜头、身体接触先后或沉默含义。英文的 love、always 和 family 也不应被单向换算为固定关系类别。</li>
+<li>现有来源结论与版本范围已记录；这一状态不证明正篇不存在相关内容。</li>
+<li><strong>可修订条件。</strong> 若范围内出现可审计的日文字幕或合法、可复核画面材料，应优先核对第 2、8、9、11 话的说话人和日文语气；新材料既可能削弱也可能加强任何一条潜在阅读，不能预设方向。</li>
+</ol>
+
+        </div>
+      </details>
+    </div>
+  </div>
+</article>
+
+<section class="feedback-section">
+  <div>
+    <p class="eyebrow">REPORT FEEDBACK</p>
+    <h2>提交可核查的修订建议</h2>
+    <p>请注明作品版本、集数／章节、要质疑的原句、可公开核查的来源，以及建议如何修订。评论属于待核查反馈，不会自动成为报告证据。</p>
+  </div>
+  <div class="giscus"></div>
+<div class="giscus-config"
+        hidden
+        data-repo="L-M-Sherlock/yuri-classification-archive"
+        data-repo-id="R_kgDOTo1RzA"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOTo1RzM4DCXAh"
+        data-mapping="specific"
+        data-term="classification:nekopara_tv_2020"
+        data-strict="1"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-lang="zh-CN"
+        data-loading="lazy"
+        aria-hidden="true"></div>
+</section>
+
+  </main>
+  <footer class="site-footer">
+    <div>
+      <p>分类是面向具体查询的检索工具，不是替作品关系作终审判决。</p>
+      <p class="footer-ai-note">本站使用以 OpenAI Codex 为主的生成式 AI 辅助研究、写作与站点开发；人工审阅未覆盖全部作品报告。<a href="/yuri-classification-archive/about/#AI使用说明">查看 AI 使用说明</a></p>
+      <p>© 2026 Jarrett Ye · <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="license noopener noreferrer">CC BY-NC-SA 4.0</a> · <a href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub 仓库</a> · <a href="/yuri-classification-archive/about/#使用边界">使用边界</a></p>
+    </div>
+  </footer>
+  <script>window.SITE_CONFIG = {basePath: "/yuri-classification-archive"};</script>
+  <script src="/yuri-classification-archive/assets/site.js?v=eeeec5872796" defer></script>
+
+</body>
+</html>

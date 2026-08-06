@@ -1,0 +1,461 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="按本项目的开放工作定义，《红白黑黄》第四季属于女女关系主线、按作品分类归档的百合作品主类，置信度为中等。 这一卷从 Beacon 沦陷后的分离开始：Ruby、Weiss、Blake、Yang 各自面对不同的家庭、创伤和政治处境。四人的关系不再以同一地点的日常互动呈现，而是通过照片、书信、回忆、既有相识和“希望……">
+  <meta name="color-scheme" content="light dark">
+  <meta id="theme-color-light" name="theme-color" media="(prefers-color-scheme: light)" content="#f5f0e8">
+  <meta id="theme-color-dark" name="theme-color" media="(prefers-color-scheme: dark)" content="#1c181c">
+  <script>
+    (() => {
+      document.documentElement.classList.add("js");
+      const storageKey = "yuri-classification-theme";
+      const allowed = new Set(["system", "light", "dark"]);
+      let preference = "system";
+      try {
+        const stored = localStorage.getItem(storageKey);
+        if (allowed.has(stored)) preference = stored;
+      } catch (_error) {
+        preference = "system";
+      }
+      const systemDark = window.matchMedia?.("(prefers-color-scheme: dark)").matches;
+      const theme = preference === "system"
+        ? (systemDark ? "dark" : "light")
+        : preference;
+      document.documentElement.dataset.theme = theme;
+      document.documentElement.dataset.themePreference = preference;
+      document.documentElement.style.colorScheme = theme;
+      const lightMeta = document.getElementById("theme-color-light");
+      const darkMeta = document.getElementById("theme-color-dark");
+      if (preference === "system") {
+        lightMeta.content = "#f5f0e8";
+        darkMeta.content = "#1c181c";
+      } else {
+        const color = theme === "dark" ? "#1c181c" : "#f5f0e8";
+        lightMeta.content = color;
+        darkMeta.content = color;
+      }
+    })();
+  </script>
+  <link rel="canonical" href="https://l-m-sherlock.github.io/yuri-classification-archive/works/rwby_volume_4_web_2016/">
+  <link rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="百合作品分类档案">
+  <meta property="og:title" content="《红白黑黄 第四季》分类报告｜百合作品分类档案">
+  <meta property="og:description" content="按本项目的开放工作定义，《红白黑黄》第四季属于女女关系主线、按作品分类归档的百合作品主类，置信度为中等。 这一卷从 Beacon 沦陷后的分离开始：Ruby、Weiss、Blake、Yang 各自面对不同的家庭、创伤和政治处境。四人的关系不再以同一地点的日常互动呈现，而是通过照片、书信、回忆、既有相识和“希望……">
+  <meta property="og:url" content="https://l-m-sherlock.github.io/yuri-classification-archive/works/rwby_volume_4_web_2016/">
+  <meta property="og:image" content="https://l-m-sherlock.github.io/yuri-classification-archive/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+  <title>《红白黑黄 第四季》分类报告｜百合作品分类档案</title>
+  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=e68f78a2d1a9">
+
+</head>
+<body class="classification-report">
+  <a class="skip-link" href="#main-content">跳到正文</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="/yuri-classification-archive/">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>
+          <strong>百合作品分类档案</strong>
+          <small>按查询拆开标签，按证据保留边界</small>
+        </span>
+      </a>
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-navigation"
+      >
+        <span>菜单</span>
+        <span class="menu-toggle-icon" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-navigation" aria-label="主导航">
+        <div class="nav-main">
+          <a href="/yuri-classification-archive/">首页</a>
+          <a href="/yuri-classification-archive/table/">总表</a>
+          <a href="/yuri-classification-archive/articles/">专题</a>
+          <a href="/yuri-classification-archive/about/">方法与说明</a>
+        </div>
+        <a class="nav-star" href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub / Star <span aria-hidden="true">↗</span></a>
+        <a class="nav-feedback" href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
+        <label class="theme-control" for="theme-preference">
+          <span>主题</span>
+          <select id="theme-preference" aria-label="主题偏好">
+            <option value="system">跟随系统</option>
+            <option value="light">浅色</option>
+            <option value="dark">深色</option>
+          </select>
+        </label>
+      </nav>
+    </div>
+  </header>
+  <main id="main-content">
+    <article class="report-page">
+  <header class="report-header">
+    <p class="eyebrow">WEB 动画 · 2026-08-04</p>
+    <h1>《红白黑黄 第四季》分类报告</h1>
+    <p class="report-subtitle">2016-10-22 至 2017-02-04 在 Rooster Teeth 网站首发的 Volume 4 正式第 1–12 章；仅纳入 Volume 4 原版 WEB 章节及其正篇对白、动作和叙事结构</p>
+    <div class="label-strip" aria-label="分类摘要">
+      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>女女恋爱位置：</strong>未知</span><span class="label-chip"><strong>女女关系最高明确度：</strong>未知</span><span class="label-chip"><strong>官方字面百合／GL：</strong>所核未见</span><span class="label-chip"><strong>官方女女恋爱表述：</strong>所核未见</span><span class="label-chip"><strong>官方来源：</strong>层级：当前版本；位置：可见作品宣传</span><span class="label-chip"><strong>结论置信度：</strong>中<span class="inline-help" tabindex="0" aria-label="查看结论置信度说明" aria-describedby="report-confidence-help"><span aria-hidden="true">?</span><span class="term-tooltip" id="report-confidence-help" role="tooltip">表示当前锁定范围内，现有证据对本报告主要分类结论的支持稳定度；它不是百合程度、作品质量、社群共识或统计概率。</span></span></span>
+    </div>
+    <a class="back-link" href="/yuri-classification-archive/table/?q=%E7%BA%A2%E7%99%BD%E9%BB%91%E9%BB%84%20%E7%AC%AC%E5%9B%9B%E5%AD%A3">← 返回总表并定位本作</a>
+  </header>
+  <div class="report-layout">
+    <aside class="report-toc">
+      <p>本页目录</p>
+      <ol><li><a href="#低剧透概览">低剧透概览</a></li><li><a href="#数据库与公开分类">数据库与公开分类</a></li><li><a href="#决定性文本证据">决定性文本证据</a></li><li><a href="#四层分析">四层分析</a></li><li><a href="#最强反方解释">最强反方解释</a></li><li><a href="#分用途结论">分用途结论</a></li><li><a href="#方法来源与限制">方法、来源与限制</a></li></ol>
+    </aside>
+    <div class="report-content">
+      <blockquote>
+<p>分类日期：2026-08-04<br> 分类对象：2016 年美国 WEB 动画《RWBY Volume 4》<br> 纳入范围：2016-10-22 至 2017-02-04 发布的正式第 1–12 章<br> 排除范围：Volume 4 Character Short、预告片、制作日志、World of Remnant 补充短片、宣传歌曲、Complete 电影版、其他各卷、2017 年电视再剪辑版，以及漫画、小说、游戏、舞台、访谈和粉丝配对讨论等跨媒介材料<br> 用途：普通推荐、数据库分类与分用途检索</p>
+</blockquote>
+<h2 id="低剧透概览">低剧透概览</h2>
+<aside class="alert alert-note"><strong>说明</strong><div class="alert-content"><p><strong>分类信息提示：</strong> 本节不展开关键剧情、转折与结局，但分类信息本身会透露关系类型、叙事位置和恋爱明确度。希望完全盲看的读者请跳过本页。</p></div></aside>
+
+<p><strong>按本项目的开放工作定义，《红白黑黄》第四季属于女女关系主线、按作品分类归档的百合作品主类，置信度为中等。</strong> 这一卷从 Beacon 沦陷后的分离开始：Ruby、Weiss、Blake、Yang 各自面对不同的家庭、创伤和政治处境。四人的关系不再以同一地点的日常互动呈现，而是通过照片、书信、回忆、既有相识和“希望 Team RWBY 重新在一起”的愿望贯穿结构。</p>
+<p><strong>如果检索目标是明确的女女交往、告白、接吻或身份自述，本卷当前不作为命中。</strong> Blake 与 Ilia 的既有相识和政治对立、Blake 与母亲 Kali 的重聚、Ruby 与 Yang 的姐妹牵挂，以及 Team RWBY 的共同体都得到正篇描写；所核公开文字材料不足以确认明确女女交往或身份明示。Blake 与 Sun 的异性亲密和追求语境也在范围内，因此不能把本卷宣传成排除男性恋爱线的女女恋爱作品。</p>
+<h3 id="分层标签">分层标签</h3>
+<blockquote>
+<p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：未知｜最高明确度：未知｜关系构成：Team RWBY 女女团队主线＋Blake—Ilia 既有相识与政治分歧＋Blake—Kali 母女关系＋Ruby—Yang 姐妹关系｜官方字面：所核未见｜官方恋爱表述：所核未见｜官方来源：范围内版本·可见宣传｜阅读层级：正篇事实＋强推断＋读者解读｜身份依据类型：范围内无身份依据｜男性恋爱线：副线｜内容提示：战斗、角色死亡、失去手臂、残障适应、创伤噩梦、Faunus 歧视、White Fang 政治暴力、暗杀计划、家庭控制、悲伤与分离。</strong></p>
+</blockquote>
+<h3 id="严格恋爱检索提示">严格恋爱检索提示</h3>
+<ul>
+<li>只寻找女女双方告白并接受、正式交往、接吻或身份明示：<strong>当前不作为命中</strong>。所核公开文字材料不足以确认这类关系。</li>
+<li>接受女女关系位于作品结构中心、而不预设恋爱明确度的读者：<strong>符合</strong>。Team RWBY 的分离、互相思念和重聚愿望是本卷的情感框架。</li>
+<li>接受潜在配对阅读、但愿意把它标为读者解读的读者：<strong>部分符合</strong>。Blake—Ilia 可作为既有相识与政治冲突阅读，不能把本卷外的后续恋爱信息倒灌进来。</li>
+<li>希望完全排除男性恋爱线的读者：<strong>不符合</strong>。Blake 与 Sun 的接近、陪伴和互相支持属于本卷可见的异性关系语境。</li>
+</ul>
+<h2 id="数据库与公开分类">数据库与公开分类</h2>
+<p>Bangumi 数值为 2026-08-02 快照；官方宣传、逐字稿和字幕检索的来源日期见各行与“方法、来源与限制”。它们回答的是不同问题，不能把“有几个站点标了百合”换算成社群投票，也不能借用其他 RWBY 版本的字段。</p>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>来源</th>
+<th>条目与字段</th>
+<th>来源类型</th>
+<th>本报告如何使用</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://www.youtube.com/watch?v=wAbwhVOwJQw" target="_blank" rel="noopener noreferrer">Rooster Teeth 官方 Volume 4 介绍</a></td>
+<td>说明 Beacon 沦陷后四名主角分离，各自展开旅程并面对新的朋友、敌人和危机；未直接使用 Yuri、Girls Love 或女女恋爱类型词</td>
+<td>制作方同期官方宣传</td>
+<td>证明本卷公开的分离结构与四名主角范围；不能把“heroines”改写成恋爱确认</td>
+</tr>
+<tr>
+<td><a href="https://bangumi.tv/subject/186257" target="_blank" rel="noopener noreferrer">Bangumi subject 186257</a>／<a href="https://api.bgm.tv/v0/subjects/186257" target="_blank" rel="noopener noreferrer">公共 API</a></td>
+<td>WEB、12 话、2016-10-22 至 2017-02-04；2026-08-02 快照 Rank 5617，百合标签 67 次，五种收藏状态合计 1790 人</td>
+<td>社区数据库与用户标签</td>
+<td>记录中文社区的检索位置；计数约占收藏状态用户 3.74%，不是官方认证、观众比例或关系事实</td>
+</tr>
+<tr>
+<td><a href="https://myanimelist.net/anime.php?q=RWBY%20Volume%204&amp;cat=anime" target="_blank" rel="noopener noreferrer">MyAnimeList RWBY Volume 4 检索</a></td>
+<td>2026-08-05 未确认 2016 原版 WEB Volume 4 的精确条目；《RWBY: Hyousetsu Teikoku》对应 2022 年 TV 改编，不是本卷</td>
+<td>编辑型数据库检索</td>
+<td>只记录无精确条目；不借用其他版本字段，也不把数据库无条目写成 MAL 否认百合</td>
+</tr>
+<tr>
+<td><a href="https://www.anime-planet.com/anime/all?name=RWBY%20Volume%204" target="_blank" rel="noopener noreferrer">Anime-Planet RWBY Volume 4</a></td>
+<td>2026-08-05 本卷精确条目及类型字段资料不足</td>
+<td>编辑型标签数据库</td>
+<td>只记录本卷字段资料不足；不能外推为平台未标、平台否认百合或正篇不存在相关剧情</td>
+</tr>
+<tr>
+<td><a href="https://anilist.co/search/anime?search=RWBY%20Volume%204" target="_blank" rel="noopener noreferrer">AniList RWBY Volume 4 检索</a></td>
+<td>所核公共检索没有取得 2016 Volume 4 的独立条目，未跨版本借用 Yuri 相关度</td>
+<td>社区类型与标签数据库检索</td>
+<td>记为无精确条目，不用系列其他版本替代本卷字段</td>
+</tr>
+<tr>
+<td><a href="https://rwby.fandom.com/wiki/Volume_4" target="_blank" rel="noopener noreferrer">RWBY Wiki Volume 4 页面</a></td>
+<td>列出 12 章标题、首播范围、时长和版本边界</td>
+<td>社区维护的版本资料</td>
+<td>只用于锁定本卷范围，不以整部系列后续情节补写本卷</td>
+</tr>
+<tr>
+<td><a href="https://rwby.fandom.com/wiki/Category:Transcripts" target="_blank" rel="noopener noreferrer">Volume 4 逐字稿索引</a>；<a href="https://rwby.fandom.com/api.php?action=parse&amp;page=Menagerie%20(episode)%2FTranscript&amp;prop=wikitext&amp;format=json" target="_blank" rel="noopener noreferrer">第 5 章资料</a>、<a href="https://rwby.fandom.com/api.php?action=parse&amp;page=A%20Much%20Needed%20Talk%2FTranscript&amp;prop=wikitext&amp;format=json" target="_blank" rel="noopener noreferrer">第 8 章</a>、<a href="https://rwby.fandom.com/api.php?action=parse&amp;page=Two%20Steps%20Forward%2C%20Two%20Steps%20Back%2FTranscript&amp;prop=wikitext&amp;format=json" target="_blank" rel="noopener noreferrer">第 9 章</a>、<a href="https://rwby.fandom.com/api.php?action=parse&amp;page=No%20Safe%20Haven%2FTranscript&amp;prop=wikitext&amp;format=json" target="_blank" rel="noopener noreferrer">第 12 章</a></td>
+<td>提供 12 章公开英文对白和场景说明的定位入口；关键关系条目另以可访问 API 核对</td>
+<td>社区维护逐字稿</td>
+<td>作为文本定位和中文自译依据，不视作制作方剧本或字幕</td>
+</tr>
+</tbody>
+</table></div>
+<blockquote>
+<p>数据库沉默写“未标”“未找到”或“资料不足”，不能写成“否认”；社区“百合”标签计数不能替代正篇关系证据。</p>
+</blockquote>
+<aside class="alert alert-warning"><strong>剧透提示</strong><div class="alert-content"><p>以下部分包含《红白黑黄》第四季第 1–12 章的完整剧透，包括 Team RWBY 的分离、Ilia 的暗杀任务和角色创伤。</p></div></aside>
+
+      <details class="spoiler-panel">
+        <summary>
+          <span>展开详细证据（含完整剧透）</span>
+          <small>决定性证据、四层分析、反方解释与方法限制</small>
+        </summary>
+        <div class="spoiler-content">
+          <h2 id="决定性文本证据">决定性文本证据</h2>
+<p>未作视听复核，因此不外推字幕未记录的镜头、动作、表情、声线或沉默反应。</p>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>位置</th>
+<th>原文与中文摘要</th>
+<th>叙事层级</th>
+<th>证据强度与视听复核</th>
+<th>能证明什么</th>
+<th>不能证明什么</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>第 1 章〈The Next Step〉；<a href="https://rwby.fandom.com/api.php?action=parse&amp;page=The%20Next%20Step%2FTranscript&amp;prop=wikitext&amp;format=json" target="_blank" rel="noopener noreferrer">逐字稿</a></td>
+<td>官方介绍将 Beacon 沦陷后的情形写成 “Team RWBY ... are divided”，并让四名主角分别面对自己的旅程</td>
+<td>版本概要／现实叙事</td>
+<td>官方简介＋逐字稿定位；无连续视频复核</td>
+<td>本卷从女女团队被迫分离开始，关系和分离后果是结构前提</td>
+<td>“分离”本身不等于恋爱关系，也不等于团队已经解散</td>
+</tr>
+<tr>
+<td>第 2 章〈Remembrance〉；<a href="https://rwby.fandom.com/api.php?action=parse&amp;page=Remembrance%2FTranscript&amp;prop=wikitext&amp;format=json" target="_blank" rel="noopener noreferrer">逐字稿</a></td>
+<td>Ruby、Jaune、Nora、Ren 继续旅程；Ruby 反复梦见 Pyrrha 的死亡，Weiss 则在家族和 Winter 的阴影下被要求参加慈善演出</td>
+<td>创伤回忆／家庭与团队余波</td>
+<td>直接对白与场景说明；无连续视频复核</td>
+<td>女性角色的创伤、家庭和失去同伴进入本卷的共同情感背景</td>
+<td>Pyrrha 与 Jaune 的异性情感不能替 Team RWBY 制造女女恋爱</td>
+</tr>
+<tr>
+<td>第 3 章〈Of Runaways and Stowaways〉；<a href="https://rwby.fandom.com/api.php?action=parse&amp;page=Of%20Runaways%20and%20Stowaways%2FTranscript&amp;prop=wikitext&amp;format=json" target="_blank" rel="noopener noreferrer">逐字稿</a></td>
+<td>Blake 独自乘船去 Menagerie，Sun 藏在船上；她一度想把所有人留在身后</td>
+<td>现实行动／关系逃避</td>
+<td>直接对白＋场景说明；无连续视频复核</td>
+<td>Blake 与旧团队的分离，以及 Sun 介入她的旅程，是后续女女关系线的背景</td>
+<td>Sun 的跟随不是女女关系证据，也不能将 Blake 立刻写成已交往</td>
+</tr>
+<tr>
+<td>第 4 章〈Family〉；<a href="https://rwby.fandom.com/api.php?action=parse&amp;page=Family%2FTranscript&amp;prop=wikitext&amp;format=json" target="_blank" rel="noopener noreferrer">逐字稿</a></td>
+<td>Yang 面对失去手臂后的噩梦和康复；Qrow 与 Raven 讨论 Yang 和家族，所核逐字稿未定位 Yang 与 Raven 的直接重聚</td>
+<td>家庭创伤／恢复</td>
+<td>直接对白与场景说明；无连续视频复核</td>
+<td>Yang 的家庭关系和创伤解释她为何仍被 Team RWBY 的分离牵动</td>
+<td>逐字稿的未定位不构成母女关系或恋爱关系的否定</td>
+</tr>
+<tr>
+<td>第 5 章〈Menagerie〉；<a href="https://rwby.fandom.com/api.php?action=parse&amp;page=Menagerie%20(episode)%2FTranscript&amp;prop=wikitext&amp;format=json" target="_blank" rel="noopener noreferrer">逐字稿</a></td>
+<td>Kali 认出 Blake 后拥抱她；White Fang 的来访者提到 Ilia，令 Blake 的家族与 White Fang 冲突进入同一场景</td>
+<td>家庭重聚／政治背景</td>
+<td>直接对白；无连续视频复核</td>
+<td>Blake—Kali 是明确的母女接纳线；Ilia 是 Menagerie 政治冲突中的已知人物</td>
+<td>这一章不单独确认 Blake—Ilia 的恋爱、交往或身份</td>
+</tr>
+<tr>
+<td>第 7–8 章〈Punished〉／〈A Much Needed Talk〉；<a href="https://rwby.fandom.com/api.php?action=parse&amp;page=Punished%2FTranscript&amp;prop=wikitext&amp;format=json" target="_blank" rel="noopener noreferrer">第 7 章逐字稿</a>、<a href="https://rwby.fandom.com/api.php?action=parse&amp;page=A%20Much%20Needed%20Talk%2FTranscript&amp;prop=wikitext&amp;format=json" target="_blank" rel="noopener noreferrer">第 8 章</a></td>
+<td>Blake 对 Sun 说：“Ruby, Weiss, Yang... they were my friends! I loved them like I never thought I could love anybody.” 她承认思念和内疚，却又把朋友推开</td>
+<td>私人争执／团队记忆</td>
+<td>直接对白；无连续视频复核</td>
+<td>Team RWBY 的女女友谊是 Blake 的行动和悔恨核心；“爱”在此处由她明确放入朋友语境</td>
+<td>这句台词没有把朋友改写成恋人，也不能作为女同性恋身份自述</td>
+</tr>
+<tr>
+<td>第 9 章〈Two Steps Forward, Two Steps Back〉；<a href="https://rwby.fandom.com/api.php?action=parse&amp;page=Two%20Steps%20Forward%2C%20Two%20Steps%20Back%2FTranscript&amp;prop=wikitext&amp;format=json" target="_blank" rel="noopener noreferrer">逐字稿</a></td>
+<td>Ilia 伏击 Blake 与 Sun；Blake 认出 Ilia，Sun 受伤，Blake急切为他止血；随后两人以已知的政治对手身份对峙</td>
+<td>追逐／政治冲突</td>
+<td>直接对白＋场景说明；无连续视频复核</td>
+<td>Blake—Ilia 的关系至少包含既有相识、当前敌对和无法回避的责任</td>
+<td>追逐、受伤和呼喊不证明双方相爱或已交往</td>
+</tr>
+<tr>
+<td>第 11 章〈Taking Control〉；<a href="https://rwby.fandom.com/api.php?action=parse&amp;page=Taking%20Control%2FTranscript&amp;prop=wikitext&amp;format=json" target="_blank" rel="noopener noreferrer">逐字稿</a></td>
+<td>Blake 得知 White Fang 准备袭击 Haven，拒绝“摧毁 White Fang”的说法，决定 “take it back”</td>
+<td>政治行动／关系责任</td>
+<td>直接对白；无连续视频复核</td>
+<td>Blake 的家族、旧团队与政治责任推动她重新承担公共行动</td>
+<td>政治领导目标不是女女恋爱承诺，也不替 Ilia 的身份下结论</td>
+</tr>
+<tr>
+<td>第 12 章〈No Safe Haven〉；<a href="https://rwby.fandom.com/api.php?action=parse&amp;page=No%20Safe%20Haven%2FTranscript&amp;prop=wikitext&amp;format=json" target="_blank" rel="noopener noreferrer">逐字稿</a></td>
+<td>Ruby 写信给 Yang，承认离开和长期分离；她说 “I miss Weiss and Blake too”，并希望 “get Team RWBY back together again”</td>
+<td>结局书信／团队愿望</td>
+<td>直接旁白与场景说明；无连续视频复核</td>
+<td>女女团队关系仍是本卷结尾的未来目标，分离没有抹掉共同体</td>
+<td>团队重聚愿望不等于本卷已经重聚，也不等于情侣关系确认</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="关系事实与恋爱读法">关系事实与恋爱读法</h3>
+<p>所核公开文字材料主要把第四季的女女关系呈现为“分开之后仍把谁当作自己的人”：Ruby 写信给 Yang，Blake 反复谈到 Ruby、Weiss、Yang，Yang 以照片、创伤恢复和即将启程的旅行为背景，Weiss 则把 Team RWBY 的共同经历带入她与家族的冲突。四人暂时不在同一地点，却共同构成本卷的记忆、内疚和未来方向；这些材料足以定位团队关系的叙事位置，对恋爱明确度则只支持未知。</p>
+<p>Blake—Ilia 是本卷最集中、也最容易被过度解释的一组女女关系。Blake 在 Menagerie 的 White Fang 冲突中认出 Ilia，并在之后追逐、对峙；政治立场使两人处在直接冲突中。它足以支持既有相识、政治分歧和相互牵制的读法，也允许读者在更宽的百合阅读中感受到关系的情绪张力。所核公开文字材料不足以确认告白、接吻或交往；将后续卷的信息提前倒灌，会把版本范围抹掉。</p>
+<p>Blake—Kali 和 Ruby—Yang 则是两种不同的女女关系：前者是成年女儿回到家庭后的接纳与重新承担，后者是姐妹在长期分离和创伤后仍保持联系。它们说明女女关系不只等于配对恋爱，也不等于“只要两名女性同框”。分类依据是关系如何进入主线行动、记忆和结局，而不是人物性别的简单相加。</p>
+<h2 id="四层分析">四层分析</h2>
+<h3 id="第一层文本中的关系">第一层：文本中的关系</h3>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>关系 ID</th>
+<th>关系／参与者</th>
+<th>类型</th>
+<th>叙事位置</th>
+<th>恋爱明确度</th>
+<th>相互性</th>
+<th>证据层级</th>
+<th>摘要</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>r01</td>
+<td>Team RWBY：Ruby、Weiss、Blake、Yang</td>
+<td>友情／搭档／共同体</td>
+<td>主线</td>
+<td>未知</td>
+<td>双向</td>
+<td>正篇事实＋强推断＋读者解读</td>
+<td>四人被分到不同地点，但照片、书信、回忆和重聚愿望把团队关系贯穿十二章；本卷的分离本身就是主线结构，团队事实不终审恋爱明确度。</td>
+</tr>
+<tr>
+<td>r02</td>
+<td>Blake—Ilia</td>
+<td>既有相识／政治对立</td>
+<td>重要副线</td>
+<td>未知</td>
+<td>相互性未确认</td>
+<td>正篇事实＋强推断＋读者解读</td>
+<td>两人以既有相识与政治对立进入 Menagerie 冲突；所核材料可定位追逐、对峙与责任，有限文本不终审恋爱明确度。</td>
+</tr>
+<tr>
+<td>r03</td>
+<td>Blake—Kali</td>
+<td>母女／照护</td>
+<td>重要副线</td>
+<td>未知</td>
+<td>双向</td>
+<td>正篇事实＋强推断</td>
+<td>Kali 的拥抱、担忧和家庭接纳让 Blake 的逃避与重新承担社区责任有了具体背景；亲属事实不由字幕缺口外推恋爱明确度。</td>
+</tr>
+<tr>
+<td>r04</td>
+<td>Ruby—Yang</td>
+<td>姐妹／友情</td>
+<td>重要副线</td>
+<td>未知</td>
+<td>双向</td>
+<td>正篇事实＋强推断</td>
+<td>Ruby 的书信、Yang 的康复和共同家庭记忆把姐妹关系连接到 Team RWBY 的分离与未来重聚；亲属事实不由有限文本终审恋爱明确度。</td>
+</tr>
+</tbody>
+</table></div>
+<p>Team RWBY 的主线位置不表示四名成员在每一章都共同出现，而是表示她们之间的关系持续决定人物为何出发、为何内疚、为何回到公共行动，以及结尾想要恢复什么。Blake—Ilia 的政治冲突与团队分离线在 Menagerie 段落相邻并交叉，但不等同于 Team RWBY 关系本身；Blake—Kali 和 Ruby—Yang 则提供家庭与照料的不同层次。四条关系的“未知”只限定恋爱明确度，不抹掉这些可定位的团队、既有相识和亲属事实。</p>
+<h3 id="第二层作品的文类位置">第二层：作品的文类位置</h3>
+<p>官方介绍把第四季写成 Beacon 沦陷后的恢复、分离和新的危机；Bangumi 将它记录为 12 章 WEB 作品并附带“百合”社区标签。其公共类型首先是动作、奇幻、冒险、团队成长和原创 WEB 动画。把它归入女女关系主线，理由不是“主要角色都是少女”，而是四人的共同体、离散后的相互思念和 Blake 的既有相识／家庭线共同组织了本卷的情感推进。</p>
+<p>这个归档不等于把第四季称为女女恋爱剧。Blake 与 Sun 的陪伴、父母对 Sun 的调侃和两人共同参加 Menagerie 的行动，构成范围内可定位的异性亲密语境；男性线是副线而非全作主导，但也不能从公开推荐中抹去。更准确的简介是：“女女团队关系主线的动作奇幻 WEB 动画；本卷女女恋爱明确度未知，Blake—Ilia 是既有相识与政治冲突，含异性亲密副线。”</p>
+<h3 id="第三层角色身份">第三层：角色身份</h3>
+<p>所核第四季公开逐字稿与版本材料未记录 Ruby、Weiss、Blake、Yang、Ilia、Kali 或其他角色的 lesbian、bisexual、straight、asexual 等身份自述；有限材料的未记录不构成身份否定。“我爱她们如同从未想过会爱任何人”明确放在 Blake 对朋友的叙述中，是情感强度的事实，不是身份标签。范围内 Blake 与 Sun 的互动，以及 Blake—Ilia 的既有相识和冲突，也不能自动推出她的完整取向；同样，团队被归入百合文类不能自动推出四名成员的身份。故身份依据写作“范围内无身份依据”。</p>
+<h3 id="第四层公共标签礼仪">第四层：公共标签礼仪</h3>
+<ul>
+<li><strong>官方查询：</strong> 写“Rooster Teeth 官方 Intro 强调 Beacon 沦陷后四人分离、各自旅程和新危机，所核未见 Yuri／GL 字面或女女恋爱宣传”；不要写“官方否认百合”。</li>
+<li><strong>Bangumi 检索：</strong> 可以写“subject 186257 有社区‘百合’标签，2026-08-02 快照计数 67，Rank 5617”；计数和约 3.74% 的标签比例都不是恋爱事实或社群投票。</li>
+<li><strong>普通推荐：</strong> 写“女女团队关系主线的动作奇幻；本卷女女恋爱明确度未知，Blake—Ilia 是既有相识与政治分歧，Blake—Sun 有异性亲密副线”。</li>
+<li><strong>开放百合作品库：</strong> 可以收录，但应同时显示女女关系主线、恋爱明确度未知、版本边界和男性副线。</li>
+<li><strong>严格女女恋爱库：</strong> 不应仅凭本卷命中；所核公开文字材料不足以确认女女告白、接吻、正式交往和身份明示。</li>
+<li><strong>配对检索：</strong> Blake—Ilia 可标“既有相识／政治冲突，恋爱未确认”；Ruby—Yang 和 Blake—Kali 应标姐妹、母女或家庭关系，不应因女女标签自动恋爱化。</li>
+</ul>
+<h2 id="最强反方解释">最强反方解释</h2>
+<p>最强的狭义解释是：若把“百合”严格限定为已确认的女女恋爱，第四季不命中该严格检索。它是一部让四名少女分别成长的动作奇幻续作：Team RWBY 大部分时间不在一起，结尾也只是 Ruby 写信表达思念；Blake—Ilia 是既有相识和政治敌手，Blake—Kali 是母女，Ruby—Yang 是姐妹。范围内还有 Blake 与 Sun 的异性伙伴线；所核公开文字材料不足以确认女女恋爱，从而满足该严格口径。</p>
+<p>这套解释准确指出了证据上限：不能把 Blake 的朋友之爱、Ilia 的既有相识、家庭拥抱或重聚愿望写成女女交往，也不能把角色身份从社区标签推出来。它不能完全抹掉的是，女女团队的分离、思念和未来重聚愿望直接构成结局目标；Blake 的家庭、既有相识和政治责任也由女女关系网络承载。较稳妥的结论是同时保留两层：作品分类上女女关系主线；恋爱明确度上未知；身份上无范围内依据；严格女女恋爱检索当前不作为命中。</p>
+<h2 id="分用途结论">分用途结论</h2>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>用途</th>
+<th>分类</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>普通作品推荐</td>
+<td>女女团队关系主线的动作奇幻 WEB 动画；本卷女女恋爱明确度未知，Blake—Ilia 为既有相识与政治冲突，含 Blake—Sun 异性亲密副线</td>
+</tr>
+<tr>
+<td>数据库主标签</td>
+<td>可列“百合”，同时显示 WEB／动作奇幻、女女关系主线、恋爱明确度未知、男性关系副线</td>
+</tr>
+<tr>
+<td>严格明确恋爱检索</td>
+<td>不命中；所核公开文字材料未以告白、交往、接吻等情节建立明确恋爱关系或身份明示</td>
+</tr>
+<tr>
+<td>私人百合阅读</td>
+<td>适合接受女女团队关系、既有相识张力和家庭关系中心读法的读者；Blake—Ilia 的恋爱化应注明是读者解读，不能使用后续卷证据补写本卷</td>
+</tr>
+<tr>
+<td>角色身份检索</td>
+<td>未知；关系事实、朋友之爱和作品标签不能替代性取向身份依据</td>
+</tr>
+<tr>
+<td>官方分类查询</td>
+<td>官方 Intro 未使用百合／GL 字面；宣传重点是 Beacon 沦陷后的分离、个人旅程和新危机</td>
+</tr>
+<tr>
+<td>排除男性恋爱线的检索</td>
+<td>不命中；Blake 与 Sun 的陪伴、追求和共同政治行动在范围内出现</td>
+</tr>
+<tr>
+<td>Blake—Ilia 关系检索</td>
+<td>可列“既有相识／政治冲突，恋爱未确认”；本卷证据支持既有相识与对立并存，不支持已交往</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="方法来源与限制">方法、来源与限制</h2>
+<ul>
+<li><p><strong>字幕审计。</strong> Jimaku 没有与本版本精确匹配的字幕；该材料缺口不能证明字幕、剧情、关系或角色身份不存在。</p></li>
+<li><p><strong>版本边界。</strong> Bangumi subject 186257、官方 Intro 和 RWBY Wiki 章节页面共同确认本档案为 2016-10-22 至 2017-02-04 的十二章 WEB 原版。Volume 4 Character Short、预告片、制作日志、World of Remnant 补充短片、宣传歌曲、Complete 电影版、其他各卷、2017 年电视再剪辑版及漫画、小说、游戏、舞台、访谈和粉丝配对讨论等跨媒介材料均排除。</p></li>
+<li><p><strong>文本材料。</strong> 逐章阅读 RWBY Wiki 的十二份公开英文逐字稿，重点核对第 1、3、4、5、7、8、9、11、12 章中的团队、家庭、Blake—Ilia 和分离对白；中文为自行翻译。逐字稿由社区维护，混合对白与场景说明，不视作制作方字幕。</p></li>
+<li><p><strong>视听限制。</strong> 未作视听复核，因此不外推字幕未记录的镜头、动作、表情、声线或沉默反应。</p></li>
+<li><p><strong>数据库限制。</strong> Bangumi 2026-08-02 快照为 Rank 5617、百合标签 67、收藏状态合计 1790，约 3.74%；这不是支持率或作品百合程度。2026-08-05 的 MAL 与 AniList 均无本卷精确条目；MAL 的 2022 年 TV 候选按媒介、年份排除。Anime-Planet 本卷精确条目及类型字段资料不足。均不得解释为平台否认百合，也不能证明正篇不存在相关剧情。</p></li>
+<li><p><strong>证据分层。</strong> Team RWBY 的书信、回忆、分离与重聚愿望是正篇事实；“女女关系主线”是对这些事实的结构性强推断；“Blake—Ilia 可供百合阅读”属于带版本边界的读者解读。官方宣传和社区标签不能替代关系证据，后续卷的恋爱确认也不回写本卷。</p></li>
+<li><p><strong>可改变结论的新材料。</strong> 若出现制作方原始字幕、连续视频或本卷明确的女女恋爱说明，应优先复核第 5、8、9、11、12 章。现有材料足以列为女女关系主线的开放百合作品，但置信度保持中等，严格女女恋爱检索仍应排除。</p></li>
+</ul>
+
+        </div>
+      </details>
+    </div>
+  </div>
+</article>
+
+<section class="feedback-section">
+  <div>
+    <p class="eyebrow">REPORT FEEDBACK</p>
+    <h2>提交可核查的修订建议</h2>
+    <p>请注明作品版本、集数／章节、要质疑的原句、可公开核查的来源，以及建议如何修订。评论属于待核查反馈，不会自动成为报告证据。</p>
+  </div>
+  <div class="giscus"></div>
+<div class="giscus-config"
+        hidden
+        data-repo="L-M-Sherlock/yuri-classification-archive"
+        data-repo-id="R_kgDOTo1RzA"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOTo1RzM4DCXAh"
+        data-mapping="specific"
+        data-term="classification:rwby_volume_4_web_2016"
+        data-strict="1"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-lang="zh-CN"
+        data-loading="lazy"
+        aria-hidden="true"></div>
+</section>
+
+  </main>
+  <footer class="site-footer">
+    <div>
+      <p>分类是面向具体查询的检索工具，不是替作品关系作终审判决。</p>
+      <p class="footer-ai-note">本站使用以 OpenAI Codex 为主的生成式 AI 辅助研究、写作与站点开发；人工审阅未覆盖全部作品报告。<a href="/yuri-classification-archive/about/#AI使用说明">查看 AI 使用说明</a></p>
+      <p>© 2026 Jarrett Ye · <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="license noopener noreferrer">CC BY-NC-SA 4.0</a> · <a href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub 仓库</a> · <a href="/yuri-classification-archive/about/#使用边界">使用边界</a></p>
+    </div>
+  </footer>
+  <script>window.SITE_CONFIG = {basePath: "/yuri-classification-archive"};</script>
+  <script src="/yuri-classification-archive/assets/site.js?v=eeeec5872796" defer></script>
+
+</body>
+</html>

@@ -1,0 +1,409 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="《歌愈少女》把见习歌愈师的训练、临床协作和成长放在中心；かな、玲美、響与后来加入的ソニア构成持续的少女共同体。按开放的作品分类口径，本作可归入 女女关系主线、以非恋爱关系为主的音乐与治愈作品 。 范围内最接近浪漫阅读的是玲美对导师理彩的单向仰慕。字幕中有人将两人的单独行动打趣为“约会”，但这不足以确定双方在交往……">
+  <meta name="color-scheme" content="light dark">
+  <meta id="theme-color-light" name="theme-color" media="(prefers-color-scheme: light)" content="#f5f0e8">
+  <meta id="theme-color-dark" name="theme-color" media="(prefers-color-scheme: dark)" content="#1c181c">
+  <script>
+    (() => {
+      document.documentElement.classList.add("js");
+      const storageKey = "yuri-classification-theme";
+      const allowed = new Set(["system", "light", "dark"]);
+      let preference = "system";
+      try {
+        const stored = localStorage.getItem(storageKey);
+        if (allowed.has(stored)) preference = stored;
+      } catch (_error) {
+        preference = "system";
+      }
+      const systemDark = window.matchMedia?.("(prefers-color-scheme: dark)").matches;
+      const theme = preference === "system"
+        ? (systemDark ? "dark" : "light")
+        : preference;
+      document.documentElement.dataset.theme = theme;
+      document.documentElement.dataset.themePreference = preference;
+      document.documentElement.style.colorScheme = theme;
+      const lightMeta = document.getElementById("theme-color-light");
+      const darkMeta = document.getElementById("theme-color-dark");
+      if (preference === "system") {
+        lightMeta.content = "#f5f0e8";
+        darkMeta.content = "#1c181c";
+      } else {
+        const color = theme === "dark" ? "#1c181c" : "#f5f0e8";
+        lightMeta.content = color;
+        darkMeta.content = color;
+      }
+    })();
+  </script>
+  <link rel="canonical" href="https://l-m-sherlock.github.io/yuri-classification-archive/works/healer_girl_tv_2022/">
+  <link rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="百合作品分类档案">
+  <meta property="og:title" content="《歌愈少女》分类报告｜百合作品分类档案">
+  <meta property="og:description" content="《歌愈少女》把见习歌愈师的训练、临床协作和成长放在中心；かな、玲美、響与后来加入的ソニア构成持续的少女共同体。按开放的作品分类口径，本作可归入 女女关系主线、以非恋爱关系为主的音乐与治愈作品 。 范围内最接近浪漫阅读的是玲美对导师理彩的单向仰慕。字幕中有人将两人的单独行动打趣为“约会”，但这不足以确定双方在交往……">
+  <meta property="og:url" content="https://l-m-sherlock.github.io/yuri-classification-archive/works/healer_girl_tv_2022/">
+  <meta property="og:image" content="https://l-m-sherlock.github.io/yuri-classification-archive/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+  <title>《歌愈少女》分类报告｜百合作品分类档案</title>
+  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=e68f78a2d1a9">
+
+</head>
+<body class="classification-report">
+  <a class="skip-link" href="#main-content">跳到正文</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="/yuri-classification-archive/">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>
+          <strong>百合作品分类档案</strong>
+          <small>按查询拆开标签，按证据保留边界</small>
+        </span>
+      </a>
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-navigation"
+      >
+        <span>菜单</span>
+        <span class="menu-toggle-icon" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-navigation" aria-label="主导航">
+        <div class="nav-main">
+          <a href="/yuri-classification-archive/">首页</a>
+          <a href="/yuri-classification-archive/table/">总表</a>
+          <a href="/yuri-classification-archive/articles/">专题</a>
+          <a href="/yuri-classification-archive/about/">方法与说明</a>
+        </div>
+        <a class="nav-star" href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub / Star <span aria-hidden="true">↗</span></a>
+        <a class="nav-feedback" href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
+        <label class="theme-control" for="theme-preference">
+          <span>主题</span>
+          <select id="theme-preference" aria-label="主题偏好">
+            <option value="system">跟随系统</option>
+            <option value="light">浅色</option>
+            <option value="dark">深色</option>
+          </select>
+        </label>
+      </nav>
+    </div>
+  </header>
+  <main id="main-content">
+    <article class="report-page">
+  <header class="report-header">
+    <p class="eyebrow">TV 动画 · 2026-08-02</p>
+    <h1>《歌愈少女》分类报告</h1>
+    <p class="report-subtitle">2022 年 TV 动画《ヒーラー・ガール》正式第 1–12 话；官方 TV 官网的世界观、角色页、12 话故事简介和本 TV 版本的公开数据库条目</p>
+    <div class="label-strip" aria-label="分类摘要">
+      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>女女恋爱位置：</strong>局部</span><span class="label-chip"><strong>女女关系最高明确度：</strong>潜在／明显但未确认</span><span class="label-chip"><strong>官方字面百合／GL：</strong>所核未见</span><span class="label-chip"><strong>官方女女恋爱表述：</strong>所核未见</span><span class="label-chip"><strong>官方来源：</strong>层级：当前版本；位置：剧情／角色页、可见作品宣传</span><span class="label-chip"><strong>结论置信度：</strong>高<span class="inline-help" tabindex="0" aria-label="查看结论置信度说明" aria-describedby="report-confidence-help"><span aria-hidden="true">?</span><span class="term-tooltip" id="report-confidence-help" role="tooltip">表示当前锁定范围内，现有证据对本报告主要分类结论的支持稳定度；它不是百合程度、作品质量、社群共识或统计概率。</span></span></span>
+    </div>
+    <a class="back-link" href="/yuri-classification-archive/table/?q=%E6%AD%8C%E6%84%88%E5%B0%91%E5%A5%B3">← 返回总表并定位本作</a>
+  </header>
+  <div class="report-layout">
+    <aside class="report-toc">
+      <p>本页目录</p>
+      <ol><li><a href="#低剧透概览">低剧透概览</a></li><li><a href="#数据库与公开分类">数据库与公开分类</a></li><li><a href="#决定性文本证据">决定性文本证据</a></li><li><a href="#四层分析">四层分析</a></li><li><a href="#最强反方解释">最强反方解释</a></li><li><a href="#分用途结论">分用途结论</a></li><li><a href="#方法来源与限制">方法、来源与限制</a></li></ol>
+    </aside>
+    <div class="report-content">
+      <blockquote>
+<p>分类日期：2026-08-02<br> 分类对象：2022 年原创 TV 动画《ヒーラー・ガール》<br> 纳入范围：正式第 1–12 话（2022-04-04 至 2022-06-20）<br> 排除范围：衍生漫画、歌曲和合唱组合、广播与活动、其他版本及跨媒介材料<br> 用途：普通推荐、数据库分类与严格恋爱检索</p>
+</blockquote>
+<h2 id="低剧透概览">低剧透概览</h2>
+<aside class="alert alert-note"><strong>说明</strong><div class="alert-content"><p><strong>分类信息提示：</strong> 本节不展开关键剧情、转折与结局，但分类信息本身会透露关系类型、叙事位置和恋爱明确度。希望完全盲看的读者请跳过本页。</p></div></aside>
+
+<p>《歌愈少女》把见习歌愈师的训练、临床协作和成长放在中心；かな、玲美、響与后来加入的ソニア构成持续的少女共同体。按开放的作品分类口径，本作可归入<strong>女女关系主线、以非恋爱关系为主的音乐与治愈作品</strong>。</p>
+<p>范围内最接近浪漫阅读的是玲美对导师理彩的单向仰慕。字幕中有人将两人的单独行动打趣为“约会”，但这不足以确定双方在交往；三名主角之间的嫉妒、和解与共同训练也没有被文本明确写成情侣关系。</p>
+<h3 id="分层标签">分层标签</h3>
+<blockquote>
+<p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：局部｜最高明确度：明显但未确认的单向恋爱方向｜关系构成：少女共同体、师徒仰慕、竞争—协作｜官方字面：所核未见｜官方恋爱表述：所核未见｜官方来源：范围内版本·作品首页／世界观页／角色页／故事页／分话资料｜阅读层级：正篇事实／强推断／读者解读｜身份依据类型：范围内无依据｜男性恋爱线：无｜内容提示：医疗与手术支援、考试压力、师徒权力差异、嫉妒和短暂分离。</strong></p>
+</blockquote>
+<h3 id="严格恋爱检索提示">严格恋爱检索提示</h3>
+<ul>
+<li>只寻找双方确认交往、明确女女欲望或性取向身份自述的读者：<strong>不作为肯定命中</strong>。本范围已审阅的日文字幕没有提供这类双方确认；但本报告未回看画面，不能用字幕沉默排除无对白画面信息。</li>
+<li>接受单向仰慕、非恋爱女女共同体或女性导师—学生关系的读者：<strong>适合</strong>。推荐时宜同时标明“恋爱未确认”与师徒权力差异。</li>
+<li>只收官方明确标注百合／GL的读者：<strong>不作为肯定命中</strong>。所核官网将本作定位为音乐剧式治愈动画，没有使用百合／GL字面类型。</li>
+</ul>
+<h2 id="数据库与公开分类">数据库与公开分类</h2>
+<p>以下为既有数据库快照与本次材料记录。官方表述、编辑型数据库、带权重社区标签和 Bangumi 用户自由标签回答的不是同一个问题；它们不能替代正篇关系证据。</p>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>来源</th>
+<th>条目与字段</th>
+<th>来源类型</th>
+<th>本报告如何使用</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://healer-girl.jp/" target="_blank" rel="noopener noreferrer">官方 TV 官网首页</a></td>
+<td>宣传为原创“ミュージカルヒーリングアニメーション”（音乐剧式治愈动画）</td>
+<td>官方作品营销</td>
+<td>确认音乐、医疗和治愈定位；不裁决读者的女女关系阅读</td>
+</tr>
+<tr>
+<td><a href="https://healer-girl.jp/story/" target="_blank" rel="noopener noreferrer">官方故事／分话资料</a></td>
+<td>12 话围绕见习、治疗协作、考试、合宿和异地研修</td>
+<td>官方故事与版本资料</td>
+<td>与字幕互相核对关系的主线位置；“友情”不等于恋人确认</td>
+</tr>
+<tr>
+<td><a href="https://jimaku.cc/entry/5684" target="_blank" rel="noopener noreferrer">Jimaku entry 5684</a></td>
+<td>条目元数据为《ヒーラー・ガール》／Healer Girl、AniList 133412；有连续第 1–12 话纯日文 ASS</td>
+<td>字幕目录与文本材料</td>
+<td>选用每话 <code>JPN</code> BDRip ASS 复核台词和时间码；不以其替代画面判断</td>
+</tr>
+<tr>
+<td><a href="https://myanimelist.net/anime/48857/Healer_Girl" target="_blank" rel="noopener noreferrer">MyAnimeList 48857</a></td>
+<td>TV、12 话；没有精确 <code>Girls Love</code></td>
+<td>编辑型数据库</td>
+<td>记录常规题材入口；字段缺席不等于否定女女关系主线</td>
+</tr>
+<tr>
+<td><a href="https://anilist.co/anime/133412/Healer-Girl" target="_blank" rel="noopener noreferrer">AniList 133412</a></td>
+<td>TV、12 话；<code>Yuri</code> 相关度为 0，重点标签为女性群像、音乐剧与治愈</td>
+<td>编辑字段＋带权重社区标签</td>
+<td>相关度不是人数、官方标签或角色身份</td>
+</tr>
+<tr>
+<td><a href="https://www.anime-planet.com/anime/healer-girl" target="_blank" rel="noopener noreferrer">Anime-Planet 精确条目</a></td>
+<td>精确 Tags 面板状态为资料不足</td>
+<td>编辑维护的标签数据库</td>
+<td>不以相邻版本替代</td>
+</tr>
+<tr>
+<td><a href="https://bangumi.tv/subject/334498" target="_blank" rel="noopener noreferrer">Bangumi subject 334498</a></td>
+<td>既有快照 Rank #6317；“百合”101 人，五种收藏状态合计 1349，比例约 7.49%</td>
+<td>社区自由标签与平台字段</td>
+<td>记录公共检索背景；动态数字不是恋爱程度或社群投票</td>
+</tr>
+</tbody>
+</table></div>
+<aside class="alert alert-warning"><strong>剧透提示</strong><div class="alert-content"><p><strong>以下部分包含本 TV 版第 1–12 话的完整剧透。</strong> 日文短引以已审阅的日文 ASS 为主，中文均为本报告自行翻译。字幕可定位台词和歌词标记；本报告未回看动画画面，因此不从字幕之外推断镜头、动作或沉默回应。</p></div></aside>
+
+      <details class="spoiler-panel">
+        <summary>
+          <span>展开详细证据（含完整剧透）</span>
+          <small>决定性证据、四层分析、反方解释与方法限制</small>
+        </summary>
+        <div class="spoiler-content">
+          <h2 id="决定性文本证据">决定性文本证据</h2>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>位置</th>
+<th>原文与中文摘要</th>
+<th>叙事层级</th>
+<th>证据强度与视听复核</th>
+<th>能证明什么</th>
+<th>不能证明什么</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://jimaku.cc/entry/5684/download/%5BNekomoe%20kissaten%5D%20Healer%20Girl%20%5B01%5D%5BBDRip%5D%5BJPN%5D.ass" target="_blank" rel="noopener noreferrer">e01·第 1 话 00:08:03–00:08:20</a></td>
+<td>玲美说 <code>烏丸師匠を追いかけたいの</code>、<code>尊い我が憧れの存在を</code>；同伴回以 <code>一途ね</code>。——“我想追随烏丸师匠；她是我尊敬的憧憬对象。”</td>
+<td>现实对白／师徒仰慕</td>
+<td>正篇字幕直接；未回看画面</td>
+<td>玲美对理彩有持续、单向的追随和崇拜方向</td>
+<td>不确立恋人称谓、双方交往或身份</td>
+</tr>
+<tr>
+<td><a href="https://jimaku.cc/entry/5684/download/%5BNekomoe%20kissaten%5D%20Healer%20Girl%20%5B07%5D%5BBDRip%5D%5BJPN%5D.ass" target="_blank" rel="noopener noreferrer">e02·第 7 话 00:03:50–00:03:58</a></td>
+<td>他人说玲美坚持与理彩单独行动，接着打趣 <code>デートだ</code>、<code>一途とも</code>。——“是约会啊；也够专一的。”</td>
+<td>现实对白／玩笑性称呼</td>
+<td>正篇字幕直接；语气和画面未复核</td>
+<td>角色确实把这次单独行动放进可浪漫化的玩笑语境</td>
+<td>不能把戏谑称呼升级为双方确认关系</td>
+</tr>
+<tr>
+<td><a href="https://jimaku.cc/entry/5684/download/%5BNekomoe%20kissaten%5D%20Healer%20Girl%20%5B11%5D%5BBDRip%5D%5BJPN%5D.ass" target="_blank" rel="noopener noreferrer">e03·第 11 话 00:16:42–00:18:15</a></td>
+<td>三人承认对彼此歌唱能力的羡慕与嫉妒，之后说 <code>みんなで頑張ろう</code>、<code>3人で</code>、<code>絶対合格</code>。——“大家一起努力；三个人；一定合格。”</td>
+<td>现实对白／三人组修复</td>
+<td>正篇字幕直接；未回看画面</td>
+<td>三人关系承载考试压力、冲突、道歉和共同目标</td>
+<td>职业与能力焦虑本身不是恋爱嫉妒</td>
+</tr>
+<tr>
+<td><a href="https://jimaku.cc/entry/5684/download/%5BNekomoe%20kissaten%5D%20Healer%20Girl%20%5B07%5D%5BBDRip%5D%5BJPN%5D.ass" target="_blank" rel="noopener noreferrer">e04·第 7 话 00:13:33–00:13:52</a></td>
+<td>ソニア说自己演奏贝斯并担任副唱，让かな做主唱，以实现 <code>完璧な調和と適材適所</code>。——“完美的协调与适才适所。”</td>
+<td>现实对白／文化祭协作</td>
+<td>正篇字幕直接；未回看画面</td>
+<td>ソニア与かな等人能为共同演出重新分工和合作</td>
+<td>分工合作不证明浪漫或特殊排他性</td>
+</tr>
+<tr>
+<td><a href="https://jimaku.cc/entry/5684/download/%5BNekomoe%20kissaten%5D%20Healer%20Girl%20%5B12%5D%5BBDRip%5D%5BJPN%5D.ass" target="_blank" rel="noopener noreferrer">e05·第 12 话 00:12:41–00:13:24</a></td>
+<td>かな说 <code>玲美ちゃん 響ちゃんと一緒にね</code>，又说 <code>2人が来てくれて 嬉しい</code>；二人随即提出一起帮忙。——“和玲美、響一起；你们两个人来了，我很高兴。”</td>
+<td>现实对白／研修后的重聚</td>
+<td>正篇字幕直接；未回看画面</td>
+<td>共同修行和互相支援延续到结尾</td>
+<td>共同选择工作地点不等于情侣承诺</td>
+</tr>
+</tbody>
+</table></div>
+<p>这些证据支持两项不同的判断。其一，少女们围绕治疗、演出、资格与离别反复共同处理问题，足以支持“女女关系处于主线”的归档。其二，玲美—理彩有可浪漫化的单向线索；从 <code>憧れ</code> 到被称作 <code>デート</code> 的事实是正篇材料，而将其解释为暗恋仍是强推断或读者解读，不能越级写成确定交往。</p>
+<h2 id="四层分析">四层分析</h2>
+<h3 id="第一层文本中的关系">第一层：文本中的关系</h3>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>关系 ID</th>
+<th>关系／参与者</th>
+<th>类型</th>
+<th>叙事位置</th>
+<th>恋爱明确度</th>
+<th>相互性</th>
+<th>证据层级</th>
+<th>摘要</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>r01</td>
+<td>かな、玲美、響、ソニア的见习歌愈师共同体</td>
+<td>友情／搭档／共同体</td>
+<td>主线</td>
+<td>非恋爱</td>
+<td>双向</td>
+<td>正篇事实＋强推断</td>
+<td>训练、治疗和演出由少女共同体直接推进；e03、e04、e05 记录冲突修复、分工与继续相互支援。</td>
+</tr>
+<tr>
+<td>r02</td>
+<td>玲美→理彩</td>
+<td>师生／照护／单向恋爱方向</td>
+<td>局部</td>
+<td>明显但未确认</td>
+<td>单向</td>
+<td>正篇事实＋强推断＋读者解读</td>
+<td>e01 的追随与憧憬、e02 的“约会”玩笑可供浪漫阅读；没有对应的双方确认。</td>
+</tr>
+<tr>
+<td>r03</td>
+<td>かな、玲美与響三人组</td>
+<td>友情／搭档／共同体</td>
+<td>主线</td>
+<td>非恋爱</td>
+<td>双向</td>
+<td>正篇事实＋强推断</td>
+<td>e03 让三人说出嫉妒和自我怀疑，再以共同考试为目标；e05 把共同修行带到结尾。</td>
+</tr>
+<tr>
+<td>r04</td>
+<td>ソニア与治疗院少女们</td>
+<td>竞争／搭档／友情</td>
+<td>重要副线</td>
+<td>非恋爱</td>
+<td>双向</td>
+<td>正篇事实＋强推断</td>
+<td>e04 显示她在文化祭中为かな调整分工，竞争关系能转入协作。</td>
+</tr>
+</tbody>
+</table></div>
+<p>文本首先写的是共同体，而不是一条单一配对线。e03 与 e05 把三人关系放进具体的失衡、坦白和重选之中；e04 则让ソニア从强调个人表现的竞争者成为需要考虑舞台整体的人。这个过程解释了关系为何有主线位置，却不要求把所有高强度情感都翻译为恋爱。</p>
+<p>玲美—理彩的材料性质不同。e01 是学生面对导师的崇拜性语言，e02 是旁人对单独行动的玩笑。二者足以使“单向恋爱方向”成为可检索的谨慎描述；理彩的回应、师徒权力差异和未复核的画面都要求报告不把这条线包装成对等情侣。</p>
+<h3 id="第二层作品的文类位置">第二层：作品的文类位置</h3>
+<p>作品的直接文类重心是音乐、治愈、校园日常与职业训练。女女关系不是背景装饰：病人治疗、考试焦虑、文化祭分工和异地研修后的互相寻找，都由少女之间的合作、竞争和照护推动。男性恋爱线没有取得同等的叙事位置，因此在“主要关系网络是什么”的查询下，本作可作为女女关系主线的作品归档。</p>
+<p>这不等于所有女性角色占多数的作品都会自动进入同一入口。本报告的判断依赖于关系在连续事件中的作用，而不是角色人数；也不等于主线共同体已被证明为恋爱。对于只将确立女女情侣视作 GL 类型入口的数据库，选择不标入仍有明确的查询理由。</p>
+<h3 id="第三层角色身份">第三层：角色身份</h3>
+<p>范围内材料没有提供主要角色以女同性恋、双性恋或其他性取向名称自我描述的证据。玲美对理彩的仰慕是关系方向的材料，不是身份标签；三人对彼此的喜欢、嫉妒或共同生活式训练，也不能替任何角色完成自我命名。这里的“范围内无依据”只说明这 12 话没有回答该问题。</p>
+<p>因此，作品归档、Bangumi 的用户标签、AniList 的题材字段和私人配对阅读都应与角色身份分开。读者可以从 e01、e02 读出浪漫意味，也可以只将其理解为师徒崇拜；两种阅读不应被改写为角色已经获得的官方身份设定。</p>
+<h3 id="第四层公共标签礼仪">第四层：公共标签礼仪</h3>
+<p>对外推荐可写成：“音乐剧式治愈动画，少女歌愈师共同训练与治疗；玲美对导师有可浪漫化的单向仰慕，恋爱未确认。” 这同时服务开放型女女关系检索和避开明确情侣误导的读者。若公共标签只允许一个作品主类，应把音乐、治愈、校园和职业成长与女女关系主线并列，而非让其中任何一项替代其余问题。</p>
+<p>严格检索应把本作排除在“明确交往”结果之外，但可收入“接受未确认方向／非恋爱女女共同体”的结果。私人配对可自由延展 e01、e02 的材料；公共页面则应明确它是读者解读，避免把数据库标签、角色玩笑或官方角色页的“慕う”写成官方确认。</p>
+<h2 id="最强反方解释">最强反方解释</h2>
+<p>最有力的保留意见是：这是一部歌唱医疗与学徒成长作品，玲美的语言主要可读作尊敬导师，<code>デート</code> 只是旁人打趣；官方、MAL 和 AniList 也没有把它放进百合／GL类型栏。这个解释提醒我们，合唱、共同训练和职业互助不能自动转换为恋爱叙事。</p>
+<p>不过，它不能消除女女关系对行动结构的作用。e03 的冲突修复、e04 的文化祭分工与 e05 的重聚并非孤立气氛，而是主要人物处理问题的方式。故“女女关系主线”和“明确女女情侣”可以得出不同结论：前者可收录，后者不应作为肯定命中。字幕文本未替代画面复核；若有合法视听材料显示关键无对白情节，应只更新相应关系的证据与明确度，不把它反推到所有关系。</p>
+<h2 id="分用途结论">分用途结论</h2>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>用途</th>
+<th>分类</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>普通作品推荐</td>
+<td><strong>音乐剧式治愈与歌愈师成长故事；少女共同体承担主线，玲美对导师有可浪漫化的单向仰慕，恋爱未确认。</strong></td>
+</tr>
+<tr>
+<td>数据库主标签</td>
+<td><strong>开放口径可列女女关系主线、作品分类，并列音乐、治愈、日常、职业训练和共同体成长。</strong></td>
+</tr>
+<tr>
+<td>严格明确恋爱检索</td>
+<td><strong>不作为肯定命中：审阅字幕未提供双方确认交往、明确女女欲望或身份自述；未回看画面。</strong></td>
+</tr>
+<tr>
+<td>私人百合阅读</td>
+<td><strong>适合开放型阅读：玲美—理彩可作师徒仰慕的浪漫化读法，三人组与ソニア可作共同体阅读。</strong></td>
+</tr>
+<tr>
+<td>角色身份检索</td>
+<td><strong>范围内无依据：</strong> 不以关系事实或数据库标签代替角色自我命名。</td>
+</tr>
+<tr>
+<td>官方分类查询</td>
+<td><strong>官方字面百合／GL：所核未见；官方女女恋爱表述：所核未见。</strong></td>
+</tr>
+<tr>
+<td>女女关系中心检索</td>
+<td><strong>纳入：</strong> 少女共同体、师徒和竞争—协作关系组织了大部分训练、治疗和成长事件。</td>
+</tr>
+</tbody>
+</table></div>
+<p>一句话结论：<strong>《歌愈少女》是以少女歌愈师共同体为主线的音乐治愈作品；它适合开放型女女关系检索，玲美—理彩提供局部浪漫化入口，但不应被描述为已确立的女女情侣作品。</strong></p>
+<h2 id="方法来源与限制">方法、来源与限制</h2>
+<h3 id="材料与检索记录">材料与检索记录</h3>
+<p>字幕来源为 <a href="https://jimaku.cc/entry/5684" target="_blank" rel="noopener noreferrer">Jimaku entry 5684</a>。条目名称、日文名与 AniList 133412 对应 2022 年 12 话 TV 版；纯日文 <code>JPN</code> BDRip ASS 连续覆盖第 1–12 话。字幕用于定位对白，日文短引的中文为本报告自行翻译；未作视听复核。</p>
+<h3 id="版本边界">版本边界</h3>
+<p>对象仅为 2022 年 TV 第 1–12 话。官方首页、世界观、角色页、故事页和分话资料用于确认版本与官方措辞；衍生漫画、角色歌、广播、活动、访谈和其他媒介不用于补足关系进展。Bangumi、MAL、AniList 与 Anime-Planet 字段只说明各平台的入口和资料状态，不能代替文本事实或角色身份依据。分类将关系位置、恋爱明确度、身份、官方表述和读者解读分开记录；后续若有可核对的新正篇证据，应只修改它实际支持的那一层。</p>
+
+        </div>
+      </details>
+    </div>
+  </div>
+</article>
+
+<section class="feedback-section">
+  <div>
+    <p class="eyebrow">REPORT FEEDBACK</p>
+    <h2>提交可核查的修订建议</h2>
+    <p>请注明作品版本、集数／章节、要质疑的原句、可公开核查的来源，以及建议如何修订。评论属于待核查反馈，不会自动成为报告证据。</p>
+  </div>
+  <div class="giscus"></div>
+<div class="giscus-config"
+        hidden
+        data-repo="L-M-Sherlock/yuri-classification-archive"
+        data-repo-id="R_kgDOTo1RzA"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOTo1RzM4DCXAh"
+        data-mapping="specific"
+        data-term="classification:healer_girl_tv_2022"
+        data-strict="1"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-lang="zh-CN"
+        data-loading="lazy"
+        aria-hidden="true"></div>
+</section>
+
+  </main>
+  <footer class="site-footer">
+    <div>
+      <p>分类是面向具体查询的检索工具，不是替作品关系作终审判决。</p>
+      <p class="footer-ai-note">本站使用以 OpenAI Codex 为主的生成式 AI 辅助研究、写作与站点开发；人工审阅未覆盖全部作品报告。<a href="/yuri-classification-archive/about/#AI使用说明">查看 AI 使用说明</a></p>
+      <p>© 2026 Jarrett Ye · <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="license noopener noreferrer">CC BY-NC-SA 4.0</a> · <a href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub 仓库</a> · <a href="/yuri-classification-archive/about/#使用边界">使用边界</a></p>
+    </div>
+  </footer>
+  <script>window.SITE_CONFIG = {basePath: "/yuri-classification-archive"};</script>
+  <script src="/yuri-classification-archive/assets/site.js?v=eeeec5872796" defer></script>
+
+</body>
+</html>

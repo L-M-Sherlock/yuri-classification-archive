@@ -1,0 +1,407 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="《赛马娘四格》是 12 个围绕特雷森学园女赛马娘展开的三分钟单元喜剧。补考、学园介绍、午餐、抓独角仙、偶像招募、试胆和竞赛会不断改变出场组合；同学、对手、搭档与表演团体关系是每一集的行动材料，而非某一对角色的连续恋爱故事。 本档案将它登记为 女女关系位于主线、按作品分类归档、恋爱位置缺席、最高明确度为非恋爱……">
+  <meta name="color-scheme" content="light dark">
+  <meta id="theme-color-light" name="theme-color" media="(prefers-color-scheme: light)" content="#f5f0e8">
+  <meta id="theme-color-dark" name="theme-color" media="(prefers-color-scheme: dark)" content="#1c181c">
+  <script>
+    (() => {
+      document.documentElement.classList.add("js");
+      const storageKey = "yuri-classification-theme";
+      const allowed = new Set(["system", "light", "dark"]);
+      let preference = "system";
+      try {
+        const stored = localStorage.getItem(storageKey);
+        if (allowed.has(stored)) preference = stored;
+      } catch (_error) {
+        preference = "system";
+      }
+      const systemDark = window.matchMedia?.("(prefers-color-scheme: dark)").matches;
+      const theme = preference === "system"
+        ? (systemDark ? "dark" : "light")
+        : preference;
+      document.documentElement.dataset.theme = theme;
+      document.documentElement.dataset.themePreference = preference;
+      document.documentElement.style.colorScheme = theme;
+      const lightMeta = document.getElementById("theme-color-light");
+      const darkMeta = document.getElementById("theme-color-dark");
+      if (preference === "system") {
+        lightMeta.content = "#f5f0e8";
+        darkMeta.content = "#1c181c";
+      } else {
+        const color = theme === "dark" ? "#1c181c" : "#f5f0e8";
+        lightMeta.content = color;
+        darkMeta.content = color;
+      }
+    })();
+  </script>
+  <link rel="canonical" href="https://l-m-sherlock.github.io/yuri-classification-archive/works/umayon_tv_2020/">
+  <link rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="百合作品分类档案">
+  <meta property="og:title" content="《赛马娘四格》分类报告｜百合作品分类档案">
+  <meta property="og:description" content="《赛马娘四格》是 12 个围绕特雷森学园女赛马娘展开的三分钟单元喜剧。补考、学园介绍、午餐、抓独角仙、偶像招募、试胆和竞赛会不断改变出场组合；同学、对手、搭档与表演团体关系是每一集的行动材料，而非某一对角色的连续恋爱故事。 本档案将它登记为 女女关系位于主线、按作品分类归档、恋爱位置缺席、最高明确度为非恋爱……">
+  <meta property="og:url" content="https://l-m-sherlock.github.io/yuri-classification-archive/works/umayon_tv_2020/">
+  <meta property="og:image" content="https://l-m-sherlock.github.io/yuri-classification-archive/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+  <title>《赛马娘四格》分类报告｜百合作品分类档案</title>
+  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=e68f78a2d1a9">
+
+</head>
+<body class="classification-report">
+  <a class="skip-link" href="#main-content">跳到正文</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="/yuri-classification-archive/">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>
+          <strong>百合作品分类档案</strong>
+          <small>按查询拆开标签，按证据保留边界</small>
+        </span>
+      </a>
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-navigation"
+      >
+        <span>菜单</span>
+        <span class="menu-toggle-icon" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-navigation" aria-label="主导航">
+        <div class="nav-main">
+          <a href="/yuri-classification-archive/">首页</a>
+          <a href="/yuri-classification-archive/table/">总表</a>
+          <a href="/yuri-classification-archive/articles/">专题</a>
+          <a href="/yuri-classification-archive/about/">方法与说明</a>
+        </div>
+        <a class="nav-star" href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub / Star <span aria-hidden="true">↗</span></a>
+        <a class="nav-feedback" href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
+        <label class="theme-control" for="theme-preference">
+          <span>主题</span>
+          <select id="theme-preference" aria-label="主题偏好">
+            <option value="system">跟随系统</option>
+            <option value="light">浅色</option>
+            <option value="dark">深色</option>
+          </select>
+        </label>
+      </nav>
+    </div>
+  </header>
+  <main id="main-content">
+    <article class="report-page">
+  <header class="report-header">
+    <p class="eyebrow">TV 短篇 · 2026-08-02</p>
+    <h1>《赛马娘四格》分类报告</h1>
+    <p class="report-subtitle">2020 年 7 月 7 日至 9 月 22 日播出的 TV 短篇《うまよん》第 1–12 话；Bangumi subject 269389 所归档的 12 话、每话约 3 分钟的首播版本</p>
+    <div class="label-strip" aria-label="分类摘要">
+      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>女女恋爱位置：</strong>缺席</span><span class="label-chip"><strong>女女关系最高明确度：</strong>非恋爱</span><span class="label-chip"><strong>官方字面百合／GL：</strong>所核未见</span><span class="label-chip"><strong>官方女女恋爱表述：</strong>所核未见</span><span class="label-chip"><strong>官方来源：</strong>层级：当前版本；位置：可见作品宣传</span><span class="label-chip"><strong>结论置信度：</strong>中<span class="inline-help" tabindex="0" aria-label="查看结论置信度说明" aria-describedby="report-confidence-help"><span aria-hidden="true">?</span><span class="term-tooltip" id="report-confidence-help" role="tooltip">表示当前锁定范围内，现有证据对本报告主要分类结论的支持稳定度；它不是百合程度、作品质量、社群共识或统计概率。</span></span></span>
+    </div>
+    <a class="back-link" href="/yuri-classification-archive/table/?q=%E8%B5%9B%E9%A9%AC%E5%A8%98%E5%9B%9B%E6%A0%BC">← 返回总表并定位本作</a>
+  </header>
+  <div class="report-layout">
+    <aside class="report-toc">
+      <p>本页目录</p>
+      <ol><li><a href="#低剧透概览">低剧透概览</a></li><li><a href="#数据库与公开分类">数据库与公开分类</a></li><li><a href="#决定性文本证据">决定性文本证据</a></li><li><a href="#四层分析">四层分析</a></li><li><a href="#最强反方解释">最强反方解释</a></li><li><a href="#分用途结论">分用途结论</a></li><li><a href="#方法来源与限制">方法、来源与限制</a></li></ol>
+    </aside>
+    <div class="report-content">
+      <blockquote>
+<p>分类日期：2026-08-02<br> 分类对象：2020 年 TV 泡面短篇《うまよん》<br> 纳入范围：第 1–12 话，每话约 3 分钟，2020-07-07 至 2020-09-22 首播<br> 排除范围：主线 TV 季、2021 年追加短篇、漫画、游戏、舞台、歌曲、宣传片及其他跨媒介材料<br> 用途：普通推荐与数据库分类</p>
+</blockquote>
+<h2 id="低剧透概览">低剧透概览</h2>
+<aside class="alert alert-note"><strong>说明</strong><div class="alert-content"><p><strong>分类信息提示：</strong> 本节不展开关键剧情、转折与结局，但分类信息本身会透露关系类型、叙事位置和恋爱明确度。希望完全盲看的读者请跳过本页。</p></div></aside>
+
+<p>《赛马娘四格》是 12 个围绕特雷森学园女赛马娘展开的三分钟单元喜剧。补考、学园介绍、午餐、抓独角仙、偶像招募、试胆和竞赛会不断改变出场组合；同学、对手、搭档与表演团体关系是每一集的行动材料，而非某一对角色的连续恋爱故事。</p>
+<p>本档案将它登记为<strong>女女关系位于主线、按作品分类归档、恋爱位置缺席、最高明确度为非恋爱</strong>，置信度中等。12 话日文字幕能够直接证明女角色间的协作、竞争和共同体，但没有同步画面复核；本报告也没有找到足以把某一组关系登记为明确欲望或明确交往的台词事实。换言之，它可作为非恋爱女女群像入口，却不应被推荐成确认情侣作品。</p>
+<h3 id="分层标签">分层标签</h3>
+<blockquote>
+<p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：缺席｜最高明确度：非恋爱｜关系构成：多组异质关系｜官方字面：所核未见｜官方恋爱表述：所核未见｜官方来源：范围内官方介绍页／官方 PV（可多选）｜阅读层级：正篇事实／强推断／读者解读｜身份依据类型：范围内无依据｜男性恋爱线：无｜内容提示：竞技与校园喜剧、轻度摔倒和追逐笑料、拟人化赛马设定、试胆与悬疑剧场、角色较多且单集关系短暂。</strong></p>
+</blockquote>
+<h3 id="严格恋爱检索提示">严格恋爱检索提示</h3>
+<ul>
+<li><strong>只寻找双方告白、正式交往、恋人称谓、女女接吻或明确身份：不符合。</strong> 完整字幕材料不构成这类关系事实；字幕文本并没有提供可登记为这类关系事实的直接依据，且本报告没有用画面臆补。</li>
+<li><strong>接受女女关系处于作品主线、但不要求恋爱确认：可以推荐。</strong> 各话的共同活动主要由女赛马娘之间的协作、竞争、日常和表演组织；推荐时应明说“非恋爱群像”。</li>
+<li><strong>只寻找单一配对持续发展的读者：谨慎推荐。</strong> 这是四格改编的单元短篇，角色组合按笑点而变；任何配对阅读都不应替代作品本身的群像结构。</li>
+</ul>
+<h2 id="数据库与公开分类">数据库与公开分类</h2>
+<p>以下为 2026-08-02 的归档快照。官方资料、字幕、编辑数据库与用户标签分别回答版本、文本、检索入口和社群使用方式，不能相加成一次“百合投票”。</p>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>来源</th>
+<th>条目与字段</th>
+<th>来源类型</th>
+<th>本报告如何使用</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://umamusume.jp/contents/anime/umayon/intro/" target="_blank" rel="noopener noreferrer">官方介绍页</a>／<a href="https://www.youtube.com/watch?v=igH1tE3Zvm4" target="_blank" rel="noopener noreferrer">第一弹 PV</a></td>
+<td>宣传以竞速、演唱会、校园日常和角色群像为入口；所核页面未使用百合、GL 或恋爱类型字面</td>
+<td>官方版本与市场资料</td>
+<td>锁定 2020 TV 短篇范围，记录官方字面与恋爱表述均为“所核未见”</td>
+</tr>
+<tr>
+<td><a href="https://jimaku.cc/entry/5707" target="_blank" rel="noopener noreferrer">Jimaku 条目 5707</a></td>
+<td>页面关联 AniList 108941，列出连续第 1–12 话的 JPSC ASS；2021 年追加短篇另列为 entry 5708</td>
+<td>字幕资料库</td>
+<td>未作视听复核，因此不外推字幕未记录的镜头、动作、表情、声线或沉默反应</td>
+</tr>
+<tr>
+<td><a href="https://bangumi.tv/subject/269389" target="_blank" rel="noopener noreferrer">Bangumi 269389</a>／<a href="https://api.bgm.tv/v0/subjects/269389" target="_blank" rel="noopener noreferrer">公共 API</a></td>
+<td>TV、12 话；榜单快照 Rank <strong>5191</strong>，“百合”标签 <strong>219</strong>；五种收藏状态合计 4,247，比例约 <strong>5.158%</strong></td>
+<td>社区数据库与用户标签</td>
+<td>记录中文读者的检索用法；比例不是关系或身份的证据</td>
+</tr>
+<tr>
+<td><a href="https://myanimelist.net/anime/38835/Umayon" target="_blank" rel="noopener noreferrer">MyAnimeList 38835</a>／<a href="https://www.anime-planet.com/anime/umayon" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td>
+<td>MAL 未列精确 <code>Girls Love</code>；Anime-Planet 精确 GL 字段在快照中资料不足</td>
+<td>编辑数据库</td>
+<td>说明严格 GL 入口未必收录；“未标”与“资料不足”不等于官方否定</td>
+</tr>
+<tr>
+<td><a href="https://anilist.co/anime/108941/Umayon" target="_blank" rel="noopener noreferrer">AniList 108941</a>／<a href="https://animeschedule.net/anime/umayon" target="_blank" rel="noopener noreferrer">AnimeSchedule</a></td>
+<td>TV Short、12 话、每话约 3 分钟；AniList 注重 Comedy、Slice of Life、女性群像与竞技，快照未列 Yuri</td>
+<td>编辑字段与辅助索引</td>
+<td>交叉核对版本、时长和数据库检索重心；相关度和标签均不推出角色身份</td>
+</tr>
+</tbody>
+</table></div>
+<p>平台差异在这里很直观：Bangumi 的用户标签提供了宽口径的百合检索入口；官方、MAL 和 AniList 更突出短篇、校园、喜剧与竞技。它们不是彼此否定，而是在回答不同读者的问题。</p>
+<aside class="alert alert-warning"><strong>剧透提示</strong><div class="alert-content"><p>以下部分包含第 1–12 话的单元内容和具体台词。</p></div></aside>
+
+      <details class="spoiler-panel">
+        <summary>
+          <span>展开详细证据（含完整剧透）</span>
+          <small>决定性证据、四层分析、反方解释与方法限制</small>
+        </summary>
+        <div class="spoiler-content">
+          <h2 id="决定性文本证据">决定性文本证据</h2>
+<p>Jimaku 条目 5707 的字幕覆盖正文所列纳入单元；时间码只对应该字幕版本；未作视听复核，因此不外推字幕未记录的镜头、动作、表情、声线或沉默反应。</p>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>位置</th>
+<th>原文与中文摘要</th>
+<th>叙事层级</th>
+<th>证据强度与视听复核</th>
+<th>能证明什么</th>
+<th>不能证明什么</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>第 2 话 00:01:37.600–00:02:07.100</td>
+<td>学园介绍说角色要脱颖而出需要 <code>仲間の助けや戦友との切磋琢磨</code>（“伙伴的帮助与战友间彼此砥砺”），并邀请大家一起奔向梦想舞台</td>
+<td>学园介绍／共同体</td>
+<td>直接字幕；未作画面复核</td>
+<td>作品直接把女赛马娘之间的协作、竞争和表演写成学园共同体的原则</td>
+<td>伙伴与战友不是恋人称谓，也不说明性取向</td>
+</tr>
+<tr>
+<td>第 7 话 00:00:03.340–00:00:35.420</td>
+<td>BNW 单元中，一人请另外两人 <code>手伝ってよ</code>（“帮帮我吧”），三人讨论抓独角仙的时间、地点和方法</td>
+<td>日常小组活动</td>
+<td>直接字幕；未作画面复核</td>
+<td>BNW 是可辨认的朋友／同世代竞争者小组，能够共同回应一项活动</td>
+<td>同行和互助不自动构成恋爱关系</td>
+</tr>
+<tr>
+<td>第 9 话 00:00:18.000–00:00:23.680</td>
+<td><code>逃げ切りシスターズ</code> 被说明为 <code>逃げウマ娘だけのウマドルユニット</code>（“只由逃げ马娘组成的偶像团体”）</td>
+<td>表演团体／招募喜剧</td>
+<td>直接字幕；未作画面复核</td>
+<td>同校角色会以偶像团体和伙伴网络组织行动</td>
+<td>组合名中的“姐妹”不是亲属或恋爱事实</td>
+</tr>
+<tr>
+<td>第 6 话 00:00:04.400–00:00:17.580</td>
+<td>一人邀请 <code>明日のお昼にでも一緒にどうかしら</code>（“明天中午一起如何”），其余人同意并讨论着装</td>
+<td>午餐单元</td>
+<td>直接字幕；未作画面复核</td>
+<td>临时小组的日常关系可由共同出行与互相回应构成</td>
+<td>共同吃午餐不自动是约会</td>
+</tr>
+<tr>
+<td>第 4 话 00:00:30.710–00:02:23.910</td>
+<td>歌剧剧场出现 <code>無限の愛</code>（“无限的爱”）、<code>愛を賭けて</code>（“为爱赌上……”）等高密度恋爱词，收尾却回到“下次我当主角”的角色扮演笑点</td>
+<td>剧中剧／表演</td>
+<td>直接字幕；未作画面复核</td>
+<td>恋爱词需要先判断说话层级；本集是舞台式喜剧材料</td>
+<td>不能把剧中角色的“爱”直接登记成现实层的女女恋爱</td>
+</tr>
+<tr>
+<td>官方介绍页</td>
+<td>官方把竞赛、演唱会与女赛马娘校园日常并列为作品入口</td>
+<td>官方宣传</td>
+<td>直接官方文字</td>
+<td>群像和共同体在作品层面处于中心</td>
+<td>不为任何具体配对提供恋爱确认</td>
+</tr>
+</tbody>
+</table></div>
+<p>这些证据共同支持的是“女女关系怎样组织短篇喜剧”，而不是“某对角色已经是情侣”。第 4 话尤其是反例：如果只搜索“爱”字，会得到错误的高分；把它放回剧中剧和收尾语境，才能看见它只是表演笑点。完整字幕提高了对文本事实的把握，却不替代对无对白画面的复核。</p>
+<h2 id="四层分析">四层分析</h2>
+<h3 id="第一层文本中的关系">第一层：文本中的关系</h3>
+<p>女赛马娘群体（r01）是全作最稳定的关系场：学校、竞赛、演出和单元活动都由她们的互动推动。BNW（r02）在第 7 话作为三人活动小组出现；竞技与表演伙伴网络（r03）在学园介绍与偶像招募中反复被命名；午餐、试胆和歌剧等临时组合（r04）则服务于短篇笑点。它们都可以是读者进行配对阅读的材料，但字幕直接给出的名称是伙伴、竞争者、同学或表演团体。</p>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>关系 ID</th>
+<th>关系／参与者</th>
+<th>类型</th>
+<th>叙事位置</th>
+<th>恋爱明确度</th>
+<th>相互性</th>
+<th>证据层级</th>
+<th>摘要</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>r01</td>
+<td>特雷森学园女赛马娘群体</td>
+<td>友情、搭档、竞争、共同体</td>
+<td>主线</td>
+<td>非恋爱</td>
+<td>双向</td>
+<td>正篇事实＋强推断＋读者解读</td>
+<td>学园介绍直接把伙伴帮助与彼此砥砺置于竞赛、演出和校园生活的共同背景。</td>
+</tr>
+<tr>
+<td>r02</td>
+<td>BNW（琵琶晨光、成田大进、胜利奖券）</td>
+<td>友情、竞争、共同体</td>
+<td>重要副线</td>
+<td>非恋爱</td>
+<td>双向</td>
+<td>正篇事实＋强推断</td>
+<td>第 7 话由三人协作完成抓独角仙的单元活动，未使用恋人或告白语汇。</td>
+</tr>
+<tr>
+<td>r03</td>
+<td>同校女赛马娘的竞技与表演伙伴网络</td>
+<td>搭档、竞争、共同体</td>
+<td>重要副线</td>
+<td>非恋爱</td>
+<td>双向</td>
+<td>正篇事实＋强推断</td>
+<td>学园介绍与偶像团体招募都把角色的相互支持、竞争与共同表演写成行动结构。</td>
+</tr>
+<tr>
+<td>r04</td>
+<td>各话临时组成的女性小组</td>
+<td>友情、搭档、共同体、其他</td>
+<td>局部</td>
+<td>非恋爱</td>
+<td>双向</td>
+<td>正篇事实＋读者解读</td>
+<td>午餐、试胆与歌剧剧场等情境会重新排列角色组合；剧中剧台词不等于现实层恋爱。</td>
+</tr>
+</tbody>
+</table></div>
+<p>第 4 话的歌剧台词说明关系分析必须先问“谁在以什么身份说话”。角色扮演中的恋爱语汇不等于现实层关系事实；同样，竞争、占座或共同行动的情绪强度也不足以自动登记为欲望或交往。故本档案保留群像的情感重要性，同时把最高恋爱明确度记为非恋爱。</p>
+<h3 id="第二层作品的文类位置">第二层：作品的文类位置</h3>
+<p>若暂时不用“百合”一词，本作可以描述为<strong>赛马娘校园／竞技／表演群像的三分钟单元喜剧</strong>。女角色之间的关系不是偶尔出现的布景：她们是每集行动、冲突、吐槽与收束的主要来源，且没有男性恋爱线接管这项功能。因此，开放书目可以把它收为女女关系主线作品。</p>
+<p>但“女女关系主线”不是“女女恋爱主线”的缩写。作品的主线位置回答的是叙事由谁的关系组织；恋爱明确度回答的是文本是否给出了欲望、告白或交往事实。把两个问题拆开，才能同时帮助想找女性群像的读者和只找明确情侣的读者。</p>
+<h3 id="第三层角色身份">第三层：角色身份</h3>
+<p>范围内角色以女赛马娘、学生、竞技者或表演者身份出现，性别呈现清楚；但没有角色用台词或官方设定自称女同性恋、双性恋、无性恋或其他性取向。竞技中的“对手”“搭档”，偶像团体中的“姐妹”，以及 Bangumi 的百合标签都不能替代这种身份依据。</p>
+<p>因此身份栏为“范围内无依据／未知”。这不是把角色默认成任何一种取向，也不是禁止读者的浪漫解释；它只是拒绝从作品主类、单个关键词或社群标签跳到角色的稳定身份结论。</p>
+<h3 id="第四层公共标签礼仪">第四层：公共标签礼仪</h3>
+<p>普通推荐可写成“女赛马娘校园与竞技群像，非恋爱短篇喜剧”。开放百合书目可补充“女女关系主线／非恋爱”；严格恋爱库则应排除“明确交往”与“明确女女欲望”两个查询。这样的并列标签比只写“百合”更有信息量，也不会把对手、同伴或剧中剧误报为情侣。</p>
+<p>官方查询也应分开陈述：本档案所核官方宣传未使用“百合／GL”字面，亦未给出角色恋爱表述；Bangumi 的用户标签则说明有人以宽口径检索本作。前者不是否定，后者也不是官方认证。私人配对可以存在，但应标明是阅读，而不是把它改写成字幕已经确认的事实。</p>
+<h2 id="最强反方解释">最强反方解释</h2>
+<p>最强的保留意见是：<strong>《赛马娘四格》首先是企划衍生的泡面喜剧，应归入运动、校园和日常，而不应进入任何百合条目。</strong> 官方宣传、MAL 与 AniList 都支持这一读法；完整字幕也没有给出某对女角色的明确恋爱或交往事实。若读者只检索确认女女恋爱，排除本作是合理的。</p>
+<p>本报告仍保留开放归档，不是因为“角色全是女性”或某个数据库有标签，而是因为女赛马娘之间的协作、竞争、表演与生活共同体构成所有单元的可见关系场。写成“女女关系主线、非恋爱群像、短篇喜剧”比强行判作情侣作品或完全抹去关系结构都更可复核。</p>
+<h2 id="分用途结论">分用途结论</h2>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>用途</th>
+<th>分类</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>普通作品推荐</td>
+<td>三分钟一话的校园／训练／竞赛短篇喜剧；女女群像互动是主要观看对象，恋爱缺席</td>
+</tr>
+<tr>
+<td>数据库主标签</td>
+<td>开放口径可标“百合（女女关系主线／非恋爱）”，并列泡面番、搞笑、校园、运动；窄恋爱型 GL 不建议标</td>
+</tr>
+<tr>
+<td>严格明确恋爱检索</td>
+<td>不符合：本档案未找到可登记为女女告白、明确欲望、正式交往或身份明示的范围内依据</td>
+</tr>
+<tr>
+<td>私人百合阅读</td>
+<td>可以：BNW、竞技对手、偶像团体和临时小组都可作为读者配对入口，但应标为读者解读</td>
+</tr>
+<tr>
+<td>角色身份检索</td>
+<td>未知：性别呈现、作品标签和社群标记都不能推出性取向</td>
+</tr>
+<tr>
+<td>官方分类查询</td>
+<td>官方字面百合／GL：所核未见；官方女女恋爱表述：所核未见</td>
+</tr>
+<tr>
+<td>内容筛选</td>
+<td>含竞技失败、追逐、轻度摔倒、试胆、悬疑剧场和夸张角色扮演；角色多、组合转换快</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="方法来源与限制">方法、来源与限制</h2>
+<ul>
+<li><strong>字幕审计。</strong> 所列字幕覆盖第 1–12 话；时间码只对应该字幕版本；未作视听复核，因此不外推字幕未记录的镜头、动作、表情、声线或沉默反应。</li>
+<li><strong>版本边界。</strong> 只判断 2020 TV 第 1–12 话。主线 TV、2021 年追加短篇、漫画、游戏和现实赛马资料都没有用于补写任何关系或身份。</li>
+<li><strong>证据限制。</strong> 字幕支持说话内容和时间码，不支持镜头构图、表情、身体距离、沉默或动作发起者。若未来有同版合法视听材料，须先区分现实层、剧中剧、歌曲和喜剧情境，再调整局部关系字段；其他媒介的新事实应另建档案。</li>
+</ul>
+
+        </div>
+      </details>
+    </div>
+  </div>
+</article>
+
+<section class="feedback-section">
+  <div>
+    <p class="eyebrow">REPORT FEEDBACK</p>
+    <h2>提交可核查的修订建议</h2>
+    <p>请注明作品版本、集数／章节、要质疑的原句、可公开核查的来源，以及建议如何修订。评论属于待核查反馈，不会自动成为报告证据。</p>
+  </div>
+  <div class="giscus"></div>
+<div class="giscus-config"
+        hidden
+        data-repo="L-M-Sherlock/yuri-classification-archive"
+        data-repo-id="R_kgDOTo1RzA"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOTo1RzM4DCXAh"
+        data-mapping="specific"
+        data-term="classification:umayon_tv_2020"
+        data-strict="1"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-lang="zh-CN"
+        data-loading="lazy"
+        aria-hidden="true"></div>
+</section>
+
+  </main>
+  <footer class="site-footer">
+    <div>
+      <p>分类是面向具体查询的检索工具，不是替作品关系作终审判决。</p>
+      <p class="footer-ai-note">本站使用以 OpenAI Codex 为主的生成式 AI 辅助研究、写作与站点开发；人工审阅未覆盖全部作品报告。<a href="/yuri-classification-archive/about/#AI使用说明">查看 AI 使用说明</a></p>
+      <p>© 2026 Jarrett Ye · <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="license noopener noreferrer">CC BY-NC-SA 4.0</a> · <a href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub 仓库</a> · <a href="/yuri-classification-archive/about/#使用边界">使用边界</a></p>
+    </div>
+  </footer>
+  <script>window.SITE_CONFIG = {basePath: "/yuri-classification-archive"};</script>
+  <script src="/yuri-classification-archive/assets/site.js?v=eeeec5872796" defer></script>
+
+</body>
+</html>

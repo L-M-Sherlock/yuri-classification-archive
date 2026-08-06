@@ -1,0 +1,383 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="这部 2019–2020 年 TV 动画以舰船力量化为少女的多阵营战争为前提，女性角色之间的友谊、照料、指挥和冲突持续推动故事。绫波、拉菲与标枪跨越阵营形成的朋友关系，企业与贝尔法斯特的同行，以及赤城与加贺的姐妹式依附，都不是偶尔出现的背景装饰；它们分别承担了人物选择、团队协作和主线冲突的情感重量。 不过，女性……">
+  <meta name="color-scheme" content="light dark">
+  <meta id="theme-color-light" name="theme-color" media="(prefers-color-scheme: light)" content="#f5f0e8">
+  <meta id="theme-color-dark" name="theme-color" media="(prefers-color-scheme: dark)" content="#1c181c">
+  <script>
+    (() => {
+      document.documentElement.classList.add("js");
+      const storageKey = "yuri-classification-theme";
+      const allowed = new Set(["system", "light", "dark"]);
+      let preference = "system";
+      try {
+        const stored = localStorage.getItem(storageKey);
+        if (allowed.has(stored)) preference = stored;
+      } catch (_error) {
+        preference = "system";
+      }
+      const systemDark = window.matchMedia?.("(prefers-color-scheme: dark)").matches;
+      const theme = preference === "system"
+        ? (systemDark ? "dark" : "light")
+        : preference;
+      document.documentElement.dataset.theme = theme;
+      document.documentElement.dataset.themePreference = preference;
+      document.documentElement.style.colorScheme = theme;
+      const lightMeta = document.getElementById("theme-color-light");
+      const darkMeta = document.getElementById("theme-color-dark");
+      if (preference === "system") {
+        lightMeta.content = "#f5f0e8";
+        darkMeta.content = "#1c181c";
+      } else {
+        const color = theme === "dark" ? "#1c181c" : "#f5f0e8";
+        lightMeta.content = color;
+        darkMeta.content = color;
+      }
+    })();
+  </script>
+  <link rel="canonical" href="https://l-m-sherlock.github.io/yuri-classification-archive/works/azur_lane_tv_2019/">
+  <link rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="百合作品分类档案">
+  <meta property="og:title" content="《碧蓝航线 THE ANIMATION》分类报告｜百合作品分类档案">
+  <meta property="og:description" content="这部 2019–2020 年 TV 动画以舰船力量化为少女的多阵营战争为前提，女性角色之间的友谊、照料、指挥和冲突持续推动故事。绫波、拉菲与标枪跨越阵营形成的朋友关系，企业与贝尔法斯特的同行，以及赤城与加贺的姐妹式依附，都不是偶尔出现的背景装饰；它们分别承担了人物选择、团队协作和主线冲突的情感重量。 不过，女性……">
+  <meta property="og:url" content="https://l-m-sherlock.github.io/yuri-classification-archive/works/azur_lane_tv_2019/">
+  <meta property="og:image" content="https://l-m-sherlock.github.io/yuri-classification-archive/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+  <title>《碧蓝航线 THE ANIMATION》分类报告｜百合作品分类档案</title>
+  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=e68f78a2d1a9">
+
+</head>
+<body class="classification-report">
+  <a class="skip-link" href="#main-content">跳到正文</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="/yuri-classification-archive/">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>
+          <strong>百合作品分类档案</strong>
+          <small>按查询拆开标签，按证据保留边界</small>
+        </span>
+      </a>
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-navigation"
+      >
+        <span>菜单</span>
+        <span class="menu-toggle-icon" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-navigation" aria-label="主导航">
+        <div class="nav-main">
+          <a href="/yuri-classification-archive/">首页</a>
+          <a href="/yuri-classification-archive/table/">总表</a>
+          <a href="/yuri-classification-archive/articles/">专题</a>
+          <a href="/yuri-classification-archive/about/">方法与说明</a>
+        </div>
+        <a class="nav-star" href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub / Star <span aria-hidden="true">↗</span></a>
+        <a class="nav-feedback" href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
+        <label class="theme-control" for="theme-preference">
+          <span>主题</span>
+          <select id="theme-preference" aria-label="主题偏好">
+            <option value="system">跟随系统</option>
+            <option value="light">浅色</option>
+            <option value="dark">深色</option>
+          </select>
+        </label>
+      </nav>
+    </div>
+  </header>
+  <main id="main-content">
+    <article class="report-page">
+  <header class="report-header">
+    <p class="eyebrow">TV 动画 · 2026-08-04</p>
+    <h1>《碧蓝航线 THE ANIMATION》分类报告</h1>
+    <p class="report-subtitle">2019-10-03 至 2020-03-20 播出的 TV 动画《アズールレーン THE ANIMATION》常规第 1–12 话；官网 Story 01–12 对应的十二个叙事单元，以及与其逐话标题一一对应的 Jimaku entry 11949 日文 AT-X SRT；用于确认版本、常规话数和公开措辞的动画官网 Introduction、Story、Bangumi 条目与 AniList 条目</p>
+    <div class="label-strip" aria-label="分类摘要">
+      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>读者解读</span><span class="label-chip"><strong>女女恋爱位置：</strong>未知</span><span class="label-chip"><strong>女女关系最高明确度：</strong>未知</span><span class="label-chip"><strong>官方字面百合／GL：</strong>所核未见</span><span class="label-chip"><strong>官方女女恋爱表述：</strong>所核未见</span><span class="label-chip"><strong>官方来源：</strong>层级：当前版本、相邻版本；位置：出版载体、剧情／角色页、可见作品宣传</span><span class="label-chip"><strong>结论置信度：</strong>中<span class="inline-help" tabindex="0" aria-label="查看结论置信度说明" aria-describedby="report-confidence-help"><span aria-hidden="true">?</span><span class="term-tooltip" id="report-confidence-help" role="tooltip">表示当前锁定范围内，现有证据对本报告主要分类结论的支持稳定度；它不是百合程度、作品质量、社群共识或统计概率。</span></span></span>
+    </div>
+    <a class="back-link" href="/yuri-classification-archive/table/?q=%E7%A2%A7%E8%93%9D%E8%88%AA%E7%BA%BF%20THE%20ANIMATION">← 返回总表并定位本作</a>
+  </header>
+  <div class="report-layout">
+    <aside class="report-toc">
+      <p>本页目录</p>
+      <ol><li><a href="#低剧透概览">低剧透概览</a></li><li><a href="#数据库与公开分类">数据库与公开分类</a></li><li><a href="#决定性文本证据">决定性文本证据</a></li><li><a href="#四层分析">四层分析</a></li><li><a href="#最强反方解释">最强反方解释</a></li><li><a href="#分用途结论">分用途结论</a></li><li><a href="#方法来源与限制">方法、来源与限制</a></li></ol>
+    </aside>
+    <div class="report-content">
+      <blockquote>
+<p>分类日期：2026-08-04<br> 分类对象：2019–2020 年 TV 动画《アズールレーン THE ANIMATION》常规第 1–12 话<br> 纳入范围：官网 Story 01–12 对应的十二个常规叙事单元，以及逐话对应的日文字幕文本<br> 排除范围：第 01–06 话摘要特番、另行发布的 episode 6.5 mini drama、短篇续作、OVA、游戏、漫画、小说及其他跨媒介材料<br> 用途：女女关系结构、严格恋爱检索与版本边界的分层说明</p>
+</blockquote>
+<h2 id="低剧透概览">低剧透概览</h2>
+<aside class="alert alert-note"><strong>说明</strong><div class="alert-content"><p><strong>分类信息提示：</strong> 本节不展开关键剧情、转折与结局，但分类信息本身会透露关系类型、叙事位置和恋爱明确度。希望完全盲看的读者请跳过本页。</p></div></aside>
+
+<p>这部 2019–2020 年 TV 动画以舰船力量化为少女的多阵营战争为前提，女性角色之间的友谊、照料、指挥和冲突持续推动故事。绫波、拉菲与标枪跨越阵营形成的朋友关系，企业与贝尔法斯特的同行，以及赤城与加贺的姐妹式依附，都不是偶尔出现的背景装饰；它们分别承担了人物选择、团队协作和主线冲突的情感重量。</p>
+<p>不过，女性关系成为叙事中心，并不把每一种亲密自动压缩成恋爱。官方网页以少女群像、舰队、阵营和战争介绍作品，未给出百合／GL的字面类型；日文字幕可以定位朋友、职责、姐妹式照料等关系事实，却没有建立可归属的女女恋人称谓、双方交往或角色身份自述。因而，这份档案保留其作为女女关系中心作品的读者入口，同时不把它当作严格明确女女恋爱的命中项。</p>
+<h3 id="分层标签">分层标签</h3>
+<blockquote>
+<p><strong>女女关系层级：主线｜百合归档依据：读者解读｜恋爱位置：资料不足｜最高明确度：资料不足｜关系构成：多组异质关系｜官方字面：所核未见｜官方恋爱表述：所核未见｜官方来源：2019–2020 年 TV 官网 Introduction、Story 与新闻页｜阅读层级：正篇事实／强推断／读者解读｜身份依据类型：范围内无依据｜男性恋爱线：资料不足｜内容提示：海战、伤害与失踪、心理危机、姐妹式依附、浴场场景。</strong></p>
+</blockquote>
+<h3 id="严格恋爱检索提示">严格恋爱检索提示</h3>
+<ul>
+<li><strong>只寻找双方告白、正式交往、接吻或身份明示：不宜据此纳入。</strong> 十二话日文字幕建立的是朋友、任务、照料和姐妹式语言；没有同步视频，字幕未记录的无声画面和互动也不应被写成反向证据。</li>
+<li><strong>寻找女性群像、跨阵营友情、共同体与复杂女性关系：可以纳入。</strong> 其价值在于关系网络怎样改变阵营与行动，而非把网络压成一条已确认情侣线。</li>
+</ul>
+<h2 id="数据库与公开分类">数据库与公开分类</h2>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>来源</th>
+<th>条目与字段</th>
+<th>来源类型</th>
+<th>本报告如何使用</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://azurlane-anime.jp/introduction/" target="_blank" rel="noopener noreferrer">动画官网 Introduction</a></td>
+<td>将舰船力量所生的少女、碧蓝航线／赤色中轴分裂与塞壬威胁作为作品前提；所核未见百合／GL字面</td>
+<td>官方作品资料</td>
+<td>固定 TV 版本与少女群像、战争结构；不把宣传文案当作配对或身份结论。</td>
+</tr>
+<tr>
+<td><a href="https://azurlane-anime.jp/story/03.html" target="_blank" rel="noopener noreferrer">官网 Story 03</a>、<a href="https://azurlane-anime.jp/story/09.html" target="_blank" rel="noopener noreferrer">Story 09</a>、<a href="https://azurlane-anime.jp/story/10.html" target="_blank" rel="noopener noreferrer">Story 10</a></td>
+<td>分别定位企业—贝尔法斯特的监视与交谈、绫波被拉菲／标枪看守并受欢迎、加贺对赤城与天城往事的回想</td>
+<td>官方逐话梗概</td>
+<td>辅助核对关系线的叙事位置；梗概不能替代逐句对白或镜头。</td>
+</tr>
+<tr>
+<td><a href="https://api.bgm.tv/v0/subjects/260677" target="_blank" rel="noopener noreferrer">Bangumi subject 260677 API</a></td>
+<td>TV、常规 12 话；另有一个 type=1 附加项目</td>
+<td>社区数据库与条目边界</td>
+<td>锁定条目与附加项目，社区标签不承担关系事实证明。</td>
+</tr>
+<tr>
+<td><a href="https://azurlane-anime.jp/news/news_20191104_01.html" target="_blank" rel="noopener noreferrer">官网折返点特番公告</a></td>
+<td>《三笠大先輩と学ぶ アニメ『アズールレーン』》是第 01–06 话摘要与舰船知识介绍</td>
+<td>官方发布资料</td>
+<td>说明 Bangumi 附加项目为何不作为新的常规叙事单元纳入。</td>
+</tr>
+<tr>
+<td><a href="https://anilist.co/anime/104159/Azur-Lane/" target="_blank" rel="noopener noreferrer">AniList 104159</a></td>
+<td>2019 年 TV、12 话；可见社区字段强调女性主角群像、战争与舰船主题</td>
+<td>编辑字段与加权社区标签</td>
+<td>交叉确认字幕条目对应的媒介与话数；标签不是官方分类或身份认证。</td>
+</tr>
+<tr>
+<td><a href="https://jimaku.cc/entry/11949" target="_blank" rel="noopener noreferrer">Jimaku entry 11949</a></td>
+<td>与 AniList 104159 精确对应；日文 SRT 覆盖第 01—12 话，话名与官网 Story 一致</td>
+<td>字幕目录</td>
+<td>提供逐话文字定位；字幕目录条目本身不是剧情证据</td>
+</tr>
+</tbody>
+</table></div>
+<p>数据库、官网和字幕目录回答的不是同一问题。Bangumi 百合榜记录的是社区检索事实；官方网页记录制作方如何介绍版本；字幕目录只提供可以逐句阅读的文本。它们不能互相代替：官方未使用某个类型词，不能取消读者的关系阅读；社区使用标签，也不能把朋友、职责或姐妹式照料直接改写成恋爱。</p>
+<aside class="alert alert-warning"><strong>剧透提示</strong><div class="alert-content"><p>以下部分包含十二话常规 TV 正篇的完整剧情方向与结局相关关系信息。日文短引来自第三方字幕，中文为自行翻译；没有同步视频，时间码只定位有对白的文本。</p></div></aside>
+
+      <details class="spoiler-panel">
+        <summary>
+          <span>展开详细证据（含完整剧透）</span>
+          <small>决定性证据、四层分析、反方解释与方法限制</small>
+        </summary>
+        <div class="spoiler-content">
+          <h2 id="决定性文本证据">决定性文本证据</h2>
+<p>常规第 1–12 话均有与官网标题相符的日文 SRT。Bangumi 另列的摘要性特番和官网所称 episode 6.5 的独立 mini drama 均不用于补写常规十二话的关系；下表只引用能够支撑关系分层的短句。</p>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>位置</th>
+<th>原文与中文摘要</th>
+<th>叙事层级</th>
+<th>证据强度与视听复核</th>
+<th>能证明什么</th>
+<th>不能证明什么</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>第 2 话 00:07:02–00:07:47</td>
+<td>赤城替加贺处理伤势，说 <code>私たちは姉妹のようなもの</code>、<code>姉が妹を愛するのは当然よ</code>；自译：“我们如同姐妹；姐姐爱妹妹是理所当然。”</td>
+<td>现实对话／照料</td>
+<td>字幕直接；仅文字定位</td>
+<td>赤城对加贺的照料与姐妹式关系语言具有明确文本基础</td>
+<td>“爱”在这段被置于姐妹式称呼中，不能单凭它确认女女恋爱，也不能由字幕推断镜头细节。</td>
+</tr>
+<tr>
+<td>第 4 话 00:21:45–00:22:04</td>
+<td>绫波回答同伴：<code>はい　大切な友達です</code>，继而说为了大家行动；自译：“是重要的朋友。”</td>
+<td>现实对话／重逢</td>
+<td>字幕直接；仅文字定位</td>
+<td>绫波把女性同伴明确命名为重要朋友，并把这段关系连到行动动机</td>
+<td>“重要朋友”不是恋人、交往或性取向的同义词。</td>
+</tr>
+<tr>
+<td>第 8 话 00:11:29–00:11:50</td>
+<td>贝尔法斯特说：<code>エンタープライズ様のおそばにいることが私の仕事です</code>；自译：“留在企业身边是我的工作。”她决定搜寻企业，拉菲和标枪加入</td>
+<td>现实对话／危机场景</td>
+<td>字幕直接；仅文字定位</td>
+<td>贝尔法斯特对企业的职责性照料与女性团队的协力</td>
+<td>这段只给出贝尔法斯特一侧的任务和行动，不确认对等回应、恋爱或身份。</td>
+</tr>
+<tr>
+<td>第 10 话 00:05:02–00:05:45</td>
+<td>绫波担心重樱伙伴；拉菲说 <code>綾波の大切な人 ラフィーにとっても大切な人</code>，标枪说 <code>私たち 友達になれた</code>；自译：“绫波重要的人也是拉菲重要的人；我们成为朋友了。”</td>
+<td>现实对话／跨阵营决定</td>
+<td>字幕直接；仅文字定位</td>
+<td>三人以朋友与共同关心为依据，主动跨越阵营边界协作</td>
+<td>友情和共同体足以解释这一段，不应被自动升级为情侣关系。</td>
+</tr>
+</tbody>
+</table></div>
+<p>这些材料建立的是一个差异很大的关系网：姐妹式照料、职务中的守护、跨阵营朋友与群体协作。第 7、8、11、12 话标题中的“爱”“拥抱”等词在不同叙事关系和场景中也可能出现；标题或关键词脱离说话者、对象和上下文，不能承担配对结论。因而报告使用可归属的对话，而非以词语数量或标题的浪漫字面作分类。</p>
+<h2 id="四层分析">四层分析</h2>
+<h3 id="第一层文本中的关系">第一层：文本中的关系</h3>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>关系 ID</th>
+<th>关系／参与者</th>
+<th>类型</th>
+<th>叙事位置</th>
+<th>恋爱明确度</th>
+<th>相互性</th>
+<th>证据层级</th>
+<th>摘要</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>r01</td>
+<td>绫波—拉菲—标枪</td>
+<td>友情、搭档、共同体</td>
+<td>主线</td>
+<td>资料不足</td>
+<td>双向</td>
+<td>正篇事实</td>
+<td>跨阵营的三人组以“重要朋友”“成为朋友”与互相协助来处理分裂；她们的共同选择把关系从局部接触推进为主线行动条件。</td>
+</tr>
+<tr>
+<td>r02</td>
+<td>企业—贝尔法斯特</td>
+<td>搭档、师生或照护</td>
+<td>重要副线</td>
+<td>资料不足</td>
+<td>相互性未确认</td>
+<td>正篇事实</td>
+<td>贝尔法斯特先受命观察企业，后以职责为由留在其身边并搜寻她；材料建立照料方向与任务关系，但未给出对等恋爱命名。</td>
+</tr>
+<tr>
+<td>r03</td>
+<td>赤城—加贺</td>
+<td>亲情、师生或照护、搭档</td>
+<td>主线</td>
+<td>资料不足</td>
+<td>相互性未确认</td>
+<td>正篇事实</td>
+<td>赤城的照料和“如同姐妹”说法，与加贺围绕她作出的冲突性选择共同构成重樱线的情感核心；称呼不能代替恋爱裁决。</td>
+</tr>
+</tbody>
+</table></div>
+<p>这三条关系不能合并为一条“女性亲密”。绫波、拉菲和标枪的中心动作是把曾经敌对的群体重新作为朋友看待；贝尔法斯特的行动通过女仆职责组织，带有角色位置的不对称；赤城和加贺则由姐妹式照料、依附与政治冲突牵引。它们都在女性之间发生，也都推动剧情，但“发生在女性之间”不是足以吞没朋友、家人、服务关系和战友关系差异的总称。</p>
+<p>女女关系的主线性来自关系怎样改变事件：绫波是否能够同时承认两边的重要之人，关系到阵营能否合作；企业的危机使贝尔法斯特和团队采取行动；加贺如何理解赤城，关系到重樱内部的选择。上述事实足以支持女性关系网络为叙事中心，却还没有提供一对可以按恋人关系归档的、互相确认的文本。把最后一个空位保留为资料不足，不等于把情感密度降格为背景。</p>
+<h3 id="第二层作品的文类位置">第二层：作品的文类位置</h3>
+<p>这是一部舰船拟人、军事奇幻和阵营战争作品，同时也是由多条女性关系连接起来的群像。战争和塞壬威胁提供外在目标，但剧情反复把危机写成“是否承认对方仍是重要的人”“是否返回、搜寻或协作”的问题。女性关系不是被战斗打断的附带日常，而是人物愿意如何进入战斗、如何离开旧阵营和如何处理指挥权的组织方式。</p>
+<p>但这不把作品变成单一恋爱文类。官网的介绍重点是舰队、理念分裂和敌人，字幕中的主导关系词是朋友、同伴、姐妹与职责；这些词并非较低级的恋爱替身。社区把本作放入百合榜，能说明读者确实以女性关系寻找它，却不能让数据库标签取代正篇判断。因此最有用的公共描述是“女女关系中心的战争群像，含跨阵营友情、照料与姐妹式依附”，并同时说明它不提供严格明确恋爱的保证。</p>
+<h3 id="第三层角色身份">第三层：角色身份</h3>
+<p>企业、贝尔法斯特、绫波、拉菲、标枪、赤城和加贺在本档案范围内都没有以现代性取向术语为自己命名，也没有官方角色资料在本范围内登记这类身份。女性角色间有重要关系，不等于每个人都拥有同一种性取向；同样，角色没有使用身份词，也不能自动被放回异性恋默认。关系、文类和身份在这里必须分开记录。</p>
+<p>姐妹式的“爱”、任务性的陪伴和跨阵营朋友都可以成为读者进一步观察的线索，但并不能从中推出谁是女同性恋、双性恋或其他身份。男性恋爱线也不应由“字幕没有给出一条显眼线索”就写成不存在：本档案只说明纳入材料没有建立可用于该字段的结论。未来若有独立版本或新材料，必须先确认其是否属于这十二话 TV 版本，不能用游戏或衍生作倒灌身份判断。</p>
+<h3 id="第四层公共标签礼仪">第四层：公共标签礼仪</h3>
+<p>普通推荐应把关系结构说完整：这是以女性舰队群像为中心、由朋友、照料、姐妹式依附和阵营冲突共同驱动的战争动画。这样既帮助想寻找女女关系网络的读者，也不让只期待确定情侣的读者误入。社区“百合”标签可被保留为读者检索入口，但应附上“恋爱未确立、官方未标”的限定。</p>
+<p>严格检索应把门槛写明：若查询需要双方告白、恋人称谓、交往或身份自述，本作不提供这类可归属的正篇文本。私人阅读则不需要被该门槛驱逐；读者可以从绫波—拉菲—标枪的跨阵营选择，或企业—贝尔法斯特的守护中发展自己的感受，只需不把这种感受冒充官方认证或角色自我说明。公开讨论也应避免用角色设计、全女性阵容或片名中的浪漫词替代具体关系证据。</p>
+<h2 id="最强反方解释">最强反方解释</h2>
+<p>最有力的反方会把本作视为以女性舰船角色为中心的军事手游改编：女性角色多、相互关心和并肩作战，是系列设定与战争叙事的自然结果，未必构成百合文类。第 2 话的姐妹式“爱”有明确家人语境，贝尔法斯特的陪伴是职责，绫波与拉菲／标枪直接称彼此为朋友；若数据库的目标是筛选明确女女恋爱，这些理由足以排除本作。</p>
+<p>反方正确地阻止了两个跳跃：不能把服务职位或群像人数直接换算成恋爱，也不能把友情叫成“尚未说出口的情侣”。它同样提醒，官方没有以百合／GL的类型字面推广本 TV 版。可是，若进一步说女性关系只是任意可替换的背景，也无法解释剧情为什么让阵营和行动反复围绕这些关系的存续、互信与重新选择展开。女性关系中心与明确情侣成立是两道不同的问题；前者可以成立，后者仍需保留。</p>
+<p>因此，开放的读者归档与严格恋爱检索并不矛盾：前者记录作品怎样把女女关系置于叙事核心，后者保护读者对明确恋爱的具体查询。它们服务的不是同一条搜索条件，不能互相冒充判决。</p>
+<h2 id="分用途结论">分用途结论</h2>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>用途</th>
+<th>分类</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>普通作品推荐</td>
+<td>可推荐为女性舰队关系网络中心的军事奇幻群像；应同时提示海战、阵营冲突、心理危机与关系依附。</td>
+</tr>
+<tr>
+<td>数据库主标签</td>
+<td>读者解读归档的女女关系主线作品；建议并列舰船拟人、战争／军事与群像，不写成明确情侣作品。</td>
+</tr>
+<tr>
+<td>严格明确恋爱检索</td>
+<td>不宜纳入：纳入范围没有可归属的双方告白、恋人称谓、交往、接吻或身份自述文本。</td>
+</tr>
+<tr>
+<td>私人百合阅读</td>
+<td>可以纳入：绫波—拉菲—标枪的跨阵营友谊、企业—贝尔法斯特的同行以及赤城—加贺的姐妹式依附提供清晰的关系阅读入口。</td>
+</tr>
+<tr>
+<td>角色身份检索</td>
+<td>资料不足：关系事实与读者配对不能代替性取向自述或官方身份设定。</td>
+</tr>
+<tr>
+<td>官方分类查询</td>
+<td>所核动画官网以少女舰队、阵营与战争介绍本作，未见百合／GL或可归档的女女恋爱类型字面。</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="方法来源与限制">方法、来源与限制</h2>
+<ul>
+<li>日文材料为 Jimaku entry 11949 的十二份 AT-X SRT；条目对应 AniList 104159，文件标题与官网 Story 01–12 相互一致。字幕是第三方文本，不是官方台本。</li>
+<li>官网 Introduction、Story 和新闻页用于区分常规 TV、折返点摘要特番与独立 mini drama。Bangumi 将摘要特番列为 type=1；其内容只是第 01–06 话摘要与舰船知识介绍，故不被当作新的正篇关系单元。</li>
+<li><strong>视听限制。</strong> 未作视听复核。时间码只定位字幕文字，不证明无声表情、肢体接触、镜头构图、裸体程度、接触发起者或沉默时的同意；字幕索引无结果、官网标签沉默和关键词未命中均不作为剧情或身份的否定性证据。</li>
+<li>2021 年短篇、后续季、OVA、游戏与漫画均独立于这一 2019–2020 年 TV 正篇；任何新证据须先通过版本、语言和纳入单元核对，才可能改变此处的关系分层。</li>
+</ul>
+
+        </div>
+      </details>
+    </div>
+  </div>
+</article>
+
+<section class="feedback-section">
+  <div>
+    <p class="eyebrow">REPORT FEEDBACK</p>
+    <h2>提交可核查的修订建议</h2>
+    <p>请注明作品版本、集数／章节、要质疑的原句、可公开核查的来源，以及建议如何修订。评论属于待核查反馈，不会自动成为报告证据。</p>
+  </div>
+  <div class="giscus"></div>
+<div class="giscus-config"
+        hidden
+        data-repo="L-M-Sherlock/yuri-classification-archive"
+        data-repo-id="R_kgDOTo1RzA"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOTo1RzM4DCXAh"
+        data-mapping="specific"
+        data-term="classification:azur_lane_tv_2019"
+        data-strict="1"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-lang="zh-CN"
+        data-loading="lazy"
+        aria-hidden="true"></div>
+</section>
+
+  </main>
+  <footer class="site-footer">
+    <div>
+      <p>分类是面向具体查询的检索工具，不是替作品关系作终审判决。</p>
+      <p class="footer-ai-note">本站使用以 OpenAI Codex 为主的生成式 AI 辅助研究、写作与站点开发；人工审阅未覆盖全部作品报告。<a href="/yuri-classification-archive/about/#AI使用说明">查看 AI 使用说明</a></p>
+      <p>© 2026 Jarrett Ye · <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="license noopener noreferrer">CC BY-NC-SA 4.0</a> · <a href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub 仓库</a> · <a href="/yuri-classification-archive/about/#使用边界">使用边界</a></p>
+    </div>
+  </footer>
+  <script>window.SITE_CONFIG = {basePath: "/yuri-classification-archive"};</script>
+  <script src="/yuri-classification-archive/assets/site.js?v=eeeec5872796" defer></script>
+
+</body>
+</html>

@@ -333,7 +333,7 @@ if (typeof globalThis !== "undefined") {
     const payload = await response.json();
     if (
       !payload ||
-      payload.schema_version !== 2 ||
+      payload.schema_version !== 4 ||
       !Array.isArray(payload.items)
     ) {
       throw new Error("公开总表格式不受支持");
@@ -424,14 +424,14 @@ if (typeof globalThis !== "undefined") {
           accessorDownload: (value) => value.label,
         },
         {
-          title: "恋爱位置",
+          title: "女女恋爱位置",
           field: "romance_centrality",
           formatter: labelFormatter,
           width: 105,
           accessorDownload: (value) => value.label,
         },
         {
-          title: "最高明确度",
+          title: "女女关系最高明确度",
           field: "highest_romance_explicitness",
           formatter: labelFormatter,
           width: 128,

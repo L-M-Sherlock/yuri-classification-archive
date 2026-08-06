@@ -8,6 +8,10 @@
     romance: "snapshot-romance",
     maleRomance: "snapshot-male-romance",
   };
+  const downloads = {
+    csv: "snapshot-download-csv",
+    xlsx: "snapshot-download-xlsx",
+  };
 
   function normalize(value) {
     return String(value || "").trim().toLocaleLowerCase("zh-CN");
@@ -79,7 +83,15 @@
       paginationMode: "local",
       paginationSize: 25,
       paginationSizeSelector: [25, 50, 100, total],
+      placeholder: "没有作品符合当前筛选条件",
+      columnDefaults: { download: true },
       columns: [
+        {
+          title: "slug",
+          field: "slug",
+          visible: false,
+          download: true,
+        },
         {
           title: "作品",
           field: "title",
@@ -120,11 +132,20 @@
             const values = cell.getValue();
             return values?.length ? escapeHtml(values.join("、")) : "—";
           },
+          accessorDownload(value) {
+            return Array.isArray(value) ? value.join("、") : "";
+          },
         },
         {
           title: "男性恋爱线",
           field: "male_romance_line",
           minWidth: 130,
+        },
+        {
+          title: "Bangumi 条目",
+          field: "bangumi_url",
+          visible: false,
+          download: true,
         },
       ],
     });
@@ -153,6 +174,23 @@
         if (control) control.value = "";
       }
       table.clearFilter();
+    });
+
+    document.getElementById(downloads.csv)?.addEventListener("click", () => {
+      table.download(
+        "csv",
+        "yuri-classification-lookup-filtered.csv",
+        { bom: true },
+        "active",
+      );
+    });
+    document.getElementById(downloads.xlsx)?.addEventListener("click", () => {
+      table.download(
+        "xlsx",
+        "yuri-classification-lookup-filtered.xlsx",
+        { sheetName: "作品查找表" },
+        "active",
+      );
     });
   }
 

@@ -1,0 +1,463 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="《魔法少女育成计划》TV 首季把十六名魔法少女形态置于一个会持续淘汰成员的生存游戏中。她们之间的结盟、师徒、竞争、背叛和互相保护不是偶尔的装饰，而是推动规则揭露、行动选择和人物命运的主要材料。因此女女关系层级仍记为 主线 、归档依据为 作品分类 ；这描述作品呈现的关系网络，不表示十六名参与者的现实身份范围已经全……">
+  <meta name="color-scheme" content="light dark">
+  <meta id="theme-color-light" name="theme-color" media="(prefers-color-scheme: light)" content="#f5f0e8">
+  <meta id="theme-color-dark" name="theme-color" media="(prefers-color-scheme: dark)" content="#1c181c">
+  <script>
+    (() => {
+      document.documentElement.classList.add("js");
+      const storageKey = "yuri-classification-theme";
+      const allowed = new Set(["system", "light", "dark"]);
+      let preference = "system";
+      try {
+        const stored = localStorage.getItem(storageKey);
+        if (allowed.has(stored)) preference = stored;
+      } catch (_error) {
+        preference = "system";
+      }
+      const systemDark = window.matchMedia?.("(prefers-color-scheme: dark)").matches;
+      const theme = preference === "system"
+        ? (systemDark ? "dark" : "light")
+        : preference;
+      document.documentElement.dataset.theme = theme;
+      document.documentElement.dataset.themePreference = preference;
+      document.documentElement.style.colorScheme = theme;
+      const lightMeta = document.getElementById("theme-color-light");
+      const darkMeta = document.getElementById("theme-color-dark");
+      if (preference === "system") {
+        lightMeta.content = "#f5f0e8";
+        darkMeta.content = "#1c181c";
+      } else {
+        const color = theme === "dark" ? "#1c181c" : "#f5f0e8";
+        lightMeta.content = color;
+        darkMeta.content = color;
+      }
+    })();
+  </script>
+  <link rel="canonical" href="https://l-m-sherlock.github.io/yuri-classification-archive/works/mahou_shoujo_ikusei_keikaku_tv_2016/">
+  <link rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="百合作品分类档案">
+  <meta property="og:title" content="《魔法少女育成计划》分类报告｜百合作品分类档案">
+  <meta property="og:description" content="《魔法少女育成计划》TV 首季把十六名魔法少女形态置于一个会持续淘汰成员的生存游戏中。她们之间的结盟、师徒、竞争、背叛和互相保护不是偶尔的装饰，而是推动规则揭露、行动选择和人物命运的主要材料。因此女女关系层级仍记为 主线 、归档依据为 作品分类 ；这描述作品呈现的关系网络，不表示十六名参与者的现实身份范围已经全……">
+  <meta property="og:url" content="https://l-m-sherlock.github.io/yuri-classification-archive/works/mahou_shoujo_ikusei_keikaku_tv_2016/">
+  <meta property="og:image" content="https://l-m-sherlock.github.io/yuri-classification-archive/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+  <title>《魔法少女育成计划》分类报告｜百合作品分类档案</title>
+  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=e68f78a2d1a9">
+
+</head>
+<body class="classification-report">
+  <a class="skip-link" href="#main-content">跳到正文</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="/yuri-classification-archive/">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>
+          <strong>百合作品分类档案</strong>
+          <small>按查询拆开标签，按证据保留边界</small>
+        </span>
+      </a>
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-navigation"
+      >
+        <span>菜单</span>
+        <span class="menu-toggle-icon" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-navigation" aria-label="主导航">
+        <div class="nav-main">
+          <a href="/yuri-classification-archive/">首页</a>
+          <a href="/yuri-classification-archive/table/">总表</a>
+          <a href="/yuri-classification-archive/articles/">专题</a>
+          <a href="/yuri-classification-archive/about/">方法与说明</a>
+        </div>
+        <a class="nav-star" href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub / Star <span aria-hidden="true">↗</span></a>
+        <a class="nav-feedback" href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
+        <label class="theme-control" for="theme-preference">
+          <span>主题</span>
+          <select id="theme-preference" aria-label="主题偏好">
+            <option value="system">跟随系统</option>
+            <option value="light">浅色</option>
+            <option value="dark">深色</option>
+          </select>
+        </label>
+      </nav>
+    </div>
+  </header>
+  <main id="main-content">
+    <article class="report-page">
+  <header class="report-header">
+    <p class="eyebrow">TV 动画 · 2026-08-05</p>
+    <h1>《魔法少女育成计划》分类报告</h1>
+    <p class="report-subtitle">2016 年 10 月 1 日至 12 月 17 日播出的 TV 动画第 1–12 话；官方首季总介、角色介绍、官方第 5／8 话故事页和授权第 5 话分集简介，仅用于核对本 TV 版本的范围、角色关系和内容提示</p>
+    <div class="label-strip" aria-label="分类摘要">
+      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>女女恋爱位置：</strong>重要副线</span><span class="label-chip"><strong>女女关系最高明确度：</strong>明确交往</span><span class="label-chip"><strong>官方字面百合／GL：</strong>所核未见</span><span class="label-chip"><strong>官方女女恋爱表述：</strong>是</span><span class="label-chip"><strong>官方来源：</strong>层级：当前版本；位置：出版载体、可见作品宣传</span><span class="label-chip"><strong>结论置信度：</strong>中<span class="inline-help" tabindex="0" aria-label="查看结论置信度说明" aria-describedby="report-confidence-help"><span aria-hidden="true">?</span><span class="term-tooltip" id="report-confidence-help" role="tooltip">表示当前锁定范围内，现有证据对本报告主要分类结论的支持稳定度；它不是百合程度、作品质量、社群共识或统计概率。</span></span></span>
+    </div>
+    <a class="back-link" href="/yuri-classification-archive/table/?q=%E9%AD%94%E6%B3%95%E5%B0%91%E5%A5%B3%E8%82%B2%E6%88%90%E8%AE%A1%E5%88%92">← 返回总表并定位本作</a>
+  </header>
+  <div class="report-layout">
+    <aside class="report-toc">
+      <p>本页目录</p>
+      <ol><li><a href="#低剧透概览">低剧透概览</a></li><li><a href="#数据库与公开分类">数据库与公开分类</a></li><li><a href="#决定性文本证据">决定性文本证据</a></li><li><a href="#四层分析">四层分析</a></li><li><a href="#最强反方解释">最强反方解释</a></li><li><a href="#分用途结论">分用途结论</a></li><li><a href="#方法来源与限制">方法、来源与限制</a></li></ol>
+    </aside>
+    <div class="report-content">
+      <blockquote>
+<p>分类日期：2026-08-05<br> 分类对象：2016 年 TV 动画《魔法少女育成計画》首季<br> 纳入范围：第 1–12 话（2016 年 10 月 1 日至 12 月 17 日播出）<br> 排除范围：续作《restart》、特别篇、原作轻小说、漫画、游戏、广播及其他跨媒介材料<br> 用途：普通推荐与数据库分类</p>
+</blockquote>
+<h2 id="低剧透概览">低剧透概览</h2>
+<aside class="alert alert-note"><strong>说明</strong><div class="alert-content"><p><strong>分类信息提示：</strong> 本节不展开关键剧情、转折与结局，但分类信息本身会透露关系类型、叙事位置和恋爱明确度。希望完全盲看的读者请跳过本页。</p></div></aside>
+
+<p>《魔法少女育成计划》TV 首季把十六名魔法少女形态置于一个会持续淘汰成员的生存游戏中。她们之间的结盟、师徒、竞争、背叛和互相保护不是偶尔的装饰，而是推动规则揭露、行动选择和人物命运的主要材料。因此女女关系层级仍记为<strong>主线</strong>、归档依据为<strong>作品分类</strong>；这描述作品呈现的关系网络，不表示十六名参与者的现实身份范围已经全部闭合，也不表示官网把作品标为百合或 GL。</p>
+<p>恋爱关系并非全季唯一目标，但有一组女性角色被公开人物介绍直接称为恋人；她们的共同赴约与保护构成清晰的情感线。Snow White 与 Hardgore Alice 的持续接近和恐惧反应支持亲密或恋爱方向阅读，却不足以写成双方交往。综合来看，最高明确度为<strong>明确交往</strong>，恋爱位置为<strong>重要副线</strong>，而不是主线恋爱剧。</p>
+<p>严格寻找“女女双方已经成为恋人”的读者可以把 Sister Nana—Weiss Winterprison 作为命中，但需要接受这组关系置于高暴力的生存竞赛之中，并且作品重心不转为恋爱日常。只寻找角色自称女同性恋、双性恋或其他身份者也不应命中：本季可证的是关系事实，不是身份自述。由于没有可靠本地字幕或视频，判断主要依靠官方故事页、行业角色介绍和授权分集简介；旧版 La Pucelle 角色页面目前显示为非角色内容，所核公开资料没有可审计身份说明；该页不改变十六人群体的严格性别范围与男性恋爱线未知的判断，置信度为<strong>中</strong>。</p>
+<h3 id="分层标签">分层标签</h3>
+<blockquote>
+<p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：重要副线｜最高明确度：明确交往｜关系构成：生存游戏中的多组共同体、女性恋人、搭档与竞争关系；十六人群体的严格性别范围未闭合｜官方字面：所核未见｜官方恋爱表述：有｜官方来源：范围内版本的总介、分集页与公开角色介绍｜阅读层级：正篇事实／强推断／读者解读｜身份依据类型：只有明确关系事实｜男性恋爱线：未知｜内容提示：生存游戏、杀戮与血腥、心理操控、关系背叛、角色死亡、自杀后果、女女恋人关系被暴力拆散。</strong></p>
+</blockquote>
+<h3 id="严格恋爱检索提示">严格恋爱检索提示</h3>
+<ul>
+<li><strong>只寻找双方告白、正式交往、接吻或身份明示：部分符合。</strong> 公开角色介绍把 Winterprison 称为 Sister Nana 的“恋人”，并在 TV 的第 5、8 话故事中持续写两人并肩行动、互相理解与保护；这足以将这一组关系列入“明确交往”查询。但它不是整季唯一主线，且没有本地字幕来逐句核对台词。</li>
+<li><strong>接受潜在恋爱、明显但未确认方向，或女女关系中心作品：符合。</strong> Snow White—Hardgore Alice 的持续接近和 Ripple—Top Speed 的照护／搭档关系可以作为不同强度的女女关系阅读；它们不应被合并成同一个“情侣”标签。</li>
+<li><strong>希望避开死亡、血腥、心理操控的恋爱作品：不适合。</strong> 这是内容筛选结论，不是对角色关系作道德评判；请直接查看下方的具体内容提示。</li>
+</ul>
+<h2 id="数据库与公开分类">数据库与公开分类</h2>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>来源</th>
+<th>条目与字段</th>
+<th>来源类型</th>
+<th>本报告如何使用</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://mahoiku.jp/about/index.html" target="_blank" rel="noopener noreferrer">官方 TV 介绍</a></td>
+<td>文案为“16 人魔法少女争夺生存席位”，强调欺骗、抢夺、淘汰和残酷生存游戏；未见百合／GL 类型字面</td>
+<td>官方自述／营销分类</td>
+<td>确认作品的主要市场表述与范围，不把官方沉默写成否认</td>
+</tr>
+<tr>
+<td><a href="https://mahoiku.jp/about/staffcast.html" target="_blank" rel="noopener noreferrer">官方 Staff &amp; Cast</a></td>
+<td>列出 Snow White、Ripple、Sister Nana、Weiss Winterprison、Hardgore Alice 等 TV 角色</td>
+<td>官方制作资料</td>
+<td>核对角色名称、声优和首季版本；不由全女性声优表自动推出恋爱</td>
+</tr>
+<tr>
+<td><a href="https://www.lisani.jp/0000015366/" target="_blank" rel="noopener noreferrer">LisAni 角色介绍与制作新闻</a></td>
+<td>日文直接写 <code>シスターナナの恋人</code>（Sister Nana 的恋人），介绍 Winterprison 的保护与肯定</td>
+<td>行业／官方发布语境</td>
+<td>作为“官方恋爱表述”的来源；说明明确关系是 Nana—Winterprison，而非整部作品类型认证</td>
+</tr>
+<tr>
+<td><a href="https://mahoiku.jp/story/05.html" target="_blank" rel="noopener noreferrer">官方第 5 话故事页</a></td>
+<td><code>理解者が現れたと喜ぶシスターナナはウィンタープリズンと共に待ち合わせ場所へ</code>；“Sister Nana 因出现理解自己的人而高兴，与 Winterprison 一同前往约定地点”</td>
+<td>官方分集梗概</td>
+<td>确认两人的并肩行动和关系位置；不把梗概当作完整逐句字幕</td>
+</tr>
+<tr>
+<td><a href="https://mahoiku.jp/story/08.html" target="_blank" rel="noopener noreferrer">官方第 8 话故事页</a></td>
+<td><code>シスターナナを庇い応戦するウィンタープリズン</code>；“Winterprison 为掩护 Sister Nana 而应战”</td>
+<td>官方分集梗概</td>
+<td>确认保护行为及关系后果；未据此补写镜头顺序或完整同意状态</td>
+</tr>
+<tr>
+<td><a href="https://mahoiku.jp/story/07.html" target="_blank" rel="noopener noreferrer">官方第 7 话故事页</a></td>
+<td>写 Snow White 因 Hardgore Alice 执拗接近而害怕</td>
+<td>官方分集梗概</td>
+<td>锁定该关系的单向执着与恐惧边界；不把它升格为双方恋爱</td>
+</tr>
+<tr>
+<td><a href="https://mahoiku.jp/story/11.html" target="_blank" rel="noopener noreferrer">官方第 11 话故事页</a></td>
+<td>写 Swim Swim 计划诱出并突袭敌手</td>
+<td>官方分集梗概</td>
+<td>记录其行动小组在竞争中的位置；不将团体行动改写为恋爱</td>
+</tr>
+<tr>
+<td><a href="https://www.crunchyroll.com/watch/GYGG0M0PY/new-character" target="_blank" rel="noopener noreferrer">Crunchyroll 第 5 话</a></td>
+<td>授权分集简介写 Nana 寻求和平，Winterprison 与她一起前往会面地点；页面内容提示包括暴力、血腥与自杀</td>
+<td>授权流媒体／分集简介</td>
+<td>交叉核对剧情阶段和内容提示；英文简介是定位材料，不冒充日文官方字幕</td>
+</tr>
+<tr>
+<td><a href="https://myanimelist.net/anime/33003/Mahou_Shoujo_Ikusei_Keikaku" target="_blank" rel="noopener noreferrer">MyAnimeList</a></td>
+<td>Genres 为 Action、Suspense、Gore、High Stakes Game、Mahou Shoujo、Survival；未列 Girls Love</td>
+<td>编辑字段</td>
+<td>记录严格文类入口的沉默，不把它当作对 Nana—Winterprison 的否定</td>
+</tr>
+<tr>
+<td><a href="https://www.anime-planet.com/anime/magical-girl-raising-project" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td>
+<td>当前标签为 Action、Fantasy、Magical Girl、Battle Royale、Dark Fantasy、Magic 等；未见精确 GL 或 Shoujo-ai</td>
+<td>编辑型标签</td>
+<td>说明其以黑暗魔法少女／生存题材为入口；自定义百合清单不能替代精确 GL 字段</td>
+</tr>
+<tr>
+<td><a href="https://anilist.co/anime/21340/Mahou-Shoujo-Ikusei-Keikaku" target="_blank" rel="noopener noreferrer">AniList</a></td>
+<td>无 Yuri 标签；有 <code>LGBTQ+ Themes</code> 相关度 50、Primarily Female Cast 84 等社区标签</td>
+<td>加权社区标签</td>
+<td>记录相关主题标签的有限提示，不把标签相关度当作角色身份或社群投票</td>
+</tr>
+<tr>
+<td><a href="https://bangumi.tv/subject/145946" target="_blank" rel="noopener noreferrer">Bangumi subject 145946</a></td>
+<td>TV、12 话；当前快照 rank 8376，<code>百合</code>标签 259 人，评分用户 2397；条目简介强调十六名少女的残酷生存竞赛</td>
+<td>用户标签与条目资料</td>
+<td>作为本档案的榜单来源和标签快照；人数会变化，不能换算共识或官方认证</td>
+</tr>
+</tbody>
+</table></div>
+<p>数据库之间回答的不是同一个问题。官网回答“这部作品如何宣传”，MAL 与 Anime-Planet 主要回答“它属于哪些编辑文类或题材”，AniList 允许以加权主题标签保留 LGBTQ+ 相关提示，Bangumi 的“百合”则是用户自愿标注。这里“官方恋爱表述：是”只指公开发布语境中对一组角色关系的明确说法；“官方字面：所核未见”则表示未在所核官方页面找到把 TV 首季整体称为百合／GL 的字样。</p>
+<aside class="alert alert-warning"><strong>剧透提示</strong><div class="alert-content"><p>以下部分包含分类对象的完整剧透。</p></div></aside>
+
+      <details class="spoiler-panel">
+        <summary>
+          <span>展开详细证据（含完整剧透）</span>
+          <small>决定性证据、四层分析、反方解释与方法限制</small>
+        </summary>
+        <div class="spoiler-content">
+          <h2 id="决定性文本证据">决定性文本证据</h2>
+<p>日文精确题名、异体、罗马字、英文与年份变体、日文及拉丁字母简称、中文全名及简称的公开字幕资料均未找到与本 2016 年 TV 精确匹配的字幕；拉丁字母简称出现的无关条目已按题名、年份和媒介排除。因此以下证据不写虚构时间码。日文短引来自官方故事页，中文为本报告自行翻译；行业角色介绍用于核对公开关系称谓。所有涉及动作、死亡和心理状态的表述只写到公开文字能够支持的程度，不把没有看到的镜头当作证据。</p>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>位置</th>
+<th>原文与中文摘要</th>
+<th>叙事层级</th>
+<th>证据强度与视听复核</th>
+<th>能证明什么</th>
+<th>不能证明什么</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>作品官网总介</td>
+<td><code>16人の魔法少女による、残留をかけた、過酷な椅子取り合戦</code>；“十六名魔法少女为留下而进行残酷的抢座竞赛”；另写 <code>騙す、出し抜く、奪い合う</code>（欺骗、算计、争夺）</td>
+<td>官方作品宣传</td>
+<td>页面保留作品文案；无视频复核</td>
+<td>魔法少女形态的生存竞赛和相互关系是作品公共入口</td>
+<td>“16 名魔法少女”不能单独证明全部现实身份均为女性；La Pucelle 旧角色页当前不可审计</td>
+</tr>
+<tr>
+<td>第 5 话官方故事页</td>
+<td><code>理解者が現れたと喜ぶシスターナナはウィンタープリズンと共に待ち合わせ場所へ</code>；“Nana 因找到理解者而高兴，与 Winterprison 一同赴约”</td>
+<td>现实行动／关系推进</td>
+<td>官方梗概直接；未作画面与字幕复核</td>
+<td>两人在危机中作为固定搭档共同作出决定，关系进入冲突主线</td>
+<td>梗概无法确认双方的告白、接吻或完整共同生活细节</td>
+</tr>
+<tr>
+<td>角色公开介绍</td>
+<td><code>シスターナナの恋人</code>；“Sister Nana 的恋人”；同时介绍 Winterprison 超越 Nana 的计划而肯定她</td>
+<td>官方／行业人物资料</td>
+<td>公开发布语境直接称谓；非本地字幕</td>
+<td>这组女性关系达到“恋人／明确交往”层级，且不是只凭读者配对</td>
+<td>不能把一组角色的称谓升级为整部作品的官方 GL 类型或角色统一身份</td>
+</tr>
+<tr>
+<td>第 8 话官方故事页</td>
+<td><code>同志を求め訪れてきたシスターナナとウィンタープリズンに奇襲をかける</code>；“前来寻找同伴的 Nana 与 Winterprison 遭到突袭”；<code>シスターナナを庇い応戦する</code>；“Winterprison 为保护 Nana 而应战”</td>
+<td>现实行动／战斗</td>
+<td>官方梗概直接；未作镜头复核</td>
+<td>两人共同赴险，且 Winterprison 在危机中保护 Nana</td>
+<td>保护行为本身不能证明所有女女搭档都是恋人，也不代替人物公开称谓</td>
+</tr>
+<tr>
+<td>第 7 话官方故事页</td>
+<td>标题为 <code>親密度を上げよう！</code>；梗概写 Snow White 在失去理解者后，对执拗接近自己的 Hardgore Alice 感到害怕</td>
+<td>现实行动／关系张力</td>
+<td>官方梗概直接；未作逐句字幕或画面复核</td>
+<td>Alice 对 Snow White 的持续接近与 Snow White 的恐惧具有直接文字依据</td>
+<td>单向执着和恐惧不能确认双方恋爱或正式交往</td>
+</tr>
+<tr>
+<td>Ripple—Top Speed 线</td>
+<td>第 8 话官方梗概要写 <code>トップスピードから身の上話を聞かされるリップル</code>；“Ripple 听 Top Speed 讲述身世”</td>
+<td>现实对话／师友搭档</td>
+<td>官方梗概直接；未视听复核</td>
+<td>两人有持续照护、信任和共同任务，能说明女性关系网络的多样性</td>
+<td>身世分享和战斗搭档不自动等于恋爱</td>
+</tr>
+<tr>
+<td>第 11 话官方故事页</td>
+<td>梗概写 Swim Swim 决定实施诱出并突袭敌手的行动</td>
+<td>团体行动／竞争</td>
+<td>官方梗概直接；未作逐句字幕或画面复核</td>
+<td>Swim Swim 一方处于谋划、分工与竞争的叙事位置</td>
+<td>团体行动和权力位置不能自动写成恋爱关系</td>
+</tr>
+</tbody>
+</table></div>
+<p>这些材料共同支持一个分层结论：Nana—Winterprison 是明确的女性恋人关系；女性魔法少女群体、Snow White—Alice、Ripple—Top Speed 与 Swim Swim 的行动小组则处在友情、搭档、竞争、照护或单向执着的不同位置。第 7 话标题中的“亲密度”是作品中的游戏化说法，不能直接翻译成恋爱进展；第 8 话的保护和死亡后果也不能把所有牺牲关系都判为恋人。</p>
+<h2 id="四层分析">四层分析</h2>
+<h3 id="第一层文本中的关系">第一层：文本中的关系</h3>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>关系 ID</th>
+<th>关系／参与者</th>
+<th>类型</th>
+<th>叙事位置</th>
+<th>恋爱明确度</th>
+<th>相互性</th>
+<th>证据层级</th>
+<th>摘要</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>r01</td>
+<td>十六名魔法少女形态的生存游戏共同体</td>
+<td>友情／搭档／竞争／共同体</td>
+<td>主线</td>
+<td>非恋爱</td>
+<td>双向</td>
+<td>正篇事实／强推断</td>
+<td>官网把十六名魔法少女形态的席位竞争、互助、结盟和相互算计放在故事总介；La Pucelle 的旧角色页已不可审计，本条严格女女范围保持未知。</td>
+</tr>
+<tr>
+<td>r02</td>
+<td>Sister Nana（羽二重奈々）—Weiss Winterprison（亜柊雫）</td>
+<td>恋爱／搭档</td>
+<td>重要副线</td>
+<td>明确交往</td>
+<td>双向</td>
+<td>正篇事实／强推断</td>
+<td>行业人物介绍直接称 Winterprison 为 Nana 的恋人；TV 故事页写两人一起赴约、寻找同伴和互相保护，关系在危机中被具体化。</td>
+</tr>
+<tr>
+<td>r03</td>
+<td>Snow White—Hardgore Alice</td>
+<td>友情／潜在恋爱／共同体</td>
+<td>重要副线</td>
+<td>潜在恋爱</td>
+<td>相互性未确认</td>
+<td>正篇事实／强推断／读者解读</td>
+<td>官方梗概写 Alice 执拗接近 Snow White，Snow White 对此感到恐惧；单向执着是事实，双向恋爱不是。</td>
+</tr>
+<tr>
+<td>r04</td>
+<td>Ripple—Top Speed</td>
+<td>友情／搭档／照护</td>
+<td>重要副线</td>
+<td>非恋爱</td>
+<td>双向</td>
+<td>正篇事实／强推断</td>
+<td>官方第 8 话梗概写 Top Speed 向 Ripple 讲述身世；这支持信任与搭档关系，不建立恋人称谓。</td>
+</tr>
+<tr>
+<td>r05</td>
+<td>Swim Swim 与其行动小组</td>
+<td>照护／竞争／共同体</td>
+<td>重要副线</td>
+<td>非恋爱</td>
+<td>相互性未确认</td>
+<td>正篇事实／强推断</td>
+<td>官方总介和第 11 话梗概把 Swim Swim 一方置于团体竞争、谋划和行动中；不应因魔法少女群体而标成恋爱。</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>r01 是作品关系结构，不是一个“所有人都互相喜欢”的配对。</strong> 生存规则强迫角色不断结盟、竞争和背叛；将这些关系拆开后，才能同时保留全女群像、明确恋人和潜在亲密支线。r02 的互相性依据公开人物介绍中的恋人称谓，以及 TV 故事中持续并肩与保护；身份字段仍只写“关系事实”，不把恋人称谓自动转换为“女同性恋”自述。r03 的重点恰恰是边界：Alice 的执着有明显亲密方向，但 Snow White 的恐惧使“双方恋爱”解释无法成立。</p>
+<h3 id="第二层作品的文类位置">第二层：作品的文类位置</h3>
+<p>TV 首季首先是黑暗魔法少女、生存竞赛、动作与心理惊悚作品。女女关系主线的判断，不是把生存游戏改写成恋爱故事，而是观察到主要冲突、规则解释、联盟和人物命运都由魔法少女形态之间的选择组成。Sister Nana—Winterprison 等具体女性关系可以独立成立；十六人群体的现实身份范围和男性恋爱轴则因 La Pucelle 角色资料缺口保持未知。因而只能在显示这一范围限制的前提下讨论开放的百合相关入口。</p>
+<p>恋爱位置为重要副线：Nana—Winterprison 的恋人关系是高度明确且有后果的情感线，但整季的主问题仍是如何在逐周淘汰中求生、谁在操控游戏以及人物如何回应暴力。Snow White—Alice 和 Ripple—Top Speed 对主人公与生存行动有影响，不能合并为第二条明确恋爱线。这样的拆分避免两种相反错误：把全女角色表误写成整作 GL 恋爱剧，或因为主类型是生存游戏就抹去官方公开的女性恋人关系。</p>
+<h3 id="第三层角色身份">第三层：角色身份</h3>
+<p>本季所核行业资料能够确认 Nana 与 Winterprison 的女性恋人关系，但没有稳定的第一人称性取向标签；身份依据类型因此为“只有明确关系事实”。魔法少女称号、服装、声线和配对标签都不能替代角色的自我认同，也不能替代参与者现实身份的逐条来源。La Pucelle 旧角色 URL 当前不再提供角色说明，这个缺口尤其说明“魔法少女”不能机械换算为女性身份。</p>
+<h3 id="第四层公共标签礼仪">第四层：公共标签礼仪</h3>
+<p>官方简介适合使用“魔法少女生存游戏”“残酷的十六人淘汰赛”等准确词；公开人物介绍可以在关系字段中写“Winterprison 是 Sister Nana 的恋人”。MAL、Anime-Planet 没有精确 Girls Love／GL 入口，AniList 的 LGBTQ+ Themes 相关度和 Bangumi 的百合用户标签则适合做检索入口，不适合当作身份认证。普通推荐应把“女女恋人副线”和“血腥生存竞赛”放在同一句话里；严格恋爱检索可以命中 r02，但需要显示它不是一部以交往日常为主的轻松作品；私人阅读则可以分别记录 r02 的明确关系与 r03 的潜在阅读，不把“我把 Alice—Snow White 读成恋爱”写成官方事实。</p>
+<h2 id="最强反方解释">最强反方解释</h2>
+<p>最有力的反方分类是：本作应归为黑暗魔法少女／生存游戏，女女关系只是全女性角色阵容带来的附属内容，不宜列入百合作品主类。支持理由包括：官网总介没有百合或 GL 字样，MAL 和 Anime-Planet 以动作、血腥、生存和魔法少女为主要字段；整季的悬念围绕淘汰、规则和操控者展开，而不是某对恋人的相遇、告白和共同未来；Snow White—Alice 的互动中还有明确恐惧，Ripple—Top Speed 是照护和搭档，不能为了凑标签把非恋爱关系升格。</p>
+<p>这个反方解释可以推翻“本作是明确女女恋爱主线”“官方已经把 TV 首季称为 GL”“所有少女之间都存在恋爱”这些强结论，也要求推荐时先写血腥和死亡。它不能推翻两项较窄的事实：公开发布语境确实称 Winterprison 为 Sister Nana 的恋人，官方第 5、8 话故事页确实把她们作为固定搭档、共同赴险和互相保护的关系来写；女女关系网络也确实组织了主要人物的行动。若读者的“百合”只等于每集都围绕一对恋人展开，应该使用“重要女性恋人副线／黑暗生存游戏”而不是单独的 GL 主类；若读者把“百合”作为寻找女性关系中心、包含明确恋人及多种女女关系的入口，则本档案保留主线归档。</p>
+<h2 id="分用途结论">分用途结论</h2>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>用途</th>
+<th>分类</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>普通作品推荐</td>
+<td><strong>女女关系主线的黑暗魔法少女生存游戏</strong>；明确写出 Nana—Winterprison 恋人副线，并附血腥、死亡、心理操控和关系背叛提示。</td>
+</tr>
+<tr>
+<td>数据库主标签</td>
+<td><strong>百合相关／女女关系主线；动作、血腥、生存竞赛、魔法少女</strong>；不要把官方未标写成官方 GL。</td>
+</tr>
+<tr>
+<td>严格明确恋爱检索</td>
+<td><strong>部分符合</strong>：Nana—Winterprison 可作为明确交往关系命中；全作不是以恋爱过程为主线，Snow White—Alice 不算双方交往。</td>
+</tr>
+<tr>
+<td>私人百合阅读</td>
+<td><strong>可以纳入</strong>：一组明确女性恋人，加上潜在亲密和女性共同体；接受恋人关系的死亡后果及大量非恋爱关系。</td>
+</tr>
+<tr>
+<td>角色身份检索</td>
+<td><strong>不作为身份明示命中</strong>：范围内有明确女性恋人关系，但角色身份自述与十六人群体的现实身份范围没有全部闭合。</td>
+</tr>
+<tr>
+<td>官方分类查询</td>
+<td><strong>官方字面未见；官方恋爱表述有</strong>：官方／行业公开人物介绍称 Winterprison 为 Sister Nana 的恋人，官网总介只宣传魔法少女生存竞赛。</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="方法来源与限制">方法、来源与限制</h2>
+<ul>
+<li>范围依据 <a href="https://bangumi.tv/subject/145946" target="_blank" rel="noopener noreferrer">Bangumi subject 145946</a> 的 TV、12 话与官方首季播出资料；只讨论 2016 TV 第 1–12 话。续作《restart》尚未纳入，小说、漫画、游戏和特别篇不用于补全首季。</li>
+<li>公开字幕资料未提供与本版精确匹配的文本，因此不提供虚构时间码或镜头级结论。决定性材料来自 <a href="https://mahoiku.jp/about/index.html" target="_blank" rel="noopener noreferrer">官方总介</a>、<a href="https://mahoiku.jp/story/05.html" target="_blank" rel="noopener noreferrer">官方第 5 话</a>、<a href="https://mahoiku.jp/story/07.html" target="_blank" rel="noopener noreferrer">官方第 7 话</a>、<a href="https://mahoiku.jp/story/08.html" target="_blank" rel="noopener noreferrer">官方第 8 话</a>、<a href="https://mahoiku.jp/story/11.html" target="_blank" rel="noopener noreferrer">官方第 11 话</a>、<a href="https://www.lisani.jp/0000015366/" target="_blank" rel="noopener noreferrer">LisAni 角色发布</a>和 <a href="https://www.crunchyroll.com/watch/GYGG0M0PY/new-character" target="_blank" rel="noopener noreferrer">Crunchyroll 第 5 话简介</a>。中文短引均为自行翻译，不是官方中文译文。</li>
+<li><a href="https://mahoiku.jp/chara/lapucelle.html" target="_blank" rel="noopener noreferrer">旧版 La Pucelle 角色页</a> 当前显示为非角色内容，不含可审计身份说明；该页不能证明角色身份，也不能把资料缺失写成剧情不存在，因此 r01 的严格女女范围与男性恋爱线保持未知。</li>
+<li>官方发布语境、编辑数据库、AniList 加权标签、Bangumi 用户标签和读者解读分开记录。<code>LGBTQ+ Themes</code>、<code>百合</code>、自定义清单或角色页面中的“恋人”不能互相替代；本档案没有把互动人数当成社群投票，也没有把标签换算成角色身份。</li>
+<li>关系表只记录影响分类的主要关系，不穷举十六名魔法少女的所有临时联盟。r01 是群体关系，r02–r05 分别拆开恋爱、单向执着、搭档和团体竞争；这样可以避免把“女女关系主线”和“全员恋爱”混为一谈。</li>
+<li>当前材料能确认 Nana—Winterprison 的公开恋人称谓和若干分集行动，不能替代逐话字幕或画面。数据库标签始终只是检索入口，不能补足缺失的对白、动作或角色身份依据。</li>
+</ul>
+
+        </div>
+      </details>
+    </div>
+  </div>
+</article>
+
+<section class="feedback-section">
+  <div>
+    <p class="eyebrow">REPORT FEEDBACK</p>
+    <h2>提交可核查的修订建议</h2>
+    <p>请注明作品版本、集数／章节、要质疑的原句、可公开核查的来源，以及建议如何修订。评论属于待核查反馈，不会自动成为报告证据。</p>
+  </div>
+  <div class="giscus"></div>
+<div class="giscus-config"
+        hidden
+        data-repo="L-M-Sherlock/yuri-classification-archive"
+        data-repo-id="R_kgDOTo1RzA"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOTo1RzM4DCXAh"
+        data-mapping="specific"
+        data-term="classification:mahou_shoujo_ikusei_keikaku_tv_2016"
+        data-strict="1"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-lang="zh-CN"
+        data-loading="lazy"
+        aria-hidden="true"></div>
+</section>
+
+  </main>
+  <footer class="site-footer">
+    <div>
+      <p>分类是面向具体查询的检索工具，不是替作品关系作终审判决。</p>
+      <p class="footer-ai-note">本站使用以 OpenAI Codex 为主的生成式 AI 辅助研究、写作与站点开发；人工审阅未覆盖全部作品报告。<a href="/yuri-classification-archive/about/#AI使用说明">查看 AI 使用说明</a></p>
+      <p>© 2026 Jarrett Ye · <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="license noopener noreferrer">CC BY-NC-SA 4.0</a> · <a href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub 仓库</a> · <a href="/yuri-classification-archive/about/#使用边界">使用边界</a></p>
+    </div>
+  </footer>
+  <script>window.SITE_CONFIG = {basePath: "/yuri-classification-archive"};</script>
+  <script src="/yuri-classification-archive/assets/site.js?v=eeeec5872796" defer></script>
+
+</body>
+</html>

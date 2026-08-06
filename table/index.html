@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="按关系位置、恋爱明确度、官方证据和用途组合筛选作品。">
+  <meta name="description" content="按女女关系位置、女女恋爱明确度、官方证据和用途组合筛选作品。">
   <meta name="color-scheme" content="light dark">
   <meta id="theme-color-light" name="theme-color" media="(prefers-color-scheme: light)" content="#f5f0e8">
   <meta id="theme-color-dark" name="theme-color" media="(prefers-color-scheme: dark)" content="#1c181c">
@@ -43,11 +43,11 @@
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="百合作品分类档案">
   <meta property="og:title" content="作品分类总表｜百合作品分类档案">
-  <meta property="og:description" content="按关系位置、恋爱明确度、官方证据和用途组合筛选作品。">
+  <meta property="og:description" content="按女女关系位置、女女恋爱明确度、官方证据和用途组合筛选作品。">
   <meta property="og:url" content="https://l-m-sherlock.github.io/yuri-classification-archive/table/">
   <meta property="og:image" content="https://l-m-sherlock.github.io/yuri-classification-archive/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
   <title>作品分类总表｜百合作品分类档案</title>
-  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=d24d80e1b2e3">
+  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=e68f78a2d1a9">
 <link rel="stylesheet" href="/yuri-classification-archive/assets/vendor/tabulator.min.css">
 </head>
 <body class="table-page">
@@ -103,11 +103,11 @@
     <div>
       <p class="control-label" id="quick-filter-title">快捷查询</p>
       <div class="quick-buttons" id="quick-filters">
-        <button type="button" data-query="explicit_relationship" aria-pressed="false">明确交往</button>
+        <button type="button" data-query="explicit_relationship" aria-pressed="false">明确女女交往</button>
         <button type="button" data-query="explicit_desire" aria-pressed="false">明确女女欲望</button>
         <span class="quick-filter-with-tooltip">
           <button type="button" data-query="accepts_unconfirmed" aria-pressed="false" aria-describedby="accepts-unconfirmed-tooltip">接受未确认方向</button>
-          <span class="filter-tooltip" id="accepts-unconfirmed-tooltip" role="tooltip">包含明确交往、明确女女欲望，以及存在连贯恋爱指向但正篇尚未确认的关系。</span>
+          <span class="filter-tooltip" id="accepts-unconfirmed-tooltip" role="tooltip">只统计逐关系明确标记为女女关系（yes）的记录；unknown、no 和未标记关系不纳入。包含明确交往、明确女女欲望，以及存在连贯恋爱指向但正篇尚未确认的关系。</span>
         </span>
         <button type="button" data-query="female_relationship_main" aria-pressed="false">女女关系主线</button>
         <button type="button" data-query="official_literal_yuri_gl" aria-pressed="false">官方字面百合／GL</button>
@@ -125,7 +125,7 @@
     <label><span>媒介</span><select id="medium-filter"><option value="">全部</option></select></label>
     <label><span>女女关系位置</span><select id="relationship-filter"><option value="">全部</option></select></label>
     <label><span>归档依据</span><select id="basis-filter"><option value="">全部</option></select></label>
-    <label><span>最高明确度</span><select id="explicitness-filter"><option value="">全部</option></select></label>
+    <label><span>女女关系最高明确度</span><select id="explicitness-filter"><option value="">全部</option></select></label>
     <label><span>官方字面百合／GL</span><select id="official-literal-filter"><option value="">全部</option></select></label>
     <label><span>官方女女恋爱表述</span><select id="official-romance-filter"><option value="">全部</option></select></label>
     <div class="multi-filter-row">
@@ -201,6 +201,6 @@
   </footer>
   <script>window.SITE_CONFIG = {basePath: "/yuri-classification-archive"};</script>
   <script src="/yuri-classification-archive/assets/site.js?v=eeeec5872796" defer></script>
-<script src="/yuri-classification-archive/assets/vendor/tabulator.min.js"></script><script src="/yuri-classification-archive/assets/vendor/xlsx.full.min.js"></script><script src="/yuri-classification-archive/assets/table.js?v=df406ce53b58"></script>
+<script src="/yuri-classification-archive/assets/vendor/tabulator.min.js"></script><script src="/yuri-classification-archive/assets/vendor/xlsx.full.min.js"></script><script src="/yuri-classification-archive/assets/table.js?v=3147ea0a4d1a"></script>
 </body>
 </html>

@@ -1,0 +1,442 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="按本项目把女女关系的位置、恋爱是否出现和官方分类分开记录的口径，本作可列为 女女关系主线、按作品分类归档、恋爱方向未知 ，置信度为中等。这里的“主线”不是说每一话都围绕同一对角色，而是说 26 话的基本材料始终是不同学校的舞台少女：她们一起排练、参加竞演、互相吐槽、交换帮助，并在三分钟左右的短篇里把群像关系变成……">
+  <meta name="color-scheme" content="light dark">
+  <meta id="theme-color-light" name="theme-color" media="(prefers-color-scheme: light)" content="#f5f0e8">
+  <meta id="theme-color-dark" name="theme-color" media="(prefers-color-scheme: dark)" content="#1c181c">
+  <script>
+    (() => {
+      document.documentElement.classList.add("js");
+      const storageKey = "yuri-classification-theme";
+      const allowed = new Set(["system", "light", "dark"]);
+      let preference = "system";
+      try {
+        const stored = localStorage.getItem(storageKey);
+        if (allowed.has(stored)) preference = stored;
+      } catch (_error) {
+        preference = "system";
+      }
+      const systemDark = window.matchMedia?.("(prefers-color-scheme: dark)").matches;
+      const theme = preference === "system"
+        ? (systemDark ? "dark" : "light")
+        : preference;
+      document.documentElement.dataset.theme = theme;
+      document.documentElement.dataset.themePreference = preference;
+      document.documentElement.style.colorScheme = theme;
+      const lightMeta = document.getElementById("theme-color-light");
+      const darkMeta = document.getElementById("theme-color-dark");
+      if (preference === "system") {
+        lightMeta.content = "#f5f0e8";
+        darkMeta.content = "#1c181c";
+      } else {
+        const color = theme === "dark" ? "#1c181c" : "#f5f0e8";
+        lightMeta.content = color;
+        darkMeta.content = color;
+      }
+    })();
+  </script>
+  <link rel="canonical" href="https://l-m-sherlock.github.io/yuri-classification-archive/works/shoujo_sunjik_all_starlight_web_2019/">
+  <link rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="百合作品分类档案">
+  <meta property="og:title" content="《少女☆寸剧 All Starlight》分类报告｜百合作品分类档案">
+  <meta property="og:description" content="按本项目把女女关系的位置、恋爱是否出现和官方分类分开记录的口径，本作可列为 女女关系主线、按作品分类归档、恋爱方向未知 ，置信度为中等。这里的“主线”不是说每一话都围绕同一对角色，而是说 26 话的基本材料始终是不同学校的舞台少女：她们一起排练、参加竞演、互相吐槽、交换帮助，并在三分钟左右的短篇里把群像关系变成……">
+  <meta property="og:url" content="https://l-m-sherlock.github.io/yuri-classification-archive/works/shoujo_sunjik_all_starlight_web_2019/">
+  <meta property="og:image" content="https://l-m-sherlock.github.io/yuri-classification-archive/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+  <title>《少女☆寸剧 All Starlight》分类报告｜百合作品分类档案</title>
+  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=e68f78a2d1a9">
+
+</head>
+<body class="classification-report">
+  <a class="skip-link" href="#main-content">跳到正文</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="/yuri-classification-archive/">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>
+          <strong>百合作品分类档案</strong>
+          <small>按查询拆开标签，按证据保留边界</small>
+        </span>
+      </a>
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-navigation"
+      >
+        <span>菜单</span>
+        <span class="menu-toggle-icon" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-navigation" aria-label="主导航">
+        <div class="nav-main">
+          <a href="/yuri-classification-archive/">首页</a>
+          <a href="/yuri-classification-archive/table/">总表</a>
+          <a href="/yuri-classification-archive/articles/">专题</a>
+          <a href="/yuri-classification-archive/about/">方法与说明</a>
+        </div>
+        <a class="nav-star" href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub / Star <span aria-hidden="true">↗</span></a>
+        <a class="nav-feedback" href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
+        <label class="theme-control" for="theme-preference">
+          <span>主题</span>
+          <select id="theme-preference" aria-label="主题偏好">
+            <option value="system">跟随系统</option>
+            <option value="light">浅色</option>
+            <option value="dark">深色</option>
+          </select>
+        </label>
+      </nav>
+    </div>
+  </header>
+  <main id="main-content">
+    <article class="report-page">
+  <header class="report-header">
+    <p class="eyebrow">WEB 动画 · 2026-08-02</p>
+    <h1>《少女☆寸剧 All Starlight》分类报告</h1>
+    <p class="report-subtitle">2019年7月5日至12月27日配信的WEB迷你动画正式第1–26话；本WEB版官方故事页、人物页、配信公告和正篇中舞台少女群像的关系描写</p>
+    <div class="label-strip" aria-label="分类摘要">
+      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>女女恋爱位置：</strong>未知</span><span class="label-chip"><strong>女女关系最高明确度：</strong>未知</span><span class="label-chip"><strong>官方字面百合／GL：</strong>所核未见</span><span class="label-chip"><strong>官方女女恋爱表述：</strong>所核未见</span><span class="label-chip"><strong>官方来源：</strong>层级：当前版本；位置：剧情／角色页、可见作品宣传</span><span class="label-chip"><strong>结论置信度：</strong>中<span class="inline-help" tabindex="0" aria-label="查看结论置信度说明" aria-describedby="report-confidence-help"><span aria-hidden="true">?</span><span class="term-tooltip" id="report-confidence-help" role="tooltip">表示当前锁定范围内，现有证据对本报告主要分类结论的支持稳定度；它不是百合程度、作品质量、社群共识或统计概率。</span></span></span>
+    </div>
+    <a class="back-link" href="/yuri-classification-archive/table/?q=%E5%B0%91%E5%A5%B3%E2%98%86%E5%AF%B8%E5%89%A7%20All%20Starlight">← 返回总表并定位本作</a>
+  </header>
+  <div class="report-layout">
+    <aside class="report-toc">
+      <p>本页目录</p>
+      <ol><li><a href="#低剧透概览">低剧透概览</a></li><li><a href="#数据库与公开分类">数据库与公开分类</a></li><li><a href="#决定性文本证据">决定性文本证据</a></li><li><a href="#四层分析">四层分析</a></li><li><a href="#最强反方解释">最强反方解释</a></li><li><a href="#分用途结论">分用途结论</a></li><li><a href="#方法来源与限制">方法、来源与限制</a></li></ol>
+    </aside>
+    <div class="report-content">
+      <blockquote>
+<p>分类日期：2026-08-02<br> 分类对象：2019 年 WEB 迷你动画《少女☆寸劇(コント) オールスタァライト》<br> 纳入范围：2019-07-05 至 2019-12-27 配信的正式第 1–26 话<br> 排除范围：电视动画、总集篇、剧场版、舞台演出、手游、漫画、广播及其他跨媒介材料<br> 用途：普通推荐、数据库分类与分用途检索</p>
+</blockquote>
+<h2 id="低剧透概览">低剧透概览</h2>
+<aside class="alert alert-note"><strong>说明</strong><div class="alert-content"><p><strong>分类信息提示：</strong> 本节不展开关键剧情、转折与结局，但分类信息本身会透露关系类型、叙事位置和恋爱明确度。希望完全盲看的读者请跳过本页。</p></div></aside>
+
+<p>按本项目把女女关系的位置、恋爱是否出现和官方分类分开记录的口径，本作可列为<strong>女女关系主线、按作品分类归档、恋爱方向未知</strong>，置信度为中等。这里的“主线”不是说每一话都围绕同一对角色，而是说 26 话的基本材料始终是不同学校的舞台少女：她们一起排练、参加竞演、互相吐槽、交换帮助，并在三分钟左右的短篇里把群像关系变成笑点。官方首页把本作概括为“24 名舞台少女唱歌、跳舞、大闹”，这正是它最明确的叙事范围。</p>
+<p>本 WEB 版的现有材料尚不足以确认女女告白、恋人称谓、正式交往、接吻或性取向身份自述。华恋与光共享《星光》的记忆，双叶与香子被单独安排在放学后短篇，不同学校的少女则在演技、体能和绕口令挑战中互相竞争；这些事实足以支持女女群像、搭档和竞争的主类判断，但不应被写成明确恋爱。若读者寻找的是轻松的全女角色短篇和可供配对阅读的舞台共同体，本作适合；若只寻找已确认交往或角色明确自称女同性恋的作品，当前材料不足以把它作为严格命中推荐。</p>
+<h3 id="分层标签">分层标签</h3>
+<blockquote>
+<p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：未知｜最高明确度：未知｜关系构成：多组异质关系（群体共同体、搭档、竞演与跨校互动）｜官方字面：所核未见｜官方恋爱表述：所核未见｜官方来源：范围内版本·可见宣传＋故事／人物页｜阅读层级：正篇事实＋强推断＋读者解读｜身份依据类型：范围内无依据｜男性恋爱线：未知｜内容提示：舞台竞演、排练失误、学校比较、夸张的身体喜剧、恶作剧和与手游企划绑定的角色群像。</strong></p>
+</blockquote>
+<h3 id="严格恋爱检索提示">严格恋爱检索提示</h3>
+<ul>
+<li>只寻找双方告白、正式交往、接吻、恋人称谓或身份明示：<strong>不能作为严格命中推荐</strong>。本 WEB 版的官方简介与可核对的 26 话故事资料不足以确认这些内容。</li>
+<li>接受女女友情、搭档、竞演、共同体和明显亲密的群像关系：<strong>符合</strong>。华恋—光、双叶—香子以及各校少女之间的持续互动可以作为阅读入口，但推荐时应说明关系名称仍是友情、搭档或竞演。</li>
+<li>只寻找女女恋爱主线、排除一切非恋爱群像：<strong>不能作为严格命中推荐</strong>。作品的笑点和结构分散在多校多人组合，当前材料不足以确认某一对的连续恋爱推进。</li>
+<li>希望回避男性恋爱线：<strong>资料不足</strong>。官网可见角色范围以舞台少女为主，但简介与角色表不能替代对整部正篇恋爱线的审计。</li>
+</ul>
+<h2 id="数据库与公开分类">数据库与公开分类</h2>
+<p>未作视听复核，因此不外推字幕未记录的镜头、动作、表情、声线或沉默反应。</p>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>来源</th>
+<th>条目与字段</th>
+<th>来源类型</th>
+<th>本报告如何使用</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://revuestarlight.bushimo.jp/allstar/" target="_blank" rel="noopener noreferrer">《少女☆寸剧》官方首页</a></td>
+<td>介绍为《少女☆歌剧 Revue Starlight》的迷你动画，说明手游内先行、YouTube 限时公开；没有直接使用百合或 Girls Love 字面</td>
+<td>制作方官方宣传</td>
+<td>锁定 WEB 版的发行方式和企划范围；不能把“舞台少女”改写成恋爱确认</td>
+</tr>
+<tr>
+<td><a href="https://revuestarlight.bushimo.jp/allstar/story/" target="_blank" rel="noopener noreferrer">官方 26 话故事页</a></td>
+<td>逐话简介涵盖唱歌、跳舞、排练、问答、跨校竞演和日常短篇；未写恋人、交往或角色性取向</td>
+<td>制作方官方故事资料</td>
+<td>作为 26 话覆盖和关系位置的主要依据；简介没有写出的台词和动作不在本报告中补写</td>
+</tr>
+<tr>
+<td><a href="https://revuestarlight.bushimo.jp/allstar/cast-staff/" target="_blank" rel="noopener noreferrer">官方人物与制作人员页</a></td>
+<td>列出四所学校的 24 名舞台少女、制作人员及主题歌演出</td>
+<td>制作方官方人物资料</td>
+<td>确认全女舞台少女群像和角色范围；不把角色表当成身份声明</td>
+</tr>
+<tr>
+<td><a href="https://revuestarlight.bushimo.jp/2019/07/05/203/" target="_blank" rel="noopener noreferrer">官方配信开始公告</a></td>
+<td>以“舞台少女24人唱歌、跳舞、大闹”为宣传语，说明每周配信；无百合／GL类型字面</td>
+<td>制作方官方新闻</td>
+<td>证明官方对本作的公开定位是迷你喜剧和群像，而不是官方百合认证</td>
+</tr>
+<tr>
+<td><a href="https://bangumi.tv/subject/279541" target="_blank" rel="noopener noreferrer">Bangumi subject 279541</a>／<a href="https://api.bgm.tv/v0/subjects/279541" target="_blank" rel="noopener noreferrer">公共 API</a></td>
+<td>WEB、26 话、2019-07-05；队列 Rank 5761；“百合”标签 85；五种收藏状态合计 1069</td>
+<td>社区数据库与用户标签</td>
+<td>记录本项目为何纳入百合标签榜及中文社区的分类实践；85 不是官方认证、观众比例或恋爱事实</td>
+</tr>
+<tr>
+<td><a href="https://anilist.co/anime/109153/ShoujoConto-All-Starlight" target="_blank" rel="noopener noreferrer">AniList 109153</a></td>
+<td>ONA、26 话、每话约 3 分钟；Comedy、Music、Slice of Life；所核 Yuri 相关度为 0／未见标签</td>
+<td>编辑类型与加权社区标签</td>
+<td>记录国际社区的编辑类型和标签沉默；不把沉默写成否认，也不借系列其他条目填补</td>
+</tr>
+<tr>
+<td><a href="https://myanimelist.net/anime/39643/Shoujo%E2%98%86Conto_All_Starlight" target="_blank" rel="noopener noreferrer">MyAnimeList 39643</a></td>
+<td>ONA、26 话；Comedy；Themes 为 Music、Performing Arts、School；Genre 没有 Girls Love</td>
+<td>编辑型数据库</td>
+<td>记录精确条目的版本、集数和分类；Girls Love 未出现不等于作品不存在女女关系</td>
+</tr>
+<tr>
+<td><a href="https://www.anime-planet.com/anime/shoujo-conto-all-starlight" target="_blank" rel="noopener noreferrer">Anime-Planet 精确条目</a></td>
+<td>Web、26 话；Comedy、Chibi、Short Episodes、Showbiz、Original Work；所核没有精确 GL 标签</td>
+<td>编辑维护的标签数据库</td>
+<td>作为 GL 精确标签对照；Shoujo-ai、Yuri 或推荐页的系列描述不能替代本条目的 GL 字段</td>
+</tr>
+</tbody>
+</table></div>
+<p>数据库之间的差异并不矛盾。Bangumi 的“百合”是用户可以主动添加的社区标签，因此它能把全女舞台群像纳入同一检索入口；AniList、MAL 和 Anime-Planet 更倾向于先记录短篇形式、喜剧、音乐、表演艺术和学校主题。官方资料则只说明“24 名舞台少女”的喜剧企划，没有承担公共标签数据库的筛选任务。普通读者可以同时保留这些结果：<strong>社区主类收录，官方未使用百合字面，三家国际数据库没有精确的 GL／Girls Love 标签</strong>。</p>
+<blockquote>
+<p>数据库写“未见”“未标”或“没有精确字段”，只说明该页面的表述；不能推导创作者否认百合，也不能从 Bangumi 标签计数推导观众整体意见。</p>
+</blockquote>
+<aside class="alert alert-warning"><strong>剧透提示</strong><div class="alert-content"><p>以下部分包含《少女☆寸剧 All Starlight》26 话故事简介涉及的具体角色组合与短篇设置。由于没有同步字幕或视频，证据表不提供虚构的时间码。</p></div></aside>
+
+      <details class="spoiler-panel">
+        <summary>
+          <span>展开详细证据（含完整剧透）</span>
+          <small>决定性证据、四层分析、反方解释与方法限制</small>
+        </summary>
+        <div class="spoiler-content">
+          <h2 id="决定性文本证据">决定性文本证据</h2>
+<p>Jimaku 没有与本版本精确匹配的字幕；该材料缺口不能证明字幕、剧情、关系或角色身份不存在。</p>
+<p>未作视听复核，因此不外推字幕未记录的镜头、动作、表情、声线或沉默反应。</p>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>位置</th>
+<th>原文与中文摘要</th>
+<th>叙事层级</th>
+<th>证据强度与视听复核</th>
+<th>能证明什么</th>
+<th>不能证明什么</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>官方首页与第1话页面</td>
+<td>官方宣传语“舞台少女24人が、歌って、踊って、大騒ぎ！”；可译为“24名舞台少女唱歌、跳舞、大闹”</td>
+<td>版本概要／群像设定</td>
+<td>官方直接表述；未作视频复核</td>
+<td>24名少女群像和轻喜剧形式是本作的公开入口</td>
+<td>“舞台少女”不等于恋人，也不等于所有角色有共同性取向</td>
+</tr>
+<tr>
+<td>第11话页面〈歌声はダイアローグ〉</td>
+<td>官方以“歌声是对话”为标题，说明歌曲和舞台互动构成短篇冲突与笑点</td>
+<td>舞台表演／共同体</td>
+<td>官方逐话简介；仅文字定位</td>
+<td>音乐与共同表演是人物连接的主要媒介</td>
+<td>歌曲标题和舞台隐喻不能单独证明恋爱或欲望</td>
+</tr>
+<tr>
+<td>第17–19话页面</td>
+<td>弗隆蒂亚成员以“打倒圣翔”为目标进行自由表演、体能训练和成员互相鼓劲</td>
+<td>现实排练／校际竞演</td>
+<td>官方逐话简介；仅文字定位</td>
+<td>女女群像的竞演、合作和共同成长进入连续数话</td>
+<td>“打倒”“特训”是舞台竞争，不是关系排他或恋爱冲突</td>
+</tr>
+<tr>
+<td>第20话〈放課後の双葉と香子〉</td>
+<td>官方简介写香子最近更认真练习，把改变归因于同学，并留下“最感谢的是……”的问句</td>
+<td>放学后搭档短篇</td>
+<td>官方逐话简介；仅文字定位</td>
+<td>双叶与香子的长期搭档和相互影响被单独突出</td>
+<td>标题、感谢和单独一话不等于告白、恋人称谓或正式交往</td>
+</tr>
+<tr>
+<td>第22话〈ひかりからのクエスチョン〉</td>
+<td>官方简介安排光和真昼主持关于《星光》的问答节目，由华恋作答</td>
+<td>共享作品记忆／喜剧</td>
+<td>官方逐话简介；仅文字定位</td>
+<td>华恋与光的共同舞台记忆和默契仍是可辨认的女女关系材料</td>
+<td>共同记忆、问答和主持搭档不构成性取向身份或恋爱确认</td>
+</tr>
+<tr>
+<td>第23–25话页面</td>
+<td>凛明馆与席格菲特等校的少女参加绕口令、演技挑战和“道场破り”，以表演较量制造笑点</td>
+<td>跨校竞演／群像</td>
+<td>官方逐话简介；仅文字定位</td>
+<td>关系网络横跨不同学校，竞演和互助比单一配对更能解释结构</td>
+<td>“王者”“挑战”“胜负”不能被当作情感占有或恋爱三角</td>
+</tr>
+<tr>
+<td>第26话〈舞台少女を待ちながら〉</td>
+<td>官方简介写 Elle 与 Kigurumi 在地下剧场等待舞台少女登场，并展开对话</td>
+<td>旁观者框架／群像收束</td>
+<td>官方逐话简介；仅文字定位</td>
+<td>WEB 版最后仍以舞台共同体和等待演出作收束</td>
+<td>结尾材料尚不足以确认交往，也不能用系列其他版本的结局补写本话</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>逐话范围核对。</strong> 官方故事页列出第 1–26 话，前段多以圣翔及其他学校的日常和排练为笑点，中段加入弗隆蒂亚的特训与跨校比较，后段集中在问答、演技挑战和不同组合的舞台互动。这个覆盖足以支持“女女关系是主线材料”这一作品层判断，但不足以支持某一对角色已成为恋人。没有字幕和视频时，报告特意不写精确时间码、不引用无法逐字核对的台词，也不把舞台歌曲或静帧当作现实层面的告白。</p>
+<h2 id="四层分析">四层分析</h2>
+<h3 id="第一层文本中的关系">第一层：文本中的关系</h3>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>关系 ID</th>
+<th>关系／参与者</th>
+<th>类型</th>
+<th>叙事位置</th>
+<th>恋爱明确度</th>
+<th>相互性</th>
+<th>证据层级</th>
+<th>摘要</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>r01</td>
+<td>24名舞台少女的群体共同体</td>
+<td>友情／搭档／竞争／共同体</td>
+<td>主线</td>
+<td>未知</td>
+<td>双向</td>
+<td>正篇事实＋强推断＋读者解读</td>
+<td>26话围绕唱歌、排练、竞演、互助和跨校短篇展开，群体关系是结构底色；摘要不足以逐一确认恋爱性质</td>
+</tr>
+<tr>
+<td>r02</td>
+<td>爱城华恋—神乐光</td>
+<td>友情／搭档／其他</td>
+<td>重要副线</td>
+<td>未知</td>
+<td>双向</td>
+<td>正篇事实＋强推断＋读者解读</td>
+<td>第22话的《星光》问答显示共享舞台记忆和默契，现有材料尚不足以确认交往或身份表述</td>
+</tr>
+<tr>
+<td>r03</td>
+<td>石动双叶—花柳香子</td>
+<td>友情／搭档／照护</td>
+<td>重要副线</td>
+<td>未知</td>
+<td>双向</td>
+<td>正篇事实＋读者解读</td>
+<td>第20话把两人的放学后互动单独成篇，核心是感谢、练习和相互影响；现有材料尚不足以确认恋爱性质</td>
+</tr>
+<tr>
+<td>r04</td>
+<td>各校舞台少女之间的竞演与互助</td>
+<td>友情／竞争／搭档／共同体</td>
+<td>重要副线</td>
+<td>未知</td>
+<td>双向</td>
+<td>正篇事实＋强推断</td>
+<td>第17–19、23–25话以不同学校的表演和挑战连接群像；现有材料不足以确认竞演关系的恋爱性质</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>群体共同体是本作最稳固的关系事实。</strong> 官方将人物概括为 24 名舞台少女，而故事页也确实把不同学校的成员反复放进同一场排练、比赛或问答。对于三分钟喜剧来说，角色被重新组合本身就是叙事方式：某一话让圣翔成员试验“菜单朗读”，下一话就可能把校际对手或配角放到同一竞演中。把这种关系压成“一对主角”会漏掉本作的主要乐趣，也会误以为没有连续恋爱线就是没有女女关系。</p>
+<p><strong>华恋—光与双叶—香子提供较容易被配对阅读的入口。</strong> 华恋与光共享《星光》的舞台记忆，光能够作为问答主持人向华恋提问；双叶和香子则在标题明确的一话中被安排在放学后空间，香子的练习变化与同学的影响相连。这些设置支持亲密、依存、搭档和共同成长的读法，也可成为读者的私人配对对象。现有简介不足以确认恋人称谓、告白、接吻或交往承诺，关系表因此保留“未知”。</p>
+<p><strong>竞演不是恋爱冲突的替身。</strong> 圣翔、弗隆蒂亚和席格菲特等学校之间存在比较、挑战和互相学习；“打倒某校”是节目和舞台竞争的目标，而不是对某一位少女的情感排他。舞台剧企划本来就把对手、搭档和同台演出放在同一套词汇里，不能看到强烈情绪、夸张台词或靠近构图就自动跳过关系类型的核对。</p>
+<h3 id="第二层作品的文类位置">第二层：作品的文类位置</h3>
+<p>若把“百合作品主类”理解为女女关系在作品的叙事或审美中心，而不是把恋爱确认当唯一门槛，那么本 WEB 版符合。官方公开的可见角色范围和每话简介都把舞台少女的演出、排练与校际互动放在前景；但这些摘要不足以审计整部作品是否另有男性恋爱线。喜剧、音乐、表演艺术、校园和短篇形式是并列的文类限定，而不是对女女关系判断的反证。</p>
+<p>不过，这个主类判断需要限定媒介版本。它不是电视动画的删节版证据，也不是剧场版或手游故事的替代入口；它更像一组围绕舞台少女企划制作的短小旁支。读者若期待连贯的恋爱剧情，会发现每话的笑点和组合不断变化；读者若寻找全女群像、舞台竞演以及可以从多个关系角度阅读的轻喜剧，则会得到更贴切的推荐。数据库中的“百合”与国际站点的“Comedy／Music／Performing Arts”可以同时成立，因为它们在回答不同的检索问题。</p>
+<h3 id="第三层角色身份">第三层：角色身份</h3>
+<p>本 WEB 版的现有材料不足以确认角色以台词或官方人物资料明示女同性恋、双性恋、无性恋或其他性取向身份。全女阵容、舞台上的亲密、共享记忆和观众容易配对的组合都不能自动推出身份。应把角色身份记录为<strong>范围内无依据</strong>，而不是把作品的社区标签换算为角色身份证明。</p>
+<p>同样，官方人物页列出 24 名少女，不能代替她们的恋爱或身份陈述。没有具体身份证据时，推荐可以谈“女女关系主线”“舞台少女共同体”或“可供配对阅读”，但不能写“全员女同性恋”或“官方确认她们是情侣”。这一区分对跨媒介企划尤其重要：手游、舞台和 TV 版可能使用更长的对话或不同的关系重点，但那些材料已被本报告排除。</p>
+<h3 id="第四层公共标签礼仪">第四层：公共标签礼仪</h3>
+<p>对普通推荐，建议写成“2019 WEB 迷你动画；全女舞台少女群像；喜剧、音乐和竞演；恋爱方向未确认”。这样既能让读者找到作品，也不会把 Bangumi 的“百合”标签误传为官方声明。</p>
+<p>对数据库主标签，可以保留“百合”或“女女关系主线”的开放归档，同时在恋爱明确度列写“未知”，在官方字段写“所核未见”。对严格恋爱检索，不能把它列为命中；对接受友情、搭档、竞演和读者解读的读者，则可以列入候选。对角色身份检索，应写“范围内无依据”。</p>
+<p>对私人阅读，读者当然可以把华恋—光、双叶—香子或其他组合当作配对来观看，但应明确这是读者解读，不要求所有人把同一组合称作官方情侣。对官方分类查询，当前能说的只有：官方资料强调 24 名舞台少女的迷你喜剧和配信方式，所核页面没有百合／GL 字面；官方沉默不能被夸大成否认。</p>
+<h2 id="最强反方解释">最强反方解释</h2>
+<p>最强的狭义解释是：本作只是手游企划的宣传性短篇，公开摘要以夸张笑料、舞台训练和角色客串为主，并未提供足以确认某一关系推进为恋爱的材料，因此不应放入百合作品主类。这个解释能有效提醒读者不要把“全女角色”“舞台默契”写成交往，也能说明 AniList、MAL 和 Anime-Planet 为什么更愿意使用 Comedy、Music、School、Performing Arts 等字段。</p>
+<p>它不能推翻两个较窄但重要的事实：第一，官方故事页的每话主体确实由舞台少女之间的合作、竞演、问答和互相影响构成；第二，本项目的作品主类是一个检索用途标签，不是角色身份或恋爱事实的宣判。如果读者将“百合”限定为明确女女恋爱，当前材料不足以把本作列为命中；如果读者用它寻找女女群像、女性角色共同体和可供配对阅读的舞台作品，则将其列入并标明“恋爱方向未知”更能反映资料。</p>
+<p>另一个反方读法会依赖电视动画或手游中华恋、光、双叶、香子等人的更长关系发展，认为这些背景已经足以解释 WEB 短篇的亲密。但这会违反本报告的媒介边界。跨媒介材料可以在另一个系列总览中讨论，不能作为本条 26 话的直接证据。只要不把其他版本倒灌回来，开放主类和严格恋爱排除就能同时成立。</p>
+<h2 id="分用途结论">分用途结论</h2>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>用途</th>
+<th>分类</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>普通作品推荐</td>
+<td><strong>推荐给想看全女舞台少女、短篇喜剧、音乐和竞演群像的读者；注明恋爱方向未确认。</strong></td>
+</tr>
+<tr>
+<td>数据库主标签</td>
+<td><strong>女女关系主线／作品分类归档；关系类型以友情、搭档、竞争和共同体为主。</strong></td>
+</tr>
+<tr>
+<td>严格明确恋爱检索</td>
+<td><strong>不作为命中推荐；范围内现有材料尚不足以确认告白、恋人称谓、正式交往或接吻。</strong></td>
+</tr>
+<tr>
+<td>私人百合阅读</td>
+<td><strong>可以纳入开放阅读；华恋—光、双叶—香子等属于可配对阅读入口，但不是官方确认情侣。</strong></td>
+</tr>
+<tr>
+<td>角色身份检索</td>
+<td><strong>不纳入；范围内没有性取向身份明示或官方身份设定。</strong></td>
+</tr>
+<tr>
+<td>官方分类查询</td>
+<td><strong>所核官方首页、故事页、人物页和配信公告未使用百合／GL字面；仅能确认迷你动画、舞台少女群像和喜剧定位。</strong></td>
+</tr>
+</tbody>
+</table></div>
+<p>本报告把“关系主线”和“恋爱主线”分开，是因为短篇群像很容易在检索时被一个词覆盖。女女角色是否共同构成作品的主要材料，回答的是“读者会不会持续看到她们彼此影响”；恋爱明确度回答的是“正篇是否把这种影响写成欲望、告白或交往”。在本作中，前一个问题的答案是“有”，后一个问题的答案是“现有材料尚不足以确认”。这不是回避判断，而是把两个不同的推荐需求分别写清楚：想找舞台少女群像的人不会因数据库的 GL 沉默而错过它，想找明确恋爱的人也能在观看前知道边界。</p>
+<p>最后，官方故事简介的片段化本身也是一种限制。它能确认谁在某话共同出现、该话以排练还是竞演为主题，却不能像完整字幕那样审计每句称呼、语气、歌词和镜头调度。因此本报告保留较保守的“未知”结论，而不把未见台词当作不存在；未来若有新的本版材料，应优先修订证据表，再决定是否改变分层标签。这样既保留公开资料的可复核性，也避免把企划其他媒介的丰富关系提前写进一个三分钟 WEB 短篇。</p>
+<h2 id="方法来源与限制">方法、来源与限制</h2>
+<ul>
+<li>本报告只处理 2019 年 WEB 迷你动画第 1–26 话。官网记录的配信方式是手游内先行、YouTube 限时公开；本报告不把手游剧情当作本作内容，也不把 TV、总集篇、剧场版、舞台或漫画的关系发展补进来。</li>
+<li>无本地字幕或同步画面复核。决定性材料是官方首页、官方故事页、人物与制作人员页、2019-07-05 配信公告，以及 AniList、MyAnimeList、Anime-Planet 和 Bangumi 的精确条目。时间码和动作细节在缺少视听材料时均留空，不以关键词计数替代剧情判断。</li>
+<li>中文短引均为分析者自行翻译或摘要。官方逐话页是剧情简介，不是完整剧本；“第20话聚焦双叶与香子”能够证明该组合在本 WEB 版被单独安排，不能证明存在台词、告白或镜头没有被简介记录的关系事实。</li>
+<li>官方页面使用“舞台少女24人唱歌、跳舞、大闹”等宣传语，数据库则分别记录短篇形式、音乐、表演艺术、学校、全女群像和社区“百合”标签。官方未标、数据库未标和社区标注要分开记录；任何一个字段都不能单独决定角色身份。</li>
+<li>Bangumi 快照中的 Rank 5761、“百合”标签 85 和五种收藏状态合计 1069 只用于记录归档时的公共检索环境。它们会随时间变化，不是观众支持率、作品质量分数或关系真相。AniList 的 Yuri 相关度为 0／未见，MAL 没有 Girls Love 类型，Anime-Planet 精确条目未见 GL；这三者的沉默也不等于否认。</li>
+<li>现有公开文字材料无法确认第20、22、23–26话是否有简介未呈现的台词、舞台歌词或明确身份表述；只有证据确实属于本 WEB 版，才可以更新恋爱明确度、关系相互性或官方证据。本报告的中等置信度正是为了保留这项限制。</li>
+</ul>
+
+        </div>
+      </details>
+    </div>
+  </div>
+</article>
+
+<section class="feedback-section">
+  <div>
+    <p class="eyebrow">REPORT FEEDBACK</p>
+    <h2>提交可核查的修订建议</h2>
+    <p>请注明作品版本、集数／章节、要质疑的原句、可公开核查的来源，以及建议如何修订。评论属于待核查反馈，不会自动成为报告证据。</p>
+  </div>
+  <div class="giscus"></div>
+<div class="giscus-config"
+        hidden
+        data-repo="L-M-Sherlock/yuri-classification-archive"
+        data-repo-id="R_kgDOTo1RzA"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOTo1RzM4DCXAh"
+        data-mapping="specific"
+        data-term="classification:shoujo_sunjik_all_starlight_web_2019"
+        data-strict="1"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-lang="zh-CN"
+        data-loading="lazy"
+        aria-hidden="true"></div>
+</section>
+
+  </main>
+  <footer class="site-footer">
+    <div>
+      <p>分类是面向具体查询的检索工具，不是替作品关系作终审判决。</p>
+      <p class="footer-ai-note">本站使用以 OpenAI Codex 为主的生成式 AI 辅助研究、写作与站点开发；人工审阅未覆盖全部作品报告。<a href="/yuri-classification-archive/about/#AI使用说明">查看 AI 使用说明</a></p>
+      <p>© 2026 Jarrett Ye · <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="license noopener noreferrer">CC BY-NC-SA 4.0</a> · <a href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub 仓库</a> · <a href="/yuri-classification-archive/about/#使用边界">使用边界</a></p>
+    </div>
+  </footer>
+  <script>window.SITE_CONFIG = {basePath: "/yuri-classification-archive"};</script>
+  <script src="/yuri-classification-archive/assets/site.js?v=eeeec5872796" defer></script>
+
+</body>
+</html>

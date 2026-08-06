@@ -1,0 +1,396 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="本档案处理的是一部六话的丧尸封闭空间推理动画。公开故事页从失忆的天野ミコト进入避难塔开始，持续把她与塔内六名少女放入调查、互相怀疑、共同应对危机和作出艰难决定的结构里。就“女女关系在故事里处于什么位置”这个问题，可以暂定为主线：这里指女性角色之间的共同体如何组织主要行动，不等于任意两人已被写成恋人。 官网人物资……">
+  <meta name="color-scheme" content="light dark">
+  <meta id="theme-color-light" name="theme-color" media="(prefers-color-scheme: light)" content="#f5f0e8">
+  <meta id="theme-color-dark" name="theme-color" media="(prefers-color-scheme: dark)" content="#1c181c">
+  <script>
+    (() => {
+      document.documentElement.classList.add("js");
+      const storageKey = "yuri-classification-theme";
+      const allowed = new Set(["system", "light", "dark"]);
+      let preference = "system";
+      try {
+        const stored = localStorage.getItem(storageKey);
+        if (allowed.has(stored)) preference = stored;
+      } catch (_error) {
+        preference = "system";
+      }
+      const systemDark = window.matchMedia?.("(prefers-color-scheme: dark)").matches;
+      const theme = preference === "system"
+        ? (systemDark ? "dark" : "light")
+        : preference;
+      document.documentElement.dataset.theme = theme;
+      document.documentElement.dataset.themePreference = preference;
+      document.documentElement.style.colorScheme = theme;
+      const lightMeta = document.getElementById("theme-color-light");
+      const darkMeta = document.getElementById("theme-color-dark");
+      if (preference === "system") {
+        lightMeta.content = "#f5f0e8";
+        darkMeta.content = "#1c181c";
+      } else {
+        const color = theme === "dark" ? "#1c181c" : "#f5f0e8";
+        lightMeta.content = color;
+        darkMeta.content = color;
+      }
+    })();
+  </script>
+  <link rel="canonical" href="https://l-m-sherlock.github.io/yuri-classification-archive/works/murder_mystery_of_the_dead_tv_2024/">
+  <link rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="百合作品分类档案">
+  <meta property="og:title" content="《谋杀之谜：亡者的秘密》分类报告｜百合作品分类档案">
+  <meta property="og:description" content="本档案处理的是一部六话的丧尸封闭空间推理动画。公开故事页从失忆的天野ミコト进入避难塔开始，持续把她与塔内六名少女放入调查、互相怀疑、共同应对危机和作出艰难决定的结构里。就“女女关系在故事里处于什么位置”这个问题，可以暂定为主线：这里指女性角色之间的共同体如何组织主要行动，不等于任意两人已被写成恋人。 官网人物资……">
+  <meta property="og:url" content="https://l-m-sherlock.github.io/yuri-classification-archive/works/murder_mystery_of_the_dead_tv_2024/">
+  <meta property="og:image" content="https://l-m-sherlock.github.io/yuri-classification-archive/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+  <title>《谋杀之谜：亡者的秘密》分类报告｜百合作品分类档案</title>
+  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=e68f78a2d1a9">
+
+</head>
+<body class="classification-report">
+  <a class="skip-link" href="#main-content">跳到正文</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="/yuri-classification-archive/">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>
+          <strong>百合作品分类档案</strong>
+          <small>按查询拆开标签，按证据保留边界</small>
+        </span>
+      </a>
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-navigation"
+      >
+        <span>菜单</span>
+        <span class="menu-toggle-icon" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-navigation" aria-label="主导航">
+        <div class="nav-main">
+          <a href="/yuri-classification-archive/">首页</a>
+          <a href="/yuri-classification-archive/table/">总表</a>
+          <a href="/yuri-classification-archive/articles/">专题</a>
+          <a href="/yuri-classification-archive/about/">方法与说明</a>
+        </div>
+        <a class="nav-star" href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub / Star <span aria-hidden="true">↗</span></a>
+        <a class="nav-feedback" href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
+        <label class="theme-control" for="theme-preference">
+          <span>主题</span>
+          <select id="theme-preference" aria-label="主题偏好">
+            <option value="system">跟随系统</option>
+            <option value="light">浅色</option>
+            <option value="dark">深色</option>
+          </select>
+        </label>
+      </nav>
+    </div>
+  </header>
+  <main id="main-content">
+    <article class="report-page">
+  <header class="report-header">
+    <p class="eyebrow">TV 动画 · 2026-08-02</p>
+    <h1>《谋杀之谜：亡者的秘密》分类报告</h1>
+    <p class="report-subtitle">2024年播出的电视动画《マーダーミステリー・オブ・ザ・デッド》正式第1–6话；官方动画网站的作品、人物、故事与播出资料，以及ABC电视台关联报道中可追溯至第4话的剧情说明；Bangumi subject 513948的版本字段、Jimaku字幕索引的具体检索记录，以及ABEMA公告与U-NEXT授权目录中公开可见的配信／字幕可得性资料</p>
+    <div class="label-strip" aria-label="分类摘要">
+      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>女女恋爱位置：</strong>未知</span><span class="label-chip"><strong>女女关系最高明确度：</strong>未知</span><span class="label-chip"><strong>官方字面百合／GL：</strong>所核未见</span><span class="label-chip"><strong>官方女女恋爱表述：</strong>所核未见</span><span class="label-chip"><strong>官方来源：</strong>层级：当前版本；位置：剧情／角色页、可见作品宣传</span><span class="label-chip"><strong>结论置信度：</strong>中<span class="inline-help" tabindex="0" aria-label="查看结论置信度说明" aria-describedby="report-confidence-help"><span aria-hidden="true">?</span><span class="term-tooltip" id="report-confidence-help" role="tooltip">表示当前锁定范围内，现有证据对本报告主要分类结论的支持稳定度；它不是百合程度、作品质量、社群共识或统计概率。</span></span></span>
+    </div>
+    <a class="back-link" href="/yuri-classification-archive/table/?q=%E8%B0%8B%E6%9D%80%E4%B9%8B%E8%B0%9C%EF%BC%9A%E4%BA%A1%E8%80%85%E7%9A%84%E7%A7%98%E5%AF%86">← 返回总表并定位本作</a>
+  </header>
+  <div class="report-layout">
+    <aside class="report-toc">
+      <p>本页目录</p>
+      <ol><li><a href="#低剧透概览">低剧透概览</a></li><li><a href="#数据库与公开分类">数据库与公开分类</a></li><li><a href="#决定性文本证据">决定性文本证据</a></li><li><a href="#四层分析">四层分析</a></li><li><a href="#最强反方解释">最强反方解释</a></li><li><a href="#分用途结论">分用途结论</a></li><li><a href="#方法来源与限制">方法、来源与限制</a></li></ol>
+    </aside>
+    <div class="report-content">
+      <blockquote>
+<p>分类日期：2026-08-02<br> 分类对象：2024年电视动画《マーダーミステリー・オブ・ザ・デッド》<br> 纳入范围：电视动画正篇第1–6话<br> 排除范围：原作桌游、漫画、小说、特典、宣传短片及其他媒介<br> 用途：普通推荐、数据库分类、严格恋爱检索与角色身份检索</p>
+</blockquote>
+<h2 id="低剧透概览">低剧透概览</h2>
+<aside class="alert alert-note"><strong>说明</strong><div class="alert-content"><p><strong>分类信息提示：</strong> 本节不展开关键剧情、转折与结局，但分类信息本身会透露关系类型、叙事位置和恋爱明确度。希望完全盲看的读者请跳过本页。</p></div></aside>
+
+<p>本档案处理的是一部六话的丧尸封闭空间推理动画。公开故事页从失忆的天野ミコト进入避难塔开始，持续把她与塔内六名少女放入调查、互相怀疑、共同应对危机和作出艰难决定的结构里。就“女女关系在故事里处于什么位置”这个问题，可以暂定为主线：这里指女性角色之间的共同体如何组织主要行动，不等于任意两人已被写成恋人。</p>
+<p>官网人物资料另给出一条较局部的依恋线：荒牧莉莉依恋篠原史香，史香并不把她推开；ABC电视台关联的第4话报道说明，这份依恋与莉莉对自伤痕迹、被史香厌弃的恐惧相连。范围内未纳入可与第1–6话逐一对应的字幕文件或画面材料，因此本报告不把共同生存、依恋或照护提升为明确恋爱，也不把资料缺口变成关系的否定结论。现有材料支持中等置信的暂定结论；完整一手材料纳入前，不提高恋爱或身份层级的判断。</p>
+<h3 id="分层标签">分层标签</h3>
+<blockquote>
+<p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：资料不足｜最高明确度：资料不足｜关系构成：生存／调查共同体、局部依恋与接纳｜官方字面：所核官网可见页面未出现“百合／GL”字面｜官方恋爱表述：所核官网页面未见直接表述；这只说明已核页面的措辞，不推断正篇没有相关场景｜官方来源：2024 TV官网首页、人物资料及第1、2、4、5话故事页｜阅读层级：正篇事实／强推断／读者解读｜身份依据类型：范围内无依据｜男性恋爱线：资料不足｜内容提示：丧尸、谋杀与尸体、封闭空间猜疑、强制投票、自伤痕迹与被厌弃恐惧。</strong></p>
+</blockquote>
+<h3 id="严格恋爱检索提示">严格恋爱检索提示</h3>
+<ul>
+<li><strong>只寻找明确女女恋爱、交往或身份明示：资料不足，暂不作为已核实命中。</strong> 可用材料没有提供可与话内时间轴对应的女女恋爱事实；这说明证据强度不够，并不是对任何场景作否定判决。</li>
+<li><strong>寻找女性群像、丧尸密室推理，或愿意自行阅读莉莉—史香依恋线：可以保留为待审候选。</strong> 推荐时应同时注明“恋爱与身份未定”和上述内容提示，避免把共同体主线包装成确定情侣故事。</li>
+</ul>
+<h2 id="数据库与公开分类">数据库与公开分类</h2>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>来源</th>
+<th>条目与字段</th>
+<th>来源类型</th>
+<th>本报告如何使用</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://of-the-dead.com/" target="_blank" rel="noopener noreferrer">TV动画官网首页与人物资料</a></td>
+<td>播出／配信资料、主角群资料；莉莉“依恋”史香，史香不会把慕着自己的莉莉推开</td>
+<td>范围内官方作品页</td>
+<td>锁定 TV 版、人物群与依恋设定；官网没有把这条关系命名为恋爱或角色身份。</td>
+</tr>
+<tr>
+<td><a href="https://of-the-dead.com/story1" target="_blank" rel="noopener noreferrer">第1话</a>、<a href="https://of-the-dead.com/story2" target="_blank" rel="noopener noreferrer">第2话</a>、<a href="https://of-the-dead.com/story4" target="_blank" rel="noopener noreferrer">第4话</a>、<a href="https://of-the-dead.com/story5" target="_blank" rel="noopener noreferrer">第5话</a>官方故事页</td>
+<td>六名少女的塔内避难、信息交换、共同搜索、围绕感染者的投票与秘密揭露</td>
+<td>官方逐话梗概</td>
+<td>用来判断女性共同体持续承担悬疑行动；它们是剧情摘要，不是逐句字幕或镜头记录。</td>
+</tr>
+<tr>
+<td><a href="https://abc-magazine.asahi.co.jp/post-40866/" target="_blank" rel="noopener noreferrer">ABC Magazine 第4话报道</a></td>
+<td>叙述莉莉把史香视为重要的偶像对象、害怕被她厌弃，史香接纳她</td>
+<td>播出方关联的次级剧情报道</td>
+<td>作为人物资料的辅助语境；不把媒体报道当作官方百合标签或恋爱确认。</td>
+</tr>
+<tr>
+<td><a href="https://bangumi.tv/subject/513948" target="_blank" rel="noopener noreferrer">Bangumi subject 513948</a></td>
+<td>TV、6话；列出英文别名 “Murder Mystery Of The Dead” 与用户标签</td>
+<td>社区数据库</td>
+<td>确认版本、话数和别名；用户“百合”标记只可作为发现线索。</td>
+</tr>
+<tr>
+<td><a href="https://jimaku.cc/opensearch/suggest?anime=true&amp;query=%E3%83%9E%E3%83%BC%E3%83%80%E3%83%BC%E3%83%9F%E3%82%B9%E3%83%86%E3%83%AA%E3%83%BC%E3%83%BB%E3%82%AA%E3%83%96%E3%83%BB%E3%82%B6%E3%83%BB%E3%83%87%E3%83%83%E3%83%89" target="_blank" rel="noopener noreferrer">来源</a></td>
+<td>现有来源结论与版本范围已记录；这一状态不证明正篇不存在相关内容。</td>
+<td>公开资料</td>
+<td>只用于来源、版本与范围边界，不替代正篇证据</td>
+</tr>
+<tr>
+<td><a href="https://times.abema.tv/visions/articles/-/10148650" target="_blank" rel="noopener noreferrer">来源</a></td>
+<td>未作视听复核；镜头、动作、表情和无对白信息不进入证据链。</td>
+<td>公开资料</td>
+<td>只用于来源、版本与范围边界，不替代正篇证据</td>
+</tr>
+</tbody>
+</table></div>
+<p>这些来源服务的不是同一道问题。官网和故事页说明制作方公开怎样组织角色与剧情，Bangumi 记录社区条目及别名，字幕索引只记录范围内是否有可引用的字幕材料。把它们并列，是为了避免让任一方替代另两方的证据功能。</p>
+<aside class="alert alert-warning"><strong>剧透提示</strong><div class="alert-content"><p>以下部分包含该 TV 版第1–6话的完整剧透。</p></div></aside>
+
+      <details class="spoiler-panel">
+        <summary>
+          <span>展开详细证据（含完整剧透）</span>
+          <small>决定性证据、四层分析、反方解释与方法限制</small>
+        </summary>
+        <div class="spoiler-content">
+          <h2 id="决定性文本证据">决定性文本证据</h2>
+<p>本档案的正篇文字材料是官网逐话梗概和人物资料，另以 U-NEXT 的授权目录核对第1–6话范围；现有材料没有与画面同步的时间轴。下表刻意保留“能证明什么／不能证明什么”的界线：故事页可以证明官方公开描述的行动结构，不能补足未纳入范围字幕中的对白、动作发起者、表情或沉默反应。 材料状态：未取得；这只表示范围内没有可引用文字，不推出剧情不存在。</p>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>位置</th>
+<th>原文与中文摘要</th>
+<th>叙事层级</th>
+<th>证据强度与视听复核</th>
+<th>能证明什么</th>
+<th>不能证明什么</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>官网第1话故事页</td>
+<td>“パラダイス・ロスト”：ミコト被塔内六名少女拘束，获准留下后又面对同来的男性遇害</td>
+<td>正篇剧情梗概</td>
+<td>官方文字；无字幕时间轴、未作画面复核</td>
+<td>女性避难群体与ミコト共同卷入密室案件，是叙事起点。</td>
+<td>不足以命名任何配对的恋爱性质。</td>
+</tr>
+<tr>
+<td>官网第2话故事页</td>
+<td>“ライブ・ワイヤー”：少女们一面怀疑彼此、一面说出信息；ミコト与蘭奈查找一名少女的物品</td>
+<td>正篇调查结构</td>
+<td>官方文字；无字幕时间轴、未作画面复核</td>
+<td>群体关系持续承担调查、信任与冲突的功能。</td>
+<td>梗概无法提供完整对话或角色心声。</td>
+</tr>
+<tr>
+<td>官网第4话故事页</td>
+<td>“セルフ・ダウト”：少女们合力击退丧尸，并共同寻找失踪的るみな</td>
+<td>正篇危机行动</td>
+<td>官方文字；无字幕时间轴、未作画面复核</td>
+<td>女性共同体不只是背景设定，也共同承担救援行动。</td>
+<td>合作和救援本身不能换算成恋爱承诺。</td>
+</tr>
+<tr>
+<td>官网第5话故事页</td>
+<td>“レディー・ブ・ラック”：围绕るみな被咬后的处置投票，意见分裂，众人逐步揭露秘密</td>
+<td>正篇群体冲突</td>
+<td>官方文字；无字幕时间轴、未作画面复核</td>
+<td>投票、猜疑和秘密使共同体关系继续驱动悬疑。</td>
+<td>不能据摘要补写未列出的关系事件。</td>
+</tr>
+<tr>
+<td>官网人物资料</td>
+<td>莉莉“史香に懐いている”；史香对慕着自己的莉莉虽会随意对待，却不把她推开</td>
+<td>角色设定</td>
+<td>官方文字；不等同于话内台词</td>
+<td>存在由莉莉指向史香的依恋，以及史香的接纳。</td>
+<td>依恋与接纳尚不足以确认恋爱、欲望或身份。</td>
+</tr>
+<tr>
+<td>ABC Magazine 第4话报道</td>
+<td>报道把莉莉对史香的感情置于“初次拥有的偶像对象”、自伤痕迹和害怕被讨厌的语境中，并叙述史香接纳她</td>
+<td>次级剧情说明</td>
+<td>播出方关联报道；无字幕时间轴、未作画面复核</td>
+<td>为 r02 提供依恋为何具有情节重量的辅助资料。</td>
+<td>不取代正篇字幕，也不成为作品类型的裁定。</td>
+</tr>
+<tr>
+<td>U-NEXT 第1–6话目录</td>
+<td>公开列出六个正篇标题、每话24分钟与简短剧情说明</td>
+<td>授权目录</td>
+<td>不公开字幕语言、文字稿或时间码；未登录播放</td>
+<td>可复核本档案只处理第1–6话正篇，而非两个特番。</td>
+<td>不能替代逐句字幕、声音或画面复核。</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="四层分析">四层分析</h2>
+<h3 id="第一层文本中的关系">第一层：文本中的关系</h3>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>关系 ID</th>
+<th>关系／参与者</th>
+<th>类型</th>
+<th>叙事位置</th>
+<th>恋爱明确度</th>
+<th>相互性</th>
+<th>证据层级</th>
+<th>摘要</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>r01</td>
+<td>天野ミコト与蘭奈、史香、莉莉、夕、るみな、ムルムル</td>
+<td>搭档／共同体</td>
+<td>主线</td>
+<td>资料不足</td>
+<td>关系结构复杂，无法以单一互惠值概括</td>
+<td>正篇事实／强推断</td>
+<td>从避难、调查到投票，官方梗概持续把这七人放入同一危机结构；它可支持共同体主线，不替代配对判断。</td>
+</tr>
+<tr>
+<td>r02</td>
+<td>荒牧莉莉—篠原史香</td>
+<td>照护／其他</td>
+<td>局部</td>
+<td>资料不足</td>
+<td>莉莉的依恋有明确方向；史香的接纳不足以确定对等亲密或恋爱互惠</td>
+<td>正篇事实／强推断</td>
+<td>官网人物资料与第4话次级报道共同定位依恋、羞耻和接纳；不把“偶像对象”改写为恋人称谓。</td>
+</tr>
+</tbody>
+</table></div>
+<p>r01 回答的是作品怎样运转，而非谁与谁相恋。第1、2、4、5话的官方描述让女性角色的避难、调查、搜寻和表决彼此相连；即使把“百合”一词暂时搁置，这个共同体仍是理解悬疑推进所必需的关系结构。梗概能承受的结论到此为止：它没有提供逐话完整台词，故任何更细的私密互动、配对层级和关系变化都应保留为材料范围之外的问题。</p>
+<p>r02 则提醒群像并不抹平个体方向。莉莉对史香的依恋并非只有“她们同为女性”这一事实：官方人物页直接写出依恋，报道又将其与莉莉的脆弱经历和害怕失去史香的反应联系起来。史香的回应体现照护与接纳，却没有要求读者把这份回应翻译成恋爱。现有材料只足以把它记录为一条局部依恋线；将依恋、照护与恋爱拆开，既保留这条关系的重量，也避免用一个总标签替它盖棺定论。</p>
+<h3 id="第二层作品的文类位置">第二层：作品的文类位置</h3>
+<p>就范围内 TV 版而言，作品首先是一部丧尸危机中的封闭空间推理。外部威胁、死者、嫌疑、物证、投票与秘密构成类型骨架；但这些事件不是由抽象的“案件”自行推进，而是由ミコト与六名少女怎样彼此信任、怀疑、协作和作出取舍来展开。因此，本档案将女女关系位置列为主线，指的是女性角色关系构成主要行动框架，而不是宣称本作已满足所有 GL 书架的严格条件。</p>
+<p>这种分类应服务于具体查询。想看女性群像在危机中共同处理谜案的读者，能从“女女共同体主线”获得有用信息；只寻找确定恋人的读者，仍需一项更窄的恋爱证据。现有材料没有提供那项可与时间轴互相对应的证明，所以恋爱位置和最高明确度保持“资料不足”。这不是把神秘感当成答案，而是拒绝用官方梗概的省略处填补关系事实。</p>
+<h3 id="第三层角色身份">第三层：角色身份</h3>
+<p>范围内的官网人物文字介绍的是职业背景、性格、生活角色和相互依恋；ABC报道补充的是莉莉怎样理解史香的意义。它们并未给出角色对自身性取向的自述，也没有用人物设定为她们赋予女同性恋、双性恋或其他身份标签。即使读者从 r02 读出浪漫可能，关系阅读与身份命名依然是不同层级的工作。</p>
+<p>字幕材料的缺口在这一层尤其重要。它使报告无法穷举六话对白，也无法让“公开页面没有写到”承担身份否定功能。较稳妥的结果是“范围内无依据”：既不把角色默认成异性恋，也不将共同体、依恋或社区标签替她们完成身份声明。日后若同一 TV 版出现可引用的一手身份资料，也应单独更新身份层，而不是从作品归档反推人物。</p>
+<h3 id="第四层公共标签礼仪">第四层：公共标签礼仪</h3>
+<p>公共推荐可以使用比单个“百合”更诚实的短标签，例如：<code>女性共同体主线／丧尸密室推理｜莉莉—史香有依恋与接纳支线｜恋爱与身份资料不足｜含自伤痕迹和谋杀内容</code>。它让寻找群像悬疑的人和寻找确定恋爱的人都能预判自己会得到什么，也避免将内容提示埋进一个类型词里。</p>
+<p>所核官网可见页面没有使用“百合／GL”字面，Bangumi 的用户标记则说明有读者愿意用该词寻找本作。两件事可以同时记录，却不能互相改写：前者只描述已核制作方公开措辞的范围，后者是社区检索痕迹。私人书单可以把莉莉—史香放入百合阅读；公共检索若面向严格恋爱需求，则应保留“资料不足”的限定，并说明这是一部以谋杀和生存压力为主体的作品。</p>
+<h2 id="最强反方解释">最强反方解释</h2>
+<p>最强的保留意见是：若某个 GL／百合入口专门服务于“已有明确女女恋爱或交往证据”的检索，就不能仅凭全女性主要阵容、共同生存或一条依恋支线，把本作宣传成已核实的命中。这个标准有实际用途，尤其能保护读者不在寻找明确情侣时收到一部主要处理猜疑、谋杀与丧尸危机的作品。报告接受这一点，因而不将它列为严格恋爱检索的已核实命中。</p>
+<p>但反方也不应把另一层事实抹掉。官网连续以少女共同体安排主要行动，并单独给出莉莉依恋史香、史香接纳她的资料；这些内容足以解释作品为何会吸引某些以女女关系为中心的阅读。更恰当的做法不是争抢唯一答案，而是把查询条件写出来：群像关系主线可以是肯定答案，明确恋爱与角色身份则仍需要更直接的材料。反过来，把依恋直接写成已交往同样越过了证据边界。</p>
+<h2 id="分用途结论">分用途结论</h2>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>用途</th>
+<th>分类</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>普通作品推荐</td>
+<td><strong>可向接受丧尸、密室谋杀和女性群像的读者介绍。</strong> 需预先提示尸体、猜疑、感染风险、自伤痕迹和强制投票。</td>
+</tr>
+<tr>
+<td>数据库主标签</td>
+<td><strong>女女共同体主线／丧尸封闭空间推理。</strong> 建议并列“恋爱资料不足”，不以一个总标签替代关系说明。</td>
+</tr>
+<tr>
+<td>严格明确恋爱检索</td>
+<td><strong>资料不足，暂不作为已核实命中。</strong> 当前证据不具备可逐话引证的明确女女恋爱材料；这不构成剧情否定结论。</td>
+</tr>
+<tr>
+<td>私人百合阅读</td>
+<td><strong>可以作为有条件的阅读入口。</strong> 莉莉—史香的依恋与接纳可供讨论，但应标为个人阅读或待审关系判断。</td>
+</tr>
+<tr>
+<td>角色身份检索</td>
+<td><strong>范围内无依据。</strong> 不由女性共同体、角色依恋或用户标签推断性取向。</td>
+</tr>
+<tr>
+<td>官方分类查询</td>
+<td><strong>官方字面：所核可见页面未出现“百合／GL”。官方女女恋爱表述：所核页面未见直接表述。</strong> 两项都只描述已核公开页面，不能替代未纳入范围的正篇字幕或画面。</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="方法来源与限制">方法、来源与限制</h2>
+<h3 id="材料与检索记录">材料与检索记录</h3>
+<p>直接材料包括官网首页、人物资料、官方第1、2、4、5话故事页，以及 ABC Magazine 的第4话剧情报道；中文说明均为本报告对日文网页的简要自译或转述。官网故事页适合确定版本内公开的剧情结构，不能替代完整剧本、音轨或画面。ABC报道有助于说明莉莉—史香支线的情感语境，仍按次级材料处理。</p>
+<p>现有来源结论与版本范围已记录；这一状态不证明正篇不存在相关内容。</p>
+<p>未作视听复核；镜头、动作、表情和无对白信息不进入证据链。</p>
+<h3 id="版本边界">版本边界</h3>
+<p>判断对象严格限于 2024 年 TV 动画正式第1–6话。原作桌游、漫画、小说、预告、活动、广播、歌曲、商品和其他版本的剧情或人物设定都不用于此处的关系判断。没有进行视频复核，所以报告避免断言镜头调度、身体动作、停顿、语气或没有写进公开梗概的情节细部。</p>
+<p>本稿将文本关系、作品结构、角色身份和公共标签分开记录。共同体处于主线并不自动换算为明确恋爱；人物依恋也不自动成为身份自述；官方页面或数据库的一个词同样不能替代可追溯的正篇材料。待更完整的一手 TV 版材料纳入并经独立审阅后，才适合调整这些层级的结论。</p>
+
+        </div>
+      </details>
+    </div>
+  </div>
+</article>
+
+<section class="feedback-section">
+  <div>
+    <p class="eyebrow">REPORT FEEDBACK</p>
+    <h2>提交可核查的修订建议</h2>
+    <p>请注明作品版本、集数／章节、要质疑的原句、可公开核查的来源，以及建议如何修订。评论属于待核查反馈，不会自动成为报告证据。</p>
+  </div>
+  <div class="giscus"></div>
+<div class="giscus-config"
+        hidden
+        data-repo="L-M-Sherlock/yuri-classification-archive"
+        data-repo-id="R_kgDOTo1RzA"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOTo1RzM4DCXAh"
+        data-mapping="specific"
+        data-term="classification:murder_mystery_of_the_dead_tv_2024"
+        data-strict="1"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-lang="zh-CN"
+        data-loading="lazy"
+        aria-hidden="true"></div>
+</section>
+
+  </main>
+  <footer class="site-footer">
+    <div>
+      <p>分类是面向具体查询的检索工具，不是替作品关系作终审判决。</p>
+      <p class="footer-ai-note">本站使用以 OpenAI Codex 为主的生成式 AI 辅助研究、写作与站点开发；人工审阅未覆盖全部作品报告。<a href="/yuri-classification-archive/about/#AI使用说明">查看 AI 使用说明</a></p>
+      <p>© 2026 Jarrett Ye · <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="license noopener noreferrer">CC BY-NC-SA 4.0</a> · <a href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub 仓库</a> · <a href="/yuri-classification-archive/about/#使用边界">使用边界</a></p>
+    </div>
+  </footer>
+  <script>window.SITE_CONFIG = {basePath: "/yuri-classification-archive"};</script>
+  <script src="/yuri-classification-archive/assets/site.js?v=eeeec5872796" defer></script>
+
+</body>
+</html>

@@ -1,0 +1,440 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="《放学后桌游俱乐部》的 TV 正篇把武笠美姫从独处、害怕与人来往的日常带到桌游、同学与共同创作之中。綾的相遇是入口，翠与艾米莉亚的加入把叙事展开为四名女高中生围绕游戏、文化祭、旅行和创作持续协作的群体故事。女女关系因此处于主线：它不是背景里的角色性别分布，而是作品组织成长、行动和情感回应的主要方式。 本档案将女……">
+  <meta name="color-scheme" content="light dark">
+  <meta id="theme-color-light" name="theme-color" media="(prefers-color-scheme: light)" content="#f5f0e8">
+  <meta id="theme-color-dark" name="theme-color" media="(prefers-color-scheme: dark)" content="#1c181c">
+  <script>
+    (() => {
+      document.documentElement.classList.add("js");
+      const storageKey = "yuri-classification-theme";
+      const allowed = new Set(["system", "light", "dark"]);
+      let preference = "system";
+      try {
+        const stored = localStorage.getItem(storageKey);
+        if (allowed.has(stored)) preference = stored;
+      } catch (_error) {
+        preference = "system";
+      }
+      const systemDark = window.matchMedia?.("(prefers-color-scheme: dark)").matches;
+      const theme = preference === "system"
+        ? (systemDark ? "dark" : "light")
+        : preference;
+      document.documentElement.dataset.theme = theme;
+      document.documentElement.dataset.themePreference = preference;
+      document.documentElement.style.colorScheme = theme;
+      const lightMeta = document.getElementById("theme-color-light");
+      const darkMeta = document.getElementById("theme-color-dark");
+      if (preference === "system") {
+        lightMeta.content = "#f5f0e8";
+        darkMeta.content = "#1c181c";
+      } else {
+        const color = theme === "dark" ? "#1c181c" : "#f5f0e8";
+        lightMeta.content = color;
+        darkMeta.content = color;
+      }
+    })();
+  </script>
+  <link rel="canonical" href="https://l-m-sherlock.github.io/yuri-classification-archive/works/saikoro_club_tv_2019/">
+  <link rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="百合作品分类档案">
+  <meta property="og:title" content="《放学后桌游俱乐部》分类报告｜百合作品分类档案">
+  <meta property="og:description" content="《放学后桌游俱乐部》的 TV 正篇把武笠美姫从独处、害怕与人来往的日常带到桌游、同学与共同创作之中。綾的相遇是入口，翠与艾米莉亚的加入把叙事展开为四名女高中生围绕游戏、文化祭、旅行和创作持续协作的群体故事。女女关系因此处于主线：它不是背景里的角色性别分布，而是作品组织成长、行动和情感回应的主要方式。 本档案将女……">
+  <meta property="og:url" content="https://l-m-sherlock.github.io/yuri-classification-archive/works/saikoro_club_tv_2019/">
+  <meta property="og:image" content="https://l-m-sherlock.github.io/yuri-classification-archive/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+  <title>《放学后桌游俱乐部》分类报告｜百合作品分类档案</title>
+  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=e68f78a2d1a9">
+
+</head>
+<body class="classification-report">
+  <a class="skip-link" href="#main-content">跳到正文</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="/yuri-classification-archive/">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>
+          <strong>百合作品分类档案</strong>
+          <small>按查询拆开标签，按证据保留边界</small>
+        </span>
+      </a>
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-navigation"
+      >
+        <span>菜单</span>
+        <span class="menu-toggle-icon" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-navigation" aria-label="主导航">
+        <div class="nav-main">
+          <a href="/yuri-classification-archive/">首页</a>
+          <a href="/yuri-classification-archive/table/">总表</a>
+          <a href="/yuri-classification-archive/articles/">专题</a>
+          <a href="/yuri-classification-archive/about/">方法与说明</a>
+        </div>
+        <a class="nav-star" href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub / Star <span aria-hidden="true">↗</span></a>
+        <a class="nav-feedback" href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
+        <label class="theme-control" for="theme-preference">
+          <span>主题</span>
+          <select id="theme-preference" aria-label="主题偏好">
+            <option value="system">跟随系统</option>
+            <option value="light">浅色</option>
+            <option value="dark">深色</option>
+          </select>
+        </label>
+      </nav>
+    </div>
+  </header>
+  <main id="main-content">
+    <article class="report-page">
+  <header class="report-header">
+    <p class="eyebrow">TV 动画 · 2026-08-02</p>
+    <h1>《放学后桌游俱乐部》分类报告</h1>
+    <p class="report-subtitle">2019 年电视动画《放課後さいころ倶楽部》播出正篇第 1–12 话；对应的官方 TV 首页、人物页、逐话梗概及 2019 TV 数据库条目</p>
+    <div class="label-strip" aria-label="分类摘要">
+      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>女女恋爱位置：</strong>未知</span><span class="label-chip"><strong>女女关系最高明确度：</strong>未知</span><span class="label-chip"><strong>官方字面百合／GL：</strong>所核未见</span><span class="label-chip"><strong>官方女女恋爱表述：</strong>是</span><span class="label-chip"><strong>官方来源：</strong>层级：当前版本；位置：剧情／角色页、可见作品宣传</span><span class="label-chip"><strong>结论置信度：</strong>中<span class="inline-help" tabindex="0" aria-label="查看结论置信度说明" aria-describedby="report-confidence-help"><span aria-hidden="true">?</span><span class="term-tooltip" id="report-confidence-help" role="tooltip">表示当前锁定范围内，现有证据对本报告主要分类结论的支持稳定度；它不是百合程度、作品质量、社群共识或统计概率。</span></span></span>
+    </div>
+    <a class="back-link" href="/yuri-classification-archive/table/?q=%E6%94%BE%E5%AD%A6%E5%90%8E%E6%A1%8C%E6%B8%B8%E4%BF%B1%E4%B9%90%E9%83%A8">← 返回总表并定位本作</a>
+  </header>
+  <div class="report-layout">
+    <aside class="report-toc">
+      <p>本页目录</p>
+      <ol><li><a href="#低剧透概览">低剧透概览</a></li><li><a href="#数据库与公开分类">数据库与公开分类</a></li><li><a href="#决定性文本证据">决定性文本证据</a></li><li><a href="#四层分析">四层分析</a></li><li><a href="#最强反方解释">最强反方解释</a></li><li><a href="#分用途结论">分用途结论</a></li><li><a href="#方法来源与限制">方法、来源与限制</a></li></ol>
+    </aside>
+    <div class="report-content">
+      <blockquote>
+<p>分类日期：2026-08-02<br> 分类对象：2019 年电视动画《放課後さいころ倶楽部》<br> 纳入范围：电视播出正篇第 1–12 话<br> 排除范围：原作漫画、漫画后续、真人或舞台活动、广播、游戏、宣传短片及其他改编版本<br> 用途：普通推荐与数据库分类</p>
+</blockquote>
+<h2 id="低剧透概览">低剧透概览</h2>
+<aside class="alert alert-note"><strong>说明</strong><div class="alert-content"><p><strong>分类信息提示：</strong> 本节不展开关键剧情、转折与结局，但分类信息本身会透露关系类型、叙事位置和恋爱明确度。希望完全盲看的读者请跳过本页。</p></div></aside>
+
+<p>《放学后桌游俱乐部》的 TV 正篇把武笠美姫从独处、害怕与人来往的日常带到桌游、同学与共同创作之中。綾的相遇是入口，翠与艾米莉亚的加入把叙事展开为四名女高中生围绕游戏、文化祭、旅行和创作持续协作的群体故事。女女关系因此处于主线：它不是背景里的角色性别分布，而是作品组织成长、行动和情感回应的主要方式。</p>
+<p>本档案将女女关系的恋爱位置与最高明确度都记为<strong>未知</strong>。这不是把“友情”降格为无关紧要，也不是把未知读成异性恋或非恋爱。官方简介与若干直接字幕行清楚使用朋友、共同游戏、互相帮助等语言；可审计的字幕材料为非官方英文 ASS，日文字幕与画面复核不在这份材料范围内。它足以支持关系怎样进入叙事，尚不足以把所有女女关系压缩为已确认恋爱或已排除恋爱的单一判断。</p>
+<p>范围内确有男同学指向女角色的单向好感资料，且第 2 话的英文字幕可见相关误会；这些线在关系表中单列为非女女范围。它们提醒读者不要把“女性群像”直接换算成角色身份，也不改变四人共同体在本 TV 版中的中心位置。</p>
+<h3 id="分层标签">分层标签</h3>
+<blockquote>
+<p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：未知｜最高明确度：未知｜关系构成：多组异质关系（主要搭档＋女性共同体＋局部异性好感）｜官方字面：所核未见｜官方恋爱表述：所核未见｜官方来源：2019 TV 版／可见宣传、人物页与逐话梗概｜阅读层级：正篇事实、强推断、读者解读｜身份依据类型：范围内无依据｜男性恋爱线：副线｜内容提示：社交退缩与孤独、校园排斥、温泉与泳装情境、亲子沟通压力、比赛与公开活动的紧张感、局部单向好感</strong></p>
+</blockquote>
+<h3 id="严格恋爱检索提示">严格恋爱检索提示</h3>
+<ul>
+<li><strong>只寻找双方告白、正式交往、接吻或明确身份的读者：不应把本档案当作肯定命中。</strong> 这些严格条件需要可正面核对的女女关系事实；本档案的女女恋爱明确度仍为未知，不能用“未见”反向填成排除结论。</li>
+<li><strong>接受女女关系主线、友情与成长叙事的读者：可以考虑。</strong> 美姫、綾、翠与艾米莉亚的相遇、游戏和相互支持持续组织全季；若书单采用“百合”一词，应同时标注这是女性关系中心的开放分类，而非角色身份或明确交往认证。</li>
+</ul>
+<h2 id="数据库与公开分类">数据库与公开分类</h2>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>来源</th>
+<th>条目与字段</th>
+<th>来源类型</th>
+<th>本报告如何使用</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://saikoro-club.com/" target="_blank" rel="noopener noreferrer">动画官网首页</a></td>
+<td>TV 动画《放課後さいころ倶楽部》；宣传语以桌游带来笑容为核心</td>
+<td>官方自述／营销分类</td>
+<td>确认作品与电视动画版本，记录实际宣传重点。</td>
+</tr>
+<tr>
+<td><a href="https://saikoro-club.com/intro/index.html" target="_blank" rel="noopener noreferrer">官网 INTRODUCTION</a></td>
+<td>将作品介绍为桌游题材的青春故事；美姫、綾、翠与艾米莉亚通过游戏加深友情、逐渐成长</td>
+<td>官方故事与营销表述</td>
+<td>支持四名女学生的群体关系与成长框架；“友情”是实际用语，不是关系终审标签。</td>
+</tr>
+<tr>
+<td><a href="https://saikoro-club.com/chara/index.html" target="_blank" rel="noopener noreferrer">官网 CHARACTER</a></td>
+<td>写田上喜欢綾，剑持在接触美姫的温柔后开始在意美姫</td>
+<td>官方人物资料</td>
+<td>记录男同学指向女角色的局部单向好感，并与女女关系轴分开。</td>
+</tr>
+<tr>
+<td><a href="https://saikoro-club.com/story/index.html" target="_blank" rel="noopener noreferrer">官网 STORY</a></td>
+<td>索引第 1–12 话；各话页面给出标题与梗概</td>
+<td>官方逐话梗概</td>
+<td>锁定 TV 版范围，并为关系在共同游戏、旅行、文化祭与创作中的位置提供文字背景。</td>
+</tr>
+<tr>
+<td><a href="https://animetosho.org/view/headpatter-after-school-dice-club-season-1-bd.n2093990" target="_blank" rel="noopener noreferrer">AnimeTosho Headpatter 发布页</a></td>
+<td>12 集发布项另列 “Subtitles” 附件；其中每集有英文 <code>track4.eng.ass</code></td>
+<td>公开字幕发布索引</td>
+<td>作为非官方英文字幕文本的版本与覆盖来源；不当作官方翻译或画面材料。</td>
+</tr>
+<tr>
+<td><a href="https://myanimelist.net/anime/38276/Houkago_Saikoro_Club" target="_blank" rel="noopener noreferrer">MyAnimeList</a></td>
+<td>TV、12 话；Comedy，CGDCT、School、Strategy Game</td>
+<td>编辑字段</td>
+<td>记录该站当时的检索入口，不以其缺失字段判断文本关系。</td>
+</tr>
+<tr>
+<td><a href="https://www.anime-planet.com/anime/after-school-dice-club" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td>
+<td>官网与所列平台的精确字段以当前可核结果为准；无法核对的字段记为资料不足，平台字段不替代正篇关系判断</td>
+<td>编辑标签数据库</td>
+<td>将“无法核实”保留为未知，而非填为未标。</td>
+</tr>
+<tr>
+<td><a href="https://anilist.co/anime/104115/Houkago-Saikoro-Club/" target="_blank" rel="noopener noreferrer">AniList</a></td>
+<td>TV、12 话；Comedy、Slice of Life；当时返回标签含 Female Protagonist、Board Game、Primarily Female Cast 等</td>
+<td>带权重社区标签</td>
+<td>说明该站的标签和权重是一次检索快照，不能替代剧情判断。</td>
+</tr>
+<tr>
+<td><a href="https://bangumi.tv/subject/259790" target="_blank" rel="noopener noreferrer">Bangumi 条目</a>／<a href="https://api.bgm.tv/v0/subjects/259790" target="_blank" rel="noopener noreferrer">API 快照</a></td>
+<td>队列快照排名 6790；2026-08-02 API 快照为 117 个“百合”标记、五种收藏状态合计 2768 人</td>
+<td>社区标签与使用快照</td>
+<td>说明中文读者确实会以“百合”发现本作；标记、排名和比例不构成社群投票或文本证明。</td>
+</tr>
+</tbody>
+</table></div>
+<p>这些来源回答的是不同查询。官网说明制作方怎样介绍一部桌游题材的青春动画；字幕提供可定位的台词译文；数据库和 Bangumi 描述各个平台怎样整理或使用标签。它们能够互相校准版本、范围和阅读入口，却不能把任何一个标签数量转换为关系事实。</p>
+<aside class="alert alert-warning"><strong>剧透提示</strong><div class="alert-content"><p>以下部分包含本作 TV 正篇的完整剧透。</p></div></aside>
+
+      <details class="spoiler-panel">
+        <summary>
+          <span>展开详细证据（含完整剧透）</span>
+          <small>决定性证据、四层分析、反方解释与方法限制</small>
+        </summary>
+        <div class="spoiler-content">
+          <h2 id="决定性文本证据">决定性文本证据</h2>
+<p>下表的日文官方梗概为自行中文概述；英文引文来自 Headpatter 附件中经核验的 <code>track4.eng.ass</code>，不是官方英文译文。时间码只定位字幕文本，未作影片或镜头复核。</p>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>位置</th>
+<th>原文与中文摘要</th>
+<th>叙事层级</th>
+<th>证据强度与视听复核</th>
+<th>能证明什么</th>
+<th>不能证明什么</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>官方 INTRODUCTION</td>
+<td>官网称美姫与綾、翠、艾米莉亚相遇，并“通过游戏加深友情、逐渐成长”。</td>
+<td>官方简介／关系框架</td>
+<td>直接；官方网页，未作视频复核</td>
+<td>四名女高中生和桌游—友情—成长的关系框架属于制作方实际说明。</td>
+<td>该营销概述不能替每一段正篇关系裁定恋爱、身份或排他性。</td>
+</tr>
+<tr>
+<td>第 1 话 00:21:52.62–00:21:58.34</td>
+<td>英文字幕：“That day, I found someone who can look for ‘fun’ with me.” 中文：那天，我找到了能和我一起寻找“乐趣”的人。</td>
+<td>第一人称叙述／人物建立</td>
+<td>直接字幕文本；非官方英文译文，未作视频复核</td>
+<td>配合官网第 1 话梗概，可支持綾与美姫的相遇是美姫改变日常的叙事入口。</td>
+<td>一句共同寻找乐趣的叙述不能自行确认恋爱或角色身份。</td>
+</tr>
+<tr>
+<td>第 2 话 00:19:56.72–00:20:30.63</td>
+<td>田上的内心字幕出现 “That I like her?”、“Does she like me back?”；随后的对话围绕他加入三名女孩的游戏究竟在意谁展开。</td>
+<td>现实台词／误会喜剧</td>
+<td>直接字幕文本；非官方英文译文，未作视频复核</td>
+<td>范围内存在男同学指向女同学的单向好感语境；人物页可进一步校准田上喜欢綾。</td>
+<td>这条异性方向资料不参与女女关系的恋爱汇总，也不能推出女角色身份。</td>
+</tr>
+<tr>
+<td>第 5 话官方梗概</td>
+<td>美姫、綾、翠在暑假前往金泽海边，在美姫叔母经营的旅馆一起体验游戏。</td>
+<td>现实剧情／旅行共同体</td>
+<td>直接；官方逐话页，未作视频复核</td>
+<td>三人的共同活动延伸到校外与亲属空间，关系具有跨单元的持续性。</td>
+<td>旅行、温泉或泳装的场景安排本身不能代替关系明确度。</td>
+</tr>
+<tr>
+<td>第 8 话 00:12:54.88–00:13:12.81</td>
+<td>艾米莉亚说自己希望再见到先前遇到的女孩，并 “become friends with them so I could play games with them”。</td>
+<td>现实台词／共同体扩展</td>
+<td>直接字幕文本；非官方英文译文，未作视频复核</td>
+<td>她把与三人的新关系明说为一起玩游戏的朋友关系，四人共同体由此进入文化祭情节。</td>
+<td>“朋友”一词不能独自解决读者会不会提出浪漫阅读。</td>
+</tr>
+<tr>
+<td>第 11 话官方梗概</td>
+<td>翠完成原创游戏后，让美姫、綾与艾米莉亚四人一起试玩。</td>
+<td>现实剧情／共同创作</td>
+<td>直接；官方逐话页，未作视频复核</td>
+<td>四人关系对翠的创作过程具有行动上的参与和回收作用。</td>
+<td>一起试玩不等于某一对的恋爱确认。</td>
+</tr>
+<tr>
+<td>第 12 话 00:17:45.92–00:18:39.47</td>
+<td>美姫说想让四人继续在一起；同伴说她对大家不可或缺，即使分班、走向不同地方也会 “always be friends”。</td>
+<td>现实台词／季终回应</td>
+<td>直接字幕文本；非官方英文译文，未作视频复核</td>
+<td>季终把相互回应、共同经历与朋友语言置于四人关系中，支持其主线中心性。</td>
+<td>群体承诺不能自动收窄成某一对的恋爱结论，也不能替角色确认性取向。</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="字幕覆盖与版本核对">字幕覆盖与版本核对</h3>
+<p><a href="https://animetosho.org/view/headpatter-after-school-dice-club-season-1-bd.n2093990" target="_blank" rel="noopener noreferrer">AnimeTosho 的 Headpatter 发布页</a> 的英文 `track4.eng.ass覆盖第 1–12 话；时间码只对应该字幕版本。</p>
+<p>这组材料覆盖全部纳入单元，但它仍是非官方英文字幕文本。报告据此引用可定位的英文语句；日文原词的细微语义、未写入字幕的画面信息和配音表演均在该材料范围之外。报告不含视频材料。</p>
+<h2 id="四层分析">四层分析</h2>
+<h3 id="第一层文本中的关系">第一层：文本中的关系</h3>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>关系 ID</th>
+<th>关系／参与者</th>
+<th>类型</th>
+<th>叙事位置</th>
+<th>恋爱明确度</th>
+<th>相互性</th>
+<th>证据层级</th>
+<th>摘要</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>r01</td>
+<td>武笠美姫—高屋敷綾</td>
+<td>友情、搭档、共同体</td>
+<td>主线</td>
+<td>未知</td>
+<td>双向</td>
+<td>正篇事实、强推断</td>
+<td>綾的相遇把美姫带向游戏与同伴；第 1 话的第一人称字幕把“共同寻找乐趣”放在这段转变中。两人关系是叙事入口，但现有材料不把它压缩成已确认或已排除的恋爱。</td>
+</tr>
+<tr>
+<td>r02</td>
+<td>美姫、綾、翠、艾米莉亚的桌游伙伴共同体</td>
+<td>友情、搭档、共同体</td>
+<td>主线</td>
+<td>未知</td>
+<td>双向</td>
+<td>正篇事实、强推断</td>
+<td>第 8 话以想成为朋友、一起玩游戏建立艾米莉亚的加入；第 12 话以四人相互回应收束。群体而非单一配对最能概括后半季的关系组织。</td>
+</tr>
+<tr>
+<td>r03</td>
+<td>美姫、綾、翠与艾米莉亚围绕桌游、文化祭与共同创作的伙伴关系</td>
+<td>搭档、共同体</td>
+<td>重要副线</td>
+<td>未知</td>
+<td>双向</td>
+<td>正篇事实、强推断</td>
+<td>旅行、文化祭桌游咖啡、试玩和游戏设计把四人的关系放入反复实践的场所，显示共同活动如何推动成长与创作。场景不承担恋爱或身份的证明负担。</td>
+</tr>
+<tr>
+<td>r04</td>
+<td>男同学对綾或美姫的局部好感与翠的文化祭竞争</td>
+<td>恋爱、竞争、其他</td>
+<td>局部</td>
+<td>明确欲望</td>
+<td>单向</td>
+<td>正篇事实</td>
+<td>人物页和第 2 话字幕确认男同学指向女同学的好感语境；渋沢蓮与翠还存在文化祭／桌游竞争。此行明确标为非女女关系，避免异性方向材料污染女女恋爱轴。</td>
+</tr>
+</tbody>
+</table></div>
+<p>r01 的价值在于解释主线从哪里启动：美姫从独处到愿意靠近他人，首先由与綾的同行、游戏与再次相遇获得具体形式。它也提醒读者，关系的叙事分量可以高于某个孤立的恋爱符号；但这并不允许把任何亲密或共同活动自动重命名为恋爱。</p>
+<p>r02 与 r03 则防止把全季削成单一配对。艾米莉亚的加入明确以朋友和共同游戏为目标，翠的创作又需要三位伙伴的试玩与回应。第 12 话中美姫希望四人仍在一起、同伴回应她不可或缺，描述的是群体关系如何持续改变彼此。读者可以从其中提出浪漫阅读，但公共记录应先记录这个群体结构本身。</p>
+<p>r04 是必要的对照，而不是故事的总解释。男同学的好感有直接资料基础，故不能因为它与百合检索无关就删去；另一方面，它也没有资格替女女关系的明确度作答。把它单列，正是为了让“有男性角色”与“女女关系是否居中”不再被混成一个问题。</p>
+<h3 id="第二层作品的文类位置">第二层：作品的文类位置</h3>
+<p>如果查询是“有没有以女性关系推动人物成长和日常行动的作品”，本作适合进入结果集。官方简介从美姫与三位女同学的相遇说起，逐话梗概与字幕又把旅行、文化祭、创作、安慰和季终回应交给这组关系来组织。桌游、校园日常、成长和轻喜剧是重叠文类；女性共同体是把这些题材串成一季的关系结构。</p>
+<p>如果查询改为“有没有已经以可正面核验的文本事实建立女女恋爱的作品”，答案必须更窄。本档案没有以数据库未标、官方标签沉默或字幕关键词代替这种事实；相反，它把女女恋爱位置与最高明确度保留为未知。这样做会牺牲一个简短的“是／否”，但能避免把友情语言、读者感受和角色身份塞进同一道闸门。</p>
+<h3 id="第三层角色身份">第三层：角色身份</h3>
+<p>纳入范围内没有可归档为角色性取向自述或官方身份设定的资料，因此身份依据为“范围内无依据”。美姫的孤独、綾的主动、翠的创作抱负、艾米莉亚对朋友的在意，以及男同学的好感，都不是替任何女角色填写身份标签的授权。</p>
+<p>这一区分并不削弱读者的酷儿阅读。读者可以把持续陪伴、共同选择或四人互相回应读成有浪漫意义的关系形象；只是“我从中读到百合”与“角色已经被文本确认某种身份”服务不同查询，证据强度也不同。</p>
+<h3 id="第四层公共标签礼仪">第四层：公共标签礼仪</h3>
+<p>普通推荐可写“女女关系主线／桌游校园日常／友情与成长”，并说明其开放分类口径。严格恋爱书单应要求正面关系事实，不能将本档案的未知字段偷换成排除或确认。官方资料页的友情、青春故事与桌游题材是可核对的原始表述；它们可用于描述官方语言，不能当作替作品盖章的唯一辞典。</p>
+<p>MAL、AniList、Anime-Planet 与 Bangumi 适合放在检索层说明。尤其 Bangumi 的“百合”标记显示有人确实用这个入口寻找本作，却不能显示这些人看见了同一段关系、采用了同一种定义，或获得了官方授权。较稳妥的公共标签是让查询可见：女性关系主线、友情中心、桌游／校园日常，以及“明确女女恋爱：未按本档案确认”。</p>
+<h2 id="最强反方解释">最强反方解释</h2>
+<p>最有力的浪漫读法可以从美姫与綾的双人起点出发：綾让美姫第一次感到可以与人一起寻找乐趣；四人此后在旅行、文化祭和创作中反复互相选择；第 12 话美姫希望四人继续在一起，同伴又以“不可或缺”和持续朋友关系回应。这样的关系强度确实足以让读者提出尚未命名的恋爱可能，Bangumi 上的“百合”使用也说明这种阅读具有实际公共入口。</p>
+<p>这项读法能反驳“她们只是在同一画面里玩游戏”的缩小。正篇材料清楚显示，关系会改变美姫如何看待孤独、改变翠怎样完成创作，也改变四人如何面对未来。若私人书单的查询是寻找这种女性关系形象，收录本作有充分理由。</p>
+<p>但反方读法不能把浪漫可能升级成已经确认的身份或正式交往；同样，官方的朋友语言也不能反向消除读者阅读到的可能。最稳妥的分层记录是：女女关系主线成立，群体友情和共同实践有直接文本支持，女女恋爱明确度留在未知，私人浪漫阅读可被清楚标注为阅读层主张。</p>
+<h2 id="分用途结论">分用途结论</h2>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>用途</th>
+<th>分类</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>普通作品推荐</td>
+<td>推荐给喜欢桌游、校园日常、社交成长和女女友情共同体的读者；核心看点是美姫从独处走向四人共同活动。</td>
+</tr>
+<tr>
+<td>数据库主标签</td>
+<td>桌游、校园、日常、喜剧、成长、女性群像、女女关系主线；应同时保留女女恋爱明确度未知。</td>
+</tr>
+<tr>
+<td>严格明确恋爱检索</td>
+<td>不作肯定命中：本档案没有记录可正面确认女女告白、正式交往、接吻或身份明示的关系事实，且不把未知填成排除。</td>
+</tr>
+<tr>
+<td>私人百合阅读</td>
+<td>可以纳入：美姫与綾的双人起点、四人的共同生活感和季终相互回应提供持续的浪漫或非浪漫阅读材料；应标明这是读者层面的理解。</td>
+</tr>
+<tr>
+<td>角色身份检索</td>
+<td>未知：范围内没有性取向自述或官方身份设定。</td>
+</tr>
+<tr>
+<td>官方分类查询</td>
+<td>官方实际用语为桌游题材、青春故事、通过游戏加深友情；官方字面百合／GL与官方女女恋爱表述均为所核未见。</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="方法来源与限制">方法、来源与限制</h2>
+<ul>
+<li>范围锁定为 2019 年 TV 动画第 1–12 话。官网 STORY 索引和各话页面、Bangumi、MAL 与 AniList 均用于交叉核对 12 话版本；漫画后续与其他媒介不回填本报告。</li>
+<li>AnimeTosho 的英文 ASS 覆盖正文所列纳入单元；时间码只对应该字幕版本。</li>
+<li>该英文字幕为非官方译文，且没有视频或同步画面复核。报告只把带时间码的英文文字当作字幕事实；日文措辞、镜头、肢体互动和配音表演仍是材料边界。</li>
+<li>官方资料能证明其实际表述；数据库字段和社区标签只能证明各平台的条目或使用情况。官方未标、数据库沉默、目录空白、单个关键词或字幕条目本身都不能证明剧情不存在。</li>
+<li>“女女关系主线”回答的是关系是否组织作品的主要行动与成长；“女女恋爱明确度未知”记录的是现有材料不应替读者作超出证据的恋爱裁决。两者可以同时成立，也不自动推出角色身份。</li>
+</ul>
+
+        </div>
+      </details>
+    </div>
+  </div>
+</article>
+
+<section class="feedback-section">
+  <div>
+    <p class="eyebrow">REPORT FEEDBACK</p>
+    <h2>提交可核查的修订建议</h2>
+    <p>请注明作品版本、集数／章节、要质疑的原句、可公开核查的来源，以及建议如何修订。评论属于待核查反馈，不会自动成为报告证据。</p>
+  </div>
+  <div class="giscus"></div>
+<div class="giscus-config"
+        hidden
+        data-repo="L-M-Sherlock/yuri-classification-archive"
+        data-repo-id="R_kgDOTo1RzA"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOTo1RzM4DCXAh"
+        data-mapping="specific"
+        data-term="classification:saikoro_club_tv_2019"
+        data-strict="1"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-lang="zh-CN"
+        data-loading="lazy"
+        aria-hidden="true"></div>
+</section>
+
+  </main>
+  <footer class="site-footer">
+    <div>
+      <p>分类是面向具体查询的检索工具，不是替作品关系作终审判决。</p>
+      <p class="footer-ai-note">本站使用以 OpenAI Codex 为主的生成式 AI 辅助研究、写作与站点开发；人工审阅未覆盖全部作品报告。<a href="/yuri-classification-archive/about/#AI使用说明">查看 AI 使用说明</a></p>
+      <p>© 2026 Jarrett Ye · <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="license noopener noreferrer">CC BY-NC-SA 4.0</a> · <a href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub 仓库</a> · <a href="/yuri-classification-archive/about/#使用边界">使用边界</a></p>
+    </div>
+  </footer>
+  <script>window.SITE_CONFIG = {basePath: "/yuri-classification-archive"};</script>
+  <script src="/yuri-classification-archive/assets/site.js?v=eeeec5872796" defer></script>
+
+</body>
+</html>

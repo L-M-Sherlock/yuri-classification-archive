@@ -1,0 +1,425 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="在本项目允许非恋爱女女关系构成作品主类的口径下，这 48 个 WEB 短篇可以归为 女女关系位于主线、按作品分类归档、恋爱方向缺席 ，置信度为中等。每集只有约二十秒到一分钟，内容围绕高松灯、千早爱音、要乐奈、长崎素世和椎名立希五名成员的吃东西、季节活动、昵称、手游、兼职、眼镜、俳句和做饭等小事展开。与其说这里有……">
+  <meta name="color-scheme" content="light dark">
+  <meta id="theme-color-light" name="theme-color" media="(prefers-color-scheme: light)" content="#f5f0e8">
+  <meta id="theme-color-dark" name="theme-color" media="(prefers-color-scheme: dark)" content="#1c181c">
+  <script>
+    (() => {
+      document.documentElement.classList.add("js");
+      const storageKey = "yuri-classification-theme";
+      const allowed = new Set(["system", "light", "dark"]);
+      let preference = "system";
+      try {
+        const stored = localStorage.getItem(storageKey);
+        if (allowed.has(stored)) preference = stored;
+      } catch (_error) {
+        preference = "system";
+      }
+      const systemDark = window.matchMedia?.("(prefers-color-scheme: dark)").matches;
+      const theme = preference === "system"
+        ? (systemDark ? "dark" : "light")
+        : preference;
+      document.documentElement.dataset.theme = theme;
+      document.documentElement.dataset.themePreference = preference;
+      document.documentElement.style.colorScheme = theme;
+      const lightMeta = document.getElementById("theme-color-light");
+      const darkMeta = document.getElementById("theme-color-dark");
+      if (preference === "system") {
+        lightMeta.content = "#f5f0e8";
+        darkMeta.content = "#1c181c";
+      } else {
+        const color = theme === "dark" ? "#1c181c" : "#f5f0e8";
+        lightMeta.content = color;
+        darkMeta.content = color;
+      }
+    })();
+  </script>
+  <link rel="canonical" href="https://l-m-sherlock.github.io/yuri-classification-archive/works/bang_dream_mygo_members_daily_web_2022/">
+  <link rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="百合作品分类档案">
+  <meta property="og:title" content="《MyGO!!!!!成员的日常生活》分类报告｜百合作品分类档案">
+  <meta property="og:description" content="在本项目允许非恋爱女女关系构成作品主类的口径下，这 48 个 WEB 短篇可以归为 女女关系位于主线、按作品分类归档、恋爱方向缺席 ，置信度为中等。每集只有约二十秒到一分钟，内容围绕高松灯、千早爱音、要乐奈、长崎素世和椎名立希五名成员的吃东西、季节活动、昵称、手游、兼职、眼镜、俳句和做饭等小事展开。与其说这里有……">
+  <meta property="og:url" content="https://l-m-sherlock.github.io/yuri-classification-archive/works/bang_dream_mygo_members_daily_web_2022/">
+  <meta property="og:image" content="https://l-m-sherlock.github.io/yuri-classification-archive/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+  <title>《MyGO!!!!!成员的日常生活》分类报告｜百合作品分类档案</title>
+  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=e68f78a2d1a9">
+
+</head>
+<body class="classification-report">
+  <a class="skip-link" href="#main-content">跳到正文</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="/yuri-classification-archive/">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>
+          <strong>百合作品分类档案</strong>
+          <small>按查询拆开标签，按证据保留边界</small>
+        </span>
+      </a>
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-navigation"
+      >
+        <span>菜单</span>
+        <span class="menu-toggle-icon" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-navigation" aria-label="主导航">
+        <div class="nav-main">
+          <a href="/yuri-classification-archive/">首页</a>
+          <a href="/yuri-classification-archive/table/">总表</a>
+          <a href="/yuri-classification-archive/articles/">专题</a>
+          <a href="/yuri-classification-archive/about/">方法与说明</a>
+        </div>
+        <a class="nav-star" href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub / Star <span aria-hidden="true">↗</span></a>
+        <a class="nav-feedback" href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
+        <label class="theme-control" for="theme-preference">
+          <span>主题</span>
+          <select id="theme-preference" aria-label="主题偏好">
+            <option value="system">跟随系统</option>
+            <option value="light">浅色</option>
+            <option value="dark">深色</option>
+          </select>
+        </label>
+      </nav>
+    </div>
+  </header>
+  <main id="main-content">
+    <article class="report-page">
+  <header class="report-header">
+    <p class="eyebrow">WEB 动画 · 2026-08-02</p>
+    <h1>《MyGO!!!!!成员的日常生活》分类报告</h1>
+    <p class="report-subtitle">官方 MyGO!!!!! YouTube 播放列表中标题为《MyGO!!!!!メンバーの日常》的 48 个短篇，Bangumi subject 448391 将其列为 WEB 条目；2022-08-24 至 2025-06-27 的公开章节资料、官方播放列表与第一集公开说明；该 48 章短篇中五名 MyGO!!!!! 成员的日常互动及其女女关系分类</p>
+    <div class="label-strip" aria-label="分类摘要">
+      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>女女恋爱位置：</strong>缺席</span><span class="label-chip"><strong>女女关系最高明确度：</strong>非恋爱</span><span class="label-chip"><strong>官方字面百合／GL：</strong>所核未见</span><span class="label-chip"><strong>官方女女恋爱表述：</strong>所核未见</span><span class="label-chip"><strong>官方来源：</strong>层级：当前版本；位置：可见作品宣传</span><span class="label-chip"><strong>结论置信度：</strong>中<span class="inline-help" tabindex="0" aria-label="查看结论置信度说明" aria-describedby="report-confidence-help"><span aria-hidden="true">?</span><span class="term-tooltip" id="report-confidence-help" role="tooltip">表示当前锁定范围内，现有证据对本报告主要分类结论的支持稳定度；它不是百合程度、作品质量、社群共识或统计概率。</span></span></span>
+    </div>
+    <a class="back-link" href="/yuri-classification-archive/table/?q=MyGO%21%21%21%21%21%E6%88%90%E5%91%98%E7%9A%84%E6%97%A5%E5%B8%B8%E7%94%9F%E6%B4%BB">← 返回总表并定位本作</a>
+  </header>
+  <div class="report-layout">
+    <aside class="report-toc">
+      <p>本页目录</p>
+      <ol><li><a href="#低剧透概览">低剧透概览</a></li><li><a href="#数据库与公开分类">数据库与公开分类</a></li><li><a href="#决定性文本证据">决定性文本证据</a></li><li><a href="#四层分析">四层分析</a></li><li><a href="#最强反方解释">最强反方解释</a></li><li><a href="#分用途结论">分用途结论</a></li><li><a href="#方法来源与限制">方法、来源与限制</a></li></ol>
+    </aside>
+    <div class="report-content">
+      <blockquote>
+<p>分类日期：2026-08-02<br> 分类对象：2022–2025 年 YouTube WEB 短篇系列《MyGO!!!!!メンバーの日常》<br> 纳入范围：Bangumi subject 448391 所列 48 个《メンバーの日常》章节（2022-08-24 至 2025-06-27）<br> 排除范围：官方播放列表中另名的 9 个《まいご！！！！！》角色短视频、TV 动画、剧场版、游戏、舞台、漫画、广播和其他跨媒介材料<br> 用途：普通推荐、数据库分类与严格恋爱检索</p>
+</blockquote>
+<h2 id="低剧透概览">低剧透概览</h2>
+<aside class="alert alert-note"><strong>说明</strong><div class="alert-content"><p><strong>分类信息提示：</strong> 本节不展开关键剧情、转折与结局，但分类信息本身会透露关系类型、叙事位置和恋爱明确度。希望完全盲看的读者请跳过本页。</p></div></aside>
+
+<p>在本项目允许非恋爱女女关系构成作品主类的口径下，这 48 个 WEB 短篇可以归为<strong>女女关系位于主线、按作品分类归档、恋爱方向缺席</strong>，置信度为中等。每集只有约二十秒到一分钟，内容围绕高松灯、千早爱音、要乐奈、长崎素世和椎名立希五名成员的吃东西、季节活动、昵称、手游、兼职、眼镜、俳句和做饭等小事展开。与其说这里有一条需要解决的主线，不如说“五个人怎样一起生活”就是这些短篇反复返回的叙事对象。</p>
+<p>现有官方公开文字不足以确认明确女女恋爱、正式交往或角色身份。短篇中的吐槽、误会、互相照顾和近距离喜剧可以成为女女关系阅读的入口，但不能当作确定情侣的证据。它更适合想看 MyGO!!!!! 成员轻松相处、补充日常侧面的读者；只寻找明确女女恋爱者，则不应把本篇当作保证命中项。</p>
+<p>本档案特别处理了“48 集还是 57 集”的版本问题。Bangumi subject 448391 的章节页列出 48 个标题为《メンバーの日常》的章节；AniList 的对应条目和官方播放列表则各自显示 57 个视频，其中多出的 9 个标题使用《まいご！！！！！》而不是《メンバーの日常》。为了不把相邻角色短视频倒灌进用户指定的 Bangumi 条目，本报告以 48 章为判断边界，并将这 9 个视频作为相邻材料排除。</p>
+<h3 id="分层标签">分层标签</h3>
+<blockquote>
+<p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：缺席｜最高明确度：非恋爱｜关系构成：单一主要共同体｜官方字面：所核未见｜官方恋爱表述：所核未见｜官方来源：范围内可见宣传（播放列表／单集页面）｜阅读层级：正篇事实＋强推断＋读者解读｜身份依据类型：范围内无依据｜男性恋爱线：未知（公开材料未覆盖完整恋爱线）｜内容提示：极短篇喜剧、食物与季节活动、成员吐槽和近距离玩笑；本档案不混入 TV 动画的冲突与关系发展。</strong></p>
+</blockquote>
+<h3 id="严格恋爱检索提示">严格恋爱检索提示</h3>
+<ul>
+<li>只寻找双方告白、正式交往、接吻、明确女女欲望或身份明示者：<strong>不符合</strong>。本范围能够确认的是五名成员的固定共同体，以及她们在日常小事中的相互协作，所核公开材料不足以确认明确女女恋爱、正式交往或角色身份。</li>
+<li>接受女女关系中心的乐队日常、轻松喜剧和开放式阅读者：<strong>可以推荐</strong>。这些短篇提供了 TV 正篇之外的生活片段，女性角色之间的共同活动不是背景噪音，而是每集的主要内容。</li>
+<li>只想看 TV 动画那种高强度冲突、创伤修复或明确配对推进者：<strong>不要用本篇替代 TV 版</strong>。两者是同一企划的不同媒介版本，本报告不把 TV 的台词和情节补写进短篇。</li>
+</ul>
+<h2 id="数据库与公开分类">数据库与公开分类</h2>
+<p>不同来源的字段回答的不是同一个问题。官方 YouTube 页面说明短篇是什么、从哪里发布；Bangumi 记录中文社区如何建立条目和使用百合标签；AniList 提供一个更宽的 ONA 条目和加权标签；MAL 与 Anime-Planet 则首先要确认是否有覆盖本对象的独立条目。以下是 2026-08-02 核对的公开页面快照；排名、标签数和收藏人数会变化，不代表作品质量或社群投票。</p>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>来源</th>
+<th>条目与字段</th>
+<th>来源类型</th>
+<th>本报告如何使用</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://www.youtube.com/playlist?list=PLUFFl4hYd1R1V9KigOtW5YFvaEJWH_Red" target="_blank" rel="noopener noreferrer">MyGO!!!!! 官方 YouTube 播放列表</a></td>
+<td>播放列表标题为《MyGO!!!!!メンバーの日常/まいご！！！！！》，当前可见 57 个视频；其中 48 个沿用《メンバーの日常》标题，另 9 个为《まいご！！！！！》角色短视频</td>
+<td>官方公开分发页</td>
+<td>确认发布渠道、短篇标题边界和 48／9 的范围差异；不把播放列表总数直接当作 Bangumi subject 的集数</td>
+</tr>
+<tr>
+<td><a href="https://www.youtube.com/watch?v=N5OrxHi4dqU" target="_blank" rel="noopener noreferrer">官方第一集页面</a></td>
+<td>《MyGO!!!!!メンバーの日常「かき氷」》，2022-08-24 公开，约 33 秒；简介说明由 Studio Moriken 制作并介绍 MyGO!!!!! 乐队</td>
+<td>官方单集宣传</td>
+<td>确认首发日期、制作署名和日常短篇定位；所核文字不足以确认明确女女恋爱、正式交往或角色身份</td>
+</tr>
+<tr>
+<td><a href="https://bangumi.tv/subject/448391" target="_blank" rel="noopener noreferrer">Bangumi subject 448391</a>／<a href="https://api.bgm.tv/v0/subjects/448391" target="_blank" rel="noopener noreferrer">公共 API</a></td>
+<td>WEB；条目首播日 2022-08-24；快照 Rank #5632；章节列表为 48 个；“百合”标签 108 人。想看、看过、在看、搁置、抛弃五种状态合计 1838 人，标记比例约 5.88%</td>
+<td>社区条目、排名与用户标签</td>
+<td>记录本项目为何从百合榜纳入该条目，并固定本档案的 48 章范围；标签和比例不是官方认证、角色身份或恋爱证明</td>
+</tr>
+<tr>
+<td><a href="https://bgm.tv/subject/448391/ep" target="_blank" rel="noopener noreferrer">Bangumi 章节列表</a></td>
+<td>章节从「かき氷」开始，到「料理」②结束；首播日从 2022-08-24 延续至 2025-06-27，页面列 48 条记录，单集约 20–61 秒</td>
+<td>社区版本资料</td>
+<td>用于逐章核对标题、日期和时长；页面不提供完整剧本，不能替代字幕或视听复核</td>
+</tr>
+<tr>
+<td><a href="https://anilist.co/anime/193414/MyGO-Member-no-Nichijou" target="_blank" rel="noopener noreferrer">AniList 精确标题条目 193414</a></td>
+<td>ONA；57 集；类型为 Comedy、Slice of Life；加权标签包含 Food、Cute Girls Doing Cute Things、Female Protagonist、Primarily Female Cast、Episodic；未观察到 Yuri 标签</td>
+<td>编辑字段与加权社区标签</td>
+<td>记录国际站对关联短篇集合的描述；57 集与 Bangumi 48 章不同，故不把其总数写成本 subject 的正篇集数</td>
+</tr>
+<tr>
+<td><a href="https://myanimelist.net/anime.php?q=MyGO%20Member%20no%20Nichijou" target="_blank" rel="noopener noreferrer">MyAnimeList 资料</a></td>
+<td>未见能够单独覆盖《MyGO!!!!!メンバーの日常》的稳定条目</td>
+<td>编辑型数据库</td>
+<td>记为无精确条目／未知；不借用 TV 母条目的 Girls Love 字段</td>
+</tr>
+<tr>
+<td><a href="https://www.anime-planet.com/anime/all?name=MyGO%20Member%20no%20Nichijou" target="_blank" rel="noopener noreferrer">Anime-Planet 资料</a></td>
+<td>独立精确条目及 GL 字段资料不足</td>
+<td>编辑维护的标签数据库</td>
+<td>记为资料不足而非“无”；不把 TV 版本的标签移植到本短篇</td>
+</tr>
+</tbody>
+</table></div>
+<p>这些结果同时说明了社区入口和官方定位的差别。Bangumi 的“百合”标签让读者能从相关榜单找到该作品，AniList 则选择以女性群像、食物和单元喜剧来描述它；官方页面只需要告诉观众“在哪里看、这一集讲什么”。没有哪个字段单独回答“角色是否是情侣”。AniList 的 57 集也不是简单的错误：官方播放列表确实混合了 48 个《メンバーの日常》和 9 个另名短视频，只是本档案选择了更窄的 Bangumi 版本边界。</p>
+<aside class="alert alert-warning"><strong>剧透提示</strong><div class="alert-content"><p>以下部分包含本短篇系列的完整版本说明和分类证据。未作字幕或视听复核，证据表只写公开页面能够支持的标题、日期、简介和章节结构，不补写无法复核的台词、镜头动作或角色内心。</p></div></aside>
+
+      <details class="spoiler-panel">
+        <summary>
+          <span>展开详细证据（含完整剧透）</span>
+          <small>决定性证据、四层分析、反方解释与方法限制</small>
+        </summary>
+        <div class="spoiler-content">
+          <h2 id="决定性文本证据">决定性文本证据</h2>
+<p>中文均为本报告对官方日文标题、公开简介和数据库字段的自行翻译或转述，不是官方中文字幕。这个对象每集很短，且公开页面没有提供可稳定引用的逐句台词；因此决定性证据首先是版本和宣传文本，其次是 48 章反复出现的日常主题。章节标题可以证明作品持续选择哪些生活场景，但不能单凭一个食物或节日名判断恋爱。</p>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>位置</th>
+<th>原文与中文摘要</th>
+<th>叙事层级</th>
+<th>证据强度与视听复核</th>
+<th>能证明什么</th>
+<th>不能证明什么</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>官方播放列表标题</td>
+<td><code>MyGO!!!!!メンバーの日常/まいご！！！！！</code>；自译为“MyGO!!!!!成员的日常／迷子！！！！！ ”</td>
+<td>版本编排／官方发布</td>
+<td>官方播放列表公开字段；未作视听复核</td>
+<td>公开渠道把两组短视频放在同一列表，但使用了两种标题</td>
+<td>不能把列表内 57 个视频自动视为同一 Bangumi 条目，也不能证明标题相近的角色短片与本档案同范围</td>
+</tr>
+<tr>
+<td>第一集标题与简介</td>
+<td><code>MyGO!!!!!メンバーの日常「かき氷」</code>；自译为“MyGO!!!!!成员的日常〈刨冰〉”；简介说明本篇公开、由 Studio Moriken 制作，并介绍 MyGO!!!!!</td>
+<td>官方宣传／现实说明</td>
+<td>官方页面文字与视频元数据直接可见；未作画面复核</td>
+<td>该系列以 MyGO!!!!! 成员的短篇日常为公开卖点，首集在 2022-08-24 发布</td>
+<td>不能从“日常”一词推出友情以外的恋爱，也不能据此概括 TV 版的情绪冲突</td>
+</tr>
+<tr>
+<td>Bangumi 章节 1–10</td>
+<td>「かき氷」「線香花火」「十五夜」「秋刀魚」「ハロウィン」两篇、「動物園」两篇、「おしゃピク」两篇；可译为刨冰、线香花火、十五夜、秋刀鱼、万圣节、动物园和时尚野餐</td>
+<td>现实日常／季节活动</td>
+<td>章节标题、时长和日期直接可见；无字幕与画面复核</td>
+<td>五名成员的共同生活和季节活动从系列早期就是持续主题，女女关系不是只在一集客串</td>
+<td>不能单凭节日活动确认特定配对、恋爱欲望或排他承诺</td>
+</tr>
+<tr>
+<td>Bangumi 章节 11–24</td>
+<td>「寒くなってきた」「おみくじ」「イルミネーション」「雪が降ってきた」「友チョコ」「お花見」「買い食い」；可译为天变冷了、御神籤、彩灯、下雪了、友情巧克力、赏花会和买零食</td>
+<td>现实日常／群体互动</td>
+<td>章节结构直接可见；没有逐句台词</td>
+<td>关系材料跨越冬季、情人节语境和春日活动，五人共同体具有连续性</td>
+<td>「友チョコ」是章节标题，不能自动翻译成恋爱巧克力，更不能把节日符号当作交往确认</td>
+</tr>
+<tr>
+<td>Bangumi 章节 25–40</td>
+<td>「パン派？ごはん派？」「楽奈のグルメ」「食い違う二人」「ニックネーム」「応募シール」「飴」「スマホゲー」「星座」；可译为面包派还是米饭派、乐奈的美食、意见不合的两人、昵称、抽奖贴纸、糖果、手游和星座</td>
+<td>现实日常／性格差异</td>
+<td>章节标题、日期和时长直接可见；未作视听复核</td>
+<td>系列把成员分组、意见不合和共同兴趣继续作为短篇喜剧素材，说明女性关系在作品层居于中心</td>
+<td>不能把“意见不合的两人”解释为情侣争执，也不能从手游、昵称或星座推断特定身份</td>
+</tr>
+<tr>
+<td>Bangumi 章节 41–48</td>
+<td>「バイト」「愛音のメガネ」「俳句」「料理」；可译为兼职、爱音的眼镜、俳句和烹饪；最后一章为「料理」②，日期是 2025-06-27</td>
+<td>现实日常／单元收束</td>
+<td>章节资料直接可见；无字幕、视频和逐镜复核</td>
+<td>48 章继续围绕成员各自的小事与共同生活，不存在公开章节资料所示的恋爱主线</td>
+<td>不能因为篇名出现个人焦点就断言该角色与另一人建立恋爱关系，也不能由结尾日期推出企划终结</td>
+</tr>
+<tr>
+<td>AniList 关联条目</td>
+<td><code>A series of shorts showing the daily lives of the MyGO!!!!! members.</code>；自译为“一系列展示 MyGO!!!!! 成员日常生活的短篇”</td>
+<td>编辑简介／类型字段</td>
+<td>公开页面和 GraphQL 字段可核对；不是官方剧本</td>
+<td>国际条目把核心概括为成员日常，类型为喜剧与日常</td>
+<td>不能把 AniList 的简介当作官方百合判断，也不能用 57 集替换 Bangumi subject 的 48 章边界</td>
+</tr>
+<tr>
+<td>官方播放列表中的 9 个另名视频</td>
+<td>标题以 <code>まいご！！！！！</code> 开头，例如成员个人篇和喜欢的事物篇；与 48 个《メンバーの日常》标题并列</td>
+<td>相邻短视频／版本边界</td>
+<td>播放列表元数据可见；不对视频内容作断言</td>
+<td>解释 AniList 57 与 Bangumi 48 的差异，并给出排除理由</td>
+<td>不能把这些相邻视频的台词或新增设定倒灌到本档案，也不能因为同一频道就假定完全相同的文本范围</td>
+</tr>
+</tbody>
+</table></div>
+<p>这些证据的力度有清楚层次。官方标题和简介直接证明发布形式与公开定位；Bangumi 章节表直接证明 48 个章节的顺序、日期和长度；AniList 与播放列表共同解释了另一个计数；但没有一层提供可以逐字核对的恋爱台词。因而，本报告把“女女关系主线”放在作品层，把“非恋爱”放在当前可见关系层，而不声称角色永远不可能恋爱。</p>
+<p>短篇标题还提醒我们，关系中心和恋爱中心是两件事。48 章中有很多双人或小组主题，但章节标题不等于叙事事实；「友チョコ」不等于恋人送礼，「食い違う二人」不等于情侣争执，「ニックネーム」也不等于亲密称谓。它们可以帮助读者找到想看的日常片段，却不能越过台词、动作和上下文替关系宣判本质。</p>
+<h2 id="四层分析">四层分析</h2>
+<h3 id="第一层文本中的关系">第一层：文本中的关系</h3>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>关系 ID</th>
+<th>关系／参与者</th>
+<th>类型</th>
+<th>叙事位置</th>
+<th>恋爱明确度</th>
+<th>相互性</th>
+<th>证据层级</th>
+<th>摘要</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>r01</td>
+<td>MyGO!!!!! 五名成员的日常共同体</td>
+<td>友情／搭档／共同体</td>
+<td>主线</td>
+<td>非恋爱</td>
+<td>双向</td>
+<td>正篇事实＋强推断＋读者解读</td>
+<td>官方简介和章节标题把五名女成员的日常共同活动设为唯一持续对象；食物、季节、昵称、手游、兼职和烹饪等素材展示她们一起行动与互相吐槽，但范围内所核公开材料不足以确认明确女女恋爱、正式交往或角色身份。</td>
+</tr>
+</tbody>
+</table></div>
+<p>短篇的“关系”不是一集里突然出现的配对，而是由 48 章的重复回返构成。标题从季节活动到个人兴趣不断变化，固定不变的是五名成员仍以 MyGO!!!!! 共同体的身份被放在同一生活空间中。她们可以因为食物选择、天气、抽奖、手游或性格差异产生小冲突，再以玩笑或共同任务收束；这足以让共同体成为作品的主要叙事单位。</p>
+<p>但共同体不是恋爱关系的同义词。本报告未作逐集字幕或视听复核，因此不会声称每一段对话都是什么语气，更不会把观众对 TV 正篇的配对经验搬来解释此处。就已核对的官方说明和章节资料而言，关系类型最稳妥地写作友情、搭档和乐队共同体。读者当然可以从角色之间的熟悉、照顾和固定组合中发展私人配对阅读，但那是阅读层，不是本档案的正篇事实层。</p>
+<p>五名角色的个人焦点也不改变这一点。「乐奈的美食」「爱音的眼镜」和「俳句」「料理」等标题把注意力暂时交给某一成员，却仍然放在她与其他成员共享的生活网络中。所谓“个人回”在短篇里更多是让共同体换一个角度观察成员习惯，而不是宣布一对恋爱关系取得主线地位。</p>
+<h3 id="第二层作品的文类位置">第二层：作品的文类位置</h3>
+<p>本对象是官方 YouTube 频道上的 WEB 短篇，重叠文类包括乐队日常、校园喜剧、食物／季节单元和女性群像。它的单集很短，不要求观众先看完 TV 正篇才能理解“今天谁在吃什么、做什么”；这使它成为对 MyGO!!!!! 角色日常侧面的补充，而不是 TV 剧情的缩略版。</p>
+<p>在开放作品分类中，女女关系位于主线：故事没有男性恋爱线来取代五名成员的共同生活，所有可见章节都围绕她们展开。若把“百合”严格限定为明确女性恋爱，则它不满足该门槛；若把“百合”用作寻找女性关系中心作品的入口，则 Bangumi 的百合标签和本项目的作品分类可以并存。两种用法的差异应在推荐文字中说清楚，而不是互相指控一方“把什么都算百合”或另一方“否定了恋爱”。</p>
+<p>AniList 的类型为喜剧与日常、标签强调女性主角和女性群像，这并不与 Bangumi 的百合标签冲突。前者在回答“这是什么类型的短篇”时没有使用 Yuri，后者在回答“想从哪个社区入口找到它”时使用了百合。官方播放列表的 9 个另名视频还说明，媒介版本本身会改变统计结果：同一频道、同一企划不等于同一条目。</p>
+<h3 id="第三层角色身份">第三层：角色身份</h3>
+<p>在这 48 个《メンバーの日常》章节的公开材料中，没有高松灯、千早爱音、要乐奈、长崎素世或椎名立希的性取向自述，也没有本版本官方角色页为她们明示女同性恋、双性恋、无性恋或其他身份。五名女生被描写成乐队成员和同学，不能由作品的女女关系分类自动换算角色身份。</p>
+<p>同样，章节中的「友チョコ」等节日词语不能代替身份依据。它可以是朋友间的礼物、喜剧道具或观众的浪漫联想；只有在正篇明确说出欲望、身份或交往事实时，才能把相应证据写入更严格的字段。本报告保持“范围内无依据”，不是否定角色未来可能拥有任何身份，而是拒绝用标签替角色发言。</p>
+<p>TV 动画、剧场版或游戏可能提供更复杂的关系台词，但它们不在本档案的文本范围内。如果读者想讨论 TV 版的立希—灯、素世—祥子或其他关系，应打开对应版本报告；把不同版本的证据合并成一个“MYGO 总体身份”会同时损害版本准确性和角色自主性。</p>
+<h3 id="第四层公共标签礼仪">第四层：公共标签礼仪</h3>
+<ul>
+<li>普通推荐可以写：“《MyGO!!!!!成员的日常生活》是 48 章、每集约半分钟的 WEB 乐队日常短篇，五名成员围绕食物、季节和生活小事互动；女女关系在主线，但本篇没有确定情侣。”</li>
+<li>宽口径百合书目可以收录，最好同时标注“女女关系主线／非恋爱／乐队日常”，让读者知道这里的入口标签不等于明确交往保证。</li>
+<li>严格恋爱检索应标为未命中；不能把 Bangumi 的百合标记、AniList 的女性群像标签或「友チョコ」标题当作告白、接吻、交往或欲望明示。</li>
+<li>角色身份检索应写“范围内无依据”；不能因为五位主角都是女性，或因为读者喜欢某一对，就替她们指定性取向。</li>
+<li>官方分类查询应写“官方播放列表将其作为 MyGO!!!!! 成员日常短篇发布；所核未见百合／GL或恋人表述”。“未见”只表示在核对的官方宣传材料中没有该措辞，不表示制作方否定百合阅读。</li>
+<li>版本检索应注明“Bangumi subject 448391 的 48 章”；若引用 AniList 的 57 集，必须同时解释它包含了播放列表中的 9 个另名短视频，不能让读者以为本报告漏了 9 集。</li>
+</ul>
+<h2 id="最强反方解释">最强反方解释</h2>
+<p>最保守的读法是：这只是 BanG Dream! 企划为角色运营制作的品牌短视频，五名女生同框是乐队宣传的自然结果，不足以进入百合类型。官方页面只说成员日常，AniList 没有 Yuri 标签，MAL 没有独立条目，Anime-Planet 也没有可核对的精确条目；在没有字幕、画面和台词的情况下，任何“关系很亲密”的判断都可能只是从标题和企划印象推出来的。按严格恋爱词典排除本篇，完全合理。</p>
+<p>这个反方解释可以推翻“明确女女恋爱作品”“官方确认 GL”“角色是女同性恋”等强断言，也提醒推荐者不要把 TV 正篇的戏剧关系和本短篇混为一谈。但它不能完全推翻女女关系的作品中心性：官方标题、简介和 48 章章节表都把五名 MyGO!!!!! 女成员作为持续对象，没有男性恋爱线或其他故事来取代她们的日常。争议主要在于“百合”是恋爱类型入口，还是女女关系中心的开放检索入口。</p>
+<p>相反的过度肯定也不稳妥。把“百合”标签当官方认证，把「友チョコ」当恋爱礼物，把「食い違う二人」当情侣争吵，或把 TV 版读者对某些配对的热情倒灌进 WEB 短篇，都会越过现有证据。官方播放列表把 48 个系列短篇和 9 个另名视频放在一起，也说明同一企划的发布方式不能替代作品边界。</p>
+<p>当前最稳妥的综合表述是：<strong>以 MyGO!!!!! 五名成员日常共同体为主线的 WEB 乐队短篇；本范围未建立恋爱方向；角色身份未知；官方公开宣传未使用百合／GL字面。</strong><!-- -->如补充完整日文字幕或视频材料，应优先核对是否存在明确欲望、排他承诺或配对推进，并分别写入对应关系；新证据不能反过来改变本档案已经明确排除的其他媒介范围。</p>
+<h2 id="分用途结论">分用途结论</h2>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>用途</th>
+<th>分类</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>普通作品推荐</td>
+<td><strong>五名 MyGO!!!!! 成员围绕食物、季节、兴趣与生活小事展开的 WEB 日常短篇；女女关系位于主线，但没有确定情侣。</strong></td>
+</tr>
+<tr>
+<td>数据库主标签</td>
+<td><strong>可标为女女关系主线、作品分类归档、非恋爱；并列 WEB、乐队、日常、喜剧和女性群像。</strong></td>
+</tr>
+<tr>
+<td>严格明确恋爱检索</td>
+<td><strong>不符合：本 48 章范围所核公开材料不足以确认明确女女恋爱、正式交往或角色身份。</strong></td>
+</tr>
+<tr>
+<td>私人百合阅读</td>
+<td><strong>适合接受女女共同体、成员贴近互动和轻松日常者；应把百合当作阅读入口，而不是恋爱保证。</strong></td>
+</tr>
+<tr>
+<td>角色身份检索</td>
+<td><strong>未知：范围内没有性取向自述或官方身份设定。</strong></td>
+</tr>
+<tr>
+<td>官方分类查询</td>
+<td><strong>官方以 MyGO!!!!! 成员日常短篇发布；所核官方说明记录成员日常与乐队语境，不提供可作为百合／GL、恋人或交往结论的字面表述。</strong></td>
+</tr>
+<tr>
+<td>内容提示</td>
+<td><strong>极短篇喜剧、食物与季节主题、成员吐槽和近距离玩笑；TV 正篇的冲突和关系发展不在本档案。</strong></td>
+</tr>
+<tr>
+<td>版本筛选</td>
+<td><strong>只覆盖 Bangumi subject 448391 的 48 个《メンバーの日常》章节；播放列表中另名的 9 个《まいご！！！！！》视频另行排除。</strong></td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="方法来源与限制">方法、来源与限制</h2>
+<ul>
+<li><strong>版本边界。</strong> Bangumi subject 448391 的概览和章节页将对象列为 WEB 条目，章节从 2022-08-24 的「かき氷」开始，到 2025-06-27 的「料理」②结束，共 48 条。本报告以标题精确包含《MyGO!!!!!メンバーの日常》的章节作为纳入规则。官方播放列表另有 9 个标题为《まいご！！！！！》的角色短视频；AniList 193414 把两组视频合计为 57 集，因此报告显式保留这个差异，不把 AniList 的总数当作 Bangumi subject 的 48 章。</li>
+<li><strong>官方资料。</strong> 官方 MyGO!!!!! YouTube 播放列表和第一集页面是核对的主要官方来源。页面能够证明公开渠道、系列标题、首发日期、制作署名和成员日常定位；它们不是完整剧本，不能据此推断每段对话、动作或角色内心。官方播放列表与 Bangumi 条目的标题差异也提醒我们，同一频道中的相邻短视频不能自动合并。</li>
+<li><strong>文本限制。</strong> 未作字幕或视听复核。决定性证据使用公开标题、简介、章节日期、时长和数据库字段，不写未经核对的台词、镜头、动作发起者、沉默含义或同意状态；如有可靠字幕，台词证据应与当前章节结构分开记录。</li>
+<li><strong>数据库处理。</strong> Bangumi API 快照记录 Rank #5632、百合标签 108 和五种收藏状态合计 1838 人；标记比例按 <code>108 ÷ 1838 ≈ 5.88%</code> 计算，仅用于描述社区入口。AniList 精确条目 193414 是 ONA、57 集、喜剧／日常并未观察到 Yuri；MAL 未见独立精确条目；Anime-Planet 独立精确条目资料不足。无精确条目和资料不足都不写成“无”。</li>
+<li><strong>证据分层。</strong> 官方页面可以证明发布定位和版本编排；Bangumi 章节表可以证明 48 章的标题、日期和长度；AniList 与播放列表可以解释 57／48 的差异；社区百合标签只能说明读者检索入口。女女关系主线是作品层的开放归档，非恋爱是当前范围的关系层判断，角色身份则保持未知。</li>
+<li><strong>结论强度。</strong> 综合置信度为中等：五名成员共同体的主线位置由官方系列标题、简介和 48 章持续结构支持；恋爱缺席的结论受未取得字幕和视频限制，表示“所核范围未建立恋爱方向”，不是对其他媒介或未来材料的永久判决。若新增证据改变某一关系，应在该关系和对应版本中局部修订，不用一个新标签覆盖全部层级。</li>
+</ul>
+
+        </div>
+      </details>
+    </div>
+  </div>
+</article>
+
+<section class="feedback-section">
+  <div>
+    <p class="eyebrow">REPORT FEEDBACK</p>
+    <h2>提交可核查的修订建议</h2>
+    <p>请注明作品版本、集数／章节、要质疑的原句、可公开核查的来源，以及建议如何修订。评论属于待核查反馈，不会自动成为报告证据。</p>
+  </div>
+  <div class="giscus"></div>
+<div class="giscus-config"
+        hidden
+        data-repo="L-M-Sherlock/yuri-classification-archive"
+        data-repo-id="R_kgDOTo1RzA"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOTo1RzM4DCXAh"
+        data-mapping="specific"
+        data-term="classification:bang_dream_mygo_members_daily_web_2022"
+        data-strict="1"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-lang="zh-CN"
+        data-loading="lazy"
+        aria-hidden="true"></div>
+</section>
+
+  </main>
+  <footer class="site-footer">
+    <div>
+      <p>分类是面向具体查询的检索工具，不是替作品关系作终审判决。</p>
+      <p class="footer-ai-note">本站使用以 OpenAI Codex 为主的生成式 AI 辅助研究、写作与站点开发；人工审阅未覆盖全部作品报告。<a href="/yuri-classification-archive/about/#AI使用说明">查看 AI 使用说明</a></p>
+      <p>© 2026 Jarrett Ye · <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="license noopener noreferrer">CC BY-NC-SA 4.0</a> · <a href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub 仓库</a> · <a href="/yuri-classification-archive/about/#使用边界">使用边界</a></p>
+    </div>
+  </footer>
+  <script>window.SITE_CONFIG = {basePath: "/yuri-classification-archive"};</script>
+  <script src="/yuri-classification-archive/assets/site.js?v=eeeec5872796" defer></script>
+
+</body>
+</html>

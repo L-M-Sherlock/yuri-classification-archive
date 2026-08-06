@@ -1017,6 +1017,12 @@ h1, h2, h3 { line-height: 1.25; }
   border: 1px solid var(--line);
 }
 .snapshot-table .tabulator { min-width: 1040px; }
+.snapshot-downloads {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin-top: 1rem;
+}
 .snapshot-error {
   margin: 0;
   padding: 1rem;
@@ -1491,6 +1497,7 @@ h1, h2, h3 { line-height: 1.25; }
   .snapshot-filters { grid-template-columns: 1fr; }
   .snapshot-search { grid-column: auto; }
   .snapshot-reset { width: 100%; }
+  .snapshot-downloads .button { width: 100%; }
   .article-disclosure-body { padding-inline: 0.8rem; }
 }
 

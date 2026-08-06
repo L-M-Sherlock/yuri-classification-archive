@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="《亦叶亦花》的叙事重心是六名女生因啦啦队相遇、组成 PoMPoMs 后的共同活动与相互应援。就“女性之间的关系是否构成作品主轴”这一查询而言，它属于女性共同体主线；共同体并不因此变成群体恋爱，分类也不由女性主角的数量自动决定。 两组局部台词为女女浪漫阅读留下入口：涼葉对詩音的歌声说“可爱、反而喜欢”后回避追问……">
+  <meta name="color-scheme" content="light dark">
+  <meta id="theme-color-light" name="theme-color" media="(prefers-color-scheme: light)" content="#f5f0e8">
+  <meta id="theme-color-dark" name="theme-color" media="(prefers-color-scheme: dark)" content="#1c181c">
+  <script>
+    (() => {
+      document.documentElement.classList.add("js");
+      const storageKey = "yuri-classification-theme";
+      const allowed = new Set(["system", "light", "dark"]);
+      let preference = "system";
+      try {
+        const stored = localStorage.getItem(storageKey);
+        if (allowed.has(stored)) preference = stored;
+      } catch (_error) {
+        preference = "system";
+      }
+      const systemDark = window.matchMedia?.("(prefers-color-scheme: dark)").matches;
+      const theme = preference === "system"
+        ? (systemDark ? "dark" : "light")
+        : preference;
+      document.documentElement.dataset.theme = theme;
+      document.documentElement.dataset.themePreference = preference;
+      document.documentElement.style.colorScheme = theme;
+      const lightMeta = document.getElementById("theme-color-light");
+      const darkMeta = document.getElementById("theme-color-dark");
+      if (preference === "system") {
+        lightMeta.content = "#f5f0e8";
+        darkMeta.content = "#1c181c";
+      } else {
+        const color = theme === "dark" ? "#1c181c" : "#f5f0e8";
+        lightMeta.content = color;
+        darkMeta.content = color;
+      }
+    })();
+  </script>
+  <link rel="canonical" href="https://l-m-sherlock.github.io/yuri-classification-archive/works/nanare_hananare_tv_2024/">
+  <link rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="百合作品分类档案">
+  <meta property="og:title" content="《亦叶亦花》分类报告｜百合作品分类档案">
+  <meta property="og:description" content="《亦叶亦花》的叙事重心是六名女生因啦啦队相遇、组成 PoMPoMs 后的共同活动与相互应援。就“女性之间的关系是否构成作品主轴”这一查询而言，它属于女性共同体主线；共同体并不因此变成群体恋爱，分类也不由女性主角的数量自动决定。 两组局部台词为女女浪漫阅读留下入口：涼葉对詩音的歌声说“可爱、反而喜欢”后回避追问……">
+  <meta property="og:url" content="https://l-m-sherlock.github.io/yuri-classification-archive/works/nanare_hananare_tv_2024/">
+  <meta property="og:image" content="https://l-m-sherlock.github.io/yuri-classification-archive/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+  <title>《亦叶亦花》分类报告｜百合作品分类档案</title>
+  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=e68f78a2d1a9">
+
+</head>
+<body class="classification-report">
+  <a class="skip-link" href="#main-content">跳到正文</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="/yuri-classification-archive/">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>
+          <strong>百合作品分类档案</strong>
+          <small>按查询拆开标签，按证据保留边界</small>
+        </span>
+      </a>
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-navigation"
+      >
+        <span>菜单</span>
+        <span class="menu-toggle-icon" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-navigation" aria-label="主导航">
+        <div class="nav-main">
+          <a href="/yuri-classification-archive/">首页</a>
+          <a href="/yuri-classification-archive/table/">总表</a>
+          <a href="/yuri-classification-archive/articles/">专题</a>
+          <a href="/yuri-classification-archive/about/">方法与说明</a>
+        </div>
+        <a class="nav-star" href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub / Star <span aria-hidden="true">↗</span></a>
+        <a class="nav-feedback" href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
+        <label class="theme-control" for="theme-preference">
+          <span>主题</span>
+          <select id="theme-preference" aria-label="主题偏好">
+            <option value="system">跟随系统</option>
+            <option value="light">浅色</option>
+            <option value="dark">深色</option>
+          </select>
+        </label>
+      </nav>
+    </div>
+  </header>
+  <main id="main-content">
+    <article class="report-page">
+  <header class="report-header">
+    <p class="eyebrow">TV 动画 · 2026-08-04</p>
+    <h1>《亦叶亦花》分类报告</h1>
+    <p class="report-subtitle">2024-07-07 至 2024-09-22 播出的电视动画《菜なれ花なれ》第 1–12 话；美空かなた、小父内涼葉、杏那・アヴェイロ、大谷穏花、谷崎詩音和海音寺恵深在该 TV 版正篇中的啦啦队共同体与关系；与该 12 话版本对应的官方企划、故事／播出资料、Bangumi 条目及日文字幕</p>
+    <div class="label-strip" aria-label="分类摘要">
+      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>读者解读</span><span class="label-chip"><strong>女女恋爱位置：</strong>局部</span><span class="label-chip"><strong>女女关系最高明确度：</strong>潜在／明显但未确认</span><span class="label-chip"><strong>官方字面百合／GL：</strong>所核未见</span><span class="label-chip"><strong>官方女女恋爱表述：</strong>所核未见</span><span class="label-chip"><strong>官方来源：</strong>层级：当前版本；位置：剧情／角色页</span><span class="label-chip"><strong>结论置信度：</strong>中<span class="inline-help" tabindex="0" aria-label="查看结论置信度说明" aria-describedby="report-confidence-help"><span aria-hidden="true">?</span><span class="term-tooltip" id="report-confidence-help" role="tooltip">表示当前锁定范围内，现有证据对本报告主要分类结论的支持稳定度；它不是百合程度、作品质量、社群共识或统计概率。</span></span></span>
+    </div>
+    <a class="back-link" href="/yuri-classification-archive/table/?q=%E4%BA%A6%E5%8F%B6%E4%BA%A6%E8%8A%B1">← 返回总表并定位本作</a>
+  </header>
+  <div class="report-layout">
+    <aside class="report-toc">
+      <p>本页目录</p>
+      <ol><li><a href="#低剧透概览">低剧透概览</a></li><li><a href="#数据库与公开分类">数据库与公开分类</a></li><li><a href="#决定性文本证据">决定性文本证据</a></li><li><a href="#四层分析">四层分析</a></li><li><a href="#最强反方解释">最强反方解释</a></li><li><a href="#分用途结论">分用途结论</a></li><li><a href="#方法来源与限制">方法、来源与限制</a></li></ol>
+    </aside>
+    <div class="report-content">
+      <blockquote>
+<p>分类日期：2026-08-04<br> 分类对象：2024 年电视动画《菜なれ花なれ》第 1–12 话<br> 纳入范围：该 TV 版正篇、对应官方资料、Bangumi 条目与日文字幕<br> 排除范围：宣传、音乐、访谈、活动、跨媒介材料及未作视听复核的画面<br> 用途：普通推荐与数据库分类</p>
+</blockquote>
+<h2 id="低剧透概览">低剧透概览</h2>
+<aside class="alert alert-note"><strong>说明</strong><div class="alert-content"><p><strong>分类信息提示：</strong> 本节不展开关键剧情、转折与结局，但分类信息本身会透露关系类型、叙事位置和恋爱明确度。希望完全盲看的读者请跳过本页。</p></div></aside>
+
+<p>《亦叶亦花》的叙事重心是六名女生因啦啦队相遇、组成 PoMPoMs 后的共同活动与相互应援。就“女性之间的关系是否构成作品主轴”这一查询而言，它属于女性共同体主线；共同体并不因此变成群体恋爱，分类也不由女性主角的数量自动决定。</p>
+<p>两组局部台词为女女浪漫阅读留下入口：涼葉对詩音的歌声说“可爱、反而喜欢”后回避追问；杏那以“非常喜欢跑着的かなた”邀请かなた参与影像创作，后来又有同伴如此调侃。它们都处于歌声、运动或表演关系中，尚不足以把任一配对写成双方告白、正式交往或角色身份确认。因此，本档将其归入有文本根据的读者解读，并把最高明确度停在“潜在恋爱”。</p>
+<p>只寻找明确女女交往或角色自我认同的读者不宜据此命中；愿意阅读女性群像、共同生活式应援和局部亲近措辞的读者则可将它作为边缘而有说明的百合阅读对象。所纳入材料没有建立可确认的男性恋爱线，也没有提供足以把该未知项改写为“无”的全面叙事证明。</p>
+<h3 id="分层标签">分层标签</h3>
+<blockquote>
+<p><strong>女女关系层级：主线｜百合归档依据：读者解读｜恋爱位置：局部｜最高明确度：潜在恋爱｜关系构成：多组异质关系｜官方字面：所核未见｜官方恋爱表述：所核未见｜官方来源：2024 年 TV 版企划页、故事页与播出页｜阅读层级：正篇事实／读者解读｜身份依据类型：只有关系推断｜男性恋爱线：未知｜内容提示：运动失误、伤病与行动受限、网络骚扰、表演压力；亲近措辞未构成恋爱确认</strong></p>
+</blockquote>
+<h3 id="严格恋爱检索提示">严格恋爱检索提示</h3>
+<p>若检索条件是双方告白、恋人称谓、正式交往、接吻，或明确身份自述，本作不应列入结果。第 1、3、6 话的字幕能定位亲近用语，却不能把这些条件补齐。</p>
+<p>若检索条件接受女性共同体居中、可由具体台词支持的潜在恋爱阅读，或希望了解女性群像怎样与配对阅读并存，本作可以列入，但应同时保留“局部、未确认”的范围提示。</p>
+<h2 id="数据库与公开分类">数据库与公开分类</h2>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>来源</th>
+<th>条目与字段</th>
+<th>来源类型</th>
+<th>本报告如何使用</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://narenare-anime.com/" target="_blank" rel="noopener noreferrer">官方企划页</a></td>
+<td>六名女生因啦啦队相遇、组成 PoMPoMs 的 TV 动画介绍；所核页面未见百合或女女恋爱确认字段</td>
+<td>官方自述／作品介绍</td>
+<td>确认纳入版本和女性共同体语境；不把未出现的分类字段写成否认关系</td>
+</tr>
+<tr>
+<td><a href="https://bangumi.tv/subject/464561" target="_blank" rel="noopener noreferrer">Bangumi subject 464561</a></td>
+<td>TV、12 话及进入“百合”标签的社区条目</td>
+<td>编辑字段／社区标签</td>
+<td>说明本作进入该社区检索路径；不作为官方认证，也不从标签推出配对或身份</td>
+</tr>
+<tr>
+<td><a href="https://www.anime-planet.com/anime/narenare-cheer-for-you" target="_blank" rel="noopener noreferrer">Anime-Planet 精确条目</a></td>
+<td>2026-08-05 实见标题 <em>Narenare: Cheer for You!</em>，副标题含 <em>Nanare Hananare</em> 与“菜なれ花なれ”，TV、12 话、2024；完整可见 Tags 为 Cheerleaders、School Club、School Life、Original Work，其中未列 GL</td>
+<td>编辑维护的数据库标签</td>
+<td>锁定本档案对应的 2024 TV 全 12 话并记录该站检索入口；Tags 不是关系文本，未列 GL 不能推出局部亲近措辞或女女关系不存在</td>
+</tr>
+<tr>
+<td><a href="https://jimaku.cc/entry/5925" target="_blank" rel="noopener noreferrer">Jimaku entry 5925</a></td>
+<td>多种字幕版本中连续的 Amazon 日文 SDH SRT 第 1–12 话</td>
+<td>公开字幕目录</td>
+<td>提供正篇文字材料的版本边界和时间码；不替代未进行的视听复核</td>
+</tr>
+</tbody>
+</table></div>
+<blockquote>
+<p>数据库沉默写“未标”，不能写成“否认”；标签权重、计数和站点数量不能换算成社群支持率。</p>
+</blockquote>
+<aside class="alert alert-warning"><strong>剧透提示</strong><div class="alert-content"><p>以下部分包含该分类对象的完整剧透。</p></div></aside>
+
+      <details class="spoiler-panel">
+        <summary>
+          <span>展开详细证据（含完整剧透）</span>
+          <small>决定性证据、四层分析、反方解释与方法限制</small>
+        </summary>
+        <div class="spoiler-content">
+          <h2 id="决定性文本证据">决定性文本证据</h2>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>位置</th>
+<th>原文与中文摘要</th>
+<th>叙事层级</th>
+<th>证据强度与视听复核</th>
+<th>能证明什么</th>
+<th>不能证明什么</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://narenare-anime.com/" target="_blank" rel="noopener noreferrer">官方企划页</a></td>
+<td>官方介绍将かなた、涼葉、詩音、杏那、穏花与恵深置于因啦啦队相遇、组成 PoMPoMs 的故事中。</td>
+<td>官方作品介绍</td>
+<td>直接；网页文字</td>
+<td>纳入版以女性共同体和共同表演为核心人物语境。</td>
+<td>任意两人的恋爱、角色性取向或恋爱互惠。</td>
+</tr>
+<tr>
+<td>第 1 话 00:09:37–00:10:03</td>
+<td>日文字幕：“さっき 走ってる かなたを見たよ”“走ってる かなた すっごい好き！”；自行翻译：杏那说自己看见了跑着的かなた，非常喜欢她跑步的样子，并邀请她参加视频。</td>
+<td>现实台词</td>
+<td>直接；仅字幕时间码，未做视听复核</td>
+<td>杏那对かなた的欣赏和创作邀请，及其可供浪漫化阅读的措辞。</td>
+<td>该“喜欢”必为恋爱、双方关系或任何身份。</td>
+</tr>
+<tr>
+<td>第 3 话 00:15:02–00:15:27</td>
+<td>日文字幕：“音痴でも かわいいし／むしろ 好きだし…”、“す 好き？”；自行翻译：涼葉说即使詩音跑调也可爱、反而喜欢，随后在“喜欢？”的追问下回避。</td>
+<td>现实台词</td>
+<td>直接；仅字幕时间码，未做视听复核</td>
+<td>涼葉—詩音之间的亲近措辞与回避反应，可支持局部浪漫阅读。</td>
+<td>双方告白、恋人关系、交往承诺或身份明示。</td>
+</tr>
+<tr>
+<td>第 6 话 00:14:50–00:15:11</td>
+<td>日文字幕：“ハナピーは かなたのこと大好きだよね”；自行翻译：同伴说哈娜皮确实很喜欢かなた，话题随后回到啦啦队表演。</td>
+<td>第三方评论</td>
+<td>辅助；仅字幕时间码，未做视听复核</td>
+<td>有角色把杏那对かなた的强烈欣赏当作可调侃的关系特征。</td>
+<td>第三方用语足以代替杏那确认恋爱，或证明互惠。</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="四层分析">四层分析</h2>
+<h3 id="第一层文本中的关系">第一层：文本中的关系</h3>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>关系 ID</th>
+<th>关系／参与者</th>
+<th>类型</th>
+<th>叙事位置</th>
+<th>恋爱明确度</th>
+<th>相互性</th>
+<th>证据层级</th>
+<th>摘要</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>r01</td>
+<td>かなた、涼葉、杏那、穏花、詩音与恵深的 PoMPoMs</td>
+<td>女性共同体／友情／搭档</td>
+<td>主线</td>
+<td>未知</td>
+<td>双向</td>
+<td>正篇事实</td>
+<td>六人因啦啦队相遇并共同表演，是纳入范围内最稳定的关系结构。</td>
+</tr>
+<tr>
+<td>r02</td>
+<td>小父内涼葉—谷崎詩音</td>
+<td>友情／搭档；可供浪漫阅读</td>
+<td>局部</td>
+<td>潜在恋爱</td>
+<td>相互性未确认</td>
+<td>正篇事实与读者解读</td>
+<td>歌声评价中的“可爱、喜欢”及其后的回避构成阅读入口。</td>
+</tr>
+<tr>
+<td>r03</td>
+<td>杏那・アヴェイロ—美空かなた</td>
+<td>友情／搭档；可供浪漫阅读</td>
+<td>局部</td>
+<td>潜在恋爱</td>
+<td>相互性未确认</td>
+<td>正篇事实与读者解读</td>
+<td>视频邀请、对跑步的欣赏和第三方调侃都集中在表演／运动语境。</td>
+</tr>
+</tbody>
+</table></div>
+<p>r01 的中心性来自六人的共同目标、相互支持与持续协作，而不是把每一次鼓励翻译为恋爱。r02 与 r03 的证据则较窄：前者是涼葉面向詩音的亲近措辞，后者是杏那对かなた的欣赏与旁人的观察。两者都可以让读者把关系放进浪漫可能性的地图，却没有足够材料显示双方以恋人方式互相选择、作出排他承诺或进入共同生活安排。</p>
+<h3 id="第二层作品的文类位置">第二层：作品的文类位置</h3>
+<p>把争议词暂时拿开，本作最可复核的结构是：女性共同体推动啦啦队、创作和彼此支持的故事，局部配对阅读附着在其中。官方介绍和纳入版字幕共同支持前一层结构；局部“喜欢”用语支持后一个阅读入口。两者不能互相替代，所以它既不是由单一恋爱线定义的作品，也不应因没有确认交往而被压缩成“女性友情与分类毫无关系”。</p>
+<p>在普通分类中，女性关系的叙事位置可写为主线，恋爱位置则只写局部。所纳入材料不足以确认男性恋爱线的范围、中心性或缺席，故该轴维持未知；这避免把有限的字幕文字覆盖外推为全作不存在任何相关叙事。以读者解读归档，描述的是公开检索的使用边界，不是对作品文类本质的裁决。</p>
+<h3 id="第三层角色身份">第三层：角色身份</h3>
+<p>所纳入的官方页面和日文字幕没有提供任何角色以女同性恋、双性恋或其他身份词自述的材料，也没有给出可替代自述的官方身份设定。涼葉的回避、杏那的欣赏和共同体的亲密都可能使读者提出关系层面的假设，却不足以从关系阅读跳到个人身份结论。身份栏因此只记录“只有关系推断”，并将具体身份保持未知。</p>
+<p>这一区分也保护相反方向的误读：官方没有使用百合字样，并不证明角色必为异性恋；字幕里出现“喜欢”，同样不证明其性取向已被确认。作品分类、配对阅读和身份查询服务不同的问题，不能让任一短标签替另外两项作答。</p>
+<h3 id="第四层公共标签礼仪">第四层：公共标签礼仪</h3>
+<p>官方页面可以用于说明它实际介绍的是六人啦啦队 TV 动画，却不能被写成一纸关系裁决；Bangumi 的“百合”路径能帮助读者发现本作，也不是制作方的恋爱认证。面向普通推荐时，较准确的短语是“女性共同体主线、含局部可作浪漫阅读的关系”；面向严格恋爱检索时，应附上未确认的排除提示，避免把不同查询混进同一结果。</p>
+<p>私人感想或配对创作可以从 r02、r03 的具体台词继续展开，但最好把它表述为阅读而不是官方事实。公共标签的价值在于让期待女性关系重心的读者找到作品，同时不让寻找明确女女恋爱的读者误以为已获得相同程度的保证。这样的双层标注比简单地宣判“是”或“不是”更能保留证据的差别。</p>
+<h2 id="最强反方解释">最强反方解释</h2>
+<p>最强的替代读法是把 r02、r03 全部视为啦啦队同伴之间的欣赏、鼓励和轻松调侃：涼葉谈的是詩音的歌，杏那谈的是かなた跑步和视频表现，第 6 话又是第三方的玩笑性观察。这个解释足以阻止将任一段写成确认恋爱，也支持把相互性保留为未确认；它不能抹去亲近措辞确实发生在文本中，更不能推翻六名女生共同体处于叙事主线的事实。两种理解可以并存，但它们应使用不同强度的标签。</p>
+<h2 id="分用途结论">分用途结论</h2>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>用途</th>
+<th>分类</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>普通作品推荐</td>
+<td>适合寻找女性群像、啦啦队共同体与相互应援故事的读者；不以确认女女恋爱作推荐承诺。</td>
+</tr>
+<tr>
+<td>数据库主标签</td>
+<td>读者解读：女性共同体主线，局部存在潜在恋爱阅读。</td>
+</tr>
+<tr>
+<td>严格明确恋爱检索</td>
+<td>不纳入；所纳入范围未建立双方告白、正式交往、接吻或身份明示。</td>
+</tr>
+<tr>
+<td>私人百合阅读</td>
+<td>可纳入，尤其适合重视涼葉—詩音与杏那—かなた亲近措辞的读者；应保留未确认提示。</td>
+</tr>
+<tr>
+<td>角色身份检索</td>
+<td>不纳入；没有可用的角色身份自述或官方设定。</td>
+</tr>
+<tr>
+<td>官方分类查询</td>
+<td>所核官方 TV 页面未标百合或女女恋爱确认；Bangumi 社区标签另行记录。</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="方法来源与限制">方法、来源与限制</h2>
+<ul>
+<li>正篇文字材料为 Jimaku entry 5925 中同一套 Amazon 日文 SDH SRT 第 1–12 话，连续覆盖全部纳入单元；中文引文为自行翻译或摘要。</li>
+<li>公开资料包括 2026-08-04 核对的官方企划、故事、播出页面，Bangumi subject 464561 及其公开 API、Jimaku 条目，以及 2026-08-05 复核的 <a href="https://www.anime-planet.com/anime/narenare-cheer-for-you" target="_blank" rel="noopener noreferrer">Anime-Planet 精确条目</a>。Anime-Planet 实见 2024 年 TV、12 话与四项完整可见 Tags；官方、社区数据库和字幕目录分别承担版本、标签路径和文本定位的不同作用，未列 GL 不是剧情否定。</li>
+<li>未作视听复核；镜头、动作、表情和无对白信息不进入证据链。</li>
+<li>只讨论 2024 年 TV 动画第 1–12 话；宣传、音乐、访谈、声优活动、现实啦啦队资料、其他媒介及未经核实的读者配对均不纳入。若将来取得属于此版正篇的身份自述或双方关系确认，应只更新相应关系与身份轴。</li>
+</ul>
+
+        </div>
+      </details>
+    </div>
+  </div>
+</article>
+
+<section class="feedback-section">
+  <div>
+    <p class="eyebrow">REPORT FEEDBACK</p>
+    <h2>提交可核查的修订建议</h2>
+    <p>请注明作品版本、集数／章节、要质疑的原句、可公开核查的来源，以及建议如何修订。评论属于待核查反馈，不会自动成为报告证据。</p>
+  </div>
+  <div class="giscus"></div>
+<div class="giscus-config"
+        hidden
+        data-repo="L-M-Sherlock/yuri-classification-archive"
+        data-repo-id="R_kgDOTo1RzA"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOTo1RzM4DCXAh"
+        data-mapping="specific"
+        data-term="classification:nanare_hananare_tv_2024"
+        data-strict="1"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-lang="zh-CN"
+        data-loading="lazy"
+        aria-hidden="true"></div>
+</section>
+
+  </main>
+  <footer class="site-footer">
+    <div>
+      <p>分类是面向具体查询的检索工具，不是替作品关系作终审判决。</p>
+      <p class="footer-ai-note">本站使用以 OpenAI Codex 为主的生成式 AI 辅助研究、写作与站点开发；人工审阅未覆盖全部作品报告。<a href="/yuri-classification-archive/about/#AI使用说明">查看 AI 使用说明</a></p>
+      <p>© 2026 Jarrett Ye · <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="license noopener noreferrer">CC BY-NC-SA 4.0</a> · <a href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub 仓库</a> · <a href="/yuri-classification-archive/about/#使用边界">使用边界</a></p>
+    </div>
+  </footer>
+  <script>window.SITE_CONFIG = {basePath: "/yuri-classification-archive"};</script>
+  <script src="/yuri-classification-archive/assets/site.js?v=eeeec5872796" defer></script>
+
+</body>
+</html>

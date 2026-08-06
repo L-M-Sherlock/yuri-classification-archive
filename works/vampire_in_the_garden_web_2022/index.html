@@ -1,0 +1,425 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="《花园里的吸血鬼》是 2022 年的五集原创 WEB 动画。人类少女 Momo 与吸血鬼女王 Fine 在战争中相遇，随后共同离开原有阵营，寻找人类与吸血鬼能共存的地方。两人的同行、音乐、互相救助与分离后的选择构成行动和情感主轴，所以这里把作品列为“女女关系处于主线”的百合作品主类。 “主线”不等于“已经交往”……">
+  <meta name="color-scheme" content="light dark">
+  <meta id="theme-color-light" name="theme-color" media="(prefers-color-scheme: light)" content="#f5f0e8">
+  <meta id="theme-color-dark" name="theme-color" media="(prefers-color-scheme: dark)" content="#1c181c">
+  <script>
+    (() => {
+      document.documentElement.classList.add("js");
+      const storageKey = "yuri-classification-theme";
+      const allowed = new Set(["system", "light", "dark"]);
+      let preference = "system";
+      try {
+        const stored = localStorage.getItem(storageKey);
+        if (allowed.has(stored)) preference = stored;
+      } catch (_error) {
+        preference = "system";
+      }
+      const systemDark = window.matchMedia?.("(prefers-color-scheme: dark)").matches;
+      const theme = preference === "system"
+        ? (systemDark ? "dark" : "light")
+        : preference;
+      document.documentElement.dataset.theme = theme;
+      document.documentElement.dataset.themePreference = preference;
+      document.documentElement.style.colorScheme = theme;
+      const lightMeta = document.getElementById("theme-color-light");
+      const darkMeta = document.getElementById("theme-color-dark");
+      if (preference === "system") {
+        lightMeta.content = "#f5f0e8";
+        darkMeta.content = "#1c181c";
+      } else {
+        const color = theme === "dark" ? "#1c181c" : "#f5f0e8";
+        lightMeta.content = color;
+        darkMeta.content = color;
+      }
+    })();
+  </script>
+  <link rel="canonical" href="https://l-m-sherlock.github.io/yuri-classification-archive/works/vampire_in_the_garden_web_2022/">
+  <link rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="百合作品分类档案">
+  <meta property="og:title" content="《花园里的吸血鬼》分类报告｜百合作品分类档案">
+  <meta property="og:description" content="《花园里的吸血鬼》是 2022 年的五集原创 WEB 动画。人类少女 Momo 与吸血鬼女王 Fine 在战争中相遇，随后共同离开原有阵营，寻找人类与吸血鬼能共存的地方。两人的同行、音乐、互相救助与分离后的选择构成行动和情感主轴，所以这里把作品列为“女女关系处于主线”的百合作品主类。 “主线”不等于“已经交往”……">
+  <meta property="og:url" content="https://l-m-sherlock.github.io/yuri-classification-archive/works/vampire_in_the_garden_web_2022/">
+  <meta property="og:image" content="https://l-m-sherlock.github.io/yuri-classification-archive/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+  <title>《花园里的吸血鬼》分类报告｜百合作品分类档案</title>
+  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=e68f78a2d1a9">
+
+</head>
+<body class="classification-report">
+  <a class="skip-link" href="#main-content">跳到正文</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="/yuri-classification-archive/">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>
+          <strong>百合作品分类档案</strong>
+          <small>按查询拆开标签，按证据保留边界</small>
+        </span>
+      </a>
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-navigation"
+      >
+        <span>菜单</span>
+        <span class="menu-toggle-icon" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-navigation" aria-label="主导航">
+        <div class="nav-main">
+          <a href="/yuri-classification-archive/">首页</a>
+          <a href="/yuri-classification-archive/table/">总表</a>
+          <a href="/yuri-classification-archive/articles/">专题</a>
+          <a href="/yuri-classification-archive/about/">方法与说明</a>
+        </div>
+        <a class="nav-star" href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub / Star <span aria-hidden="true">↗</span></a>
+        <a class="nav-feedback" href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
+        <label class="theme-control" for="theme-preference">
+          <span>主题</span>
+          <select id="theme-preference" aria-label="主题偏好">
+            <option value="system">跟随系统</option>
+            <option value="light">浅色</option>
+            <option value="dark">深色</option>
+          </select>
+        </label>
+      </nav>
+    </div>
+  </header>
+  <main id="main-content">
+    <article class="report-page">
+  <header class="report-header">
+    <p class="eyebrow">WEB 动画 · 2026-08-02</p>
+    <h1>《花园里的吸血鬼》分类报告</h1>
+    <p class="report-subtitle">2022 年 5 月 16 日在 Netflix 首发的《ヴァンパイア・イン・ザ・ガーデン》WEB／ONA 正篇第 1–5 集；该五集的日文 CC 字幕、公开剧情简介和可核对的官方作品资料</p>
+    <div class="label-strip" aria-label="分类摘要">
+      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>女女恋爱位置：</strong>主线</span><span class="label-chip"><strong>女女关系最高明确度：</strong>明确欲望</span><span class="label-chip"><strong>官方字面百合／GL：</strong>所核未见</span><span class="label-chip"><strong>官方女女恋爱表述：</strong>是</span><span class="label-chip"><strong>官方来源：</strong>层级：当前版本；位置：剧情／角色页、可见作品宣传</span><span class="label-chip"><strong>结论置信度：</strong>中<span class="inline-help" tabindex="0" aria-label="查看结论置信度说明" aria-describedby="report-confidence-help"><span aria-hidden="true">?</span><span class="term-tooltip" id="report-confidence-help" role="tooltip">表示当前锁定范围内，现有证据对本报告主要分类结论的支持稳定度；它不是百合程度、作品质量、社群共识或统计概率。</span></span></span>
+    </div>
+    <a class="back-link" href="/yuri-classification-archive/table/?q=%E8%8A%B1%E5%9B%AD%E9%87%8C%E7%9A%84%E5%90%B8%E8%A1%80%E9%AC%BC">← 返回总表并定位本作</a>
+  </header>
+  <div class="report-layout">
+    <aside class="report-toc">
+      <p>本页目录</p>
+      <ol><li><a href="#低剧透概览">低剧透概览</a></li><li><a href="#数据库与公开分类">数据库与公开分类</a></li><li><a href="#决定性文本证据">决定性文本证据</a></li><li><a href="#四层分析">四层分析</a></li><li><a href="#最强反方解释">最强反方解释</a></li><li><a href="#分用途结论">分用途结论</a></li><li><a href="#方法来源与限制">方法、来源与限制</a></li></ol>
+    </aside>
+    <div class="report-content">
+      <blockquote>
+<p>分类日期：2026-08-02<br> 分类对象：2022 年 Netflix WEB／ONA 动画《ヴァンパイア・イン・ザ・ガーデン》<br> 纳入范围：正篇第 1–5 集<br> 排除范围：预告、采访、粉丝扩写、其他媒介，以及未经视频同步核对的无对白画面细节<br> 用途：普通推荐与数据库分类</p>
+</blockquote>
+<h2 id="低剧透概览">低剧透概览</h2>
+<aside class="alert alert-note"><strong>说明</strong><div class="alert-content"><p><strong>分类信息提示：</strong> 本节不展开关键剧情、转折与结局，但分类信息本身会透露关系类型、叙事位置和恋爱明确度。希望完全盲看的读者请跳过本页。</p></div></aside>
+
+<p>《花园里的吸血鬼》是 2022 年的五集原创 WEB 动画。人类少女 Momo 与吸血鬼女王 Fine 在战争中相遇，随后共同离开原有阵营，寻找人类与吸血鬼能共存的地方。两人的同行、音乐、互相救助与分离后的选择构成行动和情感主轴，所以这里把作品列为“女女关系处于主线”的百合作品主类。</p>
+<p>“主线”不等于“已经交往”。Momo—Fine 是正在发生的双主角关系：日文字幕没有给出双方互称恋人、彼此告白或交往承诺的对白；它仍留有明显的浪漫化阅读空间。Fine 的过去则有另一条需要单列的关系：她明确说自己曾爱过人类女性 Aria，但 Aria 只出现于回忆，字幕也没有 Aria 的对等恋爱自述。作品因而适合想找双女主共同旅途、悲剧气氛和女性间亲密关系的读者；若查询目标是“当下两位主角已互相确认交往”，则不应据此推荐。</p>
+<h3 id="分层标签">分层标签</h3>
+<blockquote>
+<p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：主线｜最高明确度：明确欲望｜关系构成：主线同行＋过去感情＋友情与母女线｜官方字面：所核未见｜官方恋爱表述：是（Fine 的过去感情）｜官方来源：范围内版本＋可见宣传／故事简介｜阅读层级：正篇事实／强推断／读者解读｜身份依据类型：只有明确关系事实｜男性恋爱线：副线｜内容提示：战争、吸血、死亡、悲剧性告别、年龄与权力差异。</strong></p>
+</blockquote>
+<h3 id="严格恋爱检索提示">严格恋爱检索提示</h3>
+<p>严格查询“双方明确交往”的读者不宜把 Momo—Fine 算作命中；可以接受“主线双女主关系有浪漫化阅读空间”且接受回忆中明确女女感情者，可以考虑本作。Fine 的台词足以支持“她曾爱过一名人类女性”，但不足以把 Momo—Fine 的关系替换成那段过去，或替二人补写性取向身份。</p>
+<p>另一个实用限制是篇幅和内容。五集同时处理战争、逃亡、音乐与关系收束，女性关系的相处并非日常恋爱故事的节奏；枪击、追捕、鲜血、死亡和悲剧性告别也应在推荐时先说明。把“主线女女关系”“过去的明确感情”和“现役关系未确认”拆开，能比单独写一个“百合”更准确地服务检索。</p>
+<h2 id="数据库与公开分类">数据库与公开分类</h2>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>来源</th>
+<th>条目与字段</th>
+<th>来源类型</th>
+<th>本报告如何使用</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://www.netflix.com/jp/title/80996247" target="_blank" rel="noopener noreferrer">Netflix 日本官方页</a></td>
+<td>2022 年动画、5 集；简介将 Momo 与 Fine 的相遇和寻找共存之地作为故事入口</td>
+<td>官方资料</td>
+<td>核对纳入版本和双主角任务；可见文案未使用 yuri／Girls Love 字面。</td>
+</tr>
+<tr>
+<td><a href="https://media.netflix.com/en/only-on-netflix/80996247" target="_blank" rel="noopener noreferrer">Netflix Media Center</a></td>
+<td>英文简介称 Fine 曾爱过人类</td>
+<td>官方故事简介</td>
+<td>支持 Fine 有过去的人类感情背景；对象、互惠程度和 Momo—Fine 的关系仍由正篇字幕分别判断。</td>
+</tr>
+<tr>
+<td><a href="https://www.production-ig.com/contents/works_sp/104_/index.html" target="_blank" rel="noopener noreferrer">Production I.G 作品页</a></td>
+<td>WIT STUDIO 与 Netflix 的原创动画项目；以 Momo 与 Fine 为核心</td>
+<td>官方制作资料</td>
+<td>用于作品范围与双主角设定，不替关系作恋爱确认。</td>
+</tr>
+<tr>
+<td><a href="https://bangumi.tv/subject/277369" target="_blank" rel="noopener noreferrer">Bangumi subject 277369</a></td>
+<td>WEB、5 集、2022-05-16；有用户“百合”标记</td>
+<td>社区数据库</td>
+<td>作为公共检索线索和版本核对，不当作关系事实或社群投票。</td>
+</tr>
+<tr>
+<td><a href="https://anilist.co/anime/108357/Vampire-in-the-Garden/" target="_blank" rel="noopener noreferrer">AniList 108357</a></td>
+<td>ONA、5 集；所核标签有 Vampire、War、Female Protagonist、Travel 等，未见 Yuri</td>
+<td>社区标签数据库</td>
+<td>记录平台标签的范围；未标 Yuri 不能否定文本中的关系。</td>
+</tr>
+<tr>
+<td><a href="https://myanimelist.net/anime/39518/Vampire_in_the_Garden" target="_blank" rel="noopener noreferrer">MyAnimeList 39518</a></td>
+<td>ONA、5 集；Action、Fantasy，所核未见 Girls Love</td>
+<td>编辑数据库</td>
+<td>记录类型入口的沉默，不把它写成官方否认。</td>
+</tr>
+<tr>
+<td><a href="https://www.anime-planet.com/anime/vampire-in-the-garden" target="_blank" rel="noopener noreferrer">Anime-Planet 条目</a></td>
+<td>GL 字段记为资料不足</td>
+<td>编辑／标签数据库</td>
+<td>资料不足不等于“无”</td>
+</tr>
+</tbody>
+</table></div>
+<p>平台标签、官方宣传和正篇对白并不在回答同一个问题。Bangumi 的用户标记说明有人把本作放入百合检索入口；AniList 或 MAL 的未标则只说明其当前字段未列出目标词。它们都不能代替对五集正篇的关系判断，也不能从数量推出“多数人已经证明两位主角是恋人”。</p>
+<aside class="alert alert-warning"><strong>剧透提示</strong><div class="alert-content"><p>以下部分包含该作品的完整剧透。</p></div></aside>
+
+      <details class="spoiler-panel">
+        <summary>
+          <span>展开详细证据（含完整剧透）</span>
+          <small>决定性证据、四层分析、反方解释与方法限制</small>
+        </summary>
+        <div class="spoiler-content">
+          <h2 id="决定性文本证据">决定性文本证据</h2>
+<p>下表的时间码来自 <a href="https://jimaku.cc/entry/1007" target="_blank" rel="noopener noreferrer">Jimaku entry 1007</a> 所列的 S01E01—05 Netflix WEBRip 日文 CC SRT；中文释义为自行翻译。字幕能定位对白和相邻语境，但没有与视频同步回看，因此不把无对白镜头、表情、动作发起者或沉默时的同意状态写成确定事实。</p>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>位置</th>
+<th>原文与中文摘要</th>
+<th>叙事层级</th>
+<th>证据强度与视听复核</th>
+<th>能证明什么</th>
+<th>不能证明什么</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>第 1 集 00:26:22–00:27:22</td>
+<td>Fine 让 Momo「私と一緒に来い」（和我一起走），并把留在原地与死亡风险并置。</td>
+<td>相遇后的行动转折</td>
+<td>直接；日文字幕定位，未同步视频复核</td>
+<td>两人的共同逃离从开端进入主线。</td>
+<td>同行邀请不是恋人称谓或交往承诺。</td>
+</tr>
+<tr>
+<td>第 2 集 00:11:28–00:12:00</td>
+<td>Momo 感谢 Fine 曾保护 Mirana，接着说若可以想为 Mirana 唱歌，并请 Fine 帮忙。</td>
+<td>失去、保护与音乐</td>
+<td>直接；日文字幕定位，未同步视频复核</td>
+<td>Momo 的失去、Fine 的保护和音乐线索被放入同一段相处。</td>
+<td>保护和共同兴趣不能单独确认恋爱。</td>
+</tr>
+<tr>
+<td>第 3 集 00:09:41–00:10:22</td>
+<td>Fine 要求 Momo 回到人类城市，说「お前を…傷つけたくないんだ」（我不想伤害你）；Momo 留在门外呼唤 Fine。</td>
+<td>危机中的分离与寻找</td>
+<td>直接；日文字幕定位，未同步视频复核</td>
+<td>两人在危机中互相牵动，关系持续推进剧情。</td>
+<td>这一句照护性质的台词不能独自判作告白。</td>
+</tr>
+<tr>
+<td>第 5 集 00:19:10–00:20:18</td>
+<td>Fine 说遇见 Momo 后曾把她当成过去之人的替身，随后肯定 Momo 的力量和歌唱天赋；Momo 回应 Fine 教会了她唱歌。</td>
+<td>主线关系的回顾</td>
+<td>直接；日文字幕定位，未同步视频复核</td>
+<td>Momo—Fine 的关系与 Fine 的过去相连，但 Momo 有独立的回应与成长位置。</td>
+<td>不把“替身”开端写成 Momo 与 Aria 同一人，也不从中推出现役恋人关系。</td>
+</tr>
+<tr>
+<td>第 5 集 00:17:41–00:18:54</td>
+<td>Fine 说「昔、愛した人間がいた」（过去有一名我爱过的人类），回忆那名女性教她音乐和花名，并说两人越过禁忌后遭两族追捕。</td>
+<td>Fine—Aria 的过去感情</td>
+<td>直接；日文字幕定位，未同步视频复核</td>
+<td>Fine 对 Aria 的女女恋爱感情和共同受迫害背景有明确文本依据。</td>
+<td>字幕没有 Aria 的对等恋爱自述或正式关系称谓。</td>
+</tr>
+<tr>
+<td>第 1 集 00:06:47–00:07:40</td>
+<td>Mirana 关心 Momo 的伤势、嘱咐她消毒，随后把私下带回的八音盒送给 Momo。</td>
+<td>旧友与音乐线索</td>
+<td>直接；日文字幕定位，未同步视频复核</td>
+<td>Momo—Mirana 是局部但具体的女性友情。</td>
+<td>关心伤势不构成恋爱线。</td>
+</tr>
+<tr>
+<td>第 4 集 00:12:13–00:12:42</td>
+<td>Nobara 说「母親の気持ちが分かるものか」（你哪里懂得母亲的心情），接着把 Momo 的处置与军队的“背叛者”规则并置。</td>
+<td>家庭与军事权力</td>
+<td>直接；日文字幕定位，未同步视频复核</td>
+<td>Momo—Nobara 是母女和军事权力冲突线。</td>
+<td>这条关系不参与恋爱程度判断。</td>
+</tr>
+</tbody>
+</table></div>
+<p>字幕把两种不同的关系事实放在了可区分的位置。Momo—Fine 是贯穿五集的当下同行：逃离、音乐、照护、分离和相互影响都在这条线上发生。Fine—Aria 则是解释 Fine 的选择与创伤的过去感情，虽对结局很重要，却不能被移植为 Momo—Fine 的既成关系。分开记录这两条线，既不降低 Fine 对 Aria 的明说，也不把 Momo 消去。</p>
+<h2 id="四层分析">四层分析</h2>
+<h3 id="第一层文本中的关系">第一层：文本中的关系</h3>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>关系 ID</th>
+<th>关系／参与者</th>
+<th>类型</th>
+<th>叙事位置</th>
+<th>恋爱明确度</th>
+<th>相互性</th>
+<th>证据层级</th>
+<th>摘要</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>r01</td>
+<td>Momo—Fine</td>
+<td>友情／搭档／选择家庭</td>
+<td>主线</td>
+<td>明显但未确认</td>
+<td>相互性未确认</td>
+<td>正篇事实／强推断／读者解读</td>
+<td>她们的同行启动于逃离，音乐与保护持续改变彼此的行动选择。Fine 对 Momo 的照护和最后的坦白，允许浪漫化阅读；但字幕没有双方交往、恋人称谓或彼此告白的对白。</td>
+</tr>
+<tr>
+<td>r02</td>
+<td>Fine—Aria</td>
+<td>恋爱</td>
+<td>重要副线（回忆）</td>
+<td>明确欲望</td>
+<td>相互性未确认</td>
+<td>正篇事实／强推断</td>
+<td>Fine 明说曾爱过 Aria，并说二人共同越过禁忌、遭到两族追捕。Aria 的回忆形象解释 Fine 的音乐、和平愿望和创伤；字幕未给出 Aria 的对等恋爱自述。</td>
+</tr>
+<tr>
+<td>r03</td>
+<td>Momo—Mirana</td>
+<td>友情</td>
+<td>局部</td>
+<td>非恋爱</td>
+<td>双向</td>
+<td>正篇事实</td>
+<td>开端的照护、八音盒和失去使 Momo 与人类军队生活发生断裂，但这条线不延续为恋爱判断。</td>
+</tr>
+<tr>
+<td>r04</td>
+<td>Momo—Nobara</td>
+<td>母女／照护与权力</td>
+<td>重要副线</td>
+<td>非恋爱</td>
+<td>相互性未确认</td>
+<td>正篇事实／强推断</td>
+<td>Nobara 既是母亲也是军队指挥者；追捕与母女话语相互纠缠，构成战争制度如何进入家庭的副线。</td>
+</tr>
+</tbody>
+</table></div>
+<p>这里最容易混淆的是“Fine 爱过女性”与“Momo—Fine 已互相确认恋爱”。前者有 Fine 的明确台词支持，后者没有对应的关系承诺台词。反过来，把 r01 只压成一般搭档也不足以说明剧情：Momo 的行动、Fine 的自我理解和作品对音乐的使用都不断把两人的关系推回中心。因此保留“明显但未确认”比强行判定为友情或恋人都更贴近现有材料。</p>
+<h3 id="第二层作品的文类位置">第二层：作品的文类位置</h3>
+<p>本作的战争和吸血鬼设定不是独立于人物关系的背景。Momo 与 Fine 的相遇让逃离成为可能，寻找共存之地把她们绑在同一条行动线上，而彼此的分离、再次选择和告别承担结局的情感重量。即使观众把 r01 读作深厚友情，女女关系依然是叙事的发动机，而不是在男性恋爱主线旁边偶尔出现的装饰。</p>
+<p>因此它适合列入以女女关系为核心的百合作品主类，同时保留反战、末世、吸血鬼奇幻与音乐等重叠类型。这个文类入口并不要求每一组女性关系都恋爱，也不授予 Momo—Fine 一个正篇没有写出的交往名分。对严格恋爱检索而言，r02 提供的是过去的明确感情事实；对寻求双女主关系故事的读者而言，r01 才是主要入口。</p>
+<h3 id="第三层角色身份">第三层：角色身份</h3>
+<p>Fine 对 Aria 的爱是明确的关系事实，但作品范围内没有让 Fine、Momo 或 Aria 以“女同性恋”“双性恋”等词自述身份，也没有可靠的官方身份设定。过去爱过一名女性能说明这段感情的方向，不能自动规定角色应该使用哪一个现实身份词；Momo—Fine 的浪漫化阅读更不能替双方完成身份宣告。</p>
+<p>因此，身份检索应返回“存在明确女女感情事实，角色身份未明”，而不是把作品的文类标签换算成角色身份。这个保留并不是把已写出的感情退回暧昧，而是区分两个不同的问题：角色发生过怎样的关系，与角色怎样给自己命名。</p>
+<h3 id="第四层公共标签礼仪">第四层：公共标签礼仪</h3>
+<p>普通推荐可以写成“女女双主角的末世逃亡／反战奇幻；主线关系可作浪漫化阅读，另有 Fine 对 Aria 的过去女女感情”。这样的写法能让想找女性关系主线的人找到作品，也不会把 Momo—Fine 宣传成已经交往，或把回忆线伪装成全程恋爱线。内容提示应随标签同行，因为战争与悲剧性告别显著影响观看体验。</p>
+<p>数据库字段应保持来源层级：官方可见页面没有 yuri／Girls Love 字面，官方简介提及 Fine 曾爱过人类，Bangumi 是用户标记，其他数据库各有自己的类型栏。私人读者当然可以以 Momo—Fine 为中心阅读百合意味；公开标签若服务“明确交往”检索，则应加上“主线未确认、过去关系明确”的限定，避免让不同查询彼此踩空。</p>
+<h2 id="最强反方解释">最强反方解释</h2>
+<p>最保守的读法会把 Momo—Fine 视为反战故事中的朋友和搭档，把明确的恋爱只留给 Fine 与已故的 Aria。这一读法有充分依据：Momo—Fine 的日文对白没有恋人称谓、彼此告白或交往承诺，Fine 对 Aria 的爱却由她本人明说。它足以反驳“现役两位主角已经明确交往”或“每一段女性亲近都等于恋爱”的宣传。</p>
+<p>但保守读法不能抹掉 r01 的主线位置。两名女性的相遇、逃离、音乐、危机与关系收束组织了五集大部分关键选择；把它称作无关紧要的普通友情，同样无法解释叙事结构。较稳妥的表述是：作品以女女关系为主线，Momo—Fine 可作明显的浪漫化阅读但未被文本确认交往；Fine—Aria 则提供过去的明确女女感情事实。这个结论也承认字幕不能替代视频画面复核，因而不把镜头中的潜台词补成硬事实。</p>
+<h2 id="分用途结论">分用途结论</h2>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>用途</th>
+<th>分类</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>普通作品推荐</td>
+<td>推荐给能接受末世战争、五集压缩叙事和悲剧收束，并想看女女双主角共同旅途的读者；先说明主线关系没有正式交往确认。</td>
+</tr>
+<tr>
+<td>数据库主标签</td>
+<td>百合作品主类／女女关系主线；重叠类型为反战、末世、吸血鬼奇幻与音乐。</td>
+</tr>
+<tr>
+<td>严格明确恋爱检索</td>
+<td>部分满足：Fine 对 Aria 有明确的过去女女感情；Momo—Fine 没有双方交往或告白承诺的对白。</td>
+</tr>
+<tr>
+<td>私人百合阅读</td>
+<td>适合以主线同行、相互救助、音乐与悲剧性告别阅读女女关系；不应宣传为全程甜蜜恋人故事。</td>
+</tr>
+<tr>
+<td>角色身份检索</td>
+<td>可确认 Fine 曾爱过一名女性；Momo、Fine 与 Aria 的性取向身份在范围内未明示。</td>
+</tr>
+<tr>
+<td>官方分类查询</td>
+<td>官方可见宣传未见 yuri／Girls Love 字面；官方故事简介确认双主角任务，并称 Fine 曾爱过人类。</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="方法来源与限制">方法、来源与限制</h2>
+<h3 id="材料与检索记录">材料与检索记录</h3>
+<ul>
+<li>范围限定为 Netflix 于 2022 年首发的 WEB／ONA 正篇第 1—5 集；不把预告、访谈、粉丝维基扩写或其他媒介补入剧情事实。</li>
+<li><a href="https://jimaku.cc/entry/1007" target="_blank" rel="noopener noreferrer">Jimaku entry 1007</a> 的日文 CC SRT 覆盖S01E01—05；时间码只对应该字幕版本。</li>
+<li>字幕短引和外文官方简介的中文释义为自行翻译。字幕用于定位对白与相邻语境；没有同步视频回看，因此不从无对白动作、画面象征、语气或停顿推出关系事实。</li>
+</ul>
+<h3 id="版本边界">版本边界</h3>
+<ul>
+<li>Fine 对 Aria 的过去感情依靠 Fine 的明说和同一段回忆建立；Aria 的互惠感情、两人的正式关系称谓和任何角色的身份标签均不补写。</li>
+<li>Momo—Fine 的主线地位来自五集的结构及台词中的逃离、照护、音乐和告别；“明显但未确认”记录的是读者可见的浪漫化空间，不是创作者意图或已完成交往的宣告。</li>
+<li>官方页面、编辑类型栏和社区标签各自只能证明其页面字段；它们不能互相代替，也不能裁决角色身份。新材料若能提供合法的同步视听复核，应优先检查 r01 的关键相处段与 r02 的回忆段。</li>
+</ul>
+
+        </div>
+      </details>
+    </div>
+  </div>
+</article>
+
+<section class="feedback-section">
+  <div>
+    <p class="eyebrow">REPORT FEEDBACK</p>
+    <h2>提交可核查的修订建议</h2>
+    <p>请注明作品版本、集数／章节、要质疑的原句、可公开核查的来源，以及建议如何修订。评论属于待核查反馈，不会自动成为报告证据。</p>
+  </div>
+  <div class="giscus"></div>
+<div class="giscus-config"
+        hidden
+        data-repo="L-M-Sherlock/yuri-classification-archive"
+        data-repo-id="R_kgDOTo1RzA"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOTo1RzM4DCXAh"
+        data-mapping="specific"
+        data-term="classification:vampire_in_the_garden_web_2022"
+        data-strict="1"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-lang="zh-CN"
+        data-loading="lazy"
+        aria-hidden="true"></div>
+</section>
+
+  </main>
+  <footer class="site-footer">
+    <div>
+      <p>分类是面向具体查询的检索工具，不是替作品关系作终审判决。</p>
+      <p class="footer-ai-note">本站使用以 OpenAI Codex 为主的生成式 AI 辅助研究、写作与站点开发；人工审阅未覆盖全部作品报告。<a href="/yuri-classification-archive/about/#AI使用说明">查看 AI 使用说明</a></p>
+      <p>© 2026 Jarrett Ye · <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="license noopener noreferrer">CC BY-NC-SA 4.0</a> · <a href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub 仓库</a> · <a href="/yuri-classification-archive/about/#使用边界">使用边界</a></p>
+    </div>
+  </footer>
+  <script>window.SITE_CONFIG = {basePath: "/yuri-classification-archive"};</script>
+  <script src="/yuri-classification-archive/assets/site.js?v=eeeec5872796" defer></script>
+
+</body>
+</html>

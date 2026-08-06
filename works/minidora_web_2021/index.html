@@ -1,0 +1,396 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="《迷你龙小剧场／ミニドラ》是与《小林家的龙女仆 S》同期出现的 21 则一分钟左右短篇，而不是 TV 正篇的缩略替身。它以女性角色的家庭日常、同学亲近和竞争笑料为主要关系材料；因此女女关系在作品的群像组织中处于主线位置。最清楚的一组是小林与托尔：英语文本把托尔对小林的情感写作“beloved”，又出现“wife……">
+  <meta name="color-scheme" content="light dark">
+  <meta id="theme-color-light" name="theme-color" media="(prefers-color-scheme: light)" content="#f5f0e8">
+  <meta id="theme-color-dark" name="theme-color" media="(prefers-color-scheme: dark)" content="#1c181c">
+  <script>
+    (() => {
+      document.documentElement.classList.add("js");
+      const storageKey = "yuri-classification-theme";
+      const allowed = new Set(["system", "light", "dark"]);
+      let preference = "system";
+      try {
+        const stored = localStorage.getItem(storageKey);
+        if (allowed.has(stored)) preference = stored;
+      } catch (_error) {
+        preference = "system";
+      }
+      const systemDark = window.matchMedia?.("(prefers-color-scheme: dark)").matches;
+      const theme = preference === "system"
+        ? (systemDark ? "dark" : "light")
+        : preference;
+      document.documentElement.dataset.theme = theme;
+      document.documentElement.dataset.themePreference = preference;
+      document.documentElement.style.colorScheme = theme;
+      const lightMeta = document.getElementById("theme-color-light");
+      const darkMeta = document.getElementById("theme-color-dark");
+      if (preference === "system") {
+        lightMeta.content = "#f5f0e8";
+        darkMeta.content = "#1c181c";
+      } else {
+        const color = theme === "dark" ? "#1c181c" : "#f5f0e8";
+        lightMeta.content = color;
+        darkMeta.content = color;
+      }
+    })();
+  </script>
+  <link rel="canonical" href="https://l-m-sherlock.github.io/yuri-classification-archive/works/minidora_web_2021/">
+  <link rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="百合作品分类档案">
+  <meta property="og:title" content="《迷你龙小剧场》分类报告｜百合作品分类档案">
+  <meta property="og:description" content="《迷你龙小剧场／ミニドラ》是与《小林家的龙女仆 S》同期出现的 21 则一分钟左右短篇，而不是 TV 正篇的缩略替身。它以女性角色的家庭日常、同学亲近和竞争笑料为主要关系材料；因此女女关系在作品的群像组织中处于主线位置。最清楚的一组是小林与托尔：英语文本把托尔对小林的情感写作“beloved”，又出现“wife……">
+  <meta property="og:url" content="https://l-m-sherlock.github.io/yuri-classification-archive/works/minidora_web_2021/">
+  <meta property="og:image" content="https://l-m-sherlock.github.io/yuri-classification-archive/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+  <title>《迷你龙小剧场》分类报告｜百合作品分类档案</title>
+  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=e68f78a2d1a9">
+
+</head>
+<body class="classification-report">
+  <a class="skip-link" href="#main-content">跳到正文</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="/yuri-classification-archive/">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>
+          <strong>百合作品分类档案</strong>
+          <small>按查询拆开标签，按证据保留边界</small>
+        </span>
+      </a>
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-navigation"
+      >
+        <span>菜单</span>
+        <span class="menu-toggle-icon" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-navigation" aria-label="主导航">
+        <div class="nav-main">
+          <a href="/yuri-classification-archive/">首页</a>
+          <a href="/yuri-classification-archive/table/">总表</a>
+          <a href="/yuri-classification-archive/articles/">专题</a>
+          <a href="/yuri-classification-archive/about/">方法与说明</a>
+        </div>
+        <a class="nav-star" href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub / Star <span aria-hidden="true">↗</span></a>
+        <a class="nav-feedback" href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
+        <label class="theme-control" for="theme-preference">
+          <span>主题</span>
+          <select id="theme-preference" aria-label="主题偏好">
+            <option value="system">跟随系统</option>
+            <option value="light">浅色</option>
+            <option value="dark">深色</option>
+          </select>
+        </label>
+      </nav>
+    </div>
+  </header>
+  <main id="main-content">
+    <article class="report-page">
+  <header class="report-header">
+    <p class="eyebrow">WEB 短篇动画 · 2026-08-04</p>
+    <h1>《迷你龙小剧场》分类报告</h1>
+    <p class="report-subtitle">2021 年官方 WEB 连续短篇《ミニドラ》正篇第 1–13 话；2021 年随《小林家的龙女仆 S》播出期间公开的 SP1–SP3；官方页面列入同一 21 话构成、后收录于 Blu-ray/DVD 的 EX1–EX5</p>
+    <div class="label-strip" aria-label="分类摘要">
+      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>女女恋爱位置：</strong>重要副线</span><span class="label-chip"><strong>女女关系最高明确度：</strong>明确欲望</span><span class="label-chip"><strong>官方字面百合／GL：</strong>所核未见</span><span class="label-chip"><strong>官方女女恋爱表述：</strong>所核未见</span><span class="label-chip"><strong>官方来源：</strong>层级：当前版本；位置：可见作品宣传</span><span class="label-chip"><strong>结论置信度：</strong>中<span class="inline-help" tabindex="0" aria-label="查看结论置信度说明" aria-describedby="report-confidence-help"><span aria-hidden="true">?</span><span class="term-tooltip" id="report-confidence-help" role="tooltip">表示当前锁定范围内，现有证据对本报告主要分类结论的支持稳定度；它不是百合程度、作品质量、社群共识或统计概率。</span></span></span>
+    </div>
+    <a class="back-link" href="/yuri-classification-archive/table/?q=%E8%BF%B7%E4%BD%A0%E9%BE%99%E5%B0%8F%E5%89%A7%E5%9C%BA">← 返回总表并定位本作</a>
+  </header>
+  <div class="report-layout">
+    <aside class="report-toc">
+      <p>本页目录</p>
+      <ol><li><a href="#低剧透概览">低剧透概览</a></li><li><a href="#数据库与公开分类">数据库与公开分类</a></li><li><a href="#决定性文本证据">决定性文本证据</a></li><li><a href="#四层分析">四层分析</a></li><li><a href="#最强反方解释">最强反方解释</a></li><li><a href="#分用途结论">分用途结论</a></li><li><a href="#方法来源与限制">方法、来源与限制</a></li></ol>
+    </aside>
+    <div class="report-content">
+      <blockquote>
+<p>分类日期：2026-08-04<br> 分类对象：2021 年官方 WEB 连续短篇《ミニドラ》完整 21 话<br> 纳入范围：正篇第 1–13 话、SP1–SP3 与 EX1–EX5<br> 排除范围：两季 TV 正篇、2025 年剧场版、漫画及其他《小林家的龙女仆》衍生内容<br> 用途：普通推荐与数据库分类</p>
+</blockquote>
+<h2 id="低剧透概览">低剧透概览</h2>
+<aside class="alert alert-note"><strong>说明</strong><div class="alert-content"><p><strong>分类信息提示：</strong> 本节不展开关键剧情、转折与结局，但分类信息本身会透露关系类型、叙事位置和恋爱明确度。希望完全盲看的读者请跳过本页。</p></div></aside>
+
+<p>《迷你龙小剧场／ミニドラ》是与《小林家的龙女仆 S》同期出现的 21 则一分钟左右短篇，而不是 TV 正篇的缩略替身。它以女性角色的家庭日常、同学亲近和竞争笑料为主要关系材料；因此女女关系在作品的群像组织中处于主线位置。最清楚的一组是小林与托尔：英语文本把托尔对小林的情感写作“beloved”，又出现“wifely love-filled bento”、主动提出约会，以及双方把居家相处称为更亲密关系中的约会。</p>
+<p>这些文本足以记录托尔一侧的明确恋爱欲望，也足以说明两人有被共同承认的亲密互动；它们没有把双方正式命名为恋人、妻子或已交往情侣。才川对康娜的对象明确亲近提供另一条较局部的强烈恋爱方向，托尔与艾尔玛则只在范围内形成竞争与朋友框架。因而本页将恋爱位置写作重要副线、最高明确度写作明确欲望，而不以母系列印象、数据库标签或一个标题把整套短篇压成已确认交往。</p>
+<h3 id="分层标签">分层标签</h3>
+<blockquote>
+<p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：重要副线｜最高明确度：明确欲望｜关系构成：多组异质关系｜官方字面：所核未见｜官方恋爱表述：资料不足｜官方来源：官方 Story 页面与 21 话发行公告仅固定范围｜阅读层级：正篇文本事实与强推断分开记录｜身份依据类型：只有明确关系事实｜男性恋爱线：未知｜内容提示：含居家亲密、儿童角色的对象明确亲近与竞争性喜剧；未做画面复核。</strong></p>
+</blockquote>
+<h3 id="严格恋爱检索提示">严格恋爱检索提示</h3>
+<ul>
+<li>只寻找双方正式交往、互相告白、接吻或身份明示的读者：<strong>不宜把本作当作命中保证。</strong> 范围内文字没有把小林与托尔登记为已确认情侣。</li>
+<li>接受一方明确追求、约会语汇、同居式亲密和女性关系群像的读者：<strong>适合。</strong> 小林—托尔是最稳定的入口；康娜—才川是较局部的对象明确亲近线。</li>
+</ul>
+<h2 id="数据库与公开分类">数据库与公开分类</h2>
+<p>Bangumi 将 13 话正篇、SP3 与 EX5 聚合成 21 话 WEB 条目；AniList 把前 16 话与 EX5 分开，Anime-Planet 也作三段拆分。这不是关系强弱的投票，而是版本筛选时必须先校准的不同目录结构。MyAnimeList 目录没有覆盖完整 21 话对象的独立条目，所以不以 TV 正篇字段填补它的空白。</p>
+<p>当前 Bangumi 条目显示 Rank 2584、“百合”188 人；想看 188、看过 2128、在看 116、搁置 36、抛弃 27，五种状态合计 2495 人，标签人数占比约 7.54%。这些数字只记录社区目录的检索语境，不是关系性质、官方分类或角色身份的投票。</p>
+<p>Yuri、GL 或“百合”字段可以说明数据库怎样服务检索，却不替代台词、关系发展或角色身份材料。这里的作品级归档依据来自范围内文本所写的对象明确追求和亲密约会语汇；数据库标签只保留为公共分类语境。官方 Story 与公告列出发行范围，但所核页面没有把本短篇直接称为百合或 GL。</p>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>来源</th>
+<th>条目与字段</th>
+<th>来源类型</th>
+<th>本报告如何使用</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://maidragon.jp/2nd/story/" target="_blank" rel="noopener noreferrer">官方 Story 页面</a> 与 <a href="https://maidragon.jp/news/archives/1025" target="_blank" rel="noopener noreferrer">21 话公告</a></td>
+<td>正篇 13 话、SP1–SP3、EX1–EX5 与配信／影碟安排</td>
+<td>官方发行资料</td>
+<td>固定 13＋3＋5 的对象；不替代关系文本</td>
+</tr>
+<tr>
+<td><a href="https://bangumi.tv/subject/332570" target="_blank" rel="noopener noreferrer">Bangumi subject 332570</a></td>
+<td>WEB、21 话；Rank 2584；“百合”188 人；五种收藏状态合计 2495 人（188／2495≈7.54%）</td>
+<td>社区数据库与用户标签</td>
+<td>锁定聚合边界并说明检索语境；数字不作为剧情票数</td>
+</tr>
+<tr>
+<td><a href="https://anilist.co/anime/132096/Kobayashisan-Chi-no-Maidragon-S-Mini-Dra" target="_blank" rel="noopener noreferrer">AniList 132096／137804</a></td>
+<td>16 话 Mini Dra 与五话 EX 的拆分</td>
+<td>编辑型数据库</td>
+<td>交叉核对主篇／SP 与 EX 的发行差异</td>
+</tr>
+<tr>
+<td><a href="https://www.anime-planet.com/anime/miss-kobayashis-dragon-maid-s-short-animation-series" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td>
+<td>13、3、5 话分条目及 GL 标签</td>
+<td>编辑型标签数据库</td>
+<td>记录平台目录方式，不把 GL 字段换算成恋爱结论</td>
+</tr>
+<tr>
+<td>MyAnimeList 目录</td>
+<td>未见完整 21 话的独立对象</td>
+<td>编辑型数据库目录</td>
+<td>记录该站的范围缺口，不用相邻版本代替</td>
+</tr>
+</tbody>
+</table></div>
+<aside class="alert alert-warning"><strong>剧透提示</strong><div class="alert-content"><p>以下部分涉及范围内的关系文字、约会语汇及短篇结尾标题。</p></div></aside>
+
+      <details class="spoiler-panel">
+        <summary>
+          <span>展开详细证据（含完整剧透）</span>
+          <small>决定性证据、四层分析、反方解释与方法限制</small>
+        </summary>
+        <div class="spoiler-content">
+          <h2 id="决定性文本证据">决定性文本证据</h2>
+<p>表中英文是所用英语 ASS 的原文；中文为本报告的说明性翻译。时间码只定位字幕在各自短篇中的相对位置，不代表画面、动作或镜头已经复核。日文 PGS/SUP 归档可核对版本、语言和单元，却没有可审计文字转写，因此不承担下表的逐句证明责任。</p>
+<h3 id="覆盖与版本核验">覆盖与版本核验</h3>
+<p>两组英语字幕分别覆盖正篇 13 话＋SP 3 话与 EX1–EX5，共覆盖 21／21 纳入单元。EX 五话也已纳入阅读范围；没有把前 16 话的材料外推成完整对象。</p>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>位置</th>
+<th>原文与中文摘要</th>
+<th>叙事层级</th>
+<th>证据强度与视听复核</th>
+<th>能证明什么</th>
+<th>不能证明什么</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>第 1 话 00:00:46.79–00:00:51.05</td>
+<td>“I could just watch my beloved Miss Kobayashi sleep forever!”／托尔说想永远看着自己心爱的小林睡觉</td>
+<td>现实台词</td>
+<td>直接；仅英语字幕定位</td>
+<td>托尔对小林有对象明确的亲密／恋爱方向</td>
+<td>小林的对等情感或已交往状态</td>
+</tr>
+<tr>
+<td>第 12 话 00:00:20.81–00:00:23.38</td>
+<td>“Please let me make a wifely love-filled bento!”／托尔请求制作带有配偶式爱意的便当</td>
+<td>现实台词</td>
+<td>直接；仅英语字幕定位</td>
+<td>托尔用恋爱喜剧语汇组织照料</td>
+<td>双方已结婚或正式交往</td>
+</tr>
+<tr>
+<td>第 13 话 00:00:52.67–00:00:54.66；00:01:27.34–00:01:44.16</td>
+<td>“I want to go on a date” 与对居家约会的共同接受</td>
+<td>现实台词</td>
+<td>直接与强推断；仅英语字幕定位</td>
+<td>一方提出约会，双方承认居家相处的亲密约会语境</td>
+<td>双方使用恋人称谓或互相告白</td>
+</tr>
+<tr>
+<td>第 4 话 00:00:35.02–00:00:38.18</td>
+<td>“Anywhere Kanna-san is becomes lovely scenery!”／有康娜在的地方都会成为可爱的景色</td>
+<td>现实台词</td>
+<td>直接；仅英语字幕定位</td>
+<td>才川对康娜的对象明确强烈亲近</td>
+<td>稳定、互惠的恋爱关系</td>
+</tr>
+<tr>
+<td>SP2 00:00:31.51–00:01:08.23</td>
+<td>才川为能自然碰到康娜而兴奋；两人确认是否受伤，才川邀请康娜到家吃茶点，康娜接受</td>
+<td>现实台词</td>
+<td>直接；仅英语字幕定位</td>
+<td>对象明确亲近与相互照料</td>
+<td>仅凭一则短篇确认恋爱互惠</td>
+</tr>
+<tr>
+<td>SP3 00:00:21.98–00:01:00.06</td>
+<td>托尔与艾尔玛为奖品争抢并互相指责；标题并置“强敌”与“好朋友”</td>
+<td>现实台词与标题</td>
+<td>直接；仅英语字幕定位</td>
+<td>局部竞争与朋友框架</td>
+<td>两人的恋爱方向或相互性</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="四层分析">四层分析</h2>
+<h3 id="第一层文本中的关系">第一层：文本中的关系</h3>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>关系 ID</th>
+<th>关系／参与者</th>
+<th>类型</th>
+<th>叙事位置</th>
+<th>恋爱明确度</th>
+<th>相互性</th>
+<th>证据层级</th>
+<th>摘要</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>r01</td>
+<td>小林—托尔</td>
+<td>恋爱／选择家庭／搭档</td>
+<td>重要副线</td>
+<td>明确欲望</td>
+<td>相互性未确认</td>
+<td>正篇事实／强推断</td>
+<td>托尔多次以心爱、配偶式照料和约会语言靠近小林；小林接受居家约会，但未作对等恋人确认。</td>
+</tr>
+<tr>
+<td>r02</td>
+<td>康娜—才川</td>
+<td>友情／恋爱方向</td>
+<td>局部</td>
+<td>潜在恋爱</td>
+<td>相互性未确认</td>
+<td>正篇事实／强推断</td>
+<td>才川的表达持续指向康娜，SP2 写出两人的照料与邀约；范围内没有互惠恋爱命名。</td>
+</tr>
+<tr>
+<td>r03</td>
+<td>托尔—艾尔玛</td>
+<td>友情／竞争</td>
+<td>局部</td>
+<td>未知</td>
+<td>未知</td>
+<td>正篇事实</td>
+<td>SP3 以互相竞争和“强敌／好朋友”标题构成笑料，不能从高强度互动推导恋爱。</td>
+</tr>
+</tbody>
+</table></div>
+<p>小林—托尔并非靠某个数据库的缩写成立。第 1、12、13 话把看着对方、准备便当、提出约会和接受居家约会放进同一组日常相处中；这足以使托尔一侧的恋爱欲望成为可检索事实。小林的回应则更适合写作亲密互动与关系承认，而非把没有出现的恋人定义补入文本。短篇标题“蜜月”也不比台词拥有更高的终审权。</p>
+<p>康娜—才川提供的是另一种尺度：才川的对象指向清楚，康娜也参与照料和邀约，但可审文字没有把二人关系定义为恋爱。托尔—艾尔玛的争执同样不能因为双方都是女性、互动紧张或标题带有朋友语汇而自动归入恋爱。这三条线并置，正好防止“所有女性亲密都相同”与“只认正式交往才算材料”两种压缩错误。</p>
+<h3 id="第二层作品的文类位置">第二层：作品的文类位置</h3>
+<p>本对象是由极短单元组成的女性群像日常喜剧。小林、托尔、康娜、才川、艾尔玛等人的相处不仅是背景，而是多个单元的组织方式，所以女女关系作为关系结构可记为主线；但明确恋爱语言集中在有限单元，不能把 21 则短篇的每一个笑料都说成恋爱剧情。恋爱位置因此是重要副线，而非覆盖全作的唯一主线。</p>
+<p>宽口径读者会把共同生活、照料、约会和一方追求视为有价值的百合入口；窄口径读者则要求双方以恋人身份确认。这两种查询保护的风险不同：前者避免漏掉有明确对象指向的作品，后者避免把亲密日常误报为已交往。本页保留前者的作品分类资格，同时明确交代后者的缺口。范围内可见含男性角色的局部段子，却没有足以把男性恋爱线定为无、次要或主导的完整依据，故该字段保留未知。</p>
+<h3 id="第三层角色身份">第三层：角色身份</h3>
+<p>关系文本和性取向身份不是同一命题。托尔对小林的“beloved”、约会和配偶式便当语汇支持她在这套短篇中有明确的对象指向；小林接受亲密约会语境也不能自动变成身份自述。才川对康娜的强烈亲近同理，既不能替才川贴上固定身份，也不能推断康娜的身份。</p>
+<p>本档案因此只使用“只有明确关系事实”作为身份依据类型，角色身份检索仍为未知。这一限制不是以异性恋作为默认，而是拒绝把作品标签、数据库字段、母系列知识或未复核的画面补成角色自我定义。未来若有准确属于这 21 话的身份自述或官方人物设定，应独立增补，不应从本页的关系结论反推。</p>
+<h3 id="第四层公共标签礼仪">第四层：公共标签礼仪</h3>
+<p>对普通读者，称其为包含小林—托尔明确追求与约会语汇的女性群像短篇，是比单写“百合”更有用的说明。对数据库而言，WEB 短篇、2021 年、13＋SP3＋EX5 的版本边界与女女关系入口可以共存；Bangumi、AniList、Anime-Planet 的标签仍应注明各自的条目拆分。对严格检索而言，则必须把“托尔一侧明确欲望”与“双方已确认交往”分开。</p>
+<p>公共标签不需要替私人阅读裁决。读者可以把托尔—艾尔玛、康娜—才川或整套家庭日常放进自己的阅读地图；公共报告只承诺可回到文本、范围和证据强度的部分。这样既不以数据库沉默否认关系，也不把一个目录标签扩张成角色身份、互惠爱情或全作中心性的证明。</p>
+<h2 id="最强反方解释">最强反方解释</h2>
+<p>最有力的保守读法是：这些都是一分钟喜剧，配偶、约会和“心爱”的翻译可能是夸张台词，不能承受作品级百合分类；尤其小林没有以恋人称谓回应，康娜—才川又缺少双向恋爱确认。这个读法正确地限制了“已交往”“互惠恋爱”和角色身份三类更强断言，也提醒读者英语字幕不是日文原台词的替身。</p>
+<p>但它不能抹去范围内可复核的对象指向：托尔的追求、约会请求与小林对亲密约会的接受并非只由数据库标签给出。相反的过宽读法也站不住脚：不能把母系列既有知识、全部女性互动或标题语汇压成 21 话都以恋爱为中心。保留“重要副线、明确欲望、相互性未确认”这组分层，正是让两个风险同时可见。</p>
+<h2 id="分用途结论">分用途结论</h2>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>用途</th>
+<th>分类</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>普通作品推荐</td>
+<td><strong>女性群像短篇；小林—托尔有明确追求、约会和共同生活语汇。</strong></td>
+</tr>
+<tr>
+<td>数据库主标签</td>
+<td><strong>2021 年 WEB 短篇、完整 21 话；可保留女女关系作品分类，但须写明 13＋SP3＋EX5 边界。</strong></td>
+</tr>
+<tr>
+<td>严格明确恋爱检索</td>
+<td><strong>不提供双方已交往或互相告白的命中保证；托尔一侧的明确欲望可检索。</strong></td>
+</tr>
+<tr>
+<td>私人百合阅读</td>
+<td><strong>适合保留；康娜—才川与托尔—艾尔玛的阅读强度应与小林—托尔分开。</strong></td>
+</tr>
+<tr>
+<td>角色身份检索</td>
+<td><strong>未知；范围内没有角色性取向的自述或官方身份设定。</strong></td>
+</tr>
+<tr>
+<td>官方分类查询</td>
+<td><strong>官方资料固定连续短篇与 21 话发行边界；所核页面未见百合／GL 作品字面。</strong></td>
+</tr>
+<tr>
+<td>版本筛选</td>
+<td><strong>覆盖 Bangumi 聚合的正篇 13＋SP3＋EX5；TV 正篇、电影、漫画与其他衍生内容不在本页范围。</strong></td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="方法来源与限制">方法、来源与限制</h2>
+<p>范围以<a href="https://maidragon.jp/2nd/story/" target="_blank" rel="noopener noreferrer">官方 Story 页面</a>与<a href="https://maidragon.jp/news/archives/1025" target="_blank" rel="noopener noreferrer">21 话公告</a>锁定为 13＋3＋5；AniList、Anime-Planet 和 Bangumi 的分条目差异只用于交叉核对版本。MyAnimeList 没有可覆盖完整 21 话的独立对象，未以相邻 TV 条目代替。</p>
+<p>文本材料为 SSA 的 13＋SP3 英文 ASS 与 GLY 的 EX1–EX5 英文 ASS，两组字幕共同覆盖 13＋3＋5 个纳入单元。未作同步视听复核，时间码只对应这两组字幕版本。</p>
+<p>日文优先材料 Jimaku 8375／8376 是 PGS/SUP 图形字幕，能核对日语、版本和单元，却没有可审计的文字层。英语文本在此优先于官方简介，但仍低于可复核的日文文本；未做画面复核意味着镜头、身体动作、语气、沉默、完整同意状态和未写出的剧情不从字幕外推。新的准确日文文本、台本或合法视听材料可以细化翻译与场景判断，但不得改变本页的 21 话版本边界。</p>
+
+        </div>
+      </details>
+    </div>
+  </div>
+</article>
+
+<section class="feedback-section">
+  <div>
+    <p class="eyebrow">REPORT FEEDBACK</p>
+    <h2>提交可核查的修订建议</h2>
+    <p>请注明作品版本、集数／章节、要质疑的原句、可公开核查的来源，以及建议如何修订。评论属于待核查反馈，不会自动成为报告证据。</p>
+  </div>
+  <div class="giscus"></div>
+<div class="giscus-config"
+        hidden
+        data-repo="L-M-Sherlock/yuri-classification-archive"
+        data-repo-id="R_kgDOTo1RzA"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOTo1RzM4DCXAh"
+        data-mapping="specific"
+        data-term="classification:minidora_web_2021"
+        data-strict="1"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-lang="zh-CN"
+        data-loading="lazy"
+        aria-hidden="true"></div>
+</section>
+
+  </main>
+  <footer class="site-footer">
+    <div>
+      <p>分类是面向具体查询的检索工具，不是替作品关系作终审判决。</p>
+      <p class="footer-ai-note">本站使用以 OpenAI Codex 为主的生成式 AI 辅助研究、写作与站点开发；人工审阅未覆盖全部作品报告。<a href="/yuri-classification-archive/about/#AI使用说明">查看 AI 使用说明</a></p>
+      <p>© 2026 Jarrett Ye · <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="license noopener noreferrer">CC BY-NC-SA 4.0</a> · <a href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub 仓库</a> · <a href="/yuri-classification-archive/about/#使用边界">使用边界</a></p>
+    </div>
+  </footer>
+  <script>window.SITE_CONFIG = {basePath: "/yuri-classification-archive"};</script>
+  <script src="/yuri-classification-archive/assets/site.js?v=eeeec5872796" defer></script>
+
+</body>
+</html>

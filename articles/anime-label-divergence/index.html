@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="基于2026年8月2日修订的252部动画固定样本，比较Bangumi、Anime-Planet、AniList、MyAnimeList与官方材料的标签分歧。">
+  <meta name="description" content="以冻结发布选择为边界，比较 Bangumi、Anime-Planet、AniList 与 MyAnimeList 的标签字段，并把数据库信号与逐关系文本判断分开阅读。">
   <meta name="color-scheme" content="light dark">
   <meta id="theme-color-light" name="theme-color" media="(prefers-color-scheme: light)" content="#f5f0e8">
   <meta id="theme-color-dark" name="theme-color" media="(prefers-color-scheme: dark)" content="#1c181c">
@@ -42,12 +42,12 @@
   <link rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="百合作品分类档案">
-  <meta property="og:title" content="从女女关系到百合类型｜百合作品分类档案">
-  <meta property="og:description" content="基于2026年8月2日修订的252部动画固定样本，比较Bangumi、Anime-Planet、AniList、MyAnimeList与官方材料的标签分歧。">
+  <meta property="og:title" content="从女女关系到百合类型：四个平台画出不同的百合地图｜百合作品分类档案">
+  <meta property="og:description" content="以冻结发布选择为边界，比较 Bangumi、Anime-Planet、AniList 与 MyAnimeList 的标签字段，并把数据库信号与逐关系文本判断分开阅读。">
   <meta property="og:url" content="https://l-m-sherlock.github.io/yuri-classification-archive/articles/anime-label-divergence/">
   <meta property="og:image" content="https://l-m-sherlock.github.io/yuri-classification-archive/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
-  <title>从女女关系到百合类型｜百合作品分类档案</title>
-  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=d24d80e1b2e3">
+  <title>从女女关系到百合类型：四个平台画出不同的百合地图｜百合作品分类档案</title>
+  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=e68f78a2d1a9">
 <link rel="stylesheet" href="/yuri-classification-archive/assets/vendor/tabulator.min.css">
 </head>
 <body class="longform-article data-article">
@@ -94,26 +94,232 @@
   <main id="main-content">
     <article class="article-page">
   <header class="article-header">
-    <p class="eyebrow">DATA ESSAY · 固定样本分析</p>
-    <h1>从女女关系到百合类型：252 部动画的标签分歧</h1>
-    <p class="article-deck">同一批作品进入不同数据库时，标签为什么会分叉？答案首先来自平台字段承担的任务，而不是四次独立投票。</p>
-    <aside class="snapshot-notice"><strong>固定数据快照</strong><p>本文只解释截至 2026-08-02 修订的 252 部固定样本。它不会跟随当前公开总表自动重算，两个数字可能不同。</p></aside>
+    <p class="eyebrow">DATA ESSAY · 冻结样本分析</p>
+    <h1>从女女关系到百合类型：四个平台画出不同的百合地图</h1>
+    <p class="article-deck">以冻结发布选择为边界，比较 Bangumi、Anime-Planet、AniList 与 MyAnimeList 的标签字段，并把数据库信号与逐关系文本判断分开阅读。</p>
+    <aside class="snapshot-notice"><strong>冻结数据快照</strong><p>本文解释截至 2026-08-06 采集的 667 部合格作品；其范围由发布选择清单固定，不会随未来私有档案自动扩张。</p></aside>
   </header>
   <div class="article-layout">
     <aside class="article-toc">
       <p>本页目录</p>
-      <ol><li><a href="#一分钟结论">一分钟结论</a></li><li><a href="#这-252-部作品从哪里来">这 252 部作品从哪里来</a></li><li><a href="#如何读本文先把几个问题拆开">如何读本文：先把几个问题拆开</a></li><li><a href="#样本全景关系恋爱官方文字分别长什么样">样本全景：关系、恋爱、官方文字分别长什么样</a></li><li><a href="#问题一为什么四个平台不是四张选票">问题一：为什么四个平台不是四张选票</a></li><li><a href="#问题二恋爱越明确为什么仍没有统一分界">问题二：恋爱越明确，为什么仍没有统一分界</a></li><li><a href="#问题三有女女关系为什么不等于整部作品属于-gl">问题三：有女女关系，为什么不等于整部作品属于 GL</a></li><li><a href="#把三组发现放在一起">把三组发现放在一起</a></li><li><a href="#方法与限制">方法与限制</a></li><li><a href="#anime-snapshot-lookup">252 部作品查找表</a></li></ol>
+      <ol><li><a href="#一分钟结论">一分钟结论</a></li><li><a href="#样本与变量先说明正在回答哪一道题">样本与变量：先说明正在回答哪一道题</a></li><li><a href="#四个平台各自在画什么地图">四个平台各自在画什么地图</a></li><li><a href="#关系中心性与恋爱明确度同一部作品可以同时容纳多种关系">关系中心性与恋爱明确度：同一部作品可以同时容纳多种关系</a></li><li><a href="#平台交集与分歧一致只说明跨过了三套入口">平台交集与分歧：一致只说明跨过了三套入口</a></li><li><a href="#官方文字与平台标签资料来源不是第四个平台">官方文字与平台标签：资料来源不是第四个平台</a></li><li><a href="#按用途给结论比寻找唯一总标签更可靠">按用途给结论，比寻找唯一总标签更可靠</a></li><li><a href="#方法与限制">方法与限制</a></li><li><a href="#anime-snapshot-lookup">667 部作品查找表</a></li></ol>
     </aside>
     <div class="article-content">
-      <blockquote><p><strong>数据范围。</strong> 本文使用固定的 252 份动画版本档案：作品范围保留自 2026 年 8 月 1 日的快照，Bangumi、Anime-Planet、AniList、MyAnimeList 字段于 2026 年 8 月 2 日修订。修订只补正 Anime-Planet 的 GL 条目，不改变作品范围或文本分类。它比较的是一批已经进入“百合相关”讨论视野的作品，不是全体动画的随机样本。平台字段会变化；下文只解释这一个时间点，所有统计均为描述性结果，不能用来给平台判“对错”或替读者投票。</p></blockquote><p>同一部动画在不同数据库里，常常会得到看似互相冲突的答案：Bangumi 有不少人标“百合”，AniList 的 Yuri 相关度很高，Anime-Planet 却没有 GL，MyAnimeList 也没有 Girls Love。最省事的说法是“某个平台漏标了”；更有用的说法是先问：这些字段各自想替读者完成什么查询？</p><p>本文的答案是：它们并不在回答同一道题。平台标签、官方文字、作品中发生的事、读者想用什么条件找作品，彼此会相关，却不能互相替代。</p><h2 id="一分钟结论">一分钟结论</h2><p>第一，<strong>四个平台不是四张选票</strong>。Bangumi 的“百合”是用户自由标记；AniList 的 Yuri 数字是相关度；Anime-Planet 的 GL 和 MyAnimeList 的 Girls Love 更像固定的类型入口。它们的空白分别意味着“本次快照里没有这个字段”，而不是同一句“这不是百合”。</p><p>第二，<strong>恋爱写得越明确，平台标签通常越集中；但中间地带没有一条天然分界线</strong>。在本批作品中，最明确的一条女女关系从“非恋爱”走到“明确交往”时，Bangumi 百合标记比例的中位数由 5.50% 升至 15.41%。不过“明显但未确认”和“明确欲望”两组相距很近，且同一部作品可以同时有非恋爱主线关系与另一条明确恋爱关系。</p><p>第三，<strong>女女关系处于主线，不等于整部作品一定适合放进 GL 类型栏</strong>。252 部中有 231 部的女女关系处于叙事主线；但只有 150 部至少出现明显恋爱方向，75 部至少写出明确欲望，15 部在纳入范围内明确建立交往。关系重要性、恋爱事实和公共类型，是三个不同问题。</p><p>第四，<strong>官方材料也不该被压成一个“官方认证”开关</strong>。人工审核的材料中，15 部有“百合／GL”的字面表述，47 部有直接描述女女恋爱或明显恋爱方向的表述。两项可以重合，也可以只命中其一；“所核未见”只表示本次审核材料没有找到相应说法，不表示官方反对任何读法。</p><h2 id="这-252-部作品从哪里来">这 252 部作品从哪里来</h2><p>这不是“从所有动画里抽 252 部”。它是本项目在 2026 年 8 月 1 日固定下来的版本档案范围：同一企划的 TV、电影、WEB 动画等版本分开判断。后续档案复核会改变当前公开总表的资格，但不会倒灌进本文；因此，252 是这份专题快照的完整分母，不是仓库里所有候选名称的数量。</p><p>这批档案最初以 Bangumi 动画“百合”标签榜和若干相关作品清单为入口，之后继续按该标签榜的排序延伸审阅，直到《转生王女与天才千金的魔法革命》TV 版所在的位置。160 部来自此前已完成的快照，92 部是本轮延伸中新增完成的版本。这样的形成过程很适合观察：当作品已经进入百合讨论视野后，文本描述、官方文字和不同数据库会如何分叉；它不适合估计“全部动画有多少百合”，也不适合计算任何平台的查全率或准确率。</p><p>媒介也明显偏向电视动画：239 部 TV、11 部 WEB、1 部剧场动画、1 部剧场 OVA。发行时间从 1979 到 2026 年，中位发行年为 2016 年；197 部在 2010 年以后。这些分布是档案形成方式的结果，不是动画产业的缩影。</p><figure class="article-figure"><img src="/yuri-classification-archive/assets/articles/anime-label-divergence/00_dataset_overview.png" alt="样本概览：媒介、年代、女女关系位置与恋爱明确度" loading="lazy"><figcaption>图 1：样本偏向近年的 TV 动画，也偏向女女关系处于主线的作品。后两项来自正篇文本判断，不是数据库标签。</figcaption></figure><h2 id="如何读本文先把几个问题拆开">如何读本文：先把几个问题拆开</h2><p>日常推荐里的一句“这是百合”，可能同时指“女主角多为女性”“两名角色相爱”“官方用过百合一词”“数据库提供 GL 入口”“我从中读到女女关系”或“角色具有某种性取向身份”。这些说法并非必然冲突，但不能让一个短词替它们全部作答。下文使用的几个词，分别只回答一部分问题。</p><h3 id="女女关系及其叙事位置">女女关系及其叙事位置</h3><p>“女女关系”指作品中对分类有影响的两名或多名女性角色之间的关系；它可以是恋爱、友情、亲情、搭档、竞争、共同体，或几种关系交织。这里的“主线”表示这种关系是作品组织人物、冲突或情感变化的主要骨架；“重要副线”表示它很重要但不主导全作；“局部”表示它只在有限段落起作用。它不是性取向判断，也不等于每一条关系都是恋爱。</p><h3 id="恋爱位置与恋爱明确度">恋爱位置与恋爱明确度</h3><p>“恋爱位置”问的是：女女恋爱若存在，处在主线、重要副线、局部，还是本次纳入范围内没有出现。它与女女关系位置不同：一部群像作品可以把女女关系放在主线，却把恋爱放在重要副线；一部冒险作品也可以有一条明确交往的副线。</p><p>“恋爱明确度”则只看每部作品中<strong>最明确的一条女女关系</strong>，分为四级：</p><ol type="1"><li><strong>非恋爱</strong>：纳入范围内未建立恋爱方向。</li><li><strong>明显但未确认</strong>：存在持续的恋爱方向、爱意或相互选择，但没有达到直接确认欲望或交往的程度。</li><li><strong>明确欲望</strong>：明确说出喜欢、想亲近、求爱等，但未在范围内建立交往。</li><li><strong>明确交往</strong>：在纳入范围内明确成为恋人或以交往关系行动。</li></ol><p>这不是“百合程度”的总分，也不评价关系是否理想。把一部作品按最高阶段归组，方便统计，却不能代替逐关系阅读。</p><h3 id="官方文字精确条目与共同覆盖">官方文字、精确条目与共同覆盖</h3><p>官方材料只记录已经人工复核的公开说法，并分成两项查询：</p><ul><li><strong>官方字面百合／GL</strong>：至少一处材料直接写出“百合”或“GL”。</li><li><strong>官方女女恋爱表述</strong>：至少一处材料直接描述女女恋爱、恋人或明显的恋爱方向。</li></ul><p>两项回答不同问题。前者可能只是发行或网页的分类字样；后者可能出现在故事简介、角色页或宣传文案中，而完全不出现“百合”一词。所有 252 部的材料都已经审核；“所核未见”是本次材料没有命中，不是“官方否认”。</p><p>“精确条目”指数据库页面能够可靠对应本文分析的那个版本。没有精确条目时，数据是缺失，不应被写成“该平台有条目但没有标签”。“共同覆盖”则指 Anime-Planet、AniList 与 MyAnimeList 三者都有精确条目；只有在这组作品里，三库的有无标签才可直接并列。</p><h3 id="四个平台的字段并不相同">四个平台的字段并不相同</h3><div class="table-scroll"><table><thead><tr class="header"><th>平台或材料</th><th>本文读取的字段</th><th>它较接近回答什么</th><th>不应被推出什么</th></tr></thead><tbody><tr class="odd"><td>Bangumi</td><td>用户添加的“百合”标签比例</td><td>该站用户中有多大比例留下这一标签</td><td>作品的官方类型或角色身份</td></tr><tr class="even"><td>AniList</td><td>Yuri 相关度</td><td>社区认为 Yuri 与该条目有多相关</td><td>标签用户人数或正式类型认证</td></tr><tr class="odd"><td>Anime-Planet</td><td>精确 GL 标签</td><td>是否进入该站的 GL 类型入口</td><td>没有 GL 就等于否认女女关系</td></tr><tr class="even"><td>MyAnimeList</td><td>精确 Girls Love 类型</td><td>是否进入该站的 Girls Love 类型入口</td><td>没有该类型就等于文本中没有恋爱</td></tr><tr class="odd"><td>官方材料</td><td>字面词与恋爱表述</td><td>制作、发行或作品页面实际怎样说</td><td>作品细节或读者接受只能有一种答案</td></tr></tbody></table></div><h3 id="bangumi-百合标记比例与-spearman-相关">Bangumi 百合标记比例与 Spearman 相关</h3><p>Bangumi 的比例是“百合”标签人数除以想看、看过、在看、搁置、抛弃五种收藏状态用户总数。它不是“所有打标签的人中有多少人选百合”，也不是评分。原始标签人数更容易随作品用户规模变大，因此本文同时保留人数与比例。</p><p>文中提到的 Spearman 相关只比较两个指标的排序是否大体同向。它不证明一个平台影响了另一个平台，也不证明某项文本特征造成了某个标签。尤其在一批有意收集的相关作品中，相关系数只能描述这批档案。</p><h2 id="样本全景关系恋爱官方文字分别长什么样">样本全景：关系、恋爱、官方文字分别长什么样</h2><p>先看不涉及数据库的文本分布：231 部的女女关系在主线，20 部在重要副线，1 部仅为局部关系。恋爱位置则是 86 部主线、47 部重要副线、17 部局部、102 部缺席。两组数字不相同，正是因为“关系很重要”与“恋爱很重要”不是同一个判断。</p><p>按每部作品最明确的一条女女关系分组，102 部为非恋爱、75 部明显但未确认、60 部明确欲望、15 部明确交往。高门槛的角色身份字段也显示相同的必要区分：249 部没有独立的性取向身份依据；这不能被反推为异性恋，也不应由“作品是百合”或“角色与女性交往”自动补上身份标签。</p><p>官方材料与海外数据库的快照如下：</p><div class="table-scroll"><table><thead><tr class="header"><th>项目</th><th style="text-align: right;">2026-08-02 修订快照</th></tr></thead><tbody><tr class="odd"><td>全部已完成版本档案</td><td style="text-align: right;">252</td></tr><tr class="even"><td>官方字面百合／GL</td><td style="text-align: right;">15</td></tr><tr class="odd"><td>官方女女恋爱表述</td><td style="text-align: right;">47</td></tr><tr class="even"><td>Anime-Planet 有精确 GL</td><td style="text-align: right;">33／239</td></tr><tr class="odd"><td>AniList Yuri 相关度大于 0</td><td style="text-align: right;">115／245</td></tr><tr class="even"><td>MyAnimeList 有 Girls Love</td><td style="text-align: right;">28／247</td></tr><tr class="odd"><td>三库均有精确条目</td><td style="text-align: right;">234</td></tr><tr class="even"><td>三库共同覆盖且三者均无目标标签</td><td style="text-align: right;">120</td></tr><tr class="odd"><td>三库共同覆盖且三者均有目标标签</td><td style="text-align: right;">25</td></tr></tbody></table></div><p>三个海外数据库共同覆盖的 234 部中，120 部三库都没有目标字段，78 部只有 AniList，25 部三库都有，7 部是 Anime-Planet 与 AniList，3 部是 AniList 与 MyAnimeList，另有 1 部只有 Anime-Planet。这个结构先说明了系统差异，而不是 234 场“投票”分出了赢家。</p><h2 id="问题一为什么四个平台不是四张选票">问题一：为什么四个平台不是四张选票</h2><h3 id="标签覆盖差异首先是制度差异">标签覆盖差异首先是制度差异</h3><p>AniList 的 Yuri 相关度命中 115／245，仍多于 Anime-Planet 的 33／239 和 MyAnimeList 的 28／247。它显然更容易记录女女关系、明显但未确认的恋爱方向和非恋爱作品中的相关性；另外两站的精确类型字段则更接近窄一些的检索入口。这个差异可以帮助读者理解搜索结果，却不能替任何一站宣称“真正的定义”。</p><figure class="article-figure"><img src="/yuri-classification-archive/assets/articles/anime-label-divergence/01_platform_overlap.png" alt="三个海外数据库的标签覆盖与组合" loading="lazy"><figcaption>图 2：共同覆盖作品中，只有 AniList 命中的组合最多；缺失精确条目的作品不进入该图的组合计算。</figcaption></figure><h3 id="莉兹与青鸟与少女歌剧高度相关不等于进入-gl-类型栏">《莉兹与青鸟》与《少女☆歌剧》：高度相关不等于进入 GL 类型栏</h3><p>《<a href="https://liz-bluebird.com/" target="_blank" rel="noopener noreferrer">莉兹与青鸟</a>》只分析 2018 年剧场动画。两位少女的相互选择、距离感与重新理解彼此构成叙事中心，呈现明显但未确认的恋爱方向；Bangumi 百合标记比例为 13.72%，<a href="https://anilist.co/anime/100178/Liz-to-Aoi-Tori" target="_blank" rel="noopener noreferrer">AniList</a> Yuri 相关度为 82，<a href="https://www.anime-planet.com/anime/liz-and-the-blue-bird" target="_blank" rel="noopener noreferrer">Anime-Planet</a> 没有 GL，<a href="https://myanimelist.net/anime/35677/Liz_to_Aoi_Tori" target="_blank" rel="noopener noreferrer">MyAnimeList</a> 没有 Girls Love。</p><p>《<a href="https://revuestarlight.com/animation/tv/" target="_blank" rel="noopener noreferrer">少女☆歌剧 Revue Starlight</a>》只分析 2018 年 TV 第 1—12 话。少女之间的承诺、竞争、执着与重新选择构成骨架，中心关系也处于“明显但未确认”；Bangumi 比例为 13.17%，<a href="https://anilist.co/anime/98658/ShoujoKageki-Revue-Starlight" target="_blank" rel="noopener noreferrer">AniList</a> 相关度为 79，而 <a href="https://www.anime-planet.com/anime/revue-starlight" target="_blank" rel="noopener noreferrer">Anime-Planet</a> 与 <a href="https://myanimelist.net/anime/35503/Shoujo_Kageki_Revue_Starlight" target="_blank" rel="noopener noreferrer">MyAnimeList</a> 的目标字段为空。</p><p>这并不表示海外数据库在否认作品里的女女关系。准确说法是：在这个版本、这个时间点，它们没有进入两个较窄的类型入口；AniList 和 Bangumi 的字段记录了另一种相关性。用“有或无 GL”替代整段关系描述，反而会抹去真正值得说明的差异。</p><h3 id="小林家的龙女仆孤立例外比整齐故事更有价值">《小林家的龙女仆》：孤立例外比整齐故事更有价值</h3><p>共同覆盖样本中唯一“只有 Anime-Planet 有”的作品是《<a href="https://maidragon.jp/1st/" target="_blank" rel="noopener noreferrer">小林家的龙女仆</a>》2017 年 TV 第 1—13 话。正篇有直接的女女求爱与欲望表达，作品整体同时围绕共同生活、选择家庭和日常喜剧展开。Bangumi 比例为 9.09%，<a href="https://www.anime-planet.com/anime/miss-kobayashis-dragon-maid" target="_blank" rel="noopener noreferrer">Anime-Planet</a> 有 GL，<a href="https://anilist.co/anime/21776/Kobayashisan-Chi-no-Maidragon" target="_blank" rel="noopener noreferrer">AniList</a> 的 Yuri 相关度为 0，<a href="https://myanimelist.net/anime/33206/Kobayashi-san_Chi_no_Maid_Dragon" target="_blank" rel="noopener noreferrer">MyAnimeList</a> 没有 Girls Love。</p><p>一部作品不能证明某个站“更懂”哪种关系。它提醒我们，条目维护历史、版本对应、编辑阈值和社区实践都可能留下局部例外。把例外保留在图里，比为了讲出一个整齐趋势而删掉它更诚实。</p><h3 id="三库一致也不表示作品处于同一关系阶段">三库一致，也不表示作品处于同一关系阶段</h3><p>三库都给标签的 25 部作品并非同一类故事。以下三部都跨过三个数据库的入口，却分别处在明确欲望、明确交往与不同的叙事重心中：</p><div class="table-scroll"><table><thead><tr class="header"><th>作品与范围</th><th>本次文本描述</th><th>三库字段</th><th>能说明什么</th></tr></thead><tbody><tr class="odd"><td>《<a href="https://yagakimi.com/" target="_blank" rel="noopener noreferrer">终将成为你</a>》2018 TV 第 1—13 话</td><td>直接告白、接吻与持续求爱，范围内未建立交往</td><td><a href="https://www.anime-planet.com/anime/bloom-into-you" target="_blank" rel="noopener noreferrer">GL</a>／<a href="https://anilist.co/anime/101573/Yagate-Kimi-ni-Naru/" target="_blank" rel="noopener noreferrer">98</a>／<a href="https://myanimelist.net/anime/37786/Yagate_Kimi_ni_Naru" target="_blank" rel="noopener noreferrer">Girls Love</a></td><td>三库一致可发生在明确欲望阶段</td></tr><tr class="even"><td>《<a href="https://citrus-anime.com/" target="_blank" rel="noopener noreferrer">citrus</a>》2018 TV 第 1—12 话</td><td>双向回应后明确开始尝试交往</td><td><a href="https://www.anime-planet.com/anime/citrus" target="_blank" rel="noopener noreferrer">GL</a>／<a href="https://anilist.co/anime/97832" target="_blank" rel="noopener noreferrer">97</a>／<a href="https://myanimelist.net/anime/34382/Citrus" target="_blank" rel="noopener noreferrer">Girls Love</a></td><td>三库一致也可对应明确交往</td></tr><tr class="odd"><td>《<a href="https://bangumi.tv/subject/2829" target="_blank" rel="noopener noreferrer">糖果男孩</a>》2008 WEB 正片</td><td>女女恋爱欲望明确，但不需要官方字面命中才进入三库</td><td><a href="https://www.anime-planet.com/anime/candy-boy" target="_blank" rel="noopener noreferrer">GL</a>／<a href="https://anilist.co/anime/3755/Candy-Boy/" target="_blank" rel="noopener noreferrer">94</a>／<a href="https://myanimelist.net/anime/3755/Candy-Boy" target="_blank" rel="noopener noreferrer">Girls Love</a></td><td>平台一致不等于官方用过同一个词</td></tr></tbody></table></div><p>平台一致只能说明这些作品在当时跨过了三个站各自的入口，不能替读者省略关系阶段、内容提示或媒介范围。</p><h3 id="官方文字不是第四张反对票">官方文字不是第四张反对票</h3><p>《<a href="http://www.saki-anime.com/1st/" target="_blank" rel="noopener noreferrer">天才麻将少女</a>》TV 与《<a href="http://saki-anime.com/achiga/" target="_blank" rel="noopener noreferrer">天才麻将少女 阿知贺篇</a>》的范围内页面 HTML 元数据都出现“百合”，因此命中官方字面查询；审核材料没有直接描述女女恋爱的表述，所以另一项为“所核未见”。这不让它们自动变成“明确交往”作品，也不使其他未用字面词的作品失去女女关系。</p><p>反过来，《<a href="https://tenten-kakumei.com/" target="_blank" rel="noopener noreferrer">转生王女与天才千金的魔法革命</a>》2023 年 TV 第 1—12 话有直接的官方女女恋爱表述，却没有字面“百合／GL”命中；它在 <a href="https://anilist.co/anime/153629/Tensei-Oujo-to-Tensai-Reijou-no-Mahou-Kakumei/" target="_blank" rel="noopener noreferrer">AniList</a> 的 Yuri 相关度为 91、<a href="https://www.anime-planet.com/anime/the-magical-revolution-of-the-reincarnated-princess-and-the-genius-young-lady" target="_blank" rel="noopener noreferrer">Anime-Planet</a> 有 GL、<a href="https://myanimelist.net/anime/52736/Tensei_Oujo_to_Tensai_Reijou_no_Mahou_Kakumei" target="_blank" rel="noopener noreferrer">MyAnimeList</a> 有 Girls Love。它原先的 Anime-Planet 字段为“无精确条目”；这次修订说明，条目恢复会改变平台比较的资格，却不会改写作品关系或官方文字。</p><h3 id="原始标签人数与比例讲的是两种热度">原始标签人数与比例讲的是两种热度</h3><p>Bangumi 原始“百合”标签人数与收藏用户规模的 Spearman 相关为 0.677；比例与收藏用户规模的相关只有 -0.111。前者说明热门作品容易累积更多标签人数，后者则把“在该作品收藏用户中留下百合标签的浓度”单独显示出来。两者都可用于导航，却不能互相替代。</p><figure class="article-figure"><img src="/yuri-classification-archive/assets/articles/anime-label-divergence/04_bangumi_popularity_correction.png" alt="Bangumi 标签声量与标签浓度" loading="lazy"><figcaption>图 3：左图的原始人数会随用户规模上升；右图的比例大体不随用户规模增加。两图都不评价作品。</figcaption></figure><h2 id="问题二恋爱越明确为什么仍没有统一分界">问题二：恋爱越明确，为什么仍没有统一分界</h2><h3 id="两端差异清楚中间地带高度重叠">两端差异清楚，中间地带高度重叠</h3><p>按每部作品最明确的一条女女关系分组，Bangumi 百合标记比例的中位数形成从 5.50%、8.99%、9.37% 到 15.41% 的梯度。明确交往组最高；非恋爱组最低；但中间两组的差距很小，四组内部也有很宽的四分位区间。换言之，恋爱明确度能解释一部分标签差异，不能单独决定标签。</p><figure class="article-figure"><img src="/yuri-classification-archive/assets/articles/anime-label-divergence/02_explicitness_gradient.png" alt="恋爱明确度与 Bangumi 百合标签浓度" loading="lazy"><figcaption>图 4：圆点为中位数，横线为中间一半作品的比例范围。它不是把作品排成“更百合”或“较不百合”的梯子。</figcaption></figure><h3 id="三个海外数据库沿同一方向上升但上升时点不同">三个海外数据库沿同一方向上升，但上升时点不同</h3><div class="table-scroll"><table><thead><tr class="header"><th>最明确的一条女女关系</th><th style="text-align: right;">样本数</th><th style="text-align: right;">Bangumi 比例中位数</th><th style="text-align: right;">Anime-Planet GL</th><th style="text-align: right;">AniList Yuri</th><th style="text-align: right;">MyAnimeList Girls Love</th></tr></thead><tbody><tr class="odd"><td>非恋爱</td><td style="text-align: right;">102</td><td style="text-align: right;">5.50%</td><td style="text-align: right;">0／95</td><td style="text-align: right;">22／99</td><td style="text-align: right;">0／99</td></tr><tr class="even"><td>明显但未确认</td><td style="text-align: right;">75</td><td style="text-align: right;">8.99%</td><td style="text-align: right;">4／71</td><td style="text-align: right;">39／71</td><td style="text-align: right;">2／73</td></tr><tr class="odd"><td>明确欲望</td><td style="text-align: right;">60</td><td style="text-align: right;">9.37%</td><td style="text-align: right;">19／59</td><td style="text-align: right;">42／60</td><td style="text-align: right;">16／60</td></tr><tr class="even"><td>明确交往</td><td style="text-align: right;">15</td><td style="text-align: right;">15.41%</td><td style="text-align: right;">10／14</td><td style="text-align: right;">12／15</td><td style="text-align: right;">10／15</td></tr></tbody></table></div><p>AniList 在明显但未确认阶段已命中 39／71；Anime-Planet 与 MyAnimeList 则在明确欲望、明确交往时才显著上升。这是字段设计和维护习惯的描述，不是某个站对关系价值的裁决。它也解释了为何只找“明确女女恋爱”的读者，常会觉得 AniList 的结果宽一些，而只用 GL/Girls Love 的读者会得到更窄、但仍不完全一致的结果。</p><figure class="article-figure"><img src="/yuri-classification-archive/assets/articles/anime-label-divergence/03_platform_rates_by_explicitness.png" alt="四级恋爱明确度下的数据库标签率" loading="lazy"></figure><h3 id="两个社区有排序收敛但不能解释成因果">两个社区有排序收敛，但不能解释成因果</h3><p>在 AniList 有精确条目的作品中，Bangumi 百合标记比例与 AniList Yuri 相关度的 Spearman 相关为 0.608。这个数值说明两种社区字段在这批作品上有可见的排序收敛：Bangumi 标签比例较高的作品，往往也有较高的 AniList 相关度。但它没有告诉我们谁影响谁，也不能排除它们都在回应同一批较容易识别的作品特征。</p><figure class="article-figure"><img src="/yuri-classification-archive/assets/articles/anime-label-divergence/05_convergence_and_text_structure.png" alt="社区标签的跨语言收敛与文本关系差异" loading="lazy"><figcaption>图 5：散点呈现排序上的大体同向；右侧同时提醒，女女关系的重要性与恋爱明确度是两条轴。</figcaption></figure><h3 id="同一作品可以有多组不同关系">同一作品可以有多组不同关系</h3><p>《<a href="https://www.nonnontv.com/tvanime/" target="_blank" rel="noopener noreferrer">悠哉日常大王</a>》2013 年 TV 第 1—12 话的整体结构是乡村日常、友情、亲情与共同生活；同时，有角色对另一名女性呈现持续且明确的单向恋爱欲望。因此它的“最明确关系”是明确欲望，恋爱位置却只是重要副线。该版本的 Bangumi 比例为 3.57%，三库目标字段均为空。</p><p>《暴力宇宙海贼》2012 年 TV 第 1—26 话则以少女船长的成长、航行与群像冒险为主，其中一对女性角色明确相爱并以恋人关系行动，但这段关系属于重要副线；Bangumi 比例为 6.91%，<a href="https://www.anime-planet.com/anime/bodacious-space-pirates" target="_blank" rel="noopener noreferrer">Anime-Planet</a>、<a href="https://anilist.co/anime/8917/Mouretsu-Pirates/" target="_blank" rel="noopener noreferrer">AniList</a> 与 <a href="https://myanimelist.net/anime/8917/Mouretsu_Pirates" target="_blank" rel="noopener noreferrer">MyAnimeList</a> 的目标字段均为空。</p><p>这两个案例说明，“按最高阶段分组”是统计工具，不是完整推荐。前者不能因一条明确欲望就被介绍成主线恋爱；后者不能因有明确恋人就被介绍成以 GL 为主要类型入口的作品。</p><h2 id="问题三有女女关系为什么不等于整部作品属于-gl">问题三：有女女关系，为什么不等于整部作品属于 GL</h2><h3 id="关系事实关系重要性与作品类型是三个问题">关系事实、关系重要性与作品类型是三个问题</h3><p>231 部作品的女女关系处于主线，但只有 150 部至少存在明显恋爱方向，75 部至少出现明确欲望，15 部明确交往。若把“女女关系主线”直接翻译为“都是 GL”，会把大量非恋爱群像、共同体、竞争与亲密友情压成同一条恋爱查询；若反过来只保留明确交往，也会丢掉读者确实想找的明显恋爱方向和重要关系。</p><p>这并不要求大家接受一个无限宽的类型栏。更准确的做法是让公共类型服务它的检索目标，同时把文本轴额外展示出来：读者可选择只看明确交往，也可选择接受未确认方向，或只找女女关系本身处于主线的作品。不同入口可以重叠，不能互相冒充。</p><h3 id="三库沉默的-120-部并不是同一种沉默">三库沉默的 120 部，并不是同一种沉默</h3><p>234 部三库共同覆盖作品中，120 部没有任何目标字段；其中 107 部的女女关系仍在叙事主线，104 部是按正篇文本归入作品分类的档案。这不是“数据库漏掉了 107 部明确女女恋爱”的证据。</p><p>这些沉默作品中，有 70 部在本次范围内没有建立恋爱方向，31 部只有明显但未确认的方向，17 部有明确欲望，2 部有明确交往。最后两类值得读者留意：它们说明即使关系事实足够明确，关系可能仍处于副线，或作品的整体类型并不以 GL 为入口。数据库的类型字段在回答“这部作品放进什么书架”，而不是逐条宣布所有关系事实。</p><h3 id="六种读者查询比一个总标签更实用">六种读者查询，比一个总标签更实用</h3><p>这一批档案可以直接生成六个彼此重叠的查询入口：</p><div class="table-scroll"><table><thead><tr class="header"><th>读者想找什么</th><th style="text-align: right;">命中数</th><th>它回答的有限问题</th></tr></thead><tbody><tr class="odd"><td>明确交往</td><td style="text-align: right;">15</td><td>范围内至少一条女女关系明确建立交往</td></tr><tr class="even"><td>明确女女欲望</td><td style="text-align: right;">75</td><td>至少一条关系写出明确欲望或明确交往</td></tr><tr class="odd"><td>接受未确认方向</td><td style="text-align: right;">150</td><td>允许明显但未确认、明确欲望与明确交往</td></tr><tr class="even"><td>女女关系主线</td><td style="text-align: right;">231</td><td>女女关系是叙事骨架，不承诺恋爱已确认</td></tr><tr class="odd"><td>官方字面百合／GL</td><td style="text-align: right;">15</td><td>审核材料实际用了“百合”或“GL”</td></tr><tr class="even"><td>官方女女恋爱表述</td><td style="text-align: right;">47</td><td>审核材料直接描述女女恋爱或明显恋爱方向</td></tr></tbody></table></div><p>例如，“只找已经交往的角色”应从第一行开始，而不是用 Bangumi 标签比例筛选；“可以接受未确认但要关系居中”可以把第三行与第四行组合；“只要官方文字里确实有百合一词”则用第五行。这样的提问比先争一个唯一总定义更容易给出可复核的推荐。</p><h3 id="作品类型不能替角色声明性取向">作品类型不能替角色声明性取向</h3><p>角色性取向身份、作品类型和关系事实交叉但不等同。资料范围内，绝大多数角色没有独立的身份自述或官方设定；即使有明确女女欲望或交往，也不自动补写为某个现代身份标签。反过来，没有自述也不等于异性恋。把这三种信息分开，既能避免以广义阅读抹去明确的女女欲望，也能避免为了便于分类而替角色签发不存在的身份说明。</p><h2 id="把三组发现放在一起">把三组发现放在一起</h2><p>这批数据并没有裁定“百合”的唯一边界。它更像一次反向提醒：一个短词常被要求同时完成文本描述、文类检索、官方出处、社区记忆与身份政治，难免在不同平台上被压缩成不同形状。</p><p>对推荐者而言，最小而实用的改动是先写清查询，而不是先宣布结论。可以说“女女关系处于主线，恋爱未确认”；可以说“有明确女女欲望，但不是主线恋爱”；可以说“官方使用百合一词，但范围内未见直接恋爱表述”；也可以说“这是读者基于文本的百合阅读，不是官方确认”。这些说法比单独一句“算／不算”更长，但能让读者决定自己是否需要这部作品。</p><p>对数据库维护者而言，单一 GL 开关天然会损失信息。它不必因此无限扩张，却可以与恋爱明确度、关系位置、官方文字、内容提示等可组合字段并存。对讨论者而言，平台差异不是把对方打成“错误”的捷径；更好的问题是：这个标签在这个入口，帮助谁找到什么，又会让谁误以为自己将得到什么？</p><h2 id="方法与限制">方法与限制</h2><p>本文的文本判断优先依赖各档案纳入范围内的正篇材料；女女关系位置、恋爱位置和最明确关系分别记录。数据库字段与官方材料只作为外部对照，不参与“多数票”裁决。官方两项查询只读取已人工审核的公开表述，不从题名、数据库标签或剧情关键词倒推。</p><p>数字冻结于 2026 年 8 月 2 日。作品范围沿用 8 月 1 日的 252 部固定样本；本次逐项核验并补正 62 个原先未决的 Anime-Planet 字段，得到 49 个精确条目（其中 4 个有 GL、45 个无 GL）与 13 个无精确条目。Anime-Planet 只认精确 GL，MyAnimeList 只认精确 Girls Love，AniList 的数字只称相关度；无法可靠对应的条目一律视为缺失，不计作无标签。Bangumi 百合标记比例的分母是五种收藏状态用户总数，而不是自定义标签用户总数。</p><p>最后，任何公共标签都不能替代完整观看。本文的四级恋爱明确度只描述关系在本次范围内走到哪里，不评价关系价值；“女女关系主线”只描述叙事位置，不保证没有男性角色或男性恋爱线；官方“所核未见”与数据库字段为空都不是对读者解读的否定。让分类服务读者，而不是让读者服从分类，才是这份表格最实际的用途。</p>
+      <blockquote>
+<p><strong>样本范围。</strong> 本文以 Bangumi 动画“百合”标签榜为作品入口，纳入榜单中排名高于《BanG Dream! Ave Mujica》及《BanG Dream! Ave Mujica》本身的动画版本。榜单只证明这些作品被用户纳入“百合”检索路径，不证明其正篇存在女女恋爱，也不代表官方类型认定。专题统计只使用既定发布基线内完成版本核对、文本分类与质量校验的作品；基线外作品不在本次扩容中补入，证据仍不闭合的版本继续隔离。</p>
+</blockquote>
+<p>本专题的统一数据日期为 2026 年 8 月 6 日。冻结候选共 719 个动画版本，既定发布基线为其中 693 个；质量复核后 <strong>667 个</strong><!-- -->进入本专题，基线内另有 26 个继续隔离，其余 26 个不在既定发布基线内。同一企划的 TV、电影、OVA、WEB 等版本分别判断，候选边界不吸收此后新增条目。下文的比例、交集、分组、六张图与文末查找表都来自同一份 667 行数据快照。</p>
+<p>同一部动画在不同数据库里，常会得到看似冲突的结果：Bangumi 有大量用户标“百合”，AniList 的 Yuri 相关度很高，Anime-Planet 却没有 GL，MyAnimeList 也没有 Girls Love。把这理解成四个平台在回答同一道“是不是百合”，问题就会变成一场多数决；先问每个字段服务什么查询，分歧才开始提供信息。</p>
+<p>借用 Eliezer Yudkowsky 对<a href="/yuri-classification-archive/articles/yuri-definition-map/">类别词作为有损压缩</a>的分析，本项目先把“是不是百合”拆成可观察变量；借用李佾学关于<a href="/yuri-classification-archive/articles/yuri-definition-map/">动态关系、平台架构与公共标签</a>的框架，再追问这些变量在作品、官方材料与检索系统中分别怎样运作。两套框架都只提供分析工具，不替任何作品盖章。</p>
+<h2 id="一分钟结论">一分钟结论</h2>
+<ol type="1">
+<li><strong>四个平台不是四张选票。</strong> Bangumi 的用户标签人数与比例、Anime-Planet 的 GL 类型入口、AniList 的 Yuri 相关度、MyAnimeList 的 Girls Love 类型字段，记录的是四种不同制度下的信号。</li>
+<li><strong>女女关系中心性、女女恋爱明确度和公共类型是不同变量。</strong> 667 部中有 611 部的女女关系处于主线；其中仍有 197 部在范围内未建立女女恋爱方向。反过来，明确恋爱也可能只位于重要副线。</li>
+<li><strong>恋爱越明确，平台标签通常越集中，但不存在天然单一门槛。</strong> Bangumi 标签比例中位数从非恋爱组的 5.62% 上升到明确交往组的 14.58%；三个海外数据库的标注率也整体上升，但中间组高度重叠，明确交往作品仍会出现平台分叉。</li>
+<li><strong>空白不是剧情否定。</strong> 平台有精确条目但没有目标字段、平台没有精确条目、官方材料“所核未见”，是三种不同状态；它们都不能单独证明正篇不存在女女关系或恋爱。</li>
+</ol>
+<h2 id="样本与变量先说明正在回答哪一道题">样本与变量：先说明正在回答哪一道题</h2>
+<h3 id="女女关系位置与女女恋爱位置不能互相代填">女女关系位置与女女恋爱位置不能互相代填</h3>
+<p>“女女关系”包括恋爱、友情、亲情、照护、搭档、竞争、共同体，以及多种形态的交织。它在作品中的位置分为主线、重要副线、局部、缺席或未知。“女女恋爱位置”另行记录恋爱若存在时位于主线、重要副线还是局部；范围内没有恋爱方向时记为缺席。</p>
+<p>因此，一部作品可以把女性共同体放在主线，却完全不建立恋爱方向；也可以在主要冒险或群像之外，安排一对已经交往的女性角色。关系是否重要、关系是否恋爱、恋爱是否主导全作，不能用同一列表示。</p>
+<p>男性恋爱线也另行记录，只用于推荐筛选和版本说明。“女女关系处于主线”不保证作品没有男性角色或男性恋爱线；反过来，出现男性恋爱副线也不会自动抹去女女关系或女女恋爱事实。这个字段不能被改造成判断作品“纯不纯”的门槛。</p>
+<h3 id="最高明确度是逐关系聚合不是百合程度总分">最高明确度是逐关系聚合，不是“百合程度总分”</h3>
+<p>本专题先逐组关系判断，再取每部作品中最明确的一条女女关系，形成四个有序组：</p>
+<ol type="1">
+<li><strong>非恋爱</strong>：范围内未建立女女恋爱方向。</li>
+<li><strong>明显但未确认</strong>：有持续的恋爱指向、爱意或相互选择，但未达到直接欲望表达或交往确认。</li>
+<li><strong>明确欲望</strong>：直接表达喜欢、求爱、想亲近等欲望，但范围内未建立交往。</li>
+<li><strong>明确交往</strong>：至少一组女女关系在范围内明确成为恋人或以交往关系行动。</li>
+</ol>
+<p>另有“未知”，表示材料不足以进入这条有序梯度，不是第五级。最高明确度也不说明是哪一组关系达到该级，更不表示所有关系都相同。例如《<a href="/yuri-classification-archive/works/yagate_kimi_ni_naru_tv_2018/">终将成为你</a>》TV 版的中心二人关系在范围内仍未建立对等交往，但作品同时写有已经成立或曾经成立的女性伴侣关系，所以整部作品的逐关系最高值是“明确交往”。</p>
+<h3 id="官方文字角色身份与数据库条目各有自己的证据门槛">官方文字、角色身份与数据库条目各有自己的证据门槛</h3>
+<p>官方材料分成两项查询：是否字面使用“百合／GL”，以及是否直接描述女女恋爱或明显恋爱方向。“所核未见”只表示本次核对的材料没有找到该表述，不等于官方否认。</p>
+<p>角色身份另看身份自述或官方身份设定。明确恋爱、与女性交往、作品被标为百合，都不能自动替角色补写性取向标签。本样本只有 5 部出现明确身份自述，另有 2 部具有官方身份设定依据；其余 660 部即使存在明确关系，也没有达到这两类身份证据门槛。</p>
+<p>海外数据库还必须先确认是否存在与本专题版本精确对应的条目。<code>no_exact_entry</code> 是缺失状态，不是“该站有条目且没有标签”；因此它不会被放进“未标”组合。</p>
+<h3 id="百合归档依据与质量状态不能混同">百合归档依据与质量状态不能混同</h3>
+<p>“百合归档依据”记录本项目在公开分类层面把版本归为作品分类、读者解读、非百合还是证据不足。667 部中，587 部为作品分类，51 部为读者解读，10 部为非百合，19 部为证据不足。这个分布直接说明：进入 Bangumi “百合”检索路径后，仍可能得到不同的文本与公共分类结论。</p>
+<p>这里的“证据不足”是完成版本核对与质量复核后，对当前范围能够作出的有限结论，不等于档案仍未完成；开篇所说继续隔离的，是版本、文本或质量证据尚未闭合、因而没有资格进入本专题分母的对象。“非百合”也只回答本项目的公共分类查询，不表示作品中必然没有重要女女关系。</p>
+<figure class="article-figure"><img src="/yuri-classification-archive/assets/articles/anime-label-divergence/00_dataset_overview.png" alt="样本媒介、年代、关系位置与明确度概览" loading="lazy"><figcaption>图 1：667 个版本以 TV 和 2010 年后的作品为主；611 部的女女关系处于主线，但最高明确度从非恋爱到明确交往均有分布。</figcaption></figure>
+<p>图 1 最重要的不是“主线”数量大，而是主线没有替恋爱作答：611 部主线作品中，197 部仍属于非恋爱组。《<a href="/yuri-classification-archive/works/yuru_camp_tv_2018/">摇曳露营△</a>》把女性伙伴、共同出行与社群照护放在主线，范围内却未建立恋爱方向；这正是关系中心性与恋爱明确度必须分轴的理由。</p>
+<h2 id="四个平台各自在画什么地图">四个平台各自在画什么地图</h2>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>平台</th>
+<th>本文读取的字段</th>
+<th>它能证明什么</th>
+<th>不能推出什么</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bangumi</td>
+<td>“百合”标签人数；该人数占五种收藏状态人数之和的比例；Rank</td>
+<td>该版本在本站用户标签中的声量、浓度与站内排序</td>
+<td>官方类型、角色身份或用户共识</td>
+</tr>
+<tr>
+<td>Anime-Planet</td>
+<td>精确条目的 GL 标签</td>
+<td>该版本是否进入本站 GL 类型入口</td>
+<td>没有 GL 就是平台否认女女关系</td>
+</tr>
+<tr>
+<td>AniList</td>
+<td>精确条目的 Yuri 相关度</td>
+<td>本站认为 Yuri 与该版本有多相关</td>
+<td>相关度等于用户人数或正式类型认证</td>
+</tr>
+<tr>
+<td>MyAnimeList</td>
+<td>精确条目的 Girls Love 类型</td>
+<td>该版本是否进入本站 Girls Love 类型入口</td>
+<td>没有该类型就表示正篇没有恋爱</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="bangumi用户标签的声量与浓度">Bangumi：用户标签的声量与浓度</h3>
+<p>Bangumi 原始人数回答“有多少用户留下了‘百合’标签”；比例则以该人数除以想看、看过、在看、搁置、抛弃五种收藏状态人数之和，回答“相对于该作品的收藏用户规模，这个标签有多集中”。Rank、收藏用户规模、标签人数与标签比例是四个不同指标。它们都可用于导航，却不是社群表决结果。</p>
+<h3 id="anime-planet较窄的-gl-类型入口">Anime-Planet：较窄的 GL 类型入口</h3>
+<p>Anime-Planet 在 618 个精确条目中有 65 个 GL，命中率为 10.5%。无精确条目的 49 个版本不进入这个分母，也不被记成“无 GL”。该字段适合寻找进入本站 GL 分类入口的作品，不足以覆盖所有女女关系中心或存在女女恋爱的文本。</p>
+<h3 id="anilist允许表达强弱的-yuri-相关度">AniList：允许表达强弱的 Yuri 相关度</h3>
+<p>AniList 在 657 个精确条目中有 270 个 Yuri 相关度大于 0，命中率为 41.1%。相关度能够保留“很相关”和“略有关联”的差别，因此比二元类型字段更容易容纳未确认方向、共同体关系或类型边缘；但它仍是平台字段，不是作品关系的直接测量。</p>
+<h3 id="myanimelist固定的-girls-love-类型字段">MyAnimeList：固定的 Girls Love 类型字段</h3>
+<p>MyAnimeList 在 659 个精确条目中有 58 个 Girls Love，命中率为 8.8%。它与 Anime-Planet 都像较窄的类型入口，却不共享一套编辑阈值；两个字段相同或不同，都不能被解释成两张独立的文本判决。</p>
+<figure class="article-figure"><img src="/yuri-classification-archive/assets/articles/anime-label-divergence/01_platform_overlap.png" alt="三个海外数据库精确条目的标签交集" loading="lazy"><figcaption>图 2：三库共同覆盖 616 部；363 部三库均无目标字段，179 部仅 AniList 命中，45 部三库均命中。无精确条目的版本不进入组合。</figcaption></figure>
+<p>图 2 显示的是平台制度差异，不是 616 场投票。《<a href="/yuri-classification-archive/works/shoujo_kageki_revue_starlight_tv_2018/">少女☆歌剧 Revue Starlight</a>》TV 版的关系与恋爱方向都处于主线，AniList Yuri 相关度为 79，而 Anime-Planet 与 MyAnimeList 的目标字段均为空；准确描述是“仅 AniList 命中”，不是另外两站否认了正篇关系。</p>
+<h2 id="关系中心性与恋爱明确度同一部作品可以同时容纳多种关系">关系中心性与恋爱明确度：同一部作品可以同时容纳多种关系</h2>
+<p>667 部中，女女关系处于主线的有 611 部，重要副线 43 部，局部 4 部，缺席 1 部，未知 8 部。恋爱位置却是主线 176 部、重要副线 145 部、局部 61 部、缺席 210 部、未知 75 部。两组分布差异很大，因为女性关系主导作品，不等于恋爱主导作品。</p>
+<p>反方向的例子也存在：最高明确度为明确交往的 28 部中，有 3 部的女女关系只处于重要副线；明确欲望组还有 18 部处于重要副线。《<a href="/yuri-classification-archive/works/mouretsu_uchuu_kaizoku_tv_2012/">暴力宇宙海贼</a>》的明确女女交往位于重要副线，三库精确条目又都没有目标字段。恋爱事实已经成立，仍不必把整部作品的主类型压缩成 Girls Love。</p>
+<p>逐关系记录还显示，561 部包含性质不同的多组关系，93 部以单一主要关系记录为主；另有 6 部包含性质一致的多组关系，7 部没有适用关系记录。友情、共同体、竞争、照护和恋爱可以在一部作品里同时成立；取最高明确度只是为了比较，不能把其他关系从作品中删除。</p>
+<figure class="article-figure"><img src="/yuri-classification-archive/assets/articles/anime-label-divergence/02_explicitness_gradient.png" alt="恋爱明确度与 Bangumi 百合标签比例" loading="lazy"><figcaption>图 3：四个有序明确度组的 Bangumi 标签比例中位数依次为 5.62%、8.51%、9.08% 和 14.58%；横线为四分位区间。未知组不进入这条梯度。</figcaption></figure>
+<p>两端的差异明显，中间却没有天然闸门。“明显但未确认”组的四分位区间为 5.39%—11.08%，“明确欲望”组为 5.09%—12.71%，大幅重叠。《<a href="/yuri-classification-archive/works/lycoris_recoil_tv_2022/">莉可丽丝</a>》属于明显但未确认组，Bangumi 比例为 13.03%，高于不少明确欲望或明确交往作品；单作比例不能反推关系阶段。</p>
+<figure class="article-figure"><img src="/yuri-classification-archive/assets/articles/anime-label-divergence/03_platform_rates_by_explicitness.png" alt="各恋爱明确度组的平台标注率" loading="lazy"><figcaption>图 4：恋爱越明确，三个海外数据库的标注率整体越高；分母只包含该组在对应平台有精确条目的作品。</figcaption></figure>
+<p>明确交往组的 Anime-Planet、AniList、MyAnimeList 标注率分别为 15／23、22／27、17／27，明显高于非恋爱组的 0／202、43／208、1／209。不过平台上升的时点不同：AniList 在明显但未确认组已命中 105／226，另外两站分别只有 15／213 与 10／227。趋势支持“明确性增加会促进收敛”，却不支持用某一级作为所有平台共同的天然门槛。</p>
+<h2 id="平台交集与分歧一致只说明跨过了三套入口">平台交集与分歧：一致只说明跨过了三套入口</h2>
+<p>三库共同覆盖的 616 部共有六种实际组合：三库均无 363 部，仅 AniList 179 部，三库均有 45 部，Anime-Planet 与 AniList 19 部，AniList 与 MyAnimeList 9 部，仅 Anime-Planet 1 部。组合数量高度不对称，首先反映字段设计与维护实践不同。</p>
+<p>要看清平台分歧，最好先固定一项文本变量。以下四部的逐关系最高明确度都是“明确交往”，三个海外数据库却形成从三库命中到三库均未命中的四种结果：</p>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>作品与版本</th>
+<th>女女恋爱位置</th>
+<th style="text-align: right;">Anime-Planet</th>
+<th style="text-align: right;">AniList</th>
+<th style="text-align: right;">MyAnimeList</th>
+<th style="text-align: right;">命中数</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>《<a href="/yuri-classification-archive/works/citrus_tv_2018/">citrus</a>》2018 TV</td>
+<td>主线</td>
+<td style="text-align: right;">GL</td>
+<td style="text-align: right;">97</td>
+<td style="text-align: right;">Girls Love</td>
+<td style="text-align: right;">3</td>
+</tr>
+<tr>
+<td>《<a href="/yuri-classification-archive/works/asagao_to_kase_san_ova_2018/">牵牛花与加濑同学。</a>》2018 OVA</td>
+<td>主线</td>
+<td style="text-align: right;">GL</td>
+<td style="text-align: right;">99</td>
+<td style="text-align: right;">无</td>
+<td style="text-align: right;">2</td>
+</tr>
+<tr>
+<td>《<a href="/yuri-classification-archive/works/gundam_witch_from_mercury_season_1_tv_2022/">机动战士高达 水星的魔女</a>》第一季</td>
+<td>主线</td>
+<td style="text-align: right;">无</td>
+<td style="text-align: right;">76</td>
+<td style="text-align: right;">无</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>《<a href="/yuri-classification-archive/works/mouretsu_uchuu_kaizoku_tv_2012/">暴力宇宙海贼</a>》2012 TV</td>
+<td>重要副线</td>
+<td style="text-align: right;">无</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">无</td>
+<td style="text-align: right;">0</td>
+</tr>
+</tbody>
+</table></div>
+<p>这组对照不是给平台排对错，而是说明同样达到明确交往，也不存在由文本阶段自动推出的平台组合。《暴力宇宙海贼》的恋爱位于重要副线，还进一步显示：数据库类型字段往往压缩整部作品的主要入口，而不是逐条登记其中所有关系事实。</p>
+<p>反过来，三库一致也没有把关系阶段统一起来。45 部三库均命中的作品中，14 部最高为明确交往，23 部为明确欲望，6 部为明显但未确认，另有 2 部仍是未知。平台收敛只说明作品跨过了三套入口，不能替读者补写关系走到了哪里。</p>
+<p>反向的稀有例外同样值得保留。共同覆盖作品中唯一“仅 Anime-Planet 命中”的是《<a href="/yuri-classification-archive/works/vlad_love_web_2021/">吸血鬼之爱</a>》：女女关系与恋爱方向都处于主线，最高明确度为明显但未确认，官方材料直接描述女女恋爱；Anime-Planet 有 GL，AniList 相关度为 0，MyAnimeList 没有 Girls Love。一部孤例不能证明哪一站更懂作品，却能阻止把 Anime-Planet 或 MyAnimeList 简单理解成 AniList 的窄版子集。</p>
+<p>三库均未标也不等于“没有女女关系”，而且 363 部内部并不是同一种空白：158 部为非恋爱，111 部明显但未确认，40 部有明确欲望，5 部有明确交往，49 部未知。也就是说，其中 156 部至少存在明显恋爱方向，45 部已经达到明确欲望或交往；同时仍有 327 部的女女关系位于叙事主线。《<a href="/yuri-classification-archive/works/shoujo_shuumatsu_ryokou_tv_2017/">少女终末旅行</a>》以共同生存、照护与相互依赖构成非恋爱主线，表中的《暴力宇宙海贼》则在重要副线写出明确恋人。两端都说明，平台空白与文本判断回答的不是同一道题。</p>
+<figure class="article-figure"><img src="/yuri-classification-archive/assets/articles/anime-label-divergence/04_bangumi_popularity_correction.png" alt="Bangumi 标签人数、比例与用户规模" loading="lazy"><figcaption>图 5：原始“百合”标签人数与收藏用户规模明显同向；换成五种收藏状态人数为分母后，这种同向关系大幅减弱。</figcaption></figure>
+<p>Bangumi 原始标签人数与收藏用户规模的 Spearman 相关为 <strong>0.764</strong>，标签比例与收藏用户规模的相关为 <strong>-0.169</strong>。前者说明热门作品更容易积累更多标签人数，后者则显示比例没有随用户规模同步上升。《莉可丽丝》有 5,273 个“百合”标签、比例 13.03%；《摇曳露营△》有 3,777 个、比例 9.43%。人数与比例都是真实导航信号，却不能互换，更不能把人数写成用户公投。</p>
+<figure class="article-figure"><img src="/yuri-classification-archive/assets/articles/anime-label-divergence/05_convergence_and_text_structure.png" alt="平台收敛程度、文本关系与典型例外" loading="lazy"><figcaption>图 6：左图比较 Bangumi 标签比例与 AniList Yuri 相关度；右图把女女关系位置与最高明确度交叉。相关只描述排序同向程度。</figcaption></figure>
+<p>Bangumi 标签比例与 AniList Yuri 相关度的 Spearman 相关为 <strong>0.462</strong>，说明两种社区信号在本样本中有中等程度的排序同向，但不能证明一站影响另一站。右图则再次显示：主线作品同时分布在非恋爱、明显但未确认、明确欲望与明确交往四组。两幅图并列的意义，是让平台收敛和文本关系保持可比较、不可代换。</p>
+<h2 id="官方文字与平台标签资料来源不是第四个平台">官方文字与平台标签：资料来源不是第四个平台</h2>
+<p>667 部的官方材料均完成结构化复核：36 部有字面“百合／GL”，126 部有直接女女恋爱表述。两项交叉后，25 部两者都有，11 部只有字面词，101 部只有恋爱表述，530 部两者均为“所核未见”。这四格不是从关键词猜测，而是两个不同查询的结果。</p>
+<p>《<a href="/yuri-classification-archive/works/tensei_oujo_to_tensai_reijou_no_mahou_kakumei_tv_2023/">转生王女与天才千金的魔法革命</a>》TV 版的官方材料直接描述女女恋爱，却没有字面“百合／GL”；它同时得到 Anime-Planet GL、AniList 91 与 MyAnimeList Girls Love。《<a href="/yuri-classification-archive/works/saki_tv_2009/">天才麻将少女</a>》则命中官方字面词，所核材料未见直接女女恋爱表述。两例说明“官方用了类型词”和“官方描述了恋爱事实”不能互相代填。</p>
+<p>另一方向也同样重要：数据库可以记录相关性，而官方材料只谈友情、搭档或共同体，甚至两项都“所核未见”。《摇曳露营△》在 AniList 的 Yuri 相关度为 40，官方两项均为“所核未见”，正篇分类仍是女女关系主线、非恋爱。这里没有哪一层需要否定另一层；只需把各自能证明的范围说清。</p>
+<p>“所核未见”尤其不能改写成“官方否认”。前者是有限材料中的未命中，后者需要一条明确的否定性官方表述。把两者混同，会用资料边界制造一项从未出现的事实。</p>
+<h2 id="按用途给结论比寻找唯一总标签更可靠">按用途给结论，比寻找唯一总标签更可靠</h2>
+<p>当前数据快照可以直接生成六个彼此重叠的基础入口：明确交往 28 部，明确欲望或交往 152 部，接受明显但未确认方向 382 部，女女关系主线 611 部，官方字面“百合／GL”36 部，官方女女恋爱表述 126 部。这些数字不能相加；同一版本可以同时命中多项，读者还需要继续组合恋爱位置、男性恋爱线与内容提示。</p>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>查询用途</th>
+<th>优先查看</th>
+<th>不宜使用的捷径</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>普通作品推荐</td>
+<td>关系位置、恋爱位置、内容提示、男性恋爱线，再结合平台标签导航</td>
+<td>只按一个平台的有无字段决定是否推荐</td>
+</tr>
+<tr>
+<td>严格明确恋爱检索</td>
+<td>明确欲望／明确交往，并回看是哪一组关系、是否互惠、是否处于主线</td>
+<td>把逐关系最高值当成主角关系或全作总分</td>
+</tr>
+<tr>
+<td>女女关系中心作品检索</td>
+<td>女女关系主线，另行选择是否接受非恋爱或未确认方向</td>
+<td>用 GL 类型字段代替关系中心性</td>
+</tr>
+<tr>
+<td>数据库类型维护</td>
+<td>先核精确版本，再记录字段；把 <code>no_exact_entry</code> 与有条目未标分开</td>
+<td>把缺失条目写成平台否认</td>
+</tr>
+<tr>
+<td>角色身份检索</td>
+<td>身份自述、官方身份设定及证据范围</td>
+<td>从作品类型、关系对象或交往事实自动推断身份</td>
+</tr>
+<tr>
+<td>私人百合阅读</td>
+<td>说明自己读到的关系形象、符码和用途</td>
+<td>把私人阅读直接等同于官方事实或公共唯一分类</td>
+</tr>
+</tbody>
+</table></div>
+<p>狭义使用者希望保护明确女女恋爱检索的精度，广义使用者希望保存非恋爱女性关系、共同体与读者发现的可见性；两种目标都可以被公平描述。真正的越界发生在让其中一项查询替其他查询作答。开放口径不等于“什么都算”，严格检索也不要求把范围外的关系宣布为不存在。</p>
+<h2 id="方法与限制">方法与限制</h2>
+<ul>
+<li>这不是全体动画的随机样本，而是从 Bangumi “百合”标签检索路径进入、再通过版本与质量门槛的作品集合；不能据此估计动画总体中的百合比例，也不能计算平台的查全率或准确率。</li>
+<li>每行是一个精确动画版本，不是整个企划。TV、电影、OVA、WEB 之间的关系、官方文字与数据库字段不能互相倒灌。</li>
+<li>平台字段是 2026 年 8 月 6 日统一 source 中的快照，会随条目维护而变化；本专题只描述该时点，不给平台判“对错”。</li>
+<li>Spearman 相关只描述本样本中的排序同向程度，不证明因果；平台字段、官方材料和文本事实也不是相互独立的票数。</li>
+<li>逐关系最高明确度为统计压缩。具体推荐仍应回到关系记录、范围、互惠性、叙事位置和内容提示。</li>
+<li>官方“所核未见”受已复核材料范围约束，不能推出官方否认、角色为异性恋或读者解读无效。</li>
+</ul>
+<p>“百合”仍然可以是好用的书架标签、检索入口和阅读语言。它的价值来自为某项查询节省了多少工作，而不是取得了多少终审权。四个平台画出的不是四份判决，而是四张比例、入口、相关度与类型字段各不相同的地图；作品中的关系则始终比任何一张地图更细。</p>
 <section class="article-section snapshot-section" id="作品查找表">
   <div class="snapshot-heading">
     <div>
       <p class="eyebrow">FIXED DATASET LOOKUP</p>
-      <h2 id="anime-snapshot-lookup">252 部作品查找表</h2>
-      <p>表内数据固定于 2026-08-02，只服务本文的历史分析，不会随着当前分类总表自动增减。</p>
+      <h2 id="anime-snapshot-lookup">667 部作品查找表</h2>
+      <p>表内数据固定于 2026-08-06，与本文使用同一份发布选择和来源快照，不会随着未来私有档案自动增减。</p>
     </div>
-    <p class="snapshot-count" id="snapshot-count" aria-live="polite">当前显示 252 / 252</p>
+    <p class="snapshot-count" id="snapshot-count" aria-live="polite">当前显示 667 / 667</p>
   </div>
 
   <div class="snapshot-filters" aria-label="作品查找表筛选">
@@ -125,38 +331,28 @@
       <span>最高明确度</span>
       <select id="snapshot-explicitness">
         <option value="">全部</option>
-        <option value="explicit_relationship">明确交往</option>
-        <option value="explicit_desire">明确欲望但未确认交往</option>
-        <option value="potential_or_strongly_coded">明显恋爱方向但未确认</option>
-        <option value="non_romantic">范围内未建立恋爱方向</option>
+        <option value="explicit_relationship">明确交往</option><option value="explicit_desire">明确欲望</option><option value="potential_or_strongly_coded">明显但未确认</option><option value="non_romantic">非恋爱</option><option value="unknown">未知</option>
       </select>
     </label>
     <label>
       <span>女女关系位置</span>
       <select id="snapshot-relationship">
         <option value="">全部</option>
-        <option value="主线">主线</option>
-        <option value="重要副线">重要副线</option>
+        <option value="主线">主线</option><option value="重要副线">重要副线</option><option value="局部">局部</option><option value="缺席">缺席</option><option value="未知">未知</option>
       </select>
     </label>
     <label>
       <span>恋爱位置</span>
       <select id="snapshot-romance">
         <option value="">全部</option>
-        <option value="主线">主线</option>
-        <option value="重要副线">重要副线</option>
-        <option value="局部">局部</option>
-        <option value="缺席">缺席</option>
+        <option value="主线">主线</option><option value="重要副线">重要副线</option><option value="局部">局部</option><option value="缺席">缺席</option><option value="未知">未知</option>
       </select>
     </label>
     <label>
       <span>男性恋爱线</span>
       <select id="snapshot-male-romance">
         <option value="">全部</option>
-        <option value="无">无</option>
-        <option value="副线">副线</option>
-        <option value="并行">并行</option>
-        <option value="主导">主导</option>
+        <option value="无">无</option><option value="副线">副线</option><option value="主导">主导</option><option value="未知">未知</option><option value="并行">并行</option>
       </select>
     </label>
     <button class="snapshot-reset" id="snapshot-reset" type="button">重置筛选</button>
@@ -166,9 +362,15 @@
     id="snapshot-table"
     class="snapshot-table"
     data-source="/yuri-classification-archive/data/articles/anime-label-divergence.json"
-    aria-label="252 部动画固定快照查找表"
+    aria-label="667 部动画固定快照查找表"
   ></div>
+  <div class="snapshot-downloads" aria-label="作品查找表下载">
+    <a class="button small secondary" href="/yuri-classification-archive/data/articles/anime-label-divergence.csv" download>下载完整快照 CSV</a>
+    <button class="button small secondary" id="snapshot-download-csv" type="button">下载当前筛选 CSV</button>
+    <button class="button small secondary" id="snapshot-download-xlsx" type="button">下载当前筛选 XLSX</button>
+  </div>
   <noscript><p class="snapshot-noscript">启用 JavaScript 后可使用这份固定快照查找表。</p></noscript>
+  <script src="/yuri-classification-archive/assets/vendor/xlsx.full.min.js" defer></script>
 </section>
 
       <aside class="article-license"><strong>署名与许可</strong><p>本文署名为 Jarrett Ye，采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="license noopener noreferrer">CC BY-NC-SA 4.0</a> 许可。</p></aside>
@@ -180,7 +382,7 @@
   <div>
     <p class="eyebrow">ARTICLE FEEDBACK</p>
     <h2>提交数据或解释修订</h2>
-    <p>请注明作品版本、平台字段、快照日期和可公开核查的来源。平台后续改动不会回写这份历史快照，但可以作为新版本研究线索。</p>
+    <p>请注明作品版本、平台字段、快照日期和可公开核查的来源。平台后续改动不会回写本次冻结快照，但可以作为新版本研究线索。</p>
   </div>
   <div class="giscus"></div>
 <div class="giscus-config"
@@ -210,6 +412,6 @@
   </footer>
   <script>window.SITE_CONFIG = {basePath: "/yuri-classification-archive"};</script>
   <script src="/yuri-classification-archive/assets/site.js?v=eeeec5872796" defer></script>
-<script src="/yuri-classification-archive/assets/article.js?v=960db8a82584" defer></script><script src="/yuri-classification-archive/assets/vendor/tabulator.min.js"></script><script src="/yuri-classification-archive/assets/snapshot-table.js?v=0c09062ae284" defer></script>
+<script src="/yuri-classification-archive/assets/article.js?v=960db8a82584" defer></script><script src="/yuri-classification-archive/assets/vendor/tabulator.min.js"></script><script src="/yuri-classification-archive/assets/snapshot-table.js?v=1e71b3e4115c" defer></script>
 </body>
 </html>

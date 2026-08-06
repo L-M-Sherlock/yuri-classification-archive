@@ -1,0 +1,366 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="这是一部以 ASMR 与日常笑料为中心的三分钟 TV 短篇。官方故事介绍把浅草ゆり、蔵前ぱんだ和她们的朋友置于突然变成人头麦克风的“俺クン”旁边；在这种群像喜剧框架中，ゆり—ぱんだ是最居中的女性关系。官方称两人为难以摆脱的亲友，同时用ぱんだ对ゆり的在意、吃味和“喜欢还是怎么说”的文字留下方向性。结尾字幕又把巧克……">
+  <meta name="color-scheme" content="light dark">
+  <meta id="theme-color-light" name="theme-color" media="(prefers-color-scheme: light)" content="#f5f0e8">
+  <meta id="theme-color-dark" name="theme-color" media="(prefers-color-scheme: dark)" content="#1c181c">
+  <script>
+    (() => {
+      document.documentElement.classList.add("js");
+      const storageKey = "yuri-classification-theme";
+      const allowed = new Set(["system", "light", "dark"]);
+      let preference = "system";
+      try {
+        const stored = localStorage.getItem(storageKey);
+        if (allowed.has(stored)) preference = stored;
+      } catch (_error) {
+        preference = "system";
+      }
+      const systemDark = window.matchMedia?.("(prefers-color-scheme: dark)").matches;
+      const theme = preference === "system"
+        ? (systemDark ? "dark" : "light")
+        : preference;
+      document.documentElement.dataset.theme = theme;
+      document.documentElement.dataset.themePreference = preference;
+      document.documentElement.style.colorScheme = theme;
+      const lightMeta = document.getElementById("theme-color-light");
+      const darkMeta = document.getElementById("theme-color-dark");
+      if (preference === "system") {
+        lightMeta.content = "#f5f0e8";
+        darkMeta.content = "#1c181c";
+      } else {
+        const color = theme === "dark" ? "#1c181c" : "#f5f0e8";
+        lightMeta.content = color;
+        darkMeta.content = color;
+      }
+    })();
+  </script>
+  <link rel="canonical" href="https://l-m-sherlock.github.io/yuri-classification-archive/works/aru_asa_dummy_head_mic_tv_2022/">
+  <link rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="百合作品分类档案">
+  <meta property="og:title" content="《某天早上变成人头麦克风的我君的人生》分类报告｜百合作品分类档案">
+  <meta property="og:description" content="这是一部以 ASMR 与日常笑料为中心的三分钟 TV 短篇。官方故事介绍把浅草ゆり、蔵前ぱんだ和她们的朋友置于突然变成人头麦克风的“俺クン”旁边；在这种群像喜剧框架中，ゆり—ぱんだ是最居中的女性关系。官方称两人为难以摆脱的亲友，同时用ぱんだ对ゆり的在意、吃味和“喜欢还是怎么说”的文字留下方向性。结尾字幕又把巧克……">
+  <meta property="og:url" content="https://l-m-sherlock.github.io/yuri-classification-archive/works/aru_asa_dummy_head_mic_tv_2022/">
+  <meta property="og:image" content="https://l-m-sherlock.github.io/yuri-classification-archive/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+  <title>《某天早上变成人头麦克风的我君的人生》分类报告｜百合作品分类档案</title>
+  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=e68f78a2d1a9">
+
+</head>
+<body class="classification-report">
+  <a class="skip-link" href="#main-content">跳到正文</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="/yuri-classification-archive/">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>
+          <strong>百合作品分类档案</strong>
+          <small>按查询拆开标签，按证据保留边界</small>
+        </span>
+      </a>
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-navigation"
+      >
+        <span>菜单</span>
+        <span class="menu-toggle-icon" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-navigation" aria-label="主导航">
+        <div class="nav-main">
+          <a href="/yuri-classification-archive/">首页</a>
+          <a href="/yuri-classification-archive/table/">总表</a>
+          <a href="/yuri-classification-archive/articles/">专题</a>
+          <a href="/yuri-classification-archive/about/">方法与说明</a>
+        </div>
+        <a class="nav-star" href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub / Star <span aria-hidden="true">↗</span></a>
+        <a class="nav-feedback" href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
+        <label class="theme-control" for="theme-preference">
+          <span>主题</span>
+          <select id="theme-preference" aria-label="主题偏好">
+            <option value="system">跟随系统</option>
+            <option value="light">浅色</option>
+            <option value="dark">深色</option>
+          </select>
+        </label>
+      </nav>
+    </div>
+  </header>
+  <main id="main-content">
+    <article class="report-page">
+  <header class="report-header">
+    <p class="eyebrow">TV 动画 · 2026-08-04</p>
+    <h1>《某天早上变成人头麦克风的我君的人生》分类报告</h1>
+    <p class="report-subtitle">Bangumi subject 391672 所对应、2022 年播出的 TV 短篇动画《ある朝ダミーヘッドマイクになっていた俺クンの人生》正式第 01–12 话；该 TV 版的全 12 话第三方英文 ASS 文字，以及官方站的作品介绍与人物页</p>
+    <div class="label-strip" aria-label="分类摘要">
+      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>作品分类</span><span class="label-chip"><strong>女女恋爱位置：</strong>主线</span><span class="label-chip"><strong>女女关系最高明确度：</strong>潜在／明显但未确认</span><span class="label-chip"><strong>官方字面百合／GL：</strong>所核未见</span><span class="label-chip"><strong>官方女女恋爱表述：</strong>是</span><span class="label-chip"><strong>官方来源：</strong>层级：当前版本；位置：剧情／角色页、可见作品宣传</span><span class="label-chip"><strong>结论置信度：</strong>中<span class="inline-help" tabindex="0" aria-label="查看结论置信度说明" aria-describedby="report-confidence-help"><span aria-hidden="true">?</span><span class="term-tooltip" id="report-confidence-help" role="tooltip">表示当前锁定范围内，现有证据对本报告主要分类结论的支持稳定度；它不是百合程度、作品质量、社群共识或统计概率。</span></span></span>
+    </div>
+    <a class="back-link" href="/yuri-classification-archive/table/?q=%E6%9F%90%E5%A4%A9%E6%97%A9%E4%B8%8A%E5%8F%98%E6%88%90%E4%BA%BA%E5%A4%B4%E9%BA%A6%E5%85%8B%E9%A3%8E%E7%9A%84%E6%88%91%E5%90%9B%E7%9A%84%E4%BA%BA%E7%94%9F">← 返回总表并定位本作</a>
+  </header>
+  <div class="report-layout">
+    <aside class="report-toc">
+      <p>本页目录</p>
+      <ol><li><a href="#低剧透概览">低剧透概览</a></li><li><a href="#数据库与公开分类">数据库与公开分类</a></li><li><a href="#决定性文本证据">决定性文本证据</a></li><li><a href="#四层分析">四层分析</a></li><li><a href="#最强反方解释">最强反方解释</a></li><li><a href="#分用途结论">分用途结论</a></li><li><a href="#方法来源与限制">方法、来源与限制</a></li></ol>
+    </aside>
+    <div class="report-content">
+      <blockquote>
+<p>分类日期：2026-08-04<br> 分类对象：2022 年 TV 短篇动画《ある朝ダミーヘッドマイクになっていた俺クンの人生》正式第 01–12 话<br> 纳入范围：全 12 话第三方英文 ASS 字幕文字与官方作品、人物资料<br> 排除范围：音声商品、其他跨媒介材料、未取得的画面与配音信息<br> 用途：普通推荐与数据库分类</p>
+</blockquote>
+<h2 id="低剧透概览">低剧透概览</h2>
+<aside class="alert alert-note"><strong>说明</strong><div class="alert-content"><p><strong>分类信息提示：</strong> 本节不展开关键剧情、转折与结局，但分类信息本身会透露关系类型、叙事位置和恋爱明确度。希望完全盲看的读者请跳过本页。</p></div></aside>
+
+<p>这是一部以 ASMR 与日常笑料为中心的三分钟 TV 短篇。官方故事介绍把浅草ゆり、蔵前ぱんだ和她们的朋友置于突然变成人头麦克风的“俺クン”旁边；在这种群像喜剧框架中，ゆり—ぱんだ是最居中的女性关系。官方称两人为难以摆脱的亲友，同时用ぱんだ对ゆり的在意、吃味和“喜欢还是怎么说”的文字留下方向性。结尾字幕又把巧克力、旁观者的点破与一个被片尾打断的表达连起来。</p>
+<p>这些材料适合把本作归入女性关系主线、潜在恋爱指向的作品分类，但不等于二人已经交往或相互告白。关系的可证实方向在ぱんだ一侧；ゆり的回应没有被字幕建立。另一条つるぎ—うめ的官方人物设定也有单向、局部的潜在指向。所核官方页没有把本作标为百合或 GL，角色身份同样没有明示。男性叙述者和“男友”笑料存在，但纳入范围并未建立可归类为男性恋爱线的关系，因此该轴保持未知。置信度为中等：集数覆盖完整，决定性台词来自第三方英文字幕，且没有画面复核。</p>
+<h3 id="分层标签">分层标签</h3>
+<blockquote>
+<p><strong>女女关系层级：主线｜百合归档依据：作品分类｜恋爱位置：主线｜最高明确度：潜在恋爱｜关系构成：多组异质关系｜官方字面：所核未见｜官方恋爱表述：是（人物页的方向性描述）｜官方来源：TV 官方站的作品介绍与人物页｜阅读层级：正篇事实／强推断／读者解读｜身份依据类型：只有关系推断｜男性恋爱线：未知｜内容提示：带性暗示的 ASMR 笑料、亲吻游戏与未完成的感情表达</strong></p>
+</blockquote>
+<h3 id="严格恋爱检索提示">严格恋爱检索提示</h3>
+<p>只寻找双方明说恋爱、完成告白、正式交往、相互亲吻或身份明示的读者，不应把本作列入满足条件的结果。第 11 话的亲吻对象是无生命麦克风，结尾的关键句被片尾打断；两者都不能替代两位女性间的完成式事件。</p>
+<p>接受单向喜欢、嫉妒式亲密、官方人物设定中的方向性以及未完成告白铺垫的读者可以考虑本作。它尤其适合查询“女性亲友关系如何被写出恋爱化可能”，不适合被压缩成“已成一对”的推荐。</p>
+<h2 id="数据库与公开分类">数据库与公开分类</h2>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>来源</th>
+<th>条目与字段</th>
+<th>来源类型</th>
+<th>本报告如何使用</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>官方站</td>
+<td>ASMR 原创短篇介绍、ゆり—ぱんだ的朋友关系、ぱんだ对ゆり的方向性、つるぎ对うめ的在意</td>
+<td>官方作品与人物资料</td>
+<td>固定 TV 范围与人物设定；只记录资料实际表达的程度</td>
+</tr>
+<tr>
+<td>Bangumi subject 391672</td>
+<td>TV、12 话、2022-10-12 与社区“百合”标签</td>
+<td>社区数据库</td>
+<td>对齐冻结队列和媒介范围；标签不作为官方认证或恋爱完成证明</td>
+</tr>
+<tr>
+<td>AniList anime 152207</td>
+<td>TV_SHORT、12 话、标题与完成状态</td>
+<td>编辑数据库</td>
+<td>交叉定位同一部短篇 TV 动画，不作为关系证据</td>
+</tr>
+<tr>
+<td>AnimeTosho 系列附件页</td>
+<td>第 01–12 话英文 ASS 附件</td>
+<td>字幕资料库</td>
+<td>提供连续文字材料；候选批次标题不参与关系判断</td>
+</tr>
+</tbody>
+</table></div>
+<blockquote>
+<p>数据库沉默写“未标”，不能写成“否认”；标签权重、计数和站点数量不能换算成社群支持率。</p>
+</blockquote>
+<aside class="alert alert-warning"><strong>剧透提示</strong><div class="alert-content"><p>以下部分包含该动画的完整剧透。</p></div></aside>
+
+      <details class="spoiler-panel">
+        <summary>
+          <span>展开详细证据（含完整剧透）</span>
+          <small>决定性证据、四层分析、反方解释与方法限制</small>
+        </summary>
+        <div class="spoiler-content">
+          <h2 id="决定性文本证据">决定性文本证据</h2>
+<p>英文引句来自第三方 ASS；中文为本报告自行翻译或转述，非官方中文译文。时间码只定位字幕文字，未作视听复核。</p>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>位置</th>
+<th>原文与中文摘要</th>
+<th>叙事层级</th>
+<th>证据强度与视听复核</th>
+<th>能证明什么</th>
+<th>不能证明什么</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>官方人物页</td>
+<td>ぱんだ是ゆり的“腐れ縁の親友”；她对ゆり“喜欢还是怎么说”，当ゆり与别人太亲近会不舒服。</td>
+<td>官方人物设定</td>
+<td>直接；网页文字资料</td>
+<td>亲友关系与ぱんだ指向ゆり的官方描述</td>
+<td>不能由含混措辞确认交往、完成告白、ゆり回应或角色身份</td>
+</tr>
+<tr>
+<td>官方人物页</td>
+<td>つるぎ在意小巧可爱的うめ，却因想保持帅气而难以说出口。</td>
+<td>官方人物设定</td>
+<td>直接；网页文字资料</td>
+<td>一条局部、单向的女性方向性设定</td>
+<td>“在意”不自动等于恋爱事实、告白、交往或相互欲望</td>
+</tr>
+<tr>
+<td>第 11 话 00:01:50.680–00:02:36.600</td>
+<td>游戏要求ゆり向人头麦克风“热情地亲吻”；ゆり强调对象是无生命物，ぱんだ说吻应只与喜欢的人做。</td>
+<td>游戏台词</td>
+<td>直接；第三方英文字幕文字定位，未作视听复核</td>
+<td>ぱんだ将亲吻与喜欢对象相联系</td>
+<td>不是ゆり与ぱんだ之间的亲吻，也不能证明她们交往</td>
+</tr>
+<tr>
+<td>第 12 话 00:01:20.520–00:01:46.780</td>
+<td>俺クン问ぱんだ是否喜欢ゆり；ぱんだ说ゆり对自己没有感觉，俺クン也称未见“恋爱的眼神”。</td>
+<td>人物对话</td>
+<td>直接；第三方英文字幕文字定位，未作视听复核</td>
+<td>旁观者点破、巧克力与ぱんだ预期无回应的语境</td>
+<td>不能把旁观者的断言当作ぱんだ完成的自白，也不能把ゆり的感情判为不存在</td>
+</tr>
+<tr>
+<td>第 12 话 00:02:45.890–00:02:57.800</td>
+<td>ぱんだ对ゆり说“我有话要说”“对我来说，你一直……”，片尾随即开始。</td>
+<td>人物对话被片尾打断</td>
+<td>直接；第三方英文字幕文字定位，未作视听复核</td>
+<td>未完成的告白式铺垫</td>
+<td>字幕没有完成句或ゆり回应，不能写成已经告白、互惠、交往或结局确认</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="四层分析">四层分析</h2>
+<h3 id="第一层文本中的关系">第一层：文本中的关系</h3>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>关系 ID</th>
+<th>关系／参与者</th>
+<th>类型</th>
+<th>叙事位置</th>
+<th>恋爱明确度</th>
+<th>相互性</th>
+<th>证据层级</th>
+<th>摘要</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>r01</td>
+<td>浅草ゆり—蔵前ぱんだ</td>
+<td>友情、恋爱</td>
+<td>主线</td>
+<td>潜在恋爱</td>
+<td>单向</td>
+<td>正篇事实、强推断</td>
+<td>官方写出难以摆脱的亲友与ぱんだ的吃味；结尾把巧克力、无回应预期和未完成表达连在一起。</td>
+</tr>
+<tr>
+<td>r02</td>
+<td>鐘ヶ淵つるぎ—虎ノ門うめ</td>
+<td>其他</td>
+<td>局部</td>
+<td>潜在恋爱</td>
+<td>单向</td>
+<td>正篇事实、强推断</td>
+<td>官方写つるぎ在意うめ却难以说出口；资料没有写出她们的相互关系或后续落实。</td>
+</tr>
+</tbody>
+</table></div>
+<p>ゆり—ぱんだ的直接事实首先是亲友关系，而非官方已确认的情侣关系。官方人物文字所说的“喜欢还是怎么说”和对他人靠近的吃味，给出ぱんだ一侧的方向；第 12 话进一步把她准备巧克力、担心ゆり没有恋爱感情、以及话到一半的表达放在同一段。将这些信号读成ぱんだ对ゆり的潜在恋爱指向，是有材料支撑的强推断，不是凭角色同框作出的归类。</p>
+<p>相互性必须更窄地写。字幕没有给出ゆり的对等表达，也没有让ぱんだ把未说完的话说完；“她没有以恋爱的眼神看你”还是旁观角色和ぱんだ的判断，不能替ゆり作内心报告。第 11 话的亲吻游戏尤其需要保留对象：ゆり亲的是麦克风，ぱんだ的反应可说明其亲吻观念，却不是两人发生亲吻的证据。つるぎ—うめ只在官方人物设定中有局部的方向性，不能被拿来给主关系加上不存在的互惠。</p>
+<h3 id="第二层作品的文类位置">第二层：作品的文类位置</h3>
+<p>女性关系位于主线，是因为官方故事设置首先并置ゆり与ぱんだ及其日常，而第 12 话将ぱんだ对ゆり的关系问题安排在短篇收束处；并非因为其他人物或男性叙述者不存在。恋爱问题也处于主线，但最高只能写到潜在恋爱：本作没有完成女女交往或互相告白的文字证据。短篇喜剧、ASMR 企划和关系提示可以同时构成它的文类位置，不需互相取代。</p>
+<p>归档依据是作品分类，而不是把官方站的沉默改写成否认。官方资料没有使用百合或 GL 的字面标签，却主动将两条女性方向性写入人物设定；全话文字也让其中一条关系进入结尾。男性“俺クン”的观察视角和关于男友的笑料不足以建立一条可追踪的男性恋爱线，故不能把“未建立”写成“没有”。这样的分轴既保留检索价值，也不让一个标签替关系宣布完成状态。</p>
+<h3 id="第三层角色身份">第三层：角色身份</h3>
+<p>所纳入的官方资料和字幕没有任何角色以性取向、性别认同或固定身份词自称。ぱんだ对ゆり的方向性、つるぎ对うめ的在意，以及ゆり可能没有恋爱回应，都是关系层面的材料；它们不能推出角色在更广泛生活中的身份。即使将ぱんだ的表达理解为喜欢女性，也只能说明这一段指向，不足以把她标为任何已明示身份。</p>
+<p>身份检索应保留“未知”，并给用户更可观察的替代变量：官方如何命名关系、谁对谁表现出吃味、哪些台词被片尾打断、谁没有给出对等回应。这样不会把潜在恋爱抹成纯友谊，也不会让文类分类冒充角色自我定义。</p>
+<h3 id="第四层公共标签礼仪">第四层：公共标签礼仪</h3>
+<p>官方查询可以准确写成：官方站把本作作为 ASMR 原创短篇介绍，并在人物页给出朋友关系和方向性描述；所核页面没有百合或 GL 的字面标签。数据库记录则可以写女性关系主线、潜在恋爱、单向指向、身份未知与男性恋爱线未知。这样的组合比单一标签更能保护想找明确情侣的读者，也保留想找女性关系中心作品的读者。</p>
+<p>普通推荐应先说清三分钟 ASMR 喜剧的形式与单向、未完成的关系线；严格检索应排除它的“已互相确认”结果；私人阅读可以把ぱんだ的吃味、巧克力和未完表达读作百合指向，但不应把这种阅读发布成ゆり已经回应或官方已经确认。公共标签服务不同查询，是地图而不是关系判决书。</p>
+<h2 id="最强反方解释">最强反方解释</h2>
+<p>最有力的较窄读法是：官方首先把ゆり—ぱんだ称为亲友；“喜欢还是怎么说”可以被读作没有命名的占有欲或喜剧性吃味；第 12 话中，直接问出“你喜欢ゆり吗”的是俺クン，真正的句子又在片尾前中断。按这一读法，本作不能作为完成的女女恋爱叙事推荐，つるぎ—うめ也只能算人物资料中的模糊兴趣。</p>
+<p>这一反方解释能阻止把两条关系升级成情侣或角色身份，却不能抹去官方特意放入的方向性文字、ぱんだ自己对无回应的担忧，以及结尾安排的未完表达。报告因此保留“潜在、单向、未完成”三个限制，而不把亲友名称或片尾打断改写成关系完全没有恋爱意义。</p>
+<h2 id="分用途结论">分用途结论</h2>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>用途</th>
+<th>分类</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>普通作品推荐</td>
+<td>可推荐为 ASMR 短篇喜剧中女性亲友关系居中、含单向潜在恋爱指向的作品；应先提示成人叙述视角与性暗示笑料。</td>
+</tr>
+<tr>
+<td>数据库主标签</td>
+<td>女性关系主线；潜在恋爱；单向指向；角色身份未知；男性恋爱线未知。</td>
+</tr>
+<tr>
+<td>严格明确恋爱检索</td>
+<td>不纳入完成告白、双方正式交往、女女亲吻或身份明示的结果。</td>
+</tr>
+<tr>
+<td>私人百合阅读</td>
+<td>可以；ぱんだ对ゆり的吃味、巧克力与未完表达提供阅读依据，但ゆり回应未建立。</td>
+</tr>
+<tr>
+<td>角色身份检索</td>
+<td>不纳入任何已明示性取向或身份的结果。</td>
+</tr>
+<tr>
+<td>官方分类查询</td>
+<td>官方站可证实 ASMR 短篇与人物方向性；所核页面未见百合或 GL 的字面标签。</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="方法来源与限制">方法、来源与限制</h2>
+<ul>
+<li><strong>正篇材料。</strong> AnimeTosho 的 [zgnrips] 英文 ASS 连续覆盖正式 TV 第 01–12 话；Jimaku 没有与本版本精确匹配的日文字幕。字幕无结果只限定当前材料范围。</li>
+<li>公开资料包括 <a href="https://orekun.jp/" target="_blank" rel="noopener noreferrer">官方站</a>、Bangumi subject 391672、其 API 快照和 AniList 152207。官方站中的旧 on-air 信息不用于界定日期，范围以 Bangumi 和 AniList 的 TV、12 话信息交叉定位。</li>
+<li><strong>视听边界。</strong> 字幕文本可定位台词和文字层的叙事安排；未作视听复核，镜头、动作、表情、声调和配乐不进入证据链。音声商品及其他跨媒介材料被排除。</li>
+</ul>
+
+        </div>
+      </details>
+    </div>
+  </div>
+</article>
+
+<section class="feedback-section">
+  <div>
+    <p class="eyebrow">REPORT FEEDBACK</p>
+    <h2>提交可核查的修订建议</h2>
+    <p>请注明作品版本、集数／章节、要质疑的原句、可公开核查的来源，以及建议如何修订。评论属于待核查反馈，不会自动成为报告证据。</p>
+  </div>
+  <div class="giscus"></div>
+<div class="giscus-config"
+        hidden
+        data-repo="L-M-Sherlock/yuri-classification-archive"
+        data-repo-id="R_kgDOTo1RzA"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOTo1RzM4DCXAh"
+        data-mapping="specific"
+        data-term="classification:aru_asa_dummy_head_mic_tv_2022"
+        data-strict="1"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-lang="zh-CN"
+        data-loading="lazy"
+        aria-hidden="true"></div>
+</section>
+
+  </main>
+  <footer class="site-footer">
+    <div>
+      <p>分类是面向具体查询的检索工具，不是替作品关系作终审判决。</p>
+      <p class="footer-ai-note">本站使用以 OpenAI Codex 为主的生成式 AI 辅助研究、写作与站点开发；人工审阅未覆盖全部作品报告。<a href="/yuri-classification-archive/about/#AI使用说明">查看 AI 使用说明</a></p>
+      <p>© 2026 Jarrett Ye · <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="license noopener noreferrer">CC BY-NC-SA 4.0</a> · <a href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub 仓库</a> · <a href="/yuri-classification-archive/about/#使用边界">使用边界</a></p>
+    </div>
+  </footer>
+  <script>window.SITE_CONFIG = {basePath: "/yuri-classification-archive"};</script>
+  <script src="/yuri-classification-archive/assets/site.js?v=eeeec5872796" defer></script>
+
+</body>
+</html>
