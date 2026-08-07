@@ -1,34 +1,34 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-06T21:28:51+00:00",
+  "generated_at": "2026-08-07T09:36:45+00:00",
   "articles": {
     "anime-label-divergence": {
       "snapshot_date": "2026-08-07",
-      "row_count": 691,
+      "row_count": 705,
       "category_counts": {
         "non_romantic": 219,
-        "potential_or_strongly_coded": 238,
-        "explicit_desire": 130,
-        "explicit_relationship": 30,
-        "unknown": 74
+        "potential_or_strongly_coded": 251,
+        "explicit_desire": 162,
+        "explicit_relationship": 33,
+        "unknown": 40
       },
       "platform_coverage": {
         "AniList Yuri": {
-          "positive": 280,
-          "exact_entries": 680
+          "positive": 288,
+          "exact_entries": 689
         },
         "Anime-Planet GL": {
           "positive": 70,
-          "exact_entries": 640
+          "exact_entries": 641
         },
         "MAL Girls Love": {
           "positive": 64,
-          "exact_entries": 680
+          "exact_entries": 690
         }
       },
-      "common_coverage": 636,
+      "common_coverage": 637,
       "common_signatures": {
-        "---": 376,
+        "---": 377,
         "-N-": 181,
         "ANM": 50,
         "AN-": 19,
@@ -36,50 +36,50 @@
         "A--": 1
       },
       "source": {
-        "sha256": "0e2e389f826d21f3b32a5f6ad6cd597c39c1928eb37a004ff2baecbed2fd5c76"
+        "sha256": "5c8c928fc2d19e3572b08096a18509f50e2ea30f88c6383b1a81ef4f06752554"
       },
-      "release_plan_sha256": "edb0f9125268d97135306081be90d2a46502aadda9700e148b048e3b2083f7dd",
-      "target_slugs_sha256": "c2b271725f9b67809727ea9817f8fce957975a11dba77c42c87e41e90b3445ab",
+      "release_plan_sha256": "5f7238e95a09772619ae4b3aacaf739205869eabc12db388dc3de5caf7a810f0",
+      "target_slugs_sha256": "e4d21df4053fc14479717e0403516367bbae1a51666ebf48f962b7f7eda1b617",
       "data_path": "data/articles/anime-label-divergence.json",
       "csv_path": "data/articles/anime-label-divergence.csv",
       "analysis_summary": {
         "path": "assets/yuri_classification_database_patterns/analysis_summary.json",
-        "sha256": "df328ed8124cdd5974f848e26775a01b1bd647a05ab7bd8c44d2e771e75741da"
+        "sha256": "429a4d339532aa1512a4b092b59d72065d4977560565ec39421afedc6767c2f6"
       },
       "publication_manifest": {
         "path": "publication-manifest.json",
-        "sha256": "49e940d5540909ecd5e72e9f8f51390befa9d9c8e504c8e5f84d604a5c0cf92a"
+        "sha256": "4dca263b3791259dfd9d1d8e585512826f7e16f28125b1fd2f715fe3ea5a689e"
       },
       "charts": [
         {
           "id": "dataset_overview",
           "path": "assets/articles/anime-label-divergence/00_dataset_overview.png",
-          "sha256": "f2049e89975c9e4cb587d8e635b5fb45fb3faca613fe13d2cbf349ec580c69f7"
+          "sha256": "e0895006f0480af73101723b8f867803a8b3900d63099d03260f694a7b5110cb"
         },
         {
           "id": "platform_overlap",
           "path": "assets/articles/anime-label-divergence/01_platform_overlap.png",
-          "sha256": "752da41d8764835b8763b4b315d8392aedb42c0c05ccab75eedb388fd3183ea6"
+          "sha256": "47ae4603deaae9a7076d5c5be62a57e680eb50986ab8a0f283c68fd84fb9568a"
         },
         {
           "id": "explicitness_gradient",
           "path": "assets/articles/anime-label-divergence/02_explicitness_gradient.png",
-          "sha256": "7a83b232a6d6e7167d2a12e1845f57a1f60319b0e2252610605fcbdca59f725b"
+          "sha256": "0f3156f5b83ff3640fde6e9550cc1368ec0dfd85e0bc894e84edabb3b59ff5f6"
         },
         {
           "id": "platform_rates",
           "path": "assets/articles/anime-label-divergence/03_platform_rates_by_explicitness.png",
-          "sha256": "a7fd2b7ae65ce783db27f70653ad184f0cecccda6b62827b8aa831c38a682b2b"
+          "sha256": "0e954059b87016af4cc688c214aa60da940f15f0a863547b57b9660d9fe5e109"
         },
         {
           "id": "bangumi_popularity",
           "path": "assets/articles/anime-label-divergence/04_bangumi_popularity_correction.png",
-          "sha256": "fcd32885254985615f6b0e8f11682b10a275b26ac2006dc6b9d95af38a9180ee"
+          "sha256": "a174375994c1d7e5beb66611ca7044f1ef176e1f9ee50eaa94770d49b0869927"
         },
         {
           "id": "convergence_and_structure",
           "path": "assets/articles/anime-label-divergence/05_convergence_and_text_structure.png",
-          "sha256": "1fd07f105e5bb49b35cd885fdaec6725516108afcaa5841045b455c2f49f3a69"
+          "sha256": "881b6b0b491737cf8c5e82291d48123fb231eaf699a460cf26b3500c0e69fafd"
         }
       ],
       "article": {

@@ -1,0 +1,422 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="这是一部以安娜与艾莎的姐妹关系为主线的家庭奇幻音乐剧，不作为百合作品主类归档。 影片把安娜寻找姐姐的行动放在冒险的中心；安娜与两名男性角色各有重要的恋爱相关情节。女女恋爱聚合只计被直接称为姐妹的安娜—艾莎关系，因而恋爱位置为缺席、最高明确度为非恋爱；安娜与克里斯托夫、汉斯的明确欲望仍作为异性恋爱相关副线单列。日……">
+  <meta name="color-scheme" content="light dark">
+  <meta id="theme-color-light" name="theme-color" media="(prefers-color-scheme: light)" content="#f5f0e8">
+  <meta id="theme-color-dark" name="theme-color" media="(prefers-color-scheme: dark)" content="#1c181c">
+  <script>
+    (() => {
+      document.documentElement.classList.add("js");
+      const storageKey = "yuri-classification-theme";
+      const allowed = new Set(["system", "light", "dark"]);
+      let preference = "system";
+      try {
+        const stored = localStorage.getItem(storageKey);
+        if (allowed.has(stored)) preference = stored;
+      } catch (_error) {
+        preference = "system";
+      }
+      const systemDark = window.matchMedia?.("(prefers-color-scheme: dark)").matches;
+      const theme = preference === "system"
+        ? (systemDark ? "dark" : "light")
+        : preference;
+      document.documentElement.dataset.theme = theme;
+      document.documentElement.dataset.themePreference = preference;
+      document.documentElement.style.colorScheme = theme;
+      const lightMeta = document.getElementById("theme-color-light");
+      const darkMeta = document.getElementById("theme-color-dark");
+      if (preference === "system") {
+        lightMeta.content = "#f5f0e8";
+        darkMeta.content = "#1c181c";
+      } else {
+        const color = theme === "dark" ? "#1c181c" : "#f5f0e8";
+        lightMeta.content = color;
+        darkMeta.content = color;
+      }
+    })();
+  </script>
+  <link rel="canonical" href="https://l-m-sherlock.github.io/yuri-classification-archive/works/frozen_movie_2013/">
+  <link rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="百合作品分类档案">
+  <meta property="og:title" content="《冰雪奇缘》分类报告｜百合作品分类档案">
+  <meta property="og:description" content="这是一部以安娜与艾莎的姐妹关系为主线的家庭奇幻音乐剧，不作为百合作品主类归档。 影片把安娜寻找姐姐的行动放在冒险的中心；安娜与两名男性角色各有重要的恋爱相关情节。女女恋爱聚合只计被直接称为姐妹的安娜—艾莎关系，因而恋爱位置为缺席、最高明确度为非恋爱；安娜与克里斯托夫、汉斯的明确欲望仍作为异性恋爱相关副线单列。日……">
+  <meta property="og:url" content="https://l-m-sherlock.github.io/yuri-classification-archive/works/frozen_movie_2013/">
+  <meta property="og:image" content="https://l-m-sherlock.github.io/yuri-classification-archive/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+  <title>《冰雪奇缘》分类报告｜百合作品分类档案</title>
+  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=e68f78a2d1a9">
+
+</head>
+<body class="classification-report">
+  <a class="skip-link" href="#main-content">跳到正文</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="/yuri-classification-archive/">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>
+          <strong>百合作品分类档案</strong>
+          <small>按查询拆开标签，按证据保留边界</small>
+        </span>
+      </a>
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-navigation"
+      >
+        <span>菜单</span>
+        <span class="menu-toggle-icon" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-navigation" aria-label="主导航">
+        <div class="nav-main">
+          <a href="/yuri-classification-archive/">首页</a>
+          <a href="/yuri-classification-archive/table/">总表</a>
+          <a href="/yuri-classification-archive/articles/">专题</a>
+          <a href="/yuri-classification-archive/about/">方法与说明</a>
+        </div>
+        <a class="nav-star" href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub / Star <span aria-hidden="true">↗</span></a>
+        <a class="nav-feedback" href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
+        <label class="theme-control" for="theme-preference">
+          <span>主题</span>
+          <select id="theme-preference" aria-label="主题偏好">
+            <option value="system">跟随系统</option>
+            <option value="light">浅色</option>
+            <option value="dark">深色</option>
+          </select>
+        </label>
+      </nav>
+    </div>
+  </header>
+  <main id="main-content">
+    <article class="report-page">
+  <header class="report-header">
+    <p class="eyebrow">剧场动画 · 2026-08-03</p>
+    <h1>《冰雪奇缘》分类报告</h1>
+    <p class="report-subtitle">2013-11-27 上映的第一部《Frozen》剧场动画正片；本片公开剧情、官方宣传资料和与本片精确对应的数据库条目</p>
+    <div class="label-strip" aria-label="分类摘要">
+      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>归档依据：</strong>非百合</span><span class="label-chip"><strong>女女恋爱位置：</strong>缺席</span><span class="label-chip"><strong>女女关系最高明确度：</strong>非恋爱</span><span class="label-chip"><strong>官方字面百合／GL：</strong>所核未见</span><span class="label-chip"><strong>官方女女恋爱表述：</strong>所核未见</span><span class="label-chip"><strong>官方来源：</strong>层级：原作、当前版本；位置：出版载体、可见作品宣传</span><span class="label-chip"><strong>结论置信度：</strong>高<span class="inline-help" tabindex="0" aria-label="查看结论置信度说明" aria-describedby="report-confidence-help"><span aria-hidden="true">?</span><span class="term-tooltip" id="report-confidence-help" role="tooltip">表示当前锁定范围内，现有证据对本报告主要分类结论的支持稳定度；它不是百合程度、作品质量、社群共识或统计概率。</span></span></span>
+    </div>
+    <a class="back-link" href="/yuri-classification-archive/table/?q=%E5%86%B0%E9%9B%AA%E5%A5%87%E7%BC%98">← 返回总表并定位本作</a>
+  </header>
+  <div class="report-layout">
+    <aside class="report-toc">
+      <p>本页目录</p>
+      <ol><li><a href="#低剧透概览">低剧透概览</a></li><li><a href="#数据库与公开分类">数据库与公开分类</a></li><li><a href="#决定性文本证据">决定性文本证据</a></li><li><a href="#四层分析">四层分析</a></li><li><a href="#最强反方解释">最强反方解释</a></li><li><a href="#分用途结论">分用途结论</a></li><li><a href="#方法来源与限制">方法、来源与限制</a></li></ol>
+    </aside>
+    <div class="report-content">
+      <blockquote>
+<p>分类日期：2026-08-01<br> 分类对象：2013 年剧场动画《Frozen》（一部，约 102 分钟）<br> 纳入范围：2013-11-27 上映的第一部《Frozen》剧场动画正片<br> 排除范围：续作、短片、舞台、绘本、小说、游戏及其他跨媒介材料；未作视频回放的无对白画面<br> 用途：普通推荐、严格恋爱检索、数据库对照与角色身份检索</p>
+</blockquote>
+<h2 id="低剧透概览">低剧透概览</h2>
+<aside class="alert alert-note"><strong>说明</strong><div class="alert-content"><p><strong>分类信息提示：</strong> 本节不展开关键剧情、转折与结局，但分类信息本身会透露关系类型、叙事位置和恋爱明确度。希望完全盲看的读者请跳过本页。</p></div></aside>
+
+<p><strong>这是一部以安娜与艾莎的姐妹关系为主线的家庭奇幻音乐剧，不作为百合作品主类归档。</strong> 影片把安娜寻找姐姐的行动放在冒险的中心；安娜与两名男性角色各有重要的恋爱相关情节。女女恋爱聚合只计被直接称为姐妹的安娜—艾莎关系，因而恋爱位置为缺席、最高明确度为非恋爱；安娜与克里斯托夫、汉斯的明确欲望仍作为异性恋爱相关副线单列。日文字幕足以确认亲属称谓、求婚、亲吻意愿及其回应，但未被用来替代无对白画面的判断。</p>
+<p>若读者寻找女女恋爱、女同性恋身份明示或没有男性恋爱线的作品，本片不适合作为保证推荐。若查询的是“两个女性角色之间承担全片主要情感任务的关系”，则应连同“姐妹亲情”这一限定一起呈现，不能把它缩写成恋爱标签。</p>
+<p>本档案的电影文本判断已有完整日文字幕和范围内官方简介支撑。MyAnimeList 的 <code>Frozen 2013</code> 搜索全部 20 页未见 Disney 电影；结合该库要求作品面向日本市场在日本专业制作的收录规则，本片可审计地记为“无精确条目”，而不是临时访问失败。Genres、Themes、Demographics 与 Girls Love 因无条目而不适用；这不能被外推为平台否认本片或剧情中不存在任何关系。</p>
+<h3 id="分层标签">分层标签</h3>
+<blockquote>
+<p><strong>女女关系层级：主线｜百合归档依据：非百合｜女女恋爱位置：缺席｜女女关系最高明确度：非恋爱｜异性恋爱相关线：安娜—克里斯托夫、安娜—汉斯各有明确欲望｜关系构成：一组主线姐妹关系与两组重要异性恋爱相关关系｜官方字面：所核未见｜官方恋爱表述：所核未见｜官方来源：范围内电影宣传页、官方公司回顾与原作出版物简介｜阅读层级：正篇事实、强推断与读者解读｜身份依据类型：范围内无依据｜男性恋爱线：副线｜内容提示：姐妹长期隔离、失去父母、严寒与魔法失控、角色短暂濒危、求婚表象与背叛。</strong></p>
+</blockquote>
+<h3 id="严格恋爱检索提示">严格恋爱检索提示</h3>
+<ul>
+<li><strong>只寻找明确女女恋爱或性取向自述：不符合。</strong> 主线关系在文本中直接被称为姐妹。</li>
+<li><strong>接受女女亲属关系作为故事主线：可以考虑。</strong> 推荐时需写清它是姐妹关系，并附带异性恋爱副线提示。</li>
+<li><strong>只寻找没有男性恋爱线的作品：不符合。</strong> 安娜与汉斯、克里斯托夫的关系都参与重要情节。</li>
+<li><strong>只按字幕确认的明确交往状态筛选：应保守处理。</strong> 字幕确认亲吻意愿与回应，不给安娜—克里斯托夫一个正式交往名称。</li>
+</ul>
+<h2 id="数据库与公开分类">数据库与公开分类</h2>
+<p>官方营销、社区目录和字幕目录回答的是不同问题。前者说明宣传实际怎样命名人物与题材，后者保留不同读者的检索入口；它们都不能代替对范围内文本的关系判断。</p>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>来源</th>
+<th>条目与字段</th>
+<th>来源类型</th>
+<th>本报告如何使用</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://movies.disney.com/frozen/" target="_blank" rel="noopener noreferrer">Disney 官方电影页</a></td>
+<td>简介称安娜与克里斯托夫、斯文同行，寻找姐姐艾莎；题材栏列出 Animation、Family、Fantasy、Musical。</td>
+<td>范围内电影的官方宣传</td>
+<td>确认版本、姐妹称谓、旅途搭档与官方题材词；页面未使用百合／GL 字面不等于否定读者解读。</td>
+</tr>
+<tr>
+<td><a href="https://thewaltdisneycompany.com/news/celebrating-10-years-of-disney-animations-frozen/" target="_blank" rel="noopener noreferrer">Walt Disney Company 十周年文章</a></td>
+<td>把 2013 年电影概括为安娜与艾莎两姐妹在克里斯托夫和奥拉夫协助下拯救王国的故事，并提及 sisterhood。</td>
+<td>官方机构回顾</td>
+<td>支持姐妹关系是官方叙事入口；不把后续企划材料混入本片。</td>
+</tr>
+<tr>
+<td><a href="https://books.disney.com/book/frozen/" target="_blank" rel="noopener noreferrer">Disney Books 简介</a></td>
+<td>把故事概括为姐妹因艾莎的冰雪力量疏远、安娜寻找她回家的过程。</td>
+<td>官方出版物简介</td>
+<td>作为原作故事梗概的补充，不能替代电影中的逐句对白。</td>
+</tr>
+<tr>
+<td><a href="https://bangumi.tv/subject/93044" target="_blank" rel="noopener noreferrer">Bangumi subject 93044</a></td>
+<td>剧场版、1 话；2026-08-06 快照中“百合”标记 338、“恋爱”标记 7，五种收藏状态合计 9,103。</td>
+<td>社区目录与用户标记</td>
+<td>记录该片为何会进入宽泛的女女关系检索；数字不是关系性质、官方分类或角色身份的投票。</td>
+</tr>
+<tr>
+<td><a href="https://isubtitles.org/frozen-2013/japanese/644287" target="_blank" rel="noopener noreferrer">日文字幕目录条目</a></td>
+<td>Frozen (2013)、Japanese、<code>Frozen_1080p_BrRip_x264_jpn</code>，一份覆盖正片的字幕文件。</td>
+<td>非官方字幕目录</td>
+<td>锁定本报告使用的日文 SRT 来源与覆盖范围。</td>
+</tr>
+<tr>
+<td><a href="https://myanimelist.net/anime.php?q=Frozen+2013&amp;cat=anime" target="_blank" rel="noopener noreferrer">MAL 搜索</a>／<a href="https://myanimelist.net/forum/?topicid=141101" target="_blank" rel="noopener noreferrer">MAL 收录规则</a>／<a href="https://www.anime-planet.com/anime/all?name=Frozen" target="_blank" rel="noopener noreferrer">Anime-Planet 搜索</a>／<a href="https://anilist.co/search/anime?search=Frozen" target="_blank" rel="noopener noreferrer">AniList 搜索</a></td>
+<td>截至 2026-08-07，MAL 的 <code>Frozen 2013</code> 全部 20 页未见本片；其规则把动画库范围限定为面向日本市场在日本专业制作的作品及所列区域／合制例外，本片为美国 Disney 电影。Anime-Planet 与 AniList 也无精确条目。</td>
+<td>编辑数据库或社区标签库搜索</td>
+<td>三处均记为“无精确条目”；MAL 的 Genres、Themes、Demographics 与 Girls Love 字段因无条目而不适用。平台空白不能写成“无标签”或剧情不存在。</td>
+</tr>
+</tbody>
+</table></div>
+<p>官方资料可拆成三项：<strong>官方字面百合／GL：所核未见。</strong> <strong>官方女女恋爱表述：所核未见。</strong> <strong>官方来源：电影宣传页、官方公司回顾与出版物简介。</strong> 这只描述已核页面采用的语言，不是对私人配对或二创阅读的禁止。</p>
+<aside class="alert alert-warning"><strong>剧透提示</strong><div class="alert-content"><p>以下部分包含 2013 年电影的完整剧透。日文短引来自一份覆盖正片的 SRT；中文为本报告自译。字幕时间码定位台词，未据此判定镜头、表情、无对白动作或音乐的完整意义。</p></div></aside>
+
+      <details class="spoiler-panel">
+        <summary>
+          <span>展开详细证据（含完整剧透）</span>
+          <small>决定性证据、四层分析、反方解释与方法限制</small>
+        </summary>
+        <div class="spoiler-content">
+          <h2 id="决定性文本证据">决定性文本证据</h2>
+<p>选用的日文 SRT 从开场歌曲延续到正片末段对白，覆盖本次纳入的整部电影。以下材料分别说明姐妹关系如何驱动行动、两条异性恋爱相关线怎样出现及其证据边界；不以单个“爱”或“亲吻”词脱离对象和上下文裁决整部作品。</p>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>位置</th>
+<th>原文与中文摘要</th>
+<th>叙事层级</th>
+<th>证据强度与视听复核</th>
+<th>能证明什么</th>
+<th>不能证明什么</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://movies.disney.com/frozen/" target="_blank" rel="noopener noreferrer">官方电影页</a>（e01）</td>
+<td>英文简介写安娜与克里斯托夫和斯文同行，去找“her sister Elsa”。自译：安娜和山民克里斯托夫、他的驯鹿斯文同行，去寻找姐姐艾莎。</td>
+<td>作品前提／旅途配置</td>
+<td><strong>官方文字直接</strong>；非时间码材料</td>
+<td>艾莎是安娜的姐姐，安娜—克里斯托夫从寻找姐姐的任务中相遇。</td>
+<td>后段的正式关系状态或无对白亲密动作。</td>
+</tr>
+<tr>
+<td>00:50:57.611–00:51:39.681（e02）</td>
+<td>「姉と話すわ」「姉に会いに行くのよ」。自译：我要和姐姐谈谈；我要去见姐姐。</td>
+<td>主线行动</td>
+<td><strong>字幕文本直接</strong>；未作视频回放</td>
+<td>安娜登山的直接目标是艾莎，姐妹关系推进冒险主轴。</td>
+<td>这段亲属行动不能改写为恋爱表述。</td>
+</tr>
+<tr>
+<td>00:25:29.621–00:26:06.611（e03）</td>
+<td>「結婚しよう」「わたしたちの結婚に」。自译：结婚吧；为了我们的婚礼。</td>
+<td>安娜—汉斯的求婚与婚约期待</td>
+<td><strong>字幕文本直接</strong>；未作视频回放</td>
+<td>安娜把与汉斯的关系说作婚姻和恋爱可能。</td>
+<td>双方动机是否相同，或婚约是否构成稳定关系。</td>
+</tr>
+<tr>
+<td>01:15:50.401–01:16:29.311（e04）</td>
+<td>「誰がキミを愛してると？」「恋に恋しているだけ」。自译：谁说有人爱你？你只是爱上了恋爱本身。</td>
+<td>安娜—汉斯关系的转折</td>
+<td><strong>字幕文本直接</strong>；未作视频回放</td>
+<td>汉斯明确否认爱意并说明夺权打算，限制前段婚约的互惠性。</td>
+<td>不能据此抹除安娜前段确实表达过的恋爱期待。</td>
+</tr>
+<tr>
+<td>01:21:03.031–01:22:12.201（e05）</td>
+<td>「クリストフに愛されてる？」。自译：克里斯托夫爱你吗？</td>
+<td>安娜—克里斯托夫的恋爱方向</td>
+<td><strong>角色台词＋语境推断</strong>；未作视频回放</td>
+<td>影片让角色把克里斯托夫的行动与爱意相连。</td>
+<td>角色的提问本身不等于正式交往声明。</td>
+</tr>
+<tr>
+<td>01:30:54.111–01:31:05.001（e06）</td>
+<td>「キスしたいくらい」「いや　そういう意味じゃなくて」「こういうこと」。自译：我简直想亲你；不是那个意思；是这个意思。</td>
+<td>结尾亲密回应</td>
+<td><strong>字幕文本直接</strong>；未作视频回放</td>
+<td>有明确亲吻意愿及随后回应，足以列为明确欲望。</td>
+<td>字幕没有标注具体无对白动作，也没有给二人命名为正式情侣。</td>
+</tr>
+<tr>
+<td>01:27:38.211–01:27:45.591（e07）</td>
+<td>「自分よりも　私を？／愛してるから」。自译：比起自己，她更爱我；因为她爱你。</td>
+<td>姐妹线的情感回收</td>
+<td><strong>字幕文本直接</strong>；未作视频回放</td>
+<td>结局把姐妹间的爱与选择置于情感核心。</td>
+<td>“爱”一词不会自动改变已明示的姐妹关系类型。</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="四层分析">四层分析</h2>
+<h3 id="第一层文本中的关系">第一层：文本中的关系</h3>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>关系 ID</th>
+<th>关系／参与者</th>
+<th>女女关系范围</th>
+<th>类型</th>
+<th>叙事位置</th>
+<th>恋爱明确度</th>
+<th>相互性</th>
+<th>证据层级</th>
+<th>摘要</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>r01</td>
+<td>安娜—艾莎</td>
+<td>是（姐妹）</td>
+<td>亲情</td>
+<td>主线</td>
+<td>非恋爱</td>
+<td>双向</td>
+<td>正篇事实／强推断</td>
+<td>官方简介和字幕均以姐妹称谓组织安娜的行动；她们的分离、寻找与情感回收承担故事骨架。</td>
+</tr>
+<tr>
+<td>r02</td>
+<td>安娜—克里斯托夫</td>
+<td>否（异性）</td>
+<td>恋爱、搭档</td>
+<td>重要副线</td>
+<td>明确欲望</td>
+<td>相互性未确认</td>
+<td>正篇事实／强推断</td>
+<td>旅途搭档在后段被推向恋爱方向，结尾台词有亲吻意愿和回应；字幕没有命名正式交往。</td>
+</tr>
+<tr>
+<td>r03</td>
+<td>安娜—汉斯</td>
+<td>否（异性）</td>
+<td>恋爱、其他</td>
+<td>重要副线</td>
+<td>明确欲望</td>
+<td>相互性未确认</td>
+<td>正篇事实</td>
+<td>求婚和“我们的婚礼”显示安娜的期待；汉斯后段的自白使互惠爱情判断不能成立。</td>
+</tr>
+</tbody>
+</table></div>
+<p>姐妹线的关键不只是两名女性角色共同出现，而是安娜为何离开王国、在雪山上要做什么，以及结局为何能够完成情感回收都回到艾莎。字幕中的“姐姐”把关系性质说得很明确；它允许记录亲情的中心性，也要求避免把牺牲、依恋和“爱”直接换算为女女恋爱。</p>
+<p>两条男性关系则体现不同的恋爱层次。安娜—汉斯的婚约语言属于她的明确愿望，却被汉斯的后段自白打断；安娜—克里斯托夫有同行、关切和结尾的亲吻意愿。后者可进入“明确欲望”检索，仍不足以仅凭字幕宣称已获得正式情侣名称或完整的画面证据。</p>
+<h3 id="第二层作品的文类位置">第二层：作品的文类位置</h3>
+<p>本片的类型入口是家庭奇幻、音乐剧和冒险，而核心女女关系是亲属关系。女女关系处于主线并不自动让作品成为女女恋爱文类：这里最有决定性的文本事实是安娜和艾莎互称姐妹，故事把她们的分离与回应当作危机的情感轴。因而档案把它归为非百合，而不是以角色数量或关系强度替代关系类型。</p>
+<p>这项归档也不抹掉片中恋爱内容。两条异性关系都位于重要副线：一条展示快速的婚约想象及其破裂，另一条从同行发展到可见的恋爱方向。它们没有接管安娜寻找艾莎的叙事任务，却足以影响“是否含男性恋爱线”“是否只找女女恋爱”等具体查询的结果。</p>
+<h3 id="第三层角色身份">第三层：角色身份</h3>
+<p>范围内的电影没有让安娜或艾莎以女同性恋、双性恋、无性恋或其他现代性取向词自我命名，也没有收录可核对的官方身份设定。安娜对汉斯的婚约期待和对克里斯托夫的亲吻意愿只能说明具体关系中的对象指向，不能推出她完整、排他的身份；艾莎没有在本片中展开男性恋爱线，同样不是身份依据。</p>
+<p>因此，角色身份一栏保留为未知。这并不评价任何观众的私人理解，而是防止四件不同的事混成一件：姐妹亲情、作品文类、某一段恋爱表达与角色的自我认同。若另有访谈、续作或同人材料，它们也需要按各自媒介范围另行记录。</p>
+<h3 id="第四层公共标签礼仪">第四层：公共标签礼仪</h3>
+<p>Bangumi 的“百合”标记说明部分用户会从两位女性主角、强烈的姐妹情感或配对阅读进入本片；它适合作为检索史的一部分，而不是强制所有读者接受同一个类型判断。对于普通推荐，更有用的句子是“姐妹关系主线，含两条重要异性恋爱相关副线”，因为它同时说明关系、文本位置和避雷信息。</p>
+<p>私人配对可以自由讨论安娜与艾莎的情感张力，但公开标签应补足“正篇明确为姐妹”的事实。反过来，不能只因正片是亲情就把这部片从一切女女关系检索中删除：若检索目的确实是女性角色之间的主线关系，它仍可出现，只是需要明确它不是女女恋爱保证入口。</p>
+<h2 id="最强反方解释">最强反方解释</h2>
+<p>最有力的保留意见是：<strong>《冰雪奇缘》就是一部以姐妹情、自我接纳与家庭冒险为核心的迪士尼音乐剧；安娜的恋爱副线又面向男性角色，所以放入任何百合推荐都会误导。</strong> 对“只找女女情侣”或“只找没有男性恋爱线”的读者，这个判断成立，本报告的分用途结论也不会把它推荐为答案。</p>
+<p>但如果问题改成“哪些作品把两个女性角色之间的关系放在整部故事的情感中心”，答案不能只剩一个否定词。官方简介和字幕都把安娜寻找姐姐、姐妹间的爱与最终回应放在关键位置。宽泛女女关系检索可以保留它，前提是将关系类型写全，而不是把亲情压缩成恋爱或把平台标记当作官方认证。</p>
+<p>另一种过度推断是把结尾的爱情主题理解为所有关系都具有同一种恋爱性质。字幕提供的反例正是安娜—汉斯：相同的婚约和爱情语言，经过后段自白后仍不能说明互惠。更稳妥的做法是逐条列出说话对象、关系名称和叙事位置，让“姐妹”“婚约期待”“亲吻意愿”各自回答不同的问题。</p>
+<h2 id="分用途结论">分用途结论</h2>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>用途</th>
+<th>分类</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>普通作品推荐</td>
+<td><strong>2013 年家庭奇幻音乐剧；安娜—艾莎姐妹关系为主线，另有两条重要异性恋爱相关副线。</strong></td>
+</tr>
+<tr>
+<td>数据库主标签</td>
+<td><strong>非百合。</strong> 可并列家庭、奇幻、音乐剧、冒险与姐妹关系；Bangumi 用户的“百合”标记应保留为社区检索信息。</td>
+</tr>
+<tr>
+<td>严格明确恋爱检索</td>
+<td><strong>不符合女女恋爱检索。</strong> 范围内最明确的恋爱表达发生在安娜与男性角色之间。</td>
+</tr>
+<tr>
+<td>私人百合阅读</td>
+<td><strong>可作为姐妹关系中心的私人阅读入口，但不宜写成正篇确认的女女恋爱。</strong></td>
+</tr>
+<tr>
+<td>角色身份检索</td>
+<td><strong>未知。</strong> 没有范围内的身份自述或官方身份设定。</td>
+</tr>
+<tr>
+<td>官方分类查询</td>
+<td><strong>官方字面百合／GL：所核未见；官方女女恋爱表述：所核未见。</strong> 已核官方页面使用家庭、奇幻、音乐剧及姐妹关系语言。</td>
+</tr>
+<tr>
+<td>内容筛选</td>
+<td><strong>请留意长期隔离、失去父母、严寒、魔法失控、短暂濒危、求婚表象与背叛。</strong></td>
+</tr>
+<tr>
+<td>版本筛选</td>
+<td><strong>仅 2013 年第一部剧场动画。</strong> 续作、短片和其他媒介另行处理。</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="方法来源与限制">方法、来源与限制</h2>
+<h3 id="材料与检索记录">材料与检索记录</h3>
+<p>现有字幕目录没有与本片对应的英文、日文、罗马字或中文版本；宽泛的 <code>Frozen</code> 条目与本片无关。<a href="https://isubtitles.org/frozen-2013/japanese/644287" target="_blank" rel="noopener noreferrer">Frozen (2013) 日文字幕条目</a>提供一份覆盖本片的日文 SRT，关键证据可由时间码回到同一材料。</p>
+<p>字幕能定位台词与歌曲文字，不能独自证明说话时的镜头、身体动作、表情、停顿或配乐含义。因此报告把结尾的亲吻意愿记为明确欲望，不将字幕未命名的正式交往或无对白动作补写成事实。官方简介用于补足版本和公开宣传语言，不取代正片文本。</p>
+<p>MAL 当前没有本片的精确条目；这一结论来自完整题名分页与数据库收录范围的交叉核对。相关类型字段不适用。数据库字段与社区标签只承担来源自身的检索说明；无条目不能证明剧情或关系不存在。</p>
+<h3 id="版本边界">版本边界</h3>
+<p>分类只对 2013 年首部电影负责。官方回顾中的续作、舞台与衍生项目只用于辨识本片在企划中的位置，不参与任何角色关系或身份结论；同样，任何来自《Frozen II》、短片、绘本、小说、游戏或二创的材料都不回填本档案。</p>
+
+        </div>
+      </details>
+    </div>
+  </div>
+</article>
+
+<section class="feedback-section">
+  <div>
+    <p class="eyebrow">REPORT FEEDBACK</p>
+    <h2>提交可核查的修订建议</h2>
+    <p>请注明作品版本、集数／章节、要质疑的原句、可公开核查的来源，以及建议如何修订。评论属于待核查反馈，不会自动成为报告证据。</p>
+  </div>
+  <div class="giscus"></div>
+<div class="giscus-config"
+        hidden
+        data-repo="L-M-Sherlock/yuri-classification-archive"
+        data-repo-id="R_kgDOTo1RzA"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOTo1RzM4DCXAh"
+        data-mapping="specific"
+        data-term="classification:frozen_movie_2013"
+        data-strict="1"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-lang="zh-CN"
+        data-loading="lazy"
+        aria-hidden="true"></div>
+</section>
+
+  </main>
+  <footer class="site-footer">
+    <div>
+      <p>分类是面向具体查询的检索工具，不是替作品关系作终审判决。</p>
+      <p class="footer-ai-note">本站使用以 OpenAI Codex 为主的生成式 AI 辅助研究、写作与站点开发；人工审阅未覆盖全部作品报告。<a href="/yuri-classification-archive/about/#AI使用说明">查看 AI 使用说明</a></p>
+      <p>© 2026 Jarrett Ye · <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="license noopener noreferrer">CC BY-NC-SA 4.0</a> · <a href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub 仓库</a> · <a href="/yuri-classification-archive/about/#使用边界">使用边界</a></p>
+    </div>
+  </footer>
+  <script>window.SITE_CONFIG = {basePath: "/yuri-classification-archive"};</script>
+  <script src="/yuri-classification-archive/assets/site.js?v=eeeec5872796" defer></script>
+
+</body>
+</html>
