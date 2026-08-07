@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-07T09:36:45+00:00",
+  "generated_at": "2026-08-07T10:19:56+00:00",
   "articles": {
     "anime-label-divergence": {
       "snapshot_date": "2026-08-07",
@@ -36,19 +36,19 @@
         "A--": 1
       },
       "source": {
-        "sha256": "5c8c928fc2d19e3572b08096a18509f50e2ea30f88c6383b1a81ef4f06752554"
+        "sha256": "e11a382425915e4242010d581867fade379cf7d2552bb3e1f475521ad5601c91"
       },
-      "release_plan_sha256": "5f7238e95a09772619ae4b3aacaf739205869eabc12db388dc3de5caf7a810f0",
+      "release_plan_sha256": "8f09eeed95250938a395b27c64b561a3dc4194208aac36e685902b281f13b0e2",
       "target_slugs_sha256": "e4d21df4053fc14479717e0403516367bbae1a51666ebf48f962b7f7eda1b617",
       "data_path": "data/articles/anime-label-divergence.json",
       "csv_path": "data/articles/anime-label-divergence.csv",
       "analysis_summary": {
         "path": "assets/yuri_classification_database_patterns/analysis_summary.json",
-        "sha256": "429a4d339532aa1512a4b092b59d72065d4977560565ec39421afedc6767c2f6"
+        "sha256": "bfdf173d13776ce4e530bf2052240b7d1f702b642de74f17ba671544fb86b3ff"
       },
       "publication_manifest": {
         "path": "publication-manifest.json",
-        "sha256": "4dca263b3791259dfd9d1d8e585512826f7e16f28125b1fd2f715fe3ea5a689e"
+        "sha256": "3749156b4830608174235752ca782159518cf70c88021b41f22ee68fb5afce51"
       },
       "charts": [
         {
@@ -64,7 +64,7 @@
         {
           "id": "explicitness_gradient",
           "path": "assets/articles/anime-label-divergence/02_explicitness_gradient.png",
-          "sha256": "0f3156f5b83ff3640fde6e9550cc1368ec0dfd85e0bc894e84edabb3b59ff5f6"
+          "sha256": "b1e19d3cfc38829febd3d14ba0c1222410fcb1af6f92608f564468a4e499c67c"
         },
         {
           "id": "platform_rates",
@@ -74,12 +74,12 @@
         {
           "id": "bangumi_popularity",
           "path": "assets/articles/anime-label-divergence/04_bangumi_popularity_correction.png",
-          "sha256": "a174375994c1d7e5beb66611ca7044f1ef176e1f9ee50eaa94770d49b0869927"
+          "sha256": "995c16048d96b8c6dbdb0c454d1caa8fcc41ce84a8f4607ab34530949f16aa87"
         },
         {
           "id": "convergence_and_structure",
           "path": "assets/articles/anime-label-divergence/05_convergence_and_text_structure.png",
-          "sha256": "881b6b0b491737cf8c5e82291d48123fb231eaf699a460cf26b3500c0e69fafd"
+          "sha256": "b44c84ca7372d6f946c39d62a75ebc8e5b3c58cb2879054f26c82c51ab7e0d04"
         }
       ],
       "article": {

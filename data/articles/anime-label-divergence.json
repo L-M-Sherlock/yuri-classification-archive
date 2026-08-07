@@ -32,8 +32,8 @@
     "-NM": 9,
     "A--": 1
   },
-  "source_sha256": "5c8c928fc2d19e3572b08096a18509f50e2ea30f88c6383b1a81ef4f06752554",
-  "analysis_summary_sha256": "429a4d339532aa1512a4b092b59d72065d4977560565ec39421afedc6767c2f6",
+  "source_sha256": "e11a382425915e4242010d581867fade379cf7d2552bb3e1f475521ad5601c91",
+  "analysis_summary_sha256": "bfdf173d13776ce4e530bf2052240b7d1f702b642de74f17ba671544fb86b3ff",
   "items": [
     {
       "slug": "shirobako_tv_2014",
@@ -6585,6 +6585,24 @@
       "row_number": 344
     },
     {
+      "slug": "amanatsu_tv_2016",
+      "title": "蓝海少女",
+      "bangumi_entry_status": "success",
+      "bangumi_url": "https://bangumi.tv/subject/148142",
+      "year_medium": "2016 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "缺席",
+      "queries": [
+        "主线"
+      ],
+      "male_romance_line": "无",
+      "explicitness": {
+        "code": "non_romantic",
+        "label": "非恋爱"
+      },
+      "row_number": 345
+    },
+    {
       "slug": "dumbbell_nan_kilo_moteru_tv_2019",
       "title": "流汗吧！健身少女",
       "bangumi_entry_status": "success",
@@ -6600,7 +6618,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 345
+      "row_number": 346
     },
     {
       "slug": "sora_iro_utility_tv_2025",
@@ -6618,7 +6636,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 346
+      "row_number": 347
     },
     {
       "slug": "egao_no_taenai_shokuba_tv_2025",
@@ -6638,7 +6656,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 347
+      "row_number": 348
     },
     {
       "slug": "hack_sign_tv_2002",
@@ -6657,7 +6675,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 348
+      "row_number": 349
     },
     {
       "slug": "centaur_no_nayami_tv_2017",
@@ -6677,7 +6695,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 349
+      "row_number": 350
     },
     {
       "slug": "frozen_fever_short_2015",
@@ -6695,7 +6713,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 350
+      "row_number": 351
     },
     {
       "slug": "watashi_wo_tabetai_hitodenashi_tv_2025",
@@ -6716,7 +6734,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 351
+      "row_number": 352
     },
     {
       "slug": "an_happy_tv_2016",
@@ -6737,7 +6755,7 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "row_number": 352
+      "row_number": 353
     },
     {
       "slug": "slow_loop_tv_2022",
@@ -6757,7 +6775,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 353
+      "row_number": 354
     },
     {
       "slug": "sansha_sanyou_tv_2016",
@@ -6775,7 +6793,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 354
+      "row_number": 355
     },
     {
       "slug": "locodol_tv_2014",
@@ -6793,7 +6811,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 355
+      "row_number": 356
     },
     {
       "slug": "sabagebu_tv_2014",
@@ -6814,7 +6832,7 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "row_number": 356
+      "row_number": 357
     },
     {
       "slug": "mou_ippon_tv_2023",
@@ -6833,7 +6851,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 357
+      "row_number": 358
     },
     {
       "slug": "mieruko_chan_tv_2021",
@@ -6851,7 +6869,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 358
+      "row_number": 359
     },
     {
       "slug": "urara_meirochou_tv_2017",
@@ -6870,7 +6888,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 359
+      "row_number": 360
     },
     {
       "slug": "locodol_ova_2015",
@@ -6889,7 +6907,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 360
+      "row_number": 361
     },
     {
       "slug": "fate_kaleid_liner_prisma_illya_oad_2014",
@@ -6907,7 +6925,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 361
+      "row_number": 362
     },
     {
       "slug": "saki_biyori_oad_2015",
@@ -6925,7 +6943,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 362
+      "row_number": 363
     },
     {
       "slug": "sora_no_woto_tv_2010",
@@ -6943,7 +6961,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 363
+      "row_number": 364
     },
     {
       "slug": "kanamemo_tv_2009",
@@ -6964,7 +6982,7 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "row_number": 364
+      "row_number": 365
     },
     {
       "slug": "bad_girl_tv_2025",
@@ -6985,7 +7003,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 365
+      "row_number": 366
     },
     {
       "slug": "princess_principal_crown_handler_ch3_movie_2023",
@@ -7004,7 +7022,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 366
+      "row_number": 367
     },
     {
       "slug": "high_school_fleet_movie_2020",
@@ -7023,7 +7041,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 367
+      "row_number": 368
     },
     {
       "slug": "senki_zesshou_symphogear_gx_tv_2015",
@@ -7042,7 +7060,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 368
+      "row_number": 369
     },
     {
       "slug": "wake_up_girls_tv_2014",
@@ -7060,7 +7078,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 369
+      "row_number": 370
     },
     {
       "slug": "edomae_elf_tv_2023",
@@ -7078,7 +7096,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 370
+      "row_number": 371
     },
     {
       "slug": "wonder_egg_priority_tv_2021",
@@ -7098,7 +7116,7 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "row_number": 371
+      "row_number": 372
     },
     {
       "slug": "alice_in_deadly_school_ova_2021",
@@ -7117,7 +7135,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 372
+      "row_number": 373
     },
     {
       "slug": "asagao_to_kase_san_web_2017",
@@ -7137,7 +7155,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 373
+      "row_number": 374
     },
     {
       "slug": "harmony_movie_2015",
@@ -7157,7 +7175,7 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "row_number": 374
+      "row_number": 375
     },
     {
       "slug": "love_live_nijigasaki_final_chapter_part_1_movie_2024",
@@ -7176,7 +7194,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 375
+      "row_number": 376
     },
     {
       "slug": "nekogami_yaoyorozu_tv_2011",
@@ -7198,7 +7216,7 @@
         "code": "explicit_relationship",
         "label": "明确交往"
       },
-      "row_number": 376
+      "row_number": 377
     },
     {
       "slug": "shuumatsu_no_izetta_tv_2016",
@@ -7217,7 +7235,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 377
+      "row_number": 378
     },
     {
       "slug": "show_by_rock_tv_2015",
@@ -7237,7 +7255,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 378
+      "row_number": 379
     },
     {
       "slug": "hina_log_tv_2017",
@@ -7257,7 +7275,7 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "row_number": 379
+      "row_number": 380
     },
     {
       "slug": "luminous_witches_tv_2022",
@@ -7275,7 +7293,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 380
+      "row_number": 381
     },
     {
       "slug": "higurashi_gou_tv_2020",
@@ -7295,7 +7313,7 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "row_number": 381
+      "row_number": 382
     },
     {
       "slug": "yuri_seijin_naoko_san_ova_2010",
@@ -7314,7 +7332,7 @@
         "code": "unknown",
         "label": "未知"
       },
-      "row_number": 382
+      "row_number": 383
     },
     {
       "slug": "carole_and_tuesday_tv_2019",
@@ -7332,7 +7350,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 383
+      "row_number": 384
     },
     {
       "slug": "fumikiri_jikan_tv_2018",
@@ -7352,7 +7370,7 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "row_number": 384
+      "row_number": 385
     },
     {
       "slug": "selector_spread_wixoss_tv_2014",
@@ -7373,7 +7391,7 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "row_number": 385
+      "row_number": 386
     },
     {
       "slug": "re_stage_dream_days_tv_2019",
@@ -7393,7 +7411,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 386
+      "row_number": 387
     },
     {
       "slug": "hacka_doll_tv_2015",
@@ -7409,7 +7427,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 387
+      "row_number": 388
     },
     {
       "slug": "nekogami_yaoyorozu_ova_2012",
@@ -7427,7 +7445,7 @@
         "code": "unknown",
         "label": "未知"
       },
-      "row_number": 388
+      "row_number": 389
     },
     {
       "slug": "hitohira_tv_2007",
@@ -7446,7 +7464,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 389
+      "row_number": 390
     },
     {
       "slug": "nijiyon_animation_season_2_tv_2024",
@@ -7465,7 +7483,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 390
+      "row_number": 391
     },
     {
       "slug": "wakaba_girl_tv_2015",
@@ -7483,7 +7501,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 391
+      "row_number": 392
     },
     {
       "slug": "show_by_rock_stars_tv_2021",
@@ -7502,7 +7520,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 392
+      "row_number": 393
     },
     {
       "slug": "d4dj_first_mix_tv_2020",
@@ -7520,7 +7538,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 393
+      "row_number": 394
     },
     {
       "slug": "doki_doki_precure_tv_2013",
@@ -7540,7 +7558,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 394
+      "row_number": 395
     },
     {
       "slug": "shoujo_yobidashi_special_web_2026",
@@ -7558,7 +7576,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 395
+      "row_number": 396
     },
     {
       "slug": "bang_dream_episode_of_roselia_2_song_i_am_movie_2021",
@@ -7577,7 +7595,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 396
+      "row_number": 397
     },
     {
       "slug": "selector_infected_wixoss_tv_2014",
@@ -7595,7 +7613,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 397
+      "row_number": 398
     },
     {
       "slug": "otome_wa_boku_ni_koishiteru_tv_2006",
@@ -7613,7 +7631,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 398
+      "row_number": 399
     },
     {
       "slug": "action_heroine_cheer_fruits_tv_2017",
@@ -7632,7 +7650,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 399
+      "row_number": 400
     },
     {
       "slug": "mini_yuri_web_2019",
@@ -7648,7 +7666,7 @@
         "code": "unknown",
         "label": "未知"
       },
-      "row_number": 400
+      "row_number": 401
     },
     {
       "slug": "hotaruko_ova_2003",
@@ -7669,7 +7687,7 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "row_number": 401
+      "row_number": 402
     },
     {
       "slug": "kaijuu_girls_black_movie_2018",
@@ -7687,7 +7705,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 402
+      "row_number": 403
     },
     {
       "slug": "inari_konkon_koi_iroha_tv_2014",
@@ -7707,7 +7725,7 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "row_number": 403
+      "row_number": 404
     },
     {
       "slug": "hyperdimension_neptunia_tv_2013",
@@ -7725,7 +7743,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 404
+      "row_number": 405
     },
     {
       "slug": "jashin_chan_dropkick_x_tv_2022",
@@ -7744,7 +7762,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 405
+      "row_number": 406
     },
     {
       "slug": "devilman_lady_tv_1998",
@@ -7766,7 +7784,7 @@
         "code": "explicit_relationship",
         "label": "明确交往"
       },
-      "row_number": 406
+      "row_number": 407
     },
     {
       "slug": "sword_oratoria_tv_2017",
@@ -7785,7 +7803,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 407
+      "row_number": 408
     },
     {
       "slug": "love_live_sunshine_movie_2019",
@@ -7803,7 +7821,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 408
+      "row_number": 409
     },
     {
       "slug": "kobayashi_maid_dragon_movie_2025",
@@ -7822,7 +7840,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 409
+      "row_number": 410
     },
     {
       "slug": "hitoribocchi_no_marumaru_seikatsu_tv_2019",
@@ -7840,7 +7858,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 410
+      "row_number": 411
     },
     {
       "slug": "d4dj_all_mix_tv_2023",
@@ -7858,7 +7876,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 411
+      "row_number": 412
     },
     {
       "slug": "null_and_peta_tv_2019",
@@ -7876,7 +7894,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 412
+      "row_number": 413
     },
     {
       "slug": "hyakko_tv_2008",
@@ -7896,7 +7914,7 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "row_number": 413
+      "row_number": 414
     },
     {
       "slug": "high_school_fleet_ova_2017",
@@ -7914,7 +7932,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 414
+      "row_number": 415
     },
     {
       "slug": "koukaku_no_pandora_movie_2015",
@@ -7933,7 +7951,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 415
+      "row_number": 416
     },
     {
       "slug": "happy_sugar_life_tv_2018",
@@ -7955,7 +7973,7 @@
         "code": "explicit_relationship",
         "label": "明确交往"
       },
-      "row_number": 416
+      "row_number": 417
     },
     {
       "slug": "shiroi_suna_no_aquatope_tv_2021",
@@ -7973,7 +7991,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 417
+      "row_number": 418
     },
     {
       "slug": "shuumatsu_train_doko_e_iku_tv_2024",
@@ -7991,7 +8009,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 418
+      "row_number": 419
     },
     {
       "slug": "rin_sen_ran_sem_cross_mix_ova_2013",
@@ -8010,7 +8028,7 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "row_number": 419
+      "row_number": 420
     },
     {
       "slug": "burst_angel_tv_2004",
@@ -8029,7 +8047,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 420
+      "row_number": 421
     },
     {
       "slug": "aika_ova_1997",
@@ -8047,7 +8065,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 421
+      "row_number": 422
     },
     {
       "slug": "azur_lane_bisoku_tv_2021",
@@ -8066,7 +8084,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 422
+      "row_number": 423
     },
     {
       "slug": "queens_blade_s2_tv_2009",
@@ -8086,7 +8104,7 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "row_number": 423
+      "row_number": 424
     },
     {
       "slug": "morita_san_wa_mukuchi_2_tv_2011",
@@ -8107,7 +8125,7 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "row_number": 424
+      "row_number": 425
     },
     {
       "slug": "sora_no_method_tv_2014",
@@ -8125,7 +8143,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 425
+      "row_number": 426
     },
     {
       "slug": "yami_to_boushi_to_hon_no_tabibito_tv_2003",
@@ -8146,7 +8164,7 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "row_number": 426
+      "row_number": 427
     },
     {
       "slug": "queens_blade_beautiful_warriors_ova_2010",
@@ -8165,7 +8183,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 427
+      "row_number": 428
     },
     {
       "slug": "joshikousei_no_koshitsuki_ova_2013",
@@ -8181,7 +8199,7 @@
         "code": "unknown",
         "label": "未知"
       },
-      "row_number": 428
+      "row_number": 429
     },
     {
       "slug": "natsuiro_kiseki_tv_2012",
@@ -8199,7 +8217,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 429
+      "row_number": 430
     },
     {
       "slug": "lagrange_kamogawa_days_ova_2012",
@@ -8218,7 +8236,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 430
+      "row_number": 431
     },
     {
       "slug": "kuzu_no_honkai_tv_2017",
@@ -8238,7 +8256,7 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "row_number": 431
+      "row_number": 432
     },
     {
       "slug": "blue_drop_tv_2007",
@@ -8259,7 +8277,7 @@
         "code": "explicit_relationship",
         "label": "明确交往"
       },
-      "row_number": 432
+      "row_number": 433
     },
     {
       "slug": "girls_high_tv_2006",
@@ -8280,7 +8298,7 @@
         "code": "explicit_relationship",
         "label": "明确交往"
       },
-      "row_number": 433
+      "row_number": 434
     },
     {
       "slug": "hamefura_tv_2020",
@@ -8300,7 +8318,7 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "row_number": 434
+      "row_number": 435
     },
     {
       "slug": "strike_witches_501_takeoff_movie_2019",
@@ -8319,7 +8337,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 435
+      "row_number": 436
     },
     {
       "slug": "sounan_desu_ka_tv_2019",
@@ -8337,7 +8355,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 436
+      "row_number": 437
     },
     {
       "slug": "bernard_jou_iwaku_tv_2016",
@@ -8353,7 +8371,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 437
+      "row_number": 438
     },
     {
       "slug": "strike_witches_501_takeoff_tv_2019",
@@ -8373,7 +8391,7 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "row_number": 438
+      "row_number": 439
     },
     {
       "slug": "hana_wa_saku_shura_no_gotoku_tv_2025",
@@ -8392,7 +8410,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 439
+      "row_number": 440
     },
     {
       "slug": "senki_zesshou_symphogear_tv_2012",
@@ -8411,7 +8429,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 440
+      "row_number": 441
     },
     {
       "slug": "love_live_sunshine_tv_2016",
@@ -8430,7 +8448,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 441
+      "row_number": 442
     },
     {
       "slug": "otome_wa_boku_ni_koi_shiteru_2_ova_2012",
@@ -8450,7 +8468,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 442
+      "row_number": 443
     },
     {
       "slug": "long_riders_tv_2016",
@@ -8468,7 +8486,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 443
+      "row_number": 444
     },
     {
       "slug": "shin_koihime_musou_otome_ran_tv_2010",
@@ -8487,7 +8505,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 444
+      "row_number": 445
     },
     {
       "slug": "dungeon_no_naka_no_hito_tv_2024",
@@ -8505,7 +8523,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 445
+      "row_number": 446
     },
     {
       "slug": "stella_no_mahou_tv_2016",
@@ -8523,7 +8541,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 446
+      "row_number": 447
     },
     {
       "slug": "love_live_sunshine_season_2_tv_2017",
@@ -8541,7 +8559,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 447
+      "row_number": 448
     },
     {
       "slug": "binbou_shimai_monogatari_tv_2006",
@@ -8559,7 +8577,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 448
+      "row_number": 449
     },
     {
       "slug": "fate_kaleid_liner_prisma_illya_licht_movie_2021",
@@ -8575,7 +8593,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 449
+      "row_number": 450
     },
     {
       "slug": "umayon_tv_2020",
@@ -8593,7 +8611,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 450
+      "row_number": 451
     },
     {
       "slug": "magia_record_tv_2020",
@@ -8611,7 +8629,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 451
+      "row_number": 452
     },
     {
       "slug": "yonin_wa_sorezore_uso_wo_tsuku_tv_2022",
@@ -8630,7 +8648,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 452
+      "row_number": 453
     },
     {
       "slug": "shakunetsu_no_takkyuu_musume_tv_2016",
@@ -8649,7 +8667,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 453
+      "row_number": 454
     },
     {
       "slug": "lagrange_season_2_tv_2012",
@@ -8668,7 +8686,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 454
+      "row_number": 455
     },
     {
       "slug": "miru_tights_web_2019",
@@ -8686,7 +8704,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 455
+      "row_number": 456
     },
     {
       "slug": "love_live_superstar_season_1_tv_2021",
@@ -8705,7 +8723,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 456
+      "row_number": 457
     },
     {
       "slug": "parade_parade_ova_1996",
@@ -8726,7 +8744,7 @@
         "code": "explicit_relationship",
         "label": "明确交往"
       },
-      "row_number": 457
+      "row_number": 458
     },
     {
       "slug": "sword_art_online_alternative_gun_gale_online_tv_2018",
@@ -8746,7 +8764,7 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "row_number": 458
+      "row_number": 459
     },
     {
       "slug": "dounika_naru_hibi_movie_2020",
@@ -8767,7 +8785,7 @@
         "code": "explicit_relationship",
         "label": "明确交往"
       },
-      "row_number": 459
+      "row_number": 460
     },
     {
       "slug": "third_flight_girls_ova_2015",
@@ -8786,7 +8804,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 460
+      "row_number": 461
     },
     {
       "slug": "fragtime_theatrical_ova_2019",
@@ -8808,7 +8826,7 @@
         "code": "explicit_relationship",
         "label": "明确交往"
       },
-      "row_number": 461
+      "row_number": 462
     },
     {
       "slug": "aimai_mi_mousou_catastrophe_tv_2014",
@@ -8826,7 +8844,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 462
+      "row_number": 463
     },
     {
       "slug": "morita_san_wa_mukuchi_tv_2011",
@@ -8845,7 +8863,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 463
+      "row_number": 464
     },
     {
       "slug": "princess_principal_crown_handler_ch4_movie_2025",
@@ -8863,7 +8881,7 @@
         "code": "unknown",
         "label": "未知"
       },
-      "row_number": 464
+      "row_number": 465
     },
     {
       "slug": "fate_kaleid_liner_prisma_phantasm_ova_2019",
@@ -8879,7 +8897,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 465
+      "row_number": 466
     },
     {
       "slug": "super_cub_tv_2021",
@@ -8897,7 +8915,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 466
+      "row_number": 467
     },
     {
       "slug": "show_by_rock_season_2_tv_2016",
@@ -8916,7 +8934,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 467
+      "row_number": 468
     },
     {
       "slug": "black_rock_shooter_ova_2010",
@@ -8934,7 +8952,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 468
+      "row_number": 469
     },
     {
       "slug": "kafun_shoujo_ova_2008",
@@ -8953,7 +8971,7 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "row_number": 469
+      "row_number": 470
     },
     {
       "slug": "gundam_witch_from_mercury_season_1_tv_2022",
@@ -8975,7 +8993,7 @@
         "code": "explicit_relationship",
         "label": "明确交往"
       },
-      "row_number": 470
+      "row_number": 471
     },
     {
       "slug": "mahou_shoujo_mou_ii_2_tv_2016",
@@ -8994,7 +9012,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 471
+      "row_number": 472
     },
     {
       "slug": "rinne_no_lagrange_tv_2012",
@@ -9014,7 +9032,7 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "row_number": 472
+      "row_number": 473
     },
     {
       "slug": "houkago_no_pleiades_web_2011",
@@ -9032,7 +9050,7 @@
         "code": "unknown",
         "label": "未知"
       },
-      "row_number": 473
+      "row_number": 474
     },
     {
       "slug": "hyperdimension_neptunia_summer_ova_2020",
@@ -9050,7 +9068,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 474
+      "row_number": 475
     },
     {
       "slug": "uta_kata_tv_2004",
@@ -9069,7 +9087,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 475
+      "row_number": 476
     },
     {
       "slug": "rwby_volume_4_web_2016",
@@ -9087,7 +9105,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 476
+      "row_number": 477
     },
     {
       "slug": "shin_koihime_musou_ova_2011",
@@ -9105,7 +9123,7 @@
         "code": "unknown",
         "label": "未知"
       },
-      "row_number": 477
+      "row_number": 478
     },
     {
       "slug": "bang_dream_mygo_members_daily_web_2022",
@@ -9123,7 +9141,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 478
+      "row_number": 479
     },
     {
       "slug": "akisora_yume_no_naka_ova_2010",
@@ -9142,7 +9160,7 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "row_number": 479
+      "row_number": 480
     },
     {
       "slug": "pandra_white_desire_black_hope_ova_2014",
@@ -9158,7 +9176,7 @@
         "code": "unknown",
         "label": "未知"
       },
-      "row_number": 480
+      "row_number": 481
     },
     {
       "slug": "inugami_san_to_nekoyama_san_tv_2014",
@@ -9180,7 +9198,7 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "row_number": 481
+      "row_number": 482
     },
     {
       "slug": "cross_ange_tv_2014",
@@ -9200,7 +9218,7 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "row_number": 482
+      "row_number": 483
     },
     {
       "slug": "himote_house_tv_2018",
@@ -9218,7 +9236,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 483
+      "row_number": 484
     },
     {
       "slug": "space_pirate_sara_ova_2008",
@@ -9238,7 +9256,7 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "row_number": 484
+      "row_number": 485
     },
     {
       "slug": "frozen_2_movie_2019",
@@ -9256,7 +9274,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 485
+      "row_number": 486
     },
     {
       "slug": "touka_gettan_tv_2007",
@@ -9276,7 +9294,7 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "row_number": 486
+      "row_number": 487
     },
     {
       "slug": "frame_arms_girl_tv_2017",
@@ -9294,7 +9312,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 487
+      "row_number": 488
     },
     {
       "slug": "assault_lily_fruits_web_2021",
@@ -9315,7 +9333,7 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "row_number": 488
+      "row_number": 489
     },
     {
       "slug": "shin_koihime_musou_ova_2010",
@@ -9333,7 +9351,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 489
+      "row_number": 490
     },
     {
       "slug": "shoujo_sunjik_all_starlight_web_2019",
@@ -9351,7 +9369,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 490
+      "row_number": 491
     },
     {
       "slug": "tensei_oujo_to_tensai_reijou_no_mahou_kakumei_tv_2023",
@@ -9372,7 +9390,7 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "row_number": 491
+      "row_number": 492
     },
     {
       "slug": "lostorage_conflated_wixoss_tv_2018",
@@ -9392,7 +9410,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 492
+      "row_number": 493
     },
     {
       "slug": "koukaku_no_pandora_tv_2016",
@@ -9411,7 +9429,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 493
+      "row_number": 494
     },
     {
       "slug": "one_off_ova_2012",
@@ -9429,7 +9447,7 @@
         "code": "unknown",
         "label": "未知"
       },
-      "row_number": 494
+      "row_number": 495
     },
     {
       "slug": "anima_yell_tv_2018",
@@ -9449,7 +9467,7 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "row_number": 495
+      "row_number": 496
     },
     {
       "slug": "music_start_ova_2013",
@@ -9465,7 +9483,7 @@
         "code": "unknown",
         "label": "未知"
       },
-      "row_number": 496
+      "row_number": 497
     },
     {
       "slug": "keijo_tv_2016",
@@ -9485,7 +9503,7 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "row_number": 497
+      "row_number": 498
     },
     {
       "slug": "shin_koihime_musou_tv_2009",
@@ -9505,7 +9523,7 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "row_number": 498
+      "row_number": 499
     },
     {
       "slug": "vividred_operation_tv_2013",
@@ -9524,7 +9542,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 499
+      "row_number": 500
     },
     {
       "slug": "kashimashi_girl_meets_girl_tv_2006",
@@ -9546,7 +9564,7 @@
         "code": "explicit_relationship",
         "label": "明确交往"
       },
-      "row_number": 500
+      "row_number": 501
     },
     {
       "slug": "brave_witches_tv_2016",
@@ -9566,7 +9584,7 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "row_number": 501
+      "row_number": 502
     },
     {
       "slug": "mahou_shoujo_mou_ii_tv_2016",
@@ -9584,7 +9602,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 502
+      "row_number": 503
     },
     {
       "slug": "ramen_koizumi_tv_2018",
@@ -9604,7 +9622,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 503
+      "row_number": 504
     },
     {
       "slug": "hinako_note_tv_2017",
@@ -9623,7 +9641,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 504
+      "row_number": 505
     },
     {
       "slug": "kuttsukiboshi_ova_2010",
@@ -9646,7 +9664,7 @@
         "code": "explicit_relationship",
         "label": "明确交往"
       },
-      "row_number": 505
+      "row_number": 506
     },
     {
       "slug": "bang_dream_tv_2017",
@@ -9664,7 +9682,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 506
+      "row_number": 507
     },
     {
       "slug": "bakuon_tv_2016",
@@ -9684,7 +9702,7 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "row_number": 507
+      "row_number": 508
     },
     {
       "slug": "world_witches_hasshin_tv_2021",
@@ -9704,7 +9722,7 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "row_number": 508
+      "row_number": 509
     },
     {
       "slug": "maid_dragon_tv_2018",
@@ -9725,7 +9743,7 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "row_number": 509
+      "row_number": 510
     },
     {
       "slug": "senpai_is_an_otokonoko_tv_2024",
@@ -9743,7 +9761,7 @@
         "code": "unknown",
         "label": "未知"
       },
-      "row_number": 510
+      "row_number": 511
     },
     {
       "slug": "penguin_musume_web_2008",
@@ -9763,7 +9781,7 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "row_number": 511
+      "row_number": 512
     },
     {
       "slug": "black_rock_shooter_tv_2012",
@@ -9784,7 +9802,7 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "row_number": 512
+      "row_number": 513
     },
     {
       "slug": "ochifuru_tv_2020",
@@ -9805,7 +9823,7 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "row_number": 513
+      "row_number": 514
     },
     {
       "slug": "morita_san_wa_mukuchi_ova_2011",
@@ -9825,7 +9843,7 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "row_number": 514
+      "row_number": 515
     },
     {
       "slug": "granbelm_tv_2019",
@@ -9844,7 +9862,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 515
+      "row_number": 516
     },
     {
       "slug": "feng_ling_yu_xiu_second_chapter_web_2023",
@@ -9863,7 +9881,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 516
+      "row_number": 517
     },
     {
       "slug": "harukana_receive_tv_2018",
@@ -9883,7 +9901,7 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "row_number": 517
+      "row_number": 518
     },
     {
       "slug": "gekidol_tv_2021",
@@ -9903,7 +9921,7 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "row_number": 518
+      "row_number": 519
     },
     {
       "slug": "koihime_musou_ova_2009",
@@ -9923,7 +9941,7 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "row_number": 519
+      "row_number": 520
     },
     {
       "slug": "jahy_sama_tv_2021",
@@ -9943,7 +9961,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 520
+      "row_number": 521
     },
     {
       "slug": "gokujou_seitokai_tv_2005",
@@ -9962,7 +9980,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 521
+      "row_number": 522
     },
     {
       "slug": "bang_dream_episode_of_roselia_promise_movie_2021",
@@ -9980,7 +9998,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 522
+      "row_number": 523
     },
     {
       "slug": "watashi_yuri_wa_oshigoto_tv_2023",
@@ -10003,7 +10021,7 @@
         "code": "explicit_relationship",
         "label": "明确交往"
       },
-      "row_number": 523
+      "row_number": 524
     },
     {
       "slug": "vlad_love_web_2021",
@@ -10024,7 +10042,7 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "row_number": 524
+      "row_number": 525
     },
     {
       "slug": "nyanko_days_tv_2017",
@@ -10042,7 +10060,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 525
+      "row_number": 526
     },
     {
       "slug": "healer_girl_tv_2022",
@@ -10061,7 +10079,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 526
+      "row_number": 527
     },
     {
       "slug": "akanesasu_shoujo_tv_2018",
@@ -10081,7 +10099,7 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "row_number": 527
+      "row_number": 528
     },
     {
       "slug": "release_the_spyce_tv_2018",
@@ -10101,7 +10119,7 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "row_number": 528
+      "row_number": 529
     },
     {
       "slug": "queens_blade_wandering_tv_2009",
@@ -10121,7 +10139,7 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "row_number": 529
+      "row_number": 530
     },
     {
       "slug": "rekan_tv_2015",
@@ -10139,7 +10157,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 530
+      "row_number": 531
     },
     {
       "slug": "mahou_shoujo_erena_2011",
@@ -10157,7 +10175,7 @@
         "code": "unknown",
         "label": "未知"
       },
-      "row_number": 531
+      "row_number": 532
     },
     {
       "slug": "cue_tv_2022",
@@ -10176,7 +10194,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 532
+      "row_number": 533
     },
     {
       "slug": "hamefura_x_tv_2021",
@@ -10196,7 +10214,7 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "row_number": 533
+      "row_number": 534
     },
     {
       "slug": "stardust_telepath_tv_2023",
@@ -10216,7 +10234,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 534
+      "row_number": 535
     },
     {
       "slug": "lycoris_recoil_tv_2022",
@@ -10235,7 +10253,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 535
+      "row_number": 536
     },
     {
       "slug": "pause_let_me_check_walkthrough_web_2022",
@@ -10254,7 +10272,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 536
+      "row_number": 537
     },
     {
       "slug": "date_a_bullet_nightmare_queen_ova_2021",
@@ -10274,7 +10292,7 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "row_number": 537
+      "row_number": 538
     },
     {
       "slug": "citrus_tv_2018",
@@ -10297,7 +10315,7 @@
         "code": "explicit_relationship",
         "label": "明确交往"
       },
-      "row_number": 538
+      "row_number": 539
     },
     {
       "slug": "slime_300years_tv_2021",
@@ -10316,7 +10334,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 539
+      "row_number": 540
     },
     {
       "slug": "umi_monogatari_tv_2009",
@@ -10337,7 +10355,7 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "row_number": 540
+      "row_number": 541
     },
     {
       "slug": "queens_blade_vanquished_ova_2013",
@@ -10355,7 +10373,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 541
+      "row_number": 542
     },
     {
       "slug": "murder_princess_ova_2007",
@@ -10373,7 +10391,7 @@
         "code": "unknown",
         "label": "未知"
       },
-      "row_number": 542
+      "row_number": 543
     },
     {
       "slug": "yakunara_mugcup_second_season_tv_2021",
@@ -10392,7 +10410,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 543
+      "row_number": 544
     },
     {
       "slug": "alignment_yuyu_animation_ova_2008",
@@ -10411,7 +10429,7 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "row_number": 544
+      "row_number": 545
     },
     {
       "slug": "saikoro_club_tv_2019",
@@ -10430,7 +10448,7 @@
         "code": "unknown",
         "label": "未知"
       },
-      "row_number": 545
+      "row_number": 546
     },
     {
       "slug": "toji_no_miko_tv_2018",
@@ -10449,7 +10467,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 546
+      "row_number": 547
     },
     {
       "slug": "rwby_volume_5_web_2017",
@@ -10469,7 +10487,7 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "row_number": 547
+      "row_number": 548
     },
     {
       "slug": "lostorage_incited_wixoss_tv_2016",
@@ -10489,7 +10507,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 548
+      "row_number": 549
     },
     {
       "slug": "milky_holmes_td_tv_2015",
@@ -10508,7 +10526,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 549
+      "row_number": 550
     },
     {
       "slug": "my_master_has_no_tail_tv_2022",
@@ -10527,7 +10545,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 550
+      "row_number": 551
     },
     {
       "slug": "nanoha_vivid_tv_2015",
@@ -10546,7 +10564,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 551
+      "row_number": 552
     },
     {
       "slug": "ikki_tousen_xtreme_xecutor_tv_2010",
@@ -10565,7 +10583,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 552
+      "row_number": 553
     },
     {
       "slug": "nekopara_tv_2020",
@@ -10584,7 +10602,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 553
+      "row_number": 554
     },
     {
       "slug": "ikki_tousen_dragon_destiny_tv_2007",
@@ -10604,7 +10622,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 554
+      "row_number": 555
     },
     {
       "slug": "takunomi_tv_2018",
@@ -10622,7 +10640,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 555
+      "row_number": 556
     },
     {
       "slug": "soushin_shoujo_matoi_tv_2016",
@@ -10638,7 +10656,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 556
+      "row_number": 557
     },
     {
       "slug": "ayakashi_triangle_tv_2023",
@@ -10657,7 +10675,7 @@
         "code": "unknown",
         "label": "未知"
       },
-      "row_number": 557
+      "row_number": 558
     },
     {
       "slug": "ikki_tousen_great_guardians_tv_2008",
@@ -10678,7 +10696,7 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "row_number": 558
+      "row_number": 559
     },
     {
       "slug": "bofuri_tv_2020",
@@ -10696,7 +10714,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 559
+      "row_number": 560
     },
     {
       "slug": "yuuki_yuuna_churutto_tv_2021",
@@ -10714,7 +10732,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 560
+      "row_number": 561
     },
     {
       "slug": "rock_is_a_ladys_hobby_tv_2025",
@@ -10733,7 +10751,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 561
+      "row_number": 562
     },
     {
       "slug": "kiddy_girland_tv_2009",
@@ -10754,7 +10772,7 @@
         "code": "explicit_relationship",
         "label": "明确交往"
       },
-      "row_number": 562
+      "row_number": 563
     },
     {
       "slug": "aimai_mi_tv_2013",
@@ -10774,7 +10792,7 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "row_number": 563
+      "row_number": 564
     },
     {
       "slug": "akuma_no_riddle_tv_2014",
@@ -10795,7 +10813,7 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "row_number": 564
+      "row_number": 565
     },
     {
       "slug": "koihime_musou_tv_2008",
@@ -10816,7 +10834,7 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "row_number": 565
+      "row_number": 566
     },
     {
       "slug": "vivid_strike_tv_2016",
@@ -10836,7 +10854,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 566
+      "row_number": 567
     },
     {
       "slug": "rifle_is_beautiful_tv_2019",
@@ -10856,7 +10874,7 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "row_number": 567
+      "row_number": 568
     },
     {
       "slug": "queens_blade_rebellion_tv_2012",
@@ -10874,7 +10892,7 @@
         "code": "unknown",
         "label": "未知"
       },
-      "row_number": 568
+      "row_number": 569
     },
     {
       "slug": "sigrdrifa_tv_2020",
@@ -10893,7 +10911,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 569
+      "row_number": 570
     },
     {
       "slug": "suzakinishi_animation_tv_2015",
@@ -10912,7 +10930,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 570
+      "row_number": 571
     },
     {
       "slug": "kancolle_movie_2016",
@@ -10931,7 +10949,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 571
+      "row_number": 572
     },
     {
       "slug": "usakame_tv_2016",
@@ -10950,7 +10968,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 572
+      "row_number": 573
     },
     {
       "slug": "minami_kamakura_cycling_tv_2017",
@@ -10968,7 +10986,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 573
+      "row_number": 574
     },
     {
       "slug": "wataoshi_tv_2023",
@@ -10990,7 +11008,7 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "row_number": 574
+      "row_number": 575
     },
     {
       "slug": "gokujou_girls_dorm_tv_2012",
@@ -11011,7 +11029,7 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "row_number": 575
+      "row_number": 576
     },
     {
       "slug": "zatsu_tabi_tv_2025",
@@ -11030,7 +11048,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 576
+      "row_number": 577
     },
     {
       "slug": "idolmaster_xenoglossia_tv_2007",
@@ -11050,7 +11068,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 577
+      "row_number": 578
     },
     {
       "slug": "strike_witches_ova_2007",
@@ -11066,7 +11084,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 578
+      "row_number": 579
     },
     {
       "slug": "love_live_superstar_season_3_tv_2024",
@@ -11085,7 +11103,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 579
+      "row_number": 580
     },
     {
       "slug": "selection_project_tv_2021",
@@ -11103,7 +11121,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 580
+      "row_number": 581
     },
     {
       "slug": "mangirl_tv_2013",
@@ -11121,7 +11139,7 @@
         "code": "unknown",
         "label": "未知"
       },
-      "row_number": 581
+      "row_number": 582
     },
     {
       "slug": "shokei_shoujo_tv_2022",
@@ -11142,7 +11160,7 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "row_number": 582
+      "row_number": 583
     },
     {
       "slug": "soul_eater_not_tv_2014",
@@ -11162,7 +11180,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 583
+      "row_number": 584
     },
     {
       "slug": "hitokura_manga_cafe_tv_2026",
@@ -11181,7 +11199,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 584
+      "row_number": 585
     },
     {
       "slug": "ikki_tousen_tv_2003",
@@ -11199,7 +11217,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 585
+      "row_number": 586
     },
     {
       "slug": "assault_lily_bouquet_tv_2020",
@@ -11219,7 +11237,7 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "row_number": 586
+      "row_number": 587
     },
     {
       "slug": "onigiri_tv_2016",
@@ -11237,7 +11255,7 @@
         "code": "unknown",
         "label": "未知"
       },
-      "row_number": 587
+      "row_number": 588
     },
     {
       "slug": "valkyrie_drive_mermaid_tv_2015",
@@ -11257,7 +11275,7 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "row_number": 588
+      "row_number": 589
     },
     {
       "slug": "garakowa_movie_2016",
@@ -11275,7 +11293,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 589
+      "row_number": 590
     },
     {
       "slug": "mikagura_school_suite_tv_2015",
@@ -11296,7 +11314,7 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "row_number": 590
+      "row_number": 591
     },
     {
       "slug": "miyuki_wonderland_ova_1995",
@@ -11316,7 +11334,7 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "row_number": 591
+      "row_number": 592
     },
     {
       "slug": "magical_asuka_tv_2019",
@@ -11335,7 +11353,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 592
+      "row_number": 593
     },
     {
       "slug": "pan_de_peace_tv_2016",
@@ -11354,7 +11372,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 593
+      "row_number": 594
     },
     {
       "slug": "tsf_monogatari_ova_2011",
@@ -11370,7 +11388,7 @@
         "code": "unknown",
         "label": "未知"
       },
-      "row_number": 594
+      "row_number": 595
     },
     {
       "slug": "nariyuki_papakatsu_girls_ova_2018",
@@ -11386,7 +11404,7 @@
         "code": "unknown",
         "label": "未知"
       },
-      "row_number": 595
+      "row_number": 596
     },
     {
       "slug": "seikon_no_qwaser_tv_2010",
@@ -11407,7 +11425,7 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "row_number": 596
+      "row_number": 597
     },
     {
       "slug": "slime_300years_season_2_tv_2025",
@@ -11426,7 +11444,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 597
+      "row_number": 598
     },
     {
       "slug": "taiyo_no_oushi_tv_2013",
@@ -11445,7 +11463,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 598
+      "row_number": 599
     },
     {
       "slug": "end_of_world_bicycle_tv_2025",
@@ -11464,7 +11482,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 599
+      "row_number": 600
     },
     {
       "slug": "joshikousei_tv_2019",
@@ -11482,7 +11500,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 600
+      "row_number": 601
     },
     {
       "slug": "yoku_wakaru_gendai_mahou_tv_2009",
@@ -11501,7 +11519,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 601
+      "row_number": 602
     },
     {
       "slug": "amazing_twins_ova_2014",
@@ -11520,7 +11538,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 602
+      "row_number": 603
     },
     {
       "slug": "gogo575_tv_2014",
@@ -11539,7 +11557,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 603
+      "row_number": 604
     },
     {
       "slug": "nanabun_no_nijuuni_tv_2020",
@@ -11557,7 +11575,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 604
+      "row_number": 605
     },
     {
       "slug": "otherside_picnic_tv_2021",
@@ -11577,7 +11595,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 605
+      "row_number": 606
     },
     {
       "slug": "toji_no_miko_kizuna_ova_2021",
@@ -11595,7 +11613,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 606
+      "row_number": 607
     },
     {
       "slug": "iwakakeru_tv_2020",
@@ -11613,7 +11631,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 607
+      "row_number": 608
     },
     {
       "slug": "senran_kagura_tokyo_tv_2018",
@@ -11631,7 +11649,7 @@
         "code": "unknown",
         "label": "未知"
       },
-      "row_number": 608
+      "row_number": 609
     },
     {
       "slug": "fantasista_doll_tv_2013",
@@ -11650,7 +11668,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 609
+      "row_number": 610
     },
     {
       "slug": "magia_record_s2_tv_2021",
@@ -11670,7 +11688,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 610
+      "row_number": 611
     },
     {
       "slug": "tamayomi_tv_2020",
@@ -11689,7 +11707,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 611
+      "row_number": 612
     },
     {
       "slug": "sora_iro_utility_short_2021",
@@ -11707,7 +11725,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 612
+      "row_number": 613
     },
     {
       "slug": "noukin_tv_2019",
@@ -11726,7 +11744,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 613
+      "row_number": 614
     },
     {
       "slug": "ice_ova_2007",
@@ -11746,7 +11764,7 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "row_number": 614
+      "row_number": 615
     },
     {
       "slug": "yakunara_mug_cup_tv_2021",
@@ -11765,7 +11783,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 615
+      "row_number": 616
     },
     {
       "slug": "vampire_in_the_garden_web_2022",
@@ -11786,7 +11804,7 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "row_number": 616
+      "row_number": 617
     },
     {
       "slug": "extreme_hearts_tv_2022",
@@ -11805,7 +11823,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 617
+      "row_number": 618
     },
     {
       "slug": "hachigatsu_no_cinderella_nine_tv_2019",
@@ -11824,7 +11842,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 618
+      "row_number": 619
     },
     {
       "slug": "ongaku_shoujo_movie_2015",
@@ -11842,7 +11860,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 619
+      "row_number": 620
     },
     {
       "slug": "jashin_chan_dropkick_seikimatsu_special_tv_2023",
@@ -11860,7 +11878,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 620
+      "row_number": 621
     },
     {
       "slug": "stella_jogakuin_koutouka_c3bu_tv_2013",
@@ -11878,7 +11896,7 @@
         "code": "unknown",
         "label": "未知"
       },
-      "row_number": 621
+      "row_number": 622
     },
     {
       "slug": "android_wa_keiken_ninzuu_ni_hairimasu_ka_tv_2026",
@@ -11899,7 +11917,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 622
+      "row_number": 623
     },
     {
       "slug": "mahou_shoujo_ikusei_keikaku_tv_2016",
@@ -11921,7 +11939,7 @@
         "code": "explicit_relationship",
         "label": "明确交往"
       },
-      "row_number": 623
+      "row_number": 624
     },
     {
       "slug": "hidan_no_aria_aa_tv_2015",
@@ -11940,7 +11958,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 624
+      "row_number": 625
     },
     {
       "slug": "aokana_tv_2016",
@@ -11961,7 +11979,7 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "row_number": 625
+      "row_number": 626
     },
     {
       "slug": "bokura_no_nanokakan_sensou_movie_2019",
@@ -11981,7 +11999,7 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "row_number": 626
+      "row_number": 627
     },
     {
       "slug": "senran_kagura_tv_2013",
@@ -12001,7 +12019,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 627
+      "row_number": 628
     },
     {
       "slug": "sengoku_otome_tv_2011",
@@ -12021,7 +12039,7 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "row_number": 628
+      "row_number": 629
     },
     {
       "slug": "mahou_shoujo_ore_tv_2018",
@@ -12041,7 +12059,7 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "row_number": 629
+      "row_number": 630
     },
     {
       "slug": "seirei_tsukai_no_blade_dance_tv_2014",
@@ -12057,7 +12075,7 @@
         "code": "unknown",
         "label": "未知"
       },
-      "row_number": 630
+      "row_number": 631
     },
     {
       "slug": "bofuri_tv_2023_s2",
@@ -12073,7 +12091,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 631
+      "row_number": 632
     },
     {
       "slug": "girlfriend_beta_tv_2014",
@@ -12093,7 +12111,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 632
+      "row_number": 633
     },
     {
       "slug": "blue_reflection_ray_tv_2021",
@@ -12112,7 +12130,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 633
+      "row_number": 634
     },
     {
       "slug": "hirogaru_sky_precure_tv_2023",
@@ -12131,7 +12149,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 634
+      "row_number": 635
     },
     {
       "slug": "utagoe_wa_mille_feuille_tv_2025",
@@ -12150,7 +12168,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 635
+      "row_number": 636
     },
     {
       "slug": "saikin_imouto_no_yousu_tv_2014",
@@ -12168,7 +12186,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 636
+      "row_number": 637
     },
     {
       "slug": "chuu_bra_tv_2010",
@@ -12187,7 +12205,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 637
+      "row_number": 638
     },
     {
       "slug": "alice_gear_aegis_expansion_tv_2023",
@@ -12206,7 +12224,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 638
+      "row_number": 639
     },
     {
       "slug": "kuma_kuma_kuma_bear_punch_tv_2023",
@@ -12224,7 +12242,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 639
+      "row_number": 640
     },
     {
       "slug": "wagamama_high_spec_tv_2016",
@@ -12242,7 +12260,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 640
+      "row_number": 641
     },
     {
       "slug": "kuma_kuma_kuma_bear_tv_2020",
@@ -12262,7 +12280,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 641
+      "row_number": 642
     },
     {
       "slug": "venus_versus_virus_tv_2007",
@@ -12282,7 +12300,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 642
+      "row_number": 643
     },
     {
       "slug": "two_car_tv_2017",
@@ -12302,7 +12320,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 643
+      "row_number": 644
     },
     {
       "slug": "aru_majo_ga_shinu_made_tv_2025",
@@ -12321,7 +12339,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 644
+      "row_number": 645
     },
     {
       "slug": "regalia_the_three_sacred_stars_tv_2016",
@@ -12341,7 +12359,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 645
+      "row_number": 646
     },
     {
       "slug": "etsuraku_no_tane_ova_2015",
@@ -12361,7 +12379,7 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "row_number": 646
+      "row_number": 647
     },
     {
       "slug": "shachiku_san_wa_youjo_yuurei_ni_iyasaretai_tv_2022",
@@ -12381,7 +12399,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 647
+      "row_number": 648
     },
     {
       "slug": "tachibanakan_to_lie_angle_tv_2018",
@@ -12403,7 +12421,7 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "row_number": 648
+      "row_number": 649
     },
     {
       "slug": "hikikomari_kyuuketsuki_tv_2023",
@@ -12424,7 +12442,7 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "row_number": 649
+      "row_number": 650
     },
     {
       "slug": "kyoushirou_to_towa_no_sora_tv_2007",
@@ -12445,7 +12463,7 @@
         "code": "explicit_relationship",
         "label": "明确交往"
       },
-      "row_number": 650
+      "row_number": 651
     },
     {
       "slug": "sin_nanatsu_no_taizai_tv_2017",
@@ -12466,7 +12484,7 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "row_number": 651
+      "row_number": 652
     },
     {
       "slug": "ange_vierge_tv_2016",
@@ -12486,7 +12504,7 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "row_number": 652
+      "row_number": 653
     },
     {
       "slug": "kancolle_tv_2015",
@@ -12504,7 +12522,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 653
+      "row_number": 654
     },
     {
       "slug": "shinmai_renkinjutsushi_tv_2022",
@@ -12523,7 +12541,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 654
+      "row_number": 655
     },
     {
       "slug": "kandagawa_jet_girls_tv_2019",
@@ -12543,7 +12561,7 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "row_number": 655
+      "row_number": 656
     },
     {
       "slug": "seiyuu_radio_uraomote_tv_2024",
@@ -12562,7 +12580,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 656
+      "row_number": 657
     },
     {
       "slug": "shy_tokyo_reconquest_tv_2024",
@@ -12580,7 +12598,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 657
+      "row_number": 658
     },
     {
       "slug": "blackfox_movie_2019",
@@ -12598,7 +12616,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 658
+      "row_number": 659
     },
     {
       "slug": "warau_arsnotoria_sun_tv_2022",
@@ -12616,7 +12634,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 659
+      "row_number": 660
     },
     {
       "slug": "mahou_shoujo_site_tv_2018",
@@ -12635,7 +12653,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 660
+      "row_number": 661
     },
     {
       "slug": "battle_girl_high_school_tv_2017",
@@ -12655,7 +12673,7 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "row_number": 661
+      "row_number": 662
     },
     {
       "slug": "ryza_no_atelier_tv_2023",
@@ -12671,7 +12689,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 662
+      "row_number": 663
     },
     {
       "slug": "urawa_no_utsuchan_tv_2015",
@@ -12689,7 +12707,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 663
+      "row_number": 664
     },
     {
       "slug": "tenkuu_shinpan_web_2021",
@@ -12708,7 +12726,7 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "row_number": 664
+      "row_number": 665
     },
     {
       "slug": "murder_mystery_of_the_dead_tv_2024",
@@ -12726,7 +12744,7 @@
         "code": "unknown",
         "label": "未知"
       },
-      "row_number": 665
+      "row_number": 666
     },
     {
       "slug": "ameiro_cocoa_side_g_tv_2019",
@@ -12745,7 +12763,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 666
+      "row_number": 667
     },
     {
       "slug": "princess_connect_redive_season_2_tv_2022",
@@ -12764,7 +12782,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 667
+      "row_number": 668
     },
     {
       "slug": "shy_tv_2023",
@@ -12780,7 +12798,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 668
+      "row_number": 669
     },
     {
       "slug": "vtuber_nanda_ga_haishin_kiri_wasuretara_densetsu_ni_natteta_tv_2024",
@@ -12800,7 +12818,7 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "row_number": 669
+      "row_number": 670
     },
     {
       "slug": "schoolgirl_strikers_animation_channel_tv_2017",
@@ -12819,7 +12837,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 670
+      "row_number": 671
     },
     {
       "slug": "ongaku_shoujo_tv_2018",
@@ -12837,7 +12855,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 671
+      "row_number": 672
     },
     {
       "slug": "rail_romanesque_tv_2020",
@@ -12856,7 +12874,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 672
+      "row_number": 673
     },
     {
       "slug": "circlet_princess_tv_2019",
@@ -12874,7 +12892,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 673
+      "row_number": 674
     },
     {
       "slug": "rpg_fudosan_tv_2022",
@@ -12893,7 +12911,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 674
+      "row_number": 675
     },
     {
       "slug": "prima_doll_tv_2022",
@@ -12911,7 +12929,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 675
+      "row_number": 676
     },
     {
       "slug": "rwby_ice_queendom_tv_2022",
@@ -12929,7 +12947,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 676
+      "row_number": 677
     },
     {
       "slug": "genjitsu_no_yohane_tv_2023",
@@ -12947,7 +12965,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 677
+      "row_number": 678
     },
     {
       "slug": "koi_wa_futago_de_warikirenai_tv_2024",
@@ -12966,7 +12984,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 678
+      "row_number": 679
     },
     {
       "slug": "ponnomichi_tv_2024",
@@ -12985,7 +13003,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 679
+      "row_number": 680
     },
     {
       "slug": "gundam_witch_from_mercury_season_2_tv_2023",
@@ -13006,7 +13024,7 @@
         "code": "explicit_relationship",
         "label": "明确交往"
       },
-      "row_number": 680
+      "row_number": 681
     },
     {
       "slug": "blue_archive_the_animation_tv_2024",
@@ -13025,7 +13043,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 681
+      "row_number": 682
     },
     {
       "slug": "futari_wa_milky_holmes_tv_2013",
@@ -13043,7 +13061,7 @@
         "code": "unknown",
         "label": "未知"
       },
-      "row_number": 682
+      "row_number": 683
     },
     {
       "slug": "shibou_yuugi_de_meshi_wo_kuu_tv_2026",
@@ -13063,7 +13081,7 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "row_number": 683
+      "row_number": 684
     },
     {
       "slug": "magia_record_final_season_tv_2022",
@@ -13081,7 +13099,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 684
+      "row_number": 685
     },
     {
       "slug": "yoru_no_kurage_wa_oyogenai_tv_2024",
@@ -13100,7 +13118,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 685
+      "row_number": 686
     },
     {
       "slug": "shikanoko_nokonoko_koshitantan_tv_2024",
@@ -13119,7 +13137,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 686
+      "row_number": 687
     },
     {
       "slug": "z_x_code_reunion_tv_2019",
@@ -13138,7 +13156,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 687
+      "row_number": 688
     },
     {
       "slug": "higurashi_sotsu_tv_2021",
@@ -13158,7 +13176,7 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "row_number": 688
+      "row_number": 689
     },
     {
       "slug": "eiyuuou_bu_wo_kiwameru_tame_tenseisu_tv_2023",
@@ -13176,7 +13194,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 689
+      "row_number": 690
     },
     {
       "slug": "uma_musume_pretty_derby_season_3_tv_2023",
@@ -13195,7 +13213,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 690
+      "row_number": 691
     },
     {
       "slug": "maerchen_maedchen_tv_2018",
@@ -13214,7 +13232,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 691
+      "row_number": 692
     },
     {
       "slug": "hibike_euphonium_3_tv_2024",
@@ -13233,7 +13251,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 692
+      "row_number": 693
     },
     {
       "slug": "azur_lane_tv_2019",
@@ -13251,7 +13269,7 @@
         "code": "unknown",
         "label": "未知"
       },
-      "row_number": 693
+      "row_number": 694
     },
     {
       "slug": "mahonare_tv_2024",
@@ -13269,7 +13287,7 @@
         "code": "unknown",
         "label": "未知"
       },
-      "row_number": 694
+      "row_number": 695
     },
     {
       "slug": "nanare_hananare_tv_2024",
@@ -13288,7 +13306,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 695
+      "row_number": 696
     },
     {
       "slug": "black_rock_shooter_dawn_fall_tv_2022",
@@ -13308,7 +13326,7 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "row_number": 696
+      "row_number": 697
     },
     {
       "slug": "omae_gotoki_ga_maou_ni_kateru_tv_2026",
@@ -13329,7 +13347,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 697
+      "row_number": 698
     },
     {
       "slug": "netsuzou_trap_ntr_tv_2017",
@@ -13351,7 +13369,7 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "row_number": 698
+      "row_number": 699
     },
     {
       "slug": "aru_asa_dummy_head_mic_tv_2022",
@@ -13371,7 +13389,7 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 699
+      "row_number": 700
     },
     {
       "slug": "hanyou_no_yashahime_tv_2020",
@@ -13389,7 +13407,7 @@
         "code": "non_romantic",
         "label": "非恋爱"
       },
-      "row_number": 700
+      "row_number": 701
     },
     {
       "slug": "momentary_lily_tv_2025",
@@ -13407,7 +13425,7 @@
         "code": "unknown",
         "label": "未知"
       },
-      "row_number": 701
+      "row_number": 702
     },
     {
       "slug": "turkey_tv_2025",
@@ -13427,7 +13445,7 @@
         "code": "explicit_desire",
         "label": "明确欲望"
       },
-      "row_number": 702
+      "row_number": 703
     },
     {
       "slug": "sasayaku_you_ni_koi_wo_utau_tv_2024",
@@ -13450,7 +13468,7 @@
         "code": "explicit_relationship",
         "label": "明确交往"
       },
-      "row_number": 703
+      "row_number": 704
     },
     {
       "slug": "bang_dream_ave_mujica_tv_2025",
@@ -13469,27 +13487,9 @@
         "code": "potential_or_strongly_coded",
         "label": "明显但未确认"
       },
-      "row_number": 704
-    },
-    {
-      "slug": "amanatsu_tv_2016",
-      "title": "蓝海少女",
-      "bangumi_entry_status": "no_exact_entry",
-      "bangumi_url": null,
-      "year_medium": "2016 TV",
-      "female_relationship_position": "主线",
-      "romance_position": "缺席",
-      "queries": [
-        "主线"
-      ],
-      "male_romance_line": "无",
-      "explicitness": {
-        "code": "non_romantic",
-        "label": "非恋爱"
-      },
       "row_number": 705
     }
   ],
-  "release_plan_sha256": "5f7238e95a09772619ae4b3aacaf739205869eabc12db388dc3de5caf7a810f0",
+  "release_plan_sha256": "8f09eeed95250938a395b27c64b561a3dc4194208aac36e685902b281f13b0e2",
   "target_slugs_sha256": "e4d21df4053fc14479717e0403516367bbae1a51666ebf48f962b7f7eda1b617"
 }

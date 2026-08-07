@@ -1,9 +1,9 @@
 {
   "schema_version": 4,
   "snapshot_date": "2026-08-07",
-  "generated_at": "2026-08-07T09:33:51.644015+00:00",
+  "generated_at": "2026-08-07T10:18:47.779706+00:00",
   "source": {
-    "sha256": "5c8c928fc2d19e3572b08096a18509f50e2ea30f88c6383b1a81ef4f06752554",
+    "sha256": "e11a382425915e4242010d581867fade379cf7d2552bb3e1f475521ad5601c91",
     "row_count": 705,
     "classification_schema": 4,
     "selection_composition": {
@@ -17,18 +17,18 @@
     },
     "release_plan": {
       "path": "data/release-plan.json",
-      "sha256": "b45b5f68f2000fbfe12413c6f08d3633ea263e0df809c171652f62bdcc1690cc",
-      "plan_sha256": "5f7238e95a09772619ae4b3aacaf739205869eabc12db388dc3de5caf7a810f0",
+      "sha256": "e210949c1a63f1f8d78d04e2a1b78e89fa385c574ee598e45abaab2f946bd7cc",
+      "plan_sha256": "8f09eeed95250938a395b27c64b561a3dc4194208aac36e685902b281f13b0e2",
       "target_slug_count": 705,
       "target_slugs_sha256": "e4d21df4053fc14479717e0403516367bbae1a51666ebf48f962b7f7eda1b617"
     },
     "platform_current": {
-      "sha256": "480fe0089f196656c710d32e363baee5ae85476eccd603897d601285435b028c",
-      "store_sha256": "a564e9f09e310e2637eef210ab16209e3e98ae9f969bd54b377c43e742984991",
+      "sha256": "c13efeadba6cf0ab436468d1487b87cdb50e64f261f8d510bfe8610250bff6da",
+      "store_sha256": "7f82f9a19ba289a63b08ed587246079307d1983ab76db911abe829bcd0ad8bda",
       "target_slugs_sha256": "e4d21df4053fc14479717e0403516367bbae1a51666ebf48f962b7f7eda1b617"
     }
   },
-  "release_plan_sha256": "5f7238e95a09772619ae4b3aacaf739205869eabc12db388dc3de5caf7a810f0",
+  "release_plan_sha256": "8f09eeed95250938a395b27c64b561a3dc4194208aac36e685902b281f13b0e2",
   "target_slugs_sha256": "e4d21df4053fc14479717e0403516367bbae1a51666ebf48f962b7f7eda1b617",
   "dataset_profile": {
     "media": {
@@ -158,8 +158,8 @@
     "common_no_platform_label_open_relationship_center": 318,
     "common_no_platform_label_female_relationship_main": 342,
     "common_all_three_platform_labels": 50,
-    "bangumi_exact_entries": 704,
-    "bangumi_no_exact_entry": 1
+    "bangumi_exact_entries": 705,
+    "bangumi_no_exact_entry": 0
   },
   "platform_coverage": {
     "Anime-Planet GL": {
@@ -188,12 +188,12 @@
       "key": "non_romantic",
       "label": "非恋爱",
       "n": 219,
-      "bangumi_exact_entries": 218,
+      "bangumi_exact_entries": 219,
       "bangumi_ratio": {
-        "median": 0.056027568614398615,
-        "mean": 0.05675572839810525,
-        "q25": 0.035278052753147,
-        "q75": 0.07688569933467893
+        "median": 0.0560289005521096,
+        "mean": 0.056773111869490064,
+        "q25": 0.03561434177917254,
+        "q75": 0.07684832174628092
       },
       "platforms": {
         "Anime-Planet GL": {
@@ -341,10 +341,10 @@
     }
   ],
   "correlations": {
-    "bangumi_count_vs_user_marks": 0.7693936863912273,
-    "bangumi_ratio_vs_user_marks": -0.1677629303552731,
-    "bangumi_ratio_vs_count": 0.4100530488371991,
-    "bangumi_ratio_vs_anilist_rank": 0.45605233346255336
+    "bangumi_count_vs_user_marks": 0.7696626044841112,
+    "bangumi_ratio_vs_user_marks": -0.16739435696754468,
+    "bangumi_ratio_vs_count": 0.40994228575683167,
+    "bangumi_ratio_vs_anilist_rank": 0.45601431762808753
   },
   "female_centrality_explicitness_matrix": {
     "主线": {
@@ -388,17 +388,16 @@
     "maximum_retrieved_at": "2026-08-07T00:00:00+00:00",
     "record_count": 2820,
     "result_counts": {
-      "no_exact_entry": 96,
-      "success": 2724
+      "no_exact_entry": 95,
+      "success": 2725
     },
     "platforms": {
       "bangumi": {
-        "minimum_retrieved_at": "2026-08-04T06:16:15.523000+00:00",
+        "minimum_retrieved_at": "2026-07-31T00:00:00+00:00",
         "maximum_retrieved_at": "2026-08-07T00:00:00+00:00",
         "record_count": 705,
         "result_counts": {
-          "no_exact_entry": 1,
-          "success": 704
+          "success": 705
         }
       },
       "anime_planet": {
@@ -2919,42 +2918,42 @@
     "dataset_overview": {
       "path": "assets/yuri_classification_database_patterns/00_dataset_overview.png",
       "sha256": "e0895006f0480af73101723b8f867803a8b3900d63099d03260f694a7b5110cb",
-      "source_sha256": "5c8c928fc2d19e3572b08096a18509f50e2ea30f88c6383b1a81ef4f06752554",
+      "source_sha256": "e11a382425915e4242010d581867fade379cf7d2552bb3e1f475521ad5601c91",
       "width": 1800,
       "height": 1120
     },
     "platform_overlap": {
       "path": "assets/yuri_classification_database_patterns/01_platform_overlap.png",
       "sha256": "47ae4603deaae9a7076d5c5be62a57e680eb50986ab8a0f283c68fd84fb9568a",
-      "source_sha256": "5c8c928fc2d19e3572b08096a18509f50e2ea30f88c6383b1a81ef4f06752554",
+      "source_sha256": "e11a382425915e4242010d581867fade379cf7d2552bb3e1f475521ad5601c91",
       "width": 1800,
       "height": 1120
     },
     "explicitness_gradient": {
       "path": "assets/yuri_classification_database_patterns/02_explicitness_gradient.png",
-      "sha256": "0f3156f5b83ff3640fde6e9550cc1368ec0dfd85e0bc894e84edabb3b59ff5f6",
-      "source_sha256": "5c8c928fc2d19e3572b08096a18509f50e2ea30f88c6383b1a81ef4f06752554",
+      "sha256": "b1e19d3cfc38829febd3d14ba0c1222410fcb1af6f92608f564468a4e499c67c",
+      "source_sha256": "e11a382425915e4242010d581867fade379cf7d2552bb3e1f475521ad5601c91",
       "width": 1800,
       "height": 1120
     },
     "platform_rates": {
       "path": "assets/yuri_classification_database_patterns/03_platform_rates_by_explicitness.png",
       "sha256": "0e954059b87016af4cc688c214aa60da940f15f0a863547b57b9660d9fe5e109",
-      "source_sha256": "5c8c928fc2d19e3572b08096a18509f50e2ea30f88c6383b1a81ef4f06752554",
+      "source_sha256": "e11a382425915e4242010d581867fade379cf7d2552bb3e1f475521ad5601c91",
       "width": 1800,
       "height": 1120
     },
     "bangumi_popularity": {
       "path": "assets/yuri_classification_database_patterns/04_bangumi_popularity_correction.png",
-      "sha256": "a174375994c1d7e5beb66611ca7044f1ef176e1f9ee50eaa94770d49b0869927",
-      "source_sha256": "5c8c928fc2d19e3572b08096a18509f50e2ea30f88c6383b1a81ef4f06752554",
+      "sha256": "995c16048d96b8c6dbdb0c454d1caa8fcc41ce84a8f4607ab34530949f16aa87",
+      "source_sha256": "e11a382425915e4242010d581867fade379cf7d2552bb3e1f475521ad5601c91",
       "width": 1800,
       "height": 1120
     },
     "convergence_and_structure": {
       "path": "assets/yuri_classification_database_patterns/05_convergence_and_text_structure.png",
-      "sha256": "881b6b0b491737cf8c5e82291d48123fb231eaf699a460cf26b3500c0e69fafd",
-      "source_sha256": "5c8c928fc2d19e3572b08096a18509f50e2ea30f88c6383b1a81ef4f06752554",
+      "sha256": "b44c84ca7372d6f946c39d62a75ebc8e5b3c58cb2879054f26c82c51ab7e0d04",
+      "source_sha256": "e11a382425915e4242010d581867fade379cf7d2552bb3e1f475521ad5601c91",
       "width": 1800,
       "height": 1120
     }

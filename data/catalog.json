@@ -1,209 +1,27 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-08-07T09:36:45+00:00",
+  "generated_at": "2026-08-07T10:19:56+00:00",
   "site_url": "https://l-m-sherlock.github.io/yuri-classification-archive",
   "item_count": 705,
   "current_release": {
     "selector": "status_complete",
-    "published_at": "2026-08-07T09:36:45+00:00",
+    "published_at": "2026-08-07T10:19:56+00:00",
     "plan_path": "data/release-plan.json",
-    "plan_file_sha256": "b45b5f68f2000fbfe12413c6f08d3633ea263e0df809c171652f62bdcc1690cc",
-    "plan_sha256": "5f7238e95a09772619ae4b3aacaf739205869eabc12db388dc3de5caf7a810f0",
-    "previous_head": "0f4ca5de5ea62784e0d80d46296ca8747d1c05c9",
-    "base_slug_count": 691,
-    "base_slugs_sha256": "c2b271725f9b67809727ea9817f8fce957975a11dba77c42c87e41e90b3445ab",
+    "plan_file_sha256": "e210949c1a63f1f8d78d04e2a1b78e89fa385c574ee598e45abaab2f946bd7cc",
+    "plan_sha256": "8f09eeed95250938a395b27c64b561a3dc4194208aac36e685902b281f13b0e2",
+    "previous_head": "66120538aab1e91e1067edbf5e35b49647aba403",
+    "base_slug_count": 705,
+    "base_slugs_sha256": "e4d21df4053fc14479717e0403516367bbae1a51666ebf48f962b7f7eda1b617",
     "item_count": 705,
     "slugs_sha256": "e4d21df4053fc14479717e0403516367bbae1a51666ebf48f962b7f7eda1b617",
-    "added_slugs": [
-      "frozen_movie_2013",
-      "joshikousei_no_koshitsuki_ova_2013",
-      "kafun_shoujo_ova_2008",
-      "mahou_shoujo_erena_2011",
-      "nariyuki_papakatsu_girls_ova_2018",
-      "pandra_white_desire_black_hope_ova_2014",
-      "parade_parade_ova_1996",
-      "rin_sen_ran_sem_cross_mix_ova_2013",
-      "rwby_volume_1_web_2013",
-      "rwby_volume_3_web_2015",
-      "shin_koihime_musou_ova_2011",
-      "the_owl_house_season_1_tv_2020",
-      "third_flight_girls_ova_2015",
-      "tsf_monogatari_ova_2011"
-    ],
+    "added_slugs": [],
     "removed_slugs": [],
-    "changed_slugs": [
-      "a_channel_nabe_wo_tabeyou_ova_2017",
-      "a_channel_smile_ova_2012",
-      "action_heroine_cheer_fruits_tv_2017",
-      "aika_ova_1997",
-      "aimai_mi_tv_2013",
-      "akisora_yume_no_naka_ova_2010",
-      "amanatsu_advance_tv_2018",
-      "amazing_twins_ova_2014",
-      "ameiro_cocoa_side_g_tv_2019",
-      "an_happy_tv_2016",
-      "ange_vierge_tv_2016",
-      "anima_yell_tv_2018",
-      "asagao_to_kase_san_web_2017",
-      "azur_lane_bisoku_tv_2021",
-      "bang_dream_episode_of_roselia_2_song_i_am_movie_2021",
-      "bang_dream_episode_of_roselia_promise_movie_2021",
-      "bang_dream_film_live_2nd_stage_movie_2021",
-      "bang_dream_garupa_pico_2018",
-      "bang_dream_poppin_dream_movie_2022",
-      "battle_girl_high_school_tv_2017",
-      "candy_boy_side_story_for_archive_web_2007",
-      "circlet_princess_tv_2019",
-      "el_cazador_de_la_bruja_tv_2007",
-      "extreme_hearts_tv_2022",
-      "fantasista_doll_tv_2013",
-      "fate_kaleid_liner_prisma_illya_2wei_oad_2015",
-      "fate_kaleid_liner_prisma_illya_licht_movie_2021",
-      "fate_kaleid_liner_prisma_illya_oad_2014",
-      "fate_kaleid_liner_prisma_illya_sekka_no_chikai_movie_2017",
-      "fate_kaleid_liner_prisma_phantasm_ova_2019",
-      "frozen_fever_short_2015",
-      "fumikiri_jikan_tv_2018",
-      "girlfriend_beta_tv_2014",
-      "girls_high_tv_2006",
-      "gochuumon_wa_usagi_desu_ka_sing_for_you_ova_2019",
-      "gogo575_tv_2014",
-      "gokujou_girls_dorm_tv_2012",
-      "gokujou_seitokai_tv_2005",
-      "hachigatsu_no_cinderella_nine_tv_2019",
-      "harukana_receive_tv_2018",
-      "hidamari_sketch_hoshimittsu_special_ova_2010",
-      "hidamari_sketch_sae_hiro_graduation_ova_2013",
-      "hidamari_sketch_x365_special_ova_2009",
-      "hidamari_sketch_x_sp_ova_2011",
-      "high_school_fleet_movie_2020",
-      "high_school_fleet_ova_2017",
-      "hitohira_tv_2007",
-      "hyperdimension_neptunia_summer_ova_2020",
-      "ibaranoou_king_of_thorn_movie_2010",
-      "ikki_tousen_great_guardians_tv_2008",
-      "ikki_tousen_tv_2003",
-      "ikki_tousen_xtreme_xecutor_tv_2010",
-      "inugami_san_to_nekoyama_san_tv_2014",
-      "iwakakeru_tv_2020",
-      "jahy_sama_tv_2021",
-      "jashin_chan_dropkick_dash_tv_2020",
-      "joshikousei_tv_2019",
-      "kancolle_movie_2016",
-      "kandagawa_jet_girls_tv_2019",
-      "keijo_tv_2016",
-      "key_the_metal_idol_ova_1994",
-      "kiddy_girland_tv_2009",
-      "kill_me_baby_ova_2013",
-      "koihime_musou_ova_2009",
-      "koukaku_no_pandora_movie_2015",
-      "koukaku_no_pandora_tv_2016",
-      "kuma_kuma_kuma_bear_tv_2020",
-      "kuttsukiboshi_ova_2010",
-      "kyoushirou_to_towa_no_sora_tv_2007",
-      "lagrange_kamogawa_days_ova_2012",
-      "lagrange_season_2_tv_2012",
-      "lostorage_conflated_wixoss_tv_2018",
-      "lostorage_incited_wixoss_tv_2016",
-      "love_live_nijigasaki_final_chapter_part_1_movie_2024",
-      "lucky_star_ova_2008",
-      "mahou_shoujo_ikusei_keikaku_tv_2016",
-      "mahou_shoujo_mou_ii_2_tv_2016",
-      "mahou_shoujo_mou_ii_tv_2016",
-      "mahou_shoujo_site_tv_2018",
-      "maid_dragon_tv_2018",
-      "maria_sama_ga_miteru_haru_tv_2004",
-      "minami_kamakura_cycling_tv_2017",
-      "morita_san_wa_mukuchi_2_tv_2011",
-      "morita_san_wa_mukuchi_tv_2011",
-      "ongaku_shoujo_tv_2018",
-      "pause_let_me_check_walkthrough_web_2022",
-      "prima_doll_tv_2022",
-      "queens_blade_vanquished_ova_2013",
-      "release_the_spyce_tv_2018",
-      "rifle_is_beautiful_tv_2019",
-      "rinne_no_lagrange_tv_2012",
-      "rod_read_or_die_ova_2001",
-      "rwby_volume_1_3_the_beginning_tv_2017",
-      "rwby_volume_2_web_2014",
-      "rwby_volume_4_web_2016",
-      "rwby_volume_5_web_2017",
-      "schoolgirl_strikers_animation_channel_tv_2017",
-      "selector_spread_wixoss_tv_2014",
-      "sengoku_otome_tv_2011",
-      "senran_kagura_tv_2013",
-      "shin_koihime_musou_ova_2010",
-      "shoujo_kageki_revue_starlight_rondo_rondo_rondo_movie_2020",
-      "shoujo_sunjik_all_starlight_web_2019",
-      "show_by_rock_mashumairesh_tv_2020",
-      "sin_nanatsu_no_taizai_tv_2017",
-      "sora_no_method_mou_hitotsu_no_negai_web_2019",
-      "soul_eater_not_tv_2014",
-      "strike_witches_501_takeoff_movie_2019",
-      "strike_witches_501_takeoff_tv_2019",
-      "suzakinishi_animation_tv_2015",
-      "tamayomi_tv_2020",
-      "tamayura_more_aggressive_tv_2013",
-      "tamayura_sotsugyou_shashin_theatrical_ova_2015",
-      "tantei_opera_milky_holmes_gyakushu_movie_2016",
-      "teekyu_tv_2013_s3",
-      "teekyu_tv_2015_s4",
-      "teekyu_tv_2015_s5",
-      "teekyu_tv_2015_s6",
-      "teekyu_tv_2016_s7",
-      "teekyu_tv_2016_s8",
-      "teekyu_tv_2017_s9",
-      "toaru_kagaku_no_railgun_s_ova_2014",
-      "top_wo_nerae_2_ova_2004",
-      "touka_gettan_tv_2007",
-      "two_car_tv_2017",
-      "umi_monogatari_tv_2009",
-      "urawa_no_utsuchan_tv_2015",
-      "usakame_tv_2016",
-      "uta_kata_tv_2004",
-      "venus_versus_virus_tv_2007",
-      "vivid_strike_tv_2016",
-      "vividred_operation_tv_2013",
-      "vlad_love_web_2021",
-      "wagamama_high_spec_tv_2016",
-      "warau_arsnotoria_sun_tv_2022",
-      "watashi_ni_tenshi_ga_maiorita_precious_friends_movie_2022",
-      "world_witches_hasshin_tv_2021",
-      "yakunara_mugcup_second_season_tv_2021",
-      "yama_no_susume_omoide_present_ova_2018",
-      "yama_no_susume_second_season_tv_2014",
-      "yama_no_susume_third_season_tv_2018",
-      "yoku_wakaru_gendai_mahou_tv_2009",
-      "yuri_seijin_naoko_san_ova_2010",
-      "yuri_seijin_naoko_san_ova_2012",
-      "yuru_yuri_comma_ova_2019",
-      "yuuki_yuuna_churutto_tv_2021",
-      "yuuki_yuuna_washio_sumi_ch1_movie_2017",
-      "yuuki_yuuna_washio_sumi_ch2_movie_2017",
-      "yuuki_yuuna_washio_sumi_ch3_movie_2017",
-      "yuuki_yuuna_washio_yuusha_tv_2017",
-      "yuyushiki_ova_2017"
-    ],
-    "refresh_slugs": [
-      "frozen_movie_2013",
-      "joshikousei_no_koshitsuki_ova_2013",
-      "kafun_shoujo_ova_2008",
-      "mahou_shoujo_erena_2011",
-      "nariyuki_papakatsu_girls_ova_2018",
-      "pandra_white_desire_black_hope_ova_2014",
-      "parade_parade_ova_1996",
-      "rin_sen_ran_sem_cross_mix_ova_2013",
-      "rwby_volume_1_web_2013",
-      "rwby_volume_3_web_2015",
-      "shin_koihime_musou_ova_2011",
-      "the_owl_house_season_1_tv_2020",
-      "third_flight_girls_ova_2015",
-      "tsf_monogatari_ova_2011"
-    ]
+    "changed_slugs": [],
+    "refresh_slugs": []
   },
   "database_snapshot": {
     "snapshot_date": "2026-08-07",
-    "source_sha256": "5c8c928fc2d19e3572b08096a18509f50e2ea30f88c6383b1a81ef4f06752554"
+    "source_sha256": "e11a382425915e4242010d581867fade379cf7d2552bb3e1f475521ad5601c91"
   },
   "query_semantics": {
     "combination": "and",
@@ -31452,6 +31270,99 @@
       "source_hashes": {
         "metadata_sha256": "cab7419342a1b9aed6fe9fd15a7f59cdd685191230e6b145024d878d7750ba9a",
         "report_sha256": "85d306062aee16f29a79fef75e30b11dc6d99b84f434d541b86640ded1cae6ca"
+      }
+    },
+    {
+      "slug": "amanatsu_tv_2016",
+      "title": "蓝海少女",
+      "title_original": "あまんちゅ！",
+      "title_romaji": "Amanchu!",
+      "title_english": "Amanchu!",
+      "release_year": 2016,
+      "medium": {
+        "code": "tv_anime",
+        "label": "TV 动画"
+      },
+      "scope_summary": "2016 年电视动画《あまんちゅ！》电视播出正篇第 1–12 话",
+      "female_relationship_centrality": {
+        "code": "main",
+        "label": "主线"
+      },
+      "archive_basis": {
+        "code": "work_classification",
+        "label": "作品分类"
+      },
+      "romance_centrality": {
+        "code": "absent",
+        "label": "缺席"
+      },
+      "highest_romance_explicitness": {
+        "code": "non_romantic",
+        "label": "非恋爱"
+      },
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [
+        {
+          "code": "in_scope_edition",
+          "label": "当前版本"
+        }
+      ],
+      "official_source_surfaces": [
+        {
+          "code": "story_or_profile",
+          "label": "剧情／角色页"
+        },
+        {
+          "code": "visible_work_marketing",
+          "label": "可见作品宣传"
+        }
+      ],
+      "official_source_summary": "层级：当前版本；位置：剧情／角色页、可见作品宣传",
+      "identity_evidence_basis": {
+        "code": "no_in_scope_evidence",
+        "label": "范围内无依据"
+      },
+      "male_romance_line": {
+        "code": "none",
+        "label": "无"
+      },
+      "confidence": {
+        "code": "high",
+        "label": "高"
+      },
+      "classification_date": "2026-08-06",
+      "content_warnings": [
+        "scuba_diving_training_stress_and_breathing_difficulty",
+        "underwater_risk_and_anxiety",
+        "high_school_swimwear_scenes"
+      ],
+      "content_warnings_text": "scuba_diving_training_stress_and_breathing_difficulty；underwater_risk_and_anxiety；high_school_swimwear_scenes",
+      "quick_queries": {
+        "explicit_relationship": false,
+        "explicit_desire": false,
+        "accepts_unconfirmed": false,
+        "female_relationship_main": true,
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
+      },
+      "bangumi_entry_status": {
+        "code": "success",
+        "label": "有精确条目"
+      },
+      "bangumi_rank": 3493,
+      "bangumi_yuri_tag_ratio": 0.06056270863137816,
+      "report_url": "/yuri-classification-archive/works/amanatsu_tv_2016/",
+      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/amanatsu_tv_2016/",
+      "source_hashes": {
+        "metadata_sha256": "66b2ff538b03f2a96c8a16ea24d852342e9e5e6ff7e0045502ea4c8ce1395cb0",
+        "report_sha256": "9176a89a9b7f1ee20d61331ba3ec0a9cf6c5f3ca5d117413b22e9a60f5113f7a"
       }
     },
     {
@@ -65407,99 +65318,6 @@
       "source_hashes": {
         "metadata_sha256": "adfaf1958bcb23af438d5a247accb800cada15f952ff89a9d79e73b310ec00a5",
         "report_sha256": "a0876024878f93e6386bd8cb76f0f1a70bc4dfbe8668e721f26b0afff1ce5593"
-      }
-    },
-    {
-      "slug": "amanatsu_tv_2016",
-      "title": "蓝海少女",
-      "title_original": "あまんちゅ！",
-      "title_romaji": "Amanchu!",
-      "title_english": "Amanchu!",
-      "release_year": 2016,
-      "medium": {
-        "code": "tv_anime",
-        "label": "TV 动画"
-      },
-      "scope_summary": "2016 年电视动画《あまんちゅ！》电视播出正篇第 1–12 话",
-      "female_relationship_centrality": {
-        "code": "main",
-        "label": "主线"
-      },
-      "archive_basis": {
-        "code": "work_classification",
-        "label": "作品分类"
-      },
-      "romance_centrality": {
-        "code": "absent",
-        "label": "缺席"
-      },
-      "highest_romance_explicitness": {
-        "code": "non_romantic",
-        "label": "非恋爱"
-      },
-      "official_literal_yuri_gl": {
-        "code": "reviewed_no_match",
-        "label": "所核未见"
-      },
-      "official_female_romance_wording": {
-        "code": "reviewed_no_match",
-        "label": "所核未见"
-      },
-      "official_source_scopes": [
-        {
-          "code": "in_scope_edition",
-          "label": "当前版本"
-        }
-      ],
-      "official_source_surfaces": [
-        {
-          "code": "story_or_profile",
-          "label": "剧情／角色页"
-        },
-        {
-          "code": "visible_work_marketing",
-          "label": "可见作品宣传"
-        }
-      ],
-      "official_source_summary": "层级：当前版本；位置：剧情／角色页、可见作品宣传",
-      "identity_evidence_basis": {
-        "code": "no_in_scope_evidence",
-        "label": "范围内无依据"
-      },
-      "male_romance_line": {
-        "code": "none",
-        "label": "无"
-      },
-      "confidence": {
-        "code": "high",
-        "label": "高"
-      },
-      "classification_date": "2026-08-06",
-      "content_warnings": [
-        "scuba_diving_training_stress_and_breathing_difficulty",
-        "underwater_risk_and_anxiety",
-        "high_school_swimwear_scenes"
-      ],
-      "content_warnings_text": "scuba_diving_training_stress_and_breathing_difficulty；underwater_risk_and_anxiety；high_school_swimwear_scenes",
-      "quick_queries": {
-        "explicit_relationship": false,
-        "explicit_desire": false,
-        "accepts_unconfirmed": false,
-        "female_relationship_main": true,
-        "official_literal_yuri_gl": false,
-        "official_female_romance_wording": false
-      },
-      "bangumi_entry_status": {
-        "code": "no_exact_entry",
-        "label": "无精确条目"
-      },
-      "bangumi_rank": null,
-      "bangumi_yuri_tag_ratio": null,
-      "report_url": "/yuri-classification-archive/works/amanatsu_tv_2016/",
-      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/amanatsu_tv_2016/",
-      "source_hashes": {
-        "metadata_sha256": "66b2ff538b03f2a96c8a16ea24d852342e9e5e6ff7e0045502ea4c8ce1395cb0",
-        "report_sha256": "9176a89a9b7f1ee20d61331ba3ec0a9cf6c5f3ca5d117413b22e9a60f5113f7a"
       }
     }
   ]
