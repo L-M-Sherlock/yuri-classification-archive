@@ -1291,6 +1291,100 @@ h1, h2, h3 { line-height: 1.25; }
 .layer-grid h3 { margin: 0.3rem 0; }
 .layer-grid p { margin: 0; color: var(--muted); font-size: 0.9rem; }
 .prose-page h2[id] { scroll-margin-top: 7rem; }
+.tools-page { padding-bottom: 6rem; }
+.tool-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+.tool-card {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 1.35rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface);
+}
+.tool-card-heading {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.8rem;
+}
+.tool-card-heading code {
+  overflow-wrap: anywhere;
+  color: var(--muted);
+  font-size: 0.72rem;
+  text-align: right;
+}
+.tool-badge {
+  flex: 0 0 auto;
+  padding: 0.24rem 0.48rem;
+  border-radius: 999px;
+  background: var(--green-soft);
+  color: var(--green);
+  font-size: 0.7rem;
+  font-weight: 800;
+}
+.tool-badge.project-specific {
+  background: var(--accent-soft);
+  color: var(--accent-deep);
+}
+.tool-card h2 {
+  margin: 1.2rem 0 0;
+  font-family: "Songti SC", "Noto Serif CJK SC", serif;
+  font-size: 1.45rem;
+}
+.tool-card > p {
+  margin: 0.75rem 0 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+.tool-meta { margin: 1.2rem 0; }
+.tool-meta div {
+  display: grid;
+  grid-template-columns: 5rem minmax(0, 1fr);
+  gap: 0.7rem;
+  padding: 0.55rem 0;
+  border-top: 1px solid var(--line);
+}
+.tool-meta dt, .tool-meta dd { margin: 0; font-size: 0.78rem; }
+.tool-meta dt { color: var(--muted); }
+.tool-meta dd { overflow-wrap: anywhere; }
+.tool-card > .button { align-self: flex-start; margin-top: auto; }
+.install-panel {
+  margin-top: 2rem;
+  padding: clamp(1.3rem, 4vw, 2.2rem);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface-muted);
+}
+.install-panel h2, .tools-note h2 {
+  margin: 0;
+  font-family: "Songti SC", "Noto Serif CJK SC", serif;
+}
+.install-panel h3 { margin: 1.5rem 0 0.55rem; font-size: 0.92rem; }
+.install-panel > p { color: var(--muted); }
+.install-command {
+  margin: 0;
+  padding: 1rem;
+  overflow-x: auto;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--paper);
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+.install-command code { font-size: 0.82rem; line-height: 1.65; }
+.tool-actions { display: flex; flex-wrap: wrap; gap: 0.7rem; margin-top: 1.5rem; }
+.tools-note {
+  margin-top: 2rem;
+  padding: 1.3rem 1.5rem;
+  border-left: 3px solid var(--accent);
+  background: var(--accent-soft);
+}
+.tools-note p { margin-bottom: 0; color: var(--muted); }
 .not-found { padding-block: 9rem; text-align: center; }
 .not-found h1 {
   margin: 0;
@@ -1488,7 +1582,10 @@ h1, h2, h3 { line-height: 1.25; }
     :is(th, td):first-child {
     width: 25%;
   }
-  .layer-grid, .reading-grid, .confidence-grid { grid-template-columns: 1fr; }
+  .layer-grid, .reading-grid, .confidence-grid, .tool-grid { grid-template-columns: 1fr; }
+  .tool-card-heading { flex-direction: column; }
+  .tool-card-heading code { text-align: left; }
+  .tool-actions .button { width: 100%; }
   .faq-heading, .snapshot-heading, .topic-callout {
     align-items: flex-start;
     flex-direction: column;

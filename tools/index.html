@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="获取动画字幕、执行百合作品单作分类并用 Chrome 核验四个平台数据的三个公开 Codex skills。">
+  <meta name="color-scheme" content="light dark">
+  <meta id="theme-color-light" name="theme-color" media="(prefers-color-scheme: light)" content="#f5f0e8">
+  <meta id="theme-color-dark" name="theme-color" media="(prefers-color-scheme: dark)" content="#1c181c">
+  <script>
+    (() => {
+      document.documentElement.classList.add("js");
+      const storageKey = "yuri-classification-theme";
+      const allowed = new Set(["system", "light", "dark"]);
+      let preference = "system";
+      try {
+        const stored = localStorage.getItem(storageKey);
+        if (allowed.has(stored)) preference = stored;
+      } catch (_error) {
+        preference = "system";
+      }
+      const systemDark = window.matchMedia?.("(prefers-color-scheme: dark)").matches;
+      const theme = preference === "system"
+        ? (systemDark ? "dark" : "light")
+        : preference;
+      document.documentElement.dataset.theme = theme;
+      document.documentElement.dataset.themePreference = preference;
+      document.documentElement.style.colorScheme = theme;
+      const lightMeta = document.getElementById("theme-color-light");
+      const darkMeta = document.getElementById("theme-color-dark");
+      if (preference === "system") {
+        lightMeta.content = "#f5f0e8";
+        darkMeta.content = "#1c181c";
+      } else {
+        const color = theme === "dark" ? "#1c181c" : "#f5f0e8";
+        lightMeta.content = color;
+        darkMeta.content = color;
+      }
+    })();
+  </script>
+  <link rel="canonical" href="https://l-m-sherlock.github.io/yuri-classification-archive/tools/">
+  <link rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="百合作品分类档案">
+  <meta property="og:title" content="公开工具｜百合作品分类档案">
+  <meta property="og:description" content="获取动画字幕、执行百合作品单作分类并用 Chrome 核验四个平台数据的三个公开 Codex skills。">
+  <meta property="og:url" content="https://l-m-sherlock.github.io/yuri-classification-archive/tools/">
+  <meta property="og:image" content="https://l-m-sherlock.github.io/yuri-classification-archive/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+  <title>公开工具｜百合作品分类档案</title>
+  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=b17ee63a06a6">
+
+</head>
+<body class="tools-page-view">
+  <a class="skip-link" href="#main-content">跳到正文</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="/yuri-classification-archive/">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>
+          <strong>百合作品分类档案</strong>
+          <small>按查询拆开标签，按证据保留边界</small>
+        </span>
+      </a>
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-navigation"
+      >
+        <span>菜单</span>
+        <span class="menu-toggle-icon" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-navigation" aria-label="主导航">
+        <div class="nav-main">
+          <a href="/yuri-classification-archive/">首页</a>
+          <a href="/yuri-classification-archive/table/">总表</a>
+          <a href="/yuri-classification-archive/articles/">专题</a>
+          <a href="/yuri-classification-archive/tools/">工具</a>
+          <a href="/yuri-classification-archive/about/">方法与说明</a>
+        </div>
+        <a class="nav-star" href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub / Star <span aria-hidden="true">↗</span></a>
+        <a class="nav-feedback" href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
+        <label class="theme-control" for="theme-preference">
+          <span>主题</span>
+          <select id="theme-preference" aria-label="主题偏好">
+            <option value="system">跟随系统</option>
+            <option value="light">浅色</option>
+            <option value="dark">深色</option>
+          </select>
+        </label>
+      </nav>
+    </div>
+  </header>
+  <main id="main-content">
+    <section class="page-hero compact">
+  <p class="eyebrow">OPEN RESEARCH WORKFLOWS</p>
+  <h1>公开工具，<br>保留依赖边界。</h1>
+  <p>以下三个 Codex skills 公开了本项目反复使用的检索、审计与分类工作流。它们独立托管在 GitHub；本站只提供用途、依赖和安装入口，不复制 skill 源码、私有档案或原始材料。</p>
+</section>
+<section class="tools-page">
+  <div class="tool-grid" aria-label="公开 Codex skills">
+    <article class="tool-card">
+      <div class="tool-card-heading">
+        <span class="tool-badge">可独立使用</span>
+        <code>acquire-anime-subtitles</code>
+      </div>
+      <h2>动画字幕获取与审计</h2>
+      <p>锁定精确动画版本，按完整覆盖优先检索字幕，并核验格式、集数、时间轴、语言信号、哈希和压缩包安全。</p>
+      <dl class="tool-meta">
+        <div><dt>运行依赖</dt><dd>Python 3.10+</dd></div>
+        <div><dt>公开边界</dt><dd>不包含字幕或种子 payload</dd></div>
+      </dl>
+      <a class="button secondary small" href="https://github.com/L-M-Sherlock/yuri-research-skills/tree/main/skills/acquire-anime-subtitles" target="_blank" rel="noopener noreferrer">查看源码 <span aria-hidden="true">↗</span></a>
+    </article>
+
+    <article class="tool-card">
+      <div class="tool-card-heading">
+        <span class="tool-badge project-specific">项目专用</span>
+        <code>classify-yuri-work</code>
+      </div>
+      <h2>百合作品单作分类</h2>
+      <p>把文本关系、叙事位置、角色身份、官方说法和公共标签拆开审计，并执行四层报告、严格校验与范围受限提交。</p>
+      <dl class="tool-meta">
+        <div><dt>运行依赖</dt><dd>兼容的 schema、模板、uv 与校验脚本</dd></div>
+        <div><dt>公开边界</dt><dd>不包含私有研究仓库与证据</dd></div>
+      </dl>
+      <a class="button secondary small" href="https://github.com/L-M-Sherlock/yuri-research-skills/tree/main/skills/classify-yuri-work" target="_blank" rel="noopener noreferrer">查看源码 <span aria-hidden="true">↗</span></a>
+    </article>
+
+    <article class="tool-card">
+      <div class="tool-card-heading">
+        <span class="tool-badge">通用查询</span>
+        <code>chrome-refresh-anime-platform-data</code>
+      </div>
+      <h2>Chrome 四平台数据核验</h2>
+      <p>用 Chrome 核对 Bangumi、Anime-Planet、AniList 与 MyAnimeList 的精确版本条目、标签、组合映射和访问阻断。</p>
+      <dl class="tool-meta">
+        <div><dt>运行依赖</dt><dd>chrome:control-chrome 与 Chrome 扩展会话</dd></div>
+        <div><dt>项目边界</dt><dd>平台查询通用，档案写回专用</dd></div>
+      </dl>
+      <a class="button secondary small" href="https://github.com/L-M-Sherlock/yuri-research-skills/tree/main/skills/chrome-refresh-anime-platform-data" target="_blank" rel="noopener noreferrer">查看源码 <span aria-hidden="true">↗</span></a>
+    </article>
+  </div>
+
+  <section class="install-panel" aria-labelledby="安装-skills">
+    <p class="eyebrow">INSTALL</p>
+    <h2 id="安装-skills">通过 Codex 安装</h2>
+    <p>在 Codex 中让系统自带的 <code>$skill-installer</code> 从公开仓库安装。安装器遇到同名目录会停止，不会覆盖现有 skill。</p>
+    <h3>安装全部三个</h3>
+    <pre class="install-command"><code>Use $skill-installer to install the skills from L-M-Sherlock/yuri-research-skills at skills/acquire-anime-subtitles, skills/classify-yuri-work, and skills/chrome-refresh-anime-platform-data.</code></pre>
+    <h3>固定首个稳定版本</h3>
+    <pre class="install-command"><code>Use $skill-installer to install from L-M-Sherlock/yuri-research-skills at ref v1.0.0 and choose the skill paths I name.</code></pre>
+    <div class="tool-actions">
+      <a class="button primary" href="https://github.com/L-M-Sherlock/yuri-research-skills" target="_blank" rel="noopener noreferrer">打开公开仓库 <span aria-hidden="true">↗</span></a>
+      <a class="button secondary" href="https://github.com/L-M-Sherlock/yuri-research-skills/releases/tag/v1.0.0" target="_blank" rel="noopener noreferrer">查看 v1.0.0</a>
+      <a class="button secondary" href="https://github.com/L-M-Sherlock/yuri-research-skills/issues" target="_blank" rel="noopener noreferrer">报告 skill 问题</a>
+    </div>
+  </section>
+
+  <aside class="tools-note">
+    <h2>许可与第三方材料</h2>
+    <p>由许可人创作并有权授权的 skill 内容采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="license noopener noreferrer">CC BY-NC-SA 4.0</a>，指定署名为 <strong>Jarrett Ye</strong>。许可证不覆盖第三方名称、商标、短引、外链、字幕、页面内容或平台数据。</p>
+  </aside>
+</section>
+
+  </main>
+  <footer class="site-footer">
+    <div>
+      <p>分类是面向具体查询的检索工具，不是替作品关系作终审判决。</p>
+      <p class="footer-ai-note">本站使用以 OpenAI Codex 为主的生成式 AI 辅助研究、写作与站点开发；人工审阅未覆盖全部作品报告。<a href="/yuri-classification-archive/about/#AI使用说明">查看 AI 使用说明</a></p>
+      <p>© 2026 Jarrett Ye · <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="license noopener noreferrer">CC BY-NC-SA 4.0</a> · <a href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub 仓库</a> · <a href="/yuri-classification-archive/about/#使用边界">使用边界</a></p>
+    </div>
+  </footer>
+  <script>window.SITE_CONFIG = {basePath: "/yuri-classification-archive"};</script>
+  <script src="/yuri-classification-archive/assets/site.js?v=eeeec5872796" defer></script>
+
+</body>
+</html>

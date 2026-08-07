@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-07T10:19:56+00:00",
+  "generated_at": "2026-08-07T10:54:25+00:00",
   "articles": {
     "anime-label-divergence": {
       "snapshot_date": "2026-08-07",
@@ -36,19 +36,19 @@
         "A--": 1
       },
       "source": {
-        "sha256": "e11a382425915e4242010d581867fade379cf7d2552bb3e1f475521ad5601c91"
+        "sha256": "c38a1e075d9976ea234f0513844269a0bf320396912ad01f6e8cbe2436f3d689"
       },
-      "release_plan_sha256": "8f09eeed95250938a395b27c64b561a3dc4194208aac36e685902b281f13b0e2",
+      "release_plan_sha256": "c3e28863ef5ca2394dcc84c576ef3576b0e1bf44b193bf51d896a814713c86d4",
       "target_slugs_sha256": "e4d21df4053fc14479717e0403516367bbae1a51666ebf48f962b7f7eda1b617",
       "data_path": "data/articles/anime-label-divergence.json",
       "csv_path": "data/articles/anime-label-divergence.csv",
       "analysis_summary": {
         "path": "assets/yuri_classification_database_patterns/analysis_summary.json",
-        "sha256": "bfdf173d13776ce4e530bf2052240b7d1f702b642de74f17ba671544fb86b3ff"
+        "sha256": "30145eeb69e40de1551536d075c4c67023bae34a76b211e4bc7a77b0e5c60a43"
       },
       "publication_manifest": {
         "path": "publication-manifest.json",
-        "sha256": "3749156b4830608174235752ca782159518cf70c88021b41f22ee68fb5afce51"
+        "sha256": "d25dc412eb65e6736f2ba02806efee5478b8aa40d40893729f9c29ff2eb341f9"
       },
       "charts": [
         {
