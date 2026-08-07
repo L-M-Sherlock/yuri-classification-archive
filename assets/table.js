@@ -10,7 +10,6 @@ const YuriCatalogFilterLogic = (() => {
     "official_female_romance_wording",
     "male_romance_line",
     "confidence",
-    "bangumi_entry_status",
   ];
   const multiFields = {
     official_source_scopes: "official_scope",
@@ -178,7 +177,6 @@ if (typeof globalThis !== "undefined") {
     official_female_romance_wording: document.getElementById("official-romance-filter"),
     male_romance_line: document.getElementById("male-filter"),
     confidence: document.getElementById("confidence-filter"),
-    bangumi_entry_status: document.getElementById("bangumi-status-filter"),
   };
   const multiFilterElements = {
     official_source_scopes: document.getElementById("official-scope-filter"),
