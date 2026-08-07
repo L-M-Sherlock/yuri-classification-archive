@@ -175,7 +175,7 @@ button { color: inherit; }
 }
 
 main { min-height: calc(100vh - 200px); }
-.hero, .home-section, .page-hero, .catalog-shell, .report-page,
+.hero, .home-section, .page-hero, .catalog-shell, .report-page, .tools-page,
 .feedback-section, .prose-page, .not-found {
   width: min(var(--content), calc(100% - 2rem));
   margin-inline: auto;
