@@ -3,14 +3,16 @@ const YuriCatalogFilterLogic = (() => {
 
   const scalarFields = [
     "medium",
-    "female_relationship_centrality",
     "archive_basis",
-    "highest_romance_explicitness",
     "official_literal_yuri_gl",
     "official_female_romance_wording",
     "male_romance_line",
     "confidence",
   ];
+  const relationshipFields = {
+    relationship_position: "position",
+    relationship_explicitness: "explicitness",
+  };
   const multiFields = {
     official_source_scopes: "official_scope",
     official_source_surfaces: "official_surface",
@@ -51,6 +53,13 @@ const YuriCatalogFilterLogic = (() => {
     for (const field of scalarFields) {
       scalar[field] = canonicalFilterValue(field, params.get(field) || "");
     }
+    const relationship = {};
+    for (const field of Object.keys(relationshipFields)) {
+      relationship[field] = params.get(field) || "";
+    }
+    // Upgrade links created before relationship-level orthogonal filters.
+    relationship.relationship_position ||= params.get("female_relationship_centrality") || "";
+    relationship.relationship_explicitness ||= params.get("highest_romance_explicitness") || "";
     const multi = {};
     for (const [field, urlKey] of Object.entries(multiFields)) {
       multi[field] = selectedCodes(
@@ -60,6 +69,7 @@ const YuriCatalogFilterLogic = (() => {
     return {
       query: params.get("q") || "",
       scalar,
+      relationship,
       multi,
       quick: selectedCodes(params.getAll("quick")),
     };
@@ -71,6 +81,10 @@ const YuriCatalogFilterLogic = (() => {
     if (query) params.set("q", query);
     for (const field of scalarFields) {
       const value = state.scalar?.[field] || "";
+      if (value) params.set(field, value);
+    }
+    for (const field of Object.keys(relationshipFields)) {
+      const value = state.relationship?.[field] || "";
       if (value) params.set(field, value);
     }
     for (const [field, urlKey] of Object.entries(multiFields)) {
@@ -100,6 +114,23 @@ const YuriCatalogFilterLogic = (() => {
     return selected.some((value) => codes.has(value));
   }
 
+  function itemMatchesRelationshipAxes(item, relationship) {
+    const expectedPosition = relationship?.relationship_position || "";
+    const expectedExplicitness = relationship?.relationship_explicitness || "";
+    if (!expectedPosition && !expectedExplicitness) return true;
+    const axes = Array.isArray(item.relationship_filter_axes)
+      ? item.relationship_filter_axes
+      : [];
+    return axes.some((axis) => {
+      const position = axis?.position?.code || "";
+      const explicitness = axis?.explicitness?.code || "";
+      return (
+        (!expectedPosition || position === expectedPosition) &&
+        (!expectedExplicitness || explicitness === expectedExplicitness)
+      );
+    });
+  }
+
   function searchableTitle(item) {
     return [
       item.title,
@@ -120,6 +151,7 @@ const YuriCatalogFilterLogic = (() => {
         return false;
       }
     }
+    if (!itemMatchesRelationshipAxes(item, state.relationship)) return false;
     for (const field of Object.keys(multiFields)) {
       if (!itemMatchesMulti(item, field, state.multi?.[field] || [])) {
         return false;
@@ -141,6 +173,7 @@ const YuriCatalogFilterLogic = (() => {
 
   return Object.freeze({
     scalarFields,
+    relationshipFields,
     multiFields,
     canonicalFilterValue,
     parseState,
@@ -170,13 +203,15 @@ if (typeof globalThis !== "undefined") {
   );
   const scalarFilterElements = {
     medium: document.getElementById("medium-filter"),
-    female_relationship_centrality: document.getElementById("relationship-filter"),
     archive_basis: document.getElementById("basis-filter"),
-    highest_romance_explicitness: document.getElementById("explicitness-filter"),
     official_literal_yuri_gl: document.getElementById("official-literal-filter"),
     official_female_romance_wording: document.getElementById("official-romance-filter"),
     male_romance_line: document.getElementById("male-filter"),
     confidence: document.getElementById("confidence-filter"),
+  };
+  const relationshipFilterElements = {
+    relationship_position: document.getElementById("relationship-filter"),
+    relationship_explicitness: document.getElementById("explicitness-filter"),
   };
   const multiFilterElements = {
     official_source_scopes: document.getElementById("official-scope-filter"),
@@ -185,6 +220,7 @@ if (typeof globalThis !== "undefined") {
   const allControls = [
     searchInput,
     ...Object.values(scalarFilterElements),
+    ...Object.values(relationshipFilterElements),
     ...Object.values(multiFilterElements),
     clearButton,
   ];
@@ -221,6 +257,22 @@ if (typeof globalThis !== "undefined") {
         if (!value || !value.code) continue;
         const code = YuriCatalogFilterLogic.canonicalFilterValue(field, value.code);
         if (!map.has(code)) map.set(code, value.label);
+      }
+    }
+    return Array.from(map.entries()).sort((a, b) =>
+      a[1].localeCompare(b[1], "zh-CN"),
+    );
+  }
+
+  function uniqueRelationshipOptions(items, nestedField) {
+    const map = new Map();
+    for (const item of items) {
+      const axes = Array.isArray(item.relationship_filter_axes)
+        ? item.relationship_filter_axes
+        : [];
+      for (const axis of axes) {
+        const value = axis?.[nestedField];
+        if (value?.code && !map.has(value.code)) map.set(value.code, value.label);
       }
     }
     return Array.from(map.entries()).sort((a, b) =>
@@ -286,9 +338,14 @@ if (typeof globalThis !== "undefined") {
         YuriCatalogFilterLogic.canonicalFilterValue(field, value),
       );
     }
+    const relationship = {};
+    for (const [field, element] of Object.entries(relationshipFilterElements)) {
+      relationship[field] = element.value || "";
+    }
     return {
       query: searchInput.value,
       scalar,
+      relationship,
       multi,
       quick: quickButtons
         .filter((button) => button.getAttribute("aria-pressed") === "true")
@@ -300,6 +357,9 @@ if (typeof globalThis !== "undefined") {
     searchInput.value = state.query || "";
     for (const [field, element] of Object.entries(scalarFilterElements)) {
       element.value = state.scalar?.[field] || "";
+    }
+    for (const [field, element] of Object.entries(relationshipFilterElements)) {
+      element.value = state.relationship?.[field] || "";
     }
     for (const [field, element] of Object.entries(multiFilterElements)) {
       setSelectedMultiValues(element, state.multi?.[field] || []);
@@ -388,6 +448,14 @@ if (typeof globalThis !== "undefined") {
 
     for (const field of Object.keys(scalarFilterElements)) {
       populateSelect(scalarFilterElements[field], uniqueOptions(items, field));
+    }
+    for (const [field, nestedField] of Object.entries(
+      YuriCatalogFilterLogic.relationshipFields,
+    )) {
+      populateSelect(
+        relationshipFilterElements[field],
+        uniqueRelationshipOptions(items, nestedField),
+      );
     }
     for (const field of Object.keys(multiFilterElements)) {
       populateMultiChoices(
@@ -591,6 +659,7 @@ if (typeof globalThis !== "undefined") {
     searchInput.addEventListener("input", applyFilters);
     for (const element of [
       ...Object.values(scalarFilterElements),
+      ...Object.values(relationshipFilterElements),
       ...Object.values(multiFilterElements),
     ]) {
       element.addEventListener("change", applyFilters);

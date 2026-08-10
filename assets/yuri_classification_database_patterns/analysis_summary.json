@@ -1,9 +1,9 @@
 {
   "schema_version": 4,
   "snapshot_date": "2026-08-10",
-  "generated_at": "2026-08-10T09:05:24.002549+00:00",
+  "generated_at": "2026-08-10T09:44:26.782573+00:00",
   "source": {
-    "sha256": "972b5b8130c04de1b5cae923083e12c6acf2b7b4979f6bb5dfcc1d93c5376cdf",
+    "sha256": "65c29e2f9c107cc19e560482f5d3448039da0fb2e49d0f26bcbe0fd074e2d384",
     "row_count": 696,
     "classification_schema": 4,
     "selection_composition": {
@@ -17,8 +17,8 @@
     },
     "release_plan": {
       "path": "data/release-plan.json",
-      "sha256": "9dfb7df407762ca08a857cdee228bf13accf8c8cffc25e24afc4bb0f59a31775",
-      "plan_sha256": "3df899b45eca0812a5a6a29466bf81d1686b79c3959563a1f93e1122413fa3d5",
+      "sha256": "df7dd6ad9bbd78e37610680a1578eac7777018ace22a20e9aa22ee316bf28f82",
+      "plan_sha256": "19a5fb0e6d491bb271a89dc4acf92d5a5121dc7894a4f6c9794ae9ede36e1b44",
       "target_slug_count": 696,
       "target_slugs_sha256": "f94c9de0a014ad6248c7e7dd5da09c8f477d1488fd7778466007c168b77962bf"
     },
@@ -28,7 +28,7 @@
       "target_slugs_sha256": "f94c9de0a014ad6248c7e7dd5da09c8f477d1488fd7778466007c168b77962bf"
     }
   },
-  "release_plan_sha256": "3df899b45eca0812a5a6a29466bf81d1686b79c3959563a1f93e1122413fa3d5",
+  "release_plan_sha256": "19a5fb0e6d491bb271a89dc4acf92d5a5121dc7894a4f6c9794ae9ede36e1b44",
   "target_slugs_sha256": "f94c9de0a014ad6248c7e7dd5da09c8f477d1488fd7778466007c168b77962bf",
   "dataset_profile": {
     "media": {
@@ -2980,52 +2980,52 @@
     ]
   },
   "rendering": {
-    "font_filename": "Hiragino Sans GB.ttc",
-    "font_sha256": "97e5861e11656538bed9397730d7f46e2f1b0f07692f18e87c079f7ce9ff6bdc",
-    "bold_font_filename": "Hiragino Sans GB.ttc",
-    "bold_font_sha256": "97e5861e11656538bed9397730d7f46e2f1b0f07692f18e87c079f7ce9ff6bdc",
+    "font_filename": "STHeiti Light.ttc",
+    "font_sha256": "a57b0316cc0544f682b8fb9855e14ade79ae77340ef6a01ba9210e25b4c5a5b7",
+    "bold_font_filename": "STHeiti Light.ttc",
+    "bold_font_sha256": "a57b0316cc0544f682b8fb9855e14ade79ae77340ef6a01ba9210e25b4c5a5b7",
     "pillow_version": "12.3.0"
   },
   "figures": {
     "dataset_overview": {
       "path": "assets/yuri_classification_database_patterns/00_dataset_overview.png",
-      "sha256": "2f2918a4fb17f4c06d02ddf3f21494efe96e76485f170fd744a0bdb6be9b3b3f",
-      "source_sha256": "972b5b8130c04de1b5cae923083e12c6acf2b7b4979f6bb5dfcc1d93c5376cdf",
+      "sha256": "d1e08e0e94025d7cda2c42436d56d40b496bf45b69f42b14962bcc035b7c946d",
+      "source_sha256": "65c29e2f9c107cc19e560482f5d3448039da0fb2e49d0f26bcbe0fd074e2d384",
       "width": 1800,
       "height": 1120
     },
     "platform_overlap": {
       "path": "assets/yuri_classification_database_patterns/01_platform_overlap.png",
-      "sha256": "66d974ee12dbdb4dfa9dfd0890a0f1744434dd25b8a2439fe4ab2962645e0f58",
-      "source_sha256": "972b5b8130c04de1b5cae923083e12c6acf2b7b4979f6bb5dfcc1d93c5376cdf",
+      "sha256": "c20075148ff151e114a3f3ba5357c9922571a8efbbd447d9743b2ea9decbaa75",
+      "source_sha256": "65c29e2f9c107cc19e560482f5d3448039da0fb2e49d0f26bcbe0fd074e2d384",
       "width": 1800,
       "height": 1120
     },
     "explicitness_gradient": {
       "path": "assets/yuri_classification_database_patterns/02_explicitness_gradient.png",
-      "sha256": "407d161ac20678e48f9e4b601e77f428b43cd054c8b80b60e743506ac410f3d2",
-      "source_sha256": "972b5b8130c04de1b5cae923083e12c6acf2b7b4979f6bb5dfcc1d93c5376cdf",
+      "sha256": "97b366fa4994869b0dfce1efa8ec106d928a38f9f54da987dcf0c79657bfd33b",
+      "source_sha256": "65c29e2f9c107cc19e560482f5d3448039da0fb2e49d0f26bcbe0fd074e2d384",
       "width": 1800,
       "height": 1120
     },
     "platform_rates": {
       "path": "assets/yuri_classification_database_patterns/03_platform_rates_by_explicitness.png",
-      "sha256": "eba15d2b666bf240f2ba9dfe9d261e8a35f2c4956ec24eed4430bdce3b243ea2",
-      "source_sha256": "972b5b8130c04de1b5cae923083e12c6acf2b7b4979f6bb5dfcc1d93c5376cdf",
+      "sha256": "5ea093336832b3000c6e7a9841dcb4b6578b8fcc5d4c542f025b130acb28f02b",
+      "source_sha256": "65c29e2f9c107cc19e560482f5d3448039da0fb2e49d0f26bcbe0fd074e2d384",
       "width": 1800,
       "height": 1120
     },
     "bangumi_popularity": {
       "path": "assets/yuri_classification_database_patterns/04_bangumi_popularity_correction.png",
-      "sha256": "c1ebee45ab4e48be6617075b1ab2e252a785becdd08c2fbb2d02044ae860f57a",
-      "source_sha256": "972b5b8130c04de1b5cae923083e12c6acf2b7b4979f6bb5dfcc1d93c5376cdf",
+      "sha256": "c0bec94be669069732f01b3f5e0b037c2f2112585a59a97a56b51e093964520d",
+      "source_sha256": "65c29e2f9c107cc19e560482f5d3448039da0fb2e49d0f26bcbe0fd074e2d384",
       "width": 1800,
       "height": 1120
     },
     "convergence_and_structure": {
       "path": "assets/yuri_classification_database_patterns/05_convergence_and_text_structure.png",
-      "sha256": "cf06e202cae25b827e1ef3e8b7a149264d2bc1c63ecf5a8f97f8b24440c263e0",
-      "source_sha256": "972b5b8130c04de1b5cae923083e12c6acf2b7b4979f6bb5dfcc1d93c5376cdf",
+      "sha256": "07c4930afc58afa77b006e095c191f8752b3b2f02d3f64ef78610776f37e820e",
+      "source_sha256": "65c29e2f9c107cc19e560482f5d3448039da0fb2e49d0f26bcbe0fd074e2d384",
       "width": 1800,
       "height": 1120
     }
