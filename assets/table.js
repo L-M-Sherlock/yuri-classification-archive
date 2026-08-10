@@ -554,7 +554,7 @@ if (typeof globalThis !== "undefined") {
           accessorDownload: (value) => value.label,
         },
         {
-          title: "归档依据",
+          title: "百合归档结论",
           field: "archive_basis",
           formatter: labelFormatter,
           width: 112,
