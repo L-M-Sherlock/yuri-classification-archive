@@ -369,7 +369,12 @@ if (typeof globalThis !== "undefined") {
   }
 
   try {
-    const response = await fetch(`${config.basePath}/data/catalog.json`);
+    const catalogVersion = config.catalogVersion
+      ? `?v=${encodeURIComponent(config.catalogVersion)}`
+      : "";
+    const response = await fetch(
+      `${config.basePath}/data/catalog.json${catalogVersion}`,
+    );
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const payload = await response.json();
     if (
