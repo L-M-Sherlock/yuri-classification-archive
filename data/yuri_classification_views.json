@@ -2,8 +2,8 @@
   "schema_version": 2,
   "kind": "yuri_classification_reader_lookup",
   "classification_schema": 4,
-  "snapshot_date": "2026-08-10",
-  "source_sha256": "dcdbb92b1fba02bf8489dab84ce8a7a9019779c2358478ef10a1a47b200cd690",
+  "snapshot_date": "2026-08-11",
+  "source_sha256": "d0e664d216eb817ec7a21a003947c631cb6e1b7791077ad2aa06a368a84f1515",
   "row_count": 696,
   "columns": [
     "作品名称",
@@ -26,7 +26,7 @@
     "Bangumi Rank",
     "Bangumi 百合标签比例"
   ],
-  "数据日期": "2026-08-10",
+  "数据日期": "2026-08-11",
   "作品数": 696,
   "说明": "这是面向读者的查找表。六种快捷查询可以重叠，不表示作品质量或百合程度的总分。Bangumi 百合标签比例使用当前平台记录中的“百合”标签人数除以想看、看过、在看、搁置、抛弃五种状态用户总数；“无精确条目”不会压成空白或零。",
   "查询规则": {
@@ -71494,6 +71494,6 @@
       ]
     }
   ],
-  "release_plan_sha256": "8b5872a64dd145218308669186927671d971756467dd36e9de0b3398bede036d",
+  "release_plan_sha256": "47c00884b207e9662ba5f978d6e72cbee93b0791bffe04cc9e5e3ddfe8ba75bd",
   "target_slugs_sha256": "f94c9de0a014ad6248c7e7dd5da09c8f477d1488fd7778466007c168b77962bf"
 }
