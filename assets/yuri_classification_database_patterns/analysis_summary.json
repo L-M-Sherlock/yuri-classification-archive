@@ -1,9 +1,9 @@
 {
   "schema_version": 4,
   "snapshot_date": "2026-08-10",
-  "generated_at": "2026-08-10T10:40:26.113668+00:00",
+  "generated_at": "2026-08-10T11:47:26.010004+00:00",
   "source": {
-    "sha256": "f188437be8a903101ca9608319d2d2e944c6bb960011b394522f8279748cc609",
+    "sha256": "3f0a1948b5c9758abd3df716d185dac3fdf80dff0bcc9ec94331ae16277aa0f1",
     "row_count": 696,
     "classification_schema": 4,
     "selection_composition": {
@@ -17,8 +17,8 @@
     },
     "release_plan": {
       "path": "data/release-plan.json",
-      "sha256": "f95a7739782693ddf5dbd99e6d3aa1c6d9ca0ab9a9d69e42016ac1e89f42d7b0",
-      "plan_sha256": "7bfa0cc694aca983e834e5b56aa89f1421fcca69faf46c44e1295a5e3884c964",
+      "sha256": "ff508ef993821d2e315fa485da9e6c1652da95557eef53a3cb2c4e1e3bede52b",
+      "plan_sha256": "00831dfdfd6151f6e9f05c6f6c1513586538c403f4e10f4a563e16b62043435a",
       "target_slug_count": 696,
       "target_slugs_sha256": "f94c9de0a014ad6248c7e7dd5da09c8f477d1488fd7778466007c168b77962bf"
     },
@@ -28,7 +28,7 @@
       "target_slugs_sha256": "f94c9de0a014ad6248c7e7dd5da09c8f477d1488fd7778466007c168b77962bf"
     }
   },
-  "release_plan_sha256": "7bfa0cc694aca983e834e5b56aa89f1421fcca69faf46c44e1295a5e3884c964",
+  "release_plan_sha256": "00831dfdfd6151f6e9f05c6f6c1513586538c403f4e10f4a563e16b62043435a",
   "target_slugs_sha256": "f94c9de0a014ad6248c7e7dd5da09c8f477d1488fd7778466007c168b77962bf",
   "dataset_profile": {
     "media": {
@@ -2990,42 +2990,42 @@
     "dataset_overview": {
       "path": "assets/yuri_classification_database_patterns/00_dataset_overview.png",
       "sha256": "d1e08e0e94025d7cda2c42436d56d40b496bf45b69f42b14962bcc035b7c946d",
-      "source_sha256": "f188437be8a903101ca9608319d2d2e944c6bb960011b394522f8279748cc609",
+      "source_sha256": "3f0a1948b5c9758abd3df716d185dac3fdf80dff0bcc9ec94331ae16277aa0f1",
       "width": 1800,
       "height": 1120
     },
     "platform_overlap": {
       "path": "assets/yuri_classification_database_patterns/01_platform_overlap.png",
       "sha256": "c20075148ff151e114a3f3ba5357c9922571a8efbbd447d9743b2ea9decbaa75",
-      "source_sha256": "f188437be8a903101ca9608319d2d2e944c6bb960011b394522f8279748cc609",
+      "source_sha256": "3f0a1948b5c9758abd3df716d185dac3fdf80dff0bcc9ec94331ae16277aa0f1",
       "width": 1800,
       "height": 1120
     },
     "explicitness_gradient": {
       "path": "assets/yuri_classification_database_patterns/02_explicitness_gradient.png",
       "sha256": "97b366fa4994869b0dfce1efa8ec106d928a38f9f54da987dcf0c79657bfd33b",
-      "source_sha256": "f188437be8a903101ca9608319d2d2e944c6bb960011b394522f8279748cc609",
+      "source_sha256": "3f0a1948b5c9758abd3df716d185dac3fdf80dff0bcc9ec94331ae16277aa0f1",
       "width": 1800,
       "height": 1120
     },
     "platform_rates": {
       "path": "assets/yuri_classification_database_patterns/03_platform_rates_by_explicitness.png",
       "sha256": "5ea093336832b3000c6e7a9841dcb4b6578b8fcc5d4c542f025b130acb28f02b",
-      "source_sha256": "f188437be8a903101ca9608319d2d2e944c6bb960011b394522f8279748cc609",
+      "source_sha256": "3f0a1948b5c9758abd3df716d185dac3fdf80dff0bcc9ec94331ae16277aa0f1",
       "width": 1800,
       "height": 1120
     },
     "bangumi_popularity": {
       "path": "assets/yuri_classification_database_patterns/04_bangumi_popularity_correction.png",
       "sha256": "c0bec94be669069732f01b3f5e0b037c2f2112585a59a97a56b51e093964520d",
-      "source_sha256": "f188437be8a903101ca9608319d2d2e944c6bb960011b394522f8279748cc609",
+      "source_sha256": "3f0a1948b5c9758abd3df716d185dac3fdf80dff0bcc9ec94331ae16277aa0f1",
       "width": 1800,
       "height": 1120
     },
     "convergence_and_structure": {
       "path": "assets/yuri_classification_database_patterns/05_convergence_and_text_structure.png",
       "sha256": "07c4930afc58afa77b006e095c191f8752b3b2f02d3f64ef78610776f37e820e",
-      "source_sha256": "f188437be8a903101ca9608319d2d2e944c6bb960011b394522f8279748cc609",
+      "source_sha256": "3f0a1948b5c9758abd3df716d185dac3fdf80dff0bcc9ec94331ae16277aa0f1",
       "width": 1800,
       "height": 1120
     }

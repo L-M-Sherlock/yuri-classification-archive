@@ -2,10 +2,10 @@
   "schema_version": 2,
   "kind": "yuri_classification_publication_manifest",
   "snapshot_date": "2026-08-10",
-  "generated_at": "2026-08-10T10:39:48.332849+00:00",
+  "generated_at": "2026-08-10T11:46:10.864509+00:00",
   "item_count": 696,
   "row_count": 696,
-  "source_sha256": "f188437be8a903101ca9608319d2d2e944c6bb960011b394522f8279748cc609",
+  "source_sha256": "3f0a1948b5c9758abd3df716d185dac3fdf80dff0bcc9ec94331ae16277aa0f1",
   "columns": {
     "comparison": [
       "作品名称",
@@ -108,7 +108,7 @@
       "path": "data/yuri_classification_database_comparison.csv",
       "sha256": "1009bae9d18403be4f3e83ccf748304747891afcd547418984cbaf518158379c",
       "row_count": 696,
-      "source_sha256": "f188437be8a903101ca9608319d2d2e944c6bb960011b394522f8279748cc609",
+      "source_sha256": "3f0a1948b5c9758abd3df716d185dac3fdf80dff0bcc9ec94331ae16277aa0f1",
       "columns": [
         "作品名称",
         "女女关系层级",
@@ -134,7 +134,7 @@
     },
     "comparison_xlsx": {
       "path": "data/yuri_classification_database_comparison.xlsx",
-      "sha256": "45e4c7ea6a98846b6bd9b52dd77d70a4f35c6f9cc2928d1d45207c171bcabcc3",
+      "sha256": "f4dbcefd20af89fdbc0cdeaedc6a17202bf2f6e5e50ea996810d312ad4049202",
       "row_count": 696,
       "columns": [
         "作品名称",
@@ -159,21 +159,21 @@
         "MyAnimeList Girls Love 标签"
       ],
       "input_sha256": "1009bae9d18403be4f3e83ccf748304747891afcd547418984cbaf518158379c",
-      "source_sha256": "f188437be8a903101ca9608319d2d2e944c6bb960011b394522f8279748cc609",
+      "source_sha256": "3f0a1948b5c9758abd3df716d185dac3fdf80dff0bcc9ec94331ae16277aa0f1",
       "status": "complete",
-      "generated_at": "2026-08-10T10:39:59.207Z"
+      "generated_at": "2026-08-10T11:46:25.921Z"
     },
     "reader_lookup_json": {
       "path": "data/yuri_classification_views.json",
-      "sha256": "bf0c36964e853a671183316b427f0316abbffc7754979ad2e60678f972061ccd",
+      "sha256": "ea82d0b562dfa6b27a0f2304b55a10cc88a161bae8f96c1cea41eae20e0b346c",
       "row_count": 696,
-      "source_sha256": "f188437be8a903101ca9608319d2d2e944c6bb960011b394522f8279748cc609"
+      "source_sha256": "3f0a1948b5c9758abd3df716d185dac3fdf80dff0bcc9ec94331ae16277aa0f1"
     },
     "reader_lookup_csv": {
       "path": "data/yuri_classification_views.csv",
       "sha256": "fb8da1f4f1ff1925e9b4e8f2094af63054dc4a1579515cfa5f080a83fa5666af",
       "row_count": 696,
-      "source_sha256": "f188437be8a903101ca9608319d2d2e944c6bb960011b394522f8279748cc609",
+      "source_sha256": "3f0a1948b5c9758abd3df716d185dac3fdf80dff0bcc9ec94331ae16277aa0f1",
       "columns": [
         "作品名称",
         "slug",
@@ -198,7 +198,7 @@
     },
     "reader_lookup_xlsx": {
       "path": "data/yuri_classification_views.xlsx",
-      "sha256": "57528c0a852305b7c927504a570e04dba02b22efda712b910ea48e9f92582473",
+      "sha256": "5615b18ae7d2349e0fa2a8fd953ce1c926ebed58de68af63b6392a81977501ee",
       "row_count": 696,
       "columns": [
         "作品名称",
@@ -221,17 +221,17 @@
         "Bangumi Rank",
         "Bangumi 百合标签比例"
       ],
-      "input_sha256": "bf0c36964e853a671183316b427f0316abbffc7754979ad2e60678f972061ccd",
-      "source_sha256": "f188437be8a903101ca9608319d2d2e944c6bb960011b394522f8279748cc609",
+      "input_sha256": "ea82d0b562dfa6b27a0f2304b55a10cc88a161bae8f96c1cea41eae20e0b346c",
+      "source_sha256": "3f0a1948b5c9758abd3df716d185dac3fdf80dff0bcc9ec94331ae16277aa0f1",
       "status": "complete",
-      "generated_at": "2026-08-10T10:40:14.657Z"
+      "generated_at": "2026-08-10T11:47:06.124Z"
     },
     "analysis_summary": {
       "path": "assets/yuri_classification_database_patterns/analysis_summary.json",
-      "sha256": "6085084baba25d73b9e75449613361ff92018e0a1717534e88da2537e4d993ce",
+      "sha256": "b1fa457c90f3f4e36cf776b43b67ed349810fb69b3fadb4902a1d625d4671aa9",
       "row_count": 696,
-      "source_sha256": "f188437be8a903101ca9608319d2d2e944c6bb960011b394522f8279748cc609",
-      "release_plan_sha256": "7bfa0cc694aca983e834e5b56aa89f1421fcca69faf46c44e1295a5e3884c964",
+      "source_sha256": "3f0a1948b5c9758abd3df716d185dac3fdf80dff0bcc9ec94331ae16277aa0f1",
+      "release_plan_sha256": "00831dfdfd6151f6e9f05c6f6c1513586538c403f4e10f4a563e16b62043435a",
       "target_slugs_sha256": "f94c9de0a014ad6248c7e7dd5da09c8f477d1488fd7778466007c168b77962bf"
     },
     "figures": [
@@ -239,54 +239,54 @@
         "key": "dataset_overview",
         "path": "assets/yuri_classification_database_patterns/00_dataset_overview.png",
         "sha256": "d1e08e0e94025d7cda2c42436d56d40b496bf45b69f42b14962bcc035b7c946d",
-        "source_sha256": "f188437be8a903101ca9608319d2d2e944c6bb960011b394522f8279748cc609"
+        "source_sha256": "3f0a1948b5c9758abd3df716d185dac3fdf80dff0bcc9ec94331ae16277aa0f1"
       },
       {
         "key": "platform_overlap",
         "path": "assets/yuri_classification_database_patterns/01_platform_overlap.png",
         "sha256": "c20075148ff151e114a3f3ba5357c9922571a8efbbd447d9743b2ea9decbaa75",
-        "source_sha256": "f188437be8a903101ca9608319d2d2e944c6bb960011b394522f8279748cc609"
+        "source_sha256": "3f0a1948b5c9758abd3df716d185dac3fdf80dff0bcc9ec94331ae16277aa0f1"
       },
       {
         "key": "explicitness_gradient",
         "path": "assets/yuri_classification_database_patterns/02_explicitness_gradient.png",
         "sha256": "97b366fa4994869b0dfce1efa8ec106d928a38f9f54da987dcf0c79657bfd33b",
-        "source_sha256": "f188437be8a903101ca9608319d2d2e944c6bb960011b394522f8279748cc609"
+        "source_sha256": "3f0a1948b5c9758abd3df716d185dac3fdf80dff0bcc9ec94331ae16277aa0f1"
       },
       {
         "key": "platform_rates",
         "path": "assets/yuri_classification_database_patterns/03_platform_rates_by_explicitness.png",
         "sha256": "5ea093336832b3000c6e7a9841dcb4b6578b8fcc5d4c542f025b130acb28f02b",
-        "source_sha256": "f188437be8a903101ca9608319d2d2e944c6bb960011b394522f8279748cc609"
+        "source_sha256": "3f0a1948b5c9758abd3df716d185dac3fdf80dff0bcc9ec94331ae16277aa0f1"
       },
       {
         "key": "bangumi_popularity",
         "path": "assets/yuri_classification_database_patterns/04_bangumi_popularity_correction.png",
         "sha256": "c0bec94be669069732f01b3f5e0b037c2f2112585a59a97a56b51e093964520d",
-        "source_sha256": "f188437be8a903101ca9608319d2d2e944c6bb960011b394522f8279748cc609"
+        "source_sha256": "3f0a1948b5c9758abd3df716d185dac3fdf80dff0bcc9ec94331ae16277aa0f1"
       },
       {
         "key": "convergence_and_structure",
         "path": "assets/yuri_classification_database_patterns/05_convergence_and_text_structure.png",
         "sha256": "07c4930afc58afa77b006e095c191f8752b3b2f02d3f64ef78610776f37e820e",
-        "source_sha256": "f188437be8a903101ca9608319d2d2e944c6bb960011b394522f8279748cc609"
+        "source_sha256": "3f0a1948b5c9758abd3df716d185dac3fdf80dff0bcc9ec94331ae16277aa0f1"
       }
     ],
     "article_markdown": {
       "sha256": "4829743a20795437dbdcc9a13c86ce80d1f3f0d114f118852bc068ce5a0e8cd9",
-      "analysis_summary_sha256": "6085084baba25d73b9e75449613361ff92018e0a1717534e88da2537e4d993ce",
+      "analysis_summary_sha256": "b1fa457c90f3f4e36cf776b43b67ed349810fb69b3fadb4902a1d625d4671aa9",
       "figures_sha256": "2b94ced4e71b2c339a979d1e73246859b61c212e7d93248bcad1de5c72696365",
-      "source_sha256": "f188437be8a903101ca9608319d2d2e944c6bb960011b394522f8279748cc609",
-      "release_plan_sha256": "7bfa0cc694aca983e834e5b56aa89f1421fcca69faf46c44e1295a5e3884c964"
+      "source_sha256": "3f0a1948b5c9758abd3df716d185dac3fdf80dff0bcc9ec94331ae16277aa0f1",
+      "release_plan_sha256": "00831dfdfd6151f6e9f05c6f6c1513586538c403f4e10f4a563e16b62043435a"
     },
     "article_pdf": {
-      "sha256": "e9a7a1305a151bbda417ffb2379224fae00aebd0c60e5ec56d97a008d7a14175",
+      "sha256": "d81e83b319e08564049e8bdbe2fffbb9230397490d490e976c3843f5e588c4fb",
       "row_count": 696,
-      "source_sha256": "f188437be8a903101ca9608319d2d2e944c6bb960011b394522f8279748cc609",
-      "release_plan_sha256": "7bfa0cc694aca983e834e5b56aa89f1421fcca69faf46c44e1295a5e3884c964",
+      "source_sha256": "3f0a1948b5c9758abd3df716d185dac3fdf80dff0bcc9ec94331ae16277aa0f1",
+      "release_plan_sha256": "00831dfdfd6151f6e9f05c6f6c1513586538c403f4e10f4a563e16b62043435a",
       "target_slugs_sha256": "f94c9de0a014ad6248c7e7dd5da09c8f477d1488fd7778466007c168b77962bf",
       "platform_current_sha256": "7b91274913c97feadcc7480d52793a7d557d82fca99f8793fd9085b83e81550d",
-      "analysis_summary_sha256": "6085084baba25d73b9e75449613361ff92018e0a1717534e88da2537e4d993ce",
+      "analysis_summary_sha256": "b1fa457c90f3f4e36cf776b43b67ed349810fb69b3fadb4902a1d625d4671aa9",
       "figures_sha256": "2b94ced4e71b2c339a979d1e73246859b61c212e7d93248bcad1de5c72696365",
       "article_sha256": "4829743a20795437dbdcc9a13c86ce80d1f3f0d114f118852bc068ce5a0e8cd9",
       "provenance": {
@@ -299,10 +299,10 @@
           "title": "从女女关系到百合类型：四个平台画出不同的百合地图",
           "date": "2026-08-10"
         },
-        "source_sha256": "f188437be8a903101ca9608319d2d2e944c6bb960011b394522f8279748cc609",
+        "source_sha256": "3f0a1948b5c9758abd3df716d185dac3fdf80dff0bcc9ec94331ae16277aa0f1",
         "release_plan": {
-          "sha256": "f95a7739782693ddf5dbd99e6d3aa1c6d9ca0ab9a9d69e42016ac1e89f42d7b0",
-          "plan_sha256": "7bfa0cc694aca983e834e5b56aa89f1421fcca69faf46c44e1295a5e3884c964",
+          "sha256": "ff508ef993821d2e315fa485da9e6c1652da95557eef53a3cb2c4e1e3bede52b",
+          "plan_sha256": "00831dfdfd6151f6e9f05c6f6c1513586538c403f4e10f4a563e16b62043435a",
           "target_slugs_sha256": "f94c9de0a014ad6248c7e7dd5da09c8f477d1488fd7778466007c168b77962bf"
         },
         "platform_current": {
@@ -312,7 +312,7 @@
         },
         "analysis_summary": {
           "path": "assets/yuri_classification_database_patterns/analysis_summary.json",
-          "sha256": "6085084baba25d73b9e75449613361ff92018e0a1717534e88da2537e4d993ce"
+          "sha256": "b1fa457c90f3f4e36cf776b43b67ed349810fb69b3fadb4902a1d625d4671aa9"
         },
         "figures_sha256": "2b94ced4e71b2c339a979d1e73246859b61c212e7d93248bcad1de5c72696365",
         "article_sha256": "4829743a20795437dbdcc9a13c86ce80d1f3f0d114f118852bc068ce5a0e8cd9",
@@ -355,8 +355,8 @@
   "target_slugs_sha256": "f94c9de0a014ad6248c7e7dd5da09c8f477d1488fd7778466007c168b77962bf",
   "release_plan": {
     "path": "data/release-plan.json",
-    "sha256": "f95a7739782693ddf5dbd99e6d3aa1c6d9ca0ab9a9d69e42016ac1e89f42d7b0",
-    "plan_sha256": "7bfa0cc694aca983e834e5b56aa89f1421fcca69faf46c44e1295a5e3884c964",
+    "sha256": "ff508ef993821d2e315fa485da9e6c1652da95557eef53a3cb2c4e1e3bede52b",
+    "plan_sha256": "00831dfdfd6151f6e9f05c6f6c1513586538c403f4e10f4a563e16b62043435a",
     "target_slug_count": 696,
     "target_slugs_sha256": "f94c9de0a014ad6248c7e7dd5da09c8f477d1488fd7778466007c168b77962bf"
   },
@@ -366,7 +366,7 @@
     "target_slugs_sha256": "f94c9de0a014ad6248c7e7dd5da09c8f477d1488fd7778466007c168b77962bf"
   },
   "source": {
-    "sha256": "f188437be8a903101ca9608319d2d2e944c6bb960011b394522f8279748cc609",
+    "sha256": "3f0a1948b5c9758abd3df716d185dac3fdf80dff0bcc9ec94331ae16277aa0f1",
     "row_count": 696,
     "classification_schema": 4
   },

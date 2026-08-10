@@ -47,7 +47,7 @@
   <meta property="og:url" content="https://l-m-sherlock.github.io/yuri-classification-archive/table/">
   <meta property="og:image" content="https://l-m-sherlock.github.io/yuri-classification-archive/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
   <title>作品分类总表｜百合作品分类档案</title>
-  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=488ef1a73db6">
+  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=ef40d2f45684">
 <link rel="stylesheet" href="/yuri-classification-archive/assets/vendor/tabulator.min.css">
 </head>
 <body class="table-page">
@@ -123,38 +123,55 @@
   </div>
 
   <div class="advanced-filters" aria-label="高级筛选">
-    <label class="search-control">
-      <span>作品搜索</span>
-      <input id="title-search" type="search" placeholder="中文、原名、罗马字或英文名">
-    </label>
-    <label><span>媒介</span><select id="medium-filter"><option value="">全部</option></select></label>
-    <label><span>关系叙事位置（逐关系）</span><select id="relationship-filter"><option value="">全部</option></select></label>
-    <label><span>百合归档结论</span><select id="basis-filter"><option value="">全部</option></select></label>
-    <label><span>关系恋爱明确度（逐关系）</span><select id="explicitness-filter"><option value="">全部</option></select></label>
-    <label><span>官方字面百合／GL</span><select id="official-literal-filter"><option value="">全部</option></select></label>
-    <label><span>官方女女恋爱表述</span><select id="official-romance-filter"><option value="">全部</option></select></label>
-    <div class="multi-filter-row">
-      <fieldset class="multi-filter-control" aria-describedby="official-scope-help">
-        <legend>官方来源层级</legend>
-        <p class="filter-help" id="official-scope-help">可直接点选多个；命中其中任一项即可</p>
-        <div class="multi-choice-group" id="official-scope-filter"></div>
-      </fieldset>
-      <fieldset class="multi-filter-control" aria-describedby="official-surface-help">
-        <legend>官方材料位置</legend>
-        <p class="filter-help" id="official-surface-help">可直接点选多个；命中其中任一项即可</p>
-        <div class="multi-choice-group" id="official-surface-filter"></div>
-      </fieldset>
-    </div>
-    <label><span>男性恋爱线</span><select id="male-filter"><option value="">全部</option></select></label>
-    <label>
-      <span>结论置信度
-        <span class="inline-help" tabindex="0" aria-label="查看结论置信度说明" aria-describedby="table-confidence-help">
-          <span aria-hidden="true">?</span>
-          <span class="term-tooltip" id="table-confidence-help" role="tooltip">表示当前锁定范围内，现有证据对本报告主要分类结论的支持稳定度；它不是百合程度、作品质量、社群共识或统计概率。</span>
-        </span>
-      </span>
-      <select id="confidence-filter" aria-describedby="table-confidence-help"><option value="">全部</option></select>
-    </label>
+    <section class="filter-section" aria-labelledby="work-relationship-filter-title">
+      <p class="filter-section-title" id="work-relationship-filter-title">作品与关系</p>
+      <div class="filter-control-grid primary-filter-grid">
+        <label class="search-control">
+          <span>作品搜索</span>
+          <input id="title-search" type="search" placeholder="中文、原名、罗马字或英文名">
+        </label>
+        <label><span>媒介</span><select id="medium-filter"><option value="">全部</option></select></label>
+        <label><span>关系叙事位置（逐关系）</span><select id="relationship-filter"><option value="">全部</option></select></label>
+        <label><span>关系恋爱明确度（逐关系）</span><select id="explicitness-filter"><option value="">全部</option></select></label>
+      </div>
+    </section>
+
+    <section class="filter-section" aria-labelledby="work-conclusion-filter-title">
+      <p class="filter-section-title" id="work-conclusion-filter-title">作品级判断</p>
+      <div class="filter-control-grid conclusion-filter-grid">
+        <label><span>百合归档结论</span><select id="basis-filter"><option value="">全部</option></select></label>
+        <label><span>男性恋爱线</span><select id="male-filter"><option value="">全部</option></select></label>
+        <label>
+          <span>结论置信度
+            <span class="inline-help" tabindex="0" aria-label="查看结论置信度说明" aria-describedby="table-confidence-help">
+              <span aria-hidden="true">?</span>
+              <span class="term-tooltip" id="table-confidence-help" role="tooltip">表示当前锁定范围内，现有证据对本报告主要分类结论的支持稳定度；它不是百合程度、作品质量、社群共识或统计概率。</span>
+            </span>
+          </span>
+          <select id="confidence-filter" aria-describedby="table-confidence-help"><option value="">全部</option></select>
+        </label>
+      </div>
+    </section>
+
+    <section class="filter-section" aria-labelledby="official-evidence-filter-title">
+      <p class="filter-section-title" id="official-evidence-filter-title">官方材料</p>
+      <div class="filter-control-grid official-filter-grid">
+        <label><span>官方字面百合／GL</span><select id="official-literal-filter"><option value="">全部</option></select></label>
+        <label><span>官方女女恋爱表述</span><select id="official-romance-filter"><option value="">全部</option></select></label>
+      </div>
+      <div class="multi-filter-row">
+        <fieldset class="multi-filter-control" aria-describedby="official-scope-help">
+          <legend>官方来源层级</legend>
+          <p class="filter-help" id="official-scope-help">可直接点选多个；命中其中任一项即可</p>
+          <div class="multi-choice-group" id="official-scope-filter"></div>
+        </fieldset>
+        <fieldset class="multi-filter-control" aria-describedby="official-surface-help">
+          <legend>官方材料位置</legend>
+          <p class="filter-help" id="official-surface-help">可直接点选多个；命中其中任一项即可</p>
+          <div class="multi-choice-group" id="official-surface-filter"></div>
+        </fieldset>
+      </div>
+    </section>
   </div>
 
   <div class="catalog-toolbar">
@@ -206,6 +223,6 @@
   </footer>
   <script>window.SITE_CONFIG = {basePath: "/yuri-classification-archive"};</script>
   <script src="/yuri-classification-archive/assets/site.js?v=eeeec5872796" defer></script>
-<script>window.SITE_CONFIG.catalogVersion = "c46703d1931e";</script><script src="/yuri-classification-archive/assets/vendor/tabulator.min.js"></script><script src="/yuri-classification-archive/assets/vendor/xlsx.full.min.js"></script><script src="/yuri-classification-archive/assets/table.js?v=5afedb3d95d3"></script>
+<script>window.SITE_CONFIG.catalogVersion = "0f8ca2d87183";</script><script src="/yuri-classification-archive/assets/vendor/tabulator.min.js"></script><script src="/yuri-classification-archive/assets/vendor/xlsx.full.min.js"></script><script src="/yuri-classification-archive/assets/table.js?v=5afedb3d95d3"></script>
 </body>
 </html>
