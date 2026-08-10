@@ -516,13 +516,6 @@ if (typeof globalThis !== "undefined") {
           accessorDownload: (value) => value.label,
         },
         {
-          title: "Bangumi 条目状态",
-          field: "bangumi_entry_status",
-          formatter: labelFormatter,
-          width: 132,
-          accessorDownload: (value) => value.label,
-        },
-        {
           title: "Bangumi Rank",
           field: "bangumi_rank",
           formatter: bangumiRankFormatter,
