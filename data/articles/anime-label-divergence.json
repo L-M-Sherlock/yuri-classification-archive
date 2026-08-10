@@ -1,11 +1,11 @@
 {
   "schema_version": 2,
-  "snapshot_date": "2026-08-09",
+  "snapshot_date": "2026-08-10",
   "item_count": 696,
   "category_counts": {
     "non_romantic": 222,
-    "potential_or_strongly_coded": 258,
-    "explicit_desire": 185,
+    "potential_or_strongly_coded": 260,
+    "explicit_desire": 183,
     "explicit_relationship": 31
   },
   "platform_coverage": {
@@ -31,8 +31,8 @@
     "-NM": 8,
     "A--": 1
   },
-  "source_sha256": "c1d2de42c0bd492cb2855bc563b8c559302a012f317418d9304feec43a081880",
-  "analysis_summary_sha256": "83ba85dc0d3d210540e1bf217ec72d474f0468e1ba923941b9759ebdb163f3b7",
+  "source_sha256": "7bdc2bac3b137cecc8fa37079920e4face1376b3c91e127d2e83f8fbcaa6bcce",
+  "analysis_summary_sha256": "662c22b8bbc6f00df0d208264234de3cc4398e6d2ade6304e4e6c229c7a51a58",
   "items": [
     {
       "slug": "shirobako_tv_2014",
@@ -118,14 +118,13 @@
       "female_relationship_position": "主线",
       "romance_position": "主线",
       "queries": [
-        "欲望",
         "未确认",
         "主线"
       ],
       "male_romance_line": "无",
       "explicitness": {
-        "code": "explicit_desire",
-        "label": "明确欲望"
+        "code": "potential_or_strongly_coded",
+        "label": "潜在恋爱"
       },
       "row_number": 5
     },
@@ -458,7 +457,7 @@
         "未确认",
         "主线"
       ],
-      "male_romance_line": "并行",
+      "male_romance_line": "副线",
       "explicitness": {
         "code": "explicit_desire",
         "label": "明确欲望"
@@ -1656,7 +1655,7 @@
         "未确认",
         "主线"
       ],
-      "male_romance_line": "副线",
+      "male_romance_line": "无",
       "explicitness": {
         "code": "explicit_desire",
         "label": "明确欲望"
@@ -1672,7 +1671,8 @@
       "female_relationship_position": "主线",
       "romance_position": "缺席",
       "queries": [
-        "主线"
+        "主线",
+        "官方恋爱"
       ],
       "male_romance_line": "副线",
       "explicitness": {
@@ -2346,8 +2346,7 @@
       "female_relationship_position": "主线",
       "romance_position": "缺席",
       "queries": [
-        "主线",
-        "官方恋爱"
+        "主线"
       ],
       "male_romance_line": "副线",
       "explicitness": {
@@ -3739,7 +3738,8 @@
       "female_relationship_position": "主线",
       "romance_position": "缺席",
       "queries": [
-        "主线"
+        "主线",
+        "官方恋爱"
       ],
       "male_romance_line": "副线",
       "explicitness": {
@@ -4995,7 +4995,8 @@
       "queries": [
         "欲望",
         "未确认",
-        "主线"
+        "主线",
+        "官方恋爱"
       ],
       "male_romance_line": "无",
       "explicitness": {
@@ -5015,7 +5016,8 @@
       "queries": [
         "欲望",
         "未确认",
-        "主线"
+        "主线",
+        "官方恋爱"
       ],
       "male_romance_line": "无",
       "explicitness": {
@@ -5488,7 +5490,8 @@
       "romance_position": "重要副线",
       "queries": [
         "未确认",
-        "主线"
+        "主线",
+        "官方恋爱"
       ],
       "male_romance_line": "并行",
       "explicitness": {
@@ -7567,11 +7570,9 @@
       "bangumi_entry_status": "success",
       "bangumi_url": "https://bangumi.tv/subject/3828",
       "year_medium": "2006 TV",
-      "female_relationship_position": "主线",
+      "female_relationship_position": "重要副线",
       "romance_position": "缺席",
-      "queries": [
-        "主线"
-      ],
+      "queries": [],
       "male_romance_line": "主导",
       "explicitness": {
         "code": "non_romantic",
@@ -7633,7 +7634,7 @@
         "主线",
         "官方恋爱"
       ],
-      "male_romance_line": "并行",
+      "male_romance_line": "副线",
       "explicitness": {
         "code": "explicit_desire",
         "label": "明确欲望"
@@ -8939,8 +8940,7 @@
         "交往",
         "欲望",
         "未确认",
-        "主线",
-        "官方恋爱"
+        "主线"
       ],
       "male_romance_line": "副线",
       "explicitness": {
@@ -11455,7 +11455,7 @@
       "bangumi_url": "https://bangumi.tv/subject/88039",
       "year_medium": "2014 TV",
       "female_relationship_position": "主线",
-      "romance_position": "局部",
+      "romance_position": "主线",
       "queries": [
         "未确认",
         "主线"
@@ -11710,7 +11710,7 @@
         "主线",
         "官方恋爱"
       ],
-      "male_romance_line": "副线",
+      "male_romance_line": "无",
       "explicitness": {
         "code": "explicit_desire",
         "label": "明确欲望"
@@ -11899,12 +11899,11 @@
       "bangumi_entry_status": "success",
       "bangumi_url": "https://bangumi.tv/subject/245671",
       "year_medium": "2019 剧场动画",
-      "female_relationship_position": "主线",
+      "female_relationship_position": "重要副线",
       "romance_position": "重要副线",
       "queries": [
         "欲望",
-        "未确认",
-        "主线"
+        "未确认"
       ],
       "male_romance_line": "副线",
       "explicitness": {
@@ -11995,11 +11994,9 @@
       "bangumi_entry_status": "success",
       "bangumi_url": "https://bangumi.tv/subject/302766",
       "year_medium": "2023 TV",
-      "female_relationship_position": "主线",
+      "female_relationship_position": "重要副线",
       "romance_position": "缺席",
-      "queries": [
-        "主线"
-      ],
+      "queries": [],
       "male_romance_line": "无",
       "explicitness": {
         "code": "non_romantic",
@@ -12014,11 +12011,10 @@
       "bangumi_url": "https://bangumi.tv/subject/106879",
       "year_medium": "2014 TV",
       "female_relationship_position": "主线",
-      "romance_position": "重要副线",
+      "romance_position": "局部",
       "queries": [
         "未确认",
-        "主线",
-        "官方恋爱"
+        "主线"
       ],
       "male_romance_line": "无",
       "explicitness": {
@@ -12052,11 +12048,10 @@
       "bangumi_entry_status": "success",
       "bangumi_url": "https://bangumi.tv/subject/409323",
       "year_medium": "2023 TV",
-      "female_relationship_position": "主线",
-      "romance_position": "局部",
+      "female_relationship_position": "重要副线",
+      "romance_position": "重要副线",
       "queries": [
-        "未确认",
-        "主线"
+        "未确认"
       ],
       "male_romance_line": "无",
       "explicitness": {
@@ -12484,7 +12479,7 @@
       "bangumi_url": "https://bangumi.tv/subject/411974",
       "year_medium": "2024 TV",
       "female_relationship_position": "主线",
-      "romance_position": "局部",
+      "romance_position": "主线",
       "queries": [
         "未确认",
         "主线"
@@ -12669,7 +12664,7 @@
       "bangumi_url": "https://bangumi.tv/subject/264358",
       "year_medium": "2019 TV",
       "female_relationship_position": "主线",
-      "romance_position": "局部",
+      "romance_position": "重要副线",
       "queries": [
         "未确认",
         "主线"
@@ -12972,14 +12967,13 @@
       "female_relationship_position": "主线",
       "romance_position": "主线",
       "queries": [
-        "欲望",
         "未确认",
         "主线"
       ],
       "male_romance_line": "无",
       "explicitness": {
-        "code": "explicit_desire",
-        "label": "明确欲望"
+        "code": "potential_or_strongly_coded",
+        "label": "潜在恋爱"
       },
       "row_number": 675
     },
@@ -13123,11 +13117,10 @@
       "bangumi_entry_status": "success",
       "bangumi_url": "https://bangumi.tv/subject/220632",
       "year_medium": "2018 TV",
-      "female_relationship_position": "主线",
+      "female_relationship_position": "重要副线",
       "romance_position": "重要副线",
       "queries": [
-        "未确认",
-        "主线"
+        "未确认"
       ],
       "male_romance_line": "无",
       "explicitness": {
@@ -13396,6 +13389,6 @@
       "row_number": 696
     }
   ],
-  "release_plan_sha256": "22887bd4894d1c845667469b9fc17970de05b24be0fadacb9f2924f8d1725d64",
+  "release_plan_sha256": "601ef68883470fa5d2be9909342cd3e7b41636bf788737f5f7c319932ab8cd67",
   "target_slugs_sha256": "f94c9de0a014ad6248c7e7dd5da09c8f477d1488fd7778466007c168b77962bf"
 }

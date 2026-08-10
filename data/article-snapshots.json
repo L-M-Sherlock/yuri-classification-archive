@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-09T08:46:06+00:00",
+  "generated_at": "2026-08-10T00:58:42+00:00",
   "articles": {
     "anime-label-divergence": {
-      "snapshot_date": "2026-08-09",
+      "snapshot_date": "2026-08-10",
       "row_count": 696,
       "category_counts": {
         "non_romantic": 222,
-        "potential_or_strongly_coded": 258,
-        "explicit_desire": 185,
+        "potential_or_strongly_coded": 260,
+        "explicit_desire": 183,
         "explicit_relationship": 31
       },
       "platform_coverage": {
@@ -35,25 +35,25 @@
         "A--": 1
       },
       "source": {
-        "sha256": "c1d2de42c0bd492cb2855bc563b8c559302a012f317418d9304feec43a081880"
+        "sha256": "7bdc2bac3b137cecc8fa37079920e4face1376b3c91e127d2e83f8fbcaa6bcce"
       },
-      "release_plan_sha256": "22887bd4894d1c845667469b9fc17970de05b24be0fadacb9f2924f8d1725d64",
+      "release_plan_sha256": "601ef68883470fa5d2be9909342cd3e7b41636bf788737f5f7c319932ab8cd67",
       "target_slugs_sha256": "f94c9de0a014ad6248c7e7dd5da09c8f477d1488fd7778466007c168b77962bf",
       "data_path": "data/articles/anime-label-divergence.json",
       "csv_path": "data/articles/anime-label-divergence.csv",
       "analysis_summary": {
         "path": "assets/yuri_classification_database_patterns/analysis_summary.json",
-        "sha256": "83ba85dc0d3d210540e1bf217ec72d474f0468e1ba923941b9759ebdb163f3b7"
+        "sha256": "662c22b8bbc6f00df0d208264234de3cc4398e6d2ade6304e4e6c229c7a51a58"
       },
       "publication_manifest": {
         "path": "publication-manifest.json",
-        "sha256": "0abe69e40f62cd4d51ce2f74f838d1bbee070c4cae6df64d72fb97f4728a2670"
+        "sha256": "f266699e80f82b97995f6ae6b0725c715d389b15d06a9dd956eb42c628b54ce9"
       },
       "charts": [
         {
           "id": "dataset_overview",
           "path": "assets/articles/anime-label-divergence/00_dataset_overview.png",
-          "sha256": "abbaa8de55186a029f1eeab75def95566f7f56f296c68ebd8c1a3d711942a7b1"
+          "sha256": "2fd5d8764e769243fbef51b042f7cf30553557af1d01bbfdfe9da722ac278a15"
         },
         {
           "id": "platform_overlap",
@@ -63,22 +63,22 @@
         {
           "id": "explicitness_gradient",
           "path": "assets/articles/anime-label-divergence/02_explicitness_gradient.png",
-          "sha256": "3861012f74e3fd2e130a8194241f7fe089dd0855192f2337f53ca378a910827e"
+          "sha256": "9a436d4ef5b253d2abdb6d93f184ab4e68c9c6cf2b4db034fe9a334cd4beb973"
         },
         {
           "id": "platform_rates",
           "path": "assets/articles/anime-label-divergence/03_platform_rates_by_explicitness.png",
-          "sha256": "eb2a3bb0fa6d5e62df3ef40d114cd585a4f8b27b5baa6302de74452a1ba83c0e"
+          "sha256": "4aa7e8ef6278ed821fc62725c01154ef4d394027192f642842d9d21fdeb18bc2"
         },
         {
           "id": "bangumi_popularity",
           "path": "assets/articles/anime-label-divergence/04_bangumi_popularity_correction.png",
-          "sha256": "f6fbb1523c9cee3e145d325c8390ea3c7ca41a6015c548723b823922bca08e07"
+          "sha256": "96c6a8d94db9f13d49571f65d2153f4283d29317f17a7bf84bd1a061496be4c2"
         },
         {
           "id": "convergence_and_structure",
           "path": "assets/articles/anime-label-divergence/05_convergence_and_text_structure.png",
-          "sha256": "a8f0e276a1dac1268759e6dde6320d95d0e1ccc59c1a69262914fe4d5279a275"
+          "sha256": "18dec01dbc30d73b023d8dc357325fb54a007b437d4c936b54952b089081ea86"
         }
       ],
       "article": {

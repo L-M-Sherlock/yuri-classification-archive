@@ -1,9 +1,9 @@
 {
   "schema_version": 4,
-  "snapshot_date": "2026-08-09",
-  "generated_at": "2026-08-09T08:40:49.340543+00:00",
+  "snapshot_date": "2026-08-10",
+  "generated_at": "2026-08-10T00:32:38.714672+00:00",
   "source": {
-    "sha256": "c1d2de42c0bd492cb2855bc563b8c559302a012f317418d9304feec43a081880",
+    "sha256": "7bdc2bac3b137cecc8fa37079920e4face1376b3c91e127d2e83f8fbcaa6bcce",
     "row_count": 696,
     "classification_schema": 4,
     "selection_composition": {
@@ -17,8 +17,8 @@
     },
     "release_plan": {
       "path": "data/release-plan.json",
-      "sha256": "166891cf67ab8d5fd7d0266081e00034747d66982d8bb23ec1510b21cf5a83a7",
-      "plan_sha256": "22887bd4894d1c845667469b9fc17970de05b24be0fadacb9f2924f8d1725d64",
+      "sha256": "e79055e8560b74a5510f66d60882951ddec3b686ebec68067934122032df8df7",
+      "plan_sha256": "601ef68883470fa5d2be9909342cd3e7b41636bf788737f5f7c319932ab8cd67",
       "target_slug_count": 696,
       "target_slugs_sha256": "f94c9de0a014ad6248c7e7dd5da09c8f477d1488fd7778466007c168b77962bf"
     },
@@ -28,7 +28,7 @@
       "target_slugs_sha256": "f94c9de0a014ad6248c7e7dd5da09c8f477d1488fd7778466007c168b77962bf"
     }
   },
-  "release_plan_sha256": "22887bd4894d1c845667469b9fc17970de05b24be0fadacb9f2924f8d1725d64",
+  "release_plan_sha256": "601ef68883470fa5d2be9909342cd3e7b41636bf788737f5f7c319932ab8cd67",
   "target_slugs_sha256": "f94c9de0a014ad6248c7e7dd5da09c8f477d1488fd7778466007c168b77962bf",
   "dataset_profile": {
     "media": {
@@ -73,38 +73,38 @@
   },
   "counts": {
     "legacy_v1_classification": {
-      "作品主类": 595,
+      "作品主类": 594,
       "重要副线": 28,
-      "读者解读": 52
+      "读者解读": 53
     },
     "female_relationship_centrality": {
-      "重要副线": 46,
-      "主线": 648,
+      "重要副线": 51,
+      "主线": 643,
       "局部": 2
     },
     "archive_basis": {
-      "work_classification": 628,
-      "reader_interpretation": 51,
-      "non_yuri": 17
+      "reader_interpretation": 79,
+      "work_classification": 602,
+      "non_yuri": 15
     },
     "romance_centrality": {
       "absent": 222,
-      "main": 211,
-      "important_secondary": 185,
-      "local": 78
+      "main": 213,
+      "important_secondary": 186,
+      "local": 75
     },
     "explicitness": {
       "non_romantic": 222,
-      "potential_or_strongly_coded": 258,
-      "explicit_desire": 185,
+      "potential_or_strongly_coded": 260,
+      "explicit_desire": 183,
       "explicit_relationship": 31
     },
     "female_female_aggregation_state": {
       "explicit": 696
     },
     "relationship_composition": {
-      "single_relation": 69,
-      "multiple_heterogeneous": 622,
+      "multiple_heterogeneous": 640,
+      "single_relation": 51,
       "multiple_consistent": 5
     },
     "official_evidence": {
@@ -116,22 +116,22 @@
         "是": 37
       },
       "female_romance_wording": {
-        "所核未见": 562,
-        "是": 134
+        "所核未见": 560,
+        "是": 136
       },
       "scope_membership": {
         "adjacent_edition": 15,
-        "franchise": 19,
-        "in_scope_edition": 560,
+        "franchise": 20,
+        "in_scope_edition": 573,
         "source_work": 61
       },
       "surface_membership": {
         "html_metadata": 28,
-        "interview_or_commentary": 35,
+        "interview_or_commentary": 36,
         "other": 2,
         "publication_venue": 138,
-        "story_or_profile": 428,
-        "visible_work_marketing": 460
+        "story_or_profile": 441,
+        "visible_work_marketing": 467
       }
     },
     "identity_evidence": {
@@ -141,15 +141,15 @@
     },
     "identity_evidence_basis": {
       "no_in_scope_evidence": 221,
-      "inferred_relationship_only": 257,
-      "explicit_relationship_only": 209,
+      "inferred_relationship_only": 259,
+      "explicit_relationship_only": 207,
       "explicit_identity_self_statement": 6,
       "official_identity_profile": 3
     },
     "common_coverage": 633,
     "common_no_platform_label": 374,
-    "common_no_platform_label_open_relationship_center": 320,
-    "common_no_platform_label_female_relationship_main": 343,
+    "common_no_platform_label_open_relationship_center": 317,
+    "common_no_platform_label_female_relationship_main": 341,
     "common_all_three_platform_labels": 50,
     "bangumi_exact_entries": 696,
     "bangumi_no_exact_entry": 0
@@ -211,29 +211,29 @@
     {
       "key": "potential_or_strongly_coded",
       "label": "潜在恋爱",
-      "n": 258,
-      "bangumi_exact_entries": 258,
+      "n": 260,
+      "bangumi_exact_entries": 260,
       "bangumi_ratio": {
         "median": 0.08232132811669232,
-        "mean": 0.08060388213580294,
-        "q25": 0.05340257548434827,
-        "q75": 0.10872993316048252
+        "mean": 0.08050370450005659,
+        "q25": 0.05328291905406542,
+        "q75": 0.10883815826870762
       },
       "platforms": {
         "Anime-Planet GL": {
           "positive": 9,
-          "exact_entries": 232,
-          "rate": 0.03879310344827586
+          "exact_entries": 234,
+          "rate": 0.038461538461538464
         },
         "AniList Yuri": {
-          "positive": 103,
-          "exact_entries": 250,
-          "rate": 0.412
+          "positive": 105,
+          "exact_entries": 252,
+          "rate": 0.4166666666666667
         },
         "MAL Girls Love": {
           "positive": 8,
-          "exact_entries": 251,
-          "rate": 0.03187250996015936
+          "exact_entries": 253,
+          "rate": 0.03162055335968379
         }
       },
       "all_three": 4,
@@ -242,29 +242,29 @@
     {
       "key": "explicit_desire",
       "label": "明确欲望",
-      "n": 185,
-      "bangumi_exact_entries": 185,
+      "n": 183,
+      "bangumi_exact_entries": 183,
       "bangumi_ratio": {
         "median": 0.08717894902536925,
-        "mean": 0.0870992751203704,
-        "q25": 0.05286343612334802,
-        "q75": 0.11950405340963281
+        "mean": 0.08731259190322932,
+        "q25": 0.053018151322067886,
+        "q75": 0.1196994658879133
       },
       "platforms": {
         "Anime-Planet GL": {
           "positive": 44,
-          "exact_entries": 172,
-          "rate": 0.2558139534883721
+          "exact_entries": 170,
+          "rate": 0.25882352941176473
         },
         "AniList Yuri": {
-          "positive": 116,
-          "exact_entries": 183,
-          "rate": 0.6338797814207651
+          "positive": 114,
+          "exact_entries": 181,
+          "rate": 0.6298342541436464
         },
         "MAL Girls Love": {
           "positive": 35,
-          "exact_entries": 182,
-          "rate": 0.19230769230769232
+          "exact_entries": 180,
+          "rate": 0.19444444444444445
         }
       },
       "all_three": 30,
@@ -310,16 +310,16 @@
   },
   "female_centrality_explicitness_matrix": {
     "主线": {
-      "non_romantic": 207,
+      "non_romantic": 205,
       "potential_or_strongly_coded": 250,
-      "explicit_desire": 163,
+      "explicit_desire": 160,
       "explicit_relationship": 28,
       "unknown": 0
     },
     "重要副线": {
-      "non_romantic": 14,
-      "potential_or_strongly_coded": 8,
-      "explicit_desire": 21,
+      "non_romantic": 16,
+      "potential_or_strongly_coded": 10,
+      "explicit_desire": 22,
       "explicit_relationship": 3,
       "unknown": 0
     },
@@ -525,7 +525,7 @@
       "title": "别当欧尼酱了！",
       "slug": "onii_chan_wa_oshimai_tv_2023",
       "female_centrality": "重要副线",
-      "archive_basis": "work_classification",
+      "archive_basis": "reader_interpretation",
       "explicitness": "non_romantic",
       "bangumi_yuri_count": 3340,
       "bangumi_user_marks": 41031,
@@ -536,7 +536,7 @@
       "title": "魔女之旅",
       "slug": "majo_no_tabitabi_tv_2020",
       "female_centrality": "重要副线",
-      "archive_basis": "work_classification",
+      "archive_basis": "reader_interpretation",
       "explicitness": "explicit_desire",
       "bangumi_yuri_count": 3323,
       "bangumi_user_marks": 38117,
@@ -997,7 +997,7 @@
         "title": "暴力宇宙海贼",
         "slug": "mouretsu_uchuu_kaizoku_tv_2012",
         "female_centrality": "重要副线",
-        "archive_basis": "work_classification",
+        "archive_basis": "reader_interpretation",
         "explicitness": "explicit_relationship",
         "bangumi_ratio": 0.06904122956818737
       },
@@ -1005,7 +1005,7 @@
         "title": "魍魉之匣",
         "slug": "mouryou_no_hako_tv_2008",
         "female_centrality": "重要副线",
-        "archive_basis": "work_classification",
+        "archive_basis": "reader_interpretation",
         "explicitness": "explicit_desire",
         "bangumi_ratio": 0.013780337309749074
       },
@@ -1021,7 +1021,7 @@
         "title": "六翼天使之声",
         "slug": "seraphim_call_tv_1999",
         "female_centrality": "重要副线",
-        "archive_basis": "work_classification",
+        "archive_basis": "reader_interpretation",
         "explicitness": "explicit_desire",
         "bangumi_ratio": 0.0562531391260673
       },
@@ -1053,7 +1053,7 @@
         "title": "竹剑少女",
         "slug": "bamboo_blade_tv_2007",
         "female_centrality": "重要副线",
-        "archive_basis": "work_classification",
+        "archive_basis": "reader_interpretation",
         "explicitness": "explicit_desire",
         "bangumi_ratio": 0.05349276274386407
       },
@@ -1061,7 +1061,7 @@
         "title": "夜樱四重奏 花之歌",
         "slug": "yozakura_quartet_hana_no_uta_tv_2013",
         "female_centrality": "重要副线",
-        "archive_basis": "work_classification",
+        "archive_basis": "reader_interpretation",
         "explicitness": "explicit_desire",
         "bangumi_ratio": 0.018857758620689655
       },
@@ -1237,7 +1237,7 @@
         "title": "暴力宇宙海贼 剧场版 亚空的深渊",
         "slug": "mouretsu_uchuu_kaizoku_abyss_of_hyperspace_movie_2014",
         "female_centrality": "重要副线",
-        "archive_basis": "work_classification",
+        "archive_basis": "reader_interpretation",
         "explicitness": "potential_or_strongly_coded",
         "bangumi_ratio": 0.053497942386831275
       },
@@ -1693,7 +1693,7 @@
         "title": "魔法少女什么的已经够了啦。",
         "slug": "mahou_shoujo_mou_ii_tv_2016",
         "female_centrality": "重要副线",
-        "archive_basis": "work_classification",
+        "archive_basis": "reader_interpretation",
         "explicitness": "potential_or_strongly_coded",
         "bangumi_ratio": 0.08770301624129931
       },
@@ -1797,7 +1797,7 @@
         "title": "转生成为了只有乙女游戏破灭Flag的邪恶大小姐X",
         "slug": "hamefura_x_tv_2021",
         "female_centrality": "重要副线",
-        "archive_basis": "work_classification",
+        "archive_basis": "reader_interpretation",
         "explicitness": "explicit_desire",
         "bangumi_ratio": 0.04279015240328253
       },
@@ -2141,7 +2141,7 @@
         "title": "魔法少女俺",
         "slug": "mahou_shoujo_ore_tv_2018",
         "female_centrality": "重要副线",
-        "archive_basis": "work_classification",
+        "archive_basis": "reader_interpretation",
         "explicitness": "explicit_desire",
         "bangumi_ratio": 0.04874482086278333
       },
@@ -2237,7 +2237,7 @@
         "title": "天空侵犯",
         "slug": "tenkuu_shinpan_web_2021",
         "female_centrality": "重要副线",
-        "archive_basis": "work_classification",
+        "archive_basis": "reader_interpretation",
         "explicitness": "explicit_desire",
         "bangumi_ratio": 0.06071757129714812
       },
@@ -2308,7 +2308,7 @@
       {
         "title": "原书·原书使",
         "slug": "maerchen_maedchen_tv_2018",
-        "female_centrality": "主线",
+        "female_centrality": "重要副线",
         "archive_basis": "reader_interpretation",
         "explicitness": "potential_or_strongly_coded",
         "bangumi_ratio": 0.08466722830665543
@@ -2325,7 +2325,7 @@
         "title": "黑岩射手：黎明降临",
         "slug": "black_rock_shooter_dawn_fall_tv_2022",
         "female_centrality": "重要副线",
-        "archive_basis": "work_classification",
+        "archive_basis": "reader_interpretation",
         "explicitness": "explicit_desire",
         "bangumi_ratio": 0.041060735671514116
       },
@@ -2989,43 +2989,43 @@
   "figures": {
     "dataset_overview": {
       "path": "assets/yuri_classification_database_patterns/00_dataset_overview.png",
-      "sha256": "abbaa8de55186a029f1eeab75def95566f7f56f296c68ebd8c1a3d711942a7b1",
-      "source_sha256": "c1d2de42c0bd492cb2855bc563b8c559302a012f317418d9304feec43a081880",
+      "sha256": "2fd5d8764e769243fbef51b042f7cf30553557af1d01bbfdfe9da722ac278a15",
+      "source_sha256": "7bdc2bac3b137cecc8fa37079920e4face1376b3c91e127d2e83f8fbcaa6bcce",
       "width": 1800,
       "height": 1120
     },
     "platform_overlap": {
       "path": "assets/yuri_classification_database_patterns/01_platform_overlap.png",
       "sha256": "a74ed473600e800823a1218dd3209bdfd6d15bd071776f8aa5367bd68851ba15",
-      "source_sha256": "c1d2de42c0bd492cb2855bc563b8c559302a012f317418d9304feec43a081880",
+      "source_sha256": "7bdc2bac3b137cecc8fa37079920e4face1376b3c91e127d2e83f8fbcaa6bcce",
       "width": 1800,
       "height": 1120
     },
     "explicitness_gradient": {
       "path": "assets/yuri_classification_database_patterns/02_explicitness_gradient.png",
-      "sha256": "3861012f74e3fd2e130a8194241f7fe089dd0855192f2337f53ca378a910827e",
-      "source_sha256": "c1d2de42c0bd492cb2855bc563b8c559302a012f317418d9304feec43a081880",
+      "sha256": "9a436d4ef5b253d2abdb6d93f184ab4e68c9c6cf2b4db034fe9a334cd4beb973",
+      "source_sha256": "7bdc2bac3b137cecc8fa37079920e4face1376b3c91e127d2e83f8fbcaa6bcce",
       "width": 1800,
       "height": 1120
     },
     "platform_rates": {
       "path": "assets/yuri_classification_database_patterns/03_platform_rates_by_explicitness.png",
-      "sha256": "eb2a3bb0fa6d5e62df3ef40d114cd585a4f8b27b5baa6302de74452a1ba83c0e",
-      "source_sha256": "c1d2de42c0bd492cb2855bc563b8c559302a012f317418d9304feec43a081880",
+      "sha256": "4aa7e8ef6278ed821fc62725c01154ef4d394027192f642842d9d21fdeb18bc2",
+      "source_sha256": "7bdc2bac3b137cecc8fa37079920e4face1376b3c91e127d2e83f8fbcaa6bcce",
       "width": 1800,
       "height": 1120
     },
     "bangumi_popularity": {
       "path": "assets/yuri_classification_database_patterns/04_bangumi_popularity_correction.png",
-      "sha256": "f6fbb1523c9cee3e145d325c8390ea3c7ca41a6015c548723b823922bca08e07",
-      "source_sha256": "c1d2de42c0bd492cb2855bc563b8c559302a012f317418d9304feec43a081880",
+      "sha256": "96c6a8d94db9f13d49571f65d2153f4283d29317f17a7bf84bd1a061496be4c2",
+      "source_sha256": "7bdc2bac3b137cecc8fa37079920e4face1376b3c91e127d2e83f8fbcaa6bcce",
       "width": 1800,
       "height": 1120
     },
     "convergence_and_structure": {
       "path": "assets/yuri_classification_database_patterns/05_convergence_and_text_structure.png",
-      "sha256": "a8f0e276a1dac1268759e6dde6320d95d0e1ccc59c1a69262914fe4d5279a275",
-      "source_sha256": "c1d2de42c0bd492cb2855bc563b8c559302a012f317418d9304feec43a081880",
+      "sha256": "18dec01dbc30d73b023d8dc357325fb54a007b437d4c936b54952b089081ea86",
+      "source_sha256": "7bdc2bac3b137cecc8fa37079920e4face1376b3c91e127d2e83f8fbcaa6bcce",
       "width": 1800,
       "height": 1120
     }
