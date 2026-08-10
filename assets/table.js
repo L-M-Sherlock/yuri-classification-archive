@@ -13,6 +13,16 @@ const YuriCatalogFilterLogic = (() => {
     relationship_position: "position",
     relationship_explicitness: "explicitness",
   };
+  const relationshipOptionOrders = {
+    position: ["main", "important_secondary", "local"],
+    explicitness: [
+      "explicit_relationship",
+      "explicit_desire",
+      "potential_or_strongly_coded",
+      "non_romantic",
+      "unknown",
+    ],
+  };
   const multiFields = {
     official_source_scopes: "official_scope",
     official_source_surfaces: "official_surface",
@@ -45,6 +55,16 @@ const YuriCatalogFilterLogic = (() => {
 
   function selectedCodes(values) {
     return Array.from(new Set((values || []).filter(Boolean))).sort();
+  }
+
+  function sortRelationshipOptions(options, nestedField) {
+    const order = relationshipOptionOrders[nestedField] || [];
+    const rank = new Map(order.map((code, index) => [code, index]));
+    return Array.from(options).sort((a, b) => {
+      const aRank = rank.has(a[0]) ? rank.get(a[0]) : order.length;
+      const bRank = rank.has(b[0]) ? rank.get(b[0]) : order.length;
+      return aRank - bRank || a[1].localeCompare(b[1], "zh-CN");
+    });
   }
 
   function parseState(search) {
@@ -174,8 +194,10 @@ const YuriCatalogFilterLogic = (() => {
   return Object.freeze({
     scalarFields,
     relationshipFields,
+    relationshipOptionOrders,
     multiFields,
     canonicalFilterValue,
+    sortRelationshipOptions,
     parseState,
     serializeState,
     matchesItem,
@@ -275,8 +297,9 @@ if (typeof globalThis !== "undefined") {
         if (value?.code && !map.has(value.code)) map.set(value.code, value.label);
       }
     }
-    return Array.from(map.entries()).sort((a, b) =>
-      a[1].localeCompare(b[1], "zh-CN"),
+    return YuriCatalogFilterLogic.sortRelationshipOptions(
+      map.entries(),
+      nestedField,
     );
   }
 
