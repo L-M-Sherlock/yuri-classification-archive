@@ -47,7 +47,7 @@
   <meta property="og:url" content="https://l-m-sherlock.github.io/yuri-classification-archive/table/">
   <meta property="og:image" content="https://l-m-sherlock.github.io/yuri-classification-archive/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
   <title>作品分类总表｜百合作品分类档案</title>
-  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=ef40d2f45684">
+  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=14492fae37f4">
 <link rel="stylesheet" href="/yuri-classification-archive/assets/vendor/tabulator.min.css">
 </head>
 <body class="table-page">
@@ -96,55 +96,66 @@
     <section class="page-hero compact">
   <p class="eyebrow">READER LOOKUP</p>
   <h1>作品分类总表</h1>
-  <p>像电子表格一样组合筛选，但每一列只回答自己的问题。“关系叙事位置”和“关系恋爱明确度”是逐关系的正交条件：只选一项时匹配任一条已确认女女关系，同时选择时必须由同一条关系满足。其他筛选组之间采用“并且”；同一组官方来源层级或材料位置可以多选，命中其中任一项即可。结果数量和下载内容会随筛选即时变化。</p>
+  <p>先用日常问法选一个入口，也可以自己组合条件。叙事位置、恋爱明确度和相互性只在逐条确认的女女关系中查找；同时提出多个关系条件时，必须由同一条关系满足。结果数量、命中关系和下载内容会随问题即时变化。</p>
 </section>
 
 <section class="catalog-shell">
   <div class="quick-filter-panel" aria-labelledby="quick-filter-title">
     <div>
-      <p class="control-label" id="quick-filter-title">快捷查询</p>
+      <p class="control-label" id="quick-filter-title">常用问题（可以叠加）</p>
       <div class="quick-buttons" id="quick-filters">
         <span class="quick-filter-with-tooltip">
-          <button type="button" data-query="main_explicit_relationship" aria-pressed="false" aria-describedby="main-explicit-relationship-tooltip">主线明确女女交往</button>
+          <button type="button" data-query="main_explicit_relationship" aria-pressed="false" aria-describedby="main-explicit-relationship-tooltip">主线关系已经明确交往？</button>
           <span class="filter-tooltip" id="main-explicit-relationship-tooltip" role="tooltip">同一条已确认女女关系必须同时处于叙事主线并明确建立交往；不能把一条主线关系与另一条局部交往关系拼接。</span>
         </span>
-        <button type="button" data-query="explicit_relationship" aria-pressed="false">明确女女交往</button>
+        <button type="button" data-query="explicit_relationship" aria-pressed="false">有明确交往就可以？</button>
         <span class="quick-filter-with-tooltip">
-          <button type="button" data-query="main_explicit_desire" aria-pressed="false" aria-describedby="main-explicit-desire-tooltip">主线明确女女欲望</button>
+          <button type="button" data-query="main_explicit_desire" aria-pressed="false" aria-describedby="main-explicit-desire-tooltip">主线关系有明确表达？</button>
           <span class="filter-tooltip" id="main-explicit-desire-tooltip" role="tooltip">同一条已确认女女关系必须同时处于叙事主线，并达到明确欲望或明确交往；不能把两条不同关系的条件拼接。</span>
         </span>
-        <button type="button" data-query="explicit_desire" aria-pressed="false">明确女女欲望</button>
+        <button type="button" data-query="explicit_desire" aria-pressed="false">有明确表达就可以？</button>
         <span class="quick-filter-with-tooltip">
-          <button type="button" data-query="accepts_unconfirmed" aria-pressed="false" aria-describedby="accepts-unconfirmed-tooltip">接受未确认方向</button>
+          <button type="button" data-query="accepts_unconfirmed" aria-pressed="false" aria-describedby="accepts-unconfirmed-tooltip">也接受未确认方向？</button>
           <span class="filter-tooltip" id="accepts-unconfirmed-tooltip" role="tooltip">只统计逐关系明确标记为女女关系（yes）的记录；unknown、no 和未标记关系不纳入。包含明确交往、明确女女欲望，以及存在连贯恋爱指向但正篇尚未确认的关系。</span>
         </span>
-        <button type="button" data-query="female_relationship_main" aria-pressed="false">女女关系主线</button>
-        <button type="button" data-query="official_literal_yuri_gl" aria-pressed="false">官方字面百合／GL</button>
-        <button type="button" data-query="official_female_romance_wording" aria-pressed="false">官方女女恋爱表述</button>
+        <button type="button" data-query="female_relationship_main" aria-pressed="false">女女关系是主线？</button>
+        <button type="button" data-query="main_relationship_no_male_romance" aria-pressed="false">女女关系主线且无男性恋爱线？</button>
+        <button type="button" data-query="four_plus_female_relationships" aria-pressed="false">有四条以上关系记录？</button>
+        <button type="button" data-query="mutual_relationship" aria-pressed="false">至少一条双向关系？</button>
+        <button type="button" data-query="official_literal_yuri_gl" aria-pressed="false">官方直写百合／GL？</button>
+        <button type="button" data-query="official_female_romance_wording" aria-pressed="false">官方写成女女恋爱？</button>
       </div>
     </div>
     <button class="text-button" id="clear-filters" type="button">清空全部筛选</button>
   </div>
 
   <div class="advanced-filters" aria-label="高级筛选">
-    <section class="filter-section" aria-labelledby="work-relationship-filter-title">
-      <p class="filter-section-title" id="work-relationship-filter-title">作品与关系</p>
+    <section class="filter-section query-composer" aria-labelledby="query-composer-title">
+      <p class="filter-section-title" id="query-composer-title">把关系问题组合成一句话</p>
+      <p class="filter-help">叙事位置、恋爱明确度和相互性必须由同一条已确认女女关系同时满足。</p>
+      <div class="filter-control-grid relationship-composer-grid">
+        <label><span>这条关系位于</span><select id="relationship-filter"><option value="">任意叙事位置</option></select></label>
+        <label><span>恋爱明确度为</span><select id="explicitness-filter"><option value="">任意明确度</option></select></label>
+        <label><span>相互性为</span><select id="mutuality-filter"><option value="">任意相互性</option></select></label>
+        <label><span>全作已确认关系数</span><select id="relationship-count-filter"><option value="">任意数量</option><option value="zero">0 条</option><option value="one">1 条</option><option value="two_three">2–3 条</option><option value="four_plus">4 条以上</option></select></label>
+        <label><span>男性恋爱线</span><select id="male-filter"><option value="">不限</option></select></label>
+      </div>
+      <div class="active-query-box">
+        <p id="active-query-summary" role="status" aria-live="polite">当前问题：显示所有作品。</p>
+        <button class="button small secondary" id="copy-query-link" type="button">复制当前问题链接</button>
+      </div>
+      <p class="copy-query-status" id="copy-query-status" role="status" aria-live="polite"></p>
+    </section>
+
+    <section class="filter-section" aria-labelledby="work-filter-title">
+      <p class="filter-section-title" id="work-filter-title">作品与归档</p>
       <div class="filter-control-grid primary-filter-grid">
         <label class="search-control">
           <span>作品搜索</span>
           <input id="title-search" type="search" placeholder="中文、原名、罗马字或英文名">
         </label>
         <label><span>媒介</span><select id="medium-filter"><option value="">全部</option></select></label>
-        <label><span>关系叙事位置（逐关系）</span><select id="relationship-filter"><option value="">全部</option></select></label>
-        <label><span>关系恋爱明确度（逐关系）</span><select id="explicitness-filter"><option value="">全部</option></select></label>
-      </div>
-    </section>
-
-    <section class="filter-section" aria-labelledby="work-conclusion-filter-title">
-      <p class="filter-section-title" id="work-conclusion-filter-title">作品级判断</p>
-      <div class="filter-control-grid conclusion-filter-grid">
         <label><span>百合归档结论</span><select id="basis-filter"><option value="">全部</option></select></label>
-        <label><span>男性恋爱线</span><select id="male-filter"><option value="">全部</option></select></label>
         <label>
           <span>结论置信度
             <span class="inline-help" tabindex="0" aria-label="查看结论置信度说明" aria-describedby="table-confidence-help">
@@ -228,6 +239,6 @@
   </footer>
   <script>window.SITE_CONFIG = {basePath: "/yuri-classification-archive"};</script>
   <script src="/yuri-classification-archive/assets/site.js?v=eeeec5872796" defer></script>
-<script>window.SITE_CONFIG.catalogVersion = "b46e6b1a6008";</script><script src="/yuri-classification-archive/assets/vendor/tabulator.min.js"></script><script src="/yuri-classification-archive/assets/vendor/xlsx.full.min.js"></script><script src="/yuri-classification-archive/assets/table.js?v=a03b0863d8fe"></script>
+<script>window.SITE_CONFIG.catalogVersion = "24ed7ef11b5b";</script><script src="/yuri-classification-archive/assets/vendor/tabulator.min.js"></script><script src="/yuri-classification-archive/assets/vendor/xlsx.full.min.js"></script><script src="/yuri-classification-archive/assets/table.js?v=2764e90fac6d"></script>
 </body>
 </html>

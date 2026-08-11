@@ -1,9 +1,9 @@
 {
   "schema_version": 5,
-  "snapshot_date": "2026-08-11",
-  "generated_at": "2026-08-11T11:19:57.019152+00:00",
+  "snapshot_date": "2026-08-12",
+  "generated_at": "2026-08-11T16:18:00.027086+00:00",
   "source": {
-    "sha256": "9ba8675897a2401370f5e78e043d6bc3e37260d3a78eccfca6a04b55739c511e",
+    "sha256": "25b5f9cf5486cd4c978379417ed10e13fe4276f551482cb69809f366829ed52e",
     "row_count": 696,
     "classification_schema": 4,
     "selection_composition": {
@@ -17,8 +17,8 @@
     },
     "release_plan": {
       "path": "data/release-plan.json",
-      "sha256": "47d964c81f8f354034d44fa13414e5cded9167ad38aaf1668e2f717766280b38",
-      "plan_sha256": "b717d80d044766c070b4941dfd0007edb8f2edd6a887ae18434df2bc1434f075",
+      "sha256": "f4a92d9f26e9658ae8eadf3b9e7a0d85f6c78b3e93aaa6e9bd3a76479a67943f",
+      "plan_sha256": "93025a2e4c83213bb0aeee4f23ccf3c0eff6e8ce31df56233da543cce24fd5a3",
       "target_slug_count": 696,
       "target_slugs_sha256": "f94c9de0a014ad6248c7e7dd5da09c8f477d1488fd7778466007c168b77962bf"
     },
@@ -28,7 +28,7 @@
       "target_slugs_sha256": "f94c9de0a014ad6248c7e7dd5da09c8f477d1488fd7778466007c168b77962bf"
     }
   },
-  "release_plan_sha256": "b717d80d044766c070b4941dfd0007edb8f2edd6a887ae18434df2bc1434f075",
+  "release_plan_sha256": "93025a2e4c83213bb0aeee4f23ccf3c0eff6e8ce31df56233da543cce24fd5a3",
   "target_slugs_sha256": "f94c9de0a014ad6248c7e7dd5da09c8f477d1488fd7778466007c168b77962bf",
   "dataset_profile": {
     "media": {
@@ -1891,42 +1891,42 @@
     "dataset_overview": {
       "path": "assets/yuri_classification_database_patterns/00_dataset_overview.png",
       "sha256": "2f2918a4fb17f4c06d02ddf3f21494efe96e76485f170fd744a0bdb6be9b3b3f",
-      "source_sha256": "9ba8675897a2401370f5e78e043d6bc3e37260d3a78eccfca6a04b55739c511e",
+      "source_sha256": "25b5f9cf5486cd4c978379417ed10e13fe4276f551482cb69809f366829ed52e",
       "width": 1800,
       "height": 1120
     },
     "platform_overlap": {
       "path": "assets/yuri_classification_database_patterns/01_platform_overlap.png",
       "sha256": "3e9acf2fcc8f87724e09f73543d4b2b7f08f41a2e116e608dd4b459455e1b807",
-      "source_sha256": "9ba8675897a2401370f5e78e043d6bc3e37260d3a78eccfca6a04b55739c511e",
+      "source_sha256": "25b5f9cf5486cd4c978379417ed10e13fe4276f551482cb69809f366829ed52e",
       "width": 1800,
       "height": 1120
     },
     "explicitness_gradient": {
       "path": "assets/yuri_classification_database_patterns/02_explicitness_gradient.png",
       "sha256": "fa928dfb5f395c58a8a9593c2570887d3971d713617957b08a936b90f5026dce",
-      "source_sha256": "9ba8675897a2401370f5e78e043d6bc3e37260d3a78eccfca6a04b55739c511e",
+      "source_sha256": "25b5f9cf5486cd4c978379417ed10e13fe4276f551482cb69809f366829ed52e",
       "width": 1800,
       "height": 1120
     },
     "platform_rates": {
       "path": "assets/yuri_classification_database_patterns/03_platform_rates_by_explicitness.png",
       "sha256": "71c0435dd9449c47f5be2c3a3e79eb5cdc75db4c44d11d162c565fe040da6472",
-      "source_sha256": "9ba8675897a2401370f5e78e043d6bc3e37260d3a78eccfca6a04b55739c511e",
+      "source_sha256": "25b5f9cf5486cd4c978379417ed10e13fe4276f551482cb69809f366829ed52e",
       "width": 1800,
       "height": 1120
     },
     "bangumi_popularity": {
       "path": "assets/yuri_classification_database_patterns/04_bangumi_popularity_correction.png",
       "sha256": "301b656b53eb0d1352046c0427472dc1a9f73adc595786915a917ce6c2f0cb16",
-      "source_sha256": "9ba8675897a2401370f5e78e043d6bc3e37260d3a78eccfca6a04b55739c511e",
+      "source_sha256": "25b5f9cf5486cd4c978379417ed10e13fe4276f551482cb69809f366829ed52e",
       "width": 1800,
       "height": 1120
     },
     "convergence_and_structure": {
       "path": "assets/yuri_classification_database_patterns/05_convergence_and_text_structure.png",
       "sha256": "849602352b79931b1682ecad2e9f31681ed23259ceb0b8d6bf52db9f19be6409",
-      "source_sha256": "9ba8675897a2401370f5e78e043d6bc3e37260d3a78eccfca6a04b55739c511e",
+      "source_sha256": "25b5f9cf5486cd4c978379417ed10e13fe4276f551482cb69809f366829ed52e",
       "width": 1800,
       "height": 1120
     }

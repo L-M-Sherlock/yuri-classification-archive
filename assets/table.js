@@ -12,6 +12,7 @@ const YuriCatalogFilterLogic = (() => {
   const relationshipFields = {
     relationship_position: "position",
     relationship_explicitness: "explicitness",
+    relationship_mutuality: "mutuality",
   };
   const relationshipOptionOrders = {
     position: ["main", "important_secondary", "local"],
@@ -22,6 +23,73 @@ const YuriCatalogFilterLogic = (() => {
       "non_romantic",
       "unknown",
     ],
+    mutuality: [
+      "mutual",
+      "one_sided",
+      "ambiguous",
+      "not_applicable",
+      "unknown",
+    ],
+  };
+  const relationshipCountBands = ["zero", "one", "two_three", "four_plus"];
+  const relationScopedQuickQueries = new Set([
+    "main_explicit_relationship",
+    "explicit_relationship",
+    "main_explicit_desire",
+    "explicit_desire",
+    "accepts_unconfirmed",
+    "female_relationship_main",
+    "main_relationship_no_male_romance",
+    "mutual_relationship",
+  ]);
+  const quickQuestionLabels = {
+    official_literal_yuri_gl: "官方材料直接写‘百合’或‘GL’",
+    official_female_romance_wording: "官方材料把女女关系写成恋爱",
+  };
+  const filterFieldLabels = {
+    medium: "媒介",
+    archive_basis: "百合归档结论",
+    official_literal_yuri_gl: "官方字面百合／GL",
+    official_female_romance_wording: "官方女女恋爱表述",
+    confidence: "结论置信度",
+    official_source_scopes: "官方来源层级",
+    official_source_surfaces: "官方材料位置",
+  };
+  const publicLabels = {
+    position: {
+      main: "主线",
+      important_secondary: "重要副线",
+      local: "局部",
+      absent: "缺席",
+      unknown: "未知",
+    },
+    explicitness: {
+      explicit_relationship: "明确交往",
+      explicit_desire: "明确欲望",
+      potential_or_strongly_coded: "潜在恋爱",
+      non_romantic: "非恋爱",
+      unknown: "未知",
+    },
+    mutuality: {
+      mutual: "双向",
+      one_sided: "单向",
+      ambiguous: "相互性未确认",
+      not_applicable: "不适用",
+      unknown: "未知",
+    },
+    relationship_count: {
+      zero: "0 条",
+      one: "1 条",
+      two_three: "2–3 条",
+      four_plus: "4 条以上",
+    },
+    male_romance_line: {
+      none: "无",
+      secondary: "副线",
+      parallel: "并列",
+      dominant: "主导",
+      unknown: "未知",
+    },
   };
   const scalarOptionOrders = {
     archive_basis: [
@@ -68,7 +136,7 @@ const YuriCatalogFilterLogic = (() => {
   };
   const filterValueAliases = {
     medium: {
-      // V4 keeps historical medium spellings in the catalog.  These values
+      // V5 keeps historical medium spellings in the catalog.  These values
       // share one reader-facing category and must therefore produce one
       // option and one filter result set.
       anime_tv: "tv_anime",
@@ -154,6 +222,11 @@ const YuriCatalogFilterLogic = (() => {
       query: params.get("q") || "",
       scalar,
       relationship,
+      relationship_count: relationshipCountBands.includes(
+        params.get("relationship_count"),
+      )
+        ? params.get("relationship_count")
+        : "",
       multi,
       quick: selectedCodes(params.getAll("quick")),
     };
@@ -170,6 +243,9 @@ const YuriCatalogFilterLogic = (() => {
     for (const field of Object.keys(relationshipFields)) {
       const value = state.relationship?.[field] || "";
       if (value) params.set(field, value);
+    }
+    if (relationshipCountBands.includes(state.relationship_count)) {
+      params.set("relationship_count", state.relationship_count);
     }
     for (const [field, urlKey] of Object.entries(multiFields)) {
       for (const value of selectedCodes(state.multi?.[field])) {
@@ -198,21 +274,235 @@ const YuriCatalogFilterLogic = (() => {
     return selected.some((value) => codes.has(value));
   }
 
-  function itemMatchesRelationshipAxes(item, relationship) {
-    const expectedPosition = relationship?.relationship_position || "";
-    const expectedExplicitness = relationship?.relationship_explicitness || "";
-    if (!expectedPosition && !expectedExplicitness) return true;
-    const axes = Array.isArray(item.relationship_filter_axes)
-      ? item.relationship_filter_axes
+  function intersectAllowed(current, values) {
+    const next = new Set(values);
+    if (current === null) return next;
+    return new Set(Array.from(current).filter((value) => next.has(value)));
+  }
+
+  function effectiveRelationshipConstraint(state) {
+    let position = null;
+    let explicitness = null;
+    let mutuality = null;
+    let active = false;
+    const direct = state.relationship || {};
+    if (direct.relationship_position) {
+      position = intersectAllowed(position, [direct.relationship_position]);
+      active = true;
+    }
+    if (direct.relationship_explicitness) {
+      explicitness = intersectAllowed(explicitness, [direct.relationship_explicitness]);
+      active = true;
+    }
+    if (direct.relationship_mutuality) {
+      mutuality = intersectAllowed(mutuality, [direct.relationship_mutuality]);
+      active = true;
+    }
+
+    for (const queryKey of state.quick || []) {
+      if (!relationScopedQuickQueries.has(queryKey)) continue;
+      active = true;
+      if ([
+        "main_explicit_relationship",
+        "main_explicit_desire",
+        "female_relationship_main",
+        "main_relationship_no_male_romance",
+      ].includes(queryKey)) {
+        position = intersectAllowed(position, ["main"]);
+      }
+      if (["main_explicit_relationship", "explicit_relationship"].includes(queryKey)) {
+        explicitness = intersectAllowed(explicitness, ["explicit_relationship"]);
+      }
+      if (["main_explicit_desire", "explicit_desire"].includes(queryKey)) {
+        explicitness = intersectAllowed(explicitness, [
+          "explicit_relationship",
+          "explicit_desire",
+        ]);
+      }
+      if (queryKey === "accepts_unconfirmed") {
+        explicitness = intersectAllowed(explicitness, [
+          "explicit_relationship",
+          "explicit_desire",
+          "potential_or_strongly_coded",
+        ]);
+      }
+      if (queryKey === "mutual_relationship") {
+        mutuality = intersectAllowed(mutuality, ["mutual"]);
+      }
+    }
+    return { active, position, explicitness, mutuality };
+  }
+
+  function hasRelationshipPredicate(state) {
+    return effectiveRelationshipConstraint(state).active;
+  }
+
+  function profileMatchesConstraint(profile, constraint) {
+    for (const [field, allowed] of [
+      ["position", constraint.position],
+      ["explicitness", constraint.explicitness],
+      ["mutuality", constraint.mutuality],
+    ]) {
+      if (allowed !== null && !allowed.has(profile?.[field]?.code || "")) {
+        return false;
+      }
+    }
+    return true;
+  }
+
+  function matchingRelationshipProfiles(item, state) {
+    const constraint = effectiveRelationshipConstraint(state);
+    if (!constraint.active) return [];
+    const profiles = Array.isArray(item.relationship_profiles)
+      ? item.relationship_profiles
       : [];
-    return axes.some((axis) => {
-      const position = axis?.position?.code || "";
-      const explicitness = axis?.explicitness?.code || "";
-      return (
-        (!expectedPosition || position === expectedPosition) &&
-        (!expectedExplicitness || explicitness === expectedExplicitness)
+    return profiles.filter((profile) =>
+      profileMatchesConstraint(profile, constraint),
+    );
+  }
+
+  function relationshipCountMatches(count, band) {
+    if (!band) return true;
+    if (!Number.isInteger(count) || count < 0) return false;
+    const value = count;
+    if (band === "zero") return value === 0;
+    if (band === "one") return value === 1;
+    if (band === "two_three") return value >= 2 && value <= 3;
+    if (band === "four_plus") return value >= 4;
+    return true;
+  }
+
+  function itemMatchesRelationshipCount(item, state) {
+    const count = item.female_female_relationship_count;
+    if (!relationshipCountMatches(count, state.relationship_count || "")) {
+      return false;
+    }
+    if ((state.quick || []).includes("four_plus_female_relationships")) {
+      return relationshipCountMatches(count, "four_plus");
+    }
+    return true;
+  }
+
+  function itemMatchesWorkQuickConditions(item, state) {
+    for (const queryKey of state.quick || []) {
+      if (relationScopedQuickQueries.has(queryKey)) {
+        if (
+          queryKey === "main_relationship_no_male_romance" &&
+          item.male_romance_line?.code !== "none"
+        ) {
+          return false;
+        }
+        continue;
+      }
+      if (queryKey === "four_plus_female_relationships") continue;
+      if (item.quick_queries?.[queryKey] !== true) return false;
+    }
+    return true;
+  }
+
+  function allowedLabels(values, field) {
+    if (values === null) return "";
+    if (values.size === 0) return "互相冲突";
+    return Array.from(values)
+      .map((value) => publicLabels[field]?.[value] || value)
+      .join("或");
+  }
+
+  function displayStateLabel(field, value, labelOverrides) {
+    return (
+      labelOverrides?.[field]?.[value] ||
+      publicLabels[field]?.[value] ||
+      value
+    );
+  }
+
+  function describeState(state, labelOverrides = {}) {
+    const clauses = [];
+    const query = (state.query || "").trim();
+    if (query) clauses.push(`标题包含“${query}”`);
+
+    const constraint = effectiveRelationshipConstraint(state);
+    const relationshipConflict = [
+      constraint.position,
+      constraint.explicitness,
+      constraint.mutuality,
+    ].some((allowed) => allowed !== null && allowed.size === 0);
+    const zeroRelationshipConflict =
+      constraint.active && state.relationship_count === "zero";
+    const fourPlusConflict =
+      (state.quick || []).includes("four_plus_female_relationships") &&
+      ["zero", "one", "two_three"].includes(state.relationship_count);
+    const maleRomanceConflict =
+      (state.quick || []).includes("main_relationship_no_male_romance") &&
+      Boolean(state.scalar?.male_romance_line) &&
+      state.scalar.male_romance_line !== "none";
+    if (
+      relationshipConflict ||
+      zeroRelationshipConflict ||
+      fourPlusConflict ||
+      maleRomanceConflict
+    ) {
+      return "当前问题：所选条件不能同时成立，因此不会有作品命中。";
+    }
+    if (constraint.active) {
+      const parts = [];
+      if (constraint.position !== null) {
+        parts.push(`叙事位置为${allowedLabels(constraint.position, "position")}`);
+      }
+      if (constraint.explicitness !== null) {
+        parts.push(
+          `恋爱明确度为${allowedLabels(constraint.explicitness, "explicitness")}`,
+        );
+      }
+      if (constraint.mutuality !== null) {
+        parts.push(`相互性为${allowedLabels(constraint.mutuality, "mutuality")}`);
+      }
+      clauses.push(`至少一条已确认女女关系同时满足：${parts.join("、")}`);
+    }
+
+    if (state.relationship_count) {
+      clauses.push(
+        `全作共有 ${publicLabels.relationship_count[state.relationship_count]}已确认女女关系记录`,
       );
-    });
+    }
+    if ((state.quick || []).includes("four_plus_female_relationships")) {
+      clauses.push("全作有 4 条以上已确认女女关系记录");
+    }
+
+    const selectedMale = state.scalar?.male_romance_line || "";
+    if (selectedMale) {
+      clauses.push(
+        `男性恋爱线为${displayStateLabel("male_romance_line", selectedMale, labelOverrides)}`,
+      );
+    }
+    if (
+      (state.quick || []).includes("main_relationship_no_male_romance") &&
+      selectedMale !== "none"
+    ) {
+      clauses.push("男性恋爱线为无");
+    }
+
+    for (const queryKey of state.quick || []) {
+      if (quickQuestionLabels[queryKey]) clauses.push(quickQuestionLabels[queryKey]);
+    }
+    for (const [field, value] of Object.entries(state.scalar || {})) {
+      if (!value || field === "male_romance_line") continue;
+      clauses.push(
+        `${filterFieldLabels[field] || field}为${displayStateLabel(field, value, labelOverrides)}`,
+      );
+    }
+    for (const [field, values] of Object.entries(state.multi || {})) {
+      if (values?.length) {
+        clauses.push(
+          `${filterFieldLabels[field] || field}包含${values
+            .map((value) => displayStateLabel(field, value, labelOverrides))
+            .join("或")}`,
+        );
+      }
+    }
+    return clauses.length
+      ? `当前问题：找出${clauses.join("，并且")}的作品。`
+      : "当前问题：显示所有作品。";
   }
 
   function searchableTitle(item) {
@@ -235,16 +525,19 @@ const YuriCatalogFilterLogic = (() => {
         return false;
       }
     }
-    if (!itemMatchesRelationshipAxes(item, state.relationship)) return false;
+    if (
+      hasRelationshipPredicate(state) &&
+      matchingRelationshipProfiles(item, state).length === 0
+    ) {
+      return false;
+    }
+    if (!itemMatchesRelationshipCount(item, state)) return false;
     for (const field of Object.keys(multiFields)) {
       if (!itemMatchesMulti(item, field, state.multi?.[field] || [])) {
         return false;
       }
     }
-    for (const queryKey of state.quick || []) {
-      if (item.quick_queries?.[queryKey] !== true) return false;
-    }
-    return true;
+    return itemMatchesWorkQuickConditions(item, state);
   }
 
   function bangumiMetricValue(item, value) {
@@ -268,6 +561,11 @@ const YuriCatalogFilterLogic = (() => {
     compareCategoricalValues,
     parseState,
     serializeState,
+    effectiveRelationshipConstraint,
+    hasRelationshipPredicate,
+    matchingRelationshipProfiles,
+    relationshipCountMatches,
+    describeState,
     matchesItem,
     bangumiMetricValue,
   });
@@ -287,6 +585,9 @@ if (typeof globalThis !== "undefined") {
   const resultCount = document.getElementById("result-count");
   const errorPanel = document.getElementById("table-error");
   const clearButton = document.getElementById("clear-filters");
+  const copyQueryButton = document.getElementById("copy-query-link");
+  const copyQueryStatus = document.getElementById("copy-query-status");
+  const activeQuerySummary = document.getElementById("active-query-summary");
   const searchInput = document.getElementById("title-search");
   const quickButtons = Array.from(
     document.querySelectorAll("#quick-filters [data-query]"),
@@ -302,7 +603,11 @@ if (typeof globalThis !== "undefined") {
   const relationshipFilterElements = {
     relationship_position: document.getElementById("relationship-filter"),
     relationship_explicitness: document.getElementById("explicitness-filter"),
+    relationship_mutuality: document.getElementById("mutuality-filter"),
   };
+  const relationshipCountElement = document.getElementById(
+    "relationship-count-filter",
+  );
   const multiFilterElements = {
     official_source_scopes: document.getElementById("official-scope-filter"),
     official_source_surfaces: document.getElementById("official-surface-filter"),
@@ -312,7 +617,11 @@ if (typeof globalThis !== "undefined") {
     ...Object.values(scalarFilterElements),
     ...Object.values(relationshipFilterElements),
     ...Object.values(multiFilterElements),
+    relationshipCountElement,
     clearButton,
+    copyQueryButton,
+    copyQueryStatus,
+    activeQuerySummary,
   ];
 
   function showError(message) {
@@ -355,11 +664,11 @@ if (typeof globalThis !== "undefined") {
   function uniqueRelationshipOptions(items, nestedField) {
     const map = new Map();
     for (const item of items) {
-      const axes = Array.isArray(item.relationship_filter_axes)
-        ? item.relationship_filter_axes
+      const profiles = Array.isArray(item.relationship_profiles)
+        ? item.relationship_profiles
         : [];
-      for (const axis of axes) {
-        const value = axis?.[nestedField];
+      for (const profile of profiles) {
+        const value = profile?.[nestedField];
         if (value?.code && !map.has(value.code)) map.set(value.code, value.label);
       }
     }
@@ -435,6 +744,7 @@ if (typeof globalThis !== "undefined") {
       query: searchInput.value,
       scalar,
       relationship,
+      relationship_count: relationshipCountElement.value || "",
       multi,
       quick: quickButtons
         .filter((button) => button.getAttribute("aria-pressed") === "true")
@@ -450,6 +760,7 @@ if (typeof globalThis !== "undefined") {
     for (const [field, element] of Object.entries(relationshipFilterElements)) {
       element.value = state.relationship?.[field] || "";
     }
+    relationshipCountElement.value = state.relationship_count || "";
     for (const [field, element] of Object.entries(multiFilterElements)) {
       setSelectedMultiValues(element, state.multi?.[field] || []);
     }
@@ -462,13 +773,75 @@ if (typeof globalThis !== "undefined") {
     }
   }
 
-  function stateToUrl() {
-    const suffix = YuriCatalogFilterLogic.serializeState(readUiState());
+  function stateToUrl(state = readUiState()) {
+    const suffix = YuriCatalogFilterLogic.serializeState(state);
     window.history.replaceState(
       null,
       "",
       `${window.location.pathname}${suffix ? `?${suffix}` : ""}`,
     );
+  }
+
+  function selectLabelMap(elements) {
+    const result = {};
+    for (const [field, element] of Object.entries(elements)) {
+      result[field] = Object.fromEntries(
+        Array.from(element.options, (option) => [option.value, option.textContent]),
+      );
+    }
+    return result;
+  }
+
+  function currentLabelOverrides() {
+    const labels = {
+      ...selectLabelMap(scalarFilterElements),
+      ...selectLabelMap(relationshipFilterElements),
+    };
+    for (const [field, container] of Object.entries(multiFilterElements)) {
+      labels[field] = Object.fromEntries(
+        Array.from(
+          container.querySelectorAll('input[type="checkbox"]'),
+          (input) => [
+            input.value,
+            input.parentElement?.querySelector(".multi-choice-label")?.textContent ||
+              input.value,
+          ],
+        ),
+      );
+    }
+    return labels;
+  }
+
+  function fallbackCopyText(value) {
+    const textarea = document.createElement("textarea");
+    textarea.value = value;
+    textarea.setAttribute("readonly", "");
+    textarea.style.position = "fixed";
+    textarea.style.opacity = "0";
+    document.body.appendChild(textarea);
+    textarea.select();
+    const copied = document.execCommand("copy");
+    textarea.remove();
+    if (!copied) throw new Error("copy command failed");
+  }
+
+  async function copyCurrentQueryLink() {
+    const value = window.location.href;
+    try {
+      if (navigator.clipboard?.writeText) {
+        await navigator.clipboard.writeText(value);
+      } else {
+        fallbackCopyText(value);
+      }
+      copyQueryStatus.textContent = "当前问题链接已复制。";
+    } catch (_error) {
+      try {
+        fallbackCopyText(value);
+        copyQueryStatus.textContent = "当前问题链接已复制。";
+      } catch (_fallbackError) {
+        copyQueryStatus.textContent = "浏览器未允许自动复制，请复制地址栏中的链接。";
+      }
+    }
   }
 
   function titleFormatter(cell) {
@@ -499,6 +872,50 @@ if (typeof globalThis !== "undefined") {
 
   function labelsFormatter(cell) {
     return labelsText(cell.getValue()) || "—";
+  }
+
+  function relationshipProfileText(profile) {
+    const labels = [
+      profile?.position?.label,
+      profile?.explicitness?.label,
+      profile?.mutuality?.label,
+    ].filter(Boolean);
+    return `${profile?.name || "未命名关系"}（${labels.join("／")}）`;
+  }
+
+  function matchingRelationshipsText(item, state) {
+    return YuriCatalogFilterLogic.matchingRelationshipProfiles(item, state)
+      .map(relationshipProfileText)
+      .join("；");
+  }
+
+  function matchingRelationshipsFormatter(cell) {
+    const element = document.createElement("div");
+    element.className = "matching-relationship-list";
+    element.textContent =
+      matchingRelationshipsText(cell.getRow().getData(), readUiState()) || "—";
+    return element;
+  }
+
+  const distributionProfileFields = {
+    narrative_centrality: "position",
+    romance_explicitness: "explicitness",
+    mutuality: "mutuality",
+  };
+
+  function relationshipDistributionText(value, item, axis) {
+    if (!value || typeof value !== "object") return "";
+    const profileField = distributionProfileFields[axis];
+    const labels = new Map(
+      (Array.isArray(item.relationship_profiles) ? item.relationship_profiles : [])
+        .map((profile) => profile?.[profileField])
+        .filter((entry) => entry?.code)
+        .map((entry) => [entry.code, entry.label]),
+    );
+    return Object.entries(value)
+      .filter(([, count]) => Number.isInteger(count) && count > 0)
+      .map(([code, count]) => `${labels.get(code) || code} ${count}`)
+      .join("、");
   }
 
   function ratioFormatter(cell) {
@@ -534,7 +951,7 @@ if (typeof globalThis !== "undefined") {
     const payload = await response.json();
     if (
       !payload ||
-      payload.schema_version !== 4 ||
+      payload.schema_version !== 5 ||
       !Array.isArray(payload.items)
     ) {
       throw new Error("公开总表格式不受支持");
@@ -659,6 +1076,24 @@ if (typeof globalThis !== "undefined") {
           accessorDownload: (value) => value.label,
         },
         {
+          title: "关系数",
+          titleDownload: "已确认女女关系数",
+          headerTooltip: "逐条确认的女女关系记录数，不是程度评分",
+          field: "female_female_relationship_count",
+          sorter: "number",
+          width: 82,
+        },
+        {
+          title: "命中关系",
+          field: "relationship_profiles",
+          formatter: matchingRelationshipsFormatter,
+          visible: false,
+          download: true,
+          width: 260,
+          accessorDownload: (_value, item) =>
+            matchingRelationshipsText(item, readUiState()),
+        },
+        {
           title: "Bangumi Rank",
           field: "bangumi_rank",
           formatter: bangumiRankFormatter,
@@ -733,6 +1168,30 @@ if (typeof globalThis !== "undefined") {
           accessorDownload: labelsText,
         },
         {
+          title: "关系叙事位置分布",
+          field: "relationship_distribution.narrative_centrality",
+          visible: false,
+          download: true,
+          accessorDownload: (value, item) =>
+            relationshipDistributionText(value, item, "narrative_centrality"),
+        },
+        {
+          title: "关系恋爱明确度分布",
+          field: "relationship_distribution.romance_explicitness",
+          visible: false,
+          download: true,
+          accessorDownload: (value, item) =>
+            relationshipDistributionText(value, item, "romance_explicitness"),
+        },
+        {
+          title: "关系相互性分布",
+          field: "relationship_distribution.mutuality",
+          visible: false,
+          download: true,
+          accessorDownload: (value, item) =>
+            relationshipDistributionText(value, item, "mutuality"),
+        },
+        {
           title: "分类日期",
           field: "classification_date",
           sorter: "date",
@@ -754,13 +1213,21 @@ if (typeof globalThis !== "undefined") {
       ],
     });
 
-    function matchesConfiguredFilters(item) {
-      return YuriCatalogFilterLogic.matchesItem(item, readUiState());
-    }
-
     function applyFilters() {
-      table.setFilter(matchesConfiguredFilters);
-      stateToUrl();
+      const state = readUiState();
+      table.setFilter((item) => YuriCatalogFilterLogic.matchesItem(item, state));
+      if (YuriCatalogFilterLogic.hasRelationshipPredicate(state)) {
+        table.showColumn("relationship_profiles");
+      } else {
+        table.hideColumn("relationship_profiles");
+      }
+      activeQuerySummary.textContent = YuriCatalogFilterLogic.describeState(
+        state,
+        currentLabelOverrides(),
+      );
+      copyQueryStatus.textContent = "";
+      stateToUrl(state);
+      table.redraw(true);
     }
 
     table.on("dataFiltered", (_filters, rows) => {
@@ -773,6 +1240,7 @@ if (typeof globalThis !== "undefined") {
       ...Object.values(scalarFilterElements),
       ...Object.values(relationshipFilterElements),
       ...Object.values(multiFilterElements),
+      relationshipCountElement,
     ]) {
       element.addEventListener("change", applyFilters);
     }
@@ -784,10 +1252,18 @@ if (typeof globalThis !== "undefined") {
       });
     }
     clearButton.addEventListener("click", () => {
-      writeUiState({ query: "", scalar: {}, multi: {}, quick: [] });
+      writeUiState({
+        query: "",
+        scalar: {},
+        relationship: {},
+        relationship_count: "",
+        multi: {},
+        quick: [],
+      });
       table.clearHeaderFilter();
       applyFilters();
     });
+    copyQueryButton.addEventListener("click", copyCurrentQueryLink);
     window.addEventListener("popstate", () => {
       writeUiState(YuriCatalogFilterLogic.parseState(window.location.search));
       applyFilters();

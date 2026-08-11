@@ -275,7 +275,7 @@ h1, h2, h3 { line-height: 1.25; }
 }
 .query-grid {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 1px;
   overflow: hidden;
   border: 1px solid var(--line);
@@ -533,6 +533,9 @@ h1, h2, h3 { line-height: 1.25; }
 .primary-filter-grid {
   grid-template-columns: minmax(280px, 2fr) repeat(3, minmax(150px, 1fr));
 }
+.relationship-composer-grid {
+  grid-template-columns: repeat(5, minmax(145px, 1fr));
+}
 .conclusion-filter-grid {
   grid-template-columns: repeat(3, minmax(180px, 1fr));
 }
@@ -561,6 +564,36 @@ h1, h2, h3 { line-height: 1.25; }
   color: var(--muted);
   font-size: 0.66rem;
   font-weight: 500;
+}
+.query-composer > .filter-help {
+  margin: -0.25rem 0 0.85rem;
+  color: var(--muted);
+  font-size: 0.76rem;
+}
+.active-query-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 1rem;
+  padding: 0.85rem 1rem;
+  border: 1px solid var(--header-line);
+  border-radius: 10px;
+  background: var(--accent-soft);
+}
+.active-query-box p {
+  margin: 0;
+  color: var(--ink);
+  font-size: 0.88rem;
+  line-height: 1.6;
+}
+.active-query-box .button { flex: 0 0 auto; }
+.copy-query-status {
+  min-height: 1.2em;
+  margin: 0.35rem 0 0;
+  color: var(--accent-deep);
+  font-size: 0.74rem;
+  text-align: right;
 }
 .multi-filter-row {
   min-width: 0;
@@ -1090,6 +1123,76 @@ h1, h2, h3 { line-height: 1.25; }
   margin: 0 auto 3.5rem;
   text-align: center;
 }
+.relationship-overview {
+  max-width: 900px;
+  margin: -1.4rem auto 3.5rem;
+  padding: 1.4rem 1.5rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface);
+}
+.relationship-overview-heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.relationship-overview-heading .eyebrow { margin: 0; }
+.relationship-overview-heading h2 {
+  margin: 0;
+  font-family: "Songti SC", "Noto Serif CJK SC", serif;
+  font-size: 1.45rem;
+}
+.relationship-overview-total {
+  display: flex;
+  align-items: baseline;
+  gap: 0.55rem;
+  margin: 0 0 1rem;
+}
+.relationship-overview-total strong {
+  color: var(--accent-deep);
+  font-family: Georgia, serif;
+  font-size: 2.1rem;
+}
+.relationship-overview-total span { color: var(--muted); }
+.relationship-overview-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+.relationship-overview-group {
+  padding: 0.8rem;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--surface-soft-translucent);
+}
+.relationship-overview-group h3 {
+  margin: 0 0 0.45rem;
+  color: var(--muted);
+  font-size: 0.76rem;
+}
+.relationship-overview-group ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.relationship-overview-group li {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.2rem 0;
+  font-size: 0.84rem;
+}
+.relationship-overview-note {
+  margin: 1rem 0 0;
+  color: var(--muted);
+  font-size: 0.76rem;
+}
+.matching-relationship-list {
+  white-space: normal;
+  line-height: 1.45;
+}
 .report-header h1 {
   margin: 0;
   font-family: "Songti SC", "Noto Serif CJK SC", serif;
@@ -1440,6 +1543,7 @@ h1, h2, h3 { line-height: 1.25; }
 @media (max-width: 1000px) {
   .query-grid { grid-template-columns: repeat(2, 1fr); }
   .primary-filter-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .relationship-composer-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .primary-filter-grid .search-control { grid-column: 1 / -1; }
   .report-layout, .article-layout { grid-template-columns: 1fr; }
   .report-toc, .article-toc { position: static; display: none; }
@@ -1576,14 +1680,43 @@ h1, h2, h3 { line-height: 1.25; }
   .section-heading { align-items: flex-start; flex-direction: column; }
   .quick-filter-panel, .catalog-toolbar { align-items: flex-start; flex-direction: column; }
   .primary-filter-grid,
+  .relationship-composer-grid,
   .conclusion-filter-grid,
   .official-filter-grid { grid-template-columns: 1fr; }
   .primary-filter-grid .search-control { grid-column: auto; }
   .multi-filter-row { grid-template-columns: 1fr; }
+  .filter-tooltip {
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    left: 1rem;
+    width: auto;
+  }
   .catalog-toolbar > div { width: 100%; flex-wrap: wrap; }
+  .active-query-box { align-items: flex-start; flex-direction: column; }
+  .copy-query-status { text-align: left; }
   .report-page { padding-top: 3rem; }
   .report-header { text-align: left; }
   .label-strip { justify-content: flex-start; }
+  .relationship-overview {
+    margin-top: -1.5rem;
+    padding: 1.1rem;
+  }
+  .relationship-overview-heading { align-items: flex-start; flex-direction: column; }
+  .relationship-overview-grid { grid-template-columns: 1fr; }
+  .tabulator .tabulator-footer .tabulator-footer-contents {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.55rem;
+  }
+  .tabulator .tabulator-footer .tabulator-paginator {
+    display: flex;
+    max-width: 100%;
+    flex-wrap: wrap;
+    gap: 0.25rem;
+    margin: 0;
+  }
   .article-page { padding-top: 3rem; }
   .article-header { text-align: left; }
   .article-deck { margin-left: 0; }
