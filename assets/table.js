@@ -40,9 +40,11 @@ const YuriCatalogFilterLogic = (() => {
     "accepts_unconfirmed",
     "female_relationship_main",
     "main_relationship_no_male_romance",
+    "main_non_romantic_no_male_romance",
     "mutual_relationship",
   ]);
   const quickQuestionLabels = {
+    main_non_romantic_no_male_romance: "全部已确认女女关系均为非恋爱",
     official_literal_yuri_gl: "官方材料直接写‘百合’或‘GL’",
     official_female_romance_wording: "官方材料把女女关系写成恋爱",
   };
@@ -307,8 +309,12 @@ const YuriCatalogFilterLogic = (() => {
         "main_explicit_desire",
         "female_relationship_main",
         "main_relationship_no_male_romance",
+        "main_non_romantic_no_male_romance",
       ].includes(queryKey)) {
         position = intersectAllowed(position, ["main"]);
+      }
+      if (queryKey === "main_non_romantic_no_male_romance") {
+        explicitness = intersectAllowed(explicitness, ["non_romantic"]);
       }
       if (["main_explicit_relationship", "explicit_relationship"].includes(queryKey)) {
         explicitness = intersectAllowed(explicitness, ["explicit_relationship"]);
@@ -387,8 +393,21 @@ const YuriCatalogFilterLogic = (() => {
     for (const queryKey of state.quick || []) {
       if (relationScopedQuickQueries.has(queryKey)) {
         if (
-          queryKey === "main_relationship_no_male_romance" &&
+          [
+            "main_relationship_no_male_romance",
+            "main_non_romantic_no_male_romance",
+          ].includes(queryKey) &&
           item.male_romance_line?.code !== "none"
+        ) {
+          return false;
+        }
+        if (
+          queryKey === "main_non_romantic_no_male_romance" &&
+          (!Array.isArray(item.relationship_profiles) ||
+            item.relationship_profiles.length === 0 ||
+            !item.relationship_profiles.every(
+              (profile) => profile?.explicitness?.code === "non_romantic",
+            ))
         ) {
           return false;
         }
@@ -432,8 +451,14 @@ const YuriCatalogFilterLogic = (() => {
     const fourPlusConflict =
       (state.quick || []).includes("four_plus_female_relationships") &&
       ["zero", "one", "two_three"].includes(state.relationship_count);
+    const noMaleRomanceQuick = (state.quick || []).some((queryKey) =>
+      [
+        "main_relationship_no_male_romance",
+        "main_non_romantic_no_male_romance",
+      ].includes(queryKey),
+    );
     const maleRomanceConflict =
-      (state.quick || []).includes("main_relationship_no_male_romance") &&
+      noMaleRomanceQuick &&
       Boolean(state.scalar?.male_romance_line) &&
       state.scalar.male_romance_line !== "none";
     if (
@@ -476,7 +501,7 @@ const YuriCatalogFilterLogic = (() => {
       );
     }
     if (
-      (state.quick || []).includes("main_relationship_no_male_romance") &&
+      noMaleRomanceQuick &&
       selectedMale !== "none"
     ) {
       clauses.push("男性恋爱线为无");
