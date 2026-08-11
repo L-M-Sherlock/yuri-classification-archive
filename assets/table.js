@@ -1111,6 +1111,7 @@ if (typeof globalThis !== "undefined") {
         {
           title: "命中关系",
           field: "relationship_profiles",
+          responsive: 0,
           formatter: matchingRelationshipsFormatter,
           visible: false,
           download: true,
