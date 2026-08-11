@@ -1,9 +1,9 @@
 {
   "schema_version": 5,
   "snapshot_date": "2026-08-11",
-  "generated_at": "2026-08-11T04:02:23.294989+00:00",
+  "generated_at": "2026-08-11T06:24:55.233961+00:00",
   "source": {
-    "sha256": "eb752e9258df91db4dd8f1897526361e6cd1c51da1a5566b806a9ec221646cee",
+    "sha256": "d31292b3e9a8a2ea054db5b07bb4d1bb46cea30ced4b5fd9f3fbe13b7308c98c",
     "row_count": 696,
     "classification_schema": 4,
     "selection_composition": {
@@ -17,8 +17,8 @@
     },
     "release_plan": {
       "path": "data/release-plan.json",
-      "sha256": "aa97815b39f8e0bba58e785e34481878b8f4cc8740a460aded64bcd9e7637fa1",
-      "plan_sha256": "da67c356d42fa4950cdd4d0271d71deae67a887c9ab79805195b5bf4e93bd334",
+      "sha256": "cf631ac1fdd313e567a8407c2bffef9a023c30bdb3e3077dc9739cf3c0343039",
+      "plan_sha256": "832cb39aa377feb02414730ca091cffd27927f297361a2e0e0f8fce63b48ee56",
       "target_slug_count": 696,
       "target_slugs_sha256": "f94c9de0a014ad6248c7e7dd5da09c8f477d1488fd7778466007c168b77962bf"
     },
@@ -28,7 +28,7 @@
       "target_slugs_sha256": "f94c9de0a014ad6248c7e7dd5da09c8f477d1488fd7778466007c168b77962bf"
     }
   },
-  "release_plan_sha256": "da67c356d42fa4950cdd4d0271d71deae67a887c9ab79805195b5bf4e93bd334",
+  "release_plan_sha256": "832cb39aa377feb02414730ca091cffd27927f297361a2e0e0f8fce63b48ee56",
   "target_slugs_sha256": "f94c9de0a014ad6248c7e7dd5da09c8f477d1488fd7778466007c168b77962bf",
   "dataset_profile": {
     "media": {
@@ -1891,42 +1891,42 @@
     "dataset_overview": {
       "path": "assets/yuri_classification_database_patterns/00_dataset_overview.png",
       "sha256": "2f2918a4fb17f4c06d02ddf3f21494efe96e76485f170fd744a0bdb6be9b3b3f",
-      "source_sha256": "eb752e9258df91db4dd8f1897526361e6cd1c51da1a5566b806a9ec221646cee",
+      "source_sha256": "d31292b3e9a8a2ea054db5b07bb4d1bb46cea30ced4b5fd9f3fbe13b7308c98c",
       "width": 1800,
       "height": 1120
     },
     "platform_overlap": {
       "path": "assets/yuri_classification_database_patterns/01_platform_overlap.png",
       "sha256": "3e9acf2fcc8f87724e09f73543d4b2b7f08f41a2e116e608dd4b459455e1b807",
-      "source_sha256": "eb752e9258df91db4dd8f1897526361e6cd1c51da1a5566b806a9ec221646cee",
+      "source_sha256": "d31292b3e9a8a2ea054db5b07bb4d1bb46cea30ced4b5fd9f3fbe13b7308c98c",
       "width": 1800,
       "height": 1120
     },
     "explicitness_gradient": {
       "path": "assets/yuri_classification_database_patterns/02_explicitness_gradient.png",
       "sha256": "fa928dfb5f395c58a8a9593c2570887d3971d713617957b08a936b90f5026dce",
-      "source_sha256": "eb752e9258df91db4dd8f1897526361e6cd1c51da1a5566b806a9ec221646cee",
+      "source_sha256": "d31292b3e9a8a2ea054db5b07bb4d1bb46cea30ced4b5fd9f3fbe13b7308c98c",
       "width": 1800,
       "height": 1120
     },
     "platform_rates": {
       "path": "assets/yuri_classification_database_patterns/03_platform_rates_by_explicitness.png",
       "sha256": "71c0435dd9449c47f5be2c3a3e79eb5cdc75db4c44d11d162c565fe040da6472",
-      "source_sha256": "eb752e9258df91db4dd8f1897526361e6cd1c51da1a5566b806a9ec221646cee",
+      "source_sha256": "d31292b3e9a8a2ea054db5b07bb4d1bb46cea30ced4b5fd9f3fbe13b7308c98c",
       "width": 1800,
       "height": 1120
     },
     "bangumi_popularity": {
       "path": "assets/yuri_classification_database_patterns/04_bangumi_popularity_correction.png",
       "sha256": "301b656b53eb0d1352046c0427472dc1a9f73adc595786915a917ce6c2f0cb16",
-      "source_sha256": "eb752e9258df91db4dd8f1897526361e6cd1c51da1a5566b806a9ec221646cee",
+      "source_sha256": "d31292b3e9a8a2ea054db5b07bb4d1bb46cea30ced4b5fd9f3fbe13b7308c98c",
       "width": 1800,
       "height": 1120
     },
     "convergence_and_structure": {
       "path": "assets/yuri_classification_database_patterns/05_convergence_and_text_structure.png",
       "sha256": "849602352b79931b1682ecad2e9f31681ed23259ceb0b8d6bf52db9f19be6409",
-      "source_sha256": "eb752e9258df91db4dd8f1897526361e6cd1c51da1a5566b806a9ec221646cee",
+      "source_sha256": "d31292b3e9a8a2ea054db5b07bb4d1bb46cea30ced4b5fd9f3fbe13b7308c98c",
       "width": 1800,
       "height": 1120
     }
