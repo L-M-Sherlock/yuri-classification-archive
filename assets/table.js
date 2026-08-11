@@ -32,6 +32,36 @@ const YuriCatalogFilterLogic = (() => {
     ],
     male_romance_line: ["none", "secondary", "parallel", "dominant", "unknown"],
   };
+  const tableColumnOrders = {
+    female_relationship_centrality: [
+      "main",
+      "important_secondary",
+      "local",
+      "absent",
+      "unknown",
+    ],
+    archive_basis: scalarOptionOrders.archive_basis,
+    romance_centrality: [
+      "main",
+      "important_secondary",
+      "local",
+      "absent",
+      "unknown",
+    ],
+    highest_romance_explicitness: relationshipOptionOrders.explicitness,
+    official_literal_yuri_gl: ["yes", "reviewed_no_match", "unknown"],
+    official_female_romance_wording: ["yes", "reviewed_no_match", "unknown"],
+    identity_evidence_basis: [
+      "explicit_identity_self_statement",
+      "official_identity_profile",
+      "explicit_relationship_only",
+      "inferred_relationship_only",
+      "no_in_scope_evidence",
+      "unknown",
+    ],
+    male_romance_line: scalarOptionOrders.male_romance_line,
+    confidence: ["high", "medium", "low", "unknown"],
+  };
   const multiFields = {
     official_source_scopes: "official_scope",
     official_source_surfaces: "official_surface",
@@ -84,6 +114,21 @@ const YuriCatalogFilterLogic = (() => {
       const bRank = rank.has(b[0]) ? rank.get(b[0]) : order.length;
       return aRank - bRank || a[1].localeCompare(b[1], "zh-CN");
     });
+  }
+
+  function compareCategoricalValues(a, b, order = []) {
+    const rank = new Map(order.map((code, index) => [code, index]));
+    const aCode = a?.code || "";
+    const bCode = b?.code || "";
+    const aRank = rank.has(aCode) ? rank.get(aCode) : order.length;
+    const bRank = rank.has(bCode) ? rank.get(bCode) : order.length;
+    return (
+      aRank - bRank ||
+      String(a?.label || aCode).localeCompare(
+        String(b?.label || bCode),
+        "zh-CN",
+      )
+    );
   }
 
   function parseState(search) {
@@ -215,10 +260,12 @@ const YuriCatalogFilterLogic = (() => {
     relationshipFields,
     relationshipOptionOrders,
     scalarOptionOrders,
+    tableColumnOrders,
     multiFields,
     canonicalFilterValue,
     sortRelationshipOptions,
     sortScalarOptions,
+    compareCategoricalValues,
     parseState,
     serializeState,
     matchesItem,
@@ -438,6 +485,12 @@ if (typeof globalThis !== "undefined") {
     return value && value.label ? value.label : "—";
   }
 
+  function categoricalSorter(field) {
+    const order = YuriCatalogFilterLogic.tableColumnOrders[field] || [];
+    return (a, b) =>
+      YuriCatalogFilterLogic.compareCategoricalValues(a, b, order);
+  }
+
   function labelsText(value) {
     return Array.isArray(value)
       ? value.map((entry) => entry?.label).filter(Boolean).join("、")
@@ -521,7 +574,6 @@ if (typeof globalThis !== "undefined") {
       columnDefaults: { download: true },
       initialSort: [
         { column: "bangumi_rank", dir: "asc" },
-        { column: "title", dir: "asc" },
       ],
       placeholder: "没有作品符合当前筛选条件",
       langs: {
@@ -562,72 +614,48 @@ if (typeof globalThis !== "undefined") {
           title: "媒介",
           field: "medium",
           formatter: labelFormatter,
+          sorter: categoricalSorter("medium"),
           width: 105,
           accessorDownload: (value) => value.label,
         },
         {
-          title: "女女关系位置",
-          field: "female_relationship_centrality",
-          formatter: labelFormatter,
-          width: 120,
-          accessorDownload: (value) => value.label,
-        },
-        {
-          title: "百合归档结论",
+          title: "百合归档",
+          titleDownload: "百合归档结论",
+          headerTooltip: "百合归档结论",
           field: "archive_basis",
           formatter: labelFormatter,
-          width: 112,
+          sorter: categoricalSorter("archive_basis"),
+          width: 108,
           accessorDownload: (value) => value.label,
         },
         {
-          title: "女女恋爱位置",
+          title: "关系位置",
+          titleDownload: "女女关系位置",
+          headerTooltip: "女女关系位置",
+          field: "female_relationship_centrality",
+          formatter: labelFormatter,
+          sorter: categoricalSorter("female_relationship_centrality"),
+          width: 96,
+          accessorDownload: (value) => value.label,
+        },
+        {
+          title: "恋爱位置",
+          titleDownload: "女女恋爱位置",
+          headerTooltip: "女女恋爱位置",
           field: "romance_centrality",
           formatter: labelFormatter,
-          width: 105,
+          sorter: categoricalSorter("romance_centrality"),
+          width: 96,
           accessorDownload: (value) => value.label,
         },
         {
-          title: "女女关系最高明确度",
+          title: "最高明确度",
+          titleDownload: "女女关系最高明确度",
+          headerTooltip: "女女关系最高明确度",
           field: "highest_romance_explicitness",
           formatter: labelFormatter,
-          width: 128,
-          accessorDownload: (value) => value.label,
-        },
-        {
-          title: "官方字面百合／GL",
-          field: "official_literal_yuri_gl",
-          formatter: labelFormatter,
-          width: 132,
-          accessorDownload: (value) => value.label,
-        },
-        {
-          title: "官方女女恋爱表述",
-          field: "official_female_romance_wording",
-          formatter: labelFormatter,
-          width: 142,
-          accessorDownload: (value) => value.label,
-        },
-        {
-          title: "身份依据",
-          field: "identity_evidence_basis",
-          formatter: labelFormatter,
-          width: 145,
-          accessorDownload: (value) => value.label,
-        },
-        {
-          title: "男性恋爱线",
-          field: "male_romance_line",
-          formatter: labelFormatter,
-          width: 112,
-          accessorDownload: (value) => value.label,
-        },
-        {
-          title: "结论置信度",
-          field: "confidence",
-          formatter: labelFormatter,
-          headerTooltip:
-            "表示当前锁定范围内，现有证据对本报告主要分类结论的支持稳定度；它不是百合程度、作品质量、社群共识或统计概率。",
-          width: 112,
+          sorter: categoricalSorter("highest_romance_explicitness"),
+          width: 106,
           accessorDownload: (value) => value.label,
         },
         {
@@ -635,7 +663,7 @@ if (typeof globalThis !== "undefined") {
           field: "bangumi_rank",
           formatter: bangumiRankFormatter,
           sorter: (a, b) => (a ?? Number.MAX_SAFE_INTEGER) - (b ?? Number.MAX_SAFE_INTEGER),
-          width: 118,
+          width: 150,
           accessorDownload: bangumiMetricDownload,
         },
         {
@@ -645,6 +673,48 @@ if (typeof globalThis !== "undefined") {
           sorter: "number",
           width: 118,
           accessorDownload: bangumiMetricDownload,
+        },
+        {
+          title: "官方字面百合／GL",
+          field: "official_literal_yuri_gl",
+          formatter: labelFormatter,
+          sorter: categoricalSorter("official_literal_yuri_gl"),
+          width: 132,
+          accessorDownload: (value) => value.label,
+        },
+        {
+          title: "官方女女恋爱表述",
+          field: "official_female_romance_wording",
+          formatter: labelFormatter,
+          sorter: categoricalSorter("official_female_romance_wording"),
+          width: 142,
+          accessorDownload: (value) => value.label,
+        },
+        {
+          title: "身份依据",
+          field: "identity_evidence_basis",
+          formatter: labelFormatter,
+          sorter: categoricalSorter("identity_evidence_basis"),
+          width: 145,
+          accessorDownload: (value) => value.label,
+        },
+        {
+          title: "男性恋爱线",
+          field: "male_romance_line",
+          formatter: labelFormatter,
+          sorter: categoricalSorter("male_romance_line"),
+          width: 112,
+          accessorDownload: (value) => value.label,
+        },
+        {
+          title: "结论置信度",
+          field: "confidence",
+          formatter: labelFormatter,
+          sorter: categoricalSorter("confidence"),
+          headerTooltip:
+            "表示当前锁定范围内，现有证据对本报告主要分类结论的支持稳定度；它不是百合程度、作品质量、社群共识或统计概率。",
+          width: 112,
+          accessorDownload: (value) => value.label,
         },
         {
           title: "官方来源层级",
