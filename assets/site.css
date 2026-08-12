@@ -1770,6 +1770,38 @@ h1, h2, h3 { line-height: 1.25; }
   .article-disclosure-body { padding-inline: 0.8rem; }
 }
 
+.platform-comparison-intro {
+  margin-bottom: 1.5rem;
+  padding: 1rem 1.1rem;
+  border: 1px solid var(--line);
+  border-radius: 0.7rem;
+  background: var(--surface-muted);
+}
+.platform-comparison-intro p { margin: 0 0 0.55rem; }
+.platform-comparison-intro p:last-of-type { color: var(--muted); }
+.platform-filter-grid {
+  grid-template-columns: minmax(230px, 1.4fr) repeat(4, minmax(170px, 1fr));
+  margin-bottom: 1.25rem;
+}
+.platform-state {
+  display: inline-flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.22rem;
+}
+.platform-state.tagged { color: var(--green); }
+.platform-state.no_corresponding_entry { color: var(--muted); }
+.platform-state a { white-space: nowrap; }
+
+@media (max-width: 1050px) {
+  .platform-filter-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .platform-filter-grid .search-control { grid-column: 1 / -1; }
+}
+@media (max-width: 720px) {
+  .platform-filter-grid { grid-template-columns: 1fr; }
+  .platform-filter-grid .search-control { grid-column: auto; }
+}
+
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme]) {
     --paper: #1c181c;

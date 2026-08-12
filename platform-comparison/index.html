@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="筛选四个平台是否有可对应页面及百合、GL、Yuri、Girls Love 标签命中状态，并按 AniList 相关性与 Bangumi 标签比例排序。">
+  <meta name="color-scheme" content="light dark">
+  <meta id="theme-color-light" name="theme-color" media="(prefers-color-scheme: light)" content="#f5f0e8">
+  <meta id="theme-color-dark" name="theme-color" media="(prefers-color-scheme: dark)" content="#1c181c">
+  <script>
+    (() => {
+      document.documentElement.classList.add("js");
+      const storageKey = "yuri-classification-theme";
+      const allowed = new Set(["system", "light", "dark"]);
+      let preference = "system";
+      try {
+        const stored = localStorage.getItem(storageKey);
+        if (allowed.has(stored)) preference = stored;
+      } catch (_error) {
+        preference = "system";
+      }
+      const systemDark = window.matchMedia?.("(prefers-color-scheme: dark)").matches;
+      const theme = preference === "system"
+        ? (systemDark ? "dark" : "light")
+        : preference;
+      document.documentElement.dataset.theme = theme;
+      document.documentElement.dataset.themePreference = preference;
+      document.documentElement.style.colorScheme = theme;
+      const lightMeta = document.getElementById("theme-color-light");
+      const darkMeta = document.getElementById("theme-color-dark");
+      if (preference === "system") {
+        lightMeta.content = "#f5f0e8";
+        darkMeta.content = "#1c181c";
+      } else {
+        const color = theme === "dark" ? "#1c181c" : "#f5f0e8";
+        lightMeta.content = color;
+        darkMeta.content = color;
+      }
+    })();
+  </script>
+  <link rel="canonical" href="https://l-m-sherlock.github.io/yuri-classification-archive/platform-comparison/">
+  <link rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="百合作品分类档案">
+  <meta property="og:title" content="四平台标签组合查找｜百合作品分类档案">
+  <meta property="og:description" content="筛选四个平台是否有可对应页面及百合、GL、Yuri、Girls Love 标签命中状态，并按 AniList 相关性与 Bangumi 标签比例排序。">
+  <meta property="og:url" content="https://l-m-sherlock.github.io/yuri-classification-archive/platform-comparison/">
+  <meta property="og:image" content="https://l-m-sherlock.github.io/yuri-classification-archive/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+  <title>四平台标签组合查找｜百合作品分类档案</title>
+  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=4a17d1151173">
+<link rel="stylesheet" href="/yuri-classification-archive/assets/vendor/tabulator.min.css">
+</head>
+<body class="table-page platform-comparison-page">
+  <a class="skip-link" href="#main-content">跳到正文</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="/yuri-classification-archive/">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>
+          <strong>百合作品分类档案</strong>
+          <small>按查询拆开标签，按证据保留边界</small>
+        </span>
+      </a>
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-navigation"
+      >
+        <span>菜单</span>
+        <span class="menu-toggle-icon" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-navigation" aria-label="主导航">
+        <div class="nav-main">
+          <a href="/yuri-classification-archive/">首页</a>
+          <a href="/yuri-classification-archive/table/">总表</a>
+          <a href="/yuri-classification-archive/articles/">专题</a>
+          <a href="/yuri-classification-archive/tools/">工具</a>
+          <a href="/yuri-classification-archive/about/">方法与说明</a>
+        </div>
+        <a class="nav-star" href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub / Star <span aria-hidden="true">↗</span></a>
+        <a class="nav-feedback" href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
+        <label class="theme-control" for="theme-preference">
+          <span>主题</span>
+          <select id="theme-preference" aria-label="主题偏好">
+            <option value="system">跟随系统</option>
+            <option value="light">浅色</option>
+            <option value="dark">深色</option>
+          </select>
+        </label>
+      </nav>
+    </div>
+  </header>
+  <main id="main-content">
+    <section class="page-hero compact">
+  <p class="eyebrow">PLATFORM LABEL COMPARISON</p>
+  <h1>四平台标签组合查找</h1>
+  <p>逐作查看四个平台是否有可对应页面，以及目标标签是否命中。平台字段服务于检索与核对，不等于作品关系结论。</p>
+</section>
+
+<section class="catalog-shell platform-comparison-shell">
+  <div class="platform-comparison-intro">
+    <p><strong>数据日期：</strong>2026-08-12　<strong>作品数：</strong>696</p>
+    <p>“有可对应页面”包括命中和未命中；“无可对应页面”不计作平台未命中。多个平台条件同时使用时取并且。</p>
+    <a href="/yuri-classification-archive/articles/anime-label-divergence/#为什么有的平台标得多有的平台标得少">返回专题说明 →</a>
+  </div>
+
+  <div class="filter-control-grid platform-filter-grid" aria-label="平台覆盖筛选">
+    <label class="search-control"><span>作品搜索</span><input id="platform-search" type="search" placeholder="输入作品名"></label>
+    <label><span>Bangumi</span><select id="platform-bangumi"><option value="">不限</option><option value="has_entry">有可对应页面</option><option value="tagged">命中百合</option><option value="untagged">未命中百合</option><option value="no_corresponding_entry">无可对应页面</option></select></label>
+    <label><span>Anime-Planet</span><select id="platform-anime-planet"><option value="">不限</option><option value="has_entry">有可对应页面</option><option value="tagged">命中 GL</option><option value="untagged">未命中 GL</option><option value="no_corresponding_entry">无可对应页面</option></select></label>
+    <label><span>AniList</span><select id="platform-anilist"><option value="">不限</option><option value="has_entry">有可对应页面</option><option value="tagged">Yuri 相关性大于 0</option><option value="untagged">Yuri 相关性为 0</option><option value="no_corresponding_entry">无可对应页面</option></select></label>
+    <label><span>MyAnimeList</span><select id="platform-myanimelist"><option value="">不限</option><option value="has_entry">有可对应页面</option><option value="tagged">命中 Girls Love</option><option value="untagged">未命中 Girls Love</option><option value="no_corresponding_entry">无可对应页面</option></select></label>
+  </div>
+
+  <div class="catalog-toolbar">
+    <p id="platform-result-count" role="status" aria-live="polite">正在读取数据……</p>
+    <div>
+      <button class="text-button" id="platform-reset" type="button">清空筛选</button>
+      <button class="button small secondary" id="platform-download-csv" type="button">下载筛选结果 CSV</button>
+      <button class="button small secondary" id="platform-download-xlsx" type="button">下载筛选结果 XLSX</button>
+    </div>
+  </div>
+
+  <div id="platform-comparison-table" data-source="/yuri-classification-archive/data/articles/anime-label-divergence.json?v=09d6d5e3d210" aria-label="四平台标签组合表"></div>
+  <div id="platform-comparison-error" class="error-panel" hidden></div>
+  <noscript><p class="noscript">交互筛选需要 JavaScript。你仍可下载 <a href="/yuri-classification-archive/data/articles/anime-label-divergence.csv">完整公开 CSV</a>。</p></noscript>
+</section>
+
+  </main>
+  <footer class="site-footer">
+    <div>
+      <p>分类是面向具体查询的检索工具，不是替作品关系作终审判决。</p>
+      <p class="footer-ai-note">本站使用以 OpenAI Codex 为主的生成式 AI 辅助研究、写作与站点开发；人工审阅未覆盖全部作品报告。<a href="/yuri-classification-archive/about/#AI使用说明">查看 AI 使用说明</a></p>
+      <p>© 2026 Jarrett Ye · <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="license noopener noreferrer">CC BY-NC-SA 4.0</a> · <a href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub 仓库</a> · <a href="/yuri-classification-archive/about/#使用边界">使用边界</a></p>
+    </div>
+  </footer>
+  <script>window.SITE_CONFIG = {basePath: "/yuri-classification-archive"};</script>
+  <script src="/yuri-classification-archive/assets/site.js?v=eeeec5872796" defer></script>
+<script src="/yuri-classification-archive/assets/vendor/tabulator.min.js"></script><script src="/yuri-classification-archive/assets/vendor/xlsx.full.min.js"></script><script src="/yuri-classification-archive/assets/platform-comparison.js?v=179a40516ec1"></script>
+</body>
+</html>
