@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "kind": "public_release_plan",
-  "generated_at": "2026-08-12T03:39:18+00:00",
+  "generated_at": "2026-08-12T04:29:31+00:00",
   "base": {
-    "public_repository_head": "650bf6a98bb68470fdfbbed7f48412249c3a6ac3",
+    "public_repository_head": "36d7490ea86866e25b8357b5e38b70023a088a1a",
     "catalog_path": "data/catalog.json",
-    "catalog_sha256": "58f79630dd4daba03fb64e3cf0c95abe787ad5363bbb2b8308515ea527eacfa7",
+    "catalog_sha256": "6ce467bd4864623e5213ee97239c347d87d5131b8724193d6dd7f975ccd35561",
     "slug_count": 696,
     "slugs": [
       "a_channel_nabe_wo_tabeyou_ova_2017",
@@ -1412,39 +1412,7 @@
   "delta": {
     "added_slugs": [],
     "removed_slugs": [],
-    "changed_slugs": [
-      "aru_asa_dummy_head_mic_tv_2022",
-      "azur_lane_tv_2019",
-      "bang_dream_ave_mujica_tv_2025",
-      "bang_dream_episode_of_roselia_promise_movie_2021",
-      "bang_dream_its_mygo_movie_part1_2024",
-      "bang_dream_its_mygo_movie_part2_2024",
-      "bang_dream_mygo_members_daily_web_2022",
-      "bang_dream_poppin_dream_movie_2022",
-      "doki_doki_precure_tv_2013",
-      "feng_ling_yu_xiu_second_chapter_special_web_2024",
-      "girls_und_panzer_saishuushou_1_ova_2018",
-      "gundam_witch_from_mercury_season_2_tv_2023",
-      "hibike_euphonium_todoketai_melody_movie_2017",
-      "hidamari_sketch_hoshimittsu_special_ova_2010",
-      "hyperdimension_neptunia_summer_ova_2020",
-      "kaleido_star_legend_phoenix_ova_2006",
-      "kin_iro_mosaic_thank_you_movie_2021",
-      "love_live_nijigasaki_final_chapter_part_1_movie_2024",
-      "mahou_shoujo_lyrical_nanoha_reflection_movie_2017",
-      "ohmuro_ke_dear_friends_movie_2024",
-      "ohmuro_ke_dear_sisters_movie_2024",
-      "princess_connect_redive_season_2_tv_2022",
-      "rod_read_or_die_tv_2003",
-      "shy_tokyo_reconquest_tv_2024",
-      "strike_witches_501_takeoff_movie_2019",
-      "wagamama_high_spec_tv_2016",
-      "yuuki_yuuna_washio_sumi_ch1_movie_2017",
-      "yuuki_yuuna_washio_sumi_ch2_movie_2017",
-      "yuuki_yuuna_washio_sumi_ch3_movie_2017",
-      "yuyushiki_ova_2017",
-      "z_x_code_reunion_tv_2019"
-    ],
+    "changed_slugs": [],
     "refresh_slugs": [],
     "changed_detection_pending": false,
     "changed_basis": {
@@ -1452,7 +1420,7 @@
       "revision": null,
       "public_plan_path": "data/release-plan.json",
       "compared_slug_count": 696,
-      "baseline_items_sha256": "1b3b78ac6af2f19bae420a8f83393230241c87cd77ea84912932bfef5acbeada",
+      "baseline_items_sha256": "708e4c205920366fab2ec2bc4793f6c88b6d0e1e713bcd734159def3a8d15c86",
       "catalog_subset_complete": true,
       "reason": null
     }
@@ -5661,5 +5629,5 @@
       "forbid_acquisition_details": true
     }
   },
-  "plan_sha256": "16b1a58ff8c886e9462ebff7104c9ee4aa50a850ad71158a483b15accc8fc1ed"
+  "plan_sha256": "bfdb9abdcc705ba10eef95279772dce93ecf1e11620852cbc450ea663d7bf95b"
 }

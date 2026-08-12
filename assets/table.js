@@ -568,7 +568,7 @@ const YuriCatalogFilterLogic = (() => {
   function bangumiMetricValue(item, value) {
     if (typeof value === "number") return value;
     const status = item?.bangumi_entry_status;
-    if (status?.code === "no_exact_entry") return "无精确条目";
+    if (status?.code === "no_exact_entry") return "无可对应条目";
     if (status?.code === "unknown") return "未核实";
     return "字段缺失";
   }
@@ -1061,16 +1061,6 @@ if (typeof globalThis !== "undefined") {
           accessorDownload: (value) => value.label,
         },
         {
-          title: "百合归档",
-          titleDownload: "百合归档结论",
-          headerTooltip: "百合归档结论",
-          field: "archive_basis",
-          formatter: labelFormatter,
-          sorter: categoricalSorter("archive_basis"),
-          width: 108,
-          accessorDownload: (value) => value.label,
-        },
-        {
           title: "关系位置",
           titleDownload: "女女关系位置",
           headerTooltip: "女女关系位置",
@@ -1107,17 +1097,6 @@ if (typeof globalThis !== "undefined") {
           field: "female_female_relationship_count",
           sorter: "number",
           width: 82,
-        },
-        {
-          title: "命中关系",
-          field: "relationship_profiles",
-          responsive: 0,
-          formatter: matchingRelationshipsFormatter,
-          visible: false,
-          download: true,
-          width: 260,
-          accessorDownload: (_value, item) =>
-            matchingRelationshipsText(item, readUiState()),
         },
         {
           title: "Bangumi Rank",
@@ -1165,6 +1144,16 @@ if (typeof globalThis !== "undefined") {
           formatter: labelFormatter,
           sorter: categoricalSorter("male_romance_line"),
           width: 112,
+          accessorDownload: (value) => value.label,
+        },
+        {
+          title: "百合归档",
+          titleDownload: "百合归档结论",
+          headerTooltip: "百合归档结论",
+          field: "archive_basis",
+          formatter: labelFormatter,
+          sorter: categoricalSorter("archive_basis"),
+          width: 108,
           accessorDownload: (value) => value.label,
         },
         {
@@ -1222,6 +1211,17 @@ if (typeof globalThis !== "undefined") {
           field: "classification_date",
           sorter: "date",
           width: 112,
+        },
+        {
+          title: "命中关系",
+          field: "relationship_profiles",
+          responsive: 0,
+          formatter: matchingRelationshipsFormatter,
+          visible: false,
+          download: true,
+          width: 260,
+          accessorDownload: (_value, item) =>
+            matchingRelationshipsText(item, readUiState()),
         },
         { title: "范围", field: "scope_summary", visible: false, download: true },
         {

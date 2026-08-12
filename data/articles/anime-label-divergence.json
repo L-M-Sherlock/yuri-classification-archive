@@ -14,8 +14,8 @@
       "exact_entries": 680
     },
     "Anime-Planet GL": {
-      "positive": 73,
-      "exact_entries": 668
+      "positive": 74,
+      "exact_entries": 669
     },
     "Bangumi 维基百合": {
       "positive": 495,
@@ -26,21 +26,21 @@
       "exact_entries": 681
     }
   },
-  "common_coverage": 663,
+  "common_coverage": 664,
   "common_signatures": {
     "B---": 262,
     "B-N-": 134,
     "--N-": 53,
     "----": 133,
-    "BANM": 51,
+    "BANM": 52,
     "BAN-": 18,
     "B-NM": 8,
     "-AN-": 2,
     "BA--": 1,
     "-ANM": 1
   },
-  "source_sha256": "d9fc4ccda1257f4bcd4143b0de86781839d24434325ccaaff65c809577b7bd5f",
-  "analysis_summary_sha256": "77a9628795df7236ccc17de6815a9d38d6cfbb90fabf91f4c744fc4e15ee9e2c",
+  "source_sha256": "5541e693dbff228af9c51069dc01da70f0dfea6083df5daa7ad5a03c614a33e1",
+  "analysis_summary_sha256": "6f4d61b87595ea7c8ac0c838d5c7881a3d39cf1bd3574d0b51046d96d52bed93",
   "items": [
     {
       "slug": "shirobako_tv_2014",
@@ -14093,6 +14093,6 @@
       "row_number": 696
     }
   ],
-  "release_plan_sha256": "16b1a58ff8c886e9462ebff7104c9ee4aa50a850ad71158a483b15accc8fc1ed",
+  "release_plan_sha256": "bfdb9abdcc705ba10eef95279772dce93ecf1e11620852cbc450ea663d7bf95b",
   "target_slugs_sha256": "f94c9de0a014ad6248c7e7dd5da09c8f477d1488fd7778466007c168b77962bf"
 }

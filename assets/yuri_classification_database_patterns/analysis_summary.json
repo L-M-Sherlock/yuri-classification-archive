@@ -1,9 +1,9 @@
 {
   "schema_version": 5,
   "snapshot_date": "2026-08-12",
-  "generated_at": "2026-08-12T03:55:23.135933+00:00",
+  "generated_at": "2026-08-12T04:30:14.649959+00:00",
   "source": {
-    "sha256": "d9fc4ccda1257f4bcd4143b0de86781839d24434325ccaaff65c809577b7bd5f",
+    "sha256": "5541e693dbff228af9c51069dc01da70f0dfea6083df5daa7ad5a03c614a33e1",
     "row_count": 696,
     "classification_schema": 4,
     "selection_composition": {
@@ -17,18 +17,18 @@
     },
     "release_plan": {
       "path": "data/release-plan.json",
-      "sha256": "8dcc974caa5587a8a91c73c1c08bfb81aa2d53ad00e3f07eade00b8291602a6e",
-      "plan_sha256": "16b1a58ff8c886e9462ebff7104c9ee4aa50a850ad71158a483b15accc8fc1ed",
+      "sha256": "7ecd21af50bc7281706f38f45b39887316d1d881a2480d1709c592001938e504",
+      "plan_sha256": "bfdb9abdcc705ba10eef95279772dce93ecf1e11620852cbc450ea663d7bf95b",
       "target_slug_count": 696,
       "target_slugs_sha256": "f94c9de0a014ad6248c7e7dd5da09c8f477d1488fd7778466007c168b77962bf"
     },
     "platform_current": {
-      "sha256": "3425fab533915f90e27e16d553789a177162801fe9d3b60be227fbe93895434d",
-      "store_sha256": "09a4541ad6e6b2408a82b575b2eb26c868e0d9a4c034f764904083d3abd99331",
+      "sha256": "e632dbadb9c554252678752acf1d753e60c3d7c8d3c0a7db042528ffc11dfbb6",
+      "store_sha256": "77a6b78134beaf9cdecb0baadeee6dea7a9cfbdd81f6c40024da83fed88d699c",
       "target_slugs_sha256": "f94c9de0a014ad6248c7e7dd5da09c8f477d1488fd7778466007c168b77962bf"
     }
   },
-  "release_plan_sha256": "16b1a58ff8c886e9462ebff7104c9ee4aa50a850ad71158a483b15accc8fc1ed",
+  "release_plan_sha256": "bfdb9abdcc705ba10eef95279772dce93ecf1e11620852cbc450ea663d7bf95b",
   "target_slugs_sha256": "f94c9de0a014ad6248c7e7dd5da09c8f477d1488fd7778466007c168b77962bf",
   "dataset_profile": {
     "media": {
@@ -54,12 +54,12 @@
     }
   },
   "definitions": {
-    "bangumi_yuri_ratio": "exact 百合 tag count / (wish + collect + doing + on_hold + dropped)",
-    "bangumi_wiki_positive": "exact 百合 membership in Bangumi wiki-maintained meta_tags",
-    "anime_planet_positive": "exact GL tag",
+    "bangumi_yuri_ratio": "audited 百合 tag count / (wish + collect + doing + on_hold + dropped)",
+    "bangumi_wiki_positive": "audited 百合 membership in Bangumi wiki-maintained meta_tags",
+    "anime_planet_positive": "audited attributable GL tag",
     "anilist_positive": "Yuri tag rank > 0; rank is relevance, not users",
-    "myanimelist_positive": "exact Girls Love genre",
-    "common_coverage": "exact entries available in Bangumi, Anime-Planet, AniList, and MyAnimeList",
+    "myanimelist_positive": "audited attributable Girls Love genre",
+    "common_coverage": "attributable entries available in Bangumi, Anime-Planet, AniList, and MyAnimeList",
     "ordered_romance_explicitness": [
       "non_romantic",
       "potential_or_strongly_coded",
@@ -147,11 +147,11 @@
       "explicit_identity_self_statement": 6,
       "official_identity_profile": 3
     },
-    "common_coverage": 663,
+    "common_coverage": 664,
     "common_no_platform_label": 133,
     "common_no_platform_label_open_relationship_center": 114,
     "common_no_platform_label_female_relationship_main": 123,
-    "common_all_four_platform_labels": 51,
+    "common_all_four_platform_labels": 52,
     "bangumi_exact_entries": 696,
     "bangumi_no_exact_entry": 0
   },
@@ -161,8 +161,8 @@
       "exact_entries": 696
     },
     "Anime-Planet GL": {
-      "positive": 73,
-      "exact_entries": 668
+      "positive": 74,
+      "exact_entries": 669
     },
     "AniList Yuri": {
       "positive": 283,
@@ -178,7 +178,7 @@
     "B-N-": 134,
     "--N-": 53,
     "----": 133,
-    "BANM": 51,
+    "BANM": 52,
     "BAN-": 18,
     "B-NM": 8,
     "-AN-": 2,
@@ -312,9 +312,9 @@
           "rate": 0.8387096774193549
         },
         "Anime-Planet GL": {
-          "positive": 19,
-          "exact_entries": 28,
-          "rate": 0.6785714285714286
+          "positive": 20,
+          "exact_entries": 29,
+          "rate": 0.6896551724137931
         },
         "AniList Yuri": {
           "positive": 26,
@@ -327,7 +327,7 @@
           "rate": 0.6451612903225806
         }
       },
-      "all_four": 18,
+      "all_four": 19,
       "none": 3
     }
   ],
@@ -365,8 +365,8 @@
     "maximum_retrieved_at": "2026-08-11T16:00:00+00:00",
     "record_count": 2784,
     "result_counts": {
-      "no_exact_entry": 59,
-      "success": 2725
+      "no_exact_entry": 58,
+      "success": 2726
     },
     "platforms": {
       "bangumi": {
@@ -382,8 +382,8 @@
         "maximum_retrieved_at": "2026-08-11T16:00:00+00:00",
         "record_count": 696,
         "result_counts": {
-          "no_exact_entry": 28,
-          "success": 668
+          "no_exact_entry": 27,
+          "success": 669
         }
       },
       "anilist": {
@@ -1647,6 +1647,14 @@
         "bangumi_ratio": 0.1602641056422569
       },
       {
+        "title": "我们不可能成为恋人！绝对不行。 (※似乎可行？) 〜再次闪耀！〜",
+        "slug": "watanare_next_shine_tv_2026",
+        "explicitness": "explicit_relationship",
+        "official_literal_yuri_gl": "是",
+        "official_female_romance_wording": "是",
+        "bangumi_ratio": 0.13648157758173327
+      },
+      {
         "title": "对圣母玛利亚保密喔",
         "slug": "maria_sama_niwa_naisho_ova_2004",
         "explicitness": "potential_or_strongly_coded",
@@ -1947,42 +1955,42 @@
     "dataset_overview": {
       "path": "assets/yuri_classification_database_patterns/00_dataset_overview.png",
       "sha256": "2f2918a4fb17f4c06d02ddf3f21494efe96e76485f170fd744a0bdb6be9b3b3f",
-      "source_sha256": "d9fc4ccda1257f4bcd4143b0de86781839d24434325ccaaff65c809577b7bd5f",
+      "source_sha256": "5541e693dbff228af9c51069dc01da70f0dfea6083df5daa7ad5a03c614a33e1",
       "width": 1800,
       "height": 1120
     },
     "platform_overlap": {
       "path": "assets/yuri_classification_database_patterns/01_platform_overlap.png",
-      "sha256": "47569415bd2062e923369267bf95168b0e7e0054d27d9e659db4e7b6dcc9f6c9",
-      "source_sha256": "d9fc4ccda1257f4bcd4143b0de86781839d24434325ccaaff65c809577b7bd5f",
+      "sha256": "6b2547ed10af7c5f5e33ef7d335a154325164cbf3032c13ce2b06435da147c08",
+      "source_sha256": "5541e693dbff228af9c51069dc01da70f0dfea6083df5daa7ad5a03c614a33e1",
       "width": 1800,
       "height": 1120
     },
     "explicitness_gradient": {
       "path": "assets/yuri_classification_database_patterns/02_explicitness_gradient.png",
       "sha256": "fa928dfb5f395c58a8a9593c2570887d3971d713617957b08a936b90f5026dce",
-      "source_sha256": "d9fc4ccda1257f4bcd4143b0de86781839d24434325ccaaff65c809577b7bd5f",
+      "source_sha256": "5541e693dbff228af9c51069dc01da70f0dfea6083df5daa7ad5a03c614a33e1",
       "width": 1800,
       "height": 1120
     },
     "platform_rates": {
       "path": "assets/yuri_classification_database_patterns/03_platform_rates_by_explicitness.png",
-      "sha256": "833b79dfd49240b57589b16f34ab86cfb77e5ade1a648b45d3f485db086cfe00",
-      "source_sha256": "d9fc4ccda1257f4bcd4143b0de86781839d24434325ccaaff65c809577b7bd5f",
+      "sha256": "2b58cd25aec11bb76b9cb8b7d24be22d69fefe3131e9b1790c163f67912dfa6f",
+      "source_sha256": "5541e693dbff228af9c51069dc01da70f0dfea6083df5daa7ad5a03c614a33e1",
       "width": 1800,
       "height": 1120
     },
     "bangumi_popularity": {
       "path": "assets/yuri_classification_database_patterns/04_bangumi_popularity_correction.png",
-      "sha256": "301b656b53eb0d1352046c0427472dc1a9f73adc595786915a917ce6c2f0cb16",
-      "source_sha256": "d9fc4ccda1257f4bcd4143b0de86781839d24434325ccaaff65c809577b7bd5f",
+      "sha256": "e36fb0cc73d8249e1549d9411141d0ab79916dffda6c8ede7f4ccae232ddc7dd",
+      "source_sha256": "5541e693dbff228af9c51069dc01da70f0dfea6083df5daa7ad5a03c614a33e1",
       "width": 1800,
       "height": 1120
     },
     "convergence_and_structure": {
       "path": "assets/yuri_classification_database_patterns/05_convergence_and_text_structure.png",
-      "sha256": "b7315b05788ee793de8af71125331cce2ac2e4978d92f548c150d6c0828511dc",
-      "source_sha256": "d9fc4ccda1257f4bcd4143b0de86781839d24434325ccaaff65c809577b7bd5f",
+      "sha256": "5f72793a951246b075c957858348b88b8710d4ccca41395a812e569398e28e98",
+      "source_sha256": "5541e693dbff228af9c51069dc01da70f0dfea6083df5daa7ad5a03c614a33e1",
       "width": 1800,
       "height": 1120
     }
