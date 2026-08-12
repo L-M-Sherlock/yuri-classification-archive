@@ -8,6 +8,8 @@ const YuriCatalogFilterLogic = (() => {
     "official_female_romance_wording",
     "male_romance_line",
     "confidence",
+    "bangumi_region",
+    "bangumi_adaptation_source",
   ];
   const relationshipFields = {
     relationship_position: "position",
@@ -56,6 +58,9 @@ const YuriCatalogFilterLogic = (() => {
     confidence: "结论置信度",
     official_source_scopes: "官方来源层级",
     official_source_surfaces: "官方材料位置",
+    bangumi_tags: "Bangumi 标签",
+    bangumi_region: "地区标签",
+    bangumi_adaptation_source: "改编来源",
   };
   const publicLabels = {
     position: {
@@ -101,6 +106,8 @@ const YuriCatalogFilterLogic = (() => {
       "insufficient_evidence",
     ],
     male_romance_line: ["none", "secondary", "parallel", "dominant", "unknown"],
+    bangumi_region: ["日本", "中国", "美国", "法国", "欧美"],
+    bangumi_adaptation_source: ["原创", "漫画改", "小说改", "游戏改", "影视改"],
   };
   const tableColumnOrders = {
     female_relationship_centrality: [
@@ -135,6 +142,15 @@ const YuriCatalogFilterLogic = (() => {
   const multiFields = {
     official_source_scopes: "official_scope",
     official_source_surfaces: "official_surface",
+    bangumi_tags: "tag",
+  };
+  const scalarListFields = {
+    bangumi_region: "bangumi_regions",
+    bangumi_adaptation_source: "bangumi_adaptation_sources",
+  };
+  const scalarUrlKeys = {
+    bangumi_region: "region",
+    bangumi_adaptation_source: "adaptation",
   };
   const filterValueAliases = {
     medium: {
@@ -205,7 +221,10 @@ const YuriCatalogFilterLogic = (() => {
     const params = new URLSearchParams(search || "");
     const scalar = {};
     for (const field of scalarFields) {
-      scalar[field] = canonicalFilterValue(field, params.get(field) || "");
+      scalar[field] = canonicalFilterValue(
+        field,
+        params.get(scalarUrlKeys[field] || field) || "",
+      );
     }
     const relationship = {};
     for (const field of Object.keys(relationshipFields)) {
@@ -240,7 +259,7 @@ const YuriCatalogFilterLogic = (() => {
     if (query) params.set("q", query);
     for (const field of scalarFields) {
       const value = state.scalar?.[field] || "";
-      if (value) params.set(field, value);
+      if (value) params.set(scalarUrlKeys[field] || field, value);
     }
     for (const field of Object.keys(relationshipFields)) {
       const value = state.relationship?.[field] || "";
@@ -262,6 +281,12 @@ const YuriCatalogFilterLogic = (() => {
 
   function itemMatchesScalar(item, field, expected) {
     if (!expected) return true;
+    const listField = scalarListFields[field];
+    if (listField) {
+      return (Array.isArray(item[listField]) ? item[listField] : []).some(
+        (value) => canonicalFilterValue(field, value?.code) === expected,
+      );
+    }
     const value = item[field];
     return canonicalFilterValue(field, value?.code) === expected;
   }
@@ -273,7 +298,9 @@ const YuriCatalogFilterLogic = (() => {
         .map((value) => canonicalFilterValue(field, value?.code))
         .filter(Boolean),
     );
-    return selected.some((value) => codes.has(value));
+    return field === "bangumi_tags"
+      ? selected.every((value) => codes.has(value))
+      : selected.some((value) => codes.has(value));
   }
 
   function intersectAllowed(current, values) {
@@ -519,9 +546,11 @@ const YuriCatalogFilterLogic = (() => {
     for (const [field, values] of Object.entries(state.multi || {})) {
       if (values?.length) {
         clauses.push(
-          `${filterFieldLabels[field] || field}包含${values
+          `${filterFieldLabels[field] || field}${
+            field === "bangumi_tags" ? "同时包含" : "包含"
+          }${values
             .map((value) => displayStateLabel(field, value, labelOverrides))
-            .join("或")}`,
+            .join(field === "bangumi_tags" ? "、" : "或")}`,
         );
       }
     }
@@ -580,6 +609,7 @@ const YuriCatalogFilterLogic = (() => {
     scalarOptionOrders,
     tableColumnOrders,
     multiFields,
+    scalarListFields,
     canonicalFilterValue,
     sortRelationshipOptions,
     sortScalarOptions,
@@ -624,6 +654,10 @@ if (typeof globalThis !== "undefined") {
     official_female_romance_wording: document.getElementById("official-romance-filter"),
     male_romance_line: document.getElementById("male-filter"),
     confidence: document.getElementById("confidence-filter"),
+    bangumi_region: document.getElementById("bangumi-region-filter"),
+    bangumi_adaptation_source: document.getElementById(
+      "bangumi-adaptation-filter",
+    ),
   };
   const relationshipFilterElements = {
     relationship_position: document.getElementById("relationship-filter"),
@@ -636,6 +670,7 @@ if (typeof globalThis !== "undefined") {
   const multiFilterElements = {
     official_source_scopes: document.getElementById("official-scope-filter"),
     official_source_surfaces: document.getElementById("official-surface-filter"),
+    bangumi_tags: document.getElementById("bangumi-tag-filter"),
   };
   const allControls = [
     searchInput,
@@ -683,6 +718,14 @@ if (typeof globalThis !== "undefined") {
     }
     return Array.from(map.entries()).sort((a, b) =>
       a[1].localeCompare(b[1], "zh-CN"),
+    );
+  }
+
+  function uniqueScalarListOptions(items, field) {
+    const listField = YuriCatalogFilterLogic.scalarListFields[field];
+    return YuriCatalogFilterLogic.sortScalarOptions(
+      uniqueListOptions(items, listField),
+      field,
     );
   }
 
@@ -984,7 +1027,12 @@ if (typeof globalThis !== "undefined") {
     const items = payload.items;
 
     for (const field of Object.keys(scalarFilterElements)) {
-      populateSelect(scalarFilterElements[field], uniqueOptions(items, field));
+      populateSelect(
+        scalarFilterElements[field],
+        YuriCatalogFilterLogic.scalarListFields[field]
+          ? uniqueScalarListOptions(items, field)
+          : uniqueOptions(items, field),
+      );
     }
     for (const [field, nestedField] of Object.entries(
       YuriCatalogFilterLogic.relationshipFields,
@@ -1169,6 +1217,30 @@ if (typeof globalThis !== "undefined") {
         {
           title: "官方来源层级",
           field: "official_source_scopes",
+          formatter: labelsFormatter,
+          visible: false,
+          download: true,
+          accessorDownload: labelsText,
+        },
+        {
+          title: "Bangumi 标签",
+          field: "bangumi_tags",
+          formatter: labelsFormatter,
+          visible: false,
+          download: true,
+          accessorDownload: labelsText,
+        },
+        {
+          title: "Bangumi 地区标签",
+          field: "bangumi_regions",
+          formatter: labelsFormatter,
+          visible: false,
+          download: true,
+          accessorDownload: labelsText,
+        },
+        {
+          title: "Bangumi 改编来源",
+          field: "bangumi_adaptation_sources",
           formatter: labelsFormatter,
           visible: false,
           download: true,

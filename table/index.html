@@ -47,7 +47,7 @@
   <meta property="og:url" content="https://l-m-sherlock.github.io/yuri-classification-archive/table/">
   <meta property="og:image" content="https://l-m-sherlock.github.io/yuri-classification-archive/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
   <title>作品分类总表｜百合作品分类档案</title>
-  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=14492fae37f4">
+  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=f2ecccb4638b">
 <link rel="stylesheet" href="/yuri-classification-archive/assets/vendor/tabulator.min.css">
 </head>
 <body class="table-page">
@@ -172,6 +172,22 @@
       </div>
     </section>
 
+    <section class="filter-section" aria-labelledby="bangumi-tag-filter-title">
+      <p class="filter-section-title" id="bangumi-tag-filter-title">Bangumi 标签</p>
+      <p class="filter-help">标签来自 Bangumi 的 meta_tags。百合、GL 与媒介标签不在这里重复展示；与页面其他筛选采用并且。</p>
+      <div class="filter-control-grid bangumi-filter-grid">
+        <label><span>地区</span><select id="bangumi-region-filter"><option value="">全部</option></select></label>
+        <label><span>改编来源</span><select id="bangumi-adaptation-filter"><option value="">全部</option></select></label>
+      </div>
+      <div class="multi-filter-row single-filter-row">
+        <fieldset class="multi-filter-control" aria-describedby="bangumi-tag-help">
+          <legend>标签</legend>
+          <p class="filter-help" id="bangumi-tag-help">可直接点选多个；作品必须同时包含全部所选标签。地区保留 Bangumi 原始标签，因此“欧美”与“美国／法国”等可能重叠。</p>
+          <div class="multi-choice-group" id="bangumi-tag-filter"></div>
+        </fieldset>
+      </div>
+    </section>
+
     <section class="filter-section" aria-labelledby="official-evidence-filter-title">
       <p class="filter-section-title" id="official-evidence-filter-title">官方材料</p>
       <div class="filter-control-grid official-filter-grid">
@@ -243,6 +259,6 @@
   </footer>
   <script>window.SITE_CONFIG = {basePath: "/yuri-classification-archive"};</script>
   <script src="/yuri-classification-archive/assets/site.js?v=eeeec5872796" defer></script>
-<script>window.SITE_CONFIG.catalogVersion = "55c814566ea4";</script><script src="/yuri-classification-archive/assets/vendor/tabulator.min.js"></script><script src="/yuri-classification-archive/assets/vendor/xlsx.full.min.js"></script><script src="/yuri-classification-archive/assets/table.js?v=d8d2e74beca2"></script>
+<script>window.SITE_CONFIG.catalogVersion = "a17875fa2c38";</script><script src="/yuri-classification-archive/assets/vendor/tabulator.min.js"></script><script src="/yuri-classification-archive/assets/vendor/xlsx.full.min.js"></script><script src="/yuri-classification-archive/assets/table.js?v=2d886e91dc38"></script>
 </body>
 </html>

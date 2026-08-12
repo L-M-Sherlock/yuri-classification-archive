@@ -39,8 +39,8 @@
     "BA--": 1,
     "-ANM": 1
   },
-  "source_sha256": "5541e693dbff228af9c51069dc01da70f0dfea6083df5daa7ad5a03c614a33e1",
-  "analysis_summary_sha256": "6f4d61b87595ea7c8ac0c838d5c7881a3d39cf1bd3574d0b51046d96d52bed93",
+  "source_sha256": "b2597285288a4135fed63ac782a4d8c72fb8be914a5b9976f07109b0c316bfbf",
+  "analysis_summary_sha256": "60a8fafcceee14fafba49a8db90df64ae90da90c275e7ad66080d542243605fc",
   "items": [
     {
       "slug": "shirobako_tv_2014",
@@ -14093,6 +14093,6 @@
       "row_number": 696
     }
   ],
-  "release_plan_sha256": "bfdb9abdcc705ba10eef95279772dce93ecf1e11620852cbc450ea663d7bf95b",
+  "release_plan_sha256": "ffad010d783a393a71b04b10eb090bdbb9428c12c2b6f9f550be76c949fa2051",
   "target_slugs_sha256": "f94c9de0a014ad6248c7e7dd5da09c8f477d1488fd7778466007c168b77962bf"
 }
