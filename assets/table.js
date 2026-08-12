@@ -996,6 +996,34 @@ if (typeof globalThis !== "undefined") {
     return element;
   }
 
+  function renderMatchingRelationshipsInExpandedRows(table, state) {
+    const shouldShow = YuriCatalogFilterLogic.hasRelationshipPredicate(state);
+    for (const row of table.getRows("active")) {
+      const collapse = row
+        .getElement()
+        .querySelector(".tabulator-responsive-collapse");
+      if (!collapse) continue;
+      collapse
+        .querySelector('[data-field="relationship_profiles"]')
+        ?.remove();
+      if (!shouldShow) continue;
+      const value = matchingRelationshipsText(row.getData(), state);
+      if (!value) continue;
+      const details = collapse.querySelector("table");
+      if (!details) continue;
+      const detailRow = document.createElement("tr");
+      detailRow.dataset.field = "relationship_profiles";
+      const titleCell = document.createElement("td");
+      const title = document.createElement("strong");
+      title.textContent = "命中关系";
+      titleCell.appendChild(title);
+      const valueCell = document.createElement("td");
+      valueCell.textContent = value;
+      detailRow.append(titleCell, valueCell);
+      details.appendChild(detailRow);
+    }
+  }
+
   const distributionProfileFields = {
     narrative_centrality: "position",
     romance_explicitness: "explicitness",
@@ -1353,10 +1381,16 @@ if (typeof globalThis !== "undefined") {
       copyQueryStatus.textContent = "";
       stateToUrl(state);
       table.redraw(true);
+      requestAnimationFrame(() =>
+        renderMatchingRelationshipsInExpandedRows(table, readUiState()),
+      );
     }
 
     table.on("dataFiltered", (_filters, rows) => {
       resultCount.textContent = `当前显示 ${rows.length}／${items.length} 份报告`;
+    });
+    table.on("renderComplete", () => {
+      renderMatchingRelationshipsInExpandedRows(table, readUiState());
     });
     table.on("tableBuilt", applyFilters);
 
