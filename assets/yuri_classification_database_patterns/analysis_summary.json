@@ -1,9 +1,9 @@
 {
   "schema_version": 5,
   "snapshot_date": "2026-08-12",
-  "generated_at": "2026-08-12T06:18:59.985978+00:00",
+  "generated_at": "2026-08-12T06:37:01.168145+00:00",
   "source": {
-    "sha256": "b2597285288a4135fed63ac782a4d8c72fb8be914a5b9976f07109b0c316bfbf",
+    "sha256": "624fc487457dc97d595020ca8baf11cc4946905639f4b58d60291d5704e74522",
     "row_count": 696,
     "classification_schema": 4,
     "selection_composition": {
@@ -17,8 +17,8 @@
     },
     "release_plan": {
       "path": "data/release-plan.json",
-      "sha256": "07242098aec92c0d2836aebee0d9a482f1e3a021abf2a971d6414c26afd82147",
-      "plan_sha256": "ffad010d783a393a71b04b10eb090bdbb9428c12c2b6f9f550be76c949fa2051",
+      "sha256": "f2dc85e11f42b63b1d3c8ee7bf07115fd5650fbdfd329177f0880770a0ef5817",
+      "plan_sha256": "79347de9f2fa1010b922cbf769a4aafa9a3093366fd57b4863c7e99b6df67a66",
       "target_slug_count": 696,
       "target_slugs_sha256": "f94c9de0a014ad6248c7e7dd5da09c8f477d1488fd7778466007c168b77962bf"
     },
@@ -28,7 +28,7 @@
       "target_slugs_sha256": "f94c9de0a014ad6248c7e7dd5da09c8f477d1488fd7778466007c168b77962bf"
     }
   },
-  "release_plan_sha256": "ffad010d783a393a71b04b10eb090bdbb9428c12c2b6f9f550be76c949fa2051",
+  "release_plan_sha256": "79347de9f2fa1010b922cbf769a4aafa9a3093366fd57b4863c7e99b6df67a66",
   "target_slugs_sha256": "f94c9de0a014ad6248c7e7dd5da09c8f477d1488fd7778466007c168b77962bf",
   "dataset_profile": {
     "media": {
@@ -1955,42 +1955,42 @@
     "dataset_overview": {
       "path": "assets/yuri_classification_database_patterns/00_dataset_overview.png",
       "sha256": "2f2918a4fb17f4c06d02ddf3f21494efe96e76485f170fd744a0bdb6be9b3b3f",
-      "source_sha256": "b2597285288a4135fed63ac782a4d8c72fb8be914a5b9976f07109b0c316bfbf",
+      "source_sha256": "624fc487457dc97d595020ca8baf11cc4946905639f4b58d60291d5704e74522",
       "width": 1800,
       "height": 1120
     },
     "platform_overlap": {
       "path": "assets/yuri_classification_database_patterns/01_platform_overlap.png",
-      "sha256": "6b2547ed10af7c5f5e33ef7d335a154325164cbf3032c13ce2b06435da147c08",
-      "source_sha256": "b2597285288a4135fed63ac782a4d8c72fb8be914a5b9976f07109b0c316bfbf",
+      "sha256": "b5e1690a84dd914dfdc156847dba98458b5a59deaf45c14f5e5ce9fd9645f33e",
+      "source_sha256": "624fc487457dc97d595020ca8baf11cc4946905639f4b58d60291d5704e74522",
       "width": 1800,
       "height": 1120
     },
     "explicitness_gradient": {
       "path": "assets/yuri_classification_database_patterns/02_explicitness_gradient.png",
       "sha256": "fa928dfb5f395c58a8a9593c2570887d3971d713617957b08a936b90f5026dce",
-      "source_sha256": "b2597285288a4135fed63ac782a4d8c72fb8be914a5b9976f07109b0c316bfbf",
+      "source_sha256": "624fc487457dc97d595020ca8baf11cc4946905639f4b58d60291d5704e74522",
       "width": 1800,
       "height": 1120
     },
     "platform_rates": {
       "path": "assets/yuri_classification_database_patterns/03_platform_rates_by_explicitness.png",
       "sha256": "2b58cd25aec11bb76b9cb8b7d24be22d69fefe3131e9b1790c163f67912dfa6f",
-      "source_sha256": "b2597285288a4135fed63ac782a4d8c72fb8be914a5b9976f07109b0c316bfbf",
+      "source_sha256": "624fc487457dc97d595020ca8baf11cc4946905639f4b58d60291d5704e74522",
       "width": 1800,
       "height": 1120
     },
     "bangumi_popularity": {
       "path": "assets/yuri_classification_database_patterns/04_bangumi_popularity_correction.png",
-      "sha256": "e36fb0cc73d8249e1549d9411141d0ab79916dffda6c8ede7f4ccae232ddc7dd",
-      "source_sha256": "b2597285288a4135fed63ac782a4d8c72fb8be914a5b9976f07109b0c316bfbf",
+      "sha256": "1ded598f1e0df1481e45351b61886affbc568dae9b009b746f0f22a96d95eaa3",
+      "source_sha256": "624fc487457dc97d595020ca8baf11cc4946905639f4b58d60291d5704e74522",
       "width": 1800,
       "height": 1120
     },
     "convergence_and_structure": {
       "path": "assets/yuri_classification_database_patterns/05_convergence_and_text_structure.png",
       "sha256": "5f72793a951246b075c957858348b88b8710d4ccca41395a812e569398e28e98",
-      "source_sha256": "b2597285288a4135fed63ac782a4d8c72fb8be914a5b9976f07109b0c316bfbf",
+      "source_sha256": "624fc487457dc97d595020ca8baf11cc4946905639f4b58d60291d5704e74522",
       "width": 1800,
       "height": 1120
     }

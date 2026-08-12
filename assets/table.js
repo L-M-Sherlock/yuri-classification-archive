@@ -202,6 +202,36 @@ const YuriCatalogFilterLogic = (() => {
     });
   }
 
+  function sortListOptionsByWorkCount(items, field) {
+    const options = new Map();
+    for (const item of items || []) {
+      const values = Array.isArray(item?.[field]) ? item[field] : [];
+      const seen = new Set();
+      for (const value of values) {
+        if (!value?.code) continue;
+        const code = canonicalFilterValue(field, value.code);
+        if (!code || seen.has(code)) continue;
+        seen.add(code);
+        const existing = options.get(code);
+        if (existing) {
+          existing.count += 1;
+        } else {
+          options.set(code, {
+            label: value.label || code,
+            count: 1,
+          });
+        }
+      }
+    }
+    return Array.from(options.entries())
+      .sort(
+        (a, b) =>
+          b[1].count - a[1].count ||
+          a[1].label.localeCompare(b[1].label, "zh-CN"),
+      )
+      .map(([code, value]) => [code, value.label]);
+  }
+
   function compareCategoricalValues(a, b, order = []) {
     const rank = new Map(order.map((code, index) => [code, index]));
     const aCode = a?.code || "";
@@ -613,6 +643,7 @@ const YuriCatalogFilterLogic = (() => {
     canonicalFilterValue,
     sortRelationshipOptions,
     sortScalarOptions,
+    sortListOptionsByWorkCount,
     compareCategoricalValues,
     parseState,
     serializeState,
@@ -1046,7 +1077,9 @@ if (typeof globalThis !== "undefined") {
       populateMultiChoices(
         multiFilterElements[field],
         field,
-        uniqueListOptions(items, field),
+        field === "bangumi_tags"
+          ? YuriCatalogFilterLogic.sortListOptionsByWorkCount(items, field)
+          : uniqueListOptions(items, field),
       );
     }
     writeUiState(YuriCatalogFilterLogic.parseState(window.location.search));
