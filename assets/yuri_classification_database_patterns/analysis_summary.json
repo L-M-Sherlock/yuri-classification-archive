@@ -1,9 +1,9 @@
 {
   "schema_version": 5,
   "snapshot_date": "2026-08-12",
-  "generated_at": "2026-08-11T17:27:51.179006+00:00",
+  "generated_at": "2026-08-12T03:55:23.135933+00:00",
   "source": {
-    "sha256": "2b0bd0c8a4f78f4b5704320be8d6432ad377331a14340c3362cba9973c6977f2",
+    "sha256": "d9fc4ccda1257f4bcd4143b0de86781839d24434325ccaaff65c809577b7bd5f",
     "row_count": 696,
     "classification_schema": 4,
     "selection_composition": {
@@ -17,18 +17,18 @@
     },
     "release_plan": {
       "path": "data/release-plan.json",
-      "sha256": "f24ff603a361410af3af85e29d4c72784add663f2b3d7d5907e5a6df99426e23",
-      "plan_sha256": "46d9ec056d3473cb6c5e3cffad5156995d77351645ee45ef4bd8657dabdcbc9e",
+      "sha256": "8dcc974caa5587a8a91c73c1c08bfb81aa2d53ad00e3f07eade00b8291602a6e",
+      "plan_sha256": "16b1a58ff8c886e9462ebff7104c9ee4aa50a850ad71158a483b15accc8fc1ed",
       "target_slug_count": 696,
       "target_slugs_sha256": "f94c9de0a014ad6248c7e7dd5da09c8f477d1488fd7778466007c168b77962bf"
     },
     "platform_current": {
-      "sha256": "400623d43cecfb2cdeb879b87e3bc36c24591b7285fdd85a0b5a6002c211a653",
-      "store_sha256": "6cf59b5a26badb6f71f10cb7dfb2a8878527a3458a02d2b1ba71c14492f19009",
+      "sha256": "3425fab533915f90e27e16d553789a177162801fe9d3b60be227fbe93895434d",
+      "store_sha256": "09a4541ad6e6b2408a82b575b2eb26c868e0d9a4c034f764904083d3abd99331",
       "target_slugs_sha256": "f94c9de0a014ad6248c7e7dd5da09c8f477d1488fd7778466007c168b77962bf"
     }
   },
-  "release_plan_sha256": "46d9ec056d3473cb6c5e3cffad5156995d77351645ee45ef4bd8657dabdcbc9e",
+  "release_plan_sha256": "16b1a58ff8c886e9462ebff7104c9ee4aa50a850ad71158a483b15accc8fc1ed",
   "target_slugs_sha256": "f94c9de0a014ad6248c7e7dd5da09c8f477d1488fd7778466007c168b77962bf",
   "dataset_profile": {
     "media": {
@@ -147,11 +147,11 @@
       "explicit_identity_self_statement": 6,
       "official_identity_profile": 3
     },
-    "common_coverage": 633,
-    "common_no_platform_label": 125,
-    "common_no_platform_label_open_relationship_center": 108,
-    "common_no_platform_label_female_relationship_main": 115,
-    "common_all_four_platform_labels": 49,
+    "common_coverage": 663,
+    "common_no_platform_label": 133,
+    "common_no_platform_label_open_relationship_center": 114,
+    "common_no_platform_label_female_relationship_main": 123,
+    "common_all_four_platform_labels": 51,
     "bangumi_exact_entries": 696,
     "bangumi_no_exact_entry": 0
   },
@@ -161,8 +161,8 @@
       "exact_entries": 696
     },
     "Anime-Planet GL": {
-      "positive": 70,
-      "exact_entries": 637
+      "positive": 73,
+      "exact_entries": 668
     },
     "AniList Yuri": {
       "positive": 283,
@@ -174,12 +174,12 @@
     }
   },
   "common_signatures": {
-    "B---": 249,
-    "B-N-": 130,
-    "--N-": 51,
-    "----": 125,
-    "BANM": 49,
-    "BAN-": 17,
+    "B---": 262,
+    "B-N-": 134,
+    "--N-": 53,
+    "----": 133,
+    "BANM": 51,
+    "BAN-": 18,
     "B-NM": 8,
     "-AN-": 2,
     "BA--": 1,
@@ -205,7 +205,7 @@
         },
         "Anime-Planet GL": {
           "positive": 0,
-          "exact_entries": 208,
+          "exact_entries": 217,
           "rate": 0.0
         },
         "AniList Yuri": {
@@ -220,7 +220,7 @@
         }
       },
       "all_four": 0,
-      "none": 61
+      "none": 64
     },
     {
       "key": "potential_or_strongly_coded",
@@ -240,9 +240,9 @@
           "rate": 0.7076923076923077
         },
         "Anime-Planet GL": {
-          "positive": 9,
-          "exact_entries": 234,
-          "rate": 0.038461538461538464
+          "positive": 10,
+          "exact_entries": 251,
+          "rate": 0.0398406374501992
         },
         "AniList Yuri": {
           "positive": 105,
@@ -256,7 +256,7 @@
         }
       },
       "all_four": 4,
-      "none": 38
+      "none": 43
     },
     {
       "key": "explicit_desire",
@@ -277,8 +277,8 @@
         },
         "Anime-Planet GL": {
           "positive": 44,
-          "exact_entries": 170,
-          "rate": 0.25882352941176473
+          "exact_entries": 172,
+          "rate": 0.2558139534883721
         },
         "AniList Yuri": {
           "positive": 114,
@@ -312,9 +312,9 @@
           "rate": 0.8387096774193549
         },
         "Anime-Planet GL": {
-          "positive": 17,
-          "exact_entries": 25,
-          "rate": 0.68
+          "positive": 19,
+          "exact_entries": 28,
+          "rate": 0.6785714285714286
         },
         "AniList Yuri": {
           "positive": 26,
@@ -327,7 +327,7 @@
           "rate": 0.6451612903225806
         }
       },
-      "all_four": 16,
+      "all_four": 18,
       "none": 3
     }
   ],
@@ -362,11 +362,11 @@
   },
   "collection_window": {
     "minimum_retrieved_at": "2026-07-30T00:00:00+00:00",
-    "maximum_retrieved_at": "2026-08-10T12:00:20+00:00",
+    "maximum_retrieved_at": "2026-08-11T16:00:00+00:00",
     "record_count": 2784,
     "result_counts": {
-      "no_exact_entry": 90,
-      "success": 2694
+      "no_exact_entry": 59,
+      "success": 2725
     },
     "platforms": {
       "bangumi": {
@@ -379,11 +379,11 @@
       },
       "anime_planet": {
         "minimum_retrieved_at": "2026-07-30T00:00:00+00:00",
-        "maximum_retrieved_at": "2026-08-07T00:00:00+00:00",
+        "maximum_retrieved_at": "2026-08-11T16:00:00+00:00",
         "record_count": 696,
         "result_counts": {
-          "no_exact_entry": 59,
-          "success": 637
+          "no_exact_entry": 28,
+          "success": 668
         }
       },
       "anilist": {
@@ -775,6 +775,14 @@
         "bangumi_ratio": 0.032073750420127715
       },
       {
+        "title": "剧场版 吹响吧！上低音号～想要传达的旋律～",
+        "slug": "hibike_euphonium_todoketai_melody_movie_2017",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.033186512758201704
+      },
+      {
         "title": "幸运星 OVA",
         "slug": "lucky_star_ova_2008",
         "female_centrality": "主线",
@@ -967,6 +975,14 @@
         "bangumi_ratio": 0.002704530087897228
       },
       {
+        "title": "剧场版 BanG Dream! It's MyGO!!!!! 后篇 歌唱着，由我们所作的歌 & FILM LIVE",
+        "slug": "bang_dream_its_mygo_movie_part2_2024",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.0377906976744186
+      },
+      {
         "title": "暴力宇宙海贼 剧场版 亚空的深渊",
         "slug": "mouretsu_uchuu_kaizoku_abyss_of_hyperspace_movie_2014",
         "female_centrality": "重要副线",
@@ -981,6 +997,14 @@
         "archive_basis": "work_classification",
         "explicitness": "potential_or_strongly_coded",
         "bangumi_ratio": 0.05398457583547558
+      },
+      {
+        "title": "剧场版 BanG Dream! It's MyGO!!!!! 前篇 春日向阳，迷途野猫",
+        "slug": "bang_dream_its_mygo_movie_part1_2024",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.03558576569372251
       },
       {
         "title": "再得一胜！",
@@ -1215,6 +1239,14 @@
         "bangumi_ratio": 0.07483870967741936
       },
       {
+        "title": "公主连结 Re:Dive 第二季",
+        "slug": "princess_connect_redive_season_2_tv_2022",
+        "female_centrality": "主线",
+        "archive_basis": "reader_interpretation",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.018465089440276975
+      },
+      {
         "title": "铁路浪漫谭",
         "slug": "rail_romanesque_tv_2020",
         "female_centrality": "主线",
@@ -1229,6 +1261,14 @@
         "archive_basis": "work_classification",
         "explicitness": "potential_or_strongly_coded",
         "bangumi_ratio": 0.038740281987086574
+      },
+      {
+        "title": "碧蓝航线 THE ANIMATION",
+        "slug": "azur_lane_tv_2019",
+        "female_centrality": "主线",
+        "archive_basis": "work_classification",
+        "explicitness": "potential_or_strongly_coded",
+        "bangumi_ratio": 0.03793410507569012
       },
       {
         "title": "没能成为魔法师的女孩子的故事",
@@ -1567,12 +1607,28 @@
         "bangumi_ratio": 0.13657325292656972
       },
       {
+        "title": "大室家 亲爱的姐妹们",
+        "slug": "ohmuro_ke_dear_sisters_movie_2024",
+        "explicitness": "explicit_relationship",
+        "official_literal_yuri_gl": "是",
+        "official_female_romance_wording": "是",
+        "bangumi_ratio": 0.13694752884824735
+      },
+      {
         "title": "摇曳百合、",
         "slug": "yuru_yuri_comma_ova_2019",
         "explicitness": "explicit_desire",
         "official_literal_yuri_gl": "所核未见",
         "official_female_romance_wording": "所核未见",
         "bangumi_ratio": 0.1045323970635174
+      },
+      {
+        "title": "大室家 亲爱的朋友们",
+        "slug": "ohmuro_ke_dear_friends_movie_2024",
+        "explicitness": "explicit_relationship",
+        "official_literal_yuri_gl": "是",
+        "official_female_romance_wording": "是",
+        "bangumi_ratio": 0.1433399042523233
       },
       {
         "title": "我们不可能成为恋人！绝对不行。 (※似乎可行？)",
@@ -1891,42 +1947,42 @@
     "dataset_overview": {
       "path": "assets/yuri_classification_database_patterns/00_dataset_overview.png",
       "sha256": "2f2918a4fb17f4c06d02ddf3f21494efe96e76485f170fd744a0bdb6be9b3b3f",
-      "source_sha256": "2b0bd0c8a4f78f4b5704320be8d6432ad377331a14340c3362cba9973c6977f2",
+      "source_sha256": "d9fc4ccda1257f4bcd4143b0de86781839d24434325ccaaff65c809577b7bd5f",
       "width": 1800,
       "height": 1120
     },
     "platform_overlap": {
       "path": "assets/yuri_classification_database_patterns/01_platform_overlap.png",
-      "sha256": "3e9acf2fcc8f87724e09f73543d4b2b7f08f41a2e116e608dd4b459455e1b807",
-      "source_sha256": "2b0bd0c8a4f78f4b5704320be8d6432ad377331a14340c3362cba9973c6977f2",
+      "sha256": "47569415bd2062e923369267bf95168b0e7e0054d27d9e659db4e7b6dcc9f6c9",
+      "source_sha256": "d9fc4ccda1257f4bcd4143b0de86781839d24434325ccaaff65c809577b7bd5f",
       "width": 1800,
       "height": 1120
     },
     "explicitness_gradient": {
       "path": "assets/yuri_classification_database_patterns/02_explicitness_gradient.png",
       "sha256": "fa928dfb5f395c58a8a9593c2570887d3971d713617957b08a936b90f5026dce",
-      "source_sha256": "2b0bd0c8a4f78f4b5704320be8d6432ad377331a14340c3362cba9973c6977f2",
+      "source_sha256": "d9fc4ccda1257f4bcd4143b0de86781839d24434325ccaaff65c809577b7bd5f",
       "width": 1800,
       "height": 1120
     },
     "platform_rates": {
       "path": "assets/yuri_classification_database_patterns/03_platform_rates_by_explicitness.png",
-      "sha256": "71c0435dd9449c47f5be2c3a3e79eb5cdc75db4c44d11d162c565fe040da6472",
-      "source_sha256": "2b0bd0c8a4f78f4b5704320be8d6432ad377331a14340c3362cba9973c6977f2",
+      "sha256": "833b79dfd49240b57589b16f34ab86cfb77e5ade1a648b45d3f485db086cfe00",
+      "source_sha256": "d9fc4ccda1257f4bcd4143b0de86781839d24434325ccaaff65c809577b7bd5f",
       "width": 1800,
       "height": 1120
     },
     "bangumi_popularity": {
       "path": "assets/yuri_classification_database_patterns/04_bangumi_popularity_correction.png",
       "sha256": "301b656b53eb0d1352046c0427472dc1a9f73adc595786915a917ce6c2f0cb16",
-      "source_sha256": "2b0bd0c8a4f78f4b5704320be8d6432ad377331a14340c3362cba9973c6977f2",
+      "source_sha256": "d9fc4ccda1257f4bcd4143b0de86781839d24434325ccaaff65c809577b7bd5f",
       "width": 1800,
       "height": 1120
     },
     "convergence_and_structure": {
       "path": "assets/yuri_classification_database_patterns/05_convergence_and_text_structure.png",
-      "sha256": "849602352b79931b1682ecad2e9f31681ed23259ceb0b8d6bf52db9f19be6409",
-      "source_sha256": "2b0bd0c8a4f78f4b5704320be8d6432ad377331a14340c3362cba9973c6977f2",
+      "sha256": "b7315b05788ee793de8af71125331cce2ac2e4978d92f548c150d6c0828511dc",
+      "source_sha256": "d9fc4ccda1257f4bcd4143b0de86781839d24434325ccaaff65c809577b7bd5f",
       "width": 1800,
       "height": 1120
     }

@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "kind": "public_release_plan",
-  "generated_at": "2026-08-11T17:20:36+00:00",
+  "generated_at": "2026-08-12T03:39:18+00:00",
   "base": {
-    "public_repository_head": "6cda70f2bb828e34403ec1b069358dce37f8c21d",
+    "public_repository_head": "650bf6a98bb68470fdfbbed7f48412249c3a6ac3",
     "catalog_path": "data/catalog.json",
-    "catalog_sha256": "24ed7ef11b5bcdbb07925860ab0198b50c01a52a1a271b3a482f35aae3b23d19",
+    "catalog_sha256": "58f79630dd4daba03fb64e3cf0c95abe787ad5363bbb2b8308515ea527eacfa7",
     "slug_count": 696,
     "slugs": [
       "a_channel_nabe_wo_tabeyou_ova_2017",
@@ -1412,7 +1412,39 @@
   "delta": {
     "added_slugs": [],
     "removed_slugs": [],
-    "changed_slugs": [],
+    "changed_slugs": [
+      "aru_asa_dummy_head_mic_tv_2022",
+      "azur_lane_tv_2019",
+      "bang_dream_ave_mujica_tv_2025",
+      "bang_dream_episode_of_roselia_promise_movie_2021",
+      "bang_dream_its_mygo_movie_part1_2024",
+      "bang_dream_its_mygo_movie_part2_2024",
+      "bang_dream_mygo_members_daily_web_2022",
+      "bang_dream_poppin_dream_movie_2022",
+      "doki_doki_precure_tv_2013",
+      "feng_ling_yu_xiu_second_chapter_special_web_2024",
+      "girls_und_panzer_saishuushou_1_ova_2018",
+      "gundam_witch_from_mercury_season_2_tv_2023",
+      "hibike_euphonium_todoketai_melody_movie_2017",
+      "hidamari_sketch_hoshimittsu_special_ova_2010",
+      "hyperdimension_neptunia_summer_ova_2020",
+      "kaleido_star_legend_phoenix_ova_2006",
+      "kin_iro_mosaic_thank_you_movie_2021",
+      "love_live_nijigasaki_final_chapter_part_1_movie_2024",
+      "mahou_shoujo_lyrical_nanoha_reflection_movie_2017",
+      "ohmuro_ke_dear_friends_movie_2024",
+      "ohmuro_ke_dear_sisters_movie_2024",
+      "princess_connect_redive_season_2_tv_2022",
+      "rod_read_or_die_tv_2003",
+      "shy_tokyo_reconquest_tv_2024",
+      "strike_witches_501_takeoff_movie_2019",
+      "wagamama_high_spec_tv_2016",
+      "yuuki_yuuna_washio_sumi_ch1_movie_2017",
+      "yuuki_yuuna_washio_sumi_ch2_movie_2017",
+      "yuuki_yuuna_washio_sumi_ch3_movie_2017",
+      "yuyushiki_ova_2017",
+      "z_x_code_reunion_tv_2019"
+    ],
     "refresh_slugs": [],
     "changed_detection_pending": false,
     "changed_basis": {
@@ -1609,8 +1641,8 @@
     {
       "slug": "aru_asa_dummy_head_mic_tv_2022",
       "status": "complete",
-      "metadata_sha256": "91ff895a3f83ab71cb65fdf8abdc67554ae11682fc84b38cf1b7f458475b3259",
-      "report_sha256": "403439728253ec61778dd74937db9b620163e9b1d14709bd4cc1d38e43b6831b"
+      "metadata_sha256": "2d6765176e8fa3ce98672039e8ffb05c50eb32916d9a45dfff020068e27eaf0d",
+      "report_sha256": "30516a39acb8d4c77259b43441b1902edd183f0a6ce65fad61223a49f488278f"
     },
     {
       "slug": "aru_majo_ga_shinu_made_tv_2025",
@@ -1669,8 +1701,8 @@
     {
       "slug": "azur_lane_tv_2019",
       "status": "complete",
-      "metadata_sha256": "4437f9302c9d37c8c2e6a509595956d7d39992bdba4cb4f461b48860d8eb92e9",
-      "report_sha256": "be6240348b66e9f4e6dc9ef04fa2b305a921098ce3cfd7b0ed94fb488f7b6c7f"
+      "metadata_sha256": "a6c63482802f339d7b57ec0d0e52ea450bb5660cbe23e2bd18fae78c9c3f3e8d",
+      "report_sha256": "bee10b7499a32d8dd486955f8760a83dcf989087df439e0cf938721000039cc9"
     },
     {
       "slug": "bad_girl_tv_2025",
@@ -1705,8 +1737,8 @@
     {
       "slug": "bang_dream_ave_mujica_tv_2025",
       "status": "complete",
-      "metadata_sha256": "2af92d54746279c5472dcfc9a1a2afd5d14f07c809edd7da7b1a38b490c14701",
-      "report_sha256": "d4aa65a213e56a1a4913e2736d0773aeca37bf302c773081227f107c46fda8af"
+      "metadata_sha256": "bb9360cce8aaf6c40583f806858552d299a0a2534092a080fd808a9851e63e97",
+      "report_sha256": "a1aa7dad81e802c0e35c9cfaf165c8ff7e1df1fb9993672022eda86509707fc6"
     },
     {
       "slug": "bang_dream_circle_thanks_party_2022",
@@ -1723,8 +1755,8 @@
     {
       "slug": "bang_dream_episode_of_roselia_promise_movie_2021",
       "status": "complete",
-      "metadata_sha256": "9152c87fbeea5000d0bf00a76ef50b520e723c97cde415195a21906fff5d8a2a",
-      "report_sha256": "496d6d74b9b8cc2f350586a64b2674b979338508c8733c502e0298919ad2f73d"
+      "metadata_sha256": "85e3917472ec20ad91f0af14956e9fb995cec95217789de5da0562eb442fa822",
+      "report_sha256": "9593585bf5611c1ac29545faea97ff7d9230888d90920a09578d173a3b81ac5e"
     },
     {
       "slug": "bang_dream_film_live_2nd_stage_movie_2021",
@@ -1753,14 +1785,14 @@
     {
       "slug": "bang_dream_its_mygo_movie_part1_2024",
       "status": "complete",
-      "metadata_sha256": "23c65e7096da9f38047106235797658b956a1736c171558a1c06d4c1bf4d8f5c",
-      "report_sha256": "db5b35251398f5ed11c82ced3b072f7083b4eeda1cd6069b2b0b172f7e300632"
+      "metadata_sha256": "1f094ccf02b44d3b005123c98e8b4407ae414731ca3fbaae464cfad8af23c195",
+      "report_sha256": "77eae58e2627f8235b172dbd58c2e88550ebf114fb668be8f077dbcd655bcc19"
     },
     {
       "slug": "bang_dream_its_mygo_movie_part2_2024",
       "status": "complete",
-      "metadata_sha256": "1a7ec78435b63899e4a9d72de060123756748d2b2e74cb5e361574dd472068d3",
-      "report_sha256": "c16a24a3ce5947d232b725cb426e549383a2acb0de720de2460eb64036c09084"
+      "metadata_sha256": "e3bf868911dcf839266c78be90e3ffc321031995a78086bb4c29373c2d49a1a1",
+      "report_sha256": "a023cc2a7cc01ff32245fe3eee37ba30c60d9d2a5f3271d4e9f14af39f9f04c2"
     },
     {
       "slug": "bang_dream_its_mygo_tv_2023",
@@ -1771,14 +1803,14 @@
     {
       "slug": "bang_dream_mygo_members_daily_web_2022",
       "status": "complete",
-      "metadata_sha256": "de654cbc05d9fc5dd5fc847a70f755951d9d8ada411f0a200e65394dc7aceca9",
-      "report_sha256": "1ca54eb93946a4ef04aa0c799b128974dfe165c0d2658343af22fb1c56c98603"
+      "metadata_sha256": "7c605b30e6fd6ff80e1feb5eb8d7e875edfbd5579c165e68f496c794c324aab6",
+      "report_sha256": "49c8afd6a30a2d99b8eff1e420352830946212dab2d437112749e2d10b9789cc"
     },
     {
       "slug": "bang_dream_poppin_dream_movie_2022",
       "status": "complete",
-      "metadata_sha256": "280b139004915a3890185dd962604169356ffe9099360e6ab707c256a187b0f1",
-      "report_sha256": "c0a8331934d7b78e2aecb183f8e9852bb78ff96ac24dbc4d918f4d0794b84c70"
+      "metadata_sha256": "c9c1d5718c7706878d6f64ccc3d2a0f45fd0c4b60b74112dc7f8dfba9d67991e",
+      "report_sha256": "e722d3bec00495efec183ddd781c0fdc29a5ff6b0170a9c431845f30ae25ca16"
     },
     {
       "slug": "bang_dream_tv_2017",
@@ -2035,8 +2067,8 @@
     {
       "slug": "doki_doki_precure_tv_2013",
       "status": "complete",
-      "metadata_sha256": "0d885788d15b8a13537c906072de0f61a2821f00a33a2202423cbe313015b078",
-      "report_sha256": "f43768db5a7b6896a824d285c678536f748b71613a86e39a3447a3d6654b8afc"
+      "metadata_sha256": "03d3e1796ad30af3b280fad01397866b5df6b3ab2be92189ee85ee05cd5ebed9",
+      "report_sha256": "1b13c92b2304904546f6d3f06c128c52a69eb15a2082d7ec31b9f52575130a1f"
     },
     {
       "slug": "dounika_naru_hibi_movie_2020",
@@ -2173,8 +2205,8 @@
     {
       "slug": "feng_ling_yu_xiu_second_chapter_special_web_2024",
       "status": "complete",
-      "metadata_sha256": "63827932c53c314367a5fbe10dda7599e6ea0db18300285080878399ec790f8c",
-      "report_sha256": "4facd5d1680467b5277dbd694d1051f7a61b0c51c7d6b88823348a97e0ba5d5d"
+      "metadata_sha256": "c81770d74d1a093e646028b239a4544ebd770bc3b26178e2e7ecce9c520e2fe1",
+      "report_sha256": "bf87cad8555fe304082da8a99474a92c909fa297de67c41b74b6ea0821d3d96c"
     },
     {
       "slug": "feng_ling_yu_xiu_second_chapter_web_2023",
@@ -2329,8 +2361,8 @@
     {
       "slug": "girls_und_panzer_saishuushou_1_ova_2018",
       "status": "complete",
-      "metadata_sha256": "0381e32b5da66d6119a0ac8be12b2b85e5eba900a28186dd22db60eee8ed161c",
-      "report_sha256": "799b35788eaaa56d76ef228b0e42ee6b3f5d486e3d444827ef0cde8754cbda2d"
+      "metadata_sha256": "df382655886330e14d9086575fdf373be7c2c0ee6b9b0a89dd9d0ca89402797f",
+      "report_sha256": "ff1b3cc75bd5e668fd7f2eaf0f2260a85dda2865a16e1de6015977da50828d58"
     },
     {
       "slug": "girls_und_panzer_saishuushou_2_ova_2020",
@@ -2425,8 +2457,8 @@
     {
       "slug": "gundam_witch_from_mercury_season_2_tv_2023",
       "status": "complete",
-      "metadata_sha256": "aeea459f4ce380650566e8bc53a7e41dc187d3b8ef0271d6433e74a37510c3e6",
-      "report_sha256": "ff67af62536dae06ffedf7422f6e885b1972586ed97b60ffdae678c6811577e0"
+      "metadata_sha256": "0618fae0987e4e0caac62c88f81ecd8051fc547864d14d47efb514058c613e1b",
+      "report_sha256": "35d19c238c04e0be388909a850b88644c1d69e2f4dabe472a214793750733bcf"
     },
     {
       "slug": "hachigatsu_no_cinderella_nine_tv_2019",
@@ -2575,8 +2607,8 @@
     {
       "slug": "hibike_euphonium_todoketai_melody_movie_2017",
       "status": "complete",
-      "metadata_sha256": "260ec2943bc8a6dfaac9da29a431195099f9239a7b1af612923e2d1c04ce2b69",
-      "report_sha256": "e80f287225c7365f0386d11ad8c308c8d315aa7595d52052db0f5e99acbba3f4"
+      "metadata_sha256": "d65ec7253a216139ea5f6d38978ffc4d9ef3ed853ec2f0058a63d751d3f89813",
+      "report_sha256": "9cd8f4fb6ef1dd44011745fe8f850089e929b0d5aa7d816d2c3f03fcac958990"
     },
     {
       "slug": "hibike_euphonium_tv_2015",
@@ -2593,8 +2625,8 @@
     {
       "slug": "hidamari_sketch_hoshimittsu_special_ova_2010",
       "status": "complete",
-      "metadata_sha256": "700624fd877765d39ed431c3edc474d0fd6bb84511efdbf7fba682f08d98ac12",
-      "report_sha256": "326d0e2a68a2c672f4c8ee6960d23f9e4f96b5ab389d154806841d2d694335c4"
+      "metadata_sha256": "a9812949da541d71bbe0d84da77bf91d1def1bd24dc5ec50582ffb9eec2cd590",
+      "report_sha256": "81c0a6fc28ce9c5fbbdb604f29b103b959f7eb9bf9dcf42e203a01fd5fc25eed"
     },
     {
       "slug": "hidamari_sketch_hoshimittsu_tv_2010",
@@ -2755,8 +2787,8 @@
     {
       "slug": "hyperdimension_neptunia_summer_ova_2020",
       "status": "complete",
-      "metadata_sha256": "b8bd1f047c28d49f930318354ed4a8e9fa3e884ecbbc522702c9a8f242f0af55",
-      "report_sha256": "f0995d5809dce7f9fcee24140f47fad37c0da836fe097a97bef6e91a603d6a3a"
+      "metadata_sha256": "bfd331482e6a42be663fe80202779075c9bb6de9c64e66743b9db169dd5e276f",
+      "report_sha256": "d3ad9e11259c5409e9076be8208b73569e2b7606baa0a94097313a2591c94966"
     },
     {
       "slug": "hyperdimension_neptunia_tv_2013",
@@ -2947,8 +2979,8 @@
     {
       "slug": "kaleido_star_legend_phoenix_ova_2006",
       "status": "complete",
-      "metadata_sha256": "cda2b173647e4250108664eb0aa88fcca47f067ad638bf0058b9fa35280453f2",
-      "report_sha256": "f607d9c18b95f84dca7c4328c76ffb9589d22d49d928daebffe719905818e70c"
+      "metadata_sha256": "67d488c051327395a00dfa001c61a78a2d67e409632eded97d581041762abc16",
+      "report_sha256": "9f338f7f8a58f7b1acb82b81c351e4058d77a5924f3133ed1ec3f68c27b26462"
     },
     {
       "slug": "kaleido_star_tv_2003_part1",
@@ -3061,8 +3093,8 @@
     {
       "slug": "kin_iro_mosaic_thank_you_movie_2021",
       "status": "complete",
-      "metadata_sha256": "12378f3d550ebdadb565f6ad5747f332c0213693c29231c402745f99d74dde37",
-      "report_sha256": "16d17079e9915b5ac3389cf0312350ee2ca72fae6e29f1cb3b5673c6c260f858"
+      "metadata_sha256": "31a96126ecc718a571a97832814e27aea651a92b64953ac32abe2a3f104f68ac",
+      "report_sha256": "d51508e1d8f70cdc4d813ecc7d7c1cfffd0a31bdf84b335b5e5a29996cb497b6"
     },
     {
       "slug": "kin_iro_mosaic_tv_2013",
@@ -3283,8 +3315,8 @@
     {
       "slug": "love_live_nijigasaki_final_chapter_part_1_movie_2024",
       "status": "complete",
-      "metadata_sha256": "67319c318ec4cdb881c00918c4f92f184dcf9bb2138cadf5a30b66bbfd26121e",
-      "report_sha256": "89fc7086c1c5ae7a15b0e734836f68975d452ffc8f5ffa9d95af9f59b028c8e2"
+      "metadata_sha256": "fb6f3b80402e735cddd28a944ca250b327cdc80eba957d2486b4844d29e2c4e2",
+      "report_sha256": "1c7a547395e7b7be8e5d1f01201899c3822224fbbdffeb9e0741cab5f07ee449"
     },
     {
       "slug": "love_live_nijigasaki_next_sky_ova_2023",
@@ -3475,8 +3507,8 @@
     {
       "slug": "mahou_shoujo_lyrical_nanoha_reflection_movie_2017",
       "status": "complete",
-      "metadata_sha256": "8230cd2d7224513e0f89e354ff0b27cf79910a5c8d83d2ab16f90e2eb5d8e80d",
-      "report_sha256": "2a4181b61080cffa2bf8d95136867ae66d4cfd8aea1d669a53a4db58e0666882"
+      "metadata_sha256": "4c81d02ebdb6e0bca564790bb1bfa9630dcbdd8b1b6ecab65c74c2a46cf192ea",
+      "report_sha256": "cbbd655837a9e65bef39a8daee6991fe93938c653d19d3bab23d95b770c71e37"
     },
     {
       "slug": "mahou_shoujo_lyrical_nanoha_strikers_tv_2007",
@@ -3967,14 +3999,14 @@
     {
       "slug": "ohmuro_ke_dear_friends_movie_2024",
       "status": "complete",
-      "metadata_sha256": "dc622873f616cc07a13303eac2b704d19f67698c14f1a9ac028bf2855f0b5f57",
-      "report_sha256": "f3bd69cfce6ff056acd6e34c0dcf3ce37db6a79745599339d03e5055f82d6f4f"
+      "metadata_sha256": "954e933b2dd22fb52ffbd4406bb98ce676ba349457db26f0c25957471cd9e910",
+      "report_sha256": "69b1153644f4e514923a4e25181b021bce8c11a7a947a8c468687e68c89ed8cf"
     },
     {
       "slug": "ohmuro_ke_dear_sisters_movie_2024",
       "status": "complete",
-      "metadata_sha256": "a8d154463cde68f09829f3e1efc882cf05383a6279b99b9c3932d2e4a329a8fd",
-      "report_sha256": "237cbac7c1318a3dd52bf158be88070f2ba024b921469ad2b84f236d120c73cf"
+      "metadata_sha256": "56d324c6f41b5f51e29f193835418cd5df00b6bb9478db6e9dbe5210ee0c0401",
+      "report_sha256": "56df5ba3dbef759c086cfc556b69e38438c373cf0f636a0ad565859aec0b4e75"
     },
     {
       "slug": "omae_gotoki_ga_maou_ni_kateru_tv_2026",
@@ -4099,8 +4131,8 @@
     {
       "slug": "princess_connect_redive_season_2_tv_2022",
       "status": "complete",
-      "metadata_sha256": "684058adb57dfc11eb3e7067212d17b25199b983e12967dd49c1782e79b1c45d",
-      "report_sha256": "d6a20cc5712a582dd1486762d96e46ed005e00f594d35f5f0883edf90380250a"
+      "metadata_sha256": "02b7b2b82292cdddd1ac5a30750a8eaaa0f85edb799c3ab7589c7487d8772dfb",
+      "report_sha256": "9aedd30fa2901667ae7f7fd4a6d2c5b4f9bb872e9456335a8723645add2f0dce"
     },
     {
       "slug": "princess_principal_crown_handler_ch1_movie_2021",
@@ -4249,8 +4281,8 @@
     {
       "slug": "rod_read_or_die_tv_2003",
       "status": "complete",
-      "metadata_sha256": "0966b6e5bef93ba6d713c2bf0d8c3b2a25f07619162b0ce916aa3bc1697f1bab",
-      "report_sha256": "cbd21902bdd3ccb907631fb111e8e800965cb4e10c91ffd70e96537080bf1f70"
+      "metadata_sha256": "810e2aa5abfbdc0b2231099a3065c78803102f6960787283c1629f0b9b089811",
+      "report_sha256": "974a175eeeb94700b8ffc24b0e7844778cb397428be774016808e5855f05abe2"
     },
     {
       "slug": "rolling_girls_tv_2015",
@@ -4687,8 +4719,8 @@
     {
       "slug": "shy_tokyo_reconquest_tv_2024",
       "status": "complete",
-      "metadata_sha256": "2adb22f1093631555a73bb311fad8e27c2a8c2d5bf99384a350d208819e02ff9",
-      "report_sha256": "929027e7dfaba66e9882d4a1a5d2fa76838474e116bf3e7c6d7e6c9401a29a45"
+      "metadata_sha256": "c355eb86eb031149c7d229feea93f8faa04c01cae2c59df6a5c40fcbd5cd75ac",
+      "report_sha256": "a106f65d28cadadf709cb52b15a40cc45a7d17ac3df754d34519ff4891ec061a"
     },
     {
       "slug": "shy_tv_2023",
@@ -4849,8 +4881,8 @@
     {
       "slug": "strike_witches_501_takeoff_movie_2019",
       "status": "complete",
-      "metadata_sha256": "832ea2cc794ea78545811733a4c0c7371245e1b1336fbf907f1cc24d7a6814ae",
-      "report_sha256": "22eabeb2718e5af3e9ae598822c9a1be5ee54346f72c840f5aba15adb8f31e3e"
+      "metadata_sha256": "bd0233b9d7776089d5afc6658a642aa642906730fda31f6640505e8f36afb9c5",
+      "report_sha256": "cb19e39603ae9eb9212e82a1bddc3f6a2fc5de3ca10c8834ce452378889c849a"
     },
     {
       "slug": "strike_witches_501_takeoff_tv_2019",
@@ -5293,8 +5325,8 @@
     {
       "slug": "wagamama_high_spec_tv_2016",
       "status": "complete",
-      "metadata_sha256": "77fef9d384dac58c121835efd6e29847a9f5a30b828e9f523db43ad78f3b6c3d",
-      "report_sha256": "d588f259dd15daee1ad1d4f6ce081a1daeae652a060307bdc72cef146a2ae884"
+      "metadata_sha256": "096333125e9ada59e604c38e1b8f1c708d7e2446fd85848a7ae5affb2f48cf0f",
+      "report_sha256": "20bbb3ebd226717b089662a7becf45791b65267b4062ef50c9ab41b738c15d6a"
     },
     {
       "slug": "wakaba_girl_tv_2015",
@@ -5545,20 +5577,20 @@
     {
       "slug": "yuuki_yuuna_washio_sumi_ch1_movie_2017",
       "status": "complete",
-      "metadata_sha256": "51fdb211811861416500605c5d0b3f6e9d29524f551e12a9b19365d5c10b416b",
-      "report_sha256": "95cbf01919264240f9aa9aad18afa0361d99b65d4a8f131b0b499f09ec180f3d"
+      "metadata_sha256": "a79a126baa0dd678d293f4378e6ecb697d2c434fe799a9214fda023a97bb025b",
+      "report_sha256": "24c0f8c4df74e10d07aa2944f80f867699f7c663e30c82a38dcba3064bdc24dd"
     },
     {
       "slug": "yuuki_yuuna_washio_sumi_ch2_movie_2017",
       "status": "complete",
-      "metadata_sha256": "83034161b799bf7e586adf28a1e1cd3245f9016a379202b7b4cc50d135bd0fa3",
-      "report_sha256": "38a65702396e023f872e4cfee6dd96f9264e210af9c2356aa5fecb5a098b427b"
+      "metadata_sha256": "d12e35aadcb5f4994273303eb0c62793408fa522a8fd2e65a3dc0281f9c2f41f",
+      "report_sha256": "228f9ebc6a852c4007c9540a3c8dffbe72998280d1eed9e2f5b8c3f8bb1f1523"
     },
     {
       "slug": "yuuki_yuuna_washio_sumi_ch3_movie_2017",
       "status": "complete",
-      "metadata_sha256": "e7d5fb0b42167a3e9da9cabef48885dc730ecb6765a6400b04dac0510c54bd91",
-      "report_sha256": "1b6ccf7dda9ac704c7849acfd59da5879447680e2f0876c4a0b675326bc00d5c"
+      "metadata_sha256": "e69ea0967323d918994ced00ec7f3ed8566ec9208940473d587bc5161d348b2a",
+      "report_sha256": "c507c38e9a04adf4b200753fb5b1d1f96eac543d755e3cb5240845672312caf3"
     },
     {
       "slug": "yuuki_yuuna_washio_yuusha_tv_2017",
@@ -5569,8 +5601,8 @@
     {
       "slug": "yuyushiki_ova_2017",
       "status": "complete",
-      "metadata_sha256": "35ffe6425c4c0bd26dfb106e0925e85c7efb74dca4071a05a89a4227bdfb7f84",
-      "report_sha256": "9f13361e2128f05846b53dd6780a1a898367cc430344240a6a25864b2981e426"
+      "metadata_sha256": "e79df6eb79efe30da53dc2185268b106a616eba412ac9bf68c09c654045d2e63",
+      "report_sha256": "ccfcb5707d991613abe63bb573871529e3028a7173d439538391b22cae87a8da"
     },
     {
       "slug": "yuyushiki_tv_2013",
@@ -5581,8 +5613,8 @@
     {
       "slug": "z_x_code_reunion_tv_2019",
       "status": "complete",
-      "metadata_sha256": "70405b6d9f994d1032ee058092a715a48bf6dbb0a483e8878cb42727b35b5d36",
-      "report_sha256": "19ba2d204b63c1f1286241d6df8f4cd737c6a4b6030c7fb8842827c9516bbd73"
+      "metadata_sha256": "360be78ecf13d8b98ccae6f7e56537b8e30abea834851b32fc7b05c9db283d8e",
+      "report_sha256": "522628f5eb7ba991e92e8155e79a2fefaee28c4bc70da01bf744c6899af0644c"
     },
     {
       "slug": "zatsu_tabi_tv_2025",
@@ -5629,5 +5661,5 @@
       "forbid_acquisition_details": true
     }
   },
-  "plan_sha256": "46d9ec056d3473cb6c5e3cffad5156995d77351645ee45ef4bd8657dabdcbc9e"
+  "plan_sha256": "16b1a58ff8c886e9462ebff7104c9ee4aa50a850ad71158a483b15accc8fc1ed"
 }
