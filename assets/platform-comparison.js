@@ -48,11 +48,11 @@
     numericMissingLast,
   };
 
-  function makePlatformCell(platform, metric) {
+  function makePlatformCell(platform, metric, labels = stateLabels) {
     const wrapper = document.createElement("span");
     wrapper.className = `platform-state ${platform.state}`;
     const metricText = metric === null || metric === undefined ? "" : ` ${metric}`;
-    wrapper.append(`${stateLabels[platform.state]}${metricText}`);
+    wrapper.append(`${labels[platform.state]}${metricText}`);
     platform.urls.forEach((url, index) => {
       const link = document.createElement("a");
       link.href = url;
@@ -116,10 +116,18 @@
         { title: "年份／媒介", field: "year_medium", minWidth: 130 },
         { title: "bgm 排名", field: "platforms.bangumi.rank", sorter: numericMissingLast, minWidth: 110 },
         {
-          title: "Bangumi 百合",
+          title: "Bangumi 维基标签",
           field: "bangumi_state",
           minWidth: 190,
-          formatter: (cell) => makePlatformCell(cell.getRow().getData().platforms.bangumi),
+          formatter: (cell) => makePlatformCell(
+            cell.getRow().getData().platforms.bangumi,
+            null,
+            {
+              tagged: "含“百合”",
+              untagged: "不含“百合”",
+              no_corresponding_entry: "无可对应页面",
+            },
+          ),
         },
         {
           title: "百合标签比例",
