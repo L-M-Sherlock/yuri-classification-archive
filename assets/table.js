@@ -1103,7 +1103,7 @@ if (typeof globalThis !== "undefined") {
           field: "bangumi_rank",
           formatter: bangumiRankFormatter,
           sorter: (a, b) => (a ?? Number.MAX_SAFE_INTEGER) - (b ?? Number.MAX_SAFE_INTEGER),
-          width: 150,
+          width: 104,
           accessorDownload: bangumiMetricDownload,
         },
         {
