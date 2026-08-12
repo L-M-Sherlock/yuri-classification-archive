@@ -1099,7 +1099,7 @@ if (typeof globalThis !== "undefined") {
           width: 82,
         },
         {
-          title: "Bangumi Rank",
+          title: "bgm 排名",
           field: "bangumi_rank",
           formatter: bangumiRankFormatter,
           sorter: (a, b) => (a ?? Number.MAX_SAFE_INTEGER) - (b ?? Number.MAX_SAFE_INTEGER),
