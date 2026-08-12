@@ -777,27 +777,6 @@ if (typeof globalThis !== "undefined") {
     );
   }
 
-  function responsiveCollapseFormatter(entries) {
-    const table = document.createElement("table");
-    for (const entry of entries || []) {
-      if (entry.field === "relationship_profiles") continue;
-      const row = document.createElement("tr");
-      const titleCell = document.createElement("td");
-      const valueCell = document.createElement("td");
-      const title = document.createElement("strong");
-      title.textContent = entry.title || "";
-      titleCell.appendChild(title);
-      if (entry.value instanceof Node) {
-        valueCell.appendChild(entry.value);
-      } else {
-        valueCell.textContent = String(entry.value ?? "");
-      }
-      row.append(titleCell, valueCell);
-      table.appendChild(row);
-    }
-    return table.rows.length ? table : "";
-  }
-
   function populateSelect(select, options) {
     for (const [value, label] of options) {
       const option = document.createElement("option");
@@ -1110,7 +1089,6 @@ if (typeof globalThis !== "undefined") {
       index: "slug",
       layout: "fitDataStretch",
       responsiveLayout: "collapse",
-      responsiveLayoutCollapseFormatter: responsiveCollapseFormatter,
       pagination: "local",
       paginationSize: 25,
       paginationSizeSelector: [25, 50, 100, true],
@@ -1342,7 +1320,6 @@ if (typeof globalThis !== "undefined") {
         {
           title: "命中关系",
           field: "relationship_profiles",
-          responsive: 10,
           formatter: matchingRelationshipsFormatter,
           visible: false,
           download: true,
@@ -1369,11 +1346,6 @@ if (typeof globalThis !== "undefined") {
     function applyFilters() {
       const state = readUiState();
       table.setFilter((item) => YuriCatalogFilterLogic.matchesItem(item, state));
-      if (YuriCatalogFilterLogic.hasRelationshipPredicate(state)) {
-        table.showColumn("relationship_profiles");
-      } else {
-        table.hideColumn("relationship_profiles");
-      }
       activeQuerySummary.textContent = YuriCatalogFilterLogic.describeState(
         state,
         currentLabelOverrides(),
