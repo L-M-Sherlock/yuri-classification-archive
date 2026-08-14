@@ -58,7 +58,7 @@ const YuriCatalogFilterLogic = (() => {
     confidence: "结论置信度",
     official_source_scopes: "官方来源层级",
     official_source_surfaces: "官方材料位置",
-    platform_facets: "跨平台作品属性",
+    platform_facets: "统一标签",
     bangumi_tags: "Bangumi 标签",
     bangumi_region: "地区标签",
     bangumi_adaptation_source: "改编来源",
@@ -497,6 +497,7 @@ const YuriCatalogFilterLogic = (() => {
 
   function describeState(state, labelOverrides = {}) {
     const clauses = [];
+    let hasPlatformFacetClause = false;
     const query = (state.query || "").trim();
     if (query) clauses.push(`标题包含“${query}”`);
 
@@ -578,20 +579,21 @@ const YuriCatalogFilterLogic = (() => {
     }
     for (const [field, values] of Object.entries(state.multi || {})) {
       if (values?.length) {
+        const labels = values.map((value) =>
+          displayStateLabel(field, value, labelOverrides),
+        );
+        if (field === "platform_facets") hasPlatformFacetClause = true;
         clauses.push(
-          `${filterFieldLabels[field] || field}${
-            field === "platform_facets" || field === "bangumi_tags"
-              ? "同时包含"
-              : "包含"
-          }${values
-            .map((value) => displayStateLabel(field, value, labelOverrides))
-            .join(
-              field === "platform_facets" || field === "bangumi_tags"
-                ? "、"
-                : "或",
-            )}`,
+          field === "platform_facets"
+            ? `同时包含：${labels.join("、")}`
+            : `${filterFieldLabels[field] || field}${
+                field === "bangumi_tags" ? "同时包含" : "包含"
+              }${labels.join(field === "bangumi_tags" ? "、" : "或")}`,
         );
       }
+    }
+    if (clauses.length === 1 && hasPlatformFacetClause) {
+      return `当前问题：${clauses[0]}。`;
     }
     return clauses.length
       ? `当前问题：找出${clauses.join("，并且")}的作品。`
@@ -1118,7 +1120,7 @@ if (typeof globalThis !== "undefined") {
     ]);
     if (!response.ok) throw new Error(`catalog HTTP ${response.status}`);
     if (!facetsResponse.ok) {
-      throw new Error(`跨平台属性 HTTP ${facetsResponse.status}`);
+      throw new Error(`统一标签 HTTP ${facetsResponse.status}`);
     }
     const payload = await response.json();
     const facetsPayload = await facetsResponse.json();
@@ -1136,7 +1138,7 @@ if (typeof globalThis !== "undefined") {
       !Array.isArray(facetsPayload.items) ||
       !Array.isArray(facetsPayload.facets)
     ) {
-      throw new Error("跨平台属性数据格式不受支持");
+      throw new Error("统一标签数据格式不受支持");
     }
     const facetDefinitions = facetsPayload.facets;
     const facetLabels = new Map(
@@ -1367,7 +1369,7 @@ if (typeof globalThis !== "undefined") {
           accessorDownload: labelsText,
         },
         {
-          title: "跨平台统一标签",
+          title: "统一标签",
           field: "platform_facets",
           formatter: labelsFormatter,
           visible: false,
