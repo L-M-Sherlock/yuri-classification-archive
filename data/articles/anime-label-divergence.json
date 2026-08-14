@@ -10,7 +10,7 @@
   },
   "platform_coverage": {
     "AniList Yuri": {
-      "positive": 283,
+      "positive": 281,
       "exact_entries": 680
     },
     "Anime-Planet GL": {
@@ -28,10 +28,10 @@
   },
   "common_coverage": 664,
   "common_signatures": {
-    "B---": 262,
-    "B-N-": 134,
-    "--N-": 53,
-    "----": 133,
+    "B---": 263,
+    "B-N-": 133,
+    "--N-": 52,
+    "----": 134,
     "BANM": 56,
     "BAN-": 14,
     "B-NM": 8,
@@ -39,8 +39,8 @@
     "BA--": 1,
     "-ANM": 1
   },
-  "source_sha256": "de3f6ee534e98b9b892d59917fead7b05034d8ca1921aeeae317c0142268fa0b",
-  "analysis_summary_sha256": "3360a7d3e980b965ed742ac463eb5b43ed89a26c83af0f48294af068154afd2f",
+  "source_sha256": "22fbd76d76362a899adef377ec688d28528e2cd2009cbe9a8141ba6696c4df77",
+  "analysis_summary_sha256": "70509e5af742a8c2fab51a06765721c87218c8b11cd0447d10ddeacaeddeeab2",
   "items": [
     {
       "slug": "shirobako_tv_2014",
@@ -126,7 +126,7 @@
           "urls": [
             "https://anilist.co/anime/100178"
           ],
-          "yuri_relevance": 82
+          "yuri_relevance": 80
         },
         "myanimelist": {
           "state": "untagged",
@@ -175,7 +175,7 @@
           "urls": [
             "https://anilist.co/anime/9756"
           ],
-          "yuri_relevance": 71
+          "yuri_relevance": 67
         },
         "myanimelist": {
           "state": "untagged",
@@ -1095,7 +1095,7 @@
           "urls": [
             "https://anilist.co/anime/98444"
           ],
-          "yuri_relevance": 40
+          "yuri_relevance": 32
         },
         "myanimelist": {
           "state": "untagged",
@@ -1339,7 +1339,7 @@
           "urls": [
             "https://anilist.co/anime/18679"
           ],
-          "yuri_relevance": 57
+          "yuri_relevance": 62
         },
         "myanimelist": {
           "state": "untagged",
@@ -2023,7 +2023,7 @@
           "urls": [
             "https://anilist.co/anime/163571"
           ],
-          "yuri_relevance": 57
+          "yuri_relevance": 62
         },
         "myanimelist": {
           "state": "untagged",
@@ -3595,7 +3595,7 @@
           "urls": [
             "https://anilist.co/anime/77"
           ],
-          "yuri_relevance": 56
+          "yuri_relevance": 60
         },
         "myanimelist": {
           "state": "untagged",
@@ -3889,7 +3889,7 @@
           "urls": [
             "https://anilist.co/anime/7062"
           ],
-          "yuri_relevance": 60
+          "yuri_relevance": 46
         },
         "myanimelist": {
           "state": "untagged",
@@ -3987,7 +3987,7 @@
           "urls": [
             "https://anilist.co/anime/177501"
           ],
-          "yuri_relevance": 54
+          "yuri_relevance": 58
         },
         "myanimelist": {
           "state": "untagged",
@@ -4084,7 +4084,7 @@
           "urls": [
             "https://anilist.co/anime/14131"
           ],
-          "yuri_relevance": 32
+          "yuri_relevance": 30
         },
         "myanimelist": {
           "state": "untagged",
@@ -6324,7 +6324,7 @@
           "urls": [
             "https://anilist.co/anime/21506"
           ],
-          "yuri_relevance": 70
+          "yuri_relevance": 65
         },
         "myanimelist": {
           "state": "untagged",
@@ -10594,11 +10594,11 @@
           ]
         },
         "anilist": {
-          "state": "tagged",
+          "state": "untagged",
           "urls": [
             "https://anilist.co/anime/603"
           ],
-          "yuri_relevance": 57
+          "yuri_relevance": 0
         },
         "myanimelist": {
           "state": "untagged",
@@ -10899,7 +10899,7 @@
           "urls": [
             "https://anilist.co/anime/187869"
           ],
-          "yuri_relevance": 93
+          "yuri_relevance": 92
         },
         "myanimelist": {
           "state": "tagged",
@@ -17661,11 +17661,11 @@
           ]
         },
         "anilist": {
-          "state": "tagged",
+          "state": "untagged",
           "urls": [
             "https://anilist.co/anime/6802"
           ],
-          "yuri_relevance": 20
+          "yuri_relevance": 0
         },
         "myanimelist": {
           "state": "untagged",
@@ -20168,7 +20168,7 @@
           "urls": [
             "https://anilist.co/anime/181839"
           ],
-          "yuri_relevance": 51
+          "yuri_relevance": 46
         },
         "myanimelist": {
           "state": "untagged",
@@ -20367,7 +20367,7 @@
           "urls": [
             "https://anilist.co/anime/128545"
           ],
-          "yuri_relevance": 60
+          "yuri_relevance": 66
         },
         "myanimelist": {
           "state": "untagged",
@@ -22070,7 +22070,7 @@
           "urls": [
             "https://anilist.co/anime/106967"
           ],
-          "yuri_relevance": 54
+          "yuri_relevance": 58
         },
         "myanimelist": {
           "state": "untagged",
@@ -24319,8 +24319,8 @@
         "anilist": {
           "state": "tagged",
           "urls": [
-            "https://anilist.co/anime/667/Kashimashi-Girl-Meets-Girl",
-            "https://anilist.co/anime/1654/Kashimashi-Girl-Meets-Girl--Shoujo-wa-Shoujo-ni-Koi-wo-Shita"
+            "https://anilist.co/anime/667",
+            "https://anilist.co/anime/1654"
           ],
           "yuri_relevance": 40
         },
@@ -25966,7 +25966,7 @@
           "urls": [
             "https://anilist.co/anime/155419"
           ],
-          "yuri_relevance": 67
+          "yuri_relevance": 71
         },
         "myanimelist": {
           "state": "untagged",
@@ -26015,7 +26015,7 @@
           "urls": [
             "https://anilist.co/anime/143270"
           ],
-          "yuri_relevance": 65
+          "yuri_relevance": 36
         },
         "myanimelist": {
           "state": "untagged",
@@ -28433,7 +28433,7 @@
           "urls": [
             "https://anilist.co/anime/195734"
           ],
-          "yuri_relevance": 55
+          "yuri_relevance": 44
         },
         "myanimelist": {
           "state": "untagged",
@@ -33246,7 +33246,7 @@
           "urls": [
             "https://anilist.co/anime/163078"
           ],
-          "yuri_relevance": 62
+          "yuri_relevance": 58
         },
         "myanimelist": {
           "state": "untagged",
@@ -33840,7 +33840,7 @@
           "urls": [
             "https://anilist.co/anime/191718"
           ],
-          "yuri_relevance": 85
+          "yuri_relevance": 86
         },
         "myanimelist": {
           "state": "tagged",
@@ -34205,6 +34205,6 @@
       "row_number": 696
     }
   ],
-  "release_plan_sha256": "28f986647a96a911aae1452bf322d3781728410ef3b78ed5d019069d56f79104",
+  "release_plan_sha256": "21bc9af39bbfc4f362ff9be15fc1472f560677535fec1c716f1b48bf1f9a6f65",
   "target_slugs_sha256": "f94c9de0a014ad6248c7e7dd5da09c8f477d1488fd7778466007c168b77962bf"
 }
