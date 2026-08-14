@@ -58,6 +58,7 @@ const YuriCatalogFilterLogic = (() => {
     confidence: "结论置信度",
     official_source_scopes: "官方来源层级",
     official_source_surfaces: "官方材料位置",
+    platform_facets: "跨平台作品属性",
     bangumi_tags: "Bangumi 标签",
     bangumi_region: "地区标签",
     bangumi_adaptation_source: "改编来源",
@@ -142,6 +143,8 @@ const YuriCatalogFilterLogic = (() => {
   const multiFields = {
     official_source_scopes: "official_scope",
     official_source_surfaces: "official_surface",
+    platform_facets: "facet",
+    // Keep legacy tag links readable; the visible control now uses facets.
     bangumi_tags: "tag",
   };
   const scalarListFields = {
@@ -328,7 +331,7 @@ const YuriCatalogFilterLogic = (() => {
         .map((value) => canonicalFilterValue(field, value?.code))
         .filter(Boolean),
     );
-    return field === "bangumi_tags"
+    return field === "platform_facets" || field === "bangumi_tags"
       ? selected.every((value) => codes.has(value))
       : selected.some((value) => codes.has(value));
   }
@@ -577,10 +580,16 @@ const YuriCatalogFilterLogic = (() => {
       if (values?.length) {
         clauses.push(
           `${filterFieldLabels[field] || field}${
-            field === "bangumi_tags" ? "同时包含" : "包含"
+            field === "platform_facets" || field === "bangumi_tags"
+              ? "同时包含"
+              : "包含"
           }${values
             .map((value) => displayStateLabel(field, value, labelOverrides))
-            .join(field === "bangumi_tags" ? "、" : "或")}`,
+            .join(
+              field === "platform_facets" || field === "bangumi_tags"
+                ? "、"
+                : "或",
+            )}`,
         );
       }
     }
@@ -701,7 +710,7 @@ if (typeof globalThis !== "undefined") {
   const multiFilterElements = {
     official_source_scopes: document.getElementById("official-scope-filter"),
     official_source_surfaces: document.getElementById("official-surface-filter"),
-    bangumi_tags: document.getElementById("bangumi-tag-filter"),
+    platform_facets: document.getElementById("platform-facet-filter"),
   };
   const allControls = [
     searchInput,
@@ -750,6 +759,33 @@ if (typeof globalThis !== "undefined") {
     return Array.from(map.entries()).sort((a, b) =>
       a[1].localeCompare(b[1], "zh-CN"),
     );
+  }
+
+  function sortPlatformFacetOptions(items, facetDefinitions) {
+    const definitions = new Map(
+      (Array.isArray(facetDefinitions) ? facetDefinitions : []).map((facet) => [
+        facet.id,
+        facet,
+      ]),
+    );
+    const observed = new Set();
+    for (const item of items || []) {
+      for (const value of Array.isArray(item?.platform_facets)
+        ? item.platform_facets
+        : []) {
+        if (value?.code) observed.add(value.code);
+      }
+    }
+    return Array.from(observed)
+      .map((code) => definitions.get(code))
+      .filter(Boolean)
+      .sort(
+        (a, b) =>
+          (a.order || Number.MAX_SAFE_INTEGER) -
+            (b.order || Number.MAX_SAFE_INTEGER) ||
+          String(a.label || a.id).localeCompare(String(b.label || b.id), "zh-CN"),
+      )
+      .map((facet) => [facet.id, facet.label]);
   }
 
   function uniqueScalarListOptions(items, field) {
@@ -1071,11 +1107,21 @@ if (typeof globalThis !== "undefined") {
     const catalogVersion = config.catalogVersion
       ? `?v=${encodeURIComponent(config.catalogVersion)}`
       : "";
-    const response = await fetch(
-      `${config.basePath}/data/catalog.json${catalogVersion}`,
-    );
-    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    const platformFacetsVersion = config.platformFacetsVersion
+      ? `?v=${encodeURIComponent(config.platformFacetsVersion)}`
+      : "";
+    const [response, facetsResponse] = await Promise.all([
+      fetch(`${config.basePath}/data/catalog.json${catalogVersion}`),
+      fetch(
+        `${config.basePath}/data/platform-facets.json${platformFacetsVersion}`,
+      ),
+    ]);
+    if (!response.ok) throw new Error(`catalog HTTP ${response.status}`);
+    if (!facetsResponse.ok) {
+      throw new Error(`跨平台属性 HTTP ${facetsResponse.status}`);
+    }
     const payload = await response.json();
+    const facetsPayload = await facetsResponse.json();
     if (
       !payload ||
       payload.schema_version !== 5 ||
@@ -1083,7 +1129,42 @@ if (typeof globalThis !== "undefined") {
     ) {
       throw new Error("公开总表格式不受支持");
     }
-    const items = payload.items;
+    if (
+      !facetsPayload ||
+      facetsPayload.schema_version !== 1 ||
+      facetsPayload.kind !== "public_platform_facets" ||
+      !Array.isArray(facetsPayload.items) ||
+      !Array.isArray(facetsPayload.facets)
+    ) {
+      throw new Error("跨平台属性数据格式不受支持");
+    }
+    const facetDefinitions = facetsPayload.facets;
+    const facetLabels = new Map(
+      facetDefinitions.map((facet) => [facet.id, facet.label]),
+    );
+    const facetsBySlug = new Map(
+      facetsPayload.items.map((row) => [
+        row.slug,
+        new Map(
+          (Array.isArray(row.facets) ? row.facets : [])
+            .filter((code) => facetLabels.has(code))
+            .map((code) => [
+              code,
+              {
+                code,
+                label: facetLabels.get(code),
+                platforms: Array.isArray(row.facet_platforms?.[code])
+                  ? row.facet_platforms[code]
+                  : [],
+              },
+            ]),
+        ),
+      ]),
+    );
+    const items = payload.items.map((item) => ({
+      ...item,
+      platform_facets: Array.from(facetsBySlug.get(item.slug)?.values() || []),
+    }));
 
     for (const field of Object.keys(scalarFilterElements)) {
       populateSelect(
@@ -1105,9 +1186,11 @@ if (typeof globalThis !== "undefined") {
       populateMultiChoices(
         multiFilterElements[field],
         field,
-        field === "bangumi_tags"
-          ? YuriCatalogFilterLogic.sortListOptionsByWorkCount(items, field)
-          : uniqueListOptions(items, field),
+        field === "platform_facets"
+          ? sortPlatformFacetOptions(items, facetDefinitions)
+          : field === "bangumi_tags"
+            ? YuriCatalogFilterLogic.sortListOptionsByWorkCount(items, field)
+            : uniqueListOptions(items, field),
       );
     }
     writeUiState(YuriCatalogFilterLogic.parseState(window.location.search));
@@ -1284,12 +1367,15 @@ if (typeof globalThis !== "undefined") {
           accessorDownload: labelsText,
         },
         {
-          title: "Bangumi 标签",
-          field: "bangumi_tags",
+          title: "跨平台统一标签",
+          field: "platform_facets",
           formatter: labelsFormatter,
           visible: false,
           download: true,
-          accessorDownload: labelsText,
+          accessorDownload: (value) =>
+            Array.isArray(value)
+              ? value.map((entry) => entry?.label).filter(Boolean).join("、")
+              : "",
         },
         {
           title: "Bangumi 地区标签",

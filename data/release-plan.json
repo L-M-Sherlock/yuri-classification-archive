@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "kind": "public_release_plan",
-  "generated_at": "2026-08-12T07:42:11+00:00",
+  "generated_at": "2026-08-14T00:59:18+00:00",
   "base": {
-    "public_repository_head": "6a6ed54895b55760c54fe529935a645b9298ab84",
+    "public_repository_head": "04c9d00a93b8680872b71ca7ad5aaebe189bbb14",
     "catalog_path": "data/catalog.json",
-    "catalog_sha256": "8b767ab284ac25cffb47d52b790148740862221a172caef82a6c796193834261",
+    "catalog_sha256": "607c68a29fec20eda270464c923629b310e63b98c01882002b9dcdf3e7fce5dc",
     "slug_count": 696,
     "slugs": [
       "a_channel_nabe_wo_tabeyou_ova_2017",
@@ -1412,7 +1412,10 @@
   "delta": {
     "added_slugs": [],
     "removed_slugs": [],
-    "changed_slugs": [],
+    "changed_slugs": [
+      "bang_dream_its_mygo_movie_part2_2024",
+      "morita_san_wa_mukuchi_ova_2011"
+    ],
     "refresh_slugs": [],
     "changed_detection_pending": false,
     "changed_basis": {
@@ -1759,7 +1762,7 @@
     {
       "slug": "bang_dream_its_mygo_movie_part2_2024",
       "status": "complete",
-      "metadata_sha256": "e3bf868911dcf839266c78be90e3ffc321031995a78086bb4c29373c2d49a1a1",
+      "metadata_sha256": "04dee12b5b5678b893cb0dcacd4257b3f0ab046ec22972eacc7571b525bb5a71",
       "report_sha256": "a023cc2a7cc01ff32245fe3eee37ba30c60d9d2a5f3271d4e9f14af39f9f04c2"
     },
     {
@@ -3739,7 +3742,7 @@
     {
       "slug": "morita_san_wa_mukuchi_ova_2011",
       "status": "complete",
-      "metadata_sha256": "490488e371a83fe0d54b1725d3d7cb3e046508a5e5d0c503e05e74b477366e55",
+      "metadata_sha256": "b9eabf0cb9e3791577a6f1e5ae2df4d5f99c19de885ae0ba04cc12c91af55b2e",
       "report_sha256": "e92c611d62f4d8b73b3aedd31677007b355045eb325b4404a45305f85d51bf2f"
     },
     {
@@ -5629,5 +5632,5 @@
       "forbid_acquisition_details": true
     }
   },
-  "plan_sha256": "58ff6be2317fc4d4702586953c68853382f3d5ee274268d2ffe7f500893d7e3e"
+  "plan_sha256": "28f986647a96a911aae1452bf322d3781728410ef3b78ed5d019069d56f79104"
 }
