@@ -3,10 +3,10 @@
   "kind": "public_platform_facets",
   "classification": "public",
   "source": {
-    "snapshot_sha256": "c28a0dbb36c6a69e575107e35f4561962e72731e6f75abd676725b9d7ee070d7",
-    "store_sha256": "dcb6c2fa63ea2728bb5019adcb17f44c9836a0c996393cab8f5f37df94dc1313",
-    "updated_at": "2026-08-14T09:45:56+00:00",
-    "vocabulary_sha256": "69268d54750de1fa7e3436e4a1bfb0dc4aa27a3a820cb28f90ec9d4537b0a0e5",
+    "snapshot_sha256": "154abf993de74326c56e64cf72c15606ed3d469f6803db52fbd0ef1c802b7108",
+    "store_sha256": "670dec66e112e31ae664ec8a1e32946480c9842c798f583c8e8f8369cf3fe53b",
+    "updated_at": "2026-08-14T19:52:59+00:00",
+    "vocabulary_sha256": "07a89b3b5ea6349219ede0ff5e05cf26668ee7b60d66c850b7ae3503bcc6af7b",
     "item_count": 696
   },
   "policy": {
@@ -30,8 +30,8 @@
       "success": 680
     },
     "myanimelist": {
-      "no_exact_entry": 15,
-      "success": 681
+      "no_exact_entry": 16,
+      "success": 680
     }
   },
   "facets": [
@@ -45,7 +45,7 @@
         "bangumi": 349,
         "anime_planet": 229,
         "anilist": 366,
-        "myanimelist": 100
+        "myanimelist": 190
       }
     },
     {
@@ -58,7 +58,7 @@
         "bangumi": 18,
         "anime_planet": 0,
         "anilist": 67,
-        "myanimelist": 8
+        "myanimelist": 11
       }
     },
     {
@@ -84,7 +84,7 @@
         "bangumi": 10,
         "anime_planet": 15,
         "anilist": 25,
-        "myanimelist": 2
+        "myanimelist": 15
       }
     },
     {
@@ -110,7 +110,7 @@
         "bangumi": 291,
         "anime_planet": 63,
         "anilist": 99,
-        "myanimelist": 36
+        "myanimelist": 52
       }
     },
     {
@@ -123,7 +123,7 @@
         "bangumi": 337,
         "anime_planet": 263,
         "anilist": 328,
-        "myanimelist": 236
+        "myanimelist": 237
       }
     },
     {
@@ -149,7 +149,7 @@
         "bangumi": 253,
         "anime_planet": 162,
         "anilist": 188,
-        "myanimelist": 156
+        "myanimelist": 152
       }
     },
     {
@@ -162,7 +162,7 @@
         "bangumi": 29,
         "anime_planet": 50,
         "anilist": 77,
-        "myanimelist": 62
+        "myanimelist": 61
       }
     },
     {
@@ -201,7 +201,7 @@
         "bangumi": 26,
         "anime_planet": 31,
         "anilist": 59,
-        "myanimelist": 14
+        "myanimelist": 29
       }
     },
     {
@@ -214,7 +214,7 @@
         "bangumi": 301,
         "anime_planet": 150,
         "anilist": 148,
-        "myanimelist": 106
+        "myanimelist": 107
       }
     },
     {
@@ -227,7 +227,7 @@
         "bangumi": 106,
         "anime_planet": 91,
         "anilist": 107,
-        "myanimelist": 97
+        "myanimelist": 95
       }
     },
     {
@@ -235,12 +235,12 @@
       "label": "音乐",
       "dimension": "活动与兴趣",
       "order": 16,
-      "work_count": 108,
+      "work_count": 109,
       "platform_work_counts": {
         "bangumi": 100,
         "anime_planet": 82,
         "anilist": 95,
-        "myanimelist": 31
+        "myanimelist": 55
       }
     },
     {
@@ -326,12 +326,12 @@
       "label": "超能力",
       "dimension": "世界观与特殊能力",
       "order": 23,
-      "work_count": 106,
+      "work_count": 107,
       "platform_work_counts": {
         "bangumi": 18,
         "anime_planet": 37,
         "anilist": 89,
-        "myanimelist": 4
+        "myanimelist": 24
       }
     },
     {
@@ -339,12 +339,12 @@
       "label": "魔法少女",
       "dimension": "世界观与特殊能力",
       "order": 24,
-      "work_count": 90,
+      "work_count": 92,
       "platform_work_counts": {
         "bangumi": 84,
         "anime_planet": 57,
         "anilist": 72,
-        "myanimelist": 18
+        "myanimelist": 42
       }
     },
     {
@@ -357,7 +357,7 @@
         "bangumi": 39,
         "anime_planet": 11,
         "anilist": 70,
-        "myanimelist": 1
+        "myanimelist": 12
       }
     },
     {
@@ -383,7 +383,7 @@
         "bangumi": 0,
         "anime_planet": 14,
         "anilist": 19,
-        "myanimelist": 5
+        "myanimelist": 10
       }
     },
     {
@@ -430,12 +430,12 @@
       "label": "心理",
       "dimension": "叙事结构与主题",
       "order": 31,
-      "work_count": 58,
+      "work_count": 60,
       "platform_work_counts": {
         "bangumi": 0,
         "anime_planet": 29,
         "anilist": 55,
-        "myanimelist": 8
+        "myanimelist": 32
       }
     },
     {
@@ -456,12 +456,12 @@
       "label": "空气系",
       "dimension": "视觉与制作风格",
       "order": 33,
-      "work_count": 377,
+      "work_count": 378,
       "platform_work_counts": {
         "bangumi": 0,
         "anime_planet": 0,
         "anilist": 376,
-        "myanimelist": 81
+        "myanimelist": 130
       }
     }
   ],
@@ -856,7 +856,8 @@
       ],
       "facet_platforms": {
         "school_setting": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "drama": [
           "bangumi",
@@ -979,7 +980,8 @@
         "school_setting": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "drama": [
           "anime_planet",
@@ -1121,7 +1123,8 @@
       ],
       "facet_platforms": {
         "school_setting": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "comedy": [
           "bangumi"
@@ -1206,7 +1209,8 @@
         "school_setting": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "countryside": [
           "anime_planet"
@@ -1220,7 +1224,8 @@
         "iyashikei": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "comedy": [
           "anilist"
@@ -1396,7 +1401,8 @@
       "facet_platforms": {
         "school_setting": [
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "comedy": [
           "bangumi"
@@ -1424,7 +1430,8 @@
           "anilist"
         ],
         "super_power": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "ensemble_cast": [
           "anilist"
@@ -1451,7 +1458,8 @@
         "school_setting": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "slice_of_life": [
           "bangumi"
@@ -1471,7 +1479,8 @@
           "myanimelist"
         ],
         "cute_girls_doing_cute_things": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ]
       }
     },
@@ -1540,7 +1549,8 @@
         "school_setting": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "countryside": [
           "anilist"
@@ -1583,7 +1593,8 @@
         "school_setting": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "slice_of_life": [
           "bangumi"
@@ -1715,7 +1726,8 @@
         "iyashikei": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "fantasy": [
           "bangumi",
@@ -1890,7 +1902,8 @@
         "school_setting": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "slice_of_life": [
           "bangumi",
@@ -1900,7 +1913,8 @@
           "bangumi"
         ],
         "music": [
-          "bangumi"
+          "bangumi",
+          "myanimelist"
         ]
       }
     },
@@ -2187,7 +2201,8 @@
           "myanimelist"
         ],
         "military": [
-          "anime_planet"
+          "anime_planet",
+          "myanimelist"
         ],
         "science_fiction": [
           "myanimelist"
@@ -2196,7 +2211,8 @@
           "anilist"
         ],
         "cute_girls_doing_cute_things": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ]
       }
     },
@@ -2233,7 +2249,8 @@
         ],
         "military": [
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "fantasy": [
           "bangumi"
@@ -2348,7 +2365,8 @@
         "school_setting": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "slice_of_life": [
           "bangumi"
@@ -3201,7 +3219,8 @@
         "school_setting": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "slice_of_life": [
           "bangumi"
@@ -3487,12 +3506,14 @@
         "drama",
         "action",
         "fantasy",
+        "super_power",
         "isekai"
       ],
       "facet_platforms": {
         "school_setting": [
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "slice_of_life": [
           "anime_planet",
@@ -3511,6 +3532,9 @@
         "fantasy": [
           "bangumi",
           "anime_planet",
+          "myanimelist"
+        ],
+        "super_power": [
           "myanimelist"
         ],
         "isekai": [
@@ -3541,7 +3565,8 @@
         "school_setting": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "slice_of_life": [
           "anime_planet",
@@ -3645,7 +3670,8 @@
         "school_setting": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "slice_of_life": [
           "bangumi",
@@ -4152,7 +4178,8 @@
         "military": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "fantasy": [
           "bangumi"
@@ -4214,7 +4241,8 @@
         ],
         "mecha": [
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "episodic": [
           "anime_planet"
@@ -4370,7 +4398,8 @@
         "music": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "band": [
           "anilist"
@@ -4397,7 +4426,8 @@
         "school_setting": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "slice_of_life": [
           "bangumi",
@@ -4525,7 +4555,8 @@
         "music": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "idol": [
           "bangumi",
@@ -4565,7 +4596,8 @@
         "school_setting": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "comedy": [
           "bangumi",
@@ -4595,7 +4627,8 @@
       ],
       "facet_platforms": {
         "school_setting": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "action": [
           "bangumi",
@@ -4634,7 +4667,8 @@
         "school_setting": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "slice_of_life": [
           "bangumi"
@@ -4775,7 +4809,8 @@
           "anilist"
         ],
         "military": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "fantasy": [
           "bangumi",
@@ -4796,7 +4831,8 @@
         ],
         "mecha": [
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "tragedy": [
           "anilist"
@@ -4979,7 +5015,8 @@
           "myanimelist"
         ],
         "isekai": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "tragedy": [
           "anilist"
@@ -5094,7 +5131,8 @@
           "anilist"
         ],
         "psychological": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "tragedy": [
           "anilist"
@@ -5272,7 +5310,8 @@
           "anilist"
         ],
         "cute_girls_doing_cute_things": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ]
       }
     },
@@ -5670,7 +5709,8 @@
           "anilist"
         ],
         "cute_girls_doing_cute_things": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ]
       }
     },
@@ -5766,7 +5806,8 @@
         "music": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "idol": [
           "bangumi",
@@ -5887,7 +5928,8 @@
         "magical_girl": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "isekai": [
           "anilist"
@@ -5931,13 +5973,13 @@
         "action": [
           "bangumi",
           "anime_planet",
-          "anilist",
-          "myanimelist"
+          "anilist"
         ],
         "fantasy": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "magic": [
           "bangumi",
@@ -6008,7 +6050,8 @@
         "magical_girl": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "isekai": [
           "anilist"
@@ -6065,7 +6108,8 @@
         "magical_girl": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "isekai": [
           "anilist"
@@ -6318,7 +6362,8 @@
         "magical_girl": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "isekai": [
           "anilist"
@@ -6372,7 +6417,8 @@
         "magical_girl": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "isekai": [
           "anilist"
@@ -6612,7 +6658,8 @@
         "magical_girl": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "isekai": [
           "anilist"
@@ -6708,7 +6755,8 @@
         "school_setting": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "slice_of_life": [
           "bangumi",
@@ -6727,7 +6775,8 @@
         "super_power": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "supernatural": [
           "anilist",
@@ -6971,7 +7020,8 @@
         "magical_girl": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "isekai": [
           "anilist"
@@ -7056,7 +7106,8 @@
         "school_setting": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "workplace": [
           "anilist"
@@ -7089,7 +7140,8 @@
           "anilist"
         ],
         "cute_girls_doing_cute_things": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ]
       }
     },
@@ -7120,7 +7172,8 @@
         "school_setting": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "slice_of_life": [
           "bangumi",
@@ -7157,7 +7210,8 @@
         ],
         "psychological": [
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "tragedy": [
           "anilist"
@@ -7284,6 +7338,7 @@
         "mystery_suspense",
         "fantasy",
         "science_fiction",
+        "music",
         "idol",
         "ensemble_cast",
         "psychological",
@@ -7309,6 +7364,9 @@
         "science_fiction": [
           "bangumi",
           "anilist",
+          "myanimelist"
+        ],
+        "music": [
           "myanimelist"
         ],
         "idol": [
@@ -7503,7 +7561,8 @@
         "school_setting": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "slice_of_life": [
           "bangumi",
@@ -7596,7 +7655,8 @@
         "school_setting": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "comedy": [
           "bangumi"
@@ -7610,7 +7670,8 @@
         "military": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "sports": [
           "anilist"
@@ -7619,7 +7680,8 @@
           "anilist"
         ],
         "cute_girls_doing_cute_things": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ]
       }
     },
@@ -7904,7 +7966,8 @@
       ],
       "facet_platforms": {
         "school_setting": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "comedy": [
           "myanimelist"
@@ -7926,7 +7989,8 @@
         "magical_girl": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "episodic": [
           "anilist"
@@ -8671,7 +8735,8 @@
         "iyashikei": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "fantasy": [
           "bangumi",
@@ -8715,7 +8780,8 @@
       ],
       "facet_platforms": {
         "school_setting": [
-          "bangumi"
+          "bangumi",
+          "myanimelist"
         ],
         "slice_of_life": [
           "bangumi",
@@ -8740,7 +8806,8 @@
         "isekai": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "episodic": [
           "anilist"
@@ -8773,7 +8840,8 @@
       ],
       "facet_platforms": {
         "school_setting": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "slice_of_life": [
           "bangumi",
@@ -8798,7 +8866,8 @@
         "isekai": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "episodic": [
           "anilist"
@@ -9038,7 +9107,8 @@
       ],
       "facet_platforms": {
         "historical_setting": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "action": [
           "bangumi",
@@ -9113,7 +9183,8 @@
         ],
         "psychological": [
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "tragedy": [
           "anilist"
@@ -9239,7 +9310,8 @@
         "music": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "band": [
           "anilist"
@@ -9251,7 +9323,8 @@
           "anilist"
         ],
         "cute_girls_doing_cute_things": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ]
       }
     },
@@ -9857,7 +9930,8 @@
       "facet_platforms": {
         "school_setting": [
           "bangumi",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "slice_of_life": [
           "bangumi",
@@ -9867,7 +9941,8 @@
         ],
         "iyashikei": [
           "bangumi",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "comedy": [
           "bangumi",
@@ -9875,7 +9950,8 @@
           "anilist"
         ],
         "cute_girls_doing_cute_things": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ]
       }
     },
@@ -10447,7 +10523,8 @@
         ],
         "psychological": [
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "tragedy": [
           "anilist"
@@ -10519,7 +10596,8 @@
         ],
         "psychological": [
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "tragedy": [
           "anilist"
@@ -10858,7 +10936,8 @@
         "school_setting": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "slice_of_life": [
           "bangumi",
@@ -11053,7 +11132,8 @@
       ],
       "facet_platforms": {
         "school_setting": [
-          "bangumi"
+          "bangumi",
+          "myanimelist"
         ],
         "countryside": [
           "anilist"
@@ -11066,7 +11146,8 @@
         ],
         "iyashikei": [
           "bangumi",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "comedy": [
           "bangumi",
@@ -11086,7 +11167,8 @@
           "anilist"
         ],
         "cute_girls_doing_cute_things": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ]
       }
     },
@@ -11289,7 +11371,8 @@
           "anilist"
         ],
         "psychological": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "tragedy": [
           "anilist"
@@ -11492,7 +11575,8 @@
         ],
         "mecha": [
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "tragedy": [
           "anilist"
@@ -11519,7 +11603,8 @@
       "facet_platforms": {
         "school_setting": [
           "bangumi",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "action": [
           "bangumi",
@@ -11531,7 +11616,8 @@
           "bangumi"
         ],
         "super_power": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ]
       }
     },
@@ -11552,7 +11638,8 @@
       "facet_platforms": {
         "school_setting": [
           "bangumi",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "action": [
           "bangumi",
@@ -11564,7 +11651,8 @@
           "bangumi"
         ],
         "super_power": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ]
       }
     },
@@ -11587,7 +11675,8 @@
         "school_setting": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "action": [
           "bangumi",
@@ -11599,7 +11688,8 @@
           "bangumi"
         ],
         "super_power": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "ensemble_cast": [
           "anilist"
@@ -11623,7 +11713,8 @@
       "facet_platforms": {
         "school_setting": [
           "bangumi",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "action": [
           "bangumi",
@@ -11635,7 +11726,8 @@
           "bangumi"
         ],
         "super_power": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ]
       }
     },
@@ -11659,7 +11751,8 @@
       "facet_platforms": {
         "school_setting": [
           "bangumi",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "slice_of_life": [
           "bangumi"
@@ -11705,7 +11798,8 @@
         "school_setting": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "slice_of_life": [
           "bangumi",
@@ -12207,7 +12301,8 @@
         "music": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "band": [
           "bangumi",
@@ -12223,7 +12318,8 @@
           "anilist"
         ],
         "cute_girls_doing_cute_things": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ]
       }
     },
@@ -12252,7 +12348,8 @@
         "school_setting": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "slice_of_life": [
           "bangumi",
@@ -12273,7 +12370,8 @@
         "music": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "band": [
           "bangumi",
@@ -12292,7 +12390,8 @@
           "anilist"
         ],
         "cute_girls_doing_cute_things": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ]
       }
     },
@@ -12498,7 +12597,8 @@
         "school_setting": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "comedy": [
           "bangumi"
@@ -12518,7 +12618,8 @@
         ],
         "psychological": [
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ]
       }
     },
@@ -12540,7 +12641,8 @@
         "school_setting": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "drama": [
           "bangumi",
@@ -12555,7 +12657,8 @@
         ],
         "psychological": [
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ]
       }
     },
@@ -12578,7 +12681,8 @@
         "school_setting": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "drama": [
           "bangumi",
@@ -12595,7 +12699,8 @@
         ],
         "psychological": [
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ]
       }
     },
@@ -12725,7 +12830,8 @@
           "anilist"
         ],
         "cute_girls_doing_cute_things": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ]
       }
     },
@@ -12747,7 +12853,8 @@
       ],
       "facet_platforms": {
         "workplace": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "slice_of_life": [
           "bangumi",
@@ -12767,7 +12874,8 @@
           "anime_planet"
         ],
         "cute_girls_doing_cute_things": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ]
       }
     },
@@ -12807,7 +12915,8 @@
         "military": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "science_fiction": [
           "anilist",
@@ -12836,7 +12945,8 @@
       "facet_platforms": {
         "school_setting": [
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "slice_of_life": [
           "bangumi",
@@ -12856,7 +12966,8 @@
         "military": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "science_fiction": [
           "anilist",
@@ -13106,6 +13217,7 @@
         "idol",
         "super_power",
         "mecha",
+        "psychological",
         "tragedy"
       ],
       "facet_platforms": {
@@ -13125,7 +13237,8 @@
         ],
         "music": [
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "idol": [
           "bangumi",
@@ -13136,7 +13249,11 @@
           "anilist"
         ],
         "mecha": [
-          "anilist"
+          "anilist",
+          "myanimelist"
+        ],
+        "psychological": [
+          "myanimelist"
         ],
         "tragedy": [
           "anilist"
@@ -13254,7 +13371,8 @@
         "school_setting": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "comedy": [
           "bangumi",
@@ -13831,7 +13949,8 @@
       "facet_platforms": {
         "school_setting": [
           "bangumi",
-          "anime_planet"
+          "anime_planet",
+          "myanimelist"
         ],
         "slice_of_life": [
           "bangumi"
@@ -13865,7 +13984,8 @@
       ],
       "facet_platforms": {
         "school_setting": [
-          "anime_planet"
+          "anime_planet",
+          "myanimelist"
         ],
         "countryside": [
           "anilist"
@@ -13881,18 +14001,18 @@
         ],
         "comedy": [
           "bangumi",
-          "anime_planet"
+          "anime_planet",
+          "myanimelist"
         ],
         "action": [
-          "anilist",
-          "myanimelist"
+          "anilist"
         ],
         "adventure": [
-          "anilist",
-          "myanimelist"
+          "anilist"
         ],
         "fantasy": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "episodic": [
           "anilist"
@@ -13923,7 +14043,8 @@
         ],
         "historical_setting": [
           "bangumi",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "slice_of_life": [
           "bangumi"
@@ -14085,7 +14206,8 @@
       ],
       "facet_platforms": {
         "workplace": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "slice_of_life": [
           "bangumi",
@@ -14096,7 +14218,8 @@
         "iyashikei": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "comedy": [
           "bangumi"
@@ -14117,7 +14240,8 @@
           "anilist"
         ],
         "cute_girls_doing_cute_things": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ]
       }
     },
@@ -14167,7 +14291,7 @@
         "bangumi": "success",
         "anime_planet": "success",
         "anilist": "success",
-        "myanimelist": "success"
+        "myanimelist": "no_exact_entry"
       },
       "facets": [
         "slice_of_life",
@@ -14183,22 +14307,19 @@
         ],
         "comedy": [
           "bangumi",
-          "anilist",
-          "myanimelist"
+          "anilist"
         ],
         "drama": [
           "bangumi"
         ],
         "action": [
           "anime_planet",
-          "anilist",
-          "myanimelist"
+          "anilist"
         ],
         "science_fiction": [
           "bangumi",
           "anime_planet",
-          "anilist",
-          "myanimelist"
+          "anilist"
         ],
         "cute_girls_doing_cute_things": [
           "anilist"
@@ -14501,7 +14622,8 @@
           "anilist"
         ],
         "cute_girls_doing_cute_things": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ]
       }
     },
@@ -14547,7 +14669,8 @@
         ],
         "super_power": [
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "episodic": [
           "anilist"
@@ -14628,7 +14751,8 @@
         "school_setting": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "drama": [
           "anime_planet",
@@ -15050,7 +15174,8 @@
         "school_setting": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "slice_of_life": [
           "bangumi",
@@ -15066,7 +15191,8 @@
         "music": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "band": [
           "anilist"
@@ -15574,7 +15700,8 @@
       "facet_platforms": {
         "school_setting": [
           "bangumi",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "slice_of_life": [
           "bangumi",
@@ -15587,7 +15714,8 @@
         "music": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "idol": [
           "bangumi",
@@ -15624,7 +15752,8 @@
         "school_setting": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "slice_of_life": [
           "bangumi",
@@ -15637,7 +15766,8 @@
         "music": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "idol": [
           "bangumi",
@@ -16423,7 +16553,8 @@
           "myanimelist"
         ],
         "military": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "fantasy": [
           "bangumi"
@@ -16436,7 +16567,8 @@
           "myanimelist"
         ],
         "psychological": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ]
       }
     },
@@ -16610,13 +16742,15 @@
         "magical_girl": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "ensemble_cast": [
           "anilist"
         ],
         "psychological": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "tragedy": [
           "anilist"
@@ -16665,13 +16799,15 @@
         "magical_girl": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "ensemble_cast": [
           "anilist"
         ],
         "psychological": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ]
       }
     },
@@ -16724,10 +16860,12 @@
         "magical_girl": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "psychological": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "tragedy": [
           "anilist"
@@ -16775,7 +16913,8 @@
         ],
         "military": [
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "fantasy": [
           "bangumi",
@@ -16792,7 +16931,8 @@
         "magical_girl": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "tragedy": [
           "anilist"
@@ -16896,7 +17036,8 @@
         "magical_girl": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "ensemble_cast": [
           "anilist"
@@ -17289,7 +17430,8 @@
         "magical_girl": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "ensemble_cast": [
           "anilist"
@@ -17412,11 +17554,13 @@
         "magical_girl": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "psychological": [
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "tragedy": [
           "anilist"
@@ -17462,11 +17606,13 @@
         "magical_girl": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "psychological": [
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ]
       }
     },
@@ -17522,14 +17668,16 @@
         "magical_girl": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "coming_of_age": [
           "anilist"
         ],
         "psychological": [
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "tragedy": [
           "anilist"
@@ -17587,11 +17735,13 @@
         "magical_girl": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "psychological": [
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "tragedy": [
           "anilist"
@@ -17652,14 +17802,16 @@
         "magical_girl": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "coming_of_age": [
           "anilist"
         ],
         "psychological": [
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "tragedy": [
           "anilist"
@@ -17952,7 +18104,8 @@
         "magical_girl": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "supernatural": [
           "anilist"
@@ -17961,7 +18114,8 @@
           "anilist"
         ],
         "psychological": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "tragedy": [
           "anilist"
@@ -18103,7 +18257,8 @@
       "facet_platforms": {
         "school_setting": [
           "bangumi",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "countryside": [
           "anilist"
@@ -18137,7 +18292,8 @@
         ],
         "magical_girl": [
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "mecha": [
           "anilist"
@@ -18411,7 +18567,8 @@
         "school_setting": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "slice_of_life": [
           "bangumi",
@@ -18421,7 +18578,8 @@
         ],
         "iyashikei": [
           "bangumi",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "fantasy": [
           "bangumi",
@@ -18502,7 +18660,8 @@
         "school_setting": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "slice_of_life": [
           "bangumi"
@@ -18532,7 +18691,8 @@
         "school_setting": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "slice_of_life": [
           "bangumi"
@@ -18609,7 +18769,8 @@
         "school_setting": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "slice_of_life": [
           "bangumi",
@@ -18647,7 +18808,8 @@
         "school_setting": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "slice_of_life": [
           "bangumi",
@@ -18685,7 +18847,8 @@
         "school_setting": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "slice_of_life": [
           "bangumi",
@@ -18924,7 +19087,8 @@
         "school_setting": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "slice_of_life": [
           "bangumi"
@@ -18947,7 +19111,8 @@
         ],
         "super_power": [
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ]
       }
     },
@@ -19044,7 +19209,8 @@
           "anilist"
         ],
         "super_power": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "cute_girls_doing_cute_things": [
           "anilist"
@@ -19109,7 +19275,8 @@
       "facet_platforms": {
         "school_setting": [
           "bangumi",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "slice_of_life": [
           "bangumi",
@@ -19126,7 +19293,8 @@
           "myanimelist"
         ],
         "cute_girls_doing_cute_things": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ]
       }
     },
@@ -19621,7 +19789,8 @@
         "mystery_suspense",
         "horror",
         "supernatural",
-        "ensemble_cast"
+        "ensemble_cast",
+        "psychological"
       ],
       "facet_platforms": {
         "countryside": [
@@ -19629,7 +19798,8 @@
         ],
         "historical_setting": [
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "drama": [
           "bangumi",
@@ -19651,6 +19821,9 @@
         ],
         "ensemble_cast": [
           "anilist"
+        ],
+        "psychological": [
+          "myanimelist"
         ]
       }
     },
@@ -19885,7 +20058,8 @@
         ],
         "historical_setting": [
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "slice_of_life": [
           "bangumi",
@@ -20077,7 +20251,8 @@
         "magical_girl": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "cute_girls_doing_cute_things": [
           "anilist"
@@ -20747,7 +20922,8 @@
         "iyashikei": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "comedy": [
           "bangumi",
@@ -20755,7 +20931,8 @@
           "anilist"
         ],
         "cute_girls_doing_cute_things": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ]
       }
     },
@@ -20873,7 +21050,8 @@
       ],
       "facet_platforms": {
         "school_setting": [
-          "bangumi"
+          "bangumi",
+          "myanimelist"
         ],
         "countryside": [
           "bangumi",
@@ -20889,7 +21067,8 @@
         "iyashikei": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "comedy": [
           "bangumi",
@@ -20900,7 +21079,8 @@
           "anilist"
         ],
         "cute_girls_doing_cute_things": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ]
       }
     },
@@ -21123,7 +21303,8 @@
         "isekai": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "cute_girls_doing_cute_things": [
           "anilist"
@@ -21282,7 +21463,8 @@
         "school_setting": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "slice_of_life": [
           "bangumi",
@@ -21305,7 +21487,8 @@
           "anilist"
         ],
         "cute_girls_doing_cute_things": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ]
       }
     },
@@ -21329,7 +21512,8 @@
         "school_setting": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "slice_of_life": [
           "bangumi",
@@ -21349,7 +21533,8 @@
           "anilist"
         ],
         "cute_girls_doing_cute_things": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ]
       }
     },
@@ -21683,7 +21868,8 @@
       "facet_platforms": {
         "school_setting": [
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "drama": [
           "anime_planet",
@@ -21694,7 +21880,8 @@
           "anilist"
         ],
         "psychological": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "tragedy": [
           "anilist"
@@ -21802,7 +21989,8 @@
         ],
         "isekai": [
           "bangumi",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "supernatural": [
           "anilist"
@@ -21827,7 +22015,8 @@
       "facet_platforms": {
         "school_setting": [
           "bangumi",
-          "anime_planet"
+          "anime_planet",
+          "myanimelist"
         ],
         "drama": [
           "myanimelist"
@@ -21853,7 +22042,8 @@
         "school_setting": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "slice_of_life": [
           "bangumi",
@@ -21894,7 +22084,8 @@
         "school_setting": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "slice_of_life": [
           "bangumi",
@@ -21915,7 +22106,8 @@
           "myanimelist"
         ],
         "cute_girls_doing_cute_things": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ]
       }
     },
@@ -22032,7 +22224,8 @@
       ],
       "facet_platforms": {
         "school_setting": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "slice_of_life": [
           "anilist"
@@ -22121,7 +22314,8 @@
           "myanimelist"
         ],
         "cute_girls_doing_cute_things": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ]
       }
     },
@@ -22368,7 +22562,8 @@
       ],
       "facet_platforms": {
         "historical_setting": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "drama": [
           "bangumi"
@@ -22965,7 +23160,8 @@
         "school_setting": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "slice_of_life": [
           "bangumi"
@@ -22988,7 +23184,8 @@
           "myanimelist"
         ],
         "cute_girls_doing_cute_things": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ]
       }
     },
@@ -23062,7 +23259,8 @@
         "school_setting": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "slice_of_life": [
           "bangumi"
@@ -23077,7 +23275,8 @@
           "myanimelist"
         ],
         "cute_girls_doing_cute_things": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ]
       }
     },
@@ -23101,7 +23300,8 @@
         "school_setting": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "slice_of_life": [
           "bangumi",
@@ -23123,7 +23323,8 @@
           "myanimelist"
         ],
         "cute_girls_doing_cute_things": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ]
       }
     },
@@ -23254,7 +23455,8 @@
       ],
       "facet_platforms": {
         "historical_setting": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "drama": [
           "anilist"
@@ -23412,7 +23614,8 @@
         ],
         "super_power": [
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "ensemble_cast": [
           "anilist"
@@ -23421,7 +23624,8 @@
           "anilist"
         ],
         "cute_girls_doing_cute_things": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ]
       }
     },
@@ -23537,7 +23741,8 @@
           "anilist"
         ],
         "cute_girls_doing_cute_things": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ]
       }
     },
@@ -23887,7 +24092,8 @@
         "school_setting": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "slice_of_life": [
           "bangumi"
@@ -23910,7 +24116,8 @@
           "anilist"
         ],
         "cute_girls_doing_cute_things": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ]
       }
     },
@@ -24060,7 +24267,8 @@
       ],
       "facet_platforms": {
         "school_setting": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "slice_of_life": [
           "bangumi",
@@ -24381,7 +24589,8 @@
         "school_setting": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "slice_of_life": [
           "bangumi"
@@ -24432,7 +24641,8 @@
         "school_setting": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "comedy": [
           "bangumi"
@@ -24482,7 +24692,8 @@
       ],
       "facet_platforms": {
         "school_setting": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "comedy": [
           "bangumi"
@@ -24532,7 +24743,8 @@
         "school_setting": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "comedy": [
           "bangumi",
@@ -24589,7 +24801,8 @@
         "school_setting": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "workplace": [
           "bangumi",
@@ -24824,7 +25037,8 @@
       ],
       "facet_platforms": {
         "historical_setting": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "iyashikei": [
           "bangumi"
@@ -24847,7 +25061,8 @@
           "myanimelist"
         ],
         "super_power": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "isekai": [
           "anilist"
@@ -24896,7 +25111,8 @@
         "music": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "idol": [
           "bangumi",
@@ -24963,7 +25179,8 @@
         "music": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "idol": [
           "anilist"
@@ -25022,7 +25239,8 @@
         "music": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "idol": [
           "anilist"
@@ -25088,7 +25306,8 @@
         "music": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "idol": [
           "anilist"
@@ -25148,7 +25367,8 @@
         "music": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "idol": [
           "bangumi",
@@ -25189,7 +25409,8 @@
         "school_setting": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "slice_of_life": [
           "bangumi"
@@ -25778,7 +25999,8 @@
       ],
       "facet_platforms": {
         "historical_setting": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "slice_of_life": [
           "bangumi"
@@ -25890,7 +26112,8 @@
       ],
       "facet_platforms": {
         "historical_setting": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "slice_of_life": [
           "bangumi"
@@ -26009,7 +26232,8 @@
       "facet_platforms": {
         "workplace": [
           "bangumi",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "slice_of_life": [
           "bangumi",
@@ -26323,6 +26547,7 @@
         "mystery_suspense",
         "fantasy",
         "magic",
+        "magical_girl",
         "coming_of_age",
         "psychological"
       ],
@@ -26330,7 +26555,8 @@
         "school_setting": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "drama": [
           "anilist",
@@ -26349,6 +26575,9 @@
         ],
         "magic": [
           "anilist"
+        ],
+        "magical_girl": [
+          "myanimelist"
         ],
         "coming_of_age": [
           "anilist"
@@ -26373,6 +26602,7 @@
         "mystery_suspense",
         "fantasy",
         "magic",
+        "magical_girl",
         "episodic",
         "ensemble_cast",
         "coming_of_age",
@@ -26383,7 +26613,8 @@
         "school_setting": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "drama": [
           "anime_planet",
@@ -26405,6 +26636,9 @@
         "magic": [
           "anilist"
         ],
+        "magical_girl": [
+          "myanimelist"
+        ],
         "episodic": [
           "anilist"
         ],
@@ -26416,7 +26650,8 @@
         ],
         "psychological": [
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "tragedy": [
           "anilist"
@@ -26551,7 +26786,8 @@
       "facet_platforms": {
         "school_setting": [
           "bangumi",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "slice_of_life": [
           "bangumi",
@@ -26563,7 +26799,8 @@
           "anilist"
         ],
         "cute_girls_doing_cute_things": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ]
       }
     },
@@ -26647,7 +26884,8 @@
         "music": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "band": [
           "bangumi",
@@ -26658,7 +26896,8 @@
           "anilist"
         ],
         "isekai": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "ensemble_cast": [
           "anilist"
@@ -26750,7 +26989,8 @@
         "music": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "band": [
           "bangumi",
@@ -26764,7 +27004,8 @@
           "anilist"
         ],
         "isekai": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "ensemble_cast": [
           "anilist"
@@ -26799,7 +27040,8 @@
         ],
         "historical_setting": [
           "bangumi",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "drama": [
           "anilist"
@@ -26813,7 +27055,8 @@
         "military": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "fantasy": [
           "bangumi",
@@ -26939,7 +27182,8 @@
           "bangumi"
         ],
         "super_power": [
-          "anime_planet"
+          "anime_planet",
+          "myanimelist"
         ],
         "tragedy": [
           "anilist"
@@ -26986,7 +27230,8 @@
         ],
         "super_power": [
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "psychological": [
           "anilist"
@@ -27205,13 +27450,15 @@
         "isekai": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "episodic": [
           "anilist"
         ],
         "cute_girls_doing_cute_things": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ]
       }
     },
@@ -27274,13 +27521,15 @@
         "isekai": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "episodic": [
           "anilist"
         ],
         "cute_girls_doing_cute_things": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ]
       }
     },
@@ -27318,7 +27567,8 @@
         "iyashikei": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "comedy": [
           "bangumi"
@@ -27343,7 +27593,8 @@
           "anilist"
         ],
         "cute_girls_doing_cute_things": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ]
       }
     },
@@ -27676,14 +27927,16 @@
         "iyashikei": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "comedy": [
           "anime_planet"
         ],
         "military": [
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "science_fiction": [
           "anilist",
@@ -27692,7 +27945,8 @@
         "music": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "episodic": [
           "anilist"
@@ -27704,7 +27958,8 @@
           "anilist"
         ],
         "cute_girls_doing_cute_things": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ]
       }
     },
@@ -27880,7 +28135,8 @@
           "anilist"
         ],
         "cute_girls_doing_cute_things": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ]
       }
     },
@@ -28270,7 +28526,8 @@
         "action",
         "military",
         "science_fiction",
-        "magic"
+        "magic",
+        "cute_girls_doing_cute_things"
       ],
       "facet_platforms": {
         "historical_setting": [
@@ -28291,7 +28548,8 @@
         ],
         "military": [
           "bangumi",
-          "anime_planet"
+          "anime_planet",
+          "myanimelist"
         ],
         "science_fiction": [
           "bangumi",
@@ -28301,6 +28559,9 @@
         ],
         "magic": [
           "anime_planet"
+        ],
+        "cute_girls_doing_cute_things": [
+          "myanimelist"
         ]
       }
     },
@@ -28342,7 +28603,8 @@
         "military": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "science_fiction": [
           "bangumi",
@@ -28355,7 +28617,8 @@
           "anilist"
         ],
         "cute_girls_doing_cute_things": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ]
       }
     },
@@ -28934,10 +29197,12 @@
       "facet_platforms": {
         "school_setting": [
           "bangumi",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "historical_setting": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "slice_of_life": [
           "anime_planet",
@@ -29074,7 +29339,8 @@
           "anilist"
         ],
         "cute_girls_doing_cute_things": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ]
       }
     },
@@ -29357,7 +29623,8 @@
           "bangumi"
         ],
         "super_power": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "cute_girls_doing_cute_things": [
           "anilist"
@@ -29438,7 +29705,8 @@
           "bangumi"
         ],
         "super_power": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "cute_girls_doing_cute_things": [
           "anilist"
@@ -29931,7 +30199,8 @@
         "isekai": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ]
       }
     },
@@ -30064,7 +30333,8 @@
         "music": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "idol": [
           "bangumi",
@@ -30120,7 +30390,8 @@
         "music": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "idol": [
           "bangumi",
@@ -30222,23 +30493,21 @@
         ],
         "comedy": [
           "bangumi",
-          "anime_planet"
+          "anime_planet",
+          "myanimelist"
         ],
         "action": [
           "bangumi",
-          "anilist",
-          "myanimelist"
+          "anilist"
         ],
         "fantasy": [
           "bangumi",
-          "anilist",
-          "myanimelist"
+          "anilist"
         ],
         "science_fiction": [
           "bangumi",
           "anime_planet",
-          "anilist",
-          "myanimelist"
+          "anilist"
         ],
         "super_power": [
           "bangumi",
@@ -30297,7 +30566,8 @@
         "super_power": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "supernatural": [
           "anime_planet"
@@ -30360,7 +30630,8 @@
         "super_power": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "supernatural": [
           "anime_planet"
@@ -30419,7 +30690,8 @@
         "super_power": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "supernatural": [
           "anime_planet"
@@ -30552,7 +30824,8 @@
           "anilist"
         ],
         "cute_girls_doing_cute_things": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ]
       }
     },
@@ -30605,7 +30878,8 @@
         ],
         "mecha": [
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "coming_of_age": [
           "anilist"
@@ -30672,7 +30946,8 @@
         ],
         "historical_setting": [
           "bangumi",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "slice_of_life": [
           "anime_planet"
@@ -31505,7 +31780,8 @@
           "anilist"
         ],
         "military": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "fantasy": [
           "bangumi",
@@ -31591,7 +31867,8 @@
         "historical_setting": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "drama": [
           "bangumi",
@@ -31603,7 +31880,8 @@
           "anilist"
         ],
         "military": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "tragedy": [
           "anilist"
@@ -31777,7 +32055,8 @@
       "facet_platforms": {
         "school_setting": [
           "bangumi",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "comedy": [
           "bangumi",
@@ -32049,7 +32328,8 @@
         "school_setting": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "slice_of_life": [
           "bangumi"
@@ -32080,7 +32360,8 @@
         "school_setting": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "slice_of_life": [
           "bangumi"
@@ -32116,7 +32397,8 @@
       "facet_platforms": {
         "school_setting": [
           "bangumi",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "slice_of_life": [
           "bangumi"
@@ -32143,7 +32425,8 @@
         "isekai": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ]
       }
     },
@@ -32699,7 +32982,8 @@
         ],
         "iyashikei": [
           "bangumi",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "comedy": [
           "anilist"
@@ -32719,7 +33003,8 @@
           "anilist"
         ],
         "cute_girls_doing_cute_things": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ]
       }
     },
@@ -32753,7 +33038,8 @@
         ],
         "iyashikei": [
           "bangumi",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "comedy": [
           "anilist"
@@ -32768,7 +33054,8 @@
           "anilist"
         ],
         "cute_girls_doing_cute_things": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ]
       }
     },
@@ -32809,7 +33096,8 @@
         "iyashikei": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "comedy": [
           "anilist"
@@ -32830,7 +33118,8 @@
           "anilist"
         ],
         "cute_girls_doing_cute_things": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ]
       }
     },
@@ -32866,7 +33155,8 @@
         "iyashikei": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "comedy": [
           "anilist"
@@ -32884,7 +33174,8 @@
           "anilist"
         ],
         "cute_girls_doing_cute_things": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ]
       }
     },
@@ -32921,7 +33212,8 @@
         "iyashikei": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "comedy": [
           "anilist"
@@ -32942,7 +33234,8 @@
           "anilist"
         ],
         "cute_girls_doing_cute_things": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ]
       }
     },
@@ -33066,7 +33359,8 @@
       "facet_platforms": {
         "school_setting": [
           "bangumi",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "slice_of_life": [
           "bangumi",
@@ -33091,7 +33385,8 @@
         ],
         "super_power": [
           "bangumi",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "supernatural": [
           "anime_planet",
@@ -33241,7 +33536,8 @@
       "facet_platforms": {
         "school_setting": [
           "bangumi",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "iyashikei": [
           "bangumi"
@@ -33264,7 +33560,8 @@
           "anilist"
         ],
         "psychological": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "tragedy": [
           "anilist"
@@ -33574,7 +33871,8 @@
       ],
       "facet_platforms": {
         "school_setting": [
-          "bangumi"
+          "bangumi",
+          "myanimelist"
         ],
         "slice_of_life": [
           "bangumi",
@@ -33594,7 +33892,8 @@
           "anilist"
         ],
         "cute_girls_doing_cute_things": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ]
       }
     },
@@ -33637,7 +33936,8 @@
           "anilist"
         ],
         "cute_girls_doing_cute_things": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ]
       }
     },
@@ -33676,7 +33976,8 @@
           "myanimelist"
         ],
         "cute_girls_doing_cute_things": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ]
       }
     },
@@ -33700,7 +34001,8 @@
         "school_setting": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "slice_of_life": [
           "bangumi",
@@ -33720,7 +34022,8 @@
           "anilist"
         ],
         "cute_girls_doing_cute_things": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ]
       }
     },
@@ -33743,7 +34046,8 @@
         "school_setting": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "slice_of_life": [
           "bangumi",
@@ -33760,7 +34064,8 @@
           "myanimelist"
         ],
         "cute_girls_doing_cute_things": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ]
       }
     },
@@ -33784,7 +34089,8 @@
         "school_setting": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "slice_of_life": [
           "bangumi",
@@ -33803,7 +34109,8 @@
           "anilist"
         ],
         "cute_girls_doing_cute_things": [
-          "anilist"
+          "anilist",
+          "myanimelist"
         ]
       }
     },
@@ -34387,7 +34694,8 @@
       "facet_platforms": {
         "school_setting": [
           "bangumi",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "iyashikei": [
           "bangumi"
@@ -34521,7 +34829,8 @@
         "music": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "idol": [
           "bangumi",
@@ -34594,7 +34903,8 @@
         "music": [
           "bangumi",
           "anime_planet",
-          "anilist"
+          "anilist",
+          "myanimelist"
         ],
         "idol": [
           "bangumi",

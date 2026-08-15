@@ -1195,6 +1195,150 @@ h1, h2, h3 { line-height: 1.25; }
   color: var(--muted);
   font-size: 0.76rem;
 }
+.work-tag-section {
+  max-width: 900px;
+  margin: -1.4rem auto 3.5rem;
+  padding: 1.4rem 1.5rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface);
+}
+.work-tag-heading h2 {
+  margin: 0;
+  font-family: "Songti SC", "Noto Serif CJK SC", serif;
+  font-size: 1.45rem;
+}
+.work-tag-heading p {
+  margin: 0.3rem 0 0;
+  color: var(--muted);
+  font-size: 0.8rem;
+}
+.unified-tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+.unified-tag {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2rem;
+  padding: 0.34rem 0.72rem;
+  border: 1px solid var(--accent);
+  border-radius: 999px;
+  background: var(--surface-soft-translucent);
+  color: var(--accent-deep);
+  font-size: 0.8rem;
+  font-weight: 750;
+  text-decoration: none;
+}
+.unified-tag:hover { background: var(--surface); }
+.unified-tag:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 2px;
+}
+.unified-tag-empty {
+  margin: 1rem 0 0;
+  color: var(--muted);
+  font-size: 0.84rem;
+}
+.raw-platform-tags {
+  margin-top: 1.2rem;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--surface-soft-translucent);
+}
+.raw-platform-tags > summary {
+  display: flex;
+  cursor: pointer;
+  flex-direction: column;
+  gap: 0.15rem;
+  padding: 0.9rem 1rem;
+  color: var(--accent-deep);
+  font-size: 0.88rem;
+  font-weight: 800;
+}
+.raw-platform-tags > summary small {
+  color: var(--muted);
+  font-size: 0.72rem;
+  font-weight: 500;
+}
+.raw-platform-tags > summary:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 2px;
+}
+.raw-platform-tags-content { padding: 0 1rem 1rem; }
+.raw-tag-snapshot-note {
+  margin: 0 0 0.9rem;
+  color: var(--muted);
+  font-size: 0.74rem;
+}
+.raw-platform-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.8rem;
+}
+.raw-platform-card {
+  min-width: 0;
+  padding: 0.85rem;
+  border: 1px solid var(--line);
+  border-radius: 9px;
+  background: var(--surface);
+}
+.raw-platform-heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.7rem;
+  margin-bottom: 0.65rem;
+}
+.raw-platform-heading h3 {
+  margin: 0;
+  color: var(--ink);
+  font-size: 0.88rem;
+}
+.raw-platform-component-note {
+  color: var(--muted);
+  font-size: 0.67rem;
+  text-align: right;
+}
+.raw-tag-group + .raw-tag-group { margin-top: 0.75rem; }
+.raw-tag-group h4 {
+  margin: 0 0 0.4rem;
+  color: var(--muted);
+  font-size: 0.7rem;
+}
+.raw-tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.36rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.raw-tag {
+  display: inline-flex;
+  min-width: 0;
+  align-items: baseline;
+  gap: 0.35rem;
+  padding: 0.25rem 0.5rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--surface-soft-translucent);
+  font-size: 0.72rem;
+  line-height: 1.35;
+}
+.raw-tag-name { overflow-wrap: anywhere; }
+.raw-tag-weight {
+  flex: 0 0 auto;
+  color: var(--muted);
+  font-size: 0.62rem;
+}
+.raw-platform-empty {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.76rem;
+}
 .matching-relationship-list {
   white-space: normal;
   line-height: 1.45;
@@ -1709,6 +1853,13 @@ h1, h2, h3 { line-height: 1.25; }
     margin-top: -1.5rem;
     padding: 1.1rem;
   }
+  .work-tag-section {
+    margin-top: -1.5rem;
+    padding: 1.1rem;
+  }
+  .raw-platform-grid { grid-template-columns: 1fr; }
+  .raw-platform-heading { align-items: flex-start; flex-direction: column; }
+  .raw-platform-component-note { text-align: left; }
   .relationship-overview-heading { align-items: flex-start; flex-direction: column; }
   .relationship-overview-grid { grid-template-columns: 1fr; }
   .tabulator .tabulator-footer .tabulator-footer-contents {

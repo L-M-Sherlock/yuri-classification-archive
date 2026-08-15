@@ -1,9 +1,9 @@
 {
   "schema_version": 5,
-  "snapshot_date": "2026-08-14",
-  "generated_at": "2026-08-14T12:31:26.736620+00:00",
+  "snapshot_date": "2026-08-15",
+  "generated_at": "2026-08-15T06:17:11.777227+00:00",
   "source": {
-    "sha256": "ee935d64d4781fa76daa5726df16c5a859ef5c92b8f85d4f7866ced168447305",
+    "sha256": "37b32d6787ff0f29b77d61d7127aaaf2c4efa2eb4729c9235a72e8b282ba44d3",
     "row_count": 696,
     "classification_schema": 4,
     "selection_composition": {
@@ -17,18 +17,18 @@
     },
     "release_plan": {
       "path": "data/release-plan.json",
-      "sha256": "2ae6d957745f9c27ef87af43b47f6e95710e25080c46d068005975726f77c127",
-      "plan_sha256": "6296482f51f505312122a33e33308600e6030fe596adf32a7aa4cf329e977cc6",
+      "sha256": "536eab885db45b7ad8f78bd24e7ca6f02493b0b3a0f8fadebeabfa88a4cbde28",
+      "plan_sha256": "3d548821be3dc7b77b38cd38d6b31d46322845a8cd7dbdd9fe9f13fc1e58687b",
       "target_slug_count": 696,
       "target_slugs_sha256": "f94c9de0a014ad6248c7e7dd5da09c8f477d1488fd7778466007c168b77962bf"
     },
     "platform_current": {
-      "sha256": "c28a0dbb36c6a69e575107e35f4561962e72731e6f75abd676725b9d7ee070d7",
-      "store_sha256": "dcb6c2fa63ea2728bb5019adcb17f44c9836a0c996393cab8f5f37df94dc1313",
+      "sha256": "154abf993de74326c56e64cf72c15606ed3d469f6803db52fbd0ef1c802b7108",
+      "store_sha256": "670dec66e112e31ae664ec8a1e32946480c9842c798f583c8e8f8369cf3fe53b",
       "target_slugs_sha256": "f94c9de0a014ad6248c7e7dd5da09c8f477d1488fd7778466007c168b77962bf"
     }
   },
-  "release_plan_sha256": "6296482f51f505312122a33e33308600e6030fe596adf32a7aa4cf329e977cc6",
+  "release_plan_sha256": "3d548821be3dc7b77b38cd38d6b31d46322845a8cd7dbdd9fe9f13fc1e58687b",
   "target_slugs_sha256": "f94c9de0a014ad6248c7e7dd5da09c8f477d1488fd7778466007c168b77962bf",
   "dataset_profile": {
     "media": {
@@ -154,7 +154,7 @@
       "explicit_identity_self_statement": 6,
       "official_identity_profile": 3
     },
-    "common_coverage": 664,
+    "common_coverage": 663,
     "common_no_platform_label": 134,
     "common_no_platform_label_open_relationship_center": 115,
     "common_no_platform_label_female_relationship_main": 124,
@@ -177,12 +177,12 @@
     },
     "MAL Girls Love": {
       "positive": 67,
-      "exact_entries": 681
+      "exact_entries": 680
     }
   },
   "common_signatures": {
     "B---": 263,
-    "B-N-": 133,
+    "B-N-": 132,
     "--N-": 52,
     "----": 134,
     "BANM": 56,
@@ -258,8 +258,8 @@
         },
         "MAL Girls Love": {
           "positive": 8,
-          "exact_entries": 253,
-          "rate": 0.03162055335968379
+          "exact_entries": 252,
+          "rate": 0.031746031746031744
         }
       },
       "all_four": 4,
@@ -404,8 +404,8 @@
         },
         "MAL Girls Love": {
           "positive": 5,
-          "exact_entries": 131,
-          "rate": 0.03816793893129771
+          "exact_entries": 130,
+          "rate": 0.038461538461538464
         }
       },
       "all_four": 4,
@@ -538,11 +538,11 @@
   },
   "collection_window": {
     "minimum_retrieved_at": "2026-07-30T00:00:00+00:00",
-    "maximum_retrieved_at": "2026-08-14T09:44:31+00:00",
+    "maximum_retrieved_at": "2026-08-14T19:39:48.937000+00:00",
     "record_count": 2784,
     "result_counts": {
-      "no_exact_entry": 58,
-      "success": 2726
+      "no_exact_entry": 59,
+      "success": 2725
     },
     "platforms": {
       "bangumi": {
@@ -572,12 +572,12 @@
         }
       },
       "myanimelist": {
-        "minimum_retrieved_at": "2026-07-30T00:00:00+00:00",
-        "maximum_retrieved_at": "2026-08-13T09:30:15+00:00",
+        "minimum_retrieved_at": "2026-08-04T07:40:23.058000+00:00",
+        "maximum_retrieved_at": "2026-08-14T19:39:48.937000+00:00",
         "record_count": 696,
         "result_counts": {
-          "no_exact_entry": 15,
-          "success": 681
+          "no_exact_entry": 16,
+          "success": 680
         }
       }
     }
@@ -2306,42 +2306,42 @@
     "dataset_overview": {
       "path": "assets/yuri_classification_database_patterns/00_dataset_overview.png",
       "sha256": "3cca5b02130e3bbf645dfdc48c7b8c17f31ae6ab566bf5df0b1af134b3e6da8c",
-      "source_sha256": "ee935d64d4781fa76daa5726df16c5a859ef5c92b8f85d4f7866ced168447305",
+      "source_sha256": "37b32d6787ff0f29b77d61d7127aaaf2c4efa2eb4729c9235a72e8b282ba44d3",
       "width": 1800,
       "height": 1120
     },
     "platform_overlap": {
       "path": "assets/yuri_classification_database_patterns/01_platform_overlap.png",
-      "sha256": "f13bdb860a4dc917c84fca22ce7ce3d62cf6c35d4b965423e5a4b1a50ed78800",
-      "source_sha256": "ee935d64d4781fa76daa5726df16c5a859ef5c92b8f85d4f7866ced168447305",
+      "sha256": "14949046a2196e19e8c8be1d56f615f1691abe3e9810b3bf3b0501bb77e28826",
+      "source_sha256": "37b32d6787ff0f29b77d61d7127aaaf2c4efa2eb4729c9235a72e8b282ba44d3",
       "width": 1800,
       "height": 1120
     },
     "explicitness_gradient": {
       "path": "assets/yuri_classification_database_patterns/02_explicitness_gradient.png",
       "sha256": "df023405c3db44e2e72a91e9c83a7a5b8c23894bcad797d064d7fc13dde138fb",
-      "source_sha256": "ee935d64d4781fa76daa5726df16c5a859ef5c92b8f85d4f7866ced168447305",
+      "source_sha256": "37b32d6787ff0f29b77d61d7127aaaf2c4efa2eb4729c9235a72e8b282ba44d3",
       "width": 1800,
       "height": 1120
     },
     "platform_rates": {
       "path": "assets/yuri_classification_database_patterns/03_platform_rates_by_explicitness.png",
       "sha256": "866f37bedb22e1cbecd77e95024432da3dd96c7413fdbece8f23b4ab6e5babfa",
-      "source_sha256": "ee935d64d4781fa76daa5726df16c5a859ef5c92b8f85d4f7866ced168447305",
+      "source_sha256": "37b32d6787ff0f29b77d61d7127aaaf2c4efa2eb4729c9235a72e8b282ba44d3",
       "width": 1800,
       "height": 1120
     },
     "bangumi_popularity": {
       "path": "assets/yuri_classification_database_patterns/04_bangumi_popularity_correction.png",
       "sha256": "67a203cfec5ca73b0acf080bb67c9e230bbbf74779ec30e4a1a50df88c71fbdc",
-      "source_sha256": "ee935d64d4781fa76daa5726df16c5a859ef5c92b8f85d4f7866ced168447305",
+      "source_sha256": "37b32d6787ff0f29b77d61d7127aaaf2c4efa2eb4729c9235a72e8b282ba44d3",
       "width": 1800,
       "height": 1120
     },
     "convergence_and_structure": {
       "path": "assets/yuri_classification_database_patterns/05_convergence_and_text_structure.png",
-      "sha256": "1c35774c25ddbed79933d2e22af8d7a0c6e9d8e245ad2d03e110c6052d942607",
-      "source_sha256": "ee935d64d4781fa76daa5726df16c5a859ef5c92b8f85d4f7866ced168447305",
+      "sha256": "6698c4a193fc60dae44ef0a735e27b4eea42b244c0e5c52ebe3375d95cbfe5e2",
+      "source_sha256": "37b32d6787ff0f29b77d61d7127aaaf2c4efa2eb4729c9235a72e8b282ba44d3",
       "width": 1800,
       "height": 1120
     }

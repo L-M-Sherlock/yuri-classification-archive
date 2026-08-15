@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "snapshot_date": "2026-08-14",
+  "snapshot_date": "2026-08-15",
   "item_count": 696,
   "category_counts": {
     "non_romantic": 222,
@@ -23,13 +23,13 @@
     },
     "MAL Girls Love": {
       "positive": 67,
-      "exact_entries": 681
+      "exact_entries": 680
     }
   },
-  "common_coverage": 664,
+  "common_coverage": 663,
   "common_signatures": {
     "B---": 263,
-    "B-N-": 133,
+    "B-N-": 132,
     "--N-": 52,
     "----": 134,
     "BANM": 56,
@@ -39,8 +39,8 @@
     "BA--": 1,
     "-ANM": 1
   },
-  "source_sha256": "ee935d64d4781fa76daa5726df16c5a859ef5c92b8f85d4f7866ced168447305",
-  "analysis_summary_sha256": "f590c737842ad441a80edcbb73aaef12fba949bb1f8e48c17c7c09c0d405d81d",
+  "source_sha256": "37b32d6787ff0f29b77d61d7127aaaf2c4efa2eb4729c9235a72e8b282ba44d3",
+  "analysis_summary_sha256": "05e248b3379a98445b678eb92f145e8f39ffb6c2aecfa921623fe23957e79848",
   "items": [
     {
       "slug": "shirobako_tv_2014",
@@ -180,7 +180,7 @@
         "myanimelist": {
           "state": "untagged",
           "urls": [
-            "https://myanimelist.net/anime/9756/Mahou_Shoujo_Madoka★Magica"
+            "https://myanimelist.net/anime/9756/Mahou_Shoujo_Madoka%E2%98%85Magica"
           ]
         }
       },
@@ -7844,7 +7844,7 @@
         "myanimelist": {
           "state": "untagged",
           "urls": [
-            "https://myanimelist.net/anime/25867/Rolling☆Girls"
+            "https://myanimelist.net/anime/25867/Rolling%E2%98%86Girls"
           ]
         }
       },
@@ -10108,7 +10108,7 @@
         "myanimelist": {
           "state": "untagged",
           "urls": [
-            "https://myanimelist.net/anime/13535/Binbougami_ga"
+            "https://myanimelist.net/anime/13535"
           ]
         }
       },
@@ -14490,7 +14490,7 @@
         "myanimelist": {
           "state": "untagged",
           "urls": [
-            "https://myanimelist.net/anime/16049/Toaru_Kagaku_no_Railgun_S"
+            "https://myanimelist.net/anime/22759/Toaru_Kagaku_no_Railgun_S__Daiji_na_Koto_wa_Zenbu_Sentou_ni_Osowatta"
           ]
         }
       },
@@ -14541,7 +14541,7 @@
         "myanimelist": {
           "state": "untagged",
           "urls": [
-            "https://myanimelist.net/anime/20509/Fate_kaleid_liner_Prisma_Illya_2wei"
+            "https://myanimelist.net/anime/26057/Fate_kaleid_liner_Prisma%E2%98%86Illya_2wei__Mahou_Shoujo_in_Onsen_Ryokou"
           ]
         }
       },
@@ -15278,7 +15278,7 @@
         "myanimelist": {
           "state": "untagged",
           "urls": [
-            "https://myanimelist.net/anime/5356/Canaan"
+            "https://myanimelist.net/anime/5356"
           ]
         }
       },
@@ -16792,7 +16792,7 @@
         "myanimelist": {
           "state": "untagged",
           "urls": [
-            "https://myanimelist.net/anime/31771/Amanchu"
+            "https://myanimelist.net/anime/31771"
           ]
         }
       },
@@ -17079,7 +17079,7 @@
         "myanimelist": {
           "state": "untagged",
           "urls": [
-            "https://myanimelist.net/anime/34525/Centaur_no_Nayami"
+            "https://myanimelist.net/anime/34525"
           ]
         }
       },
@@ -19733,10 +19733,8 @@
           "yuri_relevance": 78
         },
         "myanimelist": {
-          "state": "untagged",
-          "urls": [
-            "https://myanimelist.net/anime/32214/Koukaku_no_Pandora"
-          ]
+          "state": "no_corresponding_entry",
+          "urls": []
         }
       },
       "row_number": 402
@@ -20222,7 +20220,7 @@
         "myanimelist": {
           "state": "untagged",
           "urls": [
-            "https://myanimelist.net/anime/109/Bakuretsu_Tenshi"
+            "https://myanimelist.net/anime/109"
           ]
         }
       },
@@ -20515,7 +20513,7 @@
         "myanimelist": {
           "state": "untagged",
           "urls": [
-            "https://myanimelist.net/anime/366/AIKa"
+            "https://myanimelist.net/anime/366"
           ]
         }
       },
@@ -20764,7 +20762,7 @@
         "myanimelist": {
           "state": "untagged",
           "urls": [
-            "https://myanimelist.net/anime/40930/Azur_Lane__Bisoku_Zenshin"
+            "https://myanimelist.net/anime/40930"
           ]
         }
       },
@@ -21158,7 +21156,7 @@
         "myanimelist": {
           "state": "tagged",
           "urls": [
-            "https://myanimelist.net/anime/2964/Blue_Drop__Tenshi-tachi_no_Gikyoku"
+            "https://myanimelist.net/anime/2964"
           ]
         }
       },
@@ -22760,7 +22758,7 @@
         "myanimelist": {
           "state": "untagged",
           "urls": [
-            "https://myanimelist.net/anime/7059/Black%E2%98%85Rock_Shooter_OVA"
+            "https://myanimelist.net/anime/7059"
           ]
         }
       },
@@ -23978,7 +23976,7 @@
         "myanimelist": {
           "state": "untagged",
           "urls": [
-            "https://myanimelist.net/anime/37206/Anima_Yell"
+            "https://myanimelist.net/anime/37206"
           ]
         }
       },
@@ -24378,7 +24376,7 @@
         "myanimelist": {
           "state": "untagged",
           "urls": [
-            "https://myanimelist.net/anime/32866/Brave_Witches"
+            "https://myanimelist.net/anime/32866"
           ]
         }
       },
@@ -25374,7 +25372,7 @@
         "myanimelist": {
           "state": "untagged",
           "urls": [
-            "https://myanimelist.net/anime/4262/Koihime_Musou"
+            "https://myanimelist.net/anime/5305/Koihime%E2%80%A0Musou__Gunyuu_Seitoukaichou_no_Za_wo_Neratte_Aiarasou_no_Koto_-_Ato_Porori_mo_Aru_yo"
           ]
         }
       },
@@ -25673,7 +25671,7 @@
         "myanimelist": {
           "state": "untagged",
           "urls": [
-            "https://myanimelist.net/anime/37561/Akanesasu_Shoujo"
+            "https://myanimelist.net/anime/37561"
           ]
         }
       },
@@ -26464,7 +26462,7 @@
         "myanimelist": {
           "state": "untagged",
           "urls": [
-            "https://myanimelist.net/anime/4010/Alignment_You_You_The_Animation"
+            "https://myanimelist.net/anime/4010"
           ]
         }
       },
@@ -27395,7 +27393,7 @@
         "myanimelist": {
           "state": "tagged",
           "urls": [
-            "https://myanimelist.net/anime/19429/Akuma_no_Riddle"
+            "https://myanimelist.net/anime/19429"
           ]
         }
       },
@@ -30364,7 +30362,7 @@
         "myanimelist": {
           "state": "untagged",
           "urls": [
-            "https://myanimelist.net/anime/28391/Ao_no_Kanata_no_Four_Rhythm"
+            "https://myanimelist.net/anime/28391"
           ]
         }
       },
@@ -30947,7 +30945,7 @@
         "myanimelist": {
           "state": "untagged",
           "urls": [
-            "https://myanimelist.net/anime/6645/Chuu_Bra"
+            "https://myanimelist.net/anime/6645"
           ]
         }
       },
@@ -30996,7 +30994,7 @@
         "myanimelist": {
           "state": "untagged",
           "urls": [
-            "https://myanimelist.net/anime/50871/Alice_Gear_Aegis_Expansion"
+            "https://myanimelist.net/anime/50871"
           ]
         }
       },
@@ -34205,6 +34203,6 @@
       "row_number": 696
     }
   ],
-  "release_plan_sha256": "6296482f51f505312122a33e33308600e6030fe596adf32a7aa4cf329e977cc6",
+  "release_plan_sha256": "3d548821be3dc7b77b38cd38d6b31d46322845a8cd7dbdd9fe9f13fc1e58687b",
   "target_slugs_sha256": "f94c9de0a014ad6248c7e7dd5da09c8f477d1488fd7778466007c168b77962bf"
 }

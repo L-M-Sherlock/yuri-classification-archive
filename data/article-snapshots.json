@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-14T12:46:16+00:00",
+  "generated_at": "2026-08-15T06:29:18+00:00",
   "articles": {
     "anime-label-divergence": {
-      "snapshot_date": "2026-08-14",
+      "snapshot_date": "2026-08-15",
       "row_count": 696,
       "category_counts": {
         "non_romantic": 222,
@@ -26,13 +26,13 @@
         },
         "MAL Girls Love": {
           "positive": 67,
-          "exact_entries": 681
+          "exact_entries": 680
         }
       },
-      "common_coverage": 664,
+      "common_coverage": 663,
       "common_signatures": {
         "B---": 263,
-        "B-N-": 133,
+        "B-N-": 132,
         "--N-": 52,
         "----": 134,
         "BANM": 56,
@@ -43,19 +43,19 @@
         "-ANM": 1
       },
       "source": {
-        "sha256": "ee935d64d4781fa76daa5726df16c5a859ef5c92b8f85d4f7866ced168447305"
+        "sha256": "37b32d6787ff0f29b77d61d7127aaaf2c4efa2eb4729c9235a72e8b282ba44d3"
       },
-      "release_plan_sha256": "6296482f51f505312122a33e33308600e6030fe596adf32a7aa4cf329e977cc6",
+      "release_plan_sha256": "3d548821be3dc7b77b38cd38d6b31d46322845a8cd7dbdd9fe9f13fc1e58687b",
       "target_slugs_sha256": "f94c9de0a014ad6248c7e7dd5da09c8f477d1488fd7778466007c168b77962bf",
       "data_path": "data/articles/anime-label-divergence.json",
       "csv_path": "data/articles/anime-label-divergence.csv",
       "analysis_summary": {
         "path": "assets/yuri_classification_database_patterns/analysis_summary.json",
-        "sha256": "f590c737842ad441a80edcbb73aaef12fba949bb1f8e48c17c7c09c0d405d81d"
+        "sha256": "05e248b3379a98445b678eb92f145e8f39ffb6c2aecfa921623fe23957e79848"
       },
       "publication_manifest": {
         "path": "publication-manifest.json",
-        "sha256": "d005c950b053beb43bd409b4be3ea7fd32c9c6d70fd7aaae750f3ae99dcae616"
+        "sha256": "396989b05709a8d2b3f4ea5b6024d10407d4760700e95160401ff20dbecdf69d"
       },
       "charts": [
         {
@@ -66,7 +66,7 @@
         {
           "id": "platform_overlap",
           "path": "assets/articles/anime-label-divergence/01_platform_overlap.png",
-          "sha256": "f13bdb860a4dc917c84fca22ce7ce3d62cf6c35d4b965423e5a4b1a50ed78800"
+          "sha256": "14949046a2196e19e8c8be1d56f615f1691abe3e9810b3bf3b0501bb77e28826"
         },
         {
           "id": "explicitness_gradient",
@@ -86,7 +86,7 @@
         {
           "id": "convergence_and_structure",
           "path": "assets/articles/anime-label-divergence/05_convergence_and_text_structure.png",
-          "sha256": "1c35774c25ddbed79933d2e22af8d7a0c6e9d8e245ad2d03e110c6052d942607"
+          "sha256": "6698c4a193fc60dae44ef0a735e27b4eea42b244c0e5c52ebe3375d95cbfe5e2"
         }
       ],
       "article": {
