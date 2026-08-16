@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "kind": "public_release_plan",
-  "generated_at": "2026-08-16T11:48:09+00:00",
+  "generated_at": "2026-08-16T13:00:16+00:00",
   "base": {
-    "public_repository_head": "c8e1f185c412d681f7a052d9a219d3cbb67f7c62",
+    "public_repository_head": "3f94d5fa0e3be857a0e5b928f304b86087c297dc",
     "catalog_path": "data/catalog.json",
-    "catalog_sha256": "35056362642da4c0fba7614652b457a64b3bd17b8aa46e26d2b5d31d989cdcab",
+    "catalog_sha256": "6acd11f8e41a99b1620745fac6b76bef6361951dc50e7d0a612807a31d0fb629",
     "slug_count": 805,
     "slugs": [
       "a_channel_nabe_wo_tabeyou_ova_2017",
@@ -6501,5 +6501,5 @@
       "forbid_acquisition_details": true
     }
   },
-  "plan_sha256": "45749d542bf282a6f6cb4a08102b50d763281da29a38d8b98dee80aff32c4546"
+  "plan_sha256": "12a3a28275ec583fddffa7b9f919d39539b570d340b7bf9b27f37bbabd9e92ae"
 }

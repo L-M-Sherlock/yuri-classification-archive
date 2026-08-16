@@ -1,6 +1,8 @@
 const YuriCatalogFilterLogic = (() => {
   "use strict";
 
+  const defaultArchiveBasis = "work_classification";
+  const allArchiveBasesUrlValue = "all";
   const scalarFields = [
     "medium",
     "archive_basis",
@@ -252,11 +254,17 @@ const YuriCatalogFilterLogic = (() => {
 
   function parseState(search) {
     const params = new URLSearchParams(search || "");
+    const useLandingDefault = params.size === 0;
     const scalar = {};
     for (const field of scalarFields) {
+      let rawValue = params.get(scalarUrlKeys[field] || field) || "";
+      if (field === "archive_basis") {
+        if (useLandingDefault) rawValue = defaultArchiveBasis;
+        if (rawValue === allArchiveBasesUrlValue) rawValue = "";
+      }
       scalar[field] = canonicalFilterValue(
         field,
-        params.get(scalarUrlKeys[field] || field) || "",
+        rawValue,
       );
     }
     const relationship = {};
@@ -292,6 +300,10 @@ const YuriCatalogFilterLogic = (() => {
     if (query) params.set("q", query);
     for (const field of scalarFields) {
       const value = state.scalar?.[field] || "";
+      if (field === "archive_basis") {
+        params.set(field, value || allArchiveBasesUrlValue);
+        continue;
+      }
       if (value) params.set(scalarUrlKeys[field] || field, value);
     }
     for (const field of Object.keys(relationshipFields)) {
@@ -573,8 +585,11 @@ const YuriCatalogFilterLogic = (() => {
     }
     for (const [field, value] of Object.entries(state.scalar || {})) {
       if (!value || field === "male_romance_line") continue;
+      const label = displayStateLabel(field, value, labelOverrides);
       clauses.push(
-        `${filterFieldLabels[field] || field}为${displayStateLabel(field, value, labelOverrides)}`,
+        field === "archive_basis"
+          ? `归档为${label}`
+          : `${filterFieldLabels[field] || field}为${label}`,
       );
     }
     for (const [field, values] of Object.entries(state.multi || {})) {
@@ -585,7 +600,7 @@ const YuriCatalogFilterLogic = (() => {
         if (field === "platform_facets") hasPlatformFacetClause = true;
         clauses.push(
           field === "platform_facets"
-            ? `同时包含：${labels.join("、")}`
+            ? `包含${labels.map((label) => `“${label}”`).join("、")}标签`
             : `${filterFieldLabels[field] || field}${
                 field === "bangumi_tags" ? "同时包含" : "包含"
               }${labels.join(field === "bangumi_tags" ? "、" : "或")}`,
@@ -596,7 +611,7 @@ const YuriCatalogFilterLogic = (() => {
       return `当前问题：${clauses[0]}。`;
     }
     return clauses.length
-      ? `当前问题：找出${clauses.join("，并且")}的作品。`
+      ? `当前问题：找出${clauses.join("且")}的作品。`
       : "当前问题：显示所有作品。";
   }
 

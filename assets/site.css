@@ -1328,6 +1328,16 @@ h1, h2, h3 { line-height: 1.25; }
   font-size: 0.72rem;
   line-height: 1.35;
 }
+.raw-tag-yuri-lookup {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+  color: var(--accent-deep);
+  font-weight: 750;
+}
+.raw-tag-yuri-lookup .raw-tag-weight {
+  color: var(--accent-deep);
+  font-weight: 650;
+}
 .raw-tag-name { overflow-wrap: anywhere; }
 .raw-tag-weight {
   flex: 0 0 auto;
