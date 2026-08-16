@@ -1,0 +1,397 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="本作归为 文类内百合 ，置信度中。音乐录像以两名少女各自的孤独生活开场，再让她们相遇、同行、相互依靠并经历一次分离与重新伸手相接；这组关系是唯一贯穿全片的人物轴，也直接组织情绪高潮和结尾。作品同时是动画音乐录像、城市青春短片与关系蒙太奇，但没有男性恋爱线取代二人的中心位置。 女女恋爱位于 主线 ，最高明确度为……">
+  <meta name="color-scheme" content="light dark">
+  <meta id="theme-color-light" name="theme-color" media="(prefers-color-scheme: light)" content="#f5f0e8">
+  <meta id="theme-color-dark" name="theme-color" media="(prefers-color-scheme: dark)" content="#1c181c">
+  <script>
+    (() => {
+      document.documentElement.classList.add("js");
+      const storageKey = "yuri-classification-theme";
+      const allowed = new Set(["system", "light", "dark"]);
+      let preference = "system";
+      try {
+        const stored = localStorage.getItem(storageKey);
+        if (allowed.has(stored)) preference = stored;
+      } catch (_error) {
+        preference = "system";
+      }
+      const systemDark = window.matchMedia?.("(prefers-color-scheme: dark)").matches;
+      const theme = preference === "system"
+        ? (systemDark ? "dark" : "light")
+        : preference;
+      document.documentElement.dataset.theme = theme;
+      document.documentElement.dataset.themePreference = preference;
+      document.documentElement.style.colorScheme = theme;
+      const lightMeta = document.getElementById("theme-color-light");
+      const darkMeta = document.getElementById("theme-color-dark");
+      if (preference === "system") {
+        lightMeta.content = "#f5f0e8";
+        darkMeta.content = "#1c181c";
+      } else {
+        const color = theme === "dark" ? "#1c181c" : "#f5f0e8";
+        lightMeta.content = color;
+        darkMeta.content = color;
+      }
+    })();
+  </script>
+  <link rel="canonical" href="https://l-m-sherlock.github.io/yuri-classification-archive/works/kororon_mv_2023/">
+  <link rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="百合作品分类档案">
+  <meta property="og:title" content="《虎狼来》分类报告｜百合作品分类档案">
+  <meta property="og:description" content="本作归为 文类内百合 ，置信度中。音乐录像以两名少女各自的孤独生活开场，再让她们相遇、同行、相互依靠并经历一次分离与重新伸手相接；这组关系是唯一贯穿全片的人物轴，也直接组织情绪高潮和结尾。作品同时是动画音乐录像、城市青春短片与关系蒙太奇，但没有男性恋爱线取代二人的中心位置。 女女恋爱位于 主线 ，最高明确度为……">
+  <meta property="og:url" content="https://l-m-sherlock.github.io/yuri-classification-archive/works/kororon_mv_2023/">
+  <meta property="og:image" content="https://l-m-sherlock.github.io/yuri-classification-archive/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+  <title>《虎狼来》分类报告｜百合作品分类档案</title>
+  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=7a82f1582188">
+
+</head>
+<body class="classification-report">
+  <a class="skip-link" href="#main-content">跳到正文</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="/yuri-classification-archive/">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>
+          <strong>百合作品分类档案</strong>
+          <small>按查询拆开标签，按证据保留边界</small>
+        </span>
+      </a>
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-navigation"
+      >
+        <span>菜单</span>
+        <span class="menu-toggle-icon" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-navigation" aria-label="主导航">
+        <div class="nav-main">
+          <a href="/yuri-classification-archive/">首页</a>
+          <a href="/yuri-classification-archive/table/">总表</a>
+          <a href="/yuri-classification-archive/articles/">专题</a>
+          <a href="/yuri-classification-archive/tools/">工具</a>
+          <a href="/yuri-classification-archive/about/">方法与说明</a>
+        </div>
+        <a class="nav-star" href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub / Star <span aria-hidden="true">↗</span></a>
+        <a class="nav-feedback" href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
+        <label class="theme-control" for="theme-preference">
+          <span>主题</span>
+          <select id="theme-preference" aria-label="主题偏好">
+            <option value="system">跟随系统</option>
+            <option value="light">浅色</option>
+            <option value="dark">深色</option>
+          </select>
+        </label>
+      </nav>
+    </div>
+  </header>
+  <main id="main-content">
+    <article class="report-page">
+  <header class="report-header">
+    <p class="eyebrow">音乐动画 · 2026-08-16</p>
+    <h1>《虎狼来》分类报告</h1>
+    <p class="report-subtitle">2023 年 8 月 27 日公开的单条 Eve 官方动画音乐录像《虎狼来（Kororon）》，Bangumi subject 452425 的 1 条目；官方视频页面所列完整日文歌词、制作人员资料，以及这一条音乐录像的全片视听内容；Bangumi、Anime-Planet、AniList 与 MyAnimeList 对这一精确音乐录像条目的公开字段</p>
+    <div class="label-strip" aria-label="分类摘要">
+      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>百合归档结论：</strong>文类内百合</span><span class="label-chip"><strong>女女恋爱位置：</strong>主线</span><span class="label-chip"><strong>女女关系最高明确度：</strong>潜在恋爱</span><span class="label-chip"><strong>官方字面百合／GL：</strong>所核未见</span><span class="label-chip"><strong>官方女女恋爱表述：</strong>所核未见</span><span class="label-chip"><strong>官方来源：</strong>层级：当前版本；位置：可见作品宣传、访谈／评论</span><span class="label-chip"><strong>结论置信度：</strong>中<span class="inline-help" tabindex="0" aria-label="查看结论置信度说明" aria-describedby="report-confidence-help"><span aria-hidden="true">?</span><span class="term-tooltip" id="report-confidence-help" role="tooltip">表示当前锁定范围内，现有证据对本报告主要分类结论的支持稳定度；它不是百合程度、作品质量、社群共识或统计概率。</span></span></span>
+    </div>
+    <a class="back-link" href="/yuri-classification-archive/table/?q=%E8%99%8E%E7%8B%BC%E6%9D%A5">← 返回总表并定位本作</a>
+  </header>
+  <section class="relationship-overview" data-confirmed-female-female-count="1" aria-labelledby="relationship-overview-title"><div class="relationship-overview-heading"><p class="eyebrow">RELATIONSHIP SNAPSHOT</p><h2 id="relationship-overview-title">关系构成速览</h2></div><p class="relationship-overview-total"><strong>1</strong><span>条已确认女女关系记录</span></p><div class="relationship-overview-grid"><div class="relationship-overview-group"><h3>叙事位置</h3><ul><li data-axis="narrative_centrality" data-code="main" data-count="1"><span>主线</span><strong>1</strong></li></ul></div><div class="relationship-overview-group"><h3>恋爱明确度</h3><ul><li data-axis="romance_explicitness" data-code="potential_or_strongly_coded" data-count="1"><span>潜在恋爱</span><strong>1</strong></li></ul></div><div class="relationship-overview-group"><h3>相互性</h3><ul><li data-axis="mutuality" data-code="ambiguous" data-count="1"><span>相互性未确认</span><strong>1</strong></li></ul></div></div><p class="relationship-overview-note">只汇总档案中逐条确认的女女关系记录；它不是配对数量、出场时间、互动频率，也不是任何程度评分。</p></section>
+  <section class="work-tag-section" aria-labelledby="work-tag-title"><div class="work-tag-heading"><div><h2 id="work-tag-title">统一标签</h2><p>用于内容检索，不替代关系分类。</p></div><div class="unified-tag-list"><a class="unified-tag" data-facet-id="music" href="/yuri-classification-archive/table/?facet=music" aria-label="用统一标签“音乐”筛选总表">音乐</a></div></div><details class="raw-platform-tags"><summary><span>四平台原始标签</span><small>展开查看平台原文与权重</small></summary><div class="raw-platform-tags-content"><p class="raw-tag-snapshot-note">依据集中快照（总库更新时间：2026-08-16）；不是平台实时状态。复合条目在平台内合并去重。</p><div class="raw-platform-grid"><section class="raw-platform-card" aria-labelledby="raw-platform-bangumi" data-platform="bangumi"><div class="raw-platform-heading"><h3 id="raw-platform-bangumi">Bangumi</h3></div><div class="raw-tag-group" data-platform="bangumi" data-field="ordinary_tags"><h4>用户标签</h4><ul class="raw-tag-list"><li class="raw-tag"><span class="raw-tag-name">短片</span><small class="raw-tag-weight">20 人</small></li><li class="raw-tag"><span class="raw-tag-name">MV</span><small class="raw-tag-weight">15 人</small></li><li class="raw-tag"><span class="raw-tag-name">2023</span><small class="raw-tag-weight">14 人</small></li><li class="raw-tag"><span class="raw-tag-name">りく</span><small class="raw-tag-weight">9 人</small></li><li class="raw-tag"><span class="raw-tag-name">WEB</span><small class="raw-tag-weight">7 人</small></li><li class="raw-tag"><span class="raw-tag-name">原创</span><small class="raw-tag-weight">7 人</small></li><li class="raw-tag"><span class="raw-tag-name">百合</span><small class="raw-tag-weight">5 人</small></li><li class="raw-tag"><span class="raw-tag-name">日本</span><small class="raw-tag-weight">3 人</small></li><li class="raw-tag"><span class="raw-tag-name">Eve</span><small class="raw-tag-weight">3 人</small></li><li class="raw-tag"><span class="raw-tag-name">2023年</span><small class="raw-tag-weight">2 人</small></li><li class="raw-tag"><span class="raw-tag-name">日本动画</span><small class="raw-tag-weight">2 人</small></li><li class="raw-tag"><span class="raw-tag-name">ligton</span><small class="raw-tag-weight">2 人</small></li><li class="raw-tag"><span class="raw-tag-name">动画短片</span><small class="raw-tag-weight">1 人</small></li><li class="raw-tag"><span class="raw-tag-name">MV・PV・CM</span><small class="raw-tag-weight">1 人</small></li><li class="raw-tag"><span class="raw-tag-name">短片与MV</span><small class="raw-tag-weight">1 人</small></li><li class="raw-tag"><span class="raw-tag-name">庄一</span><small class="raw-tag-weight">1 人</small></li></ul></div></section><section class="raw-platform-card" aria-labelledby="raw-platform-anime-planet" data-platform="anime_planet"><div class="raw-platform-heading"><h3 id="raw-platform-anime-planet">Anime-Planet</h3></div><div class="raw-tag-group" data-platform="anime_planet" data-field="tags"><h4>Tags</h4><ul class="raw-tag-list"><li class="raw-tag"><span class="raw-tag-name">GL</span></li><li class="raw-tag"><span class="raw-tag-name">Romance</span></li><li class="raw-tag"><span class="raw-tag-name">Shoujo-ai</span></li></ul></div></section><section class="raw-platform-card" aria-labelledby="raw-platform-anilist" data-platform="anilist"><div class="raw-platform-heading"><h3 id="raw-platform-anilist">AniList</h3></div><div class="raw-tag-group" data-platform="anilist" data-field="tags"><h4>Tags</h4><ul class="raw-tag-list"><li class="raw-tag"><span class="raw-tag-name">Yuri</span><small class="raw-tag-weight">rank 88</small></li><li class="raw-tag"><span class="raw-tag-name">LGBTQ+ Themes</span><small class="raw-tag-weight">rank 82</small></li><li class="raw-tag"><span class="raw-tag-name">Coastal</span><small class="raw-tag-weight">rank 79</small></li><li class="raw-tag"><span class="raw-tag-name">Female Protagonist</span><small class="raw-tag-weight">rank 76</small></li><li class="raw-tag"><span class="raw-tag-name">Urban</span><small class="raw-tag-weight">rank 50</small></li></ul></div></section><section class="raw-platform-card" aria-labelledby="raw-platform-myanimelist" data-platform="myanimelist"><div class="raw-platform-heading"><h3 id="raw-platform-myanimelist">MyAnimeList</h3></div><div class="raw-tag-group" data-platform="myanimelist" data-field="themes"><h4>Themes</h4><ul class="raw-tag-list"><li class="raw-tag"><span class="raw-tag-name">Music</span></li></ul></div></section></div></div></details></section>
+  <div class="report-layout">
+    <aside class="report-toc">
+      <p>本页目录</p>
+      <ol><li><a href="#低剧透概览">低剧透概览</a></li><li><a href="#数据库与公开分类">数据库与公开分类</a></li><li><a href="#决定性文本证据">决定性文本证据</a></li><li><a href="#四层分析">四层分析</a></li><li><a href="#最强反方解释">最强反方解释</a></li><li><a href="#分用途结论">分用途结论</a></li><li><a href="#方法来源与限制">方法、来源与限制</a></li></ol>
+    </aside>
+    <div class="report-content">
+      <blockquote>
+<p>分类日期：2026-08-16<br> 分类对象：2023 年 8 月 27 日公开的 Eve 官方动画音乐录像《虎狼来（Kororon）》<br> 纳入范围：这一条约 3 分 56 秒的完整官方音乐录像<br> 排除范围：纯音频、现场演出、翻唱、宣传剪辑、二次创作及其他跨媒介材料<br> 用途：普通推荐与数据库分类</p>
+</blockquote>
+<h2 id="低剧透概览">低剧透概览</h2>
+<aside class="alert alert-note"><strong>说明</strong><div class="alert-content"><p><strong>分类信息提示：</strong> 本节不展开关键剧情、转折与结局，但分类信息本身会透露关系类型、叙事位置和恋爱明确度。希望完全盲看的读者请跳过本页。</p></div></aside>
+
+<p>本作归为<strong>文类内百合</strong>，置信度中。音乐录像以两名少女各自的孤独生活开场，再让她们相遇、同行、相互依靠并经历一次分离与重新伸手相接；这组关系是唯一贯穿全片的人物轴，也直接组织情绪高潮和结尾。作品同时是动画音乐录像、城市青春短片与关系蒙太奇，但没有男性恋爱线取代二人的中心位置。</p>
+<p>女女恋爱位于<strong>主线</strong>，最高明确度为<strong>潜在恋爱</strong>。列车上的脸颊亲吻式接触、水中牵手与触脸、结尾接受对方伸手等动作形成明显但未确认的恋爱方向；双方也都回应了共同前行。不过，现有官方歌词与完整视觉范围不足以确认告白、恋人称谓、正式交往或对象明确的恋爱／性欲望。歌词主要书写不安、冲动和人生停滞，第一人称没有被指定为任何角色。角色名采用 MyAnimeList 的 Okami-chan 与 Tora-chan 条目以便检索，不把平台命名或 GL／Yuri 标签当作身份自述。</p>
+<h3 id="分层标签">分层标签</h3>
+<blockquote>
+<p><strong>女女关系层级：主线｜百合归档结论：文类内百合｜恋爱位置：主线｜最高明确度：潜在恋爱｜关系构成：单一主要关系｜官方字面：所核未见｜官方恋爱表述：所核未见｜官方来源：范围内官方音乐录像、页面歌词与制作人员角色设定｜阅读层级：正篇事实＋强推断＋读者解读｜身份依据类型：只有关系推断｜男性恋爱线：无｜内容提示：孤独与情绪不安、水中危险意象、亲密身体接触。</strong></p>
+</blockquote>
+<h3 id="严格恋爱检索提示">严格恋爱检索提示</h3>
+<ul>
+<li>只找女性对女性明确爱意或欲望：<strong>现有材料无法确认</strong>；脸颊亲密接触与触脸形成明显方向，官方歌词却没有把爱意、求爱或欲望指向二人。</li>
+<li>只找双方正式开始交往或有恋人称谓：<strong>现有材料无法确认</strong>；完整视觉与官方歌词都不足以建立伴侣关系。</li>
+<li>接受明显但未确认的恋爱指向：<strong>符合</strong>；亲吻式脸颊接触、牵手、触脸和重新伸手相接共同组织主线。</li>
+<li>只找双方都有明确恋爱方向：<strong>现有材料无法确认</strong>；双方会回应彼此并共同前行，但恋爱相互性没有明示。</li>
+<li>只按角色性取向身份明示检索：<strong>现有材料无法确认</strong>；所核官方资料与数据库角色说明均未提供性取向或浪漫取向依据。</li>
+<li>回避男性恋爱内容：<strong>符合</strong>；完整视觉范围与官方歌词均未建立男性恋爱线。</li>
+</ul>
+<h2 id="数据库与公开分类">数据库与公开分类</h2>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>来源</th>
+<th>条目与字段</th>
+<th>来源类型</th>
+<th>本报告如何使用</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://www.youtube.com/watch?v=Gw96jPDtoDQ" target="_blank" rel="noopener noreferrer">Eve 官方音乐录像</a></td>
+<td>2023 年 8 月 27 日公开；页面列出 Eve、Numa／Zingai、Ligton 等制作人员及完整日文歌词</td>
+<td>官方视频与发布页</td>
+<td>锁定精确版本、完整发行状态、全片画面和歌词；可见文字未使用百合／GL、恋人或身份词</td>
+</tr>
+<tr>
+<td><a href="https://x.com/ligton1225/status/1696432867168137702" target="_blank" rel="noopener noreferrer">Ligton 角色设定</a></td>
+<td>本 MV 两名主要角色的设定图，以虎、狼图示区分</td>
+<td>制作人员公开资料</td>
+<td>对应范围内人物设计；不把图示扩写成关系或身份设定</td>
+</tr>
+<tr>
+<td><a href="https://bangumi.tv/subject/452425" target="_blank" rel="noopener noreferrer">Bangumi subject 452425</a>／<a href="https://api.bgm.tv/v0/subjects/452425" target="_blank" rel="noopener noreferrer">公共 API</a></td>
+<td>其他／MV、1 条目、2023-08-27、03:55；快照中“百合”用户标签 5 人，五种收藏状态合计 85 人，Rank 未列</td>
+<td>社区数据库与用户标签</td>
+<td>核对独立音乐录像编目和中文检索入口；标签人数与比例不替代正篇关系</td>
+</tr>
+<tr>
+<td><a href="https://www.anime-planet.com/anime/eve-kororon" target="_blank" rel="noopener noreferrer">Anime-Planet：Eve: Kororon</a></td>
+<td>Music Video、1 集、2023；GL、Romance、Shoujo-ai；Rank #1,334</td>
+<td>编辑维护的标签数据库</td>
+<td>记录平台的 GL 检索入口；标签不能证明告白、交往或身份</td>
+</tr>
+<tr>
+<td><a href="https://anilist.co/anime/168609" target="_blank" rel="noopener noreferrer">AniList 168609</a></td>
+<td>MUSIC、1 集、Finished；Yuri 88、LGBTQ+ Themes 82、Coastal 79、Female Protagonist 76、Urban 50</td>
+<td>带相关度的社区标签数据库</td>
+<td>记录精确版本及平台相关度；数值不是恋爱明确度或官方认证</td>
+</tr>
+<tr>
+<td><a href="https://myanimelist.net/anime/56457/Kororon" target="_blank" rel="noopener noreferrer">MyAnimeList 56457</a></td>
+<td>Music、1 集、Finished Airing、Original；Theme 为 Music，未列 Genres、Demographics、Explicit Genres 或 Girls Love</td>
+<td>编辑型数据库</td>
+<td>核对版本与发行字段；未列 Girls Love 不等于否认画面关系</td>
+</tr>
+<tr>
+<td><a href="https://myanimelist.net/character/258909/Okami-chan" target="_blank" rel="noopener noreferrer">MAL：Okami-chan</a>／<a href="https://myanimelist.net/character/258908/Tora-chan" target="_blank" rel="noopener noreferrer">Tora-chan</a></td>
+<td>分别描述为 wolf-girl 与 tiger-girl</td>
+<td>编辑型角色数据库</td>
+<td>提供可检索称呼和女性参与者依据；不把数据库描述升级为角色身份自述</td>
+</tr>
+</tbody>
+</table></div>
+<p>四个平台的公开字段并不一致：Bangumi 是用户标签，Anime-Planet 是 GL／Shoujo-ai 编辑标签，AniList 是带相关度的 Yuri／LGBTQ+ Themes 标签，MAL 则没有 Girls Love 类型。它们共同说明这部短片如何被不同数据库收录，却不能互相表决出关系事实；本报告仍以范围内画面、完整歌词和角色资料分别判断中心性、恋爱明确度与身份。</p>
+<aside class="alert alert-warning"><strong>剧透提示</strong><div class="alert-content"><p>以下部分包含本音乐录像的完整剧透，包括列车亲密动作、水中重逢和海边结尾。</p></div></aside>
+
+      <details class="spoiler-panel">
+        <summary>
+          <span>展开详细证据（含完整剧透）</span>
+          <small>决定性证据、四层分析、反方解释与方法限制</small>
+        </summary>
+        <div class="spoiler-content">
+          <h2 id="决定性文本证据">决定性文本证据</h2>
+<h3 id="字幕与歌词覆盖">字幕与歌词覆盖</h3>
+<p>字幕索引中未确认到精确对应本音乐录像的字幕文件。Eve 官方视频页面公开了完整日文歌词，因此歌词文字可完整审读；它没有时间轴，也不等同于字幕。歌词采用未指派给角色的第一人称“僕”，主要书写对平庸人生、不安、冲动和梦想停滞的反应。中文摘要由本报告翻译。字幕未找到只限制逐句定位，不能作为画面中没有关系或没有台词的证明。</p>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>位置</th>
+<th>原文与中文摘要</th>
+<th>叙事层级</th>
+<th>证据强度与视听复核</th>
+<th>能证明什么</th>
+<th>不能证明什么</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>官方页面完整歌词</td>
+<td><code>爆ぜるようなこの気持ちが／抑えようもない衝動が</code>，意为“这份仿佛迸裂的心情、无法压住的冲动”；全词同时围绕人生焦虑与梦想展开</td>
+<td>歌词／第一人称</td>
+<td>官方文字直接；完整审读</td>
+<td>歌曲有强烈情绪与行动冲动，并为画面的奔跑、突破和相遇提供情绪节奏</td>
+<td>“冲动”没有对象，不能改写成任一角色对另一人的恋爱或性欲望</td>
+</tr>
+<tr>
+<td>00:00–02:10</td>
+<td>两名角色先被平行置于各自的城市生活，随后相遇；共同段落连续包括并肩休息、自拍、同桌用餐、相互依靠和共同出行</td>
+<td>现实／关系蒙太奇</td>
+<td>官方画面直接；全片视听复核</td>
+<td>二人的相遇与同行是唯一持续的人物关系，承担全片情绪推进</td>
+<td>共同生活和身体靠近本身不等于恋人关系</td>
+</tr>
+<tr>
+<td>02:12–02:24</td>
+<td>列车座位上，Okami-chan 主动靠近，把嘴唇贴到 Tora-chan 的脸颊；随后镜头给出 Tora-chan 的惊讶和二人重新相视</td>
+<td>现实／亲密动作</td>
+<td>官方画面直接；逐帧核对动作起止</td>
+<td>存在对象明确、主动发起的脸颊亲密接触，明显提高恋爱阅读的文本抓手</td>
+<td>该画面本身不提供告白或关系命名，仍可能被解释为亲密友情或玩笑</td>
+</tr>
+<tr>
+<td>02:54–03:13</td>
+<td>水中段落把奔向对方、抓住手腕、贴近彼此和双手触碰脸颊连续呈现</td>
+<td>象征化危机与重连</td>
+<td>画面事实直接＋关系方向强推断；完整视听复核</td>
+<td>二人会寻找、抓住和安抚对方，关系在危机段落中获得身体与情绪高潮</td>
+<td>水中空间带有象征性，不能据此虚构事件现实性、告白或身份</td>
+</tr>
+<tr>
+<td>03:15–03:36</td>
+<td>海边结尾，一人向坐下的另一人伸手，对方接受后起身；二人相视并共同留在画面中</td>
+<td>结尾／重新选择</td>
+<td>官方画面直接＋强推断；完整视听复核</td>
+<td>伸手和接受形成可观察的双向回应，并把同行写入结尾</td>
+<td>双向行动不自动等于双方恋爱欲望已经确认</td>
+</tr>
+<tr>
+<td><a href="https://myanimelist.net/character/258909/Okami-chan" target="_blank" rel="noopener noreferrer">MAL 角色页</a>／<a href="https://myanimelist.net/character/258908/Tora-chan" target="_blank" rel="noopener noreferrer">角色页</a></td>
+<td>Okami-chan 为 wolf-girl，Tora-chan 为 tiger-girl</td>
+<td>数据库角色说明</td>
+<td>精确角色页直接陈述；非官方正篇文字</td>
+<td>支持本报告对两名角色的检索称呼和女性参与者记录</td>
+<td>不能证明角色性取向，也不能代替范围内关系动作</td>
+</tr>
+</tbody>
+</table></div>
+<p>这组关系不是由一个平台标签或单一脸颊动作推出。短片先建立两名角色各自的孤独，再以相遇和日常同行形成共同经历；列车亲密接触把关系推到明显的身体亲近，水中互相抓住与触脸把对方写成危机中的行动对象，结尾伸手与接受则完成重新选择。整条人物弧由二人的持续回应构成，因此女性关系处于主线。</p>
+<p>恋爱明确度仍须与关系中心性分开。脸颊亲密接触、触脸和牵手让纯粹偶然同伴的解释变弱，这些可见动作本身却不直接说明“喜欢”“爱上”“想交往”或“恋人”。歌词中的“爱”与“冲动”也没有角色或对象归属。综合这些限制，最稳定的表述是潜在恋爱，而不是明确欲望或明确交往。</p>
+<h2 id="四层分析">四层分析</h2>
+<h3 id="第一层文本中的关系">第一层：文本中的关系</h3>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>关系 ID</th>
+<th>关系／参与者</th>
+<th>类型</th>
+<th>叙事位置</th>
+<th>恋爱明确度</th>
+<th>相互性</th>
+<th>证据层级</th>
+<th>摘要</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>r01</td>
+<td>Okami-chan—Tora-chan</td>
+<td>恋爱／友情／搭档</td>
+<td>主线</td>
+<td>潜在恋爱</td>
+<td>相互性未确认</td>
+<td>正篇事实＋强推断＋读者解读</td>
+<td>相遇、同行、脸颊亲密接触、水中相互抓住与触脸、海边伸手和接受构成完整关系弧；双方会回应彼此，现有材料仍不足以确认告白、交往或恋爱相互性。</td>
+</tr>
+</tbody>
+</table></div>
+<p>Okami-chan 与 Tora-chan 是这条短片唯一持续展开的人物关系。她们先被分置于城市中，再通过相遇获得共同日常；亲密动作并非孤立插图，而是位于共同生活之后、危机式分离之前。水中段落由 Tora-chan 抓住对方、Okami-chan 回以触脸，结尾又通过伸手和接受恢复同行，因而双方的行动回应成立。</p>
+<p>这些回应足以说明关系有双向选择，却不足以把恋爱相互性写成确认。Okami-chan 发起的脸颊亲密接触最接近欲望表现，现有文字没有把 Tora-chan 的惊讶和后续靠近命名为恋爱。关系类型同时保留友情与搭档，是因为共同生活、救援和同行也能解释多数动作；“恋爱”描述的是多项亲密表现共同形成的方向，不抹除竞争解释。</p>
+<h3 id="第二层作品的文类位置">第二层：作品的文类位置</h3>
+<p>本作属于<strong>文类内百合</strong>，依据不是三个平台恰好使用了百合、GL 或 Yuri 标签，而是 Okami-chan 与 Tora-chan 的关系实际组织了全片。短片的起点是二人各自孤独，转折是相遇与共同日常，高潮是脸颊亲密动作和水中重新抓住对方，结尾则由伸手、接受和共同站立完成。若抽走这组关系，动画只剩无法落到人物弧上的城市与海水意象。</p>
+<p>音乐、城市青春、成长与象征化冒险是并列文类。歌词主要谈个体不安和打破停滞，画面把这种行动冲动投射到两名少女从孤立到同行的进程；二者彼此配合，却不能把歌词第一人称直接指定给角色。范围内没有由女性与男性的爱情组织冲突或结局，男性恋爱线为无。</p>
+<h3 id="第三层角色身份">第三层：角色身份</h3>
+<p>角色身份保持未知。MAL 角色页把 Okami-chan 与 Tora-chan 分别描述为狼少女和虎少女，足以支持本档案记录女性参与者；官方制作人员资料则确认她们是本 MV 的两名主要角色设计。所核两类资料均未提供性取向或浪漫取向词。</p>
+<p>主线女性关系与潜在恋爱不能自动换算成女同性恋、双性恋或其他身份。即使把脸颊亲密动作理解为恋爱方向，也只能说明这组具体关系的表现；现有材料不足以确认角色自述、官方身份设定或明确伴侣事实，身份检索因此保持未知。</p>
+<h3 id="第四层公共标签礼仪">第四层：公共标签礼仪</h3>
+<p>普通推荐可写“以两名少女从孤独到同行为主线、包含脸颊亲密接触和潜在恋爱的动画 MV”。开放百合目录可列为文类内百合，并列音乐录像、城市青春、友情／搭档和潜在恋爱。严格明确恋爱目录不应把二人写成已告白、已交往或已确认相爱；私人阅读则可以直接利用列车、水中和海边三段连续关系抓手。</p>
+<p>平台字段应保留制度差异。Bangumi 的“百合”是普通用户标签，Anime-Planet 的 GL／Shoujo-ai 是编辑检索标签，AniList 的 Yuri 88 是相关度标签，MAL 则未列 Girls Love。适合说“四个平台给出不同入口”，不适合说“三票胜一票”或把数值解释为百合程度。官方查询只报告 Eve 发布的完整音乐录像、歌词和制作人员资料，不能把数据库标签转述为官方分类。</p>
+<h2 id="最强反方解释">最强反方解释</h2>
+<p>最强的保守解释是：这是一条以友情和成长为核心的音乐录像。两名角色从孤独到相伴，脸颊接触可以是亲密朋友间的玩笑，牵手、触脸和伸手则服务于救援、安慰与共同前进；歌词也只谈人生冲动，其情感没有对象归属。对于只接受告白、欲望直陈或情侣关系的查询，这套解释足以排除“明确恋爱”。</p>
+<p>这套解释不能消除三个事实：关系贯穿开场到结尾；脸颊接触由一人主动发起并被特写；后续危机和结尾仍持续用触脸、抓住、伸手与接受把对方置于行动中心。因此，把二人写成普通偶遇者会漏掉作品反复强化的亲密方向。潜在恋爱正用于保留这两种读法的竞争，而文类内百合判断来自这组女性关系对整条短片的组织作用，不要求把每个动作单独裁成告白。</p>
+<p>若范围内出现制作人员对二人关系的明确说明、对象指派清楚的恋爱／欲望文字、恋人称谓或双方确认，恋爱明确度和相互性可以提高。反之，若官方明确把脸颊接触定义为纯玩笑并给出完整的非恋爱关系设定，当前恋爱方向需要下调；平台标签本身不能决定哪一种变化。</p>
+<h2 id="分用途结论">分用途结论</h2>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>用途</th>
+<th>分类</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>普通作品推荐</td>
+<td><strong>文类内百合的动画音乐录像；两名少女从孤独到同行的关系组织全片，恋爱未确认。</strong></td>
+</tr>
+<tr>
+<td>数据库主标签</td>
+<td><strong>可列文类内百合，并列动画 MV、音乐、城市青春、友情／搭档和潜在恋爱；不标已确认情侣。</strong></td>
+</tr>
+<tr>
+<td>严格明确恋爱检索</td>
+<td><strong>现有材料不足以确认：官方歌词与完整视觉没有建立对象明确的爱意／欲望表达、恋人称谓或正式交往。</strong></td>
+</tr>
+<tr>
+<td>私人百合阅读</td>
+<td><strong>适合：脸颊亲密接触、牵手、触脸与结尾伸手回应形成连续文本抓手。</strong></td>
+</tr>
+<tr>
+<td>角色身份检索</td>
+<td><strong>现有材料不足以确认身份明示：所核官方资料与数据库角色说明未提供性取向／浪漫取向依据。</strong></td>
+</tr>
+<tr>
+<td>官方分类查询</td>
+<td><strong>官方确认 2023 年 8 月 27 日完整公开的 Eve 动画音乐录像、歌词和制作人员，未使用百合／GL、恋人或身份词。</strong></td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="方法来源与限制">方法、来源与限制</h2>
+<ul>
+<li><strong>发行与版本：</strong> Eve 官方页面、Bangumi 452425、Anime-Planet、AniList 168609 和 MAL 56457 均对应 2023 年单条音乐录像；约 3 分 56 秒的完整视频已公开，纯音频、现场演出和其他版本排除。</li>
+<li><strong>正篇文字：</strong> 官方页面公开的完整日文歌词已全文审读，中文摘要由本报告翻译；歌词使用未指定给角色的第一人称，不能单独承担人物或关系归属。</li>
+<li><strong>字幕边界：</strong> 四个精确或高辨识度题名未确认到本 MV 的字幕文件；官方歌词提供完整文字但没有时间轴。未找到字幕只限制逐句定位，不证明任何关系台词不存在。</li>
+<li><strong>视听材料：</strong> 完整官方音乐录像经过全片复核，并对相遇、列车亲密动作、水中重连和海边结尾作近距离检查；只记录画面可见的同框、靠近、脸颊接触、牵手、触脸、伸手与回应。</li>
+<li><strong>角色资料：</strong> MAL 精确角色页提供 Okami-chan／Tora-chan 称呼及 wolf-girl／tiger-girl 描述；制作人员公开设定图确认两名主要角色设计。数据库文字支持女性参与者记录，不替代关系事实或身份自述。</li>
+<li><strong>平台分离：</strong> Bangumi 用户标签、Anime-Planet 编辑标签、AniList 相关度标签和 MAL 分类字段分别记录；标签数量、权重和站点数量不换算为官方认证或关系强度。</li>
+<li><strong>可能改变结论的材料：</strong> 范围内对象明确的爱意／欲望文字、恋人称谓、双方关系确认或官方关系说明可能提高明确度；明确的非恋爱官方设定也可能下调恋爱方向。</li>
+</ul>
+
+        </div>
+      </details>
+    </div>
+  </div>
+</article>
+
+<section class="feedback-section">
+  <div>
+    <p class="eyebrow">REPORT FEEDBACK</p>
+    <h2>提交可核查的修订建议</h2>
+    <p>请注明作品版本、集数／章节、要质疑的原句、可公开核查的来源，以及建议如何修订。评论属于待核查反馈，不会自动成为报告证据。</p>
+  </div>
+  <div class="giscus"></div>
+<div class="giscus-config"
+        hidden
+        data-repo="L-M-Sherlock/yuri-classification-archive"
+        data-repo-id="R_kgDOTo1RzA"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOTo1RzM4DCXAh"
+        data-mapping="specific"
+        data-term="classification:kororon_mv_2023"
+        data-strict="1"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-lang="zh-CN"
+        data-loading="lazy"
+        aria-hidden="true"></div>
+</section>
+
+  </main>
+  <footer class="site-footer">
+    <div>
+      <p>分类是面向具体查询的检索工具，不是替作品关系作终审判决。</p>
+      <p class="footer-ai-note">本站使用以 OpenAI Codex 为主的生成式 AI 辅助研究、写作与站点开发；人工审阅未覆盖全部作品报告。<a href="/yuri-classification-archive/about/#AI使用说明">查看 AI 使用说明</a></p>
+      <p>© 2026 Jarrett Ye · <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="license noopener noreferrer">CC BY-NC-SA 4.0</a> · <a href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub 仓库</a> · <a href="/yuri-classification-archive/about/#使用边界">使用边界</a></p>
+    </div>
+  </footer>
+  <script>window.SITE_CONFIG = {basePath: "/yuri-classification-archive"};</script>
+  <script src="/yuri-classification-archive/assets/site.js?v=eeeec5872796" defer></script>
+
+</body>
+</html>

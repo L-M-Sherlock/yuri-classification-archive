@@ -1,0 +1,383 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="ウタ与ポーラ的相遇是短片的女性关系主线。二人从仰慕、被认出和共同游玩，发展到分享私密兴趣、互相肯定并约定继续联系；这段关系不仅提供一个可配对的瞬间，还实际推动ウタ重新选择生活方向。报告据此采用 文类内百合 ，支撑归档的是ウタ与ポーラ贯穿人物变化和收束方向的主要关系，而不是任何平台标签。 二人的主动靠近是双向的……">
+  <meta name="color-scheme" content="light dark">
+  <meta id="theme-color-light" name="theme-color" media="(prefers-color-scheme: light)" content="#f5f0e8">
+  <meta id="theme-color-dark" name="theme-color" media="(prefers-color-scheme: dark)" content="#1c181c">
+  <script>
+    (() => {
+      document.documentElement.classList.add("js");
+      const storageKey = "yuri-classification-theme";
+      const allowed = new Set(["system", "light", "dark"]);
+      let preference = "system";
+      try {
+        const stored = localStorage.getItem(storageKey);
+        if (allowed.has(stored)) preference = stored;
+      } catch (_error) {
+        preference = "system";
+      }
+      const systemDark = window.matchMedia?.("(prefers-color-scheme: dark)").matches;
+      const theme = preference === "system"
+        ? (systemDark ? "dark" : "light")
+        : preference;
+      document.documentElement.dataset.theme = theme;
+      document.documentElement.dataset.themePreference = preference;
+      document.documentElement.style.colorScheme = theme;
+      const lightMeta = document.getElementById("theme-color-light");
+      const darkMeta = document.getElementById("theme-color-dark");
+      if (preference === "system") {
+        lightMeta.content = "#f5f0e8";
+        darkMeta.content = "#1c181c";
+      } else {
+        const color = theme === "dark" ? "#1c181c" : "#f5f0e8";
+        lightMeta.content = color;
+        darkMeta.content = color;
+      }
+    })();
+  </script>
+  <link rel="canonical" href="https://l-m-sherlock.github.io/yuri-classification-archive/works/ephemere_web_2024/">
+  <link rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="百合作品分类档案">
+  <meta property="og:title" content="《转瞬即逝》分类报告｜百合作品分类档案">
+  <meta property="og:description" content="ウタ与ポーラ的相遇是短片的女性关系主线。二人从仰慕、被认出和共同游玩，发展到分享私密兴趣、互相肯定并约定继续联系；这段关系不仅提供一个可配对的瞬间，还实际推动ウタ重新选择生活方向。报告据此采用 文类内百合 ，支撑归档的是ウタ与ポーラ贯穿人物变化和收束方向的主要关系，而不是任何平台标签。 二人的主动靠近是双向的……">
+  <meta property="og:url" content="https://l-m-sherlock.github.io/yuri-classification-archive/works/ephemere_web_2024/">
+  <meta property="og:image" content="https://l-m-sherlock.github.io/yuri-classification-archive/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+  <title>《转瞬即逝》分类报告｜百合作品分类档案</title>
+  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=7a82f1582188">
+
+</head>
+<body class="classification-report">
+  <a class="skip-link" href="#main-content">跳到正文</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="/yuri-classification-archive/">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>
+          <strong>百合作品分类档案</strong>
+          <small>按查询拆开标签，按证据保留边界</small>
+        </span>
+      </a>
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-navigation"
+      >
+        <span>菜单</span>
+        <span class="menu-toggle-icon" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-navigation" aria-label="主导航">
+        <div class="nav-main">
+          <a href="/yuri-classification-archive/">首页</a>
+          <a href="/yuri-classification-archive/table/">总表</a>
+          <a href="/yuri-classification-archive/articles/">专题</a>
+          <a href="/yuri-classification-archive/tools/">工具</a>
+          <a href="/yuri-classification-archive/about/">方法与说明</a>
+        </div>
+        <a class="nav-star" href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub / Star <span aria-hidden="true">↗</span></a>
+        <a class="nav-feedback" href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
+        <label class="theme-control" for="theme-preference">
+          <span>主题</span>
+          <select id="theme-preference" aria-label="主题偏好">
+            <option value="system">跟随系统</option>
+            <option value="light">浅色</option>
+            <option value="dark">深色</option>
+          </select>
+        </label>
+      </nav>
+    </div>
+  </header>
+  <main id="main-content">
+    <article class="report-page">
+  <header class="report-header">
+    <p class="eyebrow">WEB 动画 · 2026-08-16</p>
+    <h1>《转瞬即逝》分类报告</h1>
+    <p class="report-subtitle">2024 年公开的动画短片《エフェメール》正片，单一 ep01 单元，时长 10 分 05 秒；あにめのたね 2024 官方作品页、制作作品公告与公开正片页面；与 Bangumi 484219、Anime-Planet Ephemere、AniList 184373、MyAnimeList 58321 精确对应的公开数据库条目</p>
+    <div class="label-strip" aria-label="分类摘要">
+      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>百合归档结论：</strong>文类内百合</span><span class="label-chip"><strong>女女恋爱位置：</strong>主线</span><span class="label-chip"><strong>女女关系最高明确度：</strong>潜在恋爱</span><span class="label-chip"><strong>官方字面百合／GL：</strong>所核未见</span><span class="label-chip"><strong>官方女女恋爱表述：</strong>所核未见</span><span class="label-chip"><strong>官方来源：</strong>层级：当前版本；位置：出版载体、剧情／角色页</span><span class="label-chip"><strong>结论置信度：</strong>中<span class="inline-help" tabindex="0" aria-label="查看结论置信度说明" aria-describedby="report-confidence-help"><span aria-hidden="true">?</span><span class="term-tooltip" id="report-confidence-help" role="tooltip">表示当前锁定范围内，现有证据对本报告主要分类结论的支持稳定度；它不是百合程度、作品质量、社群共识或统计概率。</span></span></span>
+    </div>
+    <a class="back-link" href="/yuri-classification-archive/table/?q=%E8%BD%AC%E7%9E%AC%E5%8D%B3%E9%80%9D">← 返回总表并定位本作</a>
+  </header>
+  <section class="relationship-overview" data-confirmed-female-female-count="1" aria-labelledby="relationship-overview-title"><div class="relationship-overview-heading"><p class="eyebrow">RELATIONSHIP SNAPSHOT</p><h2 id="relationship-overview-title">关系构成速览</h2></div><p class="relationship-overview-total"><strong>1</strong><span>条已确认女女关系记录</span></p><div class="relationship-overview-grid"><div class="relationship-overview-group"><h3>叙事位置</h3><ul><li data-axis="narrative_centrality" data-code="main" data-count="1"><span>主线</span><strong>1</strong></li></ul></div><div class="relationship-overview-group"><h3>恋爱明确度</h3><ul><li data-axis="romance_explicitness" data-code="potential_or_strongly_coded" data-count="1"><span>潜在恋爱</span><strong>1</strong></li></ul></div><div class="relationship-overview-group"><h3>相互性</h3><ul><li data-axis="mutuality" data-code="mutual" data-count="1"><span>双向</span><strong>1</strong></li></ul></div></div><p class="relationship-overview-note">只汇总档案中逐条确认的女女关系记录；它不是配对数量、出场时间、互动频率，也不是任何程度评分。</p></section>
+  <section class="work-tag-section" aria-labelledby="work-tag-title"><div class="work-tag-heading"><div><h2 id="work-tag-title">统一标签</h2><p>用于内容检索，不替代关系分类。</p></div><div class="unified-tag-list"><a class="unified-tag" data-facet-id="workplace" href="/yuri-classification-archive/table/?facet=workplace" aria-label="用统一标签“职场”筛选总表">职场</a><a class="unified-tag" data-facet-id="slice_of_life" href="/yuri-classification-archive/table/?facet=slice_of_life" aria-label="用统一标签“日常”筛选总表">日常</a><a class="unified-tag" data-facet-id="drama" href="/yuri-classification-archive/table/?facet=drama" aria-label="用统一标签“剧情”筛选总表">剧情</a><a class="unified-tag" data-facet-id="fantasy" href="/yuri-classification-archive/table/?facet=fantasy" aria-label="用统一标签“奇幻”筛选总表">奇幻</a><a class="unified-tag" data-facet-id="science_fiction" href="/yuri-classification-archive/table/?facet=science_fiction" aria-label="用统一标签“科幻”筛选总表">科幻</a><a class="unified-tag" data-facet-id="cute_girls_doing_cute_things" href="/yuri-classification-archive/table/?facet=cute_girls_doing_cute_things" aria-label="用统一标签“空气系”筛选总表">空气系</a></div></div><details class="raw-platform-tags"><summary><span>四平台原始标签</span><small>展开查看平台原文与权重</small></summary><div class="raw-platform-tags-content"><p class="raw-tag-snapshot-note">依据集中快照（总库更新时间：2026-08-16）；不是平台实时状态。复合条目在平台内合并去重。</p><div class="raw-platform-grid"><section class="raw-platform-card" aria-labelledby="raw-platform-bangumi" data-platform="bangumi"><div class="raw-platform-heading"><h3 id="raw-platform-bangumi">Bangumi</h3></div><div class="raw-tag-group" data-platform="bangumi" data-field="ordinary_tags"><h4>用户标签</h4><ul class="raw-tag-list"><li class="raw-tag"><span class="raw-tag-name">短片</span><small class="raw-tag-weight">22 人</small></li><li class="raw-tag"><span class="raw-tag-name">原创</span><small class="raw-tag-weight">19 人</small></li><li class="raw-tag"><span class="raw-tag-name">2024</span><small class="raw-tag-weight">17 人</small></li><li class="raw-tag"><span class="raw-tag-name">WEB</span><small class="raw-tag-weight">14 人</small></li><li class="raw-tag"><span class="raw-tag-name">百合</span><small class="raw-tag-weight">12 人</small></li><li class="raw-tag"><span class="raw-tag-name">清水理央</span><small class="raw-tag-weight">7 人</small></li><li class="raw-tag"><span class="raw-tag-name">スタジオエイトカラーズ</span><small class="raw-tag-weight">6 人</small></li><li class="raw-tag"><span class="raw-tag-name">Noovo.Inc.</span><small class="raw-tag-weight">6 人</small></li><li class="raw-tag"><span class="raw-tag-name">日本</span><small class="raw-tag-weight">4 人</small></li><li class="raw-tag"><span class="raw-tag-name">短篇</span><small class="raw-tag-weight">3 人</small></li><li class="raw-tag"><span class="raw-tag-name">2024年3月</span><small class="raw-tag-weight">2 人</small></li><li class="raw-tag"><span class="raw-tag-name">2024年</span><small class="raw-tag-weight">2 人</small></li><li class="raw-tag"><span class="raw-tag-name">箕崎准</span><small class="raw-tag-weight">2 人</small></li><li class="raw-tag"><span class="raw-tag-name">Noovo</span><small class="raw-tag-weight">2 人</small></li><li class="raw-tag"><span class="raw-tag-name">动画短片</span><small class="raw-tag-weight">1 人</small></li><li class="raw-tag"><span class="raw-tag-name">旧都なぎ</span><small class="raw-tag-weight">1 人</small></li><li class="raw-tag"><span class="raw-tag-name">日本动画</span><small class="raw-tag-weight">1 人</small></li><li class="raw-tag"><span class="raw-tag-name">EIGHTCOLORS</span><small class="raw-tag-weight">1 人</small></li><li class="raw-tag"><span class="raw-tag-name">剧情</span><small class="raw-tag-weight">1 人</small></li><li class="raw-tag"><span class="raw-tag-name">OVA</span><small class="raw-tag-weight">1 人</small></li><li class="raw-tag"><span class="raw-tag-name">Tomggg</span><small class="raw-tag-weight">1 人</small></li><li class="raw-tag"><span class="raw-tag-name">Noovo_Inc.</span><small class="raw-tag-weight">1 人</small></li><li class="raw-tag"><span class="raw-tag-name">36</span><small class="raw-tag-weight">1 人</small></li><li class="raw-tag"><span class="raw-tag-name">細美稚冬</span><small class="raw-tag-weight">1 人</small></li><li class="raw-tag"><span class="raw-tag-name">LANDOKMAI</span><small class="raw-tag-weight">1 人</small></li><li class="raw-tag"><span class="raw-tag-name">吉井弘幸</span><small class="raw-tag-weight">1 人</small></li><li class="raw-tag"><span class="raw-tag-name">NoovoInc.</span><small class="raw-tag-weight">1 人</small></li><li class="raw-tag"><span class="raw-tag-name">奇幻</span><small class="raw-tag-weight">1 人</small></li><li class="raw-tag"><span class="raw-tag-name">2024年4月</span><small class="raw-tag-weight">1 人</small></li><li class="raw-tag"><span class="raw-tag-name">studioEIGHTCOLORS</span><small class="raw-tag-weight">1 人</small></li></ul></div></section><section class="raw-platform-card" aria-labelledby="raw-platform-anime-planet" data-platform="anime_planet"><div class="raw-platform-heading"><h3 id="raw-platform-anime-planet">Anime-Planet</h3></div><div class="raw-tag-group" data-platform="anime_planet" data-field="tags"><h4>Tags</h4><ul class="raw-tag-list"><li class="raw-tag"><span class="raw-tag-name">Sci Fi</span></li><li class="raw-tag"><span class="raw-tag-name">Anime Tamago</span></li><li class="raw-tag"><span class="raw-tag-name">Original Work</span></li></ul></div></section><section class="raw-platform-card" aria-labelledby="raw-platform-anilist" data-platform="anilist"><div class="raw-platform-heading"><h3 id="raw-platform-anilist">AniList</h3></div><div class="raw-tag-group" data-platform="anilist" data-field="genres"><h4>Genres</h4><ul class="raw-tag-list"><li class="raw-tag"><span class="raw-tag-name">Sci-Fi</span></li><li class="raw-tag"><span class="raw-tag-name">Slice of Life</span></li></ul></div><div class="raw-tag-group" data-platform="anilist" data-field="tags"><h4>Tags</h4><ul class="raw-tag-list"><li class="raw-tag"><span class="raw-tag-name">Female Protagonist</span><small class="raw-tag-weight">rank 84</small></li><li class="raw-tag"><span class="raw-tag-name">Primarily Female Cast</span><small class="raw-tag-weight">rank 79</small></li><li class="raw-tag"><span class="raw-tag-name">Cute Girls Doing Cute Things</span><small class="raw-tag-weight">rank 79</small></li><li class="raw-tag"><span class="raw-tag-name">Yuri</span><small class="raw-tag-weight">rank 79</small></li><li class="raw-tag"><span class="raw-tag-name">Work</span><small class="raw-tag-weight">rank 79</small></li><li class="raw-tag"><span class="raw-tag-name">Space</span><small class="raw-tag-weight">rank 75</small></li><li class="raw-tag"><span class="raw-tag-name">LGBTQ+ Themes</span><small class="raw-tag-weight">rank 70</small></li></ul></div></section><section class="raw-platform-card" aria-labelledby="raw-platform-myanimelist" data-platform="myanimelist"><div class="raw-platform-heading"><h3 id="raw-platform-myanimelist">MyAnimeList</h3></div><div class="raw-tag-group" data-platform="myanimelist" data-field="genres"><h4>Genres</h4><ul class="raw-tag-list"><li class="raw-tag"><span class="raw-tag-name">Sci-Fi</span></li></ul></div></section></div></div></details></section>
+  <div class="report-layout">
+    <aside class="report-toc">
+      <p>本页目录</p>
+      <ol><li><a href="#低剧透概览">低剧透概览</a></li><li><a href="#数据库与公开分类">数据库与公开分类</a></li><li><a href="#决定性文本证据">决定性文本证据</a></li><li><a href="#四层分析">四层分析</a></li><li><a href="#最强反方解释">最强反方解释</a></li><li><a href="#分用途结论">分用途结论</a></li><li><a href="#方法来源与限制">方法、来源与限制</a></li></ol>
+    </aside>
+    <div class="report-content">
+      <blockquote>
+<p>分类日期：2026-08-16<br> 分类对象：2024 年 WEB／ONA 动画短片《エフェメール》（éphémère／转瞬即逝）<br> 纳入范围：公开正片 1 集，10 分 05 秒<br> 排除范围：《HOTEL ASTROLOGY》原案书、其他衍生出版物、宣传剪辑、相邻作品及跨媒介材料<br> 用途：普通推荐与数据库分类</p>
+</blockquote>
+<h2 id="低剧透概览">低剧透概览</h2>
+<aside class="alert alert-note"><strong>说明</strong><div class="alert-content"><p><strong>分类信息提示：</strong> 本节不展开关键剧情、转折与结局，但分类信息本身会透露关系类型、叙事位置和恋爱明确度。希望完全盲看的读者请跳过本页。</p></div></aside>
+
+<p>ウタ与ポーラ的相遇是短片的女性关系主线。二人从仰慕、被认出和共同游玩，发展到分享私密兴趣、互相肯定并约定继续联系；这段关系不仅提供一个可配对的瞬间，还实际推动ウタ重新选择生活方向。报告据此采用<strong>文类内百合</strong>，支撑归档的是ウタ与ポーラ贯穿人物变化和收束方向的主要关系，而不是任何平台标签。</p>
+<p>二人的主动靠近是双向的，恋爱位置为主线，最高明确度为<strong>潜在恋爱</strong>。ポーラ对象明确地说喜欢“这样的ウタ”，双方又交换联系方式、约定再见；这些事实形成明显但未确认的恋爱指向。不过该句也出现在接纳ウタ独特兴趣的语境中，粉丝与偶像发展为亲密朋友仍是完整而有力的解释。范围内没有告白、求爱、恋人称谓、正式交往或身份自述，因此不命中严格明确恋爱与角色身份检索。完整日文自动转写已经审阅，但并非人工字幕，且未作同步视听复核；结论置信度为中。</p>
+<h3 id="分层标签">分层标签</h3>
+<blockquote>
+<p><strong>女女关系层级：主线｜百合归档结论：文类内百合｜恋爱位置：主线｜最高明确度：潜在恋爱｜关系构成：单一主要关系｜官方字面：所核未见｜官方恋爱表述：所核未见｜官方来源：范围内版本＋故事概要与制作公告｜阅读层级：正篇事实／强推断／读者解读｜身份依据类型：只有关系推断｜男性恋爱线：无｜内容提示：粉丝与人气创作者的认知不对称、职业去留与人生重大决定、带有离别意味的未来选择</strong></p>
+</blockquote>
+<h3 id="严格恋爱检索提示">严格恋爱检索提示</h3>
+<ul>
+<li>只找女性对女性明确爱意、欲望或求偶：<strong>不符合</strong>；“我也喜欢这样的ウタ”对象明确，但接纳式友情仍能解释其语境。</li>
+<li>只找双方正式开始交往或有恋人称谓：<strong>不符合</strong>；范围内只有亲近、交换联系方式与再次相约。</li>
+<li>接受明显但未确认的恋爱指向：<strong>符合</strong>；双方主动选择彼此，喜欢的表达与未来再会共同形成持续方向。</li>
+<li>只找角色性取向明示：<strong>不符合</strong>；作品关系与数据库标签都不能代替身份自述或官方身份设定。</li>
+<li>只找由主要女女关系推动人物弧的作品：<strong>符合</strong>；官方概要和正片收束都把与ポーラ亲近后的生活选择放在ウタ的人物变化中心。</li>
+</ul>
+<h2 id="数据库与公开分类">数据库与公开分类</h2>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>来源</th>
+<th>条目与字段</th>
+<th>来源类型</th>
+<th>本报告如何使用</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://animenotane.jp/2024/job_training/ephemere/" target="_blank" rel="noopener noreferrer">あにめのたね 2024 官方作品页</a>／<a href="https://animenotane.jp/2024/2024-02-26-2/" target="_blank" rel="noopener noreferrer">制作作品公告</a></td>
+<td>官方概要称ポーラ为ウタ憧憬的人气创作者，并说二人相识、亲近后，ウタ作出人生重大决定；所核文字未使用百合、GL、恋人或恋爱措辞</td>
+<td>官方故事、制作与发行语境</td>
+<td>确认精确版本、人物入口和关系对人物弧的作用；不把“憧憬”“亲近”自动升级为恋爱。</td>
+</tr>
+<tr>
+<td><a href="https://bangumi.tv/subject/484219" target="_blank" rel="noopener noreferrer">Bangumi 484219</a></td>
+<td>WEB、1 集；普通用户标签“百合”12 人；受控 <code>meta_tags</code> 为“原创”“WEB”，不含“百合”</td>
+<td>社区数据库、普通用户标签与受控元数据</td>
+<td>锁定版本并记录接受史；普通标签人数不是官方分类、文本证据或支持率。</td>
+</tr>
+<tr>
+<td><a href="https://www.anime-planet.com/anime/ephemere" target="_blank" rel="noopener noreferrer">Anime-Planet Ephemere</a></td>
+<td>Web、1 集；Tags 为 Sci Fi、Anime Tamago、Original Work，未列 GL 或 Shoujo-ai</td>
+<td>编辑维护的标签数据库</td>
+<td>记录该站当前检索入口；未列不等于否认关系或读者解释。</td>
+</tr>
+<tr>
+<td><a href="https://anilist.co/anime/184373/" target="_blank" rel="noopener noreferrer">AniList 184373</a></td>
+<td>ONA、1 集；Genres 为 Sci-Fi、Slice of Life；Yuri rank 79，LGBTQ+ Themes rank 70</td>
+<td>编辑 Genres 与带 rank 的社区相关性标签</td>
+<td>记录候选发现信号和公共接受；rank 不是恋爱明确度，也不替代正篇。</td>
+</tr>
+<tr>
+<td><a href="https://myanimelist.net/anime/58321/Ephemere" target="_blank" rel="noopener noreferrer">MyAnimeList 58321</a></td>
+<td>ONA、1 集；Genre 为 Sci-Fi；Themes、Demographics、Explicit Genres 均为空，未列 Girls Love</td>
+<td>固定分类字段的编辑型数据库</td>
+<td>记录窄分类字段；平台沉默不能推出正篇没有某种关系。</td>
+</tr>
+<tr>
+<td><a href="https://www.youtube.com/watch?v=5R64pAPUZmk" target="_blank" rel="noopener noreferrer">公开正片</a></td>
+<td>10 分 05 秒完整作品及日文自动转写</td>
+<td>范围内正篇与文字材料</td>
+<td>用于定位台词和人物变化；自动转写的断句、说话人和语气限制单独保留。</td>
+</tr>
+</tbody>
+</table></div>
+<p>这些平台的字段回答不同问题。Bangumi 普通标签记录用户自行使用的词，Anime-Planet 与 MyAnimeList 提供不同粒度的编辑入口，AniList 的 Yuri 数值表示社区标签相关性。它们可以帮助检索，却不能相互投票，也不能把一句“喜欢”直接裁决为告白。本报告的关系判断来自范围内正篇和官方概要。</p>
+<aside class="alert alert-warning"><strong>剧透提示</strong><div class="alert-content"><p>以下部分包含本短片的完整剧透。</p></div></aside>
+
+      <details class="spoiler-panel">
+        <summary>
+          <span>展开详细证据（含完整剧透）</span>
+          <small>决定性证据、四层分析、反方解释与方法限制</small>
+        </summary>
+        <div class="spoiler-content">
+          <h2 id="决定性文本证据">决定性文本证据</h2>
+<p>日文短引来自公开正片的自动转写，中文摘要为本报告自行翻译。自动转写连续覆盖全片，但没有人工校订的说话人字段；下表只使用对话上下文能够稳定归属的内容，不据此主张表情、语气、动作或无台词画面。</p>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>位置</th>
+<th>原文与中文摘要</th>
+<th>叙事层级</th>
+<th>证据强度与视听复核</th>
+<th>能证明什么</th>
+<th>不能证明什么</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>官方故事概要</td>
+<td>“憧れの人気インフルエンサー”ポーラ与ウタ相遇；“彼女と親しくなるのをきっかけに”，ウタ作出人生重大决定</td>
+<td>官方概要与人物弧</td>
+<td>官方文字直接；未作视听复核</td>
+<td>二人的亲近是ウタ变化和结局选择的触发点，关系不是局部装饰</td>
+<td>“憧憬”“亲近”没有把二人命名为恋人，也不证明角色身份。</td>
+</tr>
+<tr>
+<td>00:04:11–00:04:26</td>
+<td>ポーラ认出ウタ，记得她以前发来的消息，也说自己一直看到ウタ发布的可爱蛋糕作品</td>
+<td>初次相认与既有关注</td>
+<td>正篇事实；仅自动转写定位</td>
+<td>乌塔的单向仰慕得到ポーラ具体而持续的注意回应，二人并非完全陌生</td>
+<td>记得粉丝与关注作品仍可属于创作者和受众之间的善意互动。</td>
+</tr>
+<tr>
+<td>00:04:33–00:04:56</td>
+<td>ポーラ称赞ウタ的鲸鱼投影，肯定她只因喜欢而创作，并主动邀她去游乐园：“一人で行くより 二人の方が楽しいかも！”</td>
+<td>主动靠近与共同时间</td>
+<td>正篇事实；仅自动转写定位</td>
+<td>ポーラ主动把相认转成二人共同活动，也认可ウタ最看重的创作部分</td>
+<td>邀约和“二人更快乐”本身没有排他性，不能单独证明约会或求爱。</td>
+</tr>
+<tr>
+<td>00:06:48–00:07:19</td>
+<td>ウタ坦白自己喜欢投影开始的瞬间并问是否古怪；ポーラ回应“そんなウタも わたしは好きだよ”。随后二人交换联系方式，说今天很开心并约定再一起玩</td>
+<td>自我揭示、接纳与关系延续</td>
+<td>多项正篇事实支持强推断；仅自动转写定位</td>
+<td>对象明确的喜欢、接纳脆弱面、交换联系方式和再会约定共同支持双向亲近及潜在恋爱</td>
+<td>“好き”在此也可表示喜欢这个人真实的一面；没有告白格式、伴侣称谓或开始交往。</td>
+</tr>
+<tr>
+<td>00:08:39–00:10:05</td>
+<td>ウタ确认自己可以作出选择，以“きっとまた 未来で”和“またね……ポーラ”把离开与未来再会连在一起</td>
+<td>人物决定与收束</td>
+<td>正篇事实结合官方概要；仅自动转写定位</td>
+<td>与ポーラ相遇后的关系进入ウタ的人生决定，并把未来方向留给二人的再会</td>
+<td>自动转写不能证明告别时的具体动作、表情、语气，也不能把开放未来写成共同生活承诺。</td>
+</tr>
+</tbody>
+</table></div>
+<p>这些证据形成一条连续变化：ウタ先把ポーラ当作远方的憧憬对象；ポーラ认出并肯定她，主动把关系推进到共同活动；ウタ随后分享自己担心不被理解的兴趣，获得对象明确的接纳；两人最后保留继续联系与未来再会。中心性来自这条关系推动人物选择，恋爱判断则必须停在潜在层级，因为友情解释没有被文本排除。</p>
+<h2 id="四层分析">四层分析</h2>
+<h3 id="第一层文本中的关系">第一层：文本中的关系</h3>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>关系 ID</th>
+<th>关系／参与者</th>
+<th>类型</th>
+<th>叙事位置</th>
+<th>恋爱明确度</th>
+<th>相互性</th>
+<th>证据层级</th>
+<th>摘要</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>r01</td>
+<td>ウタ—ポーラ</td>
+<td>友情／恋爱</td>
+<td>主线</td>
+<td>潜在恋爱</td>
+<td>双向</td>
+<td>正篇事实／强推断／读者解读</td>
+<td>乌塔由远距离仰慕走向直接相识；ポーラ记得并关注她，主动同行、接纳她的独特兴趣，双方交换联系方式并约定再见。恋爱方向明显但未被告白或伴侣关系确认。</td>
+</tr>
+</tbody>
+</table></div>
+<p>双方都在改变关系：ポーラ不是被动接受ウタ的仰慕，而是记住她、肯定她的创作、主动提出同行和交换联系方式；ウタ也把自己最私密的兴趣展示给ポーラ，并在分别后把未来再会纳入人生选择。互惠性因此可以确认，但这里的“双向”首先表示双方持续选择彼此，不表示双方已经承认恋爱欲望。</p>
+<p>“そんなウタも わたしは好きだよ”是最强的恋爱阅读抓手。它直接指向ウタ这个人，而不是只说喜欢作品；同时，它正好回应ウタ担心自己古怪的脆弱时刻。另一方面，这句话也完全可能是朋友对真实自我的接纳。没有嫉妒、排他、求偶、接吻、情侣称谓或正式关系确认，故不把这一段升级为明确欲望。</p>
+<h3 id="第二层作品的文类位置">第二层：作品的文类位置</h3>
+<p>乌塔与ポーラ的关系组织了短片的人物弧、核心转折和收束方向。官方概要直接把“与她亲近”写成乌塔重大决定的契机，正片又用相认、共同活动、自我揭示、接纳、再次相约和离别后的未来指向把这一过程展开。若拿掉这段关系，乌塔为何从封闭而自足的生活走向新的选择便失去主要因果桥梁。因此本报告采用文类内百合，而非只把二人当作局部配对素材。</p>
+<p>这并不把作品压缩成纯恋爱短片。科幻旅馆、行星节庆、创作兴趣和职业去留同样构成作品的成长与生活题材；文类内归档只回答主要女性关系是否实际推动作品。范围内没有男性追求、男女相互恋爱或由男性恋爱推动的支线，男性恋爱线为无。AniList Yuri 与 Bangumi“百合”普通标签可以解释作品为何被发现，却不参与上述因果判断。</p>
+<h3 id="第三层角色身份">第三层：角色身份</h3>
+<p>范围内没有ウタ或ポーラ对性取向的自述，也没有官方人物设定使用女同性恋、双性恋或其他身份词。二人的关系最高为潜在恋爱，因此身份依据只能写成“只有关系推断”，身份结论保持未知。</p>
+<p>未知不是否定。即使读者认为二人的喜欢具有恋爱意味，一段可能的关系也不能自动换算成角色采用某一现实身份词；平台上的 Yuri 或 LGBTQ+ Themes 标签同样不能承担身份认证。</p>
+<h3 id="第四层公共标签礼仪">第四层：公共标签礼仪</h3>
+<p>普通推荐可以写“女女关系主线的科幻生活短片”“潜在恋爱”并补充“粉丝与创作者成为亲密朋友”的竞争解释。数据库主标签若采用百合相关入口，应同时标明恋爱尚未确认；严格明确恋爱检索则应排除。私人阅读可以保留对象明确的喜欢、相互肯定和未来再会带来的恋爱方向。</p>
+<p>官方查询只能复述所核页面实际写出的“憧憬”“亲近”和相遇后的人生决定。Anime-Planet 与 MyAnimeList 未列 GL／Girls Love，AniList 和 Bangumi 普通标签却提供 Yuri／百合入口；这说明平台词表与维护习惯不同，不是文本关系发生了变化，也不能用站点数量裁决哪一种读法更真。</p>
+<h2 id="最强反方解释">最强反方解释</h2>
+<p>最有力的狭义解释是：这是一部以孤独、创作和重新选择人生为核心的科幻成长短片；ポーラ首先是乌塔仰慕的人气创作者，认出粉丝、称赞作品、邀请游玩、说喜欢真实的她并交换联系方式，都可以由善意、共鸣和新生友情解释。官方只说二人“亲近”，Anime-Planet 与 MyAnimeList 也没有使用 GL／Girls Love 字段。若查询要求对象明确的爱欲、告白或伴侣关系，本作确实不应命中。</p>
+<p>这个解释能够推翻“二人已经告白”“已经交往”“角色身份明示”等更强主张，也要求普通推荐保留友情入口。它不能推翻二人关系的主线位置：官方概要和正片都把与ポーラ亲近后的改变写进乌塔的人物因果与结局方向；也不能抹去对象明确的喜欢、双方主动延续关系和未来再会共同提供的恋爱阅读抓手。分歧因此集中在文类入口是否允许潜在恋爱的主要女性关系，而不是事实表中有没有这段关系。</p>
+<p>若可靠人工字幕或官方说明把“好き”明确限定为恋爱告白、或正片之外出现范围内可归属的交往确认，恋爱明确度将上调；若更完整的制作说明明确把二人只定位为创作者与粉丝的非恋爱友情，恋爱层级可能下调。无论哪一种新材料，都必须先确认属于这部 2024 年短片，不能由原案书或相邻作品倒灌。</p>
+<h2 id="分用途结论">分用途结论</h2>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>用途</th>
+<th>分类</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>普通作品推荐</td>
+<td><strong>文类内百合；女女关系主线的科幻生活短片。乌塔与ポーラ双向靠近并推动人物选择，最高明确度为潜在恋爱。</strong></td>
+</tr>
+<tr>
+<td>数据库主标签</td>
+<td><strong>百合相关／科幻／生活；同时标注“女女关系主线、潜在恋爱、友情解释仍成立”。</strong></td>
+</tr>
+<tr>
+<td>严格明确恋爱检索</td>
+<td><strong>不命中：没有对象明确且排除友情解释的爱欲、告白、求偶、恋人称谓或正式交往。</strong></td>
+</tr>
+<tr>
+<td>私人百合阅读</td>
+<td><strong>可以：对象明确的喜欢、相互肯定、交换联系方式和未来再会提供持续抓手。</strong></td>
+</tr>
+<tr>
+<td>角色身份检索</td>
+<td><strong>未知：没有性取向自述或官方身份设定，关系阅读和平台标签不能替代身份明示。</strong></td>
+</tr>
+<tr>
+<td>官方分类查询</td>
+<td><strong>所核官方页面只写“憧憬”“亲近”和相遇后的人生决定，未使用百合、GL、恋爱或恋人字面分类。</strong></td>
+</tr>
+<tr>
+<td>回避男性恋爱线</td>
+<td><strong>符合：范围内没有男性恋爱线。</strong></td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="方法来源与限制">方法、来源与限制</h2>
+<ul>
+<li>版本由あにめのたね 2024 官方作品页与 10 分 05 秒公开正片锁定，再用 Bangumi 484219、Anime-Planet Ephemere、AniList 184373 和 MyAnimeList 58321 交叉核对单集 WEB／ONA 范围。</li>
+<li>正篇文字材料为公开页面显示的 41 段日文自动转写，连续覆盖 00:00:20–00:10:05；它已完整审阅，但不是人工字幕，可能合并相邻发言或出现识别、断句与说话人误差。</li>
+<li>未作字幕与视频同步复核，也不从文字推断动作、表情、构图、语气或无台词画面；决定性主张限于可稳定定位的对话和官方故事概要。</li>
+<li>日文短引、官方概要和数据库字段的中文摘要由本报告自行翻译；中文片名沿用 Bangumi 公开条目，不冒充官方译名。</li>
+<li>Bangumi 普通用户标签、受控元数据、Anime-Planet Tags、AniList Genres 与带 rank 标签、MyAnimeList 固定 taxonomy 分层记录；平台字段只说明检索与接受史，不替代正篇关系或角色身份。</li>
+<li>《HOTEL ASTROLOGY》原案书、其他衍生出版物、宣传剪辑和相邻作品均未纳入；任何新证据都必须先锁定同一 2024 年短片版本。</li>
+</ul>
+
+        </div>
+      </details>
+    </div>
+  </div>
+</article>
+
+<section class="feedback-section">
+  <div>
+    <p class="eyebrow">REPORT FEEDBACK</p>
+    <h2>提交可核查的修订建议</h2>
+    <p>请注明作品版本、集数／章节、要质疑的原句、可公开核查的来源，以及建议如何修订。评论属于待核查反馈，不会自动成为报告证据。</p>
+  </div>
+  <div class="giscus"></div>
+<div class="giscus-config"
+        hidden
+        data-repo="L-M-Sherlock/yuri-classification-archive"
+        data-repo-id="R_kgDOTo1RzA"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOTo1RzM4DCXAh"
+        data-mapping="specific"
+        data-term="classification:ephemere_web_2024"
+        data-strict="1"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-lang="zh-CN"
+        data-loading="lazy"
+        aria-hidden="true"></div>
+</section>
+
+  </main>
+  <footer class="site-footer">
+    <div>
+      <p>分类是面向具体查询的检索工具，不是替作品关系作终审判决。</p>
+      <p class="footer-ai-note">本站使用以 OpenAI Codex 为主的生成式 AI 辅助研究、写作与站点开发；人工审阅未覆盖全部作品报告。<a href="/yuri-classification-archive/about/#AI使用说明">查看 AI 使用说明</a></p>
+      <p>© 2026 Jarrett Ye · <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="license noopener noreferrer">CC BY-NC-SA 4.0</a> · <a href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub 仓库</a> · <a href="/yuri-classification-archive/about/#使用边界">使用边界</a></p>
+    </div>
+  </footer>
+  <script>window.SITE_CONFIG = {basePath: "/yuri-classification-archive"};</script>
+  <script src="/yuri-classification-archive/assets/site.js?v=eeeec5872796" defer></script>
+
+</body>
+</html>

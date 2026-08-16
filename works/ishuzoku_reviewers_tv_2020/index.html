@@ -1,0 +1,440 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="《異種族レビュアーズ》的基本结构是男性冒险者在异种族社会中访问性服务场所，比较不同种族女性从业者的服务并撰写评分。女性之间确实出现了局部、明确的欲望和性行为：第 3 话把暂时女性化的评论员放进女女性服务场景，第 9 话又描写两名女性表演者在导演指挥下进行色情拍摄。这些片段是真实的正篇材料，不能因为全作以男性为中……">
+  <meta name="color-scheme" content="light dark">
+  <meta id="theme-color-light" name="theme-color" media="(prefers-color-scheme: light)" content="#f5f0e8">
+  <meta id="theme-color-dark" name="theme-color" media="(prefers-color-scheme: dark)" content="#1c181c">
+  <script>
+    (() => {
+      document.documentElement.classList.add("js");
+      const storageKey = "yuri-classification-theme";
+      const allowed = new Set(["system", "light", "dark"]);
+      let preference = "system";
+      try {
+        const stored = localStorage.getItem(storageKey);
+        if (allowed.has(stored)) preference = stored;
+      } catch (_error) {
+        preference = "system";
+      }
+      const systemDark = window.matchMedia?.("(prefers-color-scheme: dark)").matches;
+      const theme = preference === "system"
+        ? (systemDark ? "dark" : "light")
+        : preference;
+      document.documentElement.dataset.theme = theme;
+      document.documentElement.dataset.themePreference = preference;
+      document.documentElement.style.colorScheme = theme;
+      const lightMeta = document.getElementById("theme-color-light");
+      const darkMeta = document.getElementById("theme-color-dark");
+      if (preference === "system") {
+        lightMeta.content = "#f5f0e8";
+        darkMeta.content = "#1c181c";
+      } else {
+        const color = theme === "dark" ? "#1c181c" : "#f5f0e8";
+        lightMeta.content = color;
+        darkMeta.content = color;
+      }
+    })();
+  </script>
+  <link rel="canonical" href="https://l-m-sherlock.github.io/yuri-classification-archive/works/ishuzoku_reviewers_tv_2020/">
+  <link rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="百合作品分类档案">
+  <meta property="og:title" content="《异种族风俗娘评鉴指南》分类报告｜百合作品分类档案">
+  <meta property="og:description" content="《異種族レビュアーズ》的基本结构是男性冒险者在异种族社会中访问性服务场所，比较不同种族女性从业者的服务并撰写评分。女性之间确实出现了局部、明确的欲望和性行为：第 3 话把暂时女性化的评论员放进女女性服务场景，第 9 话又描写两名女性表演者在导演指挥下进行色情拍摄。这些片段是真实的正篇材料，不能因为全作以男性为中……">
+  <meta property="og:url" content="https://l-m-sherlock.github.io/yuri-classification-archive/works/ishuzoku_reviewers_tv_2020/">
+  <meta property="og:image" content="https://l-m-sherlock.github.io/yuri-classification-archive/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+  <title>《异种族风俗娘评鉴指南》分类报告｜百合作品分类档案</title>
+  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=7a82f1582188">
+
+</head>
+<body class="classification-report">
+  <a class="skip-link" href="#main-content">跳到正文</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="/yuri-classification-archive/">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>
+          <strong>百合作品分类档案</strong>
+          <small>按查询拆开标签，按证据保留边界</small>
+        </span>
+      </a>
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-navigation"
+      >
+        <span>菜单</span>
+        <span class="menu-toggle-icon" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-navigation" aria-label="主导航">
+        <div class="nav-main">
+          <a href="/yuri-classification-archive/">首页</a>
+          <a href="/yuri-classification-archive/table/">总表</a>
+          <a href="/yuri-classification-archive/articles/">专题</a>
+          <a href="/yuri-classification-archive/tools/">工具</a>
+          <a href="/yuri-classification-archive/about/">方法与说明</a>
+        </div>
+        <a class="nav-star" href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub / Star <span aria-hidden="true">↗</span></a>
+        <a class="nav-feedback" href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
+        <label class="theme-control" for="theme-preference">
+          <span>主题</span>
+          <select id="theme-preference" aria-label="主题偏好">
+            <option value="system">跟随系统</option>
+            <option value="light">浅色</option>
+            <option value="dark">深色</option>
+          </select>
+        </label>
+      </nav>
+    </div>
+  </header>
+  <main id="main-content">
+    <article class="report-page">
+  <header class="report-header">
+    <p class="eyebrow">TV 动画 · 2026-08-16</p>
+    <h1>《异种族风俗娘评鉴指南》分类报告</h1>
+    <p class="report-subtitle">2020 年 1 月 11 日至 3 月 28 日播出的电视动画正篇第 1–12 话；与 Bangumi 285482、AniList 110270、MyAnimeList 40010 精确对应的已完结 TV 版本</p>
+    <div class="label-strip" aria-label="分类摘要">
+      <span class="label-chip"><strong>女女关系：</strong>局部</span><span class="label-chip"><strong>百合归档结论：</strong>非百合</span><span class="label-chip"><strong>女女恋爱位置：</strong>局部</span><span class="label-chip"><strong>女女关系最高明确度：</strong>明确欲望</span><span class="label-chip"><strong>官方字面百合／GL：</strong>所核未见</span><span class="label-chip"><strong>官方女女恋爱表述：</strong>所核未见</span><span class="label-chip"><strong>官方来源：</strong>层级：当前版本；位置：可见作品宣传</span><span class="label-chip"><strong>结论置信度：</strong>高<span class="inline-help" tabindex="0" aria-label="查看结论置信度说明" aria-describedby="report-confidence-help"><span aria-hidden="true">?</span><span class="term-tooltip" id="report-confidence-help" role="tooltip">表示当前锁定范围内，现有证据对本报告主要分类结论的支持稳定度；它不是百合程度、作品质量、社群共识或统计概率。</span></span></span>
+    </div>
+    <a class="back-link" href="/yuri-classification-archive/table/?q=%E5%BC%82%E7%A7%8D%E6%97%8F%E9%A3%8E%E4%BF%97%E5%A8%98%E8%AF%84%E9%89%B4%E6%8C%87%E5%8D%97">← 返回总表并定位本作</a>
+  </header>
+  <section class="relationship-overview" data-confirmed-female-female-count="3" aria-labelledby="relationship-overview-title"><div class="relationship-overview-heading"><p class="eyebrow">RELATIONSHIP SNAPSHOT</p><h2 id="relationship-overview-title">关系构成速览</h2></div><p class="relationship-overview-total"><strong>3</strong><span>条已确认女女关系记录</span></p><div class="relationship-overview-grid"><div class="relationship-overview-group"><h3>叙事位置</h3><ul><li data-axis="narrative_centrality" data-code="local" data-count="3"><span>局部</span><strong>3</strong></li></ul></div><div class="relationship-overview-group"><h3>恋爱明确度</h3><ul><li data-axis="romance_explicitness" data-code="explicit_desire" data-count="3"><span>明确欲望</span><strong>3</strong></li></ul></div><div class="relationship-overview-group"><h3>相互性</h3><ul><li data-axis="mutuality" data-code="mutual" data-count="1"><span>双向</span><strong>1</strong></li><li data-axis="mutuality" data-code="one_sided" data-count="1"><span>单向</span><strong>1</strong></li><li data-axis="mutuality" data-code="ambiguous" data-count="1"><span>相互性未确认</span><strong>1</strong></li></ul></div></div><p class="relationship-overview-note">只汇总档案中逐条确认的女女关系记录；它不是配对数量、出场时间、互动频率，也不是任何程度评分。</p></section>
+  <section class="work-tag-section" aria-labelledby="work-tag-title"><div class="work-tag-heading"><div><h2 id="work-tag-title">统一标签</h2><p>用于内容检索，不替代关系分类。</p></div><div class="unified-tag-list"><a class="unified-tag" data-facet-id="workplace" href="/yuri-classification-archive/table/?facet=workplace" aria-label="用统一标签“职场”筛选总表">职场</a><a class="unified-tag" data-facet-id="slice_of_life" href="/yuri-classification-archive/table/?facet=slice_of_life" aria-label="用统一标签“日常”筛选总表">日常</a><a class="unified-tag" data-facet-id="comedy" href="/yuri-classification-archive/table/?facet=comedy" aria-label="用统一标签“喜剧”筛选总表">喜剧</a><a class="unified-tag" data-facet-id="fantasy" href="/yuri-classification-archive/table/?facet=fantasy" aria-label="用统一标签“奇幻”筛选总表">奇幻</a><a class="unified-tag" data-facet-id="travel_and_outdoors" href="/yuri-classification-archive/table/?facet=travel_and_outdoors" aria-label="用统一标签“旅行／户外”筛选总表">旅行／户外</a><a class="unified-tag" data-facet-id="magic" href="/yuri-classification-archive/table/?facet=magic" aria-label="用统一标签“魔法”筛选总表">魔法</a><a class="unified-tag" data-facet-id="isekai" href="/yuri-classification-archive/table/?facet=isekai" aria-label="用统一标签“异世界”筛选总表">异世界</a><a class="unified-tag" data-facet-id="episodic" href="/yuri-classification-archive/table/?facet=episodic" aria-label="用统一标签“单元剧”筛选总表">单元剧</a></div></div><details class="raw-platform-tags"><summary><span>四平台原始标签</span><small>展开查看平台原文与权重</small></summary><div class="raw-platform-tags-content"><p class="raw-tag-snapshot-note">依据集中快照（总库更新时间：2026-08-16）；不是平台实时状态。复合条目在平台内合并去重。</p><div class="raw-platform-grid"><section class="raw-platform-card" aria-labelledby="raw-platform-bangumi" data-platform="bangumi"><div class="raw-platform-heading"><h3 id="raw-platform-bangumi">Bangumi</h3></div><div class="raw-tag-group" data-platform="bangumi" data-field="ordinary_tags"><h4>用户标签</h4><ul class="raw-tag-list"><li class="raw-tag"><span class="raw-tag-name">卖肉</span><small class="raw-tag-weight">3,580 人</small></li><li class="raw-tag"><span class="raw-tag-name">搞笑</span><small class="raw-tag-weight">3,453 人</small></li><li class="raw-tag"><span class="raw-tag-name">2020年1月</span><small class="raw-tag-weight">1,957 人</small></li><li class="raw-tag"><span class="raw-tag-name">TV</span><small class="raw-tag-weight">1,634 人</small></li><li class="raw-tag"><span class="raw-tag-name">奇幻</span><small class="raw-tag-weight">1,425 人</small></li><li class="raw-tag"><span class="raw-tag-name">漫改</span><small class="raw-tag-weight">1,281 人</small></li><li class="raw-tag"><span class="raw-tag-name">Passione</span><small class="raw-tag-weight">1,222 人</small></li><li class="raw-tag"><span class="raw-tag-name">漫画改</span><small class="raw-tag-weight">1,204 人</small></li><li class="raw-tag"><span class="raw-tag-name">异世界</span><small class="raw-tag-weight">1,049 人</small></li><li class="raw-tag"><span class="raw-tag-name">网盘见</span><small class="raw-tag-weight">954 人</small></li><li class="raw-tag"><span class="raw-tag-name">2020</span><small class="raw-tag-weight">872 人</small></li><li class="raw-tag"><span class="raw-tag-name">肉番</span><small class="raw-tag-weight">705 人</small></li><li class="raw-tag"><span class="raw-tag-name">肉</span><small class="raw-tag-weight">533 人</small></li><li class="raw-tag"><span class="raw-tag-name">巨乳</span><small class="raw-tag-weight">375 人</small></li><li class="raw-tag"><span class="raw-tag-name">R17漫改</span><small class="raw-tag-weight">256 人</small></li><li class="raw-tag"><span class="raw-tag-name">日本</span><small class="raw-tag-weight">225 人</small></li><li class="raw-tag"><span class="raw-tag-name">轻小说改</span><small class="raw-tag-weight">101 人</small></li><li class="raw-tag"><span class="raw-tag-name">小川優樹</span><small class="raw-tag-weight">97 人</small></li><li class="raw-tag"><span class="raw-tag-name">里番</span><small class="raw-tag-weight">84 人</small></li><li class="raw-tag"><span class="raw-tag-name">日常</span><small class="raw-tag-weight">53 人</small></li><li class="raw-tag"><span class="raw-tag-name">小川优树</span><small class="raw-tag-weight">43 人</small></li><li class="raw-tag"><span class="raw-tag-name">2020年</span><small class="raw-tag-weight">32 人</small></li><li class="raw-tag"><span class="raw-tag-name">福利</span><small class="raw-tag-weight">24 人</small></li><li class="raw-tag"><span class="raw-tag-name">科普</span><small class="raw-tag-weight">21 人</small></li><li class="raw-tag"><span class="raw-tag-name">异种族风俗娘评鉴指南</span><small class="raw-tag-weight">20 人</small></li><li class="raw-tag"><span class="raw-tag-name">魔物娘</span><small class="raw-tag-weight">19 人</small></li><li class="raw-tag"><span class="raw-tag-name">天原</span><small class="raw-tag-weight">19 人</small></li><li class="raw-tag"><span class="raw-tag-name">露点</span><small class="raw-tag-weight">16 人</small></li><li class="raw-tag"><span class="raw-tag-name">神作</span><small class="raw-tag-weight">14 人</small></li><li class="raw-tag"><span class="raw-tag-name">パッショーネ</span><small class="raw-tag-weight">14 人</small></li></ul></div></section><section class="raw-platform-card" aria-labelledby="raw-platform-anime-planet" data-platform="anime_planet"><div class="raw-platform-heading"><h3 id="raw-platform-anime-planet">Anime-Planet</h3></div><div class="raw-tag-group" data-platform="anime_planet" data-field="tags"><h4>Tags</h4><ul class="raw-tag-list"><li class="raw-tag"><span class="raw-tag-name">Comedy</span></li><li class="raw-tag"><span class="raw-tag-name">Fantasy</span></li><li class="raw-tag"><span class="raw-tag-name">Shounen</span></li><li class="raw-tag"><span class="raw-tag-name">Medieval</span></li><li class="raw-tag"><span class="raw-tag-name">Monster Girls</span></li><li class="raw-tag"><span class="raw-tag-name">Monsters</span></li><li class="raw-tag"><span class="raw-tag-name">Non-Human Protagonists</span></li><li class="raw-tag"><span class="raw-tag-name">Based on a Manga</span></li></ul></div></section><section class="raw-platform-card" aria-labelledby="raw-platform-anilist" data-platform="anilist"><div class="raw-platform-heading"><h3 id="raw-platform-anilist">AniList</h3></div><div class="raw-tag-group" data-platform="anilist" data-field="genres"><h4>Genres</h4><ul class="raw-tag-list"><li class="raw-tag"><span class="raw-tag-name">Comedy</span></li><li class="raw-tag"><span class="raw-tag-name">Ecchi</span></li><li class="raw-tag"><span class="raw-tag-name">Fantasy</span></li></ul></div><div class="raw-tag-group" data-platform="anilist" data-field="tags"><h4>Tags</h4><ul class="raw-tag-list"><li class="raw-tag"><span class="raw-tag-name">Prostitution</span><small class="raw-tag-weight">rank 97</small></li><li class="raw-tag"><span class="raw-tag-name">Monster Girl</span><small class="raw-tag-weight">rank 95</small></li><li class="raw-tag"><span class="raw-tag-name">Nudity</span><small class="raw-tag-weight">rank 94</small></li><li class="raw-tag"><span class="raw-tag-name">Primarily Adult Cast</span><small class="raw-tag-weight">rank 92</small></li><li class="raw-tag"><span class="raw-tag-name">Seinen</span><small class="raw-tag-weight">rank 86</small></li><li class="raw-tag"><span class="raw-tag-name">Male Protagonist</span><small class="raw-tag-weight">rank 85</small></li><li class="raw-tag"><span class="raw-tag-name">Succubus</span><small class="raw-tag-weight">rank 84</small></li><li class="raw-tag"><span class="raw-tag-name">Large Breasts</span><small class="raw-tag-weight">rank 83</small></li><li class="raw-tag"><span class="raw-tag-name">Medieval</span><small class="raw-tag-weight">rank 79</small></li><li class="raw-tag"><span class="raw-tag-name">Ahegao</span><small class="raw-tag-weight">rank 78</small></li><li class="raw-tag"><span class="raw-tag-name">Hypersexuality</span><small class="raw-tag-weight">rank 75</small></li><li class="raw-tag"><span class="raw-tag-name">Bar</span><small class="raw-tag-weight">rank 74</small></li><li class="raw-tag"><span class="raw-tag-name">Heterosexual</span><small class="raw-tag-weight">rank 74</small></li><li class="raw-tag"><span class="raw-tag-name">Interspecies</span><small class="raw-tag-weight">rank 73</small></li><li class="raw-tag"><span class="raw-tag-name">Episodic</span><small class="raw-tag-weight">rank 73</small></li><li class="raw-tag"><span class="raw-tag-name">Work</span><small class="raw-tag-weight">rank 73</small></li><li class="raw-tag"><span class="raw-tag-name">Boobjob</span><small class="raw-tag-weight">rank 72</small></li><li class="raw-tag"><span class="raw-tag-name">Kemonomimi</span><small class="raw-tag-weight">rank 72</small></li><li class="raw-tag"><span class="raw-tag-name">Primarily Female Cast</span><small class="raw-tag-weight">rank 70</small></li><li class="raw-tag"><span class="raw-tag-name">Travel</span><small class="raw-tag-weight">rank 68</small></li><li class="raw-tag"><span class="raw-tag-name">Elf</span><small class="raw-tag-weight">rank 68</small></li><li class="raw-tag"><span class="raw-tag-name">Fairy</span><small class="raw-tag-weight">rank 65</small></li><li class="raw-tag"><span class="raw-tag-name">Angels</span><small class="raw-tag-weight">rank 65</small></li><li class="raw-tag"><span class="raw-tag-name">Facial</span><small class="raw-tag-weight">rank 64</small></li><li class="raw-tag"><span class="raw-tag-name">Lactation</span><small class="raw-tag-weight">rank 60</small></li><li class="raw-tag"><span class="raw-tag-name">Magic</span><small class="raw-tag-weight">rank 60</small></li><li class="raw-tag"><span class="raw-tag-name">Demons</span><small class="raw-tag-weight">rank 58</small></li><li class="raw-tag"><span class="raw-tag-name">Cunnilingus</span><small class="raw-tag-weight">rank 58</small></li><li class="raw-tag"><span class="raw-tag-name">Bisexual</span><small class="raw-tag-weight">rank 57</small></li><li class="raw-tag"><span class="raw-tag-name">Crossdressing</span><small class="raw-tag-weight">rank 56</small></li><li class="raw-tag"><span class="raw-tag-name">Bondage</span><small class="raw-tag-weight">rank 55</small></li><li class="raw-tag"><span class="raw-tag-name">Futanari</span><small class="raw-tag-weight">rank 54</small></li><li class="raw-tag"><span class="raw-tag-name">Irrumatio</span><small class="raw-tag-weight">rank 54</small></li><li class="raw-tag"><span class="raw-tag-name">Age Gap</span><small class="raw-tag-weight">rank 52</small></li><li class="raw-tag"><span class="raw-tag-name">Gender Bending</span><small class="raw-tag-weight">rank 52</small></li><li class="raw-tag"><span class="raw-tag-name">Witch</span><small class="raw-tag-weight">rank 52</small></li><li class="raw-tag"><span class="raw-tag-name">Maids</span><small class="raw-tag-weight">rank 50</small></li><li class="raw-tag"><span class="raw-tag-name">Alchemy</span><small class="raw-tag-weight">rank 50</small></li><li class="raw-tag"><span class="raw-tag-name">Meta</span><small class="raw-tag-weight">rank 48</small></li><li class="raw-tag"><span class="raw-tag-name">Tentacles</span><small class="raw-tag-weight">rank 47</small></li><li class="raw-tag"><span class="raw-tag-name">Politics</span><small class="raw-tag-weight">rank 47</small></li><li class="raw-tag"><span class="raw-tag-name">Nekomimi</span><small class="raw-tag-weight">rank 46</small></li><li class="raw-tag"><span class="raw-tag-name">Yuri</span><small class="raw-tag-weight">rank 44</small></li><li class="raw-tag"><span class="raw-tag-name">Feet</span><small class="raw-tag-weight">rank 40</small></li><li class="raw-tag"><span class="raw-tag-name">LGBTQ+ Themes</span><small class="raw-tag-weight">rank 40</small></li><li class="raw-tag"><span class="raw-tag-name">Femdom</span><small class="raw-tag-weight">rank 36</small></li><li class="raw-tag"><span class="raw-tag-name">Vampire</span><small class="raw-tag-weight">rank 36</small></li><li class="raw-tag"><span class="raw-tag-name">Centaur</span><small class="raw-tag-weight">rank 32</small></li><li class="raw-tag"><span class="raw-tag-name">Zombie</span><small class="raw-tag-weight">rank 32</small></li><li class="raw-tag"><span class="raw-tag-name">Skeleton</span><small class="raw-tag-weight">rank 30</small></li><li class="raw-tag"><span class="raw-tag-name">Exhibitionism</span><small class="raw-tag-weight">rank 30</small></li><li class="raw-tag"><span class="raw-tag-name">Group Sex</span><small class="raw-tag-weight">rank 26</small></li></ul></div></section><section class="raw-platform-card" aria-labelledby="raw-platform-myanimelist" data-platform="myanimelist"><div class="raw-platform-heading"><h3 id="raw-platform-myanimelist">MyAnimeList</h3></div><div class="raw-tag-group" data-platform="myanimelist" data-field="genres"><h4>Genres</h4><ul class="raw-tag-list"><li class="raw-tag"><span class="raw-tag-name">Comedy</span></li><li class="raw-tag"><span class="raw-tag-name">Fantasy</span></li><li class="raw-tag"><span class="raw-tag-name">Erotica</span></li></ul></div></section></div></div></details></section>
+  <div class="report-layout">
+    <aside class="report-toc">
+      <p>本页目录</p>
+      <ol><li><a href="#低剧透概览">低剧透概览</a></li><li><a href="#数据库与公开分类">数据库与公开分类</a></li><li><a href="#决定性文本证据">决定性文本证据</a></li><li><a href="#四层分析">四层分析</a></li><li><a href="#最强反方解释">最强反方解释</a></li><li><a href="#分用途结论">分用途结论</a></li><li><a href="#方法来源与限制">方法、来源与限制</a></li></ol>
+    </aside>
+    <div class="report-content">
+      <blockquote>
+<p>分类日期：2026-08-16<br> 分类对象：2020 年 TV 动画《異種族レビュアーズ》<br> 纳入范围：正篇第 1–12 话<br> 排除范围：第 6.5 话及其他 SP、漫画、影碟特典、宣传材料与跨媒介关系推断<br> 用途：普通推荐与数据库分类</p>
+</blockquote>
+<h2 id="低剧透概览">低剧透概览</h2>
+<aside class="alert alert-note"><strong>说明</strong><div class="alert-content"><p><strong>分类信息提示：</strong> 本节不展开关键剧情、转折与结局，但分类信息本身会透露关系类型、叙事位置和恋爱明确度。希望完全盲看的读者请跳过本页。</p></div></aside>
+
+<p>《異種族レビュアーズ》的基本结构是男性冒险者在异种族社会中访问性服务场所，比较不同种族女性从业者的服务并撰写评分。女性之间确实出现了局部、明确的欲望和性行为：第 3 话把暂时女性化的评论员放进女女性服务场景，第 9 话又描写两名女性表演者在导演指挥下进行色情拍摄。这些片段是真实的正篇材料，不能因为全作以男性为中心就抹掉。</p>
+<p>本报告仍将本作归为“非百合”。前述女女场景都被限制在付费服务、性别转换、表演和职场权力关系中，没有发展成持续的人物关系弧或女女伴侣承诺；全季反复推进的主轴是男性评论员的性欲、消费和评分。归档为“非百合”不是说女性之间没有欲望，而是说明这些欲望在作品整体中所处的位置和叙事功能。结论置信度高，最重要的限定是暂时女性化的身体状态不能直接决定角色的稳定性别或性取向，色情表演中的反应也不能自动等同于平等、充分同意的恋爱。</p>
+<h3 id="分层标签">分层标签</h3>
+<blockquote>
+<p><strong>女女关系层级：局部｜百合归档结论：非百合｜恋爱位置：局部｜最高明确度：明确欲望｜关系构成：多组异质关系｜官方字面：所核未见（百合／GL）｜官方恋爱表述：所核未见｜官方来源：动画官网首页、故事页｜阅读层级：正篇事实／强推断｜身份依据类型：只有明确关系事实｜男性恋爱线：主导｜内容提示：露骨性内容、付费性服务、色情拍摄、性别转换、同意与权力边界问题｜</strong></p>
+</blockquote>
+<h3 id="严格恋爱检索提示">严格恋爱检索提示</h3>
+<ul>
+<li>只找双方正式开始女女交往或有恋人称谓：<strong>不命中</strong>；第 1–12 话没有把女性之间的任何局部性行为收束为正式交往或持续伴侣关系。</li>
+<li>接受明显但未确认的女女恋爱指向：<strong>不命中</strong>；女性前辈与新人、Bi Bananan 与表演者、以及 Crimvael 与 Elza 都有明确欲望或性行为，但场景分别由拍摄、交易和临时变身组织。</li>
+<li>只找明确女女性欲或性行为：<strong>命中</strong>；第 3 话和第 9 话提供可定位的正篇对白与行动说明。</li>
+<li>只找重要的非恋爱女性关系：<strong>命中局部</strong>；女性导演与表演者、女性服务者与顾客之间的工作和服务关系可单独检索，但不能改写为恋爱。</li>
+<li>只找男性性／恋主轴：<strong>命中</strong>；男性评论员访问女性性工作者、比较服务并交换评分，是全季持续的发动机。</li>
+<li>只按角色性取向身份明示检索：<strong>不命中</strong>；范围内没有主要角色对同性恋、双性恋或其他性／恋身份作稳定自述或官方身份设定。</li>
+</ul>
+<h2 id="数据库与公开分类">数据库与公开分类</h2>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>来源</th>
+<th>条目与字段</th>
+<th>来源类型</th>
+<th>本报告如何使用</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://isyuzoku.com/" target="_blank" rel="noopener noreferrer">动画官网</a>／<a href="https://isyuzoku.com/story/" target="_blank" rel="noopener noreferrer">故事页</a></td>
+<td>官网简介和分话页把 Stunk、Zel、Crimvael 等评论员写成访问异种族女性性服务场所、交换体验并评分的群体；所核文字没有把女性之间命名为恋人或百合关系</td>
+<td>官方简介、分话概要与营销语境</td>
+<td>锁定 TV 正篇范围及作品级叙事轴；官方的性服务简介不能单独证明任何恋爱结论</td>
+</tr>
+<tr>
+<td><a href="https://bangumi.tv/subject/285482" target="_blank" rel="noopener noreferrer">Bangumi 285482</a></td>
+<td>TV、12 话、2020 年 1 月 11 日起播；受控元标签为 TV、日本、奇幻、漫画改，普通用户标签中没有精确“百合”</td>
+<td>社区数据库、用户标签与维护字段</td>
+<td>核对精确版本和社区检索入口；标签沉默不写成对女女关系的否认</td>
+</tr>
+<tr>
+<td><a href="https://www.anime-planet.com/anime/interspecies-reviewers" target="_blank" rel="noopener noreferrer">Anime-Planet 精确条目</a></td>
+<td>2020 年 TV、12 集；标签含 Comedy、Fantasy、Shounen、Medieval、Monster Girls、Monsters、Non-Human Protagonists、Based on a Manga，未列 GL 或 Shoujo-ai</td>
+<td>编辑标签数据库</td>
+<td>说明编辑分类如何突出奇幻、喜剧和男性受众，不把未列 GL 当作文本判决</td>
+</tr>
+<tr>
+<td><a href="https://anilist.co/anime/110270" target="_blank" rel="noopener noreferrer">AniList 110270</a></td>
+<td>Finished、TV、12 集；Genres 为 Comedy、Ecchi、Fantasy，Yuri rank 44，另有 Bisexual 57 与 LGBTQ+ Themes 40</td>
+<td>带相关性的数据库标签</td>
+<td>Yuri 是候选检索入口；rank 表示标签相关性排序，不能替代正篇关系证据或角色身份判断</td>
+</tr>
+<tr>
+<td><a href="https://myanimelist.net/anime/40010/Ishuzoku_Reviewers" target="_blank" rel="noopener noreferrer">MyAnimeList 40010</a></td>
+<td>Finished Airing、TV、12 集；Genres 为 Comedy、Fantasy、Erotica，未列 Themes、Demographics、Explicit Genres 或 Girls Love</td>
+<td>固定类型字段</td>
+<td>保留平台 taxonomy 的组别和沉默；Erotica 与作品的性服务主轴相符，却不等于女女恋爱</td>
+</tr>
+<tr>
+<td><a href="https://animetosho.org/view/scarletneko-ishuzoku-reviewers-1080p-av1-10bit-wvh-assx2.n1494488" target="_blank" rel="noopener noreferrer">AnimeTosho 精确字幕条目</a></td>
+<td>与本 TV 版对应的第 1–12 话英文 ASS 文本</td>
+<td>字幕档案</td>
+<td>用于定位对白、旁白、欲望对象、身体状态和同意边界；字幕不是官方中文译文，也不替代画面复核</td>
+</tr>
+</tbody>
+</table></div>
+<p>不同平台的字段从不同角度描述本作。AniList 的 Yuri、Bisexual 和 LGBTQ+ Themes 是带 rank 的关联入口，Anime-Planet 的 GL 词缺席，MAL 的 Erotica 是固定类型，Bangumi 的普通标签则是社区使用结果。它们可以解释作品为什么被发现，却不能按平台数量投票，更不能把标签转换成女女关系强度。</p>
+<blockquote>
+<p>数据库沉默写“未标”，不能写成“否认”；评分、排名、标签人数和 AniList rank 也不能换算成社群支持率、同意程度或角色身份。</p>
+</blockquote>
+<aside class="alert alert-warning"><strong>剧透提示</strong><div class="alert-content"><p>以下部分包含本作完整剧透。</p></div></aside>
+
+      <details class="spoiler-panel">
+        <summary>
+          <span>展开详细证据（含完整剧透）</span>
+          <small>决定性证据、四层分析、反方解释与方法限制</small>
+        </summary>
+        <div class="spoiler-content">
+          <h2 id="决定性文本证据">决定性文本证据</h2>
+<p>表内中文摘要依据与目标版本对应的英文 ASS 字幕和官网文字，由本报告自行翻译或概述，不是官方中文译文。字幕能支持可定位的对白和旁白；没有同步视听复核的地方，不从无台词动作、表情、镜头构图或未显示的接触补写关系事实。</p>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>位置</th>
+<th>原文与中文摘要</th>
+<th>叙事层级</th>
+<th>证据强度与视听复核</th>
+<th>能证明什么</th>
+<th>不能证明什么</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>官网首页与故事页</td>
+<td>官方简介把世界写成异种族混居、拥有大量性服务场所；评论员反复访问这些场所并把体验写成评分和同伴信息</td>
+<td>作品主线与官方营销</td>
+<td>官方文字；未作画面补充</td>
+<td>说明全季由男性评论员的性欲、消费和比较活动组织</td>
+<td>不能把“女性服务者”或情色描写自动解释为女女恋爱</td>
+</tr>
+<tr>
+<td>第 1 话 00:00:55–00:01:30</td>
+<td>开场旁白介绍性服务场所及女性从业者；随后 Stunk、Zel 等以顾客和评论者身份进入这套制度</td>
+<td>世界观与主轴</td>
+<td>直接旁白；字幕定位</td>
+<td>说明付费性服务是持续的叙事环境，不是偶发插曲</td>
+<td>不能由职业关系推出任何角色的恋爱或性取向身份</td>
+</tr>
+<tr>
+<td>第 3 话 00:09:12–00:10:50</td>
+<td>变身后的角色说“内在是男性、外表是女性”，并把接下来的服务称作以女性方式学习、甚至“女女”的体验</td>
+<td>局部性别转换单元</td>
+<td>直接对白；字幕定位</td>
+<td>说明文本主动讨论身体状态与女女性欲的交叉</td>
+<td>不能把外在身体或玩笑中的“女女”变成稳定身份或伴侣事实</td>
+</tr>
+<tr>
+<td>第 3 话 00:15:55–00:18:41</td>
+<td>女性服务者分别接待暂时女性化的评论员；Kanchal 反复表示疼痛、不能继续，对方仍要求忍耐并继续服务</td>
+<td>局部服务场景</td>
+<td>直接对白；字幕定位</td>
+<td>说明女女性服务和边界侵犯都确实出现</td>
+<td>不能把交易中的身体反应当作平等相互性或恋爱承诺</td>
+</tr>
+<tr>
+<td>第 3 话 00:18:56–00:21:03</td>
+<td>Crimvael 说自己已完全女性化，选择雌性鬣狗 Elza；双方表达愉悦并同时达到高潮</td>
+<td>局部明确欲望</td>
+<td>直接对白；字幕定位</td>
+<td>证明一次双向女女性性行为及其当场相互性</td>
+<td>不能证明 Crimvael 的稳定女性身份、性取向或持续关系</td>
+</tr>
+<tr>
+<td>第 9 话 00:15:42–00:16:59</td>
+<td>女导演 Bi Bananan 介绍女女色情拍摄，明说自己被表演刺激；两名女性表演者开始亲密行为</td>
+<td>局部工作与欲望</td>
+<td>直接对白；字幕定位</td>
+<td>证明女性导演对女性表演者的明确性欲，并确认拍摄中的女女行为</td>
+<td>不能证明导演与表演者在镜头外是恋人，也不能把导演的双向吸引说成身份自述</td>
+</tr>
+<tr>
+<td>第 9 话 00:17:02–00:18:38</td>
+<td>新人说自己以为只是工作培训，随后指责前辈“你骗我”；前辈仍以“培训”和拍摄为理由继续推进</td>
+<td>权力与同意边界</td>
+<td>直接对白；字幕定位</td>
+<td>说明女女场景包含欺骗、职场权力差和同意不充分问题</td>
+<td>不能用“双方有反应”抹掉新人提出的拒绝和不适</td>
+</tr>
+</tbody>
+</table></div>
+<p>这些证据必须一起读。只摘取第 3 话的“女女”措辞，会漏掉角色明确的男性内在身份和付费服务条件；只摘取第 9 话的身体反应，又会漏掉新人被误导以及导演把欲望转化为拍摄指令的权力关系。相反，若只看男性评论员的主轴，也会错误地把真实的女女性欲说成不存在。分层的任务正是同时保留这两组事实。</p>
+<h2 id="四层分析">四层分析</h2>
+<h3 id="第一层文本中的关系">第一层：文本中的关系</h3>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>关系 ID</th>
+<th>关系／参与者</th>
+<th>类型</th>
+<th>叙事位置</th>
+<th>恋爱明确度</th>
+<th>相互性</th>
+<th>证据层级</th>
+<th>摘要</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>r01</td>
+<td>女性前辈表演者—女性新人表演者</td>
+<td>搭档／其他</td>
+<td>局部</td>
+<td>明确欲望</td>
+<td>相互性未确认</td>
+<td>正篇事实</td>
+<td>第 9 话有亲吻和明确性行为，但新人以为是培训、随后指责前辈欺骗；拍摄和权力差阻止把场景简化成恋爱。</td>
+</tr>
+<tr>
+<td>r02</td>
+<td>Bi Bananan—女性表演者</td>
+<td>搭档／其他</td>
+<td>局部</td>
+<td>明确欲望</td>
+<td>单向</td>
+<td>正篇事实</td>
+<td>导演直接表达被女女拍摄刺激并控制镜头；表演者没有对导演表达对应欲望，且新人对情境理解被改变。</td>
+</tr>
+<tr>
+<td>r03</td>
+<td>暂时完全女性化的 Crimvael—Elza</td>
+<td>搭档／其他</td>
+<td>局部</td>
+<td>明确欲望</td>
+<td>双向</td>
+<td>正篇事实</td>
+<td>Crimvael 在明确的女性化状态中选择 Elza，双方表达愉悦；这是一次服务关系中的双向性行为，不是连续人物弧。</td>
+</tr>
+<tr>
+<td>r04</td>
+<td>暂时女性化的 Stunk／Zel／Kanchal—女性性工作者</td>
+<td>搭档／其他</td>
+<td>局部</td>
+<td>明确欲望</td>
+<td>相互性未确认</td>
+<td>正篇事实</td>
+<td>角色把体验称作女女玩法，但同时说明内在仍是男性；Kanchal 的疼痛和不能继续尤其说明服务不等于充分同意。</td>
+</tr>
+<tr>
+<td>r05</td>
+<td>男性／男性呈现的评论员群—各族女性性工作者</td>
+<td>共同体／其他</td>
+<td>主线</td>
+<td>明确欲望</td>
+<td>相互性未确认</td>
+<td>正篇事实</td>
+<td>访问、付费、体验、评分和交换信息贯穿全季；女性从业者是交易关系中的对象，不是男性评论员的恋爱伴侣。</td>
+</tr>
+</tbody>
+</table></div>
+<p>女性前辈与新人之间存在真实的身体互动，却没有被写成彼此承诺的关系。新人从“工作培训”的理解转入“你骗我”的抗议，恰好显示身体反应不能代替同意，也不能代替恋爱中的相互选择。Bi Bananan 的欲望更直接，但她是把他人身体纳入作品生产的导演；她的兴奋说明欲望对象，不说明她与表演者共享稳定生活或关系计划。</p>
+<p>Crimvael 与 Elza 的段落最容易被当作狭义女女性关系的强证据：角色明说完全女性化，主动选择女性服务者，双方也表达快感。它确实把“女女性欲缺席”的说法推翻到局部层面，但场景从开始到结束都由一次魔法状态和付费服务限定。文本没有把这次体验延伸成之后的持续联系或身份声明。</p>
+<h3 id="第二层作品的文类位置">第二层：作品的文类位置</h3>
+<p>作品的持续冲突不是女性角色如何建立共同生活，而是评论员如何在一个把性服务公开制度化的异种族世界中寻找新体验、比较差异并传播评分。第 1 话就以“评论”作为行动任务，之后每个单元都把新的女性服务者、顾客需求和评分规则接入同一循环。男性性／欲望线因此是主导结构，而不只是某条与女女关系并列的背景线。</p>
+<p>将本作归为“非百合”需要保留三个局部例外。第一，暂时女性化的角色与女性服务者之间发生了明示性行为；第二，女性导演对女女表演产生了明确性欲；第三，两名女性表演者的镜头内行为和镜头外权力冲突具有可供女女阅读的张力。这些事实支撑“局部女女关系”和“局部明确欲望”，但它们没有组织跨话数的女女人物弧、告白、正式交往、共同未来或伴侣结局。局部命中与作品级文类位置不是同一个问题。</p>
+<p>因此，非百合结论并非把色情内容排除在关系分析之外，而是比较关系的叙事中心性、持续性和后果：女性之间的性行为每次都服务于评论、消费、拍摄或一次性魔法体验；男性评论员群体则持续回到这些制度中，并以评分和同伴谈话推动下一话。若查询目标是“含明确女女性欲的成人奇幻喜剧”，本作应被召回；若查询目标是女女恋爱主线或持续伴侣关系，本作不应命中。</p>
+<h3 id="第三层角色身份">第三层：角色身份</h3>
+<p>范围内没有主要角色对同性恋、双性恋或其他稳定性／恋身份作完整自我说明。Bi Bananan 的名字和男性角色关于“双方都吸引”的评论，只能说明他人如何解释她当下的欲望，不能替她完成身份命名。Crimvael 明说“完全女性化”发生在魔法转换的当下；这是一条身体状态和体验的明确事实，不等同于稳定性别身份。Stunk、Zel 和 Kanchal 也明确区分“内在是男性、外表是女性”，所以不能由外表或服务对象反推身份。</p>
+<p>角色身份结论为未知，意思是当前范围没有足够材料命名稳定身份，而不是否定任何角色可能拥有的身份。把一次女女性行为记作关系事实，和把参与者归入某种现实性取向，是两个不同的证据门槛。平台的 Yuri、Bisexual 或 LGBTQ+ Themes 标签同样不能填补这一身份证据缺口。</p>
+<h3 id="第四层公共标签礼仪">第四层：公共标签礼仪</h3>
+<p>普通推荐可写“成人奇幻色情喜剧，含局部明确女女性欲、性别转换和女性色情拍摄”，并把同意与权力边界列为内容提示。数据库主标签宜保留 Comedy、Fantasy、Ecchi／Erotica、Monster Girls、Based on a Manga 等平台字段；“非百合”是本项目的作品级分类，不应伪装成任一平台的官方标签。严格女女恋爱检索不应纳入，但“明确女女性欲”“女女色情拍摄”或“性别转换后的女女服务”检索可以纳入。</p>
+<p>私人阅读可以从 Crimvael—Elza 的一次双向体验、女性导演的欲望或两名表演者之间的权力张力进入；这些读法有正篇材料支持，但不能抹掉付费、表演、欺骗和疼痛语境。角色身份查询应返回未知，官方分类查询则只复述官网关于评论员、性服务和异种族世界的表述。这样做可以让标签服务具体查询，而不让一个“Yuri”入口替所有关系和身份问题作答。</p>
+<h2 id="最强反方解释">最强反方解释</h2>
+<p>最强的宽口径读法会指出：作品不但反复使用“女女”“lesbian”“yuri”等字面，还明确展示女性之间的亲吻、口舌行为和双方高潮；第 9 话的导演是女性，第 3 话的 Crimvael 也主动选择女性对象。若“百合”只问作品是否提供女女性欲和女性身体之间的亲密，这些证据足以要求本作进入检索结果。把所有场景都叫作男性欲望的附属，会掩盖女性导演的欲望、女性新人对欺骗的反抗以及性别转换情节对主体性的讨论。</p>
+<p>这个宽口径读法确实推翻“女女性欲缺席”，也足以支持私人阅读和内容预警。但它不能推出持续恋爱。女性表演者的行为被摄影和职场安排组织，新人明确表示自己对情境的理解被欺骗；Crimvael 与 Elza 的相遇结束于一次服务和评分；暂时女性化的评论员则自行说明身体和内在的区分。宽口径读法可以扩大召回入口，不能把性欲、表演或交易自动改名为恋人关系。</p>
+<p>最强的狭义读法则完全忽略女性之间的场景，只保留男性评论员与女性性工作者。这能准确回答“谁推动了全季主线”，却会错误地声称文本没有女女性行为，也会漏掉 Kanchal 的疼痛、Bi Bananan 的欲望和新人的同意边界。当前分层同时承认两边：女女关系和欲望在局部确实命中，作品级恋爱位置仍由男性性／欲望主轴主导。若后续发现同一 TV 版本存在跨话数的女性伴侣承诺、稳定身份自述或女女关系主导结局，文类位置才需要调整；单独增加平台标签不会改变现有文本范围。</p>
+<h2 id="分用途结论">分用途结论</h2>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>用途</th>
+<th>分类</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>普通作品推荐</td>
+<td>成人奇幻色情喜剧；男性评论员的服务评分主导，含局部明确女女性欲和性别转换</td>
+</tr>
+<tr>
+<td>数据库主标签</td>
+<td>非百合；宜保留 Comedy、Fantasy、Ecchi／Erotica、Monster Girls、Based on a Manga，并附注局部女女性行为与同意边界</td>
+</tr>
+<tr>
+<td>严格明确恋爱检索</td>
+<td>不命中女女正式交往、恋人称谓或持续伴侣关系；可命中“明确女女性欲／性行为”专项检索</td>
+</tr>
+<tr>
+<td>私人百合阅读</td>
+<td>可从 Crimvael—Elza、Bi Bananan 与女性表演者、以及表演者之间的权力张力进入；需同时提示交易、欺骗和疼痛语境</td>
+</tr>
+<tr>
+<td>角色身份检索</td>
+<td>不命中；范围内没有稳定性／恋身份自述或官方身份设定</td>
+</tr>
+<tr>
+<td>官方分类查询</td>
+<td>官网使用异种族世界、冒险者、性服务场所、评论和评分的表述；所核未见官方百合／GL 类型字样</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="方法来源与限制">方法、来源与限制</h2>
+<ul>
+<li>版本范围由动画官网故事页、Bangumi 285482、AniList 110270 和 MyAnimeList 40010 的 TV、12 话及完结字段交叉确认；只纳入 2020 年正篇第 1–12 话。</li>
+<li>正篇文字材料为与目标版本对应的完整英文 ASS 字幕，覆盖十二话；中文摘要由本报告自行翻译，不能当作官方中文译文或日文原句。</li>
+<li>文字材料逐话检查了评论规则、性别转换、女性服务者、女女字面、身体反应、同意表达、导演指令和男性评论员主轴；字幕能定位对白和旁白，但没有同步视频，因此不独立判断无台词动作、表情、构图或字幕未记录的接触。</li>
+<li>动画官网用于区分官方简介、分话范围和作品级主轴；官方沉默不写成否认，平台标签也不替代正篇证据。</li>
+<li>Bangumi 普通用户标签、Anime-Planet 编辑标签、AniList 带 rank 的标签和 MyAnimeList 固定 taxonomy 分别按自身制度记录；排名、评分和标签权重不换算成社群共识、身份事实或关系强度。</li>
+<li>未纳入第 6.5 话及其他 SP、漫画、影碟特典、宣传活动、观众评论和相邻跨媒介版本；若同一 TV 版出现持续女女伴侣关系或稳定身份自述，当前归档结论可能改变。</li>
+</ul>
+
+        </div>
+      </details>
+    </div>
+  </div>
+</article>
+
+<section class="feedback-section">
+  <div>
+    <p class="eyebrow">REPORT FEEDBACK</p>
+    <h2>提交可核查的修订建议</h2>
+    <p>请注明作品版本、集数／章节、要质疑的原句、可公开核查的来源，以及建议如何修订。评论属于待核查反馈，不会自动成为报告证据。</p>
+  </div>
+  <div class="giscus"></div>
+<div class="giscus-config"
+        hidden
+        data-repo="L-M-Sherlock/yuri-classification-archive"
+        data-repo-id="R_kgDOTo1RzA"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOTo1RzM4DCXAh"
+        data-mapping="specific"
+        data-term="classification:ishuzoku_reviewers_tv_2020"
+        data-strict="1"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-lang="zh-CN"
+        data-loading="lazy"
+        aria-hidden="true"></div>
+</section>
+
+  </main>
+  <footer class="site-footer">
+    <div>
+      <p>分类是面向具体查询的检索工具，不是替作品关系作终审判决。</p>
+      <p class="footer-ai-note">本站使用以 OpenAI Codex 为主的生成式 AI 辅助研究、写作与站点开发；人工审阅未覆盖全部作品报告。<a href="/yuri-classification-archive/about/#AI使用说明">查看 AI 使用说明</a></p>
+      <p>© 2026 Jarrett Ye · <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="license noopener noreferrer">CC BY-NC-SA 4.0</a> · <a href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub 仓库</a> · <a href="/yuri-classification-archive/about/#使用边界">使用边界</a></p>
+    </div>
+  </footer>
+  <script>window.SITE_CONFIG = {basePath: "/yuri-classification-archive"};</script>
+  <script src="/yuri-classification-archive/assets/site.js?v=eeeec5872796" defer></script>
+
+</body>
+</html>

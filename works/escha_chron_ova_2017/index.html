@@ -1,0 +1,447 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Escha 与 Chron 是标题双主角，也是两话始终不变的旅行组合。两人从终末世界 Terminal 来到现代世界 Transit，一起观察音乐、雪景、劳动和人与人之间的联系；每一话虽有不同来宾及其人物弧，观众进入、离开这些单元故事的固定视角仍是二人的共同旅行。因此本报告把女女关系判为 主线 ，并把作品归入……">
+  <meta name="color-scheme" content="light dark">
+  <meta id="theme-color-light" name="theme-color" media="(prefers-color-scheme: light)" content="#f5f0e8">
+  <meta id="theme-color-dark" name="theme-color" media="(prefers-color-scheme: dark)" content="#1c181c">
+  <script>
+    (() => {
+      document.documentElement.classList.add("js");
+      const storageKey = "yuri-classification-theme";
+      const allowed = new Set(["system", "light", "dark"]);
+      let preference = "system";
+      try {
+        const stored = localStorage.getItem(storageKey);
+        if (allowed.has(stored)) preference = stored;
+      } catch (_error) {
+        preference = "system";
+      }
+      const systemDark = window.matchMedia?.("(prefers-color-scheme: dark)").matches;
+      const theme = preference === "system"
+        ? (systemDark ? "dark" : "light")
+        : preference;
+      document.documentElement.dataset.theme = theme;
+      document.documentElement.dataset.themePreference = preference;
+      document.documentElement.style.colorScheme = theme;
+      const lightMeta = document.getElementById("theme-color-light");
+      const darkMeta = document.getElementById("theme-color-dark");
+      if (preference === "system") {
+        lightMeta.content = "#f5f0e8";
+        darkMeta.content = "#1c181c";
+      } else {
+        const color = theme === "dark" ? "#1c181c" : "#f5f0e8";
+        lightMeta.content = color;
+        darkMeta.content = color;
+      }
+    })();
+  </script>
+  <link rel="canonical" href="https://l-m-sherlock.github.io/yuri-classification-archive/works/escha_chron_ova_2017/">
+  <link rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="百合作品分类档案">
+  <meta property="og:title" content="《ESCHA CHRON》分类报告｜百合作品分类档案">
+  <meta property="og:description" content="Escha 与 Chron 是标题双主角，也是两话始终不变的旅行组合。两人从终末世界 Terminal 来到现代世界 Transit，一起观察音乐、雪景、劳动和人与人之间的联系；每一话虽有不同来宾及其人物弧，观众进入、离开这些单元故事的固定视角仍是二人的共同旅行。因此本报告把女女关系判为 主线 ，并把作品归入……">
+  <meta property="og:url" content="https://l-m-sherlock.github.io/yuri-classification-archive/works/escha_chron_ova_2017/">
+  <meta property="og:image" content="https://l-m-sherlock.github.io/yuri-classification-archive/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+  <title>《ESCHA CHRON》分类报告｜百合作品分类档案</title>
+  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=7a82f1582188">
+
+</head>
+<body class="classification-report">
+  <a class="skip-link" href="#main-content">跳到正文</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="/yuri-classification-archive/">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>
+          <strong>百合作品分类档案</strong>
+          <small>按查询拆开标签，按证据保留边界</small>
+        </span>
+      </a>
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-navigation"
+      >
+        <span>菜单</span>
+        <span class="menu-toggle-icon" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-navigation" aria-label="主导航">
+        <div class="nav-main">
+          <a href="/yuri-classification-archive/">首页</a>
+          <a href="/yuri-classification-archive/table/">总表</a>
+          <a href="/yuri-classification-archive/articles/">专题</a>
+          <a href="/yuri-classification-archive/tools/">工具</a>
+          <a href="/yuri-classification-archive/about/">方法与说明</a>
+        </div>
+        <a class="nav-star" href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub / Star <span aria-hidden="true">↗</span></a>
+        <a class="nav-feedback" href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
+        <label class="theme-control" for="theme-preference">
+          <span>主题</span>
+          <select id="theme-preference" aria-label="主题偏好">
+            <option value="system">跟随系统</option>
+            <option value="light">浅色</option>
+            <option value="dark">深色</option>
+          </select>
+        </label>
+      </nav>
+    </div>
+  </header>
+  <main id="main-content">
+    <article class="report-page">
+  <header class="report-header">
+    <p class="eyebrow">OVA · 2026-08-16</p>
+    <h1>《ESCHA CHRON》分类报告</h1>
+    <p class="report-subtitle">2017 年 OVA 第 1 话（约 25 分钟）；2017 年 OVA 第 2 话（约 24 分钟）</p>
+    <div class="label-strip" aria-label="分类摘要">
+      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>百合归档结论：</strong>文类内百合</span><span class="label-chip"><strong>女女恋爱位置：</strong>缺席</span><span class="label-chip"><strong>女女关系最高明确度：</strong>非恋爱</span><span class="label-chip"><strong>官方字面百合／GL：</strong>所核未见</span><span class="label-chip"><strong>官方女女恋爱表述：</strong>所核未见</span><span class="label-chip"><strong>官方来源：</strong>层级：当前版本；位置：出版载体、剧情／角色页</span><span class="label-chip"><strong>结论置信度：</strong>中<span class="inline-help" tabindex="0" aria-label="查看结论置信度说明" aria-describedby="report-confidence-help"><span aria-hidden="true">?</span><span class="term-tooltip" id="report-confidence-help" role="tooltip">表示当前锁定范围内，现有证据对本报告主要分类结论的支持稳定度；它不是百合程度、作品质量、社群共识或统计概率。</span></span></span>
+    </div>
+    <a class="back-link" href="/yuri-classification-archive/table/?q=ESCHA%20CHRON">← 返回总表并定位本作</a>
+  </header>
+  <section class="relationship-overview" data-confirmed-female-female-count="2" aria-labelledby="relationship-overview-title"><div class="relationship-overview-heading"><p class="eyebrow">RELATIONSHIP SNAPSHOT</p><h2 id="relationship-overview-title">关系构成速览</h2></div><p class="relationship-overview-total"><strong>2</strong><span>条已确认女女关系记录</span></p><div class="relationship-overview-grid"><div class="relationship-overview-group"><h3>叙事位置</h3><ul><li data-axis="narrative_centrality" data-code="main" data-count="1"><span>主线</span><strong>1</strong></li><li data-axis="narrative_centrality" data-code="important_secondary" data-count="1"><span>重要副线</span><strong>1</strong></li></ul></div><div class="relationship-overview-group"><h3>恋爱明确度</h3><ul><li data-axis="romance_explicitness" data-code="non_romantic" data-count="2"><span>非恋爱</span><strong>2</strong></li></ul></div><div class="relationship-overview-group"><h3>相互性</h3><ul><li data-axis="mutuality" data-code="mutual" data-count="2"><span>双向</span><strong>2</strong></li></ul></div></div><p class="relationship-overview-note">只汇总档案中逐条确认的女女关系记录；它不是配对数量、出场时间、互动频率，也不是任何程度评分。</p></section>
+  <section class="work-tag-section" aria-labelledby="work-tag-title"><div class="work-tag-heading"><div><h2 id="work-tag-title">统一标签</h2><p>用于内容检索，不替代关系分类。</p></div><div class="unified-tag-list"><a class="unified-tag" data-facet-id="countryside" href="/yuri-classification-archive/table/?facet=countryside" aria-label="用统一标签“乡村／郊野”筛选总表">乡村／郊野</a><a class="unified-tag" data-facet-id="slice_of_life" href="/yuri-classification-archive/table/?facet=slice_of_life" aria-label="用统一标签“日常”筛选总表">日常</a><a class="unified-tag" data-facet-id="iyashikei" href="/yuri-classification-archive/table/?facet=iyashikei" aria-label="用统一标签“治愈系”筛选总表">治愈系</a><a class="unified-tag" data-facet-id="fantasy" href="/yuri-classification-archive/table/?facet=fantasy" aria-label="用统一标签“奇幻”筛选总表">奇幻</a><a class="unified-tag" data-facet-id="science_fiction" href="/yuri-classification-archive/table/?facet=science_fiction" aria-label="用统一标签“科幻”筛选总表">科幻</a><a class="unified-tag" data-facet-id="music" href="/yuri-classification-archive/table/?facet=music" aria-label="用统一标签“音乐”筛选总表">音乐</a><a class="unified-tag" data-facet-id="travel_and_outdoors" href="/yuri-classification-archive/table/?facet=travel_and_outdoors" aria-label="用统一标签“旅行／户外”筛选总表">旅行／户外</a><a class="unified-tag" data-facet-id="episodic" href="/yuri-classification-archive/table/?facet=episodic" aria-label="用统一标签“单元剧”筛选总表">单元剧</a><a class="unified-tag" data-facet-id="cute_girls_doing_cute_things" href="/yuri-classification-archive/table/?facet=cute_girls_doing_cute_things" aria-label="用统一标签“空气系”筛选总表">空气系</a></div></div><details class="raw-platform-tags"><summary><span>四平台原始标签</span><small>展开查看平台原文与权重</small></summary><div class="raw-platform-tags-content"><p class="raw-tag-snapshot-note">依据集中快照（总库更新时间：2026-08-16）；不是平台实时状态。复合条目在平台内合并去重。</p><div class="raw-platform-grid"><section class="raw-platform-card" aria-labelledby="raw-platform-bangumi" data-platform="bangumi"><div class="raw-platform-heading"><h3 id="raw-platform-bangumi">Bangumi</h3></div><div class="raw-tag-group" data-platform="bangumi" data-field="ordinary_tags"><h4>用户标签</h4><ul class="raw-tag-list"><li class="raw-tag"><span class="raw-tag-name">OVA</span><small class="raw-tag-weight">96 人</small></li><li class="raw-tag"><span class="raw-tag-name">2017</span><small class="raw-tag-weight">54 人</small></li><li class="raw-tag"><span class="raw-tag-name">Lerche</span><small class="raw-tag-weight">50 人</small></li><li class="raw-tag"><span class="raw-tag-name">原创</span><small class="raw-tag-weight">49 人</small></li><li class="raw-tag"><span class="raw-tag-name">水島精二</span><small class="raw-tag-weight">38 人</small></li><li class="raw-tag"><span class="raw-tag-name">百合</span><small class="raw-tag-weight">17 人</small></li><li class="raw-tag"><span class="raw-tag-name">水岛精二</span><small class="raw-tag-weight">13 人</small></li><li class="raw-tag"><span class="raw-tag-name">安済知佳</span><small class="raw-tag-weight">12 人</small></li><li class="raw-tag"><span class="raw-tag-name">髙橋龍也</span><small class="raw-tag-weight">12 人</small></li><li class="raw-tag"><span class="raw-tag-name">安野希世乃</span><small class="raw-tag-weight">11 人</small></li><li class="raw-tag"><span class="raw-tag-name">山口光</span><small class="raw-tag-weight">6 人</small></li><li class="raw-tag"><span class="raw-tag-name">山口ひかる</span><small class="raw-tag-weight">5 人</small></li><li class="raw-tag"><span class="raw-tag-name">治愈</span><small class="raw-tag-weight">5 人</small></li><li class="raw-tag"><span class="raw-tag-name">日本</span><small class="raw-tag-weight">3 人</small></li><li class="raw-tag"><span class="raw-tag-name">水無月徹</span><small class="raw-tag-weight">3 人</small></li><li class="raw-tag"><span class="raw-tag-name">高桥龙也</span><small class="raw-tag-weight">3 人</small></li><li class="raw-tag"><span class="raw-tag-name">ESCHA</span><small class="raw-tag-weight">3 人</small></li><li class="raw-tag"><span class="raw-tag-name">独立ova</span><small class="raw-tag-weight">2 人</small></li><li class="raw-tag"><span class="raw-tag-name">2017年11月</span><small class="raw-tag-weight">2 人</small></li><li class="raw-tag"><span class="raw-tag-name">已下载</span><small class="raw-tag-weight">2 人</small></li><li class="raw-tag"><span class="raw-tag-name">35</span><small class="raw-tag-weight">1 人</small></li><li class="raw-tag"><span class="raw-tag-name">新5分</span><small class="raw-tag-weight">1 人</small></li><li class="raw-tag"><span class="raw-tag-name">6+</span><small class="raw-tag-weight">1 人</small></li><li class="raw-tag"><span class="raw-tag-name">还行</span><small class="raw-tag-weight">1 人</small></li><li class="raw-tag"><span class="raw-tag-name">2017年</span><small class="raw-tag-weight">1 人</small></li><li class="raw-tag"><span class="raw-tag-name">Hifumi</span><small class="raw-tag-weight">1 人</small></li><li class="raw-tag"><span class="raw-tag-name">补番</span><small class="raw-tag-weight">1 人</small></li><li class="raw-tag"><span class="raw-tag-name">chron</span><small class="raw-tag-weight">1 人</small></li><li class="raw-tag"><span class="raw-tag-name">单元剧</span><small class="raw-tag-weight">1 人</small></li><li class="raw-tag"><span class="raw-tag-name">『OVA』</span><small class="raw-tag-weight">1 人</small></li></ul></div></section><section class="raw-platform-card" aria-labelledby="raw-platform-anime-planet" data-platform="anime_planet"><div class="raw-platform-heading"><h3 id="raw-platform-anime-planet">Anime-Planet</h3></div><div class="raw-tag-group" data-platform="anime_planet" data-field="tags"><h4>Tags</h4><ul class="raw-tag-list"><li class="raw-tag"><span class="raw-tag-name">Fantasy</span></li><li class="raw-tag"><span class="raw-tag-name">Post-apocalyptic</span></li></ul></div></section><section class="raw-platform-card" aria-labelledby="raw-platform-anilist" data-platform="anilist"><div class="raw-platform-heading"><h3 id="raw-platform-anilist">AniList</h3></div><div class="raw-tag-group" data-platform="anilist" data-field="genres"><h4>Genres</h4><ul class="raw-tag-list"><li class="raw-tag"><span class="raw-tag-name">Music</span></li><li class="raw-tag"><span class="raw-tag-name">Sci-Fi</span></li><li class="raw-tag"><span class="raw-tag-name">Slice of Life</span></li></ul></div><div class="raw-tag-group" data-platform="anilist" data-field="tags"><h4>Tags</h4><ul class="raw-tag-list"><li class="raw-tag"><span class="raw-tag-name">Travel</span><small class="raw-tag-weight">rank 96</small></li><li class="raw-tag"><span class="raw-tag-name">Female Protagonist</span><small class="raw-tag-weight">rank 88</small></li><li class="raw-tag"><span class="raw-tag-name">Iyashikei</span><small class="raw-tag-weight">rank 75</small></li><li class="raw-tag"><span class="raw-tag-name">Cute Girls Doing Cute Things</span><small class="raw-tag-weight">rank 73</small></li><li class="raw-tag"><span class="raw-tag-name">Time Manipulation</span><small class="raw-tag-weight">rank 71</small></li><li class="raw-tag"><span class="raw-tag-name">Primarily Female Cast</span><small class="raw-tag-weight">rank 60</small></li><li class="raw-tag"><span class="raw-tag-name">Yuri</span><small class="raw-tag-weight">rank 50</small></li><li class="raw-tag"><span class="raw-tag-name">Rural</span><small class="raw-tag-weight">rank 40</small></li></ul></div></section><section class="raw-platform-card" aria-labelledby="raw-platform-myanimelist" data-platform="myanimelist"><div class="raw-platform-heading"><h3 id="raw-platform-myanimelist">MyAnimeList</h3></div><div class="raw-tag-group" data-platform="myanimelist" data-field="genres"><h4>Genres</h4><ul class="raw-tag-list"><li class="raw-tag"><span class="raw-tag-name">Sci-Fi</span></li><li class="raw-tag"><span class="raw-tag-name">Slice of Life</span></li></ul></div><div class="raw-tag-group" data-platform="myanimelist" data-field="themes"><h4>Themes</h4><ul class="raw-tag-list"><li class="raw-tag"><span class="raw-tag-name">CGDCT</span></li><li class="raw-tag"><span class="raw-tag-name">Music</span></li></ul></div></section></div></div></details></section>
+  <div class="report-layout">
+    <aside class="report-toc">
+      <p>本页目录</p>
+      <ol><li><a href="#低剧透概览">低剧透概览</a></li><li><a href="#数据库与公开分类">数据库与公开分类</a></li><li><a href="#决定性文本证据">决定性文本证据</a></li><li><a href="#四层分析">四层分析</a></li><li><a href="#最强反方解释">最强反方解释</a></li><li><a href="#分用途结论">分用途结论</a></li><li><a href="#方法来源与限制">方法、来源与限制</a></li></ol>
+    </aside>
+    <div class="report-content">
+      <blockquote>
+<p>分类日期：2026-08-16<br> 分类对象：2017 年两话 OVA《エスカクロン／Escha Chron》<br> 纳入范围：OVA 第 1、2 话<br> 排除范围：官方 PV、歌曲、宣传材料、跨媒体企划及不能对应到这两话的其他影像<br> 用途：普通推荐与数据库分类</p>
+</blockquote>
+<h2 id="低剧透概览">低剧透概览</h2>
+<aside class="alert alert-note"><strong>说明</strong><div class="alert-content"><p><strong>分类信息提示：</strong> 本节不展开关键剧情、转折与结局，但分类信息本身会透露关系类型、叙事位置和恋爱明确度。希望完全盲看的读者请跳过本页。</p></div></aside>
+
+<p>Escha 与 Chron 是标题双主角，也是两话始终不变的旅行组合。两人从终末世界 Terminal 来到现代世界 Transit，一起观察音乐、雪景、劳动和人与人之间的联系；每一话虽有不同来宾及其人物弧，观众进入、离开这些单元故事的固定视角仍是二人的共同旅行。因此本报告把女女关系判为<strong>主线</strong>，并把作品归入<strong>文类内百合</strong>：支撑这一判断的是二人的双向朋友关系、共同生活和持续同行，而不是恋爱确认。</p>
+<p>范围内的女女恋爱位置为<strong>缺席</strong>，最高明确度是<strong>非恋爱</strong>。Chron 两次用“朋友／亲友”积极命名 Escha，两人相互担心、结伴近一年并把共同经历视为重要宝物，但正篇没有女性对女性的告白、欲望、恋人称谓或正式交往，也没有角色性取向明示。作品没有男性恋爱线；第一话的男性来宾承担音乐与创作主题。结论置信度为中：两话完整日中双语字幕和官方版本资料足以稳定判断台词、范围与叙事结构，但未同步复核完整正片画面。</p>
+<h3 id="分层标签">分层标签</h3>
+<blockquote>
+<p><strong>女女关系层级：主线｜百合归档结论：文类内百合｜恋爱位置：缺席｜最高明确度：非恋爱｜关系构成：多组异质关系｜官方字面：所核未见｜官方恋爱表述：所核未见｜官方来源：范围内官网简介＋OVA 公告＋角色页｜阅读层级：正篇事实／强推断／读者解读｜身份依据类型：范围内无依据｜男性恋爱线：无｜内容提示：终末世界背景、职业挫折、家庭归属与离别、未同步复核完整正片画面</strong></p>
+</blockquote>
+<h3 id="严格恋爱检索提示">严格恋爱检索提示</h3>
+<ul>
+<li>只找双方正式开始交往或有恋人称谓：<strong>不符合</strong>；两人被正篇积极命名为朋友／亲友。</li>
+<li>只找女性对女性明确爱意或欲望：<strong>不符合</strong>；范围内没有对象明确的告白、求爱或性／恋爱欲望。</li>
+<li>接受非恋爱女性友情、搭档与共同旅行作为主线：<strong>符合，且属于主线级别</strong>；两位标题角色的持续同行组织两话。</li>
+<li>回避男性恋爱内容：<strong>符合</strong>；男性来宾线围绕音乐与创作，没有恋爱方向。</li>
+<li>只按角色身份明示检索：<strong>不符合</strong>；作品文类位置和关系对象都不能代填角色性取向。</li>
+</ul>
+<h2 id="数据库与公开分类">数据库与公开分类</h2>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>来源</th>
+<th>条目与字段</th>
+<th>来源类型</th>
+<th>本报告如何使用</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://escha-chron.jp/introduction/" target="_blank" rel="noopener noreferrer">官方简介</a>、<a href="https://escha-chron.jp/news/detail.php?id=1047691" target="_blank" rel="noopener noreferrer">OVA 两话公告</a> 与 <a href="https://escha-chron.jp/character/" target="_blank" rel="noopener noreferrer">角色页</a></td>
+<td>两位来自 Terminal 的少女在 Transit 共同旅行；OVA 共两话，第 1、2 话来宾分别为笠井隼太与斉藤栞；所核页面未使用“百合／GL／恋爱／恋人”字面</td>
+<td>官方故事与版本资料</td>
+<td>锁定双主角、两话范围和来宾角色；官方沉默不作为否认</td>
+</tr>
+<tr>
+<td><a href="https://bangumi.tv/subject/194852" target="_blank" rel="noopener noreferrer">Bangumi 194852</a></td>
+<td>OVA、2 话、2017-11-03；普通用户标签“百合”人数 17，维基维护标签为“OVA／原创”，其中不含“百合”</td>
+<td>社区数据库与用户标签</td>
+<td>记录接受史入口；普通用户标签和维基字段分开，不替代正篇判断</td>
+</tr>
+<tr>
+<td><a href="https://anilist.co/anime/97707" target="_blank" rel="noopener noreferrer">AniList 97707</a></td>
+<td>OVA、2 话、Finished；Genres 为 Music、Sci-Fi、Slice of Life；带权重标签含 Travel 96、Yuri 50 等</td>
+<td>编辑类型与带 rank 的社区标签</td>
+<td>“Yuri 50”只说明平台相关性标签，不把 rank 当作恋爱强度或社群支持率</td>
+</tr>
+<tr>
+<td><a href="https://myanimelist.net/anime/34208/Escha_Chron" target="_blank" rel="noopener noreferrer">MyAnimeList 34208</a></td>
+<td>ONA、2 话、Finished Airing；Genres 为 Sci-Fi、Slice of Life；Themes 为 CGDCT、Music；无 Girls Love</td>
+<td>固定类型与主题字段</td>
+<td>标题、年份、话数和发行日对应同一作品；保留其 ONA 与官方／Bangumi／AniList 的 OVA 命名差异</td>
+</tr>
+<tr>
+<td><a href="https://www.anime-planet.com/anime/escha-chron" target="_blank" rel="noopener noreferrer">Anime-Planet 精确页</a></td>
+<td>标签字段状态：资料不足</td>
+<td>编辑／检索标签数据库</td>
+<td>保持未知，不据此推断 GL 标签有无</td>
+</tr>
+<tr>
+<td><a href="https://jimaku.cc/entry/576" target="_blank" rel="noopener noreferrer">Jimaku 576</a></td>
+<td>条目题名与日文名匹配，并关联 AniList 97707；两话均有日中双语 ASS</td>
+<td>字幕索引</td>
+<td>用于完整台词覆盖与时间定位，不把字幕索引当作品分类来源</td>
+</tr>
+</tbody>
+</table></div>
+<p>这些平台在媒介名和公共标签上并不一致。AniList 的 <code>Yuri 50</code>、Bangumi 的普通用户“百合”标签和 MAL 未列 <code>Girls Love</code> 同时存在，并不构成互相否决的投票：三者来自不同字段制度，回答的查询也不同。作品分类仍由两话正篇中可定位的关系事实、关系中心性和男性恋爱边界决定。</p>
+<aside class="alert alert-warning"><strong>剧透提示</strong><div class="alert-content"><p>以下部分包含作品两话的完整剧透。</p></div></aside>
+
+      <details class="spoiler-panel">
+        <summary>
+          <span>展开详细证据（含完整剧透）</span>
+          <small>决定性证据、四层分析、反方解释与方法限制</small>
+        </summary>
+        <div class="spoiler-content">
+          <h2 id="决定性文本证据">决定性文本证据</h2>
+<p>下表中的日文短句按 ASS 原文核对，中文为本报告自译；字幕时间码只用于文字定位。官方简介和字幕能证明共同旅行、关系命名与台词内容，不能在未核画面的情况下证明构图、动作、表情或语气。</p>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>位置</th>
+<th>原文与中文摘要</th>
+<th>叙事层级</th>
+<th>证据强度与视听复核</th>
+<th>能证明什么</th>
+<th>不能证明什么</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>官方简介</td>
+<td>“不思议的两位少女”从 Terminal 来到 Transit；两人气质不同却有相似之处，并共同接触音乐、景色和人与人的联系</td>
+<td>官方故事梗概</td>
+<td>直接；官方可见文字</td>
+<td>两人是双主角，作品以共同旅行和相遇为基本结构</td>
+<td>不能证明两人是恋人，也不能替代两话正篇</td>
+</tr>
+<tr>
+<td>第 1 话 00:06:24–00:06:28</td>
+<td>Chron 说歌曲是 Escha 推荐的，随后说“エスカは私の友達ね”（Escha 是我的朋友）</td>
+<td>现实台词</td>
+<td>直接；仅文字定位</td>
+<td>Chron 主动、明确地把 Escha 命名为朋友</td>
+<td>“朋友”不等于恋人，也不排除读者的亲密阅读</td>
+</tr>
+<tr>
+<td>第 1 话 00:09:14–00:09:17</td>
+<td>Chron 向笠井介绍 Escha：“さっき話したエスカ　私の親友”（刚才提到的 Escha，是我的亲友）</td>
+<td>现实台词</td>
+<td>直接；仅文字定位</td>
+<td>二人关系不只是临时同行，Chron 将 Escha 视为亲近朋友</td>
+<td>不能把“亲友”翻译成伴侣、恋人或身份标签</td>
+</tr>
+<tr>
+<td>第 1 话 00:10:13–00:10:34</td>
+<td>Escha 说 Chron 不知何时不见令自己担心；听完解释后，她主动问是否要绕道再走走</td>
+<td>现实台词</td>
+<td>直接；仅文字定位</td>
+<td>Escha 的担心、回应和共同选择使照料具有双向性</td>
+<td>不能据字幕推断拥抱、表情或恋爱嫉妒</td>
+</tr>
+<tr>
+<td>第 1 话 00:15:26–00:20:36</td>
+<td>Chron 持续询问笠井为何不再演奏旧歌；笠井解释创作停滞和对旧作的抵触，之后重新弹奏</td>
+<td>现实台词</td>
+<td>直接；仅文字定位</td>
+<td>Chron 与男性来宾的关系围绕音乐、倾听和互相影响</td>
+<td>不能把反复拜访或对音乐的“喜欢”改写成对笠井的恋爱欲望</td>
+</tr>
+<tr>
+<td>第 2 话 00:05:03–00:08:15</td>
+<td>栞为两人安排同一间房；之后问“二人は友達同士なんだよね”（你们两人是朋友吧）</td>
+<td>现实台词</td>
+<td>直接；仅文字定位</td>
+<td>两人以朋友身份结伴旅行，并共享住宿与日常安排</td>
+<td>同住一室本身不能证明恋爱或性关系</td>
+</tr>
+<tr>
+<td>第 2 话 00:08:09–00:10:29</td>
+<td>栞接待两人，邀请她们第二天一起做年糕，并提前安排准备工作</td>
+<td>现实台词</td>
+<td>直接；仅文字定位</td>
+<td>三人形成以款待、劳动和体验为中心的短期女性共同体</td>
+<td>不能把友善照料自动升级为欲望或排他关系</td>
+</tr>
+<tr>
+<td>第 2 话 00:16:00–00:18:31</td>
+<td>三人谈到雪乡、家人与被炉；台词说只有“大家一起坐的被炉”才独特，因距离近而感到温暖</td>
+<td>现实台词与共同回忆</td>
+<td>直接；仅文字定位</td>
+<td>本话把共同生活、身体距离和家庭温暖并置为归属主题</td>
+<td>不能由“距离近”推出身体亲密或恋爱暗示已被文本确认</td>
+</tr>
+<tr>
+<td>第 2 话 00:18:50–00:20:50</td>
+<td>栞与父母谈工作和回家；父亲说这里是她的家，母亲劝她坚持后仍可回来，栞决定再努力</td>
+<td>现实台词</td>
+<td>直接；仅文字定位</td>
+<td>客人单元的另一条核心是亲子支持、工作与归属</td>
+<td>不能把这一家庭弧算作 Escha 与 Chron 的恋爱证据</td>
+</tr>
+<tr>
+<td>第 2 话 00:21:34–00:22:05</td>
+<td>结尾书信说两人旅行快一年，遇见的人和经历已成为“对我们最重要的宝物”，希望日后再讲给 Albert 听</td>
+<td>书信／旁白</td>
+<td>直接；仅文字定位</td>
+<td>两人的持续同行贯穿时间，并将共同经历组织成共享记忆</td>
+<td>“我们”与“宝物”证明共同经验的重要性，不证明恋爱；Albert 的性别和关系也不能猜测</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="四层分析">四层分析</h2>
+<h3 id="第一层文本中的关系">第一层：文本中的关系</h3>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>关系 ID</th>
+<th>关系／参与者</th>
+<th>类型</th>
+<th>叙事位置</th>
+<th>恋爱明确度</th>
+<th>相互性</th>
+<th>证据层级</th>
+<th>摘要</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>r01</td>
+<td>Escha／Chron</td>
+<td>友情／搭档／共同体</td>
+<td>主线</td>
+<td>非恋爱</td>
+<td>双向</td>
+<td>正篇事实／强推断</td>
+<td>标题双主角共同旅行近一年，互称朋友／亲友，相互担心并持续选择同行</td>
+</tr>
+<tr>
+<td>r02</td>
+<td>Chron／笠井隼太</td>
+<td>友情／照护</td>
+<td>重要副线</td>
+<td>非恋爱</td>
+<td>双向</td>
+<td>正篇事实</td>
+<td>Chron 的聆听与追问促使音乐家重新面对旧作；双方回应围绕创作</td>
+</tr>
+<tr>
+<td>r03</td>
+<td>Escha、Chron／斉藤栞</td>
+<td>友情／共同体／照护</td>
+<td>重要副线</td>
+<td>非恋爱</td>
+<td>双向</td>
+<td>正篇事实</td>
+<td>款待、同住安排、共同劳动与离别构成第二话的女性共同体</td>
+</tr>
+<tr>
+<td>r04</td>
+<td>斉藤栞／父母</td>
+<td>亲情／照护</td>
+<td>重要副线</td>
+<td>非恋爱</td>
+<td>双向</td>
+<td>正篇事实</td>
+<td>家庭谈话让栞重新理解可以回去的地方，并恢复面对工作的动力</td>
+</tr>
+</tbody>
+</table></div>
+<p>Escha 与 Chron 的关系并非由一场告白或一次亲密动作确立，而是由持续共同活动累积：Chron 先明确称 Escha 为朋友、亲友；Escha 在她擅自离开时担心并寻找；两人一起进入来宾的生活，又一起离开。第二话结尾把近一年的旅行写成双方共享的记忆与未来可讲述的故事。由关系命名、照料、共同选择和时间延续共同支持“主线、双向、非恋爱”这三个判断，而不是从“没有男性主角”倒推。</p>
+<p>两条来宾线承担不同功能。笠井隼太的故事以音乐创作和重新面对旧作为中心，Chron 的好奇使他开始行动；斉藤栞的故事则以家、劳动和回返为中心，Escha 与 Chron 进入她的旅馆生活并见证家庭支持。它们都与双主角发生真实关系，却没有把她们之间的长期搭档关系替换掉，也没有产生男性恋爱主线。</p>
+<h3 id="第二层作品的文类位置">第二层：作品的文类位置</h3>
+<p>本报告采用“文类内百合”，依据不是平台标了几次 <code>Yuri</code>，也不是把所有女性友情都自动算成百合，而是这部短篇 OVA 的标题、视角、移动路线和收束均由 Escha 与 Chron 的女性关系承载。两话各自有来宾中心的人物弧，但来宾只占一个单元；两位少女共同进入世界、共同体验变化、共同离开并继续旅行，才是将两个单元连成作品的组织轴。对查询“哪些作品以女性关系和共同生活为主线”而言，这是一项有用且可复核的文类压缩。</p>
+<p>这项文类判断不等于女女恋爱判断。正篇反而两次提供朋友／亲友的积极命名，范围内没有明确欲望、正式交往或恋人称谓。因此若查询只收录恋爱型 GL，本作应被排除；若查询接受女性搭档、长期共同旅行和女性共同体作为百合文类的一部分，本作可以纳入，并应附上“非恋爱”的限定。</p>
+<p>男性恋爱线为无。笠井隼太与 Chron 的互动围绕歌曲、创作和倾听；斉藤栞与父母是家庭关系。结尾写给 Albert 的信只说明旧识、想再会和分享旅途故事，现有字幕没有建立其性别、恋爱或伴侣身份，不能据名字或赠礼回忆补成男性恋爱线。</p>
+<h3 id="第三层角色身份">第三层：角色身份</h3>
+<p>Escha 与 Chron 的性取向身份均为未知。作品没有女同性恋、双性恋等身份自述，所核官方角色页也没有提供相应身份设定。她们是两位女性、彼此关系主线且共同生活，这些都属于关系和文类层面的事实，不能自动换算成身份结论。Chron 叫 Escha “朋友／亲友”也不构成对其他可能身份的否定，只能说明本版本如何积极命名这段关系。</p>
+<h3 id="第四层公共标签礼仪">第四层：公共标签礼仪</h3>
+<p>普通推荐可以写“女性双主角旅行、主线友情、共同生活、治愈系、音乐与乡村”，并在需要时附“文类内百合（非恋爱）”。严格恋爱检索不应仅凭 AniList <code>Yuri 50</code> 或 Bangumi 用户标签把作品收进去；这些字段适合帮助发现作品，却不能替代对象明确的恋爱台词。MAL 未列 <code>Girls Love</code> 同样只说明该站固定类型字段没有这一项，不能反向否认二人的主线关系。</p>
+<p>官方分类查询应回答“所核未见官方使用百合／GL／恋爱字面”，并同时说明官方确实把二人写作共同旅行的两位少女。私人阅读可以把持续结伴、相互担心、同住和共享未来故事视为亲密入口，但应保留正篇“朋友／亲友”的命名，不能把个人阅读写成文本已经确认的恋爱事实。</p>
+<h2 id="最强反方解释">最强反方解释</h2>
+<p>最强的狭义解释是：两人被正篇明确称为朋友和亲友，没有告白、欲望、接吻或交往；而且每一话真正完成变化的是来宾——第一话是受创作停滞困扰的音乐家，第二话是面对工作与归属的栞。因此作品更像以两位少女为观察者的治愈系单元剧，最多提供文类外百合阅读，不应占用“百合作品”的主标签。</p>
+<p>这个解释有实质力量。它足以推翻“本作有女女恋爱”或“适合严格 GL 检索”的结论，也能解释 MAL 未列 <code>Girls Love</code>。如果使用者把“百合”专用于恋爱成员资格，那么把本作判为非百合是内部一致的选择。本报告仍采用文类内百合，是因为本档案服务的普通作品检索还包含主线女性关系：来宾弧虽各自完整，却都由 Escha 与 Chron 共同进入、回应和带走；标题与结尾也回到二人的持续同行。狭义解释能改变标签用途，不能抹除这条结构事实。</p>
+<p>若出现同一两话中对象明确的女女欲望、正式伴侣表述或可核画面动作，恋爱明确度需要上调；若出现被当前字幕遗漏且实际主导两话的男性恋爱线，作品文类位置需要下调。仅增加一个平台标签、标签 rank 或用户人数，不足以改变文本判断。</p>
+<h2 id="分用途结论">分用途结论</h2>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>用途</th>
+<th>分类</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>普通作品推荐</td>
+<td>可作为“女性双主角旅行／主线友情／共同生活／治愈系”推荐；若使用百合标签，应注明非恋爱</td>
+</tr>
+<tr>
+<td>数据库主标签</td>
+<td>文类内百合（非恋爱）；并列音乐、科幻、日常、旅行与治愈系，不标为明确 GL 恋爱</td>
+</tr>
+<tr>
+<td>严格明确恋爱检索</td>
+<td>不纳入；没有女女明确欲望、正式交往或恋人称谓</td>
+</tr>
+<tr>
+<td>私人百合阅读</td>
+<td>可纳入；抓手是近一年的共同旅行、相互担心、同住与共享记忆，但正篇命名仍是朋友／亲友</td>
+</tr>
+<tr>
+<td>角色身份检索</td>
+<td>不纳入；两位主角的性取向身份均为未知</td>
+</tr>
+<tr>
+<td>官方分类查询</td>
+<td>所核官方资料未使用百合／GL／恋爱字面；只确认两位少女共同旅行的故事与两话 OVA 范围</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="方法来源与限制">方法、来源与限制</h2>
+<ul>
+<li>正篇材料为第 1、2 话完整日中双语 ASS，覆盖 2/2；日文台词用于主要判断，简体中文行只作交叉核对，报告中文为分析者自译。</li>
+<li>官方材料包括<a href="https://escha-chron.jp/introduction/" target="_blank" rel="noopener noreferrer">简介</a>、<a href="https://escha-chron.jp/news/detail.php?id=1047691" target="_blank" rel="noopener noreferrer">两话公告</a>、<a href="https://escha-chron.jp/news/detail.php?id=1050476" target="_blank" rel="noopener noreferrer">上映范围</a>与<a href="https://escha-chron.jp/character/" target="_blank" rel="noopener noreferrer">角色页</a>；数据库字段核对至 2026-08-16。</li>
+<li>未同步复核完整正片；仅检查官方 PV 宣传静帧以确认双主角并置，因此不主张字幕没有直接提供的动作、构图、表情、语气或身体亲密。</li>
+<li>Anime-Planet 标签字段为资料不足，相关状态保持未知；此状态不提供标签有无的证据。</li>
+<li>未纳入跨媒体企划、歌曲、宣传叙事或相邻影像；若同一两话出现当前字幕不能表达的决定性关系动作，恋爱明确度与置信度可能改变。</li>
+</ul>
+
+        </div>
+      </details>
+    </div>
+  </div>
+</article>
+
+<section class="feedback-section">
+  <div>
+    <p class="eyebrow">REPORT FEEDBACK</p>
+    <h2>提交可核查的修订建议</h2>
+    <p>请注明作品版本、集数／章节、要质疑的原句、可公开核查的来源，以及建议如何修订。评论属于待核查反馈，不会自动成为报告证据。</p>
+  </div>
+  <div class="giscus"></div>
+<div class="giscus-config"
+        hidden
+        data-repo="L-M-Sherlock/yuri-classification-archive"
+        data-repo-id="R_kgDOTo1RzA"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOTo1RzM4DCXAh"
+        data-mapping="specific"
+        data-term="classification:escha_chron_ova_2017"
+        data-strict="1"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-lang="zh-CN"
+        data-loading="lazy"
+        aria-hidden="true"></div>
+</section>
+
+  </main>
+  <footer class="site-footer">
+    <div>
+      <p>分类是面向具体查询的检索工具，不是替作品关系作终审判决。</p>
+      <p class="footer-ai-note">本站使用以 OpenAI Codex 为主的生成式 AI 辅助研究、写作与站点开发；人工审阅未覆盖全部作品报告。<a href="/yuri-classification-archive/about/#AI使用说明">查看 AI 使用说明</a></p>
+      <p>© 2026 Jarrett Ye · <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="license noopener noreferrer">CC BY-NC-SA 4.0</a> · <a href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub 仓库</a> · <a href="/yuri-classification-archive/about/#使用边界">使用边界</a></p>
+    </div>
+  </footer>
+  <script>window.SITE_CONFIG = {basePath: "/yuri-classification-archive"};</script>
+  <script src="/yuri-classification-archive/assets/site.js?v=eeeec5872796" defer></script>
+
+</body>
+</html>

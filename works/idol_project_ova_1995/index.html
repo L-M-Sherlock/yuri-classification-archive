@@ -1,0 +1,467 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="本作的女性关系位于主线。Mimu Emilton 的目标是参加 Excellent Idol 试镜、见到并为世界级偶像 Yuri 演唱；六位 Excellent Idols 又在冒险中成为她的朋友、同伴和支持者。女性榜样、职业传承与团队共同体从开场一直组织到最后的演出，因此不能把本作写成“女性关系缺席”或只有偶……">
+  <meta name="color-scheme" content="light dark">
+  <meta id="theme-color-light" name="theme-color" media="(prefers-color-scheme: light)" content="#f5f0e8">
+  <meta id="theme-color-dark" name="theme-color" media="(prefers-color-scheme: dark)" content="#1c181c">
+  <script>
+    (() => {
+      document.documentElement.classList.add("js");
+      const storageKey = "yuri-classification-theme";
+      const allowed = new Set(["system", "light", "dark"]);
+      let preference = "system";
+      try {
+        const stored = localStorage.getItem(storageKey);
+        if (allowed.has(stored)) preference = stored;
+      } catch (_error) {
+        preference = "system";
+      }
+      const systemDark = window.matchMedia?.("(prefers-color-scheme: dark)").matches;
+      const theme = preference === "system"
+        ? (systemDark ? "dark" : "light")
+        : preference;
+      document.documentElement.dataset.theme = theme;
+      document.documentElement.dataset.themePreference = preference;
+      document.documentElement.style.colorScheme = theme;
+      const lightMeta = document.getElementById("theme-color-light");
+      const darkMeta = document.getElementById("theme-color-dark");
+      if (preference === "system") {
+        lightMeta.content = "#f5f0e8";
+        darkMeta.content = "#1c181c";
+      } else {
+        const color = theme === "dark" ? "#1c181c" : "#f5f0e8";
+        lightMeta.content = color;
+        darkMeta.content = color;
+      }
+    })();
+  </script>
+  <link rel="canonical" href="https://l-m-sherlock.github.io/yuri-classification-archive/works/idol_project_ova_1995/">
+  <link rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="百合作品分类档案">
+  <meta property="og:title" content="《偶像计划》分类报告｜百合作品分类档案">
+  <meta property="og:description" content="本作的女性关系位于主线。Mimu Emilton 的目标是参加 Excellent Idol 试镜、见到并为世界级偶像 Yuri 演唱；六位 Excellent Idols 又在冒险中成为她的朋友、同伴和支持者。女性榜样、职业传承与团队共同体从开场一直组织到最后的演出，因此不能把本作写成“女性关系缺席”或只有偶……">
+  <meta property="og:url" content="https://l-m-sherlock.github.io/yuri-classification-archive/works/idol_project_ova_1995/">
+  <meta property="og:image" content="https://l-m-sherlock.github.io/yuri-classification-archive/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+  <title>《偶像计划》分类报告｜百合作品分类档案</title>
+  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=7a82f1582188">
+
+</head>
+<body class="classification-report">
+  <a class="skip-link" href="#main-content">跳到正文</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="/yuri-classification-archive/">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>
+          <strong>百合作品分类档案</strong>
+          <small>按查询拆开标签，按证据保留边界</small>
+        </span>
+      </a>
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-navigation"
+      >
+        <span>菜单</span>
+        <span class="menu-toggle-icon" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-navigation" aria-label="主导航">
+        <div class="nav-main">
+          <a href="/yuri-classification-archive/">首页</a>
+          <a href="/yuri-classification-archive/table/">总表</a>
+          <a href="/yuri-classification-archive/articles/">专题</a>
+          <a href="/yuri-classification-archive/tools/">工具</a>
+          <a href="/yuri-classification-archive/about/">方法与说明</a>
+        </div>
+        <a class="nav-star" href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub / Star <span aria-hidden="true">↗</span></a>
+        <a class="nav-feedback" href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
+        <label class="theme-control" for="theme-preference">
+          <span>主题</span>
+          <select id="theme-preference" aria-label="主题偏好">
+            <option value="system">跟随系统</option>
+            <option value="light">浅色</option>
+            <option value="dark">深色</option>
+          </select>
+        </label>
+      </nav>
+    </div>
+  </header>
+  <main id="main-content">
+    <article class="report-page">
+  <header class="report-header">
+    <p class="eyebrow">OVA · 2026-08-16</p>
+    <h1>《偶像计划》分类报告</h1>
+    <p class="report-subtitle">1995—1997 年发行的《アイドル・プロジェクト》4 集 OVA 正篇，Bangumi subject 78088、AniList 2072 与 MyAnimeList 2072 的精确版本；四集围绕 Mimu Emilton 参加 Excellent Idol 试镜、寻找 Yuri 并完成演出的正篇对白与歌曲演出语境；与本 OVA 精确对应的四份英文字幕文件及四个平台公开条目字段</p>
+    <div class="label-strip" aria-label="分类摘要">
+      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>百合归档结论：</strong>非百合</span><span class="label-chip"><strong>女女恋爱位置：</strong>缺席</span><span class="label-chip"><strong>女女关系最高明确度：</strong>非恋爱</span><span class="label-chip"><strong>官方字面百合／GL：</strong>所核未见</span><span class="label-chip"><strong>官方女女恋爱表述：</strong>所核未见</span><span class="label-chip"><strong>官方来源：</strong>所核来源未含可公开筛选的层级或位置</span><span class="label-chip"><strong>结论置信度：</strong>中<span class="inline-help" tabindex="0" aria-label="查看结论置信度说明" aria-describedby="report-confidence-help"><span aria-hidden="true">?</span><span class="term-tooltip" id="report-confidence-help" role="tooltip">表示当前锁定范围内，现有证据对本报告主要分类结论的支持稳定度；它不是百合程度、作品质量、社群共识或统计概率。</span></span></span>
+    </div>
+    <a class="back-link" href="/yuri-classification-archive/table/?q=%E5%81%B6%E5%83%8F%E8%AE%A1%E5%88%92">← 返回总表并定位本作</a>
+  </header>
+  <section class="relationship-overview" data-confirmed-female-female-count="5" aria-labelledby="relationship-overview-title"><div class="relationship-overview-heading"><p class="eyebrow">RELATIONSHIP SNAPSHOT</p><h2 id="relationship-overview-title">关系构成速览</h2></div><p class="relationship-overview-total"><strong>5</strong><span>条已确认女女关系记录</span></p><div class="relationship-overview-grid"><div class="relationship-overview-group"><h3>叙事位置</h3><ul><li data-axis="narrative_centrality" data-code="main" data-count="1"><span>主线</span><strong>1</strong></li><li data-axis="narrative_centrality" data-code="important_secondary" data-count="3"><span>重要副线</span><strong>3</strong></li><li data-axis="narrative_centrality" data-code="local" data-count="1"><span>局部</span><strong>1</strong></li></ul></div><div class="relationship-overview-group"><h3>恋爱明确度</h3><ul><li data-axis="romance_explicitness" data-code="non_romantic" data-count="5"><span>非恋爱</span><strong>5</strong></li></ul></div><div class="relationship-overview-group"><h3>相互性</h3><ul><li data-axis="mutuality" data-code="mutual" data-count="3"><span>双向</span><strong>3</strong></li><li data-axis="mutuality" data-code="ambiguous" data-count="1"><span>相互性未确认</span><strong>1</strong></li><li data-axis="mutuality" data-code="not_applicable" data-count="1"><span>不适用</span><strong>1</strong></li></ul></div></div><p class="relationship-overview-note">只汇总档案中逐条确认的女女关系记录；它不是配对数量、出场时间、互动频率，也不是任何程度评分。</p></section>
+  <section class="work-tag-section" aria-labelledby="work-tag-title"><div class="work-tag-heading"><div><h2 id="work-tag-title">统一标签</h2><p>用于内容检索，不替代关系分类。</p></div><div class="unified-tag-list"><a class="unified-tag" data-facet-id="comedy" href="/yuri-classification-archive/table/?facet=comedy" aria-label="用统一标签“喜剧”筛选总表">喜剧</a><a class="unified-tag" data-facet-id="adventure" href="/yuri-classification-archive/table/?facet=adventure" aria-label="用统一标签“冒险”筛选总表">冒险</a><a class="unified-tag" data-facet-id="fantasy" href="/yuri-classification-archive/table/?facet=fantasy" aria-label="用统一标签“奇幻”筛选总表">奇幻</a><a class="unified-tag" data-facet-id="science_fiction" href="/yuri-classification-archive/table/?facet=science_fiction" aria-label="用统一标签“科幻”筛选总表">科幻</a><a class="unified-tag" data-facet-id="music" href="/yuri-classification-archive/table/?facet=music" aria-label="用统一标签“音乐”筛选总表">音乐</a><a class="unified-tag" data-facet-id="idol" href="/yuri-classification-archive/table/?facet=idol" aria-label="用统一标签“偶像”筛选总表">偶像</a><a class="unified-tag" data-facet-id="ensemble_cast" href="/yuri-classification-archive/table/?facet=ensemble_cast" aria-label="用统一标签“群像”筛选总表">群像</a></div></div><details class="raw-platform-tags"><summary><span>四平台原始标签</span><small>展开查看平台原文与权重</small></summary><div class="raw-platform-tags-content"><p class="raw-tag-snapshot-note">依据集中快照（总库更新时间：2026-08-16）；不是平台实时状态。复合条目在平台内合并去重。</p><div class="raw-platform-grid"><section class="raw-platform-card" aria-labelledby="raw-platform-bangumi" data-platform="bangumi"><div class="raw-platform-heading"><h3 id="raw-platform-bangumi">Bangumi</h3></div><div class="raw-tag-group" data-platform="bangumi" data-field="ordinary_tags"><h4>用户标签</h4><ul class="raw-tag-list"><li class="raw-tag"><span class="raw-tag-name">OVA</span><small class="raw-tag-weight">18 人</small></li><li class="raw-tag"><span class="raw-tag-name">原创</span><small class="raw-tag-weight">9 人</small></li><li class="raw-tag"><span class="raw-tag-name">1995</span><small class="raw-tag-weight">5 人</small></li><li class="raw-tag"><span class="raw-tag-name">偶像</span><small class="raw-tag-weight">4 人</small></li><li class="raw-tag"><span class="raw-tag-name">百合</span><small class="raw-tag-weight">4 人</small></li><li class="raw-tag"><span class="raw-tag-name">长冈康史</span><small class="raw-tag-weight">4 人</small></li><li class="raw-tag"><span class="raw-tag-name">アイドル・プロジェクト</span><small class="raw-tag-weight">4 人</small></li><li class="raw-tag"><span class="raw-tag-name">赛璐珞</span><small class="raw-tag-weight">4 人</small></li><li class="raw-tag"><span class="raw-tag-name">90s</span><small class="raw-tag-weight">3 人</small></li><li class="raw-tag"><span class="raw-tag-name">卖肉</span><small class="raw-tag-weight">2 人</small></li><li class="raw-tag"><span class="raw-tag-name">90年代</span><small class="raw-tag-weight">2 人</small></li><li class="raw-tag"><span class="raw-tag-name">其他</span><small class="raw-tag-weight">1 人</small></li><li class="raw-tag"><span class="raw-tag-name">1990s</span><small class="raw-tag-weight">1 人</small></li><li class="raw-tag"><span class="raw-tag-name">不到7分</span><small class="raw-tag-weight">1 人</small></li><li class="raw-tag"><span class="raw-tag-name">95-99</span><small class="raw-tag-weight">1 人</small></li><li class="raw-tag"><span class="raw-tag-name">独立ova</span><small class="raw-tag-weight">1 人</small></li><li class="raw-tag"><span class="raw-tag-name">电波萌系</span><small class="raw-tag-weight">1 人</small></li></ul></div></section><section class="raw-platform-card" aria-labelledby="raw-platform-anime-planet" data-platform="anime_planet"><div class="raw-platform-heading"><h3 id="raw-platform-anime-planet">Anime-Planet</h3></div><div class="raw-tag-group" data-platform="anime_planet" data-field="tags"><h4>Tags</h4><ul class="raw-tag-list"><li class="raw-tag"><span class="raw-tag-name">Fantasy</span></li><li class="raw-tag"><span class="raw-tag-name">Idols</span></li><li class="raw-tag"><span class="raw-tag-name">Person in a Strange World</span></li><li class="raw-tag"><span class="raw-tag-name">Showbiz</span></li></ul></div></section><section class="raw-platform-card" aria-labelledby="raw-platform-anilist" data-platform="anilist"><div class="raw-platform-heading"><h3 id="raw-platform-anilist">AniList</h3></div><div class="raw-tag-group" data-platform="anilist" data-field="genres"><h4>Genres</h4><ul class="raw-tag-list"><li class="raw-tag"><span class="raw-tag-name">Adventure</span></li><li class="raw-tag"><span class="raw-tag-name">Comedy</span></li><li class="raw-tag"><span class="raw-tag-name">Music</span></li></ul></div><div class="raw-tag-group" data-platform="anilist" data-field="tags"><h4>Tags</h4><ul class="raw-tag-list"><li class="raw-tag"><span class="raw-tag-name">Idol</span><small class="raw-tag-weight">rank 100</small></li><li class="raw-tag"><span class="raw-tag-name">Primarily Female Cast</span><small class="raw-tag-weight">rank 79</small></li><li class="raw-tag"><span class="raw-tag-name">Yuri</span><small class="raw-tag-weight">rank 79</small></li><li class="raw-tag"><span class="raw-tag-name">Henshin</span><small class="raw-tag-weight">rank 79</small></li><li class="raw-tag"><span class="raw-tag-name">Space</span><small class="raw-tag-weight">rank 66</small></li><li class="raw-tag"><span class="raw-tag-name">Female Protagonist</span><small class="raw-tag-weight">rank 66</small></li><li class="raw-tag"><span class="raw-tag-name">Robots</span><small class="raw-tag-weight">rank 60</small></li><li class="raw-tag"><span class="raw-tag-name">Ensemble Cast</span><small class="raw-tag-weight">rank 60</small></li><li class="raw-tag"><span class="raw-tag-name">Nudity</span><small class="raw-tag-weight">rank 26</small></li><li class="raw-tag"><span class="raw-tag-name">Primarily Teen Cast</span><small class="raw-tag-weight">rank 20</small></li></ul></div></section><section class="raw-platform-card" aria-labelledby="raw-platform-myanimelist" data-platform="myanimelist"><div class="raw-platform-heading"><h3 id="raw-platform-myanimelist">MyAnimeList</h3></div><div class="raw-tag-group" data-platform="myanimelist" data-field="genres"><h4>Genres</h4><ul class="raw-tag-list"><li class="raw-tag"><span class="raw-tag-name">Adventure</span></li><li class="raw-tag"><span class="raw-tag-name">Comedy</span></li><li class="raw-tag"><span class="raw-tag-name">Sci-Fi</span></li><li class="raw-tag"><span class="raw-tag-name">Ecchi</span></li></ul></div><div class="raw-tag-group" data-platform="myanimelist" data-field="themes"><h4>Themes</h4><ul class="raw-tag-list"><li class="raw-tag"><span class="raw-tag-name">Idols (Female)</span></li><li class="raw-tag"><span class="raw-tag-name">Music</span></li></ul></div></section></div></div></details></section>
+  <div class="report-layout">
+    <aside class="report-toc">
+      <p>本页目录</p>
+      <ol><li><a href="#低剧透概览">低剧透概览</a></li><li><a href="#数据库与公开分类">数据库与公开分类</a></li><li><a href="#决定性文本证据">决定性文本证据</a></li><li><a href="#四层分析">四层分析</a></li><li><a href="#最强反方解释">最强反方解释</a></li><li><a href="#分用途结论">分用途结论</a></li><li><a href="#方法来源与限制">方法、来源与限制</a></li></ol>
+    </aside>
+    <div class="report-content">
+      <blockquote>
+<p>分类日期：2026-08-16<br> 分类对象：1995—1997 年发行的 4 集 OVA《アイドル・プロジェクト》<br> 纳入范围：OVA 正篇第 1—4 集<br> 排除范围：同名邻近作品、跨媒介材料、宣传与二次创作<br> 用途：普通推荐与数据库分类</p>
+</blockquote>
+<h2 id="低剧透概览">低剧透概览</h2>
+<aside class="alert alert-note"><strong>说明</strong><div class="alert-content"><p><strong>分类信息提示：</strong> 本节不展开关键剧情、转折与结局，但分类信息本身会透露关系类型、叙事位置和恋爱明确度。希望完全盲看的读者请跳过本页。</p></div></aside>
+
+<p>本作的女性关系位于主线。Mimu Emilton 的目标是参加 Excellent Idol 试镜、见到并为世界级偶像 Yuri 演唱；六位 Excellent Idols 又在冒险中成为她的朋友、同伴和支持者。女性榜样、职业传承与团队共同体从开场一直组织到最后的演出，因此不能把本作写成“女性关系缺席”或只有偶然同框。</p>
+<p>归档结论仍是<strong>非百合</strong>。Mimu 对 Yuri 的感情被持续放在偶像崇拜、成为同类职业者、让对方听见歌声和完成梦想的语境中；Excellent Idols 则反复使用朋友、伙伴与帮助的语言。范围内没有女女告白、求爱、情侣称谓、对象明确的身体欲望或伴侣未来。女女恋爱位置为缺席，最高明确度为非恋爱，男性恋爱线为无；歌曲中的男性对象恋爱歌词属于舞台演出文本，不构成角色剧情线。</p>
+<p>结论置信度为中等。四集英文字幕完整纳入文字审读，版本和集数也由四个平台精确条目交叉锁定；但字幕是第三方英文翻译，且未作同步视听复核，所以不判断日语细微语气、无台词动作、镜头亲密或表情。AniList 的 Yuri rank 79 和 Bangumi 的普通用户“百合”标签能解释本作如何进入候选池，却不能代替正篇关系证据。</p>
+<h3 id="分层标签">分层标签</h3>
+<blockquote>
+<p><strong>女女关系层级：主线｜百合归档结论：非百合｜恋爱位置：缺席｜最高明确度：非恋爱｜关系构成：多组异质关系｜官方字面：所核未见｜官方恋爱表述：所核未见｜官方来源：未取得可归属本 OVA 的制作方公开页面｜阅读层级：正篇事实／强推断｜身份依据类型：范围内无依据｜男性恋爱线：无｜内容提示：太空灾难、喜剧战斗、偶像试镜压力、轻度性暗示与歌曲中的成人恋爱歌词</strong></p>
+</blockquote>
+<h3 id="严格恋爱检索提示">严格恋爱检索提示</h3>
+<ul>
+<li>只找女性对女性对象明确的爱意或恋爱欲望：<strong>不符合</strong>；Mimu 的“喜欢”和“感情”处于偶像崇拜、事业梦想与演出语境。</li>
+<li>只找女性双方正式开始交往或有恋人称谓：<strong>不符合</strong>；四集没有女女交往、情侣或伴侣命名。</li>
+<li>接受明显但未确认的女女恋爱指向：<strong>现有文字材料不支持</strong>；平台 Yuri 标签和强烈崇拜可以召回本作，但连续对白提供了更具体的偶像与朋友解释。</li>
+<li>接受非恋爱女性关系作为主线：<strong>符合</strong>；Mimu—Yuri 的榜样关系和女性团队共同体组织全作目标与结局。</li>
+<li>回避男性恋爱剧情线：<strong>符合</strong>；角色剧情没有男性恋爱线，但片中歌曲含面向未具名男性对象的恋爱歌词。</li>
+<li>只按女同性恋或双性恋身份明示检索：<strong>不符合</strong>；范围内没有相关身份自述或官方身份设定。</li>
+</ul>
+<h2 id="数据库与公开分类">数据库与公开分类</h2>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>来源</th>
+<th>条目与字段</th>
+<th>来源类型</th>
+<th>本报告如何使用</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://bangumi.tv/subject/78088" target="_blank" rel="noopener noreferrer">Bangumi 78088</a></td>
+<td>1995 年开始发行的 4 集 OVA；普通用户标签含“百合”4 人、“偶像”4 人、“卖肉”2 人，受控元标签仅为 OVA</td>
+<td>社区数据库／普通用户标签</td>
+<td>锁定精确版本并记录社区接受史；普通用户标签和人数不等于官方分类或正篇关系事实</td>
+</tr>
+<tr>
+<td><a href="https://www.anime-planet.com/anime/idol-project" target="_blank" rel="noopener noreferrer">Anime-Planet</a></td>
+<td>4×30 分钟 OVA；Tags 为 Fantasy、Idols、Person in a Strange World、Showbiz，所读字段未列 GL 或 Shoujo-ai</td>
+<td>编辑／检索标签</td>
+<td>记录该站的题材入口与沉默；未标不等于否认女女关系</td>
+</tr>
+<tr>
+<td><a href="https://anilist.co/anime/2072" target="_blank" rel="noopener noreferrer">AniList 2072</a></td>
+<td>Finished、4 集 OVA；Genres 为 Adventure、Comedy、Music；Tags 含 Yuri 79%、Primarily Female Cast、Female Protagonist、Idol、Ensemble Cast</td>
+<td>编辑型 Genres 与带 rank 的相关性标签</td>
+<td>Yuri 79% 解释候选召回，但 rank 不是恋爱概率、支持率或文本裁决</td>
+</tr>
+<tr>
+<td><a href="https://myanimelist.net/anime/2072/Idol_Project" target="_blank" rel="noopener noreferrer">MyAnimeList 2072</a></td>
+<td>Finished Airing、4 集 OVA；Genres 为 Adventure、Comedy、Sci-Fi、Ecchi，Themes 为 Idols (Female)、Music，未列 Girls Love</td>
+<td>固定 Genres／Themes 字段</td>
+<td>确认版本并记录 MAL 分类制度；字段沉默不能替代正篇审读</td>
+</tr>
+<tr>
+<td><a href="https://subtitlecat.com/subs/1348/%5BSubtitleTools.com%5D%20Idol%20Project%20%281995%29%20-%20S01E01_Track04.html" target="_blank" rel="noopener noreferrer">SubtitleCat 第 1 集</a>、<a href="https://subtitlecat.com/subs/1348/%5BSubtitleTools.com%5D%20Idol%20Project%20%281995%29%20-%20S01E02_Track04.html" target="_blank" rel="noopener noreferrer">第 2 集</a>、<a href="https://subtitlecat.com/subs/1348/%5BSubtitleTools.com%5D%20Idol%20Project%20%281995%29%20-%20S01E03_Track04.html" target="_blank" rel="noopener noreferrer">第 3 集</a>、<a href="https://subtitlecat.com/subs/1348/%5BSubtitleTools.com%5D%20Idol%20Project%20%281995%29%20-%20S01E04_Track04.html" target="_blank" rel="noopener noreferrer">第 4 集</a></td>
+<td>文件名、年份和 S01E01—S01E04 集号连续对应本 OVA；四份英文 SRT 完整覆盖四集</td>
+<td>字幕资料库条目</td>
+<td>锁定文字材料与时间定位；第三方翻译字幕不是官方台本，也不提供画面动作证据</td>
+</tr>
+</tbody>
+</table></div>
+<p>四个平台提供的不是四张可直接相加的选票。Bangumi 的“百合”是普通用户自定义标签，AniList 的 Yuri 是带 rank 的相关性标签，Anime-Planet 使用检索标签，MyAnimeList 使用固定 Genres 与 Themes。它们能说明不同平台怎样压缩同一作品，却不能把 Mimu 的偶像崇拜自动改写为恋爱，也不能让未标平台成为反向否认。</p>
+<aside class="alert alert-warning"><strong>剧透提示</strong><div class="alert-content"><p>以下部分包含本报告所述 4 集 OVA 的完整剧透。</p></div></aside>
+
+      <details class="spoiler-panel">
+        <summary>
+          <span>展开详细证据（含完整剧透）</span>
+          <small>决定性证据、四层分析、反方解释与方法限制</small>
+        </summary>
+        <div class="spoiler-content">
+          <h2 id="决定性文本证据">决定性文本证据</h2>
+<p>下表依据四份英文 SRT 的连续文字审读。中文短引和摘要由英文字幕翻译，不是官方中文译文；“仅文字定位”表示没有同步复核视频，因此只使用台词与字幕明确标出的演出文本。</p>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>位置</th>
+<th>原文与中文摘要</th>
+<th>叙事层级</th>
+<th>证据强度与视听复核</th>
+<th>能证明什么</th>
+<th>不能证明什么</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>第 1 集 00:03:41–00:04:10</td>
+<td>Mimu 说自己将能 <code>sing my song to my own idol</code>，称呼 <code>my Idol Yuri</code>，又说想成为世界级偶像；旁白说明 Yuri 选择六位 Excellent Idols 为后继者</td>
+<td>现实独白／背景说明</td>
+<td>直接；仅文字定位</td>
+<td>Mimu 的对象、目标和 Yuri—六人传承关系都被明确放在偶像职业语境</td>
+<td>“my idol”不能机械翻译成恋人或性取向身份</td>
+</tr>
+<tr>
+<td>第 1 集 00:05:34–00:05:50</td>
+<td>Mimu 想用 Yuri 的金色麦克风出道，希望演出、歌曲和安可都像 Yuri</td>
+<td>现实独白</td>
+<td>直接；仅文字定位</td>
+<td>她追求模仿 Yuri 的职业成就和舞台形象</td>
+<td>强烈模仿愿望本身不等于求爱或排他欲望</td>
+</tr>
+<tr>
+<td>第 1 集 00:12:59–00:13:10</td>
+<td>Ruka 说 Mimu 若赢得试镜就会成为自己的 <code>new friend</code>，随后反复说 <code>friend</code> 鼓励她</td>
+<td>现实对话</td>
+<td>直接；仅文字定位</td>
+<td>Mimu—Ruka 的初始关系被积极命名为朋友</td>
+<td>单次称友不能穷尽后续，但后续没有发展为恋爱</td>
+</tr>
+<tr>
+<td>第 1 集 00:19:16–00:19:37</td>
+<td>Mimu 解释自己 <code>just came to see Ms. Yuri</code>，团队成员以朋友称呼回应，她随即决定全心演唱</td>
+<td>现实对话／试镜演出</td>
+<td>直接；仅文字定位</td>
+<td>“见 Yuri”与试镜、观众和演唱目标相连</td>
+<td>见面愿望没有伴随约会、告白或身体欲望</td>
+</tr>
+<tr>
+<td>第 3 集 00:24:28–00:25:39</td>
+<td>六位 Excellent Idols 汇合救助 Mimu；她问为什么，成员回答 <code>We came because of you, Mimu</code>，又说若她有困难会去到宇宙尽头，并再次使用 <code>Friends</code></td>
+<td>现实行动与对话</td>
+<td>直接；仅文字定位</td>
+<td>女性团队会为 Mimu 冒险、回应困难并主动维持友情</td>
+<td>强烈照护不应自动恋爱化；对白给出了朋友与团队解释</td>
+</tr>
+<tr>
+<td>第 4 集 00:00:09–00:00:59</td>
+<td>Mimu 期待回到 Yuri 所在的双塔，并明确说 <code>Become an idol like Ms. Yuri</code>、自己只是想变得像 Yuri</td>
+<td>现实独白</td>
+<td>直接；仅文字定位</td>
+<td>第四集仍把主线愿望表述为成为同类偶像</td>
+<td>“像她”不是“和她交往”或身份自述</td>
+</tr>
+<tr>
+<td>第 4 集 00:06:19–00:08:34</td>
+<td>Yuri 说明自己是偶像次元的终极偶像，其他偶像都梦想成为像她一样；她为阻止所有人变成自己的复制而离开</td>
+<td>世界观说明／现实对话</td>
+<td>直接；仅文字定位</td>
+<td>Yuri 的地位、后继者体系和模仿主题属于偶像世界观</td>
+<td>世界观中的普遍崇拜不能转为 Mimu 独有的恋爱证据</td>
+</tr>
+<tr>
+<td>第 4 集 00:19:10–00:21:21</td>
+<td>Mimu 坚持保持自己，直到 Yuri 听见她的歌；队友说要支持她、至少让她见到真正的 Yuri，旁白称 <code>Mimu's feelings for Ms. Yuri were our final hope</code></td>
+<td>现实演出与团队行动</td>
+<td>直接；仅文字定位</td>
+<td>Mimu 的感情驱动结局演出，队友也主动把她的梦想作为共同目标</td>
+<td><code>feelings</code> 单词不能脱离“唱给偶像、完成试镜”的连续语境升级为恋爱</td>
+</tr>
+<tr>
+<td>第 4 集 00:23:54–00:24:10</td>
+<td>危机解除后，旁白说 <code>Mimu likes Yuri</code>，这种感情打动整个宇宙；相邻台词随即宣布她通过试镜，歌曲继续谈梦想、声音与旅程</td>
+<td>结局旁白／演出</td>
+<td>直接事实＋语境强推断；仅文字定位</td>
+<td>正篇确实使用对象明确的 <code>likes</code>，且它与 Mimu 的偶像弧和试镜结果直接相连</td>
+<td>英文 <code>likes</code> 本身不能确定日语原词、恋爱语义或情侣状态</td>
+</tr>
+<tr>
+<td>第 4 集 00:27:34–00:28:04</td>
+<td>片尾歌曲唱 <code>cotton boy</code>、<code>I'm in love with him</code>，又希望对方感受自己的爱</td>
+<td>歌曲歌词</td>
+<td>直接；仅文字定位</td>
+<td>范围内确有面向男性对象的明确恋爱演出文本</td>
+<td>歌词没有把对象命名为剧情角色，也不能成为 Mimu 的男性恋爱线</td>
+</tr>
+</tbody>
+</table></div>
+<p>四集全部纳入阅读，而不是只搜索 Yuri、like、love 或 friend。第 1 集把 Mimu 的偶像目标和 Ruka 的朋友命名同时建立；第 2—3 集用比赛与冒险累积团队互助；第 4 集再把“见到 Yuri、为她演唱、保持自己”和通过试镜连成一个结局。歌曲里的恋爱词被保留，但没有从演出层级偷渡到角色关系层级。这个连续范围支持“女性关系主线、女女恋爱缺席”两项判断同时成立。</p>
+<h2 id="四层分析">四层分析</h2>
+<h3 id="第一层文本中的关系">第一层：文本中的关系</h3>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>关系 ID</th>
+<th>关系／参与者</th>
+<th>类型</th>
+<th>叙事位置</th>
+<th>恋爱明确度</th>
+<th>相互性</th>
+<th>证据层级</th>
+<th>摘要</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>r01</td>
+<td>Mimu Emilton—Yuri</td>
+<td>偶像传承／榜样／共同体</td>
+<td>主线</td>
+<td>非恋爱</td>
+<td>不适用</td>
+<td>正篇事实＋强推断</td>
+<td>Mimu 以见到 Yuri、为她演唱并成为像她一样的偶像为目标；结局仍由试镜和梦想收束</td>
+</tr>
+<tr>
+<td>r02</td>
+<td>Mimu—Excellent Idols 六人团队</td>
+<td>友情／共同体／搭档／照护</td>
+<td>重要副线</td>
+<td>非恋爱</td>
+<td>双向</td>
+<td>正篇事实</td>
+<td>六人从试镜相遇发展到共同冒险、救助和支持 Mimu 完成演出</td>
+</tr>
+<tr>
+<td>r03</td>
+<td>Mimu—Ruka</td>
+<td>友情／照护</td>
+<td>局部</td>
+<td>非恋爱</td>
+<td>双向</td>
+<td>正篇事实</td>
+<td>Ruka 主动提出成为新朋友并鼓励 Mimu，是团队友情的明确起点</td>
+</tr>
+<tr>
+<td>r04</td>
+<td>Excellent Idols 六人团队</td>
+<td>共同体／搭档／照护</td>
+<td>重要副线</td>
+<td>非恋爱</td>
+<td>双向</td>
+<td>正篇事实＋强推断</td>
+<td>六位继承者长期协作、竞争又互助，构成多角色女性偶像共同体</td>
+</tr>
+<tr>
+<td>r05</td>
+<td>Yuri—Excellent Idols</td>
+<td>偶像传承／共同体／搭档</td>
+<td>重要副线</td>
+<td>非恋爱</td>
+<td>相互性未确认</td>
+<td>正篇事实</td>
+<td>Yuri 选择六位后继者，六人继续在她建立的偶像体系中行动</td>
+</tr>
+<tr>
+<td>r06</td>
+<td>片中歌曲—未具名男性对象</td>
+<td>恋爱演出文本</td>
+<td>局部</td>
+<td>明确欲望</td>
+<td>单向</td>
+<td>正篇事实</td>
+<td>歌词明确唱到爱上“他”，但对象不进入角色剧情，不能当作男性恋爱故事线</td>
+</tr>
+</tbody>
+</table></div>
+<p>Mimu 与 Yuri 的关系是本作最需要避免误读的一条。Mimu 不是只在结尾说一次“喜欢”：她从开场就把 Yuri 当作职业榜样，想用她的麦克风、唱出像她一样的歌、站上相同舞台，并在每次偏离试镜的冒险后重新说自己还没见到 Yuri。第四集的 <code>feelings</code> 和 <code>likes</code> 因而有明确的前后文——让偶像听见歌声、证明自己并完成出道。文本没有提出约会、求爱、嫉妒、排他性、恋人身份或二人共同生活，最具体的关系类型是偶像与追随者、榜样与后继者。</p>
+<p>Mimu 与 Excellent Idols 的共同体则通过行动获得重量。成员并非只在舞台背景出现：Ruka先提出朋友约定，众人后来跨越不同星球寻找、救助和陪伴 Mimu；当她失去信心时，她们明确回答“我们是因为你而来”，愿意在她遇到困难时赶到宇宙尽头。结局中，六人又把自身演出转为帮助 Mimu 保持自我、见到 Yuri 的条件。关系有双向回应、照护和共同目标，但正篇持续使用朋友、团队与试镜语言，没有让照护越过恋爱边界。</p>
+<p>Yuri 与六位 Excellent Idols 属于职业传承。她选出后继者，六人又在宇宙中代表这一体系行动。互相竞争、吐槽与协作使六人共同体不只是行政名册，却仍没有女女欲望。片尾歌曲中的男性对象必须另层处理：歌词的恋爱方向是真实存在的演出文本，不能删除；但它既没有被命名为哪位角色的经历，也没有组织人物弧，因此不构成男性恋爱线，更不能反向决定女性关系的性质。</p>
+<h3 id="第二层作品的文类位置">第二层：作品的文类位置</h3>
+<p>本作最合适的作品入口是偶像、太空冒险、喜剧与女性团队，而不是百合。女性关系确实组织全作：没有 Mimu 对 Yuri 的崇拜，就没有试镜目标和最终演出；没有 Excellent Idols 的朋友共同体，也没有三次偏航冒险与结局支援。非百合结论不是因为女性关系“不够重要”，而是因为这些关系被积极写成职业榜样、朋友、伙伴和团队，没有形成女女恋爱或另一种足以承担百合文类承诺的关系发展。</p>
+<p>AniList 的 Yuri 79% 和 Bangumi 的普通用户“百合”标签提示了另一种公共阅读：全女性核心阵容、对女性偶像的强烈追随、互相救援和情感化台词，容易被用于配对或宽泛百合推荐。这些信号足以要求完整审读，不能被当作噪声删除；但它们没有回答“喜欢的语义是什么”“关系怎样变化”“是否存在欲望和伴侣承诺”。把平台命中直接当成文类结论，会把偶像迷恋、职业传承和恋爱压成同一件事。</p>
+<p>范围内没有角色与男性对象的约会、告白、交往或恋爱冲突。歌曲中的 <code>boy</code> 和 <code>I'm in love with him</code> 是舞台文本，不产生角色叙事后果。因此男性恋爱线为无；这不表示作品没有异性恋歌词，也不用于推断任何角色终身性取向。</p>
+<h3 id="第三层角色身份">第三层：角色身份</h3>
+<p>四集没有 Mimu、Yuri 或其他女性角色以女同性恋、双性恋、异性恋等身份自述，所核公开条目也没有可归属本 OVA 的官方身份设定。Mimu 对女性偶像的崇拜、AniList 的 Yuri 标签和全女性团队都不能自动换算成性取向。角色身份因此为未知，依据类型是范围内无依据。</p>
+<p>同样，歌曲中面向男性对象的恋爱歌词不能为歌唱角色补写身份。字幕没有把歌词对象绑定到 Mimu 或具体 Excellent Idol，也没有说明这是角色内心独白、舞台角色还是单纯歌曲。身份查询需要比作品文类和演出歌词更直接的证据。</p>
+<h3 id="第四层公共标签礼仪">第四层：公共标签礼仪</h3>
+<p>普通推荐可以写“女性偶像团队、太空冒险与强烈女性榜样关系”，并注明平台存在 Yuri／百合标签，但完整字幕主要把关系写成偶像崇拜和友情。数据库主标签宜保持非百合；如果标签系统允许补充，应优先使用“偶像”“女性团队”“友情”“太空冒险”和“喜剧”，而不是把 Yuri 的角色名、AniList rank 或 Bangumi 标签机械升级为正篇恋爱。</p>
+<p>严格明确恋爱检索不应纳入本作：没有女性对女性的告白、求爱、交往或伴侣称谓。私人阅读可以保留 Mimu 对 Yuri 的强烈感情、Excellent Idols 的互助和全女性共同体，但应同时告知最强的正篇解释是榜样与朋友。官方分类查询只能回答所核范围内没有取得可归属本 OVA 的制作方百合或恋爱表述；数据库标签只能按各平台制度原样报告。</p>
+<h2 id="最强反方解释">最强反方解释</h2>
+<p>最强的百合读法会抓住三个连续信号。第一，Mimu 的人生目标始终指向一名女性：她想见 Yuri、为她唱歌、成为像她一样的人，最后旁白又直接说 <code>Mimu likes Yuri</code>。第二，六位 Excellent Idols 为 Mimu 冒险、救援并宣称会追到宇宙尽头，全作几乎由女性角色的选择和照护推动。第三，AniList 把 Yuri 标到 79%，Bangumi 也有普通用户“百合”标签。这套解释能够推翻“本作没有值得关注的女女情感”“平台标签完全无文本抓手”或“女性团队只是背景”等过强说法，也能支持私人配对和宽泛女性关系阅读。</p>
+<p>它仍不足以推翻非百合结论。Mimu 的每次表达都与试镜、歌唱、金色麦克风、职业模仿和让偶像听见自己相连；结局宣布的是她通过试镜，而不是开始关系。团队的强烈照护又被成员自己命名为朋友和伙伴，没有排他、求爱或伴侣未来。英文 <code>likes</code> 的确保留语义空间，但第三方翻译不足以单独压倒四集连续建立的偶像语境。若取得官方日文台本、同步画面或同一 OVA 范围内的明确台词，证明 Mimu 的表达包含对象明确的恋爱欲望，当前恋爱与归档判断都应改变；在现有材料下，把歧义直接升级反而会抹去作品实际写出的职业梦想。</p>
+<h2 id="分用途结论">分用途结论</h2>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>用途</th>
+<th>分类</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>普通作品推荐</td>
+<td>偶像、太空冒险与喜剧；女性榜样关系和女性团队友情位于主线，建议注明并无明确女女恋爱</td>
+</tr>
+<tr>
+<td>数据库主标签</td>
+<td>非百合；可补充偶像、女性团队、友情、太空冒险、喜剧</td>
+</tr>
+<tr>
+<td>严格明确恋爱检索</td>
+<td>不命中；四集没有女女告白、求爱、交往或恋人称谓</td>
+</tr>
+<tr>
+<td>私人百合阅读</td>
+<td>有限支持；Mimu 对 Yuri 的强烈追随和团队互助提供抓手，但正篇主要以偶像与朋友组织</td>
+</tr>
+<tr>
+<td>角色身份检索</td>
+<td>未知；范围内无相关身份自述或官方身份设定</td>
+</tr>
+<tr>
+<td>官方分类查询</td>
+<td>所核范围未取得可归属本 OVA 的制作方百合、GL、Girls Love 或女女恋爱表述</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="方法来源与限制">方法、来源与限制</h2>
+<ul>
+<li>本报告只处理 1995—1997 年发行的 4 集 OVA；同名邻近作品、跨媒介材料、宣传与二次创作不进入关系结论。</li>
+<li>正篇文字材料为上表 SubtitleCat 四个精确页面对应的英文 SRT；四集均完整审读，字幕不是官方台本。</li>
+<li>英文短引和中文摘要依第三方英文翻译整理；没有官方日文台本用于核对 <code>likes</code>、<code>feelings</code> 等词的日语细微语义，故置信度为中等。</li>
+<li>未作与字幕同步的视频复核，因此不判断无台词动作、身体接触、表情、构图、声线和音乐怎样改变语义；现有结论只覆盖可由文字材料支持的关系事实。</li>
+<li>版本由上表四个平台精确条目交叉锁定，页面核对日期为 2026-08-15 至 2026-08-16。</li>
+<li>四个平台字段按各自制度记录；标签命中、沉默、rank 和评分均不替代正篇关系证据。</li>
+<li>歌曲歌词与角色对白分层处理；男性对象恋爱歌词没有映射为角色剧情线。</li>
+</ul>
+
+        </div>
+      </details>
+    </div>
+  </div>
+</article>
+
+<section class="feedback-section">
+  <div>
+    <p class="eyebrow">REPORT FEEDBACK</p>
+    <h2>提交可核查的修订建议</h2>
+    <p>请注明作品版本、集数／章节、要质疑的原句、可公开核查的来源，以及建议如何修订。评论属于待核查反馈，不会自动成为报告证据。</p>
+  </div>
+  <div class="giscus"></div>
+<div class="giscus-config"
+        hidden
+        data-repo="L-M-Sherlock/yuri-classification-archive"
+        data-repo-id="R_kgDOTo1RzA"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOTo1RzM4DCXAh"
+        data-mapping="specific"
+        data-term="classification:idol_project_ova_1995"
+        data-strict="1"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-lang="zh-CN"
+        data-loading="lazy"
+        aria-hidden="true"></div>
+</section>
+
+  </main>
+  <footer class="site-footer">
+    <div>
+      <p>分类是面向具体查询的检索工具，不是替作品关系作终审判决。</p>
+      <p class="footer-ai-note">本站使用以 OpenAI Codex 为主的生成式 AI 辅助研究、写作与站点开发；人工审阅未覆盖全部作品报告。<a href="/yuri-classification-archive/about/#AI使用说明">查看 AI 使用说明</a></p>
+      <p>© 2026 Jarrett Ye · <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="license noopener noreferrer">CC BY-NC-SA 4.0</a> · <a href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub 仓库</a> · <a href="/yuri-classification-archive/about/#使用边界">使用边界</a></p>
+    </div>
+  </footer>
+  <script>window.SITE_CONFIG = {basePath: "/yuri-classification-archive"};</script>
+  <script src="/yuri-classification-archive/assets/site.js?v=eeeec5872796" defer></script>
+
+</body>
+</html>

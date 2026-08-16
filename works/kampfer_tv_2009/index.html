@@ -1,0 +1,481 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="本作的女性关系位于重要副线：雫、红音、水琴既是共同作战的伙伴，也是围绕同一恋爱对象彼此竞争的女性共同体；楓与她们之间还有持续的阵营对立。它们真实推动战斗、选择和队伍重组，但没有被写成女性彼此之间的恋爱。作品整体的主入口仍是男性高中生ナツル因 Kämpfer 变身获得女性身体后，被多名女性追求并卷入战斗的性别变身……">
+  <meta name="color-scheme" content="light dark">
+  <meta id="theme-color-light" name="theme-color" media="(prefers-color-scheme: light)" content="#f5f0e8">
+  <meta id="theme-color-dark" name="theme-color" media="(prefers-color-scheme: dark)" content="#1c181c">
+  <script>
+    (() => {
+      document.documentElement.classList.add("js");
+      const storageKey = "yuri-classification-theme";
+      const allowed = new Set(["system", "light", "dark"]);
+      let preference = "system";
+      try {
+        const stored = localStorage.getItem(storageKey);
+        if (allowed.has(stored)) preference = stored;
+      } catch (_error) {
+        preference = "system";
+      }
+      const systemDark = window.matchMedia?.("(prefers-color-scheme: dark)").matches;
+      const theme = preference === "system"
+        ? (systemDark ? "dark" : "light")
+        : preference;
+      document.documentElement.dataset.theme = theme;
+      document.documentElement.dataset.themePreference = preference;
+      document.documentElement.style.colorScheme = theme;
+      const lightMeta = document.getElementById("theme-color-light");
+      const darkMeta = document.getElementById("theme-color-dark");
+      if (preference === "system") {
+        lightMeta.content = "#f5f0e8";
+        darkMeta.content = "#1c181c";
+      } else {
+        const color = theme === "dark" ? "#1c181c" : "#f5f0e8";
+        lightMeta.content = color;
+        darkMeta.content = color;
+      }
+    })();
+  </script>
+  <link rel="canonical" href="https://l-m-sherlock.github.io/yuri-classification-archive/works/kampfer_tv_2009/">
+  <link rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="百合作品分类档案">
+  <meta property="og:title" content="《肯普法》分类报告｜百合作品分类档案">
+  <meta property="og:description" content="本作的女性关系位于重要副线：雫、红音、水琴既是共同作战的伙伴，也是围绕同一恋爱对象彼此竞争的女性共同体；楓与她们之间还有持续的阵营对立。它们真实推动战斗、选择和队伍重组，但没有被写成女性彼此之间的恋爱。作品整体的主入口仍是男性高中生ナツル因 Kämpfer 变身获得女性身体后，被多名女性追求并卷入战斗的性别变身……">
+  <meta property="og:url" content="https://l-m-sherlock.github.io/yuri-classification-archive/works/kampfer_tv_2009/">
+  <meta property="og:image" content="https://l-m-sherlock.github.io/yuri-classification-archive/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+  <title>《肯普法》分类报告｜百合作品分类档案</title>
+  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=7a82f1582188">
+
+</head>
+<body class="classification-report">
+  <a class="skip-link" href="#main-content">跳到正文</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="/yuri-classification-archive/">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>
+          <strong>百合作品分类档案</strong>
+          <small>按查询拆开标签，按证据保留边界</small>
+        </span>
+      </a>
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-navigation"
+      >
+        <span>菜单</span>
+        <span class="menu-toggle-icon" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-navigation" aria-label="主导航">
+        <div class="nav-main">
+          <a href="/yuri-classification-archive/">首页</a>
+          <a href="/yuri-classification-archive/table/">总表</a>
+          <a href="/yuri-classification-archive/articles/">专题</a>
+          <a href="/yuri-classification-archive/tools/">工具</a>
+          <a href="/yuri-classification-archive/about/">方法与说明</a>
+        </div>
+        <a class="nav-star" href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub / Star <span aria-hidden="true">↗</span></a>
+        <a class="nav-feedback" href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
+        <label class="theme-control" for="theme-preference">
+          <span>主题</span>
+          <select id="theme-preference" aria-label="主题偏好">
+            <option value="system">跟随系统</option>
+            <option value="light">浅色</option>
+            <option value="dark">深色</option>
+          </select>
+        </label>
+      </nav>
+    </div>
+  </header>
+  <main id="main-content">
+    <article class="report-page">
+  <header class="report-header">
+    <p class="eyebrow">TV 动画 · 2026-08-16</p>
+    <h1>《肯普法》分类报告</h1>
+    <p class="report-subtitle">2009 年电视动画《けんぷファー》常规正篇第 1—12 话；与 Bangumi 2129、Anime-Planet Kämpfer、AniList 6205、MyAnimeList 6205 精确对应的已完结电视版本</p>
+    <div class="label-strip" aria-label="分类摘要">
+      <span class="label-chip"><strong>女女关系：</strong>重要副线</span><span class="label-chip"><strong>百合归档结论：</strong>非百合</span><span class="label-chip"><strong>女女恋爱位置：</strong>缺席</span><span class="label-chip"><strong>女女关系最高明确度：</strong>非恋爱</span><span class="label-chip"><strong>官方字面百合／GL：</strong>所核未见</span><span class="label-chip"><strong>官方女女恋爱表述：</strong>是</span><span class="label-chip"><strong>官方来源：</strong>层级：当前版本；位置：剧情／角色页、可见作品宣传</span><span class="label-chip"><strong>结论置信度：</strong>中<span class="inline-help" tabindex="0" aria-label="查看结论置信度说明" aria-describedby="report-confidence-help"><span aria-hidden="true">?</span><span class="term-tooltip" id="report-confidence-help" role="tooltip">表示当前锁定范围内，现有证据对本报告主要分类结论的支持稳定度；它不是百合程度、作品质量、社群共识或统计概率。</span></span></span>
+    </div>
+    <a class="back-link" href="/yuri-classification-archive/table/?q=%E8%82%AF%E6%99%AE%E6%B3%95">← 返回总表并定位本作</a>
+  </header>
+  <section class="relationship-overview" data-confirmed-female-female-count="2" aria-labelledby="relationship-overview-title"><div class="relationship-overview-heading"><p class="eyebrow">RELATIONSHIP SNAPSHOT</p><h2 id="relationship-overview-title">关系构成速览</h2></div><p class="relationship-overview-total"><strong>2</strong><span>条已确认女女关系记录</span></p><div class="relationship-overview-grid"><div class="relationship-overview-group"><h3>叙事位置</h3><ul><li data-axis="narrative_centrality" data-code="important_secondary" data-count="2"><span>重要副线</span><strong>2</strong></li></ul></div><div class="relationship-overview-group"><h3>恋爱明确度</h3><ul><li data-axis="romance_explicitness" data-code="non_romantic" data-count="2"><span>非恋爱</span><strong>2</strong></li></ul></div><div class="relationship-overview-group"><h3>相互性</h3><ul><li data-axis="mutuality" data-code="mutual" data-count="2"><span>双向</span><strong>2</strong></li></ul></div></div><p class="relationship-overview-note">只汇总档案中逐条确认的女女关系记录；它不是配对数量、出场时间、互动频率，也不是任何程度评分。</p></section>
+  <section class="work-tag-section" aria-labelledby="work-tag-title"><div class="work-tag-heading"><div><h2 id="work-tag-title">统一标签</h2><p>用于内容检索，不替代关系分类。</p></div><div class="unified-tag-list"><a class="unified-tag" data-facet-id="school_setting" href="/yuri-classification-archive/table/?facet=school_setting" aria-label="用统一标签“学校”筛选总表">学校</a><a class="unified-tag" data-facet-id="comedy" href="/yuri-classification-archive/table/?facet=comedy" aria-label="用统一标签“喜剧”筛选总表">喜剧</a><a class="unified-tag" data-facet-id="action" href="/yuri-classification-archive/table/?facet=action" aria-label="用统一标签“动作”筛选总表">动作</a><a class="unified-tag" data-facet-id="fantasy" href="/yuri-classification-archive/table/?facet=fantasy" aria-label="用统一标签“奇幻”筛选总表">奇幻</a><a class="unified-tag" data-facet-id="idol" href="/yuri-classification-archive/table/?facet=idol" aria-label="用统一标签“偶像”筛选总表">偶像</a><a class="unified-tag" data-facet-id="magic" href="/yuri-classification-archive/table/?facet=magic" aria-label="用统一标签“魔法”筛选总表">魔法</a><a class="unified-tag" data-facet-id="cute_girls_doing_cute_things" href="/yuri-classification-archive/table/?facet=cute_girls_doing_cute_things" aria-label="用统一标签“空气系”筛选总表">空气系</a></div></div><details class="raw-platform-tags"><summary><span>四平台原始标签</span><small>展开查看平台原文与权重</small></summary><div class="raw-platform-tags-content"><p class="raw-tag-snapshot-note">依据集中快照（总库更新时间：2026-08-16）；不是平台实时状态。复合条目在平台内合并去重。</p><div class="raw-platform-grid"><section class="raw-platform-card" aria-labelledby="raw-platform-bangumi" data-platform="bangumi"><div class="raw-platform-heading"><h3 id="raw-platform-bangumi">Bangumi</h3></div><div class="raw-tag-group" data-platform="bangumi" data-field="ordinary_tags"><h4>用户标签</h4><ul class="raw-tag-list"><li class="raw-tag"><span class="raw-tag-name">伪娘</span><small class="raw-tag-weight">619 人</small></li><li class="raw-tag"><span class="raw-tag-name">肯普法</span><small class="raw-tag-weight">539 人</small></li><li class="raw-tag"><span class="raw-tag-name">后宫</span><small class="raw-tag-weight">390 人</small></li><li class="raw-tag"><span class="raw-tag-name">2009年10月</span><small class="raw-tag-weight">348 人</small></li><li class="raw-tag"><span class="raw-tag-name">娘化战士</span><small class="raw-tag-weight">311 人</small></li><li class="raw-tag"><span class="raw-tag-name">TV</span><small class="raw-tag-weight">266 人</small></li><li class="raw-tag"><span class="raw-tag-name">肉</span><small class="raw-tag-weight">226 人</small></li><li class="raw-tag"><span class="raw-tag-name">堀江由衣</span><small class="raw-tag-weight">213 人</small></li><li class="raw-tag"><span class="raw-tag-name">全后宫</span><small class="raw-tag-weight">199 人</small></li><li class="raw-tag"><span class="raw-tag-name">2009</span><small class="raw-tag-weight">164 人</small></li><li class="raw-tag"><span class="raw-tag-name">井上麻里奈</span><small class="raw-tag-weight">147 人</small></li><li class="raw-tag"><span class="raw-tag-name">男女同体</span><small class="raw-tag-weight">140 人</small></li><li class="raw-tag"><span class="raw-tag-name">水树奈奈</span><small class="raw-tag-weight">110 人</small></li><li class="raw-tag"><span class="raw-tag-name">轻小说改</span><small class="raw-tag-weight">95 人</small></li><li class="raw-tag"><span class="raw-tag-name">性转</span><small class="raw-tag-weight">89 人</small></li><li class="raw-tag"><span class="raw-tag-name">NOMAD</span><small class="raw-tag-weight">88 人</small></li><li class="raw-tag"><span class="raw-tag-name">田村ゆかり</span><small class="raw-tag-weight">78 人</small></li><li class="raw-tag"><span class="raw-tag-name">卖肉</span><small class="raw-tag-weight">64 人</small></li><li class="raw-tag"><span class="raw-tag-name">小说改</span><small class="raw-tag-weight">63 人</small></li><li class="raw-tag"><span class="raw-tag-name">校园</span><small class="raw-tag-weight">55 人</small></li><li class="raw-tag"><span class="raw-tag-name">战斗</span><small class="raw-tag-weight">43 人</small></li><li class="raw-tag"><span class="raw-tag-name">变装</span><small class="raw-tag-weight">42 人</small></li><li class="raw-tag"><span class="raw-tag-name">轻改</span><small class="raw-tag-weight">38 人</small></li><li class="raw-tag"><span class="raw-tag-name">搞笑</span><small class="raw-tag-weight">32 人</small></li><li class="raw-tag"><span class="raw-tag-name">日本</span><small class="raw-tag-weight">28 人</small></li><li class="raw-tag"><span class="raw-tag-name">百合</span><small class="raw-tag-weight">26 人</small></li><li class="raw-tag"><span class="raw-tag-name">名冢佳织</span><small class="raw-tag-weight">26 人</small></li><li class="raw-tag"><span class="raw-tag-name">肉番</span><small class="raw-tag-weight">23 人</small></li><li class="raw-tag"><span class="raw-tag-name">奇幻</span><small class="raw-tag-weight">16 人</small></li><li class="raw-tag"><span class="raw-tag-name">2009年</span><small class="raw-tag-weight">16 人</small></li></ul></div></section><section class="raw-platform-card" aria-labelledby="raw-platform-anime-planet" data-platform="anime_planet"><div class="raw-platform-heading"><h3 id="raw-platform-anime-planet">Anime-Planet</h3></div><div class="raw-tag-group" data-platform="anime_planet" data-field="tags"><h4>Tags</h4><ul class="raw-tag-list"><li class="raw-tag"><span class="raw-tag-name">Action</span></li><li class="raw-tag"><span class="raw-tag-name">Comedy</span></li><li class="raw-tag"><span class="raw-tag-name">Ecchi</span></li><li class="raw-tag"><span class="raw-tag-name">Harem</span></li><li class="raw-tag"><span class="raw-tag-name">Gender Bender</span></li><li class="raw-tag"><span class="raw-tag-name">Magic</span></li><li class="raw-tag"><span class="raw-tag-name">Magical Boy</span></li><li class="raw-tag"><span class="raw-tag-name">Based on a Light Novel</span></li></ul></div></section><section class="raw-platform-card" aria-labelledby="raw-platform-anilist" data-platform="anilist"><div class="raw-platform-heading"><h3 id="raw-platform-anilist">AniList</h3></div><div class="raw-tag-group" data-platform="anilist" data-field="genres"><h4>Genres</h4><ul class="raw-tag-list"><li class="raw-tag"><span class="raw-tag-name">Action</span></li><li class="raw-tag"><span class="raw-tag-name">Comedy</span></li><li class="raw-tag"><span class="raw-tag-name">Ecchi</span></li><li class="raw-tag"><span class="raw-tag-name">Romance</span></li></ul></div><div class="raw-tag-group" data-platform="anilist" data-field="tags"><h4>Tags</h4><ul class="raw-tag-list"><li class="raw-tag"><span class="raw-tag-name">Henshin</span><small class="raw-tag-weight">rank 95</small></li><li class="raw-tag"><span class="raw-tag-name">Gender Bending</span><small class="raw-tag-weight">rank 92</small></li><li class="raw-tag"><span class="raw-tag-name">School</span><small class="raw-tag-weight">rank 83</small></li><li class="raw-tag"><span class="raw-tag-name">Female Harem</span><small class="raw-tag-weight">rank 80</small></li><li class="raw-tag"><span class="raw-tag-name">Primarily Female Cast</span><small class="raw-tag-weight">rank 80</small></li><li class="raw-tag"><span class="raw-tag-name">Male Protagonist</span><small class="raw-tag-weight">rank 77</small></li><li class="raw-tag"><span class="raw-tag-name">Musical Theater</span><small class="raw-tag-weight">rank 66</small></li><li class="raw-tag"><span class="raw-tag-name">Urban Fantasy</span><small class="raw-tag-weight">rank 66</small></li><li class="raw-tag"><span class="raw-tag-name">Meta</span><small class="raw-tag-weight">rank 65</small></li><li class="raw-tag"><span class="raw-tag-name">Kemonomimi</span><small class="raw-tag-weight">rank 60</small></li><li class="raw-tag"><span class="raw-tag-name">Idol</span><small class="raw-tag-weight">rank 60</small></li><li class="raw-tag"><span class="raw-tag-name">Nudity</span><small class="raw-tag-weight">rank 60</small></li><li class="raw-tag"><span class="raw-tag-name">Guns</span><small class="raw-tag-weight">rank 53</small></li><li class="raw-tag"><span class="raw-tag-name">Yuri</span><small class="raw-tag-weight">rank 30</small></li><li class="raw-tag"><span class="raw-tag-name">Cute Girls Doing Cute Things</span><small class="raw-tag-weight">rank 20</small></li></ul></div></section><section class="raw-platform-card" aria-labelledby="raw-platform-myanimelist" data-platform="myanimelist"><div class="raw-platform-heading"><h3 id="raw-platform-myanimelist">MyAnimeList</h3></div><div class="raw-tag-group" data-platform="myanimelist" data-field="genres"><h4>Genres</h4><ul class="raw-tag-list"><li class="raw-tag"><span class="raw-tag-name">Action</span></li><li class="raw-tag"><span class="raw-tag-name">Comedy</span></li><li class="raw-tag"><span class="raw-tag-name">Romance</span></li><li class="raw-tag"><span class="raw-tag-name">Ecchi</span></li></ul></div><div class="raw-tag-group" data-platform="myanimelist" data-field="themes"><h4>Themes</h4><ul class="raw-tag-list"><li class="raw-tag"><span class="raw-tag-name">Harem</span></li><li class="raw-tag"><span class="raw-tag-name">Magical Sex Shift</span></li><li class="raw-tag"><span class="raw-tag-name">School</span></li></ul></div></section></div></div></details></section>
+  <div class="report-layout">
+    <aside class="report-toc">
+      <p>本页目录</p>
+      <ol><li><a href="#低剧透概览">低剧透概览</a></li><li><a href="#数据库与公开分类">数据库与公开分类</a></li><li><a href="#决定性文本证据">决定性文本证据</a></li><li><a href="#四层分析">四层分析</a></li><li><a href="#最强反方解释">最强反方解释</a></li><li><a href="#分用途结论">分用途结论</a></li><li><a href="#方法来源与限制">方法、来源与限制</a></li></ol>
+    </aside>
+    <div class="report-content">
+      <blockquote>
+<p>分类日期：2026-08-16<br> 分类对象：2009 年 TV 动画《けんぷファー》常规正篇第 1—12 话<br> 纳入范围：TBS 故事页列有电视播出日期的第 1—12 话<br> 排除范围：同页第 13—14 话、相邻特别篇／OVA、原作轻小说、漫画及其他跨媒介材料<br> 用途：普通推荐与数据库分类</p>
+</blockquote>
+<h2 id="低剧透概览">低剧透概览</h2>
+<aside class="alert alert-note"><strong>说明</strong><div class="alert-content"><p><strong>分类信息提示：</strong> 本节不展开关键剧情、转折与结局，但分类信息本身会透露关系类型、叙事位置和恋爱明确度。希望完全盲看的读者请跳过本页。</p></div></aside>
+
+<p>本作的女性关系位于重要副线：雫、红音、水琴既是共同作战的伙伴，也是围绕同一恋爱对象彼此竞争的女性共同体；楓与她们之间还有持续的阵营对立。它们真实推动战斗、选择和队伍重组，但没有被写成女性彼此之间的恋爱。作品整体的主入口仍是男性高中生ナツル因 Kämpfer 变身获得女性身体后，被多名女性追求并卷入战斗的性别变身后宫喜剧，因此归档结论为非百合，男性恋爱线为主导。</p>
+<p>最容易造成不同答案的是楓与ナツル：楓对女性形态的ナツル直接求爱，ナツル也明确喜欢楓；但 TBS 人物页与正篇都把ナツル放在男性自我位置，他希望楓爱上“男性的自己”。双方欲望的对象是同一个人，要求的性别呈现却相反。现有范围不能只凭身体形态把ナツル登记为女性，所以这条主线达到明确欲望，却不是已确认的女女关系。已确认女女关系中的最高明确度是非恋爱，恋爱位置为缺席。结论置信度为中等；字幕完整覆盖，但未作同步视听复核，且雫追忆的多美子先辈缺少文字层面的性别确认。</p>
+<h3 id="分层标签">分层标签</h3>
+<blockquote>
+<p><strong>女女关系层级：重要副线｜百合归档结论：非百合｜恋爱位置：缺席｜最高明确度：非恋爱｜关系构成：多组异质关系｜官方字面：所核未见｜官方恋爱表述：是｜官方来源：范围内版本＋作品简介／人物设定｜阅读层级：正篇事实／读者解读｜身份依据类型：范围内无依据｜男性恋爱线：主导｜内容提示：性别变身与身份错位、后宫与身体笑料、非自愿亲密、精神控制、幻想战斗与学生角色性化</strong></p>
+</blockquote>
+<h3 id="严格恋爱检索提示">严格恋爱检索提示</h3>
+<ul>
+<li>只找已确认女性对女性的明确爱意或欲望：<strong>不符合</strong>；楓的求爱对象处于女性身体，但ナツル本人和官方人物页都明确将其置于男性身份。</li>
+<li>只找双方正式建立女女伴侣关系：<strong>不符合</strong>；范围内没有已确认女性双方开始交往或使用恋人称谓。</li>
+<li>接受女性身体呈现与身份错位形成的百合阅读：<strong>有材料，但需注明身份边界</strong>；楓对女性形态ナツル的爱意直接而持续，不能由此反向改写ナツル的自我位置。</li>
+<li>接受非恋爱女性战友共同体作为重要副线：<strong>符合</strong>；雫、红音、水琴共同作战、互相援护并持续竞争，但该共同体不是作品主线。</li>
+<li>回避男性恋爱或后宫内容：<strong>不符合</strong>；男性ナツル的欲望与多名女性对他的追求组织全作恋爱喜剧。</li>
+<li>只按女同性恋或双性恋身份明示检索：<strong>不符合</strong>；范围内没有相关身份自述或官方身份设定。</li>
+</ul>
+<h2 id="数据库与公开分类">数据库与公开分类</h2>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>来源</th>
+<th>条目与字段</th>
+<th>来源类型</th>
+<th>本报告如何使用</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://www.tbs.co.jp/anime/kenpu/story/story.html" target="_blank" rel="noopener noreferrer">TBS 故事总页</a>／<a href="https://www.tbs.co.jp/anime/kenpu/chara/chara01.html" target="_blank" rel="noopener noreferrer">ナツル人物页</a>／<a href="https://www.tbs.co.jp/anime/kenpu/chara/chara05.html" target="_blank" rel="noopener noreferrer">楓人物页</a></td>
+<td>普通男子高中生ナツル变成美少女后战斗；官网宣传围绕他的“恋爱之战”；ナツル喜欢楓，楓对女性形态ナツル一见钟情</td>
+<td>范围内官方作品介绍与人物设定</td>
+<td>锁定版本、性别变身规则和双方欲望方向；官网没有使用百合或 Girls Love 类型字样</td>
+</tr>
+<tr>
+<td><a href="https://bangumi.tv/subject/2129" target="_blank" rel="noopener noreferrer">Bangumi subject 2129</a></td>
+<td>2009 年 TV 条目；冻结快照普通用户标签含“百合”26、“男女同体”140、“性转”89、“伪娘”619、“后宫”390；受控 meta tags 未列“百合”</td>
+<td>社区数据库、普通用户标签与受控元标签</td>
+<td>记录社区检索入口和版本接受史；人数不是关系事实，也不是独立投票</td>
+</tr>
+<tr>
+<td><a href="https://www.anime-planet.com/anime/kampfer" target="_blank" rel="noopener noreferrer">Anime-Planet Kämpfer</a></td>
+<td>TV、12 话；Tags 为 Action、Comedy、Ecchi、Harem、Gender Bender、Magic、Magical Boy、Based on a Light Novel；未列 GL 或 Shoujo-ai</td>
+<td>编辑／检索标签数据库</td>
+<td>说明该站把性别变身、后宫和喜剧置于主入口；未标 GL 不能推出正篇没有相关读法</td>
+</tr>
+<tr>
+<td><a href="https://anilist.co/anime/6205" target="_blank" rel="noopener noreferrer">AniList anime 6205</a></td>
+<td>Finished、TV、12 话；Genres 为 Action／Comedy／Ecchi／Romance；Yuri rank 30，另有 Gender Bending 92、Male Protagonist 77、Female Harem 80</td>
+<td>带相关度权重的数据库标签</td>
+<td>Yuri 权重解释候选来源，但低权重标签不能越过版本、关系与身份边界</td>
+</tr>
+<tr>
+<td><a href="https://myanimelist.net/anime/6205/Kampfer" target="_blank" rel="noopener noreferrer">MyAnimeList anime 6205</a></td>
+<td>TV、12 话、Finished Airing；Genres 为 Action／Comedy／Romance／Ecchi；Themes 为 Harem／Magical Sex Shift／School；未列 Girls Love</td>
+<td>固定 Genres／Themes 数据库</td>
+<td>记录其主分类与主题字段；Girls Love 缺席不是对其他平台标签或文本关系的否定</td>
+</tr>
+<tr>
+<td><a href="https://jimaku.cc/entry/27" target="_blank" rel="noopener noreferrer">Jimaku entry 27</a></td>
+<td>标题与 AniList 6205 精确对应；日文 SRT／ASS 连续覆盖第 1—12 话，相邻特别篇另有独立条目</td>
+<td>第三方字幕目录与文字材料</td>
+<td>用于定位正篇对白、关系对象和时间码；不能替代无对白画面或官方身份设定</td>
+</tr>
+</tbody>
+</table></div>
+<blockquote>
+<p>数据库沉默写“未标”，不能写成“否认”；标签权重、计数和站点数量不能换算成社群支持率。</p>
+</blockquote>
+<aside class="alert alert-warning"><strong>剧透提示</strong><div class="alert-content"><p>以下部分包含报告范围内的完整剧透。</p></div></aside>
+
+      <details class="spoiler-panel">
+        <summary>
+          <span>展开详细证据（含完整剧透）</span>
+          <small>决定性证据、四层分析、反方解释与方法限制</small>
+        </summary>
+        <div class="spoiler-content">
+          <h2 id="决定性文本证据">决定性文本证据</h2>
+<p>下列日文短引均为本报告自行翻译。时间码对应 Jimaku entry 27 所列的日文字幕；第 1、2、8、12 话文件名带有 AI Generated 标记，相关文字只有在前后文或官方资料相互支持时才承担决定性作用。字幕能够定位台词与相邻文字语境，不能证明画面构图、表情、无台词动作或说话方式。</p>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>位置</th>
+<th>原文与中文摘要</th>
+<th>叙事层级</th>
+<th>证据强度与视听复核</th>
+<th>能证明什么</th>
+<th>不能证明什么</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>TBS 故事总页与人物页</td>
+<td>官网称ナツル为“男子高校生”，写其变身为“超美少女”，又分别写明他长期喜欢楓、楓对“女になったナツル”一见钟情</td>
+<td>官方人物设定／作品入口</td>
+<td>直接；官方文字</td>
+<td>ナツル的男性位置、女性身体变身及双方欲望对象</td>
+<td>不能用“美少女”身体描述自动改写ナツル身份，也不能证明双方已经交往</td>
+</tr>
+<tr>
+<td>第 1 话 00:03:14–00:03:19；00:19:17–00:19:20</td>
+<td>信使说 Kämpfer 只能成为女性，所以身体变成女孩子；ナツル随后说“俺は男の俺に惚れて欲しいの”，即希望楓爱上男性的自己</td>
+<td>现实台词</td>
+<td>直接；仅文字定位</td>
+<td>变身规则与ナツル自我位置并存，而不是互相取消</td>
+<td>不能据身体形态认定其身份转为女性，也不能据男性自述推断性取向标签</td>
+</tr>
+<tr>
+<td>第 2 话 00:12:10–00:12:37</td>
+<td>楓问女性形态ナツル是否已有交往对象，说初见后便无法忘记，并请求“私と、お付き合いしてもらえませんか”</td>
+<td>现实台词</td>
+<td>直接；仅文字定位</td>
+<td>楓对象明确的求爱与交往请求</td>
+<td>不能证明ナツル接受请求、双方正式交往或女女身份已经成立</td>
+</tr>
+<tr>
+<td>第 3 话 00:05:39–00:05:42；00:10:45–00:10:56</td>
+<td>楓说“あなたが好きです”；校内报道又把“百合”解释为少女之间的恋爱感情或强烈友情</td>
+<td>现实台词／剧中媒体</td>
+<td>直接；仅文字定位</td>
+<td>楓明确爱意，以及作品主动调用“百合”这一社会标签制造冲突</td>
+<td>剧中定义和误会笑料不是对角色身份或整部作品文类的终审</td>
+</tr>
+<tr>
+<td>第 6 话 00:14:32–00:15:34</td>
+<td>面对是否能接受女性对象的问题，雫说“私は男の子がいいわ”，随后请求ナツル与自己约会</td>
+<td>服务情境中的现实台词</td>
+<td>直接；仅文字定位</td>
+<td>雫把欲望方向放在男性ナツル，并主动提出约会</td>
+<td>不能证明约会请求得到恋爱承诺，也不能概括雫对所有人的身份认同</td>
+</tr>
+<tr>
+<td>第 8 话 00:07:59–00:08:49；00:10:55–00:11:32</td>
+<td>雫把外出称为约会，表示ナツル即使变成女性身体，自己的感情也不会改变，却要求他当下保持男性；她又把两人称作恋人般并劝他选择自己</td>
+<td>现实台词</td>
+<td>直接；仅文字定位</td>
+<td>雫对同一人的持续欲望不由身体形态中断，但她明确偏好男性形态</td>
+<td>不能把“感情不变”换算成女女身份或双方交往</td>
+</tr>
+<tr>
+<td>第 11 话 00:01:32–00:01:54；00:05:42–00:06:02</td>
+<td>雫追忆从未忘记之人的头发、温暖的手与呼吸，随后称多美子先辈为重要之人，并说对方战败后的失落也是自己的复仇动机</td>
+<td>内心／回忆说明</td>
+<td>正篇事实加读者解读；仅文字定位</td>
+<td>这段关系深刻影响雫的行动，并形成明显但未确认的恋爱指向</td>
+<td>字幕没有确认多美子先辈的性别、相互性或恋人称谓，姓名不能代填这些信息</td>
+</tr>
+<tr>
+<td>第 11 话 00:14:37–00:15:38</td>
+<td>楓说不需要男性ナツル、只需要女性ナツル；又说雫、红音、水琴全都喜欢ナツル，并要求他选择女性形态和自己</td>
+<td>现实台词</td>
+<td>直接；仅文字定位</td>
+<td>楓欲望的形态条件，以及三名女性围绕同一对象的竞争结构</td>
+<td>不能把楓的要求当作ナツル已经接受的身份或伴侣关系</td>
+</tr>
+<tr>
+<td>第 11 话 00:16:31–00:17:18</td>
+<td>ナツル说“俺は沙倉さんが好きだ”，却拒绝协助楓伤害伙伴，选择雫、红音、水琴；三人分别道谢、称他相棒并肯定选择</td>
+<td>现实台词</td>
+<td>直接；仅文字定位</td>
+<td>男性ナツル对楓的明确欲望，与女性战友共同体的忠诚同时成立</td>
+<td>选择伙伴不是同时与三人正式交往，也不是女性彼此产生恋爱</td>
+</tr>
+<tr>
+<td>第 11 话 00:20:04–00:22:03</td>
+<td>雫、红音、水琴围绕谁能亲吻ナツル、谁才是其选择和未来伴侣持续争执</td>
+<td>现实台词／后宫喜剧</td>
+<td>直接；仅文字定位</td>
+<td>三名女性的恋爱竞争对象持续是男性ナツル，后宫轴承担收束笑料</td>
+<td>不能由竞争和身体笑料推断女性彼此有恋爱欲望，也不能把所提亲吻一律写成已发生动作</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="四层分析">四层分析</h2>
+<h3 id="第一层文本中的关系">第一层：文本中的关系</h3>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>关系 ID</th>
+<th>关系／参与者</th>
+<th>类型</th>
+<th>叙事位置</th>
+<th>恋爱明确度</th>
+<th>相互性</th>
+<th>证据层级</th>
+<th>摘要</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>r01</td>
+<td>沙倉楓—瀬能ナツル（女性形态）</td>
+<td>恋爱／竞争／其他</td>
+<td>主线</td>
+<td>明确欲望</td>
+<td>相互性未确认</td>
+<td>正篇事实</td>
+<td>楓明确求爱女性身体的ナツル；ナツル明确喜欢楓，却坚持男性自我位置，双方对期望的性别呈现不一致，女女范围未知</td>
+</tr>
+<tr>
+<td>r02</td>
+<td>三郷雫—男性ナツル</td>
+<td>恋爱／搭档／竞争</td>
+<td>重要副线</td>
+<td>明确欲望</td>
+<td>单向</td>
+<td>正篇事实</td>
+<td>雫主动约会、争夺亲密并偏好其男性形态；ナツル选择她为伙伴，未确认对等恋爱</td>
+</tr>
+<tr>
+<td>r03</td>
+<td>美嶋紅音—男性ナツル</td>
+<td>恋爱／搭档／竞争</td>
+<td>重要副线</td>
+<td>明确欲望</td>
+<td>单向</td>
+<td>正篇事实</td>
+<td>红音的好感、告白期待和相棒位置明确，纳ツル没有与她交往</td>
+</tr>
+<tr>
+<td>r04</td>
+<td>近堂水琴—男性ナツル</td>
+<td>恋爱／友情／搭档／竞争</td>
+<td>重要副线</td>
+<td>明确欲望</td>
+<td>单向</td>
+<td>正篇事实</td>
+<td>水琴以青梅竹马身份追求ナツル并参与后宫竞争，没有得到交往确认</td>
+</tr>
+<tr>
+<td>r05</td>
+<td>雫／红音／水琴</td>
+<td>搭档／竞争／共同体</td>
+<td>重要副线</td>
+<td>非恋爱</td>
+<td>双向</td>
+<td>正篇事实</td>
+<td>三人互相援护、共同作战，又围绕男性ナツル争夺恋爱位置；彼此不是恋爱对象</td>
+</tr>
+<tr>
+<td>r06</td>
+<td>楓—雫／红音／水琴</td>
+<td>竞争／其他</td>
+<td>重要副线</td>
+<td>非恋爱</td>
+<td>双向</td>
+<td>正篇事实</td>
+<td>双方因阵营、控制和ナツル的选择对立；楓虽称雫为亲友，当下关系仍由冲突组织</td>
+</tr>
+<tr>
+<td>r07</td>
+<td>三郷雫—多美子先辈</td>
+<td>师生或照护／其他</td>
+<td>重要副线</td>
+<td>潜在恋爱</td>
+<td>未知</td>
+<td>正篇事实／读者解读</td>
+<td>追忆、失落和复仇动机形成明显但未确认的恋爱方向；文字没有确认多美子先辈的性别、关系称谓或回应</td>
+</tr>
+</tbody>
+</table></div>
+<p>楓与ナツル的主线不是“有无告白”的问题，而是告白对象的身份边界：楓直接爱上女性形态，ナツル则在同一身体中持续以男性自称并希望被当作男性所爱。把任何一侧删掉都会使关系变得过于整齐。雫、红音、水琴对男性ナツル的欲望分别有直接台词或官方人物说明，也不能因她们同时是女性战友，就把竞争对象从ナツル改成彼此。</p>
+<p>女性之间真正稳定的关系位于队伍和阵营层。雫、红音、水琴会互相通报、援护并共同迎敌，也会因同一恋爱对象争执；楓与她们的冲突则把友情称呼、操纵和战斗混在一起。这些关系有叙事后果，足以形成重要副线，却由搭档、共同体和竞争积极命名为非恋爱。多美子先辈的追忆是另一条重要线索，但所用文字材料没有给出性别和相互性，故保留为潜在恋爱且不进入已确认女女关系汇总。</p>
+<h3 id="第二层作品的文类位置">第二层：作品的文类位置</h3>
+<p>本作把两个发动机并列：Kämpfer 阵营战斗，以及男性ナツル被女性角色追求的后宫恋爱喜剧。女性身体变身让楓的追求在校内被读作“百合”，也制造男子部／女子部、竞争者和亲密接触的错位；但冲突反复回到ナツル是否保持男性、选择楓还是选择雫／红音／水琴。终盘的重大选择一面保住女性战友共同体，另一面继续让三人争夺男性ナツル，男性恋爱线没有被女性共同体取代。</p>
+<p>因此作品不进入文类内百合作品分类，也不设置公共的文类外百合阅读入口。支撑非百合结论的不是平台未标，而是范围内已确认的女性关系实际被组织为战友、竞争者与阵营对手，恋爱轴则由男性ナツル与多名女性的欲望主导。楓对女性形态的明确爱意仍值得在私人阅读和性别变身主题下保留；它能说明作品为何被 AniList 的 Yuri、Bangumi 的“百合”召回，却不足以单独改写整部作品的主要文类入口。</p>
+<h3 id="第三层角色身份">第三层：角色身份</h3>
+<p>ナツル的性别呈现和性取向必须分开。TBS 与正篇直接把他写作男子高中生，Kämpfer 规则令身体变成女性；他仍以“俺”自称，并希望楓喜欢男性的自己。这个范围足以说明本报告不能仅凭身体把他登记为女性，却不能进一步替他生成男同性恋、双性恋、跨性别或其他现实身份标签。楓的对象明确、ナツル对楓的欲望也明确，但关系对象不等于性取向自述。</p>
+<p>雫、红音、水琴对男性ナツル的追求同样不能自动转换成身份标签。楓对女性形态的ナツル有直接爱意，但正篇没有让她使用女同性恋或双性恋自述。雫对多美子先辈的记忆可能强化酷儿阅读，可是所用文字材料连对方性别都没有直接确认；在没有官方身份资料或可核实画面前，最诚实的身份结论仍是未知。</p>
+<h3 id="第四层公共标签礼仪">第四层：公共标签礼仪</h3>
+<p>平台字段回答的是不同检索问题。AniList 的 Yuri rank 30 表示用户标签的相关度；Bangumi 的“百合”26 是普通用户标签人数；Anime-Planet 未列 GL，MyAnimeList 未列 Girls Love；TBS 则明确写了恋爱方向和性别变身，却没有使用百合字面。这些结果不构成四票表决，也不能相互抵消。它们共同说明：本作确实处在性别变身、女性身体呈现和百合笑料的检索邻域，但各平台对是否给出百合入口采用了不同制度。</p>
+<p>面向普通推荐，优先写“性别变身后宫恋爱喜剧／战斗”，必要时补充“含女性形态下的单向求爱和剧中百合话语”。面向严格明确女女恋爱检索，应排除并说明ナツル的男性身份边界。私人阅读可以保留楓的欲望、女性共同体和雫的追忆，却不必把这种阅读冒充官方类型或角色身份。这样既不抹去画面位置产生的酷儿可读性，也不让一个平台标签越权替代正篇关系。</p>
+<h2 id="最强反方解释">最强反方解释</h2>
+<p>最强的相反读法会把“人物在社会场景中以女性身体被女性求爱”视为足以进入百合检索的关系事实。楓不仅一见钟情，还告白、请求交往、拒绝男性形态；校内媒体直接调用“百合”，AniList 和 Bangumi 也分别提供 Yuri／百合入口。再加上女性 Kämpfer 的共同体、雫对重要先辈的亲密追忆，这种读法能很好保护身体呈现、观看经验和私人酷儿阅读，不应被一句“其实是男性”粗暴抹除。</p>
+<p>这一路径能推翻“本作毫无百合材料”的说法，也解释了跨平台标签分歧，却不能推翻两个范围内事实：ナツル持续明确其男性位置，且全作恋爱喜剧由他喜欢楓、三名女性追求他来组织。若把女性身体直接等同女性身份，就会让楓与ナツル对同一关系提出的冲突条件消失；若把所有女性共同体恋爱化，又会抹去战友和竞争关系自身的内容。只有范围内出现ナツル明确采用女性身份、双方建立女女伴侣关系，或可靠材料确认多美子先辈的性别与相互欲望，当前某些分轴判断才需要改变；现有证据更支持保留私人阅读，同时维持非百合作品分类。</p>
+<h2 id="分用途结论">分用途结论</h2>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>用途</th>
+<th>分类</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>普通作品推荐</td>
+<td>性别变身、后宫恋爱喜剧与战斗作品；可提示含女性形态下的直接求爱和女性战友共同体，不作为无条件百合作品推荐</td>
+</tr>
+<tr>
+<td>数据库主标签</td>
+<td>优先使用性别变身／Magical Sex Shift、后宫、恋爱喜剧、Ecchi、校园与战斗；百合／Yuri 至多作为带身份限定的次级检索标签</td>
+</tr>
+<tr>
+<td>严格明确恋爱检索</td>
+<td>不纳入已确认女女明确恋爱或女女伴侣关系；楓的欲望明确，但对象的女性身份未成立，雫的先辈关系又缺性别与相互性证据</td>
+</tr>
+<tr>
+<td>私人百合阅读</td>
+<td>可读；抓手包括楓对女性形态ナツル的持续爱意、女性 Kämpfer 共同体及雫的追忆，但应保留男性身份与后宫主线边界</td>
+</tr>
+<tr>
+<td>角色身份检索</td>
+<td>不纳入女同性恋或双性恋身份明示检索；ナツル的男性自我位置明确，其他人的性取向标签未知</td>
+</tr>
+<tr>
+<td>官方分类查询</td>
+<td>TBS 明确宣传恋爱之战、性别变身与战斗，并说明具体欲望方向；所核页面未使用百合或 Girls Love 类型字样</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="方法来源与限制">方法、来源与限制</h2>
+<ul>
+<li>精确版本由 <a href="https://www.tbs.co.jp/anime/kenpu/story/story.html" target="_blank" rel="noopener noreferrer">TBS 故事总页</a>、Bangumi 2129、Anime-Planet Kämpfer、AniList 6205 与 MyAnimeList 6205 共同限定为 2009 年电视正篇第 1—12 话；官网同列但没有常规电视播出日期的第 13—14 话、相邻特别篇和跨媒介材料不在范围内。</li>
+<li>正篇文字材料为 <a href="https://jimaku.cc/entry/27" target="_blank" rel="noopener noreferrer">Jimaku entry 27</a> 所列的十二份日文 SRT／ASS，连续覆盖第 1—12 话；日文短引均为本报告自行翻译，不冒充官方中文译文。</li>
+<li>第 1、2、8、12 话字幕文件名含 AI Generated 标记；相关段落只有在上下文或 TBS 官方资料相互支持时才承担决定性作用，不能用单个可疑词形独立升级关系或身份结论。</li>
+<li>字幕用于对白、说话人与时间位置，未作同步视听复核；因此不从无台词动作、表情、构图、声线或姓名惯例推断性别、身体接触与同意状态。</li>
+<li>TBS 官方资料能够确认ナツル的男性位置、女性身体变身和几条欲望方向，不能替代完整正篇，也没有为角色提供女同性恋、双性恋或其他性取向身份标签。</li>
+<li>Bangumi 普通标签、Anime-Planet 编辑标签、AniList 权重标签和 MyAnimeList 固定分类分别按自身制度使用；命中或缺席都不证明关系存在、身份成立或文类被官方确认。</li>
+<li>多美子先辈的性别、雫与其关系称谓及相互性没有在所用文字材料中确认；若出现范围内可靠画面说明或官方人物资料，这条关系的女女范围与恋爱位置可能改变。</li>
+</ul>
+
+        </div>
+      </details>
+    </div>
+  </div>
+</article>
+
+<section class="feedback-section">
+  <div>
+    <p class="eyebrow">REPORT FEEDBACK</p>
+    <h2>提交可核查的修订建议</h2>
+    <p>请注明作品版本、集数／章节、要质疑的原句、可公开核查的来源，以及建议如何修订。评论属于待核查反馈，不会自动成为报告证据。</p>
+  </div>
+  <div class="giscus"></div>
+<div class="giscus-config"
+        hidden
+        data-repo="L-M-Sherlock/yuri-classification-archive"
+        data-repo-id="R_kgDOTo1RzA"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOTo1RzM4DCXAh"
+        data-mapping="specific"
+        data-term="classification:kampfer_tv_2009"
+        data-strict="1"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-lang="zh-CN"
+        data-loading="lazy"
+        aria-hidden="true"></div>
+</section>
+
+  </main>
+  <footer class="site-footer">
+    <div>
+      <p>分类是面向具体查询的检索工具，不是替作品关系作终审判决。</p>
+      <p class="footer-ai-note">本站使用以 OpenAI Codex 为主的生成式 AI 辅助研究、写作与站点开发；人工审阅未覆盖全部作品报告。<a href="/yuri-classification-archive/about/#AI使用说明">查看 AI 使用说明</a></p>
+      <p>© 2026 Jarrett Ye · <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="license noopener noreferrer">CC BY-NC-SA 4.0</a> · <a href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub 仓库</a> · <a href="/yuri-classification-archive/about/#使用边界">使用边界</a></p>
+    </div>
+  </footer>
+  <script>window.SITE_CONFIG = {basePath: "/yuri-classification-archive"};</script>
+  <script src="/yuri-classification-archive/assets/site.js?v=eeeec5872796" defer></script>
+
+</body>
+</html>

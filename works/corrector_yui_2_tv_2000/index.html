@@ -1,0 +1,486 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="第二季的女性关系不是装饰性的角色阵容，而是病毒事件、Corrector 团队和人物选择的组织轴。春日结与篠崎爱从邻居、同伴到共同面对网络危机，构成后半季最重要的女性关系；结与如月春菜、Rescue 与 Freeze 的友谊和照料则构成反复回返的副线。爱与母亲、以及她与父亲留下的邮件程序 i-chan 的家庭和照……">
+  <meta name="color-scheme" content="light dark">
+  <meta id="theme-color-light" name="theme-color" media="(prefers-color-scheme: light)" content="#f5f0e8">
+  <meta id="theme-color-dark" name="theme-color" media="(prefers-color-scheme: dark)" content="#1c181c">
+  <script>
+    (() => {
+      document.documentElement.classList.add("js");
+      const storageKey = "yuri-classification-theme";
+      const allowed = new Set(["system", "light", "dark"]);
+      let preference = "system";
+      try {
+        const stored = localStorage.getItem(storageKey);
+        if (allowed.has(stored)) preference = stored;
+      } catch (_error) {
+        preference = "system";
+      }
+      const systemDark = window.matchMedia?.("(prefers-color-scheme: dark)").matches;
+      const theme = preference === "system"
+        ? (systemDark ? "dark" : "light")
+        : preference;
+      document.documentElement.dataset.theme = theme;
+      document.documentElement.dataset.themePreference = preference;
+      document.documentElement.style.colorScheme = theme;
+      const lightMeta = document.getElementById("theme-color-light");
+      const darkMeta = document.getElementById("theme-color-dark");
+      if (preference === "system") {
+        lightMeta.content = "#f5f0e8";
+        darkMeta.content = "#1c181c";
+      } else {
+        const color = theme === "dark" ? "#1c181c" : "#f5f0e8";
+        lightMeta.content = color;
+        darkMeta.content = color;
+      }
+    })();
+  </script>
+  <link rel="canonical" href="https://l-m-sherlock.github.io/yuri-classification-archive/works/corrector_yui_2_tv_2000/">
+  <link rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="百合作品分类档案">
+  <meta property="og:title" content="《网络安琪儿 第二期》分类报告｜百合作品分类档案">
+  <meta property="og:description" content="第二季的女性关系不是装饰性的角色阵容，而是病毒事件、Corrector 团队和人物选择的组织轴。春日结与篠崎爱从邻居、同伴到共同面对网络危机，构成后半季最重要的女性关系；结与如月春菜、Rescue 与 Freeze 的友谊和照料则构成反复回返的副线。爱与母亲、以及她与父亲留下的邮件程序 i-chan 的家庭和照……">
+  <meta property="og:url" content="https://l-m-sherlock.github.io/yuri-classification-archive/works/corrector_yui_2_tv_2000/">
+  <meta property="og:image" content="https://l-m-sherlock.github.io/yuri-classification-archive/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+  <title>《网络安琪儿 第二期》分类报告｜百合作品分类档案</title>
+  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=7a82f1582188">
+
+</head>
+<body class="classification-report">
+  <a class="skip-link" href="#main-content">跳到正文</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="/yuri-classification-archive/">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>
+          <strong>百合作品分类档案</strong>
+          <small>按查询拆开标签，按证据保留边界</small>
+        </span>
+      </a>
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-navigation"
+      >
+        <span>菜单</span>
+        <span class="menu-toggle-icon" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-navigation" aria-label="主导航">
+        <div class="nav-main">
+          <a href="/yuri-classification-archive/">首页</a>
+          <a href="/yuri-classification-archive/table/">总表</a>
+          <a href="/yuri-classification-archive/articles/">专题</a>
+          <a href="/yuri-classification-archive/tools/">工具</a>
+          <a href="/yuri-classification-archive/about/">方法与说明</a>
+        </div>
+        <a class="nav-star" href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub / Star <span aria-hidden="true">↗</span></a>
+        <a class="nav-feedback" href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
+        <label class="theme-control" for="theme-preference">
+          <span>主题</span>
+          <select id="theme-preference" aria-label="主题偏好">
+            <option value="system">跟随系统</option>
+            <option value="light">浅色</option>
+            <option value="dark">深色</option>
+          </select>
+        </label>
+      </nav>
+    </div>
+  </header>
+  <main id="main-content">
+    <article class="report-page">
+  <header class="report-header">
+    <p class="eyebrow">TV 动画 · 2026-08-16</p>
+    <h1>《网络安琪儿 第二期》分类报告</h1>
+    <p class="report-subtitle">2000 年 4 月 14 日至 10 月 20 日播出的《コレクター・ユイ 第2シリーズ》电视动画第 1—26 话；与 Bangumi subject 4024、AniList anime 146664 对应的同一第二季电视版本</p>
+    <div class="label-strip" aria-label="分类摘要">
+      <span class="label-chip"><strong>女女关系：</strong>主线</span><span class="label-chip"><strong>百合归档结论：</strong>文类外百合阅读</span><span class="label-chip"><strong>女女恋爱位置：</strong>缺席</span><span class="label-chip"><strong>女女关系最高明确度：</strong>非恋爱</span><span class="label-chip"><strong>官方字面百合／GL：</strong>所核未见</span><span class="label-chip"><strong>官方女女恋爱表述：</strong>所核未见</span><span class="label-chip"><strong>官方来源：</strong>层级：当前版本；位置：可见作品宣传</span><span class="label-chip"><strong>结论置信度：</strong>中<span class="inline-help" tabindex="0" aria-label="查看结论置信度说明" aria-describedby="report-confidence-help"><span aria-hidden="true">?</span><span class="term-tooltip" id="report-confidence-help" role="tooltip">表示当前锁定范围内，现有证据对本报告主要分类结论的支持稳定度；它不是百合程度、作品质量、社群共识或统计概率。</span></span></span>
+    </div>
+    <a class="back-link" href="/yuri-classification-archive/table/?q=%E7%BD%91%E7%BB%9C%E5%AE%89%E7%90%AA%E5%84%BF%20%E7%AC%AC%E4%BA%8C%E6%9C%9F">← 返回总表并定位本作</a>
+  </header>
+  <section class="relationship-overview" data-confirmed-female-female-count="5" aria-labelledby="relationship-overview-title"><div class="relationship-overview-heading"><p class="eyebrow">RELATIONSHIP SNAPSHOT</p><h2 id="relationship-overview-title">关系构成速览</h2></div><p class="relationship-overview-total"><strong>5</strong><span>条已确认女女关系记录</span></p><div class="relationship-overview-grid"><div class="relationship-overview-group"><h3>叙事位置</h3><ul><li data-axis="narrative_centrality" data-code="main" data-count="2"><span>主线</span><strong>2</strong></li><li data-axis="narrative_centrality" data-code="important_secondary" data-count="3"><span>重要副线</span><strong>3</strong></li></ul></div><div class="relationship-overview-group"><h3>恋爱明确度</h3><ul><li data-axis="romance_explicitness" data-code="non_romantic" data-count="5"><span>非恋爱</span><strong>5</strong></li></ul></div><div class="relationship-overview-group"><h3>相互性</h3><ul><li data-axis="mutuality" data-code="mutual" data-count="4"><span>双向</span><strong>4</strong></li><li data-axis="mutuality" data-code="ambiguous" data-count="1"><span>相互性未确认</span><strong>1</strong></li></ul></div></div><p class="relationship-overview-note">只汇总档案中逐条确认的女女关系记录；它不是配对数量、出场时间、互动频率，也不是任何程度评分。</p></section>
+  <section class="work-tag-section" aria-labelledby="work-tag-title"><div class="work-tag-heading"><div><h2 id="work-tag-title">统一标签</h2><p>用于内容检索，不替代关系分类。</p></div><div class="unified-tag-list"><a class="unified-tag" data-facet-id="comedy" href="/yuri-classification-archive/table/?facet=comedy" aria-label="用统一标签“喜剧”筛选总表">喜剧</a><a class="unified-tag" data-facet-id="adventure" href="/yuri-classification-archive/table/?facet=adventure" aria-label="用统一标签“冒险”筛选总表">冒险</a><a class="unified-tag" data-facet-id="science_fiction" href="/yuri-classification-archive/table/?facet=science_fiction" aria-label="用统一标签“科幻”筛选总表">科幻</a><a class="unified-tag" data-facet-id="idol" href="/yuri-classification-archive/table/?facet=idol" aria-label="用统一标签“偶像”筛选总表">偶像</a><a class="unified-tag" data-facet-id="magic" href="/yuri-classification-archive/table/?facet=magic" aria-label="用统一标签“魔法”筛选总表">魔法</a><a class="unified-tag" data-facet-id="magical_girl" href="/yuri-classification-archive/table/?facet=magical_girl" aria-label="用统一标签“魔法少女”筛选总表">魔法少女</a></div></div><details class="raw-platform-tags"><summary><span>四平台原始标签</span><small>展开查看平台原文与权重</small></summary><div class="raw-platform-tags-content"><p class="raw-tag-snapshot-note">依据集中快照（总库更新时间：2026-08-16）；不是平台实时状态。复合条目在平台内合并去重。</p><div class="raw-platform-grid"><section class="raw-platform-card" aria-labelledby="raw-platform-bangumi" data-platform="bangumi"><div class="raw-platform-heading"><h3 id="raw-platform-bangumi">Bangumi</h3></div><div class="raw-tag-group" data-platform="bangumi" data-field="ordinary_tags"><h4>用户标签</h4><ul class="raw-tag-list"><li class="raw-tag"><span class="raw-tag-name">童年</span><small class="raw-tag-weight">12 人</small></li><li class="raw-tag"><span class="raw-tag-name">2000</span><small class="raw-tag-weight">11 人</small></li><li class="raw-tag"><span class="raw-tag-name">TVB</span><small class="raw-tag-weight">11 人</small></li><li class="raw-tag"><span class="raw-tag-name">TV</span><small class="raw-tag-weight">10 人</small></li><li class="raw-tag"><span class="raw-tag-name">少女向</span><small class="raw-tag-weight">9 人</small></li><li class="raw-tag"><span class="raw-tag-name">魔法少女</span><small class="raw-tag-weight">7 人</small></li><li class="raw-tag"><span class="raw-tag-name">乙女向</span><small class="raw-tag-weight">6 人</small></li><li class="raw-tag"><span class="raw-tag-name">漫改</span><small class="raw-tag-weight">6 人</small></li><li class="raw-tag"><span class="raw-tag-name">川井憲次</span><small class="raw-tag-weight">5 人</small></li><li class="raw-tag"><span class="raw-tag-name">沒看全</span><small class="raw-tag-weight">4 人</small></li><li class="raw-tag"><span class="raw-tag-name">日本</span><small class="raw-tag-weight">4 人</small></li><li class="raw-tag"><span class="raw-tag-name">日本アニメーション</span><small class="raw-tag-weight">3 人</small></li><li class="raw-tag"><span class="raw-tag-name">TVA</span><small class="raw-tag-weight">2 人</small></li><li class="raw-tag"><span class="raw-tag-name">ムトウユージ</span><small class="raw-tag-weight">2 人</small></li><li class="raw-tag"><span class="raw-tag-name">利田優子</span><small class="raw-tag-weight">1 人</small></li><li class="raw-tag"><span class="raw-tag-name">2000s</span><small class="raw-tag-weight">1 人</small></li><li class="raw-tag"><span class="raw-tag-name">6(+1)</span><small class="raw-tag-weight">1 人</small></li><li class="raw-tag"><span class="raw-tag-name">补旧番</span><small class="raw-tag-weight">1 人</small></li><li class="raw-tag"><span class="raw-tag-name">喜欢</span><small class="raw-tag-weight">1 人</small></li><li class="raw-tag"><span class="raw-tag-name">2000年</span><small class="raw-tag-weight">1 人</small></li><li class="raw-tag"><span class="raw-tag-name">麻宮騎亜</span><small class="raw-tag-weight">1 人</small></li><li class="raw-tag"><span class="raw-tag-name">大本眞基子</span><small class="raw-tag-weight">1 人</small></li><li class="raw-tag"><span class="raw-tag-name">西園悟</span><small class="raw-tag-weight">1 人</small></li><li class="raw-tag"><span class="raw-tag-name">SF</span><small class="raw-tag-weight">1 人</small></li><li class="raw-tag"><span class="raw-tag-name">漫画改</span><small class="raw-tag-weight">1 人</small></li><li class="raw-tag"><span class="raw-tag-name">续集</span><small class="raw-tag-weight">1 人</small></li><li class="raw-tag"><span class="raw-tag-name">2000年4月</span><small class="raw-tag-weight">1 人</small></li><li class="raw-tag"><span class="raw-tag-name">日本动画</span><small class="raw-tag-weight">1 人</small></li></ul></div></section><section class="raw-platform-card" aria-labelledby="raw-platform-anime-planet" data-platform="anime_planet"><div class="raw-platform-heading"><h3 id="raw-platform-anime-planet">Anime-Planet</h3></div><p class="raw-platform-empty">无可对应条目</p></section><section class="raw-platform-card" aria-labelledby="raw-platform-anilist" data-platform="anilist"><div class="raw-platform-heading"><h3 id="raw-platform-anilist">AniList</h3></div><div class="raw-tag-group" data-platform="anilist" data-field="genres"><h4>Genres</h4><ul class="raw-tag-list"><li class="raw-tag"><span class="raw-tag-name">Adventure</span></li><li class="raw-tag"><span class="raw-tag-name">Comedy</span></li><li class="raw-tag"><span class="raw-tag-name">Mahou Shoujo</span></li><li class="raw-tag"><span class="raw-tag-name">Sci-Fi</span></li></ul></div><div class="raw-tag-group" data-platform="anilist" data-field="tags"><h4>Tags</h4><ul class="raw-tag-list"><li class="raw-tag"><span class="raw-tag-name">Yuri</span><small class="raw-tag-weight">rank 79</small></li><li class="raw-tag"><span class="raw-tag-name">LGBTQ+ Themes</span><small class="raw-tag-weight">rank 79</small></li><li class="raw-tag"><span class="raw-tag-name">Female Protagonist</span><small class="raw-tag-weight">rank 75</small></li><li class="raw-tag"><span class="raw-tag-name">Virtual World</span><small class="raw-tag-weight">rank 75</small></li><li class="raw-tag"><span class="raw-tag-name">Magic</span><small class="raw-tag-weight">rank 53</small></li><li class="raw-tag"><span class="raw-tag-name">Primarily Female Cast</span><small class="raw-tag-weight">rank 50</small></li><li class="raw-tag"><span class="raw-tag-name">Idol</span><small class="raw-tag-weight">rank 40</small></li></ul></div></section><section class="raw-platform-card" aria-labelledby="raw-platform-myanimelist" data-platform="myanimelist"><div class="raw-platform-heading"><h3 id="raw-platform-myanimelist">MyAnimeList</h3></div><p class="raw-platform-empty">无可对应条目</p></section></div></div></details></section>
+  <div class="report-layout">
+    <aside class="report-toc">
+      <p>本页目录</p>
+      <ol><li><a href="#低剧透概览">低剧透概览</a></li><li><a href="#数据库与公开分类">数据库与公开分类</a></li><li><a href="#决定性文本证据">决定性文本证据</a></li><li><a href="#四层分析">四层分析</a></li><li><a href="#最强反方解释">最强反方解释</a></li><li><a href="#分用途结论">分用途结论</a></li><li><a href="#方法来源与限制">方法、来源与限制</a></li></ol>
+    </aside>
+    <div class="report-content">
+      <blockquote>
+<p>分类日期：2026-08-16<br> 分类对象：2000 年《コレクター・ユイ 第2シリーズ》电视动画<br> 纳入范围：与 Bangumi 4024、AniList 146664 对应的第二季正篇第 1—26 话<br> 排除范围：第一季、漫画、宣传影像、衍生作品及其他相邻版本<br> 用途：普通推荐与数据库分类</p>
+</blockquote>
+<h2 id="低剧透概览">低剧透概览</h2>
+<aside class="alert alert-note"><strong>说明</strong><div class="alert-content"><p><strong>分类信息提示：</strong> 本节不展开关键剧情、转折与结局，但分类信息本身会透露关系类型、叙事位置和恋爱明确度。希望完全盲看的读者请跳过本页。</p></div></aside>
+
+<p>第二季的女性关系不是装饰性的角色阵容，而是病毒事件、Corrector 团队和人物选择的组织轴。春日结与篠崎爱从邻居、同伴到共同面对网络危机，构成后半季最重要的女性关系；结与如月春菜、Rescue 与 Freeze 的友谊和照料则构成反复回返的副线。爱与母亲、以及她与父亲留下的邮件程序 i-chan 的家庭和照护关系，也推动了她加入 Corrector 的动机。</p>
+<p>本作适合归入“文类外百合阅读”。这一位置承认结—爱、结—春菜、Rescue—Freeze 等关系给读者提供了女性亲密、互相救援和共同生活想象的入口，却不把它们改写成正篇已确认的女女恋爱。官方作品页把本季写成 SF、冒险、动作与 Corrector 团队故事，未使用百合或 GL 字面；Bangumi 的普通标签也没有“百合”，AniList 的 Yuri 则是带相关度的检索标签。</p>
+<p>范围内没有女女正式交往、恋人称谓、接吻或直接相互告白；最强的女性亲密表达仍在朋友、救援、感谢和家庭语境中。春菜说“我爱结”、Rescue 与 Freeze 的喜欢句以及结与爱“什么都一起做”的约定可以支持较宽的读者解读，但不能单独推出恋爱事实。整体置信度为中等，主要限定是只审读英文字幕文字，未做同步视频视听复核。</p>
+<h3 id="分层标签">分层标签</h3>
+<blockquote>
+<p><strong>女女关系层级：主线｜百合归档结论：文类外百合阅读｜恋爱位置：缺席｜最高明确度：非恋爱｜关系构成：多组异质关系｜官方字面：所核未见｜官方恋爱表述：所核未见｜官方来源：第二季作品页的故事简介、分类与角色表｜阅读层级：正篇事实／强推断／读者解读｜身份依据类型：范围内无依据｜男性恋爱线：副线｜内容提示：亲人昏迷与去世、儿童角色遭遇网络病毒、孤独与自我否定。</strong></p>
+</blockquote>
+<h3 id="严格恋爱检索提示">严格恋爱检索提示</h3>
+<ul>
+<li>只找女女双方正式开始交往或有恋人称谓：<strong>不命中</strong>；本季没有女女情侣事实或恋人称谓。</li>
+<li>只找女女双方直接告白或接吻：<strong>不命中</strong>；春菜的“爱”位于救友和价值确认语境，Rescue—Freeze 的喜欢句缺少稳定说话人和恋爱上下文。</li>
+<li>接受明显但未确认的女女恋爱指向：<strong>可作为读者解读入口</strong>；结—爱持续互相寻找和救援，春菜—结有强烈亲密表达，Rescue—Freeze 有反复照料，但这些关系均被朋友、搭档或家庭语言包围。</li>
+<li>只找女性共同体、女性搭档和照料：<strong>命中</strong>；Corrector 团队、结—爱以及 Rescue—Freeze 都有正篇互相承担风险的情节。</li>
+</ul>
+<h2 id="数据库与公开分类">数据库与公开分类</h2>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>来源</th>
+<th>条目与字段</th>
+<th>来源类型</th>
+<th>本报告如何使用</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://www.nippon-animation.co.jp/work/17237/" target="_blank" rel="noopener noreferrer">官方资料</a></td>
+<td>第二季 26 话；分类为 SF、冒险、动作；故事围绕 Yui、Haruna、Ai 与新病毒</td>
+<td>官方自述／营销分类</td>
+<td>只证明官方公开的版本范围、类型和故事表述；未见百合或 GL 字面</td>
+</tr>
+<tr>
+<td><a href="https://bangumi.tv/subject/4024" target="_blank" rel="noopener noreferrer">Bangumi</a></td>
+<td>subject 4024；TV、26 话；普通用户标签未列“百合”；受控字段为 TV、日本</td>
+<td>编辑字段／社区标签</td>
+<td>作为版本核对和检索入口；普通标签不作为官方关系认证</td>
+</tr>
+<tr>
+<td><a href="https://anilist.co/anime/146664" target="_blank" rel="noopener noreferrer">AniList</a></td>
+<td>anime 146664；TV、26 话、Finished；Yuri 79、LGBTQ+ Themes 79；另有 Female Protagonist 75、Virtual World 75</td>
+<td>带相关度的社区标签</td>
+<td>作为女性关系检索入口；数值是标签相关度，不是人数、概率或恋爱证明</td>
+</tr>
+<tr>
+<td>AnimeTosho</td>
+<td>[OldCastle] Corrector Yui 2 英文 ASS，E01—E26</td>
+<td>字幕来源</td>
+<td>用于审读第二季正篇文字；不把字幕译文冒充官方中文表述</td>
+</tr>
+</tbody>
+</table></div>
+<p>四个平台和来源的字段制度不能互换。Bangumi 的普通用户标签、AniList 的相关度标签与官方作品页各自回答不同问题；AniList 的 Yuri 只能说明值得阅读和检索，不能替代关系证据。MAL、Anime-Planet 在本次档案中没有被用来补写第二季关系事实，缺席也不解释为否定。</p>
+<aside class="alert alert-warning"><strong>剧透提示</strong><div class="alert-content"><p>以下部分包含分类对象的完整剧透。</p></div></aside>
+
+      <details class="spoiler-panel">
+        <summary>
+          <span>展开详细证据（含完整剧透）</span>
+          <small>决定性证据、四层分析、反方解释与方法限制</small>
+        </summary>
+        <div class="spoiler-content">
+          <h2 id="决定性文本证据">决定性文本证据</h2>
+<p>中文翻译均为依据英文字幕和日文官方资料的自行翻译／概述；短引只保留判断所需范围。没有同步视频复核的句子，不用于断言画面动作、表情或说话人的视觉身份。</p>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>位置</th>
+<th>原文与中文摘要</th>
+<th>叙事层级</th>
+<th>证据强度与视听复核</th>
+<th>能证明什么</th>
+<th>不能证明什么</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>第 11 话 00:05:15–00:05:33</td>
+<td>Rescue 说自己担心 Freeze，想“作为她的朋友”帮助她；两人决定一起完成学业并说“Best friends forever”。</td>
+<td>现实对话</td>
+<td>直接；字幕文字定位，未做画面复核</td>
+<td>互相照料和朋友命名</td>
+<td>恋人身份或女女欲望</td>
+</tr>
+<tr>
+<td>第 16 话 00:08:16–00:08:39</td>
+<td>Haruna 说“I love Yui”，并解释结让她找回自己的价值，所以她要重新成为 Corrector 救结。</td>
+<td>现实对话／团队选择</td>
+<td>直接；字幕文字定位，未做画面复核</td>
+<td>强烈亲密、感激与救援承诺</td>
+<td>这句“love”已构成恋爱告白</td>
+</tr>
+<tr>
+<td>第 22 话 00:15:41–00:16:26</td>
+<td>Freeze 追问 Rescue 为什么照料自己，回顾学习和打字帮助并表示感谢；随后字幕出现“ Ai… I like you very much”。</td>
+<td>现实对话／照料冲突</td>
+<td>直接但有歧义；字幕无说话人标记，未做画面复核</td>
+<td>持续照料和情感依赖的可读性</td>
+<td>句子对象、说话人及恋爱含义已被确认</td>
+</tr>
+<tr>
+<td>第 23 话 00:06:42–00:07:04</td>
+<td>结为进入爱意识承担风险，说“爱是我的朋友，我不想失去她”。</td>
+<td>现实对话／行动决定</td>
+<td>直接；字幕文字定位，未做画面复核</td>
+<td>结把爱视为重要朋友，并愿意为她冒险</td>
+<td>女女恋爱或排他承诺</td>
+</tr>
+<tr>
+<td>第 23 话 00:07:37–00:08:31</td>
+<td>结在爱心中遇到爱想象出来的“结”；两人协助完成 Corrector 任务，爱把出现的人称为自己的朋友。</td>
+<td>心理空间／行动</td>
+<td>直接；字幕文字定位，未做画面复核</td>
+<td>爱对结的重视和女性共同体的朋友语言</td>
+<td>想象中的形象等于恋人或身份声明</td>
+</tr>
+<tr>
+<td>第 23 话 00:21:57–00:22:11</td>
+<td>事件结束后，爱说醒来要和结谈很多事情，结回答“我会等你”。</td>
+<td>现实对话／关系收束</td>
+<td>直接；字幕文字定位，未做画面复核</td>
+<td>双向持续联系和未来约定</td>
+<td>正式交往</td>
+</tr>
+<tr>
+<td>第 24 话 00:18:19–00:18:49</td>
+<td>爱说自己起初只想初始化迷路少女来救母亲，后来承认无法靠此实现愿望，仍选择做正确的 Corrector。</td>
+<td>现实对话／人物选择</td>
+<td>直接；字幕文字定位，未做画面复核</td>
+<td>母女亲情是爱人物弧的主动力</td>
+<td>母女关系之外的恋爱含义</td>
+</tr>
+<tr>
+<td>第 26 话 00:18:59–00:20:38</td>
+<td>爱确认 i-chan 是父亲制作的同名邮件程序；十年前的信说 ComNet 会让她遇见许多朋友，并把这份程序当作礼物。</td>
+<td>回忆邮件／家庭收束</td>
+<td>直接；字幕文字定位，未做画面复核</td>
+<td>i-chan 与爱的朋友、礼物和家庭连接</td>
+<td>“My love”是父亲给女儿的亲情，不是女女恋爱</td>
+</tr>
+<tr>
+<td>第 26 话 00:22:22–00:23:03</td>
+<td>结希望以后和爱一起玩、学习、做各种事，爱回应感谢并约定在 ComNet 再见。</td>
+<td>现实对话／结尾</td>
+<td>直接；字幕文字定位，未做画面复核</td>
+<td>关系延续和共同体未来</td>
+<td>恋人关系</td>
+</tr>
+<tr>
+<td>第 17 话 00:21:40–00:22:28</td>
+<td>同伴鼓励结帮助浩介得到爱情回应；浩介说自己也为惠美复健，结发现两人一直是情侣。</td>
+<td>现实对话／恋爱副线收束</td>
+<td>直接；字幕文字定位，未做画面复核</td>
+<td>结的异性恋欲望及浩介—惠美的情侣事实</td>
+<td>女女恋爱主线</td>
+</tr>
+<tr>
+<td>第 7 话 00:05:03–00:05:15</td>
+<td>同学质问隆为什么能有女友，并点名春菜；对话把两人的关系当作既成事实。</td>
+<td>现实对话／校园关系</td>
+<td>直接；字幕文字定位，未做画面复核</td>
+<td>春菜—隆的异性恋情侣关系</td>
+<td>春菜与结的友情已变成恋爱</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="四层分析">四层分析</h2>
+<h3 id="第一层文本中的关系">第一层：文本中的关系</h3>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>关系 ID</th>
+<th>关系／参与者</th>
+<th>类型</th>
+<th>叙事位置</th>
+<th>恋爱明确度</th>
+<th>相互性</th>
+<th>证据层级</th>
+<th>摘要</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>r01</td>
+<td>结—爱</td>
+<td>友情／搭档／照护</td>
+<td>主线</td>
+<td>非恋爱</td>
+<td>双向</td>
+<td>正篇事实／读者解读</td>
+<td>结以朋友名义进入爱意识救她，爱在心中保留结的形象，结尾双方约定继续相处。</td>
+</tr>
+<tr>
+<td>r02</td>
+<td>结—春菜</td>
+<td>友情／搭档／照护</td>
+<td>重要副线</td>
+<td>非恋爱</td>
+<td>双向</td>
+<td>正篇事实／读者解读</td>
+<td>春菜以“爱结”和救援承诺表达亲密，但上下文是友谊、价值确认和团队责任。</td>
+</tr>
+<tr>
+<td>r03</td>
+<td>Rescue—Freeze</td>
+<td>友情／照护／竞争</td>
+<td>重要副线</td>
+<td>非恋爱</td>
+<td>双向</td>
+<td>正篇事实／读者解读</td>
+<td>一起上学、互相帮助和朋友称谓形成稳定亲密；第 22 话的喜欢句保留歧义。</td>
+</tr>
+<tr>
+<td>r04</td>
+<td>爱—母亲</td>
+<td>亲情／照护</td>
+<td>主线</td>
+<td>非恋爱</td>
+<td>相互性未确认</td>
+<td>正篇事实</td>
+<td>母亲昏迷和爱想救她的愿望推动了爱进入网络并作出最后选择。</td>
+</tr>
+<tr>
+<td>r05</td>
+<td>爱—i-chan</td>
+<td>友情／搭档／照护</td>
+<td>重要副线</td>
+<td>非恋爱</td>
+<td>双向</td>
+<td>正篇事实</td>
+<td>同名邮件程序把父亲的礼物交到爱手中，关系以朋友和家庭记忆收束。</td>
+</tr>
+<tr>
+<td>r06</td>
+<td>结—浩介</td>
+<td>恋爱／照护</td>
+<td>局部</td>
+<td>明确欲望</td>
+<td>单向</td>
+<td>正篇事实</td>
+<td>结明确陷入恋爱并尝试帮助浩介康复，但没有得到回应。</td>
+</tr>
+<tr>
+<td>r07</td>
+<td>浩介—惠美</td>
+<td>恋爱／搭档／照护</td>
+<td>局部</td>
+<td>明确交往</td>
+<td>双向</td>
+<td>正篇事实</td>
+<td>浩介与惠美已是情侣，惠美照料康复；该事实解释结的失恋。</td>
+</tr>
+<tr>
+<td>r08</td>
+<td>春菜—隆</td>
+<td>恋爱／搭档</td>
+<td>重要副线</td>
+<td>明确交往</td>
+<td>双向</td>
+<td>正篇事实</td>
+<td>同学把春菜称为隆的女友，关系持续存在但不主导本季网络危机。</td>
+</tr>
+</tbody>
+</table></div>
+<p>结—爱最能说明本季女女关系的主线位置：结不只是口头关心，而是把自身置于爱意识的危险中；爱也在自己的心理空间中保留结的形象，并在事件后主动提出继续交谈。两人的对白始终使用朋友、等待、感谢和一起活动的词语，因而可以同时承认关系的重要性和恋爱事实的缺席。</p>
+<p>结—春菜与 Rescue—Freeze 提供了不同的女性亲密样式。前者把“爱”放在价值确认、重新承担责任和救友行动中，后者把担心、教学、照料和共同上学写成日常承诺。第 22 话的字幕出现一个可能被读成喜欢的句子，但缺少说话人标记，且周围反复回到朋友、感谢和自我否定；把它直接当作告白会超出材料能证明的范围。</p>
+<p>爱—母亲与爱—i-chan 说明女性关系轴并不等于女性恋爱轴。昏迷的母亲提供爱行动的起点，i-chan 留着父亲给女儿的礼物和朋友愿景；这些家庭、照护和共同体连接使爱成为主线人物，却不应被压缩成恋爱。</p>
+<h3 id="第二层作品的文类位置">第二层：作品的文类位置</h3>
+<p>本季的核心冲突是网络空间中的病毒、孤独和如何重新与他人建立联系。结、春菜、爱以及其他 Corrector 共同承担风险，女性关系因此组织了冒险和成长；但作品的官方类型仍是 SF、冒险、动作，正篇也安排了结的异性恋心动、浩介—惠美的情侣关系和春菜—隆的交往。</p>
+<p>所以“文类外百合阅读”比“文类内百合”更准确。它保留了结—爱等关系的情感密度和读者入口，却没有把 AniList 的 Yuri 相关度、全女性团队或某句英文翻译当成官方文类证明。若查询目标是“女性共同体主线”或“明显但未确认的女女亲密”，本作应当命中；若目标是“已确认女女情侣”，则不应命中。</p>
+<h3 id="第三层角色身份">第三层：角色身份</h3>
+<p>范围内没有角色通过自述或官方角色页明确说明自己的性取向。结对浩介的恋爱、春菜与隆的交往以及女性之间的朋友和家庭关系，分别是关系事实，不能反向推出角色的身份标签。爱与 i-chan 的同名连接是程序和家庭记忆的设定，也不能用来推断取向。</p>
+<p>因此角色身份记为未知。未来若出现官方身份自述、女女明确交往，或完整视听材料改变对第 22 话说话人的辨识，应更新身份层和恋爱明确度，而不是把现有的朋友或家庭证据改写成恋爱。</p>
+<h3 id="第四层公共标签礼仪">第四层：公共标签礼仪</h3>
+<p>官方查询适合使用“SF 冒险”“Corrector 团队”“女性同伴互助”和“结—爱朋友关系”等实际表述；不应把本报告的归档位置写成官方百合认证。数据库检索可以并列保留 AniList 的 Yuri／LGBTQ+ Themes 与 Bangumi 普通标签缺席，并注明它们来自不同制度。</p>
+<p>普通推荐可以写“女性关系主线、网络冒险、友情与照护、含较宽的百合阅读入口”。严格恋爱检索应排除，因为没有女女正式交往或明确相互告白。私人阅读若关注女性共同体、救援和关系边界，可以纳入较宽清单，同时显示“最高明确度为非恋爱、存在异性恋副线”等限定。</p>
+<h2 id="最强反方解释">最强反方解释</h2>
+<p>最强的狭义读法是：结与爱由作品明确放在朋友和 Corrector 伙伴位置，春菜的“爱结”是救友宣言，Rescue—Freeze 的喜欢句又有字幕转写和说话人问题；母女、父女邮件程序和团队关系都不是恋爱。因此第二季没有可确认的女女恋爱，严格检索应当不命中。这个读法能够推翻“女女情侣已经成立”的结论。</p>
+<p>但它不能抹掉女性关系对主线结构的作用。结为爱承担进入意识的风险，爱在心理空间中保留结的形象，春菜因结重新承担责任，Rescue 与 Freeze 反复照料彼此；这些事实足以支撑“文类外百合阅读”的检索用途。反过来，较宽的读者读法也不能把朋友、家庭和团队承诺升级为正式交往，更不能把父亲邮件中的“My love”误读为女女恋爱。保留两种读法的边界，才不会让平台标签替代文本证据。</p>
+<h2 id="分用途结论">分用途结论</h2>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>用途</th>
+<th>分类</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>普通作品推荐</td>
+<td>SF 网络冒险；女性关系主线；友情、照护与女性团队</td>
+</tr>
+<tr>
+<td>数据库主标签</td>
+<td>文类外百合阅读；女女关系主线；最高明确度为非恋爱</td>
+</tr>
+<tr>
+<td>严格明确恋爱检索</td>
+<td>不命中；没有女女正式交往、恋人称谓或明确相互告白</td>
+</tr>
+<tr>
+<td>私人百合阅读</td>
+<td>可纳入；重点是结—爱、结—春菜与 Rescue—Freeze 的亲密和共同体</td>
+</tr>
+<tr>
+<td>角色身份检索</td>
+<td>未知；范围内没有稳定的身份自述或官方身份设定</td>
+</tr>
+<tr>
+<td>官方分类查询</td>
+<td>所核未见百合／GL 字面；官方使用 SF、冒险、动作与 Corrector 团队表述</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="方法来源与限制">方法、来源与限制</h2>
+<ul>
+<li>记录对象是 2000 年第二季电视动画第 1—26 话；Bangumi 4024、AniList 146664 的媒介、话数和发行日期相互对应，未把第一季、漫画或其他媒介材料移入本报告。</li>
+<li>正篇文字材料为 AnimeTosho 的 [OldCastle] Corrector Yui 2 英文 ASS，连续覆盖 26/26 话；决定性台词按时间轴定位并以相邻字幕核对，未把未做画面复核的动作、表情或说话人视觉辨识写成事实。</li>
+<li>官方资料为日本动画公司第二季作品页，主要用于核对播出范围、故事简介、分类和角色表；官方来源只说明实际表述，沉默不解释为否定。</li>
+<li>Bangumi 的受控字段与普通用户标签分开记录；未列“百合”只说明本次条目快照没有该普通标签，不能作为不存在女女阅读的证明。</li>
+<li>AniList 的 Yuri、LGBTQ+ Themes 等数值是标签相关度；它们用于发现需要阅读的关系，不是人数、概率、排名或身份结论。</li>
+<li>英文字幕短引和日文官方资料均由档案作者自行翻译或概述；不同翻译对“love”“like”“friend”的语气可能影响读者解读，尤其是第 22 话，但不改变正式交往缺席的判断。</li>
+<li>未使用 Anime-Planet 或 MyAnimeList 的未核验字段补写关系事实；平台缺席不当作否定。</li>
+<li>未来若出现官方身份自述、女女明确交往、完整视频复核改变说话人辨识，或新版本与本季范围不一致，应重新审查关系明确度和归档位置。</li>
+</ul>
+
+        </div>
+      </details>
+    </div>
+  </div>
+</article>
+
+<section class="feedback-section">
+  <div>
+    <p class="eyebrow">REPORT FEEDBACK</p>
+    <h2>提交可核查的修订建议</h2>
+    <p>请注明作品版本、集数／章节、要质疑的原句、可公开核查的来源，以及建议如何修订。评论属于待核查反馈，不会自动成为报告证据。</p>
+  </div>
+  <div class="giscus"></div>
+<div class="giscus-config"
+        hidden
+        data-repo="L-M-Sherlock/yuri-classification-archive"
+        data-repo-id="R_kgDOTo1RzA"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOTo1RzM4DCXAh"
+        data-mapping="specific"
+        data-term="classification:corrector_yui_2_tv_2000"
+        data-strict="1"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-lang="zh-CN"
+        data-loading="lazy"
+        aria-hidden="true"></div>
+</section>
+
+  </main>
+  <footer class="site-footer">
+    <div>
+      <p>分类是面向具体查询的检索工具，不是替作品关系作终审判决。</p>
+      <p class="footer-ai-note">本站使用以 OpenAI Codex 为主的生成式 AI 辅助研究、写作与站点开发；人工审阅未覆盖全部作品报告。<a href="/yuri-classification-archive/about/#AI使用说明">查看 AI 使用说明</a></p>
+      <p>© 2026 Jarrett Ye · <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="license noopener noreferrer">CC BY-NC-SA 4.0</a> · <a href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub 仓库</a> · <a href="/yuri-classification-archive/about/#使用边界">使用边界</a></p>
+    </div>
+  </footer>
+  <script>window.SITE_CONFIG = {basePath: "/yuri-classification-archive"};</script>
+  <script src="/yuri-classification-archive/assets/site.js?v=eeeec5872796" defer></script>
+
+</body>
+</html>

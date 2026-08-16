@@ -640,6 +640,7 @@ const YuriCatalogFilterLogic = (() => {
     const status = item?.bangumi_entry_status;
     if (status?.code === "no_exact_entry") return "无可对应条目";
     if (status?.code === "unknown") return "未核实";
+    if (status?.code === "success") return "未排名";
     return "字段缺失";
   }
 

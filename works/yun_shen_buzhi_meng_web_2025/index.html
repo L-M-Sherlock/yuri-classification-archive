@@ -1,0 +1,479 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="《云深不知梦》的女女关系位于重要副线。云望舒与龙儿的姐妹／选择家庭、云望舒与炽阳华明的朋友／政治搭档、云望舒与云珞璇的师姐妹关系，以及华明与母亲的亲情，都真实影响人物选择和复仇行动；它们不是可有可无的装饰。不过，正篇分别用“姐姐”“家人”“朋友”“亲姐妹”“母亲”等词积极命名这些关系，没有建立女女告白、欲望、恋……">
+  <meta name="color-scheme" content="light dark">
+  <meta id="theme-color-light" name="theme-color" media="(prefers-color-scheme: light)" content="#f5f0e8">
+  <meta id="theme-color-dark" name="theme-color" media="(prefers-color-scheme: dark)" content="#1c181c">
+  <script>
+    (() => {
+      document.documentElement.classList.add("js");
+      const storageKey = "yuri-classification-theme";
+      const allowed = new Set(["system", "light", "dark"]);
+      let preference = "system";
+      try {
+        const stored = localStorage.getItem(storageKey);
+        if (allowed.has(stored)) preference = stored;
+      } catch (_error) {
+        preference = "system";
+      }
+      const systemDark = window.matchMedia?.("(prefers-color-scheme: dark)").matches;
+      const theme = preference === "system"
+        ? (systemDark ? "dark" : "light")
+        : preference;
+      document.documentElement.dataset.theme = theme;
+      document.documentElement.dataset.themePreference = preference;
+      document.documentElement.style.colorScheme = theme;
+      const lightMeta = document.getElementById("theme-color-light");
+      const darkMeta = document.getElementById("theme-color-dark");
+      if (preference === "system") {
+        lightMeta.content = "#f5f0e8";
+        darkMeta.content = "#1c181c";
+      } else {
+        const color = theme === "dark" ? "#1c181c" : "#f5f0e8";
+        lightMeta.content = color;
+        darkMeta.content = color;
+      }
+    })();
+  </script>
+  <link rel="canonical" href="https://l-m-sherlock.github.io/yuri-classification-archive/works/yun_shen_buzhi_meng_web_2025/">
+  <link rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="百合作品分类档案">
+  <meta property="og:title" content="《云深不知梦》分类报告｜百合作品分类档案">
+  <meta property="og:description" content="《云深不知梦》的女女关系位于重要副线。云望舒与龙儿的姐妹／选择家庭、云望舒与炽阳华明的朋友／政治搭档、云望舒与云珞璇的师姐妹关系，以及华明与母亲的亲情，都真实影响人物选择和复仇行动；它们不是可有可无的装饰。不过，正篇分别用“姐姐”“家人”“朋友”“亲姐妹”“母亲”等词积极命名这些关系，没有建立女女告白、欲望、恋……">
+  <meta property="og:url" content="https://l-m-sherlock.github.io/yuri-classification-archive/works/yun_shen_buzhi_meng_web_2025/">
+  <meta property="og:image" content="https://l-m-sherlock.github.io/yuri-classification-archive/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+  <title>《云深不知梦》分类报告｜百合作品分类档案</title>
+  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=7a82f1582188">
+
+</head>
+<body class="classification-report">
+  <a class="skip-link" href="#main-content">跳到正文</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="/yuri-classification-archive/">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>
+          <strong>百合作品分类档案</strong>
+          <small>按查询拆开标签，按证据保留边界</small>
+        </span>
+      </a>
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-navigation"
+      >
+        <span>菜单</span>
+        <span class="menu-toggle-icon" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-navigation" aria-label="主导航">
+        <div class="nav-main">
+          <a href="/yuri-classification-archive/">首页</a>
+          <a href="/yuri-classification-archive/table/">总表</a>
+          <a href="/yuri-classification-archive/articles/">专题</a>
+          <a href="/yuri-classification-archive/tools/">工具</a>
+          <a href="/yuri-classification-archive/about/">方法与说明</a>
+        </div>
+        <a class="nav-star" href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub / Star <span aria-hidden="true">↗</span></a>
+        <a class="nav-feedback" href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
+        <label class="theme-control" for="theme-preference">
+          <span>主题</span>
+          <select id="theme-preference" aria-label="主题偏好">
+            <option value="system">跟随系统</option>
+            <option value="light">浅色</option>
+            <option value="dark">深色</option>
+          </select>
+        </label>
+      </nav>
+    </div>
+  </header>
+  <main id="main-content">
+    <article class="report-page">
+  <header class="report-header">
+    <p class="eyebrow">WEB 动画 · 2026-08-16</p>
+    <h1>《云深不知梦》分类报告</h1>
+    <p class="report-subtitle">2025 年 7 月 5 日至 12 月 20 日公开的 WEB／ONA 动画正篇第 1–26 集；与 Bangumi subject 516423、AniList anime 198697、MyAnimeList anime 61621 精确对应的单一完整发行版本；逐集简体中文字幕文本审阅，以及用于锁定版本和公开发布范围的官方资料</p>
+    <div class="label-strip" aria-label="分类摘要">
+      <span class="label-chip"><strong>女女关系：</strong>重要副线</span><span class="label-chip"><strong>百合归档结论：</strong>非百合</span><span class="label-chip"><strong>女女恋爱位置：</strong>缺席</span><span class="label-chip"><strong>女女关系最高明确度：</strong>非恋爱</span><span class="label-chip"><strong>官方字面百合／GL：</strong>所核未见</span><span class="label-chip"><strong>官方女女恋爱表述：</strong>所核未见</span><span class="label-chip"><strong>官方来源：</strong>层级：当前版本；位置：可见作品宣传</span><span class="label-chip"><strong>结论置信度：</strong>中<span class="inline-help" tabindex="0" aria-label="查看结论置信度说明" aria-describedby="report-confidence-help"><span aria-hidden="true">?</span><span class="term-tooltip" id="report-confidence-help" role="tooltip">表示当前锁定范围内，现有证据对本报告主要分类结论的支持稳定度；它不是百合程度、作品质量、社群共识或统计概率。</span></span></span>
+    </div>
+    <a class="back-link" href="/yuri-classification-archive/table/?q=%E4%BA%91%E6%B7%B1%E4%B8%8D%E7%9F%A5%E6%A2%A6">← 返回总表并定位本作</a>
+  </header>
+  <section class="relationship-overview" data-confirmed-female-female-count="4" aria-labelledby="relationship-overview-title"><div class="relationship-overview-heading"><p class="eyebrow">RELATIONSHIP SNAPSHOT</p><h2 id="relationship-overview-title">关系构成速览</h2></div><p class="relationship-overview-total"><strong>4</strong><span>条已确认女女关系记录</span></p><div class="relationship-overview-grid"><div class="relationship-overview-group"><h3>叙事位置</h3><ul><li data-axis="narrative_centrality" data-code="important_secondary" data-count="2"><span>重要副线</span><strong>2</strong></li><li data-axis="narrative_centrality" data-code="local" data-count="2"><span>局部</span><strong>2</strong></li></ul></div><div class="relationship-overview-group"><h3>恋爱明确度</h3><ul><li data-axis="romance_explicitness" data-code="non_romantic" data-count="4"><span>非恋爱</span><strong>4</strong></li></ul></div><div class="relationship-overview-group"><h3>相互性</h3><ul><li data-axis="mutuality" data-code="mutual" data-count="4"><span>双向</span><strong>4</strong></li></ul></div></div><p class="relationship-overview-note">只汇总档案中逐条确认的女女关系记录；它不是配对数量、出场时间、互动频率，也不是任何程度评分。</p></section>
+  <section class="work-tag-section" aria-labelledby="work-tag-title"><div class="work-tag-heading"><div><h2 id="work-tag-title">统一标签</h2><p>用于内容检索，不替代关系分类。</p></div><div class="unified-tag-list"><a class="unified-tag" data-facet-id="historical_setting" href="/yuri-classification-archive/table/?facet=historical_setting" aria-label="用统一标签“历史”筛选总表">历史</a><a class="unified-tag" data-facet-id="action" href="/yuri-classification-archive/table/?facet=action" aria-label="用统一标签“动作”筛选总表">动作</a><a class="unified-tag" data-facet-id="adventure" href="/yuri-classification-archive/table/?facet=adventure" aria-label="用统一标签“冒险”筛选总表">冒险</a><a class="unified-tag" data-facet-id="fantasy" href="/yuri-classification-archive/table/?facet=fantasy" aria-label="用统一标签“奇幻”筛选总表">奇幻</a><a class="unified-tag" data-facet-id="tragedy" href="/yuri-classification-archive/table/?facet=tragedy" aria-label="用统一标签“悲剧”筛选总表">悲剧</a></div></div><details class="raw-platform-tags"><summary><span>四平台原始标签</span><small>展开查看平台原文与权重</small></summary><div class="raw-platform-tags-content"><p class="raw-tag-snapshot-note">依据集中快照（总库更新时间：2026-08-16）；不是平台实时状态。复合条目在平台内合并去重。</p><div class="raw-platform-grid"><section class="raw-platform-card" aria-labelledby="raw-platform-bangumi" data-platform="bangumi"><div class="raw-platform-heading"><h3 id="raw-platform-bangumi">Bangumi</h3></div><div class="raw-tag-group" data-platform="bangumi" data-field="ordinary_tags"><h4>用户标签</h4><ul class="raw-tag-list"><li class="raw-tag"><span class="raw-tag-name">国产</span><small class="raw-tag-weight">22 人</small></li><li class="raw-tag"><span class="raw-tag-name">玄幻</span><small class="raw-tag-weight">16 人</small></li><li class="raw-tag"><span class="raw-tag-name">国漫</span><small class="raw-tag-weight">15 人</small></li><li class="raw-tag"><span class="raw-tag-name">战斗</span><small class="raw-tag-weight">13 人</small></li><li class="raw-tag"><span class="raw-tag-name">原创</span><small class="raw-tag-weight">12 人</small></li><li class="raw-tag"><span class="raw-tag-name">大女主</span><small class="raw-tag-weight">10 人</small></li><li class="raw-tag"><span class="raw-tag-name">2025</span><small class="raw-tag-weight">8 人</small></li><li class="raw-tag"><span class="raw-tag-name">中国</span><small class="raw-tag-weight">7 人</small></li><li class="raw-tag"><span class="raw-tag-name">3D</span><small class="raw-tag-weight">7 人</small></li><li class="raw-tag"><span class="raw-tag-name">复仇</span><small class="raw-tag-weight">6 人</small></li><li class="raw-tag"><span class="raw-tag-name">2025年7月</span><small class="raw-tag-weight">5 人</small></li><li class="raw-tag"><span class="raw-tag-name">伊恩动漫</span><small class="raw-tag-weight">4 人</small></li><li class="raw-tag"><span class="raw-tag-name">TV</span><small class="raw-tag-weight">4 人</small></li><li class="raw-tag"><span class="raw-tag-name">WEB</span><small class="raw-tag-weight">4 人</small></li><li class="raw-tag"><span class="raw-tag-name">爽漫</span><small class="raw-tag-weight">2 人</small></li><li class="raw-tag"><span class="raw-tag-name">动画</span><small class="raw-tag-weight">2 人</small></li><li class="raw-tag"><span class="raw-tag-name">优酷</span><small class="raw-tag-weight">2 人</small></li><li class="raw-tag"><span class="raw-tag-name">剧情烂</span><small class="raw-tag-weight">1 人</small></li><li class="raw-tag"><span class="raw-tag-name">周六</span><small class="raw-tag-weight">1 人</small></li><li class="raw-tag"><span class="raw-tag-name">3分</span><small class="raw-tag-weight">1 人</small></li><li class="raw-tag"><span class="raw-tag-name">youku</span><small class="raw-tag-weight">1 人</small></li><li class="raw-tag"><span class="raw-tag-name">7</span><small class="raw-tag-weight">1 人</small></li><li class="raw-tag"><span class="raw-tag-name">10:00</span><small class="raw-tag-weight">1 人</small></li><li class="raw-tag"><span class="raw-tag-name">2025补</span><small class="raw-tag-weight">1 人</small></li><li class="raw-tag"><span class="raw-tag-name">云深不知梦</span><small class="raw-tag-weight">1 人</small></li></ul></div></section><section class="raw-platform-card" aria-labelledby="raw-platform-anime-planet" data-platform="anime_planet"><div class="raw-platform-heading"><h3 id="raw-platform-anime-planet">Anime-Planet</h3></div><div class="raw-tag-group" data-platform="anime_planet" data-field="tags"><h4>Tags</h4><ul class="raw-tag-list"><li class="raw-tag"><span class="raw-tag-name">Action</span></li><li class="raw-tag"><span class="raw-tag-name">Fantasy</span></li><li class="raw-tag"><span class="raw-tag-name">Betrayal</span></li><li class="raw-tag"><span class="raw-tag-name">Chinese Animation</span></li><li class="raw-tag"><span class="raw-tag-name">Cultivation</span></li><li class="raw-tag"><span class="raw-tag-name">Martial Arts</span></li><li class="raw-tag"><span class="raw-tag-name">Revenge</span></li><li class="raw-tag"><span class="raw-tag-name">CG Animation</span></li><li class="raw-tag"><span class="raw-tag-name">Original Work</span></li></ul></div></section><section class="raw-platform-card" aria-labelledby="raw-platform-anilist" data-platform="anilist"><div class="raw-platform-heading"><h3 id="raw-platform-anilist">AniList</h3></div><div class="raw-tag-group" data-platform="anilist" data-field="genres"><h4>Genres</h4><ul class="raw-tag-list"><li class="raw-tag"><span class="raw-tag-name">Action</span></li><li class="raw-tag"><span class="raw-tag-name">Adventure</span></li><li class="raw-tag"><span class="raw-tag-name">Fantasy</span></li></ul></div><div class="raw-tag-group" data-platform="anilist" data-field="tags"><h4>Tags</h4><ul class="raw-tag-list"><li class="raw-tag"><span class="raw-tag-name">Female Protagonist</span><small class="raw-tag-weight">rank 79</small></li><li class="raw-tag"><span class="raw-tag-name">Conspiracy</span><small class="raw-tag-weight">rank 79</small></li><li class="raw-tag"><span class="raw-tag-name">Mythology</span><small class="raw-tag-weight">rank 79</small></li><li class="raw-tag"><span class="raw-tag-name">Primarily Adult Cast</span><small class="raw-tag-weight">rank 79</small></li><li class="raw-tag"><span class="raw-tag-name">Revenge</span><small class="raw-tag-weight">rank 73</small></li><li class="raw-tag"><span class="raw-tag-name">Anti-Hero</span><small class="raw-tag-weight">rank 60</small></li><li class="raw-tag"><span class="raw-tag-name">Cultivation</span><small class="raw-tag-weight">rank 60</small></li><li class="raw-tag"><span class="raw-tag-name">Reincarnation</span><small class="raw-tag-weight">rank 60</small></li><li class="raw-tag"><span class="raw-tag-name">Tragedy</span><small class="raw-tag-weight">rank 60</small></li><li class="raw-tag"><span class="raw-tag-name">Yuri</span><small class="raw-tag-weight">rank 50</small></li><li class="raw-tag"><span class="raw-tag-name">Full CGI</span><small class="raw-tag-weight">rank 20</small></li><li class="raw-tag"><span class="raw-tag-name">Dragons</span><small class="raw-tag-weight">rank 20</small></li><li class="raw-tag"><span class="raw-tag-name">Necromancy</span><small class="raw-tag-weight">rank 20</small></li></ul></div></section><section class="raw-platform-card" aria-labelledby="raw-platform-myanimelist" data-platform="myanimelist"><div class="raw-platform-heading"><h3 id="raw-platform-myanimelist">MyAnimeList</h3></div><div class="raw-tag-group" data-platform="myanimelist" data-field="genres"><h4>Genres</h4><ul class="raw-tag-list"><li class="raw-tag"><span class="raw-tag-name">Action</span></li><li class="raw-tag"><span class="raw-tag-name">Adventure</span></li><li class="raw-tag"><span class="raw-tag-name">Fantasy</span></li></ul></div><div class="raw-tag-group" data-platform="myanimelist" data-field="themes"><h4>Themes</h4><ul class="raw-tag-list"><li class="raw-tag"><span class="raw-tag-name">Historical</span></li><li class="raw-tag"><span class="raw-tag-name">Martial Arts</span></li></ul></div></section></div></div></details></section>
+  <div class="report-layout">
+    <aside class="report-toc">
+      <p>本页目录</p>
+      <ol><li><a href="#低剧透概览">低剧透概览</a></li><li><a href="#数据库与公开分类">数据库与公开分类</a></li><li><a href="#决定性文本证据">决定性文本证据</a></li><li><a href="#四层分析">四层分析</a></li><li><a href="#最强反方解释">最强反方解释</a></li><li><a href="#分用途结论">分用途结论</a></li><li><a href="#方法来源与限制">方法、来源与限制</a></li></ol>
+    </aside>
+    <div class="report-content">
+      <blockquote>
+<p>分类日期：2026-08-16<br> 分类对象：2025 年 WEB／ONA 动画《云深不知梦》正篇第 1–26 集<br> 纳入范围：2025 年 7 月 5 日至 12 月 20 日公开的完整 26 集版本<br> 排除范围：《云深不知梦Ⅱ》、特别篇、宣传片、原作及其他跨媒介材料<br> 用途：普通推荐与数据库分类</p>
+</blockquote>
+<h2 id="低剧透概览">低剧透概览</h2>
+<aside class="alert alert-note"><strong>说明</strong><div class="alert-content"><p><strong>分类信息提示：</strong> 本节不展开关键剧情、转折与结局，但分类信息本身会透露关系类型、叙事位置和恋爱明确度。希望完全盲看的读者请跳过本页。</p></div></aside>
+
+<p>《云深不知梦》的女女关系位于重要副线。云望舒与龙儿的姐妹／选择家庭、云望舒与炽阳华明的朋友／政治搭档、云望舒与云珞璇的师姐妹关系，以及华明与母亲的亲情，都真实影响人物选择和复仇行动；它们不是可有可无的装饰。不过，正篇分别用“姐姐”“家人”“朋友”“亲姐妹”“母亲”等词积极命名这些关系，没有建立女女告白、欲望、恋人称谓或交往状态。</p>
+<p>因此本档案结论为<strong>非百合</strong>。作品的主要组织轴是婚礼背叛后的复仇、宗门阴谋、玄幻战斗和身份真相；女性关系提供照护、联盟、背叛与重新选择，却没有形成恋爱主线，也不足以设置一个稳定的公共“文类外百合阅读”入口。云望舒与华明的情绪张力可以成为私人读法的抓手，但正篇从相识到结尾都以朋友和利用／真心的矛盾来收束。</p>
+<p>女女恋爱位置为缺席，范围内最高明确度为非恋爱；角色身份也没有直接依据。男性道侣婚约构成复仇起点，属于副线而非持续主导全作的恋爱叙事。完整 26 集中文字幕支持关系命名与主线位置判断，但未同步复核全部画面，故置信度为中；结论不覆盖无台词动作、构图或表演细节。</p>
+<h3 id="分层标签">分层标签</h3>
+<blockquote>
+<p><strong>女女关系层级：重要副线｜百合归档结论：非百合｜恋爱位置：缺席｜最高明确度：非恋爱｜关系构成：多组异质关系｜官方字面：所核未见｜官方恋爱表述：所核未见｜官方来源：范围内版本＋公开播放列表与简介｜阅读层级：正篇事实／强推断／读者解读｜身份依据类型：范围内无依据｜男性恋爱线：副线｜内容提示：婚礼背叛、灭门、复仇、死亡、残魂、亲人分离与身体伤害</strong></p>
+</blockquote>
+<h3 id="严格恋爱检索提示">严格恋爱检索提示</h3>
+<ul>
+<li>只找女女双方正式开始交往或有恋人称谓：<strong>不符合</strong>；范围内没有女女恋人称谓、交往确认或等价承诺。</li>
+<li>只找对女性的明确告白、爱情或性欲望：<strong>不符合</strong>；“我爱你”出现在明确的母女语境，不能脱离亲属关系使用。</li>
+<li>接受明显但未确认的女女恋爱指向：<strong>不建议纳入</strong>；云望舒与华明有情绪影响、救治和共同冒险，但正篇持续命名为朋友，并明确写出政治利用。</li>
+<li>寻找重要的非恋爱女性关系：<strong>符合</strong>；姐妹／选择家庭、朋友／搭档、师姐妹与母女关系共同承担重要副线。</li>
+<li>只按平台 Yuri 标签召回候选：<strong>可以召回</strong>；AniList 的 Yuri rank 50 说明平台检索语境，不能替代正篇分类。</li>
+</ul>
+<h2 id="数据库与公开分类">数据库与公开分类</h2>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>来源</th>
+<th>条目与字段</th>
+<th>来源类型</th>
+<th>本报告如何使用</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://www.youtube.com/playlist?list=PLQXpxE9saH823-g-taWm7ukGvAzRfX2iZ" target="_blank" rel="noopener noreferrer">YOUKU English Animation 官方播放列表</a></td>
+<td>《Eclipse of Illusion》26 个视频；公开简介以婚礼背叛、灭门和复仇介绍女主角</td>
+<td>官方发布与营销简介</td>
+<td>锁定 26 集范围和作品主轴；所核公开字面未使用百合／GL或女女恋爱分类</td>
+</tr>
+<tr>
+<td><a href="https://bangumi.tv/subject/516423" target="_blank" rel="noopener noreferrer">Bangumi subject 516423</a></td>
+<td>WEB、26 集、2025-07-05 至 2025-12-20；普通用户 tags 以国产、玄幻、国漫、战斗、原创、大女主等为主，未见精确“百合”</td>
+<td>社区数据库与用户标签</td>
+<td>确认精确版本和社区检索语境；用户标签不是官方分类，也不证明关系不存在</td>
+</tr>
+<tr>
+<td><a href="https://www.anime-planet.com/anime/eclipse-of-illusion" target="_blank" rel="noopener noreferrer">Anime-Planet：Eclipse of Illusion</a></td>
+<td>Web、26 集、2025；Tags 包括 Action、Fantasy、Betrayal、Chinese Animation、Cultivation、Martial Arts、Revenge、CG Animation、Original Work，所核未见 GL</td>
+<td>编辑／检索标签</td>
+<td>说明该站把作品放入动作、奇幻、复仇和修炼入口；未标 GL 不能当作反证</td>
+</tr>
+<tr>
+<td><a href="https://anilist.co/anime/198697" target="_blank" rel="noopener noreferrer">AniList anime 198697</a></td>
+<td>ONA、26 集、Finished；Genres 为 Action、Adventure、Fantasy；Yuri rank 50，且页面将其折叠为 spoiler tag</td>
+<td>带 rank 的相关性标签</td>
+<td>作为本作进入候选队列的检索信号；rank 是标签相关度，不是恋爱强度、官方认证或用户票数</td>
+</tr>
+<tr>
+<td><a href="https://myanimelist.net/anime/61621/Yun_Shen_Buzhi_Meng" target="_blank" rel="noopener noreferrer">MyAnimeList anime 61621</a></td>
+<td>ONA、26 集、Finished Airing；Genres 为 Action、Adventure、Fantasy；Themes 为 Historical、Martial Arts；未列 Girls Love</td>
+<td>固定 Genres／Themes 分类</td>
+<td>确认版本和类型字段；Girls Love 沉默不否定文本中的女性关系</td>
+</tr>
+</tbody>
+</table></div>
+<p>四个平台提供的是不同制度下的检索压缩：Bangumi 是社区用户 tags，Anime-Planet 是编辑式检索标签，AniList 的标签带相关度 rank，MyAnimeList 则把 Genres 与 Themes 分组。这里既不能把 AniList 的 Yuri 50换算成“半百合”，也不能把另外三站的沉默换算成“不是百合”的平台裁决。最终分类仍要回到范围内人物关系与叙事位置。</p>
+<blockquote>
+<p>数据库沉默写“未标”，不能写成“否认”；标签权重、计数和站点数量不能换算成社群支持率。</p>
+</blockquote>
+<aside class="alert alert-warning"><strong>剧透提示</strong><div class="alert-content"><p>以下部分包含所述 26 集版本的完整剧透。</p></div></aside>
+
+      <details class="spoiler-panel">
+        <summary>
+          <span>展开详细证据（含完整剧透）</span>
+          <small>决定性证据、四层分析、反方解释与方法限制</small>
+        </summary>
+        <div class="spoiler-content">
+          <h2 id="决定性文本证据">决定性文本证据</h2>
+<p>以下短引来自第 1–26 集简体中文字幕；时间码用于文字定位，未同步复核画面。</p>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>位置</th>
+<th>原文与中文摘要</th>
+<th>叙事层级</th>
+<th>证据强度与视听复核</th>
+<th>能证明什么</th>
+<th>不能证明什么</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>第 1 集 00:06:48–00:07:20</td>
+<td>婚礼仪式宣布封仪问雪与云望舒“立道侣誓”“姻结相缔”，并说“我只愿得一人心”</td>
+<td>现实仪式</td>
+<td>直接；仅文字定位</td>
+<td>二人有明确男女道侣婚约，背叛发生在已建立的恋爱关系中</td>
+<td>不能把复仇继续时间等同于全作仍以恋爱为主线</td>
+</tr>
+<tr>
+<td>第 2 集 00:07:11–00:07:18</td>
+<td>龙儿说“只记得你就是我姐姐”；云望舒回应“今后你我便相依为命”</td>
+<td>现实台词</td>
+<td>直接；仅文字定位</td>
+<td>二人主动建立姐妹／选择家庭关系，并安排共同生活</td>
+<td>“相依为命”本身不等于女女恋爱或身份自述</td>
+</tr>
+<tr>
+<td>第 4 集 00:15:00–00:15:19</td>
+<td>云珞璇说师姐“救了我，疼我、爱我”二十余年，“就像我的亲姐妹”；对方讥讽“姐妹情深”</td>
+<td>回忆与现实台词</td>
+<td>直接；仅文字定位</td>
+<td>关系包含长期照护和亲姐妹命名，之后的背叛具有关系后果</td>
+<td>“爱我”处于亲属／师姐妹语境，不能机械升级为爱情</td>
+</tr>
+<tr>
+<td>第 5 集 00:05:28–00:05:35；第 11 集 00:02:36–00:03:32</td>
+<td>龙儿指出云珞璇背叛姐姐；后续又明确说云望舒救下并带走她的残魂</td>
+<td>现实台词</td>
+<td>直接；仅文字定位</td>
+<td>背叛没有抹去师姐妹关系，救援显示云望舒仍作出选择</td>
+<td>不能证明二人和解、恢复亲密或存在恋爱</td>
+</tr>
+<tr>
+<td>第 7 集 00:03:18–00:03:26；第 26 集 00:20:17–00:20:26</td>
+<td>云望舒为取得助力提出成为华明的朋友；结尾华明仍说“可我还是曦和，你的朋友”</td>
+<td>现实台词</td>
+<td>直接；仅文字定位</td>
+<td>正篇从开端到结尾把二人命名为朋友，并保留个人关系与政治身份的区别</td>
+<td>朋友字面不消除读者感到的情绪张力，但它也不能被忽略</td>
+</tr>
+<tr>
+<td>第 10 集 00:16:21–00:16:43</td>
+<td>华明说云望舒调查自己的喜好、起居并“左右我的情绪”；云望舒回应“你于我便没有利用价值了”</td>
+<td>现实台词</td>
+<td>直接；仅文字定位</td>
+<td>二人关系同时包含情绪影响、政治算计和受伤后的对质</td>
+<td>不能单凭情绪影响推出嫉妒、告白或爱情</td>
+</tr>
+<tr>
+<td>第 10 集 00:18:22–00:19:31</td>
+<td>云望舒以自身心脉灵能修补华明的经脉；华明脱险后道谢</td>
+<td>现实行动说明与台词</td>
+<td>直接；仅文字定位</td>
+<td>云望舒愿为华明承担身体代价，照护改变了二人的合作关系</td>
+<td>救治和牺牲可以发生于朋友／盟友之间，不自动证明恋爱</td>
+</tr>
+<tr>
+<td>第 19 集 00:10:42–00:10:46；第 22 集 00:02:06–00:02:08</td>
+<td>云望舒说“只有龙儿一直陪着我”“绝不会让她也失去家人”；龙儿回应会一直陪在姐姐身边</td>
+<td>现实台词</td>
+<td>直接；仅文字定位</td>
+<td>姐妹关系通过失去、照护和重新承诺持续到后段</td>
+<td>长期陪伴仍没有建立女女欲望、恋人称谓或交往</td>
+</tr>
+<tr>
+<td>第 21 集 00:10:26–00:10:33</td>
+<td>他人指出“炽阳华明视你为友”，追问云望舒“对她有几分真心、几分利用”</td>
+<td>现实台词</td>
+<td>直接；仅文字定位</td>
+<td>作品把二人核心矛盾明确写成友谊中的真心与利用</td>
+<td>第三方追问不能替代二人的恋爱确认</td>
+</tr>
+<tr>
+<td>第 26 集 00:15:18–00:15:26</td>
+<td>华明的母亲说疼爱女儿之心从未减弱；华明称“母亲”并回应“我爱你”</td>
+<td>现实台词</td>
+<td>直接；仅文字定位</td>
+<td>“我爱你”属于明确母女亲情，也说明女性亲属关系的结局作用</td>
+<td>不能截去“母亲”语境当作女女爱情证据</td>
+</tr>
+<tr>
+<td>第 12 集 00:20:15–00:20:32；第 21 集 00:03:21–00:03:41</td>
+<td>字幕以“他”指衔光，并说他与神龙漱玉追随烛照神女；后续回忆出现共同为女儿取名</td>
+<td>神话背景／回忆</td>
+<td>直接；仅文字定位</td>
+<td>这是衔光、漱玉与神女的神话家庭／搭档背景，衔光有男性指示</td>
+<td>“我们的女儿”不能在忽略参与者与前文的情况下被改写成女女恋爱</td>
+</tr>
+</tbody>
+</table></div>
+<p>这些证据共同支持一个较窄但稳定的判断：作品确实写了多组重要女性关系，也把照护、背叛、救援和重新选择放进主线行动；然而范围内每组关系都有积极的非恋爱命名或明确亲属语境。结论不是从“没有告白”推出来的，而是来自正篇反复给出的姐妹、朋友、母女、师姐妹和男女道侣结构。</p>
+<h2 id="四层分析">四层分析</h2>
+<h3 id="第一层文本中的关系">第一层：文本中的关系</h3>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>关系 ID</th>
+<th>关系／参与者</th>
+<th>类型</th>
+<th>叙事位置</th>
+<th>恋爱明确度</th>
+<th>相互性</th>
+<th>证据层级</th>
+<th>摘要</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>r01</td>
+<td>云望舒—龙儿</td>
+<td>亲情／选择家庭／搭档／师生或照护</td>
+<td>重要副线</td>
+<td>非恋爱</td>
+<td>双向</td>
+<td>正篇事实</td>
+<td>从“姐姐”与“相依为命”开始，经共同战斗、失去家庭的恐惧与持续陪伴形成稳定选择家庭</td>
+</tr>
+<tr>
+<td>r02</td>
+<td>云望舒—炽阳华明</td>
+<td>友情／搭档／其他（政治联盟）</td>
+<td>重要副线</td>
+<td>非恋爱</td>
+<td>双向</td>
+<td>正篇事实</td>
+<td>从带目的的接近发展为有真心、有利用、有救治和边界的朋友关系，结尾仍由人物亲口命名为朋友</td>
+</tr>
+<tr>
+<td>r03</td>
+<td>云望舒—云珞璇</td>
+<td>亲情／选择家庭／师生或照护／竞争</td>
+<td>局部</td>
+<td>非恋爱</td>
+<td>双向</td>
+<td>正篇事实</td>
+<td>长期师姐妹照护遭到背叛，随后进入残魂救援；“亲姐妹”是正篇给出的核心称谓</td>
+</tr>
+<tr>
+<td>r04</td>
+<td>炽阳华明—母亲</td>
+<td>亲情／师生或照护</td>
+<td>局部</td>
+<td>非恋爱</td>
+<td>双向</td>
+<td>正篇事实</td>
+<td>终局通过“母亲”“疼爱”和“我爱你”完成母女确认，语境没有恋爱歧义</td>
+</tr>
+<tr>
+<td>r05</td>
+<td>云望舒—封仪问雪</td>
+<td>恋爱／搭档／其他（道侣婚约与背叛）</td>
+<td>重要副线</td>
+<td>明确交往</td>
+<td>双向</td>
+<td>正篇事实</td>
+<td>婚礼道侣誓建立明确男女关系；背叛把它转化为复仇起点，而非持续恋爱主线</td>
+</tr>
+<tr>
+<td>r06</td>
+<td>衔光—神龙漱玉及烛照神女的神话家庭</td>
+<td>亲情／搭档／其他</td>
+<td>局部</td>
+<td>非恋爱</td>
+<td>不适用</td>
+<td>正篇事实</td>
+<td>男性指示、共同追随和共同育女构成神话家庭背景，不是可确认的女女恋爱关系</td>
+</tr>
+</tbody>
+</table></div>
+<p>云望舒与龙儿的关系最能说明“重要”与“恋爱”不是同一个问题。龙儿不只陪伴主角，还在失去、风险和共同战斗中反复回应；云望舒也把“不让她失去家人”当作行动边界。这足以把二人放入重要副线，却不要求把“姐姐”和选择家庭改名为爱情。</p>
+<p>云望舒与华明是最可能引出竞争解释的一组。华明注意到云望舒掌握自己的喜好、左右自己的情绪，云望舒又为她修补心脉；这些事实让关系不只是一次性盟约。但是作品同样把“利用”摆到台面，并在结尾保留“你的朋友”这一明确自称。若只取救治或情绪影响，会放大一部分信号；若只取朋友称谓，又会压扁二人经历的风险与信任。较完整的记录是：这是一段有张力、有真心也有算计的双向朋友／搭档关系，范围内没有形成恋爱方向。</p>
+<p>云珞璇和华明母亲的两组关系提供反例压力。前者出现“疼我、爱我”，但同一句紧接“亲姐妹”；后者直接出现“我爱你”，却由“母亲”与“女儿”锁定亲情语境。若把“爱”字当作总开关，会把亲属关系误收为恋爱，也会遮蔽背叛、救援和代际照护本来的叙事作用。</p>
+<h3 id="第二层作品的文类位置">第二层：作品的文类位置</h3>
+<p>作品整体首先是大女主复仇／玄幻行动剧。婚礼背叛、宗门覆灭和六十年后的复仇决定主线目标，阴谋调查、修炼、联盟与战斗决定情节推进。女性关系经常改变主角如何行动，却没有取代“追查与复仇”成为作品的主要文类承诺。</p>
+<p>非百合结论并不意味着这些女性关系“不够深”。云望舒与龙儿组织了家人失去与重新选择的副线；云望舒与华明组织了真心与利用的副线；云望舒与云珞璇组织了照护、背叛和仍然救援的副线；华明与母亲则在结局承担亲情确认。它们共同说明作品对女性关系投入了篇幅和后果，但文本给出的关系类别仍是亲情、友情和搭档。</p>
+<p>本档案也不采用文类外百合阅读作为公共归档依据。那一入口需要比“女性关系重要”更具体的恋爱或酷儿阅读抓手，并且要说明它如何持续贯穿作品。这里最强候选是云望舒与华明的情绪张力，但从主动接近、利益交换、伤后救治到结局自称，文本持续使用朋友框架；AniList 的 Yuri 标签能解释为何观众会检索到本作，却不能补出正篇没有建立的恋爱方向。私人读者仍可保留自己的联想，公共档案则应让这种联想保持可撤回。</p>
+<p>男性恋爱线为副线。云望舒与封仪问雪的道侣婚约是明确关系，也是背叛和复仇的起点；此后作品并未把二人持续恋爱关系作为目标，而是把婚约毁灭转换为行动动力。因此它既不能把全作简单归成恋爱剧，也不能在分类时被抹去。</p>
+<h3 id="第三层角色身份">第三层：角色身份</h3>
+<p>范围内没有人物自述女同性恋、双性恋或其他相关身份，也没有官方人物资料给出此类身份。姐妹、朋友、母女、师姐妹和女性共同体都不能自动换算性取向；AniList 的 Yuri 标签同样是作品层检索标签，而不是角色身份证据。</p>
+<p>云望舒曾与男性角色建立明确道侣婚约，但一段男女关系也不能单独推出她的完整性取向。华明与云望舒的亲密、救治和情绪影响没有被人物命名为爱情；因此角色身份检索应保持未知，而不是从“非百合”反推异性恋，也不是从平台标签反推同性恋。</p>
+<h3 id="第四层公共标签礼仪">第四层：公共标签礼仪</h3>
+<p>普通推荐应把《云深不知梦》描述为“大女主复仇／玄幻行动动画，含重要的姐妹、朋友和母女关系”。这比单独加“百合”更能让读者预期作品实际提供的内容。若推荐对象只要求强女性关系，可以提到云望舒与龙儿、云望舒与华明；若要求女女恋爱，则应明确不符合。</p>
+<p>数据库主标签宜使用动作、冒险、奇幻、历史、武术、修炼、复仇、中国动画或全 CGI 等平台已经稳定覆盖的内容维度。AniList 的 Yuri 50 可以保留在该平台原生标签记录中，但不应跨平台伪装成四站一致结论。Bangumi、Anime-Planet 和 MyAnimeList 所核未标相关入口，也不应被写成三票反对。</p>
+<p>严格明确恋爱检索不纳入本作。私人阅读可以围绕云望舒与华明的情绪影响、救治和共同冒险展开，但应同时告知朋友命名、利用冲突和缺少恋爱确认。官方分类查询只能回答所核官方播放列表与简介没有使用百合／GL或女女恋爱字面；这不是官方否认。</p>
+<h2 id="最强反方解释">最强反方解释</h2>
+<p>最强的反方不是“平台打了 Yuri，所以一定是百合”，而是一个更完整的广义阅读：作品以女性主角为中心，主要盟友、照护者、背叛者和家庭关系大量由女性承担；云望舒与龙儿有长期共同生活承诺，云望舒与华明彼此影响情绪、承担身体代价并在政治身份外保留私人关系；神话回忆又出现共同育女意象。对只寻找“女性之间持续选择与共同生活”的读者，这些材料确实能形成百合感，AniList 的 spoiler 标签也说明公共检索中存在这种阅读入口。</p>
+<p>这套解释能推翻“本作没有重要女性关系”或“所有关系都只是临时同伴”的说法，也足以支持带清楚限定的私人阅读。它仍不能推翻当前非百合结论：范围内最主要的女性关系分别被命名为姐妹／家人、朋友、亲姐妹和母女；情绪张力没有进入告白、欲望、恋人或共同恋爱未来；共同育女的神话段落还必须与衔光的男性指示一起理解。若把所有照护、牺牲和共同生活都直接合并为恋爱，就会同时误收亲情和友情。</p>
+<p>若未来出现可核对的官方剧本、完整视听细节或范围内补充内容，明确让云望舒与华明或其他女性角色表达爱情、欲望、恋人关系，或以持续画面行为显著改变目前的朋友／亲属解释，当前判断可能改变。仅增加一个平台标签、提高 rank，或把“爱”字从母女／姐妹语境中截出，不足以改变结论。</p>
+<h2 id="分用途结论">分用途结论</h2>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>用途</th>
+<th>分类</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>普通作品推荐</td>
+<td>大女主复仇／玄幻行动动画；可注明有重要姐妹、朋友和母女关系，不作为百合作品推荐</td>
+</tr>
+<tr>
+<td>数据库主标签</td>
+<td>动作、冒险、奇幻、历史、武术、修炼、复仇、中国动画、全 CGI；不建议把百合／GL作为无条件主标签</td>
+</tr>
+<tr>
+<td>严格明确恋爱检索</td>
+<td>不纳入；范围内没有女女明确交往、明确欲望或潜在恋爱关系</td>
+</tr>
+<tr>
+<td>私人百合阅读</td>
+<td>可围绕云望舒与华明的关系张力或云望舒与龙儿的选择家庭自愿阅读，但须保留朋友／姐妹字面和非恋爱结论</td>
+</tr>
+<tr>
+<td>角色身份检索</td>
+<td>不纳入；范围内无明确身份自述或官方身份设定</td>
+</tr>
+<tr>
+<td>官方分类查询</td>
+<td>所核官方播放列表与简介未使用百合／GL或女女恋爱字面；只能报告未标，不能写成官方否认</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="方法来源与限制">方法、来源与限制</h2>
+<ul>
+<li>分类对象由 Bangumi 516423、AniList 198697、MyAnimeList 61621、Anime-Planet 精确页面和官方播放列表共同锁定为 2025 年 WEB／ONA 动画第 1–26 集；续篇、特别篇、宣传片和跨媒介材料不在范围内。</li>
+<li>主审材料为与精确版本对应的 26 集简体中文 SRT，完整覆盖第 1–26 集，共 6,662 条字幕事件；关系称谓、承诺、利用、照护、亲情“爱”和男性道侣婚约均按前后语境逐集审阅。</li>
+<li>字幕时间码只支持对白和明确的行动说明；未同步复核全部视频，因此不从无台词画面、构图、表情、身体接触或声音补写事实，这也是置信度保持为中的主要限制。</li>
+<li>官方资料仅使用公开播放列表、可见简介和发布范围；第 6–26 集在所核官方频道需要会员权限，本报告不声称完成官方全季视听复核。</li>
+<li>Bangumi 普通用户 tags、Anime-Planet 编辑 tags、AniList 带 rank 标签和 MyAnimeList 的 Genres／Themes 按各自制度分开记录；任何命中或沉默都不替代正篇关系证据。</li>
+<li>简体中文字幕用于中文短引和定位，不冒充官方中文剧本；若译文与原始中文配音、正式台本或完整视听细节发生可核对冲突，应以更直接的范围内材料为准，相关判断随之改变。</li>
+</ul>
+
+        </div>
+      </details>
+    </div>
+  </div>
+</article>
+
+<section class="feedback-section">
+  <div>
+    <p class="eyebrow">REPORT FEEDBACK</p>
+    <h2>提交可核查的修订建议</h2>
+    <p>请注明作品版本、集数／章节、要质疑的原句、可公开核查的来源，以及建议如何修订。评论属于待核查反馈，不会自动成为报告证据。</p>
+  </div>
+  <div class="giscus"></div>
+<div class="giscus-config"
+        hidden
+        data-repo="L-M-Sherlock/yuri-classification-archive"
+        data-repo-id="R_kgDOTo1RzA"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOTo1RzM4DCXAh"
+        data-mapping="specific"
+        data-term="classification:yun_shen_buzhi_meng_web_2025"
+        data-strict="1"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-lang="zh-CN"
+        data-loading="lazy"
+        aria-hidden="true"></div>
+</section>
+
+  </main>
+  <footer class="site-footer">
+    <div>
+      <p>分类是面向具体查询的检索工具，不是替作品关系作终审判决。</p>
+      <p class="footer-ai-note">本站使用以 OpenAI Codex 为主的生成式 AI 辅助研究、写作与站点开发；人工审阅未覆盖全部作品报告。<a href="/yuri-classification-archive/about/#AI使用说明">查看 AI 使用说明</a></p>
+      <p>© 2026 Jarrett Ye · <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="license noopener noreferrer">CC BY-NC-SA 4.0</a> · <a href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub 仓库</a> · <a href="/yuri-classification-archive/about/#使用边界">使用边界</a></p>
+    </div>
+  </footer>
+  <script>window.SITE_CONFIG = {basePath: "/yuri-classification-archive"};</script>
+  <script src="/yuri-classification-archive/assets/site.js?v=eeeec5872796" defer></script>
+
+</body>
+</html>

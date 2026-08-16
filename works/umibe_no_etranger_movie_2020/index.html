@@ -1,0 +1,431 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="本片的主要叙事是桥本駿与知花実央之间的男男恋爱：二人从海边相遇、分离到再次靠近，恋爱表达、共同生活和未来选择组织了电影的冲突与收束。女性关系并非全片主轴，但絵理与鈴以共同居住、相互照料和伴侣式亲密构成重要副线；这组关系有明确文本和官方宣传支点，不能被写成“女性关系缺席”。 因此本报告采用“文类外百合阅读”。絵理……">
+  <meta name="color-scheme" content="light dark">
+  <meta id="theme-color-light" name="theme-color" media="(prefers-color-scheme: light)" content="#f5f0e8">
+  <meta id="theme-color-dark" name="theme-color" media="(prefers-color-scheme: dark)" content="#1c181c">
+  <script>
+    (() => {
+      document.documentElement.classList.add("js");
+      const storageKey = "yuri-classification-theme";
+      const allowed = new Set(["system", "light", "dark"]);
+      let preference = "system";
+      try {
+        const stored = localStorage.getItem(storageKey);
+        if (allowed.has(stored)) preference = stored;
+      } catch (_error) {
+        preference = "system";
+      }
+      const systemDark = window.matchMedia?.("(prefers-color-scheme: dark)").matches;
+      const theme = preference === "system"
+        ? (systemDark ? "dark" : "light")
+        : preference;
+      document.documentElement.dataset.theme = theme;
+      document.documentElement.dataset.themePreference = preference;
+      document.documentElement.style.colorScheme = theme;
+      const lightMeta = document.getElementById("theme-color-light");
+      const darkMeta = document.getElementById("theme-color-dark");
+      if (preference === "system") {
+        lightMeta.content = "#f5f0e8";
+        darkMeta.content = "#1c181c";
+      } else {
+        const color = theme === "dark" ? "#1c181c" : "#f5f0e8";
+        lightMeta.content = color;
+        darkMeta.content = color;
+      }
+    })();
+  </script>
+  <link rel="canonical" href="https://l-m-sherlock.github.io/yuri-classification-archive/works/umibe_no_etranger_movie_2020/">
+  <link rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="百合作品分类档案">
+  <meta property="og:title" content="《海边的异邦人》分类报告｜百合作品分类档案">
+  <meta property="og:description" content="本片的主要叙事是桥本駿与知花実央之间的男男恋爱：二人从海边相遇、分离到再次靠近，恋爱表达、共同生活和未来选择组织了电影的冲突与收束。女性关系并非全片主轴，但絵理与鈴以共同居住、相互照料和伴侣式亲密构成重要副线；这组关系有明确文本和官方宣传支点，不能被写成“女性关系缺席”。 因此本报告采用“文类外百合阅读”。絵理……">
+  <meta property="og:url" content="https://l-m-sherlock.github.io/yuri-classification-archive/works/umibe_no_etranger_movie_2020/">
+  <meta property="og:image" content="https://l-m-sherlock.github.io/yuri-classification-archive/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+  <title>《海边的异邦人》分类报告｜百合作品分类档案</title>
+  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=7a82f1582188">
+
+</head>
+<body class="classification-report">
+  <a class="skip-link" href="#main-content">跳到正文</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="/yuri-classification-archive/">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>
+          <strong>百合作品分类档案</strong>
+          <small>按查询拆开标签，按证据保留边界</small>
+        </span>
+      </a>
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-navigation"
+      >
+        <span>菜单</span>
+        <span class="menu-toggle-icon" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-navigation" aria-label="主导航">
+        <div class="nav-main">
+          <a href="/yuri-classification-archive/">首页</a>
+          <a href="/yuri-classification-archive/table/">总表</a>
+          <a href="/yuri-classification-archive/articles/">专题</a>
+          <a href="/yuri-classification-archive/tools/">工具</a>
+          <a href="/yuri-classification-archive/about/">方法与说明</a>
+        </div>
+        <a class="nav-star" href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub / Star <span aria-hidden="true">↗</span></a>
+        <a class="nav-feedback" href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
+        <label class="theme-control" for="theme-preference">
+          <span>主题</span>
+          <select id="theme-preference" aria-label="主题偏好">
+            <option value="system">跟随系统</option>
+            <option value="light">浅色</option>
+            <option value="dark">深色</option>
+          </select>
+        </label>
+      </nav>
+    </div>
+  </header>
+  <main id="main-content">
+    <article class="report-page">
+  <header class="report-header">
+    <p class="eyebrow">剧场动画 · 2026-08-16</p>
+    <h1>《海边的异邦人》分类报告</h1>
+    <p class="report-subtitle">2020 年剧场版《海辺のエトランゼ》正片（Bangumi subject 293610，1 部）；与 AniList 112788、MyAnimeList 40615 精确对应的电影版本；官方作品介绍、故事页、角色页及官方宣传帖中与本电影版本直接相关的表述</p>
+    <div class="label-strip" aria-label="分类摘要">
+      <span class="label-chip"><strong>女女关系：</strong>重要副线</span><span class="label-chip"><strong>百合归档结论：</strong>文类外百合阅读</span><span class="label-chip"><strong>女女恋爱位置：</strong>重要副线</span><span class="label-chip"><strong>女女关系最高明确度：</strong>明确交往</span><span class="label-chip"><strong>官方字面百合／GL：</strong>所核未见</span><span class="label-chip"><strong>官方女女恋爱表述：</strong>是</span><span class="label-chip"><strong>官方来源：</strong>层级：当前版本；位置：剧情／角色页、可见作品宣传</span><span class="label-chip"><strong>结论置信度：</strong>高<span class="inline-help" tabindex="0" aria-label="查看结论置信度说明" aria-describedby="report-confidence-help"><span aria-hidden="true">?</span><span class="term-tooltip" id="report-confidence-help" role="tooltip">表示当前锁定范围内，现有证据对本报告主要分类结论的支持稳定度；它不是百合程度、作品质量、社群共识或统计概率。</span></span></span>
+    </div>
+    <a class="back-link" href="/yuri-classification-archive/table/?q=%E6%B5%B7%E8%BE%B9%E7%9A%84%E5%BC%82%E9%82%A6%E4%BA%BA">← 返回总表并定位本作</a>
+  </header>
+  <section class="relationship-overview" data-confirmed-female-female-count="1" aria-labelledby="relationship-overview-title"><div class="relationship-overview-heading"><p class="eyebrow">RELATIONSHIP SNAPSHOT</p><h2 id="relationship-overview-title">关系构成速览</h2></div><p class="relationship-overview-total"><strong>1</strong><span>条已确认女女关系记录</span></p><div class="relationship-overview-grid"><div class="relationship-overview-group"><h3>叙事位置</h3><ul><li data-axis="narrative_centrality" data-code="important_secondary" data-count="1"><span>重要副线</span><strong>1</strong></li></ul></div><div class="relationship-overview-group"><h3>恋爱明确度</h3><ul><li data-axis="romance_explicitness" data-code="explicit_relationship" data-count="1"><span>明确交往</span><strong>1</strong></li></ul></div><div class="relationship-overview-group"><h3>相互性</h3><ul><li data-axis="mutuality" data-code="mutual" data-count="1"><span>双向</span><strong>1</strong></li></ul></div></div><p class="relationship-overview-note">只汇总档案中逐条确认的女女关系记录；它不是配对数量、出场时间、互动频率，也不是任何程度评分。</p></section>
+  <section class="work-tag-section" aria-labelledby="work-tag-title"><div class="work-tag-heading"><div><h2 id="work-tag-title">统一标签</h2><p>用于内容检索，不替代关系分类。</p></div><div class="unified-tag-list"><a class="unified-tag" data-facet-id="workplace" href="/yuri-classification-archive/table/?facet=workplace" aria-label="用统一标签“职场”筛选总表">职场</a><a class="unified-tag" data-facet-id="slice_of_life" href="/yuri-classification-archive/table/?facet=slice_of_life" aria-label="用统一标签“日常”筛选总表">日常</a><a class="unified-tag" data-facet-id="iyashikei" href="/yuri-classification-archive/table/?facet=iyashikei" aria-label="用统一标签“治愈系”筛选总表">治愈系</a><a class="unified-tag" data-facet-id="drama" href="/yuri-classification-archive/table/?facet=drama" aria-label="用统一标签“剧情”筛选总表">剧情</a></div></div><details class="raw-platform-tags"><summary><span>四平台原始标签</span><small>展开查看平台原文与权重</small></summary><div class="raw-platform-tags-content"><p class="raw-tag-snapshot-note">依据集中快照（总库更新时间：2026-08-16）；不是平台实时状态。复合条目在平台内合并去重。</p><div class="raw-platform-grid"><section class="raw-platform-card" aria-labelledby="raw-platform-bangumi" data-platform="bangumi"><div class="raw-platform-heading"><h3 id="raw-platform-bangumi">Bangumi</h3></div><div class="raw-tag-group" data-platform="bangumi" data-field="ordinary_tags"><h4>用户标签</h4><ul class="raw-tag-list"><li class="raw-tag"><span class="raw-tag-name">剧场版</span><small class="raw-tag-weight">361 人</small></li><li class="raw-tag"><span class="raw-tag-name">BL</span><small class="raw-tag-weight">295 人</small></li><li class="raw-tag"><span class="raw-tag-name">2020</span><small class="raw-tag-weight">175 人</small></li><li class="raw-tag"><span class="raw-tag-name">耽美</span><small class="raw-tag-weight">150 人</small></li><li class="raw-tag"><span class="raw-tag-name">漫画改</span><small class="raw-tag-weight">118 人</small></li><li class="raw-tag"><span class="raw-tag-name">漫改</span><small class="raw-tag-weight">112 人</small></li><li class="raw-tag"><span class="raw-tag-name">スタジオ雲雀</span><small class="raw-tag-weight">72 人</small></li><li class="raw-tag"><span class="raw-tag-name">恋爱</span><small class="raw-tag-weight">62 人</small></li><li class="raw-tag"><span class="raw-tag-name">紀伊カンナ</span><small class="raw-tag-weight">46 人</small></li><li class="raw-tag"><span class="raw-tag-name">StudioHibari</span><small class="raw-tag-weight">41 人</small></li><li class="raw-tag"><span class="raw-tag-name">2020年7月</span><small class="raw-tag-weight">40 人</small></li><li class="raw-tag"><span class="raw-tag-name">大橋明代</span><small class="raw-tag-weight">23 人</small></li><li class="raw-tag"><span class="raw-tag-name">松岡禎丞</span><small class="raw-tag-weight">21 人</small></li><li class="raw-tag"><span class="raw-tag-name">2020年</span><small class="raw-tag-weight">16 人</small></li><li class="raw-tag"><span class="raw-tag-name">动画电影</span><small class="raw-tag-weight">15 人</small></li><li class="raw-tag"><span class="raw-tag-name">日本</span><small class="raw-tag-weight">12 人</small></li><li class="raw-tag"><span class="raw-tag-name">治愈</span><small class="raw-tag-weight">12 人</small></li><li class="raw-tag"><span class="raw-tag-name">日常</span><small class="raw-tag-weight">10 人</small></li><li class="raw-tag"><span class="raw-tag-name">大桥明代</span><small class="raw-tag-weight">6 人</small></li><li class="raw-tag"><span class="raw-tag-name">云雀工作室</span><small class="raw-tag-weight">6 人</small></li><li class="raw-tag"><span class="raw-tag-name">电影</span><small class="raw-tag-weight">6 人</small></li><li class="raw-tag"><span class="raw-tag-name">青春</span><small class="raw-tag-weight">5 人</small></li><li class="raw-tag"><span class="raw-tag-name">海边的异邦人</span><small class="raw-tag-weight">4 人</small></li><li class="raw-tag"><span class="raw-tag-name">『剧场版』</span><small class="raw-tag-weight">3 人</small></li><li class="raw-tag"><span class="raw-tag-name">日本动画</span><small class="raw-tag-weight">3 人</small></li><li class="raw-tag"><span class="raw-tag-name">腐</span><small class="raw-tag-weight">3 人</small></li><li class="raw-tag"><span class="raw-tag-name">劇場版</span><small class="raw-tag-weight">3 人</small></li><li class="raw-tag"><span class="raw-tag-name">里番</span><small class="raw-tag-weight">3 人</small></li><li class="raw-tag"><span class="raw-tag-name">未播</span><small class="raw-tag-weight">2 人</small></li><li class="raw-tag"><span class="raw-tag-name">日漫</span><small class="raw-tag-weight">2 人</small></li></ul></div></section><section class="raw-platform-card" aria-labelledby="raw-platform-anime-planet" data-platform="anime_planet"><div class="raw-platform-heading"><h3 id="raw-platform-anime-planet">Anime-Planet</h3></div><div class="raw-tag-group" data-platform="anime_planet" data-field="tags"><h4>Tags</h4><ul class="raw-tag-list"><li class="raw-tag"><span class="raw-tag-name">BL</span></li><li class="raw-tag"><span class="raw-tag-name">Drama</span></li><li class="raw-tag"><span class="raw-tag-name">Romance</span></li><li class="raw-tag"><span class="raw-tag-name">Yaoi</span></li><li class="raw-tag"><span class="raw-tag-name">Adult Couples</span></li><li class="raw-tag"><span class="raw-tag-name">Cohabitation</span></li><li class="raw-tag"><span class="raw-tag-name">Death of a Loved One</span></li><li class="raw-tag"><span class="raw-tag-name">Island</span></li><li class="raw-tag"><span class="raw-tag-name">LGBT Themes</span></li><li class="raw-tag"><span class="raw-tag-name">Mature Romance</span></li><li class="raw-tag"><span class="raw-tag-name">Okinawa</span></li><li class="raw-tag"><span class="raw-tag-name">Orphans</span></li><li class="raw-tag"><span class="raw-tag-name">Writers</span></li><li class="raw-tag"><span class="raw-tag-name">Based on a Manga</span></li></ul></div></section><section class="raw-platform-card" aria-labelledby="raw-platform-anilist" data-platform="anilist"><div class="raw-platform-heading"><h3 id="raw-platform-anilist">AniList</h3></div><div class="raw-tag-group" data-platform="anilist" data-field="genres"><h4>Genres</h4><ul class="raw-tag-list"><li class="raw-tag"><span class="raw-tag-name">Drama</span></li><li class="raw-tag"><span class="raw-tag-name">Romance</span></li><li class="raw-tag"><span class="raw-tag-name">Slice of Life</span></li></ul></div><div class="raw-tag-group" data-platform="anilist" data-field="tags"><h4>Tags</h4><ul class="raw-tag-list"><li class="raw-tag"><span class="raw-tag-name">Boys&#x27; Love</span><small class="raw-tag-weight">rank 96</small></li><li class="raw-tag"><span class="raw-tag-name">LGBTQ+ Themes</span><small class="raw-tag-weight">rank 93</small></li><li class="raw-tag"><span class="raw-tag-name">Primarily Male Cast</span><small class="raw-tag-weight">rank 73</small></li><li class="raw-tag"><span class="raw-tag-name">Cohabitation</span><small class="raw-tag-weight">rank 68</small></li><li class="raw-tag"><span class="raw-tag-name">Primarily Adult Cast</span><small class="raw-tag-weight">rank 66</small></li><li class="raw-tag"><span class="raw-tag-name">Cute Boys Doing Cute Things</span><small class="raw-tag-weight">rank 66</small></li><li class="raw-tag"><span class="raw-tag-name">Age Gap</span><small class="raw-tag-weight">rank 65</small></li><li class="raw-tag"><span class="raw-tag-name">Time Skip</span><small class="raw-tag-weight">rank 62</small></li><li class="raw-tag"><span class="raw-tag-name">Bisexual</span><small class="raw-tag-weight">rank 58</small></li><li class="raw-tag"><span class="raw-tag-name">Coastal</span><small class="raw-tag-weight">rank 56</small></li><li class="raw-tag"><span class="raw-tag-name">Bullying</span><small class="raw-tag-weight">rank 52</small></li><li class="raw-tag"><span class="raw-tag-name">Writing</span><small class="raw-tag-weight">rank 49</small></li><li class="raw-tag"><span class="raw-tag-name">Love Triangle</span><small class="raw-tag-weight">rank 48</small></li><li class="raw-tag"><span class="raw-tag-name">Iyashikei</span><small class="raw-tag-weight">rank 48</small></li><li class="raw-tag"><span class="raw-tag-name">Work</span><small class="raw-tag-weight">rank 41</small></li><li class="raw-tag"><span class="raw-tag-name">Yuri</span><small class="raw-tag-weight">rank 20</small></li></ul></div></section><section class="raw-platform-card" aria-labelledby="raw-platform-myanimelist" data-platform="myanimelist"><div class="raw-platform-heading"><h3 id="raw-platform-myanimelist">MyAnimeList</h3></div><div class="raw-tag-group" data-platform="myanimelist" data-field="genres"><h4>Genres</h4><ul class="raw-tag-list"><li class="raw-tag"><span class="raw-tag-name">Boys Love</span></li></ul></div></section></div></div></details></section>
+  <div class="report-layout">
+    <aside class="report-toc">
+      <p>本页目录</p>
+      <ol><li><a href="#低剧透概览">低剧透概览</a></li><li><a href="#数据库与公开分类">数据库与公开分类</a></li><li><a href="#决定性文本证据">决定性文本证据</a></li><li><a href="#四层分析">四层分析</a></li><li><a href="#最强反方解释">最强反方解释</a></li><li><a href="#分用途结论">分用途结论</a></li><li><a href="#方法来源与限制">方法、来源与限制</a></li></ol>
+    </aside>
+    <div class="report-content">
+      <blockquote>
+<p>分类日期：2026-08-16<br> 分类对象：2020 年剧场版动画《海辺のエトランゼ》<br> 纳入范围：单部约 58 分钟的完整电影版本（Bangumi 293610）<br> 排除范围：原作漫画、Drama CD、真人改编、宣传材料及其他版本<br> 用途：普通推荐与数据库分类</p>
+</blockquote>
+<h2 id="低剧透概览">低剧透概览</h2>
+<aside class="alert alert-note"><strong>说明</strong><div class="alert-content"><p><strong>分类信息提示：</strong> 本节不展开关键剧情、转折与结局，但分类信息本身会透露关系类型、叙事位置和恋爱明确度。希望完全盲看的读者请跳过本页。</p></div></aside>
+
+<p>本片的主要叙事是桥本駿与知花実央之间的男男恋爱：二人从海边相遇、分离到再次靠近，恋爱表达、共同生活和未来选择组织了电影的冲突与收束。女性关系并非全片主轴，但絵理与鈴以共同居住、相互照料和伴侣式亲密构成重要副线；这组关系有明确文本和官方宣传支点，不能被写成“女性关系缺席”。</p>
+<p>因此本报告采用“文类外百合阅读”。絵理与鈴支撑女性伴侣关系的严格关系检索和私人阅读，但电影整体由駿与実央的 BL 恋爱主线主导，不进入文类内百合作品分类。絵理与鈴的交往事实明确，角色是否自我认同为女同性恋或双性恋则没有范围内明示；平台标签可以帮助发现本片，却不能替代关系证据。结论置信度高，主要限制是字幕文字审阅未同步核对画面和表演细节。</p>
+<h3 id="分层标签">分层标签</h3>
+<blockquote>
+<p><strong>女女关系层级：重要副线｜百合归档结论：文类外百合阅读｜恋爱位置：重要副线｜最高明确度：明确交往｜关系构成：多组异质关系｜官方字面：所核未见｜官方恋爱表述：是｜官方来源：目标电影官方介绍、故事页与宣传帖｜阅读层级：正篇事实／强推断／读者解读｜身份依据类型：只有明确关系事实｜男性恋爱线：主导｜内容提示：男男恋爱与性行为、家庭拒绝、性取向羞辱、旧婚约与单向留恋、离岛独居和情绪冲突</strong></p>
+</blockquote>
+<h3 id="严格恋爱检索提示">严格恋爱检索提示</h3>
+<ul>
+<li>只找女性对女性已经明确交往或以伴侣方式共同生活：<strong>符合</strong>；絵理与鈴的爱巢、幸福和持续照料在正篇中被直接呈现，官方宣传也称二人亲密。</li>
+<li>只找女性角色有女同性恋或双性恋身份自述：<strong>不符合</strong>；关系对象和伴侣事实不能替代身份明示。</li>
+<li>只找女性恋爱关系位于全片主线：<strong>不符合</strong>；絵理与鈴是重要副线，駿与実央的男男恋爱主导电影。</li>
+<li>回避男性恋爱主线的作品：<strong>不符合</strong>；本片以駿与実央的相互恋爱、性关系和共同未来为主要叙事。</li>
+<li>接受文类外的明确女性伴侣副线阅读：<strong>符合</strong>；女性伴侣关系有独立文本抓手，但不应改写为整部作品的主文类。</li>
+</ul>
+<h2 id="数据库与公开分类">数据库与公开分类</h2>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>来源</th>
+<th>条目与字段</th>
+<th>来源类型</th>
+<th>本报告如何使用</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://sh-anime.shochiku.co.jp/etranger-anime/introduction/" target="_blank" rel="noopener noreferrer">官方介绍页</a>／<a href="https://sh-anime.shochiku.co.jp/etranger-anime/story/" target="_blank" rel="noopener noreferrer">故事页</a></td>
+<td>以駿与実央的恋爱和 BL 动画品牌 BLUE LYNX 发行语境介绍本片</td>
+<td>官方作品页与故事简介</td>
+<td>锁定主线和官方文类表述；不把官方未使用百合字面解释成否定女性关系</td>
+</tr>
+<tr>
+<td><a href="https://x.com/etranger_anime/status/1303128417324486662" target="_blank" rel="noopener noreferrer">官方宣传帖</a></td>
+<td>称絵理与鈴“いちゃいちゃ”且“とても仲良し”</td>
+<td>官方宣传／场面说明</td>
+<td>作为女性伴侣呈现的辅助官方证据，不替代正篇字幕</td>
+</tr>
+<tr>
+<td><a href="https://bangumi.tv/subject/293610" target="_blank" rel="noopener noreferrer">Bangumi 293610</a></td>
+<td>剧场版、2020 年、1 部；受控字段含 BL、耽美、漫画改；普通标签另列恋爱等</td>
+<td>社区数据库与受控字段</td>
+<td>核对精确版本和平台接受入口；平台字段不替代关系事实</td>
+</tr>
+<tr>
+<td><a href="https://anilist.co/anime/112788" target="_blank" rel="noopener noreferrer">AniList 112788</a></td>
+<td>MOVIE、1 部、Finished；带 Yuri 标签和候选评分信号</td>
+<td>编辑数据库与带权重社区标签</td>
+<td>作为候选发现和检索入口，不把 Yuri 当作女性关系或作品主类的自动结论</td>
+</tr>
+<tr>
+<td><a href="https://myanimelist.net/anime/40615/Umibe_no_Etranger" target="_blank" rel="noopener noreferrer">MyAnimeList 40615</a></td>
+<td>Movie、1 集、58 分钟、Finished Airing；Genres 为 Boys Love，未列 Girls Love</td>
+<td>编辑数据库固定字段</td>
+<td>核对电影版本和 BL 字段；未列 Girls Love 不等于否定片中女性伴侣</td>
+</tr>
+<tr>
+<td><a href="https://jimaku.cc/entry/225" target="_blank" rel="noopener noreferrer">Jimaku 225</a></td>
+<td>与本片对应的 SweetSub 日语 ASS，覆盖整部电影</td>
+<td>字幕资料目录</td>
+<td>支持完整日文对白审阅和时间定位；不据此声称已核对所有画面信息</td>
+</tr>
+</tbody>
+</table></div>
+<blockquote>
+<p>数据库沉默写“未标”，不能写成“否认”；标签权重、计数和站点数量不能换算成社群支持率。</p>
+</blockquote>
+<aside class="alert alert-warning"><strong>剧透提示</strong><div class="alert-content"><p>以下部分包含目标电影的完整剧透。</p></div></aside>
+
+      <details class="spoiler-panel">
+        <summary>
+          <span>展开详细证据（含完整剧透）</span>
+          <small>决定性证据、四层分析、反方解释与方法限制</small>
+        </summary>
+        <div class="spoiler-content">
+          <h2 id="决定性文本证据">决定性文本证据</h2>
+<p>下列日文短引的中文说明均为本报告自行翻译。字幕只承担台词、说话对象和时间位置的文字核对；未由同步画面确认的动作、构图与表演不写成独立事实。</p>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>位置</th>
+<th>原文与中文摘要</th>
+<th>叙事层级</th>
+<th>证据强度与视听复核</th>
+<th>能证明什么</th>
+<th>不能证明什么</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>官方介绍页</td>
+<td>官方称駿与実央的关系是“不器用的二人恋爱”，并说明本片通过 BL 品牌 BLUE LYNX 发行</td>
+<td>主线设定／官方表述</td>
+<td>直接；官方文字</td>
+<td>男男恋爱是作品主轴，版本的公开文类语境明确</td>
+<td>不能据官方 BL 标签推断女性角色身份或女性关系不存在</td>
+</tr>
+<tr>
+<td>00:13:09–00:13:19</td>
+<td>絵理把鈴与自己的共同居所称为“二人独处的爱巢”，又说“我们一直幸福”</td>
+<td>现实对话</td>
+<td>直接；仅文字定位</td>
+<td>共同生活和伴侣式幸福被明确命名</td>
+<td>不能由一句调侃推断角色身份标签</td>
+</tr>
+<tr>
+<td>00:21:06–00:21:32</td>
+<td>鈴照料絵理并分享食物，旁人说二人亲密，絵理称鈴可爱</td>
+<td>现实生活／对话</td>
+<td>直接；仅文字定位</td>
+<td>关系持续体现在日常照料与亲密称赞中</td>
+<td>不能把所有女性友谊自动视为恋爱</td>
+</tr>
+<tr>
+<td>官方宣传帖</td>
+<td>官方文字称“いちゃいちゃする絵理と鈴”，并说两人“とても仲良し”</td>
+<td>官方场面说明</td>
+<td>直接；未作画面重构</td>
+<td>官方将二人作为亲密互动的一组呈现</td>
+<td>宣传帖不能独自证明完整关系历史或角色身份</td>
+</tr>
+<tr>
+<td>00:14:13–00:14:20</td>
+<td>実央说“我喜欢駿，所以也请駿喜欢我”</td>
+<td>现实对话</td>
+<td>直接；仅文字定位</td>
+<td>男男恋爱欲望明确且对象清楚</td>
+<td>单次告白本身不能说明駿是否即时回应</td>
+</tr>
+<tr>
+<td>00:30:48–00:30:52</td>
+<td>駿与実央分别说出喜欢对方</td>
+<td>现实对话</td>
+<td>直接；仅文字定位</td>
+<td>双向恋爱确认</td>
+<td>不能把男性恋爱确认转化为女性角色身份结论</td>
+</tr>
+<tr>
+<td>00:46:46–00:50:32</td>
+<td>二人发生性关系并确认喜欢；実央说自己喜欢女孩但仍喜欢上駿</td>
+<td>现实对话／亲密关系</td>
+<td>直接；仅文字定位</td>
+<td>主线关系的恋爱与身体亲密达到明确程度；実央的自述只属于他本人</td>
+<td>不能以実央的性别和自述代表絵理或鈴</td>
+</tr>
+<tr>
+<td>00:31:16–00:41:22</td>
+<td>桜子说明旧婚约，实央追问她为何要嫁给明知喜欢男性的駿；桜子表示即使不被喜欢也愿共同生活</td>
+<td>回忆／现实对话</td>
+<td>直接；仅文字定位</td>
+<td>旧婚约和单向留恋构成男性恋爱对照线</td>
+<td>不能把桜子的坚持写成双方当前仍交往</td>
+</tr>
+<tr>
+<td>00:51:53–00:52:25</td>
+<td>駿邀请実央一起离岛，実央选择同行</td>
+<td>现实对话／未来安排</td>
+<td>直接；仅文字定位</td>
+<td>男男主线以共同未来选择收束</td>
+<td>不能据此改变女性伴侣副线的叙事位置</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="四层分析">四层分析</h2>
+<h3 id="第一层文本中的关系">第一层：文本中的关系</h3>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>关系 ID</th>
+<th>关系／参与者</th>
+<th>类型</th>
+<th>叙事位置</th>
+<th>恋爱明确度</th>
+<th>相互性</th>
+<th>证据层级</th>
+<th>摘要</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>r01</td>
+<td>桥本駿／知花実央</td>
+<td>恋爱／搭档</td>
+<td>主线</td>
+<td>明确交往</td>
+<td>双向</td>
+<td>正篇事实／强推断</td>
+<td>从告白、回应和身体亲密发展到共同未来，是全片主要冲突和收束。</td>
+</tr>
+<tr>
+<td>r02</td>
+<td>絵理／鈴</td>
+<td>恋爱／伴侣／选择家庭</td>
+<td>重要副线</td>
+<td>明确交往</td>
+<td>双向</td>
+<td>正篇事实／强推断</td>
+<td>二人共同生活、相互照料并被官方写成亲密伴侣；关系事实明确，但身份没有明示。</td>
+</tr>
+<tr>
+<td>r03</td>
+<td>桥本駿／桜子</td>
+<td>恋爱／伴侣／家庭</td>
+<td>重要副线</td>
+<td>明确欲望</td>
+<td>单向</td>
+<td>正篇事实／强推断</td>
+<td>童年婚约和桜子想共同生活的愿望与駿的男男恋爱主线发生冲突，最终未获恋爱回应。</td>
+</tr>
+</tbody>
+</table></div>
+<p>絵理与鈴的关系不是一闪而过的背景笑料：她们有共同居所、持续照料和被其他角色观察到的亲密互动，官方宣传也直接采用暧昧亲昵的词语。正篇材料足以把她们记录为明确女性伴侣关系；但电影没有给出她们的性取向身份自述，因而关系结论与身份结论必须分开。</p>
+<p>駿与実央从重逢后的告白、迟疑和相互回应，发展到身体亲密与离岛后的共同选择。桜子的旧婚约和“即使不被喜欢也想一起生活”的愿望，说明男性恋爱线并非只是一句平台标签，而是电影实际处理的核心冲突。三组关系各有类型和叙事位置，不能用女性伴侣副线抹去男男主线，也不能用 BL 主线抹去女性伴侣事实。</p>
+<h3 id="第二层作品的文类位置">第二层：作品的文类位置</h3>
+<p>女性关系在本片中位于重要副线：絵理与鈴的共同生活为离岛民宿和主角重逢提供了日常参照，也让実央看到一种稳定的伴侣关系。它们对女性关系检索有独立价值，但没有组织全片的主要转折。全片的核心冲突是駿与実央如何回应彼此的爱、如何面对家庭与离岛生活，以及是否共同前往未来；男性恋爱线处于主导位置。</p>
+<p>因此本片不进入文类内百合作品分类，而采用文类外百合阅读入口。这个判断不是把女性关系降格为“只是友情”，也不是把平台 Yuri 标签当成终审；它把“有明确女性伴侣副线”和“整部作品属于百合文类”拆成两个查询。作品整体仍可按 BL、恋爱和成长情感剧推荐，女性伴侣关系则可作为带限定的关系检索入口。</p>
+<h3 id="第三层角色身份">第三层：角色身份</h3>
+<p>実央在正篇中明确说自己喜欢女孩，但这句话只说明実央本人的经验，不能替絵理或鈴发言。关于絵理与鈴，所核字幕、官方页面和宣传帖都没有女同性恋或双性恋身份自述，也没有必要从她们的伴侣关系反推身份。故角色身份检索保持未知；关系明确不等于身份明示。</p>
+<p>AniList 的 Yuri、Bangumi 的 BL／恋爱等字段、MyAnimeList 的 Boys Love 只描述平台或作品标签制度。它们可以帮助读者找到本片，却不能把角色身份、关系相互性或文类位置自动填入。若未来出现两人明确的身份自述或官方人物设定，身份结论才会改变。</p>
+<h3 id="第四层公共标签礼仪">第四层：公共标签礼仪</h3>
+<p>官方介绍明确使用恋爱和 BL 品牌语境，也在宣传帖中使用“いちゃいちゃ”描述絵理与鈴；这证明官方在不同场合对主线和女性伴侣亲密度的实际措辞，但没有宣布一个统一的百合主类。Bangumi 的受控字段、AniList 的 Yuri 标签和 MyAnimeList 的 Boys Love 字段来自不同制度，不能用平台数量拼成共识。</p>
+<p>普通推荐可以写“BL 恋爱电影，含明确女性伴侣副线”；数据库主标签以 BL、Romance 等为主，女性伴侣关系作为附加检索；严格明确恋爱检索可分别命中駿—実央和絵理—鈴，但若查询要求作品级百合主线则不命中。私人阅读可以纳入絵理与鈴的明确伴侣关系，同时保留电影整体的 BL 主轴。</p>
+<h2 id="最强反方解释">最强反方解释</h2>
+<p>最强的狭义解释是：絵理与鈴只是为主角提供生活背景的亲密女性朋友，爱巢和“幸福”属于夸张调侃，官方帖的“いちゃいちゃ”也只是宣传语；若采用这一读法，女性关系最多是非恋爱共同生活，电影不应提供女性伴侣入口。这个解释能提醒读者不要从单句玩笑推断角色身份，也能保留对未核画面和语气的谨慎。</p>
+<p>但它无法同时解释共同居住、持续照料、二人幸福的明确表述、正篇中旁人对她们亲密的观察，以及官方反复以亲昵词语配对两人。把所有材料压成普通友情会丢失一组可独立检索的女性伴侣关系。当前判断保留反方对身份未知和作品主文类的限制；若出现明确否认伴侣关系、相关台词属于另一版本，或完整视听材料证明关键措辞完全脱离伴侣语境，女性关系的明确度可能下调。</p>
+<h2 id="分用途结论">分用途结论</h2>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>用途</th>
+<th>分类</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>普通作品推荐</td>
+<td>以 BL 恋爱、成长与离岛生活推荐；可附注“含明确女性伴侣副线”</td>
+</tr>
+<tr>
+<td>数据库主标签</td>
+<td>BL／Romance／恋爱等优先；百合或 GL 不作为无条件作品主类，可作为女性伴侣关系检索入口</td>
+</tr>
+<tr>
+<td>严格明确恋爱检索</td>
+<td>女性伴侣关系可命中絵理与鈴；作品级女性恋爱主线不命中，男性主线明确</td>
+</tr>
+<tr>
+<td>私人百合阅读</td>
+<td>可纳入：絵理与鈴的共同生活、伴侣式照料和官方亲密表述；需注明属于 BL 主线电影的副线</td>
+</tr>
+<tr>
+<td>角色身份检索</td>
+<td>不纳入絵理与鈴：范围内没有她们的身份自述或官方身份设定；実央的自述不外推</td>
+</tr>
+<tr>
+<td>官方分类查询</td>
+<td>官方明确使用 BL 与恋爱语境，也称絵理与鈴亲密；所核资料未将整部作品标为百合／GL</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="方法来源与限制">方法、来源与限制</h2>
+<ul>
+<li>以官方电影介绍、故事页、角色页、官方宣传帖、Bangumi 293610、AniList 112788、MyAnimeList 40615 和 Jimaku 225 交叉锁定 2020 年单部剧场版；漫画、Drama CD、真人版和其他改编不用于补完本片。</li>
+<li>取得一份与电影版本对应的日语 ASS，覆盖整部约 58 分钟影片；逐行核对喜欢、爱巢、幸福、伴侣、婚约、性关系、性取向和共同未来等语境。</li>
+<li>日语字幕与官方日文页面的中文摘要由本报告自行翻译；短引只保留判断所需部分，不以译文替代原文位置。</li>
+<li>未同步播放视频，因此不主张字幕未写出的动作、表情、镜头构图或配音语气；这些限制不阻止对白和官方文字支持当前关系位置与明确度。</li>
+<li>平台标签分别记录其制度和用途：AniList Yuri 是带权重的检索标签，Bangumi 的 BL 等字段是社区／受控字段，MyAnimeList Boys Love 是固定类型；三者不相加为关系事实或社群共识。</li>
+<li>未来若出现本电影版本的完整视听材料、絵理与鈴的身份自述，或能明确区分现有台词所属版本的新证据，当前分层结论可能改变。</li>
+</ul>
+
+        </div>
+      </details>
+    </div>
+  </div>
+</article>
+
+<section class="feedback-section">
+  <div>
+    <p class="eyebrow">REPORT FEEDBACK</p>
+    <h2>提交可核查的修订建议</h2>
+    <p>请注明作品版本、集数／章节、要质疑的原句、可公开核查的来源，以及建议如何修订。评论属于待核查反馈，不会自动成为报告证据。</p>
+  </div>
+  <div class="giscus"></div>
+<div class="giscus-config"
+        hidden
+        data-repo="L-M-Sherlock/yuri-classification-archive"
+        data-repo-id="R_kgDOTo1RzA"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOTo1RzM4DCXAh"
+        data-mapping="specific"
+        data-term="classification:umibe_no_etranger_movie_2020"
+        data-strict="1"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-lang="zh-CN"
+        data-loading="lazy"
+        aria-hidden="true"></div>
+</section>
+
+  </main>
+  <footer class="site-footer">
+    <div>
+      <p>分类是面向具体查询的检索工具，不是替作品关系作终审判决。</p>
+      <p class="footer-ai-note">本站使用以 OpenAI Codex 为主的生成式 AI 辅助研究、写作与站点开发；人工审阅未覆盖全部作品报告。<a href="/yuri-classification-archive/about/#AI使用说明">查看 AI 使用说明</a></p>
+      <p>© 2026 Jarrett Ye · <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="license noopener noreferrer">CC BY-NC-SA 4.0</a> · <a href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub 仓库</a> · <a href="/yuri-classification-archive/about/#使用边界">使用边界</a></p>
+    </div>
+  </footer>
+  <script>window.SITE_CONFIG = {basePath: "/yuri-classification-archive"};</script>
+  <script src="/yuri-classification-archive/assets/site.js?v=eeeec5872796" defer></script>
+
+</body>
+</html>

@@ -3,11 +3,11 @@
   "kind": "public_platform_facets",
   "classification": "public",
   "source": {
-    "snapshot_sha256": "154abf993de74326c56e64cf72c15606ed3d469f6803db52fbd0ef1c802b7108",
-    "store_sha256": "670dec66e112e31ae664ec8a1e32946480c9842c798f583c8e8f8369cf3fe53b",
-    "updated_at": "2026-08-14T19:52:59+00:00",
+    "snapshot_sha256": "72d5f200300f715bde903e56cbb762de3c3fecdd7317a9be508ea1597f112452",
+    "store_sha256": "7829747fea378fc0d7afa8d6fed86e3a89f581c6c42cbece80a0fb40c18b1c35",
+    "updated_at": "2026-08-16T07:56:28+00:00",
     "vocabulary_sha256": "07a89b3b5ea6349219ede0ff5e05cf26668ee7b60d66c850b7ae3503bcc6af7b",
-    "item_count": 696
+    "item_count": 805
   },
   "policy": {
     "label_language": "zh-Hans",
@@ -19,19 +19,19 @@
   },
   "platform_coverage": {
     "bangumi": {
-      "success": 696
+      "success": 805
     },
     "anime_planet": {
-      "no_exact_entry": 27,
-      "success": 669
+      "no_exact_entry": 35,
+      "success": 770
     },
     "anilist": {
-      "no_exact_entry": 16,
-      "success": 680
+      "no_exact_entry": 17,
+      "success": 788
     },
     "myanimelist": {
-      "no_exact_entry": 16,
-      "success": 680
+      "no_exact_entry": 19,
+      "success": 786
     }
   },
   "facets": [
@@ -40,12 +40,12 @@
       "label": "学校",
       "dimension": "场景与生活方式",
       "order": 1,
-      "work_count": 438,
+      "work_count": 495,
       "platform_work_counts": {
-        "bangumi": 349,
-        "anime_planet": 229,
-        "anilist": 366,
-        "myanimelist": 190
+        "bangumi": 379,
+        "anime_planet": 243,
+        "anilist": 415,
+        "myanimelist": 211
       }
     },
     {
@@ -53,11 +53,11 @@
       "label": "职场",
       "dimension": "场景与生活方式",
       "order": 2,
-      "work_count": 72,
+      "work_count": 82,
       "platform_work_counts": {
-        "bangumi": 18,
+        "bangumi": 19,
         "anime_planet": 0,
-        "anilist": 67,
+        "anilist": 77,
         "myanimelist": 11
       }
     },
@@ -66,11 +66,11 @@
       "label": "乡村／郊野",
       "dimension": "场景与生活方式",
       "order": 3,
-      "work_count": 77,
+      "work_count": 82,
       "platform_work_counts": {
         "bangumi": 7,
-        "anime_planet": 19,
-        "anilist": 73,
+        "anime_planet": 20,
+        "anilist": 78,
         "myanimelist": 0
       }
     },
@@ -79,12 +79,12 @@
       "label": "历史",
       "dimension": "场景与生活方式",
       "order": 4,
-      "work_count": 38,
+      "work_count": 44,
       "platform_work_counts": {
         "bangumi": 10,
-        "anime_planet": 15,
-        "anilist": 25,
-        "myanimelist": 15
+        "anime_planet": 16,
+        "anilist": 30,
+        "myanimelist": 18
       }
     },
     {
@@ -92,12 +92,12 @@
       "label": "日常",
       "dimension": "类型与语气",
       "order": 5,
-      "work_count": 461,
+      "work_count": 507,
       "platform_work_counts": {
-        "bangumi": 437,
-        "anime_planet": 189,
-        "anilist": 321,
-        "myanimelist": 105
+        "bangumi": 473,
+        "anime_planet": 199,
+        "anilist": 346,
+        "myanimelist": 108
       }
     },
     {
@@ -105,12 +105,12 @@
       "label": "治愈系",
       "dimension": "类型与语气",
       "order": 6,
-      "work_count": 298,
+      "work_count": 316,
       "platform_work_counts": {
-        "bangumi": 291,
-        "anime_planet": 63,
-        "anilist": 99,
-        "myanimelist": 52
+        "bangumi": 306,
+        "anime_planet": 65,
+        "anilist": 108,
+        "myanimelist": 53
       }
     },
     {
@@ -118,12 +118,12 @@
       "label": "喜剧",
       "dimension": "类型与语气",
       "order": 7,
-      "work_count": 427,
+      "work_count": 486,
       "platform_work_counts": {
-        "bangumi": 337,
-        "anime_planet": 263,
-        "anilist": 328,
-        "myanimelist": 237
+        "bangumi": 383,
+        "anime_planet": 298,
+        "anilist": 380,
+        "myanimelist": 281
       }
     },
     {
@@ -131,12 +131,12 @@
       "label": "剧情",
       "dimension": "类型与语气",
       "order": 8,
-      "work_count": 223,
+      "work_count": 259,
       "platform_work_counts": {
-        "bangumi": 22,
-        "anime_planet": 127,
-        "anilist": 169,
-        "myanimelist": 118
+        "bangumi": 25,
+        "anime_planet": 146,
+        "anilist": 204,
+        "myanimelist": 138
       }
     },
     {
@@ -144,12 +144,12 @@
       "label": "动作",
       "dimension": "类型与语气",
       "order": 9,
-      "work_count": 277,
+      "work_count": 331,
       "platform_work_counts": {
-        "bangumi": 253,
-        "anime_planet": 162,
-        "anilist": 188,
-        "myanimelist": 152
+        "bangumi": 287,
+        "anime_planet": 190,
+        "anilist": 229,
+        "myanimelist": 178
       }
     },
     {
@@ -157,12 +157,12 @@
       "label": "冒险",
       "dimension": "类型与语气",
       "order": 10,
-      "work_count": 106,
+      "work_count": 130,
       "platform_work_counts": {
-        "bangumi": 29,
-        "anime_planet": 50,
-        "anilist": 77,
-        "myanimelist": 61
+        "bangumi": 32,
+        "anime_planet": 56,
+        "anilist": 97,
+        "myanimelist": 71
       }
     },
     {
@@ -170,12 +170,12 @@
       "label": "悬疑／推理",
       "dimension": "类型与语气",
       "order": 11,
-      "work_count": 81,
+      "work_count": 93,
       "platform_work_counts": {
-        "bangumi": 34,
-        "anime_planet": 24,
-        "anilist": 48,
-        "myanimelist": 59
+        "bangumi": 39,
+        "anime_planet": 30,
+        "anilist": 57,
+        "myanimelist": 67
       }
     },
     {
@@ -183,12 +183,12 @@
       "label": "恐怖",
       "dimension": "类型与语气",
       "order": 12,
-      "work_count": 26,
+      "work_count": 34,
       "platform_work_counts": {
         "bangumi": 6,
-        "anime_planet": 13,
-        "anilist": 19,
-        "myanimelist": 10
+        "anime_planet": 19,
+        "anilist": 25,
+        "myanimelist": 15
       }
     },
     {
@@ -196,12 +196,12 @@
       "label": "军事",
       "dimension": "类型与语气",
       "order": 13,
-      "work_count": 64,
+      "work_count": 69,
       "platform_work_counts": {
         "bangumi": 26,
-        "anime_planet": 31,
-        "anilist": 59,
-        "myanimelist": 29
+        "anime_planet": 33,
+        "anilist": 64,
+        "myanimelist": 32
       }
     },
     {
@@ -209,12 +209,12 @@
       "label": "奇幻",
       "dimension": "类型与语气",
       "order": 14,
-      "work_count": 321,
+      "work_count": 373,
       "platform_work_counts": {
-        "bangumi": 301,
-        "anime_planet": 150,
-        "anilist": 148,
-        "myanimelist": 107
+        "bangumi": 344,
+        "anime_planet": 180,
+        "anilist": 173,
+        "myanimelist": 125
       }
     },
     {
@@ -222,12 +222,12 @@
       "label": "科幻",
       "dimension": "类型与语气",
       "order": 15,
-      "work_count": 140,
+      "work_count": 174,
       "platform_work_counts": {
-        "bangumi": 106,
-        "anime_planet": 91,
-        "anilist": 107,
-        "myanimelist": 95
+        "bangumi": 124,
+        "anime_planet": 108,
+        "anilist": 135,
+        "myanimelist": 121
       }
     },
     {
@@ -235,12 +235,12 @@
       "label": "音乐",
       "dimension": "活动与兴趣",
       "order": 16,
-      "work_count": 109,
+      "work_count": 124,
       "platform_work_counts": {
-        "bangumi": 100,
-        "anime_planet": 82,
-        "anilist": 95,
-        "myanimelist": 55
+        "bangumi": 108,
+        "anime_planet": 86,
+        "anilist": 104,
+        "myanimelist": 66
       }
     },
     {
@@ -248,11 +248,11 @@
       "label": "乐队",
       "dimension": "活动与兴趣",
       "order": 17,
-      "work_count": 42,
+      "work_count": 46,
       "platform_work_counts": {
-        "bangumi": 30,
+        "bangumi": 31,
         "anime_planet": 0,
-        "anilist": 41,
+        "anilist": 45,
         "myanimelist": 0
       }
     },
@@ -261,11 +261,11 @@
       "label": "偶像",
       "dimension": "活动与兴趣",
       "order": 18,
-      "work_count": 120,
+      "work_count": 137,
       "platform_work_counts": {
-        "bangumi": 87,
-        "anime_planet": 44,
-        "anilist": 107,
+        "bangumi": 97,
+        "anime_planet": 49,
+        "anilist": 123,
         "myanimelist": 0
       }
     },
@@ -274,12 +274,12 @@
       "label": "体育",
       "dimension": "活动与兴趣",
       "order": 19,
-      "work_count": 70,
+      "work_count": 77,
       "platform_work_counts": {
-        "bangumi": 45,
-        "anime_planet": 31,
-        "anilist": 60,
-        "myanimelist": 26
+        "bangumi": 51,
+        "anime_planet": 37,
+        "anilist": 67,
+        "myanimelist": 32
       }
     },
     {
@@ -287,12 +287,12 @@
       "label": "美食",
       "dimension": "活动与兴趣",
       "order": 20,
-      "work_count": 62,
+      "work_count": 68,
       "platform_work_counts": {
-        "bangumi": 13,
+        "bangumi": 16,
         "anime_planet": 0,
-        "anilist": 62,
-        "myanimelist": 11
+        "anilist": 67,
+        "myanimelist": 13
       }
     },
     {
@@ -300,11 +300,11 @@
       "label": "旅行／户外",
       "dimension": "活动与兴趣",
       "order": 21,
-      "work_count": 70,
+      "work_count": 75,
       "platform_work_counts": {
         "bangumi": 0,
         "anime_planet": 11,
-        "anilist": 70,
+        "anilist": 75,
         "myanimelist": 0
       }
     },
@@ -313,11 +313,11 @@
       "label": "魔法",
       "dimension": "世界观与特殊能力",
       "order": 22,
-      "work_count": 159,
+      "work_count": 186,
       "platform_work_counts": {
-        "bangumi": 41,
-        "anime_planet": 99,
-        "anilist": 152,
+        "bangumi": 42,
+        "anime_planet": 114,
+        "anilist": 176,
         "myanimelist": 0
       }
     },
@@ -326,12 +326,12 @@
       "label": "超能力",
       "dimension": "世界观与特殊能力",
       "order": 23,
-      "work_count": 107,
+      "work_count": 128,
       "platform_work_counts": {
-        "bangumi": 18,
-        "anime_planet": 37,
-        "anilist": 89,
-        "myanimelist": 24
+        "bangumi": 19,
+        "anime_planet": 42,
+        "anilist": 108,
+        "myanimelist": 25
       }
     },
     {
@@ -339,12 +339,12 @@
       "label": "魔法少女",
       "dimension": "世界观与特殊能力",
       "order": 24,
-      "work_count": 92,
+      "work_count": 105,
       "platform_work_counts": {
-        "bangumi": 84,
-        "anime_planet": 57,
-        "anilist": 72,
-        "myanimelist": 42
+        "bangumi": 95,
+        "anime_planet": 67,
+        "anilist": 84,
+        "myanimelist": 50
       }
     },
     {
@@ -352,12 +352,12 @@
       "label": "异世界",
       "dimension": "世界观与特殊能力",
       "order": 25,
-      "work_count": 91,
+      "work_count": 106,
       "platform_work_counts": {
-        "bangumi": 39,
-        "anime_planet": 11,
-        "anilist": 70,
-        "myanimelist": 12
+        "bangumi": 45,
+        "anime_planet": 12,
+        "anilist": 81,
+        "myanimelist": 15
       }
     },
     {
@@ -365,12 +365,12 @@
       "label": "超自然",
       "dimension": "世界观与特殊能力",
       "order": 26,
-      "work_count": 95,
+      "work_count": 112,
       "platform_work_counts": {
         "bangumi": 0,
-        "anime_planet": 49,
-        "anilist": 64,
-        "myanimelist": 45
+        "anime_planet": 58,
+        "anilist": 74,
+        "myanimelist": 54
       }
     },
     {
@@ -378,12 +378,12 @@
       "label": "机甲",
       "dimension": "世界观与特殊能力",
       "order": 27,
-      "work_count": 20,
+      "work_count": 32,
       "platform_work_counts": {
         "bangumi": 0,
-        "anime_planet": 14,
-        "anilist": 19,
-        "myanimelist": 10
+        "anime_planet": 17,
+        "anilist": 31,
+        "myanimelist": 21
       }
     },
     {
@@ -391,11 +391,11 @@
       "label": "单元剧",
       "dimension": "叙事结构与主题",
       "order": 28,
-      "work_count": 132,
+      "work_count": 152,
       "platform_work_counts": {
-        "bangumi": 7,
-        "anime_planet": 10,
-        "anilist": 129,
+        "bangumi": 9,
+        "anime_planet": 11,
+        "anilist": 148,
         "myanimelist": 0
       }
     },
@@ -404,11 +404,11 @@
       "label": "群像",
       "dimension": "叙事结构与主题",
       "order": 29,
-      "work_count": 178,
+      "work_count": 200,
       "platform_work_counts": {
-        "bangumi": 11,
+        "bangumi": 13,
         "anime_planet": 0,
-        "anilist": 174,
+        "anilist": 196,
         "myanimelist": 0
       }
     },
@@ -417,11 +417,11 @@
       "label": "成长",
       "dimension": "叙事结构与主题",
       "order": 30,
-      "work_count": 115,
+      "work_count": 129,
       "platform_work_counts": {
         "bangumi": 0,
-        "anime_planet": 9,
-        "anilist": 112,
+        "anime_planet": 13,
+        "anilist": 126,
         "myanimelist": 0
       }
     },
@@ -430,12 +430,12 @@
       "label": "心理",
       "dimension": "叙事结构与主题",
       "order": 31,
-      "work_count": 60,
+      "work_count": 66,
       "platform_work_counts": {
         "bangumi": 0,
-        "anime_planet": 29,
-        "anilist": 55,
-        "myanimelist": 32
+        "anime_planet": 32,
+        "anilist": 60,
+        "myanimelist": 36
       }
     },
     {
@@ -443,11 +443,11 @@
       "label": "悲剧",
       "dimension": "叙事结构与主题",
       "order": 32,
-      "work_count": 122,
+      "work_count": 147,
       "platform_work_counts": {
         "bangumi": 0,
         "anime_planet": 0,
-        "anilist": 122,
+        "anilist": 147,
         "myanimelist": 0
       }
     },
@@ -456,12 +456,12 @@
       "label": "空气系",
       "dimension": "视觉与制作风格",
       "order": 33,
-      "work_count": 378,
+      "work_count": 392,
       "platform_work_counts": {
         "bangumi": 0,
         "anime_planet": 0,
-        "anilist": 376,
-        "myanimelist": 130
+        "anilist": 390,
+        "myanimelist": 131
       }
     }
   ],
@@ -595,6 +595,104 @@
       }
     },
     {
+      "slug": "ace_wo_nerae_tv_1973",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "school_setting",
+        "drama",
+        "sports",
+        "coming_of_age"
+      ],
+      "facet_platforms": {
+        "school_setting": [
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "drama": [
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "sports": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "coming_of_age": [
+          "anilist"
+        ]
+      }
+    },
+    {
+      "slug": "acro_trip_tv_2024",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "slice_of_life",
+        "iyashikei",
+        "comedy",
+        "action",
+        "fantasy",
+        "magic",
+        "super_power",
+        "magical_girl",
+        "supernatural",
+        "ensemble_cast"
+      ],
+      "facet_platforms": {
+        "slice_of_life": [
+          "bangumi",
+          "anilist"
+        ],
+        "iyashikei": [
+          "anilist"
+        ],
+        "comedy": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "action": [
+          "bangumi"
+        ],
+        "fantasy": [
+          "bangumi",
+          "anime_planet"
+        ],
+        "magic": [
+          "bangumi",
+          "anilist"
+        ],
+        "super_power": [
+          "anilist"
+        ],
+        "magical_girl": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "supernatural": [
+          "anilist"
+        ],
+        "ensemble_cast": [
+          "anilist"
+        ]
+      }
+    },
+    {
       "slug": "action_heroine_cheer_fruits_tv_2017",
       "platform_status": {
         "bangumi": "success",
@@ -672,6 +770,48 @@
           "anilist"
         ],
         "cute_girls_doing_cute_things": [
+          "anilist"
+        ]
+      }
+    },
+    {
+      "slug": "aharen_san_wa_hakarenai_season_2_tv_2025",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "school_setting",
+        "slice_of_life",
+        "iyashikei",
+        "comedy",
+        "episodic"
+      ],
+      "facet_platforms": {
+        "school_setting": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "slice_of_life": [
+          "bangumi",
+          "anilist"
+        ],
+        "iyashikei": [
+          "bangumi",
+          "anime_planet",
+          "anilist"
+        ],
+        "comedy": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "episodic": [
           "anilist"
         ]
       }
@@ -786,6 +926,35 @@
           "bangumi"
         ],
         "cute_girls_doing_cute_things": [
+          "anilist"
+        ]
+      }
+    },
+    {
+      "slug": "air_master_tv_2003",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "comedy",
+        "action",
+        "adventure"
+      ],
+      "facet_platforms": {
+        "comedy": [
+          "bangumi",
+          "anilist",
+          "myanimelist"
+        ],
+        "action": [
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "adventure": [
           "anilist"
         ]
       }
@@ -941,6 +1110,131 @@
         "cute_girls_doing_cute_things": [
           "anilist",
           "myanimelist"
+        ]
+      }
+    },
+    {
+      "slug": "akihabara_dennou_gumi_tv_1998",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "school_setting",
+        "comedy",
+        "action",
+        "adventure",
+        "fantasy",
+        "science_fiction",
+        "idol",
+        "magic",
+        "magical_girl",
+        "isekai",
+        "mecha",
+        "coming_of_age"
+      ],
+      "facet_platforms": {
+        "school_setting": [
+          "anilist"
+        ],
+        "comedy": [
+          "bangumi"
+        ],
+        "action": [
+          "bangumi",
+          "anime_planet"
+        ],
+        "adventure": [
+          "anilist",
+          "myanimelist"
+        ],
+        "fantasy": [
+          "bangumi"
+        ],
+        "science_fiction": [
+          "anilist",
+          "myanimelist"
+        ],
+        "idol": [
+          "anilist"
+        ],
+        "magic": [
+          "anime_planet",
+          "anilist"
+        ],
+        "magical_girl": [
+          "bangumi",
+          "anime_planet"
+        ],
+        "isekai": [
+          "anilist"
+        ],
+        "mecha": [
+          "anilist",
+          "myanimelist"
+        ],
+        "coming_of_age": [
+          "anilist"
+        ]
+      }
+    },
+    {
+      "slug": "akikan_ova_2009",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "comedy"
+      ],
+      "facet_platforms": {
+        "comedy": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ]
+      }
+    },
+    {
+      "slug": "akikan_tv_2009",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "school_setting",
+        "comedy",
+        "action",
+        "fantasy",
+        "super_power"
+      ],
+      "facet_platforms": {
+        "school_setting": [
+          "anilist"
+        ],
+        "comedy": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "action": [
+          "bangumi"
+        ],
+        "fantasy": [
+          "anilist",
+          "myanimelist"
+        ],
+        "super_power": [
+          "anime_planet",
+          "anilist"
         ]
       }
     },
@@ -1573,6 +1867,41 @@
       }
     },
     {
+      "slug": "aoi_umi_no_tristia_ova_2004",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "slice_of_life",
+        "adventure",
+        "fantasy",
+        "science_fiction",
+        "mecha"
+      ],
+      "facet_platforms": {
+        "slice_of_life": [
+          "bangumi"
+        ],
+        "adventure": [
+          "anilist",
+          "myanimelist"
+        ],
+        "fantasy": [
+          "bangumi"
+        ],
+        "science_fiction": [
+          "bangumi"
+        ],
+        "mecha": [
+          "anilist",
+          "myanimelist"
+        ]
+      }
+    },
+    {
       "slug": "aokana_tv_2016",
       "platform_status": {
         "bangumi": "success",
@@ -1620,6 +1949,52 @@
           "anime_planet",
           "anilist",
           "myanimelist"
+        ]
+      }
+    },
+    {
+      "slug": "araburu_kisetsu_no_otome_domo_yo_tv_2019",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "school_setting",
+        "slice_of_life",
+        "comedy",
+        "drama",
+        "ensemble_cast",
+        "coming_of_age"
+      ],
+      "facet_platforms": {
+        "school_setting": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "slice_of_life": [
+          "bangumi",
+          "anilist"
+        ],
+        "comedy": [
+          "bangumi",
+          "anime_planet",
+          "anilist"
+        ],
+        "drama": [
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "ensemble_cast": [
+          "anilist"
+        ],
+        "coming_of_age": [
+          "anime_planet",
+          "anilist"
         ]
       }
     },
@@ -1740,6 +2115,51 @@
           "myanimelist"
         ],
         "episodic": [
+          "anilist"
+        ]
+      }
+    },
+    {
+      "slug": "arne_no_jikenbo_tv_2026",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "action",
+        "mystery_suspense",
+        "horror",
+        "fantasy",
+        "isekai",
+        "supernatural",
+        "tragedy"
+      ],
+      "facet_platforms": {
+        "action": [
+          "bangumi"
+        ],
+        "mystery_suspense": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "horror": [
+          "anime_planet"
+        ],
+        "fantasy": [
+          "bangumi",
+          "myanimelist"
+        ],
+        "isekai": [
+          "bangumi"
+        ],
+        "supernatural": [
+          "anime_planet"
+        ],
+        "tragedy": [
           "anilist"
         ]
       }
@@ -3198,6 +3618,92 @@
       }
     },
     {
+      "slug": "battle_athletess_daiundoukai_ova_1997",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "school_setting",
+        "comedy",
+        "action",
+        "science_fiction",
+        "sports"
+      ],
+      "facet_platforms": {
+        "school_setting": [
+          "anilist"
+        ],
+        "comedy": [
+          "anilist",
+          "myanimelist"
+        ],
+        "action": [
+          "anilist"
+        ],
+        "science_fiction": [
+          "anilist",
+          "myanimelist"
+        ],
+        "sports": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ]
+      }
+    },
+    {
+      "slug": "battle_athletess_daiundoukai_tv_tv_1997",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "school_setting",
+        "comedy",
+        "drama",
+        "action",
+        "adventure",
+        "science_fiction",
+        "sports"
+      ],
+      "facet_platforms": {
+        "school_setting": [
+          "anilist",
+          "myanimelist"
+        ],
+        "comedy": [
+          "anilist"
+        ],
+        "drama": [
+          "anilist"
+        ],
+        "action": [
+          "bangumi",
+          "anilist"
+        ],
+        "adventure": [
+          "anilist",
+          "myanimelist"
+        ],
+        "science_fiction": [
+          "anilist",
+          "myanimelist"
+        ],
+        "sports": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ]
+      }
+    },
+    {
       "slug": "battle_girl_high_school_tv_2017",
       "platform_status": {
         "bangumi": "success",
@@ -3282,6 +3788,41 @@
         ],
         "episodic": [
           "anilist"
+        ]
+      }
+    },
+    {
+      "slug": "bikini_warriors_ova_2016",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "comedy",
+        "fantasy",
+        "magic",
+        "isekai"
+      ],
+      "facet_platforms": {
+        "comedy": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "fantasy": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "magic": [
+          "anilist"
+        ],
+        "isekai": [
+          "bangumi"
         ]
       }
     },
@@ -3445,6 +3986,249 @@
           "anilist"
         ],
         "tragedy": [
+          "anilist"
+        ]
+      }
+    },
+    {
+      "slug": "bishoujo_senshi_sailor_moon_crystal_death_busters_hen_tv_2016",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "drama",
+        "action",
+        "fantasy",
+        "magic",
+        "super_power",
+        "magical_girl",
+        "coming_of_age"
+      ],
+      "facet_platforms": {
+        "drama": [
+          "anilist"
+        ],
+        "action": [
+          "anime_planet",
+          "anilist"
+        ],
+        "fantasy": [
+          "bangumi",
+          "anime_planet",
+          "anilist"
+        ],
+        "magic": [
+          "anime_planet",
+          "anilist"
+        ],
+        "super_power": [
+          "anilist"
+        ],
+        "magical_girl": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "coming_of_age": [
+          "anilist"
+        ]
+      }
+    },
+    {
+      "slug": "bishoujo_senshi_sailor_moon_s_tv_1994",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "school_setting",
+        "comedy",
+        "drama",
+        "action",
+        "adventure",
+        "fantasy",
+        "idol",
+        "magic",
+        "super_power",
+        "magical_girl",
+        "episodic",
+        "ensemble_cast",
+        "coming_of_age",
+        "tragedy"
+      ],
+      "facet_platforms": {
+        "school_setting": [
+          "anilist"
+        ],
+        "comedy": [
+          "anime_planet"
+        ],
+        "drama": [
+          "anilist"
+        ],
+        "action": [
+          "anilist"
+        ],
+        "adventure": [
+          "anilist"
+        ],
+        "fantasy": [
+          "bangumi",
+          "anime_planet",
+          "anilist"
+        ],
+        "idol": [
+          "anilist"
+        ],
+        "magic": [
+          "anime_planet",
+          "anilist"
+        ],
+        "super_power": [
+          "anilist"
+        ],
+        "magical_girl": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "episodic": [
+          "anilist"
+        ],
+        "ensemble_cast": [
+          "anilist"
+        ],
+        "coming_of_age": [
+          "anilist"
+        ],
+        "tragedy": [
+          "anilist"
+        ]
+      }
+    },
+    {
+      "slug": "bishoujo_senshi_sailor_moon_sailor_stars_tv_1996",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "comedy",
+        "drama",
+        "action",
+        "adventure",
+        "fantasy",
+        "idol",
+        "magic",
+        "super_power",
+        "magical_girl",
+        "episodic",
+        "ensemble_cast",
+        "coming_of_age",
+        "tragedy"
+      ],
+      "facet_platforms": {
+        "comedy": [
+          "anilist",
+          "myanimelist"
+        ],
+        "drama": [
+          "anilist",
+          "myanimelist"
+        ],
+        "action": [
+          "anilist"
+        ],
+        "adventure": [
+          "anilist",
+          "myanimelist"
+        ],
+        "fantasy": [
+          "bangumi",
+          "anime_planet",
+          "anilist"
+        ],
+        "idol": [
+          "anilist"
+        ],
+        "magic": [
+          "anime_planet",
+          "anilist"
+        ],
+        "super_power": [
+          "anilist"
+        ],
+        "magical_girl": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "episodic": [
+          "anilist"
+        ],
+        "ensemble_cast": [
+          "anilist"
+        ],
+        "coming_of_age": [
+          "anilist"
+        ],
+        "tragedy": [
+          "anilist"
+        ]
+      }
+    },
+    {
+      "slug": "bishoujo_senshi_sailor_moon_supers_sailor_9_senshi_shuuketsu_black_dream_hole_no_kiseki_movie_1995",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "drama",
+        "action",
+        "fantasy",
+        "magic",
+        "super_power",
+        "magical_girl",
+        "ensemble_cast"
+      ],
+      "facet_platforms": {
+        "drama": [
+          "anilist",
+          "myanimelist"
+        ],
+        "action": [
+          "anilist"
+        ],
+        "fantasy": [
+          "anilist"
+        ],
+        "magic": [
+          "anime_planet",
+          "anilist"
+        ],
+        "super_power": [
+          "anilist"
+        ],
+        "magical_girl": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "ensemble_cast": [
           "anilist"
         ]
       }
@@ -3641,6 +4425,46 @@
         "super_power": [
           "bangumi",
           "anilist"
+        ],
+        "tragedy": [
+          "anilist"
+        ]
+      }
+    },
+    {
+      "slug": "blood_c_the_last_dark_movie_2012",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "action",
+        "horror",
+        "fantasy",
+        "supernatural",
+        "tragedy"
+      ],
+      "facet_platforms": {
+        "action": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "horror": [
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "fantasy": [
+          "bangumi"
+        ],
+        "supernatural": [
+          "anime_planet",
+          "anilist",
+          "myanimelist"
         ],
         "tragedy": [
           "anilist"
@@ -4099,6 +4923,41 @@
       }
     },
     {
+      "slug": "boku_no_kanojo_ga_majime_sugiru_shoujo_bitch_na_ken_tv_2017",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "school_setting",
+        "slice_of_life",
+        "comedy",
+        "ensemble_cast"
+      ],
+      "facet_platforms": {
+        "school_setting": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "slice_of_life": [
+          "bangumi"
+        ],
+        "comedy": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "ensemble_cast": [
+          "anilist"
+        ]
+      }
+    },
+    {
       "slug": "bokura_no_nanokakan_sensou_movie_2019",
       "platform_status": {
         "bangumi": "success",
@@ -4143,6 +5002,71 @@
         ],
         "coming_of_age": [
           "anilist"
+        ]
+      }
+    },
+    {
+      "slug": "bousei_no_volicia_dai_ni_shou_gunjou_movie_2025",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "no_exact_entry",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "school_setting",
+        "action",
+        "science_fiction",
+        "mecha"
+      ],
+      "facet_platforms": {
+        "school_setting": [
+          "anilist"
+        ],
+        "action": [
+          "anilist"
+        ],
+        "science_fiction": [
+          "anilist",
+          "myanimelist"
+        ],
+        "mecha": [
+          "anilist",
+          "myanimelist"
+        ]
+      }
+    },
+    {
+      "slug": "bousei_no_volicia_movie_2023",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "school_setting",
+        "action",
+        "science_fiction",
+        "mecha"
+      ],
+      "facet_platforms": {
+        "school_setting": [
+          "anilist"
+        ],
+        "action": [
+          "anime_planet",
+          "anilist"
+        ],
+        "science_fiction": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "mecha": [
+          "anilist",
+          "myanimelist"
         ]
       }
     },
@@ -4246,6 +5170,52 @@
         ],
         "episodic": [
           "anime_planet"
+        ]
+      }
+    },
+    {
+      "slug": "c3_tv_2011",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "school_setting",
+        "comedy",
+        "action",
+        "fantasy",
+        "magic",
+        "supernatural"
+      ],
+      "facet_platforms": {
+        "school_setting": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "comedy": [
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "action": [
+          "bangumi",
+          "anilist",
+          "myanimelist"
+        ],
+        "fantasy": [
+          "bangumi",
+          "anime_planet"
+        ],
+        "magic": [
+          "anime_planet"
+        ],
+        "supernatural": [
+          "anilist",
+          "myanimelist"
         ]
       }
     },
@@ -4580,6 +5550,43 @@
       }
     },
     {
+      "slug": "chou_kidou_densetsu_dinagiga_ova_1998",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "school_setting",
+        "action",
+        "science_fiction",
+        "super_power",
+        "mecha"
+      ],
+      "facet_platforms": {
+        "school_setting": [
+          "anilist"
+        ],
+        "action": [
+          "anilist"
+        ],
+        "science_fiction": [
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "super_power": [
+          "anilist"
+        ],
+        "mecha": [
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ]
+      }
+    },
+    {
       "slug": "chuu_bra_tv_2010",
       "platform_status": {
         "bangumi": "success",
@@ -4676,6 +5683,58 @@
         "drama": [
           "anilist",
           "myanimelist"
+        ]
+      }
+    },
+    {
+      "slug": "city_the_animation_tv_2025",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "school_setting",
+        "workplace",
+        "slice_of_life",
+        "iyashikei",
+        "comedy",
+        "fantasy",
+        "episodic",
+        "ensemble_cast"
+      ],
+      "facet_platforms": {
+        "school_setting": [
+          "bangumi",
+          "anilist"
+        ],
+        "workplace": [
+          "anilist"
+        ],
+        "slice_of_life": [
+          "bangumi",
+          "anime_planet",
+          "anilist"
+        ],
+        "iyashikei": [
+          "bangumi"
+        ],
+        "comedy": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "fantasy": [
+          "bangumi"
+        ],
+        "episodic": [
+          "anilist"
+        ],
+        "ensemble_cast": [
+          "bangumi",
+          "anilist"
         ]
       }
     },
@@ -4781,6 +5840,78 @@
       }
     },
     {
+      "slug": "cool_devices_ova_1995",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "no_exact_entry",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "mystery_suspense",
+        "idol",
+        "isekai",
+        "episodic",
+        "ensemble_cast"
+      ],
+      "facet_platforms": {
+        "mystery_suspense": [
+          "anilist"
+        ],
+        "idol": [
+          "bangumi",
+          "anilist"
+        ],
+        "isekai": [
+          "anilist"
+        ],
+        "episodic": [
+          "anilist"
+        ],
+        "ensemble_cast": [
+          "anilist"
+        ]
+      }
+    },
+    {
+      "slug": "corrector_yui_2_tv_2000",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "no_exact_entry",
+        "anilist": "success",
+        "myanimelist": "no_exact_entry"
+      },
+      "facets": [
+        "comedy",
+        "adventure",
+        "science_fiction",
+        "idol",
+        "magic",
+        "magical_girl"
+      ],
+      "facet_platforms": {
+        "comedy": [
+          "anilist"
+        ],
+        "adventure": [
+          "anilist"
+        ],
+        "science_fiction": [
+          "anilist"
+        ],
+        "idol": [
+          "anilist"
+        ],
+        "magic": [
+          "anilist"
+        ],
+        "magical_girl": [
+          "bangumi",
+          "anilist"
+        ]
+      }
+    },
+    {
       "slug": "cross_ange_tv_2014",
       "platform_status": {
         "bangumi": "success",
@@ -4878,6 +6009,46 @@
           "anilist"
         ],
         "cute_girls_doing_cute_things": [
+          "anilist"
+        ]
+      }
+    },
+    {
+      "slug": "cutie_honey_universe_tv_2018",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "school_setting",
+        "comedy",
+        "action",
+        "adventure",
+        "science_fiction",
+        "magical_girl"
+      ],
+      "facet_platforms": {
+        "school_setting": [
+          "anilist"
+        ],
+        "comedy": [
+          "myanimelist"
+        ],
+        "action": [
+          "bangumi",
+          "anilist",
+          "myanimelist"
+        ],
+        "adventure": [
+          "anilist"
+        ],
+        "science_fiction": [
+          "anilist",
+          "myanimelist"
+        ],
+        "magical_girl": [
           "anilist"
         ]
       }
@@ -5487,6 +6658,45 @@
       }
     },
     {
+      "slug": "eien_no_filena_ova_1992",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "drama",
+        "action",
+        "adventure",
+        "fantasy",
+        "science_fiction"
+      ],
+      "facet_platforms": {
+        "drama": [
+          "anilist",
+          "myanimelist"
+        ],
+        "action": [
+          "anime_planet"
+        ],
+        "adventure": [
+          "anilist",
+          "myanimelist"
+        ],
+        "fantasy": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "science_fiction": [
+          "bangumi",
+          "anime_planet"
+        ]
+      }
+    },
+    {
       "slug": "eiyuuou_bu_wo_kiwameru_tame_tenseisu_tv_2023",
       "platform_status": {
         "bangumi": "success",
@@ -5715,6 +6925,99 @@
       }
     },
     {
+      "slug": "ephemere_web_2024",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "workplace",
+        "slice_of_life",
+        "drama",
+        "fantasy",
+        "science_fiction",
+        "cute_girls_doing_cute_things"
+      ],
+      "facet_platforms": {
+        "workplace": [
+          "anilist"
+        ],
+        "slice_of_life": [
+          "anilist"
+        ],
+        "drama": [
+          "bangumi"
+        ],
+        "fantasy": [
+          "bangumi"
+        ],
+        "science_fiction": [
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "cute_girls_doing_cute_things": [
+          "anilist"
+        ]
+      }
+    },
+    {
+      "slug": "escha_chron_ova_2017",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "countryside",
+        "slice_of_life",
+        "iyashikei",
+        "fantasy",
+        "science_fiction",
+        "music",
+        "travel_and_outdoors",
+        "episodic",
+        "cute_girls_doing_cute_things"
+      ],
+      "facet_platforms": {
+        "countryside": [
+          "anilist"
+        ],
+        "slice_of_life": [
+          "anilist",
+          "myanimelist"
+        ],
+        "iyashikei": [
+          "bangumi",
+          "anilist"
+        ],
+        "fantasy": [
+          "anime_planet"
+        ],
+        "science_fiction": [
+          "anilist",
+          "myanimelist"
+        ],
+        "music": [
+          "anilist",
+          "myanimelist"
+        ],
+        "travel_and_outdoors": [
+          "anilist"
+        ],
+        "episodic": [
+          "bangumi"
+        ],
+        "cute_girls_doing_cute_things": [
+          "anilist",
+          "myanimelist"
+        ]
+      }
+    },
+    {
       "slug": "estab_life_great_escape_tv_2022",
       "platform_status": {
         "bangumi": "success",
@@ -5824,6 +7127,55 @@
           "bangumi"
         ],
         "cute_girls_doing_cute_things": [
+          "anilist"
+        ]
+      }
+    },
+    {
+      "slug": "fairy_gone_2_tv_2019",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "drama",
+        "action",
+        "adventure",
+        "military",
+        "fantasy",
+        "magic",
+        "supernatural"
+      ],
+      "facet_platforms": {
+        "drama": [
+          "anime_planet",
+          "anilist"
+        ],
+        "action": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "adventure": [
+          "anilist"
+        ],
+        "military": [
+          "anilist",
+          "myanimelist"
+        ],
+        "fantasy": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "magic": [
+          "anilist"
+        ],
+        "supernatural": [
           "anilist"
         ]
       }
@@ -6933,6 +8285,64 @@
       }
     },
     {
+      "slug": "fumetsu_no_anata_e_season_3_tv_2025",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "school_setting",
+        "iyashikei",
+        "drama",
+        "action",
+        "adventure",
+        "fantasy",
+        "supernatural",
+        "psychological",
+        "tragedy"
+      ],
+      "facet_platforms": {
+        "school_setting": [
+          "anilist"
+        ],
+        "iyashikei": [
+          "bangumi"
+        ],
+        "drama": [
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "action": [
+          "bangumi"
+        ],
+        "adventure": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "fantasy": [
+          "bangumi",
+          "anime_planet",
+          "anilist"
+        ],
+        "supernatural": [
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "psychological": [
+          "anilist"
+        ],
+        "tragedy": [
+          "anilist"
+        ]
+      }
+    },
+    {
       "slug": "fumikiri_jikan_tv_2018",
       "platform_status": {
         "bangumi": "success",
@@ -7222,6 +8632,47 @@
       }
     },
     {
+      "slug": "gakuen_mokushiroku_highschool_of_the_dead_drifters_of_the_dead_ova_2011",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "comedy",
+        "action",
+        "adventure",
+        "travel_and_outdoors",
+        "supernatural",
+        "ensemble_cast"
+      ],
+      "facet_platforms": {
+        "comedy": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "action": [
+          "bangumi"
+        ],
+        "adventure": [
+          "anime_planet"
+        ],
+        "travel_and_outdoors": [
+          "anilist"
+        ],
+        "supernatural": [
+          "anilist",
+          "myanimelist"
+        ],
+        "ensemble_cast": [
+          "anilist"
+        ]
+      }
+    },
+    {
       "slug": "gakuen_utopia_manabi_straight_tv_2007",
       "platform_status": {
         "bangumi": "success",
@@ -7451,6 +8902,110 @@
       }
     },
     {
+      "slug": "geu_yeoreum_web_2021",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "school_setting",
+        "workplace",
+        "countryside",
+        "slice_of_life",
+        "drama",
+        "coming_of_age",
+        "tragedy"
+      ],
+      "facet_platforms": {
+        "school_setting": [
+          "bangumi",
+          "anilist"
+        ],
+        "workplace": [
+          "anilist"
+        ],
+        "countryside": [
+          "anilist"
+        ],
+        "slice_of_life": [
+          "bangumi",
+          "anilist"
+        ],
+        "drama": [
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "coming_of_age": [
+          "anilist"
+        ],
+        "tragedy": [
+          "anilist"
+        ]
+      }
+    },
+    {
+      "slug": "gintama_tv_2011",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "historical_setting",
+        "slice_of_life",
+        "comedy",
+        "drama",
+        "action",
+        "science_fiction",
+        "episodic",
+        "ensemble_cast",
+        "tragedy"
+      ],
+      "facet_platforms": {
+        "historical_setting": [
+          "anilist",
+          "myanimelist"
+        ],
+        "slice_of_life": [
+          "bangumi"
+        ],
+        "comedy": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "drama": [
+          "anime_planet",
+          "anilist"
+        ],
+        "action": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "science_fiction": [
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "episodic": [
+          "anilist"
+        ],
+        "ensemble_cast": [
+          "anilist"
+        ],
+        "tragedy": [
+          "anilist"
+        ]
+      }
+    },
+    {
       "slug": "girlfriend_beta_tv_2014",
       "platform_status": {
         "bangumi": "success",
@@ -7483,6 +9038,49 @@
           "anilist"
         ],
         "cute_girls_doing_cute_things": [
+          "anilist"
+        ]
+      }
+    },
+    {
+      "slug": "girls_band_cry_seishun_kyousoukyoku_movie_2025",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "no_exact_entry",
+        "anilist": "success",
+        "myanimelist": "no_exact_entry"
+      },
+      "facets": [
+        "slice_of_life",
+        "iyashikei",
+        "drama",
+        "music",
+        "band",
+        "coming_of_age",
+        "tragedy"
+      ],
+      "facet_platforms": {
+        "slice_of_life": [
+          "anilist"
+        ],
+        "iyashikei": [
+          "bangumi"
+        ],
+        "drama": [
+          "anilist"
+        ],
+        "music": [
+          "bangumi",
+          "anilist"
+        ],
+        "band": [
+          "bangumi",
+          "anilist"
+        ],
+        "coming_of_age": [
+          "anilist"
+        ],
+        "tragedy": [
           "anilist"
         ]
       }
@@ -8402,6 +10000,44 @@
       }
     },
     {
+      "slug": "grand_blue_season_2_tv_2025",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "school_setting",
+        "slice_of_life",
+        "comedy",
+        "sports",
+        "ensemble_cast"
+      ],
+      "facet_platforms": {
+        "school_setting": [
+          "bangumi"
+        ],
+        "slice_of_life": [
+          "bangumi",
+          "anilist"
+        ],
+        "comedy": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "sports": [
+          "bangumi",
+          "anilist"
+        ],
+        "ensemble_cast": [
+          "anilist"
+        ]
+      }
+    },
+    {
       "slug": "gundam_witch_from_mercury_season_1_tv_2022",
       "platform_status": {
         "bangumi": "success",
@@ -8701,6 +10337,46 @@
       }
     },
     {
+      "slug": "haite_kudasai_takamine_san_tv_2025",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "school_setting",
+        "slice_of_life",
+        "comedy",
+        "fantasy",
+        "supernatural"
+      ],
+      "facet_platforms": {
+        "school_setting": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "slice_of_life": [
+          "bangumi",
+          "anilist"
+        ],
+        "comedy": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "fantasy": [
+          "bangumi"
+        ],
+        "supernatural": [
+          "anime_planet"
+        ]
+      }
+    },
+    {
       "slug": "hakumei_to_mikochi_tv_2018",
       "platform_status": {
         "bangumi": "success",
@@ -8975,6 +10651,46 @@
         ],
         "tragedy": [
           "anilist"
+        ]
+      }
+    },
+    {
+      "slug": "hanappe_bazooka_ova_1992",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "school_setting",
+        "comedy",
+        "action",
+        "fantasy",
+        "magic",
+        "super_power"
+      ],
+      "facet_platforms": {
+        "school_setting": [
+          "anilist"
+        ],
+        "comedy": [
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "action": [
+          "anilist",
+          "myanimelist"
+        ],
+        "fantasy": [
+          "bangumi"
+        ],
+        "magic": [
+          "anilist"
+        ],
+        "super_power": [
+          "anime_planet"
         ]
       }
     },
@@ -9400,6 +11116,34 @@
           "anilist"
         ],
         "cute_girls_doing_cute_things": [
+          "anilist"
+        ]
+      }
+    },
+    {
+      "slug": "hen_ova_1997",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "school_setting",
+        "comedy",
+        "band"
+      ],
+      "facet_platforms": {
+        "school_setting": [
+          "anilist"
+        ],
+        "comedy": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "band": [
           "anilist"
         ]
       }
@@ -10712,6 +12456,46 @@
       }
     },
     {
+      "slug": "himitsu_no_aipri_ring_hen_tv_2025",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "no_exact_entry",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "school_setting",
+        "slice_of_life",
+        "music",
+        "idol",
+        "ensemble_cast",
+        "cute_girls_doing_cute_things"
+      ],
+      "facet_platforms": {
+        "school_setting": [
+          "anilist"
+        ],
+        "slice_of_life": [
+          "anilist"
+        ],
+        "music": [
+          "bangumi",
+          "anilist",
+          "myanimelist"
+        ],
+        "idol": [
+          "bangumi",
+          "anilist"
+        ],
+        "ensemble_cast": [
+          "anilist"
+        ],
+        "cute_girls_doing_cute_things": [
+          "anilist"
+        ]
+      }
+    },
+    {
       "slug": "himote_house_tv_2018",
       "platform_status": {
         "bangumi": "success",
@@ -11061,6 +12845,57 @@
       "facet_platforms": {}
     },
     {
+      "slug": "hotel_inhumans_tv_2025",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "workplace",
+        "slice_of_life",
+        "drama",
+        "action",
+        "fantasy",
+        "idol",
+        "episodic",
+        "tragedy"
+      ],
+      "facet_platforms": {
+        "workplace": [
+          "anilist"
+        ],
+        "slice_of_life": [
+          "bangumi"
+        ],
+        "drama": [
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "action": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "fantasy": [
+          "bangumi"
+        ],
+        "idol": [
+          "anilist"
+        ],
+        "episodic": [
+          "bangumi",
+          "anilist"
+        ],
+        "tragedy": [
+          "anilist"
+        ]
+      }
+    },
+    {
       "slug": "houkago_no_pleiades_tv_2015",
       "platform_status": {
         "bangumi": "success",
@@ -11169,6 +13004,40 @@
         "cute_girls_doing_cute_things": [
           "anilist",
           "myanimelist"
+        ]
+      }
+    },
+    {
+      "slug": "huangjin_tingyuan_dong_ri_li_de_xinnian_yuanwang_web_2023",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "slice_of_life",
+        "iyashikei",
+        "comedy",
+        "food"
+      ],
+      "facet_platforms": {
+        "slice_of_life": [
+          "bangumi",
+          "anilist"
+        ],
+        "iyashikei": [
+          "bangumi",
+          "anilist"
+        ],
+        "comedy": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "food": [
+          "bangumi"
         ]
       }
     },
@@ -11318,6 +13187,39 @@
         ],
         "cute_girls_doing_cute_things": [
           "anilist"
+        ]
+      }
+    },
+    {
+      "slug": "i_want_to_love_you_till_your_dying_day_pilot_film_web_2025",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "no_exact_entry",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "school_setting",
+        "action",
+        "fantasy",
+        "magic"
+      ],
+      "facet_platforms": {
+        "school_setting": [
+          "myanimelist"
+        ],
+        "action": [
+          "bangumi",
+          "anime_planet",
+          "myanimelist"
+        ],
+        "fantasy": [
+          "bangumi",
+          "anime_planet",
+          "myanimelist"
+        ],
+        "magic": [
+          "anime_planet"
         ]
       }
     },
@@ -11533,6 +13435,108 @@
       }
     },
     {
+      "slug": "idol_land_pripara_web_2021",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "school_setting",
+        "slice_of_life",
+        "comedy",
+        "action",
+        "fantasy",
+        "music",
+        "idol",
+        "isekai",
+        "cute_girls_doing_cute_things"
+      ],
+      "facet_platforms": {
+        "school_setting": [
+          "anilist"
+        ],
+        "slice_of_life": [
+          "anilist",
+          "myanimelist"
+        ],
+        "comedy": [
+          "bangumi",
+          "anilist"
+        ],
+        "action": [
+          "anilist"
+        ],
+        "fantasy": [
+          "anime_planet"
+        ],
+        "music": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "idol": [
+          "bangumi",
+          "anime_planet",
+          "anilist"
+        ],
+        "isekai": [
+          "anilist"
+        ],
+        "cute_girls_doing_cute_things": [
+          "anilist"
+        ]
+      }
+    },
+    {
+      "slug": "idol_project_ova_1995",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "comedy",
+        "adventure",
+        "fantasy",
+        "science_fiction",
+        "music",
+        "idol",
+        "ensemble_cast"
+      ],
+      "facet_platforms": {
+        "comedy": [
+          "anilist",
+          "myanimelist"
+        ],
+        "adventure": [
+          "anilist",
+          "myanimelist"
+        ],
+        "fantasy": [
+          "anime_planet"
+        ],
+        "science_fiction": [
+          "myanimelist"
+        ],
+        "music": [
+          "anilist",
+          "myanimelist"
+        ],
+        "idol": [
+          "bangumi",
+          "anime_planet",
+          "anilist"
+        ],
+        "ensemble_cast": [
+          "anilist"
+        ]
+      }
+    },
+    {
       "slug": "idolmaster_xenoglossia_tv_2007",
       "platform_status": {
         "bangumi": "success",
@@ -11732,6 +13736,83 @@
       }
     },
     {
+      "slug": "ikoku_nikki_tv_2026",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "school_setting",
+        "slice_of_life",
+        "iyashikei",
+        "drama",
+        "band",
+        "coming_of_age",
+        "psychological",
+        "tragedy"
+      ],
+      "facet_platforms": {
+        "school_setting": [
+          "bangumi",
+          "anilist"
+        ],
+        "slice_of_life": [
+          "bangumi",
+          "anime_planet",
+          "anilist"
+        ],
+        "iyashikei": [
+          "bangumi"
+        ],
+        "drama": [
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "band": [
+          "anilist"
+        ],
+        "coming_of_age": [
+          "anime_planet",
+          "anilist"
+        ],
+        "psychological": [
+          "anime_planet"
+        ],
+        "tragedy": [
+          "anilist"
+        ]
+      }
+    },
+    {
+      "slug": "imprisoned_xii_web_2025",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "no_exact_entry",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "music",
+        "idol",
+        "tragedy"
+      ],
+      "facet_platforms": {
+        "music": [
+          "bangumi",
+          "myanimelist"
+        ],
+        "idol": [
+          "bangumi"
+        ],
+        "tragedy": [
+          "anilist"
+        ]
+      }
+    },
+    {
       "slug": "inari_konkon_koi_iroha_tv_2014",
       "platform_status": {
         "bangumi": "success",
@@ -11815,6 +13896,57 @@
           "anilist"
         ],
         "cute_girls_doing_cute_things": [
+          "anilist"
+        ]
+      }
+    },
+    {
+      "slug": "ishuzoku_reviewers_tv_2020",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "workplace",
+        "slice_of_life",
+        "comedy",
+        "fantasy",
+        "travel_and_outdoors",
+        "magic",
+        "isekai",
+        "episodic"
+      ],
+      "facet_platforms": {
+        "workplace": [
+          "anilist"
+        ],
+        "slice_of_life": [
+          "bangumi"
+        ],
+        "comedy": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "fantasy": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "travel_and_outdoors": [
+          "anilist"
+        ],
+        "magic": [
+          "anilist"
+        ],
+        "isekai": [
+          "bangumi"
+        ],
+        "episodic": [
           "anilist"
         ]
       }
@@ -12536,6 +14668,45 @@
       }
     },
     {
+      "slug": "kaguya_sama_wa_kokurasetai_tensaitachi_no_renai_zunousen_ova_2021",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "school_setting",
+        "slice_of_life",
+        "comedy",
+        "food",
+        "ensemble_cast"
+      ],
+      "facet_platforms": {
+        "school_setting": [
+          "bangumi",
+          "anilist",
+          "myanimelist"
+        ],
+        "slice_of_life": [
+          "bangumi",
+          "anilist"
+        ],
+        "comedy": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "food": [
+          "anilist"
+        ],
+        "ensemble_cast": [
+          "anilist"
+        ]
+      }
+    },
+    {
       "slug": "kaijuu_girls_black_movie_2018",
       "platform_status": {
         "bangumi": "success",
@@ -12836,6 +15007,55 @@
       }
     },
     {
+      "slug": "kampfer_tv_2009",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "school_setting",
+        "comedy",
+        "action",
+        "fantasy",
+        "idol",
+        "magic",
+        "cute_girls_doing_cute_things"
+      ],
+      "facet_platforms": {
+        "school_setting": [
+          "bangumi",
+          "anilist",
+          "myanimelist"
+        ],
+        "comedy": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "action": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "fantasy": [
+          "bangumi"
+        ],
+        "idol": [
+          "anilist"
+        ],
+        "magic": [
+          "anime_planet"
+        ],
+        "cute_girls_doing_cute_things": [
+          "anilist"
+        ]
+      }
+    },
+    {
       "slug": "kanamemo_tv_2009",
       "platform_status": {
         "bangumi": "success",
@@ -12876,6 +15096,50 @@
         "cute_girls_doing_cute_things": [
           "anilist",
           "myanimelist"
+        ]
+      }
+    },
+    {
+      "slug": "kanan_sama_wa_akumade_choroi_tv_2026",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "school_setting",
+        "slice_of_life",
+        "comedy",
+        "fantasy",
+        "supernatural",
+        "episodic"
+      ],
+      "facet_platforms": {
+        "school_setting": [
+          "bangumi",
+          "anilist",
+          "myanimelist"
+        ],
+        "slice_of_life": [
+          "bangumi"
+        ],
+        "comedy": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "fantasy": [
+          "bangumi",
+          "anilist"
+        ],
+        "supernatural": [
+          "anime_planet",
+          "myanimelist"
+        ],
+        "episodic": [
+          "anilist"
         ]
       }
     },
@@ -13054,6 +15318,38 @@
         "mecha": [
           "anime_planet",
           "anilist"
+        ]
+      }
+    },
+    {
+      "slug": "kanojo_mo_kanojo_season_2_tv_2023",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "school_setting",
+        "slice_of_life",
+        "comedy"
+      ],
+      "facet_platforms": {
+        "school_setting": [
+          "bangumi",
+          "anilist",
+          "myanimelist"
+        ],
+        "slice_of_life": [
+          "bangumi",
+          "anime_planet",
+          "anilist"
+        ],
+        "comedy": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
         ]
       }
     },
@@ -13483,6 +15779,141 @@
           "anime_planet",
           "anilist",
           "myanimelist"
+        ],
+        "cute_girls_doing_cute_things": [
+          "anilist"
+        ]
+      }
+    },
+    {
+      "slug": "kimi_ga_aruji_de_shitsuji_ga_ore_de_tv_2008",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "slice_of_life",
+        "comedy"
+      ],
+      "facet_platforms": {
+        "slice_of_life": [
+          "bangumi"
+        ],
+        "comedy": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ]
+      }
+    },
+    {
+      "slug": "kimi_no_koto_ga_dai_dai_dai_dai_daisuki_na_100_nin_no_kanojo_tv_2023",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "school_setting",
+        "slice_of_life",
+        "comedy",
+        "fantasy",
+        "supernatural",
+        "ensemble_cast",
+        "cute_girls_doing_cute_things"
+      ],
+      "facet_platforms": {
+        "school_setting": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "slice_of_life": [
+          "bangumi"
+        ],
+        "comedy": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "fantasy": [
+          "bangumi"
+        ],
+        "supernatural": [
+          "anime_planet"
+        ],
+        "ensemble_cast": [
+          "anilist"
+        ],
+        "cute_girls_doing_cute_things": [
+          "anilist"
+        ]
+      }
+    },
+    {
+      "slug": "kimi_to_idol_precure_tv_2025",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "school_setting",
+        "action",
+        "fantasy",
+        "music",
+        "idol",
+        "magic",
+        "magical_girl",
+        "isekai",
+        "episodic",
+        "cute_girls_doing_cute_things"
+      ],
+      "facet_platforms": {
+        "school_setting": [
+          "anilist"
+        ],
+        "action": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "fantasy": [
+          "bangumi",
+          "anime_planet",
+          "anilist"
+        ],
+        "music": [
+          "anilist"
+        ],
+        "idol": [
+          "bangumi",
+          "anime_planet",
+          "anilist"
+        ],
+        "magic": [
+          "anime_planet",
+          "anilist"
+        ],
+        "magical_girl": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "isekai": [
+          "anilist"
+        ],
+        "episodic": [
+          "anilist"
         ],
         "cute_girls_doing_cute_things": [
           "anilist"
@@ -13934,6 +16365,43 @@
       }
     },
     {
+      "slug": "koi_koi_7_tv_2005",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "school_setting",
+        "comedy",
+        "science_fiction",
+        "super_power",
+        "mecha"
+      ],
+      "facet_platforms": {
+        "school_setting": [
+          "anilist",
+          "myanimelist"
+        ],
+        "comedy": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "science_fiction": [
+          "myanimelist"
+        ],
+        "super_power": [
+          "anilist"
+        ],
+        "mecha": [
+          "anilist"
+        ]
+      }
+    },
+    {
       "slug": "koi_wa_futago_de_warikirenai_tv_2024",
       "platform_status": {
         "bangumi": "success",
@@ -14246,6 +16714,122 @@
       }
     },
     {
+      "slug": "koori_no_jouheki_tv_2026",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "school_setting",
+        "slice_of_life",
+        "comedy",
+        "drama",
+        "mystery_suspense",
+        "ensemble_cast",
+        "coming_of_age"
+      ],
+      "facet_platforms": {
+        "school_setting": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "slice_of_life": [
+          "bangumi",
+          "anilist"
+        ],
+        "comedy": [
+          "anilist"
+        ],
+        "drama": [
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "mystery_suspense": [
+          "bangumi"
+        ],
+        "ensemble_cast": [
+          "bangumi",
+          "anilist"
+        ],
+        "coming_of_age": [
+          "anilist"
+        ]
+      }
+    },
+    {
+      "slug": "kore_wa_zombie_desu_ka_tv_2011",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "school_setting",
+        "slice_of_life",
+        "comedy",
+        "action",
+        "fantasy",
+        "magic",
+        "supernatural"
+      ],
+      "facet_platforms": {
+        "school_setting": [
+          "bangumi",
+          "anime_planet",
+          "anilist"
+        ],
+        "slice_of_life": [
+          "bangumi"
+        ],
+        "comedy": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "action": [
+          "bangumi",
+          "anilist",
+          "myanimelist"
+        ],
+        "fantasy": [
+          "bangumi",
+          "anime_planet"
+        ],
+        "magic": [
+          "anime_planet",
+          "anilist"
+        ],
+        "supernatural": [
+          "anilist",
+          "myanimelist"
+        ]
+      }
+    },
+    {
+      "slug": "kororon_mv_2023",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "music"
+      ],
+      "facet_platforms": {
+        "music": [
+          "myanimelist"
+        ]
+      }
+    },
+    {
       "slug": "koufuku_graffiti_tv_2015",
       "platform_status": {
         "bangumi": "success",
@@ -14368,6 +16952,45 @@
         ],
         "cute_girls_doing_cute_things": [
           "anilist"
+        ]
+      }
+    },
+    {
+      "slug": "koutetsu_tenshi_kurumi_2_tv_2001",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "school_setting",
+        "slice_of_life",
+        "comedy",
+        "science_fiction",
+        "mecha"
+      ],
+      "facet_platforms": {
+        "school_setting": [
+          "anilist"
+        ],
+        "slice_of_life": [
+          "anime_planet"
+        ],
+        "comedy": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "science_fiction": [
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "mecha": [
+          "anilist",
+          "myanimelist"
         ]
       }
     },
@@ -14681,6 +17304,63 @@
       }
     },
     {
+      "slug": "kusuriya_no_hitorigoto_2nd_season_tv_2025",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "workplace",
+        "historical_setting",
+        "slice_of_life",
+        "iyashikei",
+        "comedy",
+        "drama",
+        "mystery_suspense",
+        "fantasy",
+        "tragedy"
+      ],
+      "facet_platforms": {
+        "workplace": [
+          "anilist"
+        ],
+        "historical_setting": [
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "slice_of_life": [
+          "bangumi",
+          "anime_planet"
+        ],
+        "iyashikei": [
+          "bangumi"
+        ],
+        "comedy": [
+          "bangumi"
+        ],
+        "drama": [
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "mystery_suspense": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "fantasy": [
+          "bangumi"
+        ],
+        "tragedy": [
+          "anilist"
+        ]
+      }
+    },
+    {
       "slug": "kuttsukiboshi_ova_2010",
       "platform_status": {
         "bangumi": "success",
@@ -14767,6 +17447,60 @@
           "anilist"
         ],
         "tragedy": [
+          "anilist"
+        ]
+      }
+    },
+    {
+      "slug": "kyoukaisenjou_no_horizon_tv_2011",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "school_setting",
+        "historical_setting",
+        "comedy",
+        "drama",
+        "action",
+        "fantasy",
+        "science_fiction",
+        "ensemble_cast"
+      ],
+      "facet_platforms": {
+        "school_setting": [
+          "bangumi"
+        ],
+        "historical_setting": [
+          "anilist"
+        ],
+        "comedy": [
+          "bangumi",
+          "anilist"
+        ],
+        "drama": [
+          "anilist"
+        ],
+        "action": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "fantasy": [
+          "bangumi",
+          "anilist",
+          "myanimelist"
+        ],
+        "science_fiction": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "ensemble_cast": [
           "anilist"
         ]
       }
@@ -16260,6 +18994,43 @@
       }
     },
     {
+      "slug": "lutu_weiji_sheng_freya_hao_tebie_shijian_web_2024",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "slice_of_life",
+        "iyashikei",
+        "comedy",
+        "mystery_suspense",
+        "science_fiction"
+      ],
+      "facet_platforms": {
+        "slice_of_life": [
+          "bangumi"
+        ],
+        "iyashikei": [
+          "bangumi"
+        ],
+        "comedy": [
+          "bangumi",
+          "anilist",
+          "myanimelist"
+        ],
+        "mystery_suspense": [
+          "anilist",
+          "myanimelist"
+        ],
+        "science_fiction": [
+          "anilist",
+          "myanimelist"
+        ]
+      }
+    },
+    {
       "slug": "lycoris_recoil_friends_are_thieves_of_time_web_2025",
       "platform_status": {
         "bangumi": "success",
@@ -16695,6 +19466,31 @@
         ],
         "isekai": [
           "anilist",
+          "myanimelist"
+        ]
+      }
+    },
+    {
+      "slug": "mafiosa_mv_2025",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "no_exact_entry",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "drama",
+        "action",
+        "music"
+      ],
+      "facet_platforms": {
+        "drama": [
+          "anilist"
+        ],
+        "action": [
+          "anilist"
+        ],
+        "music": [
           "myanimelist"
         ]
       }
@@ -18546,6 +21342,37 @@
       }
     },
     {
+      "slug": "malice_at_doll_ova_2001",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "horror",
+        "science_fiction",
+        "psychological"
+      ],
+      "facet_platforms": {
+        "horror": [
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "science_fiction": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "psychological": [
+          "anilist",
+          "myanimelist"
+        ]
+      }
+    },
+    {
       "slug": "manaria_friends_tv_2019",
       "platform_status": {
         "bangumi": "success",
@@ -18907,6 +21734,102 @@
       }
     },
     {
+      "slug": "marriagetoxin_tv_2026",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "slice_of_life",
+        "comedy",
+        "drama",
+        "action",
+        "fantasy",
+        "super_power"
+      ],
+      "facet_platforms": {
+        "slice_of_life": [
+          "bangumi"
+        ],
+        "comedy": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "drama": [
+          "anime_planet",
+          "anilist"
+        ],
+        "action": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "fantasy": [
+          "bangumi"
+        ],
+        "super_power": [
+          "bangumi",
+          "anilist"
+        ]
+      }
+    },
+    {
+      "slug": "masou_gakuen_hxh_tv_2016",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "school_setting",
+        "comedy",
+        "action",
+        "fantasy",
+        "science_fiction",
+        "super_power",
+        "isekai"
+      ],
+      "facet_platforms": {
+        "school_setting": [
+          "bangumi",
+          "anilist",
+          "myanimelist"
+        ],
+        "comedy": [
+          "anilist",
+          "myanimelist"
+        ],
+        "action": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "fantasy": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "science_fiction": [
+          "bangumi",
+          "anilist"
+        ],
+        "super_power": [
+          "anime_planet"
+        ],
+        "isekai": [
+          "anilist"
+        ]
+      }
+    },
+    {
       "slug": "mayonaka_punch_tv_2024",
       "platform_status": {
         "bangumi": "success",
@@ -18956,6 +21879,89 @@
           "anime_planet",
           "anilist",
           "myanimelist"
+        ]
+      }
+    },
+    {
+      "slug": "megami_isekai_tensei_nani_ni_naritai_desu_ka_ore_yuusha_no_rokkotsu_de_tv_2026",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "slice_of_life",
+        "comedy",
+        "action",
+        "fantasy",
+        "isekai",
+        "episodic"
+      ],
+      "facet_platforms": {
+        "slice_of_life": [
+          "bangumi"
+        ],
+        "comedy": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "action": [
+          "anime_planet"
+        ],
+        "fantasy": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "isekai": [
+          "bangumi",
+          "anilist",
+          "myanimelist"
+        ],
+        "episodic": [
+          "anilist"
+        ]
+      }
+    },
+    {
+      "slug": "metallic_rouge_tv_2024",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "comedy",
+        "action",
+        "mystery_suspense",
+        "science_fiction",
+        "super_power"
+      ],
+      "facet_platforms": {
+        "comedy": [
+          "bangumi"
+        ],
+        "action": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "mystery_suspense": [
+          "anilist"
+        ],
+        "science_fiction": [
+          "bangumi",
+          "anilist",
+          "myanimelist"
+        ],
+        "super_power": [
+          "anilist"
         ]
       }
     },
@@ -19422,6 +22428,59 @@
           "myanimelist"
         ],
         "isekai": [
+          "anilist"
+        ]
+      }
+    },
+    {
+      "slug": "mnemosyne_mnemosyne_no_musume_tachi_tv_2008",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "action",
+        "mystery_suspense",
+        "horror",
+        "fantasy",
+        "science_fiction",
+        "supernatural",
+        "episodic",
+        "tragedy"
+      ],
+      "facet_platforms": {
+        "action": [
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "mystery_suspense": [
+          "anime_planet",
+          "anilist"
+        ],
+        "horror": [
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "fantasy": [
+          "bangumi"
+        ],
+        "science_fiction": [
+          "bangumi",
+          "anilist",
+          "myanimelist"
+        ],
+        "supernatural": [
+          "anilist",
+          "myanimelist"
+        ],
+        "episodic": [
+          "anilist"
+        ],
+        "tragedy": [
           "anilist"
         ]
       }
@@ -20094,6 +23153,57 @@
       }
     },
     {
+      "slug": "nana_tv_2006",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "slice_of_life",
+        "iyashikei",
+        "drama",
+        "music",
+        "band",
+        "ensemble_cast",
+        "coming_of_age",
+        "tragedy"
+      ],
+      "facet_platforms": {
+        "slice_of_life": [
+          "anilist"
+        ],
+        "iyashikei": [
+          "bangumi"
+        ],
+        "drama": [
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "music": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "band": [
+          "anilist"
+        ],
+        "ensemble_cast": [
+          "anilist"
+        ],
+        "coming_of_age": [
+          "anime_planet",
+          "anilist"
+        ],
+        "tragedy": [
+          "anilist"
+        ]
+      }
+    },
+    {
       "slug": "nanabun_no_nijuuni_tv_2020",
       "platform_status": {
         "bangumi": "success",
@@ -20332,6 +23442,112 @@
           "anilist"
         ],
         "cute_girls_doing_cute_things": [
+          "anilist"
+        ]
+      }
+    },
+    {
+      "slug": "necronomico_no_cosmic_horror_show_tv_2025",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "comedy",
+        "action",
+        "adventure",
+        "mystery_suspense",
+        "horror",
+        "fantasy",
+        "science_fiction",
+        "supernatural",
+        "tragedy"
+      ],
+      "facet_platforms": {
+        "comedy": [
+          "bangumi",
+          "anilist"
+        ],
+        "action": [
+          "bangumi"
+        ],
+        "adventure": [
+          "bangumi"
+        ],
+        "mystery_suspense": [
+          "myanimelist"
+        ],
+        "horror": [
+          "anime_planet"
+        ],
+        "fantasy": [
+          "bangumi",
+          "anime_planet",
+          "anilist"
+        ],
+        "science_fiction": [
+          "bangumi",
+          "anilist"
+        ],
+        "supernatural": [
+          "myanimelist"
+        ],
+        "tragedy": [
+          "anilist"
+        ]
+      }
+    },
+    {
+      "slug": "needy_girl_overdose_tv_2026",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "workplace",
+        "slice_of_life",
+        "drama",
+        "adventure",
+        "fantasy",
+        "music",
+        "idol",
+        "psychological",
+        "tragedy"
+      ],
+      "facet_platforms": {
+        "workplace": [
+          "anilist"
+        ],
+        "slice_of_life": [
+          "anilist"
+        ],
+        "drama": [
+          "anime_planet",
+          "anilist"
+        ],
+        "adventure": [
+          "anilist"
+        ],
+        "fantasy": [
+          "bangumi"
+        ],
+        "music": [
+          "bangumi"
+        ],
+        "idol": [
+          "bangumi",
+          "anilist"
+        ],
+        "psychological": [
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "tragedy": [
           "anilist"
         ]
       }
@@ -21312,6 +24528,41 @@
       }
     },
     {
+      "slug": "nukitashi_the_animation_tv_2025",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "school_setting",
+        "comedy",
+        "drama",
+        "action"
+      ],
+      "facet_platforms": {
+        "school_setting": [
+          "bangumi",
+          "anilist",
+          "myanimelist"
+        ],
+        "comedy": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "drama": [
+          "anilist"
+        ],
+        "action": [
+          "bangumi",
+          "anilist"
+        ]
+      }
+    },
+    {
       "slug": "null_and_peta_tv_2019",
       "platform_status": {
         "bangumi": "success",
@@ -21889,6 +25140,34 @@
       }
     },
     {
+      "slug": "ookii_onnanoko_wa_suki_desu_ka_tv_2026",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "school_setting",
+        "slice_of_life",
+        "sports"
+      ],
+      "facet_platforms": {
+        "school_setting": [
+          "bangumi",
+          "anime_planet"
+        ],
+        "slice_of_life": [
+          "bangumi"
+        ],
+        "sports": [
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ]
+      }
+    },
+    {
       "slug": "oshi_ga_budoukan_ittekuretara_shinu_tv_2020",
       "platform_status": {
         "bangumi": "success",
@@ -21929,6 +25208,68 @@
           "bangumi",
           "anime_planet",
           "anilist"
+        ]
+      }
+    },
+    {
+      "slug": "otaku_ni_yasashii_gal_wa_inai_tv_2026",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "school_setting",
+        "slice_of_life",
+        "iyashikei",
+        "comedy",
+        "science_fiction"
+      ],
+      "facet_platforms": {
+        "school_setting": [
+          "bangumi",
+          "anilist",
+          "myanimelist"
+        ],
+        "slice_of_life": [
+          "bangumi"
+        ],
+        "iyashikei": [
+          "anilist"
+        ],
+        "comedy": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "science_fiction": [
+          "bangumi"
+        ]
+      }
+    },
+    {
+      "slug": "otenki_onee_san_ova_1995",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "no_exact_entry",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "workplace",
+        "comedy"
+      ],
+      "facet_platforms": {
+        "workplace": [
+          "bangumi",
+          "anilist"
+        ],
+        "comedy": [
+          "bangumi",
+          "anilist",
+          "myanimelist"
         ]
       }
     },
@@ -22687,6 +26028,185 @@
       }
     },
     {
+      "slug": "princess_session_orchestra_tv_2025",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "school_setting",
+        "action",
+        "fantasy",
+        "music",
+        "idol",
+        "food",
+        "magic",
+        "super_power",
+        "magical_girl",
+        "isekai",
+        "episodic",
+        "tragedy",
+        "cute_girls_doing_cute_things"
+      ],
+      "facet_platforms": {
+        "school_setting": [
+          "anilist"
+        ],
+        "action": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "fantasy": [
+          "anime_planet",
+          "myanimelist"
+        ],
+        "music": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "idol": [
+          "anime_planet",
+          "anilist"
+        ],
+        "food": [
+          "anilist"
+        ],
+        "magic": [
+          "anime_planet",
+          "anilist"
+        ],
+        "super_power": [
+          "anilist"
+        ],
+        "magical_girl": [
+          "bangumi",
+          "anime_planet",
+          "anilist"
+        ],
+        "isekai": [
+          "anilist"
+        ],
+        "episodic": [
+          "anilist"
+        ],
+        "tragedy": [
+          "anilist"
+        ],
+        "cute_girls_doing_cute_things": [
+          "anilist"
+        ]
+      }
+    },
+    {
+      "slug": "pripara_2nd_season_tv_2015",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "no_exact_entry"
+      },
+      "facets": [
+        "school_setting",
+        "slice_of_life",
+        "comedy",
+        "music",
+        "idol",
+        "magic",
+        "isekai",
+        "cute_girls_doing_cute_things"
+      ],
+      "facet_platforms": {
+        "school_setting": [
+          "bangumi",
+          "anilist"
+        ],
+        "slice_of_life": [
+          "anilist"
+        ],
+        "comedy": [
+          "bangumi",
+          "anilist"
+        ],
+        "music": [
+          "bangumi",
+          "anime_planet",
+          "anilist"
+        ],
+        "idol": [
+          "bangumi",
+          "anime_planet",
+          "anilist"
+        ],
+        "magic": [
+          "anilist"
+        ],
+        "isekai": [
+          "anilist"
+        ],
+        "cute_girls_doing_cute_things": [
+          "anilist"
+        ]
+      }
+    },
+    {
+      "slug": "project_a_ko_movie_1986",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "school_setting",
+        "comedy",
+        "action",
+        "adventure",
+        "science_fiction",
+        "super_power",
+        "mecha"
+      ],
+      "facet_platforms": {
+        "school_setting": [
+          "anilist"
+        ],
+        "comedy": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "action": [
+          "anime_planet",
+          "anilist"
+        ],
+        "adventure": [
+          "anilist",
+          "myanimelist"
+        ],
+        "science_fiction": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "super_power": [
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "mecha": [
+          "anilist",
+          "myanimelist"
+        ]
+      }
+    },
+    {
       "slug": "queens_blade_beautiful_warriors_ova_2010",
       "platform_status": {
         "bangumi": "success",
@@ -23088,6 +26608,78 @@
           "anilist"
         ],
         "cute_girls_doing_cute_things": [
+          "anilist"
+        ]
+      }
+    },
+    {
+      "slug": "re_zero_kara_hajimeru_isekai_seikatsu_3rd_season_tv_2024",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "drama",
+        "action",
+        "adventure",
+        "mystery_suspense",
+        "fantasy",
+        "magic",
+        "super_power",
+        "isekai",
+        "ensemble_cast",
+        "psychological",
+        "tragedy"
+      ],
+      "facet_platforms": {
+        "drama": [
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "action": [
+          "bangumi",
+          "anime_planet",
+          "anilist"
+        ],
+        "adventure": [
+          "bangumi",
+          "anime_planet",
+          "anilist"
+        ],
+        "mystery_suspense": [
+          "myanimelist"
+        ],
+        "fantasy": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "magic": [
+          "anime_planet",
+          "anilist"
+        ],
+        "super_power": [
+          "anilist"
+        ],
+        "isekai": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "ensemble_cast": [
+          "anilist"
+        ],
+        "psychological": [
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "tragedy": [
           "anilist"
         ]
       }
@@ -24474,6 +28066,72 @@
       }
     },
     {
+      "slug": "sanda_tv_2025",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "school_setting",
+        "comedy",
+        "drama",
+        "action",
+        "mystery_suspense",
+        "fantasy",
+        "science_fiction",
+        "magic",
+        "super_power",
+        "coming_of_age",
+        "tragedy"
+      ],
+      "facet_platforms": {
+        "school_setting": [
+          "bangumi",
+          "anime_planet",
+          "myanimelist"
+        ],
+        "comedy": [
+          "bangumi"
+        ],
+        "drama": [
+          "anime_planet",
+          "anilist"
+        ],
+        "action": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "mystery_suspense": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "fantasy": [
+          "bangumi"
+        ],
+        "science_fiction": [
+          "anime_planet"
+        ],
+        "magic": [
+          "anilist"
+        ],
+        "super_power": [
+          "anilist"
+        ],
+        "coming_of_age": [
+          "anilist"
+        ],
+        "tragedy": [
+          "anilist"
+        ]
+      }
+    },
+    {
       "slug": "sansha_sanyou_tv_2016",
       "platform_status": {
         "bangumi": "success",
@@ -24670,6 +28328,46 @@
         ],
         "cute_girls_doing_cute_things": [
           "anilist"
+        ]
+      }
+    },
+    {
+      "slug": "seiken_no_blacksmith_tv_2009",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "action",
+        "adventure",
+        "fantasy",
+        "magic",
+        "isekai"
+      ],
+      "facet_platforms": {
+        "action": [
+          "bangumi",
+          "anilist",
+          "myanimelist"
+        ],
+        "adventure": [
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "fantasy": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "magic": [
+          "anilist"
+        ],
+        "isekai": [
+          "bangumi"
         ]
       }
     },
@@ -25819,6 +29517,46 @@
       }
     },
     {
+      "slug": "shamanic_princess_ova_1996",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "school_setting",
+        "action",
+        "fantasy",
+        "magic",
+        "magical_girl"
+      ],
+      "facet_platforms": {
+        "school_setting": [
+          "anilist"
+        ],
+        "action": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "fantasy": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "magic": [
+          "anime_planet",
+          "anilist"
+        ],
+        "magical_girl": [
+          "anilist"
+        ]
+      }
+    },
+    {
       "slug": "shibou_yuugi_de_meshi_wo_kuu_tv_2026",
       "platform_status": {
         "bangumi": "success",
@@ -26207,6 +29945,89 @@
           "anime_planet"
         ],
         "cute_girls_doing_cute_things": [
+          "anilist"
+        ]
+      }
+    },
+    {
+      "slug": "shinsekai_yori_tv_2012",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "school_setting",
+        "countryside",
+        "drama",
+        "adventure",
+        "mystery_suspense",
+        "horror",
+        "fantasy",
+        "science_fiction",
+        "magic",
+        "super_power",
+        "supernatural",
+        "coming_of_age",
+        "psychological",
+        "tragedy"
+      ],
+      "facet_platforms": {
+        "school_setting": [
+          "anilist"
+        ],
+        "countryside": [
+          "anilist"
+        ],
+        "drama": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "adventure": [
+          "anime_planet"
+        ],
+        "mystery_suspense": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "horror": [
+          "anilist",
+          "myanimelist"
+        ],
+        "fantasy": [
+          "bangumi",
+          "myanimelist"
+        ],
+        "science_fiction": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "magic": [
+          "anilist"
+        ],
+        "super_power": [
+          "anime_planet",
+          "anilist"
+        ],
+        "supernatural": [
+          "anilist"
+        ],
+        "coming_of_age": [
+          "anime_planet",
+          "anilist"
+        ],
+        "psychological": [
+          "anilist",
+          "myanimelist"
+        ],
+        "tragedy": [
           "anilist"
         ]
       }
@@ -27011,6 +30832,64 @@
           "anilist"
         ],
         "cute_girls_doing_cute_things": [
+          "anilist"
+        ]
+      }
+    },
+    {
+      "slug": "shunkashuutou_daikousha_haru_no_mai_tv_2026",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "countryside",
+        "iyashikei",
+        "drama",
+        "action",
+        "fantasy",
+        "travel_and_outdoors",
+        "magic",
+        "super_power",
+        "ensemble_cast",
+        "tragedy"
+      ],
+      "facet_platforms": {
+        "countryside": [
+          "anilist"
+        ],
+        "iyashikei": [
+          "bangumi"
+        ],
+        "drama": [
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "action": [
+          "bangumi"
+        ],
+        "fantasy": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "travel_and_outdoors": [
+          "anilist"
+        ],
+        "magic": [
+          "anilist"
+        ],
+        "super_power": [
+          "anilist"
+        ],
+        "ensemble_cast": [
+          "anilist"
+        ],
+        "tragedy": [
           "anilist"
         ]
       }
@@ -28033,6 +31912,85 @@
       }
     },
     {
+      "slug": "sore_wo_ai_to_yobu_dake_web_2020",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "slice_of_life",
+        "drama",
+        "music",
+        "supernatural",
+        "coming_of_age",
+        "tragedy"
+      ],
+      "facet_platforms": {
+        "slice_of_life": [
+          "anime_planet"
+        ],
+        "drama": [
+          "anilist"
+        ],
+        "music": [
+          "myanimelist"
+        ],
+        "supernatural": [
+          "anime_planet"
+        ],
+        "coming_of_age": [
+          "anilist"
+        ],
+        "tragedy": [
+          "anilist"
+        ]
+      }
+    },
+    {
+      "slug": "soukou_no_strain_tv_2006",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "drama",
+        "action",
+        "military",
+        "science_fiction",
+        "mecha"
+      ],
+      "facet_platforms": {
+        "drama": [
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "action": [
+          "bangumi"
+        ],
+        "military": [
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "science_fiction": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "mecha": [
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ]
+      }
+    },
+    {
       "slug": "soul_eater_not_tv_2014",
       "platform_status": {
         "bangumi": "success",
@@ -28412,6 +32370,45 @@
           "myanimelist"
         ],
         "cute_girls_doing_cute_things": [
+          "anilist",
+          "myanimelist"
+        ]
+      }
+    },
+    {
+      "slug": "stratos_4_tv_2003",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "school_setting",
+        "workplace",
+        "comedy",
+        "military",
+        "science_fiction"
+      ],
+      "facet_platforms": {
+        "school_setting": [
+          "bangumi"
+        ],
+        "workplace": [
+          "anilist"
+        ],
+        "comedy": [
+          "anilist",
+          "myanimelist"
+        ],
+        "military": [
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "science_fiction": [
+          "bangumi",
+          "anime_planet",
           "anilist",
           "myanimelist"
         ]
@@ -28964,6 +32961,47 @@
         ],
         "cute_girls_doing_cute_things": [
           "anilist"
+        ]
+      }
+    },
+    {
+      "slug": "sukeban_deka_ova_1991",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "school_setting",
+        "drama",
+        "action",
+        "adventure",
+        "mystery_suspense"
+      ],
+      "facet_platforms": {
+        "school_setting": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "drama": [
+          "anilist",
+          "myanimelist"
+        ],
+        "action": [
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "adventure": [
+          "anilist"
+        ],
+        "mystery_suspense": [
+          "anime_planet",
+          "anilist",
+          "myanimelist"
         ]
       }
     },
@@ -29714,6 +33752,52 @@
       }
     },
     {
+      "slug": "tatakae_iczer_1_ova_1985",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "school_setting",
+        "action",
+        "horror",
+        "military",
+        "science_fiction",
+        "mecha",
+        "tragedy"
+      ],
+      "facet_platforms": {
+        "school_setting": [
+          "anilist"
+        ],
+        "action": [
+          "anime_planet",
+          "anilist"
+        ],
+        "horror": [
+          "anilist"
+        ],
+        "military": [
+          "anilist"
+        ],
+        "science_fiction": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "mecha": [
+          "anilist",
+          "myanimelist"
+        ],
+        "tragedy": [
+          "anilist"
+        ]
+      }
+    },
+    {
       "slug": "teekyu_tv_2012",
       "platform_status": {
         "bangumi": "success",
@@ -30090,6 +34174,67 @@
         ],
         "cute_girls_doing_cute_things": [
           "anilist"
+        ]
+      }
+    },
+    {
+      "slug": "teenage_blue_mv_2024",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "school_setting",
+        "music"
+      ],
+      "facet_platforms": {
+        "school_setting": [
+          "anilist"
+        ],
+        "music": [
+          "myanimelist"
+        ]
+      }
+    },
+    {
+      "slug": "tenchi_muyou_tv_1995",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "school_setting",
+        "comedy",
+        "adventure",
+        "fantasy",
+        "science_fiction"
+      ],
+      "facet_platforms": {
+        "school_setting": [
+          "anilist"
+        ],
+        "comedy": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "adventure": [
+          "anime_planet"
+        ],
+        "fantasy": [
+          "bangumi",
+          "anime_planet"
+        ],
+        "science_fiction": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
         ]
       }
     },
@@ -30923,6 +35068,64 @@
       }
     },
     {
+      "slug": "tropical_rouge_precure_tv_2021",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "school_setting",
+        "comedy",
+        "action",
+        "fantasy",
+        "magic",
+        "super_power",
+        "magical_girl",
+        "episodic",
+        "cute_girls_doing_cute_things"
+      ],
+      "facet_platforms": {
+        "school_setting": [
+          "bangumi",
+          "anilist"
+        ],
+        "comedy": [
+          "bangumi",
+          "anilist"
+        ],
+        "action": [
+          "bangumi",
+          "anilist",
+          "myanimelist"
+        ],
+        "fantasy": [
+          "anime_planet",
+          "anilist"
+        ],
+        "magic": [
+          "anime_planet",
+          "anilist"
+        ],
+        "super_power": [
+          "anilist"
+        ],
+        "magical_girl": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "episodic": [
+          "anilist"
+        ],
+        "cute_girls_doing_cute_things": [
+          "anilist"
+        ]
+      }
+    },
+    {
       "slug": "tsukikage_ran_tv_2000",
       "platform_status": {
         "bangumi": "success",
@@ -31058,6 +35261,138 @@
           "anilist"
         ],
         "ensemble_cast": [
+          "anilist"
+        ],
+        "cute_girls_doing_cute_things": [
+          "anilist"
+        ]
+      }
+    },
+    {
+      "slug": "uchuu_no_stellvia_tv_2003",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "school_setting",
+        "action",
+        "science_fiction",
+        "mecha"
+      ],
+      "facet_platforms": {
+        "school_setting": [
+          "bangumi",
+          "anime_planet",
+          "anilist"
+        ],
+        "action": [
+          "anime_planet",
+          "anilist"
+        ],
+        "science_fiction": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "mecha": [
+          "anilist",
+          "myanimelist"
+        ]
+      }
+    },
+    {
+      "slug": "uma_musume_cinderella_gray_part_2_tv_2025",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "school_setting",
+        "historical_setting",
+        "slice_of_life",
+        "drama",
+        "idol",
+        "sports",
+        "super_power"
+      ],
+      "facet_platforms": {
+        "school_setting": [
+          "bangumi"
+        ],
+        "historical_setting": [
+          "anilist"
+        ],
+        "slice_of_life": [
+          "bangumi"
+        ],
+        "drama": [
+          "anilist",
+          "myanimelist"
+        ],
+        "idol": [
+          "bangumi",
+          "anilist"
+        ],
+        "sports": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "super_power": [
+          "anilist"
+        ]
+      }
+    },
+    {
+      "slug": "uma_musume_cinderella_gray_tv_2025",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "school_setting",
+        "historical_setting",
+        "slice_of_life",
+        "drama",
+        "idol",
+        "sports",
+        "food",
+        "cute_girls_doing_cute_things"
+      ],
+      "facet_platforms": {
+        "school_setting": [
+          "bangumi"
+        ],
+        "historical_setting": [
+          "anilist"
+        ],
+        "slice_of_life": [
+          "bangumi"
+        ],
+        "drama": [
+          "anilist",
+          "myanimelist"
+        ],
+        "idol": [
+          "bangumi",
+          "anilist"
+        ],
+        "sports": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "food": [
           "anilist"
         ],
         "cute_girls_doing_cute_things": [
@@ -31456,6 +35791,38 @@
       }
     },
     {
+      "slug": "umibe_no_etranger_movie_2020",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "workplace",
+        "slice_of_life",
+        "iyashikei",
+        "drama"
+      ],
+      "facet_platforms": {
+        "workplace": [
+          "anilist"
+        ],
+        "slice_of_life": [
+          "bangumi",
+          "anilist"
+        ],
+        "iyashikei": [
+          "bangumi",
+          "anilist"
+        ],
+        "drama": [
+          "anime_planet",
+          "anilist"
+        ]
+      }
+    },
+    {
       "slug": "urara_meirochou_tv_2017",
       "platform_status": {
         "bangumi": "success",
@@ -31746,6 +36113,92 @@
       }
     },
     {
+      "slug": "valkyrie_no_shokutaku_ii_web_2020",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "slice_of_life",
+        "iyashikei",
+        "comedy",
+        "food",
+        "episodic",
+        "cute_girls_doing_cute_things"
+      ],
+      "facet_platforms": {
+        "slice_of_life": [
+          "bangumi",
+          "anime_planet",
+          "anilist"
+        ],
+        "iyashikei": [
+          "anilist"
+        ],
+        "comedy": [
+          "bangumi",
+          "anilist",
+          "myanimelist"
+        ],
+        "food": [
+          "bangumi",
+          "anilist",
+          "myanimelist"
+        ],
+        "episodic": [
+          "anilist"
+        ],
+        "cute_girls_doing_cute_things": [
+          "anilist"
+        ]
+      }
+    },
+    {
+      "slug": "valkyrie_no_shokutaku_web_2019",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "slice_of_life",
+        "iyashikei",
+        "comedy",
+        "food",
+        "episodic",
+        "cute_girls_doing_cute_things"
+      ],
+      "facet_platforms": {
+        "slice_of_life": [
+          "bangumi",
+          "anime_planet",
+          "anilist"
+        ],
+        "iyashikei": [
+          "bangumi",
+          "anilist"
+        ],
+        "comedy": [
+          "anilist",
+          "myanimelist"
+        ],
+        "food": [
+          "bangumi",
+          "anilist",
+          "myanimelist"
+        ],
+        "episodic": [
+          "anilist"
+        ],
+        "cute_girls_doing_cute_things": [
+          "anilist"
+        ]
+      }
+    },
+    {
       "slug": "vampire_in_the_garden_web_2022",
       "platform_status": {
         "bangumi": "success",
@@ -31803,6 +36256,89 @@
         ],
         "tragedy": [
           "anilist"
+        ]
+      }
+    },
+    {
+      "slug": "vampire_miyu_tv_tv_1997",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "drama",
+        "action",
+        "horror",
+        "fantasy",
+        "supernatural",
+        "episodic",
+        "tragedy"
+      ],
+      "facet_platforms": {
+        "drama": [
+          "bangumi",
+          "anilist",
+          "myanimelist"
+        ],
+        "action": [
+          "anilist",
+          "myanimelist"
+        ],
+        "horror": [
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "fantasy": [
+          "bangumi",
+          "anime_planet"
+        ],
+        "supernatural": [
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "episodic": [
+          "anime_planet",
+          "anilist"
+        ],
+        "tragedy": [
+          "anilist"
+        ]
+      }
+    },
+    {
+      "slug": "vapor_trail_movie_2021",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "action",
+        "military",
+        "science_fiction",
+        "mecha"
+      ],
+      "facet_platforms": {
+        "action": [
+          "bangumi",
+          "anilist"
+        ],
+        "military": [
+          "anilist"
+        ],
+        "science_fiction": [
+          "anime_planet",
+          "anilist"
+        ],
+        "mecha": [
+          "anime_planet",
+          "anilist",
+          "myanimelist"
         ]
       }
     },
@@ -32431,6 +36967,41 @@
       }
     },
     {
+      "slug": "watashi_ga_motete_dousunda_tv_2016",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "school_setting",
+        "slice_of_life",
+        "comedy",
+        "ensemble_cast"
+      ],
+      "facet_platforms": {
+        "school_setting": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "slice_of_life": [
+          "bangumi"
+        ],
+        "comedy": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "ensemble_cast": [
+          "anilist"
+        ]
+      }
+    },
+    {
       "slug": "watashi_ni_tenshi_ga_maiorita_precious_friends_movie_2022",
       "platform_status": {
         "bangumi": "success",
@@ -32631,6 +37202,48 @@
       }
     },
     {
+      "slug": "wei_kanjian_erduo_la_2_web_2019",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "slice_of_life",
+        "iyashikei",
+        "comedy",
+        "fantasy",
+        "supernatural",
+        "episodic"
+      ],
+      "facet_platforms": {
+        "slice_of_life": [
+          "bangumi",
+          "anime_planet",
+          "anilist"
+        ],
+        "iyashikei": [
+          "bangumi"
+        ],
+        "comedy": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "fantasy": [
+          "anilist"
+        ],
+        "supernatural": [
+          "anime_planet"
+        ],
+        "episodic": [
+          "anilist"
+        ]
+      }
+    },
+    {
       "slug": "wonder_egg_priority_tv_2021",
       "platform_status": {
         "bangumi": "success",
@@ -32708,6 +37321,75 @@
           "anilist"
         ],
         "tragedy": [
+          "anilist"
+        ]
+      }
+    },
+    {
+      "slug": "wonderful_precure_tv_2024",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "school_setting",
+        "slice_of_life",
+        "comedy",
+        "action",
+        "fantasy",
+        "magic",
+        "super_power",
+        "magical_girl",
+        "isekai",
+        "episodic",
+        "ensemble_cast",
+        "cute_girls_doing_cute_things"
+      ],
+      "facet_platforms": {
+        "school_setting": [
+          "anilist"
+        ],
+        "slice_of_life": [
+          "bangumi"
+        ],
+        "comedy": [
+          "bangumi"
+        ],
+        "action": [
+          "bangumi",
+          "anime_planet",
+          "myanimelist"
+        ],
+        "fantasy": [
+          "bangumi",
+          "anime_planet",
+          "anilist"
+        ],
+        "magic": [
+          "anime_planet",
+          "anilist"
+        ],
+        "super_power": [
+          "anilist"
+        ],
+        "magical_girl": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "isekai": [
+          "anilist"
+        ],
+        "episodic": [
+          "anilist"
+        ],
+        "ensemble_cast": [
+          "anilist"
+        ],
+        "cute_girls_doing_cute_things": [
           "anilist"
         ]
       }
@@ -33291,6 +37973,56 @@
       }
     },
     {
+      "slug": "yokohama_kaidashi_kikou_quiet_country_cafe_ova_2002",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "countryside",
+        "slice_of_life",
+        "iyashikei",
+        "drama",
+        "adventure",
+        "science_fiction",
+        "travel_and_outdoors"
+      ],
+      "facet_platforms": {
+        "countryside": [
+          "anime_planet",
+          "anilist"
+        ],
+        "slice_of_life": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "iyashikei": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "drama": [
+          "anilist"
+        ],
+        "adventure": [
+          "anilist"
+        ],
+        "science_fiction": [
+          "bangumi",
+          "anilist",
+          "myanimelist"
+        ],
+        "travel_and_outdoors": [
+          "anilist"
+        ]
+      }
+    },
+    {
       "slug": "yoku_wakaru_gendai_mahou_tv_2009",
       "platform_status": {
         "bangumi": "success",
@@ -33463,6 +38195,39 @@
       }
     },
     {
+      "slug": "yousei_ou_ova_1988",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "adventure",
+        "fantasy",
+        "magic",
+        "isekai"
+      ],
+      "facet_platforms": {
+        "adventure": [
+          "anilist"
+        ],
+        "fantasy": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "magic": [
+          "anilist"
+        ],
+        "isekai": [
+          "anilist",
+          "myanimelist"
+        ]
+      }
+    },
+    {
       "slug": "yozakura_quartet_hana_no_uta_tv_2013",
       "platform_status": {
         "bangumi": "success",
@@ -33511,6 +38276,45 @@
         ],
         "supernatural": [
           "anime_planet",
+          "anilist"
+        ]
+      }
+    },
+    {
+      "slug": "yun_shen_buzhi_meng_web_2025",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "historical_setting",
+        "action",
+        "adventure",
+        "fantasy",
+        "tragedy"
+      ],
+      "facet_platforms": {
+        "historical_setting": [
+          "myanimelist"
+        ],
+        "action": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "adventure": [
+          "anilist",
+          "myanimelist"
+        ],
+        "fantasy": [
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "tragedy": [
           "anilist"
         ]
       }
