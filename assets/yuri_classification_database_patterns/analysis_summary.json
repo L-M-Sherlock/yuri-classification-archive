@@ -1,9 +1,9 @@
 {
   "schema_version": 5,
   "snapshot_date": "2026-08-16",
-  "generated_at": "2026-08-16T08:54:07.921017+00:00",
+  "generated_at": "2026-08-16T12:00:44.836522+00:00",
   "source": {
-    "sha256": "2cdbb6dc0c843afc361d1b7f617dacf09376ecf89708b0bab8596070e4120ee9",
+    "sha256": "3091d2e16e5c3be3fa6e64d783c6665bbfd32c9b1d2d873057283784c83dffb1",
     "row_count": 805,
     "classification_schema": 4,
     "selection_composition": {
@@ -17,8 +17,8 @@
     },
     "release_plan": {
       "path": "data/release-plan.json",
-      "sha256": "8a9d67c444872f6e2ebc8b6e6dc85c5bcb94dceae35ef2ea3692590283c716e4",
-      "plan_sha256": "316521cb180cf618e1698ab14ae99cef86013b38c9d425e867daccfb2d7dd0b4",
+      "sha256": "d2544ab0850dda93bbf027fe64e958a1e023014362ed31a653e42d0f7ef9ab63",
+      "plan_sha256": "45749d542bf282a6f6cb4a08102b50d763281da29a38d8b98dee80aff32c4546",
       "target_slug_count": 805,
       "target_slugs_sha256": "b5eed5b41754ce54731803d39a41160d695687ff3d63068db0300ace85c766e0"
     },
@@ -28,7 +28,7 @@
       "target_slugs_sha256": "b5eed5b41754ce54731803d39a41160d695687ff3d63068db0300ace85c766e0"
     }
   },
-  "release_plan_sha256": "316521cb180cf618e1698ab14ae99cef86013b38c9d425e867daccfb2d7dd0b4",
+  "release_plan_sha256": "45749d542bf282a6f6cb4a08102b50d763281da29a38d8b98dee80aff32c4546",
   "target_slugs_sha256": "b5eed5b41754ce54731803d39a41160d695687ff3d63068db0300ace85c766e0",
   "dataset_profile": {
     "media": {
@@ -2487,42 +2487,42 @@
     "dataset_overview": {
       "path": "assets/yuri_classification_database_patterns/00_dataset_overview.png",
       "sha256": "ce2235f85fc07927022dd7742774057f3341f9fe3dd44843c0d1eee7a042f348",
-      "source_sha256": "2cdbb6dc0c843afc361d1b7f617dacf09376ecf89708b0bab8596070e4120ee9",
+      "source_sha256": "3091d2e16e5c3be3fa6e64d783c6665bbfd32c9b1d2d873057283784c83dffb1",
       "width": 1800,
       "height": 1120
     },
     "platform_overlap": {
       "path": "assets/yuri_classification_database_patterns/01_platform_overlap.png",
       "sha256": "f6c577b098f1084afa6273bb1a80fa431023050c16631155e8a948f5c1fd8dd4",
-      "source_sha256": "2cdbb6dc0c843afc361d1b7f617dacf09376ecf89708b0bab8596070e4120ee9",
+      "source_sha256": "3091d2e16e5c3be3fa6e64d783c6665bbfd32c9b1d2d873057283784c83dffb1",
       "width": 1800,
       "height": 1120
     },
     "explicitness_gradient": {
       "path": "assets/yuri_classification_database_patterns/02_explicitness_gradient.png",
       "sha256": "c41a26e44c17e72a5003fd3ac8045ab078ffc9661594c55b1c8e1d35aecd2415",
-      "source_sha256": "2cdbb6dc0c843afc361d1b7f617dacf09376ecf89708b0bab8596070e4120ee9",
+      "source_sha256": "3091d2e16e5c3be3fa6e64d783c6665bbfd32c9b1d2d873057283784c83dffb1",
       "width": 1800,
       "height": 1120
     },
     "platform_rates": {
       "path": "assets/yuri_classification_database_patterns/03_platform_rates_by_explicitness.png",
       "sha256": "d577df7d160d3a8999e0f4368455f0cae73fa0364b404e1aeea57fb3480a53da",
-      "source_sha256": "2cdbb6dc0c843afc361d1b7f617dacf09376ecf89708b0bab8596070e4120ee9",
+      "source_sha256": "3091d2e16e5c3be3fa6e64d783c6665bbfd32c9b1d2d873057283784c83dffb1",
       "width": 1800,
       "height": 1120
     },
     "bangumi_popularity": {
       "path": "assets/yuri_classification_database_patterns/04_bangumi_popularity_correction.png",
       "sha256": "29e548a3fcc4db17ff95c9a536de9bc06a5dd33a6ef6d98e0df5c3ef6b25ca36",
-      "source_sha256": "2cdbb6dc0c843afc361d1b7f617dacf09376ecf89708b0bab8596070e4120ee9",
+      "source_sha256": "3091d2e16e5c3be3fa6e64d783c6665bbfd32c9b1d2d873057283784c83dffb1",
       "width": 1800,
       "height": 1120
     },
     "convergence_and_structure": {
       "path": "assets/yuri_classification_database_patterns/05_convergence_and_text_structure.png",
       "sha256": "142d0bd3d3dec824bc9b3d7cf8992ce3d9c1b7c0238656ba486be3712c443229",
-      "source_sha256": "2cdbb6dc0c843afc361d1b7f617dacf09376ecf89708b0bab8596070e4120ee9",
+      "source_sha256": "3091d2e16e5c3be3fa6e64d783c6665bbfd32c9b1d2d873057283784c83dffb1",
       "width": 1800,
       "height": 1120
     }
