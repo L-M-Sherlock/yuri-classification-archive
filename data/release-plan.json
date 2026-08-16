@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "kind": "public_release_plan",
-  "generated_at": "2026-08-16T13:00:16+00:00",
+  "generated_at": "2026-08-16T14:28:25+00:00",
   "base": {
-    "public_repository_head": "3f94d5fa0e3be857a0e5b928f304b86087c297dc",
+    "public_repository_head": "5b18728c693af10e3307903e71a7fcb2125b142b",
     "catalog_path": "data/catalog.json",
-    "catalog_sha256": "6acd11f8e41a99b1620745fac6b76bef6361951dc50e7d0a612807a31d0fb629",
+    "catalog_sha256": "fa45a7875f338a6eccb050c62798c3a0674e7fd97e31e28f64c53dc4da368519",
     "slug_count": 805,
     "slugs": [
       "a_channel_nabe_wo_tabeyou_ova_2017",
@@ -1630,7 +1630,9 @@
   "delta": {
     "added_slugs": [],
     "removed_slugs": [],
-    "changed_slugs": [],
+    "changed_slugs": [
+      "ikoku_nikki_tv_2026"
+    ],
     "refresh_slugs": [],
     "changed_detection_pending": false,
     "changed_basis": {
@@ -3321,8 +3323,8 @@
     {
       "slug": "ikoku_nikki_tv_2026",
       "status": "complete",
-      "metadata_sha256": "6c60c47892f664704fc723251ddc75cb5b8876bdb7dc80ddb0111b403f43962e",
-      "report_sha256": "2076c39508587eceaa5a22aea814bcb0fbe605bc24282a9e7d2025574dcd43cc"
+      "metadata_sha256": "e1d18deabb0f67878bb0881351fe18bbbe5ce9f58a18666d98ef85b367327619",
+      "report_sha256": "941fababacc5727b7c26db6ba7dff19517528edad00d19863d3561d96718a5e8"
     },
     {
       "slug": "imprisoned_xii_web_2025",
@@ -6501,5 +6503,5 @@
       "forbid_acquisition_details": true
     }
   },
-  "plan_sha256": "12a3a28275ec583fddffa7b9f919d39539b570d340b7bf9b27f37bbabd9e92ae"
+  "plan_sha256": "f834fb02cb25d34c41bc800c93faac34afa3f01c8cb67aeac3907d741c7d3e5b"
 }

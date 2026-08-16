@@ -3,9 +3,9 @@
   "snapshot_date": "2026-08-16",
   "item_count": 805,
   "category_counts": {
-    "non_romantic": 250,
+    "non_romantic": 249,
     "explicit_desire": 217,
-    "potential_or_strongly_coded": 295,
+    "potential_or_strongly_coded": 296,
     "explicit_relationship": 43
   },
   "platform_coverage": {
@@ -42,8 +42,8 @@
     "-A--": 1,
     "-ANM": 3
   },
-  "source_sha256": "c6fd4080e6927c4865bb80dc214aa9708a1ea408b94240041d069dd49fb1004d",
-  "analysis_summary_sha256": "9754271551dde869b184365396a56329bbe13f82ee4072c4044e577885a44631",
+  "source_sha256": "a53cd5cdeab249536db0c9fee420feea5ff531407e0c71654867565c1ab4c394",
+  "analysis_summary_sha256": "a84ab21ec027a1366aa305dea6055d4723a2549fc1c7b873a2c99fee6809cdc9",
   "items": [
     {
       "slug": "shirobako_tv_2014",
@@ -541,15 +541,16 @@
       "bangumi_wiki_yuri": false,
       "year_medium": "2026 TV",
       "female_relationship_position": "主线",
-      "romance_position": "缺席",
+      "romance_position": "局部",
       "queries": [
+        "未确认",
         "主线",
         "官方恋爱"
       ],
       "male_romance_line": "副线",
       "explicitness": {
-        "code": "non_romantic",
-        "label": "非恋爱"
+        "code": "potential_or_strongly_coded",
+        "label": "潜在恋爱"
       },
       "platforms": {
         "bangumi": {
@@ -39552,6 +39553,6 @@
       "row_number": 805
     }
   ],
-  "release_plan_sha256": "12a3a28275ec583fddffa7b9f919d39539b570d340b7bf9b27f37bbabd9e92ae",
+  "release_plan_sha256": "f834fb02cb25d34c41bc800c93faac34afa3f01c8cb67aeac3907d741c7d3e5b",
   "target_slugs_sha256": "b5eed5b41754ce54731803d39a41160d695687ff3d63068db0300ace85c766e0"
 }
