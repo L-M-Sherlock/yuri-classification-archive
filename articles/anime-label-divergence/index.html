@@ -386,6 +386,7 @@
       <p class="eyebrow">FIXED DATASET LOOKUP</p>
       <h2 id="anime-snapshot-lookup">805 部作品查找表</h2>
       <p>表内数据固定于 2026-08-16，与本文使用同一份发布选择和来源快照，不会随着未来私有档案自动增减。</p>
+      <p>关系位置、恋爱明确度与相互性由同一条已确认女女关系同时满足；表格中的全作摘要字段只用于说明，不参与这组三项关系筛选。</p>
     </div>
     <p class="snapshot-count" id="snapshot-count" aria-live="polite">当前显示 805 / 805</p>
   </div>
@@ -396,24 +397,24 @@
       <input id="snapshot-search" type="search" placeholder="输入中文名或原名" autocomplete="off">
     </label>
     <label>
-      <span>最高明确度</span>
-      <select id="snapshot-explicitness">
+      <span>这条关系位于</span>
+      <select id="snapshot-relationship-position">
         <option value="">全部</option>
-        <option value="explicit_relationship">明确交往</option><option value="explicit_desire">明确欲望</option><option value="potential_or_strongly_coded">潜在恋爱</option><option value="non_romantic">非恋爱</option>
+        <option value="main">主线</option><option value="important_secondary">重要副线</option><option value="local">局部</option>
       </select>
     </label>
     <label>
-      <span>女女关系位置</span>
-      <select id="snapshot-relationship">
+      <span>恋爱明确度为</span>
+      <select id="snapshot-relationship-explicitness">
         <option value="">全部</option>
-        <option value="主线">主线</option><option value="重要副线">重要副线</option><option value="局部">局部</option>
+        <option value="explicit_relationship">明确交往</option><option value="explicit_desire">明确欲望</option><option value="potential_or_strongly_coded">潜在恋爱</option><option value="non_romantic">非恋爱</option><option value="unknown">未知</option>
       </select>
     </label>
     <label>
-      <span>恋爱位置</span>
-      <select id="snapshot-romance">
+      <span>相互性为</span>
+      <select id="snapshot-relationship-mutuality">
         <option value="">全部</option>
-        <option value="主线">主线</option><option value="重要副线">重要副线</option><option value="局部">局部</option><option value="缺席">缺席</option>
+        <option value="mutual">双向</option><option value="one_sided">单向</option><option value="ambiguous">相互性未确认</option><option value="not_applicable">不适用</option><option value="unknown">未知</option>
       </select>
     </label>
     <label>
@@ -480,6 +481,6 @@
   </footer>
   <script>window.SITE_CONFIG = {basePath: "/yuri-classification-archive"};</script>
   <script src="/yuri-classification-archive/assets/site.js?v=eeeec5872796" defer></script>
-<script src="/yuri-classification-archive/assets/article.js?v=960db8a82584" defer></script><script src="/yuri-classification-archive/assets/vendor/tabulator.min.js"></script><script src="/yuri-classification-archive/assets/snapshot-table.js?v=24fe199ed217" defer></script>
+<script src="/yuri-classification-archive/assets/article.js?v=960db8a82584" defer></script><script src="/yuri-classification-archive/assets/vendor/tabulator.min.js"></script><script src="/yuri-classification-archive/assets/snapshot-table.js?v=e7cb6a12d1b6" defer></script>
 </body>
 </html>

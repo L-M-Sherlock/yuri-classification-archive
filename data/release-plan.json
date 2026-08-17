@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "kind": "public_release_plan",
-  "generated_at": "2026-08-16T14:28:25+00:00",
+  "generated_at": "2026-08-17T04:44:31+00:00",
   "base": {
-    "public_repository_head": "5b18728c693af10e3307903e71a7fcb2125b142b",
+    "public_repository_head": "fb2c038e68712f91362c255677cd1d0179f6eb7a",
     "catalog_path": "data/catalog.json",
-    "catalog_sha256": "fa45a7875f338a6eccb050c62798c3a0674e7fd97e31e28f64c53dc4da368519",
+    "catalog_sha256": "1a99152bcfbdeca3c7a85f7b418c8596c25731a756cfa3aa0be755639aac0086",
     "slug_count": 805,
     "slugs": [
       "a_channel_nabe_wo_tabeyou_ova_2017",
@@ -1630,9 +1630,7 @@
   "delta": {
     "added_slugs": [],
     "removed_slugs": [],
-    "changed_slugs": [
-      "ikoku_nikki_tv_2026"
-    ],
+    "changed_slugs": [],
     "refresh_slugs": [],
     "changed_detection_pending": false,
     "changed_basis": {
@@ -1640,7 +1638,7 @@
       "revision": null,
       "public_plan_path": "data/release-plan.json",
       "compared_slug_count": 805,
-      "baseline_items_sha256": "c268d41011fc254f3a2a104bb498a1f0a6e3816f3b1640ce92a580776d070aa3",
+      "baseline_items_sha256": "860d8899643b8266a16e4594c782558b01a85ef437eb6d7e0965b88e7ae748df",
       "catalog_subset_complete": true,
       "reason": null
     }
@@ -6503,5 +6501,5 @@
       "forbid_acquisition_details": true
     }
   },
-  "plan_sha256": "f834fb02cb25d34c41bc800c93faac34afa3f01c8cb67aeac3907d741c7d3e5b"
+  "plan_sha256": "65355fd12997a670e2f48daef0bc667d76cd3e20fe16cbdda9a5b54e90aa4656"
 }
