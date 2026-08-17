@@ -1,11 +1,15 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "kind": "public_release_plan",
-  "generated_at": "2026-08-17T06:54:16+00:00",
+  "generated_at": "2026-08-17T14:16:40+00:00",
+  "hash_semantics": {
+    "source": "sha256_git_lf_v1",
+    "artifact": "sha256_bytes_v1"
+  },
   "base": {
-    "public_repository_head": "4bf4edebea03c37c04b9f0c2be6291f407c93a1d",
+    "public_repository_head": "a8188fdd3ce2012fbdca491a8d4b85ceb65b3e8a",
     "catalog_path": "data/catalog.json",
-    "catalog_sha256": "681e79caf710070ed4d44676be3e3840b669f8cf8f17d9de677f5d4d3e07a816",
+    "catalog_sha256": "bffb864d95bbcd30bf8cfefad648b994f3b5fbe4f12f7728e2b98bdee4850b3d",
     "slug_count": 805,
     "slugs": [
       "a_channel_nabe_wo_tabeyou_ova_2017",
@@ -1630,29 +1634,15 @@
   "delta": {
     "added_slugs": [],
     "removed_slugs": [],
-    "changed_slugs": [
-      "blue_reflection_ray_tv_2021",
-      "feng_ling_yu_xiu_second_chapter_web_2023",
-      "gokujou_girls_dorm_tv_2012",
-      "kobayashi_maid_dragon_movie_2025",
-      "mini_yuri_web_2019",
-      "ohmuro_ke_dear_friends_movie_2024",
-      "re_cutie_honey_ova_2004",
-      "shoujo_yobidashi_special_web_2026",
-      "watashi_yuri_wa_oshigoto_tv_2023",
-      "yuru_yuri_nachuyachumi_ova_2015",
-      "yuru_yuri_nachuyachumi_plus_tv_2015",
-      "yuru_yuri_san_hai_tv_2015",
-      "yuru_yuri_second_season_tv_2012"
-    ],
+    "changed_slugs": [],
     "refresh_slugs": [],
     "changed_detection_pending": false,
     "changed_basis": {
-      "kind": "public_release_plan",
-      "revision": null,
-      "public_plan_path": "data/release-plan.json",
+      "kind": "research_revision_bootstrap",
+      "revision": "5db6feb2c9ec0844266376141c4fc0311d1da60c",
+      "public_plan_path": null,
       "compared_slug_count": 805,
-      "baseline_items_sha256": "860d8899643b8266a16e4594c782558b01a85ef437eb6d7e0965b88e7ae748df",
+      "baseline_items_sha256": "89da94fc5e221bee83f1efdaa42f0fef7f06256a4d1c8ab5ee77067ef3bfd08b",
       "catalog_subset_complete": true,
       "reason": null
     }
@@ -6515,5 +6505,5 @@
       "forbid_acquisition_details": true
     }
   },
-  "plan_sha256": "6e992e8bc8d9830f40af5561f3d1149f3b28861cba28b21f3650ee3a10ec927f"
+  "plan_sha256": "816c310a45d7fab72f6f63e7416f7e568d31444047fc1cf343552d712efeea65"
 }

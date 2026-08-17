@@ -1,9 +1,9 @@
 {
   "schema_version": 5,
   "snapshot_date": "2026-08-17",
-  "generated_at": "2026-08-17T07:02:51.798978+00:00",
+  "generated_at": "2026-08-17T14:18:05.613550+00:00",
   "source": {
-    "sha256": "13d123675e692c2ce4699de7d74e4f78512b989cffcb7ecae8ec91f714bce3b7",
+    "sha256": "6e1ec9771cb2f65af980168fd625824af115296ffd45c58982b4fc921bf4b180",
     "row_count": 805,
     "classification_schema": 4,
     "selection_composition": {
@@ -17,8 +17,8 @@
     },
     "release_plan": {
       "path": "data/release-plan.json",
-      "sha256": "5100196fce001c39d9a21804fb52b4a2ecd1057cd89e822e44e906ea0363424c",
-      "plan_sha256": "6e992e8bc8d9830f40af5561f3d1149f3b28861cba28b21f3650ee3a10ec927f",
+      "sha256": "88f126e3b63ca224efe95301afea50fe2ec4c3728d124cabd7979564ff1ee55d",
+      "plan_sha256": "816c310a45d7fab72f6f63e7416f7e568d31444047fc1cf343552d712efeea65",
       "target_slug_count": 805,
       "target_slugs_sha256": "b5eed5b41754ce54731803d39a41160d695687ff3d63068db0300ace85c766e0"
     },
@@ -28,7 +28,7 @@
       "target_slugs_sha256": "b5eed5b41754ce54731803d39a41160d695687ff3d63068db0300ace85c766e0"
     }
   },
-  "release_plan_sha256": "6e992e8bc8d9830f40af5561f3d1149f3b28861cba28b21f3650ee3a10ec927f",
+  "release_plan_sha256": "816c310a45d7fab72f6f63e7416f7e568d31444047fc1cf343552d712efeea65",
   "target_slugs_sha256": "b5eed5b41754ce54731803d39a41160d695687ff3d63068db0300ace85c766e0",
   "dataset_profile": {
     "media": {
@@ -2481,42 +2481,42 @@
     "dataset_overview": {
       "path": "assets/yuri_classification_database_patterns/00_dataset_overview.png",
       "sha256": "aa99069d28e2e854a352b28997557176c1509525a0936d25834fdbf58cac5f6b",
-      "source_sha256": "13d123675e692c2ce4699de7d74e4f78512b989cffcb7ecae8ec91f714bce3b7",
+      "source_sha256": "6e1ec9771cb2f65af980168fd625824af115296ffd45c58982b4fc921bf4b180",
       "width": 1800,
       "height": 1120
     },
     "platform_overlap": {
       "path": "assets/yuri_classification_database_patterns/01_platform_overlap.png",
       "sha256": "f6c577b098f1084afa6273bb1a80fa431023050c16631155e8a948f5c1fd8dd4",
-      "source_sha256": "13d123675e692c2ce4699de7d74e4f78512b989cffcb7ecae8ec91f714bce3b7",
+      "source_sha256": "6e1ec9771cb2f65af980168fd625824af115296ffd45c58982b4fc921bf4b180",
       "width": 1800,
       "height": 1120
     },
     "explicitness_gradient": {
       "path": "assets/yuri_classification_database_patterns/02_explicitness_gradient.png",
       "sha256": "f22765cf3c17ef75a3df802ea77fb5fcea9a782ec426a6dfe11a2b4657244fe6",
-      "source_sha256": "13d123675e692c2ce4699de7d74e4f78512b989cffcb7ecae8ec91f714bce3b7",
+      "source_sha256": "6e1ec9771cb2f65af980168fd625824af115296ffd45c58982b4fc921bf4b180",
       "width": 1800,
       "height": 1120
     },
     "platform_rates": {
       "path": "assets/yuri_classification_database_patterns/03_platform_rates_by_explicitness.png",
       "sha256": "c9c80c33c504e240121ae74b546974d9e8cea789fce5edfdf7c8c15c45d08c36",
-      "source_sha256": "13d123675e692c2ce4699de7d74e4f78512b989cffcb7ecae8ec91f714bce3b7",
+      "source_sha256": "6e1ec9771cb2f65af980168fd625824af115296ffd45c58982b4fc921bf4b180",
       "width": 1800,
       "height": 1120
     },
     "bangumi_popularity": {
       "path": "assets/yuri_classification_database_patterns/04_bangumi_popularity_correction.png",
       "sha256": "feca5aadf3867cc8fa1c957cc24840f1792702a781f7157a2758073dc69c6bd3",
-      "source_sha256": "13d123675e692c2ce4699de7d74e4f78512b989cffcb7ecae8ec91f714bce3b7",
+      "source_sha256": "6e1ec9771cb2f65af980168fd625824af115296ffd45c58982b4fc921bf4b180",
       "width": 1800,
       "height": 1120
     },
     "convergence_and_structure": {
       "path": "assets/yuri_classification_database_patterns/05_convergence_and_text_structure.png",
       "sha256": "7cc441567e57362a2207ec8dd736e730ff8a78b61958582fef955b4257a8066a",
-      "source_sha256": "13d123675e692c2ce4699de7d74e4f78512b989cffcb7ecae8ec91f714bce3b7",
+      "source_sha256": "6e1ec9771cb2f65af980168fd625824af115296ffd45c58982b4fc921bf4b180",
       "width": 1800,
       "height": 1120
     }

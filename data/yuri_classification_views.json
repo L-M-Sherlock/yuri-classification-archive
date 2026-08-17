@@ -3,7 +3,7 @@
   "kind": "yuri_classification_reader_lookup",
   "classification_schema": 4,
   "snapshot_date": "2026-08-17",
-  "source_sha256": "13d123675e692c2ce4699de7d74e4f78512b989cffcb7ecae8ec91f714bce3b7",
+  "source_sha256": "6e1ec9771cb2f65af980168fd625824af115296ffd45c58982b4fc921bf4b180",
   "row_count": 805,
   "columns": [
     "作品名称",
@@ -84365,6 +84365,6 @@
       ]
     }
   ],
-  "release_plan_sha256": "6e992e8bc8d9830f40af5561f3d1149f3b28861cba28b21f3650ee3a10ec927f",
+  "release_plan_sha256": "816c310a45d7fab72f6f63e7416f7e568d31444047fc1cf343552d712efeea65",
   "target_slugs_sha256": "b5eed5b41754ce54731803d39a41160d695687ff3d63068db0300ace85c766e0"
 }
