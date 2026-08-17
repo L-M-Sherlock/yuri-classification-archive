@@ -3,9 +3,9 @@
 
   const controls = {
     query: "snapshot-search",
-    position: "snapshot-relationship-position",
-    explicitness: "snapshot-relationship-explicitness",
-    mutuality: "snapshot-relationship-mutuality",
+    explicitness: "snapshot-explicitness",
+    relationship: "snapshot-relationship",
+    romance: "snapshot-romance",
     maleRomance: "snapshot-male-romance",
   };
   const downloads = {
@@ -20,64 +20,27 @@
   function currentState(documentRef = document) {
     return {
       query: normalize(documentRef.getElementById(controls.query)?.value),
-      position: documentRef.getElementById(controls.position)?.value || "",
       explicitness:
         documentRef.getElementById(controls.explicitness)?.value || "",
-      mutuality:
-        documentRef.getElementById(controls.mutuality)?.value || "",
+      relationship:
+        documentRef.getElementById(controls.relationship)?.value || "",
+      romance: documentRef.getElementById(controls.romance)?.value || "",
       maleRomance:
         documentRef.getElementById(controls.maleRomance)?.value || "",
     };
   }
 
-  function hasRelationshipPredicate(state) {
-    return Boolean(state.position || state.explicitness || state.mutuality);
-  }
-
-  function profileMatches(profile, state) {
-    for (const [field, selected] of [
-      ["position", state.position],
-      ["explicitness", state.explicitness],
-      ["mutuality", state.mutuality],
-    ]) {
-      if (selected && profile?.[field]?.code !== selected) return false;
-    }
-    return true;
-  }
-
-  function matchingRelationshipProfiles(item, state) {
-    if (!hasRelationshipPredicate(state)) return [];
-    const profiles = Array.isArray(item.relationship_profiles)
-      ? item.relationship_profiles
-      : [];
-    return profiles.filter((profile) => profileMatches(profile, state));
-  }
-
-  function relationshipProfileText(profile) {
-    const labels = [
-      profile?.position?.label,
-      profile?.explicitness?.label,
-      profile?.mutuality?.label,
-    ].filter(Boolean);
-    return `${profile?.name || "未命名关系"}（${labels.join("／")}）`;
-  }
-
-  function relationshipProfilesText(profiles) {
-    return Array.isArray(profiles)
-      ? profiles.map(relationshipProfileText).join("；")
-      : "";
-  }
-
-  function matchingRelationshipsText(item, state) {
-    return relationshipProfilesText(matchingRelationshipProfiles(item, state));
-  }
-
   function matches(item, state) {
     if (state.query && !normalize(item.title).includes(state.query)) return false;
     if (
-      hasRelationshipPredicate(state) &&
-      matchingRelationshipProfiles(item, state).length === 0
+      state.explicitness &&
+      item.explicitness?.code !== state.explicitness
     ) return false;
+    if (
+      state.relationship &&
+      item.female_relationship_position !== state.relationship
+    ) return false;
+    if (state.romance && item.romance_position !== state.romance) return false;
     if (
       state.maleRomance &&
       item.male_romance_line !== state.maleRomance
@@ -85,15 +48,7 @@
     return true;
   }
 
-  globalThis.YuriSnapshotFilterLogic = {
-    normalize,
-    currentState,
-    hasRelationshipPredicate,
-    profileMatches,
-    matchingRelationshipProfiles,
-    matchingRelationshipsText,
-    matches,
-  };
+  globalThis.YuriSnapshotFilterLogic = { normalize, currentState, matches };
 
   function escapeHtml(value) {
     return String(value)
@@ -160,17 +115,17 @@
           minWidth: 130,
         },
         {
-          title: "全作最高明确度",
+          title: "最高明确度",
           field: "explicitness.label",
           minWidth: 190,
         },
         {
-          title: "全作关系位置",
+          title: "女女关系位置",
           field: "female_relationship_position",
           minWidth: 140,
         },
         {
-          title: "全作恋爱位置",
+          title: "恋爱位置",
           field: "romance_position",
           minWidth: 120,
         },
@@ -190,21 +145,6 @@
           title: "男性恋爱线",
           field: "male_romance_line",
           minWidth: 130,
-        },
-        {
-          title: "女女关系明细",
-          field: "relationship_profiles",
-          visible: false,
-          download: true,
-          accessorDownload: (value) => relationshipProfilesText(value),
-        },
-        {
-          title: "命中关系",
-          field: "matched_relationships",
-          visible: false,
-          download: true,
-          accessorDownload: (_value, item) =>
-            matchingRelationshipsText(item, currentState()),
         },
         {
           title: "Bangumi 条目",
