@@ -1,9 +1,9 @@
 {
   "schema_version": 5,
-  "snapshot_date": "2026-08-17",
-  "generated_at": "2026-08-17T14:18:05.613550+00:00",
+  "snapshot_date": "2026-08-18",
+  "generated_at": "2026-08-18T03:47:52.164278+00:00",
   "source": {
-    "sha256": "6e1ec9771cb2f65af980168fd625824af115296ffd45c58982b4fc921bf4b180",
+    "sha256": "6d4d1e1892417249d5ab6a1cb821b2390793ecdee9f7867e9f39bc2a97ff79d0",
     "row_count": 805,
     "classification_schema": 4,
     "selection_composition": {
@@ -17,8 +17,8 @@
     },
     "release_plan": {
       "path": "data/release-plan.json",
-      "sha256": "88f126e3b63ca224efe95301afea50fe2ec4c3728d124cabd7979564ff1ee55d",
-      "plan_sha256": "816c310a45d7fab72f6f63e7416f7e568d31444047fc1cf343552d712efeea65",
+      "sha256": "60b305994767392fd797fece82c098e43c42967da58cec0442ac28a813cffb6e",
+      "plan_sha256": "ee301e9668a48755b18b19cc7d5f57f711e73a1c1c5473f6828131b2320cd68b",
       "target_slug_count": 805,
       "target_slugs_sha256": "b5eed5b41754ce54731803d39a41160d695687ff3d63068db0300ace85c766e0"
     },
@@ -28,7 +28,7 @@
       "target_slugs_sha256": "b5eed5b41754ce54731803d39a41160d695687ff3d63068db0300ace85c766e0"
     }
   },
-  "release_plan_sha256": "816c310a45d7fab72f6f63e7416f7e568d31444047fc1cf343552d712efeea65",
+  "release_plan_sha256": "ee301e9668a48755b18b19cc7d5f57f711e73a1c1c5473f6828131b2320cd68b",
   "target_slugs_sha256": "b5eed5b41754ce54731803d39a41160d695687ff3d63068db0300ace85c766e0",
   "dataset_profile": {
     "media": {
@@ -70,6 +70,7 @@
     "unresolved_romance_explicitness": "unknown is reported as a separate non-ordered group",
     "relationship_aggregation": "highest_romance_explicitness is the maximum across relationships[]; relationship heterogeneity is reported separately and is not an explicitness level",
     "mainline_romance_explicitness": "maximum romance_explicitness across female_female_relation=yes relationships with narrative_centrality=main; a complete woman-woman inventory with no mainline relation is non_romantic, while unavailable scope remains unknown",
+    "platform_positive_mainline_explicitness": "distribution of mainline romance explicitness among works whose audited attributable entry is positive for that platform's target label; no_exact_entry and negative entries are outside the denominator",
     "official_literal_yuri_gl": "是 = at least one manually reviewed official statement uses yuri or girls_love literally; 所核未见 = reviewed sources had no matching statement; 资料不足 = review was partial or unavailable",
     "official_female_romance_wording": "是 = at least one manually reviewed official statement directly describes an explicit female-female romance or romantic direction; 所核未见 and 资料不足 retain the same evidence boundary",
     "official_source_facets": "scope and surface are multi-select membership facets of recorded official statements, not a list of every source checked"
@@ -179,6 +180,148 @@
     "MAL Girls Love": {
       "positive": 75,
       "exact_entries": 786
+    }
+  },
+  "platform_positive_mainline_explicitness": {
+    "Bangumi 维基百合": {
+      "positive_works": 498,
+      "groups": [
+        {
+          "key": "non_romantic",
+          "label": "主线无女女恋爱",
+          "n": 329,
+          "rate": 0.6606425702811245
+        },
+        {
+          "key": "potential_or_strongly_coded",
+          "label": "主线潜在恋爱",
+          "n": 95,
+          "rate": 0.19076305220883535
+        },
+        {
+          "key": "explicit_desire",
+          "label": "主线明确欲望",
+          "n": 57,
+          "rate": 0.1144578313253012
+        },
+        {
+          "key": "explicit_relationship",
+          "label": "主线明确交往",
+          "n": 17,
+          "rate": 0.03413654618473896
+        },
+        {
+          "key": "unknown",
+          "label": "主线明确度未知",
+          "n": 0,
+          "rate": 0.0
+        }
+      ]
+    },
+    "Anime-Planet GL": {
+      "positive_works": 82,
+      "groups": [
+        {
+          "key": "non_romantic",
+          "label": "主线无女女恋爱",
+          "n": 16,
+          "rate": 0.1951219512195122
+        },
+        {
+          "key": "potential_or_strongly_coded",
+          "label": "主线潜在恋爱",
+          "n": 14,
+          "rate": 0.17073170731707318
+        },
+        {
+          "key": "explicit_desire",
+          "label": "主线明确欲望",
+          "n": 39,
+          "rate": 0.47560975609756095
+        },
+        {
+          "key": "explicit_relationship",
+          "label": "主线明确交往",
+          "n": 13,
+          "rate": 0.15853658536585366
+        },
+        {
+          "key": "unknown",
+          "label": "主线明确度未知",
+          "n": 0,
+          "rate": 0.0
+        }
+      ]
+    },
+    "AniList Yuri": {
+      "positive_works": 387,
+      "groups": [
+        {
+          "key": "non_romantic",
+          "label": "主线无女女恋爱",
+          "n": 201,
+          "rate": 0.5193798449612403
+        },
+        {
+          "key": "potential_or_strongly_coded",
+          "label": "主线潜在恋爱",
+          "n": 100,
+          "rate": 0.25839793281653745
+        },
+        {
+          "key": "explicit_desire",
+          "label": "主线明确欲望",
+          "n": 68,
+          "rate": 0.17571059431524547
+        },
+        {
+          "key": "explicit_relationship",
+          "label": "主线明确交往",
+          "n": 18,
+          "rate": 0.046511627906976744
+        },
+        {
+          "key": "unknown",
+          "label": "主线明确度未知",
+          "n": 0,
+          "rate": 0.0
+        }
+      ]
+    },
+    "MAL Girls Love": {
+      "positive_works": 75,
+      "groups": [
+        {
+          "key": "non_romantic",
+          "label": "主线无女女恋爱",
+          "n": 18,
+          "rate": 0.24
+        },
+        {
+          "key": "potential_or_strongly_coded",
+          "label": "主线潜在恋爱",
+          "n": 7,
+          "rate": 0.09333333333333334
+        },
+        {
+          "key": "explicit_desire",
+          "label": "主线明确欲望",
+          "n": 36,
+          "rate": 0.48
+        },
+        {
+          "key": "explicit_relationship",
+          "label": "主线明确交往",
+          "n": 14,
+          "rate": 0.18666666666666668
+        },
+        {
+          "key": "unknown",
+          "label": "主线明确度未知",
+          "n": 0,
+          "rate": 0.0
+        }
+      ]
     }
   },
   "common_signatures": {
@@ -2481,42 +2624,49 @@
     "dataset_overview": {
       "path": "assets/yuri_classification_database_patterns/00_dataset_overview.png",
       "sha256": "aa99069d28e2e854a352b28997557176c1509525a0936d25834fdbf58cac5f6b",
-      "source_sha256": "6e1ec9771cb2f65af980168fd625824af115296ffd45c58982b4fc921bf4b180",
+      "source_sha256": "6d4d1e1892417249d5ab6a1cb821b2390793ecdee9f7867e9f39bc2a97ff79d0",
       "width": 1800,
       "height": 1120
     },
     "platform_overlap": {
       "path": "assets/yuri_classification_database_patterns/01_platform_overlap.png",
-      "sha256": "f6c577b098f1084afa6273bb1a80fa431023050c16631155e8a948f5c1fd8dd4",
-      "source_sha256": "6e1ec9771cb2f65af980168fd625824af115296ffd45c58982b4fc921bf4b180",
+      "sha256": "94dc1f157918cc868f9df9419395dfc13418d8f93b0dd1e58856de00c32f2c45",
+      "source_sha256": "6d4d1e1892417249d5ab6a1cb821b2390793ecdee9f7867e9f39bc2a97ff79d0",
       "width": 1800,
       "height": 1120
     },
     "explicitness_gradient": {
       "path": "assets/yuri_classification_database_patterns/02_explicitness_gradient.png",
       "sha256": "f22765cf3c17ef75a3df802ea77fb5fcea9a782ec426a6dfe11a2b4657244fe6",
-      "source_sha256": "6e1ec9771cb2f65af980168fd625824af115296ffd45c58982b4fc921bf4b180",
+      "source_sha256": "6d4d1e1892417249d5ab6a1cb821b2390793ecdee9f7867e9f39bc2a97ff79d0",
       "width": 1800,
       "height": 1120
     },
     "platform_rates": {
       "path": "assets/yuri_classification_database_patterns/03_platform_rates_by_explicitness.png",
-      "sha256": "c9c80c33c504e240121ae74b546974d9e8cea789fce5edfdf7c8c15c45d08c36",
-      "source_sha256": "6e1ec9771cb2f65af980168fd625824af115296ffd45c58982b4fc921bf4b180",
+      "sha256": "b60a76782468f9d33347db16406af9b154664a8be46102e6f1d42ecec85cab60",
+      "source_sha256": "6d4d1e1892417249d5ab6a1cb821b2390793ecdee9f7867e9f39bc2a97ff79d0",
       "width": 1800,
       "height": 1120
     },
     "bangumi_popularity": {
       "path": "assets/yuri_classification_database_patterns/04_bangumi_popularity_correction.png",
       "sha256": "feca5aadf3867cc8fa1c957cc24840f1792702a781f7157a2758073dc69c6bd3",
-      "source_sha256": "6e1ec9771cb2f65af980168fd625824af115296ffd45c58982b4fc921bf4b180",
+      "source_sha256": "6d4d1e1892417249d5ab6a1cb821b2390793ecdee9f7867e9f39bc2a97ff79d0",
       "width": 1800,
       "height": 1120
     },
     "convergence_and_structure": {
       "path": "assets/yuri_classification_database_patterns/05_convergence_and_text_structure.png",
       "sha256": "7cc441567e57362a2207ec8dd736e730ff8a78b61958582fef955b4257a8066a",
-      "source_sha256": "6e1ec9771cb2f65af980168fd625824af115296ffd45c58982b4fc921bf4b180",
+      "source_sha256": "6d4d1e1892417249d5ab6a1cb821b2390793ecdee9f7867e9f39bc2a97ff79d0",
+      "width": 1800,
+      "height": 1120
+    },
+    "platform_positive_mainline_explicitness": {
+      "path": "assets/yuri_classification_database_patterns/06_platform_positive_mainline_explicitness.png",
+      "sha256": "def8b1cd5445bd7002521e2df56c9253bac888b2c2d8ebd668062e1fe1be6cd1",
+      "source_sha256": "6d4d1e1892417249d5ab6a1cb821b2390793ecdee9f7867e9f39bc2a97ff79d0",
       "width": 1800,
       "height": 1120
     }

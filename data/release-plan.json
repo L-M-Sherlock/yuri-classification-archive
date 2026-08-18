@@ -1,15 +1,15 @@
 {
   "schema_version": 2,
   "kind": "public_release_plan",
-  "generated_at": "2026-08-17T14:16:40+00:00",
+  "generated_at": "2026-08-18T03:46:42+00:00",
   "hash_semantics": {
     "source": "sha256_git_lf_v1",
     "artifact": "sha256_bytes_v1"
   },
   "base": {
-    "public_repository_head": "a8188fdd3ce2012fbdca491a8d4b85ceb65b3e8a",
+    "public_repository_head": "4faeefe54bc2f620006eb132f83bb361b900a85d",
     "catalog_path": "data/catalog.json",
-    "catalog_sha256": "bffb864d95bbcd30bf8cfefad648b994f3b5fbe4f12f7728e2b98bdee4850b3d",
+    "catalog_sha256": "1b180df4ed20abd36205d93c3effcde94396a0864d8bdd23d22211afb1a44163",
     "slug_count": 805,
     "slugs": [
       "a_channel_nabe_wo_tabeyou_ova_2017",
@@ -1638,9 +1638,9 @@
     "refresh_slugs": [],
     "changed_detection_pending": false,
     "changed_basis": {
-      "kind": "research_revision_bootstrap",
-      "revision": "5db6feb2c9ec0844266376141c4fc0311d1da60c",
-      "public_plan_path": null,
+      "kind": "public_release_plan",
+      "revision": null,
+      "public_plan_path": "data/release-plan.json",
       "compared_slug_count": 805,
       "baseline_items_sha256": "89da94fc5e221bee83f1efdaa42f0fef7f06256a4d1c8ab5ee77067ef3bfd08b",
       "catalog_subset_complete": true,
@@ -6505,5 +6505,5 @@
       "forbid_acquisition_details": true
     }
   },
-  "plan_sha256": "816c310a45d7fab72f6f63e7416f7e568d31444047fc1cf343552d712efeea65"
+  "plan_sha256": "ee301e9668a48755b18b19cc7d5f57f711e73a1c1c5473f6828131b2320cd68b"
 }

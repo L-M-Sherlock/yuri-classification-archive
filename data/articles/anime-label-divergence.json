@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "snapshot_date": "2026-08-17",
+  "snapshot_date": "2026-08-18",
   "item_count": 805,
   "category_counts": {
     "non_romantic": 249,
@@ -42,8 +42,8 @@
     "-A--": 1,
     "-ANM": 3
   },
-  "source_sha256": "6e1ec9771cb2f65af980168fd625824af115296ffd45c58982b4fc921bf4b180",
-  "analysis_summary_sha256": "fbd2002b277dd32589baea076a301ff16fd407d8561425dd6d136b4850b45f44",
+  "source_sha256": "6d4d1e1892417249d5ab6a1cb821b2390793ecdee9f7867e9f39bc2a97ff79d0",
+  "analysis_summary_sha256": "32ed3abaf895be15e177a720d471fdaaa20c2b7a75ab9a0f78720f1ddb04275e",
   "items": [
     {
       "slug": "shirobako_tv_2014",
@@ -39555,6 +39555,6 @@
       "row_number": 805
     }
   ],
-  "release_plan_sha256": "816c310a45d7fab72f6f63e7416f7e568d31444047fc1cf343552d712efeea65",
+  "release_plan_sha256": "ee301e9668a48755b18b19cc7d5f57f711e73a1c1c5473f6828131b2320cd68b",
   "target_slugs_sha256": "b5eed5b41754ce54731803d39a41160d695687ff3d63068db0300ace85c766e0"
 }
