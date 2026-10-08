@@ -1,15 +1,15 @@
 {
   "schema_version": 2,
   "kind": "public_release_plan",
-  "generated_at": "2026-08-18T03:46:42+00:00",
+  "generated_at": "2026-10-08T11:04:27+00:00",
   "hash_semantics": {
     "source": "sha256_git_lf_v1",
     "artifact": "sha256_bytes_v1"
   },
   "base": {
-    "public_repository_head": "4faeefe54bc2f620006eb132f83bb361b900a85d",
+    "public_repository_head": "9b9a19a1d5aba458bd58893e94bda8f2d63e9559",
     "catalog_path": "data/catalog.json",
-    "catalog_sha256": "1b180df4ed20abd36205d93c3effcde94396a0864d8bdd23d22211afb1a44163",
+    "catalog_sha256": "56d7cf64225e4ff07109e2b708355c31ee256e8eec6c8f59a77d342f0e65caab",
     "slug_count": 805,
     "slugs": [
       "a_channel_nabe_wo_tabeyou_ova_2017",
@@ -821,7 +821,7 @@
     "slugs_sha256": "b5eed5b41754ce54731803d39a41160d695687ff3d63068db0300ace85c766e0"
   },
   "target": {
-    "slug_count": 805,
+    "slug_count": 820,
     "slugs": [
       "a_channel_nabe_wo_tabeyou_ova_2017",
       "a_channel_smile_ova_2012",
@@ -873,6 +873,7 @@
       "awajima_hyakkei_tv_2026",
       "ayakashi_triangle_tv_2023",
       "azur_lane_bisoku_tv_2021",
+      "azur_lane_bisoku_zenshin_2_tv_2026",
       "azur_lane_tv_2019",
       "bad_girl_tv_2025",
       "bakuon_tv_2016",
@@ -993,6 +994,7 @@
       "fumetsu_no_anata_e_season_3_tv_2025",
       "fumikiri_jikan_tv_2018",
       "futari_wa_precure_tv_2004",
+      "futsutsuka_na_akujo_dewa_gozaimasu_ga_tv_2026",
       "ga_rei_zero_tv_2008",
       "gabriel_dropout_tv_2017",
       "gakkou_gurashi_tv_2015",
@@ -1025,6 +1027,7 @@
       "gokujou_seitokai_tv_2005",
       "granbelm_tv_2019",
       "grand_blue_season_2_tv_2025",
+      "grow_up_show_tv_2026",
       "gundam_witch_from_mercury_season_1_tv_2022",
       "gundam_witch_from_mercury_season_2_tv_2023",
       "hachigatsu_no_cinderella_nine_tv_2019",
@@ -1047,6 +1050,7 @@
       "healer_girl_tv_2022",
       "heartcatch_precure_tv_2010",
       "hen_ova_1997",
+      "heroine_seijo_iie_all_works_maid_tv_2026",
       "heya_camp_tv_2020",
       "hibi_wa_sugiredo_meshi_umashi_tv_2025",
       "hibike_euphonium_2_tv_2016",
@@ -1081,6 +1085,7 @@
       "hitohira_tv_2007",
       "hitokura_manga_cafe_tv_2026",
       "hitoribocchi_no_marumaru_seikatsu_tv_2019",
+      "honoo_no_toukyuujo_dodge_danko_tv_2026",
       "hotaruko_ova_2003",
       "hotel_inhumans_tv_2025",
       "houkago_no_pleiades_tv_2015",
@@ -1091,6 +1096,7 @@
       "hyperdimension_neptunia_tv_2013",
       "i_want_to_love_you_till_your_dying_day_pilot_film_web_2025",
       "ibaranoou_king_of_thorn_movie_2010",
+      "ibitte_konai_gibo_to_gishi_tv_2026",
       "ice_ova_2007",
       "ichigo_mashimaro_encore_ova_2009",
       "ichigo_mashimaro_ova_2007",
@@ -1119,6 +1125,7 @@
       "k_on_movie_2011",
       "k_on_second_season_tv_2010",
       "k_on_tv_2009",
+      "kabushikigaisha_magilumiere_2_tv_2026",
       "kafun_shoujo_ova_2008",
       "kageki_shoujo_tv_2021",
       "kaguya_sama_wa_kokurasetai_tensaitachi_no_renai_zunousen_ova_2021",
@@ -1147,6 +1154,8 @@
       "kill_me_baby_ova_2013",
       "kill_me_baby_tv_2012",
       "kimi_ga_aruji_de_shitsuji_ga_ore_de_tv_2008",
+      "kimi_ga_shinu_made_koi_wo_shitai_tv_2026",
+      "kimi_no_koto_ga_dai_dai_dai_dai_daisuki_na_100_nin_no_kanojo_3_tv_2026",
       "kimi_no_koto_ga_dai_dai_dai_dai_daisuki_na_100_nin_no_kanojo_tv_2023",
       "kimi_to_idol_precure_tv_2025",
       "kin_iro_mosaic_hello_tv_2015",
@@ -1227,6 +1236,7 @@
       "mahou_shoujo_ikusei_keikaku_tv_2016",
       "mahou_shoujo_lyrical_nanoha_as_tv_2005",
       "mahou_shoujo_lyrical_nanoha_detonation_movie_2018",
+      "mahou_shoujo_lyrical_nanoha_exceeds_gun_blaze_vengeance_tv_2026",
       "mahou_shoujo_lyrical_nanoha_movie_1st_2010",
       "mahou_shoujo_lyrical_nanoha_movie_2nd_as_2012",
       "mahou_shoujo_lyrical_nanoha_reflection_movie_2017",
@@ -1338,6 +1348,7 @@
       "otherside_picnic_tv_2021",
       "otome_wa_boku_ni_koi_shiteru_2_ova_2012",
       "otome_wa_boku_ni_koishiteru_tv_2006",
+      "otomege_sekai_wa_mob_ni_kibishii_sekai_desu_2_tv_2026",
       "pan_de_peace_tv_2016",
       "pandra_white_desire_black_hope_ova_2014",
       "parade_parade_ova_1996",
@@ -1401,6 +1412,7 @@
       "sansha_sanyou_tv_2016",
       "sasameki_koto_tv_2009",
       "sasayaku_you_ni_koi_wo_utau_tv_2024",
+      "sayonara_lara_tv_2026",
       "schoolgirl_strikers_animation_channel_tv_2017",
       "seiken_no_blacksmith_tv_2009",
       "seikon_no_qwaser_tv_2010",
@@ -1497,6 +1509,7 @@
       "sword_art_online_alternative_gun_gale_online_tv_2018",
       "sword_oratoria_tv_2017",
       "tachibanakan_to_lie_angle_tv_2018",
+      "tai_ari_deshita_tv_2026",
       "taishou_yakyuu_musume_tv_2009",
       "taiyo_no_oushi_tv_2013",
       "takunomi_tv_2018",
@@ -1521,6 +1534,7 @@
       "teenage_blue_mv_2024",
       "tenchi_muyou_tv_1995",
       "tenkuu_shinpan_web_2021",
+      "tenmaku_no_jaadugar_tv_2026",
       "tensei_oujo_to_tensai_reijou_no_mahou_kakumei_tv_2023",
       "teppen_tv_2022",
       "the_idolmaster_cinderella_girls_second_season_tv_2015",
@@ -1596,6 +1610,7 @@
       "yama_no_susume_third_season_tv_2018",
       "yama_no_susume_tv_2013",
       "yami_to_boushi_to_hon_no_tabibito_tv_2003",
+      "yani_neko_tv_2026",
       "yokohama_kaidashi_kikou_quiet_country_cafe_ova_2002",
       "yoku_wakaru_gendai_mahou_tv_2009",
       "yonin_wa_sorezore_uso_wo_tsuku_tv_2022",
@@ -1629,13 +1644,45 @@
       "zombieland_saga_revenge_tv_2021",
       "zombieland_saga_tv_2018"
     ],
-    "slugs_sha256": "b5eed5b41754ce54731803d39a41160d695687ff3d63068db0300ace85c766e0"
+    "slugs_sha256": "269e57b3aa02e2639968364e9f5e5b91287bd59c0d9538eb3b4a2a684a77af94"
   },
   "delta": {
-    "added_slugs": [],
+    "added_slugs": [
+      "azur_lane_bisoku_zenshin_2_tv_2026",
+      "futsutsuka_na_akujo_dewa_gozaimasu_ga_tv_2026",
+      "grow_up_show_tv_2026",
+      "heroine_seijo_iie_all_works_maid_tv_2026",
+      "honoo_no_toukyuujo_dodge_danko_tv_2026",
+      "ibitte_konai_gibo_to_gishi_tv_2026",
+      "kabushikigaisha_magilumiere_2_tv_2026",
+      "kimi_ga_shinu_made_koi_wo_shitai_tv_2026",
+      "kimi_no_koto_ga_dai_dai_dai_dai_daisuki_na_100_nin_no_kanojo_3_tv_2026",
+      "mahou_shoujo_lyrical_nanoha_exceeds_gun_blaze_vengeance_tv_2026",
+      "otomege_sekai_wa_mob_ni_kibishii_sekai_desu_2_tv_2026",
+      "sayonara_lara_tv_2026",
+      "tai_ari_deshita_tv_2026",
+      "tenmaku_no_jaadugar_tv_2026",
+      "yani_neko_tv_2026"
+    ],
     "removed_slugs": [],
     "changed_slugs": [],
-    "refresh_slugs": [],
+    "refresh_slugs": [
+      "azur_lane_bisoku_zenshin_2_tv_2026",
+      "futsutsuka_na_akujo_dewa_gozaimasu_ga_tv_2026",
+      "grow_up_show_tv_2026",
+      "heroine_seijo_iie_all_works_maid_tv_2026",
+      "honoo_no_toukyuujo_dodge_danko_tv_2026",
+      "ibitte_konai_gibo_to_gishi_tv_2026",
+      "kabushikigaisha_magilumiere_2_tv_2026",
+      "kimi_ga_shinu_made_koi_wo_shitai_tv_2026",
+      "kimi_no_koto_ga_dai_dai_dai_dai_daisuki_na_100_nin_no_kanojo_3_tv_2026",
+      "mahou_shoujo_lyrical_nanoha_exceeds_gun_blaze_vengeance_tv_2026",
+      "otomege_sekai_wa_mob_ni_kibishii_sekai_desu_2_tv_2026",
+      "sayonara_lara_tv_2026",
+      "tai_ari_deshita_tv_2026",
+      "tenmaku_no_jaadugar_tv_2026",
+      "yani_neko_tv_2026"
+    ],
     "changed_detection_pending": false,
     "changed_basis": {
       "kind": "public_release_plan",
@@ -1947,6 +1994,12 @@
       "status": "complete",
       "metadata_sha256": "9fe1c13999a58001ad9f7dc868f82425ff5ff0cab783d446e97908025812c5b0",
       "report_sha256": "3106fdfb67d2701f9ce98acb11fc35e40ad4cfc812c96c37280f0a9d8fc98d5b"
+    },
+    {
+      "slug": "azur_lane_bisoku_zenshin_2_tv_2026",
+      "status": "complete",
+      "metadata_sha256": "61f4acc27d4fa44332025f8bdd8a921e348b88877258e619c5aa7f5ccdcdc277",
+      "report_sha256": "250333d92c2c8fcc3c1cad850c6bc3e2d3b17d1425c44b257a9d7bcd0b89ec29"
     },
     {
       "slug": "azur_lane_tv_2019",
@@ -2669,6 +2722,12 @@
       "report_sha256": "8c4509beac2a9dc9400280bb91fc8856579e7bbe7502aedaed31e026a7ff1145"
     },
     {
+      "slug": "futsutsuka_na_akujo_dewa_gozaimasu_ga_tv_2026",
+      "status": "complete",
+      "metadata_sha256": "1e446314266f3da16640a30b59b5090581bdaa744b2bfe4244be98dcfc461e80",
+      "report_sha256": "7adbfda8bf04c3c9232b2420a641103ab8d4770b38af4a17bd357c6a7d01f647"
+    },
+    {
       "slug": "ga_rei_zero_tv_2008",
       "status": "complete",
       "metadata_sha256": "09873e6b569b5c15cb805054a1a52c30589009864f7bc38d04d7caf0c5356120",
@@ -2861,6 +2920,12 @@
       "report_sha256": "726b266cad703e6ce74e0378671d443f62102fd9ad2fc4e88e885f189db581bb"
     },
     {
+      "slug": "grow_up_show_tv_2026",
+      "status": "complete",
+      "metadata_sha256": "7ca72238d4ad4ceaee3f343ded9c6a492044d506eff3b2bee5747dd82ad1cac2",
+      "report_sha256": "177ea896c6034b96f3b7d40b9b1328f27130aed0b306a1d0cc69d6b6955abb6d"
+    },
+    {
       "slug": "gundam_witch_from_mercury_season_1_tv_2022",
       "status": "complete",
       "metadata_sha256": "61ce8a51ad1e4b016d81f79fd6c88b202b3ecff668a104bfe71cd915374d6df3",
@@ -2991,6 +3056,12 @@
       "status": "complete",
       "metadata_sha256": "b334cd457d2300f4fcfbbf6826aa64a5f516aa16417685f7057b30e677aaa1f5",
       "report_sha256": "8a6aa17ca980be5c19a4bcaf700c93ebafd47317af3be3db737be3c01842d83d"
+    },
+    {
+      "slug": "heroine_seijo_iie_all_works_maid_tv_2026",
+      "status": "complete",
+      "metadata_sha256": "4d244a70a5dc53430494b762a178c6cb3f07fb3e2b3c66ba9e411d630e2af000",
+      "report_sha256": "e2767df6b1ac0d18ad64ac27fa0e4bb4a2a14a2794821b03bc2957e5392d601d"
     },
     {
       "slug": "heya_camp_tv_2020",
@@ -3197,6 +3268,12 @@
       "report_sha256": "3a781055d6d3a9d4c0f619f774def0eb6c5381bec49031d56c57637d97d6b8d5"
     },
     {
+      "slug": "honoo_no_toukyuujo_dodge_danko_tv_2026",
+      "status": "complete",
+      "metadata_sha256": "c97e25884e04350d7d8f06de850ac16b06ae5edba1ad794c244c283496dff13b",
+      "report_sha256": "75839def41479d80b012841d808a76a17713744232fdb864d1199016ff75236f"
+    },
+    {
       "slug": "hotaruko_ova_2003",
       "status": "complete",
       "metadata_sha256": "574d5399715892127ca406eeb98018a87f8b4bcd45e3d86833ff42df459d2e69",
@@ -3255,6 +3332,12 @@
       "status": "complete",
       "metadata_sha256": "7d9cedb8743b006ddc147c7cc9988cd60948d557640d65dc78595441016588a8",
       "report_sha256": "c914b17b414be5eb3005ebcc8a03d1ed4920d25b57289d9bc5488b0057e5f392"
+    },
+    {
+      "slug": "ibitte_konai_gibo_to_gishi_tv_2026",
+      "status": "complete",
+      "metadata_sha256": "99e65e79334b6a9ec820f5f16449d1909e228e891bbf47d3780f5ba0b2fbafa3",
+      "report_sha256": "29cf9991ab7fc95bf07ac22f8734aeaa31e7f58ce2e316b4eb5324795659f908"
     },
     {
       "slug": "ice_ova_2007",
@@ -3425,6 +3508,12 @@
       "report_sha256": "a6db33a3464ac7f1f7ecdb7ede7120f1e0d62e64c885f1e9b1b8309a9b5bdb15"
     },
     {
+      "slug": "kabushikigaisha_magilumiere_2_tv_2026",
+      "status": "complete",
+      "metadata_sha256": "b07895278beb913e8da00b109e45738f5e89ff74965c4b028df0e1b4865f8da2",
+      "report_sha256": "4635965beb2800b3a0af14a08c7a2c8c4a65df0236da1dcb9b2bdb71f6e94fa5"
+    },
+    {
       "slug": "kafun_shoujo_ova_2008",
       "status": "complete",
       "metadata_sha256": "9fcd45edfc4557daad3cd03cdc0263baf1fed5d4135e89e534dea6de144538ff",
@@ -3591,6 +3680,18 @@
       "status": "complete",
       "metadata_sha256": "413948d8120da8efb2b4a62dceaa0ced561ef6bc1ee140181c77970c8115f3ce",
       "report_sha256": "11e649e0c9830a29f96e90d7dea2de68135c8bc996a650323984d0d3a0ec0cd2"
+    },
+    {
+      "slug": "kimi_ga_shinu_made_koi_wo_shitai_tv_2026",
+      "status": "complete",
+      "metadata_sha256": "d1545552416b9d637b5f27e5a6e52654b7f7449e87d8648edb13427165cd8697",
+      "report_sha256": "452188cc50a3acffffb13ec253e39daaaa2c086682dc303adf1a1699d038fc5e"
+    },
+    {
+      "slug": "kimi_no_koto_ga_dai_dai_dai_dai_daisuki_na_100_nin_no_kanojo_3_tv_2026",
+      "status": "complete",
+      "metadata_sha256": "3781b63d2593be1f244326b897f98cb62b31786889a21771ffd83f89c4231b12",
+      "report_sha256": "e0f54dead060d2c62e9d589ff6616b1e70c178c1039eca81548180a33e857b4b"
     },
     {
       "slug": "kimi_no_koto_ga_dai_dai_dai_dai_daisuki_na_100_nin_no_kanojo_tv_2023",
@@ -4071,6 +4172,12 @@
       "status": "complete",
       "metadata_sha256": "0e871474ecf1b22a169c65a3662af8e1ad5e570cbb378d5645fe510760ae9b0a",
       "report_sha256": "5e550b29ffa838fd683623163ed51cd5a21340562731886143386b90cc0b3d0f"
+    },
+    {
+      "slug": "mahou_shoujo_lyrical_nanoha_exceeds_gun_blaze_vengeance_tv_2026",
+      "status": "complete",
+      "metadata_sha256": "e1094e17ad446f5dd42dfa01c2e4eb1172f62659811971cacb5872efb3693587",
+      "report_sha256": "d2200e0166ee17378b13af8846cd531a0e9519275c1d8b65d144f1802de50814"
     },
     {
       "slug": "mahou_shoujo_lyrical_nanoha_movie_1st_2010",
@@ -4739,6 +4846,12 @@
       "report_sha256": "969146d0ac06b923eae45c8c159ac9b2532c402f0978bdb3170dd557a4af09fc"
     },
     {
+      "slug": "otomege_sekai_wa_mob_ni_kibishii_sekai_desu_2_tv_2026",
+      "status": "complete",
+      "metadata_sha256": "5fe6c4b08b8b2cedcba9d29d8ea3ee45ded88b4505ac9d54d3bc3515f12fafab",
+      "report_sha256": "95e7590a2db63eab311d827b2808dbeead96c0e98b5dd56b6d20c1d07991dbbb"
+    },
+    {
       "slug": "pan_de_peace_tv_2016",
       "status": "complete",
       "metadata_sha256": "e64ec13e154a2317dfe53246dc1f93bbd5852b08c118b577025834e4cde510ff",
@@ -5115,6 +5228,12 @@
       "status": "complete",
       "metadata_sha256": "1978ec45a4075fe8fa951ab15dabea8475f2c15bfe86a3b7f0af8b4a5cab971d",
       "report_sha256": "175e2af6f1171ec90dadec4785a0aa979f14ae2c9cdcb45452af8f4595d1a452"
+    },
+    {
+      "slug": "sayonara_lara_tv_2026",
+      "status": "complete",
+      "metadata_sha256": "1d64fa25584569c20f286cbbcf78433341e6de7895766bae0078003be35e184c",
+      "report_sha256": "21db7de7e0c832c4a62590bc365eb470691ea66da19032fd0c154fafdb92dca8"
     },
     {
       "slug": "schoolgirl_strikers_animation_channel_tv_2017",
@@ -5693,6 +5812,12 @@
       "report_sha256": "2ccdba3a214f32bc930bdbe44253e9dfaf42f006d26793679e1b4ecdf14755d8"
     },
     {
+      "slug": "tai_ari_deshita_tv_2026",
+      "status": "complete",
+      "metadata_sha256": "ae30b779a191c591c4fbdb1b13894046e92bd47ae731cb3ecc1819c600bc4503",
+      "report_sha256": "fa83e3c978d041518b5ddaf71d5deb2f9a615b0691a18c7244a32d60d56381f8"
+    },
+    {
       "slug": "taishou_yakyuu_musume_tv_2009",
       "status": "complete",
       "metadata_sha256": "2935b879ef6cb0d18eddc9d38cbb1d23b6bfaf10185e45015a5b7bc271c8c81a",
@@ -5835,6 +5960,12 @@
       "status": "complete",
       "metadata_sha256": "49bfefc7d333f21568dfce3b000b4ef50ffa09e4249cf11f32629212650566cf",
       "report_sha256": "6f188c8cf2ebe2a9961f11ec137d32a8f66add65920fab42394107aa769fa766"
+    },
+    {
+      "slug": "tenmaku_no_jaadugar_tv_2026",
+      "status": "complete",
+      "metadata_sha256": "7df40d370428c4afd8e0252c38c9af36066bef437b30e1158e6a3ed7094e2d2d",
+      "report_sha256": "1256cbca05e574688169641d4aa1da9aaeee1782c69621773946107bc6a9f21c"
     },
     {
       "slug": "tensei_oujo_to_tensai_reijou_no_mahou_kakumei_tv_2023",
@@ -6287,6 +6418,12 @@
       "report_sha256": "79d5d4ef63accc421f0a01e2e24a6a26ec2307ea99f61e6d84ce7c1e92838675"
     },
     {
+      "slug": "yani_neko_tv_2026",
+      "status": "complete",
+      "metadata_sha256": "bf69f06ee2a4ad580031b366adf55cad988170f2860f3b1150399ff4d920414d",
+      "report_sha256": "11df497c43b9e806678d3f7e460379cb30a50ccf217510b7fcbf8089c01dbebd"
+    },
+    {
       "slug": "yokohama_kaidashi_kikou_quiet_country_cafe_ova_2002",
       "status": "complete",
       "metadata_sha256": "5d16a0f93b8cf9ad0502eef4998ebd5cbb702ce24b3c79c8377fb65392aab79c",
@@ -6482,13 +6619,13 @@
   "quality_gates": {
     "schema_validation": {
       "status": "passed",
-      "archives_checked": 805,
+      "archives_checked": 820,
       "warnings": 0,
       "errors": 0
     },
     "quality_review": {
       "status": "passed",
-      "archives_checked": 805,
+      "archives_checked": 820,
       "required_checks": [
         "evidence_mapping",
         "scope_consistency",
@@ -6498,12 +6635,12 @@
     },
     "report_audit": {
       "status": "passed",
-      "reports_audited": 805,
+      "reports_audited": 820,
       "warnings": 0,
       "errors": 0,
       "require_subtitle_audit": true,
       "forbid_acquisition_details": true
     }
   },
-  "plan_sha256": "ee301e9668a48755b18b19cc7d5f57f711e73a1c1c5473f6828131b2320cd68b"
+  "plan_sha256": "e0fcf2535f41d1846df068d97ebde335fa62ccb8d6296d71cddf177a6a8ca160"
 }

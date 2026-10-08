@@ -1,27 +1,59 @@
 {
   "schema_version": 5,
-  "generated_at": "2026-08-18T03:49:04+00:00",
+  "generated_at": "2026-10-08T11:06:05+00:00",
   "site_url": "https://l-m-sherlock.github.io/yuri-classification-archive",
-  "item_count": 805,
+  "item_count": 820,
   "current_release": {
     "selector": "status_complete",
-    "published_at": "2026-08-18T03:49:04+00:00",
+    "published_at": "2026-10-08T11:06:05+00:00",
     "plan_path": "data/release-plan.json",
-    "plan_file_sha256": "60b305994767392fd797fece82c098e43c42967da58cec0442ac28a813cffb6e",
-    "plan_sha256": "ee301e9668a48755b18b19cc7d5f57f711e73a1c1c5473f6828131b2320cd68b",
-    "previous_head": "4faeefe54bc2f620006eb132f83bb361b900a85d",
+    "plan_file_sha256": "b6d58252a8ae34a14e31c6734ef8e646cd29b51ac9fab45f4873528a5adc77ad",
+    "plan_sha256": "e0fcf2535f41d1846df068d97ebde335fa62ccb8d6296d71cddf177a6a8ca160",
+    "previous_head": "9b9a19a1d5aba458bd58893e94bda8f2d63e9559",
     "base_slug_count": 805,
     "base_slugs_sha256": "b5eed5b41754ce54731803d39a41160d695687ff3d63068db0300ace85c766e0",
-    "item_count": 805,
-    "slugs_sha256": "b5eed5b41754ce54731803d39a41160d695687ff3d63068db0300ace85c766e0",
-    "added_slugs": [],
+    "item_count": 820,
+    "slugs_sha256": "269e57b3aa02e2639968364e9f5e5b91287bd59c0d9538eb3b4a2a684a77af94",
+    "added_slugs": [
+      "azur_lane_bisoku_zenshin_2_tv_2026",
+      "futsutsuka_na_akujo_dewa_gozaimasu_ga_tv_2026",
+      "grow_up_show_tv_2026",
+      "heroine_seijo_iie_all_works_maid_tv_2026",
+      "honoo_no_toukyuujo_dodge_danko_tv_2026",
+      "ibitte_konai_gibo_to_gishi_tv_2026",
+      "kabushikigaisha_magilumiere_2_tv_2026",
+      "kimi_ga_shinu_made_koi_wo_shitai_tv_2026",
+      "kimi_no_koto_ga_dai_dai_dai_dai_daisuki_na_100_nin_no_kanojo_3_tv_2026",
+      "mahou_shoujo_lyrical_nanoha_exceeds_gun_blaze_vengeance_tv_2026",
+      "otomege_sekai_wa_mob_ni_kibishii_sekai_desu_2_tv_2026",
+      "sayonara_lara_tv_2026",
+      "tai_ari_deshita_tv_2026",
+      "tenmaku_no_jaadugar_tv_2026",
+      "yani_neko_tv_2026"
+    ],
     "removed_slugs": [],
     "changed_slugs": [],
-    "refresh_slugs": []
+    "refresh_slugs": [
+      "azur_lane_bisoku_zenshin_2_tv_2026",
+      "futsutsuka_na_akujo_dewa_gozaimasu_ga_tv_2026",
+      "grow_up_show_tv_2026",
+      "heroine_seijo_iie_all_works_maid_tv_2026",
+      "honoo_no_toukyuujo_dodge_danko_tv_2026",
+      "ibitte_konai_gibo_to_gishi_tv_2026",
+      "kabushikigaisha_magilumiere_2_tv_2026",
+      "kimi_ga_shinu_made_koi_wo_shitai_tv_2026",
+      "kimi_no_koto_ga_dai_dai_dai_dai_daisuki_na_100_nin_no_kanojo_3_tv_2026",
+      "mahou_shoujo_lyrical_nanoha_exceeds_gun_blaze_vengeance_tv_2026",
+      "otomege_sekai_wa_mob_ni_kibishii_sekai_desu_2_tv_2026",
+      "sayonara_lara_tv_2026",
+      "tai_ari_deshita_tv_2026",
+      "tenmaku_no_jaadugar_tv_2026",
+      "yani_neko_tv_2026"
+    ]
   },
   "database_snapshot": {
-    "snapshot_date": "2026-08-18",
-    "source_sha256": "6d4d1e1892417249d5ab6a1cb821b2390793ecdee9f7867e9f39bc2a97ff79d0"
+    "snapshot_date": "2026-10-08",
+    "source_sha256": "fcdb927418ce2aa53ec71af9887a86f41fc9b57e3ddf7e78c6809222a1226102"
   },
   "query_semantics": {
     "combination": "and",
@@ -9148,6 +9180,427 @@
       "source_hashes": {
         "metadata_sha256": "67d488c051327395a00dfa001c61a78a2d67e409632eded97d581041762abc16",
         "report_sha256": "9f338f7f8a58f7b1acb82b81c351e4058d77a5924f3133ed1ec3f68c27b26462"
+      }
+    },
+    {
+      "slug": "tenmaku_no_jaadugar_tv_2026",
+      "title": "穹庐下的魔女",
+      "title_original": "天幕のジャードゥーガル",
+      "title_romaji": "Tenmaku no Jaadugar",
+      "title_english": "Jaadugar: A Witch in Mongolia",
+      "release_year": 2026,
+      "medium": {
+        "code": "tv_anime",
+        "label": "TV 动画"
+      },
+      "scope_summary": "2026 年 TV 动画第 1–12 幕正篇；2026 年 7 月 4 日至 9 月 12 日播出。",
+      "female_relationship_centrality": {
+        "code": "main",
+        "label": "主线"
+      },
+      "archive_basis": {
+        "code": "reader_interpretation",
+        "label": "文类外百合阅读"
+      },
+      "romance_centrality": {
+        "code": "absent",
+        "label": "缺席"
+      },
+      "highest_romance_explicitness": {
+        "code": "non_romantic",
+        "label": "非恋爱"
+      },
+      "female_female_relationship_count": 16,
+      "relationship_distribution": {
+        "narrative_centrality": {
+          "main": 1,
+          "important_secondary": 10,
+          "local": 5,
+          "absent": 0,
+          "unknown": 0
+        },
+        "romance_explicitness": {
+          "explicit_relationship": 0,
+          "explicit_desire": 0,
+          "potential_or_strongly_coded": 0,
+          "non_romantic": 16,
+          "unknown": 0
+        },
+        "mutuality": {
+          "mutual": 0,
+          "one_sided": 0,
+          "ambiguous": 0,
+          "not_applicable": 16,
+          "unknown": 0
+        }
+      },
+      "relationship_profiles": [
+        {
+          "name": "希塔拉（法蒂玛）与朵列哥那",
+          "position": {
+            "code": "main",
+            "label": "主线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "希塔拉与法蒂玛夫人",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "希塔拉与阿妮丝",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "希塔拉与祖穆鲁德",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "法蒂玛夫人与家中女性侍从",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "阿妮丝与祖穆鲁德",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "希塔拉与已故母亲",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "希塔拉与唆鲁禾帖尼",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "希塔拉与孛剌合真",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "希塔拉与莫盖",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "朵列哥那与忽兰",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "孛剌合真与莫盖",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "朵列哥那与孛剌合真",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "唆鲁禾帖尼与孛剌合真",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "希塔拉与被俘女性及草原劳作伙伴",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "乞里吉思台与宫廷其他妃子",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        }
+      ],
+      "relationship_filter_axes": [
+        {
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          }
+        },
+        {
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          }
+        },
+        {
+          "position": {
+            "code": "main",
+            "label": "主线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          }
+        }
+      ],
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [
+        {
+          "code": "in_scope_edition",
+          "label": "当前版本"
+        }
+      ],
+      "official_source_surfaces": [
+        {
+          "code": "other",
+          "label": "其他"
+        },
+        {
+          "code": "story_or_profile",
+          "label": "剧情／角色页"
+        },
+        {
+          "code": "visible_work_marketing",
+          "label": "可见作品宣传"
+        }
+      ],
+      "official_source_summary": "层级：当前版本；位置：其他、剧情／角色页、可见作品宣传",
+      "identity_evidence_basis": {
+        "code": "no_in_scope_evidence",
+        "label": "范围内无依据"
+      },
+      "male_romance_line": {
+        "code": "secondary",
+        "label": "副线"
+      },
+      "confidence": {
+        "code": "medium",
+        "label": "中"
+      },
+      "classification_date": "2026-10-08",
+      "content_warnings": [
+        "战争与屠杀",
+        "奴隶制度",
+        "政治婚姻与强制权力",
+        "死亡与丧亲",
+        "毒害与操控"
+      ],
+      "content_warnings_text": "战争与屠杀；奴隶制度；政治婚姻与强制权力；死亡与丧亲；毒害与操控",
+      "quick_queries": {
+        "explicit_relationship": false,
+        "main_explicit_relationship": false,
+        "main_explicit_desire": false,
+        "explicit_desire": false,
+        "accepts_unconfirmed": false,
+        "female_relationship_main": true,
+        "main_relationship_no_male_romance": false,
+        "main_non_romantic_no_male_romance": false,
+        "four_plus_female_relationships": true,
+        "mutual_relationship": false,
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
+      },
+      "bangumi_entry_status": {
+        "code": "success",
+        "label": "有可对应条目"
+      },
+      "bangumi_rank": 264,
+      "bangumi_yuri_tag_ratio": 0.00041711357406745323,
+      "bangumi_tags": [
+        {
+          "code": "历史",
+          "label": "历史"
+        }
+      ],
+      "bangumi_regions": [
+        {
+          "code": "日本",
+          "label": "日本"
+        }
+      ],
+      "bangumi_adaptation_sources": [
+        {
+          "code": "漫画改",
+          "label": "漫画改"
+        }
+      ],
+      "report_url": "/yuri-classification-archive/works/tenmaku_no_jaadugar_tv_2026/",
+      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/tenmaku_no_jaadugar_tv_2026/",
+      "source_hashes": {
+        "metadata_sha256": "7df40d370428c4afd8e0252c38c9af36066bef437b30e1158e6a3ed7094e2d2d",
+        "report_sha256": "1256cbca05e574688169641d4aa1da9aaeee1782c69621773946107bc6a9f21c"
       }
     },
     {
@@ -27635,6 +28088,576 @@
       }
     },
     {
+      "slug": "yani_neko_tv_2026",
+      "title": "尼古喵喵",
+      "title_original": "ヤニねこ",
+      "title_romaji": "Yani Neko",
+      "title_english": "Chainsmoker Cat",
+      "release_year": 2026,
+      "medium": {
+        "code": "tv_animation",
+        "label": "TV 动画"
+      },
+      "scope_summary": "2026年TV动画第1–12话オンエア版，以Amazon日文SDH字幕为文字主审材料",
+      "female_relationship_centrality": {
+        "code": "important_secondary",
+        "label": "重要副线"
+      },
+      "archive_basis": {
+        "code": "reader_interpretation",
+        "label": "文类外百合阅读"
+      },
+      "romance_centrality": {
+        "code": "local",
+        "label": "局部"
+      },
+      "highest_romance_explicitness": {
+        "code": "explicit_desire",
+        "label": "明确欲望"
+      },
+      "female_female_relationship_count": 26,
+      "relationship_distribution": {
+        "narrative_centrality": {
+          "main": 0,
+          "important_secondary": 9,
+          "local": 17,
+          "absent": 0,
+          "unknown": 0
+        },
+        "romance_explicitness": {
+          "explicit_relationship": 0,
+          "explicit_desire": 1,
+          "potential_or_strongly_coded": 0,
+          "non_romantic": 25,
+          "unknown": 0
+        },
+        "mutuality": {
+          "mutual": 0,
+          "one_sided": 1,
+          "ambiguous": 0,
+          "not_applicable": 25,
+          "unknown": 0
+        }
+      },
+      "relationship_profiles": [
+        {
+          "name": "ヤニねこ与妹子",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "ヤニねこ与ヤクねこ",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "ヤクねこ与ハメねこ",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "ヤニねこ与ハメねこ",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "ヤニねこ与カンサイねこ",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "ヤニねこ与アルねこ",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "カンサイねこ与アルねこ",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "ヤクねこ与カンサイねこ",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "ヤニねこ与辰野沙织",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "カンサイねこ与辰野沙织",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "ハメねこ与辰野沙织",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "辰野沙织与贺来咏子",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "ヤニねこ与贺来咏子",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "妹子与贺来咏子",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "妹子、ハナ与ミミコ",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "王寺流子对妹子的爱慕",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "explicit_desire",
+            "label": "明确欲望"
+          },
+          "mutuality": {
+            "code": "one_sided",
+            "label": "单向"
+          }
+        },
+        {
+          "name": "佐藤静江与ヤニねこ",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "佐藤静江与妹子",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "西顺子与西薫子",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "西薫子与盐谷瑠真子",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "妹子与酒井アル子",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "ラニ与来访三人",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "沙织与三名派遣助手",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "ヤニねこ与ペンペンねこ",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "ペンペンねこ与酒井アル子",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "益子与沙织",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        }
+      ],
+      "relationship_filter_axes": [
+        {
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          }
+        },
+        {
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "explicit_desire",
+            "label": "明确欲望"
+          }
+        },
+        {
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          }
+        }
+      ],
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_female_romance_wording": {
+        "code": "yes",
+        "label": "是"
+      },
+      "official_source_scopes": [
+        {
+          "code": "in_scope_edition",
+          "label": "当前版本"
+        }
+      ],
+      "official_source_surfaces": [
+        {
+          "code": "story_or_profile",
+          "label": "剧情／角色页"
+        },
+        {
+          "code": "visible_work_marketing",
+          "label": "可见作品宣传"
+        }
+      ],
+      "official_source_summary": "层级：当前版本；位置：剧情／角色页、可见作品宣传",
+      "identity_evidence_basis": {
+        "code": "explicit_relationship_only",
+        "label": "只有明确关系事实"
+      },
+      "male_romance_line": {
+        "code": "secondary",
+        "label": "副线"
+      },
+      "confidence": {
+        "code": "medium",
+        "label": "中"
+      },
+      "classification_date": "2026-10-08",
+      "content_warnings": [
+        "吸烟、酗酒、药物与依赖笑话",
+        "露骨性笑话、裸露及排泄物笑话",
+        "色情创作中的边界侵犯与未成年人模特",
+        "亲子虐待回忆、歧视、暴力与死亡笑话"
+      ],
+      "content_warnings_text": "吸烟、酗酒、药物与依赖笑话；露骨性笑话、裸露及排泄物笑话；色情创作中的边界侵犯与未成年人模特；亲子虐待回忆、歧视、暴力与死亡笑话",
+      "quick_queries": {
+        "explicit_relationship": false,
+        "main_explicit_relationship": false,
+        "main_explicit_desire": false,
+        "explicit_desire": true,
+        "accepts_unconfirmed": true,
+        "female_relationship_main": false,
+        "main_relationship_no_male_romance": false,
+        "main_non_romantic_no_male_romance": false,
+        "four_plus_female_relationships": true,
+        "mutual_relationship": false,
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": true
+      },
+      "bangumi_entry_status": {
+        "code": "success",
+        "label": "有可对应条目"
+      },
+      "bangumi_rank": 881,
+      "bangumi_yuri_tag_ratio": 0.000675475999493393,
+      "bangumi_tags": [
+        {
+          "code": "喜剧",
+          "label": "喜剧"
+        },
+        {
+          "code": "日常",
+          "label": "日常"
+        }
+      ],
+      "bangumi_regions": [
+        {
+          "code": "日本",
+          "label": "日本"
+        }
+      ],
+      "bangumi_adaptation_sources": [
+        {
+          "code": "漫画改",
+          "label": "漫画改"
+        }
+      ],
+      "report_url": "/yuri-classification-archive/works/yani_neko_tv_2026/",
+      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/yani_neko_tv_2026/",
+      "source_hashes": {
+        "metadata_sha256": "bf69f06ee2a4ad580031b366adf55cad988170f2860f3b1150399ff4d920414d",
+        "report_sha256": "11df497c43b9e806678d3f7e460379cb30a50ccf217510b7fcbf8089c01dbebd"
+      }
+    },
+    {
       "slug": "uma_musume_pretty_derby_shin_jidai_no_tobira_movie_2024",
       "title": "赛马娘 Pretty Derby 新时代之门",
       "title_original": "ウマ娘 プリティーダービー 新時代の扉",
@@ -30659,6 +31682,424 @@
       }
     },
     {
+      "slug": "kimi_no_koto_ga_dai_dai_dai_dai_daisuki_na_100_nin_no_kanojo_3_tv_2026",
+      "title": "超超超超超喜欢你的100个女朋友 第三季",
+      "title_original": "君のことが大大大大大好きな100人の彼女 第3期",
+      "title_romaji": "Kimi no Koto ga Dai Dai Dai Dai Daisuki na 100-nin no Kanojo 3rd Season",
+      "title_english": "The 100 Girlfriends Who Really, Really, Really, Really, REALLY Love You Season 3",
+      "release_year": 2026,
+      "medium": {
+        "code": "tv_anime",
+        "label": "TV 动画"
+      },
+      "scope_summary": "2026年7月5日至9月20日播出的TV第三季本季1—12话（系列总25—36话）",
+      "female_relationship_centrality": {
+        "code": "important_secondary",
+        "label": "重要副线"
+      },
+      "archive_basis": {
+        "code": "reader_interpretation",
+        "label": "文类外百合阅读"
+      },
+      "romance_centrality": {
+        "code": "local",
+        "label": "局部"
+      },
+      "highest_romance_explicitness": {
+        "code": "explicit_desire",
+        "label": "明确欲望"
+      },
+      "female_female_relationship_count": 16,
+      "relationship_distribution": {
+        "narrative_centrality": {
+          "main": 0,
+          "important_secondary": 7,
+          "local": 9,
+          "absent": 0,
+          "unknown": 0
+        },
+        "romance_explicitness": {
+          "explicit_relationship": 0,
+          "explicit_desire": 4,
+          "potential_or_strongly_coded": 0,
+          "non_romantic": 12,
+          "unknown": 0
+        },
+        "mutuality": {
+          "mutual": 11,
+          "one_sided": 3,
+          "ambiguous": 0,
+          "not_applicable": 2,
+          "unknown": 0
+        }
+      },
+      "relationship_profiles": [
+        {
+          "name": "恋太郎Family女性共同体",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "mutual",
+            "label": "双向"
+          }
+        },
+        {
+          "name": "好本静—荣逢凪乃",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "mutual",
+            "label": "双向"
+          }
+        },
+        {
+          "name": "美杉美々美—华暮爱々",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "mutual",
+            "label": "双向"
+          }
+        },
+        {
+          "name": "茂见红叶对女性成员及女子运动部的触感欲望",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "explicit_desire",
+            "label": "明确欲望"
+          },
+          "mutuality": {
+            "code": "one_sided",
+            "label": "单向"
+          }
+        },
+        {
+          "name": "花园羽々里对红叶、ヤク及其他女性成员的亲吻欲望",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "explicit_desire",
+            "label": "明确欲望"
+          },
+          "mutuality": {
+            "code": "one_sided",
+            "label": "单向"
+          }
+        },
+        {
+          "name": "花园羽々里—须藤育",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "explicit_desire",
+            "label": "明确欲望"
+          },
+          "mutuality": {
+            "code": "mutual",
+            "label": "双向"
+          }
+        },
+        {
+          "name": "花园羽々里—土吕濑骑士华",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "explicit_desire",
+            "label": "明确欲望"
+          },
+          "mutuality": {
+            "code": "one_sided",
+            "label": "单向"
+          }
+        },
+        {
+          "name": "花园羽々里—铭户芽衣",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "mutual",
+            "label": "双向"
+          }
+        },
+        {
+          "name": "花园羽香里—院田唐音",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "mutual",
+            "label": "双向"
+          }
+        },
+        {
+          "name": "药膳楠莉—药膳ヤク",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "mutual",
+            "label": "双向"
+          }
+        },
+        {
+          "name": "好本静—母亲",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "mutual",
+            "label": "双向"
+          }
+        },
+        {
+          "name": "花园羽々里—花园羽香里",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "mutual",
+            "label": "双向"
+          }
+        },
+        {
+          "name": "药膳楠莉—母亲",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "mutual",
+            "label": "双向"
+          }
+        },
+        {
+          "name": "华暮爱々—雉根田兎留々",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "土吕濑骑士华—女子剑道部员",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "mutual",
+            "label": "双向"
+          }
+        },
+        {
+          "name": "纳迪—母亲",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        }
+      ],
+      "relationship_filter_axes": [
+        {
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          }
+        },
+        {
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "explicit_desire",
+            "label": "明确欲望"
+          }
+        },
+        {
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          }
+        }
+      ],
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_female_romance_wording": {
+        "code": "yes",
+        "label": "是"
+      },
+      "official_source_scopes": [
+        {
+          "code": "in_scope_edition",
+          "label": "当前版本"
+        }
+      ],
+      "official_source_surfaces": [
+        {
+          "code": "story_or_profile",
+          "label": "剧情／角色页"
+        }
+      ],
+      "official_source_summary": "层级：当前版本；位置：剧情／角色页",
+      "identity_evidence_basis": {
+        "code": "explicit_relationship_only",
+        "label": "只有明确关系事实"
+      },
+      "male_romance_line": {
+        "code": "dominant",
+        "label": "主导"
+      },
+      "confidence": {
+        "code": "high",
+        "label": "高"
+      },
+      "classification_date": "2026-10-08",
+      "content_warnings": [
+        "多重交往与亲属／年龄差恋爱",
+        "师生与雇佣权力差",
+        "未成年人身体性化笑料、身体接触与边界侵犯",
+        "幼儿化与母亲角色扮演",
+        "亲子控制、体罚回忆、沟通障碍",
+        "药物造成身体改变与中毒、枪击威胁"
+      ],
+      "content_warnings_text": "多重交往与亲属／年龄差恋爱；师生与雇佣权力差；未成年人身体性化笑料、身体接触与边界侵犯；幼儿化与母亲角色扮演；亲子控制、体罚回忆、沟通障碍；药物造成身体改变与中毒、枪击威胁",
+      "quick_queries": {
+        "explicit_relationship": false,
+        "main_explicit_relationship": false,
+        "main_explicit_desire": false,
+        "explicit_desire": true,
+        "accepts_unconfirmed": true,
+        "female_relationship_main": false,
+        "main_relationship_no_male_romance": false,
+        "main_non_romantic_no_male_romance": false,
+        "four_plus_female_relationships": true,
+        "mutual_relationship": true,
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": true
+      },
+      "bangumi_entry_status": {
+        "code": "success",
+        "label": "有可对应条目"
+      },
+      "bangumi_rank": 981,
+      "bangumi_yuri_tag_ratio": 0.0,
+      "bangumi_tags": [
+        {
+          "code": "后宫",
+          "label": "后宫"
+        },
+        {
+          "code": "恋爱",
+          "label": "恋爱"
+        }
+      ],
+      "bangumi_regions": [
+        {
+          "code": "日本",
+          "label": "日本"
+        }
+      ],
+      "bangumi_adaptation_sources": [
+        {
+          "code": "漫画改",
+          "label": "漫画改"
+        }
+      ],
+      "report_url": "/yuri-classification-archive/works/kimi_no_koto_ga_dai_dai_dai_dai_daisuki_na_100_nin_no_kanojo_3_tv_2026/",
+      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/kimi_no_koto_ga_dai_dai_dai_dai_daisuki_na_100_nin_no_kanojo_3_tv_2026/",
+      "source_hashes": {
+        "metadata_sha256": "3781b63d2593be1f244326b897f98cb62b31786889a21771ffd83f89c4231b12",
+        "report_sha256": "e0f54dead060d2c62e9d589ff6616b1e70c178c1039eca81548180a33e857b4b"
+      }
+    },
+    {
       "slug": "food_court_de_mata_ashita_tv_2025",
       "title": "明天，美食广场见。",
       "title_original": "フードコートで、また明日。",
@@ -33333,6 +34774,368 @@
       "source_hashes": {
         "metadata_sha256": "20262e124cfe568ef136b75b62b28e7c8e7de084b54562bb6f38335575df50c6",
         "report_sha256": "61bf7dc72ebb906f64f730903efee6374ca5c8a16a95d098779c05218273b41a"
+      }
+    },
+    {
+      "slug": "tai_ari_deshita_tv_2026",
+      "title": "感谢对战。～大小姐才不玩格斗游戏～",
+      "title_original": "対ありでした。～お嬢さまは格闘ゲームなんてしない～",
+      "title_romaji": "Tai-Ari deshita.: Ojou-sama wa Kakutou Game nante Shinai",
+      "title_english": "Young Ladies Don't Play Fighting Games",
+      "release_year": 2026,
+      "medium": {
+        "code": "tv_anime",
+        "label": "TV 动画"
+      },
+      "scope_summary": "2026 年 TV 动画正式第 1–12 话（ABEMA 日文字幕对应播出版）",
+      "female_relationship_centrality": {
+        "code": "main",
+        "label": "主线"
+      },
+      "archive_basis": {
+        "code": "work_classification",
+        "label": "文类内百合"
+      },
+      "romance_centrality": {
+        "code": "main",
+        "label": "主线"
+      },
+      "highest_romance_explicitness": {
+        "code": "potential_or_strongly_coded",
+        "label": "潜在恋爱"
+      },
+      "female_female_relationship_count": 11,
+      "relationship_distribution": {
+        "narrative_centrality": {
+          "main": 2,
+          "important_secondary": 5,
+          "local": 4,
+          "absent": 0,
+          "unknown": 0
+        },
+        "romance_explicitness": {
+          "explicit_relationship": 0,
+          "explicit_desire": 0,
+          "potential_or_strongly_coded": 2,
+          "non_romantic": 9,
+          "unknown": 0
+        },
+        "mutuality": {
+          "mutual": 5,
+          "one_sided": 1,
+          "ambiguous": 3,
+          "not_applicable": 2,
+          "unknown": 0
+        }
+      },
+      "relationship_profiles": [
+        {
+          "name": "绫与美绪",
+          "position": {
+            "code": "main",
+            "label": "主线"
+          },
+          "explicitness": {
+            "code": "potential_or_strongly_coded",
+            "label": "潜在恋爱"
+          },
+          "mutuality": {
+            "code": "ambiguous",
+            "label": "相互性未确认"
+          }
+        },
+        {
+          "name": "夕与珠树",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "mutual",
+            "label": "双向"
+          }
+        },
+        {
+          "name": "亚里沙与深雪",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "potential_or_strongly_coded",
+            "label": "潜在恋爱"
+          },
+          "mutuality": {
+            "code": "ambiguous",
+            "label": "相互性未确认"
+          }
+        },
+        {
+          "name": "四人的对战与互助共同体",
+          "position": {
+            "code": "main",
+            "label": "主线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "mutual",
+            "label": "双向"
+          }
+        },
+        {
+          "name": "珠树与花",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "ambiguous",
+            "label": "相互性未确认"
+          }
+        },
+        {
+          "name": "美绪与母亲",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "绫与绫的室友（字幕称なつめ）",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "mutual",
+            "label": "双向"
+          }
+        },
+        {
+          "name": "美绪与女校仰慕者",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "one_sided",
+            "label": "单向"
+          }
+        },
+        {
+          "name": "美绪与亚里沙",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "mutual",
+            "label": "双向"
+          }
+        },
+        {
+          "name": "花与亚里沙",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "mutual",
+            "label": "双向"
+          }
+        },
+        {
+          "name": "森乃与女生宿舍成员",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        }
+      ],
+      "relationship_filter_axes": [
+        {
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          }
+        },
+        {
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "potential_or_strongly_coded",
+            "label": "潜在恋爱"
+          }
+        },
+        {
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          }
+        },
+        {
+          "position": {
+            "code": "main",
+            "label": "主线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          }
+        },
+        {
+          "position": {
+            "code": "main",
+            "label": "主线"
+          },
+          "explicitness": {
+            "code": "potential_or_strongly_coded",
+            "label": "潜在恋爱"
+          }
+        }
+      ],
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [
+        {
+          "code": "in_scope_edition",
+          "label": "当前版本"
+        }
+      ],
+      "official_source_surfaces": [
+        {
+          "code": "story_or_profile",
+          "label": "剧情／角色页"
+        }
+      ],
+      "official_source_summary": "层级：当前版本；位置：剧情／角色页",
+      "identity_evidence_basis": {
+        "code": "inferred_relationship_only",
+        "label": "只有关系推断"
+      },
+      "male_romance_line": {
+        "code": "none",
+        "label": "无"
+      },
+      "confidence": {
+        "code": "medium",
+        "label": "中"
+      },
+      "classification_date": "2026-10-08",
+      "content_warnings": [
+        "parental_control_and_domestic_violence",
+        "bullying_humiliation_and_physical_assault",
+        "threats_of_suicide_and_retirement",
+        "blood_and_overexertion",
+        "school_rule_violation"
+      ],
+      "content_warnings_text": "parental_control_and_domestic_violence；bullying_humiliation_and_physical_assault；threats_of_suicide_and_retirement；blood_and_overexertion；school_rule_violation",
+      "quick_queries": {
+        "explicit_relationship": false,
+        "main_explicit_relationship": false,
+        "main_explicit_desire": false,
+        "explicit_desire": false,
+        "accepts_unconfirmed": true,
+        "female_relationship_main": true,
+        "main_relationship_no_male_romance": true,
+        "main_non_romantic_no_male_romance": false,
+        "four_plus_female_relationships": true,
+        "mutual_relationship": true,
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
+      },
+      "bangumi_entry_status": {
+        "code": "success",
+        "label": "有可对应条目"
+      },
+      "bangumi_rank": 1100,
+      "bangumi_yuri_tag_ratio": 0.10657212403428934,
+      "bangumi_tags": [
+        {
+          "code": "校园",
+          "label": "校园"
+        },
+        {
+          "code": "运动",
+          "label": "运动"
+        }
+      ],
+      "bangumi_regions": [
+        {
+          "code": "日本",
+          "label": "日本"
+        }
+      ],
+      "bangumi_adaptation_sources": [
+        {
+          "code": "漫画改",
+          "label": "漫画改"
+        }
+      ],
+      "report_url": "/yuri-classification-archive/works/tai_ari_deshita_tv_2026/",
+      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/tai_ari_deshita_tv_2026/",
+      "source_hashes": {
+        "metadata_sha256": "ae30b779a191c591c4fbdb1b13894046e92bd47ae731cb3ecc1819c600bc4503",
+        "report_sha256": "fa83e3c978d041518b5ddaf71d5deb2f9a615b0691a18c7244a32d60d56381f8"
       }
     },
     {
@@ -47440,6 +49243,487 @@
       "source_hashes": {
         "metadata_sha256": "014aab3bb65019c986809dc8ad537042a1603ecd54eae0d168f1fcf75203d130",
         "report_sha256": "604e7270543b454ca717a398b26d7a42f1ce1fb7d33f94e5b1fd80f3b5f9d4dc"
+      }
+    },
+    {
+      "slug": "grow_up_show_tv_2026",
+      "title": "Grow Up Show ～向日葵马戏团～",
+      "title_original": "グロウアップショウ ～ひまわりのサーカス団～",
+      "title_romaji": "Grow Up Show: Himawari no Circus-dan",
+      "title_english": "Grow Up Show",
+      "release_year": 2026,
+      "medium": {
+        "code": "tv_anime",
+        "label": "TV 动画"
+      },
+      "scope_summary": "2026 年 TV 动画第 1–13 话正篇（放送／配信版）",
+      "female_relationship_centrality": {
+        "code": "main",
+        "label": "主线"
+      },
+      "archive_basis": {
+        "code": "work_classification",
+        "label": "文类内百合"
+      },
+      "romance_centrality": {
+        "code": "main",
+        "label": "主线"
+      },
+      "highest_romance_explicitness": {
+        "code": "explicit_desire",
+        "label": "明确欲望"
+      },
+      "female_female_relationship_count": 19,
+      "relationship_distribution": {
+        "narrative_centrality": {
+          "main": 2,
+          "important_secondary": 10,
+          "local": 7,
+          "absent": 0,
+          "unknown": 0
+        },
+        "romance_explicitness": {
+          "explicit_relationship": 0,
+          "explicit_desire": 1,
+          "potential_or_strongly_coded": 1,
+          "non_romantic": 17,
+          "unknown": 0
+        },
+        "mutuality": {
+          "mutual": 0,
+          "one_sided": 0,
+          "ambiguous": 2,
+          "not_applicable": 17,
+          "unknown": 0
+        }
+      },
+      "relationship_profiles": [
+        {
+          "name": "瑞佳与桜翔",
+          "position": {
+            "code": "main",
+            "label": "主线"
+          },
+          "explicitness": {
+            "code": "potential_or_strongly_coded",
+            "label": "潜在恋爱"
+          },
+          "mutuality": {
+            "code": "ambiguous",
+            "label": "相互性未确认"
+          }
+        },
+        {
+          "name": "雫与斯维特拉娜",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "explicit_desire",
+            "label": "明确欲望"
+          },
+          "mutuality": {
+            "code": "ambiguous",
+            "label": "相互性未确认"
+          }
+        },
+        {
+          "name": "伊万里与五十铃",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "葵与茜",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "向日葵马戏团女性共同体",
+          "position": {
+            "code": "main",
+            "label": "主线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "麻利亚与凛",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "麻利亚与七海",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "桜翔与七海",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "七海与睦美",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "瑞佳与伊万里",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "瑞佳与茜",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "瑞佳与葵",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "瑞佳与霞",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "桜翔与霞",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "雫与桜翔",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "瑞佳、桜翔与两位前辈",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "麻利亚与桜翔",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "瑞佳与亡母",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "桜翔与母亲",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        }
+      ],
+      "relationship_filter_axes": [
+        {
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "explicit_desire",
+            "label": "明确欲望"
+          }
+        },
+        {
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          }
+        },
+        {
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          }
+        },
+        {
+          "position": {
+            "code": "main",
+            "label": "主线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          }
+        },
+        {
+          "position": {
+            "code": "main",
+            "label": "主线"
+          },
+          "explicitness": {
+            "code": "potential_or_strongly_coded",
+            "label": "潜在恋爱"
+          }
+        }
+      ],
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [
+        {
+          "code": "in_scope_edition",
+          "label": "当前版本"
+        }
+      ],
+      "official_source_surfaces": [
+        {
+          "code": "story_or_profile",
+          "label": "剧情／角色页"
+        },
+        {
+          "code": "visible_work_marketing",
+          "label": "可见作品宣传"
+        }
+      ],
+      "official_source_summary": "层级：当前版本；位置：剧情／角色页、可见作品宣传",
+      "identity_evidence_basis": {
+        "code": "explicit_relationship_only",
+        "label": "只有明确关系事实"
+      },
+      "male_romance_line": {
+        "code": "secondary",
+        "label": "副线"
+      },
+      "confidence": {
+        "code": "medium",
+        "label": "中"
+      },
+      "classification_date": "2026-10-08",
+      "content_warnings": [
+        "未成年人和成年人的照护与职业权力差异",
+        "强行安排演出、债务压力和身体边界笑料",
+        "疾病、危险训练、身体伤害与家庭离散",
+        "副线异性婚姻与继母关系"
+      ],
+      "content_warnings_text": "未成年人和成年人的照护与职业权力差异；强行安排演出、债务压力和身体边界笑料；疾病、危险训练、身体伤害与家庭离散；副线异性婚姻与继母关系",
+      "quick_queries": {
+        "explicit_relationship": false,
+        "main_explicit_relationship": false,
+        "main_explicit_desire": false,
+        "explicit_desire": true,
+        "accepts_unconfirmed": true,
+        "female_relationship_main": true,
+        "main_relationship_no_male_romance": false,
+        "main_non_romantic_no_male_romance": false,
+        "four_plus_female_relationships": true,
+        "mutual_relationship": false,
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
+      },
+      "bangumi_entry_status": {
+        "code": "success",
+        "label": "有可对应条目"
+      },
+      "bangumi_rank": 1703,
+      "bangumi_yuri_tag_ratio": 0.06654124170709971,
+      "bangumi_tags": [
+        {
+          "code": "职场",
+          "label": "职场"
+        }
+      ],
+      "bangumi_regions": [
+        {
+          "code": "日本",
+          "label": "日本"
+        }
+      ],
+      "bangumi_adaptation_sources": [
+        {
+          "code": "原创",
+          "label": "原创"
+        }
+      ],
+      "report_url": "/yuri-classification-archive/works/grow_up_show_tv_2026/",
+      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/grow_up_show_tv_2026/",
+      "source_hashes": {
+        "metadata_sha256": "7ca72238d4ad4ceaee3f343ded9c6a492044d506eff3b2bee5747dd82ad1cac2",
+        "report_sha256": "177ea896c6034b96f3b7d40b9b1328f27130aed0b306a1d0cc69d6b6955abb6d"
       }
     },
     {
@@ -65470,6 +67754,437 @@
       "source_hashes": {
         "metadata_sha256": "24454e259eeec8aa966b3a55a0ffc2a41fef99e69abb05bd4c1c99225aee56a1",
         "report_sha256": "a3d12c4dd3383d21f143ebdf4c6e6f064b25c70612527f4b8eb494f4bdf49ead"
+      }
+    },
+    {
+      "slug": "futsutsuka_na_akujo_dewa_gozaimasu_ga_tv_2026",
+      "title": "恶女不才，请多关照 ～雏宫蝶鼠换身传～",
+      "title_original": "ふつつかな悪女ではございますが ～雛宮蝶鼠とりかえ伝～",
+      "title_romaji": "Futsutsuka na Akujo dewa Gozaimasu ga: Suuguu Chouso Torikae Den",
+      "title_english": "Though I Am an Inept Villainess",
+      "release_year": 2026,
+      "medium": {
+        "code": "tv_anime",
+        "label": "TV 动画"
+      },
+      "scope_summary": "2026年TV动画第一播出季度第1–11话正篇；2026年7月12日至9月20日播出；Bangumi545008、AniList188139、Anime-Planet TV11eps独立条目。",
+      "female_relationship_centrality": {
+        "code": "main",
+        "label": "主线"
+      },
+      "archive_basis": {
+        "code": "work_classification",
+        "label": "文类内百合"
+      },
+      "romance_centrality": {
+        "code": "important_secondary",
+        "label": "重要副线"
+      },
+      "highest_romance_explicitness": {
+        "code": "potential_or_strongly_coded",
+        "label": "潜在恋爱"
+      },
+      "female_female_relationship_count": 16,
+      "relationship_distribution": {
+        "narrative_centrality": {
+          "main": 1,
+          "important_secondary": 7,
+          "local": 8,
+          "absent": 0,
+          "unknown": 0
+        },
+        "romance_explicitness": {
+          "explicit_relationship": 0,
+          "explicit_desire": 0,
+          "potential_or_strongly_coded": 1,
+          "non_romantic": 15,
+          "unknown": 0
+        },
+        "mutuality": {
+          "mutual": 0,
+          "one_sided": 0,
+          "ambiguous": 1,
+          "not_applicable": 15,
+          "unknown": 0
+        }
+      },
+      "relationship_profiles": [
+        {
+          "name": "玲琳与慧月",
+          "position": {
+            "code": "main",
+            "label": "主线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "玲琳与莉莉",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "potential_or_strongly_coded",
+            "label": "潜在恋爱"
+          },
+          "mutuality": {
+            "code": "ambiguous",
+            "label": "相互性未确认"
+          }
+        },
+        {
+          "name": "玲琳与冬雪",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "絹秀与雅媚",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "玲琳与絹秀",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "慧月与雅媚",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "慧月与莉莉",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "慧月与冬雪",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "玲琳与清佳",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "莉莉与冬雪",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "莉莉与母亲",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "慧月与母亲",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "玲琳与黄家女官群体",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "莉莉与雅媚",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "絹秀与麗雅",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "絹秀与傲雪",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        }
+      ],
+      "relationship_filter_axes": [
+        {
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          }
+        },
+        {
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "potential_or_strongly_coded",
+            "label": "潜在恋爱"
+          }
+        },
+        {
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          }
+        },
+        {
+          "position": {
+            "code": "main",
+            "label": "主线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          }
+        }
+      ],
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [
+        {
+          "code": "in_scope_edition",
+          "label": "当前版本"
+        },
+        {
+          "code": "adjacent_edition",
+          "label": "相邻版本"
+        }
+      ],
+      "official_source_surfaces": [
+        {
+          "code": "story_or_profile",
+          "label": "剧情／角色页"
+        },
+        {
+          "code": "visible_work_marketing",
+          "label": "可见作品宣传"
+        }
+      ],
+      "official_source_summary": "层级：当前版本、相邻版本；位置：剧情／角色页、可见作品宣传",
+      "identity_evidence_basis": {
+        "code": "inferred_relationship_only",
+        "label": "只有关系推断"
+      },
+      "male_romance_line": {
+        "code": "secondary",
+        "label": "副线"
+      },
+      "confidence": {
+        "code": "medium",
+        "label": "中"
+      },
+      "classification_date": "2026-10-08",
+      "content_warnings": [
+        "身体互换与剥夺自主",
+        "虐待、歧视与羞辱",
+        "自杀及自害提议",
+        "丧子、复仇、诅咒与暴力",
+        "主仆与后宫权力不对等"
+      ],
+      "content_warnings_text": "身体互换与剥夺自主；虐待、歧视与羞辱；自杀及自害提议；丧子、复仇、诅咒与暴力；主仆与后宫权力不对等",
+      "quick_queries": {
+        "explicit_relationship": false,
+        "main_explicit_relationship": false,
+        "main_explicit_desire": false,
+        "explicit_desire": false,
+        "accepts_unconfirmed": true,
+        "female_relationship_main": true,
+        "main_relationship_no_male_romance": false,
+        "main_non_romantic_no_male_romance": false,
+        "four_plus_female_relationships": true,
+        "mutual_relationship": false,
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
+      },
+      "bangumi_entry_status": {
+        "code": "success",
+        "label": "有可对应条目"
+      },
+      "bangumi_rank": 2612,
+      "bangumi_yuri_tag_ratio": 0.03771097046413502,
+      "bangumi_tags": [
+        {
+          "code": "奇幻",
+          "label": "奇幻"
+        }
+      ],
+      "bangumi_regions": [
+        {
+          "code": "日本",
+          "label": "日本"
+        }
+      ],
+      "bangumi_adaptation_sources": [
+        {
+          "code": "小说改",
+          "label": "小说改"
+        }
+      ],
+      "report_url": "/yuri-classification-archive/works/futsutsuka_na_akujo_dewa_gozaimasu_ga_tv_2026/",
+      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/futsutsuka_na_akujo_dewa_gozaimasu_ga_tv_2026/",
+      "source_hashes": {
+        "metadata_sha256": "1e446314266f3da16640a30b59b5090581bdaa744b2bfe4244be98dcfc461e80",
+        "report_sha256": "7adbfda8bf04c3c9232b2420a641103ab8d4770b38af4a17bd357c6a7d01f647"
       }
     },
     {
@@ -96928,6 +99643,495 @@
       }
     },
     {
+      "slug": "kimi_ga_shinu_made_koi_wo_shitai_tv_2026",
+      "title": "与你相恋到生命尽头",
+      "title_original": "きみが死ぬまで恋をしたい",
+      "title_romaji": "Kimi ga Shinu made Koi wo Shitai",
+      "title_english": "I Want to Love You Till Your Dying Day",
+      "release_year": 2026,
+      "medium": {
+        "code": "tv_anime",
+        "label": "TV 动画"
+      },
+      "scope_summary": "2026 年 TV 动画第 1–13 话正篇；2026 年 7 月 7 日至 9 月 29 日播出。",
+      "female_relationship_centrality": {
+        "code": "main",
+        "label": "主线"
+      },
+      "archive_basis": {
+        "code": "work_classification",
+        "label": "文类内百合"
+      },
+      "romance_centrality": {
+        "code": "main",
+        "label": "主线"
+      },
+      "highest_romance_explicitness": {
+        "code": "explicit_relationship",
+        "label": "明确交往"
+      },
+      "female_female_relationship_count": 19,
+      "relationship_distribution": {
+        "narrative_centrality": {
+          "main": 1,
+          "important_secondary": 9,
+          "local": 9,
+          "absent": 0,
+          "unknown": 0
+        },
+        "romance_explicitness": {
+          "explicit_relationship": 1,
+          "explicit_desire": 1,
+          "potential_or_strongly_coded": 1,
+          "non_romantic": 16,
+          "unknown": 0
+        },
+        "mutuality": {
+          "mutual": 1,
+          "one_sided": 0,
+          "ambiguous": 2,
+          "not_applicable": 16,
+          "unknown": 0
+        }
+      },
+      "relationship_profiles": [
+        {
+          "name": "席娜与美美",
+          "position": {
+            "code": "main",
+            "label": "主线"
+          },
+          "explicitness": {
+            "code": "potential_or_strongly_coded",
+            "label": "潜在恋爱"
+          },
+          "mutuality": {
+            "code": "ambiguous",
+            "label": "相互性未确认"
+          }
+        },
+        {
+          "name": "青兰与亚里",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "explicit_relationship",
+            "label": "明确交往"
+          },
+          "mutuality": {
+            "code": "mutual",
+            "label": "双向"
+          }
+        },
+        {
+          "name": "艾斯塔与已故爱慕对象",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "explicit_desire",
+            "label": "明确欲望"
+          },
+          "mutuality": {
+            "code": "ambiguous",
+            "label": "相互性未确认"
+          }
+        },
+        {
+          "name": "美美与母亲",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "席娜与原室友",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "席娜与青兰",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "席娜与亚里",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "美美与青兰",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "美美与亚里",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "美美与哈尔",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "席娜与哈尔",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "席娜与艾斯塔",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "美美与艾斯塔",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "艾斯塔与莉卡",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "美美与芙兰",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "席娜与芙兰",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "席娜与欧米",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "美美与欧米",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "芙兰与欧米",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        }
+      ],
+      "relationship_filter_axes": [
+        {
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "explicit_relationship",
+            "label": "明确交往"
+          }
+        },
+        {
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          }
+        },
+        {
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "explicit_desire",
+            "label": "明确欲望"
+          }
+        },
+        {
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          }
+        },
+        {
+          "position": {
+            "code": "main",
+            "label": "主线"
+          },
+          "explicitness": {
+            "code": "potential_or_strongly_coded",
+            "label": "潜在恋爱"
+          }
+        }
+      ],
+      "official_literal_yuri_gl": {
+        "code": "yes",
+        "label": "是"
+      },
+      "official_female_romance_wording": {
+        "code": "yes",
+        "label": "是"
+      },
+      "official_source_scopes": [
+        {
+          "code": "source_work",
+          "label": "原作"
+        },
+        {
+          "code": "in_scope_edition",
+          "label": "当前版本"
+        }
+      ],
+      "official_source_surfaces": [
+        {
+          "code": "publication_venue",
+          "label": "出版载体"
+        },
+        {
+          "code": "story_or_profile",
+          "label": "剧情／角色页"
+        }
+      ],
+      "official_source_summary": "层级：原作、当前版本；位置：出版载体、剧情／角色页",
+      "identity_evidence_basis": {
+        "code": "explicit_relationship_only",
+        "label": "只有明确关系事实"
+      },
+      "male_romance_line": {
+        "code": "none",
+        "label": "无"
+      },
+      "confidence": {
+        "code": "medium",
+        "label": "中"
+      },
+      "classification_date": "2026-10-08",
+      "content_warnings": [
+        "战争与儿童兵",
+        "死亡与丧失",
+        "严重肢体损伤与血腥",
+        "未成年人处于制度性强迫和牺牲关系"
+      ],
+      "content_warnings_text": "战争与儿童兵；死亡与丧失；严重肢体损伤与血腥；未成年人处于制度性强迫和牺牲关系",
+      "quick_queries": {
+        "explicit_relationship": true,
+        "main_explicit_relationship": false,
+        "main_explicit_desire": false,
+        "explicit_desire": true,
+        "accepts_unconfirmed": true,
+        "female_relationship_main": true,
+        "main_relationship_no_male_romance": true,
+        "main_non_romantic_no_male_romance": false,
+        "four_plus_female_relationships": true,
+        "mutual_relationship": true,
+        "official_literal_yuri_gl": true,
+        "official_female_romance_wording": true
+      },
+      "bangumi_entry_status": {
+        "code": "success",
+        "label": "有可对应条目"
+      },
+      "bangumi_rank": 4553,
+      "bangumi_yuri_tag_ratio": 0.12208664655881546,
+      "bangumi_tags": [
+        {
+          "code": "奇幻",
+          "label": "奇幻"
+        },
+        {
+          "code": "校园",
+          "label": "校园"
+        }
+      ],
+      "bangumi_regions": [
+        {
+          "code": "日本",
+          "label": "日本"
+        }
+      ],
+      "bangumi_adaptation_sources": [
+        {
+          "code": "漫画改",
+          "label": "漫画改"
+        }
+      ],
+      "report_url": "/yuri-classification-archive/works/kimi_ga_shinu_made_koi_wo_shitai_tv_2026/",
+      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/kimi_ga_shinu_made_koi_wo_shitai_tv_2026/",
+      "source_hashes": {
+        "metadata_sha256": "d1545552416b9d637b5f27e5a6e52654b7f7449e87d8648edb13427165cd8697",
+        "report_sha256": "452188cc50a3acffffb13ec253e39daaaa2c086682dc303adf1a1699d038fc5e"
+      }
+    },
+    {
       "slug": "koukaku_no_pandora_movie_2015",
       "title": "红壳的潘多拉",
       "title_original": "紅殻のパンドラ",
@@ -107510,6 +110714,336 @@
       "source_hashes": {
         "metadata_sha256": "90a6571ba9861883cdb848dc37c0ffc4e4955d7588c6bc55766d485aa633bd77",
         "report_sha256": "27512702cf19ca479ad1979ad280324f7db70cedad8a1f9857805e76d603f732"
+      }
+    },
+    {
+      "slug": "sayonara_lara_tv_2026",
+      "title": "再见菈菈",
+      "title_original": "さよならララ",
+      "title_romaji": "Sayonara Lara",
+      "title_english": "Goodbye, Lara",
+      "release_year": 2026,
+      "medium": {
+        "code": "tv_anime",
+        "label": "TV 动画"
+      },
+      "scope_summary": "2026 年 TV 动画第 1–12 话正篇；7 月 5 日深夜首播，9 月 20 日深夜最终话播出（日本历日为 9 月 21 日）。",
+      "female_relationship_centrality": {
+        "code": "main",
+        "label": "主线"
+      },
+      "archive_basis": {
+        "code": "work_classification",
+        "label": "文类内百合"
+      },
+      "romance_centrality": {
+        "code": "main",
+        "label": "主线"
+      },
+      "highest_romance_explicitness": {
+        "code": "potential_or_strongly_coded",
+        "label": "潜在恋爱"
+      },
+      "female_female_relationship_count": 10,
+      "relationship_distribution": {
+        "narrative_centrality": {
+          "main": 1,
+          "important_secondary": 5,
+          "local": 4,
+          "absent": 0,
+          "unknown": 0
+        },
+        "romance_explicitness": {
+          "explicit_relationship": 0,
+          "explicit_desire": 0,
+          "potential_or_strongly_coded": 1,
+          "non_romantic": 9,
+          "unknown": 0
+        },
+        "mutuality": {
+          "mutual": 8,
+          "one_sided": 0,
+          "ambiguous": 1,
+          "not_applicable": 1,
+          "unknown": 0
+        }
+      },
+      "relationship_profiles": [
+        {
+          "name": "菈菈与大津茉里",
+          "position": {
+            "code": "main",
+            "label": "主线"
+          },
+          "explicitness": {
+            "code": "potential_or_strongly_coded",
+            "label": "潜在恋爱"
+          },
+          "mutuality": {
+            "code": "ambiguous",
+            "label": "相互性未确认"
+          }
+        },
+        {
+          "name": "菈菈与莉莎及其他姐姐",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "mutual",
+            "label": "双向"
+          }
+        },
+        {
+          "name": "菈菈与格蕾丝",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "mutual",
+            "label": "双向"
+          }
+        },
+        {
+          "name": "茉里与格蕾丝",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "mutual",
+            "label": "双向"
+          }
+        },
+        {
+          "name": "格蕾丝与里格莫尔",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "mutual",
+            "label": "双向"
+          }
+        },
+        {
+          "name": "茉里与母亲、祖母江万",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "mutual",
+            "label": "双向"
+          }
+        },
+        {
+          "name": "菈菈与米原姬花",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "mutual",
+            "label": "双向"
+          }
+        },
+        {
+          "name": "茉里与长滨前辈",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "mutual",
+            "label": "双向"
+          }
+        },
+        {
+          "name": "茉里与莉莎",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "菈菈与大津江万",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "mutual",
+            "label": "双向"
+          }
+        }
+      ],
+      "relationship_filter_axes": [
+        {
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          }
+        },
+        {
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          }
+        },
+        {
+          "position": {
+            "code": "main",
+            "label": "主线"
+          },
+          "explicitness": {
+            "code": "potential_or_strongly_coded",
+            "label": "潜在恋爱"
+          }
+        }
+      ],
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [
+        {
+          "code": "in_scope_edition",
+          "label": "当前版本"
+        }
+      ],
+      "official_source_surfaces": [
+        {
+          "code": "story_or_profile",
+          "label": "剧情／角色页"
+        },
+        {
+          "code": "interview_or_commentary",
+          "label": "访谈／评论"
+        }
+      ],
+      "official_source_summary": "层级：当前版本；位置：剧情／角色页、访谈／评论",
+      "identity_evidence_basis": {
+        "code": "inferred_relationship_only",
+        "label": "只有关系推断"
+      },
+      "male_romance_line": {
+        "code": "parallel",
+        "label": "并列"
+      },
+      "confidence": {
+        "code": "medium",
+        "label": "中"
+      },
+      "classification_date": "2026-10-08",
+      "content_warnings": [
+        "物种歧视与身体否定",
+        "家庭控制与杀害要求",
+        "死亡、自我消失念头与复生",
+        "男性恋爱及关系结束"
+      ],
+      "content_warnings_text": "物种歧视与身体否定；家庭控制与杀害要求；死亡、自我消失念头与复生；男性恋爱及关系结束",
+      "quick_queries": {
+        "explicit_relationship": false,
+        "main_explicit_relationship": false,
+        "main_explicit_desire": false,
+        "explicit_desire": false,
+        "accepts_unconfirmed": true,
+        "female_relationship_main": true,
+        "main_relationship_no_male_romance": false,
+        "main_non_romantic_no_male_romance": false,
+        "four_plus_female_relationships": true,
+        "mutual_relationship": true,
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
+      },
+      "bangumi_entry_status": {
+        "code": "success",
+        "label": "有可对应条目"
+      },
+      "bangumi_rank": 5264,
+      "bangumi_yuri_tag_ratio": 0.022041317871131248,
+      "bangumi_tags": [
+        {
+          "code": "奇幻",
+          "label": "奇幻"
+        },
+        {
+          "code": "恋爱",
+          "label": "恋爱"
+        }
+      ],
+      "bangumi_regions": [
+        {
+          "code": "日本",
+          "label": "日本"
+        }
+      ],
+      "bangumi_adaptation_sources": [
+        {
+          "code": "原创",
+          "label": "原创"
+        }
+      ],
+      "report_url": "/yuri-classification-archive/works/sayonara_lara_tv_2026/",
+      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/sayonara_lara_tv_2026/",
+      "source_hashes": {
+        "metadata_sha256": "1d64fa25584569c20f286cbbcf78433341e6de7895766bae0078003be35e184c",
+        "report_sha256": "21db7de7e0c832c4a62590bc365eb470691ea66da19032fd0c154fafdb92dca8"
       }
     },
     {
@@ -123641,6 +127175,566 @@
       }
     },
     {
+      "slug": "azur_lane_bisoku_zenshin_2_tv_2026",
+      "title": "碧蓝航线 微速前进！第二季",
+      "title_original": "アズールレーン びそくぜんしんっ！にっ！！",
+      "title_romaji": "Azur Lane: Bisoku Zenshin! Ni!!",
+      "title_english": "Anime AzurLane: Slow Ahead! Season 2",
+      "release_year": 2026,
+      "medium": {
+        "code": "tv_anime",
+        "label": "TV 动画"
+      },
+      "scope_summary": "2026 年 7 月 5 日至 9 月 20 日播出的 TV 第二季第 1–12 话；按广播日记日，跨午夜的平台日期为翌日。",
+      "female_relationship_centrality": {
+        "code": "main",
+        "label": "主线"
+      },
+      "archive_basis": {
+        "code": "reader_interpretation",
+        "label": "文类外百合阅读"
+      },
+      "romance_centrality": {
+        "code": "local",
+        "label": "局部"
+      },
+      "highest_romance_explicitness": {
+        "code": "potential_or_strongly_coded",
+        "label": "潜在恋爱"
+      },
+      "female_female_relationship_count": 25,
+      "relationship_distribution": {
+        "narrative_centrality": {
+          "main": 1,
+          "important_secondary": 1,
+          "local": 23,
+          "absent": 0,
+          "unknown": 0
+        },
+        "romance_explicitness": {
+          "explicit_relationship": 0,
+          "explicit_desire": 0,
+          "potential_or_strongly_coded": 1,
+          "non_romantic": 24,
+          "unknown": 0
+        },
+        "mutuality": {
+          "mutual": 24,
+          "one_sided": 1,
+          "ambiguous": 0,
+          "not_applicable": 0,
+          "unknown": 0
+        }
+      },
+      "relationship_profiles": [
+        {
+          "name": "标枪、绫波、拉菲与Z23",
+          "position": {
+            "code": "main",
+            "label": "主线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "mutual",
+            "label": "双向"
+          }
+        },
+        {
+          "name": "波拉与扎拉",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "potential_or_strongly_coded",
+            "label": "潜在恋爱"
+          },
+          "mutuality": {
+            "code": "one_sided",
+            "label": "单向"
+          }
+        },
+        {
+          "name": "四人组与明石",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "mutual",
+            "label": "双向"
+          }
+        },
+        {
+          "name": "利物浦与德文郡",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "mutual",
+            "label": "双向"
+          }
+        },
+        {
+          "name": "四人组与利物浦",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "mutual",
+            "label": "双向"
+          }
+        },
+        {
+          "name": "卡律布狄斯与黛朵",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "mutual",
+            "label": "双向"
+          }
+        },
+        {
+          "name": "四人组与两名女仆",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "mutual",
+            "label": "双向"
+          }
+        },
+        {
+          "name": "四人组与阿尔及利亚",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "mutual",
+            "label": "双向"
+          }
+        },
+        {
+          "name": "四人组与扎拉、波拉",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "mutual",
+            "label": "双向"
+          }
+        },
+        {
+          "name": "阿尔及利亚、敦刻尔克与福煦",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "mutual",
+            "label": "双向"
+          }
+        },
+        {
+          "name": "皇家财富与金鹿",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "mutual",
+            "label": "双向"
+          }
+        },
+        {
+          "name": "四人组与两名海盗",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "mutual",
+            "label": "双向"
+          }
+        },
+        {
+          "name": "Z46与齐柏林",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "mutual",
+            "label": "双向"
+          }
+        },
+        {
+          "name": "四人组、Z46与布雷默顿",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "mutual",
+            "label": "双向"
+          }
+        },
+        {
+          "name": "岛风与骏河",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "mutual",
+            "label": "双向"
+          }
+        },
+        {
+          "name": "四人组、骏河、岛风与两名姐姐",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "mutual",
+            "label": "双向"
+          }
+        },
+        {
+          "name": "四人组、半人马、阿尔比恩与恶毒",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "mutual",
+            "label": "双向"
+          }
+        },
+        {
+          "name": "杰纳斯与贾维斯",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "mutual",
+            "label": "双向"
+          }
+        },
+        {
+          "name": "四人组、杰纳斯、贾维斯与怨仇",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "mutual",
+            "label": "双向"
+          }
+        },
+        {
+          "name": "四人组与信浓",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "mutual",
+            "label": "双向"
+          }
+        },
+        {
+          "name": "四人组与水星纪念",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "mutual",
+            "label": "双向"
+          }
+        },
+        {
+          "name": "四人组与罗恩、鲁普雷希特亲王",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "mutual",
+            "label": "双向"
+          }
+        },
+        {
+          "name": "罗恩与鲁普雷希特亲王",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "mutual",
+            "label": "双向"
+          }
+        },
+        {
+          "name": "印第安纳与匹兹堡",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "mutual",
+            "label": "双向"
+          }
+        },
+        {
+          "name": "四人组与印第安纳、匹兹堡",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "mutual",
+            "label": "双向"
+          }
+        }
+      ],
+      "relationship_filter_axes": [
+        {
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          }
+        },
+        {
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          }
+        },
+        {
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "potential_or_strongly_coded",
+            "label": "潜在恋爱"
+          }
+        },
+        {
+          "position": {
+            "code": "main",
+            "label": "主线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          }
+        }
+      ],
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [
+        {
+          "code": "in_scope_edition",
+          "label": "当前版本"
+        }
+      ],
+      "official_source_surfaces": [
+        {
+          "code": "story_or_profile",
+          "label": "剧情／角色页"
+        },
+        {
+          "code": "visible_work_marketing",
+          "label": "可见作品宣传"
+        }
+      ],
+      "official_source_summary": "层级：当前版本；位置：剧情／角色页、可见作品宣传",
+      "identity_evidence_basis": {
+        "code": "inferred_relationship_only",
+        "label": "只有关系推断"
+      },
+      "male_romance_line": {
+        "code": "unknown",
+        "label": "未知"
+      },
+      "confidence": {
+        "code": "medium",
+        "label": "中"
+      },
+      "classification_date": "2026-10-08",
+      "content_warnings": [
+        "身体展示与性暗示喜剧",
+        "姐妹间的身体兴趣与亲密边界",
+        "戏中戏枪击与假血"
+      ],
+      "content_warnings_text": "身体展示与性暗示喜剧；姐妹间的身体兴趣与亲密边界；戏中戏枪击与假血",
+      "quick_queries": {
+        "explicit_relationship": false,
+        "main_explicit_relationship": false,
+        "main_explicit_desire": false,
+        "explicit_desire": false,
+        "accepts_unconfirmed": true,
+        "female_relationship_main": true,
+        "main_relationship_no_male_romance": false,
+        "main_non_romantic_no_male_romance": false,
+        "four_plus_female_relationships": true,
+        "mutual_relationship": true,
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
+      },
+      "bangumi_entry_status": {
+        "code": "success",
+        "label": "有可对应条目"
+      },
+      "bangumi_rank": 6073,
+      "bangumi_yuri_tag_ratio": 0.02484815019326339,
+      "bangumi_tags": [
+        {
+          "code": "日常",
+          "label": "日常"
+        }
+      ],
+      "bangumi_regions": [
+        {
+          "code": "日本",
+          "label": "日本"
+        }
+      ],
+      "bangumi_adaptation_sources": [
+        {
+          "code": "漫画改",
+          "label": "漫画改"
+        }
+      ],
+      "report_url": "/yuri-classification-archive/works/azur_lane_bisoku_zenshin_2_tv_2026/",
+      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/azur_lane_bisoku_zenshin_2_tv_2026/",
+      "source_hashes": {
+        "metadata_sha256": "61f4acc27d4fa44332025f8bdd8a921e348b88877258e619c5aa7f5ccdcdc277",
+        "report_sha256": "250333d92c2c8fcc3c1cad850c6bc3e2d3b17d1425c44b257a9d7bcd0b89ec29"
+      }
+    },
+    {
       "slug": "granbelm_tv_2019",
       "title": "满月之战",
       "title_original": "グランベルム",
@@ -138020,6 +142114,516 @@
       }
     },
     {
+      "slug": "honoo_no_toukyuujo_dodge_danko_tv_2026",
+      "title": "斗球女弹子",
+      "title_original": "炎の闘球女 ドッジ弾子",
+      "title_romaji": "Honoo no Toukyuujyo Dodge Danko",
+      "title_english": "Flaming Dodgeball Girl Danko",
+      "release_year": 2026,
+      "medium": {
+        "code": "tv_anime",
+        "label": "TV 动画"
+      },
+      "scope_summary": "2026 年 TV 动画第 1–12 话正篇及同集片尾角色介绍；2026 年 7 月 6 日至 9 月 21 日播出。",
+      "female_relationship_centrality": {
+        "code": "main",
+        "label": "主线"
+      },
+      "archive_basis": {
+        "code": "reader_interpretation",
+        "label": "文类外百合阅读"
+      },
+      "romance_centrality": {
+        "code": "main",
+        "label": "主线"
+      },
+      "highest_romance_explicitness": {
+        "code": "explicit_desire",
+        "label": "明确欲望"
+      },
+      "female_female_relationship_count": 21,
+      "relationship_distribution": {
+        "narrative_centrality": {
+          "main": 5,
+          "important_secondary": 8,
+          "local": 8,
+          "absent": 0,
+          "unknown": 0
+        },
+        "romance_explicitness": {
+          "explicit_relationship": 0,
+          "explicit_desire": 1,
+          "potential_or_strongly_coded": 1,
+          "non_romantic": 19,
+          "unknown": 0
+        },
+        "mutuality": {
+          "mutual": 0,
+          "one_sided": 2,
+          "ambiguous": 0,
+          "not_applicable": 19,
+          "unknown": 0
+        }
+      },
+      "relationship_profiles": [
+        {
+          "name": "弾子与珍子",
+          "position": {
+            "code": "main",
+            "label": "主线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "弾子与平子",
+          "position": {
+            "code": "main",
+            "label": "主线"
+          },
+          "explicitness": {
+            "code": "potential_or_strongly_coded",
+            "label": "潜在恋爱"
+          },
+          "mutuality": {
+            "code": "one_sided",
+            "label": "单向"
+          }
+        },
+        {
+          "name": "柔里与平子",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "explicit_desire",
+            "label": "明确欲望"
+          },
+          "mutuality": {
+            "code": "one_sided",
+            "label": "单向"
+          }
+        },
+        {
+          "name": "スージー与もち子",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "はこ与颯美",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "羽仁衣与球川队友",
+          "position": {
+            "code": "main",
+            "label": "主线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "羽仁衣与萌愛",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "球川闘球部女性共同体",
+          "position": {
+            "code": "main",
+            "label": "主线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "朱莉与沙夜",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "凛与麗",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "圣箭队主仆共同体",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "土佐队共同生活伙伴",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "ゾーイ与エルダ及US队协作",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "蘭与皐",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "月与陽",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "黑甲队共同体",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "弾子与蘭",
+          "position": {
+            "code": "main",
+            "label": "主线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "弾子与母亲及祖母",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "みさと与はるか",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "珍子与愛子",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "弾子与さっちゃん",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        }
+      ],
+      "relationship_filter_axes": [
+        {
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          }
+        },
+        {
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "explicit_desire",
+            "label": "明确欲望"
+          }
+        },
+        {
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          }
+        },
+        {
+          "position": {
+            "code": "main",
+            "label": "主线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          }
+        },
+        {
+          "position": {
+            "code": "main",
+            "label": "主线"
+          },
+          "explicitness": {
+            "code": "potential_or_strongly_coded",
+            "label": "潜在恋爱"
+          }
+        }
+      ],
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_female_romance_wording": {
+        "code": "yes",
+        "label": "是"
+      },
+      "official_source_scopes": [
+        {
+          "code": "in_scope_edition",
+          "label": "当前版本"
+        }
+      ],
+      "official_source_surfaces": [
+        {
+          "code": "story_or_profile",
+          "label": "剧情／角色页"
+        },
+        {
+          "code": "visible_work_marketing",
+          "label": "可见作品宣传"
+        }
+      ],
+      "official_source_summary": "层级：当前版本；位置：剧情／角色页、可见作品宣传",
+      "identity_evidence_basis": {
+        "code": "explicit_relationship_only",
+        "label": "只有明确关系事实"
+      },
+      "male_romance_line": {
+        "code": "none",
+        "label": "无"
+      },
+      "confidence": {
+        "code": "medium",
+        "label": "中"
+      },
+      "classification_date": "2026-10-08",
+      "content_warnings": [
+        "未成年角色身体与性双关笑话",
+        "衣物盗取及亲密边界侵犯",
+        "霸凌、致伤比赛、儿童受虐与生死威胁"
+      ],
+      "content_warnings_text": "未成年角色身体与性双关笑话；衣物盗取及亲密边界侵犯；霸凌、致伤比赛、儿童受虐与生死威胁",
+      "quick_queries": {
+        "explicit_relationship": false,
+        "main_explicit_relationship": false,
+        "main_explicit_desire": false,
+        "explicit_desire": true,
+        "accepts_unconfirmed": true,
+        "female_relationship_main": true,
+        "main_relationship_no_male_romance": true,
+        "main_non_romantic_no_male_romance": false,
+        "four_plus_female_relationships": true,
+        "mutual_relationship": false,
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": true
+      },
+      "bangumi_entry_status": {
+        "code": "success",
+        "label": "有可对应条目"
+      },
+      "bangumi_rank": 7199,
+      "bangumi_yuri_tag_ratio": 0.0029940119760479044,
+      "bangumi_tags": [
+        {
+          "code": "运动",
+          "label": "运动"
+        }
+      ],
+      "bangumi_regions": [
+        {
+          "code": "日本",
+          "label": "日本"
+        }
+      ],
+      "bangumi_adaptation_sources": [
+        {
+          "code": "漫画改",
+          "label": "漫画改"
+        }
+      ],
+      "report_url": "/yuri-classification-archive/works/honoo_no_toukyuujo_dodge_danko_tv_2026/",
+      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/honoo_no_toukyuujo_dodge_danko_tv_2026/",
+      "source_hashes": {
+        "metadata_sha256": "c97e25884e04350d7d8f06de850ac16b06ae5edba1ad794c244c283496dff13b",
+        "report_sha256": "75839def41479d80b012841d808a76a17713744232fdb864d1199016ff75236f"
+      }
+    },
+    {
       "slug": "koihime_musou_tv_2008",
       "title": "恋姬无双",
       "title_original": "恋姫†無双",
@@ -144989,6 +149593,537 @@
       }
     },
     {
+      "slug": "ibitte_konai_gibo_to_gishi_tv_2026",
+      "title": "不虐待我的继母与继姐",
+      "title_original": "いびってこない義母と義姉",
+      "title_romaji": "Ibitte Konai Gibo to Gishi",
+      "title_english": "My Stepmother and Stepsisters Aren’t Wicked",
+      "release_year": 2026,
+      "medium": {
+        "code": "tv_anime",
+        "label": "TV 动画"
+      },
+      "scope_summary": "2026 年 TV 动画第 1–12 话正篇；末话通常台与先行配信 9 月 26 日，延后电视台 9 月 30 日、一般配信 10 月 3 日均已结束。",
+      "female_relationship_centrality": {
+        "code": "main",
+        "label": "主线"
+      },
+      "archive_basis": {
+        "code": "reader_interpretation",
+        "label": "文类外百合阅读"
+      },
+      "romance_centrality": {
+        "code": "local",
+        "label": "局部"
+      },
+      "highest_romance_explicitness": {
+        "code": "potential_or_strongly_coded",
+        "label": "潜在恋爱"
+      },
+      "female_female_relationship_count": 23,
+      "relationship_distribution": {
+        "narrative_centrality": {
+          "main": 3,
+          "important_secondary": 5,
+          "local": 15,
+          "absent": 0,
+          "unknown": 0
+        },
+        "romance_explicitness": {
+          "explicit_relationship": 0,
+          "explicit_desire": 0,
+          "potential_or_strongly_coded": 2,
+          "non_romantic": 21,
+          "unknown": 0
+        },
+        "mutuality": {
+          "mutual": 0,
+          "one_sided": 0,
+          "ambiguous": 2,
+          "not_applicable": 21,
+          "unknown": 0
+        }
+      },
+      "relationship_profiles": [
+        {
+          "name": "美冶与昭瑠",
+          "position": {
+            "code": "main",
+            "label": "主线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "美冶与茉里香",
+          "position": {
+            "code": "main",
+            "label": "主线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "美冶与爱里沙",
+          "position": {
+            "code": "main",
+            "label": "主线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "茉里香与爱里沙",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "昭瑠与两位女儿",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "美冶与生母",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "美冶与外婆",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "美冶与弥荣子",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "弥荣子与爱里沙",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "美冶与莉露",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "美冶与小雪",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "莉露与小雪",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "莉露与誉",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "茉里香与莉露",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "茉里香与定",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "美冶与定",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "名护与昭瑠",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "potential_or_strongly_coded",
+            "label": "潜在恋爱"
+          },
+          "mutuality": {
+            "code": "ambiguous",
+            "label": "相互性未确认"
+          }
+        },
+        {
+          "name": "泷子与美冶",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "potential_or_strongly_coded",
+            "label": "潜在恋爱"
+          },
+          "mutuality": {
+            "code": "ambiguous",
+            "label": "相互性未确认"
+          }
+        },
+        {
+          "name": "昭瑠与妇人会友人",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "美冶与叶月",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "名护与三矢",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "泷子与誉",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "定与学生会成员",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        }
+      ],
+      "relationship_filter_axes": [
+        {
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          }
+        },
+        {
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          }
+        },
+        {
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "potential_or_strongly_coded",
+            "label": "潜在恋爱"
+          }
+        },
+        {
+          "position": {
+            "code": "main",
+            "label": "主线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          }
+        }
+      ],
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [
+        {
+          "code": "in_scope_edition",
+          "label": "当前版本"
+        }
+      ],
+      "official_source_surfaces": [
+        {
+          "code": "story_or_profile",
+          "label": "剧情／角色页"
+        },
+        {
+          "code": "visible_work_marketing",
+          "label": "可见作品宣传"
+        }
+      ],
+      "official_source_summary": "层级：当前版本；位置：剧情／角色页、可见作品宣传",
+      "identity_evidence_basis": {
+        "code": "inferred_relationship_only",
+        "label": "只有关系推断"
+      },
+      "male_romance_line": {
+        "code": "none",
+        "label": "无"
+      },
+      "confidence": {
+        "code": "medium",
+        "label": "中"
+      },
+      "classification_date": "2026-10-08",
+      "content_warnings": [
+        "丧母与哀伤",
+        "阶级歧视与庶女污名",
+        "儿童劳役经历",
+        "亲属与主仆权力差异"
+      ],
+      "content_warnings_text": "丧母与哀伤；阶级歧视与庶女污名；儿童劳役经历；亲属与主仆权力差异",
+      "quick_queries": {
+        "explicit_relationship": false,
+        "main_explicit_relationship": false,
+        "main_explicit_desire": false,
+        "explicit_desire": false,
+        "accepts_unconfirmed": true,
+        "female_relationship_main": true,
+        "main_relationship_no_male_romance": true,
+        "main_non_romantic_no_male_romance": false,
+        "four_plus_female_relationships": true,
+        "mutual_relationship": false,
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
+      },
+      "bangumi_entry_status": {
+        "code": "success",
+        "label": "有可对应条目"
+      },
+      "bangumi_rank": 7660,
+      "bangumi_yuri_tag_ratio": 0.0,
+      "bangumi_tags": [
+        {
+          "code": "喜剧",
+          "label": "喜剧"
+        }
+      ],
+      "bangumi_regions": [
+        {
+          "code": "日本",
+          "label": "日本"
+        }
+      ],
+      "bangumi_adaptation_sources": [
+        {
+          "code": "漫画改",
+          "label": "漫画改"
+        }
+      ],
+      "report_url": "/yuri-classification-archive/works/ibitte_konai_gibo_to_gishi_tv_2026/",
+      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/ibitte_konai_gibo_to_gishi_tv_2026/",
+      "source_hashes": {
+        "metadata_sha256": "99e65e79334b6a9ec820f5f16449d1909e228e891bbf47d3780f5ba0b2fbafa3",
+        "report_sha256": "29cf9991ab7fc95bf07ac22f8734aeaa31e7f58ce2e316b4eb5324795659f908"
+      }
+    },
+    {
       "slug": "valkyrie_drive_mermaid_tv_2015",
       "title": "女武神驱动 美人鱼",
       "title_original": "ヴァルキリードライヴ マーメイド",
@@ -149749,6 +154884,505 @@
       "source_hashes": {
         "metadata_sha256": "baeeb68764894e6391fea5781e2c42266098e8fb52358255018df72c30c38c95",
         "report_sha256": "09a3b2876804a4e8c33f94c7546058a5a8832a3ef948aa5ef269fb214ef15f0f"
+      }
+    },
+    {
+      "slug": "heroine_seijo_iie_all_works_maid_tv_2026",
+      "title": "女主角？圣女？不，我是杂役女仆（自豪）！",
+      "title_original": "ヒロイン？聖女？いいえ、オールワークスメイドです（誇）！",
+      "title_romaji": "Heroine? Seijo? Iie, All Works Maid desu (Hokori)!",
+      "title_english": "Heroine? Saint? No, I'm an All-Works Maid (And Proud of It)!",
+      "release_year": 2026,
+      "medium": {
+        "code": "tv_anime",
+        "label": "TV 动画"
+      },
+      "scope_summary": "2026 年动画第一季正篇第 1–12 话（电视播出与提前一周的 WEB 配信）",
+      "female_relationship_centrality": {
+        "code": "main",
+        "label": "主线"
+      },
+      "archive_basis": {
+        "code": "work_classification",
+        "label": "文类内百合"
+      },
+      "romance_centrality": {
+        "code": "main",
+        "label": "主线"
+      },
+      "highest_romance_explicitness": {
+        "code": "explicit_desire",
+        "label": "明确欲望"
+      },
+      "female_female_relationship_count": 20,
+      "relationship_distribution": {
+        "narrative_centrality": {
+          "main": 1,
+          "important_secondary": 7,
+          "local": 12,
+          "absent": 0,
+          "unknown": 0
+        },
+        "romance_explicitness": {
+          "explicit_relationship": 0,
+          "explicit_desire": 2,
+          "potential_or_strongly_coded": 1,
+          "non_romantic": 17,
+          "unknown": 0
+        },
+        "mutuality": {
+          "mutual": 0,
+          "one_sided": 2,
+          "ambiguous": 1,
+          "not_applicable": 17,
+          "unknown": 0
+        }
+      },
+      "relationship_profiles": [
+        {
+          "name": "メロディ与ルシアナ",
+          "position": {
+            "code": "main",
+            "label": "主线"
+          },
+          "explicitness": {
+            "code": "explicit_desire",
+            "label": "明确欲望"
+          },
+          "mutuality": {
+            "code": "one_sided",
+            "label": "单向"
+          }
+        },
+        {
+          "name": "アンネマリー与メロディ",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "explicit_desire",
+            "label": "明确欲望"
+          },
+          "mutuality": {
+            "code": "one_sided",
+            "label": "单向"
+          }
+        },
+        {
+          "name": "アンネマリー与ルシアナ",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "potential_or_strongly_coded",
+            "label": "潜在恋爱"
+          },
+          "mutuality": {
+            "code": "ambiguous",
+            "label": "相互性未确认"
+          }
+        },
+        {
+          "name": "ルシアナ与ルーナ",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "ルシアナ与两位幼友",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "メロディ与母亲セレナ",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "メロディ与セレーナ",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "メロディ与マイカ",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "メロディ与ポーラ",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "メロディ与サーシャ",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "ルーナ与サーシャ",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "アンネマリー与クラリス",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "ルシアナ与マリアンナ",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "マイカ与アナベル",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "舞花与孙女友里花",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "メロディ与古代聖女",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "ルトルバーグ家女性使用人",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "ルシアナ与前任老年女仆",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "アンネマリー与アナベル及孤儿院",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "メロディ与マリアンナ",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        }
+      ],
+      "relationship_filter_axes": [
+        {
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "explicit_desire",
+            "label": "明确欲望"
+          }
+        },
+        {
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          }
+        },
+        {
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "potential_or_strongly_coded",
+            "label": "潜在恋爱"
+          }
+        },
+        {
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          }
+        },
+        {
+          "position": {
+            "code": "main",
+            "label": "主线"
+          },
+          "explicitness": {
+            "code": "explicit_desire",
+            "label": "明确欲望"
+          }
+        }
+      ],
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [
+        {
+          "code": "in_scope_edition",
+          "label": "当前版本"
+        }
+      ],
+      "official_source_surfaces": [
+        {
+          "code": "story_or_profile",
+          "label": "剧情／角色页"
+        },
+        {
+          "code": "visible_work_marketing",
+          "label": "可见作品宣传"
+        }
+      ],
+      "official_source_summary": "层级：当前版本；位置：剧情／角色页、可见作品宣传",
+      "identity_evidence_basis": {
+        "code": "explicit_relationship_only",
+        "label": "只有明确关系事实"
+      },
+      "male_romance_line": {
+        "code": "secondary",
+        "label": "副线"
+      },
+      "confidence": {
+        "code": "medium",
+        "label": "中"
+      },
+      "classification_date": "2026-10-08",
+      "content_warnings": [
+        "对女仆的反复求抱及带性意味的喜剧玩笑",
+        "阶级偏见、造谣与校园排斥",
+        "死亡、奴役、操纵与杀害威胁"
+      ],
+      "content_warnings_text": "对女仆的反复求抱及带性意味的喜剧玩笑；阶级偏见、造谣与校园排斥；死亡、奴役、操纵与杀害威胁",
+      "quick_queries": {
+        "explicit_relationship": false,
+        "main_explicit_relationship": false,
+        "main_explicit_desire": true,
+        "explicit_desire": true,
+        "accepts_unconfirmed": true,
+        "female_relationship_main": true,
+        "main_relationship_no_male_romance": false,
+        "main_non_romantic_no_male_romance": false,
+        "four_plus_female_relationships": true,
+        "mutual_relationship": false,
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
+      },
+      "bangumi_entry_status": {
+        "code": "success",
+        "label": "有可对应条目"
+      },
+      "bangumi_rank": 8014,
+      "bangumi_yuri_tag_ratio": 0.010704419889502763,
+      "bangumi_tags": [
+        {
+          "code": "奇幻",
+          "label": "奇幻"
+        },
+        {
+          "code": "穿越",
+          "label": "穿越"
+        }
+      ],
+      "bangumi_regions": [
+        {
+          "code": "日本",
+          "label": "日本"
+        }
+      ],
+      "bangumi_adaptation_sources": [
+        {
+          "code": "小说改",
+          "label": "小说改"
+        }
+      ],
+      "report_url": "/yuri-classification-archive/works/heroine_seijo_iie_all_works_maid_tv_2026/",
+      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/heroine_seijo_iie_all_works_maid_tv_2026/",
+      "source_hashes": {
+        "metadata_sha256": "4d244a70a5dc53430494b762a178c6cb3f07fb3e2b3c66ba9e411d630e2af000",
+        "report_sha256": "e2767df6b1ac0d18ad64ac27fa0e4bb4a2a14a2794821b03bc2957e5392d601d"
       }
     },
     {
@@ -155358,6 +160992,321 @@
       "source_hashes": {
         "metadata_sha256": "d208cfff4056ac62e034a423b9a4dd8a225a841275c00b5ac89354eb44f7ad3f",
         "report_sha256": "3a4a07881becb6a60bfd16a4190b1329cccd3dcb18670d0ea9f7db33e81ab6de"
+      }
+    },
+    {
+      "slug": "kabushikigaisha_magilumiere_2_tv_2026",
+      "title": "魔法光源股份有限公司 第二季",
+      "title_original": "株式会社マジルミエ 第2期",
+      "title_romaji": "Kabushiki Gaisha Magi Lumiere 2nd Season",
+      "title_english": "Magilumiere Magical Girls Inc. Season 2",
+      "release_year": 2026,
+      "medium": {
+        "code": "tv_anime",
+        "label": "TV 动画"
+      },
+      "scope_summary": "2026 年 TV 动画第 2 期第 1–12 话正篇；日本电视台 7 月 4 日深夜首播，9 月 26 日深夜末回（自然日 7 月 5 日至 9 月 27 日）。",
+      "female_relationship_centrality": {
+        "code": "main",
+        "label": "主线"
+      },
+      "archive_basis": {
+        "code": "work_classification",
+        "label": "文类内百合"
+      },
+      "romance_centrality": {
+        "code": "absent",
+        "label": "缺席"
+      },
+      "highest_romance_explicitness": {
+        "code": "non_romantic",
+        "label": "非恋爱"
+      },
+      "female_female_relationship_count": 9,
+      "relationship_distribution": {
+        "narrative_centrality": {
+          "main": 1,
+          "important_secondary": 3,
+          "local": 5,
+          "absent": 0,
+          "unknown": 0
+        },
+        "romance_explicitness": {
+          "explicit_relationship": 0,
+          "explicit_desire": 0,
+          "potential_or_strongly_coded": 0,
+          "non_romantic": 9,
+          "unknown": 0
+        },
+        "mutuality": {
+          "mutual": 0,
+          "one_sided": 0,
+          "ambiguous": 0,
+          "not_applicable": 9,
+          "unknown": 0
+        }
+      },
+      "relationship_profiles": [
+        {
+          "name": "樱木花奈与越谷仁美",
+          "position": {
+            "code": "main",
+            "label": "主线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "樱木花奈与土刃芽衣",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "槇野茜与赤坂伊吕波",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "樱木花奈与槇野茜、赤坂伊吕波",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "樱木花奈与葵莉莉",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "槇野茜、赤坂伊吕波与塔之森サカヱ",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "土刃芽衣与母亲",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "越谷仁美与母亲",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "土刃芽衣与AST女性主任",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        }
+      ],
+      "relationship_filter_axes": [
+        {
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          }
+        },
+        {
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          }
+        },
+        {
+          "position": {
+            "code": "main",
+            "label": "主线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          }
+        }
+      ],
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_female_romance_wording": {
+        "code": "yes",
+        "label": "是"
+      },
+      "official_source_scopes": [
+        {
+          "code": "in_scope_edition",
+          "label": "当前版本"
+        }
+      ],
+      "official_source_surfaces": [
+        {
+          "code": "story_or_profile",
+          "label": "剧情／角色页"
+        },
+        {
+          "code": "visible_work_marketing",
+          "label": "可见作品宣传"
+        }
+      ],
+      "official_source_summary": "层级：当前版本；位置：剧情／角色页、可见作品宣传",
+      "identity_evidence_basis": {
+        "code": "no_in_scope_evidence",
+        "label": "范围内无依据"
+      },
+      "male_romance_line": {
+        "code": "secondary",
+        "label": "副线"
+      },
+      "confidence": {
+        "code": "medium",
+        "label": "中"
+      },
+      "classification_date": "2026-10-08",
+      "content_warnings": [
+        "战斗、伤害与生命危险",
+        "家庭疏离",
+        "危险劳动与过度工作",
+        "疾病、经济困境与童年失落"
+      ],
+      "content_warnings_text": "战斗、伤害与生命危险；家庭疏离；危险劳动与过度工作；疾病、经济困境与童年失落",
+      "quick_queries": {
+        "explicit_relationship": false,
+        "main_explicit_relationship": false,
+        "main_explicit_desire": false,
+        "explicit_desire": false,
+        "accepts_unconfirmed": false,
+        "female_relationship_main": true,
+        "main_relationship_no_male_romance": false,
+        "main_non_romantic_no_male_romance": false,
+        "four_plus_female_relationships": true,
+        "mutual_relationship": false,
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": true
+      },
+      "bangumi_entry_status": {
+        "code": "success",
+        "label": "有可对应条目"
+      },
+      "bangumi_rank": 8476,
+      "bangumi_yuri_tag_ratio": 0.0027567195037904893,
+      "bangumi_tags": [
+        {
+          "code": "战斗",
+          "label": "战斗"
+        },
+        {
+          "code": "职场",
+          "label": "职场"
+        }
+      ],
+      "bangumi_regions": [
+        {
+          "code": "日本",
+          "label": "日本"
+        }
+      ],
+      "bangumi_adaptation_sources": [
+        {
+          "code": "漫画改",
+          "label": "漫画改"
+        }
+      ],
+      "report_url": "/yuri-classification-archive/works/kabushikigaisha_magilumiere_2_tv_2026/",
+      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/kabushikigaisha_magilumiere_2_tv_2026/",
+      "source_hashes": {
+        "metadata_sha256": "b07895278beb913e8da00b109e45738f5e89ff74965c4b028df0e1b4865f8da2",
+        "report_sha256": "4635965beb2800b3a0af14a08c7a2c8c4a65df0236da1dcb9b2bdb71f6e94fa5"
       }
     },
     {
@@ -170843,6 +176792,343 @@
       }
     },
     {
+      "slug": "mahou_shoujo_lyrical_nanoha_exceeds_gun_blaze_vengeance_tv_2026",
+      "title": "魔法少女奈叶 EXCEEDS Gun Blaze Vengeance",
+      "title_original": "魔法少女リリカルなのは EXCEEDS Gun Blaze Vengeance",
+      "title_romaji": "Mahou Shoujo Lyrical Nanoha EXCEEDS Gun Blaze Vengeance",
+      "title_english": "Magical Girl Lyrical Nanoha EXCEEDS Gun Blaze Vengeance",
+      "release_year": 2026,
+      "medium": {
+        "code": "tv_anime",
+        "label": "TV 动画"
+      },
+      "scope_summary": "2026 年 TV 动画第 1–12 话；首话为加长正篇。官网 2026-09-27 公告确认全 12 话放送结束。首播日期按日本 25 时节目表写 2026-07-04 至 09-19，实际日历跨日为 07-05 至 09-20。",
+      "female_relationship_centrality": {
+        "code": "main",
+        "label": "主线"
+      },
+      "archive_basis": {
+        "code": "work_classification",
+        "label": "文类内百合"
+      },
+      "romance_centrality": {
+        "code": "absent",
+        "label": "缺席"
+      },
+      "highest_romance_explicitness": {
+        "code": "non_romantic",
+        "label": "非恋爱"
+      },
+      "female_female_relationship_count": 11,
+      "relationship_distribution": {
+        "narrative_centrality": {
+          "main": 4,
+          "important_secondary": 5,
+          "local": 2,
+          "absent": 0,
+          "unknown": 0
+        },
+        "romance_explicitness": {
+          "explicit_relationship": 0,
+          "explicit_desire": 0,
+          "potential_or_strongly_coded": 0,
+          "non_romantic": 11,
+          "unknown": 0
+        },
+        "mutuality": {
+          "mutual": 0,
+          "one_sided": 0,
+          "ambiguous": 0,
+          "not_applicable": 11,
+          "unknown": 0
+        }
+      },
+      "relationship_profiles": [
+        {
+          "name": "シイナ与トワ",
+          "position": {
+            "code": "main",
+            "label": "主线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "シイナ与セツナ",
+          "position": {
+            "code": "main",
+            "label": "主线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "トワ与魔人狩り女性共同体",
+          "position": {
+            "code": "main",
+            "label": "主线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "トワ与养母エマ",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "シイナ与EXCEEDS女性同事",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "なのは与フェイト",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "はやて与リイン",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "トワ与日渡ナツキ",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "トワ与マナ",
+          "position": {
+            "code": "main",
+            "label": "主线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "シイナ与マナ",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "セツナ与マナ",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        }
+      ],
+      "relationship_filter_axes": [
+        {
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          }
+        },
+        {
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          }
+        },
+        {
+          "position": {
+            "code": "main",
+            "label": "主线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          }
+        }
+      ],
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [
+        {
+          "code": "in_scope_edition",
+          "label": "当前版本"
+        }
+      ],
+      "official_source_surfaces": [
+        {
+          "code": "story_or_profile",
+          "label": "剧情／角色页"
+        },
+        {
+          "code": "visible_work_marketing",
+          "label": "可见作品宣传"
+        }
+      ],
+      "official_source_summary": "层级：当前版本；位置：剧情／角色页、可见作品宣传",
+      "identity_evidence_basis": {
+        "code": "no_in_scope_evidence",
+        "label": "范围内无依据"
+      },
+      "male_romance_line": {
+        "code": "secondary",
+        "label": "副线"
+      },
+      "confidence": {
+        "code": "medium",
+        "label": "中"
+      },
+      "classification_date": "2026-10-08",
+      "content_warnings": [
+        "亲人死亡与丧失",
+        "人体实验与儿童受害",
+        "捕食、身体损伤与暴力",
+        "恐怖袭击",
+        "自我牺牲与寻死倾向"
+      ],
+      "content_warnings_text": "亲人死亡与丧失；人体实验与儿童受害；捕食、身体损伤与暴力；恐怖袭击；自我牺牲与寻死倾向",
+      "quick_queries": {
+        "explicit_relationship": false,
+        "main_explicit_relationship": false,
+        "main_explicit_desire": false,
+        "explicit_desire": false,
+        "accepts_unconfirmed": false,
+        "female_relationship_main": true,
+        "main_relationship_no_male_romance": false,
+        "main_non_romantic_no_male_romance": false,
+        "four_plus_female_relationships": true,
+        "mutual_relationship": false,
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
+      },
+      "bangumi_entry_status": {
+        "code": "success",
+        "label": "有可对应条目"
+      },
+      "bangumi_rank": 9798,
+      "bangumi_yuri_tag_ratio": 0.06761710794297353,
+      "bangumi_tags": [],
+      "bangumi_regions": [
+        {
+          "code": "日本",
+          "label": "日本"
+        }
+      ],
+      "bangumi_adaptation_sources": [
+        {
+          "code": "原创",
+          "label": "原创"
+        }
+      ],
+      "report_url": "/yuri-classification-archive/works/mahou_shoujo_lyrical_nanoha_exceeds_gun_blaze_vengeance_tv_2026/",
+      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/mahou_shoujo_lyrical_nanoha_exceeds_gun_blaze_vengeance_tv_2026/",
+      "source_hashes": {
+        "metadata_sha256": "e1094e17ad446f5dd42dfa01c2e4eb1172f62659811971cacb5872efb3693587",
+        "report_sha256": "d2200e0166ee17378b13af8846cd531a0e9519275c1d8b65d144f1802de50814"
+      }
+    },
+    {
       "slug": "z_x_code_reunion_tv_2019",
       "title": "异界群敌 代码重组",
       "title_original": "Z/X Code reunion",
@@ -172889,6 +179175,367 @@
       "source_hashes": {
         "metadata_sha256": "5b0115242aab2d3ce6fe292e37f1dfcb8cfc23746aaabd98ea63c2f5495fb146",
         "report_sha256": "dab36f8bc328ee93d88770c73bd1537ea5f7fa9073589b9c843903961acfd90d"
+      }
+    },
+    {
+      "slug": "otomege_sekai_wa_mob_ni_kibishii_sekai_desu_2_tv_2026",
+      "title": "恋爱游戏世界对路人角色很不友好 第二季",
+      "title_original": "乙女ゲー世界はモブに厳しい世界です2",
+      "title_romaji": "Otomege Sekai wa Mob ni Kibishii Sekai desu 2",
+      "title_english": "Trapped in a Dating Sim: The World of Otome Games is Tough for Mobs Season 2",
+      "release_year": 2026,
+      "medium": {
+        "code": "tv_anime",
+        "label": "TV 动画"
+      },
+      "scope_summary": "2026 年 7 月 8 日至 9 月 23 日播出的 TV 第二季第 1–12 话正篇。",
+      "female_relationship_centrality": {
+        "code": "important_secondary",
+        "label": "重要副线"
+      },
+      "archive_basis": {
+        "code": "reader_interpretation",
+        "label": "文类外百合阅读"
+      },
+      "romance_centrality": {
+        "code": "important_secondary",
+        "label": "重要副线"
+      },
+      "highest_romance_explicitness": {
+        "code": "explicit_desire",
+        "label": "明确欲望"
+      },
+      "female_female_relationship_count": 12,
+      "relationship_distribution": {
+        "narrative_centrality": {
+          "main": 0,
+          "important_secondary": 5,
+          "local": 7,
+          "absent": 0,
+          "unknown": 0
+        },
+        "romance_explicitness": {
+          "explicit_relationship": 0,
+          "explicit_desire": 1,
+          "potential_or_strongly_coded": 0,
+          "non_romantic": 11,
+          "unknown": 0
+        },
+        "mutuality": {
+          "mutual": 1,
+          "one_sided": 0,
+          "ambiguous": 0,
+          "not_applicable": 11,
+          "unknown": 0
+        }
+      },
+      "relationship_profiles": [
+        {
+          "name": "奥莉薇亚与安洁莉卡",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "explicit_desire",
+            "label": "明确欲望"
+          },
+          "mutuality": {
+            "code": "mutual",
+            "label": "双向"
+          }
+        },
+        {
+          "name": "玛丽耶与卡拉",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "赫特鲁德与赫特劳妲",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "玛丽耶前世与女儿",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "克拉丽丝与迪尔德丽",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "安洁莉卡与赫特鲁德",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "奥莉薇亚与玛丽耶",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "安洁莉卡与玛丽耶",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "玛丽耶与赫特鲁德",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "奥莉薇亚与尤梅莉亚",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "奥莉薇亚与赫特鲁德",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "卡拉与学园女生群体",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        }
+      ],
+      "relationship_filter_axes": [
+        {
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "explicit_desire",
+            "label": "明确欲望"
+          }
+        },
+        {
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          }
+        },
+        {
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          }
+        }
+      ],
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [
+        {
+          "code": "in_scope_edition",
+          "label": "当前版本"
+        }
+      ],
+      "official_source_surfaces": [
+        {
+          "code": "story_or_profile",
+          "label": "剧情／角色页"
+        }
+      ],
+      "official_source_summary": "层级：当前版本；位置：剧情／角色页",
+      "identity_evidence_basis": {
+        "code": "explicit_relationship_only",
+        "label": "只有明确关系事实"
+      },
+      "male_romance_line": {
+        "code": "dominant",
+        "label": "主导"
+      },
+      "confidence": {
+        "code": "medium",
+        "label": "中"
+      },
+      "classification_date": "2026-10-08",
+      "content_warnings": [
+        "战争、死亡与丧失",
+        "家庭暴力与母女分离",
+        "阶级与性别压迫",
+        "奴隶制度",
+        "后宫与多人婚约"
+      ],
+      "content_warnings_text": "战争、死亡与丧失；家庭暴力与母女分离；阶级与性别压迫；奴隶制度；后宫与多人婚约",
+      "quick_queries": {
+        "explicit_relationship": false,
+        "main_explicit_relationship": false,
+        "main_explicit_desire": false,
+        "explicit_desire": true,
+        "accepts_unconfirmed": true,
+        "female_relationship_main": false,
+        "main_relationship_no_male_romance": false,
+        "main_non_romantic_no_male_romance": false,
+        "four_plus_female_relationships": true,
+        "mutual_relationship": true,
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
+      },
+      "bangumi_entry_status": {
+        "code": "success",
+        "label": "有可对应条目"
+      },
+      "bangumi_rank": 9949,
+      "bangumi_yuri_tag_ratio": 0.0,
+      "bangumi_tags": [
+        {
+          "code": "后宫",
+          "label": "后宫"
+        },
+        {
+          "code": "奇幻",
+          "label": "奇幻"
+        },
+        {
+          "code": "机战",
+          "label": "机战"
+        }
+      ],
+      "bangumi_regions": [
+        {
+          "code": "日本",
+          "label": "日本"
+        }
+      ],
+      "bangumi_adaptation_sources": [
+        {
+          "code": "小说改",
+          "label": "小说改"
+        }
+      ],
+      "report_url": "/yuri-classification-archive/works/otomege_sekai_wa_mob_ni_kibishii_sekai_desu_2_tv_2026/",
+      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/otomege_sekai_wa_mob_ni_kibishii_sekai_desu_2_tv_2026/",
+      "source_hashes": {
+        "metadata_sha256": "5fe6c4b08b8b2cedcba9d29d8ea3ee45ded88b4505ac9d54d3bc3515f12fafab",
+        "report_sha256": "95e7590a2db63eab311d827b2808dbeead96c0e98b5dd56b6d20c1d07991dbbb"
       }
     },
     {
