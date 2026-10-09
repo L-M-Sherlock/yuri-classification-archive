@@ -1,59 +1,31 @@
 {
   "schema_version": 5,
-  "generated_at": "2026-10-08T11:06:05+00:00",
+  "generated_at": "2026-10-09T01:43:28+00:00",
   "site_url": "https://l-m-sherlock.github.io/yuri-classification-archive",
-  "item_count": 820,
+  "item_count": 821,
   "current_release": {
     "selector": "status_complete",
-    "published_at": "2026-10-08T11:06:05+00:00",
+    "published_at": "2026-10-09T01:43:28+00:00",
     "plan_path": "data/release-plan.json",
-    "plan_file_sha256": "b6d58252a8ae34a14e31c6734ef8e646cd29b51ac9fab45f4873528a5adc77ad",
-    "plan_sha256": "e0fcf2535f41d1846df068d97ebde335fa62ccb8d6296d71cddf177a6a8ca160",
-    "previous_head": "9b9a19a1d5aba458bd58893e94bda8f2d63e9559",
-    "base_slug_count": 805,
-    "base_slugs_sha256": "b5eed5b41754ce54731803d39a41160d695687ff3d63068db0300ace85c766e0",
-    "item_count": 820,
-    "slugs_sha256": "269e57b3aa02e2639968364e9f5e5b91287bd59c0d9538eb3b4a2a684a77af94",
+    "plan_file_sha256": "83e48610b39ed16ec8e2baa61b05cb9b1cd8828bfe15257dd6dc97eaa88d94f2",
+    "plan_sha256": "e89501f10b2ac8e594c612fb7194cd6e15d3c612a56ff9a783e7f9e281a4e303",
+    "previous_head": "09b082c8780073c6b675f35f11a7129f2a440ee8",
+    "base_slug_count": 820,
+    "base_slugs_sha256": "269e57b3aa02e2639968364e9f5e5b91287bd59c0d9538eb3b4a2a684a77af94",
+    "item_count": 821,
+    "slugs_sha256": "a964c6d6d27b9ad2e0808f70fbd9766b544365da2bad426666dd9b21601bd24e",
     "added_slugs": [
-      "azur_lane_bisoku_zenshin_2_tv_2026",
-      "futsutsuka_na_akujo_dewa_gozaimasu_ga_tv_2026",
-      "grow_up_show_tv_2026",
-      "heroine_seijo_iie_all_works_maid_tv_2026",
-      "honoo_no_toukyuujo_dodge_danko_tv_2026",
-      "ibitte_konai_gibo_to_gishi_tv_2026",
-      "kabushikigaisha_magilumiere_2_tv_2026",
-      "kimi_ga_shinu_made_koi_wo_shitai_tv_2026",
-      "kimi_no_koto_ga_dai_dai_dai_dai_daisuki_na_100_nin_no_kanojo_3_tv_2026",
-      "mahou_shoujo_lyrical_nanoha_exceeds_gun_blaze_vengeance_tv_2026",
-      "otomege_sekai_wa_mob_ni_kibishii_sekai_desu_2_tv_2026",
-      "sayonara_lara_tv_2026",
-      "tai_ari_deshita_tv_2026",
-      "tenmaku_no_jaadugar_tv_2026",
-      "yani_neko_tv_2026"
+      "kore_kaite_shine_tv_2026"
     ],
     "removed_slugs": [],
     "changed_slugs": [],
     "refresh_slugs": [
-      "azur_lane_bisoku_zenshin_2_tv_2026",
-      "futsutsuka_na_akujo_dewa_gozaimasu_ga_tv_2026",
-      "grow_up_show_tv_2026",
-      "heroine_seijo_iie_all_works_maid_tv_2026",
-      "honoo_no_toukyuujo_dodge_danko_tv_2026",
-      "ibitte_konai_gibo_to_gishi_tv_2026",
-      "kabushikigaisha_magilumiere_2_tv_2026",
-      "kimi_ga_shinu_made_koi_wo_shitai_tv_2026",
-      "kimi_no_koto_ga_dai_dai_dai_dai_daisuki_na_100_nin_no_kanojo_3_tv_2026",
-      "mahou_shoujo_lyrical_nanoha_exceeds_gun_blaze_vengeance_tv_2026",
-      "otomege_sekai_wa_mob_ni_kibishii_sekai_desu_2_tv_2026",
-      "sayonara_lara_tv_2026",
-      "tai_ari_deshita_tv_2026",
-      "tenmaku_no_jaadugar_tv_2026",
-      "yani_neko_tv_2026"
+      "kore_kaite_shine_tv_2026"
     ]
   },
   "database_snapshot": {
-    "snapshot_date": "2026-10-08",
-    "source_sha256": "fcdb927418ce2aa53ec71af9887a86f41fc9b57e3ddf7e78c6809222a1226102"
+    "snapshot_date": "2026-10-09",
+    "source_sha256": "e4be3e0d8215740d9a298ca29f03c5fd9b982a047ac36eaa330ad0caaead02bb"
   },
   "query_semantics": {
     "combination": "and",
@@ -8742,6 +8714,469 @@
       "source_hashes": {
         "metadata_sha256": "6813bc39b058fceac5b43b2141547bfdb2590f0fee73ace7dc1709345a4cae2f",
         "report_sha256": "4e7c8a7e81ba29eda772ea7df9f751a989f7423000364547c5a3f7b790d5fc5e"
+      }
+    },
+    {
+      "slug": "kore_kaite_shine_tv_2026",
+      "title": "画完这个再去死",
+      "title_original": "これ描いて死ね",
+      "title_romaji": "Kore Kaite Shine",
+      "title_english": "Draw This, Then Die!",
+      "release_year": 2026,
+      "medium": {
+        "code": "tv_anime",
+        "label": "TV 动画"
+      },
+      "scope_summary": "2026 年 TV 动画第 1–12 话；7 月 3 日首播，9 月 25 日第 1 期结束。",
+      "female_relationship_centrality": {
+        "code": "main",
+        "label": "主线"
+      },
+      "archive_basis": {
+        "code": "work_classification",
+        "label": "文类内百合"
+      },
+      "romance_centrality": {
+        "code": "important_secondary",
+        "label": "重要副线"
+      },
+      "highest_romance_explicitness": {
+        "code": "explicit_desire",
+        "label": "明确欲望"
+      },
+      "female_female_relationship_count": 17,
+      "relationship_distribution": {
+        "narrative_centrality": {
+          "main": 4,
+          "important_secondary": 9,
+          "local": 4,
+          "absent": 0,
+          "unknown": 0
+        },
+        "romance_explicitness": {
+          "explicit_relationship": 0,
+          "explicit_desire": 1,
+          "potential_or_strongly_coded": 1,
+          "non_romantic": 15,
+          "unknown": 0
+        },
+        "mutuality": {
+          "mutual": 0,
+          "one_sided": 1,
+          "ambiguous": 1,
+          "not_applicable": 15,
+          "unknown": 0
+        }
+      },
+      "relationship_profiles": [
+        {
+          "name": "安海相与藤森心",
+          "position": {
+            "code": "main",
+            "label": "主线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "安海相与手岛零",
+          "position": {
+            "code": "main",
+            "label": "主线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "手岛零与寺村七",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "potential_or_strongly_coded",
+            "label": "潜在恋爱"
+          },
+          "mutuality": {
+            "code": "ambiguous",
+            "label": "相互性未确认"
+          }
+        },
+        {
+          "name": "赤福幸与石龙光",
+          "position": {
+            "code": "main",
+            "label": "主线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "安海相与赤福幸",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "安海相与石龙光",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "藤森心与石龙光",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "藤森心与母亲",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "石龙光与母亲（へびちか老师）",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "手岛零与へびちか老师",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "手岛零与金刚寺华、圆马美夜",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "漫研女生及手岛、寺村的支持",
+          "position": {
+            "code": "main",
+            "label": "主线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "手岛零、寺村七与助手同伴",
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "藤森心与美术部姐姐",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "安海相与母亲",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "手岛零与母亲",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          },
+          "mutuality": {
+            "code": "not_applicable",
+            "label": "不适用"
+          }
+        },
+        {
+          "name": "手岛零与首位购书女性的结婚幻想",
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "explicit_desire",
+            "label": "明确欲望"
+          },
+          "mutuality": {
+            "code": "one_sided",
+            "label": "单向"
+          }
+        }
+      ],
+      "relationship_filter_axes": [
+        {
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          }
+        },
+        {
+          "position": {
+            "code": "important_secondary",
+            "label": "重要副线"
+          },
+          "explicitness": {
+            "code": "potential_or_strongly_coded",
+            "label": "潜在恋爱"
+          }
+        },
+        {
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "explicit_desire",
+            "label": "明确欲望"
+          }
+        },
+        {
+          "position": {
+            "code": "local",
+            "label": "局部"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          }
+        },
+        {
+          "position": {
+            "code": "main",
+            "label": "主线"
+          },
+          "explicitness": {
+            "code": "non_romantic",
+            "label": "非恋爱"
+          }
+        }
+      ],
+      "official_literal_yuri_gl": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_female_romance_wording": {
+        "code": "reviewed_no_match",
+        "label": "所核未见"
+      },
+      "official_source_scopes": [
+        {
+          "code": "source_work",
+          "label": "原作"
+        },
+        {
+          "code": "in_scope_edition",
+          "label": "当前版本"
+        }
+      ],
+      "official_source_surfaces": [
+        {
+          "code": "publication_venue",
+          "label": "出版载体"
+        },
+        {
+          "code": "story_or_profile",
+          "label": "剧情／角色页"
+        },
+        {
+          "code": "visible_work_marketing",
+          "label": "可见作品宣传"
+        }
+      ],
+      "official_source_summary": "层级：原作、当前版本；位置：出版载体、剧情／角色页、可见作品宣传",
+      "identity_evidence_basis": {
+        "code": "explicit_relationship_only",
+        "label": "只有明确关系事实"
+      },
+      "male_romance_line": {
+        "code": "none",
+        "label": "无"
+      },
+      "confidence": {
+        "code": "medium",
+        "label": "中"
+      },
+      "classification_date": "2026-10-09",
+      "content_warnings": [
+        "职业创作压力与过劳",
+        "自杀念头与自我否定",
+        "亲子控制",
+        "师生权力差异"
+      ],
+      "content_warnings_text": "职业创作压力与过劳；自杀念头与自我否定；亲子控制；师生权力差异",
+      "quick_queries": {
+        "explicit_relationship": false,
+        "main_explicit_relationship": false,
+        "main_explicit_desire": false,
+        "explicit_desire": true,
+        "accepts_unconfirmed": true,
+        "female_relationship_main": true,
+        "main_relationship_no_male_romance": true,
+        "main_non_romantic_no_male_romance": false,
+        "four_plus_female_relationships": true,
+        "mutual_relationship": false,
+        "official_literal_yuri_gl": false,
+        "official_female_romance_wording": false
+      },
+      "bangumi_entry_status": {
+        "code": "success",
+        "label": "有可对应条目"
+      },
+      "bangumi_rank": 230,
+      "bangumi_yuri_tag_ratio": 0.0030286834135043648,
+      "bangumi_tags": [
+        {
+          "code": "日常",
+          "label": "日常"
+        },
+        {
+          "code": "校园",
+          "label": "校园"
+        }
+      ],
+      "bangumi_regions": [
+        {
+          "code": "日本",
+          "label": "日本"
+        }
+      ],
+      "bangumi_adaptation_sources": [
+        {
+          "code": "漫画改",
+          "label": "漫画改"
+        }
+      ],
+      "report_url": "/yuri-classification-archive/works/kore_kaite_shine_tv_2026/",
+      "report_url_absolute": "https://l-m-sherlock.github.io/yuri-classification-archive/works/kore_kaite_shine_tv_2026/",
+      "source_hashes": {
+        "metadata_sha256": "ceb8b21c5f5745be2701ccfcf839a1931954be0695b7a063c7d131b9cbad1927",
+        "report_sha256": "7ca601e8d50e1dfda47334316e2c7e2c99e06fc08b6593de142f20ae175353a7"
       }
     },
     {

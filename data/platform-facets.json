@@ -3,11 +3,11 @@
   "kind": "public_platform_facets",
   "classification": "public",
   "source": {
-    "snapshot_sha256": "c00ebba2f5abeb3adfe37fc2e3e75d66484efce701d74dafcfaaf0a33cee8d51",
-    "store_sha256": "d77021a4683a73a3b22ec9b1819f864da4756c7d60b5b6c12d8259ca1cd1677d",
-    "updated_at": "2026-10-08T10:43:13+00:00",
+    "snapshot_sha256": "55ad090f65f527147ce9b66333bada8065c4ae25fad6ce644abbf8a49734d41d",
+    "store_sha256": "1c9a99104a6d77232dfc27930d26ed9ee5a3da18aba3065c3bc40f8c39c0908b",
+    "updated_at": "2026-10-09T01:37:41+00:00",
     "vocabulary_sha256": "1680073407fa7db2d7dc4e58f0296a269fd81f115cf3559a991b541e2ab75d65",
-    "item_count": 820
+    "item_count": 821
   },
   "policy": {
     "label_language": "zh-Hans",
@@ -19,19 +19,19 @@
   },
   "platform_coverage": {
     "bangumi": {
-      "success": 820
+      "success": 821
     },
     "anime_planet": {
       "no_exact_entry": 35,
-      "success": 785
+      "success": 786
     },
     "anilist": {
       "no_exact_entry": 17,
-      "success": 803
+      "success": 804
     },
     "myanimelist": {
       "no_exact_entry": 19,
-      "success": 801
+      "success": 802
     }
   },
   "facets": [
@@ -40,11 +40,11 @@
       "label": "学校",
       "dimension": "场景与生活方式",
       "order": 1,
-      "work_count": 502,
+      "work_count": 503,
       "platform_work_counts": {
-        "bangumi": 385,
+        "bangumi": 386,
         "anime_planet": 249,
-        "anilist": 420,
+        "anilist": 421,
         "myanimelist": 216
       }
     },
@@ -66,11 +66,11 @@
       "label": "乡村／郊野",
       "dimension": "场景与生活方式",
       "order": 3,
-      "work_count": 82,
+      "work_count": 83,
       "platform_work_counts": {
         "bangumi": 7,
         "anime_planet": 20,
-        "anilist": 78,
+        "anilist": 79,
         "myanimelist": 0
       }
     },
@@ -92,11 +92,11 @@
       "label": "日常",
       "dimension": "类型与语气",
       "order": 5,
-      "work_count": 518,
+      "work_count": 519,
       "platform_work_counts": {
-        "bangumi": 484,
-        "anime_planet": 203,
-        "anilist": 350,
+        "bangumi": 485,
+        "anime_planet": 204,
+        "anilist": 351,
         "myanimelist": 109
       }
     },
@@ -105,9 +105,9 @@
       "label": "治愈系",
       "dimension": "类型与语气",
       "order": 6,
-      "work_count": 322,
+      "work_count": 323,
       "platform_work_counts": {
-        "bangumi": 311,
+        "bangumi": 312,
         "anime_planet": 65,
         "anilist": 110,
         "myanimelist": 53
@@ -118,12 +118,12 @@
       "label": "喜剧",
       "dimension": "类型与语气",
       "order": 7,
-      "work_count": 498,
+      "work_count": 499,
       "platform_work_counts": {
         "bangumi": 392,
         "anime_planet": 307,
-        "anilist": 387,
-        "myanimelist": 287
+        "anilist": 388,
+        "myanimelist": 288
       }
     },
     {
@@ -456,12 +456,12 @@
       "label": "空气系",
       "dimension": "视觉与制作风格",
       "order": 33,
-      "work_count": 397,
+      "work_count": 398,
       "platform_work_counts": {
         "bangumi": 0,
         "anime_planet": 0,
-        "anilist": 395,
-        "myanimelist": 132
+        "anilist": 396,
+        "myanimelist": 133
       }
     }
   ],
@@ -17216,6 +17216,48 @@
         ],
         "coming_of_age": [
           "anilist"
+        ]
+      }
+    },
+    {
+      "slug": "kore_kaite_shine_tv_2026",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "school_setting",
+        "countryside",
+        "slice_of_life",
+        "iyashikei",
+        "comedy",
+        "cute_girls_doing_cute_things"
+      ],
+      "facet_platforms": {
+        "school_setting": [
+          "bangumi",
+          "anilist"
+        ],
+        "countryside": [
+          "anilist"
+        ],
+        "slice_of_life": [
+          "bangumi",
+          "anime_planet",
+          "anilist"
+        ],
+        "iyashikei": [
+          "bangumi"
+        ],
+        "comedy": [
+          "anilist",
+          "myanimelist"
+        ],
+        "cute_girls_doing_cute_things": [
+          "anilist",
+          "myanimelist"
         ]
       }
     },
