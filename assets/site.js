@@ -177,10 +177,47 @@
     }
   }
 
+  function setupUpdateLinks() {
+    for (const button of document.querySelectorAll("[data-copy-update-link]")) {
+      const entry = button.closest(".update-entry");
+      const status = entry.querySelector(".update-copy-status");
+      let resetTimer;
+      button.addEventListener("click", async () => {
+        const url = new URL(window.location.href);
+        url.search = "";
+        url.hash = entry.id;
+        let textarea;
+        try {
+          if (navigator.clipboard?.writeText) {
+            await navigator.clipboard.writeText(url.href);
+          } else {
+            textarea = document.createElement("textarea");
+            textarea.value = url.href;
+            textarea.setAttribute("readonly", "");
+            textarea.style.position = "fixed";
+            textarea.style.opacity = "0";
+            document.body.append(textarea);
+            textarea.select();
+            if (!document.execCommand("copy")) throw new Error("copy failed");
+          }
+          status.textContent = "链接已复制";
+        } catch (_error) {
+          status.textContent = "复制失败，请重试";
+        } finally {
+          textarea?.remove();
+          button.focus({ preventScroll: true });
+          clearTimeout(resetTimer);
+          resetTimer = setTimeout(() => { status.textContent = ""; }, 3000);
+        }
+      });
+    }
+  }
+
   document.addEventListener("DOMContentLoaded", () => {
     const preference = currentPreference();
     applyTheme(preference);
     setupMobileNavigation();
+    setupUpdateLinks();
 
     const control = document.getElementById("theme-preference");
     control?.addEventListener("change", () => {
