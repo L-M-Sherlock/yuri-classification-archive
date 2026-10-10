@@ -1482,6 +1482,8 @@ h1, h2, h3 { line-height: 1.25; }
 }
 
 .prose-page { max-width: 900px; padding-bottom: 6rem; }
+.update-entry { scroll-margin-top: 7rem; }
+.updates-list .update-entry > h2 { margin-top: 1rem; padding-top: 0; border-top: 0; }
 .prose-page h2 { margin-top: 4rem; padding-top: 1rem; border-top: 1px solid var(--line); }
 .prose-page > p { font-size: 1.02rem; text-align: justify; }
 .principle-callout {

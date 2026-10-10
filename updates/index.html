@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="作品档案的新增报告、证据补充与查询数据更新记录。">
+  <meta name="color-scheme" content="light dark">
+  <meta id="theme-color-light" name="theme-color" media="(prefers-color-scheme: light)" content="#f5f0e8">
+  <meta id="theme-color-dark" name="theme-color" media="(prefers-color-scheme: dark)" content="#1c181c">
+  <script>
+    (() => {
+      document.documentElement.classList.add("js");
+      const storageKey = "yuri-classification-theme";
+      const allowed = new Set(["system", "light", "dark"]);
+      let preference = "system";
+      try {
+        const stored = localStorage.getItem(storageKey);
+        if (allowed.has(stored)) preference = stored;
+      } catch (_error) {
+        preference = "system";
+      }
+      const systemDark = window.matchMedia?.("(prefers-color-scheme: dark)").matches;
+      const theme = preference === "system"
+        ? (systemDark ? "dark" : "light")
+        : preference;
+      document.documentElement.dataset.theme = theme;
+      document.documentElement.dataset.themePreference = preference;
+      document.documentElement.style.colorScheme = theme;
+      const lightMeta = document.getElementById("theme-color-light");
+      const darkMeta = document.getElementById("theme-color-dark");
+      if (preference === "system") {
+        lightMeta.content = "#f5f0e8";
+        darkMeta.content = "#1c181c";
+      } else {
+        const color = theme === "dark" ? "#1c181c" : "#f5f0e8";
+        lightMeta.content = color;
+        darkMeta.content = color;
+      }
+    })();
+  </script>
+  <link rel="canonical" href="https://l-m-sherlock.github.io/yuri-classification-archive/updates/">
+  <link rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="百合作品分类档案">
+  <meta property="og:title" content="更新日志｜百合作品分类档案">
+  <meta property="og:description" content="作品档案的新增报告、证据补充与查询数据更新记录。">
+  <meta property="og:url" content="https://l-m-sherlock.github.io/yuri-classification-archive/updates/">
+  <meta property="og:image" content="https://l-m-sherlock.github.io/yuri-classification-archive/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+  <title>更新日志｜百合作品分类档案</title>
+  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=5c47e4000914">
+
+</head>
+<body class="updates-page">
+  <a class="skip-link" href="#main-content">跳到正文</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="/yuri-classification-archive/">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>
+          <strong>百合作品分类档案</strong>
+          <small>按查询拆开标签，按证据保留边界</small>
+        </span>
+      </a>
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-navigation"
+      >
+        <span>菜单</span>
+        <span class="menu-toggle-icon" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-navigation" aria-label="主导航">
+        <div class="nav-main">
+          <a href="/yuri-classification-archive/">首页</a>
+          <a href="/yuri-classification-archive/table/">总表</a>
+          <a href="/yuri-classification-archive/articles/">专题</a>
+          <a href="/yuri-classification-archive/tools/">工具</a>
+          <a href="/yuri-classification-archive/updates/">更新日志</a>
+          <a href="/yuri-classification-archive/about/">方法与说明</a>
+        </div>
+        <a class="nav-star" href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub / Star <span aria-hidden="true">↗</span></a>
+        <a class="nav-feedback" href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
+        <label class="theme-control" for="theme-preference">
+          <span>主题</span>
+          <select id="theme-preference" aria-label="主题偏好">
+            <option value="system">跟随系统</option>
+            <option value="light">浅色</option>
+            <option value="dark">深色</option>
+          </select>
+        </label>
+      </nav>
+    </div>
+  </header>
+  <main id="main-content">
+    <section class="page-heading">
+  <p class="eyebrow">ARCHIVE UPDATES</p>
+  <h1>更新日志</h1>
+  <p>记录新增报告、证据补充与查询数据的变化。每篇日志描述发布当时的快照；作品的当前结论请以对应报告为准。</p>
+</section>
+<section class="prose-page updates-list" aria-label="按日期排列的更新记录">
+  <article class="update-entry" id="update-2026-10-10">
+    <p class="eyebrow"><time datetime="2026-10-10">2026 年 10 月 10 日</time></p>
+    <h2>夏季作品收录与整季字幕补证</h2>
+    <p>本次新增两份完整报告，总表从 <strong>821 部增至 823 部</strong>。两作均取得并审阅同源日文字幕全 13 话，补齐此前的正篇材料缺口。</p>
+    <ul>
+      <li><a href="/yuri-classification-archive/works/bang_dream_yumemita_tv_2026/">《BanG Dream! YUME∞MITA》</a>：文类内百合，女性关系与明确欲望位于主线；恋爱相互性未确认，没有确认正式交往。</li>
+      <li><a href="/yuri-classification-archive/works/reiwa_no_dara_san_tv_2026/">《令和妖神斑小姐》</a>：文类外百合阅读，重要副线有女女单向明确欲望；区分周本人的意愿与附身者计划，同时保留作品中的男性恋爱线。</li>
+    </ul>
+    <p>两份报告的置信度均为中。完整对白支持关系判断，未作视频同步与画面复核；《令和妖神斑小姐》的范围限普通配信对白，排除 AT-X／影碟画面差分。明确欲望、正式交往与性取向身份分别记录。</p>
+    <h3>这轮夏季收录的进度</h3>
+    <p>2026 年 10 月 8 日至 10 日，已知夏季候选累计新增 <strong>18 部公开报告</strong>，总表从 805 部增至 823 部。10 月 8 日发布 15 部；10 月 9 日补充《画完这个再去死》第 6 话人物证据后新增一部；本次再补齐上述两部。完结核验口径仍以 10 月 8 日为准，并保留排名优于 Ave Mujica 的收录要求。</p>
+    <p><a href="/yuri-classification-archive/works/kore_kaite_shine_tv_2026/">《画完这个再去死》</a>的局部单向结婚幻想已记录为明确欲望，幻想没有被当作现实交往。它的主线关系与这项局部欲望分别判断。</p>
+    <details>
+      <summary>查看本轮全部 18 部新增报告</summary>
+      <ul>
+        <li><a href="/yuri-classification-archive/works/tai_ari_deshita_tv_2026/">《感谢对战。～大小姐才不玩格斗游戏～》</a></li>
+        <li><a href="/yuri-classification-archive/works/otomege_sekai_wa_mob_ni_kibishii_sekai_desu_2_tv_2026/">《恋爱游戏世界对路人角色很不友好 第二季》</a></li>
+        <li><a href="/yuri-classification-archive/works/azur_lane_bisoku_zenshin_2_tv_2026/">《碧蓝航线 微速前进！第二季》</a></li>
+        <li><a href="/yuri-classification-archive/works/sayonara_lara_tv_2026/">《再见菈菈》</a></li>
+        <li><a href="/yuri-classification-archive/works/kabushikigaisha_magilumiere_2_tv_2026/">《魔法光源股份有限公司 第二季》</a></li>
+        <li><a href="/yuri-classification-archive/works/mahou_shoujo_lyrical_nanoha_exceeds_gun_blaze_vengeance_tv_2026/">《魔法少女奈叶 EXCEEDS Gun Blaze Vengeance》</a></li>
+        <li><a href="/yuri-classification-archive/works/kimi_ga_shinu_made_koi_wo_shitai_tv_2026/">《与你相恋到生命尽头》</a></li>
+        <li><a href="/yuri-classification-archive/works/futsutsuka_na_akujo_dewa_gozaimasu_ga_tv_2026/">《恶女不才，请多关照 ～雏宫蝶鼠换身传～》</a></li>
+        <li><a href="/yuri-classification-archive/works/kore_kaite_shine_tv_2026/">《画完这个再去死》</a></li>
+        <li><a href="/yuri-classification-archive/works/tenmaku_no_jaadugar_tv_2026/">《穹庐下的魔女》</a></li>
+        <li><a href="/yuri-classification-archive/works/heroine_seijo_iie_all_works_maid_tv_2026/">《女主角？圣女？不，我是杂役女仆（自豪）！》</a></li>
+        <li><a href="/yuri-classification-archive/works/honoo_no_toukyuujo_dodge_danko_tv_2026/">《斗球女弹子》</a></li>
+        <li><a href="/yuri-classification-archive/works/grow_up_show_tv_2026/">《Grow Up Show ～向日葵马戏团～》</a></li>
+        <li><a href="/yuri-classification-archive/works/ibitte_konai_gibo_to_gishi_tv_2026/">《不虐待我的继母与继姐》</a></li>
+        <li><a href="/yuri-classification-archive/works/bang_dream_yumemita_tv_2026/">《BanG Dream! YUME∞MITA》</a></li>
+        <li><a href="/yuri-classification-archive/works/kimi_no_koto_ga_dai_dai_dai_dai_daisuki_na_100_nin_no_kanojo_3_tv_2026/">《超超超超超喜欢你的100个女朋友 第三季》</a></li>
+        <li><a href="/yuri-classification-archive/works/reiwa_no_dara_san_tv_2026/">《令和妖神斑小姐》</a></li>
+        <li><a href="/yuri-classification-archive/works/yani_neko_tv_2026/">《尼古喵喵》</a></li>
+      </ul>
+    </details>
+    <p>已知候选中，《身后之人神威》仍缺完整普通广播版材料，MAL 的 ONA 条目与广播剪辑的对应也未确认，因此暂未公开。已知候选清单不代表所有平台作品已被穷尽。</p>
+    <h3>总表与专题同步更新</h3>
+    <p>两作的平台字段、关系检索数据及三篇数据专题已同步更新。既有 821 部的平台值、检索日期和报告正文保留。快捷查询、多条件“并且”组合、结果数量与 CSV／XLSX 筛选导出均完成核对；分类与报告检查通过。</p>
+    <p><a class="button secondary" href="/yuri-classification-archive/table/">打开当前总表</a> <a href="#update-2026-10-10">本条更新的固定链接</a></p>
+  </article>
+</section>
+
+  </main>
+  <footer class="site-footer">
+    <div>
+      <p>分类是面向具体查询的检索工具，不是替作品关系作终审判决。</p>
+      <p class="footer-ai-note">本站使用以 OpenAI Codex 为主的生成式 AI 辅助研究、写作与站点开发；人工审阅未覆盖全部作品报告。<a href="/yuri-classification-archive/about/#AI使用说明">查看 AI 使用说明</a></p>
+      <p>© 2026 Jarrett Ye · <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="license noopener noreferrer">CC BY-NC-SA 4.0</a> · <a href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub 仓库</a> · <a href="/yuri-classification-archive/about/#使用边界">使用边界</a></p>
+    </div>
+  </footer>
+  <script>window.SITE_CONFIG = {basePath: "/yuri-classification-archive"};</script>
+  <script src="/yuri-classification-archive/assets/site.js?v=eeeec5872796" defer></script>
+
+</body>
+</html>

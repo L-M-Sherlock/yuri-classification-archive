@@ -1,16 +1,16 @@
 {
   "schema_version": 2,
   "kind": "public_release_plan",
-  "generated_at": "2026-10-10T03:06:22+00:00",
+  "generated_at": "2026-10-10T03:25:55+00:00",
   "hash_semantics": {
     "source": "sha256_git_lf_v1",
     "artifact": "sha256_bytes_v1"
   },
   "base": {
-    "public_repository_head": "241178f6c1b8b8ead1bbe01d0db8e66437326c61",
+    "public_repository_head": "da66ea097c47f2cb857527e82b7267a7ba8e8091",
     "catalog_path": "data/catalog.json",
-    "catalog_sha256": "b59604c42e58e6a6786cc6b3a52d500df0ff4ec9667df2b6ab190a3737f2e36f",
-    "slug_count": 821,
+    "catalog_sha256": "9d0e57276456af1e73eab24df244f3587dc7f4b63c5a569ae6a081004f867b85",
+    "slug_count": 823,
     "slugs": [
       "a_channel_nabe_wo_tabeyou_ova_2017",
       "a_channel_smile_ova_2012",
@@ -83,6 +83,7 @@
       "bang_dream_mygo_members_daily_web_2022",
       "bang_dream_poppin_dream_movie_2022",
       "bang_dream_tv_2017",
+      "bang_dream_yumemita_tv_2026",
       "battle_athletess_daiundoukai_ova_1997",
       "battle_athletess_daiundoukai_tv_tv_1997",
       "battle_girl_high_school_tv_2017",
@@ -568,6 +569,7 @@
       "re_stage_dream_days_tv_2019",
       "re_zero_kara_hajimeru_isekai_seikatsu_3rd_season_tv_2024",
       "regalia_the_three_sacred_stars_tv_2016",
+      "reiwa_no_dara_san_tv_2026",
       "rekan_tv_2015",
       "release_the_spyce_tv_2018",
       "renai_laboratory_tv_2013",
@@ -834,7 +836,7 @@
       "zombieland_saga_revenge_tv_2021",
       "zombieland_saga_tv_2018"
     ],
-    "slugs_sha256": "a964c6d6d27b9ad2e0808f70fbd9766b544365da2bad426666dd9b21601bd24e"
+    "slugs_sha256": "0c269e0b8fb75fe71dea30e975e1a47bb56bfc0d46dfadbd1d0d5672195ef9d5"
   },
   "target": {
     "slug_count": 823,
@@ -1666,23 +1668,17 @@
     "slugs_sha256": "0c269e0b8fb75fe71dea30e975e1a47bb56bfc0d46dfadbd1d0d5672195ef9d5"
   },
   "delta": {
-    "added_slugs": [
-      "bang_dream_yumemita_tv_2026",
-      "reiwa_no_dara_san_tv_2026"
-    ],
+    "added_slugs": [],
     "removed_slugs": [],
     "changed_slugs": [],
-    "refresh_slugs": [
-      "bang_dream_yumemita_tv_2026",
-      "reiwa_no_dara_san_tv_2026"
-    ],
+    "refresh_slugs": [],
     "changed_detection_pending": false,
     "changed_basis": {
       "kind": "public_release_plan",
       "revision": null,
       "public_plan_path": "data/release-plan.json",
-      "compared_slug_count": 821,
-      "baseline_items_sha256": "5c5d77f1b3f333f195c05a669a2600e352cf050bee618c25058b51783220eb57",
+      "compared_slug_count": 823,
+      "baseline_items_sha256": "ef8f61d235e296390d71204ad4c7c0788aa730bf2ad5bdb8e658382852888a89",
       "catalog_subset_complete": true,
       "reason": null
     }
@@ -6653,5 +6649,5 @@
       "forbid_acquisition_details": true
     }
   },
-  "plan_sha256": "a2f3814677bb5fbda2b44ace7a25b752e88f750df49e081cb72dea2bd8bcb353"
+  "plan_sha256": "70241989a5d288b0e53ebd9d904c6fb9e7b496fefa34214aafe1efc3540a93f7"
 }
