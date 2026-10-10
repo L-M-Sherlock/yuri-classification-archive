@@ -3,11 +3,11 @@
   "kind": "public_platform_facets",
   "classification": "public",
   "source": {
-    "snapshot_sha256": "55ad090f65f527147ce9b66333bada8065c4ae25fad6ce644abbf8a49734d41d",
-    "store_sha256": "1c9a99104a6d77232dfc27930d26ed9ee5a3da18aba3065c3bc40f8c39c0908b",
-    "updated_at": "2026-10-09T01:37:41+00:00",
+    "snapshot_sha256": "548e70a64bd673e4d703fa54b0d0a0c4871629e722805ede4fc8b4020db4faf6",
+    "store_sha256": "f494aa0faabf153120ba64079cd87718bcabc89ef15a05e07599f86f6fc40adc",
+    "updated_at": "2026-10-10T03:04:02+00:00",
     "vocabulary_sha256": "1680073407fa7db2d7dc4e58f0296a269fd81f115cf3559a991b541e2ab75d65",
-    "item_count": 821
+    "item_count": 823
   },
   "policy": {
     "label_language": "zh-Hans",
@@ -19,19 +19,19 @@
   },
   "platform_coverage": {
     "bangumi": {
-      "success": 821
+      "success": 823
     },
     "anime_planet": {
       "no_exact_entry": 35,
-      "success": 786
+      "success": 788
     },
     "anilist": {
       "no_exact_entry": 17,
-      "success": 804
+      "success": 806
     },
     "myanimelist": {
       "no_exact_entry": 19,
-      "success": 802
+      "success": 804
     }
   },
   "facets": [
@@ -40,11 +40,11 @@
       "label": "学校",
       "dimension": "场景与生活方式",
       "order": 1,
-      "work_count": 503,
+      "work_count": 504,
       "platform_work_counts": {
-        "bangumi": 386,
-        "anime_planet": 249,
-        "anilist": 421,
+        "bangumi": 387,
+        "anime_planet": 250,
+        "anilist": 422,
         "myanimelist": 216
       }
     },
@@ -53,11 +53,11 @@
       "label": "职场",
       "dimension": "场景与生活方式",
       "order": 2,
-      "work_count": 86,
+      "work_count": 87,
       "platform_work_counts": {
         "bangumi": 21,
         "anime_planet": 0,
-        "anilist": 80,
+        "anilist": 81,
         "myanimelist": 13
       }
     },
@@ -66,11 +66,11 @@
       "label": "乡村／郊野",
       "dimension": "场景与生活方式",
       "order": 3,
-      "work_count": 83,
+      "work_count": 84,
       "platform_work_counts": {
         "bangumi": 7,
         "anime_planet": 20,
-        "anilist": 79,
+        "anilist": 80,
         "myanimelist": 0
       }
     },
@@ -92,11 +92,11 @@
       "label": "日常",
       "dimension": "类型与语气",
       "order": 5,
-      "work_count": 519,
+      "work_count": 521,
       "platform_work_counts": {
-        "bangumi": 485,
+        "bangumi": 487,
         "anime_planet": 204,
-        "anilist": 351,
+        "anilist": 352,
         "myanimelist": 109
       }
     },
@@ -118,12 +118,12 @@
       "label": "喜剧",
       "dimension": "类型与语气",
       "order": 7,
-      "work_count": 499,
+      "work_count": 501,
       "platform_work_counts": {
-        "bangumi": 392,
-        "anime_planet": 307,
-        "anilist": 388,
-        "myanimelist": 288
+        "bangumi": 394,
+        "anime_planet": 308,
+        "anilist": 390,
+        "myanimelist": 289
       }
     },
     {
@@ -131,12 +131,12 @@
       "label": "剧情",
       "dimension": "类型与语气",
       "order": 8,
-      "work_count": 265,
+      "work_count": 266,
       "platform_work_counts": {
         "bangumi": 26,
-        "anime_planet": 151,
-        "anilist": 210,
-        "myanimelist": 141
+        "anime_planet": 152,
+        "anilist": 211,
+        "myanimelist": 142
       }
     },
     {
@@ -183,11 +183,11 @@
       "label": "恐怖",
       "dimension": "类型与语气",
       "order": 12,
-      "work_count": 34,
+      "work_count": 35,
       "platform_work_counts": {
         "bangumi": 6,
-        "anime_planet": 19,
-        "anilist": 25,
+        "anime_planet": 20,
+        "anilist": 26,
         "myanimelist": 15
       }
     },
@@ -209,9 +209,9 @@
       "label": "奇幻",
       "dimension": "类型与语气",
       "order": 14,
-      "work_count": 384,
+      "work_count": 385,
       "platform_work_counts": {
-        "bangumi": 354,
+        "bangumi": 355,
         "anime_planet": 187,
         "anilist": 179,
         "myanimelist": 130
@@ -235,12 +235,12 @@
       "label": "音乐",
       "dimension": "活动与兴趣",
       "order": 16,
-      "work_count": 124,
+      "work_count": 125,
       "platform_work_counts": {
-        "bangumi": 108,
-        "anime_planet": 86,
-        "anilist": 104,
-        "myanimelist": 66
+        "bangumi": 109,
+        "anime_planet": 87,
+        "anilist": 105,
+        "myanimelist": 67
       }
     },
     {
@@ -248,11 +248,11 @@
       "label": "乐队",
       "dimension": "活动与兴趣",
       "order": 17,
-      "work_count": 46,
+      "work_count": 47,
       "platform_work_counts": {
-        "bangumi": 31,
+        "bangumi": 32,
         "anime_planet": 0,
-        "anilist": 45,
+        "anilist": 46,
         "myanimelist": 0
       }
     },
@@ -261,9 +261,9 @@
       "label": "偶像",
       "dimension": "活动与兴趣",
       "order": 18,
-      "work_count": 138,
+      "work_count": 139,
       "platform_work_counts": {
-        "bangumi": 97,
+        "bangumi": 98,
         "anime_planet": 49,
         "anilist": 124,
         "myanimelist": 0
@@ -365,12 +365,12 @@
       "label": "超自然",
       "dimension": "世界观与特殊能力",
       "order": 26,
-      "work_count": 114,
+      "work_count": 115,
       "platform_work_counts": {
         "bangumi": 0,
-        "anime_planet": 59,
-        "anilist": 74,
-        "myanimelist": 55
+        "anime_planet": 60,
+        "anilist": 75,
+        "myanimelist": 56
       }
     },
     {
@@ -456,11 +456,11 @@
       "label": "空气系",
       "dimension": "视觉与制作风格",
       "order": 33,
-      "work_count": 398,
+      "work_count": 399,
       "platform_work_counts": {
         "bangumi": 0,
         "anime_planet": 0,
-        "anilist": 396,
+        "anilist": 397,
         "myanimelist": 133
       }
     }
@@ -3656,6 +3656,65 @@
           "bangumi",
           "anime_planet",
           "anilist"
+        ],
+        "band": [
+          "bangumi",
+          "anilist"
+        ],
+        "idol": [
+          "bangumi"
+        ],
+        "cute_girls_doing_cute_things": [
+          "anilist"
+        ]
+      }
+    },
+    {
+      "slug": "bang_dream_yumemita_tv_2026",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "school_setting",
+        "workplace",
+        "slice_of_life",
+        "comedy",
+        "drama",
+        "music",
+        "band",
+        "idol",
+        "cute_girls_doing_cute_things"
+      ],
+      "facet_platforms": {
+        "school_setting": [
+          "bangumi",
+          "anime_planet",
+          "anilist"
+        ],
+        "workplace": [
+          "anilist"
+        ],
+        "slice_of_life": [
+          "bangumi",
+          "anilist"
+        ],
+        "comedy": [
+          "bangumi",
+          "anilist"
+        ],
+        "drama": [
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "music": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
         ],
         "band": [
           "bangumi",
@@ -27350,6 +27409,49 @@
         ],
         "cute_girls_doing_cute_things": [
           "anilist"
+        ]
+      }
+    },
+    {
+      "slug": "reiwa_no_dara_san_tv_2026",
+      "platform_status": {
+        "bangumi": "success",
+        "anime_planet": "success",
+        "anilist": "success",
+        "myanimelist": "success"
+      },
+      "facets": [
+        "countryside",
+        "slice_of_life",
+        "comedy",
+        "horror",
+        "fantasy",
+        "supernatural"
+      ],
+      "facet_platforms": {
+        "countryside": [
+          "anilist"
+        ],
+        "slice_of_life": [
+          "bangumi"
+        ],
+        "comedy": [
+          "bangumi",
+          "anime_planet",
+          "anilist",
+          "myanimelist"
+        ],
+        "horror": [
+          "anime_planet",
+          "anilist"
+        ],
+        "fantasy": [
+          "bangumi"
+        ],
+        "supernatural": [
+          "anime_planet",
+          "anilist",
+          "myanimelist"
         ]
       }
     },

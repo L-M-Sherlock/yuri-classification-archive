@@ -1,35 +1,35 @@
 {
   "schema_version": 4,
-  "snapshot_date": "2026-10-09",
-  "item_count": 821,
+  "snapshot_date": "2026-10-10",
+  "item_count": 823,
   "category_counts": {
     "non_romantic": 252,
-    "explicit_desire": 226,
+    "explicit_desire": 228,
     "potential_or_strongly_coded": 299,
     "explicit_relationship": 44
   },
   "platform_coverage": {
     "AniList Yuri": {
-      "positive": 399,
-      "exact_entries": 804
+      "positive": 401,
+      "exact_entries": 806
     },
     "Anime-Planet GL": {
       "positive": 84,
-      "exact_entries": 786
+      "exact_entries": 788
     },
     "Bangumi 维基百合": {
       "positive": 500,
-      "exact_entries": 821
+      "exact_entries": 823
     },
     "MAL Girls Love": {
       "positive": 77,
-      "exact_entries": 802
+      "exact_entries": 804
     }
   },
-  "common_coverage": 778,
+  "common_coverage": 780,
   "common_signatures": {
     "B---": 263,
-    "--N-": 151,
+    "--N-": 153,
     "B-N-": 133,
     "----": 138,
     "BANM": 59,
@@ -42,8 +42,8 @@
     "-A--": 1,
     "-ANM": 3
   },
-  "source_sha256": "e4be3e0d8215740d9a298ca29f03c5fd9b982a047ac36eaa330ad0caaead02bb",
-  "analysis_summary_sha256": "c9e45c74d177e6ea2f6b433250275d0cfce3411327322ad32294e7b560eada22",
+  "source_sha256": "151a2d7e08baa95e13e124a3af98d44957d7605acd6523dc60335990866e7472",
+  "analysis_summary_sha256": "f42677731371b3445282c1f5923e6bcc91dd5251297a92cb890954a46ea11ba0",
   "items": [
     {
       "slug": "shirobako_tv_2014",
@@ -26194,6 +26194,56 @@
       "row_number": 534
     },
     {
+      "slug": "reiwa_no_dara_san_tv_2026",
+      "title": "令和妖神斑小姐",
+      "bangumi_entry_status": "success",
+      "bangumi_url": "https://bangumi.tv/subject/614594",
+      "bangumi_wiki_yuri": false,
+      "year_medium": "2026 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "重要副线",
+      "queries": [
+        "欲望",
+        "未确认",
+        "主线"
+      ],
+      "male_romance_line": "并行",
+      "explicitness": {
+        "code": "explicit_desire",
+        "label": "明确欲望"
+      },
+      "platforms": {
+        "bangumi": {
+          "state": "untagged",
+          "urls": [
+            "https://bangumi.tv/subject/614594"
+          ],
+          "rank": 5726,
+          "yuri_tag_ratio": 0.0
+        },
+        "anime_planet": {
+          "state": "untagged",
+          "urls": [
+            "https://www.anime-planet.com/anime/dara-san-of-reiwa"
+          ]
+        },
+        "anilist": {
+          "state": "tagged",
+          "urls": [
+            "https://anilist.co/anime/203880"
+          ],
+          "yuri_relevance": 30
+        },
+        "myanimelist": {
+          "state": "untagged",
+          "urls": [
+            "https://myanimelist.net/anime/63082/Reiwa_no_Dara-san"
+          ]
+        }
+      },
+      "row_number": 535
+    },
+    {
       "slug": "frame_arms_girl_tv_2017",
       "title": "机甲少女 FRAME ARMS GIRL",
       "bangumi_entry_status": "success",
@@ -26241,7 +26291,7 @@
           ]
         }
       },
-      "row_number": 535
+      "row_number": 536
     },
     {
       "slug": "frozen_2_movie_2019",
@@ -26283,7 +26333,7 @@
           "urls": []
         }
       },
-      "row_number": 536
+      "row_number": 537
     },
     {
       "slug": "touka_gettan_tv_2007",
@@ -26333,7 +26383,7 @@
           ]
         }
       },
-      "row_number": 537
+      "row_number": 538
     },
     {
       "slug": "shin_koihime_musou_ova_2010",
@@ -26381,7 +26431,7 @@
           ]
         }
       },
-      "row_number": 538
+      "row_number": 539
     },
     {
       "slug": "assault_lily_fruits_web_2021",
@@ -26432,7 +26482,7 @@
           ]
         }
       },
-      "row_number": 539
+      "row_number": 540
     },
     {
       "slug": "shoujo_sunjik_all_starlight_web_2019",
@@ -26480,7 +26530,7 @@
           ]
         }
       },
-      "row_number": 540
+      "row_number": 541
     },
     {
       "slug": "tensei_oujo_to_tensai_reijou_no_mahou_kakumei_tv_2023",
@@ -26531,7 +26581,7 @@
           ]
         }
       },
-      "row_number": 541
+      "row_number": 542
     },
     {
       "slug": "lostorage_conflated_wixoss_tv_2018",
@@ -26581,7 +26631,7 @@
           ]
         }
       },
-      "row_number": 542
+      "row_number": 543
     },
     {
       "slug": "kanan_sama_wa_akumade_choroi_tv_2026",
@@ -26631,7 +26681,7 @@
           ]
         }
       },
-      "row_number": 543
+      "row_number": 544
     },
     {
       "slug": "anima_yell_tv_2018",
@@ -26681,7 +26731,7 @@
           ]
         }
       },
-      "row_number": 544
+      "row_number": 545
     },
     {
       "slug": "yun_shen_buzhi_meng_web_2025",
@@ -26727,7 +26777,7 @@
           ]
         }
       },
-      "row_number": 545
+      "row_number": 546
     },
     {
       "slug": "one_off_ova_2012",
@@ -26776,7 +26826,7 @@
           ]
         }
       },
-      "row_number": 546
+      "row_number": 547
     },
     {
       "slug": "music_start_ova_2013",
@@ -26824,7 +26874,7 @@
           ]
         }
       },
-      "row_number": 547
+      "row_number": 548
     },
     {
       "slug": "keijo_tv_2016",
@@ -26874,7 +26924,7 @@
           ]
         }
       },
-      "row_number": 548
+      "row_number": 549
     },
     {
       "slug": "koukaku_no_pandora_tv_2016",
@@ -26923,7 +26973,7 @@
           ]
         }
       },
-      "row_number": 549
+      "row_number": 550
     },
     {
       "slug": "shin_koihime_musou_tv_2009",
@@ -26973,7 +27023,7 @@
           ]
         }
       },
-      "row_number": 550
+      "row_number": 551
     },
     {
       "slug": "vividred_operation_tv_2013",
@@ -27022,7 +27072,7 @@
           ]
         }
       },
-      "row_number": 551
+      "row_number": 552
     },
     {
       "slug": "kashimashi_girl_meets_girl_tv_2006",
@@ -27077,7 +27127,7 @@
           ]
         }
       },
-      "row_number": 552
+      "row_number": 553
     },
     {
       "slug": "brave_witches_tv_2016",
@@ -27127,7 +27177,7 @@
           ]
         }
       },
-      "row_number": 553
+      "row_number": 554
     },
     {
       "slug": "kuttsukiboshi_ova_2010",
@@ -27180,7 +27230,7 @@
           ]
         }
       },
-      "row_number": 554
+      "row_number": 555
     },
     {
       "slug": "hinako_note_tv_2017",
@@ -27229,7 +27279,7 @@
           ]
         }
       },
-      "row_number": 555
+      "row_number": 556
     },
     {
       "slug": "mahou_shoujo_mou_ii_tv_2016",
@@ -27277,7 +27327,7 @@
           ]
         }
       },
-      "row_number": 556
+      "row_number": 557
     },
     {
       "slug": "ramen_koizumi_tv_2018",
@@ -27327,7 +27377,7 @@
           ]
         }
       },
-      "row_number": 557
+      "row_number": 558
     },
     {
       "slug": "bakuon_tv_2016",
@@ -27377,7 +27427,7 @@
           ]
         }
       },
-      "row_number": 558
+      "row_number": 559
     },
     {
       "slug": "bang_dream_tv_2017",
@@ -27425,7 +27475,7 @@
           ]
         }
       },
-      "row_number": 559
+      "row_number": 560
     },
     {
       "slug": "world_witches_hasshin_tv_2021",
@@ -27475,7 +27525,7 @@
           ]
         }
       },
-      "row_number": 560
+      "row_number": 561
     },
     {
       "slug": "maid_dragon_tv_2018",
@@ -27526,7 +27576,7 @@
           ]
         }
       },
-      "row_number": 561
+      "row_number": 562
     },
     {
       "slug": "escha_chron_ova_2017",
@@ -27574,7 +27624,7 @@
           ]
         }
       },
-      "row_number": 562
+      "row_number": 563
     },
     {
       "slug": "senpai_is_an_otokonoko_tv_2024",
@@ -27622,7 +27672,7 @@
           ]
         }
       },
-      "row_number": 563
+      "row_number": 564
     },
     {
       "slug": "penguin_musume_web_2008",
@@ -27672,7 +27722,7 @@
           ]
         }
       },
-      "row_number": 564
+      "row_number": 565
     },
     {
       "slug": "gokujou_seitokai_tv_2005",
@@ -27721,7 +27771,7 @@
           ]
         }
       },
-      "row_number": 565
+      "row_number": 566
     },
     {
       "slug": "black_rock_shooter_tv_2012",
@@ -27772,7 +27822,7 @@
           ]
         }
       },
-      "row_number": 566
+      "row_number": 567
     },
     {
       "slug": "wonderful_precure_tv_2024",
@@ -27821,7 +27871,7 @@
           ]
         }
       },
-      "row_number": 567
+      "row_number": 568
     },
     {
       "slug": "ochifuru_tv_2020",
@@ -27872,7 +27922,7 @@
           ]
         }
       },
-      "row_number": 568
+      "row_number": 569
     },
     {
       "slug": "azur_lane_bisoku_zenshin_2_tv_2026",
@@ -27921,7 +27971,7 @@
           ]
         }
       },
-      "row_number": 569
+      "row_number": 570
     },
     {
       "slug": "morita_san_wa_mukuchi_ova_2011",
@@ -27971,7 +28021,7 @@
           ]
         }
       },
-      "row_number": 570
+      "row_number": 571
     },
     {
       "slug": "granbelm_tv_2019",
@@ -28020,7 +28070,7 @@
           ]
         }
       },
-      "row_number": 571
+      "row_number": 572
     },
     {
       "slug": "feng_ling_yu_xiu_second_chapter_web_2023",
@@ -28069,7 +28119,7 @@
           ]
         }
       },
-      "row_number": 572
+      "row_number": 573
     },
     {
       "slug": "koutetsu_tenshi_kurumi_2_tv_2001",
@@ -28120,7 +28170,7 @@
           ]
         }
       },
-      "row_number": 573
+      "row_number": 574
     },
     {
       "slug": "harukana_receive_tv_2018",
@@ -28170,7 +28220,7 @@
           ]
         }
       },
-      "row_number": 574
+      "row_number": 575
     },
     {
       "slug": "jahy_sama_tv_2021",
@@ -28220,7 +28270,7 @@
           ]
         }
       },
-      "row_number": 575
+      "row_number": 576
     },
     {
       "slug": "gekidol_tv_2021",
@@ -28270,7 +28320,7 @@
           ]
         }
       },
-      "row_number": 576
+      "row_number": 577
     },
     {
       "slug": "koihime_musou_ova_2009",
@@ -28320,7 +28370,7 @@
           ]
         }
       },
-      "row_number": 577
+      "row_number": 578
     },
     {
       "slug": "c3_tv_2011",
@@ -28366,7 +28416,7 @@
           ]
         }
       },
-      "row_number": 578
+      "row_number": 579
     },
     {
       "slug": "watashi_yuri_wa_oshigoto_tv_2023",
@@ -28419,7 +28469,7 @@
           ]
         }
       },
-      "row_number": 579
+      "row_number": 580
     },
     {
       "slug": "vlad_love_web_2021",
@@ -28470,7 +28520,7 @@
           ]
         }
       },
-      "row_number": 580
+      "row_number": 581
     },
     {
       "slug": "bang_dream_episode_of_roselia_promise_movie_2021",
@@ -28518,7 +28568,7 @@
           ]
         }
       },
-      "row_number": 581
+      "row_number": 582
     },
     {
       "slug": "nyanko_days_tv_2017",
@@ -28566,7 +28616,7 @@
           ]
         }
       },
-      "row_number": 582
+      "row_number": 583
     },
     {
       "slug": "healer_girl_tv_2022",
@@ -28615,7 +28665,7 @@
           ]
         }
       },
-      "row_number": 583
+      "row_number": 584
     },
     {
       "slug": "fumetsu_no_anata_e_season_3_tv_2025",
@@ -28665,7 +28715,7 @@
           ]
         }
       },
-      "row_number": 584
+      "row_number": 585
     },
     {
       "slug": "cool_devices_ova_1995",
@@ -28713,7 +28763,7 @@
           ]
         }
       },
-      "row_number": 585
+      "row_number": 586
     },
     {
       "slug": "tatakae_iczer_1_ova_1985",
@@ -28764,7 +28814,7 @@
           ]
         }
       },
-      "row_number": 586
+      "row_number": 587
     },
     {
       "slug": "akanesasu_shoujo_tv_2018",
@@ -28814,7 +28864,7 @@
           ]
         }
       },
-      "row_number": 587
+      "row_number": 588
     },
     {
       "slug": "rekan_tv_2015",
@@ -28863,7 +28913,7 @@
           ]
         }
       },
-      "row_number": 588
+      "row_number": 589
     },
     {
       "slug": "release_the_spyce_tv_2018",
@@ -28913,7 +28963,7 @@
           ]
         }
       },
-      "row_number": 589
+      "row_number": 590
     },
     {
       "slug": "queens_blade_wandering_tv_2009",
@@ -28963,7 +29013,7 @@
           ]
         }
       },
-      "row_number": 590
+      "row_number": 591
     },
     {
       "slug": "cue_tv_2022",
@@ -29012,7 +29062,7 @@
           ]
         }
       },
-      "row_number": 591
+      "row_number": 592
     },
     {
       "slug": "hamefura_x_tv_2021",
@@ -29062,7 +29112,7 @@
           ]
         }
       },
-      "row_number": 592
+      "row_number": 593
     },
     {
       "slug": "stardust_telepath_tv_2023",
@@ -29112,7 +29162,7 @@
           ]
         }
       },
-      "row_number": 593
+      "row_number": 594
     },
     {
       "slug": "aoi_umi_no_tristia_ova_2004",
@@ -29161,7 +29211,7 @@
           ]
         }
       },
-      "row_number": 594
+      "row_number": 595
     },
     {
       "slug": "lycoris_recoil_tv_2022",
@@ -29210,7 +29260,7 @@
           ]
         }
       },
-      "row_number": 595
+      "row_number": 596
     },
     {
       "slug": "umibe_no_etranger_movie_2020",
@@ -29261,7 +29311,7 @@
           ]
         }
       },
-      "row_number": 596
+      "row_number": 597
     },
     {
       "slug": "pause_let_me_check_walkthrough_web_2022",
@@ -29310,7 +29360,7 @@
           ]
         }
       },
-      "row_number": 597
+      "row_number": 598
     },
     {
       "slug": "date_a_bullet_nightmare_queen_ova_2021",
@@ -29360,7 +29410,7 @@
           ]
         }
       },
-      "row_number": 598
+      "row_number": 599
     },
     {
       "slug": "slime_300years_tv_2021",
@@ -29409,7 +29459,7 @@
           ]
         }
       },
-      "row_number": 599
+      "row_number": 600
     },
     {
       "slug": "citrus_tv_2018",
@@ -29462,7 +29512,7 @@
           ]
         }
       },
-      "row_number": 600
+      "row_number": 601
     },
     {
       "slug": "umi_monogatari_tv_2009",
@@ -29513,7 +29563,7 @@
           ]
         }
       },
-      "row_number": 601
+      "row_number": 602
     },
     {
       "slug": "valkyrie_no_shokutaku_ii_web_2020",
@@ -29562,7 +29612,7 @@
           ]
         }
       },
-      "row_number": 602
+      "row_number": 603
     },
     {
       "slug": "queens_blade_vanquished_ova_2013",
@@ -29610,7 +29660,7 @@
           ]
         }
       },
-      "row_number": 603
+      "row_number": 604
     },
     {
       "slug": "murder_princess_ova_2007",
@@ -29658,7 +29708,7 @@
           ]
         }
       },
-      "row_number": 604
+      "row_number": 605
     },
     {
       "slug": "yakunara_mugcup_second_season_tv_2021",
@@ -29707,7 +29757,7 @@
           ]
         }
       },
-      "row_number": 605
+      "row_number": 606
     },
     {
       "slug": "shamanic_princess_ova_1996",
@@ -29755,7 +29805,7 @@
           ]
         }
       },
-      "row_number": 606
+      "row_number": 607
     },
     {
       "slug": "alignment_yuyu_animation_ova_2008",
@@ -29802,7 +29852,7 @@
           ]
         }
       },
-      "row_number": 607
+      "row_number": 608
     },
     {
       "slug": "saikoro_club_tv_2019",
@@ -29851,7 +29901,7 @@
           ]
         }
       },
-      "row_number": 608
+      "row_number": 609
     },
     {
       "slug": "bikini_warriors_ova_2016",
@@ -29901,7 +29951,7 @@
           ]
         }
       },
-      "row_number": 609
+      "row_number": 610
     },
     {
       "slug": "rwby_volume_5_web_2017",
@@ -29945,7 +29995,7 @@
           "urls": []
         }
       },
-      "row_number": 610
+      "row_number": 611
     },
     {
       "slug": "toji_no_miko_tv_2018",
@@ -29994,7 +30044,7 @@
           ]
         }
       },
-      "row_number": 611
+      "row_number": 612
     },
     {
       "slug": "lostorage_incited_wixoss_tv_2016",
@@ -30044,7 +30094,7 @@
           ]
         }
       },
-      "row_number": 612
+      "row_number": 613
     },
     {
       "slug": "milky_holmes_td_tv_2015",
@@ -30093,7 +30143,7 @@
           ]
         }
       },
-      "row_number": 613
+      "row_number": 614
     },
     {
       "slug": "my_master_has_no_tail_tv_2022",
@@ -30142,7 +30192,7 @@
           ]
         }
       },
-      "row_number": 614
+      "row_number": 615
     },
     {
       "slug": "ikki_tousen_xtreme_xecutor_tv_2010",
@@ -30191,7 +30241,7 @@
           ]
         }
       },
-      "row_number": 615
+      "row_number": 616
     },
     {
       "slug": "nanoha_vivid_tv_2015",
@@ -30240,7 +30290,7 @@
           ]
         }
       },
-      "row_number": 616
+      "row_number": 617
     },
     {
       "slug": "nekopara_tv_2020",
@@ -30290,7 +30340,7 @@
           ]
         }
       },
-      "row_number": 617
+      "row_number": 618
     },
     {
       "slug": "takunomi_tv_2018",
@@ -30338,7 +30388,7 @@
           ]
         }
       },
-      "row_number": 618
+      "row_number": 619
     },
     {
       "slug": "soushin_shoujo_matoi_tv_2016",
@@ -30387,7 +30437,7 @@
           ]
         }
       },
-      "row_number": 619
+      "row_number": 620
     },
     {
       "slug": "ikki_tousen_dragon_destiny_tv_2007",
@@ -30437,7 +30487,7 @@
           ]
         }
       },
-      "row_number": 620
+      "row_number": 621
     },
     {
       "slug": "ayakashi_triangle_tv_2023",
@@ -30485,7 +30535,7 @@
           ]
         }
       },
-      "row_number": 621
+      "row_number": 622
     },
     {
       "slug": "ikki_tousen_great_guardians_tv_2008",
@@ -30536,7 +30586,7 @@
           ]
         }
       },
-      "row_number": 622
+      "row_number": 623
     },
     {
       "slug": "bofuri_tv_2020",
@@ -30584,7 +30634,7 @@
           ]
         }
       },
-      "row_number": 623
+      "row_number": 624
     },
     {
       "slug": "yuuki_yuuna_churutto_tv_2021",
@@ -30632,7 +30682,7 @@
           ]
         }
       },
-      "row_number": 624
+      "row_number": 625
     },
     {
       "slug": "princess_session_orchestra_tv_2025",
@@ -30681,7 +30731,7 @@
           ]
         }
       },
-      "row_number": 625
+      "row_number": 626
     },
     {
       "slug": "rock_is_a_ladys_hobby_tv_2025",
@@ -30731,7 +30781,7 @@
           ]
         }
       },
-      "row_number": 626
+      "row_number": 627
     },
     {
       "slug": "sanda_tv_2025",
@@ -30781,7 +30831,7 @@
           ]
         }
       },
-      "row_number": 627
+      "row_number": 628
     },
     {
       "slug": "aimai_mi_tv_2013",
@@ -30831,7 +30881,7 @@
           ]
         }
       },
-      "row_number": 628
+      "row_number": 629
     },
     {
       "slug": "akuma_no_riddle_tv_2014",
@@ -30882,7 +30932,7 @@
           ]
         }
       },
-      "row_number": 629
+      "row_number": 630
     },
     {
       "slug": "marriagetoxin_tv_2026",
@@ -30933,7 +30983,7 @@
           ]
         }
       },
-      "row_number": 630
+      "row_number": 631
     },
     {
       "slug": "kiddy_girland_tv_2009",
@@ -30984,7 +31034,7 @@
           ]
         }
       },
-      "row_number": 631
+      "row_number": 632
     },
     {
       "slug": "honoo_no_toukyuujo_dodge_danko_tv_2026",
@@ -31035,7 +31085,7 @@
           ]
         }
       },
-      "row_number": 632
+      "row_number": 633
     },
     {
       "slug": "koihime_musou_tv_2008",
@@ -31086,7 +31136,7 @@
           ]
         }
       },
-      "row_number": 633
+      "row_number": 634
     },
     {
       "slug": "vivid_strike_tv_2016",
@@ -31136,7 +31186,7 @@
           ]
         }
       },
-      "row_number": 634
+      "row_number": 635
     },
     {
       "slug": "queens_blade_rebellion_tv_2012",
@@ -31186,7 +31236,7 @@
           ]
         }
       },
-      "row_number": 635
+      "row_number": 636
     },
     {
       "slug": "rifle_is_beautiful_tv_2019",
@@ -31236,7 +31286,7 @@
           ]
         }
       },
-      "row_number": 636
+      "row_number": 637
     },
     {
       "slug": "sigrdrifa_tv_2020",
@@ -31285,7 +31335,7 @@
           ]
         }
       },
-      "row_number": 637
+      "row_number": 638
     },
     {
       "slug": "suzakinishi_animation_tv_2015",
@@ -31334,7 +31384,7 @@
           ]
         }
       },
-      "row_number": 638
+      "row_number": 639
     },
     {
       "slug": "kancolle_movie_2016",
@@ -31383,7 +31433,7 @@
           ]
         }
       },
-      "row_number": 639
+      "row_number": 640
     },
     {
       "slug": "minami_kamakura_cycling_tv_2017",
@@ -31431,7 +31481,7 @@
           ]
         }
       },
-      "row_number": 640
+      "row_number": 641
     },
     {
       "slug": "usakame_tv_2016",
@@ -31480,7 +31530,7 @@
           ]
         }
       },
-      "row_number": 641
+      "row_number": 642
     },
     {
       "slug": "wataoshi_tv_2023",
@@ -31532,7 +31582,7 @@
           ]
         }
       },
-      "row_number": 642
+      "row_number": 643
     },
     {
       "slug": "gokujou_girls_dorm_tv_2012",
@@ -31583,7 +31633,7 @@
           ]
         }
       },
-      "row_number": 643
+      "row_number": 644
     },
     {
       "slug": "seiken_no_blacksmith_tv_2009",
@@ -31633,7 +31683,7 @@
           ]
         }
       },
-      "row_number": 644
+      "row_number": 645
     },
     {
       "slug": "zatsu_tabi_tv_2025",
@@ -31683,7 +31733,7 @@
           ]
         }
       },
-      "row_number": 645
+      "row_number": 646
     },
     {
       "slug": "idolmaster_xenoglossia_tv_2007",
@@ -31733,7 +31783,7 @@
           ]
         }
       },
-      "row_number": 646
+      "row_number": 647
     },
     {
       "slug": "kimi_ga_aruji_de_shitsuji_ga_ore_de_tv_2008",
@@ -31782,7 +31832,7 @@
           ]
         }
       },
-      "row_number": 647
+      "row_number": 648
     },
     {
       "slug": "love_live_superstar_season_3_tv_2024",
@@ -31831,7 +31881,7 @@
           ]
         }
       },
-      "row_number": 648
+      "row_number": 649
     },
     {
       "slug": "strike_witches_ova_2007",
@@ -31879,7 +31929,7 @@
           ]
         }
       },
-      "row_number": 649
+      "row_number": 650
     },
     {
       "slug": "selection_project_tv_2021",
@@ -31927,7 +31977,7 @@
           ]
         }
       },
-      "row_number": 650
+      "row_number": 651
     },
     {
       "slug": "soul_eater_not_tv_2014",
@@ -31977,7 +32027,7 @@
           ]
         }
       },
-      "row_number": 651
+      "row_number": 652
     },
     {
       "slug": "shokei_shoujo_tv_2022",
@@ -32028,7 +32078,7 @@
           ]
         }
       },
-      "row_number": 652
+      "row_number": 653
     },
     {
       "slug": "mangirl_tv_2013",
@@ -32077,7 +32127,7 @@
           ]
         }
       },
-      "row_number": 653
+      "row_number": 654
     },
     {
       "slug": "hitokura_manga_cafe_tv_2026",
@@ -32126,7 +32176,7 @@
           ]
         }
       },
-      "row_number": 654
+      "row_number": 655
     },
     {
       "slug": "blood_c_the_last_dark_movie_2012",
@@ -32175,7 +32225,7 @@
           ]
         }
       },
-      "row_number": 655
+      "row_number": 656
     },
     {
       "slug": "assault_lily_bouquet_tv_2020",
@@ -32225,7 +32275,7 @@
           ]
         }
       },
-      "row_number": 656
+      "row_number": 657
     },
     {
       "slug": "ikki_tousen_tv_2003",
@@ -32273,7 +32323,7 @@
           ]
         }
       },
-      "row_number": 657
+      "row_number": 658
     },
     {
       "slug": "miyuki_wonderland_ova_1995",
@@ -32323,7 +32373,7 @@
           ]
         }
       },
-      "row_number": 658
+      "row_number": 659
     },
     {
       "slug": "kampfer_tv_2009",
@@ -32371,7 +32421,7 @@
           ]
         }
       },
-      "row_number": 659
+      "row_number": 660
     },
     {
       "slug": "onigiri_tv_2016",
@@ -32420,7 +32470,7 @@
           ]
         }
       },
-      "row_number": 660
+      "row_number": 661
     },
     {
       "slug": "ibitte_konai_gibo_to_gishi_tv_2026",
@@ -32469,7 +32519,7 @@
           ]
         }
       },
-      "row_number": 661
+      "row_number": 662
     },
     {
       "slug": "valkyrie_drive_mermaid_tv_2015",
@@ -32519,7 +32569,7 @@
           ]
         }
       },
-      "row_number": 662
+      "row_number": 663
     },
     {
       "slug": "garakowa_movie_2016",
@@ -32567,7 +32617,7 @@
           ]
         }
       },
-      "row_number": 663
+      "row_number": 664
     },
     {
       "slug": "valkyrie_no_shokutaku_web_2019",
@@ -32616,7 +32666,7 @@
           ]
         }
       },
-      "row_number": 664
+      "row_number": 665
     },
     {
       "slug": "mikagura_school_suite_tv_2015",
@@ -32667,7 +32717,7 @@
           ]
         }
       },
-      "row_number": 665
+      "row_number": 666
     },
     {
       "slug": "gakuen_mokushiroku_highschool_of_the_dead_drifters_of_the_dead_ova_2011",
@@ -32716,7 +32766,7 @@
           ]
         }
       },
-      "row_number": 666
+      "row_number": 667
     },
     {
       "slug": "magical_asuka_tv_2019",
@@ -32765,7 +32815,7 @@
           ]
         }
       },
-      "row_number": 667
+      "row_number": 668
     },
     {
       "slug": "pan_de_peace_tv_2016",
@@ -32814,7 +32864,7 @@
           ]
         }
       },
-      "row_number": 668
+      "row_number": 669
     },
     {
       "slug": "watashi_ga_motete_dousunda_tv_2016",
@@ -32864,7 +32914,7 @@
           ]
         }
       },
-      "row_number": 669
+      "row_number": 670
     },
     {
       "slug": "seikon_no_qwaser_tv_2010",
@@ -32915,7 +32965,7 @@
           ]
         }
       },
-      "row_number": 670
+      "row_number": 671
     },
     {
       "slug": "end_of_world_bicycle_tv_2025",
@@ -32964,7 +33014,7 @@
           ]
         }
       },
-      "row_number": 671
+      "row_number": 672
     },
     {
       "slug": "slime_300years_season_2_tv_2025",
@@ -33013,7 +33063,7 @@
           ]
         }
       },
-      "row_number": 672
+      "row_number": 673
     },
     {
       "slug": "taiyo_no_oushi_tv_2013",
@@ -33065,7 +33115,7 @@
           ]
         }
       },
-      "row_number": 673
+      "row_number": 674
     },
     {
       "slug": "hen_ova_1997",
@@ -33116,7 +33166,7 @@
           ]
         }
       },
-      "row_number": 674
+      "row_number": 675
     },
     {
       "slug": "joshikousei_tv_2019",
@@ -33164,7 +33214,7 @@
           ]
         }
       },
-      "row_number": 675
+      "row_number": 676
     },
     {
       "slug": "yoku_wakaru_gendai_mahou_tv_2009",
@@ -33213,7 +33263,7 @@
           ]
         }
       },
-      "row_number": 676
+      "row_number": 677
     },
     {
       "slug": "amazing_twins_ova_2014",
@@ -33262,7 +33312,7 @@
           ]
         }
       },
-      "row_number": 677
+      "row_number": 678
     },
     {
       "slug": "gogo575_tv_2014",
@@ -33311,7 +33361,7 @@
           ]
         }
       },
-      "row_number": 678
+      "row_number": 679
     },
     {
       "slug": "nanabun_no_nijuuni_tv_2020",
@@ -33359,7 +33409,7 @@
           ]
         }
       },
-      "row_number": 679
+      "row_number": 680
     },
     {
       "slug": "otherside_picnic_tv_2021",
@@ -33410,7 +33460,7 @@
           ]
         }
       },
-      "row_number": 680
+      "row_number": 681
     },
     {
       "slug": "toji_no_miko_kizuna_ova_2021",
@@ -33458,7 +33508,7 @@
           ]
         }
       },
-      "row_number": 681
+      "row_number": 682
     },
     {
       "slug": "heroine_seijo_iie_all_works_maid_tv_2026",
@@ -33508,7 +33558,7 @@
           ]
         }
       },
-      "row_number": 682
+      "row_number": 683
     },
     {
       "slug": "iwakakeru_tv_2020",
@@ -33556,7 +33606,7 @@
           ]
         }
       },
-      "row_number": 683
+      "row_number": 684
     },
     {
       "slug": "senran_kagura_tokyo_tv_2018",
@@ -33606,7 +33656,7 @@
           ]
         }
       },
-      "row_number": 684
+      "row_number": 685
     },
     {
       "slug": "koi_koi_7_tv_2005",
@@ -33654,7 +33704,7 @@
           ]
         }
       },
-      "row_number": 685
+      "row_number": 686
     },
     {
       "slug": "magia_record_s2_tv_2021",
@@ -33704,7 +33754,7 @@
           ]
         }
       },
-      "row_number": 686
+      "row_number": 687
     },
     {
       "slug": "otenki_onee_san_ova_1995",
@@ -33752,7 +33802,7 @@
           ]
         }
       },
-      "row_number": 687
+      "row_number": 688
     },
     {
       "slug": "fantasista_doll_tv_2013",
@@ -33801,7 +33851,7 @@
           ]
         }
       },
-      "row_number": 688
+      "row_number": 689
     },
     {
       "slug": "sora_iro_utility_short_2021",
@@ -33849,7 +33899,7 @@
           ]
         }
       },
-      "row_number": 689
+      "row_number": 690
     },
     {
       "slug": "tamayomi_tv_2020",
@@ -33898,7 +33948,7 @@
           ]
         }
       },
-      "row_number": 690
+      "row_number": 691
     },
     {
       "slug": "noukin_tv_2019",
@@ -33947,7 +33997,7 @@
           ]
         }
       },
-      "row_number": 691
+      "row_number": 692
     },
     {
       "slug": "himitsu_no_aipri_ring_hen_tv_2025",
@@ -33995,7 +34045,7 @@
           ]
         }
       },
-      "row_number": 692
+      "row_number": 693
     },
     {
       "slug": "akikan_ova_2009",
@@ -34044,7 +34094,7 @@
           ]
         }
       },
-      "row_number": 693
+      "row_number": 694
     },
     {
       "slug": "yakunara_mug_cup_tv_2021",
@@ -34093,7 +34143,7 @@
           ]
         }
       },
-      "row_number": 694
+      "row_number": 695
     },
     {
       "slug": "vampire_in_the_garden_web_2022",
@@ -34144,7 +34194,7 @@
           ]
         }
       },
-      "row_number": 695
+      "row_number": 696
     },
     {
       "slug": "ice_ova_2007",
@@ -34194,7 +34244,7 @@
           ]
         }
       },
-      "row_number": 696
+      "row_number": 697
     },
     {
       "slug": "extreme_hearts_tv_2022",
@@ -34243,7 +34293,7 @@
           ]
         }
       },
-      "row_number": 697
+      "row_number": 698
     },
     {
       "slug": "ongaku_shoujo_movie_2015",
@@ -34291,7 +34341,7 @@
           ]
         }
       },
-      "row_number": 698
+      "row_number": 699
     },
     {
       "slug": "hachigatsu_no_cinderella_nine_tv_2019",
@@ -34340,7 +34390,7 @@
           ]
         }
       },
-      "row_number": 699
+      "row_number": 700
     },
     {
       "slug": "jashin_chan_dropkick_seikimatsu_special_tv_2023",
@@ -34388,7 +34438,7 @@
           ]
         }
       },
-      "row_number": 700
+      "row_number": 701
     },
     {
       "slug": "stella_jogakuin_koutouka_c3bu_tv_2013",
@@ -34436,7 +34486,7 @@
           ]
         }
       },
-      "row_number": 701
+      "row_number": 702
     },
     {
       "slug": "android_wa_keiken_ninzuu_ni_hairimasu_ka_tv_2026",
@@ -34488,7 +34538,7 @@
           ]
         }
       },
-      "row_number": 702
+      "row_number": 703
     },
     {
       "slug": "mahou_shoujo_ikusei_keikaku_tv_2016",
@@ -34540,7 +34590,7 @@
           ]
         }
       },
-      "row_number": 703
+      "row_number": 704
     },
     {
       "slug": "hidan_no_aria_aa_tv_2015",
@@ -34589,7 +34639,7 @@
           ]
         }
       },
-      "row_number": 704
+      "row_number": 705
     },
     {
       "slug": "aokana_tv_2016",
@@ -34640,7 +34690,7 @@
           ]
         }
       },
-      "row_number": 705
+      "row_number": 706
     },
     {
       "slug": "bokura_no_nanokakan_sensou_movie_2019",
@@ -34689,7 +34739,7 @@
           ]
         }
       },
-      "row_number": 706
+      "row_number": 707
     },
     {
       "slug": "kabushikigaisha_magilumiere_2_tv_2026",
@@ -34738,7 +34788,7 @@
           ]
         }
       },
-      "row_number": 707
+      "row_number": 708
     },
     {
       "slug": "senran_kagura_tv_2013",
@@ -34788,7 +34838,7 @@
           ]
         }
       },
-      "row_number": 708
+      "row_number": 709
     },
     {
       "slug": "sengoku_otome_tv_2011",
@@ -34838,7 +34888,7 @@
           ]
         }
       },
-      "row_number": 709
+      "row_number": 710
     },
     {
       "slug": "mahou_shoujo_ore_tv_2018",
@@ -34888,7 +34938,7 @@
           ]
         }
       },
-      "row_number": 710
+      "row_number": 711
     },
     {
       "slug": "acro_trip_tv_2024",
@@ -34938,7 +34988,7 @@
           ]
         }
       },
-      "row_number": 711
+      "row_number": 712
     },
     {
       "slug": "seirei_tsukai_no_blade_dance_tv_2014",
@@ -34984,7 +35034,7 @@
           ]
         }
       },
-      "row_number": 712
+      "row_number": 713
     },
     {
       "slug": "bofuri_tv_2023_s2",
@@ -35030,7 +35080,7 @@
           ]
         }
       },
-      "row_number": 713
+      "row_number": 714
     },
     {
       "slug": "girlfriend_beta_tv_2014",
@@ -35079,7 +35129,7 @@
           ]
         }
       },
-      "row_number": 714
+      "row_number": 715
     },
     {
       "slug": "blue_reflection_ray_tv_2021",
@@ -35128,7 +35178,7 @@
           ]
         }
       },
-      "row_number": 715
+      "row_number": 716
     },
     {
       "slug": "hirogaru_sky_precure_tv_2023",
@@ -35176,7 +35226,7 @@
           ]
         }
       },
-      "row_number": 716
+      "row_number": 717
     },
     {
       "slug": "utagoe_wa_mille_feuille_tv_2025",
@@ -35225,7 +35275,7 @@
           ]
         }
       },
-      "row_number": 717
+      "row_number": 718
     },
     {
       "slug": "saikin_imouto_no_yousu_tv_2014",
@@ -35273,7 +35323,7 @@
           ]
         }
       },
-      "row_number": 718
+      "row_number": 719
     },
     {
       "slug": "chuu_bra_tv_2010",
@@ -35322,7 +35372,7 @@
           ]
         }
       },
-      "row_number": 719
+      "row_number": 720
     },
     {
       "slug": "alice_gear_aegis_expansion_tv_2023",
@@ -35371,7 +35421,7 @@
           ]
         }
       },
-      "row_number": 720
+      "row_number": 721
     },
     {
       "slug": "wagamama_high_spec_tv_2016",
@@ -35419,7 +35469,7 @@
           ]
         }
       },
-      "row_number": 721
+      "row_number": 722
     },
     {
       "slug": "kuma_kuma_kuma_bear_punch_tv_2023",
@@ -35467,7 +35517,7 @@
           ]
         }
       },
-      "row_number": 722
+      "row_number": 723
     },
     {
       "slug": "kuma_kuma_kuma_bear_tv_2020",
@@ -35517,7 +35567,7 @@
           ]
         }
       },
-      "row_number": 723
+      "row_number": 724
     },
     {
       "slug": "venus_versus_virus_tv_2007",
@@ -35567,7 +35617,7 @@
           ]
         }
       },
-      "row_number": 724
+      "row_number": 725
     },
     {
       "slug": "two_car_tv_2017",
@@ -35617,7 +35667,7 @@
           ]
         }
       },
-      "row_number": 725
+      "row_number": 726
     },
     {
       "slug": "aru_majo_ga_shinu_made_tv_2025",
@@ -35666,7 +35716,7 @@
           ]
         }
       },
-      "row_number": 726
+      "row_number": 727
     },
     {
       "slug": "fairy_gone_2_tv_2019",
@@ -35714,7 +35764,7 @@
           ]
         }
       },
-      "row_number": 727
+      "row_number": 728
     },
     {
       "slug": "regalia_the_three_sacred_stars_tv_2016",
@@ -35764,7 +35814,7 @@
           ]
         }
       },
-      "row_number": 728
+      "row_number": 729
     },
     {
       "slug": "tachibanakan_to_lie_angle_tv_2018",
@@ -35816,7 +35866,7 @@
           ]
         }
       },
-      "row_number": 729
+      "row_number": 730
     },
     {
       "slug": "etsuraku_no_tane_ova_2015",
@@ -35864,7 +35914,7 @@
           ]
         }
       },
-      "row_number": 730
+      "row_number": 731
     },
     {
       "slug": "shachiku_san_wa_youjo_yuurei_ni_iyasaretai_tv_2022",
@@ -35914,7 +35964,7 @@
           ]
         }
       },
-      "row_number": 731
+      "row_number": 732
     },
     {
       "slug": "hikikomari_kyuuketsuki_tv_2023",
@@ -35965,7 +36015,7 @@
           ]
         }
       },
-      "row_number": 732
+      "row_number": 733
     },
     {
       "slug": "kyoushirou_to_towa_no_sora_tv_2007",
@@ -36016,7 +36066,7 @@
           ]
         }
       },
-      "row_number": 733
+      "row_number": 734
     },
     {
       "slug": "sin_nanatsu_no_taizai_tv_2017",
@@ -36067,7 +36117,7 @@
           ]
         }
       },
-      "row_number": 734
+      "row_number": 735
     },
     {
       "slug": "ange_vierge_tv_2016",
@@ -36117,7 +36167,7 @@
           ]
         }
       },
-      "row_number": 735
+      "row_number": 736
     },
     {
       "slug": "akikan_tv_2009",
@@ -36166,7 +36216,7 @@
           ]
         }
       },
-      "row_number": 736
+      "row_number": 737
     },
     {
       "slug": "kancolle_tv_2015",
@@ -36214,7 +36264,7 @@
           ]
         }
       },
-      "row_number": 737
+      "row_number": 738
     },
     {
       "slug": "shinmai_renkinjutsushi_tv_2022",
@@ -36263,7 +36313,7 @@
           ]
         }
       },
-      "row_number": 738
+      "row_number": 739
     },
     {
       "slug": "kandagawa_jet_girls_tv_2019",
@@ -36313,7 +36363,7 @@
           ]
         }
       },
-      "row_number": 739
+      "row_number": 740
     },
     {
       "slug": "seiyuu_radio_uraomote_tv_2024",
@@ -36362,7 +36412,7 @@
           ]
         }
       },
-      "row_number": 740
+      "row_number": 741
     },
     {
       "slug": "shy_tokyo_reconquest_tv_2024",
@@ -36410,7 +36460,7 @@
           ]
         }
       },
-      "row_number": 741
+      "row_number": 742
     },
     {
       "slug": "blackfox_movie_2019",
@@ -36458,7 +36508,7 @@
           ]
         }
       },
-      "row_number": 742
+      "row_number": 743
     },
     {
       "slug": "mahou_shoujo_site_tv_2018",
@@ -36507,7 +36557,7 @@
           ]
         }
       },
-      "row_number": 743
+      "row_number": 744
     },
     {
       "slug": "warau_arsnotoria_sun_tv_2022",
@@ -36555,7 +36605,7 @@
           ]
         }
       },
-      "row_number": 744
+      "row_number": 745
     },
     {
       "slug": "battle_girl_high_school_tv_2017",
@@ -36605,7 +36655,7 @@
           ]
         }
       },
-      "row_number": 745
+      "row_number": 746
     },
     {
       "slug": "boku_no_kanojo_ga_majime_sugiru_shoujo_bitch_na_ken_tv_2017",
@@ -36655,7 +36705,7 @@
           ]
         }
       },
-      "row_number": 746
+      "row_number": 747
     },
     {
       "slug": "ryza_no_atelier_tv_2023",
@@ -36701,7 +36751,7 @@
           ]
         }
       },
-      "row_number": 747
+      "row_number": 748
     },
     {
       "slug": "ookii_onnanoko_wa_suki_desu_ka_tv_2026",
@@ -36750,7 +36800,7 @@
           ]
         }
       },
-      "row_number": 748
+      "row_number": 749
     },
     {
       "slug": "urawa_no_utsuchan_tv_2015",
@@ -36798,7 +36848,7 @@
           ]
         }
       },
-      "row_number": 749
+      "row_number": 750
     },
     {
       "slug": "tenkuu_shinpan_web_2021",
@@ -36847,7 +36897,7 @@
           ]
         }
       },
-      "row_number": 750
+      "row_number": 751
     },
     {
       "slug": "murder_mystery_of_the_dead_tv_2024",
@@ -36897,7 +36947,7 @@
           ]
         }
       },
-      "row_number": 751
+      "row_number": 752
     },
     {
       "slug": "ameiro_cocoa_side_g_tv_2019",
@@ -36944,7 +36994,7 @@
           ]
         }
       },
-      "row_number": 752
+      "row_number": 753
     },
     {
       "slug": "princess_connect_redive_season_2_tv_2022",
@@ -36993,7 +37043,7 @@
           ]
         }
       },
-      "row_number": 753
+      "row_number": 754
     },
     {
       "slug": "shy_tv_2023",
@@ -37041,7 +37091,7 @@
           ]
         }
       },
-      "row_number": 754
+      "row_number": 755
     },
     {
       "slug": "vtuber_nanda_ga_haishin_kiri_wasuretara_densetsu_ni_natteta_tv_2024",
@@ -37091,7 +37141,7 @@
           ]
         }
       },
-      "row_number": 755
+      "row_number": 756
     },
     {
       "slug": "schoolgirl_strikers_animation_channel_tv_2017",
@@ -37140,7 +37190,7 @@
           ]
         }
       },
-      "row_number": 756
+      "row_number": 757
     },
     {
       "slug": "ongaku_shoujo_tv_2018",
@@ -37188,7 +37238,7 @@
           ]
         }
       },
-      "row_number": 757
+      "row_number": 758
     },
     {
       "slug": "rail_romanesque_tv_2020",
@@ -37237,7 +37287,7 @@
           ]
         }
       },
-      "row_number": 758
+      "row_number": 759
     },
     {
       "slug": "circlet_princess_tv_2019",
@@ -37285,7 +37335,7 @@
           ]
         }
       },
-      "row_number": 759
+      "row_number": 760
     },
     {
       "slug": "rpg_fudosan_tv_2022",
@@ -37334,7 +37384,7 @@
           ]
         }
       },
-      "row_number": 760
+      "row_number": 761
     },
     {
       "slug": "prima_doll_tv_2022",
@@ -37382,7 +37432,7 @@
           ]
         }
       },
-      "row_number": 761
+      "row_number": 762
     },
     {
       "slug": "rwby_ice_queendom_tv_2022",
@@ -37430,7 +37480,7 @@
           ]
         }
       },
-      "row_number": 762
+      "row_number": 763
     },
     {
       "slug": "masou_gakuen_hxh_tv_2016",
@@ -37480,7 +37530,7 @@
           ]
         }
       },
-      "row_number": 763
+      "row_number": 764
     },
     {
       "slug": "genjitsu_no_yohane_tv_2023",
@@ -37528,7 +37578,7 @@
           ]
         }
       },
-      "row_number": 764
+      "row_number": 765
     },
     {
       "slug": "koi_wa_futago_de_warikirenai_tv_2024",
@@ -37577,7 +37627,7 @@
           ]
         }
       },
-      "row_number": 765
+      "row_number": 766
     },
     {
       "slug": "ponnomichi_tv_2024",
@@ -37626,7 +37676,7 @@
           ]
         }
       },
-      "row_number": 766
+      "row_number": 767
     },
     {
       "slug": "gundam_witch_from_mercury_season_2_tv_2023",
@@ -37677,7 +37727,7 @@
           ]
         }
       },
-      "row_number": 767
+      "row_number": 768
     },
     {
       "slug": "blue_archive_the_animation_tv_2024",
@@ -37726,7 +37776,7 @@
           ]
         }
       },
-      "row_number": 768
+      "row_number": 769
     },
     {
       "slug": "hotel_inhumans_tv_2025",
@@ -37777,7 +37827,7 @@
           ]
         }
       },
-      "row_number": 769
+      "row_number": 770
     },
     {
       "slug": "cutie_honey_universe_tv_2018",
@@ -37828,7 +37878,7 @@
           ]
         }
       },
-      "row_number": 770
+      "row_number": 771
     },
     {
       "slug": "shibou_yuugi_de_meshi_wo_kuu_tv_2026",
@@ -37877,7 +37927,7 @@
           ]
         }
       },
-      "row_number": 771
+      "row_number": 772
     },
     {
       "slug": "magia_record_final_season_tv_2022",
@@ -37925,7 +37975,7 @@
           ]
         }
       },
-      "row_number": 772
+      "row_number": 773
     },
     {
       "slug": "yoru_no_kurage_wa_oyogenai_tv_2024",
@@ -37974,7 +38024,7 @@
           ]
         }
       },
-      "row_number": 773
+      "row_number": 774
     },
     {
       "slug": "shikanoko_nokonoko_koshitantan_tv_2024",
@@ -38024,7 +38074,7 @@
           ]
         }
       },
-      "row_number": 774
+      "row_number": 775
     },
     {
       "slug": "kimi_to_idol_precure_tv_2025",
@@ -38074,7 +38124,7 @@
           ]
         }
       },
-      "row_number": 775
+      "row_number": 776
     },
     {
       "slug": "mahou_shoujo_lyrical_nanoha_exceeds_gun_blaze_vengeance_tv_2026",
@@ -38122,7 +38172,7 @@
           ]
         }
       },
-      "row_number": 776
+      "row_number": 777
     },
     {
       "slug": "z_x_code_reunion_tv_2019",
@@ -38171,7 +38221,7 @@
           ]
         }
       },
-      "row_number": 777
+      "row_number": 778
     },
     {
       "slug": "higurashi_sotsu_tv_2021",
@@ -38221,7 +38271,7 @@
           ]
         }
       },
-      "row_number": 778
+      "row_number": 779
     },
     {
       "slug": "eiyuuou_bu_wo_kiwameru_tame_tenseisu_tv_2023",
@@ -38270,7 +38320,7 @@
           ]
         }
       },
-      "row_number": 779
+      "row_number": 780
     },
     {
       "slug": "uma_musume_pretty_derby_season_3_tv_2023",
@@ -38319,7 +38369,7 @@
           ]
         }
       },
-      "row_number": 780
+      "row_number": 781
     },
     {
       "slug": "maerchen_maedchen_tv_2018",
@@ -38369,7 +38419,7 @@
           ]
         }
       },
-      "row_number": 781
+      "row_number": 782
     },
     {
       "slug": "hibike_euphonium_3_tv_2024",
@@ -38418,7 +38468,7 @@
           ]
         }
       },
-      "row_number": 782
+      "row_number": 783
     },
     {
       "slug": "azur_lane_tv_2019",
@@ -38467,7 +38517,7 @@
           ]
         }
       },
-      "row_number": 783
+      "row_number": 784
     },
     {
       "slug": "mahonare_tv_2024",
@@ -38516,7 +38566,7 @@
           ]
         }
       },
-      "row_number": 784
+      "row_number": 785
     },
     {
       "slug": "black_rock_shooter_dawn_fall_tv_2022",
@@ -38566,7 +38616,7 @@
           ]
         }
       },
-      "row_number": 785
+      "row_number": 786
     },
     {
       "slug": "nanare_hananare_tv_2024",
@@ -38615,7 +38665,7 @@
           ]
         }
       },
-      "row_number": 786
+      "row_number": 787
     },
     {
       "slug": "otomege_sekai_wa_mob_ni_kibishii_sekai_desu_2_tv_2026",
@@ -38664,7 +38714,7 @@
           ]
         }
       },
-      "row_number": 787
+      "row_number": 788
     },
     {
       "slug": "arne_no_jikenbo_tv_2026",
@@ -38715,7 +38765,7 @@
           ]
         }
       },
-      "row_number": 788
+      "row_number": 789
     },
     {
       "slug": "needy_girl_overdose_tv_2026",
@@ -38764,7 +38814,7 @@
           ]
         }
       },
-      "row_number": 789
+      "row_number": 790
     },
     {
       "slug": "omae_gotoki_ga_maou_ni_kateru_tv_2026",
@@ -38815,7 +38865,7 @@
           ]
         }
       },
-      "row_number": 790
+      "row_number": 791
     },
     {
       "slug": "aru_asa_dummy_head_mic_tv_2022",
@@ -38865,7 +38915,7 @@
           ]
         }
       },
-      "row_number": 791
+      "row_number": 792
     },
     {
       "slug": "netsuzou_trap_ntr_tv_2017",
@@ -38917,7 +38967,7 @@
           ]
         }
       },
-      "row_number": 792
+      "row_number": 793
     },
     {
       "slug": "hanyou_no_yashahime_tv_2020",
@@ -38965,7 +39015,7 @@
           ]
         }
       },
-      "row_number": 793
+      "row_number": 794
     },
     {
       "slug": "shunkashuutou_daikousha_haru_no_mai_tv_2026",
@@ -39014,7 +39064,7 @@
           ]
         }
       },
-      "row_number": 794
+      "row_number": 795
     },
     {
       "slug": "haite_kudasai_takamine_san_tv_2025",
@@ -39065,7 +39115,7 @@
           ]
         }
       },
-      "row_number": 795
+      "row_number": 796
     },
     {
       "slug": "momentary_lily_tv_2025",
@@ -39115,7 +39165,57 @@
           ]
         }
       },
-      "row_number": 796
+      "row_number": 797
+    },
+    {
+      "slug": "bang_dream_yumemita_tv_2026",
+      "title": "BanG Dream! YUME∞MITA",
+      "bangumi_entry_status": "success",
+      "bangumi_url": "https://bangumi.tv/subject/583729",
+      "bangumi_wiki_yuri": false,
+      "year_medium": "2026 TV",
+      "female_relationship_position": "主线",
+      "romance_position": "主线",
+      "queries": [
+        "欲望",
+        "未确认",
+        "主线"
+      ],
+      "male_romance_line": "无",
+      "explicitness": {
+        "code": "explicit_desire",
+        "label": "明确欲望"
+      },
+      "platforms": {
+        "bangumi": {
+          "state": "untagged",
+          "urls": [
+            "https://bangumi.tv/subject/583729"
+          ],
+          "rank": 10137,
+          "yuri_tag_ratio": 0.06218193384223918
+        },
+        "anime_planet": {
+          "state": "untagged",
+          "urls": [
+            "https://www.anime-planet.com/anime/bang-dream-yume-mita"
+          ]
+        },
+        "anilist": {
+          "state": "tagged",
+          "urls": [
+            "https://anilist.co/anime/198376"
+          ],
+          "yuri_relevance": 67
+        },
+        "myanimelist": {
+          "state": "untagged",
+          "urls": [
+            "https://myanimelist.net/anime/62430/BanG_Dream_Yume%E2%88%9EMita"
+          ]
+        }
+      },
+      "row_number": 798
     },
     {
       "slug": "turkey_tv_2025",
@@ -39165,7 +39265,7 @@
           ]
         }
       },
-      "row_number": 797
+      "row_number": 799
     },
     {
       "slug": "sasayaku_you_ni_koi_wo_utau_tv_2024",
@@ -39218,7 +39318,7 @@
           ]
         }
       },
-      "row_number": 798
+      "row_number": 800
     },
     {
       "slug": "bang_dream_ave_mujica_tv_2025",
@@ -39268,7 +39368,7 @@
           ]
         }
       },
-      "row_number": 799
+      "row_number": 801
     },
     {
       "slug": "metallic_rouge_tv_2024",
@@ -39317,7 +39417,7 @@
           ]
         }
       },
-      "row_number": 800
+      "row_number": 802
     },
     {
       "slug": "necronomico_no_cosmic_horror_show_tv_2025",
@@ -39367,7 +39467,7 @@
           ]
         }
       },
-      "row_number": 801
+      "row_number": 803
     },
     {
       "slug": "ace_wo_nerae_tv_1973",
@@ -39416,7 +39516,7 @@
           ]
         }
       },
-      "row_number": 802
+      "row_number": 804
     },
     {
       "slug": "air_master_tv_2003",
@@ -39466,7 +39566,7 @@
           ]
         }
       },
-      "row_number": 803
+      "row_number": 805
     },
     {
       "slug": "battle_athletess_daiundoukai_ova_1997",
@@ -39515,7 +39615,7 @@
           ]
         }
       },
-      "row_number": 804
+      "row_number": 806
     },
     {
       "slug": "bousei_no_volicia_dai_ni_shou_gunjou_movie_2025",
@@ -39566,7 +39666,7 @@
           ]
         }
       },
-      "row_number": 805
+      "row_number": 807
     },
     {
       "slug": "bousei_no_volicia_movie_2023",
@@ -39617,7 +39717,7 @@
           ]
         }
       },
-      "row_number": 806
+      "row_number": 808
     },
     {
       "slug": "chou_kidou_densetsu_dinagiga_ova_1998",
@@ -39667,7 +39767,7 @@
           ]
         }
       },
-      "row_number": 807
+      "row_number": 809
     },
     {
       "slug": "corrector_yui_2_tv_2000",
@@ -39711,7 +39811,7 @@
           "urls": []
         }
       },
-      "row_number": 808
+      "row_number": 810
     },
     {
       "slug": "eien_no_filena_ova_1992",
@@ -39761,7 +39861,7 @@
           ]
         }
       },
-      "row_number": 809
+      "row_number": 811
     },
     {
       "slug": "ephemere_web_2024",
@@ -39810,7 +39910,7 @@
           ]
         }
       },
-      "row_number": 810
+      "row_number": 812
     },
     {
       "slug": "hanappe_bazooka_ova_1992",
@@ -39859,7 +39959,7 @@
           ]
         }
       },
-      "row_number": 811
+      "row_number": 813
     },
     {
       "slug": "idol_project_ova_1995",
@@ -39907,7 +40007,7 @@
           ]
         }
       },
-      "row_number": 812
+      "row_number": 814
     },
     {
       "slug": "imprisoned_xii_web_2025",
@@ -39954,7 +40054,7 @@
           ]
         }
       },
-      "row_number": 813
+      "row_number": 815
     },
     {
       "slug": "kororon_mv_2023",
@@ -40003,7 +40103,7 @@
           ]
         }
       },
-      "row_number": 814
+      "row_number": 816
     },
     {
       "slug": "mafiosa_mv_2025",
@@ -40047,7 +40147,7 @@
           ]
         }
       },
-      "row_number": 815
+      "row_number": 817
     },
     {
       "slug": "malice_at_doll_ova_2001",
@@ -40098,7 +40198,7 @@
           ]
         }
       },
-      "row_number": 816
+      "row_number": 818
     },
     {
       "slug": "sore_wo_ai_to_yobu_dake_web_2020",
@@ -40148,7 +40248,7 @@
           ]
         }
       },
-      "row_number": 817
+      "row_number": 819
     },
     {
       "slug": "sukeban_deka_ova_1991",
@@ -40196,7 +40296,7 @@
           ]
         }
       },
-      "row_number": 818
+      "row_number": 820
     },
     {
       "slug": "teenage_blue_mv_2024",
@@ -40245,7 +40345,7 @@
           ]
         }
       },
-      "row_number": 819
+      "row_number": 821
     },
     {
       "slug": "vapor_trail_movie_2021",
@@ -40297,7 +40397,7 @@
           ]
         }
       },
-      "row_number": 820
+      "row_number": 822
     },
     {
       "slug": "yousei_ou_ova_1988",
@@ -40345,9 +40445,9 @@
           ]
         }
       },
-      "row_number": 821
+      "row_number": 823
     }
   ],
-  "release_plan_sha256": "e89501f10b2ac8e594c612fb7194cd6e15d3c612a56ff9a783e7f9e281a4e303",
-  "target_slugs_sha256": "a964c6d6d27b9ad2e0808f70fbd9766b544365da2bad426666dd9b21601bd24e"
+  "release_plan_sha256": "a2f3814677bb5fbda2b44ace7a25b752e88f750df49e081cb72dea2bd8bcb353",
+  "target_slugs_sha256": "0c269e0b8fb75fe71dea30e975e1a47bb56bfc0d46dfadbd1d0d5672195ef9d5"
 }
