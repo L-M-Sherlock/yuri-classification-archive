@@ -1,15 +1,15 @@
 {
   "schema_version": 5,
-  "generated_at": "2026-10-10T03:29:51+00:00",
+  "generated_at": "2026-10-10T03:57:28+00:00",
   "site_url": "https://l-m-sherlock.github.io/yuri-classification-archive",
   "item_count": 823,
   "current_release": {
     "selector": "status_complete",
-    "published_at": "2026-10-10T03:29:51+00:00",
+    "published_at": "2026-10-10T03:57:28+00:00",
     "plan_path": "data/release-plan.json",
-    "plan_file_sha256": "2216643f05a25b91a4884a4ae2b03f8ec084f0a604fb3bc678025851eadf4b4e",
-    "plan_sha256": "70241989a5d288b0e53ebd9d904c6fb9e7b496fefa34214aafe1efc3540a93f7",
-    "previous_head": "da66ea097c47f2cb857527e82b7267a7ba8e8091",
+    "plan_file_sha256": "7f88051f97ce4185b49453dd5199a28ac1ec449893a21442d19074fcd7f3a4f8",
+    "plan_sha256": "85a435915292f6d1277347121e382e691190e8de656f38361ca1a8c763f19f32",
+    "previous_head": "6ed0bc1d7edc6de5e75ceb6d25e6c182b83a4191",
     "base_slug_count": 823,
     "base_slugs_sha256": "0c269e0b8fb75fe71dea30e975e1a47bb56bfc0d46dfadbd1d0d5672195ef9d5",
     "item_count": 823,
@@ -21,7 +21,7 @@
   },
   "database_snapshot": {
     "snapshot_date": "2026-10-10",
-    "source_sha256": "74fdd36df75125f8e1fcf2d2053d1eea0dff35eb34ea710193cb7e255b340544"
+    "source_sha256": "408851f843d65cb19fe72a52821e579b0f233bc466330a99fd334a7130a4c21b"
   },
   "query_semantics": {
     "combination": "and",
