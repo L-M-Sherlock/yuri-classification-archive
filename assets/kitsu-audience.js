@@ -4,6 +4,7 @@
   const SVG_NS = "http://www.w3.org/2000/svg";
   const formatNumber = new Intl.NumberFormat("zh-CN");
   const clamp = (value, min, max) => Math.min(Math.max(value, min), max);
+  const normalizeSearch = (text) => text.normalize("NFKC").trim().toLowerCase();
 
   function composition(secondShare) {
     const second = Math.round(secondShare * 1000);
@@ -51,13 +52,27 @@
   }
 
   function setupChart(mount, data) {
-    if (data.schema_version !== 1 || !data.points.length) throw new Error("Missing plot data");
+    if (data.schema_version !== 2 || !data.points.length) throw new Error("Missing plot data");
     const find = (selector) => mount.querySelector(selector);
     const form = find("[data-chart-filters]");
     const groupOptions = find("[data-chart-groups]");
     const search = find("[data-chart-search]");
     const minGender = find("[data-min-gender]");
     const minAge = find("[data-min-age]");
+    const relationshipSearch = find("[data-relationship-search]");
+    const relationshipActive = find("[data-relationship-active]");
+    const relationshipControls = [...form.querySelectorAll("[data-relationship]")];
+    const relationshipLabels = {};
+    for (const control of relationshipControls) {
+      const axis = control.dataset.relationship;
+      relationshipLabels[axis] = new Map();
+      for (const { code, label } of data.relationship_options[axis]) {
+        const option = htmlNode("option", label);
+        option.value = code;
+        control.append(option);
+        relationshipLabels[axis].set(code, label);
+      }
+    }
     const status = find("[data-chart-status]");
     const plot = find("[data-chart-plot]");
     const stage = find("[data-chart-stage]");
@@ -76,7 +91,10 @@
         ageN: point.age_20_29 + point.age_30_39,
         x: point.age_30_39 / point.age_20_29,
         y: point.female / genderN,
-        query: (point.title + " " + point.kitsu_title).normalize("NFKC").toLowerCase(),
+        query: normalizeSearch(point.title + " " + point.kitsu_title),
+        relationships: point.slugs.flatMap((slug) => (data.relationship_profiles[slug] || []).map(
+          (profile) => ({ ...profile, slug, query: normalizeSearch(profile.name) }),
+        )),
       };
     });
     const byId = new Map(points.map((point) => [point.id, point]));
@@ -85,6 +103,7 @@
     const initialView = { x0: 0, y0: 0, w: fullX, h: 1 };
     let view = initialView;
     let matching = points;
+    let matchedRelationships = new Map();
     let selected = null;
     let layout = null;
     let visible = [];
@@ -133,6 +152,26 @@
         htmlNode("p", "年龄构成 " + ageComposition(point.x) + " · 30–39 岁 " + count(point.age_30_39) + " 人，20–29 岁 " + count(point.age_20_29) + " 人"),
         htmlNode("p", "男女构成 " + composition(point.y) + " · 男 " + count(point.male) + " 人，女 " + count(point.female) + " 人"),
       );
+      const relations = matchedRelationships.get(point.id);
+      if (relations?.length) {
+        const matches = htmlNode("details");
+        matches.className = "kitsu-matches";
+        matches.open = true;
+        matches.append(htmlNode("summary", "命中关系（" + count(relations.length) + "）"));
+        const list = htmlNode("ul");
+        for (const relation of relations) {
+          const axes = Object.entries(relationshipLabels).map(([axis, labels]) => labels.get(relation[axis]));
+          const item = htmlNode("li", relation.name + " · " + axes.join("／"));
+          if (point.slugs.length > 1) {
+            const link = htmlNode("a", "（档案 " + (point.slugs.indexOf(relation.slug) + 1) + "）");
+            link.href = mount.dataset.worksBase + encodeURIComponent(relation.slug) + "/";
+            item.append(link);
+          }
+          list.append(item);
+        }
+        matches.append(list);
+        details.append(matches);
+      }
       const links = htmlNode("p");
       point.slugs.forEach((slug, i) => {
         const link = htmlNode("a", point.slugs.length > 1 ? "档案 " + (i + 1) : "查看档案");
@@ -154,16 +193,32 @@
 
     function applyFilters() {
       const active = new Set([...groupOptions.querySelectorAll("input:checked")].map((input) => input.value));
-      const term = search.value.normalize("NFKC").trim().toLowerCase();
+      const term = normalizeSearch(search.value);
       const threshold = (input) => Math.max(0, Math.floor(input.valueAsNumber || 0));
       const genderN = threshold(minGender);
       const ageN = threshold(minAge);
-      matching = points.filter((point) => active.has(point.basis) &&
-        point.genderN >= genderN && point.ageN >= ageN && point.query.includes(term));
+      const relationTerms = normalizeSearch(relationshipSearch.value).split(/[\s,、\/×+·・]+/u).filter(Boolean);
+      const axes = relationshipControls.filter((control) => control.value)
+        .map((control) => [control.dataset.relationship, control.value]);
+      const useRelationships = relationTerms.length > 0 || axes.length > 0;
+      relationshipActive.hidden = !useRelationships;
+      matchedRelationships = new Map();
+      matching = points.filter((point) => {
+        if (!active.has(point.basis) || point.genderN < genderN || point.ageN < ageN || !point.query.includes(term)) {
+          return false;
+        }
+        if (!useRelationships) return true;
+        const matches = point.relationships.filter((relation) =>
+          relationTerms.every((word) => relation.query.includes(word)) &&
+          axes.every(([axis, code]) => relation[axis] === code));
+        if (matches.length) matchedRelationships.set(point.id, matches);
+        return matches.length > 0;
+      });
       const ids = new Set(matching.map((point) => point.id));
       for (const [id, button] of buttons) button.disabled = !ids.has(id);
-      if (term && matching.length === 1) select(matching[0], true);
+      if ((term || useRelationships) && matching.length === 1) select(matching[0], true);
       else if (selected && !ids.has(selected.id)) select(null);
+      else if (selected) showDetails();
       tooltip.hidden = true;
       scheduleRender();
     }

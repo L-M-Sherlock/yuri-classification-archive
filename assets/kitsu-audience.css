@@ -44,7 +44,7 @@
 .kitsu-fields { align-items: end; gap: 0.6rem; }
 .kitsu-fields label { display: grid; gap: 0.2rem; flex: 1 1 7rem; min-width: 0; }
 .kitsu-fields label.kitsu-search { flex: 2 1 11rem; }
-.kitsu-fields input, .kitsu-chart button {
+.kitsu-fields :is(input, select), .kitsu-chart button {
   color: var(--ink);
   background: var(--surface);
   border: 1px solid var(--line);
@@ -53,7 +53,7 @@
   min-height: 2.5rem;
 }
 
-.kitsu-fields input { width: 100%; padding: 0.35rem 0.6rem; }
+.kitsu-fields :is(input, select) { width: 100%; padding: 0.35rem 0.6rem; }
 .kitsu-chart button { padding: 0.25rem 0.65rem; cursor: pointer; }
 .kitsu-chart button:disabled { cursor: default; opacity: 0.5; }
 .kitsu-chart button:not(:disabled):hover, .kitsu-chart button[aria-pressed="true"] {
@@ -61,12 +61,17 @@
   background: var(--accent-soft);
 }
 
-.kitsu-chart :is(button, input, svg):focus-visible {
+.kitsu-chart :is(button, input, select, summary, svg):focus-visible {
   outline: 2px solid var(--accent);
   outline-offset: 2px;
 }
 
 .kitsu-chart .kitsu-note { margin: 0.45rem 0; color: var(--muted); font-size: 0.82rem; }
+.kitsu-relationships { margin: 0.6rem 0 0; padding: 0.4rem 0.6rem; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); }
+.kitsu-relationships summary, .kitsu-matches summary { cursor: pointer; font-weight: 600; }
+.kitsu-relationships .kitsu-fields { margin-top: 0.5rem; }
+.kitsu-relationships .kitsu-note { margin-bottom: 0; }
+.kitsu-filter-active { color: var(--accent-deep); font-size: 0.82rem; }
 .kitsu-toolbar { justify-content: space-between; margin: 0.75rem 0 0.4rem; }
 .kitsu-toolbar [role="status"] { color: var(--muted); font-variant-numeric: tabular-nums; }
 .kitsu-zoom button[data-chart-zoom="in"], .kitsu-zoom button[data-chart-zoom="out"] { min-width: 2.5rem; }
@@ -120,6 +125,9 @@
 .kitsu-detail strong { display: block; }
 .kitsu-detail p { margin-top: 0.2rem; }
 .kitsu-detail a + a { margin-left: 0.65rem; }
+.kitsu-matches { margin-top: 0.5rem; }
+.kitsu-matches ul { margin: 0.2rem 0 0; padding-left: 1.25rem; }
+.kitsu-matches li { text-align: left; }
 
 @media (max-width: 520px) {
   .kitsu-fields label.kitsu-search { flex-basis: 100%; }
