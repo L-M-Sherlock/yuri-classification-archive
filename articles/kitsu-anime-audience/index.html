@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="按动画版本核对档案覆盖范围，比较 Kitsu 完播记录和去重账号中的性别比例。">
+  <meta name="color-scheme" content="light dark">
+  <meta id="theme-color-light" name="theme-color" media="(prefers-color-scheme: light)" content="#f5f0e8">
+  <meta id="theme-color-dark" name="theme-color" media="(prefers-color-scheme: dark)" content="#1c181c">
+  <script>
+    (() => {
+      document.documentElement.classList.add("js");
+      const storageKey = "yuri-classification-theme";
+      const allowed = new Set(["system", "light", "dark"]);
+      let preference = "system";
+      try {
+        const stored = localStorage.getItem(storageKey);
+        if (allowed.has(stored)) preference = stored;
+      } catch (_error) {
+        preference = "system";
+      }
+      const systemDark = window.matchMedia?.("(prefers-color-scheme: dark)").matches;
+      const theme = preference === "system"
+        ? (systemDark ? "dark" : "light")
+        : preference;
+      document.documentElement.dataset.theme = theme;
+      document.documentElement.dataset.themePreference = preference;
+      document.documentElement.style.colorScheme = theme;
+      const lightMeta = document.getElementById("theme-color-light");
+      const darkMeta = document.getElementById("theme-color-dark");
+      if (preference === "system") {
+        lightMeta.content = "#f5f0e8";
+        darkMeta.content = "#1c181c";
+      } else {
+        const color = theme === "dark" ? "#1c181c" : "#f5f0e8";
+        lightMeta.content = color;
+        darkMeta.content = color;
+      }
+    })();
+  </script>
+  <link rel="canonical" href="https://l-m-sherlock.github.io/yuri-classification-archive/articles/kitsu-anime-audience/">
+  <link rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="百合作品分类档案">
+  <meta property="og:title" content="Kitsu 完播记录中的百合动画观众｜百合作品分类档案">
+  <meta property="og:description" content="按动画版本核对档案覆盖范围，比较 Kitsu 完播记录和去重账号中的性别比例。">
+  <meta property="og:url" content="https://l-m-sherlock.github.io/yuri-classification-archive/articles/kitsu-anime-audience/">
+  <meta property="og:image" content="https://l-m-sherlock.github.io/yuri-classification-archive/assets/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+  <title>Kitsu 完播记录中的百合动画观众｜百合作品分类档案</title>
+  <link rel="stylesheet" href="/yuri-classification-archive/assets/site.css?v=5784c5693c46">
+
+</head>
+<body class="longform-article data-article">
+  <a class="skip-link" href="#main-content">跳到正文</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="/yuri-classification-archive/">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>
+          <strong>百合作品分类档案</strong>
+          <small>按查询拆开标签，按证据保留边界</small>
+        </span>
+      </a>
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-navigation"
+      >
+        <span>菜单</span>
+        <span class="menu-toggle-icon" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-navigation" aria-label="主导航">
+        <div class="nav-main">
+          <a href="/yuri-classification-archive/">首页</a>
+          <a href="/yuri-classification-archive/table/">总表</a>
+          <a href="/yuri-classification-archive/articles/">专题</a>
+          <a href="/yuri-classification-archive/tools/">工具</a>
+          <a href="/yuri-classification-archive/updates/">更新日志</a>
+          <a href="/yuri-classification-archive/about/">方法与说明</a>
+        </div>
+        <a class="nav-star" href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub / Star <span aria-hidden="true">↗</span></a>
+        <a class="nav-feedback" href="https://github.com/L-M-Sherlock/yuri-classification-archive/discussions">反馈</a>
+        <label class="theme-control" for="theme-preference">
+          <span>主题</span>
+          <select id="theme-preference" aria-label="主题偏好">
+            <option value="system">跟随系统</option>
+            <option value="light">浅色</option>
+            <option value="dark">深色</option>
+          </select>
+        </label>
+      </nav>
+    </div>
+  </header>
+  <main id="main-content">
+    <article class="article-page">
+  <header class="article-header">
+    <p class="eyebrow">观众数据</p>
+    <h1>Kitsu 完播记录中的百合动画观众</h1>
+    <p class="article-deck">从百合作品分类档案出发，查看 Kitsu 完播记录和去重账号的性别构成。</p>
+    <div class="article-meta" aria-label="数据范围"><span>823 个档案版本</span><span>2026 年 11 月 11 日 12:12–14:01</span></div>
+  </header>
+  <div class="article-layout">
+    <aside class="article-toc">
+      <p>本页目录</p>
+      <ol><li><a href="#这次覆盖了哪些作品">这次覆盖了哪些作品</a></li><li><a href="#一条记录与一个账号各算一次">一条记录与一个账号各算一次</a></li><li><a href="#单部作品的女性完播占比">单部作品的女性完播占比</a></li><li><a href="#原图选片在全档案里的位置">原图选片在全档案里的位置</a></li><li><a href="#分母和缺口">分母和缺口</a></li></ol>
+    </aside>
+    <div class="article-content">
+      <!-- kitsu-audience:lead:start -->
+<p>档案中「文类内百合」的 Kitsu 完播账号按账号去重后，女性占 <strong>34.5%</strong>。全档案可汇总的条目合计为 <strong>35.4%</strong>。比例以资料明确填写男性或女性的账号为分母。采集发生在北京时间 2026 年 11 月 11 日 12:12–14:01。</p><!-- kitsu-audience:lead:end -->
+<p>Halt 的散点图把每部作品的女性完播占比放在它所在季度的基准旁边比较。这里用同一个平台的公开完播记录，按本站档案核对动画版本，直接计算样本里的男女比例。原图用于对照选片范围，各作的对应条目和分母可在逐作表中复核。<a href="https://x.com/N_ltm/status/2118826814365995326" target="_blank" rel="noopener noreferrer">Halt 的原图</a> · <a href="https://x.com/N_ltm/status/2119536916400128035" target="_blank" rel="noopener noreferrer">作者的口径说明</a></p><h2 id="这次覆盖了哪些作品">这次覆盖了哪些作品</h2><p>作品清单取自采集开始时的公开档案，涵盖所有年份和发行形式。每份档案按正篇、续季、剧场版或特典的实际范围核对 Kitsu 条目。表中的档案版本与 Kitsu 条目是两种单位。<a href="/yuri-classification-archive/table/">公开档案总表</a></p><!-- kitsu-audience:coverage:start -->
+<div class="table-scroll"><table><thead><tr class="header"><th>覆盖范围</th><th style="text-align: right;">数量</th></tr></thead><tbody><tr class="odd"><td>公开档案版本</td><td style="text-align: right;">823</td></tr><tr class="even"><td>确认对应 Kitsu 条目的档案版本</td><td style="text-align: right;">813／823（98.8%）</td></tr><tr class="odd"><td>至少有一个条目取回完整记录的档案版本</td><td style="text-align: right;">809／823（98.3%）</td></tr><tr class="even"><td>至少有一个条目计入全档案合计的版本</td><td style="text-align: right;">806</td></tr><tr class="odd"><td>未确认有对应条目／版本待核实</td><td style="text-align: right;">10／0</td></tr><tr class="even"><td>Kitsu 条目有数据／零公开完播／暂无可用性别／采集失败</td><td style="text-align: right;">814／13／0／4</td></tr><tr class="odd"><td>合计中性别明确的完播记录</td><td style="text-align: right;">841,343／2,810,928（29.9%）</td></tr><tr class="even"><td>合计中性别明确的可识别账号</td><td style="text-align: right;">61,965／253,745（24.4%）</td></tr></tbody></table></div><p>按档案分类计算，至少有一个 Kitsu 条目返回完整记录的版本分别是文类内百合 639／649、文类外百合阅读 133／133、非百合 37／41。</p><p>尚未取回完整数据的作品有《斩服少女》、《魔法少女小圆》、《小林家的龙女仆》、《日常》。这些作品的状态可以在逐作表中查到。</p><!-- kitsu-audience:coverage:end -->
+<p>同一个 Kitsu 条目覆盖两份档案时，明细列出两份档案，合计只计该条目一次。《大室家》的两部中篇就是这种情况。《第三飞行少女队》与《Exodus!》合并登记，档案只覆盖其中一部。明细列出整个条目的数据和重合范围，合计采用完整落在档案内的条目。<a href="/yuri-classification-archive/works/ohmuro_ke_dear_sisters_movie_2024/">《大室家 dear sisters》</a> · <a href="/yuri-classification-archive/works/ohmuro_ke_dear_friends_movie_2024/">《大室家 dear friends》</a> · <a href="/yuri-classification-archive/works/third_flight_girls_ova_2015/">《第三飞行少女队》</a></p><p><a href="/yuri-classification-archive/data/articles/kitsu-anime-audience.csv">下载逐作计数 CSV</a></p><h2 id="一条记录与一个账号各算一次">一条记录与一个账号各算一次</h2><!-- kitsu-audience:group-table:start -->
+<div class="table-scroll"><table><thead><tr class="header"><th>档案分组</th><th style="text-align: right;">Kitsu 条目</th><th style="text-align: right;">去重账号 男／女</th><th style="text-align: right;">完播记录 男／女</th><th style="text-align: right;">性别填写覆盖率 账号／记录</th></tr></thead><tbody><tr class="odd"><td>全档案</td><td style="text-align: right;">824</td><td style="text-align: right;">40,034／21,931（女 35.4%）</td><td style="text-align: right;">627,164／214,179（女 25.5%）</td><td style="text-align: right;">24.4%／29.9%</td></tr><tr class="even"><td>文类内百合</td><td style="text-align: right;">651</td><td style="text-align: right;">35,885／18,899（女 34.5%）</td><td style="text-align: right;">479,457／162,558（女 25.3%）</td><td style="text-align: right;">25.2%／30.1%</td></tr><tr class="odd"><td>文类外百合阅读</td><td style="text-align: right;">136</td><td style="text-align: right;">26,500／14,142（女 34.8%）</td><td style="text-align: right;">101,346／40,929（女 28.8%）</td><td style="text-align: right;">26.1%／28.7%</td></tr><tr class="even"><td>非百合</td><td style="text-align: right;">37</td><td style="text-align: right;">18,786／6,185（女 24.8%）</td><td style="text-align: right;">46,361／10,692（女 18.7%）</td><td style="text-align: right;">29.3%／31.8%</td></tr></tbody></table></div><!-- kitsu-audience:group-table:end -->
+<figure class="article-figure"><img src="/yuri-classification-archive/assets/articles/kitsu-anime-audience/00_audience_by_unit.png" alt="按档案分类比较去重账号和完播记录中的女性比例" loading="lazy"></figure><p>同一账号每标记一部动画「已看完」，完播计数便多一条记录。按账号去重时，一个账号在每个统计组内计一次。跨组观看的账号可以分别出现在多个组里，全档案人数从所有可汇总条目重新去重。三类作品的比较范围都是本站已经建档的动画。<a href="/yuri-classification-archive/articles/yuri-definition-map/">档案的分类口径</a></p><h2 id="单部作品的女性完播占比">单部作品的女性完播占比</h2><!-- kitsu-audience:distribution:start -->
+<p>逐条目看，811 个条目有明确填写男或女的完播记录，其中 27 个条目的女性完播占比超过一半。横轴显示各点有多少条记录进入分母。</p><!-- kitsu-audience:distribution:end -->
+<figure class="article-figure"><img src="/yuri-classification-archive/assets/articles/kitsu-anime-audience/01_female_share_by_work.png" alt="每个 Kitsu 条目的女性完播占比和明确填写男或女的记录数" loading="lazy"></figure><p>每个点对应一个可汇总的 Kitsu 条目。分母小的条目里，增减几条记录就会明显移动点位。逐作表保留每个版本的男性、女性和其他记录数。</p><h2 id="原图选片在全档案里的位置">原图选片在全档案里的位置</h2><p>原图有 80 个版本能与本站「文类内百合」档案对齐。历史快照给出当时的绝对比例，本次再从全档案快照取出当时使用的同一组 Kitsu 条目。比较本次两组时，作品范围和采集日期都可从表中核对。<a href="https://x.com/N_ltm/status/2118826814365995326" target="_blank" rel="noopener noreferrer">Halt 的原图</a></p><!-- kitsu-audience:reference:start -->
+<div class="table-scroll"><table><thead><tr class="header"><th>作品与数据范围</th><th style="text-align: right;">去重账号 男／女</th><th style="text-align: right;">完播记录 男／女</th></tr></thead><tbody><tr class="odd"><td>80 个版本旧快照（2026 年 11 月 11 日 11:38–11:39）</td><td style="text-align: right;">5,100／1,430（女 21.9%）</td><td style="text-align: right;">21,932／4,766（女 17.9%）</td></tr><tr class="even"><td>同一组作品在本次采集中的 80 个可汇总 Kitsu 条目</td><td style="text-align: right;">5,100／1,430（女 21.9%）</td><td style="text-align: right;">21,932／4,766（女 17.9%）</td></tr><tr class="odd"><td>本次档案中全部可汇总的文类内百合条目</td><td style="text-align: right;">35,885／18,899（女 34.5%）</td><td style="text-align: right;">479,457／162,558（女 25.3%）</td></tr></tbody></table></div><p>在同一次采集中，原图 80 个版本的女性占比相对全部可汇总的文类内百合条目，按去重账号计算低 12.6 个百分点，按完播记录计算低 7.5 个百分点。</p><!-- kitsu-audience:reference:end -->
+<h2 id="分母和缺口">分母和缺口</h2><p>这里的观众指在 Kitsu 公开标记动画「已看完」的账号。性别取账号公开自填的 <code>male</code> 或 <code>female</code>，忽略字母大小写和首尾空格。空白、其他自填内容和未返回资料分别登记。去重时若同一账号出现冲突的男女性别记录，该账号单列为性别未确定。<a href="https://kitsu.docs.apiary.io/" target="_blank" rel="noopener noreferrer">Kitsu 资料字段</a></p><p>逐作表有 Kitsu 对应的行以 Kitsu 条目为单位。尚未确认对应条目的档案单独列行。成功取得的零完播写为零，采集失败留空。女性占比列在男女性别的分母为零时留空。档案收录范围、使用 Kitsu 的人群和公开填写性别的习惯共同决定了这份统计覆盖到谁。</p>
+
+      <aside class="article-license"><strong>署名与许可</strong><p>本文署名为 Jarrett Ye，采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="license noopener noreferrer">CC BY-NC-SA 4.0</a> 许可。</p></aside>
+    </div>
+  </div>
+</article>
+
+<section class="feedback-section article-feedback">
+  <div>
+    <p class="eyebrow">ARTICLE FEEDBACK</p>
+    <h2>补充条目或更正版本</h2>
+    <p>请附上对应作品与 Kitsu 条目的公开链接。</p>
+  </div>
+  <div class="giscus"></div>
+<div class="giscus-config"
+        hidden
+        data-repo="L-M-Sherlock/yuri-classification-archive"
+        data-repo-id="R_kgDOTo1RzA"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOTo1RzM4DCXAh"
+        data-mapping="specific"
+        data-term="article:kitsu-anime-audience"
+        data-strict="1"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-lang="zh-CN"
+        data-loading="lazy"
+        aria-hidden="true"></div>
+</section>
+
+  </main>
+  <footer class="site-footer">
+    <div>
+      <p>分类是面向具体查询的检索工具，不是替作品关系作终审判决。</p>
+      <p class="footer-ai-note">本站使用以 OpenAI Codex 为主的生成式 AI 辅助研究、写作与站点开发；人工审阅未覆盖全部作品报告。<a href="/yuri-classification-archive/about/#AI使用说明">查看 AI 使用说明</a></p>
+      <p>© 2026 Jarrett Ye · <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="license noopener noreferrer">CC BY-NC-SA 4.0</a> · <a href="https://github.com/L-M-Sherlock/yuri-classification-archive" target="_blank" rel="noopener noreferrer">GitHub 仓库</a> · <a href="/yuri-classification-archive/about/#使用边界">使用边界</a></p>
+    </div>
+  </footer>
+  <script>window.SITE_CONFIG = {basePath: "/yuri-classification-archive"};</script>
+  <script src="/yuri-classification-archive/assets/site.js?v=2d6f0c857965" defer></script>
+<script src="/yuri-classification-archive/assets/article.js?v=960db8a82584" defer></script>
+</body>
+</html>
