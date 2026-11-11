@@ -1,0 +1,129 @@
+.kitsu-chart {
+  color: var(--ink);
+  background: var(--surface-muted);
+  font-size: 0.9rem;
+  scroll-margin-top: 7rem;
+}
+
+.article-figure:has(.kitsu-chart) { background: var(--surface-muted); }
+.article-figure:has(.kitsu-chart) figcaption { color: var(--muted); }
+.kitsu-chart [hidden] { display: none; }
+.kitsu-chart p { margin: 0; text-align: left; }
+
+.kitsu-categories {
+  border: 0;
+  padding: 0;
+  margin: 0 0 0.55rem;
+  min-width: 0;
+}
+
+.kitsu-categories legend { padding: 0; margin-bottom: 0.25rem; font-weight: 650; }
+.kitsu-options, .kitsu-fields, .kitsu-toolbar, .kitsu-zoom, .kitsu-points {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.45rem;
+}
+
+.kitsu-options label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  min-height: 2.25rem;
+  padding: 0.2rem 0.55rem;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+  cursor: pointer;
+}
+
+.kitsu-options label:has(input:not(:checked)) { opacity: 0.72; }
+.kitsu-options input { accent-color: var(--accent); margin: 0; }
+.kitsu-swatch { width: 0.82rem; height: 0.82rem; flex: none; }
+
+.kitsu-fields { align-items: end; gap: 0.6rem; }
+.kitsu-fields label { display: grid; gap: 0.2rem; flex: 1 1 7rem; min-width: 0; }
+.kitsu-fields label.kitsu-search { flex: 2 1 11rem; }
+.kitsu-fields input, .kitsu-chart button {
+  color: var(--ink);
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  font: inherit;
+  min-height: 2.5rem;
+}
+
+.kitsu-fields input { width: 100%; padding: 0.35rem 0.6rem; }
+.kitsu-chart button { padding: 0.25rem 0.65rem; cursor: pointer; }
+.kitsu-chart button:disabled { cursor: default; opacity: 0.5; }
+.kitsu-chart button:not(:disabled):hover, .kitsu-chart button[aria-pressed="true"] {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+}
+
+.kitsu-chart :is(button, input, svg):focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.kitsu-chart .kitsu-note { margin: 0.45rem 0; color: var(--muted); font-size: 0.82rem; }
+.kitsu-toolbar { justify-content: space-between; margin: 0.75rem 0 0.4rem; }
+.kitsu-toolbar [role="status"] { color: var(--muted); font-variant-numeric: tabular-nums; }
+.kitsu-zoom button[data-chart-zoom="in"], .kitsu-zoom button[data-chart-zoom="out"] { min-width: 2.5rem; }
+
+.kitsu-stage {
+  position: relative;
+  height: clamp(340px, 49vw, 500px);
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+}
+
+.kitsu-plot { display: block; width: 100%; height: 100%; touch-action: pan-y; cursor: crosshair; }
+.kitsu-plot.is-zoomed { cursor: grab; touch-action: none; }
+.kitsu-plot.is-dragging { cursor: grabbing; }
+.kitsu-plot .kitsu-grid { stroke: var(--line); stroke-opacity: 0.62; }
+.kitsu-plot .kitsu-axis { stroke: var(--line); fill: none; }
+.kitsu-plot .kitsu-tick { fill: var(--muted); font-size: 11px; }
+.kitsu-plot .kitsu-axis-label { fill: var(--ink); font-size: 12px; font-weight: 600; }
+.kitsu-plot .kitsu-empty { fill: var(--muted); font-size: 13px; }
+.kitsu-plot .kitsu-marker { opacity: 0.62; }
+.kitsu-plot .kitsu-ring { fill: var(--surface); stroke-width: 1.6; }
+.kitsu-plot .kitsu-ring.is-selected { stroke: var(--ink); stroke-width: 2.2; }
+.kitsu-plot .kitsu-selected-label {
+  fill: var(--ink);
+  stroke: var(--surface);
+  stroke-width: 3px;
+  paint-order: stroke fill;
+  font-size: 12px;
+  font-weight: 650;
+}
+:root[data-theme="dark"] :is(.kitsu-markers, .kitsu-swatch) { filter: brightness(1.42); }
+
+.kitsu-tooltip {
+  pointer-events: none;
+  position: absolute;
+  top: 0.6rem;
+  right: 0.65rem;
+  max-width: calc(100% - 1.3rem);
+  padding: 0.35rem 0.6rem;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+  box-shadow: var(--shadow);
+  font-size: 0.82rem;
+}
+
+.kitsu-points { margin-top: 0.65rem; }
+.kitsu-points button { font-size: 0.81rem; }
+.kitsu-detail { margin-top: 0.65rem; padding: 0.65rem 0.8rem; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); }
+.kitsu-detail strong { display: block; }
+.kitsu-detail p { margin-top: 0.2rem; }
+.kitsu-detail a + a { margin-left: 0.65rem; }
+
+@media (max-width: 520px) {
+  .kitsu-fields label.kitsu-search { flex-basis: 100%; }
+  .kitsu-fields label { flex-basis: calc(50% - 0.3rem); }
+  .kitsu-stage { height: 340px; }
+  .kitsu-tooltip { display: none; }
+}
